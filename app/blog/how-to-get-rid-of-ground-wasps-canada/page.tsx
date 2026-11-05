@@ -19,8 +19,14 @@ import UsAmazonLine from '@/components/UsAmazonLine'
 
 const SLUG = 'how-to-get-rid-of-ground-wasps-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-10-23'
-const TITLE = 'How to Get Rid of Ground Wasps in Canada — Yellow Jacket Nests in the Lawn'
+const UPDATED = '2026-11-05'
+// TITLE NOTE (Nov 5, 2026): the wasp-dust-canada page was merged into this one: 94% of its search impressions were on
+// searches this page also shows for ("wasp dust", "wasp powder canada", "wasp powder", "wasp dust canada", "insecticide
+// dust for wasps", "delta dust canada"), and the two split the clicks on them. "Wasp Dust" added to the H1; META_TITLE kept.
+// Its dust sections, its Health Canada dust table, its three kit products and 2 of its FAQs came across (FAQs capped: this
+// page already had 16). Was 'How to Get Rid of Ground Wasps in Canada — Yellow Jacket Nests in the Lawn', META_TITLE
+// 'Ground Wasps in Canada: How to Get Rid of a Nest' (unchanged).
+const TITLE = 'How to Get Rid of Ground Wasps in Canada — Yellow Jacket Nests and Wasp Dust'
 // TITLE NOTE (Oct 23, 2026): was 'Ground Wasps Canada 2026: The Dusk Foam Method'; top queries (Jul 23-Oct 20, all countries): delta dust canada 2,009 (wasp-dust-canada's lane, not retargeted here), ground wasps 1,423, how to get rid of ground wasps 1,014, wasp nest in ground 604, ground wasp nest 594 (1,381 page clicks). "Dusk Foam" dropped because the foam picks' Canadian labels exclude nests underground: data/god-build/research/top3/how-to-get-rid-of-ground-wasps-canada.md.
 const META_TITLE = 'Ground Wasps in Canada: How to Get Rid of a Nest'
 
@@ -60,6 +66,14 @@ const FAQS = [
   {
     question: 'Can I use Delta Dust or Sevin dust on a ground nest like American websites say?',
     answer: 'No — and the real Canadian position is stricter than most sites say. The classic US advice for ground nests is to puff deltamethrin dust (Delta Dust) or carbaryl dust (Sevin) into the entrance. Neither transfers here. In Health Canada\'s Pesticide Product Information Database, the only current DeltaDust registration is DELTADUST POWDER, PCP 33495 — and it is a RESTRICTED-class product (a tighter category than commercial) whose sole registered Canadian use site is black-tailed prairie dog burrows, for fleas. Delta Dust is therefore not a legal wasp-nest treatment in Canada for anyone, homeowner or licensed applicator. Carbaryl went the same way: every domestic-class Sevin garden dust has been cancelled (Sanex 5% in 2000, Greenleaf 5% in 2003, Later\'s Sevin Garden Dust in 2009), and no domestic carbaryl product remains registered. Cross-border cans of Spectracide or US-label Sevin are grey-market — Spectracide has no Canadian registration at all — and section 6(1) of the Pest Control Products Act prohibits possessing or using an unregistered product. The dust technique itself is sound, and Canadian professionals do use a registered dust for wasp nests: Drione Insecticide Dust, PCP 15255, a commercial-class product that names wasp nests on its label. That is the argument for hiring a licensed applicator when a nest calls for dusting — not for importing an American can.',
+  },
+  {
+    question: 'What is wasp dust and how does it work?',
+    answer: 'Wasp dust is a dry insecticidal powder — the US professional benchmark is Delta Dust, a deltamethrin formulation on a waterproof carrier; in Canada the registered wasp-nest dust is Drione Insecticide Dust (PCP 15255), commercial class — puffed into a nest entrance with a duster. It works differently from spray in the one way that matters for hidden nests: it does not need to touch the wasps to kill them. The dust coats the entrance tunnel, every wasp walking in or out picks it up on its body, grooms it in, and tracks it deeper into the galleries — including onto the queen and brood the spray from a can could never reach. Because dust is dry and low-repellency, wasps keep using the treated entrance instead of avoiding it, and the colony poisons itself over 24 to 48 hours. That mechanism is why dust is the standard professional answer for ground nests and wall-void nests across North America.',
+  },
+  {
+    question: 'Where can I buy wasp powder in Canada?',
+    answer: 'Nowhere, if you mean a powder labelled for wasp nests: Health Canada’s pesticide database lists no domestic-class dust with a wasp nest as a use site. Delta Dust’s one current registration (PCP 33495) is restricted to prairie dog burrows, and Drione Insecticide Dust (PCP 15255), the dust whose record does name wasp nests, is commercial class, used by licensed applicators. Domestic diatomaceous earth dusts, and Knock Down Dust Devil (PCP 31143), list wasps among their pests but only general indoor and outdoor sites. For a nest you can see, a domestic wasp-and-hornet can used as its label directs is the legal route; for a ground or wall nest that needs dust, a licensed operator brings it.',
   },
   {
     question: 'How long after spraying does it take for a ground nest to die?',
@@ -140,6 +154,7 @@ export default function HowToGetRidOfGroundWaspsCanadaPage() {
               <li>Foam would beat a liquid jet in a burrow, since it expands down the entrance instead of wetting the rim, but many Canadian foam labels exclude nests underground.</li>
               <li>Read the label before any can goes near the hole: Health Canada&rsquo;s pesticide database records the exclusion &ldquo;nests located underground or in voids&rdquo; for 13 domestic wasp products, Wilson WASP OUT Jet Foam (PCP 31899) among them.</li>
               <li>Boiling water is legal but risky and only partly effective; gasoline is an illegal contaminant discharge &mdash; and US-recommended Delta Dust and Sevin dust are not registered for wasp control in Canada at all, at any class.</li>
+              <li>No wasp dust or powder is registered for homeowners to use on a nest: Health Canada&rsquo;s pesticide database lists no domestic-class dust with a wasp nest as a use site, and Drione Insecticide Dust (PCP 15255), the one dust whose record names wasp nests, is commercial class, for licensed operators.</li>
               <li>Multiple entrance holes, a nest feeding into a wall void, or a sting allergy in the house means stop and hire a licensed local exterminator.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito Pest Product Guides &middot; independent Canadian research</p>
@@ -360,9 +375,112 @@ export default function HowToGetRidOfGroundWaspsCanadaPage() {
           <p>To be fair to the method, and accurate about the rules: boiling water is perfectly legal, and it is not universally condemned by officialdom either. The Province of British Columbia&rsquo;s own <em>Managing Yellow Jacket Pests</em> page tells homeowners they can &ldquo;apply pyrethrins spray or pour several gallons of boiling water into the nest,&rdquo; with a warning to wear protective clothing and not scald themselves. So the case against it here is a practical one about risk and reliability, not a legal one &mdash; and note the volume that provincial advice calls for: <em>several gallons</em>, not a kettle.</p>
           <p>Gasoline gets a shorter answer: never. Pouring fuel into soil is a contaminant discharge prohibited by provincial environmental law &mdash; in Ontario, section 14(1) of the <em>Environmental Protection Act</em> forbids discharging a contaminant into the natural environment where it causes or may cause an adverse effect, and every province has its equivalent. It permanently poisons the ground and kills the lawn in a wide ring, it creates a real fire and vapour hazard, and section 6(1) of the federal <em>Pest Control Products Act</em> separately prohibits using any unregistered product to control a pest. A registered product whose label covers the nest, the clear-bowl method or a licensed operator is the answer instead.</p>
 
+          <h2>What Wasp Dust (Wasp Powder) Actually Is</h2>
+          <p>Strip away the brand names and wasp dust is a simple idea: a neurotoxic insecticide milled onto a dry, dusty carrier, engineered to cling to insect bodies and to stay put in the environment. The US professional benchmark is <strong>Delta Dust</strong> &mdash; deltamethrin at a fraction of a percent on a waterproof base &mdash; which, as the rulebook below explains, is not a legal wasp-nest treatment in Canada. The delivery tool is a <strong>duster</strong>: a squeeze bulb or bellows that throws a fine puff of powder into a hole, coating the walls of whatever passage lies behind it.</p>
+          <p>That dryness is the entire technology. A liquid spray wets what it touches and stops; a dust hangs in the passage, coats every surface, and then recruits the insects themselves as couriers. Nothing about the chemistry is exotic &mdash; deltamethrin is the same pyrethroid family as half the spray aisle. The formulation is the weapon.</p>
+
+          <h2>Why Dust Beats Spray for Ground and Void Nests</h2>
+          <p>The hole in the lawn is not the nest &mdash; it is the front door. Behind it, an entrance tunnel runs anywhere from a hand-span to well over 30 centimetres through the soil before opening into a paper colony the size of a football or bigger: stacked brood combs, workers by the thousand at late-summer peak, and the queen at the centre of it. A wall-void nest is the same architecture turned sideways, with the colony sometimes metres of stud bay away from the gap the wasps use. Fire a can of liquid jet spray at the front door and you wet the rim and the first stretch of tunnel; the colony&rsquo;s core &mdash; queen, brood, the night shift &mdash; never meets a droplet, and the survivors rebuild traffic within days. It is not the can&rsquo;s fault. It is the wrong physics for the target.</p>
+          <p>Dust reverses the physics. A puff into the entrance coats the tunnel, and then the colony does the applicator&rsquo;s job: <strong>every forager walking the powdered passage picks up dust, grooms it, and tracks it inward</strong> &mdash; deeper with each trip, across the combs, onto nest-mates, eventually to the queen. Because dry dust is far less repellent than a wet pyrethroid residue, the wasps keep using the treated door rather than avoiding it. Traffic looks normal for hours; the colony collapses inside 24 to 48. The professional habit of <strong>leaving the entrance open</strong> is deliberate &mdash; returning foragers walking through the dust are part of the dose.</p>
+          <p>This tracking-in mechanism is the same colony-level logic that makes bait beat spray for cockroaches and ants: recruit the insect&rsquo;s own behaviour as the delivery system, and the hidden majority of the colony stops being hidden.</p>
+
           <h2>The Canadian Rulebook: Why US Advice Gets This Wrong</h2>
           <p>Search this topic and most of what you will read is American &mdash; and the standard American playbook for ground nests is a puff of insecticidal dust into the entrance: <strong>Delta Dust</strong> (deltamethrin) or <strong>Sevin</strong> (carbaryl) dust, both available in any US garden centre. That advice does not transfer across the border, and the reason is sharper than most Canadian pages admit. Search Health Canada&rsquo;s Pesticide Product Information Database and the only live DeltaDust entry is <strong>DELTADUST POWDER, PCP 33495</strong> &mdash; classed not as commercial but as <strong>restricted</strong>, the tightest tier short of cancellation, and registered for exactly one Canadian use site: <em>black-tailed prairie dog burrows</em>, for fleas. There is no lawful Canadian wasp-nest use of Delta Dust for anyone, homeowner or licensed applicator. Carbaryl went the same way: the domestic-class Sevin garden dusts Canadians remember were cancelled one by one (Sanex 5% in 2000, Greenleaf 5% in 2003, Later&rsquo;s Sevin Garden Dust in 2009), and no domestic-class carbaryl product is registered today. The US-label <strong>Spectracide</strong> wasp cans that dominate American reviews return zero records in that same database &mdash; a can bought across the border or from a US marketplace seller is a grey-market product with no Canadian label, no PCP number, and no legal homeowner use.</p>
-          <p>The practical test takes five seconds: flip the can and look for a <strong>PCP registration number</strong> (&ldquo;Reg. No. XXXXX P.C.P. Act&rdquo;) &mdash; the same check Health Canada&rsquo;s own wasp page tells consumers to make. Wilson (PCP 31899), Canadian-label Raid (PCP 30746 and 29776) and Doktor Doom all carry one; grey-market imports do not. This is not bureaucratic trivia &mdash; the dust technique those US sites describe genuinely <em>is</em> the better method for complicated nests. It is simply a different dust here: the commercial-class product a Canadian professional actually reaches for is <strong>Drione Insecticide Dust</strong> (PCP 15255, pyrethrins with piperonyl butoxide and silica aerogel), which carries wasp nests on its registered label. That is why &ldquo;hire a pro&rdquo; is the honest answer for the nests no homeowner product is labelled for. For the broader landscape of what is and is not on Canadian shelves, our <Link href="/blog/how-to-get-rid-of-wasps-canada">complete Canadian wasp control guide</Link> covers every product class, and every dust Canadians ask about, with its class and registered use sites, is laid out in our <Link href="/blog/wasp-dust-canada">wasp dust and powder guide</Link>.</p>
+          <p>The practical test takes five seconds: flip the can and look for a <strong>PCP registration number</strong> (&ldquo;Reg. No. XXXXX P.C.P. Act&rdquo;) &mdash; the same check Health Canada&rsquo;s own wasp page tells consumers to make. Wilson (PCP 31899), Canadian-label Raid (PCP 30746 and 29776) and Doktor Doom all carry one; grey-market imports do not. This is not bureaucratic trivia &mdash; the dust technique those US sites describe genuinely <em>is</em> the better method for complicated nests. It is simply a different dust here: the commercial-class product a Canadian professional actually reaches for is <strong>Drione Insecticide Dust</strong> (PCP 15255, pyrethrins with piperonyl butoxide and silica aerogel), which carries wasp nests on its registered label. That is why &ldquo;hire a pro&rdquo; is the honest answer for the nests no homeowner product is labelled for. For the broader landscape of what is and is not on Canadian shelves, our <Link href="/blog/how-to-get-rid-of-wasps-canada">complete Canadian wasp control guide</Link> covers every product class, and every dust Canadians ask about, with its class and registered use sites, is laid out in the table below.</p>
+
+          <h3>Every dust Canadians ask about, on Health Canada&rsquo;s record</h3>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm my-6">
+            <table className="min-w-[640px] w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Dust (registration)</th>
+                  <th className="px-4 py-3 text-left">Active ingredients</th>
+                  <th className="px-4 py-3 text-left">Class and status</th>
+                  <th className="px-4 py-3 text-left">Use sites on the record</th>
+                  <th className="px-4 py-3 text-left">On a wasp nest?</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">DeltaDust Powder<br /><span className="font-normal text-xs text-gray-500">PCP 33495</span></td>
+                  <td className="px-4 py-3 text-gray-700">Deltamethrin 0.05%</td>
+                  <td className="px-4 py-3 text-gray-700">Restricted, current</td>
+                  <td className="px-4 py-3 text-gray-700">Black-tailed prairie dog burrows (fleas)</td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-red-700">No</strong>, for anyone</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">DeltaDust Insecticide<br /><span className="font-normal text-xs text-gray-500">PCP 29862</span></td>
+                  <td className="px-4 py-3 text-gray-700">Deltamethrin</td>
+                  <td className="px-4 py-3 text-gray-700">Restricted, cancelled</td>
+                  <td className="px-4 py-3 text-gray-700">&mdash;</td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-red-700">No</strong></td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Drione Insecticide Dust<br /><span className="font-normal text-xs text-gray-500">PCP 15255</span></td>
+                  <td className="px-4 py-3 text-gray-700">Pyrethrins 1.0%, piperonyl butoxide 9.7%, silica aerogel 40.0%</td>
+                  <td className="px-4 py-3 text-gray-700">Commercial, current</td>
+                  <td className="px-4 py-3 text-gray-700">Many sites, including homes and wasp nests</td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong>, by a licensed applicator</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Knock Down Dust Devil<br /><span className="font-normal text-xs text-gray-500">PCP 31143</span></td>
+                  <td className="px-4 py-3 text-gray-700">Pyrethrins 0.20%, piperonyl butoxide 1.0%, diatomaceous earth 74.0%</td>
+                  <td className="px-4 py-3 text-gray-700">Domestic, current</td>
+                  <td className="px-4 py-3 text-gray-700">Beds, mattresses, pet bedding, indoors, outdoors; wasps are one of 13 listed pests</td>
+                  <td className="px-4 py-3 text-gray-700">No nest among its use sites</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Indoor and Outdoor Insect Stop<br /><span className="font-normal text-xs text-gray-500">PCP 21038</span></td>
+                  <td className="px-4 py-3 text-gray-700">Diatomaceous earth 93%</td>
+                  <td className="px-4 py-3 text-gray-700">Domestic, current</td>
+                  <td className="px-4 py-3 text-gray-700">Indoors, outdoors; wasps are one of 11 listed pests</td>
+                  <td className="px-4 py-3 text-gray-700">No nest among its use sites</td>
+                </tr>
+                <tr className="align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Tempo Dust</td>
+                  <td className="px-4 py-3 text-gray-700">Cyfluthrin (US product)</td>
+                  <td className="px-4 py-3 text-gray-700">No Canadian record</td>
+                  <td className="px-4 py-3 text-gray-700">&mdash;</td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-red-700">No</strong>: not registered here</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="not-prose text-xs text-gray-500 -mt-3 mb-6">Health Canada Pesticide Product Information Database (pest-control.canada.ca): product, ingredient, use-site and pest records read October 23, 2026. Of the domestic dusts that list wasps as a pest, none names a wasp nest as a use site.</p>
+          <p>Two consequences follow from that record. First, the insecticidal dusts that <em>are</em> domestic-class on Canadian shelves &mdash; diatomaceous earth products chief among them &mdash; list general indoor and outdoor sites. Several name wasps among their pests, including Knock Down Dust Devil (PCP 31143, pyrethrins and piperonyl butoxide on diatomaceous earth), but none names a wasp nest as a use site, and the label governs: a use the label does not list is not a use you may make. Second, and more usefully: <strong>the technique being out of consumer reach does not leave you without options.</strong> It sorts the jobs. Exposed nests have a domestic-class answer. Ground nests depend on the can&rsquo;s label, and many Canadian wasp labels exclude them. Void nests and multi-entrance nests have a professional answer. None of it requires importing anything.</p>
+          <p>Listings for commercial-class dusts do surface on Canadian marketplaces, but a listing is not a legal homeowner use &mdash; in Canada the product class, not the checkout page, decides who may apply it. What a Canadian homeowner can legitimately buy for wasp work is the adjacent kit: a domestic wasp-and-hornet can whose label covers the nest, a bulb duster if you have on-label dusting work such as crawling-insect products, and protective clothing. The <strong>bulb duster</strong> is the tool half of the dust technique and perfectly legal to own: a squeeze bulb with an extension tip lays a whisper-thin film exactly where the label directs, but it is a tool, not a treatment, so pair it only with products whose Canadian label covers your use. <strong>Diatomaceous earth insect dust</strong> is the dust class Canadians can buy most freely: a desiccant that kills crawling insects over days in dry voids, with real value for perimeter and structural work per its label, and not a colony-killer for an active, defended wasp nest &mdash; it is days-slow, and it clumps and fails in damp soil entrances. Buy it for the jobs its Canadian label lists, not as a Delta Dust stand-in.</p>
+          <p>Anyone working near a nest, even just scouting an entrance at dusk, is better off overdressed: a <strong>full-body protective bee suit with a hood</strong>, worn over closed cuffs and boots, is cheap insurance measured against a multi-sting incident. A suit is not a licence, though: it changes your safety, not the product class. For a nest that genuinely calls for dusting &mdash; a wall void, multiple entrances &mdash; the dust arrives with the licensed professional you hire.</p>
+          <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the legal kit (not a wasp-nest treatment):</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink tag={AMZ_TAG} search="bulb duster pesticide applicator">Bulb dusters &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="diatomaceous earth insect dust">DE insect dust &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="beekeeping suit full body hood">Protective suits &rarr;</BuyLink>
+          </div>
+
+          <h2>The Legal Playbook, by Nest Type</h2>
+          <p><strong>Ground nest, one entrance hole:</strong> start with the label, not the can&rsquo;s name, as in the dusk treatment above. If the can in your hand does cover a ground nest, expanding foam is the physical cousin of the dust trick: it fills the tunnel dust would have coated and persists so returning foragers must dig through it; apply it at dusk, leave the hole open and walk away. If it does not, the City of Calgary lists covering the entrance with a large, clear bowl, or hire the dust (below).</p>
+          <p><strong>Exposed aerial nest:</strong> dust was never the right tool here anyway (see below); reach for a foam or stream aerosol from our <Link href="/blog/best-wasp-nest-spray-canada">Canadian wasp spray round-up</Link>.</p>
+          <p><strong>Wall void, deck, soffit, retaining wall, or any nest with more than one entrance:</strong> hire the dust. A licensed operator injects it into the void, leaves the entries open so the colony tracks it home, confirms the kill in a day or two, and only then seals. A single-nest call is one of the cheapest jobs in Canadian pest control &mdash; our <Link href="/pest-control-cost-canada">cost guide</Link> carries current ranges &mdash; and it buys the one thing no retail product provides: someone who has done the unforgiving version of this before.</p>
+          <div className="not-prose my-6 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
+            <p className="text-sm text-gray-800 leading-relaxed">
+              <strong className="text-amber-900">&#9888;&#65039; Never seal a live entrance.</strong> The universal instinct at a wall gap wasps are using &mdash; spray it, then caulk it shut &mdash; is the most expensive mistake in wasp control. A sealed colony does not suffocate; it searches, and the path of least resistance is inward: through vapour barrier, pot-light housings, and drywall, into the room on the other side. Seal only after the colony is confirmed dead &mdash; two days of zero traffic, minimum. If anyone in the household has a sting allergy, the whole job is professional territory from the first minute.
+            </p>
+          </div>
+
+          <h2>How the Pros Actually Apply Dust (What You Are Paying For)</h2>
+          <p>Worth understanding even though you will not be doing it, because it explains both the fee and the technique&rsquo;s reputation. The pattern across professional wasp work is consistent:</p>
+          <ul>
+            <li><strong>Timing and light:</strong> the same discipline as the dusk treatment above &mdash; dusk or dawn, when the full colony is home and flight-sluggish, and no white light aimed at the entrance, because defenders fly at it.</li>
+            <li><strong>Application:</strong> a duster with an extension tip puffs a measured shot into the entrance &mdash; a film, not a pile. Over-application is repellency; a whisper is lethality.</li>
+            <li><strong>The door stays open:</strong> every returning forager is a courier. Plugging the hole would waste the mechanism.</li>
+            <li><strong>Retreat and verify:</strong> leave immediately, confirm from a distance at 24 and 48 hours. Steady traffic at 48 hours earns a second, adjusted application &mdash; often at a secondary entrance the first visit revealed.</li>
+            <li><strong>Seal and prevent:</strong> only after silence &mdash; then the gap is closed, the flashing re-bedded, the vent screened, so next spring&rsquo;s queens find the vacancy filled.</li>
+          </ul>
+          <p>A homeowner can replicate the timing, light, and retreat discipline with a domestic can on an exposed nest, used as its label directs &mdash; and should; on a lawn nest, only with a can whose label covers nests underground. The void injection is the part that stays professional, in both senses of the word.</p>
+
+          <h2>When Dust Is the Wrong Tool Entirely</h2>
+          <p>Dust&rsquo;s superpower is the enclosed passage, so it has a sharply defined failure case: <strong>the exposed aerial nest</strong>. The grey paper basketball on a branch or under an eave, and the open umbrella comb of a paper wasp under a railing, offer no tunnel to contaminate &mdash; the envelope and comb are right there in the open air. Puffing powder up at one from below deposits a little dust on the outside, thoroughly announces your presence, and leaves the colony largely intact and entirely annoyed.</p>
+          <p>Exposed nests are what the pressurized can was born for: saturate the envelope and the entrance hole at the bottom with a foam or stream aerosol, at night, from the product&rsquo;s full rated distance. Our <Link href="/blog/best-wasp-killer-canada">best wasp killer guide</Link> matches every nest architecture to its weapon &mdash; foam, jet, dust, and trap &mdash; and our <Link href="/blog/how-to-get-rid-of-wasps-canada">complete Canadian wasp guide</Link> covers identification if you are not sure what is building what. If you are working anywhere near a colony in the meantime, dress for it &mdash; our <Link href="/blog/bug-protective-clothing-canada">protective clothing guide</Link> covers what actually stops a stinger.</p>
 
           <h2>When the Nest Is Beyond DIY</h2>
           <p>A single-entrance nest in open lawn is often manageable: a can whose label covers nests underground, used at dusk, or the City of Calgary&rsquo;s clear-bowl method. These five situations are not, and recognizing them is the difference between a $20 fix and an emergency-room trip:</p>

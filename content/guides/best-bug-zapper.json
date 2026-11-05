@@ -1,0 +1,227 @@
+{
+  "slug": "best-bug-zapper",
+  "kind": "spoke",
+  "cluster": "mosquitoes",
+  "keyword": "bug zapper",
+  "alsoTargets": [
+    "bug zappers",
+    "best bug zapper",
+    "do bug zappers work",
+    "bug zapper for mosquitoes",
+    "do bug zappers kill mosquitoes",
+    "indoor bug zapper",
+    "bug zapper vs mosquito trap"
+  ],
+  "metaTitle": "Best Bug Zapper: What It Kills and Misses",
+  "metaDescription": "Bug zappers kill moths and beetles, rarely mosquitoes: 31 of 13,789 insects in one study were biting flies. What to buy instead and where to hang it.",
+  "h1": "Best Bug Zapper: What Zappers Kill, and Why Mosquitoes Are Not Most of It",
+  "dek": "What university studies found in bug zapper catches, why mosquitoes mostly ignore the light, and the better buy for each job: a glue-board light trap for flies indoors, and a fan, repellent or carbon dioxide trap for mosquitoes.",
+  "breadcrumb": "Best Bug Zapper",
+  "excerpt": "Bug zappers compared with light traps, CO2 mosquito traps and fan traps: what each kills, who it suits, where to hang it and what EPA does and does not check.",
+  "datePublished": "2026-11-05",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**A bug zapper kills moths, beetles, midges and other night fliers but few mosquitoes, so for mosquitoes no zapper is a good buy.** In a [University of Delaware study](https://yardandgarden.extension.iastate.edu/article/1996/6-14-1996/bugzapper.html) summarized by Iowa State University Extension, just 31 of 13,789 insects killed (0.22%) were biting flies. For flies indoors, a UV light trap with a glue board is the better choice.",
+    "bullets": [
+      "In two University of Notre Dame studies, mosquitoes were 4.1% and 6.4% of the daily zapper catch, with no significant difference in mosquito numbers between yards with and without one, the [American Mosquito Control Association](https://www.mosquito.org/faqs/) reports.",
+      "[UC IPM](https://ipm.ucanr.edu/home-and-landscape/mosquitoes/) calls bug zappers counterproductive for mosquito control, because many of the insects they kill prey on mosquitoes.",
+      "High-voltage outdoor zappers should not be used indoors because they tend to scatter insect fragments, [Texas A&M AgriLife Extension](https://agrilifeextension.tamu.edu/library/insects/indoor-flies-and-their-control/) says; indoor light traps belong 4 to 6 feet above the floor.",
+      "[EPA](https://www.epa.gov/safepestcontrol/pesticide-devices-guide-consumers) treats bug zappers as devices, which need no registration, and makers generally do not submit efficacy or safety data to it.",
+      "Carbon dioxide traps aim at the cue mosquitoes follow but catch only a small share of what they attract, UC IPM says, and the AMCA says homeowners still need repellents and to get rid of breeding water."
+    ]
+  },
+  "facts": {
+    "title": "Which device for which bug?",
+    "head": ["Device", "What draws insects in", "Best for", "Mosquito evidence"],
+    "rows": [
+      ["Outdoor UV bug zapper", "Ultraviolet light, then a high-voltage grid", "Moths, beetles and midges at night", "4.1% and 6.4% of the catch; yards with one had no significantly fewer mosquitoes (AMCA)"],
+      ["Indoor UV light trap", "Ultraviolet light, then a glue board", "House flies indoors", "Most effective on larger flies such as house flies (Texas A&M)"],
+      ["Propane CO2 trap", "Carbon dioxide, heat, moisture and a scent attractant", "Mosquitoes on a large lot", "Catches a small share of those it attracts (UC IPM)"],
+      ["Lure-baited fan trap", "A skin-scent lure; a fan pulls them in", "Asian tiger mosquitoes", "64% to 87% fewer landings at sites with 7 to 8 research traps (Italy, 2015)"],
+      ["Outdoor fan", "Nothing; moving air keeps mosquitoes off", "A deck or patio", "Mosquitoes are relatively weak fliers (AMCA)"],
+      ["Handheld racket", "Nothing; you swing it", "One insect you can see", "Kills only what it touches"]
+    ],
+    "caption": "From Iowa State, the AMCA, UC IPM, Texas A&M AgriLife Extension, a 2015 Journal of the American Mosquito Control Association study and the trap makers' own pages, each linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "Our picks at a glance" },
+    { "type": "p", "text": "These picks follow what CDC, EPA, the American Mosquito Control Association, university extension entomologists and a 2015 field study say about each job, not product testing. The main recommendation, a UV light trap with a glue board for flies indoors, is explained below; the picks cover mosquitoes, porch lights and standing water, where the evidence says a zapper is the wrong tool." },
+    { "type": "picks", "title": "What to buy instead of a zapper, by job", "items": [
+      { "label": "For mosquitoes on a deck", "name": "Outdoor oscillating fan", "search": "outdoor oscillating fan", "why": "The American Mosquito Control Association says mosquitoes are relatively weak fliers, so a large fan on your deck can be a low-tech fix. Unlike a zapper or a trap, a fan draws no insects toward the people it protects." },
+      { "label": "For bites, wherever you are", "name": "Picaridin insect repellent", "search": "picaridin insect repellent", "why": "The AMCA says homeowners still need repellents alongside any trap, and that studies have shown picaridin to be as repellent to mosquitoes as DEET. EPA advises an EPA-registered repellent used as the label directs; unlike a zapper, it goes wherever you sit." },
+      { "label": "For water you cannot empty", "name": "Bti mosquito dunks", "search": "bti mosquito dunks", "why": "CDC says homeowners can use mosquito dunks or bits in standing water that will not be used for drinking and cannot be covered, dumped or removed. Bti kills larvae, not biting adults, so it works before mosquitoes ever fly. Follow the label." },
+      { "label": "For porch and patio lights", "name": "Yellow bug light bulbs", "search": "yellow bug light bulb", "why": "EPA says yellow bug lights tend to attract fewer mosquitoes than ordinary outdoor lights, though they are not repellents. Swapping the porch bulb draws fewer mosquitoes toward the door in the first place." },
+      { "label": "For mosquitoes on a large lot", "name": "Propane CO2 mosquito trap", "search": "propane mosquito trap", "why": "UC IPM says carbon dioxide traps such as the Mosquito Magnet attract host-seeking mosquitoes but catch only a small share of them, and the AMCA says not to rely on traps alone. Its maker gives the Patriot Plus up to 1 acre, set 30 to 40 feet from people." },
+      { "label": "For Asian tiger mosquitoes", "name": "Lure-baited fan mosquito trap", "search": "biogents bg mosquitaire", "why": "Biogents says its BG-Mosquitaire uses a skin-scent lure and a fan to pull Asian tiger mosquitoes into a catch bag. In a 2015 Italian study of the maker's research trap, sites with 7 to 8 traps had 64% to 87% fewer of these mosquitoes landing on people." }
+    ] },
+
+    { "type": "h2", "text": "Do bug zappers work?" },
+    { "type": "p", "text": "They work on moths, beetles and other night fliers, not on the mosquitoes that bite you. Iowa State's summary of the University of Delaware study says only 31 of 13,789 insects killed by electric traps in suburban Newark, Delaware, were biting flies, a group that took in female mosquitoes and biting gnats. The AMCA says zappers do kill some mosquitoes, but in the only two controlled studies by independent investigators, at the University of Notre Dame, mosquitoes made up 4.1% and 6.4% of the daily catch over a season, and yards with and without a zapper showed no significant difference in mosquito numbers." },
+    { "type": "figure", "src": "/guides/photos/aedes-vexans-uv-light.webp", "width": 1173, "height": 801, "alt": "Tan-brown mosquito with long, thin legs standing on pale gray fabric at night, its dark shadow falling on the cloth above it", "caption": "An inland floodwater mosquito (*Aedes vexans*) that came to an ultraviolet light at night in Charlotte, North Carolina. Some mosquitoes do come to UV light, but in the Notre Dame studies they were only 4.1% and 6.4% of a zapper's daily catch.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/389869754" },
+    { "type": "p", "text": "UC IPM's Pest Note on mosquitoes goes further and calls electric bug zappers counterproductive for mosquito control, because many of the insects they kill prey on mosquitoes. A zapper still has a job, killing the moths, beetles and other insects that swarm a light at night, but if bites are the problem, the better tools are covered below, and so is the trap built for flies in the kitchen." },
+
+    { "type": "h2", "text": "What does a bug zapper actually kill?" },
+    { "type": "p", "text": "Mostly harmless insects, nearly half of them from nearby water, and a good share of beneficial ones. [The University of Delaware's report on the study](https://www1.udel.edu/PR/Messenger/96/3/6.html) says it ran at six suburban sites in the summer of 1994, that the traps killed species from more than 104 insect families, and that almost half were aquatic insects, caddisflies and midges. Iowa State gives the breakdown: 48.4% (6,670 insects) were nonbiting aquatic insects from nearby rivers and streams, and 13.5% (1,868) were predators and parasites, such as ground beetles and parasitic wasps, that help hold pest numbers down." },
+    { "type": "table", "head": ["Study", "What was counted", "What it found"], "rows": [
+      ["University of Delaware, six suburban sites, summer 1994", "13,789 insects killed by electric traps", "31 biting flies (0.22%); 48.4% nonbiting aquatic insects; 13.5% predators and parasites"],
+      ["University of Florida, Vero Beach, one night", "Some 10,000 insects killed by one zapper", "8 mosquitoes"],
+      ["Two University of Notre Dame yard studies, a season each", "The daily zapper catch", "Mosquitoes 4.1% and 6.4%; no significant difference in mosquito numbers with or without a zapper"],
+      ["One backyard study reported by the AMCA", "Insects killed", "0.13% were female mosquitoes"]
+    ], "caption": "Sources: Iowa State University Extension and the University of Delaware (Delaware study), the University of Florida (Vero Beach test) and the American Mosquito Control Association (Notre Dame and backyard studies)." },
+    { "type": "p", "text": "A one-night test at the University of Florida's Florida Medical Entomology Laboratory in Vero Beach found the same pattern: of some 10,000 insects one zapper killed, 8 were mosquitoes, [UF/IFAS reported in 1997](https://archive.news.ufl.edu/articles/1997/07/snap-crackle-pop-electric-bug-zappers-are-useless-for-controlling-mosquitoes.html). UF entomologist Jonathan Day listed beetles, moths, ants, midges and parasitic wasps among the beneficial insects zappers kill, and noted that most insects are beneficial, as pollinators or as food for birds and other animals." },
+    { "type": "figure", "src": "/guides/photos/bug-zapper-roof-eave.webp", "width": 1200, "height": 900, "alt": "Dark metal bug zapper with a white ultraviolet tube behind a wire cage, hanging by a hook from the eave of a white roof in front of a shrub with small yellow flowers", "caption": "A bug zapper hanging from a roof eave. In the University of Delaware count, only 31 of the 13,789 insects that electric traps killed were biting flies.", "license": "CC-BY-SA-3.0", "credit": "ZooFari at en.wikipedia, CC BY-SA 3.0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bug_zapper.JPG" },
+    { "type": "p", "text": "Scaled up, the losses are large. The Delaware researchers estimated that 4 million zappers, each running 40 nights a summer, would kill more than 71 billion nontarget insects a year, Iowa State reports, and the AMCA estimates that 71 billion to 350 billion beneficial insects may be killed in the United States each year." },
+
+    { "type": "h2", "text": "Why don't bug zappers catch more mosquitoes?" },
+    { "type": "p", "text": "Because a biting mosquito is following a person, not a light. UF's Day said mosquitoes may see a zapper's ultraviolet light, but once they pick up even a trace of the carbon dioxide from a person's breath and skin, they turn toward it; he added that the octenol packets sold with some zappers will not improve their performance. In the University of Delaware report, Tallamy, the entomologist behind the study, says it is not news to entomologists that most mosquito species do not respond to black lights and that some bite only during the day. [Why mosquitoes bite some people more than others](/blog/why-mosquitoes-bite-some-people-more) goes deeper into what draws them." },
+    { "type": "figure", "src": "/guides/photos/cdc-light-trap-navy-new-orleans.webp", "width": 1200, "height": 774, "alt": "Sailor in a camouflage uniform handling a small hanging light trap, a lamp under a round black lid above a white mesh bag, beside rows of tan tents", "caption": "A Navy preventive medicine technician takes down a light trap provided by CDC at Naval Air Station Joint Reserve Base New Orleans in September 2005 (U.S. Navy photo). CDC's tips for its light trap include dry ice, because its carbon dioxide attracts host-seeking female mosquitoes.", "license": "public-domain", "credit": "U.S. Navy photo, Public domain, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:US_Navy_050910-N-2653P-132_Forward_Deployable_Preventive_Medicine_Unit_(FDPMU)_East,_removes_a_Light_Trap_provided_by_the_Centers_for_Disease_Control_(CDC)_from_a_tent_city_area_on_board_NAS_JRB_New_Orleans.jpg" },
+    { "type": "p", "text": "Even the light traps that mosquito control professionals use for surveillance lean on carbon dioxide. [CDC's guide to mosquito surveillance traps](https://www.cdc.gov/mosquitoes/php/toolkit/mosquito-surveillance-traps.html) suggests dry ice for its light trap because the carbon dioxide attracts host-seeking female mosquitoes, and an attractant such as an octenol lure, a human scent lure or carbon dioxide for the BG-Sentinel trap. [Whether mosquitoes are attracted to light at all](/blog/are-mosquitoes-attracted-to-light) has its own guide." },
+
+    { "type": "h2", "text": "Bug zapper, light trap, CO2 trap or fan trap: which should you buy?" },
+    { "type": "p", "text": "Match the device to the insect. Light traps suit flies indoors; for mosquitoes, a device has to use their own cues or keep them off you, and even then the AMCA says a trap supplements repellent and the removal of breeding water rather than replacing them." },
+    { "type": "table", "head": ["Device", "How it works", "Who it suits", "What the sources say"], "rows": [
+      ["Outdoor UV bug zapper", "UV light draws night fliers onto a high-voltage grid", "Moths, beetles and midges at night, away from people", "Kills mostly nonbiting and beneficial insects (Iowa State, UF/IFAS); counterproductive for mosquitoes (UC IPM)"],
+      ["Indoor UV light trap", "UV light draws flies to a glue board or a low-voltage grid", "House flies in a kitchen, garage or shop", "Works best on larger flies, 4 to 6 feet up and out of sight of outdoors (Texas A&M)"],
+      ["Propane CO2 trap", "Turns propane into carbon dioxide, heat and moisture, plus a scent attractant", "Mosquitoes on a large lot", "Catches only a small share of what it attracts (UC IPM); not a sole means of control (AMCA)"],
+      ["Lure-baited fan trap", "A skin-scent lure draws mosquitoes and a fan pulls them into a bag", "Asian tiger mosquitoes in a yard", "Several traps per site cut landings 64% to 87% in a 2015 Italian study"],
+      ["Handheld racket", "A charged grid you swing at one insect", "A single mosquito or fly you can see", "A device under EPA rules, so not registered; one model was recalled after reports of fires (CPSC)"]
+    ], "caption": "How each device works comes from its maker or the sources named; device makers generally do not submit their claims to EPA." },
+    { "type": "h3", "text": "UV bug zappers" },
+    { "type": "p", "text": "A zapper's ultraviolet tube draws night-flying insects onto a high-voltage grid, which is why its catch is mostly moths, beetles, midges and other night fliers, including the beneficial insects counted above. Coverage figures are the maker's own: [Flowtron](https://flowtron.com/collections/outdoor-residential-use), for one, lists its 15-, 40- and 80-watt outdoor zappers for 1/2 acre, 1 acre and 1.5 acres." },
+    { "type": "h3", "text": "Indoor UV light traps" },
+    { "type": "p", "text": "For flies indoors, this is the zapper-style device the sources back. Texas A&M says light traps use ultraviolet light to draw flies to a glue board or a low-voltage grid and work best on larger flies such as house flies. [UC IPM's Pest Note on flies](https://ipm.ucanr.edu/home-and-landscape/flies/) says UV fly traps may be effective indoors, where they are not competing with daytime sunlight, and warns never to use a bug zapper near food preparation areas, because insect bodies often burst on the wires and parts can be propelled several feet. [Why there are so many flies in the house](/blog/flies-in-house) helps find the source, and the [fruit fly trap guide](/blog/best-fruit-fly-traps) covers the bait traps that suit fruit flies." },
+    { "type": "figure", "src": "/guides/photos/house-fly.webp", "width": 1200, "height": 817, "alt": "Close top view of a house fly with a dark-striped gray thorax, large reddish-brown eyes and clear, veined wings folded over its body", "caption": "A house fly (*Musca domestica*), CDC photo. Texas A&M says UV light traps work best on larger flies like this one, mounted 4 to 6 feet above the floor.", "license": "public-domain", "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=25570" },
+    { "type": "h3", "text": "Propane CO2 traps like the Mosquito Magnet" },
+    { "type": "p", "text": "These are aimed at mosquitoes. The maker's page for the [Mosquito Magnet Patriot Plus](https://www.mosquitomagnet.com/mosquito-magnet-patriot-plus-mosquito-trap-mm4200b) says it converts propane to carbon dioxide and gives off heat and moisture, with a secondary attractant mixed in, and that it plugs in. The maker gives coverage of up to 1 acre and results in 7 to 10 days, says each trap needs a propane tank (not included), attractant packs and nets, and advises a spot 30 to 40 feet from people, in the shade, between your property and a known breeding area." },
+    { "type": "p", "text": "The independent view is cooler. UC IPM says traps like this capture only a small proportion of the insects they attract and that a single trap might not be effective enough for controlling adult mosquitoes. The AMCA says carbon dioxide traps do kill measurable numbers of mosquitoes but cautions against putting too much faith in traps as the sole means of control: homeowners still need repellents and source reduction." },
+    { "type": "h3", "text": "Lure-baited fan traps" },
+    { "type": "p", "text": "These skip the light and target day-biting Asian tiger mosquitoes. [Biogents](https://us-shop.biogents.com/pages/bg-mosquitaire), maker of the BG-Mosquitaire, says a lactic acid-based skin-scent lure and a fan that creates a warm, rising air current draw the mosquitoes in, the fan sucks them into a catch bag, and the trap should run around the clock in shady, humid spots such as under trees, near shrubs and along fence lines." },
+    { "type": "p", "text": "Field evidence for the design comes from a [2015 study in the Journal of the American Mosquito Control Association](https://bioone.org/journals/journal-of-the-american-mosquito-control-association/volume-31/issue-1/14-6444.1/Evaluation-of-BG-Sentinel-Trap-as-a-Management-Tool-to/10.2987/14-6444.1.full). In northern Italy, three sites with 7 or 8 of the maker's BG-Sentinel research traps each, one trap for every 150 to 350 square meters (about 1,600 to 3,800 square feet), had 64% to 87% fewer Asian tiger mosquitoes in human landing counts than three sites without traps. That was a dense set of traps, not one trap in a corner." },
+    { "type": "h3", "text": "Handheld rackets" },
+    { "type": "p", "text": "A racket kills only the insect you swing at, so it draws nothing in from the yard. EPA lists hand-held and racquet-type bug zappers among pest control devices, and in July 2025 the [Consumer Product Safety Commission announced a recall](https://cpsc.gov/Recalls/2025/iMirror-Inc-Recalls-Electric-Bug-Zapper-Racket-Fly-Swatter-and-Mosquito-Swatter-Due-to-Shock-Hazard) of about 29,000 electric bug zapper rackets that could catch fire when used for extended periods." },
+
+    { "type": "h2", "text": "How do you choose a bug zapper or light trap?" },
+    { "type": "p", "text": "Start with the insect, then check where the device will go and what happens to the bodies." },
+    { "type": "checklist", "title": "Six checks before you buy", "items": [
+      "**The insect.** Zappers catch night fliers drawn to light, and biting mosquitoes are a small share of the catch, so buy one for moths, beetles or flies, not for bites.",
+      "**Indoors or out.** Texas A&M says high-voltage outdoor zappers should not be used indoors; inside, choose a light trap with a glue board.",
+      "**Where the bodies go.** Food-code rules for restaurants require electrocuting devices to hold the insects they kill; at home, look for a catch tray or a glue board, and keep a zapper away from food, since UC IPM says insect parts can be propelled several feet.",
+      "**Coverage claims.** Acreage and square footage are the maker's figures, and device makers generally do not submit their claims to EPA.",
+      "**Bulbs.** Texas A&M says most light trap makers recommend replacing the bulbs every year, because a fluorescent tube's UV output fades over time.",
+      "**Recalls.** Look the model up in the Consumer Product Safety Commission's recall list, especially for a used or older unit."
+    ] },
+
+    { "type": "h2", "text": "Where should you hang a bug zapper?" },
+    { "type": "p", "text": "Away from people and never over food. Texas A&M says lights attract flies from a distance, so a zapper beside the patio table pulls insects toward the people at it, and UC IPM says insect parts can be propelled several feet from the wires." },
+    { "type": "ul", "items": [
+      "**Outdoors,** hang a zapper at the edge of the yard, away from seating, cooking and doors, and out of reach of children and pets.",
+      "**Indoors,** mount a light trap 4 to 6 feet above the floor, the typical flying height of house flies, where it cannot be seen from outdoors (Texas A&M).",
+      "**Near food,** do not hang one at all: the food-code rule bars electrocuting devices from sitting over food preparation areas.",
+      "**A propane CO2 trap,** its maker says, goes 30 to 40 feet from people, in shade, between your property and the breeding area.",
+      "**A lure-baited fan trap** goes in shady, humid spots near shrubs or fence lines, Biogents says."
+    ] },
+
+    { "type": "h2", "text": "What are the safety risks of a bug zapper?" },
+    { "type": "p", "text": "The risks are electrical, and insect fragments near food. In 2018, Kaz recalled about 72,000 Stinger insect zappers because the kill grid could detach inside the housing, a shock hazard, and the [Consumer Product Safety Commission's recall notice](https://www.cpsc.gov/Recalls/2018/Kaz-Recalls-Stinger-Insect-Zappers-Due-to-Shock-Hazard) told owners to stop using and unplug them. Unplug any zapper before you clean it, and retire one with a loose grid or a damaged cord." },
+    { "type": "p", "text": "Fragments are the other risk. Texas A&M says outdoor zappers tend to scatter insect fragments and can contaminate an indoor space, and in a [2000 study in Current Microbiology](https://link.springer.com/article/10.1007/s002840010132), researchers who electrocuted house flies carrying bacteria or a virus collected some of those microbes from the room; they concluded such traps could contribute to spreading infectious agents, depending on how the flies were contaminated. Food rules guard against the same risk: [Minnesota's food code](https://www.revisor.mn.gov/rules/4626.1385/), which carries the FDA Food Code's section number 6-202.13, requires devices that electrocute or stun flying insects to hold the insect inside and bars installing them over food preparation areas." },
+
+    { "type": "h2", "text": "Are bug zappers regulated by the EPA?" },
+    { "type": "p", "text": "Yes, but only as devices, not as registered pesticides. [EPA's guide to pesticide devices](https://www.epa.gov/safepestcontrol/pesticide-devices-guide-consumers) lists black-light traps, insect traps and bug zappers, including hand-held racquet types, as devices, and says that under the federal pesticide law (FIFRA) EPA regulates devices but does not require them to be registered. A compliant device shows an EPA establishment number, which identifies where it was made and does not mean EPA reviewed it for safety or efficacy. Makers generally do not submit their claims or their efficacy and safety data to EPA, though a device may not carry false or misleading claims, and EPA takes reports of devices that appear misbranded." },
+
+    { "type": "h2", "text": "What will a bug zapper not do?" },
+    { "type": "ul", "items": [
+      "**Cut mosquito bites.** In the Notre Dame studies, yards with a zapper had no significantly fewer mosquitoes than yards without one (AMCA).",
+      "**Catch daytime biters.** UC IPM says some mosquitoes bite during the day, and its fly guide says UV traps may be effective indoors, where they are not competing with daytime sunlight.",
+      "**Stop mosquitoes breeding.** [CDC's steps for mosquito control at home](https://www.cdc.gov/mosquitoes/mosquito-control/mosquito-control-at-home.html) start with emptying, scrubbing, turning over, covering or throwing out anything that holds water once a week.",
+      "**Replace repellent.** A zapper does nothing for you on a walk or at a game; [the mosquito repellent buying guide](/blog/best-mosquito-repellent) covers what does.",
+      "**Clear mosquitoes from the house.** For a mosquito indoors, see [how to get rid of mosquitoes in the house](/blog/how-to-get-rid-of-mosquitoes-in-the-house)."
+    ] },
+
+    { "type": "h2", "text": "What works better against mosquitoes in the yard?" },
+    { "type": "p", "text": "Taking away the water they breed in, then protecting people where they sit." },
+    { "type": "ol", "items": [
+      "**Empty water weekly.** CDC says to empty and scrub, turn over, cover or throw out items that hold water once a week, from buckets, planters and toys to birdbaths and flowerpot saucers.",
+      "**Treat water you cannot empty.** [CDC's larvicide page](https://www.cdc.gov/mosquitoes/mosquito-control/larvicides.html) says homeowners can use mosquito dunks or bits in standing water that will not be used for drinking and cannot be covered, dumped or removed; Bti, a larvicide, does not control biting adults.",
+      "**Run a fan on the deck.** The AMCA says mosquitoes are relatively weak fliers, so a large fan on a deck can be a low-tech fix.",
+      "**Wear repellent.** [EPA's tips to prevent mosquito bites](https://www.epa.gov/insect-repellents/tips-prevent-mosquito-bites) include an EPA-registered repellent, used as the label directs.",
+      "**Change the porch bulb.** EPA says yellow bug lights tend to attract fewer mosquitoes than ordinary lights, though they are not repellents, and to keep window and door screens in good working order.",
+      "**Add a trap only as a supplement.** A carbon dioxide or lure-baited trap can take some mosquitoes out, but the AMCA says to keep using repellents and removing breeding water alongside it."
+    ] },
+    { "type": "p", "text": "[How to get rid of mosquitoes](/blog/how-to-get-rid-of-mosquitoes) walks through each of those steps, and [how to keep mosquitoes away](/blog/how-to-keep-mosquitoes-away) covers patios, screens and people." },
+
+    { "type": "h2", "text": "When should you call a professional?" },
+    { "type": "ul", "items": [
+      "**Mosquitoes keep coming after you have cleared the water.** CDC suggests hiring a pest control professional to treat areas inside your home and says outdoor adulticides go where adult mosquitoes rest, used as the label directs. The AMCA points to organized community-wide mosquito control programs, so ask whether your city or county runs one.",
+      "**Flies in a restaurant or other food business.** Food-code rules decide which insect devices may be used and where they may hang, so work with a licensed pest management professional and your local health inspector.",
+      "**A zapper that sparks, smells hot or has a loose grid.** Unplug it, stop using it and check whether the model has been recalled.",
+      "**A season-long plan for the whole yard.** [The complete backyard mosquito control guide](/blog/ultimate-backyard-mosquito-control-guide) puts the steps above in order."
+    ] },
+    { "type": "media", "needed": "A plug-in UV fly light trap with a glue board mounted on a kitchen or garage wall about 5 feet up, out of sight of windows, with flies on the board and a ruler marked in inches for scale; public domain or CC0" },
+    { "type": "callout", "tone": "tip", "title": "Catch a few first", "text": "Before you buy, catch a few of the insects around your outdoor light in a jar and note when they show up. Moths, beetles and flies at night are a zapper or light trap problem; mosquitoes biting at dusk or in the day call for repellent, a fan and the water around your yard." }
+  ],
+  "faqs": [
+    {
+      "question": "Do bug zappers kill mosquitoes?",
+      "answer": "Some, but very few compared with everything else they kill. The American Mosquito Control Association reports that in two University of Notre Dame studies, mosquitoes were 4.1% and 6.4% of the daily catch over a season, with no significant difference in mosquito numbers between yards with and without a zapper. A University of Delaware count found 31 biting flies among 13,789 insects killed, and a one-night University of Florida test found 8 mosquitoes among some 10,000 insects. UC IPM calls zappers counterproductive for mosquito control."
+    },
+    {
+      "question": "Can you use a bug zapper indoors?",
+      "answer": "Not a high-voltage outdoor model. Texas A&M AgriLife Extension says outdoor bug zappers should not be used indoors because they tend to scatter insect fragments, and UC IPM says never to use a zapper near food preparation areas. For flies inside, choose a UV light trap that catches them on a glue board, mounted 4 to 6 feet above the floor and out of sight of outdoors, which Texas A&M says works best on larger flies such as house flies."
+    },
+    {
+      "question": "Where should you put a bug zapper?",
+      "answer": "Away from where people sit, eat and cook. Texas A&M says lights attract flies from a distance, and UC IPM says insect parts can be propelled several feet from a zapper's wires. Never hang one over food or a grill; the food-code rule for restaurants bars electrocuting devices from sitting over food preparation areas. Indoors, a light trap belongs 4 to 6 feet above the floor and out of sight of windows and doors."
+    },
+    {
+      "question": "Are bug zappers bad for beneficial insects?",
+      "answer": "They kill a great many. In the University of Delaware study, 13.5% of the insects killed were predators and parasites such as ground beetles and parasitic wasps, and 48.4% were nonbiting aquatic insects, Iowa State reports. The researchers estimated that 4 million zappers, each running 40 nights a summer, would kill more than 71 billion nontarget insects a year, and the American Mosquito Control Association estimates that up to 350 billion beneficial insects may be killed in the United States each year. UC IPM says many of the insects zappers kill prey on mosquitoes."
+    },
+    {
+      "question": "Do mosquito traps work better than bug zappers?",
+      "answer": "Traps that use carbon dioxide or skin scents are aimed at mosquitoes, unlike a UV zapper, but they are not a complete fix. UC IPM says carbon dioxide traps catch only a small share of the mosquitoes they attract and that one trap may not be enough, and the American Mosquito Control Association says homeowners still need repellents and source reduction. In a 2015 Italian study, sites with 7 or 8 lure-baited traps each had 64% to 87% fewer Asian tiger mosquitoes landing on people."
+    },
+    {
+      "question": "Do bug zappers work during the day?",
+      "answer": "Not well. UC IPM's fly guide says ultraviolet traps may be effective indoors where they are not competing with daytime sunlight, and outdoors in daylight a zapper's light has the sun to compete with. UC IPM also says some mosquitoes bite during the day, and the University of Delaware entomologist behind the zapper study said most mosquito species do not respond to black lights anyway. Daytime biters call for repellent and for emptying the containers they breed in."
+    },
+    {
+      "question": "Are bug zappers regulated by the EPA?",
+      "answer": "Yes, as devices. EPA regulates bug zappers, black-light traps and other insect traps as pest control devices under the federal pesticide law, which does not require devices to be registered. A device should carry an EPA establishment number, but EPA says that number only identifies where the product was made and does not mean EPA reviewed it for safety or efficacy. Makers generally do not submit their data to EPA, though they may not make false or misleading claims about a device."
+    },
+    {
+      "question": "Can bug zappers spread germs?",
+      "answer": "They can scatter what the insects carry. In a study published in Current Microbiology in 2000, researchers electrocuted house flies contaminated with bacteria or a virus and collected some of those microbes from the room around the trap. They concluded that such traps could contribute to spreading infectious agents, with the risk depending on how the flies were contaminated. UC IPM and Texas A&M both warn about scattered insect fragments, which is why a zapper should never hang near food."
+    },
+    {
+      "question": "Is a handheld bug zapper racket worth it?",
+      "answer": "It can be for a single mosquito or fly you can see, because a racket kills only what you swing at and draws nothing else in. EPA counts racquet-type zappers as pest control devices, which need no registration, and their makers generally do not submit efficacy data to EPA. In 2025 the Consumer Product Safety Commission announced a recall of about 29,000 electric bug zapper rackets whose batteries can catch fire when used for extended periods, so check for recalls and keep a racket away from children."
+    },
+    {
+      "question": "What is the best way to keep mosquitoes off a patio?",
+      "answer": "Combine a few things that work. The American Mosquito Control Association says a large fan on the deck helps because mosquitoes are relatively weak fliers, and EPA advises an EPA-registered repellent and yellow bug lights, which tend to attract fewer mosquitoes than ordinary bulbs. CDC says to empty or cover anything that holds water once a week and to use mosquito dunks in water you cannot empty. A zapper adds little: in the Notre Dame studies, yards with one had no significantly fewer mosquitoes."
+    }
+  ],
+  "sources": [
+    { "title": "Bug Zappers are Harmful, Not Helpful (D. Lewis, Yard and Garden, June 14, 1996)", "publisher": "Iowa State University Extension and Outreach", "url": "https://yardandgarden.extension.iastate.edu/article/1996/6-14-1996/bugzapper.html" },
+    { "title": "Research shows beneficial insects, environment suffer from electric traps (The Messenger, Vol. 5, No. 3, 1996)", "publisher": "University of Delaware", "url": "https://www1.udel.edu/PR/Messenger/96/3/6.html" },
+    { "title": "Snap! Crackle! Pop! Electric Bug Zappers Are Useless for Controlling Mosquitoes, Says UF/IFAS Pest Expert (July 23, 1997)", "publisher": "University of Florida News", "url": "https://archive.news.ufl.edu/articles/1997/07/snap-crackle-pop-electric-bug-zappers-are-useless-for-controlling-mosquitoes.html" },
+    { "title": "FAQs", "publisher": "American Mosquito Control Association", "url": "https://www.mosquito.org/faqs/" },
+    { "title": "Pest Notes: Mosquitoes (UC ANR Publication 7451; W. E. Walton and B. F. Eldridge, updated April 2020)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/mosquitoes/" },
+    { "title": "Pest Notes: Flies (UC ANR Publication 7457; A. C. Gerry, updated May 2015)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/flies/" },
+    { "title": "Indoor Flies and Their Control (Michael Merchant)", "publisher": "Texas A&M AgriLife Extension Service", "url": "https://agrilifeextension.tamu.edu/library/insects/indoor-flies-and-their-control/" },
+    { "title": "Pesticide Devices: A Guide for Consumers (updated September 29, 2026)", "publisher": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/safepestcontrol/pesticide-devices-guide-consumers" },
+    { "title": "Killing of Flies in Electrocuting Insect Traps Releases Bacteria and Viruses (J. E. Urban and A. Broce, Current Microbiology 41(4):267-270, 2000)", "publisher": "Current Microbiology (Springer)", "url": "https://link.springer.com/article/10.1007/s002840010132" },
+    { "title": "Minnesota Rules 4626.1385: Insect Control Devices; Design and Installation (Food Code 6-202.13)", "publisher": "Minnesota Office of the Revisor of Statutes", "url": "https://www.revisor.mn.gov/rules/4626.1385/" },
+    { "title": "Kaz Recalls Stinger Insect Zappers Due to Shock Hazard (Recall 18-227, September 20, 2018)", "publisher": "U.S. Consumer Product Safety Commission", "url": "https://www.cpsc.gov/Recalls/2018/Kaz-Recalls-Stinger-Insect-Zappers-Due-to-Shock-Hazard" },
+    { "title": "iMirror Inc Recalls Electric Bug Zapper Racket, Fly Swatter and Mosquito Swatter (Recall 25-396, July 24, 2025)", "publisher": "U.S. Consumer Product Safety Commission", "url": "https://cpsc.gov/Recalls/2025/iMirror-Inc-Recalls-Electric-Bug-Zapper-Racket-Fly-Swatter-and-Mosquito-Swatter-Due-to-Shock-Hazard" },
+    { "title": "Mosquito Surveillance Traps (May 14, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/mosquitoes/php/toolkit/mosquito-surveillance-traps.html" },
+    { "title": "Mosquito Control at Home (April 16, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/mosquitoes/mosquito-control/mosquito-control-at-home.html" },
+    { "title": "Larvicides (May 14, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/mosquitoes/mosquito-control/larvicides.html" },
+    { "title": "Tips to Prevent Mosquito Bites (updated May 11, 2026)", "publisher": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/insect-repellents/tips-prevent-mosquito-bites" },
+    { "title": "Evaluation of BG-Sentinel Trap as a Management Tool to Reduce Aedes albopictus Nuisance in an Urban Environment in Italy (C. Englbrecht et al., Journal of the American Mosquito Control Association 31(1):16-25, 2015)", "publisher": "Journal of the American Mosquito Control Association (BioOne)", "url": "https://bioone.org/journals/journal-of-the-american-mosquito-control-association/volume-31/issue-1/14-6444.1/Evaluation-of-BG-Sentinel-Trap-as-a-Management-Tool-to/10.2987/14-6444.1.full" },
+    { "title": "Mosquito Magnet Patriot Plus Mosquito Trap, MM4200B (product page)", "publisher": "Mosquito Magnet", "url": "https://www.mosquitomagnet.com/mosquito-magnet-patriot-plus-mosquito-trap-mm4200b", "kind": "manufacturer" },
+    { "title": "BG-Mosquitaire (product page)", "publisher": "Biogents", "url": "https://us-shop.biogents.com/pages/bg-mosquitaire", "kind": "manufacturer" },
+    { "title": "Outdoor Residential Use bug zappers (BK-15D, BK-40D, BK-80D; product listing)", "publisher": "Flowtron", "url": "https://flowtron.com/collections/outdoor-residential-use", "kind": "manufacturer" }
+  ],
+  "disclaimer": "both"
+}

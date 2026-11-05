@@ -2,7 +2,7 @@
  "id": "best-cockroach-gel-bait",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "e2235d29d4ec0357005abfed581bba2f6c2d92c6526d63301ce12a722f7a9a72",
+ "sha": "100df49516f2e59162c035bfc6a1d54a034bd97ff34a7ab0c13b4b4580b7dac4",
  "claimsChecked": 146,
  "claimsCorrected": 19,
  "claimsRemovedOrSoftened": 0,
@@ -11,5 +11,12 @@
   "on": "2026-11-05",
   "scheduledFor": "2026-11-05",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-11-05",
+   "note": "Nov 5, 2026: reviewedBy/reviewedOn added (the owner said he read and reviewed this page)",
+   "previousSha": "e2235d29d4ec0357005abfed581bba2f6c2d92c6526d63301ce12a722f7a9a72"
+  }
+ ]
 }

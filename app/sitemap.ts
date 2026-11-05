@@ -36,6 +36,16 @@ const UPDATED_NOV4 = '2026-11-04T12:00:00.000Z'
 const ARTICLES_EXTENDED_NOV4 = new Set([
   'best-mouse-trap-canada', 'mouse-repellent-canada',
 ])
+// Nov 5, 2026 merges (301s in next.config.mjs): each survivor's main content really changed; it absorbed the products,
+// unique sections and FAQs of the pages merged into it. Checked BEFORE ARTICLES_EXTENDED_NOV4 and
+// ARTICLES_RETROFITTED, which still hold earlier dates for some of these pages and would otherwise win.
+const UPDATED_NOV5 = '2026-11-05T12:00:00.000Z'
+const ARTICLES_EXTENDED_NOV5 = new Set([
+  'best-large-capacity-dehumidifier-canada', 'best-dehumidifier-for-cold-garage-canada', 'bed-bug-spray-canada',
+  'best-cockroach-spray-canada', 'how-to-get-rid-of-ground-wasps-canada', 'cimexa-bed-bug-review-canada',
+  'mosquito-bits-canada-vs-dunks', 'best-sump-pump-for-basement-canada', 'mosquito-screens-patio-canada',
+  'best-steam-cleaner-for-pest-control-canada', 'how-to-keep-ticks-out-of-yard-ontario', 'how-to-get-rid-of-rats-canada',
+])
 // Oct 15, 2026: nine identification articles gained real, credited photographs (their first),
 // and /lyme-disease-canada-statistics was corrected to PHAC's current series (2024 = 5,809,
 // preliminary 2025 = 7,105).
@@ -108,7 +118,6 @@ const ARTICLES_RETROFITTED: Record<string, string> = {
   '/blog/best-raccoon-live-trap-canada': '2026-10-23T12:00:00.000Z',
   '/blog/raccoon-deterrent': '2026-10-23T12:00:00.000Z',
   '/blog/best-dehumidifier-for-cold-garage-canada': '2026-10-23T12:00:00.000Z',
-  '/blog/best-dehumidifier-for-mold-canada': '2026-10-23T12:00:00.000Z',
   '/blog/best-fruit-fly-trap-canada': '2026-10-23T12:00:00.000Z',
   '/blog/electric-fly-swatter': '2026-10-23T12:00:00.000Z',
   '/blog/best-indoor-fly-mosquito-trap-canada': '2026-10-23T12:00:00.000Z',
@@ -120,28 +129,21 @@ const ARTICLES_RETROFITTED: Record<string, string> = {
   '/blog/bed-bug-mattress-encasement-canada': '2026-10-23T12:00:00.000Z',
   '/blog/best-bed-bug-steamer-canada': '2026-10-23T12:00:00.000Z',
   '/blog/best-bed-bug-detector-canada': '2026-10-23T12:00:00.000Z',
-  '/blog/best-air-purifier-for-dust-mites-canada': '2026-10-23T12:00:00.000Z',
   '/blog/cimexa-bed-bug-review-canada': '2026-10-23T12:00:00.000Z',
-  '/blog/best-bed-bug-spray-for-mattress-canada': '2026-10-23T12:00:00.000Z',
-  '/blog/best-natural-bed-bug-spray-canada': '2026-10-23T12:00:00.000Z',
   '/blog/bed-bug-spray-canada': '2026-10-23T12:00:00.000Z',
   '/blog/how-to-get-rid-of-ground-wasps-canada': '2026-10-23T12:00:00.000Z',
-  '/blog/wasp-dust-canada': '2026-10-23T12:00:00.000Z',
   '/blog/best-wasp-nest-spray-canada': '2026-10-23T12:00:00.000Z',
   '/blog/best-wasp-trap': '2026-10-23T12:00:00.000Z',
   '/blog/laser-mosquito-killer-photon-matrix-review': '2026-10-23T12:00:00.000Z',
   '/blog/mosquito-fogger-canada': '2026-10-23T12:00:00.000Z',
   '/blog/mosquito-bits-canada-vs-dunks': '2026-10-23T12:00:00.000Z',
-  '/blog/mosquito-dunks-canada-guide': '2026-10-23T12:00:00.000Z',
   '/blog/mosquito-repellent-guide-ontario-2026': '2026-10-23T12:00:00.000Z',
   '/blog/permethrin-canada-yard-clothing-spray': '2026-10-23T12:00:00.000Z',
   '/blog/best-screen-tent-canada': '2026-10-23T12:00:00.000Z',
   '/blog/motion-activated-sprinkler-canada': '2026-10-23T12:00:00.000Z',
   '/blog/best-battery-backpack-sprayer-canada': '2026-10-23T12:00:00.000Z',
   '/blog/best-pump-pressure-sprayer-canada': '2026-10-23T12:00:00.000Z',
-  '/blog/best-patio-heater-canada': '2026-10-23T12:00:00.000Z',
   '/blog/rodent-proof-compost-bin-canada': '2026-10-23T12:00:00.000Z',
-  '/blog/best-bed-bug-powder-canada': '2026-10-23T12:00:00.000Z',
   '/blog/best-bed-bug-trap-canada': '2026-10-23T12:00:00.000Z',
   '/blog/bed-bug-interceptor-traps-canada': '2026-10-23T12:00:00.000Z',
   '/blog/bed-bug-heat-treatment-diy-canada': '2026-10-23T12:00:00.000Z',
@@ -151,15 +153,10 @@ const ARTICLES_RETROFITTED: Record<string, string> = {
   '/blog/mouse-proof-garage-door-seal-canada': '2026-10-23T12:00:00.000Z',
   '/blog/best-sump-pump-for-basement-canada': '2026-10-23T12:00:00.000Z',
   '/blog/best-bed-bug-spray-for-travel-canada': '2026-10-23T12:00:00.000Z',
-  '/blog/best-cockroach-killer-canada': '2026-10-28T12:00:00.000Z',
   '/blog/tick-removal-tool-guide': '2026-10-28T12:00:00.000Z',
   '/blog/co2-mosquito-trap-canada': '2026-10-28T12:00:00.000Z',
   '/blog/best-bed-bug-fogger-canada': '2026-10-28T12:00:00.000Z',
-  '/blog/best-steam-mop-for-hardwood-floors-canada': '2026-10-28T12:00:00.000Z',
-  '/blog/best-crawl-space-dehumidifier-canada': '2026-10-28T12:00:00.000Z',
   '/blog/best-raccoon-proof-roof-vent-covers-canada': '2026-10-28T12:00:00.000Z',
-  '/blog/best-upholstery-steam-cleaner-canada': '2026-10-28T12:00:00.000Z',
-  '/blog/best-whole-house-dehumidifier-canada': '2026-10-28T12:00:00.000Z',
   '/blog/best-whole-room-bed-bug-heater-canada': '2026-10-28T12:00:00.000Z',
   '/blog/best-yellow-jacket-trap-canada': '2026-10-28T12:00:00.000Z',
   '/blog/mosquito-magnet-canada': '2026-10-28T12:00:00.000Z',
@@ -455,7 +452,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Add blog posts from constants
   const blogPosts: MetadataRoute.Sitemap = allBlogArrays.map((post) => ({
     url: `${SITE_URL}/blog/${post.slug}`,
-    lastModified: ARTICLES_EXTENDED_NOV4.has(post.slug) ? UPDATED_NOV4 : (ARTICLES_RETROFITTED[`/blog/${post.slug}`] ?? (ARTICLES_PHOTOS_OCT16.has(post.slug) ? UPDATED_OCT16 : ARTICLES_PHOTOS_OCT15.has(post.slug) ? UPDATED_OCT15 : ARTICLES_EXTENDED_OCT8.has(post.slug) ? HUBS_UPDATED_OCT8 : new Date(post.date).toISOString())),
+    lastModified: ARTICLES_EXTENDED_NOV5.has(post.slug) ? UPDATED_NOV5 : ARTICLES_EXTENDED_NOV4.has(post.slug) ? UPDATED_NOV4 : (ARTICLES_RETROFITTED[`/blog/${post.slug}`] ?? (ARTICLES_PHOTOS_OCT16.has(post.slug) ? UPDATED_OCT16 : ARTICLES_PHOTOS_OCT15.has(post.slug) ? UPDATED_OCT15 : ARTICLES_EXTENDED_OCT8.has(post.slug) ? HUBS_UPDATED_OCT8 : new Date(post.date).toISOString())),
     changeFrequency: 'monthly' as const,
     priority: 0.8,
   }))
@@ -497,7 +494,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     .filter(slug => !registeredSlugs.has(slug))
     .map((slug) => ({
       url: `${SITE_URL}/blog/${slug}`,
-      lastModified: ARTICLES_EXTENDED_NOV4.has(slug) ? UPDATED_NOV4 : (ARTICLES_RETROFITTED[`/blog/${slug}`] ?? (ARTICLES_PHOTOS_OCT16.has(slug) ? UPDATED_OCT16 : ARTICLES_PHOTOS_OCT15.has(slug) ? UPDATED_OCT15 : ARTICLES_EXTENDED_OCT8.has(slug) ? HUBS_UPDATED_OCT8 : LAST_CONTENT_UPDATE)),
+      lastModified: ARTICLES_EXTENDED_NOV5.has(slug) ? UPDATED_NOV5 : ARTICLES_EXTENDED_NOV4.has(slug) ? UPDATED_NOV4 : (ARTICLES_RETROFITTED[`/blog/${slug}`] ?? (ARTICLES_PHOTOS_OCT16.has(slug) ? UPDATED_OCT16 : ARTICLES_PHOTOS_OCT15.has(slug) ? UPDATED_OCT15 : ARTICLES_EXTENDED_OCT8.has(slug) ? HUBS_UPDATED_OCT8 : LAST_CONTENT_UPDATE)),
       changeFrequency: 'monthly' as const,
       priority: 0.8,
     }))

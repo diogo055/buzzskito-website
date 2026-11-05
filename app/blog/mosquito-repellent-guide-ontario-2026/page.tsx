@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { withRegionalAlternates } from '@/lib/guides'
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
@@ -78,14 +79,14 @@ const FAQS = [
   },
 ]
 
-export const metadata: Metadata = buildMetadata({
+export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   title: META_TITLE,
   description: 'Best mosquito repellent in Canada: 20% icaridin (picaridin) for most people; DEET, up to 30% for adults, for heavy bush. Health Canada age rules, what to skip.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
-})
+}), '/blog/mosquito-repellent-guide-ontario-2026')
 
 const AMZ_TAG = tagForSlug('mosquito-repellent-guide-ontario-2026')
 
@@ -116,6 +117,8 @@ export default function MosquitoRepellentGuidePage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
+          {/* Regional edition link (Oct 2026): this page is the Canadian edition; see REGIONAL_PAIRS in lib/guides.ts */}
+          <p className="not-prose mb-6 rounded-lg border border-navy-100 bg-brand-50 px-4 py-2.5 text-sm text-gray-700">Reading from the United States? Product rules and what is sold there differ. <Link href="/blog/best-mosquito-repellent" className="font-semibold text-brand-700 underline">See the US edition</Link>.</p>
           <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best all-round mosquito repellent for Canada in 2026 is 20% icaridin (picaridin) — odourless protection that won&rsquo;t melt plastics or fabrics. Health Canada sets no protection time (&ldquo;Depending on the ingredients, some products repel insects for a longer time than others do&rdquo;), so reapply as the label directs. Natrapel is the 20% icaridin brand registered for sale in Canada under the Pest Control Products Act. For heavy cottage-country bug pressure, DEET still wins — the OFF Deep Woods sold in Canada is 25% DEET, and Health Canada allows adults up to 30%.</p>

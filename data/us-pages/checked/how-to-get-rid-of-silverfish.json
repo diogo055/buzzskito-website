@@ -2,9 +2,16 @@
  "id": "how-to-get-rid-of-silverfish",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "33dc704d254d2bda9e0b54596a9013ec1088f9f01f7b0b6785222b500e9f901b",
+ "sha": "058ac38f78bc2699277713e0e3b6c18a9a7dd8a7ffe005a6f84779f74b5f73c2",
  "claimsChecked": 13,
  "claimsCorrected": 1,
  "claimsRemovedOrSoftened": 0,
- "checkedOn": "2026-11-05"
+ "checkedOn": "2026-11-05",
+ "amendments": [
+  {
+   "on": "2026-11-05",
+   "note": "Nov 5, 2026: link repointed from /blog/what-size-dehumidifier-do-i-need-canada to /blog/best-large-capacity-dehumidifier-canada after the merge (301 redirect; the sizing content moved there). No other text changed; no factual claim touched.",
+   "previousSha": "33dc704d254d2bda9e0b54596a9013ec1088f9f01f7b0b6785222b500e9f901b"
+  }
+ ]
 }

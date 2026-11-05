@@ -2,9 +2,16 @@
  "id": "house-centipedes",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "d3b4cdf43f3b35adfc3c61e4a6414e30862a85f5e7e8c023bad1bde5c88955f0",
+ "sha": "9331698cf50a8307bc2b6ac3e2442291b9f4a8fa2f24cfc0a2da74a94ab409aa",
  "claimsChecked": 11,
  "claimsCorrected": 0,
  "claimsRemovedOrSoftened": 0,
- "checkedOn": "2026-11-05"
+ "checkedOn": "2026-11-05",
+ "amendments": [
+  {
+   "on": "2026-11-05",
+   "note": "Nov 5, 2026: links repointed from /blog/what-size-dehumidifier-do-i-need-canada and /blog/crawl-space-dehumidifier-vs-vapour-barrier-canada to /blog/best-large-capacity-dehumidifier-canada after the merge (301 redirects; both pages' content moved there); 'A separate guide weighs' became 'The same guide weighs'. No factual claim touched.",
+   "previousSha": "d3b4cdf43f3b35adfc3c61e4a6414e30862a85f5e7e8c023bad1bde5c88955f0"
+  }
+ ]
 }

@@ -1448,6 +1448,30 @@
       "name": "Bed bug spray with imidacloprid",
       "search": "bed bug spray imidacloprid",
       "basis": "Quick answer: an EPA-registered product labeled for bed bugs that pairs a pyrethroid with a second ingredient such as imidacloprid; EPA: a combination product can help resistant populations. Generic pesticide type the page names and recommends."
+    },
+    "best-ant-bait": {
+      "label": "Best ant killer for most homes",
+      "name": "Liquid ant bait stations",
+      "search": "liquid ant bait stations",
+      "basis": "Quick answer: the best ant killer for most US homes is a slow-acting bait the ants carry home, set in enclosed stations beside the trail (UC IPM: baits are the only insecticide type recommended in most situations). Generic type only."
+    },
+    "best-bed-bug-mattress-cover": {
+      "label": "Best bed bug mattress cover",
+      "name": "Zippered bed bug mattress encasement",
+      "search": "bed bug mattress encasement",
+      "basis": "Quick answer: a zippered encasement made and tested for bed bugs, on the mattress and box spring and left on for a year (EPA top ten tips). Generic type only."
+    },
+    "best-mosquito-repellent": {
+      "label": "Best for most people",
+      "name": "20% picaridin insect repellent",
+      "search": "20% picaridin insect repellent",
+      "basis": "Quick answer: for most people 20% picaridin or 20% to 30% DEET; picaridin is one of CDC's actives and the AAP gives 20% picaridin 8 to 12 hours. Generic type the page names and recommends."
+    },
+    "best-bug-zapper": {
+      "label": "Zapper-style, for flies indoors",
+      "name": "Indoor UV fly light trap with glue board",
+      "search": "uv fly light trap glue board",
+      "basis": "Quick answer: for flies indoors, a UV light trap with a glue board is the better choice (Texas A&M); outdoors, zappers kill few mosquitoes (UC IPM, Frick & Tallamy). Generic type only."
     }
   }
 }

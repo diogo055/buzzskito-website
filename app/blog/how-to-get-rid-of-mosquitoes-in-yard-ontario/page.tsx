@@ -102,7 +102,7 @@ export default function HowToGetRidOfMosquitoesInYardOntarioPage() {
 
         <h3>3. Treat Rain Barrels with BTI Mosquito Dunks</h3>
         <p>Rain barrels are productive mosquito breeding sites unless treated. BTI (Bacillus thuringiensis israelensis) mosquito dunks are the gold-standard solution &mdash; the widely sold Summit Mosquito Dunks are the reference product. Their label rates them to kill mosquito larvae within 24 hours. BTI is a bacterial larvicide that acts on the larvae of mosquitoes and a few related flies; use it only where the label directs, and check for the PCP registration number (<a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" rel="noopener" className="text-brand-700 hover:underline">Health Canada</a> explains how pesticide registration works). Per the label, one dunk treats up to 100 sq ft of water surface for 30 days.</p>
-        <p><BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Summit Mosquito Dunks prices on Amazon.ca &rarr;</BuyLink> For dosing, brand comparisons, and safety notes, see our <Link href="/blog/mosquito-dunks-canada-guide" className="text-brand-700 hover:underline">complete guide to mosquito dunks in Canada</Link>.</p>
+        <p><BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Summit Mosquito Dunks prices on Amazon.ca &rarr;</BuyLink> For dosing, brand comparisons, and safety notes, see our <Link href="/blog/mosquito-bits-canada-vs-dunks" className="text-brand-700 hover:underline">guide to mosquito dunks and bits in Canada</Link>.</p>
 
         <TopPick tag={AMZ_TAG}
           label="Our Top Pick for Water You Can't Drain"

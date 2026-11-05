@@ -16,7 +16,7 @@ import { shareImage } from '@/lib/photos'
 const SLUG = 'lone-star-tick-alpha-gal-canada'
 const DATE = '2026-07-16'
 const TITLE = 'Lone Star Tick & Alpha-Gal (Red Meat Allergy): Is It in Canada? (2026)'
-const META_TITLE = 'Lone Star Tick in Canada: Alpha-Gal Risk 2026'
+const META_TITLE = 'Alpha-Gal Syndrome & Lone Star Ticks in Canada'
 
 const FAQS = [
   {

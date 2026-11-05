@@ -633,7 +633,6 @@ export default function PermethrinCanadaPage() {
 
           <h2>Related Reading</h2>
           <ul>
-            <li><Link href="/blog/mosquito-dunks-canada-guide">Mosquito Dunks Canada — Where to Buy + How They Work</Link></li>
             <li><Link href="/blog/thermacell-canada-where-to-buy">Thermacell Canada — Where to Buy + Do They Work</Link></li>
             <li><Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits Canada vs Dunks</Link></li>
             <li><Link href="/blog/mosquito-repellent-guide-ontario-2026">Mosquito Repellent Guide — Ontario 2026</Link></li>

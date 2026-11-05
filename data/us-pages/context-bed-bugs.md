@@ -36,6 +36,8 @@
 
 - `/blog/best-bed-bug-spray` — **bed bug spray** (also: best bed bug spray; bed bug killer spray; does bed bug spray work; bed bug spray for mattress; natural bed bug spray). US edition of /blog/bed-bug-spray-canada, written fresh for US shoppers: US products and EPA registration (never Canadian PCP numbers or Canadian retailers), US spelling, no prices or star ratings. A buying guide: a short answer naming the best product types first; a "picks" block of 3-6 picks, each a product the text itself recommends with a one-line reason; a comparison table; how to choose; how to use it safely (label is the law); what it will not do; when to call a professional; 8-10 FAQs; sources (EPA, university extension, manufacturer labels). No testing claims: we did not test products. The top pick also goes in lib/amazon-us-picks.json.
 
+- `/blog/best-bed-bug-mattress-cover` — **bed bug mattress cover** (also: bed bug mattress encasement; best mattress encasement for bed bugs; bed bug proof mattress cover; do mattress encasements work for bed bugs; box spring encasement). US edition of /blog/bed-bug-mattress-encasement-canada, written fresh for US shoppers: US products and EPA registration (never Canadian PCP numbers or Canadian retailers), US spelling, no prices or star ratings. A buying guide: a short answer naming the best product types first; a "picks" block of 3-6 picks, each a product the text itself recommends with a one-line reason; a comparison table; how to choose; how to use it safely (label is the law); what it will not do; when to call a professional; 8-10 FAQs; sources (EPA, CDC, university extension, manufacturer labels). No testing claims: we did not test products. The top pick also goes in lib/amazon-us-picks.json.
+
 ## Pillars (hub pages)
 
 - `/learn/bed-bugs` — the complete bed bugs reference
@@ -482,6 +484,9 @@
 - `/blog/best-cockroach-gel-bait` — cockroach gel bait
 - `/blog/best-flea-spray-for-home` — flea spray for house
 - `/blog/raccoon-repellent` — raccoon repellent
+- `/blog/best-ant-bait` — ant killer
+- `/blog/best-mosquito-repellent` — mosquito repellent
+- `/blog/best-bug-zapper` — bug zapper
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

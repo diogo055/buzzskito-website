@@ -325,7 +325,7 @@ export default function PicaridinVsDeetPage() {
             <li><strong>Clothing: <Link href="/blog/permethrin-canada-yard-clothing-spray">Permethrin-treated clothing</Link></strong> — factory pre-treated hiking pants, socks, hat (kills ticks on contact)</li>
             <li><strong>Patio: <Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link></strong> — 4.5m repellent zone around your seating area</li>
             <li><strong>Yard vegetation: <Link href="/mosquito-control">Professional barrier spray</Link></strong> — targets mosquitoes and ticks where they rest, re-applied on a schedule</li>
-            <li><strong>Standing water: <Link href="/blog/mosquito-dunks-canada-guide">BTI dunks</Link></strong> — kills larvae before they become biting adults</li>
+            <li><strong>Standing water: <Link href="/blog/mosquito-bits-canada-vs-dunks">BTI dunks</Link></strong> — kills larvae before they become biting adults</li>
           </ol>
           <Photo id="blacklegged-tick-adult-nymph-fingertip" alt="Blacklegged tick adult and nymph on a fingertip" caption="A blacklegged tick adult female (left) and nymph (right) on a fingertip (CDC). Picaridin and DEET both repel ticks on skin; ticks this small are why the layers above add treated clothing." />
 

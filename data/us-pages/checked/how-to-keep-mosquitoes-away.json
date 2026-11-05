@@ -2,9 +2,16 @@
  "id": "how-to-keep-mosquitoes-away",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "ec367875b090a840b1673601920397aa58b4e1198a38e0d0872b47b492c2b461",
+ "sha": "ef76f9032c4d4fd3933bdb13d73298349c2df8df6991b15af12bcc76843aa67e",
  "claimsChecked": 72,
  "claimsCorrected": 9,
  "claimsRemovedOrSoftened": 8,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-11-05",
+   "note": "Nov 5, 2026: one sentence linking the new US buying guide /blog/best-mosquito-repellent (no claim added)",
+   "previousSha": "ec367875b090a840b1673601920397aa58b4e1198a38e0d0872b47b492c2b461"
+  }
+ ]
 }

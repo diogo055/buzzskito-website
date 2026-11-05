@@ -2,7 +2,7 @@
  "id": "flies-in-house",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "5b400ceacc175afaf3233c570ee5e45195d07997a1ee8f189ddd5a675e0891e4",
+ "sha": "d6b9f62ee84d126d9de19c53779d7b23e130da6f19294b2ac73e66283228312a",
  "claimsChecked": 290,
  "claimsCorrected": 2,
  "claimsRemovedOrSoftened": 4,
@@ -17,6 +17,11 @@
    "on": "2026-10-29",
    "note": "Oct 29, 2026 (release-day link-in): one sentence with a link to /blog/lovebugs added at the end of the paragraph before 'How do you tell which fly you have?' (section 'Why are there so many flies in my house?'); describes only what the linked page offers; no other text changed.",
    "previousSha": "4d53ae6a38fa5bcf6539e3fd3e837538b52f93663872f6eda5e338a2235ce727"
+  },
+  {
+   "on": "2026-11-05",
+   "note": "Nov 5, 2026: one sentence linking the new US buying guide /blog/best-bug-zapper (no claim added)",
+   "previousSha": "5b400ceacc175afaf3233c570ee5e45195d07997a1ee8f189ddd5a675e0891e4"
   }
  ],
  "released": {

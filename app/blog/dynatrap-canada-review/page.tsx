@@ -936,7 +936,7 @@ export default function DynaTrapCanadaPage() {
             <li><Link href="/blog/best-mosquito-trap">Best Mosquito Trap Canada — UV, CO₂ &amp; Propane Compared</Link></li>
             <li><Link href="/blog/mosquito-magnet-canada">Mosquito Magnet Canada — Where to Buy + Do They Work</Link></li>
             <li><Link href="/blog/thermacell-canada-where-to-buy">Thermacell Canada Guide</Link></li>
-            <li><Link href="/blog/mosquito-dunks-canada-guide">Mosquito Dunks Canada Guide</Link></li>
+            <li><Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits vs Dunks in Canada</Link></li>
             <li><Link href="/blog/bug-zappers-canada-do-they-work">Bug Zappers Canada — Do They Work?</Link></li>
             <li><Link href="/blog/co2-mosquito-trap-canada">CO₂ Mosquito Traps in Canada — How They Compare</Link></li>
             <li><Link href="/blog/propane-mosquito-trap-canada">Propane Mosquito Traps in Canada — Buyer&rsquo;s Guide</Link></li>

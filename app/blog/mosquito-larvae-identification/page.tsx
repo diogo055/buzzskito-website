@@ -384,7 +384,7 @@ export default function MosquitoLarvaePage() {
             <li><strong>Lying flat under the surface with no obvious siphon?</strong> Still a mosquito &mdash; <em>Anopheles</em> larvae lie parallel to the surface film.</li>
           </ul>
           <p className="text-base text-gray-800 leading-relaxed mb-5">
-            To check, scoop a cupful into a white container so the larvae show as dark specks, then look at one through a hand lens &mdash; at 5&ndash;10x the siphon is obvious. Larvae cannot bite. Once confirmed, drain the water, or treat water you keep with a BTI larvicide &mdash; see the <Link href="/blog/mosquito-dunks-canada-guide" className="underline hover:text-brand-700">Mosquito Dunks Canada guide</Link>.
+            To check, scoop a cupful into a white container so the larvae show as dark specks, then look at one through a hand lens &mdash; at 5&ndash;10x the siphon is obvious. Larvae cannot bite. Once confirmed, drain the water, or treat water you keep with a BTI larvicide &mdash; see the <Link href="/blog/mosquito-bits-canada-vs-dunks" className="underline hover:text-brand-700">Mosquito Bits vs Dunks Canada guide</Link>.
           </p>
         </div>
       </section>
@@ -778,7 +778,7 @@ export default function MosquitoLarvaePage() {
           <h2>How to Get Rid of Mosquito Larvae (Ranked by Effectiveness)</h2>
           <ol>
             <li><strong>Drain the water (best).</strong> Empty the container, fix the drainage, or eliminate the water source. 100% effective, free, instant.</li>
-            <li><strong>BTI Mosquito Dunks or Bits.</strong> Drop in any water you can&rsquo;t drain (rain barrel, ornamental pond, drainage ditch). BTI is a soil bacterium, and the U.S. EPA states its toxins affect only mosquito, black fly, and fungus gnat larvae. Sold at Canadian Tire and Home Depot — one of the cheapest fixes on the shelf. Lasts 30 days per dunk. <Link href="/blog/mosquito-dunks-canada-guide">Full Mosquito Dunks Canada guide</Link>, or compare the two formats in <Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits vs Dunks</Link> — Bits act faster, Dunks last longer.</li>
+            <li><strong>BTI Mosquito Dunks or Bits.</strong> Drop in any water you can&rsquo;t drain (rain barrel, ornamental pond, drainage ditch). BTI is a soil bacterium, and the U.S. EPA states its toxins affect only mosquito, black fly, and fungus gnat larvae. Sold at Canadian Tire and Home Depot — one of the cheapest fixes on the shelf. Lasts 30 days per dunk. Compare the two formats, with dosing and where to buy, in <Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits vs Dunks</Link> — Bits act faster, Dunks last longer.</li>
             <li><strong>Add fish to ornamental ponds.</strong> Goldfish, koi, and mosquitofish eat larvae aggressively. A stocked pond rarely needs treatment.</li>
             <li><strong>Cooking oil or dish soap (last resort).</strong> A small amount on the water surface disrupts the larvae&rsquo;s breathing siphon. Effective in disposable containers; don&rsquo;t use in environmental water (kills other organisms).</li>
           </ol>
@@ -883,7 +883,6 @@ export default function MosquitoLarvaePage() {
 
           <h2>Related Reading</h2>
           <ul>
-            <li><Link href="/blog/mosquito-dunks-canada-guide">Mosquito Dunks Canada Complete Guide</Link></li>
             <li><Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits vs Dunks — Which Kills Larvae Faster?</Link></li>
             <li><Link href="/blog/hidden-mosquito-breeding-spots-backyard">Hidden Mosquito Breeding Spots in Your Backyard</Link></li>
             <li><Link href="/blog/natural-mosquito-repellent-ontario">Natural Mosquito Repellent — What Works</Link></li>

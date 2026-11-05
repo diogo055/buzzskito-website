@@ -20,16 +20,15 @@ const SECTIONS: HubSection[] = [
     icon: '🪤',
     intro: 'The bait-first strategy starts here. An enclosed bait station holds a slow-acting bait that a foraging roach eats before it crawls back to the harbourage, which is how the dose can reach insects you never see; a glue board catches only what walks onto it, so its job is measuring, not control. These two guides cover which product class does which job, how many placements a kitchen needs and where they go.',
     guides: [
-      { href: '/blog/best-cockroach-killer-canada', title: 'Best Cockroach Killer Canada', blurb: 'Every roach product class on the Canadian shelf ranked by whether it reaches the colony, plus a week-by-week timeline for a bait program.' },
+      { href: '/blog/best-cockroach-spray-canada', title: 'Best Cockroach Killer & Spray in Canada', blurb: 'Every roach product class on the Canadian shelf ranked by whether it reaches the colony, a week-by-week timeline for a bait program, and the three jobs a spray can legitimately win.' },
       { href: '/blog/best-roach-traps-canada', title: 'Cockroach Traps in Canada', blurb: 'Glue-board monitors versus enclosed bait stations: which one measures, which one controls, how many to buy and where each goes.' },
     ],
   },
   {
     name: 'Sprays & Imported Gel',
     icon: '🧴',
-    intro: 'Two purchases that American advice treats as routine and that need a second look in Canada. Rutgers University notes that most of the active ingredients in retail roach sprays and aerosols are pyrethroids, which are repellent to cockroaches, so a can has a few narrow jobs and does not belong near bait. The gel bait that US forums recommend is registered in the United States, so check the label of any unit offered here for a Canadian registration number before you order.',
+    intro: 'Two purchases that American advice treats as routine and that need a second look in Canada. Rutgers University notes that most of the active ingredients in retail roach sprays and aerosols are pyrethroids, which are repellent to cockroaches, so a can has a few narrow jobs (covered in the killer and spray guide above) and does not belong near bait. The gel bait that US forums recommend is registered in the United States, so check the label of any unit offered here for a Canadian registration number before you order.',
     guides: [
-      { href: '/blog/best-cockroach-spray-canada', title: 'Cockroach Spray in Canada', blurb: 'The three jobs an aerosol legitimately wins, how to read a Canadian pesticide label, and why spraying near bait can put roaches off it.' },
       { href: '/blog/advion-cockroach-gel-bait', title: 'Advion Cockroach Gel Bait in Canada', blurb: 'What the gel is, why American forums recommend it, and the registration-number check to run on any gel bait listing before you buy.' },
     ],
   },

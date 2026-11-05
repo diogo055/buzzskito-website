@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { withRegionalAlternates } from '@/lib/guides'
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
@@ -87,14 +88,14 @@ const FAQS = [
   },
 ]
 
-export const metadata: Metadata = buildMetadata({
+export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   title: META_TITLE,
   description: 'A bed bug mattress encasement zips shut on all six sides so bugs inside can\'t bite and starve. Keep it on a year (EPA, Health Canada). Best covers in Canada.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
-})
+}), '/blog/bed-bug-mattress-encasement-canada')
 
 const AMZ_TAG = tagForSlug('bed-bug-mattress-encasement-canada')
 
@@ -187,6 +188,8 @@ export default function BedBugMattressEncasementCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
+          {/* Regional edition link (Oct 2026): this page is the Canadian edition; see REGIONAL_PAIRS in lib/guides.ts */}
+          <p className="not-prose mb-6 rounded-lg border border-navy-100 bg-brand-50 px-4 py-2.5 text-sm text-gray-700">Reading from the United States? Product rules and what is sold there differ. <Link href="/blog/best-bed-bug-mattress-cover" className="font-semibold text-brand-700 underline">See the US edition</Link>.</p>
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian availability for the encasements covered in this guide:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="saferest mattress encasement">SafeRest encasement on Amazon.ca →</BuyLink>

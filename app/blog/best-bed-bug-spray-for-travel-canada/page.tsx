@@ -340,8 +340,6 @@ export default function BestBedBugSprayForTravelCanadaPage() {
           <ul>
             <li><Link href="/blog/best-bed-bug-luggage-heater-canada">Best Bed-Bug Luggage Heater Canada — Heat the Whole Bag</Link></li>
             <li><Link href="/blog/bed-bug-spray-canada">Best Bed-Bug Spray Canada — Registered Home Products Compared</Link></li>
-            <li><Link href="/blog/best-bed-bug-spray-for-mattress-canada">Best Bed-Bug Spray for a Mattress Canada</Link></li>
-            <li><Link href="/blog/best-natural-bed-bug-spray-canada">Best Natural Bed-Bug Spray Canada — What Botanicals Actually Do</Link></li>
             <li><Link href="/blog/ecoraider-bed-bug-spray-review-canada">EcoRaider Bed-Bug Spray Review Canada</Link></li>
             <li><Link href="/blog/how-to-check-for-bed-bugs-canada">How to Check for Bed Bugs — The Hotel Inspection</Link></li>
             <li><Link href="/blog/bed-bug-mattress-encasement-canada">Bed-Bug Mattress Encasement Canada</Link></li>

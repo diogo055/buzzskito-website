@@ -381,7 +381,7 @@ export default function ThermacellCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Thermacell Patio Shield</strong></td><td className="px-3 py-2">Up to 4.5 m from the device (Health Canada RD2019-03)</td><td className="px-3 py-2">Low up-front, ongoing refills</td><td className="px-3 py-2">Patio dinners</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2">DEET / icaridin spray</td><td className="px-3 py-2">Skin only</td><td className="px-3 py-2">Lowest</td><td className="px-3 py-2">Walking, hiking</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2">Citronella candles</td><td className="px-3 py-2">~1m</td><td className="px-3 py-2">Lowest</td><td className="px-3 py-2">Ambiance only — limited efficacy</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/mosquito-dunks-canada-guide">Mosquito dunks (BTI)</Link></td><td className="px-3 py-2">Standing water only</td><td className="px-3 py-2">Low per season</td><td className="px-3 py-2">Rain barrels, ponds</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito dunks (BTI)</Link></td><td className="px-3 py-2">Standing water only</td><td className="px-3 py-2">Low per season</td><td className="px-3 py-2">Rain barrels, ponds</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Entire property</td><td className="px-3 py-2">From $99 per treatment (BuzzSkito)</td><td className="px-3 py-2">Whole-yard, re-applied on a schedule</td></tr>
             </tbody>
           </table>
@@ -390,7 +390,7 @@ export default function ThermacellCanadaPage() {
           <h2>The Smart GTA Mosquito Strategy</h2>
           <p>The most effective mosquito control for GTA backyards stacks three layers:</p>
           <ol>
-            <li><strong>Eliminate breeding sites</strong> — drain standing water, treat unavoidable sources with <Link href="/blog/mosquito-dunks-canada-guide">BTI dunks</Link></li>
+            <li><strong>Eliminate breeding sites</strong> — drain standing water, treat unavoidable sources with <Link href="/blog/mosquito-bits-canada-vs-dunks">BTI dunks</Link></li>
             <li><strong>Whole-yard barrier spray</strong> — <Link href="/mosquito-control">BuzzSkito&rsquo;s seasonal program</Link> applies a product with a Canadian PCP registration number to vegetation, according to label directions, under Ontario Pesticide Operator Licence L-240-2436835197, and re-applies it on a schedule across your entire property</li>
             <li><strong>Personal protection at the seating point</strong> — Thermacell on the deck gives you a final repellent zone where you actually sit, plus DEET/Picaridin if you walk into the yard at dusk</li>
           </ol>
@@ -408,7 +408,7 @@ export default function ThermacellCanadaPage() {
           <ul>
             <li><Link href="/blog/thermacell-e90-canada-review">Thermacell E90 Canada Review — Runtime, Coverage &amp; Refills</Link></li>
             <li><Link href="/blog/thermacell-refills-recharge-canada">Thermacell Refills &amp; Recharge Canada — Costs + Compatibility</Link></li>
-            <li><Link href="/blog/mosquito-dunks-canada-guide">Mosquito Dunks Canada — Where to Buy + How They Work</Link></li>
+            <li><Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits vs Dunks Canada — Where to Buy + How They Work</Link></li>
             <li><Link href="/blog/mosquito-repellent-guide-ontario-2026">Mosquito Repellent Guide — Ontario 2026</Link></li>
             <li><Link href="/blog/natural-mosquito-repellent-ontario">Natural Mosquito Repellent — What Actually Works</Link></li>
             <li><Link href="/mosquito-control">BuzzSkito Professional Mosquito Control Service</Link></li>

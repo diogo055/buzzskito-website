@@ -17,6 +17,8 @@
   "breadcrumb": "Bed Bug Spray",
   "excerpt": "The bed bug sprays and dusts backed by EPA labels and university research, where the label lets you spray a mattress, and why spray alone rarely ends an infestation.",
   "datePublished": "2026-11-05",
+  "reviewedBy": "Alex Francisco",
+  "reviewedOn": "2026-11-05",
   "parent": { "href": "/learn/bed-bugs", "name": "Bed Bugs" },
   "quickAnswer": {
     "lead": "**The best bed bug spray is an EPA-registered product labeled for bed bugs that pairs a pyrethroid with a second ingredient such as imidacloprid, used alongside silica gel dust, heat and mattress encasements, because sprays alone rarely end an infestation.** [UC IPM's bed bug pest note](https://ipm.ucanr.edu/home-and-landscape/bed-bugs/) says insecticide applications alone won't control bed bug infestations.",
@@ -96,7 +98,7 @@
 
     { "type": "h2", "text": "Can you use bed bug spray on a mattress?" },
     { "type": "p", "text": "Only if the label names mattresses, and only on the parts it names. UC IPM says pesticides aren't generally applied to mattresses or bedding because of the potential risk to people, and Kentucky notes that companies often treat seams and crevices but usually not the sleep surface. Labels differ even for the same ingredients. The Bedlam Plus label says to strip and wash the linens, apply to the mattress's tufts, folds, edges, sides and seams until damp, and let it dry before use, and it bars use on bed linens or anything else that touches the people in the bed. The [MGK label behind Harris Egg Kill & Resistant](https://www3.epa.gov/pesticides/chem_search/ppls/001021-02597-20260930.pdf) is stricter: no surface applications to mattresses or bedding, treatment limited to seams, folds and edges, and no pillows, bedding or clothing." },
-    { "type": "p", "text": "Once the treated mattress is dry, zip it and the box spring into encasements. EPA says covers that seal mattresses and box springs trap the bed bugs inside, where they die, and NPIC says encasements can salvage an infested bed or protect a replacement. If you are still deciding what to do with the mattress itself, [the guide to bed bugs on a mattress](/blog/bed-bugs-on-mattress) walks through the signs and the options." },
+    { "type": "p", "text": "Once the treated mattress is dry, zip it and the box spring into encasements. EPA says covers that seal mattresses and box springs trap the bed bugs inside, where they die, and NPIC says encasements can salvage an infested bed or protect a replacement. If you are still deciding what to do with the mattress itself, [the guide to bed bugs on a mattress](/blog/bed-bugs-on-mattress) walks through the signs and the options. To choose the covers, [what makes a mattress cover bed bug proof](/blog/best-bed-bug-mattress-cover) explains the zipper, testing and box spring checks." },
     { "type": "callout", "tone": "warning", "title": "Never on sheets or pillows", "text": "Neither spray label on this page allows treating bed linens, pillows or clothing. Wash and dry them instead: NPIC says 30 minutes in a dryer on high heat kills all bed bugs, including eggs." },
 
     { "type": "h2", "text": "How do you use a bed bug spray correctly?" },

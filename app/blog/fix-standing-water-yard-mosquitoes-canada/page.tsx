@@ -273,7 +273,7 @@ export default function FixStandingWaterYardPage() {
           </ul>
 
           <h2>The Water You Cannot Drain: BTI</h2>
-          <p>Every property has some water that stays. The correct tool there is <em>Bacillus thuringiensis israelensis</em> &mdash; BTI &mdash; a naturally occurring soil bacterium that kills mosquito and black-fly larvae and does nothing to fish, frogs, dogs, pollinators or people. Dunks are slow-release tablets, roughly 100 sq ft of water surface for about 30 days each; bits are quick-release granules for knocking down an active outbreak or for small containers you do not want a floating tablet in. Our <Link href="/blog/mosquito-dunks-canada-guide">mosquito dunks guide for Canada</Link> covers the Canadian retailers, pricing and the three mistakes people make with them.</p>
+          <p>Every property has some water that stays. The correct tool there is <em>Bacillus thuringiensis israelensis</em> &mdash; BTI &mdash; a naturally occurring soil bacterium that kills mosquito and black-fly larvae and does nothing to fish, frogs, dogs, pollinators or people. Dunks are slow-release tablets, roughly 100 sq ft of water surface for about 30 days each; bits are quick-release granules for knocking down an active outbreak or for small containers you do not want a floating tablet in. Our <Link href="/blog/mosquito-bits-canada-vs-dunks">mosquito bits and dunks guide for Canada</Link> covers the Canadian label, the retailers and how to use each format.</p>
           <p>Two habits make BTI work rather than be a thing you bought once: put a calendar reminder on the first of every month from May through September, and re-dose after any downpour heavy enough to flush a rain barrel or overtop a pond. A dunk that washed out in July is not protecting anything in August.</p>
           <div className="not-prose my-4 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="mosquito dunks bti">Mosquito dunks (BTI) &rarr;</BuyLink>
@@ -311,7 +311,7 @@ export default function FixStandingWaterYardPage() {
             <li><Link href="/blog/does-standing-water-attract-mosquitoes">Does Standing Water Attract Mosquitoes?</Link></li>
             <li><Link href="/blog/hidden-mosquito-breeding-spots-backyard">Hidden Mosquito Breeding Spots in Your Backyard</Link></li>
             <li><Link href="/blog/mosquito-larvae-identification">Mosquito Larvae Identification &mdash; What&rsquo;s in Your Water</Link></li>
-            <li><Link href="/blog/mosquito-dunks-canada-guide">Mosquito Dunks in Canada &mdash; Where to Buy &amp; 3 Mistakes</Link></li>
+            <li><Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits vs Dunks in Canada &mdash; Where to Buy &amp; How to Use Them</Link></li>
             <li><Link href="/blog/pond-aerator-mosquito-larvae-canada">Pond Aerators vs Mosquito Larvae in Canada</Link></li>
             <li><Link href="/blog/gutter-guards-mosquito-breeding-canada">Gutter Guards and Mosquito Breeding in Canada</Link></li>
             <li><Link href="/blog/rain-barrel-mosquito-proof-canada">How to Mosquito-Proof a Rain Barrel in Canada</Link></li>

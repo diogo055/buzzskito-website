@@ -283,7 +283,6 @@ export default function DoktorDoomSleepTightReviewCanadaPage() {
           <ul>
             <li><Link href="/blog/bed-bug-spray-canada">Best Bed Bug Spray &amp; Killer in Canada — Every PMRA-Legal Option Compared</Link></li>
             <li><Link href="/blog/cimexa-bed-bug-review-canada">CimeXa Bed Bug Review Canada — The Desiccant Dust That Kills for Months</Link></li>
-            <li><Link href="/blog/best-natural-bed-bug-spray-canada">Best Natural Bed Bug Spray Canada — What Actually Works</Link></li>
             <li><Link href="/blog/best-bed-bug-steamer-canada">Best Bed-Bug Steamer Canada — Heat That Kills the Eggs</Link></li>
             <li><Link href="/blog/bed-bug-interceptor-traps-canada">Bed-Bug Interceptor Traps Canada — Monitor and Protect the Bed</Link></li>
             <li><Link href="/blog/how-to-get-rid-of-bed-bugs-yourself-diy-canada">How to Get Rid of Bed Bugs Yourself (DIY, Canada)</Link></li>

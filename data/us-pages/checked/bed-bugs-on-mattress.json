@@ -2,9 +2,16 @@
  "id": "bed-bugs-on-mattress",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "2406d88e82b3ce455f4751954a4d877e90d71ad1874a4a48fa884dfb7089d1cf",
+ "sha": "834a2c9aefeffe535df96494544405ff306d95ad0cf0433a1fe626b489161227",
  "claimsChecked": 84,
  "claimsCorrected": 5,
  "claimsRemovedOrSoftened": 4,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-11-05",
+   "note": "Nov 5, 2026: one sentence linking the new US buying guide /blog/best-bed-bug-mattress-cover (no claim added)",
+   "previousSha": "2406d88e82b3ce455f4751954a4d877e90d71ad1874a4a48fa884dfb7089d1cf"
+  }
+ ]
 }

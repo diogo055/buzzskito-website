@@ -2,7 +2,7 @@
  "id": "millipedes",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "0bb41b21e3c6eb6b164d902259231076ff43512d6d0ed5fa9706de1db48afea8",
+ "sha": "7f4ea7939d8977e60d75a2cba02f011129f26753dd6990617a418772dc86a458",
  "claimsChecked": 250,
  "claimsCorrected": 3,
  "claimsRemovedOrSoftened": 0,
@@ -11,5 +11,12 @@
   "on": "2026-10-20",
   "scheduledFor": "2026-10-20",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-11-05",
+   "note": "Nov 5, 2026: links repointed after the merges (301 redirects): /blog/what-size-dehumidifier-do-i-need-canada and /blog/crawl-space-dehumidifier-vs-vapour-barrier-canada to /blog/best-large-capacity-dehumidifier-canada (one link now), plus a link to /blog/best-dehumidifier-for-cold-garage-canada for cold cellars and garages, which keeps two pre-existing topical links. No factual claim touched.",
+   "previousSha": "0bb41b21e3c6eb6b164d902259231076ff43512d6d0ed5fa9706de1db48afea8"
+  }
+ ]
 }

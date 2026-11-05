@@ -351,7 +351,7 @@ export default function HowToGetRidOfFruitFliesCanadaPage() {
             caption="A female dark-winged fungus gnat (family Sciaridae) on wood. Look for the mosquito-like shape and the dangly legs."
           />
           <p>If the small dark flies match neither, <Link href="/blog/tiny-black-bugs">tiny black bugs, room by room</Link> sorts the other suspects, such as drain flies and phorid flies, by where in the house you find them.</p>
-          <p>In the US, the usual fungus gnat fix is BTI — the same larvicidal bacterium used against mosquito larvae — in the plant soil: Summit labels its Mosquito Bits granules for fungus gnat larvae in planters and soil. In Canada, Health Canada&rsquo;s registry has no Mosquito Bits record, and none of the home-use products it lists for fungus gnats is a BTI: the BTI Mosquito Dunks (PCP 28888) list mosquitoes only, and the products that name fungus gnats are five indoor light traps (STEM 35296 and 35801, Raid Essentials 35297, Veyofly 36005, Zevo 36155; searched October 29, 2026). We cover the difference between the granules and the doughnut-shaped dunks in <Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits vs Dunks</Link>, and the full BTI product landscape in our <Link href="/blog/mosquito-dunks-canada-guide">mosquito dunks guide</Link>. Let the soil surface dry between waterings and the gnats lose their nursery entirely.</p>
+          <p>In the US, the usual fungus gnat fix is BTI — the same larvicidal bacterium used against mosquito larvae — in the plant soil: Summit labels its Mosquito Bits granules for fungus gnat larvae in planters and soil. In Canada, Health Canada&rsquo;s registry has no Mosquito Bits record, and none of the home-use products it lists for fungus gnats is a BTI: the BTI Mosquito Dunks (PCP 28888) list mosquitoes only, and the products that name fungus gnats are five indoor light traps (STEM 35296 and 35801, Raid Essentials 35297, Veyofly 36005, Zevo 36155; searched October 29, 2026). We cover the difference between the granules and the doughnut-shaped dunks, and the full BTI product landscape, in <Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits vs Dunks</Link>. Let the soil surface dry between waterings and the gnats lose their nursery entirely.</p>
 
           <h2 id="situation">Which Fruit Fly Fix for Your Situation?</h2>
           <ul>
@@ -400,7 +400,6 @@ export default function HowToGetRidOfFruitFliesCanadaPage() {
             <li><Link href="/blog/katchy-indoor-insect-trap-review-canada">Katchy Indoor Insect Trap Review — Canada</Link></li>
             <li><Link href="/blog/best-indoor-fly-mosquito-trap-canada">Best Indoor Fly &amp; Mosquito Trap in Canada</Link></li>
             <li><Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits vs Dunks — Which BTI Product for Fungus Gnats</Link></li>
-            <li><Link href="/blog/mosquito-dunks-canada-guide">Mosquito Dunks Canada Guide — BTI Explained</Link></li>
             <li><Link href="/pest-control-cost-canada">Pest Control Cost in Canada — What Professionals Charge</Link></li>
           </ul>
 

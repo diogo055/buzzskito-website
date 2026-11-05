@@ -2,7 +2,7 @@
  "id": "booklice",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "e5d766d02272153153efefd29a8be08bc678093bf79905a5c622cc33f0b65816",
+ "sha": "57f3d60f6348ab69ea1f61c7919d266e1c99459dff5cbb78347e1f974da24d88",
  "claimsChecked": 190,
  "claimsCorrected": 15,
  "claimsRemovedOrSoftened": 12,
@@ -27,6 +27,11 @@
    "on": "2026-10-29",
    "note": "Oct 28: wording of the new /blog/tiny-white-bugs link sentence tightened (it said photos of each one); no fact changed",
    "previousSha": "5dd01c6444fd4d17f3f2bf790ff246d63f1d5d0536d53e86a6ae59008e627fce"
+  },
+  {
+   "on": "2026-11-05",
+   "note": "Nov 5, 2026: link repointed from /blog/what-size-dehumidifier-do-i-need-canada to /blog/best-large-capacity-dehumidifier-canada after the merge (301 redirect; the sizing content moved there). No other text changed; no factual claim touched.",
+   "previousSha": "e5d766d02272153153efefd29a8be08bc678093bf79905a5c622cc33f0b65816"
   }
  ]
 }

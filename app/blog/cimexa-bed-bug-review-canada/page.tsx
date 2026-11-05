@@ -18,10 +18,19 @@ import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'cimexa-bed-bug-review-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-10-23'
-const TITLE = 'CimeXa Bed Bug Review Canada 2026 — Does the Silica Dust Actually Work?'
+const UPDATED = '2026-11-05'
+// TITLE NOTE (Nov 5, 2026): best-bed-bug-powder-canada was merged into this page (owner-approved merges). On the 66
+// searches the two shared (GSC, May 1-Nov 1, 2026) this page had 2,045 impressions at 6.7 and 34 clicks against the
+// powder page's 597 at 7.0 and 14 ("cimexa canada" 4.0 vs 8.0, "cimexa dust canada" 2.8 vs 8.9). The powder page's
+// own searches ("bed bug powder" 180 at 9.5, "bedbug powder" 65, "bed bugs powder" 46, "best bed bug powder", "silica
+// gel dust for bed bugs" 20 at 5.7, "cimexa vs diatomaceous earth" where it sat at 3.6) are now this page's job, so the
+// titles name bed bug powder and CimeXa vs DE; the legal question stays in the H1 and the description. Its powder table
+// (CimeXa carried only in the row that states it has no Canadian registration), sourced comparison, light-film, safety
+// and buying sections and 3 FAQs came across. Was 'CimeXa Bed Bug Review Canada 2026 — Does the Silica Dust Actually
+// Work?', META_TITLE 'CimeXa Canada: Review, Label & Legal Status'.
+const TITLE = 'CimeXa Review Canada 2026 — CimeXa vs Diatomaceous Earth, and the Best Bed Bug Powder You Can Legally Use'
 // TITLE NOTE (Oct 23, 2026): was 'CimeXa Review Canada 2026: Silica Bed Bug Dust'; top queries: cimexa 798, cimexa canada 213, cimexa dust 127, cimexa vs diatomaceous earth 106 (25 clicks). The Canadian searcher's question is whether it is legal here; the title answers that.
-const META_TITLE = 'CimeXa Canada: Review, Label & Legal Status'
+const META_TITLE = 'CimeXa Canada vs DE: Best Bed Bug Powder'
 
 const FAQS = [
   {
@@ -29,8 +38,16 @@ const FAQS = [
     answer: 'Yes — and it kills them by a mechanism they cannot evolve around. CimeXa is amorphous silica gel, a desiccant: its microscopic particles cling to a bed bug’s waxy outer cuticle, abrade and absorb the protective wax layer, and the insect dies of dehydration over a few days. Because the kill is physical rather than chemical, the pyrethroid resistance now widespread in North American bed bug populations does not stop it; at label rates both resistant and susceptible strains died in a 2016 study, though the resistant strain survived longer at sub-label doses. University lab work (notably from the University of Kentucky and Rutgers) has shown silica gel dusts killing bed bugs far faster and more completely than diatomaceous earth. The catch is that desiccation takes days, not minutes, so CimeXa is a residual barrier you apply and leave, not a knockdown spray.',
   },
   {
+    question: 'What is the best bed bug powder in Canada?',
+    answer: 'Our top pick on lab results is a silica-gel (amorphous silica) dust like CimeXa — it kills faster than diatomaceous earth, keeps working for months when left undisturbed in dry cracks and voids, and you use far less of it — but CimeXa has no Canadian registration: Health Canada’s pesticide registry has no CimeXa listing and no domestic-class silica gel dust for bed bugs. For a dust whose label shows a Canadian PCP number, pick a diatomaceous earth such as Doktor Doom Be Green (Reg. No. 32561): low-cost, widely available at Canadian retailers, and effective in the right dry spots, just more slowly. The honest catch with any powder is that it is a slow, contact-only tool: bugs must physically walk through a thin, barely visible film before it dehydrates them over days, so a dust is one layer of a plan, never the whole plan.',
+  },
+  {
     question: 'Is CimeXa the same as diatomaceous earth?',
     answer: 'No, and the difference is the whole reason to consider it. Both are desiccant dusts that kill by drying insects out, but they are made of different silica. Diatomaceous earth (DE) is crushed fossilized diatoms — a coarser, crystalline-adjacent powder. CimeXa is engineered amorphous (non-crystalline) silica gel with a far higher surface area and a much lighter, finer particle. In practice that means CimeXa absorbs more wax per particle, works faster, needs a much thinner application to stay effective, and clings to insects better. University of Kentucky testing found 97.5% of bed bugs dead within 24 hours after brief contact with silica gel, against 10% with DE. DE is cheaper, more widely stocked and, in Canada, the registered option; CimeXa is the more effective dust where it is registered, as in the United States.',
+  },
+  {
+    question: 'Does silica gel kill bed bugs?',
+    answer: 'Yes. Amorphous silica gel dust clings to a bed bug and absorbs the waxy coating on its body, so the bug dies of dehydration (that is how the CimeXa label describes it), and in Rutgers lab tests a 5-minute contact killed over 95% of field-collected bed bugs within 72 hours. In Canada the catch is registration: PMRA’s registry lists no CimeXa and no domestic-class silica gel dust for bed bugs, and the one current silica-aerogel bed bug dust, Drione (Reg. No. 15255), is commercial class. Health Canada says not to buy or use a product whose label has no PCP registration number.',
   },
   {
     question: 'Is CimeXa harmful to people or pets?',
@@ -65,6 +82,10 @@ const FAQS = [
     answer: 'For a light, early, well-applied case — sometimes. For an established infestation — no, and no honest review claims otherwise. A desiccant dust is a superb residual barrier, but it only kills bugs that walk across treated surfaces, and it does nothing for eggs cemented in seams you did not dust or bugs harbouring somewhere you missed. The winning pattern pairs CimeXa with mattress and box-spring encasements, interceptor cups under the bed legs, aggressive vacuuming, and heat for the eggs — and, for anything beyond a caught-early problem, a professional treatment, with the dust working as the long-term backstop in the voids. It is a keystone tool in a plan, not the whole plan.',
   },
   {
+    question: 'Does bed bug powder actually work?',
+    answer: 'Yes, as a slow, long-lasting layer rather than a quick fix. In a Rutgers University field study, apartments treated with non-chemical methods plus a silica gel dust saw bed bug counts fall 99% over six months, against 89% with the non-chemical methods alone. In Rutgers lab tests, a 5-minute contact with CimeXa silica gel killed over 95% of field-collected bed bugs within 72 hours, while a diatomaceous earth dust killed every bed bug but took 4 to 6 days. A dust only works where bugs walk through it, and steam, or months in damp conditions, weakens it.',
+  },
+  {
     question: 'Does CimeXa need PMRA registration, and why does that matter?',
     answer: 'Yes. Unlike a purely physical device such as a heat chamber, a desiccant dust is a pest control product, so in Canada it needs a PCP registration number, and Health Canada’s database lists none for CimeXa (October 2026). That matters for the same reason it matters for the US-only sprays that forums push, such as Crossfire and Temprid FX: an unregistered product has no Canadian label, and Health Canada’s advice is not to buy or use it. The registered route to a desiccant in Canada is a diatomaceous earth dust with a PCP number, or a licensed professional using a commercial-class dust such as Drione (PCP 15255, pyrethrins with silica aerogel).',
   },
@@ -84,7 +105,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'CimeXa is amorphous silica dust, EPA-registered in the US but not in Health Canada’s database. Its label use sites, the research vs DE, and Canadian options.',
+  description: 'CimeXa vs diatomaceous earth: CimeXa is EPA-registered in the US but not in Canada. The best bed bug powder with a PCP number, the research, and how to apply.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -96,7 +117,7 @@ const AMZ_TAG = tagForSlug('cimexa-bed-bug-review-canada')
 export default function CimexaBedBugReviewCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian review of CimeXa amorphous silica gel dust for bed bugs: desiccant kill mechanism, CimeXa vs diatomaceous earth, long residual, crack-and-crevice application technique, and how it fits a whole-home plan.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian review of CimeXa amorphous silica gel dust for bed bugs: desiccant kill mechanism, CimeXa vs diatomaceous earth, the best bed bug powder with a Canadian PCP number, long residual, the light-film application technique, dust safety, and how it fits a whole-home plan.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'CimeXa Bed Bug Review Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -109,7 +130,7 @@ export default function CimexaBedBugReviewCanadaPage() {
             <span className="text-white">CimeXa Bed Bug Review Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">CimeXa is an amorphous silica dust (92.1% silicon dioxide on its US EPA label, Reg. No. 73079-12) that kills bed bugs by drying them out, and University of Kentucky and Rutgers tests found it far faster than diatomaceous earth. It suits people dusting bed frames, seams and wall voids as a long-term backstop, but Health Canada&rsquo;s pesticide database lists no Canadian registration for it.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">CimeXa is an amorphous silica dust (92.1% silicon dioxide on its US EPA label, Reg. No. 73079-12) that kills bed bugs by drying them out, and University of Kentucky and Rutgers tests found it far faster than diatomaceous earth. It suits people dusting bed frames, seams and wall voids as a long-term backstop, but Health Canada&rsquo;s pesticide database lists no Canadian registration for it. For a bed bug powder whose label shows a Canadian PCP number, pick a diatomaceous earth such as Doktor Doom Be Green (Reg. No. 32561).</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -130,6 +151,7 @@ export default function CimexaBedBugReviewCanadaPage() {
               <li>Apply a light film with a bellows, bulb or puffer duster (label rate: 2 oz per 100 sq ft) to bed-frame joints, mattress and box-spring tufts, folds and edges, baseboards and wall voids &mdash; never a heap.</li>
               <li>The label&rsquo;s CAUTION is for moderate eye irritation: keep it out of your eyes, wear a dust mask, and keep it dry.</li>
               <li>Canada: no CimeXa registration in Health Canada&rsquo;s database (US EPA Reg. No. 73079-12 only), and Health Canada says not to buy or use a product without a PCP number.</li>
+              <li>Best bed bug powder with a Canadian PCP number: a diatomaceous earth whose label lists bed bugs, such as Doktor Doom Be Green (Reg. No. 32561) or Knock Down DE (Reg. No. 31048 or 32665); never pool-grade DE indoors.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito Pest Product Guides &middot; independent Canadian research</p>
           </div>
@@ -286,14 +308,76 @@ export default function CimexaBedBugReviewCanadaPage() {
               ['You planned to mix it with water and spray it', 'Dust it dry instead', 'In Kentucky apartments the sprayed suspension cut bed bugs by about a third; the dry dust by 98%'],
               ['Bugs in several rooms or units', 'A licensed exterminator', 'Professionals can use commercial-class dusts such as Drione'],
             ]}
-            caption={<>Each row restates the table above or the CimeXa label. For mattress sprays registered in Canada, see <Link href="/blog/best-bed-bug-spray-for-mattress-canada" className="underline hover:text-brand-700">which bed bug sprays may go on a mattress</Link>.</>}
+            caption={<>Each row restates the table above or the CimeXa label. For mattress sprays registered in Canada, see <Link href="/blog/bed-bug-spray-canada" className="underline hover:text-brand-700">bed bug sprays in Canada, including which may go on a mattress</Link>.</>}
           />
+
+          <h2>Best Bed Bug Powder in Canada: Silica Gel vs Diatomaceous Earth</h2>
+          <p>The strongest bed bug powder in lab tests is a <strong>silica-gel dust</strong>, sold most recognizably as CimeXa, because it does the one thing a desiccant dust exists to do more efficiently than anything else: it dries bed bugs out fast, at a barely-there application rate. In Canada, though, CimeXa has no registration, and Health Canada&rsquo;s registry lists no domestic-class silica gel dust for bed bugs. The registered alternative, <strong>diatomaceous earth</strong> with a PCP number such as Doktor Doom Be Green (Reg. No. 32561), kills the same way and earns its place on cost and availability, but it is slower and needs a heavier film to match silica. Either way, a powder is the patient, long-lasting background layer in a plan that also includes heat and physical removal, not a fast fix.</p>
+
+          <QuickIdTable
+            title="Bed bug powders compared: what the labels and studies say"
+            head={['Powder', 'How it works', 'Speed in tests', 'Limits', 'Canada (PMRA registry)']}
+            rows={[
+              ['Silica gel dust (CimeXa)', 'Clings to the bug and absorbs its waxy coating, so it dies of dehydration (92.1% amorphous silica)', 'A 5-minute contact killed over 95% of field-collected bed bugs within 72 hours', 'Steam, and months in damp conditions, cut its kill rate; label rate 2 oz per 100 sq ft', 'No CimeXa listing (searched Oct 23, 2026); its label carries U.S. EPA Reg. No. 73079-12'],
+              ['Diatomaceous earth with a PCP number (e.g. Doktor Doom Be Green Premium Food Grade DE)', 'The same drying action, from fossil diatoms (81.5% silicon dioxide as diatomaceous earth)', 'A DE dust killed every bed bug, resistant strains included, but took 4 to 6 days', 'Label: “Avoid breathing dust”; 5.0 g per square metre, applied “lightly and uniformly”', 'Domestic class, Reg. No. 32561; the label lists bed bugs'],
+              ['Diatomaceous earth with no PCP number (feed, garden or other “food grade” bags)', 'The same mineral, sold for another use', 'Quality varies: in a 2024 lab study, supermarket DE and litter-conditioner DE were ineffective against bed bugs', 'EPA: “Pool or food grade diatomaceous earth should not be used”; it “can harm you when you breathe it in”', 'Not a registered pest control product; Health Canada: “If the product label does not have a PCP registration number, do not buy or use it.”'],
+              ['Silica aerogel + pyrethrins (Drione Insecticide Dust)', 'Silica aerogel plus the insecticide pyrethrins and piperonyl butoxide', 'Killed pyrethroid-susceptible bed bugs within an hour; much slower on resistant tropical bed bugs', 'Commercial class, not domestic', 'Reg. No. 15255: the only current silica-aerogel bed bug dust in the registry'],
+              ['Bulb hand-duster', 'Puffs a thin, even film into cracks and voids', '—', 'The DE label allows application “by hand or by hand duster”; CimeXa’s label names a bulb or puffer duster', 'A tool, so no registration'],
+            ]}
+            caption={<>Sources: the <a href="https://pest-control.canada.ca/pesticide-registry/en/product-search.html" target="_blank" rel="noopener noreferrer" className="underline">PMRA product registry</a> (searched Oct 23, 2026), including the labels of <a href="https://pest-control.canada.ca/pesticide-registry/en/product-details.html?q=32561" target="_blank" rel="noopener noreferrer" className="underline">Reg. No. 32561</a> and <a href="https://pest-control.canada.ca/pesticide-registry/en/product-details.html?q=15255" target="_blank" rel="noopener noreferrer" className="underline">Reg. No. 15255</a>; the <a href="https://rockwelllabs.com/wp-content/uploads/2025/04/CimeXa-Product-Label.pdf" target="_blank" rel="noopener noreferrer" className="underline">CimeXa label</a> (Rockwell Labs); Rutgers University lab studies by <a href="https://doi.org/10.3390/insects14020133" target="_blank" rel="noopener noreferrer" className="underline">Yu, Ranabhat &amp; Wang (2023)</a> on CimeXa, <a href="https://doi.org/10.1093/jee/toaf244" target="_blank" rel="noopener noreferrer" className="underline">Yu, Daramola &amp; Wang (2025)</a> on DE and <a href="https://doi.org/10.1093/jee/toaa122" target="_blank" rel="noopener noreferrer" className="underline">Ranabhat &amp; Wang (2020)</a> on steam and humidity; <a href="https://doi.org/10.1051/parasite/2024040" target="_blank" rel="noopener noreferrer" className="underline">Oumarou et al. (2024)</a> on supermarket DE; <a href="https://doi.org/10.1093/jee/toaf359" target="_blank" rel="noopener noreferrer" className="underline">Lum &amp; Veera Singham (2026)</a> on Drione; the EPA&rsquo;s <a href="https://www.epa.gov/bedbugs/do-it-yourself-bed-bug-control" target="_blank" rel="noopener noreferrer" className="underline">Do-it-yourself Bed Bug Control</a> page; and <a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/bedbugs-how-do-i-get-rid-them.html" target="_blank" rel="noopener noreferrer" className="underline">Health Canada</a>.</>}
+          />
+
+          <h3>Bed bug powders and the applicator: what each is for</h3>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm my-6">
+            <table className="min-w-[560px] w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Powder / tool</th>
+                  <th className="px-4 py-3 text-left">Speed &amp; rate</th>
+                  <th className="px-4 py-3 text-left">Best at</th>
+                  <th className="px-4 py-3 text-left">Watch out for</th>
+                  <th className="px-4 py-3 text-left">Availability</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Silica gel dust<br /><span className="font-normal text-xs text-gray-500">CimeXa</span></td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; faster kill, very light rate</td>
+                  <td className="px-4 py-3 text-gray-700">Long residual in dry cracks &amp; voids</td>
+                  <td className="px-4 py-3 text-gray-700">No Canadian registration found (no CimeXa listing; its label carries U.S. EPA Reg. No. 73079-12)</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cimexa insecticide dust" block>Check price on Amazon.ca →</BuyLink></td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Diatomaceous earth<br /><span className="font-normal text-xs text-gray-500">Doktor Doom, food-grade</span></td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Good</strong> &mdash; slower, heavier film</td>
+                  <td className="px-4 py-3 text-gray-700">Cheap, easy to find, domestic-class registration</td>
+                  <td className="px-4 py-3 text-gray-700">PCP number on the label (Be Green: 32561); wear a mask</td>
+                  <td className="px-4 py-3 text-xs text-gray-500">Our Canada-legal pick, linked above</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Knock Down DE<br /><span className="font-normal text-xs text-gray-500">registered alternative</span></td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Good</strong> &mdash; slower, heavier film</td>
+                  <td className="px-4 py-3 text-gray-700">A second DE with a PCP number (Reg. No. 31048 or 32665)</td>
+                  <td className="px-4 py-3 text-gray-700">Only a bag whose label shows a PCP number and lists bed bugs; never pool-grade (crystalline silica)</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="knock down diatomaceous earth" block>Check price on Amazon.ca →</BuyLink></td>
+                </tr>
+                <tr className="align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Bulb hand-duster<br /><span className="font-normal text-xs text-gray-500">applicator</span></td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Essential</strong> &mdash; meters the film</td>
+                  <td className="px-4 py-3 text-gray-700">Fine, even dusting into cracks/voids</td>
+                  <td className="px-4 py-3 text-gray-700">Takes practice not to over-puff</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bulb hand duster pest control" block>Check price on Amazon.ca →</BuyLink></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="not-prose text-xs text-gray-500 mb-4">Pest-control products in Canada are regulated by Health Canada&rsquo;s PMRA. Check the label for a Canadian PCP number, wherever you shop: some dusts sold freely in the United States are not registered here, CimeXa among them (no listing in Health Canada&rsquo;s registry).</p>
 
           <h2>The Near-Permanent Residual: A Dust&rsquo;s Superpower</h2>
           <p>Here is the property that makes a desiccant dust different in kind from any liquid: it does not break down. A sprayed residual degrades over weeks &mdash; UV, humidity, and simple chemistry chew through it, which is why label re-treatment intervals exist. A film of silica gel laid into a dry, undisturbed void has no such clock. The manufacturer cites up to ten years of residual activity, and while nobody is auditing a decade-old crack, the underlying point holds: a bed bug crossing that treated joint many months after you applied it dies exactly as reliably as one crossing it on the first day.</p>
           <p>That longevity reframes what the dust is for. It is not primarily a way to kill the bugs you have today &mdash; it is slow, and other tools do knockdown better. It is a way to make the geography of your home permanently hostile: every crack, void, and travel route becomes a place a bed bug cannot survive crossing, this season and next. Two things end that protection, and both are within your control &mdash; moisture, which clumps the dust and stops it working, and disturbance, which physically removes it (so do not vacuum or wipe your treated voids). Applied where it stays dry and untouched, CimeXa is closer to a permanent modification of the building than to a treatment.</p>
 
-          <h2>How to Apply CimeXa Correctly &mdash; Thin Is Everything</h2>
+          <h2>How to Apply CimeXa or Any Bed Bug Powder &mdash; Thin Is Everything</h2>
           <p>The single most common way people waste CimeXa &mdash; and undercut its effectiveness &mdash; is applying too much. A visible pile of dust is worse than a thin film in two ways: it wastes product, and bed bugs actively detect and detour around heavy deposits, so a mound in a corner protects nothing. The goal is a barely-perceptible haze that a bug cannot see to avoid but cannot cross without picking up a lethal dose. That is a job for a tool, not a shaking bottle.</p>
           <ul>
             <li><strong>Use a bellows/hand duster.</strong> Squeezing a bellows aerosolizes the powder into the thin, even film that actually works and pushes it deep into voids you cannot otherwise reach &mdash; into a bolt hole, behind a baseboard, up under a switch plate. Buy the duster with the dust; it is the difference between a professional application and a mess.</li>
@@ -303,11 +387,24 @@ export default function CimexaBedBugReviewCanadaPage() {
             <li><strong>Keep it dry.</strong> Do not apply in damp areas or where it can get wet; moisture clumps silica gel and kills its activity.</li>
           </ul>
           <p>Applied this way, a small bottle covers an entire bedroom&rsquo;s harbourage several times over, with plenty left for the precautionary re-dusting that keeps a home protected in the months after the visible problem is gone.</p>
+          <p>The same rules hold for diatomaceous earth or any other bed bug powder. A bed bug will detect and walk <em>around</em> a visible pile or a thick line of dust; it will readily walk <em>through</em> a film so thin you can barely tell it is there. The goal is a faint haze, not a snowdrift: puffing dust from a duster lays down a controlled mist, while shaking it from a jar dumps clumps a bug will simply avoid. Before you dust behind a switch plate or outlet cover, turn the power off at the breaker, remove the cover and puff a light dust into the wall void beside the box, not into the electrical box itself.</p>
+
+          <h2>Safety: A PCP Number, and Mind the Dust</h2>
+          <p>With diatomaceous earth, as with CimeXa, the hazard to plan for is inhalation. Diatomaceous earth is a naturally occurring mineral, and the Be Green label (Reg. No. 32561) says &ldquo;Avoid breathing dust.&rdquo; Breathing clouds of any fine powder can irritate your lungs, nose, throat, and eyes, so wear a dust mask while applying, work slowly to avoid raising clouds, and apply thin films into cracks rather than broadcasting powder across open floor.</p>
+          <p>One rule is non-negotiable: <strong>never use pool-grade (calcined) diatomaceous earth indoors.</strong> Pool-filter DE is heat-treated into a form that contains crystalline silica, a serious respiratory hazard, and it is also far less effective as an insecticide. For bed bugs, only buy a DE whose label shows a Canadian <em>PCP registration number</em>; Health Canada says not to buy or use a pest control product without one.</p>
 
           <RelatedLinks path="/blog/cimexa-bed-bug-review-canada" />
           <h2>What You&rsquo;re Actually Paying For &mdash; and When a Cheaper Dust Will Do</h2>
           <p>CimeXa is not expensive in absolute terms, but it costs more than a bag of diatomaceous earth, so it is worth being clear about what the premium buys and when you can skip it. You are paying for engineered particle science: higher surface area, faster kill, a thinner effective film, and better cling. For an <strong>active or spreading infestation</strong>, where killing bugs quickly and reliably before they colonize the rest of a unit genuinely matters, that speed advantage is worth the modest extra outlay &mdash; the faster the residual works, the fewer bugs survive to lay the next batch of eggs.</p>
           <p>For a <strong>light, precautionary, or budget-constrained</strong> situation &mdash; dusting the voids of a guest room, hardening a home after travel, or working with almost no money &mdash; diatomaceous earth is a legitimate, effective, resistance-proof choice and there is no shame in reaching for it. The mistake in the other direction is more expensive: buying grey-market US chemical concentrates because a forum promised they are &ldquo;stronger.&rdquo; They are not stronger against a resistant population, they are frequently illegal to import into Canada, and they trade a clean physical mechanism for one the bugs may already beat. Outside Canada, CimeXa is the pick if you want the best dust; in Canada, where no CimeXa registration exists, the registered choice is a diatomaceous earth dust such as DX 13 (PCP 30973); the chemical grey market is the option to avoid regardless of budget.</p>
+          <p>If you are choosing a bed bug powder, put your money and attention in this order:</p>
+          <ul>
+            <li><strong>Kill speed and rate (this is where silica wins in lab tests).</strong> Silica gel kills sooner, and a small container lasts a long time because the correct film is so light, but PMRA&rsquo;s registry has no domestic-class silica gel dust for bed bugs, so check any listing for a PCP number before you pay for one.</li>
+            <li><strong>A proper applicator (do not skip this).</strong> A bulb hand-duster is the difference between a film that works and a pile a bug avoids. It is inexpensive relative to how much it improves the outcome. Buy one with the powder.</li>
+            <li><strong>A PCP registration number (a hard requirement for DE).</strong> Only a DE whose label carries a Canadian PCP number and lists bed bugs goes on a bed bug job; &ldquo;food grade&rdquo; on the bag is not the test. Confirm it on the label; never substitute pool-grade to save money.</li>
+            <li><strong>Volume, only after the above.</strong> A big bulk bag of DE is the cheapest whole-home coverage &mdash; but volume is worthless if the bag has no PCP number, is the wrong grade, is applied too heavily, or is bought instead of a duster. Sort the essentials first, then size up.</li>
+          </ul>
+          <p>A bag of DE with a PCP number plus a duster covers a bedroom; Be Green&rsquo;s label sizes run from 100 g to 7 kg, so a bigger bag with the same PCP number is the budget route to dusting an entire home.</p>
 
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth">Check Doktor Doom Be Green DE (PCP 32561) on Amazon.ca &rarr;</BuyLink>
@@ -323,13 +420,14 @@ export default function CimexaBedBugReviewCanadaPage() {
             <li><strong>Dust the voids &mdash; CimeXa&rsquo;s job.</strong> Once the population is knocked down, the silica gel in every crack and travel route keeps killing survivors and re-invaders for years.</li>
           </ul>
           <p>For anything beyond a caught-early, localized problem &mdash; a spreading infestation in an apartment, or bugs established in furniture and walls &mdash; a professional treatment is the honest answer, with the dust working as the permanent backstop the pros leave behind. Our guides on <Link href="/blog/how-to-get-rid-of-bed-bugs-canada">how to get rid of bed bugs in Canada</Link> and <Link href="/blog/how-to-get-rid-of-bed-bugs-in-apartment-canada">bed bugs in an apartment</Link> walk through how the pieces fit together.</p>
+          <p>Order matters with any powder: vacuum first, then steam, and dust only once every treated surface is completely dry, because steam, and months in damp conditions, cut the kill rate of dusts, CimeXa included (Rutgers, 2020). And if you need bugs dead tonight, no powder does that: steam the seams and hot-dry bedding and clothes; Health Canada says to put small non-washable items in a hot dryer for 30 minutes or more. For where heat and chemistry each earn their keep, see <Link href="/blog/heat-vs-chemical-bed-bug-treatment-canada">heat vs chemical bed bug treatment</Link>.</p>
 
           <h2>The Regulatory Angle: Is CimeXa Legal in Canada?</h2>
           <p>Spend any time in bed bug forums and you will be pointed toward the grey market: Canadians told to import US-market concentrates like Crossfire or Temprid FX because &ldquo;the products here don&rsquo;t work.&rdquo; It is worth understanding what that advice actually entails. Those products are not registered for sale to Canadian consumers under the Pest Control Products Act, importing unregistered pesticides violates the Pest Control Products Act, and &mdash; the part the threads skip &mdash; the resistance that motivates the smuggling does not stop at the border. Pyrethroid resistance is widespread in Canadian bed bug populations, and several smuggled products lean on exactly the chemistry the bugs already survive.</p>
           <p>A desiccant dust kills by a physical mechanism, which is why pyrethroid resistance does not stop it. But a dust is still a pest control product, so the registration question applies to it exactly as it does to sprays, and for CimeXa the answer is plain: a search of Health Canada&rsquo;s Pesticide Product Information Database on October 23, 2026 found no CimeXa product, and its US maker&rsquo;s only Canadian registrations are two commercial-class products, Aprehend and Boractin. CimeXa is registered in the United States under EPA Reg. No. 73079-12. Health Canada&rsquo;s advice is that if a label has no PCP registration number, you should not buy or use the product. The registered desiccants for bed bugs in Canada are diatomaceous earth dusts sold to homeowners, such as DX 13 (PCP 30973) and Ortho Bed Bug B Gon Diatom (PCP 32674), and Drione (PCP 15255), a silica aerogel dust with pyrethrins that is registered only in the commercial class.</p>
 
           <h2>Verdict: The Best Dust, Used the Right Way</h2>
-          <p>CimeXa earns its 9.1 by being the best version of a precisely scoped tool. As a residual barrier it is close to unimprovable: a kill mechanism that pyrethroid resistance does not stop, a faster and thinner-applying performance than diatomaceous earth, a residual measured in years rather than weeks, and value so good that one bottle outlasts the problem. Its limits are about scope, not quality &mdash; it is deliberately slow, it treats voids and travel routes rather than eggs, and it demands a duster and a light hand to work as designed. Those are not flaws so much as the honest boundaries of what a dust is.</p>
+          <p>CimeXa earns its place by being the best version of a precisely scoped tool. As a residual barrier it is close to unimprovable: a kill mechanism that pyrethroid resistance does not stop, a faster and thinner-applying performance than diatomaceous earth, a residual measured in years rather than weeks, and value so good that one bottle outlasts the problem. Its limits are about scope, not quality &mdash; it is deliberately slow, it treats voids and travel routes rather than eggs, and it demands a duster and a light hand to work as designed. Those are not flaws so much as the honest boundaries of what a dust is.</p>
           <p>Where it is registered, buy it as the permanent backstop in a layered plan, apply it thin and dry into every crack and void, and it is one of the few bed bug purchases that keeps paying off for years. Reach for a registered diatomaceous earth dust if you are in Canada or if budget is the deciding factor, avoid the chemical grey market entirely, and let the silica gel do the quiet, patient work of making your home a place a bed bug cannot cross.</p>
 
           <h2>Frequently Asked Questions</h2>
@@ -351,6 +449,7 @@ export default function CimexaBedBugReviewCanadaPage() {
             <li><Link href="/blog/diatomaceous-earth-for-bed-bugs">Diatomaceous Earth for Bed Bugs — The Budget Desiccant</Link></li>
             <li><Link href="/blog/bed-bug-spray-canada">Bed Bug Spray Canada — What Actually Works</Link></li>
             <li><Link href="/blog/best-bed-bug-steamer-canada">Best Bed-Bug Steamer Canada — Heat That Kills the Eggs</Link></li>
+            <li><Link href="/blog/how-to-kill-bed-bug-eggs-canada">How to Kill Bed-Bug Eggs in Canada</Link></li>
             <li><Link href="/blog/bed-bug-interceptor-traps-canada">Bed-Bug Interceptor Traps Canada — Monitor and Protect the Bed</Link></li>
             <li><Link href="/blog/bed-bug-mattress-encasement-canada">Bed-Bug Mattress Encasements Canada</Link></li>
             <li><Link href="/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada">Best Sealed-HEPA Vacuum for Bed Bugs &amp; Fleas Canada</Link></li>

@@ -144,7 +144,7 @@ export default function PreventMosquitoesPage() {
         <p>Decomposing leaves create moist, shaded microhabitats that mosquitoes use as resting sites and that trap the moisture that enables larval development in small depressions. Rake leaf litter from garden beds and lawn edges regularly throughout the season.</p>
 
         <h3>9. Use Mosquito Dunks in Ornamental Ponds</h3>
-        <p>If you have a pond, rain barrel, or other permanent water feature you can't drain or empty, use Bacillus thuringiensis israelensis (Bti) mosquito dunks. These biological control products kill mosquito larvae without harming fish, frogs, or other wildlife. One floating dunk treats up to 100 sq ft of surface water for about 30 days — see our full <Link href="/blog/mosquito-dunks-canada-guide" className="text-brand-700 hover:underline">mosquito dunks buyer's guide for Canada</Link> for dosing and where to buy.</p>
+        <p>If you have a pond, rain barrel, or other permanent water feature you can't drain or empty, use Bacillus thuringiensis israelensis (Bti) mosquito dunks. These biological control products kill mosquito larvae without harming fish, frogs, or other wildlife. One floating dunk treats up to 100 sq ft of surface water for about 30 days — see our full <Link href="/blog/mosquito-bits-canada-vs-dunks" className="text-brand-700 hover:underline">mosquito bits and dunks guide for Canada</Link> for dosing and where to buy.</p>
         <TopPick tag={AMZ_TAG}
           label="Our Top Pick for Untreatable Standing Water"
           name="Summit BTI Mosquito Dunks"

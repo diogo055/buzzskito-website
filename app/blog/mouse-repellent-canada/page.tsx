@@ -39,7 +39,9 @@ const UPDATED = '2026-11-04'
 // RULES table by anchoring that token to "insect-repellent"/"bug-repellent"; the tag
 // still comes from tagForSlug and is never hardcoded.
 const TITLE = 'Mouse Repellent in Canada — What Actually Repels a Mouse, and What Just Sells Well'
-const META_TITLE = 'Mouse Repellent Canada: What Actually Works'
+// Nov 5, 2026: "nestoff mouse repellent" brought about 1,150 impressions a month at position 7 with no
+// match in the title; the page's NestOff section answers whether it works.
+const META_TITLE = 'Mouse Repellent Canada: Does NestOff Work?'
 
 const FAQS = [
   {

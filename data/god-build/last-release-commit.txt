@@ -1,8 +1,6 @@
-release: 6 scheduled page(s) go live (2026-11-05)
+release: 4 scheduled page(s) go live (2026-11-05)
 
-- /blog/best-fruit-fly-traps
-- /blog/best-rat-traps
-- /blog/best-cockroach-gel-bait
-- /blog/best-bed-bug-spray
-- /blog/best-flea-spray-for-home
-- /blog/raccoon-repellent
+- /blog/best-ant-bait
+- /blog/best-bed-bug-mattress-cover
+- /blog/best-mosquito-repellent
+- /blog/best-bug-zapper

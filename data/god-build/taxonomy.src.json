@@ -33831,6 +33831,239 @@
    "suggestedWeek": "2026-11-02",
    "releaseOrder": 280,
    "evidenceScore": null
+  },
+  {
+   "slug": "best-ant-bait",
+   "path": "/blog/best-ant-bait",
+   "section": "blog",
+   "role": "page",
+   "cluster": "ants",
+   "guideCluster": "ants",
+   "family": "us-buying",
+   "pageType": "buying",
+   "audience": "us",
+   "title": "Best Ant Killer: Ant Baits and Traps That Reach the Colony",
+   "metaTitle": "Best Ant Killer: Baits That Reach the Colony",
+   "keyword": "ant killer",
+   "alsoTargets": [
+    "ant bait",
+    "ant traps",
+    "best ant killer",
+    "best ant bait",
+    "ant killer indoor",
+    "ant bait stations"
+   ],
+   "demand": {
+    "summary": "Google Keyword Planner, US and Canada, Nov 3, 2026 (research_notes/God plan 10k a day/keyword_volumes.csv): \"ant killer\", \"ant bait\" and \"ant traps\" US 10K-100K a month each."
+   },
+   "collisions": [
+    {
+     "path": "/blog/best-ant-killer",
+     "overlap": "the Canadian page (TSX, amazon.ca; survivor of the Nov 3 ant-traps merge)",
+     "resolution": "regional pair: add { us: '/blog/best-ant-bait', ca: '/blog/best-ant-killer' } to REGIONAL_PAIRS at release and wrap that page's metadata in withRegionalAlternates; its affiliate tokens must not change"
+    },
+    {
+     "path": "/learn/ants and the US ant species guides (black-ants, tiny-ants, crazy-ants)",
+     "overlap": "identification and control",
+     "resolution": "they keep species ID; this page owns the buying searches; link where a sentence needs it"
+    }
+   ],
+   "resolution": "regional pair",
+   "pairWith": "/blog/best-ant-killer",
+   "priority": 1,
+   "gate": null,
+   "parent": {
+    "href": "/learn/ants",
+    "name": "Ants"
+   },
+   "mustLink": [
+    "/learn/ants"
+   ],
+   "scope": "US edition of /blog/best-ant-killer, written fresh for US shoppers: US products and EPA registration (never Canadian PCP numbers or Canadian retailers), US spelling, no prices or star ratings. A buying guide: a short answer naming the best product types first; a \"picks\" block of 3-6 picks, each a product the text itself recommends with a one-line reason; a comparison table; how to choose; how to use it safely (label is the law); what it will not do; when to call a professional; 8-10 FAQs; sources (EPA, CDC, university extension, manufacturer labels). No testing claims: we did not test products. The top pick also goes in lib/amazon-us-picks.json.",
+   "flags": [
+    "amazon-com-buying"
+   ],
+   "minWords": 1800,
+   "photos": [],
+   "dataAssets": [],
+   "notes": "Added Nov 4, 2026 evening (owner: build the next US buying guides tonight).",
+   "wave": "us-buying-2",
+   "suggestedWeek": "2026-11-02",
+   "releaseOrder": 281,
+   "evidenceScore": null
+  },
+  {
+   "slug": "best-bed-bug-mattress-cover",
+   "path": "/blog/best-bed-bug-mattress-cover",
+   "section": "blog",
+   "role": "page",
+   "cluster": "bed-bugs",
+   "guideCluster": "bed-bugs",
+   "family": "us-buying",
+   "pageType": "buying",
+   "audience": "us",
+   "title": "Best Bed Bug Mattress Cover: What a Real Encasement Needs",
+   "metaTitle": "Best Bed Bug Mattress Cover (Encasement Guide)",
+   "keyword": "bed bug mattress cover",
+   "alsoTargets": [
+    "bed bug mattress encasement",
+    "best mattress encasement for bed bugs",
+    "bed bug proof mattress cover",
+    "do mattress encasements work for bed bugs",
+    "box spring encasement"
+   ],
+   "demand": {
+    "summary": "Google Keyword Planner, US and Canada, Nov 3, 2026 (research_notes/God plan 10k a day/keyword_volumes.csv): \"bed bug mattress cover\" US 10K-100K a month; \"bed bug interceptors\" 10K-100K."
+   },
+   "collisions": [
+    {
+     "path": "/blog/bed-bug-mattress-encasement-canada",
+     "overlap": "the Canadian page (TSX, amazon.ca)",
+     "resolution": "regional pair, as above; its affiliate tokens must not change"
+    },
+    {
+     "path": "/blog/how-to-get-rid-of-bed-bugs and /blog/best-bed-bug-spray",
+     "overlap": "the US control guide and the US spray guide",
+     "resolution": "they keep the plan and sprays; this page owns encasement buying searches; link both ways"
+    }
+   ],
+   "resolution": "regional pair",
+   "pairWith": "/blog/bed-bug-mattress-encasement-canada",
+   "priority": 1,
+   "gate": null,
+   "parent": {
+    "href": "/learn/bed-bugs",
+    "name": "Bed Bugs"
+   },
+   "mustLink": [
+    "/learn/bed-bugs"
+   ],
+   "scope": "US edition of /blog/bed-bug-mattress-encasement-canada, written fresh for US shoppers: US products and EPA registration (never Canadian PCP numbers or Canadian retailers), US spelling, no prices or star ratings. A buying guide: a short answer naming the best product types first; a \"picks\" block of 3-6 picks, each a product the text itself recommends with a one-line reason; a comparison table; how to choose; how to use it safely (label is the law); what it will not do; when to call a professional; 8-10 FAQs; sources (EPA, CDC, university extension, manufacturer labels). No testing claims: we did not test products. The top pick also goes in lib/amazon-us-picks.json.",
+   "flags": [
+    "amazon-com-buying"
+   ],
+   "minWords": 1800,
+   "photos": [],
+   "dataAssets": [],
+   "notes": "Added Nov 4, 2026 evening (owner: build the next US buying guides tonight).",
+   "wave": "us-buying-2",
+   "suggestedWeek": "2026-11-02",
+   "releaseOrder": 282,
+   "evidenceScore": null
+  },
+  {
+   "slug": "best-mosquito-repellent",
+   "path": "/blog/best-mosquito-repellent",
+   "section": "blog",
+   "role": "page",
+   "cluster": "mosquitoes",
+   "guideCluster": "mosquitoes",
+   "family": "us-buying",
+   "pageType": "buying",
+   "audience": "us",
+   "title": "Best Mosquito Repellent: DEET, Picaridin and Lemon Eucalyptus Compared",
+   "metaTitle": "Best Mosquito Repellent: DEET vs Picaridin",
+   "keyword": "mosquito repellent",
+   "alsoTargets": [
+    "best mosquito repellent",
+    "best bug spray for mosquitoes",
+    "picaridin vs deet",
+    "mosquito repellent for kids",
+    "oil of lemon eucalyptus repellent"
+   ],
+   "demand": {
+    "summary": "Google Keyword Planner, US and Canada, Nov 3, 2026 (research_notes/God plan 10k a day/keyword_volumes.csv): \"mosquito repellent\" US 100K-1M a month; \"best mosquito repellent\" US 10K-100K. Summer demand: built now so it has aged by May."
+   },
+   "collisions": [
+    {
+     "path": "/blog/mosquito-repellent-guide-ontario-2026",
+     "overlap": "the Canadian repellent guide (TSX, amazon.ca)",
+     "resolution": "regional pair, as above; its affiliate tokens must not change"
+    },
+    {
+     "path": "Canadian repellent pages (picaridin-vs-deet, natural-mosquito-repellent-ontario, mosquito-repellent-for-dogs)",
+     "overlap": "single-ingredient and pet angles",
+     "resolution": "they keep their angles; this page owns the US buying searches; do not link Canadian product pages in the text"
+    }
+   ],
+   "resolution": "regional pair",
+   "pairWith": "/blog/mosquito-repellent-guide-ontario-2026",
+   "priority": 1,
+   "gate": null,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "mustLink": [],
+   "scope": "US edition of /blog/mosquito-repellent-guide-ontario-2026, written fresh for US shoppers: US products and EPA registration (never Canadian PCP numbers or Canadian retailers), US spelling, no prices or star ratings. A buying guide: a short answer naming the best product types first; a \"picks\" block of 3-6 picks, each a product the text itself recommends with a one-line reason; a comparison table; how to choose; how to use it safely (label is the law); what it will not do; when to call a professional; 8-10 FAQs; sources (EPA, CDC, university extension, manufacturer labels). No testing claims: we did not test products. The top pick also goes in lib/amazon-us-picks.json.",
+   "flags": [
+    "amazon-com-buying"
+   ],
+   "minWords": 1800,
+   "photos": [],
+   "dataAssets": [],
+   "notes": "Added Nov 4, 2026 evening (owner: build the next US buying guides tonight).",
+   "wave": "us-buying-2",
+   "suggestedWeek": "2026-11-02",
+   "releaseOrder": 283,
+   "evidenceScore": null
+  },
+  {
+   "slug": "best-bug-zapper",
+   "path": "/blog/best-bug-zapper",
+   "section": "blog",
+   "role": "page",
+   "cluster": "mosquitoes",
+   "guideCluster": "mosquitoes",
+   "family": "us-buying",
+   "pageType": "buying",
+   "audience": "us",
+   "title": "Best Bug Zapper: What Zappers Kill (and Why Mosquitoes Are Not Most of It)",
+   "metaTitle": "Best Bug Zapper: What It Kills and Misses",
+   "keyword": "bug zapper",
+   "alsoTargets": [
+    "bug zappers",
+    "best bug zapper",
+    "do bug zappers work",
+    "bug zapper for mosquitoes",
+    "indoor bug zapper"
+   ],
+   "demand": {
+    "summary": "Google Keyword Planner, US and Canada, Nov 3, 2026 (research_notes/God plan 10k a day/keyword_volumes.csv): \"bug zapper(s)\" US 10K-100K a month. Summer demand: built now so it has aged by May."
+   },
+   "collisions": [
+    {
+     "path": "/blog/bug-zappers-canada-do-they-work",
+     "overlap": "the Canadian zapper page (TSX, amazon.ca)",
+     "resolution": "regional pair, as above; its affiliate tokens must not change"
+    },
+    {
+     "path": "Canadian zapper and trap pages (flowtron-bug-zapper-canada, best-solar-bug-zapper-canada, electric-fly-swatter)",
+     "overlap": "single products",
+     "resolution": "they keep their products; this page owns the US buying searches; do not link Canadian product pages in the text"
+    }
+   ],
+   "resolution": "regional pair",
+   "pairWith": "/blog/bug-zappers-canada-do-they-work",
+   "priority": 1,
+   "gate": null,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "mustLink": [],
+   "scope": "US edition of /blog/bug-zappers-canada-do-they-work, written fresh for US shoppers: US products and EPA registration (never Canadian PCP numbers or Canadian retailers), US spelling, no prices or star ratings. A buying guide: a short answer naming the best product types first; a \"picks\" block of 3-6 picks, each a product the text itself recommends with a one-line reason; a comparison table; how to choose; how to use it safely (label is the law); what it will not do; when to call a professional; 8-10 FAQs; sources (EPA, CDC, university extension, manufacturer labels). No testing claims: we did not test products. The top pick also goes in lib/amazon-us-picks.json.",
+   "flags": [
+    "amazon-com-buying"
+   ],
+   "minWords": 1800,
+   "photos": [],
+   "dataAssets": [],
+   "notes": "Added Nov 4, 2026 evening (owner: build the next US buying guides tonight).",
+   "wave": "us-buying-2",
+   "suggestedWeek": "2026-11-02",
+   "releaseOrder": 284,
+   "evidenceScore": null
   }
  ],
  "upgrades": [

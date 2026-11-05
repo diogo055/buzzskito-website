@@ -311,7 +311,28 @@ Ranked by expected clicks x value (`research_notes/God plan 10k a day/new_pages.
   - **GA4, first two days with ads:** Canadian phone Amazon clicks per 1,000 views on product and remedy pages were 201, against 190 before. The sticky bar's clicks moved to the top box and the in-page buttons.
   - **Expert-quote link plan:** `reports/expert-quote-link-plan-2026-11-04.md`. The owner signs up (SOS, HARO, Qwoted free) and writes answers in his own words; Qwoted bans AI pitches.
   - **Indexing:** Search Console said "Quota exceeded" for Nov 4, so the six Nov 4 and six Nov 5 URLs head the queue.
-- **NEXT "go" (Nov 5; pace room after tonight's 6 = 4 more today, then the 7-day cap):**
+- **2026-11-05, second batch the same night** (owner: "do number 2, 3 and 4 right now"; also "we could just request the pages to be indexed tomorrow manually"):
+  - **Indexing:** the quota had reset by 9:28 pm Toronto. I requested by hand in his Chrome the six US buying guides, voles and lone-star-tick, and a recrawl of the bug-bite identifier. yellow-jackets was already indexed. best-cockroach-gel-bait was indexed about 15 minutes after its request and drew a burst of Indian phone readers (8:45 am there).
+  - **Reviewed:** the owner read the six Nov 5 guides, so `OWNER_REVIEWED_THROUGH` is now 2026-11-05.
+  - **Merges done** (report: scratchpad `merges-nov5.md`): 23 pages into 12 survivors, with 23 301s in `next.config.mjs` and links repointed on 46 pages (9 US guides amended).
+    - Dehumidifiers kept two survivors (large-capacity and cold-garage), because the garage page has its own demand.
+    - wasp-dust went into ground-wasps; best-bed-bug-powder into cimexa; mosquito-dunks-guide into mosquito-bits; cockroach-killer into cockroach-spray.
+    - Off-topic pages went into the nearest pest page. 61 products that did not fit were dropped and are listed in the report.
+  - **4 more US buying guides**, fact-checked (526 claims, 51 corrected, 2 removed) and regional pairs: best-ant-bait, best-bed-bug-mattress-cover, best-mosquito-repellent, best-bug-zapper.
+    - The two mosquito guides first named `/blog/ultimate-backyard-mosquito-control-guide` as parent, which would have made it an ad-free hub. They now use `/learn`. A guide's `parent` becomes a hub in `lib/hub-routes.json`, so never name an ad-earning article as one.
+  - **Title audit** (scratchpad `title-audit/titles.md`):
+    - 71% of 423 pages already lead with their main search. Low CTR is mostly answer boxes and images, not titles.
+    - 11 rewrites applied tonight, for about +27 clicks a month now and +68 a summer month in total.
+    - Waiting: 7 that drop "Ontario/Canada" (after the Nov 20-23 geo read), 4 spring swaps (Mar 15 and Apr 1), 6 optional ones for a held test, and 14 service-page suggestions (owner's OK).
+    - Also retitled tonight: mouse-repellent-canada, "Does NestOff Work?".
+- **NEXT "go" (Nov 6; pace room 9: 16 new in the 7 days to Nov 6):**
+  - **Owner decisions from the merges:**
+    1. A CimeXa buy button sits on a page that says CimeXa is not registered in Canada.
+    2. bed-bug-spray-canada now carries a US-products table with amazon.ca buttons for products not legal in Canada.
+    3. The cockroach page's top box and sticky bar say "Best overall: Combat", which the page says is no longer registered. Switch them to Raid bait.
+    4. The large-capacity dehumidifier page has 43 buttons; trim the low ones.
+    5. The mosquito-bits page says "one dunk per 50-gallon barrel", against the label's quarter dunk; fix the prose.
+- **Earlier NEXT list (Nov 5):**
   - **Indexing:** check the 9:10 run with `list_task_runs`. Stop it if it shows "running" with old activity, and do the batch in Chrome by hand.
   - **Merges, first** (owner approved every non-service merge and lifted the Nov 20 wait). Use the Nov 3 pattern: every product moves to the survivor, add the 301s, repoint links, amend records.
     - The six duplicate pairs from `reports/page-one-plan-2026-11-02.md`.

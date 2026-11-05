@@ -18488,6 +18488,195 @@
    "family": "us-buying",
    "priority": 1,
    "releaseOn": "2026-11-05"
+  },
+  {
+   "section": "blog",
+   "role": "page",
+   "minExisting": 2,
+   "mustLink": [
+    "/learn/ants"
+   ],
+   "neighbors": [],
+   "minNeighbors": 0,
+   "slug": "best-ant-bait",
+   "cluster": "ants",
+   "keyword": "ant killer",
+   "alsoTargets": [
+    "ant bait",
+    "ant traps",
+    "best ant killer",
+    "best ant bait",
+    "ant killer indoor",
+    "ant bait stations"
+   ],
+   "h1Hint": "Best Ant Killer: Ant Baits and Traps That Reach the Colony",
+   "metaTitleHint": "Best Ant Killer: Baits That Reach the Colony",
+   "scope": "US edition of /blog/best-ant-killer, written fresh for US shoppers: US products and EPA registration (never Canadian PCP numbers or Canadian retailers), US spelling, no prices or star ratings. A buying guide: a short answer naming the best product types first; a \"picks\" block of 3-6 picks, each a product the text itself recommends with a one-line reason; a comparison table; how to choose; how to use it safely (label is the law); what it will not do; when to call a professional; 8-10 FAQs; sources (EPA, CDC, university extension, manufacturer labels). No testing claims: we did not test products. The top pick also goes in lib/amazon-us-picks.json.",
+   "pageType": "buying",
+   "flags": [
+    "amazon-com-buying"
+   ],
+   "minWords": 1800,
+   "parent": {
+    "href": "/learn/ants",
+    "name": "Ants"
+   },
+   "pairWith": "/blog/best-ant-killer",
+   "collisions": [
+    {
+     "path": "/blog/best-ant-killer",
+     "overlap": "the Canadian page (TSX, amazon.ca; survivor of the Nov 3 ant-traps merge)",
+     "resolution": "regional pair: add { us: '/blog/best-ant-bait', ca: '/blog/best-ant-killer' } to REGIONAL_PAIRS at release and wrap that page's metadata in withRegionalAlternates; its affiliate tokens must not change"
+    },
+    {
+     "path": "/learn/ants and the US ant species guides (black-ants, tiny-ants, crazy-ants)",
+     "overlap": "identification and control",
+     "resolution": "they keep species ID; this page owns the buying searches; link where a sentence needs it"
+    }
+   ],
+   "family": "us-buying",
+   "priority": 1,
+   "releaseOn": "2026-11-05"
+  },
+  {
+   "section": "blog",
+   "role": "page",
+   "minExisting": 2,
+   "mustLink": [
+    "/learn/bed-bugs"
+   ],
+   "neighbors": [],
+   "minNeighbors": 0,
+   "slug": "best-bed-bug-mattress-cover",
+   "cluster": "bed-bugs",
+   "keyword": "bed bug mattress cover",
+   "alsoTargets": [
+    "bed bug mattress encasement",
+    "best mattress encasement for bed bugs",
+    "bed bug proof mattress cover",
+    "do mattress encasements work for bed bugs",
+    "box spring encasement"
+   ],
+   "h1Hint": "Best Bed Bug Mattress Cover: What a Real Encasement Needs",
+   "metaTitleHint": "Best Bed Bug Mattress Cover (Encasement Guide)",
+   "scope": "US edition of /blog/bed-bug-mattress-encasement-canada, written fresh for US shoppers: US products and EPA registration (never Canadian PCP numbers or Canadian retailers), US spelling, no prices or star ratings. A buying guide: a short answer naming the best product types first; a \"picks\" block of 3-6 picks, each a product the text itself recommends with a one-line reason; a comparison table; how to choose; how to use it safely (label is the law); what it will not do; when to call a professional; 8-10 FAQs; sources (EPA, CDC, university extension, manufacturer labels). No testing claims: we did not test products. The top pick also goes in lib/amazon-us-picks.json.",
+   "pageType": "buying",
+   "flags": [
+    "amazon-com-buying"
+   ],
+   "minWords": 1800,
+   "parent": {
+    "href": "/learn/bed-bugs",
+    "name": "Bed Bugs"
+   },
+   "pairWith": "/blog/bed-bug-mattress-encasement-canada",
+   "collisions": [
+    {
+     "path": "/blog/bed-bug-mattress-encasement-canada",
+     "overlap": "the Canadian page (TSX, amazon.ca)",
+     "resolution": "regional pair, as above; its affiliate tokens must not change"
+    },
+    {
+     "path": "/blog/how-to-get-rid-of-bed-bugs and /blog/best-bed-bug-spray",
+     "overlap": "the US control guide and the US spray guide",
+     "resolution": "they keep the plan and sprays; this page owns encasement buying searches; link both ways"
+    }
+   ],
+   "family": "us-buying",
+   "priority": 1,
+   "releaseOn": "2026-11-05"
+  },
+  {
+   "section": "blog",
+   "role": "page",
+   "minExisting": 2,
+   "mustLink": [],
+   "neighbors": [],
+   "minNeighbors": 0,
+   "slug": "best-mosquito-repellent",
+   "cluster": "mosquitoes",
+   "keyword": "mosquito repellent",
+   "alsoTargets": [
+    "best mosquito repellent",
+    "best bug spray for mosquitoes",
+    "picaridin vs deet",
+    "mosquito repellent for kids",
+    "oil of lemon eucalyptus repellent"
+   ],
+   "h1Hint": "Best Mosquito Repellent: DEET, Picaridin and Lemon Eucalyptus Compared",
+   "metaTitleHint": "Best Mosquito Repellent: DEET vs Picaridin",
+   "scope": "US edition of /blog/mosquito-repellent-guide-ontario-2026, written fresh for US shoppers: US products and EPA registration (never Canadian PCP numbers or Canadian retailers), US spelling, no prices or star ratings. A buying guide: a short answer naming the best product types first; a \"picks\" block of 3-6 picks, each a product the text itself recommends with a one-line reason; a comparison table; how to choose; how to use it safely (label is the law); what it will not do; when to call a professional; 8-10 FAQs; sources (EPA, CDC, university extension, manufacturer labels). No testing claims: we did not test products. The top pick also goes in lib/amazon-us-picks.json.",
+   "pageType": "buying",
+   "flags": [
+    "amazon-com-buying"
+   ],
+   "minWords": 1800,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "pairWith": "/blog/mosquito-repellent-guide-ontario-2026",
+   "collisions": [
+    {
+     "path": "/blog/mosquito-repellent-guide-ontario-2026",
+     "overlap": "the Canadian repellent guide (TSX, amazon.ca)",
+     "resolution": "regional pair, as above; its affiliate tokens must not change"
+    },
+    {
+     "path": "Canadian repellent pages (picaridin-vs-deet, natural-mosquito-repellent-ontario, mosquito-repellent-for-dogs)",
+     "overlap": "single-ingredient and pet angles",
+     "resolution": "they keep their angles; this page owns the US buying searches; do not link Canadian product pages in the text"
+    }
+   ],
+   "family": "us-buying",
+   "priority": 1,
+   "releaseOn": "2026-11-05"
+  },
+  {
+   "section": "blog",
+   "role": "page",
+   "minExisting": 2,
+   "mustLink": [],
+   "neighbors": [],
+   "minNeighbors": 0,
+   "slug": "best-bug-zapper",
+   "cluster": "mosquitoes",
+   "keyword": "bug zapper",
+   "alsoTargets": [
+    "bug zappers",
+    "best bug zapper",
+    "do bug zappers work",
+    "bug zapper for mosquitoes",
+    "indoor bug zapper"
+   ],
+   "h1Hint": "Best Bug Zapper: What Zappers Kill (and Why Mosquitoes Are Not Most of It)",
+   "metaTitleHint": "Best Bug Zapper: What It Kills and Misses",
+   "scope": "US edition of /blog/bug-zappers-canada-do-they-work, written fresh for US shoppers: US products and EPA registration (never Canadian PCP numbers or Canadian retailers), US spelling, no prices or star ratings. A buying guide: a short answer naming the best product types first; a \"picks\" block of 3-6 picks, each a product the text itself recommends with a one-line reason; a comparison table; how to choose; how to use it safely (label is the law); what it will not do; when to call a professional; 8-10 FAQs; sources (EPA, CDC, university extension, manufacturer labels). No testing claims: we did not test products. The top pick also goes in lib/amazon-us-picks.json.",
+   "pageType": "buying",
+   "flags": [
+    "amazon-com-buying"
+   ],
+   "minWords": 1800,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "pairWith": "/blog/bug-zappers-canada-do-they-work",
+   "collisions": [
+    {
+     "path": "/blog/bug-zappers-canada-do-they-work",
+     "overlap": "the Canadian zapper page (TSX, amazon.ca)",
+     "resolution": "regional pair, as above; its affiliate tokens must not change"
+    },
+    {
+     "path": "Canadian zapper and trap pages (flowtron-bug-zapper-canada, best-solar-bug-zapper-canada, electric-fly-swatter)",
+     "overlap": "single products",
+     "resolution": "they keep their products; this page owns the US buying searches; do not link Canadian product pages in the text"
+    }
+   ],
+   "family": "us-buying",
+   "priority": 1,
+   "releaseOn": "2026-11-05"
   }
  ]
 }

@@ -2,7 +2,7 @@
  "id": "pill-bugs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "5dbe1d16028287b900053603908faa00d3a8c3940eb556e300472fae940cf169",
+ "sha": "f3d2f5b48cde28e3896b7b89b78e8b77e6e32916d352dd47f7fdf24c72c6af34",
  "claimsChecked": 230,
  "claimsCorrected": 3,
  "claimsRemovedOrSoftened": 5,
@@ -11,5 +11,12 @@
   "on": "2026-10-23",
   "scheduledFor": "2026-10-23",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-11-05",
+   "note": "Nov 5, 2026: links repointed from /blog/what-size-dehumidifier-do-i-need-canada to /blog/best-large-capacity-dehumidifier-canada and from /blog/desiccant-vs-compressor-dehumidifier-canada to /blog/best-dehumidifier-for-cold-garage-canada after the merges (301 redirects); anchor 'cold crawl space or cellar' became 'cold garage or cellar' to match the target. No factual claim touched.",
+   "previousSha": "5dbe1d16028287b900053603908faa00d3a8c3940eb556e300472fae940cf169"
+  }
+ ]
 }

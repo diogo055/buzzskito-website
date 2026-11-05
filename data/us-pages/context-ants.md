@@ -52,6 +52,8 @@
 
 - `/blog/european-fire-ants` — **european fire ant** (also: myrmica rubra; european fire ant sting; european fire ant bc). Myrmica rubra in British Columbia, Ontario, the Maritimes and the northeastern US: identification, high-density yard colonies, stings, and what provincial and state guidance says about control.
 
+- `/blog/best-ant-bait` — **ant killer** (also: ant bait; ant traps; best ant killer; best ant bait; ant killer indoor; ant bait stations). US edition of /blog/best-ant-killer, written fresh for US shoppers: US products and EPA registration (never Canadian PCP numbers or Canadian retailers), US spelling, no prices or star ratings. A buying guide: a short answer naming the best product types first; a "picks" block of 3-6 picks, each a product the text itself recommends with a one-line reason; a comparison table; how to choose; how to use it safely (label is the law); what it will not do; when to call a professional; 8-10 FAQs; sources (EPA, CDC, university extension, manufacturer labels). No testing claims: we did not test products. The top pick also goes in lib/amazon-us-picks.json.
+
 ## Pillars (hub pages)
 
 - `/learn/bed-bugs` — the complete bed bugs reference
@@ -490,6 +492,9 @@
 - `/blog/best-bed-bug-spray` — bed bug spray
 - `/blog/best-flea-spray-for-home` — flea spray for house
 - `/blog/raccoon-repellent` — raccoon repellent
+- `/blog/best-bed-bug-mattress-cover` — bed bug mattress cover
+- `/blog/best-mosquito-repellent` — mosquito repellent
+- `/blog/best-bug-zapper` — bug zapper
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

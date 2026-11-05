@@ -1,0 +1,22 @@
+{
+ "id": "best-mosquito-repellent",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "e3daefed3bfd21d249b6d782536d3f1519a596a0c03b08841a2b0aa84c7dbf60",
+ "claimsChecked": 152,
+ "claimsCorrected": 10,
+ "claimsRemovedOrSoftened": 0,
+ "checkedOn": "2026-11-05",
+ "released": {
+  "on": "2026-11-05",
+  "scheduledFor": "2026-11-05",
+  "note": "datePublished set to the release day; nothing else changed"
+ },
+ "amendments": [
+  {
+   "on": "2026-11-05",
+   "note": "Nov 5, 2026: breadcrumb parent set to the Learning Centre (/learn) so the mosquito control guide does not become an ad-free hub",
+   "previousSha": "22e7b124169d2c60ebd997d958cc0d559eda011c92e3fef955e405d0f9e945b3"
+  }
+ ]
+}

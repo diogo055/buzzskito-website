@@ -15,10 +15,11 @@ import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
 import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
 
 const SLUG = 'best-steam-cleaner-for-pest-control-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-10-23'
+const UPDATED = '2026-11-05'
 const TITLE = 'Best Steam Cleaner for Pest Control Canada 2026 — Dry Vapour That Kills Bed Bugs, Dust Mites & Fleas'
 // TITLE NOTE (Oct 23, 2026): was 'Best Steam Cleaner for Pest Control Canada 2026'; top queries Jul 23-Oct 20: dry steam cleaner for bed bugs 47 at 7.3, best steam cleaner for bed bugs canada 32 at 6.3, best steam cleaner for dust mites 11 at 2.3, best steam cleaner for fleas 9 at 3.7 (page: 2,695 impressions at 8.3, 75 clicks). "steam cleaner for bed bugs" stays with the sibling /blog/best-bed-bug-steamer-canada.
 const META_TITLE = 'Best Dry Steam Cleaner for Pest Control Canada'
@@ -83,6 +84,22 @@ const FAQS = [
   {
     question: 'What is the best steam cleaner for fleas?',
     answer: 'The same dry-vapour canister that handles bed bugs, run slowly along carpet edges, pet-bedding areas and baseboards. Health Canada\'s routine for fleas in the home includes "Steam-clean carpets," alongside vacuuming carpets and cushioned furniture daily and washing pet and family bedding in hot, soapy water every 2 to 3 weeks. It also says to treat the pet and the areas it uses with "both physical and chemical control methods," so pair the steamer with a flea product your veterinarian recommends for the animal.',
+  },
+  {
+    question: 'Can you steam clean a couch for bed bugs or dust mites?',
+    answer: 'Yes, if the cleaning code on its tag allows water. W means water-based cleaning is fine and WS or SW means water or solvent, so a dry-vapour steamer can be used; S means solvent only and X means vacuum only, so steam does not belong on those fabrics. Test a hidden patch first, then run the nozzle slowly along every seam, fold and tuft and into the crease where the back meets the seat, and dry the couch fast: a fan across it, cushions on edge, and a dehumidifier if you are in a basement. Do not reach for a carpet or upholstery extractor for this job: it removes soil, not insects. For an infestation, Health Canada strongly recommends a licensed pest control operator.',
+  },
+  {
+    question: 'Will a carpet or upholstery cleaner kill bed bugs?',
+    answer: 'No. A carpet or upholstery extractor sprays warm solution into the fabric and vacuums the dirty water back out, so it removes soil, not insects, and kills nothing. A handheld garment steamer is no better: it puts out wet, lower-temperature steam made for creases in clothing, which wets the fabric and removes nothing. For bed bugs in upholstery it takes a proper boiler-driven dry-vapour steamer, a narrow tool and a deliberate slow pass along every seam and tuft. Health Canada says "Dry steam or low vapour steamers are better because they leave behind less moisture," and that steam "will only kill the bedbugs that it reaches."',
+  },
+  {
+    question: 'Can I use a steam mop for fleas or bed bugs?',
+    answer: 'Not as your pest tool. A steam mop boils water in a small tank, pushes it through a plate and lays a thin, even amount of steam under a wide microfibre pad: it is built to clean a floor, and for something living in the house a floor mop is the wrong end of the category. What kills bed bugs and fleas is heat delivered slowly into seams, cracks, carpet edges and baseboards, from a machine with a pressurised boiler, a stated internal boiler temperature and a continuous-steam trigger. Fit a canister steamer\'s floor tool or nozzle for the floors and baseboards, and on wood keep to sealed floors: Dupray\'s FAQ says "Do NOT steam clean unsealed or oiled hardwood floors."',
+  },
+  {
+    question: 'Do I need a continuous-fill steam cleaner for bed bugs?',
+    answer: 'Only for long jobs. On a single-tank steamer the water goes into the pressure vessel itself, so when it runs dry you must shut down, let the boiler depressurise and cool, refill, and wait for it to reheat: realistically fifteen to twenty-five minutes of dead time, every time. A continuous-fill machine has a separate cold-water reservoir and a pump that feeds the boiler on demand, so you top the reservoir up mid-job and keep working. For a single bed or a small flea spot a single-tank canister is enough; for an active bed-bug job across a bedroom, or anyone who steams for hours at a time, continuous fill keeps the heat and the momentum going. Check the plate rating against your outlet first: plenty of commercial steamers are 240-volt units, or 120-volt machines drawing well past the 15 amps a standard Canadian circuit supplies.',
   },
 ]
 
@@ -255,7 +272,7 @@ export default function BestSteamCleanerForPestControlCanadaPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <h2>What Is the Best Steam Cleaner for Pest Control in Canada?</h2>
-          <p>A heavy-duty dry-vapour steam cleaner is the best tool for killing bed bugs, dust mites, and fleas &mdash; not because it is the most powerful appliance in the store, but because it is the only design that does the two things this job actually demands: it delivers lethal heat deep into the seams and cracks where pests hide, and it does so without soaking the fabric you are treating. Everything else is a compromise on one of those two axes. A continuous-fill unit trades size for endurance; a value canister trades a little dryness for price; a handheld trades sustained heat for portability. All four appear in our picks above because different households need different trade-offs, but the reasoning below explains why a dry-vapour boiler sits at the top.</p>
+          <p>A heavy-duty dry-vapour steam cleaner is the best tool for killing bed bugs, dust mites, and fleas &mdash; not because it is the most powerful appliance in the store, but because it is the only design that does the two things this job actually demands: it delivers lethal heat deep into the seams and cracks where pests hide, and it does so without soaking the fabric you are treating. Everything else is a compromise on one of those two axes. A long-run canister trades size for endurance; a value canister trades a little dryness for price; a handheld trades sustained heat for portability. All four appear in our picks above because different households need different trade-offs, but the reasoning below explains why a dry-vapour boiler sits at the top.</p>
           <p>The distinction that matters is between a steamer that <em>looks</em> like it is working &mdash; a visible plume, a hot nozzle &mdash; and one that actually delivers penetrating, dwelling heat to the egg glued deep in a mattress seam. That gap is invisible until an infestation refuses to drop despite &ldquo;treating&rdquo; it, and it is the single most important thing to understand before you spend money.</p>
 
           <h2>Dry Steam Cleaners Compared: What the Makers and Health Canada Say</h2>
@@ -313,8 +330,42 @@ export default function BestSteamCleanerForPestControlCanadaPage() {
 
           <RelatedLinks path="/blog/best-steam-cleaner-for-pest-control-canada" />
           <h2>Steam for Dust Mites and Fleas, Not Just Bed Bugs</h2>
-          <p>Bed bugs get the headlines, but the same lethal heat handles two other common household pests. <strong>Dust mites</strong> live in mattresses, pillows, upholstery, and carpet, and they die at the same temperatures &mdash; with the bonus that dry vapour does not add the humidity dust mites need to thrive. For allergen-sensitive households, steaming the mattress and soft furnishings knocks down the mite population and the allergen load at once. Pair that with a <Link href="/blog/best-air-purifier-for-dust-mites-canada">HEPA air purifier</Link> to capture airborne allergen and a <Link href="/blog/best-large-capacity-dehumidifier-canada">dehumidifier</Link> to keep humidity low enough that mites cannot rebound.</p>
+          <p>Bed bugs get the headlines, but the same lethal heat handles two other common household pests. <strong>Dust mites</strong> live in mattresses, pillows, upholstery, and carpet, and they die at the same temperatures &mdash; with the bonus that dry vapour does not add the humidity dust mites need to thrive. For allergen-sensitive households, steaming the mattress and soft furnishings knocks down the mite population and the allergen load at once. Pair that with a HEPA air purifier to capture airborne allergen and a <Link href="/blog/best-large-capacity-dehumidifier-canada">dehumidifier</Link> to keep humidity low enough that mites cannot rebound; our guide on <Link href="/blog/dust-mites">how to reduce dust mites</Link> covers the rest of the routine.</p>
+          <Photo id="house-dust-mite" alt="House dust mite seen under a scanning electron microscope" caption="A North American house dust mite under a scanning electron microscope (US government image). Dust mites live in the top layer of mattresses and couches, the layer that slow, low-moisture steam heats." />
+          <p>Keep the steam low-moisture on a mattress above all, because you cannot dry the middle of one: foam and fibre hold water far below where any vacuum tool reaches, and a core that stays damp for a day or two is an odour and mould risk you will not see until it is established. Slow vapour passes followed by a thorough sealed-HEPA vacuum pass is the routine for the top layer, and a zippered <Link href="/blog/bed-bug-mattress-encasement-canada">mattress encasement</Link> does more for the long-term condition of a mattress than any amount of cleaning.</p>
           <p><strong>Fleas</strong> are a carpet-and-edges problem: most of an infestation is eggs, larvae, and pupae down in the pile and along baseboards, not the adults you see on the pet. Steaming carpet edges, pet-bedding areas, and the room perimeter kills the life stages that vacuuming alone leaves behind. As with bed bugs, slow passes and repetition over the weeks it takes to break the cycle are what win &mdash; steam kills what it touches today, so consistency is the whole game.</p>
+
+          <h2>Steaming a Couch or Upholstered Chair for Bed Bugs and Dust Mites</h2>
+          <p>Two very different machines are sold as &ldquo;upholstery steam cleaners,&rdquo; and for pests only one of them works. An <strong>extractor</strong> is a small wet-vac with a pump on the front: it pushes water and detergent into the fabric, and a vacuum tool immediately pulls the solution back out into a dirty-water tank. It is the right machine for a pet accident or a food stain and the wrong one when something is living in the couch, because it removes soil, not insects. A <strong>dry-vapour steamer</strong> boils water in a pressurised boiler and releases hot, low-moisture vapour through a narrow tool, with no pump and no suction. What it is exceptionally good at is heat delivery into places nothing else reaches &mdash; piping, seams, buttoned tufts, the crease where the back meets the seat &mdash; and it kills what it directly contacts without leaving any detergent behind.</p>
+          <p>The technique is the mattress technique above: a proper boiler unit, a narrow tool, and a slow, deliberate pass along every seam, fold and tuft rather than a sweep across a surface, then the vacuum. A wide upholstery tool with a microfibre bonnet handles the flat panels without blasting live bugs off the fabric.</p>
+          <Photo id="bed-bugs-eggs-mattress-seam" alt="Bed bugs and their white eggs along a seam of a bed" caption="Bed bugs and their white eggs along a seam of a bed (the photographer's description). Seams, folds and tufts are where the slow steam pass has to go; an extractor removes soil, not insects." />
+          <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of dry-vapour steamers sold with an upholstery tool:</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink tag={AMZ_TAG} search="dry vapour steam cleaner upholstery tool">Dry-vapour steamer →</BuyLink>
+          </div>
+          <p><strong>Read the tag before the steamer touches the fabric.</strong> Under the seat cushion, under the base skirt, or stapled to the underside of the frame there is a small tag with a letter code: the manufacturer&rsquo;s instruction on what the fabric can survive, and it overrides every recommendation on this page. If the tag is missing or the piece is second-hand, test before you commit: a hidden patch, blotted dry, then checked in daylight an hour later for colour on the cloth, a ring, or a change in texture. Wool and other natural fibres deserve extra caution with hot water, which can shrink them and encourage dye migration.</p>
+          <QuickIdTable
+            title="Which couch fabric can take steam: the code on the tag"
+            head={['Code on the tag', 'What it means', 'Steam?', 'Watch out for']}
+            rows={[
+              ['W', 'Water-based cleaners are fine', 'Yes: dry-vapour steam, after testing a hidden patch', 'Over-wetting: rings, browning and musty smells'],
+              ['S', 'Solvent-based cleaners only; water can damage it or leave rings', 'No: a dry-cleaning solvent product, used sparingly, or a professional', 'No extractor and no steam'],
+              ['WS or SW', 'Water or solvent cleaners are both acceptable', 'Yes, after testing a hidden patch', 'Natural fibres such as wool can shrink in hot water'],
+              ['X', 'No liquid of any kind', 'No: vacuum and brush only; American Leather says to hire a professional for anything more', 'Any water, solvent or steam'],
+              ['No tag', 'Unknown', 'Only after the mildest test on a hidden patch, checked in daylight an hour later', 'Colour on the cloth, a ring or a change in texture'],
+            ]}
+            caption={<>Codes as American Leather defines them in its <a href="https://www.americanleather.com/resource-center/explaining-fabric-cleaning-codes/" target="_blank" rel="noopener noreferrer" className="underline">guide to fabric cleaning codes</a> (the tag is usually under the cushions or at the base), checked October 28, 2026; the steam column and the cautions restate this page&rsquo;s own sections.</>}
+          />
+          <p>If the tag rules steam out, that piece needs another method: for an infestation, Health Canada strongly recommends a licensed pest control operator. And even on a W-coded couch, watch the moisture. Dry vapour leaves fabric only slightly damp, but a wetter machine, or a nozzle held in one spot, can leave the three marks of over-wetting. <strong>Tide lines</strong> form when a wet patch dries from the outside in and the dissolved soil gathers at its edge, so treat a whole cushion or panel, seam to seam, and feather the edges. <strong>Browning</strong>, or wicking, is water that got deep into the foam carrying soil and natural tannins back to the surface as it evaporates, which is why a couch can look worse the next morning. A <strong>musty odour</strong> follows fabric and foam that stay damp for a day or more, which happens easily in a humid GTA basement in July: a room sitting at 60&ndash;65% relative humidity simply cannot dry a cushion quickly. Dry the piece fast, with air moving across it, cushions stood on edge, and a <Link href="/blog/best-large-capacity-dehumidifier-canada">basement dehumidifier</Link> running if you are downstairs.</p>
+
+          <h2>Steaming Hardwood Floors and Baseboards for Fleas and Bed Bugs</h2>
+          <p>A flea job puts steam on carpet edges and baseboards, and the bed bug routine above ends at the baseboards and carpet edge around the bed, so sooner or later the steamer meets a wood floor. Use the canister&rsquo;s floor tool or nozzle rather than a steam mop, keep the pass slow but always moving, and never park a running head on wood: a finish left under one hot spot can cloud or blister. Then let the floor decide what is allowed. Dupray&rsquo;s FAQ says &ldquo;steam cleaners work on sealed hardwood floors&rdquo; and &ldquo;Do NOT steam clean unsealed or oiled hardwood floors,&rdquo; and tells you to &ldquo;always check with the manufacturer for the cleaning instructions and always test a small, hidden area first and keep the tool moving.&rdquo; Some floor makers go further: Mirage, a Canadian hardwood maker, says &ldquo;Steam cleaners are not recommended for cleaning Mirage floors,&rdquo; because &ldquo;Since planks are installed individually, moisture can build up between them.&rdquo; Your floor maker&rsquo;s care guide is the one its warranty follows (Dupray&rsquo;s Frequently Asked Questions and Mirage&rsquo;s hardwood care FAQ, read October 28, 2026).</p>
+          <p>To tell whether a floor is sealed, put three or four drops of water somewhere a rug or a chair normally covers and wait ten minutes. Drops that bead, sit there and wipe away leaving nothing mean an intact film finish. Drops that soak in, darken the wood or leave a dull ring mean the finish is worn through or the floor is oiled or waxed, and no steam belongs on it. Test the worn spots too &mdash; the hallway from the side door, the strip in front of the kitchen sink &mdash; and treat the worst result as the answer for the whole floor.</p>
+          <p>Two Canadian cautions. Through a GTA winter, forced-air heat can drop indoor relative humidity into the teens or twenties; solid hardwood shrinks, and the gaps that open along the seams are unfinished wood, so steam that lands in them soaks into raw fibre instead of sitting on the finish. Steam drier in February than in July. And laminate is a printed wear layer over a fibreboard core that swells for good once water reaches it; most laminate manufacturers prohibit steam outright.</p>
+          <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of canister steamers sold with a floor tool (the search shows several brands; on a Dupray Neat, check the batch code against the recall above):</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink tag={AMZ_TAG} search="canister steam cleaner floor tool">Canister steamer with floor tool →</BuyLink>
+          </div>
 
           <h2>How to Choose: What You Are Actually Paying For</h2>
           <p>These machines span a wide price range, and it is worth being clear-eyed about which features earn their cost for <em>this</em> job specifically, versus which are luxury you can skip. Prioritise your money in this order:</p>
@@ -326,6 +377,48 @@ export default function BestSteamCleanerForPestControlCanadaPage() {
             <li><strong>Floor-mop features and novelty attachments (skip for pest work).</strong> Pleasant for general cleaning, irrelevant to killing pests. Do not let them inflate the price of a machine you are buying to fight bed bugs.</li>
           </ul>
           <p>Read that list as a spending map: put your dollars into boiler heat, dryness, and runtime, and treat everything else as optional. A value canister can be an excellent choice &mdash; it simply asks you to accept slightly wetter steam and a bit more bulk in exchange for real boiler heat at a lower price, which is a fair trade for a one-off job.</p>
+
+          <h2>Continuous Fill, Circuits and Hard Water: Buying for Long Sessions</h2>
+          <p>Runtime is where the household and commercial ends of the category split. On a single-tank steamer, including the Neat and the Vapamore in our picks, the water goes into the pressure vessel itself: when it runs out you shut the machine down, wait for it to depressurise and cool enough to open safely, refill it, and wait again while it reheats &mdash; realistically fifteen to twenty-five minutes of standing around, every time the tank empties. A <strong>continuous-fill</strong> machine separates the two jobs: a cold-water reservoir you can top up at any moment, and a pump that feeds the hot boiler on demand, so there is no cool-down and no reheat.</p>
+          <p>For a single bed, a couch or a flea spot, that pause hardly matters, and a single-tank canister is the right buy. Continuous fill earns its price on the long job: an active bed-bug problem across a bedroom&rsquo;s mattress, box spring, frame, furniture and baseboards, or anyone who steams for hours at a time, such as a contract cleaner. For pest work the requirements are sustained run time and slow, controlled passes, not raw pressure. Dupray, a Canadian company with domestic stock, parts and warranty, makes the usual reference machine, the Hill Injection. Its detergent injection is for kitchen grease and heavy washroom soil, not pests, so pay for it only if you also clean commercially, and remember that the moment you inject a detergent or disinfectant into the steam, that product&rsquo;s own label and safety data sheet apply in full. Steam is unregulated; what you add to it is not.</p>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm my-6">
+            <table className="min-w-[560px] w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Machine class</th>
+                  <th className="px-4 py-3 text-left">Downtime per tank</th>
+                  <th className="px-4 py-3 text-left">For pest work</th>
+                  <th className="px-4 py-3 text-left">Watch out for</th>
+                  <th className="px-4 py-3 text-left">Availability</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Continuous fill + injection<br /><span className="font-normal text-xs text-gray-500">Dupray Hill Injection class</span></td>
+                  <td className="px-4 py-3 text-gray-700">None &mdash; top up and keep working</td>
+                  <td className="px-4 py-3 text-gray-700">Long sessions, for operators who also clean kitchens or heavy washrooms</td>
+                  <td className="px-4 py-3 text-gray-700">Plate rating vs the outlet; anything injected carries its own label</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dupray hill injection commercial steam cleaner" block>Check price on Amazon.ca →</BuyLink></td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Continuous fill, no injection<br /><span className="font-normal text-xs text-gray-500">value commercial</span></td>
+                  <td className="px-4 py-3 text-gray-700">None</td>
+                  <td className="px-4 py-3 text-gray-700">Long whole-room sessions when steam is all you need</td>
+                  <td className="px-4 py-3 text-gray-700">Plate rating vs the outlet</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="continuous fill commercial steam cleaner" block>Check price on Amazon.ca →</BuyLink></td>
+                </tr>
+                <tr className="align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Single-tank canister<br /><span className="font-normal text-xs text-gray-500">prosumer</span></td>
+                  <td className="px-4 py-3 text-gray-700">Roughly 15&ndash;25 min cool, fill and reheat</td>
+                  <td className="px-4 py-3 text-gray-700">A bed, a couch, a flea spot</td>
+                  <td className="px-4 py-3 text-gray-700">Not built for a full-shift duty cycle</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="commercial canister steam cleaner boiler" block>Check price on Amazon.ca →</BuyLink></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p><strong>Check the circuit before the features.</strong> A standard Canadian general-purpose outlet sits on a 120-volt, 15-amp circuit, and in an older building it is very likely shared with lighting and other appliances. Plenty of genuinely commercial steamers are 240-volt single-phase units, or 120-volt machines drawing well past 15 amps: superb where the right receptacle exists, useless on a bedroom outlet. Read the plate rating, not the marketing copy, against the outlet you will actually use.</p>
+          <p><strong>Mind the water.</strong> Much of southern Ontario draws hard groundwater, and scale is the number-one killer of commercial boilers: dissolved calcium and magnesium precipitate inside the hot vessel, crust over the heating element, and cost you first efficiency, then pressure, then the element. Dupray&rsquo;s FAQ recommends distilled water to prevent mineral build-up. Use demineralised or distilled water where the manufacturer permits it, flush the boiler on the schedule in the manual, and favour a machine with an accessible drain or flush port: a sealed boiler you cannot rinse has a shorter life. For the single-tank tier and where each machine runs out of road, see our <Link href="/blog/dupray-vs-mcculloch-steamer-canada">Dupray versus McCulloch comparison</Link>.</p>
 
           <h2>Is the Expensive Steamer Worth It, or Will a Cheap One Do?</h2>
           <p>The honest answer depends on your situation, and there is a legitimate cheaper path for some people. For a one-time minor issue &mdash; a single dust-mite-heavy mattress, a small flea spot, a suitcase seam after travel &mdash; a decent mid-range canister used carefully, or even the portable spot steamer, will genuinely help. You do not need the premium for a contained, low-stakes job.</p>
@@ -363,7 +456,7 @@ export default function BestSteamCleanerForPestControlCanadaPage() {
             <li><Link href="/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada">Best Sealed-HEPA Vacuum for Bed Bugs & Fleas Canada</Link></li>
             <li><Link href="/blog/bed-bug-heater-canada">Bed-Bug Heater Canada — Whole-Room Heat Treatment</Link></li>
             <li><Link href="/blog/best-bed-bug-heat-chamber-canada">Best Bed-Bug Heat Chamber Canada</Link></li>
-            <li><Link href="/blog/best-air-purifier-for-dust-mites-canada">Best Air Purifier for Dust Mites Canada</Link></li>
+            <li><Link href="/blog/dust-mites">Dust Mites — What They Look Like and How to Reduce Them</Link></li>
             <li><Link href="/blog/best-large-capacity-dehumidifier-canada">Best Dehumidifier for a Canadian Basement</Link></li>
           </ul>
 

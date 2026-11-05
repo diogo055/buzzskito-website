@@ -346,7 +346,7 @@ export default function RodentProofCompostBinCanadaPage() {
           <h2>When the Cheap Bin Is the Right Answer</h2>
           <p>Not everyone needs to spend three hundred dollars. If you compost only yard waste &mdash; leaves, grass clippings, spent annuals, garden trimmings &mdash; rodents are not interested, because there is nothing there worth the trip. An open plastic dome or a simple wire enclosure is the correct tool, costs very little, and composts perfectly well. Buying a sealed steel bin for a leaf pile is money spent on a problem you do not have.</p>
           <p>The line to watch is food scraps plus pressure. Ask three questions honestly. Are you putting kitchen scraps in the bin? Have you seen droppings, a burrow hole about the diameter of a golf ball near a foundation or fence line, or greasy rub marks along a wall? And is your property in a setting that reliably supports rats &mdash; a laneway neighbourhood, near active construction, near a commercial food strip, near a ravine or transit corridor? Two yeses means buy the sealed bin. One yes means retrofit the bin you own. If you are not sure whether what you are seeing is rats or mice, our guide on <Link href="/blog/what-does-mouse-poop-look-like-canada">identifying droppings</Link> settles it in about a minute.</p>
-          <p>And be equally honest about the rest of the yard. A perfectly sealed composter next to a spilling bird feeder, fallen fruit, dog waste, an unsecured garbage bin, or a bowl of pet food left on the deck has not removed the food supply &mdash; it has only removed one line item from it. <Link href="/blog/best-squirrel-proof-bird-feeder-canada">Feeder spill</Link> in particular is the one people never count, and it feeds far more rodents than any compost bin.</p>
+          <p>And be equally honest about the rest of the yard. A perfectly sealed composter next to a spilling bird feeder, fallen fruit, dog waste, an unsecured garbage bin, or a bowl of pet food left on the deck has not removed the food supply &mdash; it has only removed one line item from it. <Link href="/blog/how-to-get-rid-of-rats-canada">Feeder spill</Link> in particular is the one people never count, and it feeds far more rodents than any compost bin.</p>
 
           <h2>Which Bin for Your Yard</h2>
           <p>Pick the bin for what goes in it and what lives nearby. Each row restates a finding from this page:</p>
@@ -388,7 +388,6 @@ export default function RodentProofCompostBinCanadaPage() {
             <li><Link href="/blog/how-to-get-rid-of-mice-canada">How to Get Rid of Mice in Canada — Full Playbook</Link></li>
             <li><Link href="/blog/best-rat-trap-canada">Best Rat Trap Canada — Snap, Electronic &amp; Bait Stations</Link></li>
             <li><Link href="/blog/what-does-mouse-poop-look-like-canada">What Does Mouse Poop Look Like? (vs Rat Droppings)</Link></li>
-            <li><Link href="/blog/best-squirrel-proof-bird-feeder-canada">Best Squirrel-Proof Bird Feeders in Canada</Link></li>
             <li><Link href="/pest-control-cost-canada">Pest Control Cost Canada — What Professionals Charge</Link></li>
           </ul>
 

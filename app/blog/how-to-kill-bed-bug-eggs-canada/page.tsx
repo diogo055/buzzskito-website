@@ -328,7 +328,7 @@ export default function HowToKillBedBugEggsCanadaPage() {
             <li><Link href="/blog/best-bed-bug-steamer-canada">Best Bed-Bug Steamer Canada — The Heat That Kills Eggs</Link></li>
             <li><Link href="/blog/bed-bug-heater-canada">Bed-Bug Heaters &amp; Chambers Canada — Whole-Item Heat</Link></li>
             <li><Link href="/blog/cimexa-bed-bug-review-canada">CimeXa Desiccant Dust Review — The Long-Term Barrier</Link></li>
-            <li><Link href="/blog/best-natural-bed-bug-spray-canada">Best Natural Bed-Bug Spray Canada — What EcoRaider-Type Products Do</Link></li>
+            <li><Link href="/blog/bed-bug-spray-canada">Best Bed-Bug Spray Canada — Registered Sprays, and What EcoRaider-Type Products Do</Link></li>
             <li><Link href="/blog/how-to-get-rid-of-bed-bugs-canada">How to Get Rid of Bed Bugs in Canada — The Full Plan</Link></li>
             <li><Link href="/blog/bed-bug-control-canada-hub">Bed-Bug Control Canada — The Complete Hub</Link></li>
             <li><Link href="/blog/best-pest-control-equipment-canada">Best Pest-Control Equipment Canada — The Device Hub</Link></li>

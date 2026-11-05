@@ -253,7 +253,7 @@ export default function GreenPoolMosquitoBreedingOntarioPage() {
             <li><strong><BuyLink tag={AMZ_TAG} search="mosquito bits bti granules">Bits</BuyLink></strong> are granular and disperse immediately. Use these when you need larvae dead in a day or two.</li>
             <li><strong><BuyLink tag={AMZ_TAG} search="mosquito dunks bti">Dunks</BuyLink></strong> are compressed and release slowly, holding a site for roughly 30 days each at the labelled rate. Use these to keep the pool suppressed while a cover is ordered.</li>
           </ul>
-          <p>The professional caveat, and it catches people out: <strong>Bti does not kill pupae.</strong> Pupae have stopped feeding, so they never ingest it. Treat a pool that already has tumblers in it and you will still get a hatch over the next few days &mdash; that is not the product failing, that is the cohort that was already past the vulnerable stage. Dose to the surface area of the pool and re-dose on a calendar rather than by eye; our full <Link href="/blog/mosquito-dunks-canada-guide">mosquito dunks guide for Canada</Link> covers rates and the dunks-versus-bits decision. What Bti cannot do is end the problem &mdash; a treated pool is still stagnant water needing re-dosing every month indefinitely. It is the breathing room you buy while the cover ships.</p>
+          <p>The professional caveat, and it catches people out: <strong>Bti does not kill pupae.</strong> Pupae have stopped feeding, so they never ingest it. Treat a pool that already has tumblers in it and you will still get a hatch over the next few days &mdash; that is not the product failing, that is the cohort that was already past the vulnerable stage. Dose to the surface area of the pool and re-dose on a calendar rather than by eye; our full <Link href="/blog/mosquito-bits-canada-vs-dunks">mosquito bits and dunks guide for Canada</Link> covers rates and the dunks-versus-bits decision. What Bti cannot do is end the problem &mdash; a treated pool is still stagnant water needing re-dosing every month indefinitely. It is the breathing room you buy while the cover ships.</p>
 
           <RelatedLinks path="/blog/green-pool-mosquito-breeding-ontario" />
           <h2>Should You Just Drain It?</h2>
@@ -296,7 +296,7 @@ export default function GreenPoolMosquitoBreedingOntarioPage() {
           <h2>Related Reading</h2>
           <ul>
             <li><Link href="/blog/hidden-mosquito-breeding-spots-backyard">12 Hidden Mosquito Breeding Spots in Your Backyard</Link></li>
-            <li><Link href="/blog/mosquito-dunks-canada-guide">Mosquito Dunks in Canada — Rates, Bits vs Dunks, and What Bti Actually Kills</Link></li>
+            <li><Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits vs Dunks in Canada — Rates and What Bti Actually Kills</Link></li>
             <li><Link href="/blog/mosquito-larvae-identification">How to Identify Mosquito Larvae</Link></li>
             <li><Link href="/blog/does-standing-water-attract-mosquitoes">Does Standing Water Attract Mosquitoes?</Link></li>
             <li><Link href="/pool-backyard-mosquito-control">Mosquito Control for Pools &amp; Backyards in the GTA</Link></li>

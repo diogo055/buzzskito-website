@@ -235,7 +235,7 @@ export default function StandingWaterMosquitoesPage() {
             <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Mosquito Dunks price on Amazon.ca →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="summit mosquito bits">Faster-acting Mosquito Bits →</BuyLink>
           </div>
-          <p>Dunks are slow-release tablets for long-term water sources; the granular <em>bits</em> version knocks down a larvae outbreak within minutes and suits small or unexpected water. Want the full breakdown of pricing, placement, and the three mistakes people make? See our <Link href="/blog/mosquito-dunks-canada-guide">mosquito dunks Canada guide</Link>.</p>
+          <p>Dunks are slow-release tablets for long-term water sources; the granular <em>bits</em> version knocks down a larvae outbreak within minutes and suits small or unexpected water. Want the full breakdown of dosing, placement and where to buy them in Canada? See our <Link href="/blog/mosquito-bits-canada-vs-dunks">mosquito bits and dunks guide for Canada</Link>.</p>
 
           <NextUp path="/blog/does-standing-water-attract-mosquitoes" />
           <h2>Why standing water matters for health in Ontario</h2>
@@ -254,7 +254,7 @@ export default function StandingWaterMosquitoesPage() {
           <h2>Related Reading</h2>
           <ul>
             <li><Link href="/blog/hidden-mosquito-breeding-spots-backyard">Hidden Mosquito Breeding Spots in Your Backyard</Link></li>
-            <li><Link href="/blog/mosquito-dunks-canada-guide">Mosquito Dunks Canada Guide — Where to Buy + 3 Mistakes</Link></li>
+            <li><Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits vs Dunks in Canada — Dosing and Where to Buy</Link></li>
             <li><Link href="/blog/mosquito-larvae-identification">Mosquito Larvae Identification — What&rsquo;s in Your Water</Link></li>
             <li><Link href="/mosquito-control">BuzzSkito Professional Mosquito Control Service</Link></li>
           </ul>

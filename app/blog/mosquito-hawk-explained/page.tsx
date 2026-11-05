@@ -540,7 +540,7 @@ export default function MosquitoHawkPage() {
             <li><strong>Fish</strong> — goldfish, koi, mosquitofish eat mosquito larvae in ponds.</li>
             <li><strong>Frogs and tadpoles</strong> — eat mosquito larvae in shallow water.</li>
           </ul>
-          <p>Even with all of these, the most effective residential mosquito control combines <Link href="/blog/mosquito-dunks-canada-guide">larvae control with BTI dunks</Link> and adult control with <Link href="/mosquito-control">professional barrier spray</Link>. Hoping crane flies will solve your mosquito problem is folklore — for a plan that actually works, see how to <Link href="/blog/how-to-get-rid-of-mosquitoes-in-yard-ontario">get rid of mosquitoes in your yard</Link>.</p>
+          <p>Even with all of these, the most effective residential mosquito control combines <Link href="/blog/mosquito-bits-canada-vs-dunks">larvae control with BTI dunks</Link> and adult control with <Link href="/mosquito-control">professional barrier spray</Link>. Hoping crane flies will solve your mosquito problem is folklore — for a plan that actually works, see how to <Link href="/blog/how-to-get-rid-of-mosquitoes-in-yard-ontario">get rid of mosquitoes in your yard</Link>.</p>
 
           <h2>Sources</h2>
           <p className="text-sm text-gray-600">Health and disease statements on this page are sourced to public health agencies; species, seasonality and turf statements to university extension services in the United States and Canada.</p>
@@ -555,7 +555,7 @@ export default function MosquitoHawkPage() {
           <ul>
             <li><Link href="/blog/bugs-that-look-like-ticks">Bugs That Look Like Ticks</Link></li>
             <li><Link href="/blog/mosquito-larvae-identification">How to Identify Mosquito Larvae</Link></li>
-            <li><Link href="/blog/mosquito-dunks-canada-guide">Mosquito Dunks Canada Guide</Link></li>
+            <li><Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits vs Dunks in Canada</Link></li>
             <li><Link href="/mosquito-control">BuzzSkito Mosquito Control Service</Link></li>
           </ul>
         <h2>Frequently Asked Questions</h2>

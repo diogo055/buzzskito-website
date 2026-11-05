@@ -19,7 +19,7 @@ const SLUG = 'thermacell-e90-canada-review'
 const DATE = '2026-07-14'
 const UPDATED = '2026-07-14'
 const TITLE = 'Thermacell E90 Review Canada 2026 — vs E55, vs EX90 & Which Refills to Buy'
-const META_TITLE = 'Thermacell E90 Review Canada: 9-Hour Runtime'
+const META_TITLE = 'Thermacell E90 Review Canada: vs EX90 and E55'
 
 const FAQS = [
   {

@@ -2,7 +2,7 @@
  "id": "best-bed-bug-spray",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "c526b642b5f78c58c6609e85f85dabdc0794359544e090a9e11e3a0fff89cc38",
+ "sha": "980870c63bb7b13606f3ff1a76eb3c5e8f0de0ded6b483e98178ddfbb0ecb5ca",
  "claimsChecked": 162,
  "claimsCorrected": 15,
  "claimsRemovedOrSoftened": 1,
@@ -11,5 +11,17 @@
   "on": "2026-11-05",
   "scheduledFor": "2026-11-05",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-11-05",
+   "note": "Nov 5, 2026: one sentence linking the new US buying guide /blog/best-bed-bug-mattress-cover (no claim added)",
+   "previousSha": "c526b642b5f78c58c6609e85f85dabdc0794359544e090a9e11e3a0fff89cc38"
+  },
+  {
+   "on": "2026-11-05",
+   "note": "Nov 5, 2026: reviewedBy/reviewedOn added (the owner said he read and reviewed this page)",
+   "previousSha": "26c2592dd3c800966a96f9ff38f6a6440d133049f1ec379522d3248b9f3dbb5a"
+  }
+ ]
 }

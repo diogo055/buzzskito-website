@@ -85,7 +85,7 @@ const SECTIONS: HubSection[] = [
     icon: '💧',
     intro: 'The highest-leverage product on this whole page. Killing larvae in standing water stops mosquitoes before they ever fly — one dunk treats a lot for roughly 30 days and is safe around pets, fish, and wildlife.',
     guides: [
-      { href: '/blog/mosquito-dunks-canada-guide', title: 'Mosquito Dunks Canada Guide', blurb: 'BTI dunks kill larvae in standing water — the one product every yard should use.', tone: 'top' },
+      { href: '/blog/mosquito-bits-canada-vs-dunks', title: 'Mosquito Dunks & Bits in Canada', blurb: 'BTI dunks kill larvae in standing water — the one product every yard should use. Which format is registered here, how to dose it and where to buy it.', tone: 'top' },
     ],
   },
   {
@@ -168,7 +168,7 @@ export default function MosquitoGearHubPage() {
         sections={SECTIONS}
         bottomLine={{
           title: 'The honest bottom line',
-          body: <><p>If you buy nothing else, buy a bag of <Link href="/blog/mosquito-dunks-canada-guide">BTI mosquito dunks</Link> and a <Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link>. Dunks stop mosquitoes breeding for pennies; the Thermacell keeps the patio usable while you sit there. Add <Link href="/blog/off-deep-woods-deet-bug-spray-canada">DEET or icaridin</Link> on your skin and you have covered most of the problem for under $80. When the gear becomes more hassle than it is worth, compare the DIY route against a <Link href="/mosquito-control">professional barrier spray program</Link> — for many GTA families a season of technician-applied protection is cheaper and far less fiddly than a garage full of gadgets.</p>
+          body: <><p>If you buy nothing else, buy a bag of <Link href="/blog/mosquito-bits-canada-vs-dunks">BTI mosquito dunks</Link> and a <Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link>. Dunks stop mosquitoes breeding for pennies; the Thermacell keeps the patio usable while you sit there. Add <Link href="/blog/off-deep-woods-deet-bug-spray-canada">DEET or icaridin</Link> on your skin and you have covered most of the problem for under $80. When the gear becomes more hassle than it is worth, compare the DIY route against a <Link href="/mosquito-control">professional barrier spray program</Link> — for many GTA families a season of technician-applied protection is cheaper and far less fiddly than a garage full of gadgets.</p>
             <div className="not-prose mt-4 flex flex-wrap gap-3">
               <BuyLink tag={AMZ_TAG} search="summit mosquito dunks" className="!text-white !no-underline">See mosquito dunks on Amazon.ca &rarr;</BuyLink>
               <BuyLink tag={AMZ_TAG} search="thermacell e90 rechargeable" className="!text-white !no-underline">See the Thermacell E90 on Amazon.ca &rarr;</BuyLink>

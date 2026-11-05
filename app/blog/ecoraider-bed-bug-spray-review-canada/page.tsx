@@ -21,7 +21,7 @@ const SLUG = 'ecoraider-bed-bug-spray-review-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-10-29'
 const TITLE = 'EcoRaider Bed Bug Spray Review Canada 2026 — Does the Plant-Based Killer Actually Work?'
-// TITLE NOTE (Oct 29, 2026): was 'EcoRaider Bed Bug Spray 2026 Review (Canada)'; top queries, Jul 29-Oct 26 (all countries): ecoraider bed bug killer 57 at 5.4 (2 clicks), eco raider 43 at 5.7, ecoraider 27 at 5.2 (2), ecovenger bed bug killer reviews 21 at 8.8, ecoraider bed bug killer spray 18 at 7.4, ecoraider canada 3 at 1.7; 'bed bug spray' and 'bed bug spray canada' stay with /blog/bed-bug-spray-canada, 'natural bed bug spray' with /blog/best-natural-bed-bug-spray-canada.
+// TITLE NOTE (Oct 29, 2026): was 'EcoRaider Bed Bug Spray 2026 Review (Canada)'; top queries, Jul 29-Oct 26 (all countries): ecoraider bed bug killer 57 at 5.4 (2 clicks), eco raider 43 at 5.7, ecoraider 27 at 5.2 (2), ecovenger bed bug killer reviews 21 at 8.8, ecoraider bed bug killer spray 18 at 7.4, ecoraider canada 3 at 1.7; 'bed bug spray' and 'bed bug spray canada' stay with /blog/bed-bug-spray-canada, 'natural bed bug spray' with /blog/bed-bug-spray-canada (the natural spray page was merged into it on Nov 5, 2026).
 const META_TITLE = 'EcoRaider Bed Bug Killer: Is It Legal in Canada?'
 
 const FAQS = [
@@ -203,7 +203,7 @@ export default function EcoRaiderBedBugSprayReviewCanadaPage() {
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-3">
-            Registration status changes &mdash; check Health Canada&rsquo;s registry for a PCP number before buying; on October 29, 2026 it listed no EcoRaider, EcoVenger or CimeXa product. Full landscape in our <Link href="/blog/bed-bug-control-canada-hub" className="text-emerald-700 underline">Canadian bed bug control hub</Link>, <Link href="/blog/bed-bug-spray-canada" className="text-emerald-700 underline">bed bug spray guide</Link>, and <Link href="/blog/best-natural-bed-bug-spray-canada" className="text-emerald-700 underline">natural bed bug spray roundup</Link>.
+            Registration status changes &mdash; check Health Canada&rsquo;s registry for a PCP number before buying; on October 29, 2026 it listed no EcoRaider, EcoVenger or CimeXa product. Full landscape in our <Link href="/blog/bed-bug-control-canada-hub" className="text-emerald-700 underline">Canadian bed bug control hub</Link> and <Link href="/blog/bed-bug-spray-canada" className="text-emerald-700 underline">bed bug spray guide</Link>, which also covers natural sprays.
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
@@ -253,7 +253,7 @@ export default function EcoRaiderBedBugSprayReviewCanadaPage() {
           <h2>What Is EcoRaider, and Why Does a Plant-Based Spray Deserve a Serious Look?</h2>
           <p>EcoRaider is a botanical bed bug spray: a plant-based contact killer built on geraniol and cedar extract (cedar oil on the maker&rsquo;s current sheet) with the detergent sodium lauryl sulfate, rather than the pyrethrins and pyrethroids in most bed bug spray bottles. The reason it earns a full review rather than a dismissive wave, which is what most &ldquo;natural&rdquo; pest products deserve, is a single unusual fact: it has published university testing behind it. When Rutgers University entomologists put a range of consumer bed bug sprays through controlled testing against real, field-collected bed bugs, EcoRaider was one of the very few natural products that actually killed them &mdash; reaching high mortality on direct contact, in a category where most botanical sprays are aromatherapy with a bug on the label.</p>
           <p>That testing pedigree is most of the story, because the bed bug spray aisle is full of products that disappoint. Part of the reason is that bed bugs have become widely resistant to the pyrethroid chemistry many of those products rely on, which the Rutgers authors point to as well. EcoRaider did kill pyrethroid-resistant nymphs in their lab, though the authors credit its other ingredients more than its plant oils. What the testing cannot change is its status here: EcoRaider has no Canadian registration, so a Canadian cannot legally buy or use it, however well it measured.</p>
-          <p>This review sits alongside our broader <Link href="/blog/bed-bug-control-canada-hub">Canadian bed bug control hub</Link>, our general <Link href="/blog/bed-bug-spray-canada">bed bug spray guide</Link>, and our <Link href="/blog/best-natural-bed-bug-spray-canada">natural bed bug spray roundup</Link>; here we go deep on what the EcoRaider testing shows and what Canadian law says about it.</p>
+          <p>This review sits alongside our broader <Link href="/blog/bed-bug-control-canada-hub">Canadian bed bug control hub</Link> and our general <Link href="/blog/bed-bug-spray-canada">bed bug spray guide</Link>, which also rounds up the natural sprays; here we go deep on what the EcoRaider testing shows and what Canadian law says about it.</p>
 
           <QuickIdTable
             title="EcoRaider and the Canadian alternatives, on the record"
@@ -352,7 +352,6 @@ export default function EcoRaiderBedBugSprayReviewCanadaPage() {
           <ul>
             <li><Link href="/blog/bed-bug-control-canada-hub">Bed Bug Control Canada — The Complete Plan</Link></li>
             <li><Link href="/blog/bed-bug-spray-canada">Bed Bug Spray Canada — What Actually Works</Link></li>
-            <li><Link href="/blog/best-natural-bed-bug-spray-canada">Best Natural Bed Bug Spray Canada — The Plant-Based Options</Link></li>
             <li><Link href="/blog/do-bed-bug-sprays-actually-work">Do Bed Bug Sprays Actually Work? The Resistance Problem</Link></li>
             <li><Link href="/blog/cimexa-bed-bug-review-canada">CimeXa Review Canada — The Resistance-Proof Desiccant Dust</Link></li>
             <li><Link href="/blog/best-bed-bug-steamer-canada">Best Bed-Bug Steamer Canada — Heat That Kills the Eggs</Link></li>

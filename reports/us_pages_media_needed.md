@@ -1,6 +1,6 @@
 # Photos and diagrams the new guides still need
 
-552 images across 222 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
+556 images across 225 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
 
 ## /learn/bed-bugs
 
@@ -87,6 +87,11 @@
 
 - Bed bug eggs magnified beside a ruler marked in inches, some with the eye spot showing and at least one hatched, empty shell among them, identified by an entomologist or extension service; public domain or CC0 so it could lead the page
 - Hatched bed bug eggshells beside unhatched eggs with visible eye spots, each labeled by the source, magnified beside a ruler marked in inches; public domain or CC0
+
+## /blog/best-bed-bug-mattress-cover
+
+- Close-up of a zippered bed bug mattress encasement being closed on a mattress, showing the zipper pull pushed fully to the end of the track and a fabric flap or guard covering the zipper end (public domain or CC0, no brand logo prominent)
+- A plastic bed bug interceptor cup under the leg of a bed, with the bed pulled a few inches from the wall and no bedding touching the floor (public domain or CC0)
 
 ## /learn/ants
 
@@ -507,6 +512,14 @@
 - Wide, low-angle photo of Arctic tundra in June showing shallow snowmelt ponds and wet sedge on flat ground, with a patch of old snow still visible at the edge
 - Close-up photo of a snow mosquito (Culiseta alaskaensis) beside a US quarter for scale, with a smaller Aedes mosquito from the same Alaska site placed next to it for comparison
 - Photo of a group of caribou standing together on a summer snow patch or river gravel bar on the North Slope, with open tundra and a low sun in the background
+
+## /blog/best-mosquito-repellent
+
+- Close-up of the back label of a US insect repellent showing the EPA Reg. No. and EPA's repellency awareness graphic with hours of protection for mosquitoes and ticks, beside a ruler marked in inches; public domain or CC0
+
+## /blog/best-bug-zapper
+
+- A plug-in UV fly light trap with a glue board mounted on a kitchen or garage wall about 5 feet up, out of sight of windows, with flies on the board and a ruler marked in inches for scale; public domain or CC0
 
 ## /blog/what-do-ticks-look-like
 

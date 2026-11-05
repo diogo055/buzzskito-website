@@ -563,6 +563,10 @@
 - `/blog/best-bed-bug-spray` — bed bug spray
 - `/blog/best-flea-spray-for-home` — flea spray for house
 - `/blog/raccoon-repellent` — raccoon repellent
+- `/blog/best-ant-bait` — ant killer
+- `/blog/best-bed-bug-mattress-cover` — bed bug mattress cover
+- `/blog/best-mosquito-repellent` — mosquito repellent
+- `/blog/best-bug-zapper` — bug zapper
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

@@ -175,6 +175,8 @@ export interface Guide {
  * he has read it: then give it "reviewedBy" and "reviewedOn", or move this date when he confirms
  * a whole batch. Only when true.
  */
+// Pages he confirms one by one after this date carry their own "reviewedBy"/"reviewedOn" (the six US
+// buying guides released Nov 5 do). Do not move this date past a day whose pages he has not all read.
 export const OWNER_REVIEWED_THROUGH = '2026-11-04'
 export const OWNER_REVIEWER = 'Alex Francisco'
 
@@ -253,6 +255,10 @@ export const REGIONAL_PAIRS: { us: string; ca: string }[] = [
   { us: '/blog/best-bed-bug-spray', ca: '/blog/bed-bug-spray-canada' },
   { us: '/blog/best-flea-spray-for-home', ca: '/blog/best-flea-spray-for-home-canada' },
   { us: '/blog/raccoon-repellent', ca: '/blog/raccoon-deterrent' },
+  { us: '/blog/best-ant-bait', ca: '/blog/best-ant-killer' },
+  { us: '/blog/best-bed-bug-mattress-cover', ca: '/blog/bed-bug-mattress-encasement-canada' },
+  { us: '/blog/best-mosquito-repellent', ca: '/blog/mosquito-repellent-guide-ontario-2026' },
+  { us: '/blog/best-bug-zapper', ca: '/blog/bug-zappers-canada-do-they-work' },
 ]
 
 export const regionalPair = (path: string) => REGIONAL_PAIRS.find((p) => p.us === path || p.ca === path)

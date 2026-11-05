@@ -2,6 +2,20 @@
  "_readme": "Hand-picked in-content links. Anything set here wins over the automatic pick and is never changed by scripts/backfill-recirculation.mjs. Use full paths. A page may set \"next\" (one path), \"related\" (a list of up to three paths), both, or \"off\": true to show neither unit on that page. After editing run: npm run recirculation:backfill",
  "_history": "Oct 11, 2026: the \"next\" entries below were chosen in a page-by-page review of all 416 automatic picks, for the pages where the automatic pick was rated wrong or weak.",
  "pages": {
+  "/blog/best-mosquito-repellent": {
+   "next": "/blog/how-to-keep-mosquitoes-away",
+   "related": ["/blog/what-kills-ticks", "/blog/best-bug-zapper", "/blog/are-mosquitoes-attracted-to-light"],
+   "_why": "Nov 5, 2026: US buying guides send US readers on to US guides; the automatic picks were Canadian pages"
+  },
+  "/blog/best-bug-zapper": {
+   "next": "/blog/are-mosquitoes-attracted-to-light",
+   "related": ["/blog/how-to-keep-mosquitoes-away", "/blog/flies-in-house", "/blog/best-mosquito-repellent"],
+   "_why": "Nov 5, 2026: same; the automatic picks were Canadian zapper pages"
+  },
+  "/blog/best-bed-bug-mattress-cover": {
+   "related": ["/blog/bed-bugs-on-mattress", "/blog/best-bed-bug-spray", "/blog/how-to-get-rid-of-bed-bugs"],
+   "_why": "Nov 5, 2026: same; one automatic pick was a Canadian encasement review"
+  },
   "/blog/best-rat-traps": {
    "next": "/blog/mice-traps",
    "_why": "Nov 5, 2026: the US buying guides send US readers on to US guides (amazon.com), not to the Canadian amazon.ca pages the automatic pick chose"
@@ -30,7 +44,8 @@
    "next": "/blog/alpha-gal-syndrome"
   },
   "/blog/advion-cockroach-gel-bait": {
-   "next": "/blog/best-cockroach-killer-canada"
+   "next": "/blog/best-cockroach-spray-canada",
+   "_why": "Nov 5, 2026: was /blog/best-cockroach-killer-canada, merged into this page (301)"
   },
   "/blog/are-ticks-arachnids-or-insects": {
    "next": "/learn/tick-life-cycle"
@@ -44,14 +59,8 @@
   "/blog/backpack-sprayer-canada": {
    "next": "/blog/field-king-backpack-sprayer-review-canada"
   },
-  "/blog/battery-backup-sump-pump-canada": {
-   "next": "/blog/best-sump-pump-for-basement-canada"
-  },
   "/blog/bed-bug-heater-canada": {
    "next": "/blog/best-whole-room-bed-bug-heater-canada"
-  },
-  "/blog/best-air-purifier-for-dust-mites-canada": {
-   "next": "/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada"
   },
   "/blog/best-bug-spray-for-kids-canada": {
    "next": "/blog/is-deet-safe"
@@ -74,11 +83,9 @@
   "/blog/best-spider-spray-canada": {
    "next": "/blog/how-to-get-rid-of-spiders-in-house-canada"
   },
-  "/blog/best-squirrel-proof-bird-feeder-canada": {
-   "next": "/blog/rodent-proof-compost-bin-canada"
-  },
   "/blog/best-wasp-nest-spray-canada": {
-   "next": "/blog/wasp-dust-canada"
+   "next": "/blog/how-to-get-rid-of-ground-wasps-canada",
+   "_why": "Nov 5, 2026: was /blog/wasp-dust-canada, merged into this page (301)"
   },
   "/blog/black-flies-ontario-when-they-come-out": {
    "next": "/blog/deer-flies-horse-flies-ontario"
@@ -201,7 +208,8 @@
    "next": "/blog/bug-protective-clothing-canada"
   },
   "/blog/rain-barrel-mosquito-proof-canada": {
-   "next": "/blog/mosquito-dunks-canada-guide"
+   "next": "/blog/mosquito-bits-canada-vs-dunks",
+   "_why": "Nov 5, 2026: was /blog/mosquito-dunks-canada-guide, merged into this page (301)"
   },
   "/blog/red-ticks-and-clover-mites": {
    "next": "/blog/bugs-that-look-like-ticks"

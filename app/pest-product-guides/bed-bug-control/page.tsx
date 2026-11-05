@@ -59,7 +59,7 @@ const SECTIONS: HubSection[] = [
       {
         href: '/blog/bed-bug-spray-canada',
         title: 'Bed Bug Spray Canada — What Is PMRA-Registered',
-        blurb: 'The contact and residual sprays that hold a Canadian PCP registration, and why US picks like Crossfire and Temprid FX are illegal here.',
+        blurb: 'The contact and residual sprays that hold a Canadian PCP registration, which ones are labelled for mattresses, where natural sprays stand, and why US picks like Crossfire and Temprid FX are illegal here.',
       },
       {
         href: '/blog/do-bed-bug-sprays-actually-work',
@@ -195,8 +195,8 @@ const SECTIONS: HubSection[] = [
     guides: [
       {
         href: '/blog/cimexa-bed-bug-review-canada',
-        title: 'CimeXa Review',
-        blurb: 'Does the silica dust actually work?',
+        title: 'CimeXa Review & Best Bed Bug Powder',
+        blurb: 'Does the silica dust actually work, and how it compares with diatomaceous earth.',
         tone: 'top',
       },
       {
@@ -236,24 +236,9 @@ const SECTIONS: HubSection[] = [
         blurb: 'Does the plant-based killer actually work?',
       },
       {
-        href: '/blog/best-natural-bed-bug-spray-canada',
-        title: 'Best Natural Bed Bug Spray',
-        blurb: 'Plant-based, PMRA-legal picks, and their limits.',
-      },
-      {
-        href: '/blog/best-bed-bug-spray-for-mattress-canada',
-        title: 'Best Spray for a Mattress',
-        blurb: 'PMRA-registered picks labelled for use on mattresses.',
-      },
-      {
         href: '/blog/best-bed-bug-spray-for-travel-canada',
         title: 'Best Spray for Travel',
         blurb: 'Carry-on-legal luggage and hotel picks.',
-      },
-      {
-        href: '/blog/best-bed-bug-powder-canada',
-        title: 'Best Bed Bug Powder',
-        blurb: 'Silica gel against diatomaceous earth, compared.',
       },
       {
         href: '/blog/best-bed-bug-fogger-canada',

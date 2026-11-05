@@ -18,9 +18,10 @@ import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'best-dehumidifier-for-cold-garage-canada'
 const DATE = '2026-08-22'
-const UPDATED = '2026-10-23'
+const UPDATED = '2026-11-05'
 const TITLE = 'Best Dehumidifier for a Cold Garage Canada 2026 — Rust, Slab Sweat, and What Actually Works Below 10°C'
 // TITLE NOTE (Oct 23, 2026): was 'Best Dehumidifier for a Cold Garage Canada'; top queries: garage dehumidifier 341, garage dehumidifier canada 117, dehumidifier for garage 110, best dehumidifier for garage 44 (10 clicks). Kept off 'desiccant vs compressor' (its own page) and off mould (best-dehumidifier-for-mold-canada).
+// MERGE NOTE (Nov 5, 2026): the desiccant-vs-compressor-dehumidifier-canada page was folded into this page (301): its comparison table, running-cost and room-by-room sections, cold cellar and ratings sections, products and 3 FAQs. Title kept: the garage searches are the larger demand, and this page already out-ranked it on "desiccant dehumidifier canada" (76 impressions vs 50).
 const META_TITLE = 'Garage Dehumidifier Canada: Best Low-Temp Picks'
 
 const FAQS = [
@@ -63,6 +64,18 @@ const FAQS = [
   {
     question: 'Can I use a dehumidifier in a cold room?',
     answer: 'Yes, if you match it to the room’s temperature. A cold room is unheated by design, so measure it first: below 18°C, Natural Resources Canada says to consider a product meant for lower temperatures, and below about 10°C a desiccant unit is the type built for it (Meaco rates its DD8L down to 1°C and recommends desiccant below 10°C). A compressor unit only makes sense if the room stays above roughly 10°C. Run the drain hose to a floor drain so the unit never stalls on a full tank, and check the humidity with a hygrometer.',
+  },
+  {
+    question: 'Desiccant or compressor dehumidifier — which is better in Canada?',
+    answer: 'It is decided almost entirely by the temperature of the room, not by the size of the space or the price of the machine. If the room stays warm year-round — a heated basement, a finished rec room, a conditioned crawl space — buy a compressor (refrigerant) unit: it removes far more water per kilowatt-hour, it is what every Canadian retailer stocks, and an Energy Star model with a humidistat will hold 45 to 50% relative humidity. Below 18°C, Natural Resources Canada says to consider a product meant for lower temperatures, so a compressor in a cooler room needs auto-defrost. Below about 10°C — an unheated garage, a workshop, a cold storage room — buy a desiccant: its output barely changes with temperature, so it keeps drying close to freezing (Meaco rates its DD8L down to 1°C), while a compressor with auto-defrost stops at about 5°C. Buying the wrong one for the room is the single most common and most expensive mistake in this category.',
+  },
+  {
+    question: 'How does a desiccant dehumidifier actually work?',
+    answer: 'Instead of chilling air to condense water out of it, a desiccant unit passes air over a slowly rotating wheel coated in an adsorbent material — typically silica gel or zeolite — which pulls water vapour directly out of the airstream. A small heater then warms a separate section of the wheel to drive that moisture back off, and the resulting damp air is condensed and drained or collected. Because nothing depends on getting a coil below the dew point, the process is essentially indifferent to room temperature: a desiccant that removes a given amount of water at 20°C removes a broadly similar amount at 5°C. That temperature-independence is the entire reason the class exists and the only reason to pay its running cost.',
+  },
+  {
+    question: 'Do desiccant dehumidifiers use more electricity?',
+    answer: 'In a warm room, yes, and by a wide margin — a desiccant runs a resistive heating element continuously to regenerate its wheel, so a domestic unit typically draws a few hundred watts flat out with no efficient cycling. A compressor unit in the same warm room removes several times more water per kilowatt-hour, which is why Energy Star ratings exist for compressors and not for desiccants. But in a cold room the comparison inverts and stops meaning anything: a compressor below about 5°C is removing almost nothing per kilowatt-hour, so it is not more efficient, it is simply not working. Efficiency only counts when both machines can do the job. Pick the one that works in your room, then worry about the hydro bill.',
   },
 ]
 
@@ -249,7 +262,7 @@ export default function BestDehumidifierForColdGarageCanadaPage() {
           <NextUp path="/blog/best-dehumidifier-for-cold-garage-canada" />
           <h2>Your Garage Is Not a Small Basement</h2>
           <p>Every sizing chart you will read was written for a conditioned, reasonably sealed room. A garage breaks three of those assumptions at once. It has a large overhead door with a rubber bottom seal that is usually compressed, cracked, or standing off the slab where the concrete has heaved &mdash; a leak path several metres long. It has an uninsulated slab poured directly on grade, often with no vapour retarder underneath it in older Ontario builds, so ground moisture migrates up through the concrete year-round. And it swings through a much wider temperature range than any room in the house, because it is on the wrong side of the insulation.</p>
-          <p>The practical consequence is that a garage has a bigger moisture load than its floor area implies, and a dehumidifier in a garage is partly drying outdoor air rather than the same recirculated air over and over. That is why we push people to size up rather than down, and why sealing the envelope pays back faster here than it does in a basement. If you want the fully sealed-space version of this problem, our <Link href="/blog/crawl-space-dehumidifier-vs-vapour-barrier-canada">crawl space dehumidifier vs vapour barrier</Link> guide covers what changes once you can actually close a space off.</p>
+          <p>The practical consequence is that a garage has a bigger moisture load than its floor area implies, and a dehumidifier in a garage is partly drying outdoor air rather than the same recirculated air over and over. That is why we push people to size up rather than down, and why sealing the envelope pays back faster here than it does in a basement. If you want the fully sealed-space version of this problem, our <Link href="/blog/best-large-capacity-dehumidifier-canada">basement and crawl space dehumidifier guide</Link> covers what changes once you can actually close a space off.</p>
 
           <h2>The Three Damp Problems in a Canadian Garage &mdash; Only One Is a Dehumidifier&rsquo;s Job</h2>
           <p>Diagnosis first, because these look identical on the floor and have completely different fixes.</p>
@@ -277,14 +290,101 @@ export default function BestDehumidifierForColdGarageCanadaPage() {
             caption={<>One model from each maker, as published and checked October 23, 2026: <a href="https://danby.ca/products/dehumidifiers/ddr040bfcwdb/" target="_blank" rel="noopener noreferrer" className="underline">Danby DDR040BFCWDB</a> and <a href="https://www.meaco.com/products/meaco-dd8l-dehumidifier" target="_blank" rel="noopener noreferrer" className="underline">Meaco DD8L</a>. Other models differ, so check the minimum temperature on the box. The 18&deg;C line is from <a href="https://natural-resources.canada.ca/energy-efficiency/energy-star/products/list-certified-products/dehumidifiers" target="_blank" rel="noopener noreferrer" className="underline">Natural Resources Canada&rsquo;s ENERGY STAR dehumidifier page</a>.</>}
           />
 
+          <h2>Desiccant vs Compressor: Running Cost, Noise and Where to Buy</h2>
+          <p>Both classes remove water from air. They differ in <em>how</em>, and that difference decides everything about where each one belongs in a Canadian house. The temperature line above settles most purchases; the rest of the comparison is what each machine costs to run, what it does to the room, how it sounds, and where you can actually buy one.</p>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm my-6">
+            <table className="min-w-[560px] w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Factor</th>
+                  <th className="px-4 py-3 text-left">Desiccant</th>
+                  <th className="px-4 py-3 text-left">Compressor</th>
+                  <th className="px-4 py-3 text-left">Why it decides the purchase</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Warm-room efficiency</td>
+                  <td className="px-4 py-3 text-gray-700">Heater runs constantly &mdash; costly</td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Far more water per kWh</strong></td>
+                  <td className="px-4 py-3 text-gray-700">In a heated basement the compressor wins outright</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Effect on the room</td>
+                  <td className="px-4 py-3 text-gray-700">Warms it by a few degrees</td>
+                  <td className="px-4 py-3 text-gray-700">Adds a little waste heat</td>
+                  <td className="px-4 py-3 text-gray-700">A bonus in a garage, unwelcome in July</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Weight &amp; noise</td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Light; steady hum</strong></td>
+                  <td className="px-4 py-3 text-gray-700">Heavier; cycles on and off</td>
+                  <td className="px-4 py-3 text-gray-700">Cycling noise is what annoys people in finished rooms</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Where to buy in Canada</td>
+                  <td className="px-4 py-3 text-gray-700">Mostly Amazon.ca</td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Everywhere</strong> &mdash; Canadian Tire, Home Depot, Rona</td>
+                  <td className="px-4 py-3 text-gray-700">The shelf will push you toward the compressor by default</td>
+                </tr>
+                <tr className="align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Availability</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ivation desiccant dehumidifier" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dehumidifier auto defrost energy star continuous drain" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3 text-gray-700">Buy the Canadian 120V listing for the right plug and warranty</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p>In a warm room, a compressor wins on efficiency by a wide margin and it is not close. A domestic desiccant typically draws a few hundred watts continuously with no efficient cycling, because the heating element is the process. A compressor with a humidistat reaches its setpoint and coasts. That is why Energy Star ratings exist for compressor units and not for desiccants, and why nobody should put a desiccant in a heated basement to save money.</p>
+          <p>In a cold room, that comparison stops meaning anything. A compressor below its roughly 5&deg;C floor is removing almost no water per kilowatt-hour, so it is not the efficient choice &mdash; it is simply not doing the job. Efficiency only counts when both machines can actually do the work. Pick the class that functions in your space first; optimize the hydro bill second. The most expensive dehumidifier in Canada is the cheap one that runs all winter and dries nothing.</p>
+
+          <h2>Room by Room: When a Compressor Still Wins, and Where a Desiccant Belongs</h2>
+          <p>The same temperature rule decides every damp space in a Canadian house, not just the garage:</p>
+          <ul>
+            <li><strong>Heated basement or finished rec room (18&ndash;21&deg;C):</strong> compressor, always. Energy Star, settable humidistat, continuous drain, target 45&ndash;50% RH.</li>
+            <li><strong>Unheated garage or workshop:</strong> decided by how cold it gets, as above &mdash; a compressor with auto-defrost above about 10&deg;C, a desiccant between about 1&deg;C and 10&deg;C, and neither below freezing.</li>
+            <li><strong>Cold cellar:</strong> this one has a trap in it, so read the cold cellar section below before you buy anything.</li>
+            <li><strong>Crawl space:</strong> depends on the building envelope. Encapsulated and conditioned &rarr; compressor with auto-defrost. Vented and unheated &rarr; desiccant, or better, fix the venting first &mdash; see our <Link href="/blog/best-large-capacity-dehumidifier-canada">crawl space dehumidifier guide</Link>.</li>
+            <li><strong>Cottage closed for winter:</strong> a desiccant on a continuous drain and a humidistat, only while the space stays above freezing (many desiccants are rated to around 1&deg;C), plus proper plumbing shutdown. A machine with a full tank has stopped working.</li>
+            <li><strong>Wardrobe, boat cabin, storage locker, single damp cupboard:</strong> often neither. A passive calcium-chloride absorber or a small rechargeable unit is enough and costs nothing to run.</li>
+          </ul>
+          <p>For a smaller cold space, the same answer comes in a smaller box: a compact desiccant that runs unattended on a drain hose.</p>
+          <AwardRow tag={AMZ_TAG}
+            heading="Compact Desiccant for a Smaller Cold Space"
+            awards={[
+              {
+                badge: 'Best for an Unheated Garage',
+                name: 'Compact Desiccant with Continuous Drain',
+                why: 'A garage needs to sit under about 60% RH to stop rust and mould, not at living-room humidity — so a modest desiccant on a hose beats a large machine you have to empty. The warmed exhaust air is a genuine bonus in a cold garage.',
+                search: 'compact desiccant dehumidifier continuous drain',
+                pros: ['Right-sized for a realistic garage target', 'Runs unattended on a drain hose', 'Adds a few degrees of warmth'],
+                cons: ['Not enough for a large wet basement', 'Keep it clear of sawdust and stacked cloth'],
+              },
+            ]}
+          />
+
+          <h2>The Cold Cellar Trap</h2>
+          <p>A cold cellar is one of the very few damp rooms in a Canadian house that is <em>supposed</em> to be damp. Root cellars are deliberately cool and humid so that potatoes, onions, squash and preserves keep well; dry one to 45% RH and you have shrivelled the produce the room exists to protect. If yours is genuinely used as a cold cellar, the right response to excess moisture is usually ventilation and sealing the door and ceiling from the heated house above &mdash; not a dehumidifier at all.</p>
+          <p>If it is a cold cellar in name only, and is really a cold storage room full of boxes, paperwork and Christmas decorations, then it behaves like any other cold space and a small desiccant with a continuous drain is the correct answer. Decide which room you actually have before you spend money on either.</p>
+
           <RelatedLinks path="/blog/best-dehumidifier-for-cold-garage-canada" />
           <h2>Below Freezing, Buy Nothing</h2>
           <p>This is the part of the guide that saves people the most money, so we will say it plainly: in a garage that sits below 0&deg;C for weeks at a time, buying a dehumidifier is the wrong purchase and no machine on the market changes that. Cold air simply cannot hold much water &mdash; air at &minus;10&deg;C carries a small fraction of the moisture the same air holds at 25&deg;C &mdash; so there is very little vapour available to remove, however hard the unit works. Meanwhile the condensate inside the machine and the water sitting in the drain hose can freeze, which at best faults the unit out and at worst damages it.</p>
           <p>What actually helps in a freezing garage is water management and envelope work, and none of it is expensive. Replace a worn garage-door bottom seal so meltwater and humid air stop moving freely. Squeegee standing meltwater to the drain rather than leaving it to evaporate into the space. Rinse road salt off the slab and off the underside of the vehicle, because chloride is hygroscopic and will keep a patch damp regardless of how dry the air around it is. Check that downspouts discharge well away from the garage foundation. Then, when spring arrives and the space climbs back above 10&deg;C, start the dehumidifier and let it do the job it is genuinely good at.</p>
 
+          <h2>Reading the Ratings: Pints and Litres Per Day Do Not Compare</h2>
+          <p>The two classes are rated at different test conditions &mdash; compressor units at warm humid conditions that flatter them, desiccants at cooler ones &mdash; so headline pints- or litres-per-day figures cannot be compared straight across the divide, and treating them as if they can is how people buy a big number that does nothing in their garage.</p>
+          <p>The only figure that matters is what each machine does at <em>your</em> garage&rsquo;s temperature. Desiccant makers usually publish performance across a temperature range, because flat performance is their whole pitch. Compressor makers frequently publish no low-temperature figure at all, which is itself a piece of information. If a compressor listing will not tell you what it does at 8&deg;C, assume the honest answer is &ldquo;not much&rdquo;. Before you buy either, leave a cheap thermo-hygrometer in the space for two weeks &mdash; it tells you which side of the temperature line you are actually on, and it catches a drifting built-in sensor for years afterwards.</p>
+          <p className="not-prose text-sm text-gray-600 mb-1">A thermo-hygrometer reads temperature and humidity together:</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink tag={AMZ_TAG} search="digital hygrometer thermometer indoor humidity">Hygrometer →</BuyLink>
+          </div>
+
           <h2>Sizing, Drainage, and the Hose That Freezes</h2>
           <p>For sizing, treat the square-footage chart as a floor rather than an answer. A single garage of roughly 250&ndash;350 sq ft is well served by a 25&ndash;35 pint compressor unit or a mid-size desiccant; a double garage at 400&ndash;600 sq ft wants 35&ndash;50 pints. If the door seal is poor, the slab is bare, or you store a lot of cardboard and fabric that has already gone musty, jump a size. An oversized unit costs you very little, because its humidistat cycles it off once it hits target; an undersized unit runs continuously, never reaches target, and bills you for the privilege.</p>
           <p>For drainage, use a hose. A garage is precisely the room you will forget to visit, and a full bucket means the machine is off exactly when the humidity is climbing. Run the hose to a floor drain if you have one, or out through the wall, with a genuine continuous fall &mdash; a hose that dips and rises traps a slug of water that will freeze first and block everything behind it. Keep the run short, and shut the system down, drain the tank and blow or drain the hose before the first hard freeze of the year. If your garage never goes below zero, this is all much simpler: hose to drain, humidistat at 50%, walk away.</p>
+          <p>One more setup detail if you buy a desiccant: give it sensible clearance and a safe surface. It contains a heating element, so keep it off carpet, clear of sawdust and stacked cloth, and prefer a model with a tip-over cutoff if it will run in a garage or a closed-up cottage where nobody is checking on it.</p>
 
           <h2>Rust, Tools, and What Humidity Control Actually Buys You</h2>
           <p>The reason most people search for this in the first place is a film of orange on a table saw top or a set of chisels. Here the news is good, because surface corrosion on bare steel tracks relative humidity closely: it accelerates sharply once RH sits above roughly 60%, and slows to almost nothing once you hold the space below about 40&ndash;50%. A dehumidifier with a settable humidistat holding 45&ndash;50% is therefore doing exactly the right thing, and the rust largely stops appearing rather than being cleaned off again each spring.</p>
@@ -309,9 +409,7 @@ export default function BestDehumidifierForColdGarageCanadaPage() {
 
           <h2>Related Reading</h2>
           <ul>
-            <li><Link href="/blog/crawl-space-dehumidifier-vs-vapour-barrier-canada">Crawl Space Dehumidifier vs Vapour Barrier &mdash; Which One First</Link></li>
             <li><Link href="/blog/best-large-capacity-dehumidifier-canada">Best Large-Capacity Dehumidifier Canada &mdash; For the Wettest Spaces</Link></li>
-            <li><Link href="/blog/best-dehumidifier-for-mold-canada">Best Dehumidifier for Mold Canada &mdash; The 60% Humidity Threshold</Link></li>
             <li><Link href="/blog/how-to-keep-mice-out-of-your-car">How to Keep Mice Out of Your Car &mdash; The Garage Problem Nobody Mentions</Link></li>
             <li><Link href="/blog/best-pest-control-equipment-canada">Best Pest-Control Equipment Canada &mdash; The Full Device Hub</Link></li>
           </ul>

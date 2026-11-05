@@ -17,7 +17,7 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-get-rid-of-rats-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-11-05'
 const TITLE = 'How to Get Rid of Rats in Canada (2026) — Traps, Exclusion & What’s Actually Legal'
 const META_TITLE = 'Get Rid of Rats in Canada: Traps, Not Just Bait'
 
@@ -49,6 +49,10 @@ const FAQS = [
   {
     question: 'What attracts rats to my yard in Canada?',
     answer: 'Calories and cover. The big four are: bird feeders (spilled seed is the number-one urban rat subsidy), open compost with cooked food or grains, pet food and dog waste left outside, and unsecured garbage. Cover means junk piles, wood stacked on the ground, dense ivy against foundations, and the sheltered voids under decks and sheds — prime Norway rat burrow real estate. Fruit trees that drop fruit and standing water (bird baths, leaky taps) complete the package. Remove the subsidy and harassment tools like traps start winning; leave it and you are farming rats.',
+  },
+  {
+    question: 'Will a bird feeder attract mice, rats, or raccoons?',
+    answer: 'Spilled seed will, and that is the part people underestimate. A feeder is not the problem; a growing carpet of discarded hulls and dropped seed under the feeder is a nightly food source for mice, rats, raccoons, and skunks, and it is one of the most common reasons a tidy suburban yard suddenly has a rodent issue. The fixes are simple: fit a seed catcher tray under the feeder, rake or vacuum the shell litter regularly, use hulled sunflower chips so there is no shell drop at all, and bring the feeder in at night if raccoons are working your street. If you already have rodents, deal with that separately — trapping and exclusion, not a different feeder.',
   },
   {
     question: 'How small a gap can a rat fit through?',
@@ -346,6 +350,7 @@ export default function HowToGetRidOfRatsCanadaPage() {
           <h2>The Neighbour Problem: Bylaws, Bird Feeders, and the 50-Metre Truth</h2>
           <p>Here is the part no product page tells you: a Norway rat colony works a territory of roughly 25 to 50 metres from the burrow, and in Canadian cities that radius almost never fits inside one property line. You can run a flawless program and be re-invaded monthly from an untouched burrow under a neighbour&rsquo;s shed, an overflowing feeder two doors down, or a derelict garage across the fence. Rats are a block-level problem wearing a single-house disguise.</p>
           <p>Two tools help. The first is diplomacy: most neighbours have no idea their bird feeder is a rat feeder, and a friendly heads-up plus a shared trapping window beats years of silent re-invasion. The second is the bylaw layer: most Canadian municipalities — Toronto, Mississauga, Vancouver, and others — have property-standards or pest-related bylaws requiring owners to eliminate rodent harbourage, and cities investigate complaints, inspect, and can issue orders against properties that farm rats onto the block. Document what you see (burrows, sightings, attractants), report persistent off-property sources through 311 or your municipal portal, and keep your own yard defensible: feeders on baffled poles with seed trays, enclosed compost with no cooked food, garbage in bins with latched lids, pet food indoors, woodpiles up on racks, and ivy cut back from foundations.</p>
+          <p>If you feed birds yourself, look at the ground, not the feeder. A growing carpet of discarded hulls and dropped seed under the feeder is a nightly food source for mice, rats, raccoons, and skunks, and it is one of the most common reasons a tidy suburban yard suddenly has a rodent issue. Fit a seed-catcher tray under the feeder, rake or vacuum the shell litter regularly, and consider hulled sunflower chips: no shells means no shell litter. They cost more per kilogram and spoil faster in wet weather, but in a small city garden where ground mess matters, they can be the smarter buy. If raccoons are working your street, bring the feeder in at night.</p>
 
           <h2>When to Call a Professional</h2>
           <p>DIY wins most backyard and garage rat problems. Escalate to a licensed pro when the pattern says structural or block-level: catches continuing beyond 2&ndash;3 weeks with no taper, rats inside living space or audible in walls, burrows that reopen immediately after collapse, sudden indoor rats in an older home (sewer lateral until proven otherwise — pros can smoke-test the line), or a neighbouring source that bylaw complaints have not yet moved. Professionals bring the commercial-class rodenticides consumers cannot buy, drain testing, and exclusion crews with sheet-metal skills. Expect a program of visits rather than a single treatment, and sanity-check any quote against our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> before signing.</p>

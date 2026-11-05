@@ -2,7 +2,7 @@
  "id": "best-fruit-fly-traps",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "38c2123879501d1ac513eb348ffb2af0eff48e340161382696dc28b22a10e1db",
+ "sha": "6a7dac04b6995a8d2b50d51c53da49c6286f1c75e916e81b6645a97223a1175b",
  "claimsChecked": 131,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 1,
@@ -11,5 +11,12 @@
   "on": "2026-11-05",
   "scheduledFor": "2026-11-05",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-11-05",
+   "note": "Nov 5, 2026: reviewedBy/reviewedOn added (the owner said he read and reviewed this page)",
+   "previousSha": "38c2123879501d1ac513eb348ffb2af0eff48e340161382696dc28b22a10e1db"
+  }
+ ]
 }

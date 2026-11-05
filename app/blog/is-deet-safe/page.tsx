@@ -9,7 +9,7 @@ import RelatedLinks from '@/components/RelatedLinks'
 const SLUG = 'is-deet-safe'
 const DATE = '2026-07-15'
 const TITLE = 'Is DEET Safe? What It Is, Cancer Myths & Health Canada Limits (2026)'
-const META_TITLE = 'Is DEET Safe in 2026? Health Canada Limits'
+const META_TITLE = 'Is DEET Safe? Cancer Myth & Health Canada Limits'
 
 const FAQS = [
   {

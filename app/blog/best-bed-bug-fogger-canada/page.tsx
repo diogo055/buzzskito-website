@@ -393,8 +393,8 @@ export default function BestBedBugFoggerCanadaPage() {
             <li><Link href="/blog/best-pest-control-equipment-canada">Best Pest-Control Equipment Canada — The Device Hub</Link></li>
             <li><Link href="/blog/best-bed-bug-steamer-canada">Best Bed-Bug Steamer Canada — Heat That Kills on Contact</Link></li>
             <li><Link href="/blog/bed-bug-heater-canada">Bed-Bug Heater Canada — Whole-Room and Portable Heat</Link></li>
-            <li><Link href="/blog/best-bed-bug-powder-canada">Best Bed-Bug Powder Canada — Desiccant Dusts That Work in Voids</Link></li>
-            <li><Link href="/blog/best-bed-bug-spray-for-mattress-canada">Best Bed-Bug Spray for a Mattress Canada</Link></li>
+            <li><Link href="/blog/cimexa-bed-bug-review-canada">Best Bed-Bug Powder Canada — Desiccant Dusts That Work in Voids</Link></li>
+            <li><Link href="/blog/bed-bug-spray-canada">Best Bed-Bug Spray Canada — Including Sprays Labelled for Mattresses</Link></li>
             <li><Link href="/blog/heat-vs-chemical-bed-bug-treatment-canada">Heat vs Chemical Bed-Bug Treatment — Which Wins</Link></li>
             <li><Link href="/blog/how-to-get-rid-of-bed-bugs-in-apartment-canada">How to Get Rid of Bed Bugs in an Apartment</Link></li>
             <li><Link href="/blog/bed-bug-interceptor-traps-canada">Bed-Bug Interceptor Traps — Monitor and Protect the Bed</Link></li>

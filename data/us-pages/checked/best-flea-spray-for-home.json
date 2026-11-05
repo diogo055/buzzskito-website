@@ -2,7 +2,7 @@
  "id": "best-flea-spray-for-home",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "dd2bfe234571f3c1e81ec35f3daeb8635524b9b397a8a4d2fe3c80ed11742335",
+ "sha": "0fc118b88bad3da7bc8492710aa75f3989afd7aeabc46d6d87196a0e895ca142",
  "claimsChecked": 143,
  "claimsCorrected": 12,
  "claimsRemovedOrSoftened": 0,
@@ -11,5 +11,12 @@
   "on": "2026-11-05",
   "scheduledFor": "2026-11-05",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-11-05",
+   "note": "Nov 5, 2026: reviewedBy/reviewedOn added (the owner said he read and reviewed this page)",
+   "previousSha": "dd2bfe234571f3c1e81ec35f3daeb8635524b9b397a8a4d2fe3c80ed11742335"
+  }
+ ]
 }

@@ -46,6 +46,9 @@ app/blog/bed-bug-eggs/page.tsx
 content/guides/best-bed-bug-spray.json
 data/us-pages/checked/best-bed-bug-spray.json
 app/blog/best-bed-bug-spray/page.tsx
+content/guides/best-bed-bug-mattress-cover.json
+data/us-pages/checked/best-bed-bug-mattress-cover.json
+app/blog/best-bed-bug-mattress-cover/page.tsx
 content/guides/pillar-ants.json
 data/us-pages/checked/pillar-ants.json
 app/learn/ants/page.tsx
@@ -118,6 +121,9 @@ app/blog/fire-ant-stings/page.tsx
 content/guides/crazy-ants.json
 data/us-pages/checked/crazy-ants.json
 app/blog/crazy-ants/page.tsx
+content/guides/best-ant-bait.json
+data/us-pages/checked/best-ant-bait.json
+app/blog/best-ant-bait/page.tsx
 content/guides/pillar-mice.json
 data/us-pages/checked/pillar-mice.json
 app/learn/mice/page.tsx
@@ -286,6 +292,12 @@ app/blog/do-mosquitoes-bite-dogs/page.tsx
 content/guides/alaska-mosquitoes.json
 data/us-pages/checked/alaska-mosquitoes.json
 app/blog/alaska-mosquitoes/page.tsx
+content/guides/best-mosquito-repellent.json
+data/us-pages/checked/best-mosquito-repellent.json
+app/blog/best-mosquito-repellent/page.tsx
+content/guides/best-bug-zapper.json
+data/us-pages/checked/best-bug-zapper.json
+app/blog/best-bug-zapper/page.tsx
 content/guides/what-do-ticks-look-like.json
 data/us-pages/checked/what-do-ticks-look-like.json
 app/blog/what-do-ticks-look-like/page.tsx

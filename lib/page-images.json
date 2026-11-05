@@ -264,6 +264,14 @@
   "/guides/photos/may-june-beetle.webp",
   "/guides/photos/oriental-cockroach.webp"
  ],
+ "/blog/best-ant-bait": [
+  "/guides/photos/argentine-ants-bait-trap.webp",
+  "/guides/photos/argentine-ants-gel-bait.webp",
+  "/guides/photos/odorous-house-ants-kitchen-window.webp",
+  "/guides/photos/pavement-ants-sugar-water.webp",
+  "/guides/photos/pheidole-ants-peanut-butter.webp",
+  "/guides/photos/southern-fire-ants-bait-card.webp"
+ ],
  "/blog/best-ant-killer": [
   "/guides/photos/carpenter-ant-frass.webp",
   "/guides/photos/carpenter-ant-on-fingers.webp",
@@ -283,6 +291,12 @@
   "/guides/photos/bed-bug-hotel-bedding.webp",
   "/guides/photos/bed-bugs-eggs-mattress-seam.webp"
  ],
+ "/blog/best-bed-bug-mattress-cover": [
+  "/guides/photos/bed-bug-fecal-spots-bed-frame.webp",
+  "/guides/photos/bed-bug-fecal-stains-mattress.webp",
+  "/guides/photos/bed-bug-nymph-scale-bar-cdc.webp",
+  "/guides/photos/bed-bugs-eggs-mattress-seam.webp"
+ ],
  "/blog/best-bed-bug-spray": [
   "/guides/photos/bed-bug-adult-ruler.webp",
   "/guides/photos/bed-bugs-eggs-mattress-seam.webp",
@@ -292,12 +306,18 @@
   "/guides/photos/blacklegged-tick-nymph-fingernail.webp",
   "/guides/photos/mosquito-bites-forearm.webp"
  ],
+ "/blog/best-bug-zapper": [
+  "/guides/photos/aedes-vexans-uv-light.webp",
+  "/guides/photos/bug-zapper-roof-eave.webp",
+  "/guides/photos/cdc-light-trap-navy-new-orleans.webp",
+  "/guides/photos/house-fly.webp"
+ ],
  "/blog/best-cockroach-gel-bait": [
   "/guides/photos/american-cockroach-bathroom-sink.webp",
   "/guides/photos/german-cockroach-frass-cabinet.webp",
   "/guides/photos/german-cockroach.webp"
  ],
- "/blog/best-cockroach-killer-canada": [
+ "/blog/best-cockroach-spray-canada": [
   "/guides/photos/german-cockroach-adult.webp",
   "/guides/photos/german-cockroach-egg-case-hatchlings.webp",
   "/guides/photos/oriental-cockroaches-manhole.webp"
@@ -309,10 +329,6 @@
  "/blog/best-cordless-fogger-canada": [
   "/guides/photos/culex-larvae.webp",
   "/guides/photos/culex-quinquefasciatus-female.webp"
- ],
- "/blog/best-crawl-space-dehumidifier-canada": [
-  "/guides/photos/house-centipede-on-wall.webp",
-  "/guides/photos/silverfish.webp"
  ],
  "/blog/best-deer-fence-for-gardens-canada": [
   "/guides/photos/blacklegged-tick-female.webp",
@@ -344,12 +360,19 @@
  ],
  "/blog/best-large-capacity-dehumidifier-canada": [
   "/guides/photos/house-centipede-on-wall.webp",
+  "/guides/photos/house-dust-mite.webp",
   "/guides/photos/pill-bug-rolled-kitchen-floor.webp",
   "/guides/photos/silverfish.webp"
  ],
  "/blog/best-live-animal-trap-canada": [
   "/guides/photos/eastern-gray-squirrel.webp",
   "/guides/photos/house-mouse-live-trap.webp"
+ ],
+ "/blog/best-mosquito-repellent": [
+  "/guides/photos/aedes-albopictus-biting.webp",
+  "/guides/photos/botanist-head-to-toe-clothing-denali.webp",
+  "/guides/photos/citronella-candle-burning.webp",
+  "/guides/photos/lemon-eucalyptus-leaves.webp"
  ],
  "/blog/best-mosquito-repellent-device-canada": [
   "/guides/photos/aedes-albopictus-biting.webp",
@@ -385,6 +408,10 @@
   "/guides/photos/mayfly-swarm.webp",
   "/guides/photos/mosquito-on-jeans.webp"
  ],
+ "/blog/best-steam-cleaner-for-pest-control-canada": [
+  "/guides/photos/bed-bugs-eggs-mattress-seam.webp",
+  "/guides/photos/house-dust-mite.webp"
+ ],
  "/blog/best-thermal-fogger-canada": [
   "/guides/photos/aedes-vexans.webp",
   "/guides/photos/mosquito-swarm-alaska-tundra.webp"
@@ -396,14 +423,6 @@
  "/blog/best-ulv-cold-fogger-canada": [
   "/guides/photos/anopheles-quadrimaculatus.webp",
   "/guides/photos/culex-pipiens.webp"
- ],
- "/blog/best-upholstery-steam-cleaner-canada": [
-  "/guides/photos/bed-bugs-eggs-mattress-seam.webp",
-  "/guides/photos/house-dust-mite.webp"
- ],
- "/blog/best-whole-house-dehumidifier-canada": [
-  "/guides/photos/house-dust-mite.webp",
-  "/guides/photos/silverfish.webp"
  ],
  "/blog/best-whole-room-bed-bug-heater-canada": [
   "/guides/photos/bed-bug-fecal-spots-bed-frame.webp",

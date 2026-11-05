@@ -2,7 +2,7 @@
  "id": "does-vinegar-kill-ants",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "95a62959d031f629981a73f9c9ef15162e8770ea995667c86d28fe2d8b64a078",
+ "sha": "aefc2d486635e9b6521a60d6d5f2e81c7f6300c48053e40c616bdff1edce259e",
  "claimsChecked": 58,
  "claimsCorrected": 1,
  "claimsRemovedOrSoftened": 3,
@@ -26,6 +26,11 @@
    "on": "2026-11-03",
    "note": "Nov 3, 2026: added 5 real photos (thief-ants-counter-pen-tip, argentine-ants-trail-wood, rover-ant-queens-with-eggs, pavement-ant-hill-path-edge, argentine-ants-gel-bait); captions from each photo's source description; no other text changed.",
    "previousSha": "00b06aef1430cfbd6c2f6943efa66ad262b4dae43a31c0e116b63623d21e88de"
+  },
+  {
+   "on": "2026-11-05",
+   "note": "Nov 5, 2026: one sentence linking the new US buying guide /blog/best-ant-bait (no claim added)",
+   "previousSha": "95a62959d031f629981a73f9c9ef15162e8770ea995667c86d28fe2d8b64a078"
   }
  ]
 }

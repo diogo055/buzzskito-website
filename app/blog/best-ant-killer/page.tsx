@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { withRegionalAlternates } from '@/lib/guides'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
@@ -118,14 +119,14 @@ const FAQS = [
   },
 ]
 
-export const metadata: Metadata = buildMetadata({
+export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   title: META_TITLE,
   description: 'Best ant killer and ant traps in Canada: slow liquid bait stations set on the trail, not sprays or glue traps. Health Canada’s advice, plus outdoor picks.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
-})
+}), '/blog/best-ant-killer')
 
 // Keyed on the ORIGINAL slug on purpose, like the other renamed pages: the Amazon tag must not
 // change when the address does.
@@ -375,6 +376,8 @@ export default function BestAntKillerCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
+          {/* Regional edition link (Oct 2026): this page is the Canadian edition; see REGIONAL_PAIRS in lib/guides.ts */}
+          <p className="not-prose mb-6 rounded-lg border border-navy-100 bg-brand-50 px-4 py-2.5 text-sm text-gray-700">Reading from the United States? Product rules and what is sold there differ. <Link href="/blog/best-ant-bait" className="font-semibold text-brand-700 underline">See the US edition</Link>.</p>
 
           <h2>What Is the Best Ant Killer in Canada?</h2>
           <p>The best ant killer for a Canadian home is a slow-acting liquid bait station placed directly on the ant trail &mdash; and TERRO Liquid Ant Baits are an easy default simply because they are inexpensive, widely stocked in Canadian hardware and grocery aisles with Canadian label directions on the pack, and built on the mechanism that works. The active is borax (sodium tetraborate) suspended in a sweet liquid inside an enclosed plastic station. A forager drinks, survives, walks home, and feeds the load to nestmates by trophallaxis &mdash; the mouth-to-mouth food sharing that moves a meal from a foraging worker to nurses, brood, and eventually the queen.</p>

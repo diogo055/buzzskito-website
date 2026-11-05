@@ -13,7 +13,7 @@ import NextUp from '@/components/NextUp'
 
 const SLUG = 'mosquito-screens-patio-canada'
 const DATE = '2026-07-12'
-const UPDATED = '2026-07-12'
+const UPDATED = '2026-11-05'
 const TITLE = 'Mosquito Screens for Your Patio (Canada 2026) — Buyer’s Guide'
 const META_TITLE = 'Mosquito Patio Screens Canada: 5 Types Compared'
 
@@ -318,6 +318,11 @@ export default function MosquitoScreensPatioCanadaPage() {
           </ol>
           <p>This gives you a zero-chemical zone for calm evenings and a fully usable yard for everything else — for less hassle than trying to net your entire property.</p>
           <p>On the hottest weeks there is an optional fourth layer worth considering over the seating area. A mist line drops the temperature in the misted zone by a few degrees and keeps mosquitoes drifting off it while the water runs, so <Link href="/blog/diy-outdoor-misting-system-kit-canada">a DIY misting kit over the seating area</Link> works alongside a screen rather than replacing one — it is comfort equipment, not mosquito control.</p>
+
+          <h2>Patio Season and Bug Season Overlap</h2>
+          <p>We run a mosquito and tick company, and autumn patio evenings intersect with our field in a way most homeowners do not anticipate. A patio heater buys you evenings from roughly late September into November, and again in March and April. In the GTA, mosquitoes remain active until a sustained hard frost, so those first heated evenings in late September and early October are frequently still bite evenings &mdash; and because everyone assumes the season is over, nobody is protected for them.</p>
+          <p>The same is true, more seriously, of ticks. Blacklegged ticks are active any day the temperature is above about 4&deg;C, which in southern Ontario includes a good deal of the shoulder season people think of as safe. Our guides to <Link href="/blog/when-are-mosquitoes-most-active">when mosquitoes are most active</Link>, <Link href="/blog/where-do-mosquitoes-go-in-winter-ontario">where mosquitoes go in an Ontario winter</Link>, and <Link href="/blog/tick-season-ontario-when-are-ticks-active">how long tick season actually runs</Link> all land on the same point: the end of summer is not the end of the exposure.</p>
+          <p>If you are extending the season with hardware, extend the protection too. A screened enclosure is the physical version of the same idea &mdash; the screen houses and netting compared above, or a <Link href="/blog/best-screen-tent-canada">screen tent</Link> &mdash; so a screen earns its keep past summer. And if you were planning to rely on <Link href="/blog/citronella-candles-canada-do-they-work">citronella candles</Link> or <Link href="/blog/do-tiki-torches-repel-mosquitoes">tiki torches</Link> alongside a patio heater, read those two first. Neither does much, and both add open flame to a patio that now also has a propane appliance on it.</p>
 
           <h2>Related Reading</h2>
           <ul>

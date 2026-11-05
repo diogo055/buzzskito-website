@@ -253,7 +253,7 @@ export default function BedBugControlCanadaHubPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Sprays</td>
                   <td className="px-4 py-3 text-gray-700">Contact knockdown on visible bugs; weakest leg of the plan</td>
                   <td className="px-4 py-3 text-red-600 font-semibold">No</td>
-                  <td className="px-4 py-3 text-gray-700"><Link href="/blog/bed-bug-spray-canada" className="text-emerald-700 underline">Spray guide</Link> &middot; <Link href="/blog/best-natural-bed-bug-spray-canada" className="text-emerald-700 underline">Natural sprays</Link></td>
+                  <td className="px-4 py-3 text-gray-700"><Link href="/blog/bed-bug-spray-canada" className="text-emerald-700 underline">Spray guide</Link></td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug spray canada" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
@@ -300,7 +300,7 @@ export default function BedBugControlCanadaHubPage() {
 
           <h2>Why Sprays Are the Weakest Leg (and Heat Is the Strongest)</h2>
           <p>The retail shelf is dominated by <Link href="/blog/bed-bug-spray-canada">contact sprays</Link>, which is exactly backwards from how effective they are. A spray kills the bugs it physically soaks and then evaporates, leaving no lasting barrier, and it never penetrates the cemented eggs deep in a seam &mdash; so the next generation hatches on schedule. On top of that, bed bugs across North America carry widespread resistance to the pyrethroid chemistry most retail sprays use, so a spray can fail even on the bugs it hits. Our breakdown of <Link href="/blog/do-bed-bug-sprays-actually-work">whether bed-bug sprays actually work</Link> goes deeper, and the answer is: as a supplement to knock down a visible cluster, sometimes; as a plan, never.</p>
-          <p>Heat is the mirror image. It is mechanical, not chemical, so there is nothing for a bug to be resistant to, and it kills every life stage including the eggs. That is why professional treatment centres on heat and why the most complete DIY tool is a heater. The one thing heat cannot do is protect you tomorrow &mdash; the moment the room cools, a bug that walks in from next door is unaffected &mdash; which is precisely why heat is always married to a residual desiccant and to interceptors. For a plan built on physical methods, heat, steam, and silica dust together keep conventional sprays to a minimum; our <Link href="/blog/best-natural-bed-bug-spray-canada">natural bed-bug treatment guide</Link> covers where the genuinely effective natural options end and the marketing begins.</p>
+          <p>Heat is the mirror image. It is mechanical, not chemical, so there is nothing for a bug to be resistant to, and it kills every life stage including the eggs. That is why professional treatment centres on heat and why the most complete DIY tool is a heater. The one thing heat cannot do is protect you tomorrow &mdash; the moment the room cools, a bug that walks in from next door is unaffected &mdash; which is precisely why heat is always married to a residual desiccant and to interceptors. For a plan built on physical methods, heat, steam, and silica dust together keep conventional sprays to a minimum; the natural-spray section of our <Link href="/blog/bed-bug-spray-canada">bed-bug spray guide</Link> covers where the genuinely effective natural options end and the marketing begins.</p>
 
           <h2>Room-by-Room Treatment Protocol</h2>
           <p>Here is the sequence that turns the toolkit into a result. Work one room fully before moving on, and resist the urge to rush.</p>
@@ -361,7 +361,7 @@ export default function BedBugControlCanadaHubPage() {
           <ul>
             <li><Link href="/blog/cimexa-bed-bug-review-canada">CimeXa Review</Link> &middot; <Link href="/blog/diatomaceous-earth-for-bed-bugs">Diatomaceous Earth for Bed Bugs</Link></li>
             <li><Link href="/blog/doktor-doom-sleep-tight-review-canada">Doktor Doom Sleep Tight Review</Link></li>
-            <li><Link href="/blog/bed-bug-spray-canada">Bed-Bug Spray Canada</Link> &middot; <Link href="/blog/best-natural-bed-bug-spray-canada">Best Natural Bed-Bug Spray</Link> &middot; <Link href="/blog/do-bed-bug-sprays-actually-work">Do Bed-Bug Sprays Work?</Link></li>
+            <li><Link href="/blog/bed-bug-spray-canada">Bed-Bug Spray Canada</Link> &middot; <Link href="/blog/do-bed-bug-sprays-actually-work">Do Bed-Bug Sprays Work?</Link></li>
           </ul>
           <h3>Contain, remove &amp; monitor</h3>
           <ul>

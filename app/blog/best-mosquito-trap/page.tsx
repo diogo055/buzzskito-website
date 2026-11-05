@@ -356,7 +356,7 @@ export default function BestMosquitoTrapCanadaPage() {
           <h2>The Smart Stack for a GTA Backyard</h2>
           <p>For a typical Mississauga, Brampton, or Oakville backyard (5,000&ndash;15,000 sq ft), the honest strategy is a layered one, not a single trap:</p>
           <ol>
-            <li><strong>Treat standing water</strong> you cannot empty or change each week with Mosquito Dunks (Reg. No. 28888), whose label says they kill mosquitoes &ldquo;before they&rsquo;re old enough to bite&rdquo; for up to 30 days (see our <Link href="/blog/mosquito-dunks-canada-guide">mosquito dunks guide</Link>); the registry has no record for Mosquito Bits</li>
+            <li><strong>Treat standing water</strong> you cannot empty or change each week with Mosquito Dunks (Reg. No. 28888), whose label says they kill mosquitoes &ldquo;before they&rsquo;re old enough to bite&rdquo; for up to 30 days (see our <Link href="/blog/mosquito-bits-canada-vs-dunks">mosquito dunks guide</Link>); the registry has no record for Mosquito Bits</li>
             <li><strong>Professional barrier spray</strong> — <Link href="/mosquito-control">BuzzSkito&rsquo;s seasonal program</Link> for whole-yard treatment renewed on your plan&rsquo;s schedule, with tick treatment available as an add-on</li>
             <li><strong>A Thermacell on the deck</strong> for a repellent zone while you sit outside: the Patio Shield label (Reg. No. 31998) covers up to 4.5 m from the unit for up to four hours a mat and says to allow 30 minutes for it to take effect</li>
           </ol>

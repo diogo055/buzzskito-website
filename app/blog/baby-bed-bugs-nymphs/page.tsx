@@ -550,7 +550,7 @@ export default function BabyBedBugsNymphsCanadaPage() {
             <li><Link href="/blog/how-to-kill-bed-bug-eggs-canada">How to Kill Bed Bug Eggs in Canada — Why Heat Wins and Sprays Miss</Link></li>
             <li><Link href="/blog/bed-bug-interceptor-traps-canada">Bed Bug Interceptor Traps in Canada — Placement and the 14-Night Read</Link></li>
             <li><Link href="/blog/bed-bug-mattress-encasement-canada">Bed Bug Mattress Encasements in Canada — Sizing and the Zip Seal</Link></li>
-            <li><Link href="/blog/best-bed-bug-powder-canada">Best Bed Bug Powder in Canada — Silica Gel vs Diatomaceous Earth</Link></li>
+            <li><Link href="/blog/cimexa-bed-bug-review-canada">Best Bed Bug Powder in Canada — Silica Gel vs Diatomaceous Earth</Link></li>
             <li><Link href="/blog/bed-bug-bites-vs-mosquito-bites">Bed Bug Bites vs Mosquito Bites — The Five Tells</Link></li>
             <li><Link href="/blog/tick-vs-bed-bug">Tick vs Bed Bug — How to Tell Them Apart</Link></li>
             <li><Link href="/blog/baby-ticks-nymphs-seed-ticks-ontario">Baby Ticks and Seed Ticks in Ontario — The Same Question, a Different Insect</Link></li>

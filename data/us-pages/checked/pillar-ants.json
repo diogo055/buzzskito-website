@@ -2,7 +2,7 @@
  "id": "pillar-ants",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "9bc1ebb48013cea4b1eb85eef0188d6d0312b82619962837894e6544aa630fb2",
+ "sha": "35e30426af2dda86f96adc239aa7fd8226fa1e9034d3730418e62aba2004ab30",
  "claimsChecked": 250,
  "claimsCorrected": 14,
  "claimsRemovedOrSoftened": 6,
@@ -36,6 +36,11 @@
    "on": "2026-11-03",
    "note": "Nov 3, 2026: added 6 real photos (black-carpenter-ant-dry-leaves, carpenter-ant-queen-nest-chamber, pharaoh-ants-apartment, fire-ants-usda-white-background, carpenter-ant-damaged-board, southern-fire-ants-bait-card); captions from each photo's source description; no other text changed.",
    "previousSha": "a26632ecf85a4d501680d887e1e9781d002da199c1689929baaa81e72d5a97c6"
+  },
+  {
+   "on": "2026-11-05",
+   "note": "Nov 5, 2026: one sentence linking the new US buying guide /blog/best-ant-bait (no claim added)",
+   "previousSha": "9bc1ebb48013cea4b1eb85eef0188d6d0312b82619962837894e6544aa630fb2"
   }
  ]
 }

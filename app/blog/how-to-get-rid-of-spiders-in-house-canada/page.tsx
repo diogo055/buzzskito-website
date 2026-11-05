@@ -19,7 +19,7 @@ const SLUG = 'how-to-get-rid-of-spiders-in-house-canada'
 const DATE = '2026-08-31'
 const UPDATED = '2026-08-31'
 const TITLE = 'How to Get Rid of Spiders in Your House in Canada (2026) — The September Plan That Works'
-const META_TITLE = 'Get Rid of Spiders in the House Canada — The Fall Plan'
+const META_TITLE = 'Spider Control at Home: Get Rid of House Spiders'
 
 const FAQS = [
   {
@@ -231,7 +231,7 @@ export default function HowToGetRidOfSpidersInHouseCanadaPage() {
 
           <h2>Step 3: Dry the Basement — Starve the Economy Under the Spiders</h2>
           <p>Here is the insight that separates houses that stay spider-light from houses that fight the same battle every fall: <strong>a spider population is a food economy, and in Canadian houses that economy runs on basement moisture</strong>. Silverfish, sowbugs, fungus gnats, booklice &mdash; the staple prey of cellar and house spiders &mdash; all need high humidity, and a basement sitting at 65% relative humidity in a GTA summer is a farm for them. The spiders upstairs are simply the visible end of that supply chain.</p>
-          <p>Hold the basement at <strong>45&ndash;50% RH</strong> and the prey populations sag over a few weeks; the spider population follows its food down with a short lag, and &mdash; this is the durable part &mdash; the house stops recruiting replacements, because empty webs in a dry basement do not pay. A properly sized dehumidifier on a humidistat is the tool; our <Link href="/blog/best-large-capacity-dehumidifier-canada">basement dehumidifier guide</Link> covers which units hold a setpoint in a cool Canadian basement, and the <Link href="/blog/what-size-dehumidifier-do-i-need-canada">sizing guide</Link> does the litres-per-day maths &mdash; undersizing is the standard mistake and the reason people conclude dehumidifiers do not work. While you are down there, get cardboard off the floor and into lidded plastic bins: corrugated cardboard in a damp room is silverfish housing, and clutter at floor level is the quiet, undisturbed space spiders profit in.</p>
+          <p>Hold the basement at <strong>45&ndash;50% RH</strong> and the prey populations sag over a few weeks; the spider population follows its food down with a short lag, and &mdash; this is the durable part &mdash; the house stops recruiting replacements, because empty webs in a dry basement do not pay. A properly sized dehumidifier on a humidistat is the tool; our <Link href="/blog/best-large-capacity-dehumidifier-canada">basement dehumidifier guide</Link> covers which units hold a setpoint in a cool Canadian basement and does the litres-per-day sizing maths &mdash; undersizing is the standard mistake and the reason people conclude dehumidifiers do not work. While you are down there, get cardboard off the floor and into lidded plastic bins: corrugated cardboard in a damp room is silverfish housing, and clutter at floor level is the quiet, undisturbed space spiders profit in.</p>
 
           <RelatedLinks path="/blog/how-to-get-rid-of-spiders-in-house-canada" />
           <h2>Where Sprays Honestly Fit</h2>

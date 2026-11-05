@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema, itemListSchema } from '@/lib/seo'
+import { withRegionalAlternates } from '@/lib/guides'
 import BuyLink from '@/components/BuyLink'
 import AmazonLink from '@/components/AmazonLink'
 import AwardRow from '@/components/AwardRow'
@@ -228,7 +229,7 @@ const FAQS = [
   },
 ]
 
-export const metadata: Metadata = buildMetadata({
+export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   // TITLE NOTE (Oct 28, 2026): was 'Best Bug Zapper Canada 2026: 5 Ranked + Prices' (the page publishes no prices); top queries (Jul 28-Oct 25): bug zapper 2,957 (pos 12.6), best bug zapper 446 (pos 5.7, 14 clicks), best bug zapper canada 128 (pos 3.7), best bug zapper outdoor 125, best indoor bug zapper 94, best bug zapper racket 91.
   title: 'Best Bug Zapper Canada (2026): Do They Work?',
   description: 'Best bug zapper in Canada: a 40 W acre-rated unit for moths on an open yard, a racket for an indoor mosquito. Why none cuts bites, and what Canada requires.',
@@ -236,7 +237,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
-})
+}), '/blog/bug-zappers-canada-do-they-work')
 
 const AMZ_TAG = tagForSlug('bug-zappers-canada-do-they-work')
 
@@ -433,6 +434,8 @@ export default function BugZappersCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
+          {/* Regional edition link (Oct 2026): this page is the Canadian edition; see REGIONAL_PAIRS in lib/guides.ts */}
+          <p className="not-prose mb-6 rounded-lg border border-navy-100 bg-brand-50 px-4 py-2.5 text-sm text-gray-700">Reading from the United States? Product rules and what is sold there differ. <Link href="/blog/best-bug-zapper" className="font-semibold text-brand-700 underline">See the US edition</Link>.</p>
           <p className="not-prose text-sm text-gray-600 mb-1">Short version: electric zappers don&rsquo;t reduce mosquito bites. If you want a plug-in device that actually targets mosquitoes, a CO₂/UV trap like DynaTrap is the honest pick:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="dynatrap mosquito trap">See a real mosquito trap on Amazon.ca →</BuyLink>

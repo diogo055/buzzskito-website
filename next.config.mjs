@@ -43,6 +43,34 @@ const nextConfig = {
       // Nov 3, 2026 merges: Google split the same searches between these pages (page-one plan, reports/page-one-plan-2026-11-02.md)
       { source: '/blog/best-ant-traps-canada', destination: '/blog/best-ant-killer', permanent: true },
       { source: '/blog/best-dehumidifier-for-basement-canada', destination: '/blog/best-large-capacity-dehumidifier-canada', permanent: true },
+      // Nov 5, 2026 merges (owner approved every non-service merge, Nov 4). Duplicate pairs that split the same searches
+      // (reports/page-one-plan-2026-11-02.md); survivors picked from Search Console, products and unique sections folded in.
+      { source: '/blog/best-bed-bug-spray-for-mattress-canada', destination: '/blog/bed-bug-spray-canada', permanent: true },
+      { source: '/blog/best-natural-bed-bug-spray-canada', destination: '/blog/bed-bug-spray-canada', permanent: true },
+      { source: '/blog/best-cockroach-killer-canada', destination: '/blog/best-cockroach-spray-canada', permanent: true },
+      { source: '/blog/wasp-dust-canada', destination: '/blog/how-to-get-rid-of-ground-wasps-canada', permanent: true },
+      { source: '/blog/best-bed-bug-powder-canada', destination: '/blog/cimexa-bed-bug-review-canada', permanent: true },
+      { source: '/blog/mosquito-dunks-canada-guide', destination: '/blog/mosquito-bits-canada-vs-dunks', permanent: true },
+      // Nov 5, 2026: off-topic buying guides consolidated (reports/Google ad approval after rejection.md, removals table):
+      // the dehumidifier guides into two pages, the sump pump guides into one, and the guides with no pest angle
+      // forwarded to the closest pest page.
+      { source: '/blog/best-dehumidifier-for-mold-canada', destination: '/blog/best-large-capacity-dehumidifier-canada', permanent: true },
+      { source: '/blog/best-crawl-space-dehumidifier-canada', destination: '/blog/best-large-capacity-dehumidifier-canada', permanent: true },
+      { source: '/blog/crawl-space-dehumidifier-vs-vapour-barrier-canada', destination: '/blog/best-large-capacity-dehumidifier-canada', permanent: true },
+      { source: '/blog/what-size-dehumidifier-do-i-need-canada', destination: '/blog/best-large-capacity-dehumidifier-canada', permanent: true },
+      { source: '/blog/best-whole-house-dehumidifier-canada', destination: '/blog/best-large-capacity-dehumidifier-canada', permanent: true },
+      { source: '/blog/best-commercial-lgr-dehumidifier-canada', destination: '/blog/best-large-capacity-dehumidifier-canada', permanent: true },
+      { source: '/blog/desiccant-vs-compressor-dehumidifier-canada', destination: '/blog/best-dehumidifier-for-cold-garage-canada', permanent: true },
+      { source: '/blog/battery-backup-sump-pump-canada', destination: '/blog/best-sump-pump-for-basement-canada', permanent: true },
+      { source: '/blog/best-patio-heater-canada', destination: '/blog/mosquito-screens-patio-canada', permanent: true },
+      { source: '/blog/patio-heater-vs-fire-table-canada', destination: '/blog/mosquito-screens-patio-canada', permanent: true },
+      { source: '/blog/best-upholstery-steam-cleaner-canada', destination: '/blog/best-steam-cleaner-for-pest-control-canada', permanent: true },
+      { source: '/blog/best-steam-mop-for-hardwood-floors-canada', destination: '/blog/best-steam-cleaner-for-pest-control-canada', permanent: true },
+      { source: '/blog/best-commercial-steam-cleaner-canada', destination: '/blog/best-steam-cleaner-for-pest-control-canada', permanent: true },
+      { source: '/blog/fall-yard-cleanup-leaf-blower-canada', destination: '/blog/how-to-keep-ticks-out-of-yard-ontario', permanent: true },
+      { source: '/blog/brush-cutter-for-overgrown-yard-canada', destination: '/blog/how-to-keep-ticks-out-of-yard-ontario', permanent: true },
+      { source: '/blog/best-squirrel-proof-bird-feeder-canada', destination: '/blog/how-to-get-rid-of-rats-canada', permanent: true },
+      { source: '/blog/best-air-purifier-for-dust-mites-canada', destination: '/blog/dust-mites', permanent: true },
       // Nov 3, 2026: owner confirmed Durham Region (Ajax, Pickering, Whitby) is not in the service area
       { source: '/ajax-mosquito-control', destination: '/service-areas', permanent: true },
       { source: '/pickering-mosquito-control', destination: '/service-areas', permanent: true },

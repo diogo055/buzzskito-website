@@ -2,7 +2,7 @@
  "id": "water-bugs-vs-cockroaches",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "68557683c888604e9281bc75557f670a2cf1f2ecf52eecd2112d6244135bc5fb",
+ "sha": "59101050ad710bf677f95a3fff23b6864bfb5b6855abcbd3498e2ce48218b509",
  "claimsChecked": 62,
  "claimsCorrected": 8,
  "claimsRemovedOrSoftened": 3,
@@ -27,6 +27,11 @@
    "on": "2026-10-23",
    "note": "American cockroach flight re-sourced: UC IPM says 'especially on warm humid evenings' only of smokybrowns; Texas A&M AgriLife (already a source): 'Both the adult male and the female can fly'; UC IPM: 'Oriental cockroaches do not fly' (4 sentences + table cell + caption; orchestrator, Oct 23)",
    "previousSha": "5938c7c7958bc01f76b4cac17aaeac68bb014574831cdde24beb932df8f2c5d7"
+  },
+  {
+   "on": "2026-11-05",
+   "note": "Nov 5, 2026: link repointed from /blog/best-cockroach-killer-canada to /blog/best-cockroach-spray-canada after the merge (301 redirect; its bait-beats-spray content moved there). No other text changed; no factual claim touched.",
+   "previousSha": "68557683c888604e9281bc75557f670a2cf1f2ecf52eecd2112d6244135bc5fb"
   }
  ]
 }

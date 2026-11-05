@@ -18,10 +18,11 @@ import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'best-sump-pump-for-basement-canada'
 const DATE = '2026-08-22'
-const UPDATED = '2026-10-23'
-const TITLE = 'Best Sump Pumps for Canadian Basements — Sizing by Lift Height, Switch Failure and Winter Discharge'
+const UPDATED = '2026-11-05'
+// TITLE NOTE (Nov 5, 2026): the battery-backup-sump-pump-canada page was merged here (301; owner-approved: one sump-pump page, the two shared only 4 searches). Its searches: sump pump battery backup 221, sump pump battery backup canada 113, battery backup for sump pump 91, battery backup sump pump 88, backup battery for sump pump 47, so the title, H1 and META_TITLE now name battery backup. Its 12 products, its backup sections and 3 of its FAQs came across. Was TITLE 'Best Sump Pumps for Canadian Basements — Sizing by Lift Height, Switch Failure and Winter Discharge', META_TITLE 'Best Sump Pump Canada: Sized by Lift, Not HP', H1 'Best Sump Pumps for Canadian Basements'.
+const TITLE = 'Best Sump Pumps and Battery Backups for Canadian Basements — Sizing by Lift, Switch Failure and Winter Discharge'
 // TITLE NOTE (Oct 23, 2026): was 'Best Sump Pumps for Canadian Basements'; top queries Jul 23-Oct 20: best sump pump canada 212 at 7.5, sump pumps 111 at 15.9, best sump pump 56 at 12.8, best sump pump for basement 56 at 11.7, best sump pump for basement canada 48 at 6.7, best submersible sump pump 35 at 4.4 (page: 3,399 impressions at 8.8, 56 clicks).
-const META_TITLE = 'Best Sump Pump Canada: Sized by Lift, Not HP'
+const META_TITLE = 'Best Sump Pump Canada: Battery Backup & Sizing'
 
 const FAQS = [
   {
@@ -76,6 +77,18 @@ const FAQS = [
     question: 'Is a 1/3 HP sump pump enough?',
     answer: 'For most Canadian basements, yes. A typical Ontario basement has 7 to 10 feet of vertical lift from the bottom of the pit to where the pipe leaves the house; add about a foot of head for every ten feet of horizontal pipe, and a 1/3 HP cast iron submersible covers that standard case. It stops being enough when the pit is deep, the run to the property line is long, or the water table refills the basin in minutes during spring melt, and then a 1/2 HP is the right step. Going bigger in a small basin backfires, because an oversized pump short-cycles and wears out its switch.',
   },
+  {
+    question: 'How long will a battery backup sump pump run on one charge?',
+    answer: 'The honest answer is measured in gallons moved, not hours, because a backup pump only runs when the float rises. A group 27 deep-cycle AGM battery in good condition typically carries a DC backup pump through roughly 1,500 to 3,000 gallons of total pumping at a normal Ontario basement lift of 8 to 10 feet, depending on how efficient the pump is. Continuous running — a genuinely flooding pit — drains that in a few hours. Intermittent cycling during a two-day outage can stretch the same battery across the whole event. Manufacturers quote a best-case continuous figure; assume you will get meaningfully less at real head height with a battery that is a couple of years old.',
+  },
+  {
+    question: 'What size battery does a backup sump pump need?',
+    answer: 'A group 27 or group 31 deep-cycle battery is the standard pairing, in the range of roughly 75 to 110 amp-hours. Deep-cycle matters more than the group number: it is built to be drained down and recharged repeatedly. Match the battery to the controller — a charger designed for a 75 Ah battery will undercharge a 110 Ah one and shorten its life. If your pit runs hard every spring, two batteries wired in parallel roughly doubles your reserve and is a common upgrade on properties with a high water table.',
+  },
+  {
+    question: 'How often do backup sump pump batteries need replacing?',
+    answer: 'Plan on three to five years for a deep-cycle AGM in a residential backup system, shorter if it has been deeply discharged several times or has spent seasons in a cold corner. The failure is silent, which is the whole problem — a dead battery looks exactly like a live one. Test in March before melt and again in June: unplug the charger, lift the backup float by hand, and confirm the pump actually moves water. A controller with a low-battery alarm, or a Wi-Fi monitor, turns that annual chore into something you find out about the day it happens instead of the day you need it.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
@@ -105,8 +118,8 @@ export default function BestSumpPumpForBasementCanadaPage() {
             <Link href="/blog" className="hover:text-white">Blog</Link><span>/</span>
             <span className="text-white">Best Sump Pump for a Basement Canada</span>
           </nav>
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">Best Sump Pumps for Canadian Basements</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">For most Canadian basements the best sump pump is a 1/3 HP cast iron submersible with a float switch that fits your pit; go 1/2 HP only for a deep pit, a long run or a high water table. In Toronto, the City&rsquo;s flooding subsidy can cover up to 80 per cent of a licensed install, to $2,250.</p>
+          <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">Best Sump Pumps and Battery Backups for Canadian Basements</h1>
+          <p className="text-xl text-brand-100 max-w-3xl">For most Canadian basements the best sump pump is a 1/3 HP cast iron submersible with a float switch that fits your pit; go 1/2 HP only for a deep pit, a long run or a high water table. Under a finished floor, add a battery backup: a DC pump on its own check valve, run by a deep-cycle AGM battery. In Toronto, the City&rsquo;s flooding subsidy can cover up to 80 per cent of a licensed install, to $2,250.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -127,6 +140,7 @@ export default function BestSumpPumpForBasementCanadaPage() {
               <li><strong>Bigger is not better.</strong> An oversized pump in a small basin short-cycles, and short-cycling is what kills switches.</li>
               <li><strong>Winter discharge is the Canadian failure mode</strong> &mdash; a frozen line makes the pump dead-head and burn out during the February thaw.</li>
               <li><strong>Seal the pit lid.</strong> An open sump is an evaporation surface feeding basement humidity, and a breeding site for drain flies.</li>
+              <li><strong>A battery backup is a system, not a pump:</strong> a DC backup pump on its own check valve, a group 27 or 31 deep-cycle AGM battery, and a controller that alarms when the battery is low. Replace the battery every three to five years.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito Pest Product Guides &middot; independent Canadian research</p>
           </div>
@@ -249,7 +263,7 @@ export default function BestSumpPumpForBasementCanadaPage() {
           <h2>Why a Pest Control Company Cares About Your Sump Pump</h2>
           <p>We spray mosquitoes and ticks; we do not treat basements. But we walk a lot of properties, and the pattern is consistent enough to write down: the homes with silverfish, house centipedes, sowbugs and a persistent musty smell are overwhelmingly the homes with a wet slab. Not a flooded basement &mdash; a <em>damp</em> one. Concrete that never quite dries, a cold wall that sweats, a pit that is always a little full.</p>
           <p>Those insects are not attracted to your house, they are attracted to moisture, and they cannot survive long without it. Silverfish need high relative humidity to complete their life cycle; house centipedes are predators following their prey into damp voids; sowbugs are crustaceans that dry out and die in a genuinely dry basement. So when someone runs a dehumidifier flat out and still has silverfish in October, the usual explanation is that water is arriving faster than the appliance can remove it &mdash; and the sump is the reason.</p>
-          <p>A dehumidifier treats the symptom in the air. The sump pump decides whether water gets into the slab and the pit in the first place. Get the pump right and the dehumidifier finally wins; get it wrong and you are running an appliance against an open tap. For the appliance half, our <Link href="/blog/best-large-capacity-dehumidifier-canada">basement dehumidifier guide</Link> covers pint sizing and the humidity targets that starve those pests, and the <Link href="/blog/best-crawl-space-dehumidifier-canada">crawl space version</Link> handles the harder case.</p>
+          <p>A dehumidifier treats the symptom in the air. The sump pump decides whether water gets into the slab and the pit in the first place. Get the pump right and the dehumidifier finally wins; get it wrong and you are running an appliance against an open tap. For the appliance half, our <Link href="/blog/best-large-capacity-dehumidifier-canada">basement and crawl space dehumidifier guide</Link> covers pint sizing, the humidity targets that starve those pests, and the harder crawl-space case.</p>
 
           <NextUp path="/blog/best-sump-pump-for-basement-canada" />
           <h2>Size by Lift Height, Not Horsepower</h2>
@@ -295,6 +309,99 @@ export default function BestSumpPumpForBasementCanadaPage() {
 
           <p>Ice is only one of the two ways a winter storm takes a pump out. The other is the power cut that arrives with it, usually at the exact hour the pit is filling fastest, and no amount of correct slope helps a pump with no electricity. A battery backup unit sits in the same basin as a second pump on its own DC circuit and covers that gap. On an unfinished utility basement it is optional; under a finished floor it is the difference between an inconvenience and a renovation. <BuyLink tag={AMZ_TAG} search="sump pump battery backup system">Check battery backup systems on Amazon.ca &rarr;</BuyLink></p>
 
+          <h2>Battery Backup Sump Pumps: Why the Outage and the Flood Arrive Together</h2>
+          <p>The reason a battery backup exists is not that primary pumps are unreliable &mdash; a decent submersible runs for years. It is that the two failures are correlated. The hours a GTA basement is most likely to flood are the hours the grid is most likely to be down: freezing rain loading the lines in March, and the fast-moving convective cells that knock out power across Mississauga, Brampton and Etobicoke in June and July, arriving with 30&ndash;50 mm of rain in under an hour. That correlation is why the Insurance Bureau of Canada puts a battery-operated backup pump and a basement water alarm on the same homeowner checklist as backwater valves and downspout extensions.</p>
+          <p>Weeping tile makes it worse in older Ontario housing stock. On a lot where the foundation drains discharge into the pit rather than to a storm connection, the pit does not stop filling when the power goes out. It fills faster, because the ground around the footings is saturated. A primary pump with no electricity is not a slow leak &mdash; it is a rising pit with nowhere to go.</p>
+
+          <h2>How a Battery Backup Sump Pump Works</h2>
+          <p>A battery backup is a system, not a pump. A dedicated DC backup pump sits in the same basin with its float set above the primary&rsquo;s, so the primary always runs first, and it discharges through its own check valve. A group 27 or 31 deep-cycle AGM battery powers it, and a controller keeps that battery charged and alarms when it runs low or when the backup fires. A pump on its own is not a backup, and the battery is a consumable you replace every three to five years.</p>
+          <AwardRow tag={AMZ_TAG}
+            heading="Battery Backup Sump Pump System: Our Pick"
+            awards={[
+              {
+                badge: 'Best Overall',
+                name: 'Basement Watchdog-Class Battery Backup System',
+                why: 'A complete kit: DC backup pump, controller, charger and battery box in one box, with an audible alarm on low battery and on backup activation. Buying it as a system is the point — a mismatched charger and battery is the most common way these installs quietly fail.',
+                search: 'basement watchdog battery backup sump pump system',
+                featured: true,
+                pros: ['Charger matched to the battery it is designed for', 'Alarms on activation and on low battery', 'Widely stocked in Canada, parts easy to source'],
+                cons: ['Battery is a consumable you rebuy every 3–5 years', 'Still needs a second discharge check valve done properly'],
+              },
+            ]}
+          />
+          <h3>Battery Backup Options Compared</h3>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm my-6">
+            <table className="w-full min-w-[640px] text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Option</th>
+                  <th className="px-4 py-3 text-left">Protects against</th>
+                  <th className="px-4 py-3 text-left">Ongoing cost</th>
+                  <th className="px-4 py-3 text-left">Buy</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { opt: 'Complete DC battery backup system', prot: 'Power outage plus primary pump failure', ongoing: 'Battery every 3–5 years', search: 'battery backup sump pump system' },
+                  { opt: 'Heavy-duty DC backup pump', prot: 'Outage on a high-volume pit', ongoing: 'Battery, occasional impeller service', search: 'wayne esp battery backup sump pump' },
+                  { opt: 'Deep-cycle AGM battery (group 27/31)', prot: 'Runtime — the system is only as good as this', ongoing: 'Replace every 3–5 years', search: 'deep cycle agm battery group 27 sump pump' },
+                  { opt: 'Vented battery box', prot: 'Terminals, spills, curious kids', ongoing: 'None', search: 'marine battery box group 27 vented' },
+                  { opt: 'Wi-Fi sump pump monitor', prot: 'Silent dead-battery and high-water failures', ongoing: 'Possible app subscription', search: 'wifi sump pump monitor alarm' },
+                  { opt: 'Water-level / flood alarm', prot: 'Nothing — but it tells you immediately', ongoing: '9V battery yearly', search: 'water leak alarm basement flood sensor' },
+                  { opt: 'Second AC backup pump', prot: 'Primary failure only, not outages', ongoing: 'None', search: 'secondary ac backup sump pump 1/3 hp' },
+                  { opt: 'Check valve + freeze-relief discharge tee', prot: 'Backflow through a dead primary; frozen line', ongoing: 'Inspect each spring', search: 'sump pump discharge freeze relief tee' },
+                ].map(({ opt, prot, ongoing, search }) => (
+                  <tr key={opt} className="border-b border-navy-50 last:border-0">
+                    <td className="px-4 py-3 font-bold text-brand-800">{opt}</td>
+                    <td className="px-4 py-3 text-gray-700">{prot}</td>
+                    <td className="px-4 py-3 text-xs text-gray-600">{ongoing}</td>
+                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check price on Amazon.ca &rarr;</BuyLink></td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <h2>Battery Size, Type and Run Time</h2>
+          <p>Every backup pump on the shelf leads with a gallons-per-hour figure. Treat that number as marketing until you know two things: what lift it was measured at, and what your battery can actually supply.</p>
+          <p><strong>Head height eats the headline.</strong> As with a primary pump, the GPH figure is usually quoted at zero or minimal lift, and every foot of vertical lift and every elbow costs flow. Look for the manufacturer&rsquo;s flow figure at 10 feet, not the number on the front of the box, and compare pumps at the same head.</p>
+          <p><strong>The real spec is gallons per amp-hour.</strong> A backup pump is a battery-powered device, so the only figure that predicts how it behaves in a two-day outage is how much water it moves per amp-hour consumed at your head height. Two pumps with identical GPH ratings can differ substantially here, and the more efficient one buys you hours of extra protection off the same battery. Good manufacturers publish it. When a listing does not, that silence tells you something.</p>
+          <p><strong>Battery capacity is the other half.</strong> A group 27 deep-cycle AGM lands somewhere around 75&ndash;100 amp-hours; a group 31 goes higher. Multiply that by the pump&rsquo;s gallons per amp-hour and you have your genuine reserve, expressed in gallons. Compare it against what your pit does on a bad night. If you have ever watched your primary cycle every ninety seconds for an hour, you already know that number is bigger than you would like &mdash; which is why two batteries wired in parallel, roughly doubling the reserve, is a common upgrade on properties with a high water table.</p>
+          <p><strong>Deep-cycle AGM, not a car battery.</strong> A car starting battery is engineered to deliver a very large current for a few seconds and then be recharged immediately by the alternator, so its plates are thin to maximize surface area. Draining one deeply, which is exactly what a backup sump pump does, damages it: expect a handful of real outages before it will not hold a useful charge, and expect to discover that on the night it matters. Sealed AGM means no venting worries in a finished basement and no fluid to top up; a flooded (non-sealed) battery needs the ventilation its manual specifies. Match the battery to the controller, too &mdash; a charger designed for a 75 Ah battery will undercharge a 110 Ah one and shorten its life.</p>
+
+          <h2>When a Cheaper Backup Is the Right Call: Second AC Pumps and Water-Powered Backups</h2>
+          <p>Not every basement needs a full battery system. Three situations where the honest recommendation is to spend less:</p>
+          <ul>
+            <li><strong>Your pit has never cycled.</strong> Some GTA lots &mdash; higher ground, sandier soil, a pit installed because code asked for one rather than because water arrives &mdash; genuinely do not need a backup. Buy a water alarm, keep a spare primary pump in the box on a shelf, and revisit the decision the first spring the pump actually runs.</li>
+            <li><strong>Your failures have been mechanical, not electrical.</strong> If what has actually failed is a jammed float or a burnt-out motor while the lights stayed on, a second AC pump on a higher float and a separate circuit solves your real problem for less money and with no battery to replace. On its own it does nothing in a power outage; add a generator inlet later if outages become the issue.</li>
+            <li><strong>You are on municipal water with strong pressure and the house sits empty for weeks.</strong> A water-powered backup uses municipal water pressure to drive an ejector, so it has no runtime limit and no battery to die unnoticed. It does nothing on a well (and a well pump is dead in an outage anyway), it needs adequate static pressure, and many Ontario municipalities require a backflow preventer or restrict the installation outright, so confirm what yours permits. Accept that it consumes treated water while it runs &mdash; but for a house nobody checks, unlimited runtime beats a bigger battery.</li>
+          </ul>
+
+          <h2>Battery Backup Install Mistakes, Alarms and Maintenance</h2>
+          <p>Most backup failures come from the installation rather than the product.</p>
+          <p><strong>One discharge pipe, one check valve.</strong> The most common error is teeing the backup into the primary&rsquo;s discharge line without giving each pump its own check valve. When the backup fires, part of what it pushes goes straight back down through the dead primary and into the pit. The pump runs, the battery drains, and the water level barely moves. Each pump needs a check valve on its own leg above the tee. This is a cheap part and it is the difference between a system that works and a system that looks like it works.</p>
+          <div className="not-prose my-4 flex flex-wrap gap-3">
+            <BuyLink tag={AMZ_TAG} search="sump pump check valve 1 1/2 inch">Check sump check valves &rarr;</BuyLink>
+          </div>
+          <p><strong>The battery in the garage.</strong> Lead-acid capacity is temperature-dependent, and the relationship is unkind: a battery sitting near freezing can deliver well under half its rated reserve. An attached Ontario garage in March is exactly that environment. Put the battery in the conditioned basement, off the floor, in a vented box &mdash; and remember a battery box beside a pit is something children and pets will investigate.</p>
+          <p><strong>Never testing it.</strong> A dead battery is visually identical to a live one. Twice a year &mdash; late March, and again in June &mdash; unplug the charger, lift the backup float by hand, and confirm the pump moves water and the alarm sounds. That five-minute test is the entire maintenance program, and it is the step almost everybody skips.</p>
+          <p><strong>No alarm anyone hears.</strong> A controller that sounds on low battery and on backup activation is the minimum. A local siren does nothing if you are at the cottage, though: a Wi-Fi monitor pushes a phone alert when the backup fires, when the water level climbs, or when the battery goes flat &mdash; the failure you would otherwise never see coming. It depends on a router that is also on the dead grid, and some models want a subscription for history, but it is worth adding if the house is ever empty for more than a day.</p>
+          <p>A sensible backup install, in one list:</p>
+          <ul>
+            <li>DC backup pump mounted with its float set above the primary&rsquo;s, so the primary always runs first.</li>
+            <li>A check valve on each pump&rsquo;s own leg, above the tee into the shared discharge.</li>
+            <li>Deep-cycle AGM battery, group 27 or 31, in a vented box, off the floor, in conditioned space.</li>
+            <li>Controller plugged into a circuit you can identify &mdash; and labelled at the panel.</li>
+            <li>An audible alarm at minimum; a Wi-Fi monitor if the house is ever empty for more than a day.</li>
+            <li>A sealed pit lid, which also cuts humidity and radon entry from the pit.</li>
+            <li>Exterior discharge sloped, extended clear of the foundation, and not draining back into the weeping tile.</li>
+            <li>Twice-yearly manual test: unplug the charger, lift the float, confirm water moves and the alarm sounds.</li>
+          </ul>
+          <div className="not-prose my-4 flex flex-wrap gap-3">
+            <BuyLink tag={AMZ_TAG} search="sump pit lid airtight sealed cover">Check sealed sump pit lids &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="battery distilled water refill deep cycle">Check battery fluid &amp; maintenance &rarr;</BuyLink>
+          </div>
+
           <h2>Seal the Pit — The Part With the Pest Payoff</h2>
           <p>An open sump pit is a hole in your basement floor with water in it. It does three things you do not want:</p>
           <ul>
@@ -313,6 +420,7 @@ export default function BestSumpPumpForBasementCanadaPage() {
 
           <h2>Where to Buy in Canada</h2>
           <p>Home Depot Canada, Rona, Lowe&rsquo;s, Canadian Tire and Home Hardware all stock pumps, basins, check valves and discharge kits, deepest from late winter through spring as melt season approaches. Plumbing wholesalers carry the contractor-grade lines if you want a particular model. Amazon.ca is the reliable channel for the small parts that strand people mid-job &mdash; float switches, check valves, unions, freeze-relief fittings, water alarms &mdash; precisely the items a big-box aisle is picked clean of on a spring Saturday.</p>
+          <p>For backup systems specifically, Home Depot Canada and Rona carry the mainstream complete kits and stock replacement batteries for them, Canadian Tire is reliable for deep-cycle batteries, battery boxes and alarms, and plumbing wholesalers such as Wolseley and Bartle &amp; Gibson sell to homeowners in many locations and carry the heavier contractor-grade DC pumps big-box stores do not. Amazon.ca carries the whole backup chain year-round &mdash; system, spare battery, monitor, alarm &mdash; which matters because this category is bought in a hurry: nobody researches backup sump pumps in a dry February; they research them on the Sunday after the basement got wet, which is exactly when local stock is thin.</p>
 
           <h2>Two Canadian Checks Before You Buy: Certification and Toronto&rsquo;s Subsidy</h2>
           <p>A sump pump is a plugged-in electrical product sitting in water, so the certification mark matters, and in Toronto the City pays for part of a professionally installed pump. Both are easy to check before you spend anything.</p>
@@ -333,6 +441,7 @@ export default function BestSumpPumpForBasementCanadaPage() {
 
           <h2>The Bottom Line</h2>
           <p>Buy a 1/3 HP cast iron submersible unless the tape measure says otherwise, and let total head &mdash; not the horsepower badge &mdash; make that call. Match the float switch to your basin diameter and keep a spare, because the switch is what fails. Fit a serviceable check valve above the lid, drill the weep hole, add a union. Then spend your winter attention on the discharge line, since a frozen pipe during a February thaw is how a perfectly good pump dies in this country. Seal the pit, run the discharge well away from the foundation, and the damp that has been feeding the silverfish, centipedes and mould goes with it &mdash; which is the whole reason a mosquito company ended up writing about sump pumps.</p>
+          <p>If the basement is finished, add a battery backup &mdash; and buy the system, not the pump: a DC backup pump on a matched controller, with a group 27 or 31 deep-cycle AGM battery, its own check valve, and an alarm you will actually hear. Size it by gallons per amp-hour at 10 feet of head, keep the battery warm, and test it twice a year. If your pit genuinely never runs, buy the alarm and a spare primary instead and put the difference somewhere it earns more.</p>
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4 my-6">
@@ -347,7 +456,6 @@ export default function BestSumpPumpForBasementCanadaPage() {
           <h2>Related Reading</h2>
           <ul>
             <li><Link href="/blog/best-large-capacity-dehumidifier-canada">Best Dehumidifier for a Basement in Canada</Link></li>
-            <li><Link href="/blog/best-crawl-space-dehumidifier-canada">Best Crawl Space Dehumidifier in Canada</Link></li>
             <li><Link href="/blog/how-to-get-rid-of-silverfish-canada">How to Get Rid of Silverfish in Canada</Link></li>
             <li><Link href="/blog/how-to-get-rid-of-centipedes-canada">How to Get Rid of Centipedes in Canada</Link></li>
             <li><Link href="/blog/how-to-get-rid-of-drain-flies-canada">How to Get Rid of Drain Flies in Canada</Link></li>

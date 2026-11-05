@@ -19,15 +19,27 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-large-capacity-dehumidifier-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-11-03'
-const TITLE = 'Best Dehumidifier for a Basement in Canada 2026 — Large-Capacity 50 & 70-Pint Picks'
+const UPDATED = '2026-11-05'
+// TITLE NOTE (Nov 5, 2026): six dehumidifier pages were merged into this one (each now 301s here), because they split
+// Google's signals for the same buyers: best-dehumidifier-for-mold-canada ("dehumidifier for mold" 330 impressions May 1-
+// Nov 1, "best dehumidifier for mold" 98), best-crawl-space-dehumidifier-canada ("crawl space dehumidifier" 213, "crawl
+// space dehumidifier canada" 81, "best crawl space dehumidifier" 72), crawl-space-dehumidifier-vs-vapour-barrier-canada
+// (the same crawl space searches), what-size-dehumidifier-do-i-need-canada ("what size dehumidifier do i need" 67, "...for
+// basement" 49, "...for a 1500 sq ft basement" 45), best-whole-house-dehumidifier-canada ("whole house dehumidifier" 86,
+// "best whole house dehumidifier" 43) and best-commercial-lgr-dehumidifier-canada ("lgr dehumidifier" 96). The H1 now also
+// names mould, crawl spaces and whole-house units ("Large-Capacity" dropped to make room); META_TITLE and the meta
+// description are unchanged. All 33 products and the one ASIN of the six pages are carried; their unique sections sit in
+// the sizing section (sizing by space), after the pest sections (mould) and after the setup section (crawl spaces,
+// whole-house, LGR, accessories), with 6 FAQs and the dust mite photo. Was 'Best Dehumidifier for a Basement in Canada
+// 2026 — Large-Capacity 50 & 70-Pint Picks', META_TITLE 'Best Basement Dehumidifier Canada: 50 vs 70 Pint' (kept).
+const TITLE = 'Best Dehumidifier for a Basement in Canada 2026 — 50 & 70-Pint Picks, Plus Mould, Crawl Space & Whole-House Units'
 // TITLE NOTE (Nov 3, 2026): /blog/best-dehumidifier-for-basement-canada ("best dehumidifier for basement canada" at
 // about 7.5) was merged into this page, because Google split "best dehumidifier canada", "dehumidifier for basement"
 // and "best dehumidifier" between the two. The title now leads with the basement search and keeps the 70-pint ones.
 // Its products, its sourced sizing and Health Canada tables, the sections this page lacked, its pill bug photo and 3 of
 // its FAQs came across (FAQs capped at 10). Was 'Best 70-Pint (Large-Capacity) Dehumidifier Canada 2026 — Big & Wet
 // Basements, Drain-Pump Picks', META_TITLE 'Best 70-Pint Dehumidifier Canada: 50 vs 70 Pint'.
-// TITLE NOTE (Oct 28, 2026): was 'Best 70-Pint Dehumidifier Canada: Drain Pumps'; top queries (Jul 28-Oct 25): best dehumidifier canada 957 (pos 6.9, 7 clicks; the assigned main query of /blog/best-dehumidifier-for-mold-canada), best 70 pint dehumidifier 10 (2.9, 1 click), best large capacity dehumidifier 10 (8.6, 1 click), 50 pint vs 70 pint dehumidifier 5. Basement queries then went to the basement page (merged here on Nov 3).
+// TITLE NOTE (Oct 28, 2026): was 'Best 70-Pint Dehumidifier Canada: Drain Pumps'; top queries (Jul 28-Oct 25): best dehumidifier canada 957 (pos 6.9, 7 clicks; the assigned main query of best-dehumidifier-for-mold-canada, merged here on Nov 5), best 70 pint dehumidifier 10 (2.9, 1 click), best large capacity dehumidifier 10 (8.6, 1 click), 50 pint vs 70 pint dehumidifier 5. Basement queries then went to the basement page (merged here on Nov 3).
 const META_TITLE = 'Best Basement Dehumidifier Canada: 50 vs 70 Pint'
 
 const FAQS = [
@@ -38,6 +50,14 @@ const FAQS = [
   {
     question: 'What size dehumidifier do I need for a large or wet basement?',
     answer: 'For a large basement (over 2,000 sq ft, where ENERGY STAR’s chart calls for 40+ pints a day if it is very damp and 50+ if it is wet), a genuinely wet basement of any size (visible damp patches, pooling, a strong musty smell, condensation on the walls), or a whole-lower-level moisture problem, you want the top portable class — today’s 50-pint units, which Midea Canada rates for rooms up to 4,500 sq ft. Buy up, not down: an oversized unit reaches your target humidity quickly and then cycles off, while an undersized one runs flat-out around the clock, never catches up, and burns more electricity doing less. Cold Canadian basements also cut a compressor\'s real-world output below its rating, so headroom matters even more here than in a warmer climate.',
+  },
+  {
+    question: 'Is a 35-pint dehumidifier enough for a basement, or do I need 50?',
+    answer: 'A 30–35 pint unit is the right buy for a single moderately damp room, a finished basement that already feels dry, or a condo up to roughly 1,000 sq ft. A 50-pint unit is the right buy for anything larger, anything that smells musty, and any unfinished basement with bare concrete or block walls. The asymmetry matters: an oversized dehumidifier simply reaches its humidity setpoint sooner and cycles off, costing a little more up front and very little to run, while an undersized one runs continuously, never reaches the setpoint, and leaves you above the humidity band where mould and dust mites are comfortable. When you are genuinely on the line between the two classes, take the 50.',
+  },
+  {
+    question: 'What size dehumidifier do I need for a 1,500 sq ft basement?',
+    answer: 'The dampness decides it more than the floor area. ENERGY STAR’s chart puts a space under about 2,000 sq ft at 20–30 pints a day if it is slightly to moderately damp, 25–40 if it is very damp and 30–50 if it is wet, and a cool Canadian basement at roughly 15–18°C gets less water out of a compressor unit than its rating promises. So if a 1,500 sq ft basement is unfinished, has bare concrete or block walls, smells musty or shows a damp patch on the foundation, buy the 50-pint class; if it is finished, heated and merely feels a bit close in July, a 30–35 pint unit with a settable humidistat will hold it. If there is no floor drain or sump below the unit, choose the 50-pint version with a built-in pump.',
   },
   {
     question: 'Should I use two dehumidifiers in a large basement?',
@@ -70,6 +90,22 @@ const FAQS = [
   {
     question: 'What is the best 70-pint dehumidifier for a basement?',
     answer: 'On today’s test, look for a 50-pint unit: an ENERGY STAR compressor model with automatic defrost and continuous drainage, like the Midea Cube 50-pint picked above, which Midea Canada rates for rooms up to 4,500 sq ft and drains through an included hose. If your only drain is above the unit, choose a model with a built-in pump, such as Frigidaire’s 50-pint pump model, which pushes water up into a sink or out of a window. Then check the exact model number on Natural Resources Canada’s ENERGY STAR list.',
+  },
+  {
+    question: 'What is the best dehumidifier for mould?',
+    answer: 'For most Canadian homes fighting mould, the best pick is a mid-to-large-capacity Energy Star dehumidifier with a built-in hygrostat (humidistat), so it holds the room at a set relative humidity instead of running non-stop; a Frigidaire or Midea in the 35–50 pint class suits a typical damp basement. Set it inside Health Canada’s 30% to 50% range, with 45–50% as a practical target well under the roughly 60% where mould takes hold, and run it on a continuous-drain hose so a full tank never stalls it. No dehumidifier kills or removes mould; it keeps new mould from growing. Health Canada says small and medium areas can generally be cleaned yourself with water and dish soap, with no need for bleach, and recommends a qualified professional for a single patch larger than 3 m². Fix the moisture source as well, or the mould comes back.',
+  },
+  {
+    question: 'What is the best crawl space dehumidifier in Canada?',
+    answer: 'For most Canadian crawl spaces, a purpose-built, low-profile unit in the AlorAir Sentinel HD55 class: it fits under floor joists where a tall portable will not, it has no bucket at all, it keeps working at low temperatures instead of icing up, and it restarts itself after a power cut. If there is no drain below it, choose the HD55P, whose spec sheet lists gravity or pump draining, 55 pints a day at AHAM conditions (120 at saturation), a working range of 33 to 105°F (about 1 to 41°C) and automatic restart; the standard HD55 drains by gravity only, so it needs a drain below it or a separate condensate pump. Such a unit costs several times what a portable does, and it is only worth buying once the crawl space has a vapour barrier over the dirt: without one you are dehumidifying the soil, and the soil always wins. Set it to hold about 55% relative humidity.',
+  },
+  {
+    question: 'What is the best whole-house dehumidifier in Canada, and do I need one?',
+    answer: 'Probably not: in most Canadian homes the damp is local (a basement, a bathroom with a weak exhaust fan, a laundry room), and a portable or an exhaust fan fixes it. Put a hygrometer on each floor for a week of humid weather. If every floor reads above 55% while the air conditioning runs, that is a house-wide load and a ducted unit is the answer: an Aprilaire E-series unit in the 70 to 95 pint-per-day class, installed on the HVAC return so dried air reaches every room the ductwork serves, running on its own control rather than waiting for the air conditioner to cool. Aprilaire rates its 70-pint E070 for whole houses up to 2,200 sq ft and its 100-pint E100 for whole houses up to 5,500 sq ft. Installation is licensed-trade work for an HVAC contractor: ductwork, a dedicated circuit and, in many Ontario municipalities, a permit.',
+  },
+  {
+    question: 'What is an LGR dehumidifier, and should a homeowner buy one?',
+    answer: 'LGR means Low Grain Refrigerant: a pre-cooling heat exchanger lets the coil drive air down into the 30s grains per pound instead of stalling in the mid-50s, so the machine keeps pulling water out of a structure on day three of drying, when a conventional unit has quietly stalled. For Canadian contractors the practical default is a mid-size AlorAir Storm-class LGR with an onboard condensate pump, roughly 90 to 120 pints AHAM, drawing under 9 amps on a standard 115V circuit; buy on the AHAM rating, never the bigger saturation rating manufacturers put on the box. A homeowner almost certainly should not buy one: for a damp, musty basement, a residential Energy Star unit with a settable humidistat and a continuous drain is the right tool at roughly a tenth of the price, and an LGR run as a permanent basement appliance is loud, power-hungry and hard on a machine designed for intermittent duty.',
   },
 ]
 
@@ -241,7 +277,7 @@ export default function BestLargeCapacityDehumidifierCanadaPage() {
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-amber-900">⚠️ Ignore the headline pint number.</strong> Ratings from before and after the 2019 test change are not comparable: ENERGY STAR&rsquo;s rough table puts an old &ldquo;70-pint&rdquo; portable at about 40&ndash;45 pints today, so a 2026 &ldquo;50-pint&rdquo; unit is in the old 70-pint class &mdash; compare physical size and coverage area, not the label. And a dehumidifier only manages moisture; pair it with an <Link href="/blog/best-air-purifier-for-dust-mites-canada" className="text-emerald-700 underline font-semibold">air purifier for dust mites</Link> and a <Link href="/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada" className="text-emerald-700 underline font-semibold">sealed-HEPA vacuum</Link> for a genuinely healthy lower level.
+              <strong className="text-amber-900">⚠️ Ignore the headline pint number.</strong> Ratings from before and after the 2019 test change are not comparable: ENERGY STAR&rsquo;s rough table puts an old &ldquo;70-pint&rdquo; portable at about 40&ndash;45 pints today, so a 2026 &ldquo;50-pint&rdquo; unit is in the old 70-pint class &mdash; compare physical size and coverage area, not the label. And a dehumidifier only manages moisture; pair it with the <Link href="/blog/dust-mites" className="text-emerald-700 underline font-semibold">other ways to reduce dust mites</Link> and a <Link href="/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada" className="text-emerald-700 underline font-semibold">sealed-HEPA vacuum</Link> for a genuinely healthy lower level.
             </p>
           </div>
         </div>
@@ -254,6 +290,7 @@ export default function BestLargeCapacityDehumidifierCanadaPage() {
           <h2>What Is the Best Dehumidifier for a Canadian Basement?</h2>
           <p>For most Canadian basements, the best dehumidifier is a 50-pint compressor unit with a humidistat and a drain-hose port, set to hold 45&ndash;50% humidity. For a large or wet basement, it is a top-tier Energy Star compressor unit &mdash; the class that used to be sold as &ldquo;70-pint&rdquo; and is now labelled around &ldquo;50-pint&rdquo; &mdash; run with continuous drainage and, in most basements, a pump. That is the short answer, and the rest of this guide is really about the details that separate a unit that quietly fixes your basement from one that runs non-stop and never wins: the capacity rating, the auto-defrost coil, the drainage route, and the efficiency that determines what it costs you over a long humid season.</p>
           <p>Everything in our picks above is a variation on those trade-offs. The flagship buys you capacity plus efficiency; the pump model buys you drainage freedom; the value unit trades efficiency for a lower price; and the desiccant unit trades capacity for the ability to keep working in the cold. Different basements need different compromises, which is why there is no single &ldquo;best&rdquo; for everyone &mdash; but there is a best for <em>your</em> basement, and the reasoning below points you to it.</p>
+          <p>Drying something other than a basement, or fighting one specific problem? This guide also covers <a href="#mould">dehumidifiers for mould</a>, <a href="#crawl-space">crawl spaces and the vapour barrier that comes first</a>, <a href="#whole-house">whole-house (ducted) units</a> and <a href="#lgr">commercial LGR machines for water damage</a>, and its <a href="#sizing-by-space">sizing table by space</a> runs from a closet to a whole house.</p>
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the main large-capacity types:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
@@ -312,6 +349,66 @@ export default function BestLargeCapacityDehumidifierCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="waykar dehumidifier basement">Waykar compact →</BuyLink>
           </div>
 
+          <h2 id="sizing-by-space">What Size Dehumidifier Do I Need? Sizing by Space</h2>
+          <p>For a quick answer by space, read down to the row that matches yours, then across. Pint ratings are on the current scale. The rows are deliberately more conservative than generic sizing charts: they assume a <strong>cool Canadian basement at roughly 15&ndash;18&deg;C</strong>, where a compressor unit pulls noticeably less water per hour than its rating implies, and they already step up a class for genuine dampness. If your space is warm, heated year-round and only <em>moderately</em> damp &mdash; a finished basement that feels a little close in July, nothing more &mdash; a 30&ndash;35 pint unit is genuinely fine well past 1,000 sq ft. Cold and musty pushes you up a row; warm and merely stuffy pulls you down one.</p>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm my-6">
+            <table className="min-w-[560px] w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Space &amp; dampness</th>
+                  <th className="px-4 py-3 text-left">Buy this class</th>
+                  <th className="px-4 py-3 text-left">Must-have spec</th>
+                  <th className="px-4 py-3 text-left">Availability</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Under ~500 sq ft<br /><span className="font-normal text-xs text-gray-500">closet, ensuite, cold room, small damp spot</span></td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">20&ndash;30 pint compact</strong></td>
+                  <td className="px-4 py-3 text-gray-700">A humidistat you can set to a number</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="compact 30 pint dehumidifier energy star humidistat" block>Check price on Amazon.ca →</BuyLink></td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">500&ndash;1,000 sq ft<br /><span className="font-normal text-xs text-gray-500">finished basement or condo, feels close in summer</span></td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">30&ndash;35 pint</strong></td>
+                  <td className="px-4 py-3 text-gray-700">Energy Star + gravity drain port</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="35 pint dehumidifier energy star continuous drain" block>Check price on Amazon.ca →</BuyLink></td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">1,000&ndash;2,000 sq ft<br /><span className="font-normal text-xs text-gray-500">damp basement, musty smell, bare block walls</span></td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">50 pint &mdash; the default</strong></td>
+                  <td className="px-4 py-3 text-gray-700">Auto-defrost for a cool basement</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="50 pint dehumidifier energy star continuous drain" block>Check price on Amazon.ca →</BuyLink></td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Wet basement, or no floor drain<br /><span className="font-normal text-xs text-gray-500">standing damp, sump-less, drain above the unit</span></td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">50 pint with built-in pump</strong></td>
+                  <td className="px-4 py-3 text-gray-700">Internal condensate pump + long lift hose</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="50 pint dehumidifier with built in pump" block>Check price on Amazon.ca →</BuyLink></td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Crawl space / cold cellar<br /><span className="font-normal text-xs text-gray-500">unheated, 5&ndash;15 &deg;C, rubble or block foundation</span></td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Low-temperature crawl-space unit</strong></td>
+                  <td className="px-4 py-3 text-gray-700">Rated low-temp operation + hot-gas defrost + pump</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="crawl space dehumidifier low temperature with pump" block>Check price on Amazon.ca →</BuyLink></td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Unheated garage, workshop, cottage<br /><span className="font-normal text-xs text-gray-500">regularly below ~5 &deg;C</span></td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Desiccant dehumidifier</strong></td>
+                  <td className="px-4 py-3 text-gray-700">Rotor type &mdash; no cold coil to frost</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="desiccant dehumidifier cold room garage" block>Check price on Amazon.ca →</BuyLink></td>
+                </tr>
+                <tr className="align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Whole house, several floors<br /><span className="font-normal text-xs text-gray-500">chronic humidity, existing ductwork</span></td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Ducted whole-home unit</strong></td>
+                  <td className="px-4 py-3 text-gray-700">Sized and installed by an HVAC contractor</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="whole house ducted dehumidifier" block>Check price on Amazon.ca →</BuyLink></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p>Size on dampness first and square footage second: a 700 sq ft wet basement needs a bigger machine than a 1,400 sq ft one that only feels close in July, despite being half the size. Capacity is quoted in pints of water removed per day, a throughput figure rather than a coverage figure, and the machine has to remove water, not floor area. An inexpensive hygrometer left in the space for a week tells you which band of the ENERGY STAR chart above you are really in.</p>
+
           <h2>Compressor vs Desiccant for a Cold Canadian Basement</h2>
           <p>There are two fundamentally different dehumidifier technologies, and the Canadian climate makes the choice matter more than it does further south. <strong>Compressor (refrigerant) dehumidifiers</strong> are what almost everyone should buy: they are dramatically more energy-efficient at normal room temperatures, and they come in the large capacities a basement needs. Their weak spot is the cold, which is why auto-defrost is non-negotiable here.</p>
           <p>A compressor dehumidifier pulls water out of the air by condensing it on a cold coil &mdash; the same principle as an air conditioner. In a cool Canadian basement, that coil can drop below freezing and grow a layer of frost, which chokes airflow and eventually stops the unit from extracting anything. <strong>Auto-defrost</strong> is the feature that solves this: the unit periodically pauses compression and melts the frost off the coil, then resumes. Makers rate their units for this: Frigidaire says its 50-pint models are designed to operate at low temperatures down to 41&deg;F (5&deg;C), and Midea lists automatic defrost control on its 50-pint Cube, where an older or cheaper unit without it would frost over and quit in the same basement.</p>
@@ -323,6 +420,10 @@ export default function BestLargeCapacityDehumidifierCanadaPage() {
           <p><strong>Gravity drainage</strong> is the simple case: run the included hose to a floor drain, sump pit, or standpipe that sits <em>lower</em> than the unit&rsquo;s outlet, and water flows out on its own with no moving parts. If you have a floor drain or sump below the machine, this is all you need, and you can skip a pump entirely.</p>
           <p><strong>A built-in pump</strong> is the answer to the very common basement problem where there is nowhere lower to send the water &mdash; the only drain is a laundry sink up on the wall, or a window well, or a drain across the room. A pump pushes condensate <em>up</em> and out through a thin hose, letting the unit run truly hands-free where gravity alone would leave you emptying a bucket. If your basement has no low drain, the pump is not a luxury; it is what makes continuous operation possible at all. You can also add an external condensate pump to a non-pump unit, but an integrated pump is tidier and one less thing to set up.</p>
           <p>Decide your drain path <em>before</em> you buy, because it determines whether you need a pump. If there is a floor drain or sump below the unit, buy a standard gravity-drain model and save the money. If not, budget for a pump-equipped unit or an add-on pump (an external condensate pump can be replaced on its own if it ever fails) &mdash; do not talk yourself into &ldquo;I&rsquo;ll just empty the bucket,&rdquo; because the day you stop is the day the pests come back.</p>
+          <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of an add-on condensate pump:</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink tag={AMZ_TAG} search="condensate pump for dehumidifier continuous drain">Condensate pump &rarr;</BuyLink>
+          </div>
 
           <QuickIdTable
             title="Large dehumidifiers compared, from the makers’ pages"
@@ -340,7 +441,7 @@ export default function BestLargeCapacityDehumidifierCanadaPage() {
           <p>Most buying guides treat a basement dehumidifier as a comfort purchase &mdash; less clammy air, no musty smell. That is true, but it undersells what the machine actually does. A dehumidifier earns a place in a pest-control conversation because moisture is the single environmental lever that governs a whole category of basement pests. Silverfish, cockroaches, and centipedes are all humidity-seekers: they congregate in damp, still air and struggle to reproduce once it dries out. Dust mites &mdash; one of the biggest indoor allergen sources &mdash; cannot sustain their populations below about 50% relative humidity because they absorb water directly from the air rather than drinking it. Mould, which draws its own pests and degrades the air you breathe, needs sustained damp to colonize. Hold a basement steadily at 45% RH and you have removed the environmental foundation all of them depend on &mdash; along with the damp-loving crowd that trades on it, from <Link href="/blog/how-to-get-rid-of-earwigs-canada">earwigs pushing in from the mulch line</Link> to the <Link href="/blog/how-to-get-rid-of-centipedes-canada">house centipedes that only stay where prey is plentiful</Link>.</p>
           <Photo id="silverfish" alt="Common silverfish, a slender silvery insect with long antennae and tail bristles" caption="A common silverfish, Lepisma saccharinum (London, Ontario). Silverfish are humidity-seekers that gather in damp basements and struggle to breed once the air is dry." />
           <Photo id="house-centipede-on-wall" alt="House centipede with long striped legs on a pale wall" caption="A house centipede, Scutigera coleoptrata, on a wall (Sandusky, Ohio). House centipedes are another humidity-seeker of damp lower levels, which a dehumidifier held at 45–50% makes less inviting." />
-          <p>Drying a large basement to a steady 45&ndash;50% RH does not poison anything &mdash; it simply removes the conditions those pests depend on, which is a slower but far more durable kind of control than any spray. This is why the capacity question matters for pests specifically: an undersized unit that can never pull a big wet basement below 60% leaves the door open to exactly the infestations you were trying to prevent, while a right-sized flagship that holds 45&ndash;50% closes it. Pair the dehumidifier with a <Link href="/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada">sealed-HEPA vacuum</Link> to remove what is already there and an <Link href="/blog/best-air-purifier-for-dust-mites-canada">air purifier for dust-mite allergen</Link>, and you have addressed the root cause rather than chasing symptoms. Our dedicated <Link href="/blog/best-dehumidifier-for-mold-canada">dehumidifier for mould guide</Link> goes deeper on the humidity thresholds mould specifically needs.</p>
+          <p>Drying a large basement to a steady 45&ndash;50% RH does not poison anything &mdash; it simply removes the conditions those pests depend on, which is a slower but far more durable kind of control than any spray. This is why the capacity question matters for pests specifically: an undersized unit that can never pull a big wet basement below 60% leaves the door open to exactly the infestations you were trying to prevent, while a right-sized flagship that holds 45&ndash;50% closes it. Pair the dehumidifier with a <Link href="/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada">sealed-HEPA vacuum</Link> to remove what is already there and the <Link href="/blog/dust-mites">other steps that cut dust-mite allergen</Link>, and you have addressed the root cause rather than chasing symptoms. The <a href="#mould">mould section</a> below goes deeper on the humidity thresholds mould specifically needs.</p>
 
           <h2>Dehumidifier First, Then Clean Up the Pests</h2>
           <p>To be clear about sequencing: the dehumidifier removes the <em>conditions</em> pests need, but it will not exterminate an infestation already in progress. Think of it as the foundation. Drop the basement to a steady 45% RH and populations decline over weeks as the environment stops supporting them &mdash; then use targeted treatments to clear whatever is already there:</p>
@@ -363,6 +464,70 @@ export default function BestLargeCapacityDehumidifierCanadaPage() {
           />
           <Photo id="pill-bug-rolled-kitchen-floor" alt="Pill bug rolled into a tight grey ball on a speckled kitchen floor" caption="A pill bug (common pill woodlouse), Armadillidium vulgare, rolled into a ball on a kitchen floor in Greater Vancouver, British Columbia. Health Canada says a persistent indoor infestation of sowbugs, pill bugs or millipedes may point to a serious moisture problem." />
           <p>If you are not sure which bug you are looking at, our <Link href="/blog/bugs-in-basement">photo guide to bugs in the basement</Link> sorts the usual suspects by where and how you saw them, from a fast runner crossing the floor at night to jumping specks by the floor drain.</p>
+
+          <h2 id="mould">Best Dehumidifier for Mould: Hold Humidity Under 60%</h2>
+          <p>The best dehumidifier for mould in a Canadian home is a mid-to-large-capacity, Energy Star unit with a built-in hygrostat &mdash; a Frigidaire or Midea in the 35&ndash;50 pint class covers the typical damp basement &mdash; run on continuous drainage and set to hold 45&ndash;50% relative humidity. The machine is not fighting mould directly; it is removing the humidity that mould needs to exist. Mould spores are always in the air, and you do not need to eliminate them: below roughly 60% relative humidity, the moisture in the air and on surfaces is generally not enough for common household mould to take hold; above 60% it becomes possible, and above 70% it becomes easy. Get the humidity right and the mould problem largely solves itself; get it wrong and no amount of scrubbing keeps the growth from returning.</p>
+
+          <QuickIdTable
+            title="Humidity and mould: what each reading means"
+            head={['Reading or situation', 'What Health Canada or the EPA says', 'What to do']}
+            rows={[
+              ['30% to 50% relative humidity', 'Health Canada: keep indoor humidity “between 30% and 50%”; the EPA’s ideal is the same band', 'Set the humidistat here; this guide aims for 45–50%'],
+              ['Above 50%', 'Health Canada: run a dehumidifier when humidity is above 50% or moisture condenses on cold surfaces such as windows', 'Let the humidistat switch the unit on'],
+              ['Above 60%', 'EPA: keep indoor humidity below 60 percent', 'Mould can take hold; a unit that never gets the room under 60% is too small'],
+              ['A wet area after a leak or flood', 'EPA: dry it within 24–48 hours; Health Canada: mould begins to grow within 48 hours', 'Run the dehumidifier with the windows closed, and fix the leak'],
+              ['Small mould: 1 m² or less, up to three patches', 'Health Canada: clean it yourself with water and dish soap and proper protective equipment; “There’s no need to use bleach”', 'Clean it, then hold the room under 50%'],
+              ['Medium: more than three patches, under 3 m² in total', 'Health Canada: an assessment by a qualified professional is recommended, though most medium areas can be cleaned without one', 'Get it assessed if you can, then keep humidity low'],
+              ['Large: one patch over 3 m²', 'Health Canada: a qualified professional should assess and clean it up', 'Remediation first; the dehumidifier keeps it from coming back'],
+            ]}
+            caption={<>From Health Canada&rsquo;s <a href="https://www.canada.ca/en/health-canada/services/air-quality/indoor-air-contaminants/reduce-humidity-moisture-mould.html" target="_blank" rel="noopener noreferrer" className="underline">Mould</a> page and <a href="https://www.canada.ca/en/health-canada/services/publications/healthy-living/addressing-moisture-mould-your-home.html" target="_blank" rel="noopener noreferrer" className="underline">Guide to addressing moisture and mould indoors</a>, and the US EPA&rsquo;s <a href="https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home" target="_blank" rel="noopener noreferrer" className="underline">A Brief Guide to Mold, Moisture, and Your Home</a>, read October 23, 2026. A dehumidifier controls humidity; it does not remove mould.</>}
+          />
+
+          <p>Three features decide whether a dehumidifier works against mould. The first is a real hygrostat, also spelled humidistat: insist on a model where you can set humidity to an actual number, not a vague low/medium/high dial, so the unit kicks on when humidity rises after a rainy day and rests when it drops, holding the room under the mould threshold without you thinking about it. The second is enough capacity for the space, so it actually reaches that number. The third is continuous drainage: when the tank fills the unit stops, and humidity creeps back above the mould threshold for every hour it sits waiting for you to notice. Frigidaire and Midea both make Energy Star, hygrostat-equipped units in the mid-to-large sizes, and either does the job when sized correctly; the badge matters less than the specification.</p>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm my-6">
+            <table className="min-w-[560px] w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Class for mould control</th>
+                  <th className="px-4 py-3 text-left">Best for</th>
+                  <th className="px-4 py-3 text-left">Drainage</th>
+                  <th className="px-4 py-3 text-left">Watch out for</th>
+                  <th className="px-4 py-3 text-left">Availability</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Mid-capacity<br /><span className="font-normal text-xs text-gray-500">35&ndash;50 pint, hygrostat</span></td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best all-round</strong> &mdash; typical damp basement</td>
+                  <td className="px-4 py-3 text-gray-700">Continuous drain to a floor drain or sump</td>
+                  <td className="px-4 py-3 text-gray-700">Needs a drain route or you empty a bucket</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="frigidaire dehumidifier hygrostat continuous drain" block>Check price on Amazon.ca →</BuyLink></td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">High-capacity + pump<br /><span className="font-normal text-xs text-gray-500">very wet spaces</span></td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; wet basement, no floor drain</td>
+                  <td className="px-4 py-3 text-gray-700">Built-in pump drains upward, out a window/sink</td>
+                  <td className="px-4 py-3 text-gray-700">Higher cost; pump adds maintenance</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="high capacity dehumidifier with pump 50 pint" block>Check price on Amazon.ca →</BuyLink></td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Value mid-size<br /><span className="font-normal text-xs text-gray-500">Midea-class</span></td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; same features, lower price</td>
+                  <td className="px-4 py-3 text-gray-700">Continuous drain supported</td>
+                  <td className="px-4 py-3 text-gray-700">Fewer premium extras</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="midea dehumidifier humidistat energy star" block>Check price on Amazon.ca →</BuyLink></td>
+                </tr>
+                <tr className="align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Compact<br /><span className="font-normal text-xs text-gray-500">smaller rooms</span></td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; a single moderately damp room</td>
+                  <td className="px-4 py-3 text-gray-700">Small tank; some support a hose</td>
+                  <td className="px-4 py-3 text-gray-700">Undersized for a full wet basement</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="compact dehumidifier energy star humidistat" block>Check price on Amazon.ca →</BuyLink></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p>A dehumidifier controls the humidity that lets mould grow; it does not clean, kill or remove mould that has already colonized a surface. Clean or remediate existing growth as the table above sets out, then run the dehumidifier to keep it from coming back. A musty basement smell is the clearest early signal: bringing humidity below 50% over days to weeks starves the growth and lets the smell fade, and if it persists after weeks of controlled humidity, hunt for a hidden colony or a moisture source that needs fixing. In a bathroom, Health Canada&rsquo;s fix is the exhaust fan, run while you shower and for a few minutes after.</p>
 
           <h2>Running Cost and Efficiency on an Always-On Machine</h2>
           <p>A high-capacity compressor is one of the heavier household appliances to run, because it is doing air-conditioner-scale work continuously through the humid months. That is precisely why <strong>Energy Star certification is worth paying for on a large unit</strong> in a way it might not be on a small one: over a long Canadian humid season, the gap between an efficient and an inefficient flagship compounds into real money. The efficiency premium on the up-front price is usually paid back in the electricity bill.</p>
@@ -394,12 +559,14 @@ export default function BestLargeCapacityDehumidifierCanadaPage() {
           <ul>
             <li><strong>Big open basement with a floor drain or sump below the unit:</strong> a 50-pint ENERGY STAR unit on a drain hose, like the Midea Cube picked above.</li>
             <li><strong>The only drain is a laundry sink or a window:</strong> a built-in pump model; Frigidaire&rsquo;s pushes water up into a sink or out of a window.</li>
-            <li><strong>The basement sits below 18&deg;C:</strong> a unit rated for low temperatures (Frigidaire: down to 41&deg;F), or a product made for lower temperatures, as Natural Resources Canada advises. Our <Link href="/blog/best-dehumidifier-for-cold-garage-canada">cold garage dehumidifier guide</Link> covers the low-temperature options, and the <Link href="/blog/best-crawl-space-dehumidifier-canada">crawl space dehumidifier guide</Link> covers sealed crawl spaces.</li>
+            <li><strong>The basement sits below 18&deg;C:</strong> a unit rated for low temperatures (Frigidaire: down to 41&deg;F), or a product made for lower temperatures, as Natural Resources Canada advises. Our <Link href="/blog/best-dehumidifier-for-cold-garage-canada">cold garage dehumidifier guide</Link> covers the low-temperature options, and the <a href="#crawl-space">crawl space section</a> below covers sealed crawl spaces.</li>
             <li><strong>Replacing an old 70-pint unit:</strong> ENERGY STAR says the smaller capacity on a new model may still meet your needs, because the test changed, not the machine.</li>
             <li><strong>Wet and over 2,000 sq ft, or split into closed rooms:</strong> 50+ pints for the main space (ENERGY STAR) and a second unit for rooms that do not share air.</li>
+            <li><strong>Every floor reads damp, not just the basement:</strong> above 55% on each level with the air conditioning running is a house-wide load; see <a href="#whole-house">whole-house dehumidifiers</a> below.</li>
             <li><strong>One small utility or laundry room:</strong> a compact compressor unit such as the Waykar compact &mdash; not a thermoelectric mini.</li>
             <li><strong>Water coming in</strong> (a leak, seepage after rain, a damp patch that keeps coming back): fix that first. Health Canada says to repair water leaks as soon as you notice them and to fix the underlying cause of mould (water damage, too much humidity or not enough ventilation).</li>
-            <li><strong>Mould on walls or in corners:</strong> see our <Link href="/blog/best-dehumidifier-for-mold-canada">dehumidifier for mould guide</Link>, which covers Health Canada&rsquo;s mould steps.</li>
+            <li><strong>Drying out after a flood or a burst pipe:</strong> that is an active water loss, a job for a commercial LGR machine and air movers; see <a href="#lgr">LGR dehumidifiers</a> below.</li>
+            <li><strong>Mould on walls or in corners:</strong> see the <a href="#mould">mould section</a> above, which covers Health Canada&rsquo;s mould steps.</li>
             <li><strong>Silverfish, house centipedes or pill bugs already living there:</strong> the dehumidifier takes away the damp they favour; the Health Canada table above shows what else it advises for each.</li>
           </ul>
 
@@ -428,6 +595,237 @@ export default function BestLargeCapacityDehumidifierCanadaPage() {
             <li><strong>Maintain it.</strong> Clean the filter every few weeks in heavy use, flush the drain hose, and it will keep hitting target for years.</li>
           </ul>
 
+          <h2 id="crawl-space">Crawl Space Dehumidifiers: Lay the Vapour Barrier First</h2>
+          <p>The best crawl space dehumidifier for a Canadian home is a low-profile, purpose-built unit such as the AlorAir Sentinel HD55: about 34&nbsp;cm (13.3&nbsp;in) tall, rated 55 pints a day at AHAM conditions, working down to 33.8&deg;F (1&deg;C) and restarting itself after a power cut. Choose the HD55P version, which adds a built-in pump, if there is no drain below the unit. It differs from the portable you would buy for a basement in four specific ways, and every one exists because a crawl space is a place nobody visits: it is short enough to sit under the floor joists, it has no bucket at all so it cannot stall when a tank fills, it can push its condensate uphill, and it comes back on by itself after the power blinks. That machine costs several times what a good portable does, so before you spend it, the honest first question is whether your crawl space still has a bare dirt floor.</p>
+          <p>A crawl space with an exposed earth floor is not a room with a humidity problem; it is a room sitting on top of an unlimited moisture reservoir. Soil gives up water to the air above it continuously, so a dehumidifier over open dirt runs essentially forever, pulling water out of the ground one litre at a time. A continuous sheet of polyethylene laid across the soil, with the seams overlapped and taped and the edges carried up the foundation wall and sealed there, cuts that evaporation off at the source for a fraction of the cost of the machine. Do it, wait a few weeks, and measure again: a meaningful number of Canadian crawl spaces settle below 60% relative humidity on the barrier alone and never need a dehumidifier at all, and if one is still needed, it is now sized for a manageable load instead of an infinite one. In a sealed or encapsulated crawl space you generally need both: the barrier removes the soil, the dehumidifier handles what the sealed air still carries.</p>
+
+          <QuickIdTable
+            title="Barrier or dehumidifier? Match your crawl space to the row"
+            head={['Your crawl space', 'Buy', 'Why', 'Watch out for']}
+            rows={[
+              ['Bare earth floor, no liner at all', 'Barrier only, to start', 'Soil evaporation is the dominant, endless source', 'Rake out rock and debris or you will tear it'],
+              ['Sealed or encapsulated, vents closed', 'Both', 'A sealed space needs something actively removing moisture', 'Combustion appliances and radon: check before sealing'],
+              ['Liner down, still damp: above 60% for weeks', 'Dehumidifier', 'Source is controlled; this is the residual load', 'Minimum operating temperature, and the drain route'],
+              ['Standing water, or a seasonal pool', 'Neither yet: fix the water', 'Grading, downspouts, sump, plumbing come first', 'A barrier over standing water hides it, not fixes it'],
+            ]}
+          />
+
+          <h2>Crawl Space Order of Operations, Cheapest First</h2>
+          <p>Work through these in sequence, and stop when the humidity reading is where you want it. Each step is cheaper than the one after it.</p>
+          <ol>
+            <li><strong>Fix the bulk water.</strong> Extend downspouts, correct grading so the ground falls away from the house, repair any plumbing leak, and add a sump if groundwater genuinely rises into the space. Nothing downstream matters until this is done.</li>
+            <li><strong>Cover the ground.</strong> Rake out rock and construction debris, then lay a reinforced liner across the entire earth floor, lapping the sheets generously, taping every seam, and running the material up the foundation walls to a mechanically fastened termination.</li>
+            <li><strong>Decide about the vents.</strong> This is the step that needs local advice rather than an internet opinion. On a humid Ontario summer day, warm outdoor air coming in through the vents condenses on the cool surfaces inside, which is why sealed crawl spaces have become common, but sealing changes how the space and any combustion appliances behave. If there is an atmospherically vented furnace or water heater down there, if radon is a consideration where you live, or if your municipality requires crawl space ventilation, talk to a qualified contractor and your local building official before you close a single vent.</li>
+            <li><strong>Insulate, if you are going that far.</strong> In a sealed crawl space the insulation typically moves to the perimeter walls rather than the floor above. This is where a project stops being a weekend job.</li>
+            <li><strong>Dehumidify what is left.</strong> Only now does an appliance make sense, and only if a month of readings says the space still sits above about 60% relative humidity.</li>
+          </ol>
+          <p>A wireless hygrometer with its sensor in the crawl space and its display upstairs is what makes that month of readings possible, and it keeps telling you the number afterward: you cannot manage humidity you never see.</p>
+          <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of a wireless hygrometer:</p>
+          <div className="not-prose mb-6 sm:max-w-xs">
+            <BuyLink tag={AMZ_TAG} search="wireless hygrometer remote humidity sensor" block>Measure first &rarr;</BuyLink>
+          </div>
+
+          <h2>Getting the Crawl Space Vapour Barrier Right</h2>
+          <p>Thickness first: 6-mil polyethylene is the common minimum and is generally accepted as a ground cover, but it tears where it passes over gravel and will not survive anyone crawling on it. If the space will ever be entered &mdash; and someone will eventually need to chase a pipe or a duct &mdash; a reinforced liner in the 10 to 20 mil range is the better buy: the woven scrim between the film layers is the difference between a barrier that lasts decades and one that is in shreds by the second year. Then the detailing, which is where DIY jobs fail. Clear the ground of rock and debris before anything goes down, overlap adjacent sheets generously, tape the full length of every lap with a tape actually formulated for polyethylene (general-purpose tape lets go in a cool, damp, low-airflow space within a season), and run the liner up the foundation walls, held there with <a href="#accessories">fasteners and a termination strip</a> so it cannot sag back down and reopen the path you just closed. Cut and seal neatly around piers and posts.</p>
+          <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the barrier parts:</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink tag={AMZ_TAG} search="crawl space vapor barrier 10 mil poly seam tape">Vapour barrier poly &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="reinforced crawl space vapor barrier 12 mil">Reinforced barrier &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="crawl space vapor barrier seam tape">Seam tape &rarr;</BuyLink>
+          </div>
+
+          <h2>Choosing a Crawl Space Dehumidifier: Clearance, Drain, Rating and Cold</h2>
+          <p>Measure the clearance before you look at anything else; it is the most common reason a crawl space dehumidifier gets returned. Record the height from the top of the barrier to the underside of the joists at the lowest point along the route the machine has to travel and where it will finally sit, then check the unit&rsquo;s height <em>and</em> the clearance its manual demands around the intake and discharge, because a dehumidifier jammed against a joist is choked of airflow. Many purpose-built units are designed to hang from the joists on straps or brackets, which also keeps them out of the puddle if something upstream ever leaks; a unit on the ground goes on blocks, not directly on the plastic.</p>
+          <p>Plan the drain before you choose the machine. If there is a sump pit or a drain lower than the unit, gravity is the answer: run the hose continuously downhill with no sags, and there is nothing mechanical to fail. If the only outlet is above the unit, you need a condensate pump, built in or added as a separate box, with a rated lift that covers the real vertical rise plus the horizontal run. Never run the line out through a vent: an exterior condensate line in Ontario freezes solid for months, the water backs up, and the unit faults out or overflows into the space. Terminate indoors, at a sump pit, a laundry standpipe or a floor drain.</p>
+          <p>Then read the rating carefully, because crawl space units are often marketed at a different test condition than the portables sold beside them. AlorAir quotes its units at the AHAM condition of 80&deg;F and 60% relative humidity, the warmer condition portables were rated at before 2019, and also gives a saturation figure, measured in hot, extremely humid air, that is roughly twice as large. Compare machines on the AHAM figure only. As a working guide at AHAM conditions: around 50&ndash;70 pints a day for a fully encapsulated, reasonably dry crawl space up to roughly 1,300 sq ft, where the HD55-class units live; 90 pints a day and up for a larger footprint, a space that is still partly vented, a persistent musty smell coming up through the floor, or a crawl space that shares air with a damp basement; and one larger ducted unit with a short flex-duct run, rather than two small ones, for a long, narrow or L-shaped crawl space. Size up, not down. Here is what the maker&rsquo;s own spec sheets say about the HD55 and the HD55P:</p>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm my-6">
+            <table className="min-w-[640px] w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Spec (maker&rsquo;s sheet)</th>
+                  <th className="px-4 py-3 text-left">Sentinel HD55</th>
+                  <th className="px-4 py-3 text-left">Sentinel HD55P</th>
+                  <th className="px-4 py-3 text-left">Why it matters in a Canadian crawl space</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Capacity at AHAM (80&deg;F, 60% RH)</td>
+                  <td className="px-4 py-3 text-gray-700">55 pints/day</td>
+                  <td className="px-4 py-3 text-gray-700">55 pints/day (120 at saturation)</td>
+                  <td className="px-4 py-3 text-gray-700">Compare machines on the AHAM figure only</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Cooler-air rating</td>
+                  <td className="px-4 py-3 text-gray-700">34.53 pints/day at 60&deg;F, 60% RH (DOE)</td>
+                  <td className="px-4 py-3 text-gray-700">Not listed</td>
+                  <td className="px-4 py-3 text-gray-700">Capacity falls as the air cools, as it does under a house in spring and fall</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Working temperature</td>
+                  <td className="px-4 py-3 text-gray-700">33.8&ndash;104&deg;F (1&ndash;40&deg;C), auto defrost</td>
+                  <td className="px-4 py-3 text-gray-700">33&ndash;105&deg;F (about 1&ndash;41&deg;C), auto defrost</td>
+                  <td className="px-4 py-3 text-gray-700">The spec that separates a crawl space unit from a portable</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Drainage</td>
+                  <td className="px-4 py-3 text-gray-700">Gravity</td>
+                  <td className="px-4 py-3 text-gray-700">Gravity or built-in pump</td>
+                  <td className="px-4 py-3 text-gray-700">No drain below the unit means the HD55P or an add-on pump</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Size (L &times; W &times; H)</td>
+                  <td className="px-4 py-3 text-gray-700">19.2 &times; 12.2 &times; 13.3 in (about 49 &times; 31 &times; 34 cm); 57.3 lb</td>
+                  <td className="px-4 py-3 text-gray-700">17.64 &times; 11.69 &times; 11.85 in (about 45 &times; 30 &times; 30 cm); 44.4 lb</td>
+                  <td className="px-4 py-3 text-gray-700">Measure clearance under the joists, plus the airflow space the manual asks for</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Area the maker sizes it for</td>
+                  <td className="px-4 py-3 text-gray-700">Up to 1,300 sq ft</td>
+                  <td className="px-4 py-3 text-gray-700">Up to 1,500 sq ft</td>
+                  <td className="px-4 py-3 text-gray-700">A maker&rsquo;s ceiling, not a promise; size up for a damp or partly vented space</td>
+                </tr>
+                <tr className="align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Restart after a power cut</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;Memory Starting&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;Memory Starting&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">Nobody checks a crawl space; the unit has to come back on by itself</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="not-prose text-xs text-gray-500 mb-4">Sources: AlorAir Sentinel HD55 specification sheet (2021) and Sentinel HD55P specification sheet, read October 28, 2026. Both sheets list cETL and ENERGY STAR certification and optional remote controls and hanging kits. Specs change between production runs, so check the listing you buy from.</p>
+          <p>Every refrigerant dehumidifier condenses moisture on a cold coil, so all of them lose ground as the air cools and the coil starts to frost. Purpose-built crawl space units carry hot gas bypass defrost or an equivalent and publish a low-temperature operating range for exactly this reason, and that range is the specification to check, because an Ontario crawl space in May or October is not a warm room. Crawl spaces are also dusty, and a clogged intake filter collapses capacity long before anything breaks, so pull and wash it once or twice a season. Auto-restart matters more here than anywhere: power goes out, power comes back, and a machine without it sits dead until somebody notices, which in a crawl space might be next spring. Set the unit to hold about 55% relative humidity rather than the 45&ndash;50% of a finished basement: the goal is keeping the joists and subfloor dry enough that mould cannot colonize them, and framing should stay below roughly 20% moisture content. Give it a GFCI-protected receptacle close by, not a long extension cord.</p>
+          <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of crawl space units:</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink tag={AMZ_TAG} search="alorair crawl space dehumidifier with pump" asin="B097JH2HDH">Low-profile crawl space unit &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="ducted crawl space dehumidifier 90 pint commercial">High-capacity ducted &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="crawl space dehumidifier low temperature">Crawl space dehumidifier &rarr;</BuyLink>
+          </div>
+          <p>Be clear about the limits. A crawl space dehumidifier will not stop water getting in: seepage after heavy rain, standing water or flooding is a grading, drainage or sump problem, so fix the water first. It will not remove mould already growing on the joists, which has to be physically remediated (anything beyond a small patch, overhead in a confined space, is a job for a remediation contractor), and it does nothing at all for radon. A damp crawl space is close to perfect habitat for camel crickets, silverfish, centipedes, springtails and sowbugs, and drying it removes the main reason they are there, but it does not close a gap in the foundation, seal a utility penetration or fix a rim joist a mouse can walk through: our <Link href="/blog/rodent-exclusion-kit-canada">rodent exclusion guide</Link> covers that half.</p>
+
+          <h2 id="whole-house">Whole-House Dehumidifiers: Only When Every Floor Reads Damp</h2>
+          <p>The best whole house dehumidifier for a Canadian home is a ducted Aprilaire E-series unit in the 70 to 95 pint-per-day class, installed on the HVAC return so that dried air distributes through the ductwork the house already has, and running on its own humidity control rather than waiting for the air conditioner to be cooling; the installation is an HVAC contractor visit, not a weekend project. The more useful answer is that most Canadian homes do not need one, and finding out costs very little: put a hygrometer on each floor for a week of genuinely humid weather in July or August, and write down the relative humidity on each level, both while the air conditioning is running and while it is off. Two patterns emerge:</p>
+          <ul>
+            <li><strong>Basement 62&ndash;68%, main floor 50%, upstairs 48%.</strong> This is a basement problem, and it is by far the more common Canadian result. A right-sized portable with a hose to a floor drain fixes it completely for roughly a tenth of what a ducted install costs.</li>
+            <li><strong>Every floor above 55%, including while the AC runs.</strong> This is a house-wide moisture load, and no single portable is going to catch up with it. This is what a ducted unit is for.</li>
+          </ul>
+          <p>An air conditioner removes moisture only as a by-product of cooling: the moment the thermostat is satisfied, the compressor stops and the drying stops with it. If your house feels <em>cold and clammy at the same time</em>, the air conditioner is very likely oversized or short-cycling, satisfying the thermostat in a short burst and shutting off long before it has wrung meaningful water out of the air. A correctly sized or variable-speed system dehumidifies far better, but replacing an air conditioner is a large expense with a long horizon; a dehumidifier that runs on its own control, independent of whether the house needs cooling, is in most cases substantially cheaper and solves the felt problem directly.</p>
+
+          <QuickIdTable
+            title="Whole house dehumidifier options compared"
+            head={['Option', 'Capacity and coverage', 'Best for', 'Limits']}
+            rows={[
+              ['Aprilaire E070 (ducted)', 'Up to 70 pints a day; whole houses up to 2,200 sq ft; 8-inch inlet and outlet duct collars and 10 ft of drain tubing in the box (Aprilaire)', 'A typical house where every floor reads damp', 'Contractor install; ask for the test condition behind the pint figure'],
+              ['Aprilaire E100 (ducted)', 'Up to 100 pints a day; whole houses up to 5,500 sq ft; 10-inch duct collars; ENERGY STAR Most Efficient 2025 (Aprilaire)', 'Larger, three-level or wetter houses', 'A bigger cabinet for the mechanical room; drain hose not included'],
+              ['Portable with a drain hose', 'One zone, drained to a floor drain', 'Damp confined to the basement, the most common Canadian result', 'Dries one zone only, and is audible in a finished basement'],
+              ['HRV or ERV', 'Ventilation, not drying', 'Fresh air in a tight house', 'On a humid July day it brings moisture in'],
+            ]}
+            caption={<>Aprilaire figures from its <a href="https://shop.aprilaire.com/products/aprilaire-e070-70-pint-dehumidifier" target="_blank" rel="noopener noreferrer" className="underline">E070</a> and <a href="https://shop.aprilaire.com/products/aprilaire-e100-100-pint-dehumidifier" target="_blank" rel="noopener noreferrer" className="underline">E100</a> product pages, checked October 28, 2026; the portable and HRV rows restate this page&rsquo;s own sections.</>}
+          />
+
+          <p>Sizing gets the attention, and configuration decides whether the thing actually works. The standard arrangement is return-side: the unit draws air from the HVAC return and discharges into the supply plenum, so dried air goes wherever the ducts already go. The alternatives are a dedicated duct that pulls from the wettest area, almost always the basement, or a free-standing unit in the mechanical room with only its discharge ducted. Settle three questions with your contractor: whether the unit can run without the furnace blower (one that forces the blower on adds that blower&rsquo;s electricity to every hour of operation), how its control ties into the thermostat, and where the condensate goes &mdash; by gravity to a floor drain, sump or standpipe, or by a condensate pump, but never outdoors in Ontario, where the line freezes. This is licensed-trade work: ductwork, a dedicated electrical circuit and, in many Ontario municipalities, a permit.</p>
+          <p>Two Canadian realities round it out. A heat recovery ventilator is not a dehumidifier: on a humid July day the outdoor air it brings in is wetter than the indoor air it removes, so it can raise indoor humidity; an ERV softens that effect but remains a ventilation appliance, and some ducted dehumidifiers include a ventilation mode that dries incoming outdoor air, worth asking about in a tight new build. And a whole-home dehumidifier here is a May-through-September appliance: once heating starts, cold outdoor air holds so little water that indoor humidity usually drops on its own, and condensation on the inside of your windows in January is the opposite problem. Through the cooling season, set the control to hold around 45 to 50% relative humidity, comfortably below the roughly 60% threshold where mould becomes viable and below the level at which dust mite populations sustain themselves.</p>
+          <Photo id="house-dust-mite" alt="House dust mite seen under a scanning electron microscope" caption="A North American house dust mite under a scanning electron microscope (US government image). The 45 to 50% setpoint above sits below the level at which, this page explains, dust mite populations sustain themselves." />
+          <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability:</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink tag={AMZ_TAG} search="aprilaire whole house dehumidifier ducted">Ducted whole-home &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="whole home ducted dehumidifier 95 pint">Large-home capacity &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="energy star 50 pint dehumidifier continuous drain">Portable alternative &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="wireless hygrometer indoor humidity remote sensor">Hygrometer &rarr;</BuyLink>
+          </div>
+
+          <h2 id="lgr">Commercial LGR Dehumidifiers: For Water Damage, Not a Damp Basement</h2>
+          <p>If your basement smells musty, feels clammy or sits above 60% relative humidity, an LGR is the wrong machine: a residential Energy Star unit with a settable humidistat and a continuous drain, like the picks above, is the right one at roughly a tenth of the cost. An LGR is built for intermittent, punishing duty against an active water loss &mdash; a burst supply line in a finished basement, a failed sump during a spring thaw, standing water and saturated drywall, a race against mould measured in days. For Canadian contractors the practical default is a mid-size AlorAir Storm-class LGR with an onboard condensate pump: roughly 90 to 120 pints AHAM, rotomolded, stackable, and drawing under 9 amps on a standard 115V circuit. Dri-Eaz-class units are built heavier and are the better buy once the machine works every week rather than twice a year.</p>
+          <p>LGR means Low Grain Refrigerant. Restoration work measures the moisture in air in grains per pound of dry air (gpp), a grain being one seven-thousandth of a pound, because relative humidity moves when the temperature moves even though the actual water content has not changed. A conventional refrigerant dehumidifier stalls somewhere in the mid-50s gpp as the space dries: still running, still costing power, barely removing water. An LGR adds an air-to-air heat exchanger that pre-cools the incoming air using the cold air already leaving the coil, so the coil can push it into the 30s gpp and below. The point is not that it removes more water on day one; it is that it is still removing meaningful water on day three, when framing, subfloor and the back of the drywall are giving up their moisture slowly and a stalled machine lets mould get started.</p>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm my-6">
+            <table className="min-w-[560px] w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Class</th>
+                  <th className="px-4 py-3 text-left">Built for</th>
+                  <th className="px-4 py-3 text-left">Dry-end limit</th>
+                  <th className="px-4 py-3 text-left">Cold-room behaviour</th>
+                  <th className="px-4 py-3 text-left">Availability</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">LGR<br /><span className="font-normal text-xs text-gray-500">low grain refrigerant</span></td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; active water losses, structural drying</td>
+                  <td className="px-4 py-3 text-gray-700">Keeps working into the 30s gpp</td>
+                  <td className="px-4 py-3 text-gray-700">Usable near freezing, but efficiency drops</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="alorair storm lgr commercial dehumidifier pump" block>Check price on Amazon.ca →</BuyLink></td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Conventional refrigerant<br /><span className="font-normal text-xs text-gray-500">standard commercial</span></td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Fair</strong> &mdash; damp crawl spaces, wet but not soaked</td>
+                  <td className="px-4 py-3 text-gray-700">Stalls around the mid-50s gpp</td>
+                  <td className="px-4 py-3 text-gray-700">Frosts and defrosts as the room cools</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="commercial dehumidifier crawl space 120 pint" block>Check price on Amazon.ca →</BuyLink></td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Desiccant<br /><span className="font-normal text-xs text-gray-500">adsorbent wheel</span></td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; cold and unheated spaces</td>
+                  <td className="px-4 py-3 text-gray-700">Goes lower than any refrigerant class</td>
+                  <td className="px-4 py-3 text-gray-700">Barely affected by temperature</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="desiccant dehumidifier cold room continuous drain" block>Check price on Amazon.ca →</BuyLink></td>
+                </tr>
+                <tr className="align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Residential Energy Star<br /><span className="font-normal text-xs text-gray-500">basement appliance</span></td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; holding a comfortable humidity long-term</td>
+                  <td className="px-4 py-3 text-gray-700">Not designed to chase the dry end</td>
+                  <td className="px-4 py-3 text-gray-700">Needs auto-defrost below ~18&deg;C</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="energy star dehumidifier humidistat continuous drain" block>Check price on Amazon.ca →</BuyLink></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p>Buy on the AHAM rating, never the saturation rating: the saturation figure is measured in hot, soaking conditions (around 32&deg;C and 90% relative humidity) and runs roughly double, so a unit sold as a &ldquo;220 pint&rdquo; machine is frequently a 110 to 130 pint AHAM unit. Size by air volume, not floor area: length by width by ceiling height, checked against the cubic-foot coverage the maker publishes, then derated for a severe loss, a lot of saturated material, or a space you cannot contain. Two smaller units usually beat one large one at the same total AHAM, and containment beats capacity: sheeting off a stairwell so you dry the wet room rather than the whole house does more for drying time than the next size up. Budget roughly one air mover per 40 to 60 square feet of wet floor, plus one extra per room and one at each inside corner, aimed at a low angle along the surface; without them the dehumidifier has nothing to remove. Then add the amps: a job-site LGR draws about 6 to 9 amps at 115V, a standard 15-amp household circuit gives you about 12 amps of continuous load, and two or three air movers at roughly 1.5 to 3 amps apiece put you over, so split the load across at least two circuits and avoid daisy-chained extension cords.</p>
+          <p>Get the onboard pump: it lets the machine run small-bore hose up a stairwell to a laundry tub or out a window and keep drying overnight with nobody on site, which is most of what separates a commercial machine from a residential one. LGRs stay usable down near freezing, but their efficient range is warm, so crews heat the containment rather than fight the cold; in a genuinely cold space, such as an unheated garage or a crawl space in February, the honest answer is a desiccant machine, which restoration outfits usually rent rather than own. Whichever machine you use, the job is finished when a meter says so, not when the floor looks dry: wet cavities called dry too early are where mould problems are born. And before buying, compare your local daily rental rate with the purchase price and be honest about your annual usage; the crossover generally sits somewhere past a few weeks of cumulative use per year.</p>
+          <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of a heavier, fleet-grade LGR:</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink tag={AMZ_TAG} search="dri eaz lgr restoration dehumidifier">Dri-Eaz-class (heavy duty) →</BuyLink>
+          </div>
+
+          <h2 id="accessories">Accessories: Condensate Pumps, Drain Hoses, Moisture Meters and Air Movers</h2>
+          <p>The small parts decide whether a dehumidifier runs unattended and whether you know it is working:</p>
+          <ul>
+            <li><strong>An external condensate pump</strong> lets a unit without one lift its water up to a sink, a standpipe or a sump. Check its rated lift against the real vertical rise plus the horizontal run: pumps are specified in metres or feet of head, and it is easy to under-buy.</li>
+            <li><strong>A heavy-duty drain hose,</strong> long and kink-resistant, lets a pump reach a laundry tub, a window or a tub upstairs. Route it so nobody trips over it or pinches it behind a door, and check the discharge point on every visit.</li>
+            <li><strong>A pinless moisture meter</strong> reads moisture behind a surface without leaving holes, so drying equipment comes out because the readings came down to a dry standard, not because the floor looks fine.</li>
+            <li><strong>Air movers</strong> are half of a job-site drying system: they break up the still, humid boundary layer on wet floors and drywall so evaporation keeps feeding the dehumidifier. Add up their amp draw before you plug them in.</li>
+            <li><strong>Barrier fasteners and a termination strip</strong> hold a crawl space liner up the foundation wall, so it cannot sag and reopen the path it closed.</li>
+            <li><strong>A wireless hygrometer,</strong> the cheapest useful instrument of all, is in the <a href="#crawl-space">crawl space</a> and <a href="#whole-house">whole-house</a> sections above.</li>
+          </ul>
+          <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability:</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink tag={AMZ_TAG} search="condensate pump dehumidifier">Condensate pump &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="pinless moisture meter drywall wood">Moisture meter →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="commercial air mover carpet dryer stackable">Air movers →</BuyLink>
+          </div>
+          <AwardRow tag={AMZ_TAG}
+            heading="Barrier Fasteners and a Heavy-Duty Drain Hose"
+            awards={[
+              {
+                badge: 'Best Wall Termination',
+                name: 'Barrier Fasteners & Termination Strip',
+                why: 'The liner has to be mechanically held where it runs up the foundation wall, or gravity and time will pull it down and reopen the path you just closed. Fasteners plus a termination strip give the barrier a permanent top edge and a tidy line you can inspect later without guessing whether it has slipped.',
+                search: 'crawl space vapor barrier fasteners termination strip',
+                pros: ['Stops the liner sagging off the wall', 'Makes the job inspectable later', 'Small cost, large durability gain'],
+                cons: ['Requires drilling into masonry', 'Adds an hour or two to the job'],
+              },
+              {
+                badge: 'Best Accessory',
+                name: 'Heavy-Duty Condensate Drain Hose',
+                why: 'The unglamorous part that decides whether the machine runs all weekend or stops at 1am. A long, kink-resistant discharge hose lets the pump reach a laundry tub, a window, or a tub upstairs — and a spare in the van saves a whole return trip.',
+                search: 'heavy duty dehumidifier drain hose 40 ft',
+                pros: ['Enables true unattended drying', 'Cheap insurance against a stalled machine', 'Easy to carry a spare'],
+                cons: ['Trip hazard if not routed properly', 'Needs checking on every site visit'],
+              },
+            ]}
+          />
+
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">
             {FAQS.map(({ question, answer }) => (
@@ -444,8 +842,8 @@ export default function BestLargeCapacityDehumidifierCanadaPage() {
           <h2>Related Reading</h2>
           <ul>
             <li><Link href="/blog/best-pest-control-equipment-canada">Best Pest-Control Equipment in Canada — The Full Device Hub</Link></li>
-            <li><Link href="/blog/best-dehumidifier-for-mold-canada">Best Dehumidifier for Mould Canada — Humidity Thresholds</Link></li>
-            <li><Link href="/blog/best-air-purifier-for-dust-mites-canada">Best Air Purifier for Dust Mites Canada</Link></li>
+            <li><Link href="/blog/best-dehumidifier-for-cold-garage-canada">Best Dehumidifier for a Cold Garage Canada — The Temperature Line</Link></li>
+            <li><Link href="/blog/dust-mites">Dust Mites: What They Look Like, Where They Live and How to Reduce Them</Link></li>
             <li><Link href="/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada">Best Sealed-HEPA Vacuum for Bed Bugs &amp; Fleas Canada</Link></li>
           </ul>
 

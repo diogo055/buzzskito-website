@@ -293,7 +293,7 @@ export default function PondAeratorMosquitoLarvaePage() {
 
           <h2>BTI: The Ten-Dollar Half of the Answer</h2>
           <p>Whatever you run for circulation, <em>Bacillus thuringiensis israelensis</em> handles the water it cannot reach. BTI is a naturally occurring soil bacterium that kills mosquito and black-fly larvae and leaves fish, frogs, dogs, pollinators and people alone &mdash; which is precisely why it is the correct product for a stocked ornamental pond.</p>
-          <p>Dunks are slow-release tablets covering roughly 100 sq ft of surface for about 30 days. Bits are quick-release granules, better for an active outbreak in a skimmer box or a plant tray. Our <Link href="/blog/mosquito-bits-canada-vs-dunks">bits versus dunks comparison</Link> covers which to reach for, and the <Link href="/blog/mosquito-dunks-canada-guide">Canadian dunks guide</Link> has retailers and pricing. The only habit that matters: a reminder on the first of each month, May through September, plus a re-dose after any downpour heavy enough to overtop the pond.</p>
+          <p>Dunks are slow-release tablets covering roughly 100 sq ft of surface for about 30 days. Bits are quick-release granules, better for an active outbreak in a skimmer box or a plant tray. Our <Link href="/blog/mosquito-bits-canada-vs-dunks">bits versus dunks comparison</Link> covers which to reach for and where to buy them in Canada. The only habit that matters: a reminder on the first of each month, May through September, plus a re-dose after any downpour heavy enough to overtop the pond.</p>
           <div className="not-prose my-4 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="mosquito dunks bti">Mosquito dunks (BTI) &rarr;</BuyLink>
             <BuyLink tag={AMZ_TAG} search="mosquito bits granules bti">Mosquito bits granules &rarr;</BuyLink>
@@ -322,7 +322,6 @@ export default function PondAeratorMosquitoLarvaePage() {
           <ul>
             <li><Link href="/blog/fix-standing-water-yard-mosquitoes-canada">Fix Standing Water in Your Yard &mdash; The Canadian Drainage Guide</Link></li>
             <li><Link href="/blog/mosquito-larvae-identification">Mosquito Larvae Identification &mdash; What&rsquo;s in Your Water</Link></li>
-            <li><Link href="/blog/mosquito-dunks-canada-guide">Mosquito Dunks in Canada &mdash; Where to Buy &amp; 3 Mistakes</Link></li>
             <li><Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits vs Dunks &mdash; Which BTI Format Wins</Link></li>
             <li><Link href="/blog/hidden-mosquito-breeding-spots-backyard">Hidden Mosquito Breeding Spots in Your Backyard</Link></li>
             <li><Link href="/blog/does-standing-water-attract-mosquitoes">Does Standing Water Attract Mosquitoes?</Link></li>

@@ -143,7 +143,7 @@ export default function MosquitoPillarPage() {
 
         <h2>DIY Tools That Help Between Professional Visits</h2>
         <AffiliateDisclosure />
-        <p>For standing water you genuinely can&apos;t drain — rain barrels, ornamental ponds, or low spots that stay wet for days — drop in a <strong>Bti larvicide dunk</strong> such as Summit Mosquito Dunks. They float and slowly release a naturally occurring bacterium that kills mosquito larvae for about 30 days. We break down brands and dosing in our <Link href="/blog/mosquito-dunks-canada-guide" className="text-brand-700 underline hover:text-brand-500">mosquito dunks guide for Canada</Link> — or <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check price on Amazon.ca →</BuyLink></p>
+        <p>For standing water you genuinely can&apos;t drain — rain barrels, ornamental ponds, or low spots that stay wet for days — drop in a <strong>Bti larvicide dunk</strong> such as Summit Mosquito Dunks. They float and slowly release a naturally occurring bacterium that kills mosquito larvae for about 30 days. We break down brands and dosing in our <Link href="/blog/mosquito-bits-canada-vs-dunks" className="text-brand-700 underline hover:text-brand-500">mosquito dunks guide for Canada</Link> — or <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check price on Amazon.ca →</BuyLink></p>
 
         <TopPick tag={AMZ_TAG}
           label="Best DIY Add-On"

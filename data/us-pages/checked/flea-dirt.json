@@ -2,7 +2,7 @@
  "id": "flea-dirt",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "9e5cf8be4879565ca40df91baa57d65b3739072ddf9fdb319bf4fcbc527bfc0e",
+ "sha": "93908dddc46b8957575e08fc4a55afdc24bab56cfd10ff29186717446dfa21b4",
  "claimsChecked": 373,
  "claimsCorrected": 3,
  "claimsRemovedOrSoftened": 8,
@@ -17,6 +17,11 @@
    "on": "2026-10-29",
    "note": "Oct 29: one internal link to /blog/fleas-on-humans; no fact changed",
    "previousSha": "20e22d9cbd60009878a67f36449ef53693496ff9d99d66982fa14cd6f7cd70ab"
+  },
+  {
+   "on": "2026-11-05",
+   "note": "Nov 5, 2026: meta title rewritten to match the main search (Search Console title audit): \"Flea Dirt (Flea Poop): What It Looks Like & Test\"",
+   "previousSha": "9e5cf8be4879565ca40df91baa57d65b3739072ddf9fdb319bf4fcbc527bfc0e"
   }
  ]
 }

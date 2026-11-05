@@ -164,6 +164,10 @@
 
 - `/blog/st-louis-encephalitis` — **st louis encephalitis** (also: st louis encephalitis symptoms; st louis encephalitis mosquito). Cases by state 2003-2025 (CDC ArboNET), the Culex link shared with West Nile, recent Arizona and Texas outbreaks, symptoms in older adults.
 
+- `/blog/best-mosquito-repellent` — **mosquito repellent** (also: best mosquito repellent; best bug spray for mosquitoes; picaridin vs deet; mosquito repellent for kids; oil of lemon eucalyptus repellent). US edition of /blog/mosquito-repellent-guide-ontario-2026, written fresh for US shoppers: US products and EPA registration (never Canadian PCP numbers or Canadian retailers), US spelling, no prices or star ratings. A buying guide: a short answer naming the best product types first; a "picks" block of 3-6 picks, each a product the text itself recommends with a one-line reason; a comparison table; how to choose; how to use it safely (label is the law); what it will not do; when to call a professional; 8-10 FAQs; sources (EPA, CDC, university extension, manufacturer labels). No testing claims: we did not test products. The top pick also goes in lib/amazon-us-picks.json.
+
+- `/blog/best-bug-zapper` — **bug zapper** (also: bug zappers; best bug zapper; do bug zappers work; bug zapper for mosquitoes; indoor bug zapper). US edition of /blog/bug-zappers-canada-do-they-work, written fresh for US shoppers: US products and EPA registration (never Canadian PCP numbers or Canadian retailers), US spelling, no prices or star ratings. A buying guide: a short answer naming the best product types first; a "picks" block of 3-6 picks, each a product the text itself recommends with a one-line reason; a comparison table; how to choose; how to use it safely (label is the law); what it will not do; when to call a professional; 8-10 FAQs; sources (EPA, CDC, university extension, manufacturer labels). No testing claims: we did not test products. The top pick also goes in lib/amazon-us-picks.json.
+
 ## Pillars (hub pages)
 
 - `/learn/bed-bugs` — the complete bed bugs reference
@@ -545,6 +549,8 @@
 - `/blog/best-bed-bug-spray` — bed bug spray
 - `/blog/best-flea-spray-for-home` — flea spray for house
 - `/blog/raccoon-repellent` — raccoon repellent
+- `/blog/best-ant-bait` — ant killer
+- `/blog/best-bed-bug-mattress-cover` — bed bug mattress cover
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

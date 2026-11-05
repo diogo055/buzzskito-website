@@ -2,7 +2,7 @@
  "id": "best-rat-traps",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "4d690d091a8d162f32309cf4e036d73e5019bef2c132c1fbedded7469669ef2f",
+ "sha": "2cb4d59fe5d0407a75b9b8bb647b5f45eed97bfec22edb2fda2ec590da0cdd7b",
  "claimsChecked": 135,
  "claimsCorrected": 8,
  "claimsRemovedOrSoftened": 1,
@@ -11,5 +11,12 @@
   "on": "2026-11-05",
   "scheduledFor": "2026-11-05",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-11-05",
+   "note": "Nov 5, 2026: reviewedBy/reviewedOn added (the owner said he read and reviewed this page)",
+   "previousSha": "4d690d091a8d162f32309cf4e036d73e5019bef2c132c1fbedded7469669ef2f"
+  }
+ ]
 }

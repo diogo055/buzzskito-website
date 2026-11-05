@@ -2,9 +2,16 @@
  "id": "what-kills-ticks",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "c4c7fc3d3168ed7abd77dc043f4b7db53a5794012d1a2ad5f72d3ec12dd4cfce",
+ "sha": "43fc6019484075047a6ca457164c301321ae89c56bb80f2c69b77e6d450f3996",
  "claimsChecked": 118,
  "claimsCorrected": 9,
  "claimsRemovedOrSoftened": 5,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-11-05",
+   "note": "Nov 5, 2026: one sentence linking the new US buying guide /blog/best-mosquito-repellent (no claim added)",
+   "previousSha": "c4c7fc3d3168ed7abd77dc043f4b7db53a5794012d1a2ad5f72d3ec12dd4cfce"
+  }
+ ]
 }

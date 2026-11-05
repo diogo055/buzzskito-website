@@ -1,0 +1,22 @@
+{
+ "id": "best-bug-zapper",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "119b51a6a16aa79ffd96948043aea6276ddb54dfb2b1a54380ef04e8ad5f6774",
+ "claimsChecked": 134,
+ "claimsCorrected": 14,
+ "claimsRemovedOrSoftened": 1,
+ "checkedOn": "2026-11-05",
+ "released": {
+  "on": "2026-11-05",
+  "scheduledFor": "2026-11-05",
+  "note": "datePublished set to the release day; nothing else changed"
+ },
+ "amendments": [
+  {
+   "on": "2026-11-05",
+   "note": "Nov 5, 2026: breadcrumb parent set to the Learning Centre (/learn) so the mosquito control guide does not become an ad-free hub",
+   "previousSha": "53300093cba1fa21e47c35e75e0a77bc7f01c8357cbfc9c3b522a72709094a43"
+  }
+ ]
+}
