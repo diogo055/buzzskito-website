@@ -1,6 +1,6 @@
 # Photos and diagrams the new guides still need
 
-545 images across 218 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
+552 images across 222 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
 
 ## /learn/bed-bugs
 
@@ -389,6 +389,11 @@
 - A real rat nest of shredded paper, insulation or fabric found in a US attic, wall void or garage, photographed beside a ruler marked in inches with the rat droppings next to it; or CDC PHIL 26634 (a female Norway rat with her pups in her burrow, public domain) if it shows the nest material
 - A pack rat (woodrat) stick house or midden in the western US, such as a dusky-footed woodrat house or a white-throated woodrat midden at the base of a cactus, from the National Park Service (public domain), with something in the frame for scale
 
+## /blog/best-rat-traps
+
+- A rat-size snap trap set inside a covered plastic trap box against a garage or basement wall, lid open to show the trap, with a ruler marked in inches for scale (public domain or CC0)
+- A battery-powered electronic rat trap set along a kitchen or basement wall, showing the tunnel entrance and the indicator light, with no brand logo prominent (public domain or CC0)
+
 ## /learn/cockroaches
 
 - Side-by-side scale photo or illustration of the adult German, brown-banded, American, Oriental, smokybrown and Turkestan (male and female) cockroaches plus a wood roach, top-down view on a white background with an inch ruler along the bottom
@@ -773,6 +778,10 @@
 
 - Fruit flies caught in a homemade cider vinegar trap (a jar with a paper funnel, or a bowl with soap) on a US kitchen counter, beside a ruler marked in inches, the flies identified as Drosophila; public domain or CC0
 
+## /blog/best-fruit-fly-traps
+
+- Fruit flies caught in a liquid-lure trap or a jar of cider vinegar on a US kitchen counter, beside a ruler marked in inches, the flies identified as Drosophila; public domain or CC0
+
 ## /blog/dust-mites
 
 - Live house dust mites among skin flakes and fibers in dust vacuumed from a US mattress, under a stereo microscope with a scale bar marked in inches, to show them where they actually live
@@ -1048,6 +1057,10 @@
 - Concrete mites (Balaustium) running over a sunny concrete patio, sidewalk or picnic table in spring, beside a coin or ruler, identified by an extension service or expert; public domain or CC0
 - A red velvet mite on bare soil, a sidewalk or a garden path after rain, as a homeowner would see it, beside a coin or ruler; public domain or CC0
 
+## /blog/best-flea-spray-for-home
+
+- Close-up of a gloved hand spraying a home flea spray along the edge of a carpet at a baseboard, with the product's active ingredient panel visible; public domain or CC0
+
 ## /learn/bug-bites
 
 - Close-up photo of a blacklegged tick nymph attached to human skin, showing the small red bump around the bite, beside a ruler marked in inches
@@ -1122,6 +1135,12 @@
 
 - A striped skunk den opening under a deck, porch or shed: a half-moon depression 3 to 5 inches across with little grass around it, beside a ruler marked in inches; public domain or CC0, from a US agency, a university or a research-grade iNaturalist record
 - A basement floor drain and its grate, photographed from above beside a ruler marked in inches, from a university or government source; a real photograph, not a drawing
+
+## /blog/raccoon-repellent
+
+- A metal chimney cap with mesh sides bolted to the top of a brick house chimney, photographed from the roof in daylight (public domain or CC0)
+- Galvanized hardware cloth fastened along the bottom of a backyard deck and running down into an open trench, with the bottom edge bent outward, before backfilling, beside a tape measure in inches (public domain or CC0)
+- A motion-activated sprinkler staked at the edge of a backyard vegetable garden or fish pond, ideally caught mid-spray, with no brand name visible (public domain or CC0)
 
 ## /blog/diy-pest-control
 

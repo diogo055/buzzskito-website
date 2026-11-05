@@ -199,7 +199,7 @@ function validate(file) {
   }
 
   // ── body ──────────────────────────────────────────────────────────────────────
-  const TYPES = new Set(['h2', 'h3', 'p', 'ul', 'ol', 'table', 'callout', 'media', 'recipe', 'checklist', 'card', 'figure', 'chart', 'map', 'confused'])
+  const TYPES = new Set(['h2', 'h3', 'p', 'ul', 'ol', 'table', 'callout', 'media', 'recipe', 'checklist', 'card', 'figure', 'chart', 'map', 'confused', 'picks'])
   const visual = p.batch === 'visual'
   if (!Array.isArray(g.body) || !g.body.length) { err('"body" is missing'); return { errors, warnings, stats: {} } }
   g.body.forEach((b, i) => {
@@ -301,6 +301,32 @@ function validate(file) {
             if (photos.has(c.photo)) err(`${at}: photo "${c.photo}" is on two cards`)
             photos.add(c.photo)
           }
+        })
+      }
+    }
+    if (b.type === 'picks') {
+      // amazon.com product picks (owner, Nov 4, 2026): US spokes only (one page, one store). No prices,
+      // star ratings, price-bait words or Amazon's name in our text: the Associates rules, as in
+      // lib/amazon-us-picks.json. Each pick must be something the page's own text recommends.
+      const where = `body[${i}] (picks)`
+      const plain = (s, min, max) => typeof s === 'string' && s.trim().length >= min && s.length <= max && !/\]\(|[<>]|https?:\/\//.test(s)
+      const BAIT = /\$|\bprice[sd]?\b|\bcheap|\blowest\b|\bdeals?\b|\bsales?\b|% ?off|\bdiscount|\bcoupon|\bbargain|\bstars?\b|\brated \d|amazon|[®™]/i
+      if (g.kind !== 'spoke' || g.locale) err(`${where}: picks link amazon.com, so only a US spoke (no locale) may carry them`)
+      if (b.title !== undefined && !plain(b.title, 3, 80)) err(`${where}: "title" must be plain text, 3 to 80 characters`)
+      if (!Array.isArray(b.items) || b.items.length < 2 || b.items.length > 8) err(`${where}: "items" needs 2 to 8 picks`)
+      else {
+        const searches = new Set()
+        b.items.forEach((c, j) => {
+          const at = `${where} items[${j}]`
+          if (!c || typeof c !== 'object') return err(`${at}: a pick is { label, name, search, why }`)
+          if (!plain(c.label, 3, 40)) err(`${at}: "label" must be plain text, 3 to 40 characters (e.g. "Best for attics")`)
+          if (!plain(c.name, 3, 60)) err(`${at}: "name" must be plain text, 3 to 60 characters`)
+          if (!plain(c.search, 3, 60) || /[*]/.test(c.search || '')) err(`${at}: "search" must be plain text, 3 to 60 characters (the amazon.com search it links)`)
+          else if (searches.has(c.search.toLowerCase())) err(`${at}: two picks use the search "${c.search}"`)
+          else searches.add(c.search.toLowerCase())
+          if (!plain(c.why, 30, 320)) err(`${at}: "why" must be 30 to 320 characters saying why this pick, without links`)
+          const all = `${c.label || ''} ${c.name || ''} ${c.search || ''} ${c.why || ''}`
+          if (BAIT.test(all)) err(`${at}: no prices, price words ("cheap", "deal", "% off"), star ratings, Amazon's name or trademark signs in a pick`)
         })
       }
     }

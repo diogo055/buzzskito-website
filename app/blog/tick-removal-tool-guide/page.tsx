@@ -14,6 +14,7 @@ import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
 import Photo from '@/components/Photo'
 import { shareImage } from '@/lib/photos'
+import UsAmazonLine from '@/components/UsAmazonLine'
 
 const SLUG = 'tick-removal-tool-guide'
 const DATE = '2026-04-26'
@@ -102,7 +103,8 @@ export default function TickRemovalToolGuidePage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Tick Twister / O’Tom Tick Twister removal tool" asin="B0D4DTM25H" search="otom tick twister" label="Best overall tool" />
+      <UsAmazonLine name="Tick twister removal tool" search="tick twister removal tool" />
+      <StickyBuyBar usSearch="tick twister removal tool" tag={AMZ_TAG} name="Tick Twister / O’Tom Tick Twister removal tool" asin="B0D4DTM25H" search="otom tick twister" label="Best overall tool" />
       <TopBox tag={AMZ_TAG} name="Tick Twister / O’Tom Tick Twister removal tool" asin="B0D4DTM25H" search="otom tick twister" label="Best overall tool" />
 
       <article className="py-12 px-4 bg-white">

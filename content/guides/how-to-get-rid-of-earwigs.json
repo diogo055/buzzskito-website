@@ -79,6 +79,13 @@
       "**Trap the ones outside**, as the next section describes."
     ] },
     { "type": "p", "text": "Two shopping guides written for Canadian readers compare [indoor earwig traps](/blog/earwig-traps-indoor-canada) and [earwig traps and killers](/blog/best-earwig-killer-canada); the products they name may not match US store shelves." },
+    { "type": "picks", "title": "Sealing, lighting and garden gear", "items": [
+      { "label": "For gaps along doors and windows", "name": "Caulk for doors and windows", "search": "caulk for windows and doors", "why": "Colorado State says earwigs usually get in through small gaps along doors, windows and vents, which can be sealed with caulk, and Wisconsin adds putty and weather stripping around doors and windows." },
+      { "label": "For outdoor lights", "name": "Yellow bug light bulbs", "search": "yellow bug light bulb", "why": "If earwigs gather at your lights, UC IPM suggests yellow or sodium vapor bulbs, which attract fewer of them than ordinary outdoor lights." },
+      { "label": "For stone fruit trees", "name": "Sticky tree bands", "search": "sticky tree bands", "why": "UC IPM suggests a band of sticky material around the trunk to keep earwigs out of stone fruit trees, and lists apricots among the soft fruit they damage." },
+      { "label": "To keep the garden drier", "name": "Drip irrigation kit", "search": "drip irrigation kit", "why": "UC IPM suggests drip irrigation where possible to reduce moisture, alongside clearing ivy, weeds, rubbish and leaf piles where earwigs hide." },
+      { "label": "If an insecticide is needed outdoors", "name": "Spinosad insecticide labeled for earwigs", "search": "spinosad insecticide for earwigs", "why": "As a last step outdoors, after trapping and cleanup, UC IPM calls spinosad products the most effective choice. Use one only if earwigs and the site are on its label, follow its directions, and apply at night: NPIC says it is very highly toxic to bees until sprays dry." }
+    ] },
 
     { "type": "h2", "text": "How do you trap earwigs?" },
     { "type": "p", "text": "Give them a dark, snug place to spend the day, then empty it in the morning. UC IPM says a rolled-up newspaper, corrugated cardboard, bamboo tubes or a short piece of hose set near plants before dark all work, with the earwigs shaken into a pail of soapy water each morning, and that trapping should continue daily until no more are caught." },

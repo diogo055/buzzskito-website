@@ -16,6 +16,7 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import UsAmazonLine from '@/components/UsAmazonLine'
 
 const SLUG = 'flea-bites-on-humans'
 const DATE = '2026-07-19'
@@ -167,6 +168,7 @@ export default function FleaBitesOnHumansPage() {
         <p className="text-sm text-gray-600 italic border-l-4 border-gray-200 pl-4">This article is general information, not medical advice. Reactions to insect bites vary from person to person &mdash; if you are concerned about bites, an unusual rash, or any symptoms, see a healthcare provider. For severe allergic reactions, seek emergency care immediately.</p>
 
         <AffiliateDisclosure />
+        <UsAmazonLine name="Plug-in flea trap" search="plug in flea trap" />
         <p className="not-prose text-sm text-gray-700 leading-relaxed">If the bites are clustered around your ankles and you are not sure whether fleas are the cause, the fastest way to find out is a plug-in light flea trap left running overnight in the room where you get bitten &mdash; fleas on the sticky pad by morning settles the question before you spend anything on treatment. <BuyLink tag={AMZ_TAG} search="flea trap plug in">Check price on Amazon.ca →</BuyLink></p>
 
         <nav aria-label="On this page" className="not-prose my-6 rounded-xl border border-navy-100 bg-white p-5">
@@ -569,7 +571,7 @@ export default function FleaBitesOnHumansPage() {
         <ReadNext path="/blog/flea-bites-on-humans" />
       </article>
 
-      <StickyBuyBar tag={AMZ_TAG} name="Plug-in light flea trap" search="flea trap plug in" label="To confirm fleas" />
+      <StickyBuyBar usSearch="plug in flea trap" tag={AMZ_TAG} name="Plug-in light flea trap" search="flea trap plug in" label="To confirm fleas" />
     </>
   )
 }

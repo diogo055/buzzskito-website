@@ -1,0 +1,215 @@
+{
+  "slug": "best-flea-spray-for-home",
+  "kind": "spoke",
+  "cluster": "household",
+  "keyword": "flea spray for house",
+  "alsoTargets": [
+    "best flea spray for house",
+    "flea spray for home",
+    "flea spray for carpet",
+    "flea treatment for house",
+    "flea killer for house"
+  ],
+  "metaTitle": "Best Flea Spray for House, Carpet and Furniture",
+  "metaDescription": "The best flea spray for a house pairs an adult flea killer with an IGR, methoprene or pyriproxyfen. Our picks, where to spray and the cautions for pets.",
+  "h1": "Best Flea Spray for the House: Carpets, Furniture and Pet Bedding",
+  "dek": "A house spray has to reach the flea eggs and larvae in carpet and furniture. What to look for on the label, our picks, how and where to spray, the cautions for cats and fish, and why a flea bomb is the wrong buy.",
+  "breadcrumb": "Best Flea Spray for Home",
+  "excerpt": "Which flea sprays work in a house: an adult flea killer plus an IGR, on a label that lists carpets. Our picks, how to spray, and the cautions for cats and fish.",
+  "datePublished": "2026-11-05",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**The best flea spray for a house pairs an adult flea killer with an insect growth regulator (IGR), methoprene or pyriproxyfen, on a label that lists carpets and upholstery.** [UC IPM](https://ipm.ucanr.edu/home-and-landscape/fleas/) says the most effective products contain one of those IGRs, and that fleas keep emerging for about 2 weeks after treatment because sprays do not kill pupae.",
+    "bullets": [
+      "IGRs stop eggs and larvae from developing; because most do not kill adult fleas quickly, [Texas A&M AgriLife Extension](https://extensionentomology.tamu.edu/wp-content/uploads/2025/03/managing-fleas.pdf) says they are usually mixed with a contact insecticide.",
+      "Spray carpets, pet sleeping areas, carpet under furniture and baseboards, UC IPM says; [the University of Kentucky](https://entomology.mgcafe.uky.edu/ef602) says hardwood, tile and concrete floors generally need vacuuming, not spraying.",
+      "[Ohio State](https://ohioline.osu.edu/factsheet/HYG-2081-11) says frequent vacuuming removes up to 95 percent of flea eggs, and UC IPM says to keep vacuuming for 10 days to 2 weeks after spraying.",
+      "Skip the flea bomb: Kentucky does not recommend total-release foggers for fleas, and [EPA](https://www.epa.gov/safepestcontrol/safety-precautions-total-release-foggers) says fogger propellants are typically flammable.",
+      "Keep people and pets off treated areas until dry, cover fish tanks, and never spray a pet with a house product; NPIC says cats are more sensitive to permethrin than dogs or people."
+    ]
+  },
+  "facts": {
+    "title": "Flea spray ingredients: what each one does",
+    "head": ["On the label", "Type", "What it does to fleas", "Watch for"],
+    "rows": [
+      ["(S)-methoprene", "Insect growth regulator (IGR)", "Acts like an insect hormone, so eggs and larvae do not develop into adults", "Not photostable: Texas A&M says it cannot be used outdoors"],
+      ["Pyriproxyfen", "Insect growth regulator (IGR)", "Mimics insect hormones so young fleas cannot mature into adults", "Rarely toxic to adult insects, so products often pair it with an adult killer"],
+      ["Etofenprox", "Adult flea killer", "Kills adult fleas; the EPA-accepted label behind the Adams spray calls it an adulticide", "Paired with (S)-methoprene in Adams Flea & Tick Home Spray"],
+      ["Permethrin", "Adult flea killer (pyrethroid)", "Attacks the insect nervous system, causing spasms, paralysis and death", "Cats are more sensitive to it than dogs or people; highly toxic to fish"],
+      ["Pyrethrins", "Adult flea killer from chrysanthemum flowers", "Excite the insect nervous system; often mixed with a synergist", "Highly to very highly toxic to fish; some cats are sensitive to botanicals"],
+      ["Cedarwood, rosemary or thyme oil, geraniol", "Minimum risk ingredients", "Listed by Texas A&M among indoor flea ingredients; none is a growth regulator", "No EPA registration needed, and EPA does not review these products"]
+    ],
+    "caption": "From NPIC's ingredient fact sheets, Texas A&M AgriLife Extension, the EPA-accepted label for EPA Reg. No. 2724-822, NPIC's page on low-risk pesticides and EPA's minimum risk rules, each linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "Our picks at a glance" },
+    { "type": "p", "text": "We chose the sprays from what extension entomologists say works indoors, an adult flea killer plus an insect growth regulator (IGR) on a label that lists the surfaces you need to treat, and the tools from the steps those sources say make a spray work: confirming fleas, monitoring and vacuuming. We read each spray's EPA-accepted label or the maker's own page; no product was tested for this guide." },
+    { "type": "picks", "title": "Best flea spray for the house, and the tools that help it work", "items": [
+      { "label": "Best overall", "name": "Adams Flea & Tick Home Spray", "search": "adams flea and tick home spray", "why": "A trigger spray that pairs the adult flea killer etofenprox with the IGR (S)-methoprene. Its EPA-accepted label (EPA Reg. No. 2724-822) lists carpets, rugs, drapes and upholstered furniture; stay out for at least an hour and until it has dried." },
+      { "label": "For whole rooms of carpet", "name": "Aerosol flea carpet spray with an IGR", "search": "flea carpet spray", "why": "Kentucky says most households find aerosols more convenient than liquids and that aerosol-treated carpets dry faster. Choose one whose active ingredients include methoprene or pyriproxyfen and whose label lists carpets and upholstery." },
+      { "label": "To confirm it is fleas", "name": "Fine-toothed flea comb", "search": "flea comb", "why": "Texas A&M calls a flea comb and a good bath a pet's first line of defense against fleas. Comb over a white sink or paper to spot adults and the reddish-black flea dirt before you spray anything." },
+      { "label": "To see if it is working", "name": "Plug-in flea light trap", "search": "plug in flea trap", "why": "Kentucky says light-and-glue-board flea traps help capture adult fleas and monitor how treatment is going, and Texas A&M says to set them near pet beds. On their own, traps will not end an infestation." },
+      { "label": "For daily vacuuming", "name": "Vacuum with a beater bar", "search": "vacuum with beater bar", "why": "Ohio State says frequent vacuuming removes up to 95 percent of flea eggs and recommends a beater-bar vacuum where the pet rests and sleeps. UC IPM says to keep vacuuming for 10 days to 2 weeks after spraying." }
+    ] },
+
+    { "type": "h2", "text": "What is the best flea spray for a house?" },
+    { "type": "p", "text": "One that pairs an adulticide, which kills the biting adults, with an insect growth regulator, which stops the next generation, in a product labeled for indoor flea control. [UC IPM's Pest Note on fleas](https://ipm.ucanr.edu/home-and-landscape/fleas/) says the most effective products also contain the IGR methoprene or pyriproxyfen, and [the University of Kentucky's flea fact sheet](https://entomology.mgcafe.uky.edu/ef602) names permethrin, imidacloprid and dinotefuran as adult-killing ingredients in the most effective home products. [Ohio State University Extension](https://ohioline.osu.edu/factsheet/HYG-2081-11) says effective indoor products usually pair a fast-acting pyrethroid with an IGR." },
+    { "type": "figure", "src": "/guides/photos/cat-flea-scale-bar.webp", "width": 1200, "height": 1215, "alt": "Magnified side view of a cat flea with a flattened, bristly, segmented body and long hind legs, under a bracket marked 3 mm, about 1/8 inch", "caption": "A cat flea (*Ctenocephalides felis*) seen from the side under a 3 mm scale bar, about 1/8 inch. UC IPM says adult fleas are no larger than 1/8 inch long.", "license": "public-domain", "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=25575" },
+    { "type": "p", "text": "Our top pick, [Adams Flea & Tick Home Spray](https://www.adamspetcare.com/products/home/flea-and-tick-home-spray), fits that recipe: its maker lists (S)-methoprene at 0.01 percent, etofenprox at 0.50 percent and piperonyl butoxide at 2.00 percent. [The EPA-accepted label for its registration](https://www3.epa.gov/pesticides/chem_search/ppls/002724-00822-20250311.pdf), EPA Reg. No. 2724-822, calls etofenprox an adulticide, lists carpets, rugs, drapes and all surfaces of upholstered furniture, and says to vacate treated areas for at least one hour and keep adults, children and pets out until the spray has dried. Other sprays fit the recipe too; the label tells you which." },
+    { "type": "checklist", "title": "What to look for on a flea spray label", "items": [
+      "**An IGR.** Methoprene, often written (S)-methoprene, or pyriproxyfen in the active ingredients (UC IPM).",
+      "**An adult flea killer.** Kentucky names permethrin, imidacloprid and dinotefuran; Texas A&M lists etofenprox, bifenthrin and prallethrin among indoor flea ingredients.",
+      "**Your surfaces in the directions.** Carpets, rugs and upholstered furniture; Texas A&M says to make sure a product can be used indoors.",
+      "**An EPA Reg. No.** Plant-oil products sold as minimum risk pesticides need no EPA registration, and EPA does not review them.",
+      "**Re-entry and pet directions.** How long to stay out, and what to do about birds, fish tanks and pets."
+    ] },
+
+    { "type": "h2", "text": "Why does a house flea spray need an insect growth regulator?" },
+    { "type": "p", "text": "Because flea eggs and larvae are not on the pet. The [Companion Animal Parasite Council](https://capcvet.org/guidelines/fleas/) says flea eggs readily fall off the pet into the environment within a few hours, and that larvae develop indoors in undisturbed, protected sites such as carpets, under furniture and along baseboards. [Texas A&M AgriLife Extension's flea guide](https://extensionentomology.tamu.edu/wp-content/uploads/2025/03/managing-fleas.pdf) says the larvae feed on organic matter, including the blood-containing droppings of adult fleas, and that the most likely place to find them is infested pet bedding." },
+    { "type": "figure", "src": "/guides/photos/flea-egg-and-larva.webp", "width": 624, "height": 832, "alt": "Microscope view of a smooth, pale, oval flea egg beside a long, pale, segmented flea larva with brownish patches inside", "caption": "A first-stage cat flea (*Ctenocephalides felis*) larva beside its egg, under a microscope. These are the stages an insect growth regulator stops from becoming adults.", "license": "public-domain", "credit": "Auguste Le Roux, Public domain, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ctenocephalides_felis,_L1..JPG" },
+    { "type": "p", "text": "An adult killer on its own misses those stages: UC IPM says treatments with insecticides other than IGRs often fail to control flea larvae. With an IGR, Texas A&M says, eggs fail to hatch, larvae die before they complete their development and adults cannot reproduce. Because most IGRs kill only eggs and larvae, they do not eliminate adult fleas quickly, which is why they are usually mixed with a mild contact insecticide. CAPC says IGRs prevent flea eggs from hatching and kill larvae or early pupae." },
+    { "type": "p", "text": "Neither ingredient reaches a flea that has already spun its cocoon. Kentucky calls the cocoon impervious to insecticides, and UC IPM says fleas continue to emerge for about 2 weeks after treatment because the spray doesn't kill pupae. UC IPM adds that warm temperatures and the pressure of walking on or vacuuming carpet stimulate emergence, and that at cool temperatures fully formed fleas can stay in their cocoons for up to 12 months. [The photo guide to flea eggs, larvae and flea dirt](/blog/flea-eggs) shows each stage up close." },
+
+    { "type": "h2", "text": "Methoprene or pyriproxyfen: which IGR is better?" },
+    { "type": "p", "text": "Either works indoors; the difference is sunlight. Texas A&M says both can be used indoors, but methoprene is not photostable and cannot be used outdoors, while pyriproxyfen can. [NPIC's methoprene fact sheet](https://npic.orst.edu/factsheets/methogen.html) says methoprene acts like an insect hormone and that sunlight and microorganisms break it down rapidly in soil, water and on plants. [NPIC's pyriproxyfen fact sheet](https://npic.orst.edu/factsheets/pyriprogen.html) says pyriproxyfen stops young insects from maturing into adults but is rarely toxic to adult insects, which is why products often include another insecticide to kill them." },
+    { "type": "p", "text": "So choose by the label rather than the brand: an IGR plus an adult killer, for the surfaces you need to treat, and pyriproxyfen if the same product will also go on a porch or in the yard and its label allows that use." },
+    { "type": "h3", "text": "How flea products for the house compare" },
+    { "type": "table", "head": ["Product", "What it reaches", "What it misses", "Our take"], "rows": [
+      ["Trigger spray with an adult killer and an IGR", "Adults it contacts, plus eggs and larvae on the carpet and furniture you spray", "Pupae in cocoons, and anything you did not spray", "The pick for most homes: aim it where pets rest"],
+      ["Aerosol carpet spray with an IGR", "The same over larger carpeted areas; Kentucky says aerosols dry faster than liquids", "Pupae in cocoons", "Good for whole rooms; confirm the IGR on the label"],
+      ["Spray with an adult killer only", "Adults it contacts", "Larvae: UC IPM says non-IGR insecticides often fail to control them", "Half a job; choose a spray with an IGR"],
+      ["Total-release fogger (flea bomb)", "Open surfaces where the mist settles", "Ohio State says the vapors rarely reach flea larvae or pupae", "Skip it: Kentucky does not recommend foggers for fleas"],
+      ["Plant-oil spray sold as minimum risk", "Unclear: EPA does not review these products", "Eggs and larvae: no IGR is allowed in minimum risk products", "Not a substitute for an IGR spray"],
+      ["Diatomaceous earth dust", "Dry spots where a very thin layer can stay put", "Damp or humid spots, where Texas A&M says it must be reapplied", "Only where it will not be stirred up and breathed in"],
+      ["Vacuuming", "Up to 95 percent of flea eggs, some larvae and adults (Ohio State)", "Many larvae: Texas A&M says it removes up to 30 percent of them", "Do it before and after spraying, then every day or two"]
+    ], "caption": "From UC IPM, the University of Kentucky, Ohio State, Texas A&M AgriLife Extension, EPA and 40 CFR 152.25, each linked on this page." },
+
+    { "type": "h2", "text": "Trigger spray, aerosol or concentrate: which should you buy?" },
+    { "type": "p", "text": "A trigger spray for spot work and an aerosol for whole rooms of carpet. Kentucky says most households will find aerosols more convenient to use than liquids, and that carpets and other surfaces treated with aerosols tend to dry more quickly. UC IPM's plan for a flea emergency uses a hand sprayer to treat all carpets with an insecticide that contains an IGR." },
+    { "type": "p", "text": "Check coverage before you buy: Adams says one 8-ounce bottle of its home spray treats about 115 square feet, roughly one 10-by-11.5-foot room, so a home with several carpeted rooms needs more than one bottle. Concentrates, which you dilute in a pump sprayer, take more care. Mix and apply them exactly as the label says: [EPA's introduction to pesticide labels](https://www.epa.gov/pesticide-labels/introduction-pesticide-labels) explains that pesticide labels are legally enforceable and that using a product in a manner inconsistent with its labeling violates federal law." },
+
+    { "type": "h2", "text": "How do you spray a house for fleas?" },
+    { "type": "p", "text": "Treat the pets and the house on the same day, then keep vacuuming for about two weeks. [The CDC's guide to getting rid of fleas](https://www.cdc.gov/fleas/getting-rid/index.html) says every pet in the home must be treated and that home treatment should begin at the same time as pet treatment; ask your veterinarian which product suits each animal." },
+    { "type": "ol", "items": [
+      "**Confirm it is fleas.** Walk where pets rest in white athletic socks pulled high, as Kentucky suggests, and comb the pet over a white sink. Texas A&M describes flea dirt, the droppings of adult fleas, as a fine reddish-black dust in pet fur and bedding; [the flea dirt guide](/blog/flea-dirt) shows how to test a speck.",
+      "**Book the pets in.** Ask your veterinarian about a product for each dog and cat. [EPA's advice on flea and tick products for pets](https://www.epa.gov/pets/controlling-fleas-and-ticks-your-pet) is never to apply dog products to cats, or the reverse.",
+      "**Clear and protect.** Kentucky says to remove toys, clothing and stored items from floors, under beds and in closets, remove pet food and water dishes, cover fish tanks and disconnect their aerators, and wash the pet bedding.",
+      "**Vacuum.** Go over carpets, upholstered furniture and the crevices along baseboards. Ohio State recommends a beater-bar vacuum where the pet rests and sleeps, and Texas A&M says to empty the bag or canister into an outside garbage bin.",
+      "**Spray where fleas develop.** Follow the label for coverage and protective clothing (the EPA-accepted label behind the Adams spray calls for a long-sleeved shirt, long pants, socks, shoes and waterproof gloves), and test a hidden patch of fabric first, as that label directs; the next section lists the spots.",
+      "**Stay off until dry.** Kentucky says drying may take a few hours depending on carpet type, ventilation and method of application; the Adams label says to stay out for at least one hour and keep everyone out until the spray has dried.",
+      "**Vacuum again, then keep vacuuming.** UC IPM says to let carpets dry, vacuum a second time to remove the fleas the spray caused to emerge, and continue vacuuming for 10 days to 2 weeks.",
+      "**Repeat only as the label allows.** The sources differ: the CDC calls for two or more follow-up treatments within 5 to 10 days, Texas A&M for one at 10 to 14 days, UC IPM says not to treat again for at least several weeks, and Kentucky says retreatment may be needed if adult fleas are still seen beyond 4 weeks. The Adams label allows reapplying every 2 weeks if necessary."
+    ] },
+    { "type": "figure", "src": "/guides/photos/flea-on-comb.webp", "width": 1200, "height": 1600, "alt": "A hand holding a white plastic flea comb with fine metal teeth, a small reddish-brown flea and dark specks caught at the base of the teeth", "caption": "A flea caught on a fine-toothed flea comb at an animal health clinic. Texas A&M says the fine teeth of a flea comb remove adult fleas from fur.", "license": "public-domain", "credit": "CDC/ Ann Carpenter, DVM; photo: Ann Carpenter, DVM (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=30839" },
+    { "type": "p", "text": "To see whether the plan is working, set a flea trap near pet beds and resting spots, where Texas A&M says traps work best. Kentucky says traps that use a light and a glue board can be useful in capturing adult fleas and monitoring the status of treatment, and that fleas respond to green light more than other wavelengths; it adds that traps will not eliminate an infestation unless used with other methods. Ohio State says light traps catch only a small portion of the fleas present and do nothing to control the larvae, so treat a falling count as progress, not proof." },
+
+    { "type": "h2", "text": "Where should you spray for fleas, and where should you not?" },
+    { "type": "p", "text": "Spray where pets rest and larvae hide. UC IPM lists carpets, pet sleeping areas, carpeted areas beneath furniture, baseboards and windowsills, and Kentucky adds throw rugs, the space under and behind beds and furniture, and beneath sofa cushions, with extra attention to where pets sleep. Ohio State says research shows those resting areas hold the highest numbers of eggs, larvae and pupae even after vacuuming." },
+    { "type": "p", "text": "Leave these out, or handle them another way:" },
+    { "type": "ul", "items": [
+      "**Bare floors, as a rule.** Kentucky says hardwood, tile and concrete floors generally do not need to be treated but should be vacuumed.",
+      "**Pets and people.** The Adams label says not to spray it on pets or humans, and Kentucky says never to treat pets with products used on carpets or the yard.",
+      "**Food areas.** The Adams label says to remove or cover exposed food, drinking water, dishes, utensils and food preparation surfaces before application.",
+      "**Drains.** The same label says not to let the spray enter indoor or outdoor drains.",
+      "**Pet bedding.** UC IPM says to launder pet bedding in hot, soapy water at least once a week, and the Adams label says to replace old pet bedding with clean bedding after treating the pet area."
+    ] },
+    { "type": "p", "text": "[How to get rid of fleas](/blog/how-to-get-rid-of-fleas) covers the yard, homes with no pets and what to expect week by week." },
+
+    { "type": "h2", "text": "Is flea spray safe around cats, dogs and children?" },
+    { "type": "p", "text": "Use it exactly as the label directs, and take extra care with cats, fish and birds. The Adams label says not to allow adults, children or pets into the treated area until the spray has dried, to remove birds and cover aquariums before spraying, and not to spray it on pets or humans." },
+    { "type": "ul", "items": [
+      "**Cats.** [NPIC's permethrin fact sheet](https://npic.orst.edu/factsheets/PermGen.html) says cats are more sensitive to permethrin than dogs or people because their bodies take a long time to break it down, and that cats exposed by accident to products with high (45 to 65 percent) levels of permethrin may seem anxious, can't walk normally, may have muscle tremors and seizures, and may die. UC IPM says products containing permethrin or amitraz should never be applied to cats, and Texas A&M says some pets, especially certain cat breeds, are sensitive to botanical insecticides, citrus oil products in particular.",
+      "**Fish.** The EPA-accepted label behind the Adams spray says the product is toxic to aquatic organisms, including fish. NPIC says permethrin is highly toxic to fish, and [its pyrethrins fact sheet](https://npic.orst.edu/factsheets/pyrethrins.html) calls pyrethrins highly to very highly toxic to fish, so cover tanks and, as Kentucky says, disconnect their aerators.",
+      "**Birds.** The Adams label says to remove birds before spraying.",
+      "**Children.** Keep children off treated surfaces until they are dry, as the label directs, and store the bottle out of their reach."
+    ] },
+    { "type": "p", "text": "If a pet reacts to a flea product, EPA advises bathing it right away with mild soap, rinsing it with large amounts of water and contacting your veterinarian or the National Pesticide Information Center at 1-800-858-7378. [Pest control around cats and dogs](/learn/pet-safe-pest-control) covers other products used in a home with pets." },
+
+    { "type": "h2", "text": "Do flea bombs work better than flea spray?" },
+    { "type": "p", "text": "No. Kentucky says total-release foggers are not recommended for fleas and are seldom effective against fleas or other household pests, Ohio State says their vapors rarely get to the location of flea larvae or pupae, and UC IPM says room foggers don't provide the coverage and long-term effectiveness of direct sprays unless they contain methoprene or pyriproxyfen." },
+    { "type": "p", "text": "They bring hazards of their own. [EPA's fogger safety page](https://www.epa.gov/safepestcontrol/safety-precautions-total-release-foggers) says fogger propellants are typically flammable and that improper use may cause a fire or explosion. It recommends keeping a fogger 6 feet or farther from all ignition sources, using no more than one per room, staying out for the time on the label, usually two to four hours, and ventilating afterward. [A separate guide to flea bombs](/blog/best-flea-bomb-canada) looks at what foggers can and cannot reach." },
+
+    { "type": "h2", "text": "Do natural flea sprays work?" },
+    { "type": "p", "text": "Some plant-based insecticides kill fleas, but natural sprays sold as minimum risk products cannot contain a growth regulator, and EPA does not review them. Texas A&M lists thyme, rosemary and cedarwood oils and geraniol among indoor flea ingredients, says botanical insecticides such as pyrethrins and citrus oil extracts kill larval and adult fleas, and cautions that some pets, especially certain cat breeds, are sensitive to them." },
+    { "type": "p", "text": "Minimum risk products do not need to be registered by EPA, [NPIC](https://npic.orst.edu/ingred/lowrisk.html) says, and EPA's [conditions for minimum risk pesticides](https://www.epa.gov/minimum-risk-pesticides/conditions-minimum-risk-pesticides) note that EPA does not review exempted products. The active ingredients they may contain, listed in [40 CFR 152.25(f)](https://www.law.cornell.edu/cfr/text/40/152.25), include cedarwood, clove, peppermint, rosemary and thyme oils and geraniol, but not methoprene or pyriproxyfen." },
+    { "type": "p", "text": "Folk remedies fare worse. Texas A&M says there is little scientific evidence that garlic, brewer's yeast, cedar bedding or herbal sachets control fleas, and UC IPM says herbal collars and ultrasonic devices aren't effective flea repellents. Diatomaceous earth is a dust, not a spray: Texas A&M says it is best used indoors where it will not be stirred up and breathed in, in a very thin layer, and that it needs reapplying if it gets wet or the air is very humid." },
+
+    { "type": "h2", "text": "What can a house flea spray not do?" },
+    { "type": "ul", "items": [
+      "**Kill pupae.** Kentucky says the cocoon is impervious to insecticides and that you should expect to see some fleas for a few weeks or longer after treatment; instead of retreating immediately, it says, keep vacuuming.",
+      "**Treat the pet.** The CDC says every pet in the home must be treated, and a house spray is not a pet product: the Adams label says not to spray it on pets.",
+      "**Stop wildlife from bringing fleas back.** In a home with no pets, Kentucky says raccoons, opossums, skunks or squirrels are often the culprit, and that the animals should be removed by a nuisance wildlife or pest control professional before the home is treated.",
+      "**Work overnight.** The CDC says moderate to severe infestations take months to control, and CAPC says they may take several months to bring under control.",
+      "**Replace vacuuming.** Ohio State says vacuuming must be done on a regular basis, every other day, to be effective."
+    ] },
+
+    { "type": "h2", "text": "When should you call a professional for fleas?" },
+    { "type": "p", "text": "When a full round of treatment has not worked, when you would rather not apply pesticides yourself, or when wildlife is the source. Texas A&M says to hire a pest management professional if you can't get a flea problem under control or don't want to perform the treatments on your own, and the CDC says a licensed commercial pest control applicator can help you decide which products are best inside your home and in the yard. Ohio State strongly recommends consulting or hiring both a veterinarian and a licensed pest control operator, since both have the experience, training, equipment and most effective insecticides for overall flea control." },
+    { "type": "p", "text": "Not sure the bites are from fleas? [What flea bites look like on people](/blog/flea-bites) shows the pattern and when to see a doctor, and [the guide to bugs that look like fleas](/blog/bugs-that-look-like-fleas) sorts springtails, young bed bugs and other look-alikes from a real flea. [The library of pest guides](/learn) covers other household pests." },
+    { "type": "media", "needed": "Close-up of a gloved hand spraying a home flea spray along the edge of a carpet at a baseboard, with the product's active ingredient panel visible; public domain or CC0" },
+    { "type": "callout", "tone": "tip", "title": "Save a flea before you spray", "text": "Comb the pet over a white sink or a sheet of paper, press any flea onto clear tape and photograph it beside a ruler marked in inches. A veterinarian can confirm fleas on the pet, and your state's cooperative extension office can identify an insect you are not sure about." }
+  ],
+  "faqs": [
+    {
+      "question": "How long does flea spray last in the house?",
+      "answer": "It depends on the ingredients. The EPA-accepted label for Adams Flea & Tick Home Spray, EPA Reg. No. 2724-822, says it keeps pre-adult fleas from hatching into biting adults for 7 months, and the same label allows reapplying every 2 weeks if necessary. NPIC says sunlight breaks down pyrethrins and methoprene quickly outdoors. Whatever the spray, UC IPM says fleas already in their cocoons keep emerging for about 2 weeks after treatment."
+    },
+    {
+      "question": "Can I sleep in my house after spraying for fleas?",
+      "answer": "Yes, once the treated surfaces are completely dry and the label's re-entry time has passed. The Adams Flea & Tick Home Spray label says to vacate treated areas for at least one hour and keep adults, children and pets out until the spray has dried, and the University of Kentucky says drying may take a few hours depending on carpet type, ventilation and method of application. A total-release fogger is different: EPA says to stay out for the time on its label, usually two to four hours, then ventilate."
+    },
+    {
+      "question": "Do flea sprays kill flea eggs?",
+      "answer": "Sprays with an insect growth regulator are the ones built to stop eggs from developing. The Companion Animal Parasite Council says IGRs such as methoprene and pyriproxyfen prevent flea eggs from hatching and kill larvae or early pupae, and UC IPM says treatments with insecticides other than IGRs often fail to control flea larvae. Check the active ingredients for methoprene or pyriproxyfen. Vacuuming helps too: Ohio State says frequent vacuuming removes up to 95 percent of flea eggs."
+    },
+    {
+      "question": "Should I vacuum after spraying for fleas?",
+      "answer": "Yes, once the spray has dried, and then every day or two for about two weeks. UC IPM says to let carpets dry, vacuum a second time to remove the fleas the spray caused to emerge, and keep vacuuming for 10 days to 2 weeks as adults leave their cocoons. The University of Kentucky says vacuuming also stimulates fleas to emerge sooner from their insecticide-resistant cocoons, so they meet the treated carpet sooner."
+    },
+    {
+      "question": "Why am I still seeing fleas after spraying?",
+      "answer": "Most likely they are new adults hatching from cocoons the spray could not reach. UC IPM says fleas continue to emerge for about 2 weeks after treatment because the spray doesn't kill pupae, and the University of Kentucky says to expect some fleas for a few weeks or longer. UC IPM says warmth and the pressure of footsteps or a vacuum bring fleas out of their cocoons, so keep vacuuming, make sure every pet is treated, and retreat only as the label allows."
+    },
+    {
+      "question": "Can you use flea spray on a couch?",
+      "answer": "Yes, if the product's label lists upholstery. The EPA-accepted label behind Adams Flea & Tick Home Spray lists all surfaces of upholstered furniture and says to always test a hidden area first, because some natural fibers and synthetics may be adversely affected by any liquid product. Spray lightly without wetting the fabric, as that label directs, and keep people and pets off until it is dry. The University of Kentucky says to treat beneath the sofa cushions pets sleep on."
+    },
+    {
+      "question": "Does flea spray stain carpet?",
+      "answer": "It can. The EPA-accepted label behind Adams Flea & Tick Home Spray, EPA Reg. No. 2724-822, says some natural fibers and synthetics may be adversely affected by any liquid product, so always test a hidden area before use. Optional text on that label adds that lighter colored carpets may show some soiling after treatment, and that letting the product dry completely before walking on treated areas helps avoid it. Apply a fine, even spray rather than soaking the carpet."
+    },
+    {
+      "question": "Do I need to treat my house if my dog has fleas?",
+      "answer": "Yes. The Companion Animal Parasite Council says flea eggs fall from the pet into the environment within a few hours and that larvae develop in carpets, under furniture and along baseboards. Texas A&M AgriLife Extension says pet living areas should be treated at the same time as the pet, which kills immature and newly emerging fleas and prevents the pet from being reinfested. The CDC adds that every pet in the home must be treated, not only the dog you saw scratching."
+    },
+    {
+      "question": "What do exterminators use to spray for fleas?",
+      "answer": "The sources cited here do not publish a professional's product list, but the ingredients they name are the same ones on consumer labels. The University of Kentucky names permethrin, imidacloprid and dinotefuran as adult killers and methoprene and pyriproxyfen as growth regulators in the most effective products. Ohio State says licensed pest control operators have the experience, training, equipment and most effective insecticides, and the CDC says a licensed applicator can help decide which products suit your home."
+    },
+    {
+      "question": "Can you spray a pet flea spray on furniture?",
+      "answer": "Only if that product's label lists furniture or upholstery. EPA's introduction to pesticide labels says using a product in a manner inconsistent with its labeling violates federal law, and EPA advises reading and following the label of any flea product used on a pet. The reverse matters even more: the University of Kentucky says never to treat pets with products used on carpets or the yard, and the Adams home spray label says not to spray it on pets or humans."
+    }
+  ],
+  "sources": [
+    { "title": "Pest Notes: Fleas (UC ANR Publication 7419; M. K. Rust)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/fleas/" },
+    { "title": "ENTFACT-602: Flea Control and Prevention (Michael F. Potter, revised March 2026)", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef602" },
+    { "title": "Fleas (HYG-2081; David J. Shetlar and Jennifer E. Andon)", "publisher": "Ohio State University Extension", "url": "https://ohioline.osu.edu/factsheet/HYG-2081-11" },
+    { "title": "Managing Fleas (ENTO-PU-046; Wizzie Brown and Molly Keck, January 2025)", "publisher": "Texas A&M AgriLife Extension Service", "url": "https://extensionentomology.tamu.edu/wp-content/uploads/2025/03/managing-fleas.pdf" },
+    { "title": "Getting Rid of Fleas (reviewed November 2, 2026)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/fleas/getting-rid/index.html" },
+    { "title": "CAPC Guidelines: Fleas", "publisher": "Companion Animal Parasite Council", "url": "https://capcvet.org/guidelines/fleas/" },
+    { "title": "Methoprene Fact Sheet", "publisher": "National Pesticide Information Center (Oregon State University and EPA)", "url": "https://npic.orst.edu/factsheets/methogen.html" },
+    { "title": "Pyriproxyfen Fact Sheet", "publisher": "National Pesticide Information Center (Oregon State University and EPA)", "url": "https://npic.orst.edu/factsheets/pyriprogen.html" },
+    { "title": "Permethrin General Fact Sheet", "publisher": "National Pesticide Information Center (Oregon State University and EPA)", "url": "https://npic.orst.edu/factsheets/PermGen.html" },
+    { "title": "Pyrethrins Fact Sheet", "publisher": "National Pesticide Information Center (Oregon State University and EPA)", "url": "https://npic.orst.edu/factsheets/pyrethrins.html" },
+    { "title": "Low Risk Pesticides", "publisher": "National Pesticide Information Center (Oregon State University and EPA)", "url": "https://npic.orst.edu/ingred/lowrisk.html" },
+    { "title": "Conditions for Minimum Risk Pesticides", "publisher": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/minimum-risk-pesticides/conditions-minimum-risk-pesticides" },
+    { "title": "40 CFR 152.25: Exemptions for pesticides of a character not requiring FIFRA regulation", "publisher": "Legal Information Institute, Cornell Law School", "url": "https://www.law.cornell.edu/cfr/text/40/152.25" },
+    { "title": "Safety Precautions for Total Release Foggers", "publisher": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/safepestcontrol/safety-precautions-total-release-foggers" },
+    { "title": "Controlling Fleas and Ticks on Your Pet", "publisher": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/pets/controlling-fleas-and-ticks-your-pet" },
+    { "title": "Introduction to Pesticide Labels", "publisher": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/pesticide-labels/introduction-pesticide-labels" },
+    { "title": "Accepted label for EPA Reg. No. 2724-822 (RF2177 WB Carpet RTU; etofenprox, (S)-methoprene, piperonyl butoxide), March 11, 2025", "publisher": "U.S. Environmental Protection Agency (label of Wellmark International)", "url": "https://www3.epa.gov/pesticides/chem_search/ppls/002724-00822-20250311.pdf" },
+    { "title": "Adams Flea & Tick Home Spray, product page", "publisher": "Adams", "url": "https://www.adamspetcare.com/products/home/flea-and-tick-home-spray", "kind": "manufacturer" }
+  ],
+  "disclaimer": "pesticide"
+}

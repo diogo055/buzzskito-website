@@ -14,6 +14,7 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import UsAmazonLine from '@/components/UsAmazonLine'
 
 const SLUG = 'tick-vs-bed-bug'
 const DATE = '2026-07-09'
@@ -198,6 +199,7 @@ export default function TickVsBedBugPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <AffiliateDisclosure />
+          <UsAmazonLine name="Fine-tipped tick removal tweezers" search="fine tip tick removal tweezers" />
 
           <h2>The 10-Second Check</h2>
           <Figure
@@ -545,7 +547,7 @@ export default function TickVsBedBugPage() {
         </div>
       </article>
 
-      <StickyBuyBar tag={AMZ_TAG} name="Fine-Tipped Tick Removal Tool" search="tick removal tool tweezers" label="For tick removal" />
+      <StickyBuyBar usSearch="fine tip tick removal tweezers" tag={AMZ_TAG} name="Fine-Tipped Tick Removal Tool" search="tick removal tool tweezers" label="For tick removal" />
 
       <ReadNext path="/blog/tick-vs-bed-bug" standalone />
     </>

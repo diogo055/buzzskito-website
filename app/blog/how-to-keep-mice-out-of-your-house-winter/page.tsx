@@ -27,7 +27,7 @@ const FAQS = [
   },
   {
     question: 'What size gap can a mouse fit through?',
-    answer: 'An adult house mouse can squeeze through a gap of about 6 mm — the width of a standard pencil or roughly the diameter of a dime. A mouse skull is the limiting factor, and it is far smaller than the fluffy body suggests. This is the single most important number in mouse exclusion: any opening you can slide a pencil into is a potential entry point, which is why quarter-inch (6 mm) galvanized hardware cloth is the standard mesh size for rodent screening and why hairline foundation cracks are not the problem — pencil-width utility penetrations and garage-door corner gaps are.',
+    answer: 'An adult house mouse can squeeze through a gap of about 6 mm — the width of a standard pencil. A mouse skull is the limiting factor, and it is far smaller than the fluffy body suggests. This is the single most important number in mouse exclusion: any opening you can slide a pencil into is a potential entry point, which is why quarter-inch (6 mm) galvanized hardware cloth is the standard mesh size for rodent screening and why hairline foundation cracks are not the problem — pencil-width utility penetrations and garage-door corner gaps are.',
   },
   {
     question: 'Does steel wool really keep mice out?',
@@ -110,7 +110,7 @@ export default function HowToKeepMiceOutWinterPage() {
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">To keep mice out of your house this winter, do a full exterior walkaround in early October — before overnight temperatures settle below 10°C — and seal every gap of 6 mm or more with a two-part plug: coarse steel wool or copper mesh packed in first, exterior sealant or gap foam locked over top. Prioritize the three entry points that dominate GTA housing stock: garage-door bottom corners, the AC refrigerant line penetration, and unscreened brick weep holes (covered with louvre inserts, never caulked shut).</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
-              <li>An adult house mouse fits through a 6 mm gap — the width of a pencil, roughly a dime&rsquo;s diameter.</li>
+              <li>An adult house mouse fits through a 6 mm gap — about the width of a pencil.</li>
               <li>Mouse ingress in southern Ontario peaks in October, once overnight lows hold below about 10°C.</li>
               <li>Garage-door bottom-corner gaps commonly measure 10–15 mm — more than double what a mouse needs.</li>
               <li>Mice chew through spray foam alone; steel wool or copper mesh under the foam is what stops them.</li>

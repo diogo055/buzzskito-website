@@ -14,6 +14,7 @@ import RelatedLinks from '@/components/RelatedLinks'
 import QuickIdTable from '@/components/QuickIdTable'
 import Photo from '@/components/Photo'
 import { shareImage } from '@/lib/photos'
+import UsAmazonLine from '@/components/UsAmazonLine'
 
 const SLUG = 'can-ticks-fly-jump-swim'
 const DATE = '2026-07-12'
@@ -119,6 +120,7 @@ export default function CanTicksFlyJumpSwimPage() {
           </div>
 
           <AffiliateDisclosure />
+          <UsAmazonLine name="Fine-tipped tick removal tweezers" search="fine tip tick removal tweezers" />
           <p className="not-prose text-gray-700 text-[15px] leading-relaxed my-4">Because every tick is picked up on land and crawls for a while before it bites, the check when you get home is what catches it &mdash; and a fine-tipped remover is the tool that check needs: <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca →</BuyLink></p>
         </div>
       </section>
@@ -280,7 +282,7 @@ export default function CanTicksFlyJumpSwimPage() {
         </div>
       </article>
 
-      <StickyBuyBar tag={AMZ_TAG} name="Fine-Tipped Tick Removal Tool" search="tick removal tool tweezers" label="For removal" />
+      <StickyBuyBar usSearch="fine tip tick removal tweezers" tag={AMZ_TAG} name="Fine-Tipped Tick Removal Tool" search="tick removal tool tweezers" label="For removal" />
 
       <ReadNext path="/blog/can-ticks-fly-jump-swim" standalone />
     </>

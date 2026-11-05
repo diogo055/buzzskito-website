@@ -474,7 +474,7 @@
    "bar": true
   },
   "/blog/bed-bug-shells-casings-shed-skins-canada": {
-   "next": "/blog/do-bed-bug-sprays-actually-work",
+   "next": "/blog/best-bed-bug-steamer-canada",
    "related": [
     "/blog/diatomaceous-earth-for-bed-bugs",
     "/blog/heat-vs-chemical-bed-bug-treatment-canada",
@@ -482,8 +482,8 @@
    ],
    "cards": [
     "/blog/signs-of-bed-bugs-checklist",
-    "/blog/best-bed-bug-steamer-canada",
-    "/blog/how-to-get-rid-of-bed-bugs-in-apartment-canada"
+    "/blog/how-to-get-rid-of-bed-bugs-in-apartment-canada",
+    "/blog/what-kills-bed-bugs-instantly-canada"
    ]
   },
   "/blog/bed-bug-spray-canada": {
@@ -723,6 +723,20 @@
     "/blog/how-to-get-rid-of-bed-bugs-yourself-diy-canada"
    ]
   },
+  "/blog/best-bed-bug-spray": {
+   "next": "/blog/how-to-get-rid-of-bed-bugs",
+   "related": [
+    "/blog/does-alcohol-kill-bed-bugs",
+    "/blog/does-lysol-kill-bed-bugs",
+    "/blog/bat-bugs"
+   ],
+   "cards": [
+    "/blog/signs-of-bed-bugs-checklist",
+    "/blog/best-bed-bug-trap-canada",
+    "/blog/how-to-kill-bed-bug-eggs-canada"
+   ],
+   "bar": true
+  },
   "/blog/best-bed-bug-spray-for-mattress-canada": {
    "next": "/blog/doktor-doom-sleep-tight-review-canada",
    "related": [
@@ -800,6 +814,20 @@
     "/blog/how-to-keep-spiders-out-of-your-house",
     "/blog/best-flea-spray-for-home-canada"
    ]
+  },
+  "/blog/best-cockroach-gel-bait": {
+   "next": "/blog/how-to-get-rid-of-cockroaches",
+   "related": [
+    "/blog/cockroach-droppings",
+    "/blog/white-cockroach",
+    "/blog/wood-roaches"
+   ],
+   "cards": [
+    "/blog/palmetto-bugs",
+    "/learn/cockroaches",
+    "/blog/can-cockroaches-fly"
+   ],
+   "bar": true
   },
   "/blog/best-cockroach-killer-canada": {
    "next": "/blog/best-roach-traps-canada",
@@ -970,6 +998,20 @@
     "/blog/how-to-get-rid-of-carpet-beetles-canada"
    ]
   },
+  "/blog/best-flea-spray-for-home": {
+   "next": "/blog/what-do-fleas-look-like",
+   "related": [
+    "/blog/bugs-in-carpet",
+    "/blog/carpet-beetle-larvae",
+    "/blog/carpet-beetle-rash"
+   ],
+   "cards": [
+    "/blog/how-to-get-rid-of-carpet-beetles",
+    "/blog/springtails",
+    "/blog/booklice"
+   ],
+   "bar": true
+  },
   "/blog/best-flea-spray-for-home-canada": {
    "next": "/blog/best-flea-bomb-canada",
    "related": [
@@ -995,6 +1037,20 @@
     "/blog/black-flies-mississauga-toronto-gta-2026",
     "/blog/deer-flies-horse-flies-ontario"
    ]
+  },
+  "/blog/best-fruit-fly-traps": {
+   "next": "/blog/fruit-flies",
+   "related": [
+    "/blog/how-to-get-rid-of-drain-flies",
+    "/blog/flies-in-house",
+    "/blog/how-to-get-rid-of-gnats"
+   ],
+   "cards": [
+    "/blog/best-commercial-fly-light-trap-canada",
+    "/blog/electric-fly-swatter",
+    "/blog/how-to-get-rid-of-fruit-flies"
+   ],
+   "bar": true
   },
   "/blog/best-gas-backpack-fogger-canada": {
    "next": "/blog/field-king-backpack-sprayer-review-canada",
@@ -1242,6 +1298,20 @@
     "/blog/how-to-get-rid-of-rats-canada",
     "/blog/peppermint-oil-for-mice"
    ]
+  },
+  "/blog/best-rat-traps": {
+   "next": "/blog/mice-traps",
+   "related": [
+    "/blog/rat-nest",
+    "/blog/how-long-do-rats-live",
+    "/blog/roof-rat-vs-norway-rat"
+   ],
+   "cards": [
+    "/blog/fall-mouse-proofing-checklist",
+    "/blog/rat-droppings",
+    "/learn/mice"
+   ],
+   "bar": true
   },
   "/blog/best-roach-traps-canada": {
    "next": "/blog/best-cockroach-spray-canada",
@@ -2845,7 +2915,7 @@
    "bar": true
   },
   "/blog/flea-bites-on-humans": {
-   "next": "/blog/what-does-a-spider-bite-look-like",
+   "next": "/blog/best-flea-spray-for-home-canada",
    "related": [
     "/blog/earwig-traps-indoor-canada",
     "/blog/how-to-get-rid-of-boxelder-bugs-canada",
@@ -5380,6 +5450,20 @@
     "/blog/best-live-animal-trap-canada",
     "/blog/best-raccoon-proof-roof-vent-covers-canada"
    ]
+  },
+  "/blog/raccoon-repellent": {
+   "next": "/blog/raccoon-poop",
+   "related": [
+    "/blog/animals-in-attic",
+    "/blog/animal-droppings",
+    "/blog/holes-in-yard"
+   ],
+   "cards": [
+    "/blog/squirrel-poop",
+    "/blog/best-live-animal-trap-canada",
+    "/blog/motion-activated-sprinkler-canada"
+   ],
+   "bar": true
   },
   "/blog/rain-barrel-mosquito-proof-canada": {
    "next": "/blog/mosquito-dunks-canada-guide",

@@ -14,6 +14,7 @@ import RelatedLinks from '@/components/RelatedLinks'
 import Photo from '@/components/Photo'
 import QuickIdTable from '@/components/QuickIdTable'
 import ConfusedWith from '@/components/ConfusedWith'
+import UsAmazonLine from '@/components/UsAmazonLine'
 
 const SLUG = 'what-does-a-tick-bite-look-like'
 const DATE = '2026-07-15'
@@ -212,6 +213,7 @@ export default function WhatDoesATickBiteLookLikePage() {
         />
         <p>If the body separates during removal and the mouthparts stay behind, do not dig at the skin &mdash; see <Link href="/blog/tick-head-stuck-in-skin">what to do if a tick&rsquo;s head is stuck in the skin</Link>. A dedicated tick-removal kit makes a clean, straight pull far easier than fumbling with wide household tweezers, and is worth keeping in a first-aid bag if you spend time in tick country.</p>
         <AffiliateDisclosure />
+        <UsAmazonLine name="Tick removal tool kit" search="tick removal tool kit" />
         <TopPick tag={AMZ_TAG}
           label="Our Top Pick for Removal"
           name="Tick Remover Kit (fine-tip + hook set)"
@@ -362,7 +364,7 @@ export default function WhatDoesATickBiteLookLikePage() {
 
       </article>
 
-      <StickyBuyBar tag={AMZ_TAG} name="Tick remover kit (fine-tip + hook)" search="tick removal kit" label="For removal" />
+      <StickyBuyBar usSearch="tick removal tool kit" tag={AMZ_TAG} name="Tick remover kit (fine-tip + hook)" search="tick removal kit" label="For removal" />
 
       <ReadNext path="/blog/what-does-a-tick-bite-look-like" standalone />
     </>

@@ -12,6 +12,7 @@ import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
 import Photo from '@/components/Photo'
 import { shareImage } from '@/lib/photos'
+import UsAmazonLine from '@/components/UsAmazonLine'
 
 const SLUG = 'why-do-mosquitoes-bite-my-ankles'
 const DATE = '2026-07-16'
@@ -118,6 +119,7 @@ export default function WhyMosquitoesBiteAnklesPage() {
       <section className="px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <AffiliateDisclosure />
+          <UsAmazonLine name="Picaridin insect repellent" search="picaridin insect repellent" />
           <p className="not-prose text-[15px] text-gray-700 leading-relaxed my-4">The one purchase in the fix list below is a knee-down repellent, and for ankles most families here reach for an <strong>icaridin</strong> (picaridin) spray &mdash; it is odourless and does not soften sandal straps or watch bands the way DEET can. Check the PCP registration number and follow the age directions on the label. <BuyLink tag={AMZ_TAG} search="icaridin insect repellent">Check price on Amazon.ca &rarr;</BuyLink></p>
         </div>
       </section>
@@ -279,7 +281,7 @@ export default function WhyMosquitoesBiteAnklesPage() {
       </article>
 
       <ReadNext path="/blog/why-do-mosquitoes-bite-my-ankles" standalone />
-      <StickyBuyBar tag={AMZ_TAG} name="Icaridin insect repellent" search="icaridin insect repellent" label="For your ankles" />
+      <StickyBuyBar usSearch="picaridin insect repellent" tag={AMZ_TAG} name="Icaridin insect repellent" search="icaridin insect repellent" label="For your ankles" />
     </>
   )
 }

@@ -12,6 +12,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import Photo from '@/components/Photo'
 import QuickIdTable from '@/components/QuickIdTable'
 import ConfusedWith from '@/components/ConfusedWith'
+import UsAmazonLine from '@/components/UsAmazonLine'
 
 const SLUG = 'tick-bites-that-wont-heal-when-to-worry'
 const AMZ_TAG = tagForSlug('tick-bites-that-wont-heal-when-to-worry')
@@ -89,6 +90,7 @@ export default function TickBitesThatWontHealWhenToWorryPage() {
         {/* Service arm first: the quote CTA and phone number sit above every affiliate element on this page. */}
 
         <AffiliateDisclosure />
+        <UsAmazonLine name="Tick removal tool kit" search="tick removal tool kit" />
 
         <div className="not-prose my-6 rounded-2xl border border-navy-100 bg-white p-5 shadow-sm">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">What to do right now</p>
@@ -199,7 +201,7 @@ export default function TickBitesThatWontHealWhenToWorryPage() {
       </article>
 
       <ReadNext path="/blog/tick-bites-that-wont-heal-when-to-worry" standalone />
-      <StickyBuyBar tag={AMZ_TAG} name="Tick-removal tool kit" search="tick removal tool tweezers" label="For removal" />
+      <StickyBuyBar usSearch="tick removal tool kit" tag={AMZ_TAG} name="Tick-removal tool kit" search="tick removal tool tweezers" label="For removal" />
     </>
   )
 }

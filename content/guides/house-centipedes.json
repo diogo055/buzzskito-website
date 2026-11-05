@@ -111,6 +111,13 @@
       "**Remove the ones you see.** Washington State University and the University of Kentucky both suggest a vacuum."
     ] },
     { "type": "p", "text": "Give it time. Kentucky notes that centipede problems often coincide with excessively wet weather and that patience and drier conditions often correct them." },
+    { "type": "picks", "title": "Sealing, drying and monitoring gear", "items": [
+      { "label": "For exterior doors", "name": "Door sweep", "search": "door sweep", "why": "Kentucky adds tight-fitting door sweeps or thresholds on exterior doors to the sealing work, and the same work keeps out the insects house centipedes hunt." },
+      { "label": "To see what they are eating", "name": "Sticky insect monitors", "search": "sticky insect monitor traps", "why": "Penn State suggests sticky insect traps, also called monitors, set around the house to show which other pests are feeding the centipedes. Then treat that pest directly." },
+      { "label": "For a damp crawl space", "name": "Polyethylene crawl space vapor barrier", "search": "crawl space vapor barrier", "why": "Kentucky recommends ventilation, sump pumps and polyethylene soil covers for damp crawl spaces and basements, and Penn State lists damp, cool crawl spaces among the places house centipedes hide." },
+      { "label": "For basement floor drains", "name": "Window screen mesh", "search": "window screen mesh roll", "why": "Penn State says to put window screen in basement floor drains so centipedes cannot come up from dry sumps, and to seal sump pump covers with screen and caulk." },
+      { "label": "For slab and wall cracks", "name": "Concrete crack sealant", "search": "concrete crack sealant", "why": "Penn State says to fill or seal cracks and crevices in concrete slabs and block walls with appropriate fillers, and Kentucky adds expansion joints and gaps along the bottom of basement walls; house centipedes reach the house from under slabs through expansion cracks." }
+    ] },
 
     { "type": "h2", "text": "Do you need an insecticide for house centipedes?" },
     { "type": "p", "text": "Usually not. UC IPM says that although some pesticides are labeled for controlling centipedes, using them is rarely justified, and Washington State University recommends no chemical treatment for house centipedes. An insecticide also leaves the damp and the prey that drew them in where they were." },

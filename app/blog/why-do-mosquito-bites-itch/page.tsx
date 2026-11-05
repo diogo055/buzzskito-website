@@ -14,6 +14,7 @@ import RelatedLinks from '@/components/RelatedLinks'
 import Photo from '@/components/Photo'
 import QuickIdTable from '@/components/QuickIdTable'
 import ConfusedWith from '@/components/ConfusedWith'
+import UsAmazonLine from '@/components/UsAmazonLine'
 
 const SLUG = 'why-do-mosquito-bites-itch'
 const DATE = '2026-07-15'
@@ -253,6 +254,7 @@ export default function WhyDoMosquitoBitesItchPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <AffiliateDisclosure />
+          <UsAmazonLine name="Hydrocortisone 1% anti-itch cream" search="hydrocortisone 1% anti itch cream" />
 
           <div className="not-prose my-6 rounded-2xl border border-navy-100 bg-white p-5 shadow-sm">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">What to do right now</p>
@@ -599,7 +601,7 @@ export default function WhyDoMosquitoBitesItchPage() {
       </article>
 
       <ReadNext path="/blog/why-do-mosquito-bites-itch" standalone />
-      <StickyBuyBar tag={AMZ_TAG} name="Anti-itch cream for bites" search="hydrocortisone anti itch cream" label="For the itch" />
+      <StickyBuyBar usSearch="hydrocortisone 1% anti itch cream" tag={AMZ_TAG} name="Anti-itch cream for bites" search="hydrocortisone anti itch cream" label="For the itch" />
     </>
   )
 }

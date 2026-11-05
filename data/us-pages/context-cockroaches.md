@@ -36,6 +36,8 @@
 
 - `/blog/wood-roaches` — **wood roach** (also: wood roaches; wood cockroach; wood cockroaches; pennsylvania wood cockroach; wood roach vs cockroach; wood roaches in house; are wood roaches harmful; do wood roaches infest homes; can wood roaches fly). Species page for "wood roach" (two thin university pages and brands on page one: page one is realistic, the top 3 needs links). The reader found a brown roach indoors, often in spring, near firewood or under a porch light, or a winged one that flew to a light, and wants to know whether it means an infestation. Quick answer: wood cockroaches (Parcoblatta, twelve North American species; the Pennsylvania wood cockroach is the most common) live outdoors under loose bark, in woodpiles and leaf litter; males have full wings and fly to lights; indoors they die within days and do not breed, so one is a nuisance, not an infestation, and pesticides are neither necessary nor recommended (Penn State Extension, University of Kentucky, Iowa State, University of Minnesota). Then: how to identify one (photos of male and female: males with long wings, females with short wings and a broad abdomen; pale edges on the wings and shield in some species; sizes up to about 1 inch; nymphs); wood roach vs German, American and Oriental cockroaches (a quick-ID facts table: size, color, wings, where found, breeds indoors or not; cards); why they come inside (lights at night, firewood brought in for winter, gaps around doors and windows: Kentucky, Penn State); when (at the sources' strength); are they harmful (not a known disease carrier, do not infest food or belongings: University of Minnesota); and what to do (exclusion: seal gaps and fit door sweeps, keep firewood outdoors and bring in only what you will burn, switch off or change outdoor lights; no sprays, as Penn State says). Leave to other pages: palmetto bugs and the Florida woods cockroach (/blog/palmetto-bugs), can cockroaches fly (/blog/can-cockroaches-fly), bugs that look like cockroaches (that page), baby cockroaches. Links: /learn/cockroaches and /blog/bugs-that-look-like-cockroaches (mustLink), /blog/can-cockroaches-fly, /blog/palmetto-bugs, /blog/where-do-cockroaches-come-from, /blog/german-cockroaches. Not linked: the frozen and amazon.ca pages. No quote prompt.
 
+- `/blog/best-cockroach-gel-bait` — **cockroach gel bait** (also: roach gel bait; best roach gel; advion cockroach gel bait; advion roach gel; how to use roach gel bait; cockroach bait). US edition of /blog/advion-cockroach-gel-bait, written fresh for US shoppers: US products and EPA registration (never Canadian PCP numbers or Canadian retailers), US spelling, no prices or star ratings. A buying guide: a short answer naming the best product types first; a "picks" block of 3-6 picks, each a product the text itself recommends with a one-line reason; a comparison table; how to choose; how to use it safely (label is the law); what it will not do; when to call a professional; 8-10 FAQs; sources (EPA, university extension, manufacturer labels). No testing claims: we did not test products. The top pick also goes in lib/amazon-us-picks.json.
+
 ## Pillars (hub pages)
 
 - `/learn/bed-bugs` — the complete bed bugs reference
@@ -476,6 +478,11 @@
 - `/blog/dust-mite-bites` — dust mite bites
 - `/blog/skunk-smell-in-house` — skunk smell in house
 - `/blog/tiny-red-bugs` — tiny red bugs
+- `/blog/best-fruit-fly-traps` — fruit fly trap
+- `/blog/best-rat-traps` — rat traps
+- `/blog/best-bed-bug-spray` — bed bug spray
+- `/blog/best-flea-spray-for-home` — flea spray for house
+- `/blog/raccoon-repellent` — raccoon repellent
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

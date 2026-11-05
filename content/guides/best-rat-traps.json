@@ -1,0 +1,226 @@
+{
+  "slug": "best-rat-traps",
+  "kind": "spoke",
+  "cluster": "mice",
+  "keyword": "rat traps",
+  "alsoTargets": [
+    "rat trap",
+    "best rat trap",
+    "best rat traps",
+    "electric rat trap",
+    "rat zapper",
+    "snap rat trap"
+  ],
+  "metaTitle": "Best Rat Traps: Snap vs Electric vs Live",
+  "metaDescription": "The best rat trap for most homes is a rat-size snap trap set along the wall. Electric, live and glue traps compared, plus bait, placement and cleanup.",
+  "h1": "Best Rat Traps: Snap, Electric and Live Traps Compared",
+  "dek": "Which rat traps CDC and university extension services recommend, how electric traps such as the Rat Zapper compare, why glue and live traps are a poor choice, and how to set traps so rats get caught.",
+  "breadcrumb": "Best Rat Traps",
+  "excerpt": "Rat-size snap traps, electric traps and live traps compared: which to buy, how many to set, where to put them, and why glue boards and loose poison are out.",
+  "datePublished": "2026-11-05",
+  "parent": { "href": "/learn/mice", "name": "Mice" },
+  "quickAnswer": {
+    "lead": "**For most homes, the best rat trap is a rat-size snap trap, set several at a time along the walls where rats run.** The [University of California's pest note on rats](https://ipm.ucanr.edu/home-and-landscape/rats/) calls snap traps the most effective and most economical way to trap rats. If you never want to see or touch the catch, an electronic rat trap works indoors.",
+    "bullets": [
+      "Buy traps made for rats: [NC State Extension](https://content.ces.ncsu.edu/surveillance-and-management-of-common-structure-invading-rats) says mouse snap traps are typically not an effective tool against them.",
+      "Leave traps baited but unset until the bait has been taken several times, then set them all; a heavily infested home may need a dozen or more, about 10 to 20 feet apart (UC IPM).",
+      "Victor says its [M241B electronic rat trap](https://www.victorpest.com/victor-electronic-rat-trap-m241b) kills up to 35 rats per set of four AA batteries, one per setting, and is for indoor use only.",
+      "[CDC](https://www.cdc.gov/healthy-pets/rodent-control/trap-up.html) says not to use glue traps or live traps, which can scare rodents into urinating and raise your chance of getting sick.",
+      "Rat poison sold to consumers comes as ready-to-use bait stations, and pelleted baits are no longer allowed in consumer products, the [EPA](https://www.epa.gov/rodenticides/restrictions-rodenticide-products) says."
+    ]
+  },
+  "facts": {
+    "title": "Rat traps at a glance",
+    "rows": [
+      ["Best for most homes", "Rat-size snap traps, wood or plastic"],
+      ["No-see, no-touch", "Electronic rat trap, indoors only"],
+      ["Pets or children at home", "Snap traps inside a box made to hold them, out of reach"],
+      ["Roof rats", "Some traps off the floor: ledges, shelves, pipes, beams"],
+      ["How many", "A dozen or more for a heavy infestation"],
+      ["Spacing", "About 10 to 20 feet apart, along walls"],
+      ["Bait", "A pea-sized dab of peanut butter, nuts, dried fruit, bacon or dry pet food"],
+      ["First catch", "Can take up to a week, because rats avoid new objects"],
+      ["Skip", "Glue boards, live traps, mouse-size traps and loose poison"]
+    ],
+    "caption": "Drawn from UC IPM's pest note on rats, CDC's trapping guide, NC State Extension and Victor's product pages, all linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "Our picks at a glance" },
+    { "type": "p", "text": "These picks follow the sources, not testing. Rat-size snap traps are this page's main recommendation, explained in the next section; the picks below are each a trap or tool that CDC, the University of California's IPM program or NC State Extension recommends for the rest of the job, or a trap whose maker publishes its specifications, and none is a glue board or a poison." },
+    { "type": "picks", "title": "Rat trap picks", "items": [
+      { "label": "No-see, no-touch, indoors", "name": "Victor Electronic Rat Trap", "search": "victor electronic rat trap", "why": "Victor says the M241B kills up to 35 rats per set of four AA batteries and that you empty the catch into the trash without touching it. Indoors only. Victor's FAQ for the earlier M241 says that model should not be used around children or pets, and CDC says to keep all traps out of their reach." },
+      { "label": "Pets, children or birds nearby", "name": "Rat snap trap cover box", "search": "rat snap trap cover", "why": "NC State Extension says snap traps can go in cardboard or plastic boxes designed to hold them, and UC IPM says to use boxes or stations wherever animals you do not want to catch might reach a trap. Choose a cover made for a snap trap, not a poison bait station." },
+      { "label": "To plug small gaps", "name": "Copper mesh for gaps", "search": "copper mesh rodent", "why": "NC State Extension says copper mesh is compressible and does not rust, and that adult rats can get through gaps of 1/2 inch. Pack it into gaps around pipes and wires and lock it in with caulk, the method CDC gives for steel wool." },
+      { "label": "For vents and larger openings", "name": "1/4-inch galvanized hardware cloth", "search": "1/4 inch galvanized hardware cloth", "why": "NC State Extension says to screen attic and crawl space vents with 1/4-inch-mesh hardware cloth, and CDC lists hardware cloth among the materials for fixing larger holes. UC IPM says never to use lightweight chicken wire." },
+      { "label": "For handling and cleanup", "name": "Disposable gloves", "search": "disposable gloves", "why": "UC IPM says to handle dead rats with disposable gloves, never bare hands, and CDC's cleanup steps start with rubber or plastic gloves before you disinfect a trap, a dead rat or droppings." }
+    ] },
+
+    { "type": "h2", "text": "What is the best rat trap?" },
+    { "type": "p", "text": "A rat-size snap trap is the best choice for most homes, and the sources agree on it. [UC IPM's pest note on rats](https://ipm.ucanr.edu/home-and-landscape/rats/) calls snap traps the most effective and most economical way to trap rats, and [CDC's trapping guide](https://www.cdc.gov/healthy-pets/rodent-control/trap-up.html) recommends traditional snap traps to reduce rodents around the home. Traps are one part of a routine: CDC's seal up, trap up and clean up steps cover rats and mice alike, and [the mice control hub](/learn/mice) walks through them in order." },
+    { "type": "figure", "src": "/guides/photos/rat-trap-vs-mouse-trap-size.webp", "width": 1200, "height": 900, "alt": "Two wooden snap traps on a gray surface: a large rat trap with a wide wire bar above a much smaller mouse trap, showing the size difference", "caption": "A rat snap trap (top) beside a mouse snap trap (bottom). The bigger trap and spring matter: NC State Extension says mouse snap traps are typically not an effective tool against rats.", "license": "public-domain", "credit": "Capt. Phœbus (talk), Public domain, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rattrap_and_mousetrap.JPG" },
+    { "type": "p", "text": "Size is the first thing to get right. [NC State Extension's guide to structure-invading rats](https://content.ces.ncsu.edu/surveillance-and-management-of-common-structure-invading-rats) describes rat snap traps as made specifically for rats, with stronger springs and larger bars, and says mouse snap traps are typically not an effective tool against them. CDC makes the same point: there are different traps for mice and rats. If you are not sure which animal you have, [how to tell a rat from a mouse](/blog/rat-vs-mouse) starts with the tail, ears and droppings, and [the mouse trap guide](/blog/mice-traps) covers the smaller traps." },
+    { "type": "p", "text": "Style matters less than most shoppers expect. UC IPM says rat snap traps come in wood or plastic, with larger or expanded triggers or with bait cups, and that finding the best places to set traps may matter more than which type you use. That is why this guide spends more words on placement than on brands." },
+
+    { "type": "h2", "text": "How do the main types of rat trap compare?" },
+    { "type": "p", "text": "Snap traps do the most work for most homes, electric traps suit a rat or two indoors, and live traps, glue boards and poison all come with warnings from CDC and UC IPM. Traps themselves are not pesticides. [EPA's guide to pest control devices](https://www.epa.gov/safepestcontrol/pesticide-devices-guide-consumers) says federal law does not require devices to be registered, and it lists devices that trap vertebrate animals, such as mouse snap traps, among the exceptions to its device rules, so a rat trap carries no EPA registration number. A bait station is different, because the bait inside is a registered pesticide." },
+    { "type": "table", "head": ["Trap", "How it works", "Best fit", "What the sources warn"], "rows": [
+      ["Rat-size snap trap, wood or plastic", "A spring bar kills the rat when it moves the trigger", "Most homes, garages and crawl spaces, several set at once", "Powerful enough to hurt a finger (NC State); keep out of reach of children and pets (CDC)"],
+      ["Snap trap in a covered box", "The same trap inside a cardboard or plastic box made to hold it", "Homes with pets or children, and outdoors", "Rats may avoid any new object at first, so allow up to a week (NC State)"],
+      ["Electronic trap", "A battery-powered, high-voltage shock inside a chamber", "A rat or two indoors when you do not want to touch the catch", "Indoors only (Victor); considerably more expensive than other traps and still needs pre-baiting (UC IPM)"],
+      ["Live cage trap", "A wire cage closes on the rat without killing it", "Not recommended for nonprofessionals (UC IPM)", "Can scare rodents into urinating (CDC); strict release rules (UC IPM, NC State)"],
+      ["Glue board", "An adhesive sheet holds the rat in place", "Not generally recommended for nonprofessional use (UC IPM)", "Advised against by CDC; slow death (NC State); banned in some cities"],
+      ["Poison bait station", "A ready-to-use station holding rodenticide bait", "Only infestations that persist (CDC)", "All rodent baits are toxic to dogs and cats (UC IPM); follow the label"]
+    ], "caption": "Sources: UC IPM, CDC, NC State Extension, Victor, EPA and the glue trap sources below, each linked on this page." },
+
+    { "type": "h2", "text": "Which rat trap should you buy for your situation?" },
+    { "type": "p", "text": "Work out which rat you have, where it is, and who else shares the space; those three answers decide the trap and where it goes." },
+    { "type": "h3", "text": "Norway rat or roof rat?" },
+    { "type": "p", "text": "UC IPM says Norway rats live throughout the 48 contiguous states, burrow along foundations, under woodpiles and around gardens, and indoors usually stay in basements and on ground floors. Roof rats nest above ground, in trees, dense plants, attics, wall voids and ceilings. The [Internet Center for Wildlife Damage Management](https://icwdm.org/species/rodents/rats/roof-rats/) (ICWDM) places roof rats along the lower half of the East Coast, through the Gulf states north into Arkansas, along the Pacific Coast and in Hawaii, and says most interior states are free of them. [Roof rat vs Norway rat](/blog/roof-rat-vs-norway-rat) shows how to tell the two apart." },
+    { "type": "figure", "src": "/guides/photos/norway-rat.webp", "width": 1200, "height": 1100, "alt": "Brown Norway rat in dry leaves and twigs, side view, with a heavy body, small ears, a blunt snout and a thick dark tail", "caption": "A Norway rat in plant debris in King County, Washington: a heavy body, small ears and a thick tail. Set traps for this rat low, along walls.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/379572541" },
+    { "type": "p", "text": "The answer changes where traps go more than which trap you buy. UC IPM says traps for roof rats belong both on the ground and above it, on ledges, shelves, branches, fences, pipes or overhead beams, and ICWDM names attic and garage rafters close to the activity as the best trapping sites in a home." },
+    { "type": "figure", "src": "/guides/photos/roof-rat.webp", "width": 1200, "height": 900, "alt": "Slim gray-brown roof rat on a weathered bird-feeder platform scattered with seed, with large ears, a large dark eye and a long tail behind it", "caption": "A roof rat on a bird-feeder platform in Jacksonville, Florida. Roof rats climb, so set some traps off the ground.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/358657107" },
+    { "type": "h3", "text": "Indoors, garage or yard?" },
+    { "type": "p", "text": "Snap traps can go outdoors inside a box or station; the electronic traps covered here cannot go outdoors at all. Victor lists both of the models below as indoor use only, and [Victor's support FAQ for its earlier M241 electronic rat trap](https://www.victorpest.com/customer-support/m241/faqs) says an electronic trap cannot be used outdoors because its batteries and electronics cannot be exposed to the elements, and that damp indoor spots may stop it working. Outdoors, UC IPM says to put traps in boxes or stations wherever animals you do not want to catch might reach them, and notes that trapping at night can cut down on run-ins with birds." },
+    { "type": "h3", "text": "Pets or children in the house?" },
+    { "type": "p", "text": "Choose the spot first, then the hardware. CDC says to always keep traps and bait out of reach of children and pets. NC State Extension says to avoid snap traps where children, pets or other animals can reach them, or to put them in cardboard or plastic boxes designed to hold snap traps, and it warns that rat snap traps are very powerful, so keep your fingers clear when you set one." },
+    { "type": "media", "needed": "A rat-size snap trap set inside a covered plastic trap box against a garage or basement wall, lid open to show the trap, with a ruler marked in inches for scale (public domain or CC0)" },
+    { "type": "h3", "text": "How many traps?" },
+    { "type": "p", "text": "Plan on several. UC IPM says a heavily infested home might need a dozen or more traps, placed about 10 to 20 feet apart, and that if the bait disappears from every trap while you pre-bait, you should double the number of baited traps until some are left untouched." },
+
+    { "type": "h2", "text": "Are electric rat traps and the Rat Zapper worth it?" },
+    { "type": "p", "text": "They suit a rat or two indoors when you do not want to see or touch the catch; they are not built for a large infestation, and the Victor models below are for indoor use only. UC IPM calls electric traps considerably more expensive than other traps and says they still need pre-baiting and frequent checks. These are the specifications Victor publishes:" },
+    { "type": "ul", "items": [
+      "**Victor Electronic Rat Trap (M241B).** The [M241B product page](https://www.victorpest.com/victor-electronic-rat-trap-m241b) lists up to 35 rats per set of four AA batteries and one kill per setting, a green light that flashes every 10 seconds for up to a week after a catch, and indoor use only. Bait goes on the rear plate, and the trap is placed along a wall near signs of rats.",
+      "**Rat Zapper Classic (RZC001-4).** The [Rat Zapper Classic page](https://www.victorpest.com/rat-zapper-classic-rat-trap-rzc001-4) lists up to 20 rats per set of four AA batteries, one kill per setting, a shock applied for 2 minutes and a blinking green light after a catch. Victor says it is for mice and average-size rats, indoors only.",
+      "**The earlier M241.** Victor's support FAQ for the original model gives 6,000 volts per shock and up to 50 rats on a set of four C batteries, and says its open tunnel design means it should not be used around children or pets."
+    ] },
+    { "type": "media", "needed": "A battery-powered electronic rat trap set along a kitchen or basement wall, showing the tunnel entrance and the indicator light, with no brand logo prominent (public domain or CC0)" },
+    { "type": "p", "text": "Because each trap kills one rat per setting and a heavy infestation can call for a dozen or more traps, an electric trap works best as a supplement to snap traps rather than the whole plan. To empty one, Victor says to switch it off and tip the rat into the trash; wear gloves anyway, as the cleanup steps below explain." },
+
+    { "type": "h2", "text": "How do you set a rat trap so it catches?" },
+    { "type": "p", "text": "Put traps where rats already travel, let the rats get used to them, then set every trap on the same night." },
+    { "type": "ol", "items": [
+      "**Find the runways.** NC State Extension says to set traps along walls and rat runways where you have seen droppings or other signs; [what rat droppings look like](/blog/rat-droppings) helps you read those signs.",
+      "**Place each trap against the wall.** UC IPM says to set traps at right angles to the wall with the trigger end nearly touching it, or in pairs if they sit parallel to the wall. CDC describes the same T shape, with the baited end next to the wall, in closed areas such as behind the stove and refrigerator.",
+      "**Bait lightly.** UC IPM suggests nuts, dried fruit, bacon, dry pet food or peanut butter, only a pea-sized amount, and says dry bait can be tied to the trigger with string, thread or fine wire. CDC says chunky peanut butter or mutton fat works best.",
+      "**Pre-bait.** Leave the traps baited but unset until the bait has been taken several times, then bait and set them all, as UC IPM advises.",
+      "**Make the trigger sensitive** so it springs easily, another UC IPM point.",
+      "**Go high for roof rats** with traps on ledges, shelves, pipes and beams as well as on the floor.",
+      "**Check traps daily** and remove dead rats right away, CDC says. If nothing is caught for a week and there are no new signs, CDC says the rats are gone."
+    ] },
+    { "type": "figure", "src": "/guides/photos/snap-traps-set-against-wall.webp", "width": 1200, "height": 900, "alt": "Two wooden snap traps with yellow plastic triggers set side by side on a white ledge, baited trigger ends toward a torn fabric wall, a few droppings behind them", "caption": "Two snap traps set side by side with their baited trigger ends toward the wall, on a ledge where droppings show rodents travel. Photo from the New York State IPM Program at Cornell University.", "license": "CC-BY-2.0", "credit": "NY State IPM Program at Cornell University from New York, USA, CC BY 2.0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Setting_a_Trap_(10069468985).jpg" },
+    { "type": "p", "text": "Be patient for the first week. NC State Extension says rats fear new things, may avoid traps when they first appear, and that it could take up to a week to begin catching them. Meanwhile, take away food that competes with your bait: UC IPM says to keep garbage in containers with tight-fitting covers and compost in rigid plastic or metal containers with tight lids, and [a closer look at rat-resistant compost bins](/blog/rodent-proof-compost-bin-canada) covers the bin itself." },
+
+    { "type": "h2", "text": "How do you handle traps and dead rats without getting sick?" },
+    { "type": "p", "text": "Wear gloves, keep your face away from the rat and the droppings, and clean up wet, never dry." },
+    { "type": "ul", "items": [
+      "**Gloves every time.** UC IPM says to use disposable gloves to handle dead rodents and never touch them with bare hands, then bury the rat or seal it in a plastic bag for the trash.",
+      "**Air the room first.** [CDC's cleanup steps](https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html) say to open doors and windows for 30 minutes before cleaning, wear rubber or plastic gloves, and never sweep or vacuum droppings, urine or nesting material.",
+      "**Soak, then wipe.** CDC's mix is 1.5 cups of household bleach in 1 gallon of water (1 part bleach to 9 parts water), left to soak for 5 minutes or as the disinfectant label directs.",
+      "**Bag it twice.** CDC says to spray the rat, nest or droppings, put them in a plastic bag with any used traps, double-bag and seal it, and put it in a covered garbage can.",
+      "**Reuse snap traps.** CDC says a traditional snap trap can be reused: with gloves on, submerge the trap and rat in disinfectant for 5 minutes, then rinse the trap and let it dry completely.",
+      "**Wash your hands** with soap and warm water after you take the gloves off, as CDC advises."
+    ] },
+    { "type": "p", "text": "The care is about disease. UC IPM lists typhus, leptospirosis, foodborne illnesses such as salmonella, and rat bite fever among the diseases rats can spread. A [CDC report on a 2017 outbreak](https://www.cdc.gov/mmwr/volumes/67/wr/mm6704a5.htm) names the Norway rat as the natural reservoir of Seoul virus, a hantavirus people can catch through contact with infected rats' urine, droppings or saliva, or by breathing it in dust from contaminated bedding. In the US, the [most common hantavirus behind hantavirus pulmonary syndrome](https://www.cdc.gov/hantavirus/about/index.html) is spread by the deer mouse, CDC says. UC IPM adds that the rats and mice that live around buildings do not carry or transmit rabies." },
+
+    { "type": "h2", "text": "Why not glue traps or live traps?" },
+    { "type": "p", "text": "Both are on CDC's do-not-use list. CDC says not to use glue traps or live traps because they can scare rodents into urinating, which can increase your chance of getting sick." },
+    { "type": "h3", "text": "Glue boards" },
+    { "type": "p", "text": "UC IPM calls glue boards difficult to use and not generally recommended for nonprofessional use, and says they should never be used outdoors, where wild animals can get stuck. NC State Extension notes the long time to death for rats caught on them. Some places now restrict them. A handful of California cities have banned their sale and use: a March 2026 [Berkeley City Council referral](https://berkeleyca.gov/sites/default/files/2026-03/2026-03-24%20Item%2020%20Referral%20to%20the%20City%20Manager%20Banning.pdf) names West Hollywood, Ojai and Culver City, and [Culver City's ban](https://www.culvercity.gov/Services/Environmental-Programs/Sustainability-Policy-Updates-and-Restrictions) took effect on November 26, 2025. Abroad, England's [Glue Traps (Offences) Act 2022](https://www.legislation.gov.uk/ukpga/2022/26/section/1) made it an offense, from July 31, 2024, to set a glue trap to catch a rodent without a license." },
+    { "type": "h3", "text": "Live cage traps" },
+    { "type": "p", "text": "UC IPM says live trapping of rats is not recommended for nonprofessionals, that a trapped rat must be euthanized or released immediately where it was caught, and that releasing rats is not recommended because they continue to pose health concerns. NC State Extension adds that live traps give a caught rat no food or water, that traps should be checked daily, and that in some areas it is illegal to release captured rodents on someone else's property." },
+    { "type": "figure", "src": "/guides/photos/young-norway-rats-live-trap.webp", "width": 1200, "height": 863, "alt": "Two young brown Norway rats inside a black wire cage trap with straw, on wet pavement", "caption": "Two young Norway rats in a wire live trap in New Jersey; the observer caught 10 over two nights. A cage trap leaves you holding live rats, one reason UC IPM does not recommend live trapping for nonprofessionals.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/58897792" },
+
+    { "type": "h2", "text": "What about rat poison and bait stations?" },
+    { "type": "p", "text": "Poison is a last step, not a first one. CDC says to use poison or bait stations only for rat and mouse infestations that persist, and that poison baits can be dangerous for people and animals and must be used according to the label. NC State Extension says never to use exposed rodenticide baits and that rodenticides are best handled by pest management professionals." },
+    { "type": "p", "text": "Federal rules keep loose poison out of consumer products. The [EPA's rodenticide restrictions](https://www.epa.gov/rodenticides/restrictions-rodenticide-products) say the rodenticides on the consumer market are ready-to-use bait stations, that pelleted baits are no longer permitted in consumer products, and that second-generation anticoagulants are registered only for commercial and structural pest control. California goes further: UC IPM says six anticoagulants, including brodifacoum and diphacinone, cannot be applied in most areas of the state. [Mice poison explained](/blog/mice-poison) covers the active ingredients and their risks." },
+    { "type": "p", "text": "Bait carries risks a trap does not. UC IPM says all rodent baits are toxic to dogs and cats, that most pet deaths from them involve dogs, and that pets should be kept away from both baits and dead rodents." },
+    { "type": "figure", "src": "/guides/photos/tamper-resistant-bait-station.webp", "width": 1200, "height": 900, "alt": "Gray plastic rodent bait station on wet pavement against a stucco wall, embossed tamper-resistant and do not touch in English and Spanish", "caption": "A bait station embossed tamper-resistant and do not touch, set against a wall. The box keeps bait out of reach, but the bait inside is still a poison, so follow its label.", "license": "CC-BY-SA-3.0", "credit": "BrokenSphere, CC BY-SA 3.0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bell_Rodent_Bait_Station.JPG" },
+    { "type": "callout", "tone": "warning", "title": "If a child or pet gets into rodent bait", "text": "Call Poison Control at 1-800-222-1222 or use the [Poison Control](https://www.poison.org/) website. For a pet, the [ASPCA Animal Poison Control Center](https://www.aspca.org/pet-care/aspca-poison-control) answers at (888) 426-4435, 24 hours a day, and says a consultation fee may apply. Have the product label with you." },
+
+    { "type": "h2", "text": "What will rat traps not do?" },
+    { "type": "p", "text": "Traps remove the rats you have; they do not stop the next ones. CDC's [seal-up steps](https://www.cdc.gov/healthy-pets/rodent-control/seal-up.html) are to fill small holes with steel wool held in place with caulk, and to fix larger holes with lath screen or metal, cement, hardware cloth or metal sheeting." },
+    { "type": "ul", "items": [
+      "**Gap sizes.** NC State Extension says gaps of 1/4 inch let young rats in and gaps of 1/2 inch let adults in, and UC IPM says to seal every hole larger than 1/4 inch, noting that young rats can squeeze under a door with a 1/2-inch gap.",
+      "**What to plug gaps with.** For small holes, CDC's method is steel wool held in place with caulk, and NC State Extension lists copper mesh, a compressible material that does not rust, among its exclusion materials. UC IPM says rats can chew plastic, foam, wood and caulk and never to use lightweight chicken wire, and NC State does not recommend expanding foam.",
+      "**Vents and larger openings.** NC State Extension says to screen attic and crawl space vents with 1/4-inch-mesh hardware cloth and to allow no more than 1/4 inch of clearance between a door and the floor.",
+      "**Where to look.** CDC lists gaps behind appliances and around pipes under sinks, around the fireplace, doors and windows, in the attic, basement and crawl space, around vents and utility lines, and at the roofline: rafters, gables, eaves and soffits.",
+      "**Repellers.** UC IPM says ultrasonic and other frightening devices are ineffective against rats because rats quickly get used to repeated sounds, and that no repellent has solved a rat problem for more than a very short time; [the evidence on ultrasonic pest repellers](/blog/ultrasonic-pest-repellers-do-they-work) is reviewed separately.",
+      "**Babies.** UC IPM says mice and small young rats often won't trigger a rat snap trap, so a litter needs its own plan; [baby rats](/blog/baby-rats) explains what finding one means."
+    ] },
+    { "type": "figure", "src": "/guides/photos/copper-wool-wire-gaps.webp", "width": 1200, "height": 900, "alt": "Tufts of copper wool packed into two gaps where wires and a black conduit pass through a white stucco wall", "caption": "Copper wool packed into the gaps around wires entering a wall, as a temporary rodent block. Photo from the New York State IPM Program at Cornell University.", "license": "CC-BY-2.0", "credit": "NY State IPM Program at Cornell University from New York, USA, CC BY 2.0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rodent_Exclusion_(10069529336).jpg" },
+
+    { "type": "h2", "text": "When should you call a pest professional?" },
+    { "type": "p", "text": "Call one when trapping and sealing have not ended the problem, or when the work is out of reach." },
+    { "type": "ul", "items": [
+      "**Rats keep coming back** after a few weeks of trapping and sealing, or you are thinking about poison: CDC keeps bait for infestations that persist, and NC State Extension says rodenticides are best handled by pest management professionals.",
+      "**Roof rats on overhead utility lines.** UC IPM says to contact a pest professional or the utility company.",
+      "**Entry points you cannot reach,** such as gables, eaves and soffits at the roofline, which CDC lists among the places to seal.",
+      "**More traps than you can check.** UC IPM says a heavy infestation may need a dozen or more traps, and CDC says to check traps every day."
+    ] },
+    { "type": "p", "text": "For the whole job, from sealing to confirming the rats are gone, see [a step-by-step rat control plan](/blog/how-to-get-rid-of-rats-canada), and use [where rats nest](/blog/rat-nest) to decide where to start." }
+  ],
+  "faqs": [
+    {
+      "question": "What is the most effective rat trap?",
+      "answer": "A rat-size snap trap, used in numbers and set in the right places. UC IPM's pest note on rats calls snap traps the most effective and most economical way to trap rats, and CDC recommends traditional snap traps for reducing rodents around the home. UC IPM also says the best trap locations may matter more than the trap type: set traps along walls with the trigger end nearly touching the wall, and leave them baited but unset until rats have taken the bait several times."
+    },
+    {
+      "question": "Can a mouse trap kill a rat?",
+      "answer": "It is the wrong tool. NC State Extension says mouse snap traps are typically not an effective tool against rats and describes rat snap traps as built with stronger springs and larger bars. CDC also says there are different traps for mice and rats. The mismatch works the other way too: UC IPM notes that mice and small young rats often will not set off a rat snap trap, so match the trap to the animal you have."
+    },
+    {
+      "question": "What is the best bait for a rat trap?",
+      "answer": "A small amount of a food rats already want. CDC says chunky peanut butter or mutton fat works best on a snap trap's bait pan. UC IPM lists nuts, dried fruit, bacon, dry pet food and peanut butter, says to use only a pea-sized amount, and suggests tying dry bait to the trigger with string, thread or fine wire. Take away competing food such as open garbage and loose compost while you trap."
+    },
+    {
+      "question": "Why won't rats go near my trap?",
+      "answer": "Rats are wary of anything new. NC State Extension says rats fear new things, may avoid traps when they first appear and can take up to a week to start getting caught. UC IPM's answer is pre-baiting: leave traps baited but unset until the bait has been taken several times, then set them all. If the bait vanishes from every trap, double the number of baited traps until some are left alone."
+    },
+    {
+      "question": "Do electric rat traps work?",
+      "answer": "They work for a rat or two indoors. Victor says its M241B electronic rat trap kills up to 35 rats per set of four AA batteries, and its Rat Zapper Classic up to 20, each one rat per setting, and both are for indoor use only. UC IPM says electric traps cost considerably more than other traps, still need pre-baiting and must be checked often, so several snap traps cover a bigger infestation."
+    },
+    {
+      "question": "Does the Rat Zapper work on big rats?",
+      "answer": "Victor describes the Rat Zapper Classic as a high-voltage trap for mice and average-size rats, with the shock applied for 2 minutes and a blinking green light to show a catch. It kills up to 20 rats per set of four AA batteries, one per setting, and is for indoor use only. Victor does not claim it for larger rats, so for big Norway rats the rat-size snap traps that UC IPM and CDC recommend are the standard choice."
+    },
+    {
+      "question": "How many rat traps should I set?",
+      "answer": "More than one. UC IPM says a heavily infested home might need a dozen or more traps, spaced about 10 to 20 feet apart along the walls where rats travel. If the bait disappears from every trap during pre-baiting, it says to double the number of baited traps and repeat until some go untouched, and then to bait and set all of them at once."
+    },
+    {
+      "question": "How do you know when the rats are gone?",
+      "answer": "CDC's rule is a week with no rats caught and no new signs of rodents. Keep checking traps daily during that time and remove any dead rats right away. Clean up old droppings the CDC way, with gloves and a disinfectant soak and never by sweeping or vacuuming, then watch for fresh droppings, gnawing or new nesting material, and seal any gaps you find."
+    },
+    {
+      "question": "Can I use rat traps around dogs and cats?",
+      "answer": "Only where a pet cannot reach them. CDC says to always keep traps and bait out of reach of children and pets, and NC State Extension says to avoid snap traps where children, pets or other animals can get to them, or to put them in boxes designed to hold snap traps. Victor's FAQ for its earlier M241 electronic rat trap says that model's open tunnel design should not be used around children or pets. Poison adds more risk: UC IPM says all rodent baits are toxic to dogs and cats."
+    },
+    {
+      "question": "Are glue traps legal for rats?",
+      "answer": "In most of the US, yes, but a handful of California cities have banned their sale and use, among them West Hollywood, Ojai and Culver City, so check your city's rules. England made setting one for a rodent without a license an offense in 2024. Either way, the experts advise against them: CDC says not to use glue traps because they can scare rodents into urinating, and UC IPM says never to use them outdoors."
+    }
+  ],
+  "sources": [
+    { "title": "Pest Notes: Rats (UC ANR Publication 74106; N. M. Quinn, updated June 2025)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/rats/" },
+    { "title": "Surveillance and Management of Common Structure-Invading Rats (C. Hayes and P. Alder, December 20, 2024)", "publisher": "NC State Extension", "url": "https://content.ces.ncsu.edu/surveillance-and-management-of-common-structure-invading-rats" },
+    { "title": "How to Trap Up to Remove Rodents (April 8, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-pets/rodent-control/trap-up.html" },
+    { "title": "How to Clean Up After Rodents (April 8, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html" },
+    { "title": "How to Seal Up to Prevent Rodents (April 8, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-pets/rodent-control/seal-up.html" },
+    { "title": "About Hantavirus (May 13, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/hantavirus/about/index.html" },
+    { "title": "Outbreak of Seoul Virus Among Rats and Rat Owners, United States and Canada, 2017 (MMWR 67(4), February 2, 2018)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/mmwr/volumes/67/wr/mm6704a5.htm" },
+    { "title": "Roof Rats", "publisher": "Internet Center for Wildlife Damage Management", "url": "https://icwdm.org/species/rodents/rats/roof-rats/" },
+    { "title": "Restrictions on Rodenticide Products", "publisher": "US Environmental Protection Agency", "url": "https://www.epa.gov/rodenticides/restrictions-rodenticide-products" },
+    { "title": "Pesticide Devices: A Guide for Consumers", "publisher": "US Environmental Protection Agency", "url": "https://www.epa.gov/safepestcontrol/pesticide-devices-guide-consumers" },
+    { "title": "Victor Electronic Rat Trap, M241B (product page)", "publisher": "Victor (Woodstream Corporation)", "url": "https://www.victorpest.com/victor-electronic-rat-trap-m241b", "kind": "manufacturer" },
+    { "title": "Electronic Rat Trap M241: FAQs", "publisher": "Victor (Woodstream Corporation)", "url": "https://www.victorpest.com/customer-support/m241/faqs", "kind": "manufacturer" },
+    { "title": "Rat Zapper Classic Rat Trap, RZC001-4 (product page)", "publisher": "Victor (Woodstream Corporation)", "url": "https://www.victorpest.com/rat-zapper-classic-rat-trap-rzc001-4", "kind": "manufacturer" },
+    { "title": "Referral to the City Manager: Banning the Sale and Use of Glue Traps (Consent Calendar, March 24, 2026)", "publisher": "City of Berkeley, California (Councilmembers I. Tregub and T. Taplin)", "url": "https://berkeleyca.gov/sites/default/files/2026-03/2026-03-24%20Item%2020%20Referral%20to%20the%20City%20Manager%20Banning.pdf" },
+    { "title": "Sustainability Policy Updates and Restrictions (glue trap ban, in effect November 26, 2025)", "publisher": "City of Culver City, California", "url": "https://www.culvercity.gov/Services/Environmental-Programs/Sustainability-Policy-Updates-and-Restrictions" },
+    { "title": "Glue Traps (Offences) Act 2022, section 1", "publisher": "UK Government, legislation.gov.uk", "url": "https://www.legislation.gov.uk/ukpga/2022/26/section/1" },
+    { "title": "Poison Control", "publisher": "National Capital Poison Center", "url": "https://www.poison.org/" },
+    { "title": "ASPCA Animal Poison Control Center", "publisher": "ASPCA", "url": "https://www.aspca.org/pet-care/aspca-poison-control" }
+  ],
+  "disclaimer": "both"
+}

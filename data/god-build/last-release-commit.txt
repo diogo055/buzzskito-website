@@ -1,5 +1,8 @@
-release: 3 scheduled page(s) go live (2026-11-04)
+release: 6 scheduled page(s) go live (2026-11-05)
 
-- /blog/lone-star-tick
-- /blog/yellow-jackets
-- /blog/voles
+- /blog/best-fruit-fly-traps
+- /blog/best-rat-traps
+- /blog/best-cockroach-gel-bait
+- /blog/best-bed-bug-spray
+- /blog/best-flea-spray-for-home
+- /blog/raccoon-repellent

@@ -14,6 +14,7 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import UsAmazonLine from '@/components/UsAmazonLine'
 
 const SLUG = 'no-see-um-bites'
 const DATE = '2026-07-19'
@@ -166,6 +167,7 @@ export default function NoSeeUmBitesPage() {
 
 
         <AffiliateDisclosure />
+        <UsAmazonLine name="Hydrocortisone 1% anti-itch cream" search="hydrocortisone 1% anti itch cream" />
 
         <aside aria-label="What to do right now" className="not-prose my-6 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 sm:p-7">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">What to do right now</p>
@@ -546,7 +548,7 @@ export default function NoSeeUmBitesPage() {
 
       </article>
 
-      <StickyBuyBar
+      <StickyBuyBar usSearch="hydrocortisone 1% anti itch cream"
         name="Hydrocortisone 1% Anti-Itch Cream"
         search="hydrocortisone anti itch cream 1%"
         label="For the itch"

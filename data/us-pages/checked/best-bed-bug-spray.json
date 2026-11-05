@@ -1,0 +1,15 @@
+{
+ "id": "best-bed-bug-spray",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "c526b642b5f78c58c6609e85f85dabdc0794359544e090a9e11e3a0fff89cc38",
+ "claimsChecked": 162,
+ "claimsCorrected": 15,
+ "claimsRemovedOrSoftened": 1,
+ "checkedOn": "2026-11-05",
+ "released": {
+  "on": "2026-11-05",
+  "scheduledFor": "2026-11-05",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

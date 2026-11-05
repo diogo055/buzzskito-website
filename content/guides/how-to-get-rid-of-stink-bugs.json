@@ -110,6 +110,14 @@
       "**Disposal.** UC IPM advises against flushing them, to save water, or putting live bugs in the trash, where they could become established around landfills."
     ] },
     { "type": "p", "text": "Outdoors, UC IPM suggests sweeping clusters into containers when it is cool enough that they do not fly; a stream of water knocks them off walls, but they will likely return." },
+    { "type": "picks", "title": "Removal, trapping and sealing gear", "items": [
+      { "label": "For bugs already inside", "name": "Handheld vacuum", "search": "handheld vacuum", "why": "Penn State suggests a vacuum for the bugs already inside and says it may take on their smell for a while, so some people keep one just for stink bugs." },
+      { "label": "For a homemade light trap", "name": "Foil roasting pans", "search": "aluminum foil roasting pans", "why": "Virginia Tech researchers found in 16 homes that a foil roasting pan of water and dish soap under a light, in a dark room, caught 14 times more stink bugs than store-bought traps." },
+      { "label": "For gaps in outside walls", "name": "Expanding foam sealant", "search": "expanding foam sealant", "why": "For cracks around windows, doors, siding, pipes and wires, behind chimneys and under fascia and soffits, Penn State names good-quality silicone or silicone-latex caulk and UC IPM names foam sealant." },
+      { "label": "For doors with daylight showing", "name": "Door sweep", "search": "door sweep", "why": "The EPA says to weather-strip entry doors, add door sweeps or both if daylight is visible around the perimeter of the door." },
+      { "label": "Behind attic and gable vents", "name": "1/8-inch hardware cloth", "search": "1/8 inch hardware cloth", "why": "Kentucky reports that 1/2-inch and 1/4-inch mesh screening let 100 and 50 percent of adults through, and that mesh of 1/6 inch or smaller was needed to keep them out; 1/8-inch hardware cloth is within that limit." },
+      { "label": "For larger gaps around pipes", "name": "Steel wool", "search": "steel wool", "why": "The EPA says to caulk small gaps around plumbing and fill larger ones with steel wool." }
+    ] },
 
     { "type": "h2", "text": "Do stink bug traps work?" },
     { "type": "p", "text": "A homemade light trap works indoors; pheromone traps do not. [Virginia Tech researchers](https://news.vt.edu/articles/2014/05/050714-cals-stinkbugtrap.html) found in 16 homes over two years that a foil roasting pan of water and dish soap under a light, in a dark room, caught 14 times more stink bugs than store-bought traps. UC IPM calls it the most effective and inexpensive indoor trap: the bugs fly to the light, fall into the water and drown." },

@@ -43,6 +43,9 @@ app/blog/bed-bugs-in-hotels/page.tsx
 content/guides/bed-bug-eggs.json
 data/us-pages/checked/bed-bug-eggs.json
 app/blog/bed-bug-eggs/page.tsx
+content/guides/best-bed-bug-spray.json
+data/us-pages/checked/best-bed-bug-spray.json
+app/blog/best-bed-bug-spray/page.tsx
 content/guides/pillar-ants.json
 data/us-pages/checked/pillar-ants.json
 app/learn/ants/page.tsx
@@ -211,6 +214,9 @@ app/blog/baby-rats/page.tsx
 content/guides/rat-nest.json
 data/us-pages/checked/rat-nest.json
 app/blog/rat-nest/page.tsx
+content/guides/best-rat-traps.json
+data/us-pages/checked/best-rat-traps.json
+app/blog/best-rat-traps/page.tsx
 content/guides/pillar-cockroaches.json
 data/us-pages/checked/pillar-cockroaches.json
 app/learn/cockroaches/page.tsx
@@ -262,6 +268,9 @@ app/blog/brown-banded-cockroaches/page.tsx
 content/guides/wood-roaches.json
 data/us-pages/checked/wood-roaches.json
 app/blog/wood-roaches/page.tsx
+content/guides/best-cockroach-gel-bait.json
+data/us-pages/checked/best-cockroach-gel-bait.json
+app/blog/best-cockroach-gel-bait/page.tsx
 content/guides/how-to-get-rid-of-mosquitoes.json
 data/us-pages/checked/how-to-get-rid-of-mosquitoes.json
 app/blog/how-to-get-rid-of-mosquitoes/page.tsx
@@ -535,6 +544,9 @@ app/blog/maggots/page.tsx
 content/guides/fruit-flies.json
 data/us-pages/checked/fruit-flies.json
 app/blog/fruit-flies/page.tsx
+content/guides/best-fruit-fly-traps.json
+data/us-pages/checked/best-fruit-fly-traps.json
+app/blog/best-fruit-fly-traps/page.tsx
 content/guides/dust-mites.json
 data/us-pages/checked/dust-mites.json
 app/blog/dust-mites/page.tsx
@@ -688,6 +700,9 @@ app/blog/bugs-in-basement/page.tsx
 content/guides/tiny-red-bugs.json
 data/us-pages/checked/tiny-red-bugs.json
 app/blog/tiny-red-bugs/page.tsx
+content/guides/best-flea-spray-for-home.json
+data/us-pages/checked/best-flea-spray-for-home.json
+app/blog/best-flea-spray-for-home/page.tsx
 content/guides/bug-bites.json
 data/us-pages/checked/bug-bites.json
 app/learn/bug-bites/page.tsx
@@ -727,6 +742,9 @@ app/blog/baby-snakes/page.tsx
 content/guides/skunk-smell-in-house.json
 data/us-pages/checked/skunk-smell-in-house.json
 app/blog/skunk-smell-in-house/page.tsx
+content/guides/raccoon-repellent.json
+data/us-pages/checked/raccoon-repellent.json
+app/blog/raccoon-repellent/page.tsx
 content/guides/how-much-is-pest-control.json
 data/us-pages/checked/how-much-is-pest-control.json
 app/blog/how-much-is-pest-control/page.tsx

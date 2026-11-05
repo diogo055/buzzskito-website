@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { withRegionalAlternates } from '@/lib/guides'
 import BuyLink from '@/components/BuyLink'
 import AmazonLink from '@/components/AmazonLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -139,14 +140,14 @@ const FAQS = [
   },
 ]
 
-export const metadata: Metadata = buildMetadata({
+export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   title: META_TITLE,
   description: 'The best rat traps in Canada: a rat-sized snap trap for most homes, an electric trap or Rat Zapper if you never want to see the rat, and how to set them.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
-})
+}), '/blog/best-rat-trap-canada')
 
 const AMZ_TAG = tagForSlug('best-rat-trap-canada')
 
@@ -240,6 +241,8 @@ export default function BestRatTrapCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
+          {/* Regional edition link (Oct 2026): this page is the Canadian edition; see REGIONAL_PAIRS in lib/guides.ts */}
+          <p className="not-prose mb-6 rounded-lg border border-navy-100 bg-brand-50 px-4 py-2.5 text-sm text-gray-700">Reading from the United States? Product rules and what is sold there differ. <Link href="/blog/best-rat-traps" className="font-semibold text-brand-700 underline">See the US edition</Link>.</p>
 
           <nav aria-label="On this page" className="not-prose mb-8 rounded-xl border border-navy-100 bg-brand-50 px-5 py-4">
             <p className="text-xs font-extrabold uppercase tracking-wider text-brand-700 mb-2">On this page</p>

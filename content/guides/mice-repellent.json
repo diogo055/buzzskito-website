@@ -101,6 +101,12 @@
     { "type": "media", "needed": "Close-up photo of a snap trap set flush against a wall so that a mouse running along the wall would cross the trigger, with a small smear of bait on it, no hands or pets in frame" },
     { "type": "h3", "text": "Remove the food and shelter" },
     { "type": "p", "text": "Sanitation keeps a mouse problem from supporting itself. UC IPM says good sanitation will seldom control house mice fully on its own, but that poor sanitation can attract them. It advises keeping food storage and garbage containers sealed and clearing clutter that gives mice shelter. Trap and sealing-material comparisons are collected in [the rodent control product guides](/pest-product-guides/rodent-control)." },
+    { "type": "picks", "title": "What to use instead of a repellent", "items": [
+      { "label": "To plug small gaps", "name": "Steel wool, size 00", "search": "00 steel wool", "why": "NC State says only 00-size steel wool can deter rodents, and that adult mice can enter gaps of 1/4 inch or larger, so those are the gaps to fill. UC IPM calls steel wool a good temporary plug." },
+      { "label": "A plug that does not rust", "name": "Copper mesh", "search": "copper mesh for mice", "why": "NC State says steel wool rusts and copper mesh does not; UC IPM also notes that steel wool may rust over time." },
+      { "label": "To hold the plug in place", "name": "Caulk for sealing gaps", "search": "caulk sealant", "why": "NC State says rodents often work their way between steel wool and the edge of the opening, so the wool should always be caulked in place." },
+      { "label": "To keep food sealed", "name": "Airtight food storage containers", "search": "airtight food storage containers", "why": "UC IPM says poor sanitation can attract house mice and advises keeping food storage and garbage containers sealed, though sanitation alone will seldom control them." }
+    ] },
 
     { "type": "h2", "text": "Is there any case for using a repellent at all?" },
     { "type": "p", "text": "At most as a small extra after the holes are sealed and the traps are set, and only with realistic expectations. A repellent cannot be the first or the only step, because the sources reviewed support the other steps and not this one." },

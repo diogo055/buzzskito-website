@@ -14,6 +14,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import UsAmazonLine from '@/components/UsAmazonLine'
 
 const SLUG = 'mosquito-larvae-identification'
 const DATE = '2026-04-28'
@@ -287,6 +288,7 @@ export default function MosquitoLarvaePage() {
         <div className="max-w-4xl mx-auto">
 
           <AffiliateDisclosure />
+          <UsAmazonLine name="Mosquito dunks (Bti)" search="summit mosquito dunks" />
           <div className="not-prose my-6 rounded-xl border border-amber-200 bg-amber-50/60 p-5">
             <p className="text-xs font-extrabold uppercase tracking-wider text-amber-700 mb-3">What to do right now</p>
             <ol className="space-y-4">
@@ -905,7 +907,7 @@ export default function MosquitoLarvaePage() {
       </article>
 
       <ReadNext path="/blog/mosquito-larvae-identification" standalone />
-      <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Dunks (BTI)" search="summit mosquito dunks" label="For standing water" />
+      <StickyBuyBar usSearch="summit mosquito dunks" tag={AMZ_TAG} name="Summit Mosquito Dunks (BTI)" search="summit mosquito dunks" label="For standing water" />
     </>
   )
 }

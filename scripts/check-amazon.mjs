@@ -12,7 +12,7 @@
 // amazonUrl() source, so scanning them would false-positive.
 // ─────────────────────────────────────────────────────────────────────────────
 
-import { readdirSync, readFileSync } from 'fs'
+import { existsSync, readdirSync, readFileSync } from 'fs'
 import { join, extname, sep } from 'path'
 
 // The guard runs as a standalone node process (npm run check:amazon), which does
@@ -114,6 +114,21 @@ const builtFiles = (path) => ['.html', '.rsc'].map((ext) => join(ROOT, 'server',
 const US_GUIDE_FILES = new Set(GUIDE_LIST.filter(({ g }) => isUsGuide(g)).flatMap(({ path }) => builtFiles(path)))
 
 const violations = []
+
+// Canadian amazon.ca pages that also carry ONE fixed amazon.com link for American readers (owner,
+// Nov 4, 2026; lib/amazon-dual-store.json). The same two stores for every visitor, never a swap by
+// country (that caused the July 2026 rejection). amazon.com is allowed on these and the US guides only.
+const DUAL = (() => {
+  try { return JSON.parse(readFileSync(join('lib', 'amazon-dual-store.json'), 'utf8')).pages || {} } catch (e) { violations.push(['lib/amazon-dual-store.json', 0, String(e && e.message), 'could not read the dual-store list']); return {} }
+})()
+const usGuidePaths = new Set(GUIDE_LIST.filter(({ g }) => isUsGuide(g)).map(({ path }) => path))
+for (const [path, d] of Object.entries(DUAL)) {
+  if (usGuidePaths.has(path)) violations.push(['lib/amazon-dual-store.json', 0, path, 'a US guide links amazon.com only; it cannot be a dual-store page'])
+  if (!d || typeof d.name !== 'string' || typeof d.search !== 'string' || d.name.trim().length < 3 || d.search.trim().length < 3 || d.search.length > 60) violations.push(['lib/amazon-dual-store.json', 0, path, 'each page needs a name and a search (3-60 characters)'])
+  else if (/amazon|[®™]|https?:/i.test(d.search)) violations.push(['lib/amazon-dual-store.json', 0, path, 'the search may not name Amazon, carry a trademark sign or a URL'])
+}
+const DUAL_FILES = new Set(Object.keys(DUAL).flatMap((p) => builtFiles(p)))
+const dualWithUs = new Set()
 for (const f of files) {
   // Next.js RSC/flight payloads encode "&" as "&" (and "/" as "\/").
   // Normalize so a tagged URL like ...?k=x&tag=ID reads as ...?k=x&tag=ID
@@ -135,9 +150,10 @@ for (const f of files) {
       // (owner, Oct 20, 2026); amazon.ca everywhere else. Never a client-side swap: OneLink's
       // script is served from amazon-adsystem, so the rule above already blocks it.
       else if (NOT_CA_RE.test(m)) {
-        if (!US_GUIDE_FILES.has(f)) violations.push([f, i + 1, m, 'amazon.com link outside a US guide — amazon.com is allowed only on the US guides (one page, one store)'])
+        if (!US_GUIDE_FILES.has(f) && !DUAL_FILES.has(f)) violations.push([f, i + 1, m, 'amazon.com link outside a US guide or a page in lib/amazon-dual-store.json'])
         else if (!US_TAG) violations.push([f, i + 1, m, 'amazon.com link but PUBLIC_AMAZON_US_TAG is unset (output must be zero)'])
         else if (!m.includes(`tag=${US_TAG}`) || VALID_TAGS.some((t) => m.includes(`tag=${t}`))) violations.push([f, i + 1, m, `amazon.com link without exactly the US tag ${US_TAG}`])
+        else if (DUAL_FILES.has(f)) dualWithUs.add(f)
       }
       else if (US_GUIDE_FILES.has(f)) violations.push([f, i + 1, m, 'amazon.ca link on a US guide — the US guides link amazon.com only'])
       else if (!TAG) violations.push([f, i + 1, m, 'Amazon URL present but PUBLIC_AMAZON_TAG is unset (output must be zero)'])
@@ -213,6 +229,15 @@ for (const { g, path } of GUIDE_LIST) {
   }
 }
 
+// every page on the dual-store list must actually show its amazon.com line (and keep its amazon.ca links)
+if (US_TAG && TAG) {
+  for (const path of Object.keys(DUAL)) {
+    const html = builtFiles(path)[0]
+    if (!existsSync(html)) violations.push(['lib/amazon-dual-store.json', 0, path, 'listed page was not built'])
+    else if (!dualWithUs.has(html)) violations.push([html, 0, path, 'page is on the dual-store list but shows no amazon.com link (add <UsAmazonLine> under its disclosure and usSearch on its StickyBuyBar)'])
+  }
+}
+
 if (violations.length) {
   console.error(`\n✗ check:amazon FAILED — ${violations.length} violation(s):\n`)
   for (const [f, ln, url, why] of violations.slice(0, 60)) {
@@ -225,5 +250,5 @@ if (violations.length) {
 console.log(
   `✓ check:amazon passed — scanned ${files.length} crawler-visible files. ` +
   (TAG ? `Every Amazon URL carries a valid tag (default ${TAG} or one of ${CLUSTER_TAGS.length} cluster tags).` : `Zero Amazon URLs in output (no tag configured — fail-closed).`) +
-  ` amazon.com only on the US guides (${usGuidesWithPick} carry their pick, tag ${US_TAG || 'unset'}); amazon.ca everywhere else. ${guidesChecked} guides checked.`
+  ` amazon.com only on the US guides (${usGuidesWithPick} carry their pick, tag ${US_TAG || 'unset'}) and as one fixed line on ${[...dualWithUs].filter((f) => f.endsWith('.html')).length} of ${Object.keys(DUAL).length} dual-store pages; amazon.ca everywhere else. ${guidesChecked} guides checked.`
 )

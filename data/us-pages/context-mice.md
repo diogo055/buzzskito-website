@@ -68,6 +68,8 @@
 
 - `/blog/rat-nest` — **rat nest** (also: rats nest; what does a rat nest look like; where do rats nest; rat nest in yard; rat nest in attic; rat burrow; how many rats live in a nest; pack rat nest). Signs page (WRITER_BRIEF_PHOTO_ID format 1) for the person who found shredded material, a burrow or a hidden pile and wants to know if rats made it. Lead with a photo of a rat nest or a Norway rat burrow and the one-line answer: a rat nest is a loose pile or ball of shredded soft material (paper, cardboard, insulation, fabric, plant matter) in a hidden spot near food and water (materials and sizes only from UC IPM, ICWDM, CDC or a state extension). Where each rat nests: Norway rats in burrows along foundations, under slabs, woodpiles and dense shrubs and in lower floors and crawl spaces (burrow size and depth as UC IPM Pest Notes: Rats gives them); roof rats above ground in dense vegetation, palms, woodpiles, attics, ceilings and wall voids; pack rats (woodrats) of the West in stick houses and middens (one section, NPS or a state wildlife agency). Inside the house: attic, walls, under appliances, cabinets, garage clutter and car engines in one line each. How to tell it is rats (a signs checklist: droppings beside it, gnawing, grease marks along walls, runways, smooth-edged burrow openings; link /blog/rat-droppings); rat nest vs mouse nest in one row only (mouse-nest keeps that comparison); is it active (fresh material, droppings, smell, sounds); how many rats live in a nest (only as a source gives it); a nest with pups in one paragraph linking baby-rats; is a rat nest dangerous (CDC: rodent diseases such as leptospirosis, rat-bite fever and salmonellosis; hantavirus in the US is carried mainly by deer mice and other wild rodents: CDC strength only); cleaning up a nest safely (CDC's wet method: air out, gloves, soak with disinfectant or a 1:9 bleach solution, no sweeping or vacuuming, bag it, wash hands: quote CDC); what to do next (seal, then trap, as CDC or UC IPM give the order; link /blog/roof-rat-vs-norway-rat and /blog/how-to-get-rid-of-rats-canada with a neutral anchor). Quick-ID facts table under the quick answer: one row per nest maker (Norway rat, roof rat, pack rat, house mouse, deer mouse, squirrel) with material, location, size and the signs nearby. Cards: deer mouse nest (/blog/deer-mice), chipmunk burrow (/blog/holes-in-yard), yellowjacket ground nest (wasp-nest-identification), mouse nest (mouse-nest, planned). Not linked: the frozen pages and amazon.ca pages. No quote prompt.
 
+- `/blog/best-rat-traps` — **rat traps** (also: rat trap; best rat trap; best rat traps; electric rat trap; rat zapper; snap rat trap). US edition of /blog/best-rat-trap-canada, written fresh for US shoppers: US products and EPA registration (never Canadian PCP numbers or Canadian retailers), US spelling, no prices or star ratings. A buying guide: a short answer naming the best product types first; a "picks" block of 3-6 picks, each a product the text itself recommends with a one-line reason; a comparison table; how to choose; how to use it safely (label is the law); what it will not do; when to call a professional; 8-10 FAQs; sources (EPA, university extension, manufacturer labels). No testing claims: we did not test products. The top pick also goes in lib/amazon-us-picks.json.
+
 ## Pillars (hub pages)
 
 - `/learn/bed-bugs` — the complete bed bugs reference
@@ -492,6 +494,11 @@
 - `/blog/skunk-smell-in-house` — skunk smell in house
 - `/blog/wood-roaches` — wood roach
 - `/blog/tiny-red-bugs` — tiny red bugs
+- `/blog/best-fruit-fly-traps` — fruit fly trap
+- `/blog/best-cockroach-gel-bait` — cockroach gel bait
+- `/blog/best-bed-bug-spray` — bed bug spray
+- `/blog/best-flea-spray-for-home` — flea spray for house
+- `/blog/raccoon-repellent` — raccoon repellent
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

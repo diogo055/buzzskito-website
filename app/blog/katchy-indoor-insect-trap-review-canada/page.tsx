@@ -17,6 +17,7 @@ import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
 import QuickIdTable from '@/components/QuickIdTable'
 import Photo from '@/components/Photo'
+import UsAmazonLine from '@/components/UsAmazonLine'
 
 const SLUG = 'katchy-indoor-insect-trap-review-canada'
 const DATE = '2026-07-21'
@@ -117,7 +118,8 @@ export default function KatchyIndoorInsectTrapReviewCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Katchy Indoor Insect Trap" search="katchy indoor insect trap" label="Reviewed here" />
+      <UsAmazonLine name="Katchy indoor insect trap" search="katchy indoor insect trap" />
+      <StickyBuyBar usSearch="katchy indoor insect trap" tag={AMZ_TAG} name="Katchy Indoor Insect Trap" search="katchy indoor insect trap" label="Reviewed here" />
       <TopBox tag={AMZ_TAG} name="Katchy Indoor Insect Trap" search="katchy indoor insect trap" label="Reviewed here" />
 
       <section className="bg-white px-4">

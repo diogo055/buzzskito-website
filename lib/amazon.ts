@@ -24,13 +24,14 @@ const TAG =
 export const AMAZON_ENABLED = TAG.length > 0
 
 // ─── amazon.com, for the US guides only (owner, Oct 20, 2026) ────────────────
-// One page = one store: the US guides (content/guides/*.json without a locale, rendered by
-// components/GuidePage.tsx) link amazon.com with the US Associates tag, and every other page
-// keeps amazon.ca. Nothing is ever switched by the visitor's country (that client-side swap
-// caused the July 2026 rejection). The US tag comes only from its own env variable, so with
+// Fixed links, never switched by the visitor's country (that client-side swap caused the July 2026
+// rejection): the US guides (content/guides/*.json without a locale, rendered by
+// components/GuidePage.tsx) link amazon.com with the US Associates tag; every other page keeps
+// amazon.ca, and the Canadian pages in lib/amazon-dual-store.json add one fixed amazon.com line for
+// American readers (owner, Nov 4, 2026). The US tag comes only from its own env variable, so with
 // PUBLIC_AMAZON_US_TAG unset no amazon.com link can be produced. scripts/check-amazon.mjs fails
-// the build on an amazon.com link anywhere but a US guide, on any other tag, and on an
-// amazon.ca link on a US guide.
+// the build on an amazon.com link anywhere else, on any other tag, and on an amazon.ca link on a
+// US guide.
 const US_TAG =
   process.env.PUBLIC_AMAZON_US_TAG ??
   process.env.NEXT_PUBLIC_AMAZON_US_TAG ??

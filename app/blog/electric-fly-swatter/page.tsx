@@ -14,6 +14,7 @@ import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
 import QuickIdTable from '@/components/QuickIdTable'
+import UsAmazonLine from '@/components/UsAmazonLine'
 
 const SLUG = 'electric-fly-swatter'
 const DATE = '2026-07-14'
@@ -101,7 +102,8 @@ export default function ElectricFlySwatterCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="The Executioner Electric Fly Swatter" asin="B01EXES2SK" search="executioner fly swatter racket" label="Best overall racket" />
+      <UsAmazonLine name="Electric fly swatter racket" search="electric fly swatter racket" />
+      <StickyBuyBar usSearch="electric fly swatter racket" tag={AMZ_TAG} name="The Executioner Electric Fly Swatter" asin="B01EXES2SK" search="executioner fly swatter racket" label="Best overall racket" />
       <TopBox tag={AMZ_TAG} name="The Executioner Electric Fly Swatter" asin="B01EXES2SK" search="executioner fly swatter racket" label="Best overall racket" />
 
       <section className="bg-white px-4">

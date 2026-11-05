@@ -12,6 +12,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import UsAmazonLine from '@/components/UsAmazonLine'
 
 const SLUG = 'how-long-do-ticks-live'
 const DATE = '2026-07-15'
@@ -193,6 +194,7 @@ export default function HowLongDoTicksLivePage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <AffiliateDisclosure />
+          <UsAmazonLine name="Tick removal tool kit" search="tick removal tool kit" />
           <TopPick tag={AMZ_TAG}
             label="Our Top Pick — For the Tick You Find"
             name="Fine-tipped tick-removal tool"
@@ -378,7 +380,7 @@ export default function HowLongDoTicksLivePage() {
       </article>
 
       <ReadNext path="/blog/how-long-do-ticks-live" standalone />
-      <StickyBuyBar tag={AMZ_TAG} name="Tick-removal tool kit" search="tick removal tool tweezers" label="For removal" />
+      <StickyBuyBar usSearch="tick removal tool kit" tag={AMZ_TAG} name="Tick-removal tool kit" search="tick removal tool tweezers" label="For removal" />
     </>
   )
 }

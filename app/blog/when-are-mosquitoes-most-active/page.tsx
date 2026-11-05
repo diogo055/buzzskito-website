@@ -13,6 +13,7 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import UsAmazonLine from '@/components/UsAmazonLine'
 
 const SLUG = 'when-are-mosquitoes-most-active'
 const DATE = '2026-07-13'
@@ -242,6 +243,7 @@ export default function WhenAreMosquitoesMostActivePage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <AffiliateDisclosure />
+          <UsAmazonLine name="Picaridin 20% insect repellent" search="picaridin 20 insect repellent" />
 
           <h2>Why Dawn and Dusk Are the Peak Windows</h2>
           <p>Mosquitoes are tiny and lose body water fast, so their whole daily schedule is built around avoiding hot, dry, windy conditions. At <strong>dawn and dusk</strong> three things line up at once: the air cools, the wind usually calms, and humidity rises. That combination lets them fly and feed without drying out, and the low light helps them dodge predators. For most species — including the <strong>Culex</strong> house mosquitoes that carry West Nile virus — this makes the hour around sunrise and the hour around sunset the highest-bite windows of the day.</p>
@@ -525,7 +527,7 @@ export default function WhenAreMosquitoesMostActivePage() {
         </div>
       </article>
 
-      <StickyBuyBar tag={AMZ_TAG} name="Picaridin 20% insect repellent" search="picaridin insect repellent 20 percent" label="For peak hours" />
+      <StickyBuyBar usSearch="picaridin 20 insect repellent" tag={AMZ_TAG} name="Picaridin 20% insect repellent" search="picaridin insect repellent 20 percent" label="For peak hours" />
 
       <ReadNext path="/blog/when-are-mosquitoes-most-active" standalone />
     </>

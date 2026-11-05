@@ -14,6 +14,7 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import UsAmazonLine from '@/components/UsAmazonLine'
 
 const SLUG = 'types-of-ticks-identification'
 const DATE = '2026-07-13'
@@ -256,6 +257,7 @@ export default function TypesOfTicksIdentificationPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <AffiliateDisclosure />
+          <UsAmazonLine name="Fine-tipped tick removal tweezers" search="fine tip tick removal tweezers" />
 
           <p>Finding a tick is unsettling — but the species you are looking at changes everything about the risk and what you should do next. This hub is the master identification page: use the chart above to narrow it down fast, then follow the links to a detailed close-up guide for each specific tick. Below, we walk through the four features that actually let you tell ticks apart, then hit each common North American species one by one.</p>
 
@@ -389,7 +391,7 @@ export default function TypesOfTicksIdentificationPage() {
         </div>
       </article>
 
-      <StickyBuyBar tag={AMZ_TAG} name="Fine-Tipped Tick Removal Tool Set" search="tick removal tool fine tip tweezers" label="For tick removal" />
+      <StickyBuyBar usSearch="fine tip tick removal tweezers" tag={AMZ_TAG} name="Fine-Tipped Tick Removal Tool Set" search="tick removal tool fine tip tweezers" label="For tick removal" />
 
       <ReadNext path="/blog/types-of-ticks-identification" standalone />
     </>

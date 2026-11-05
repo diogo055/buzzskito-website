@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { withRegionalAlternates } from '@/lib/guides'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
@@ -81,14 +82,14 @@ const FAQS = [
   },
 ]
 
-export const metadata: Metadata = buildMetadata({
+export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   title: META_TITLE,
   description: 'Best flea spray for house and furniture in Canada: one with an IGR (methoprene or pyriproxyfen), an adult killer and a PCP number. Where and how to spray.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
-})
+}), '/blog/best-flea-spray-for-home-canada')
 
 const AMZ_TAG = tagForSlug(SLUG)
 
@@ -311,6 +312,8 @@ export default function BestFleaSprayForHomeCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
+          {/* Regional edition link (Oct 2026): this page is the Canadian edition; see REGIONAL_PAIRS in lib/guides.ts */}
+          <p className="not-prose mb-6 rounded-lg border border-navy-100 bg-brand-50 px-4 py-2.5 text-sm text-gray-700">Reading from the United States? Product rules and what is sold there differ. <Link href="/blog/best-flea-spray-for-home" className="font-semibold text-brand-700 underline">See the US edition</Link>.</p>
 
           <h2>What Is the Best Flea Spray for a Home in Canada?</h2>
           <p>The best home flea spray is whichever PMRA-registered product you can buy that contains an <strong>insect growth regulator</strong> &mdash; methoprene or pyriproxyfen &mdash; ideally alongside a contact adulticide, with a label that names fleas and lists carpets and upholstery. That is the whole recommendation, and it deliberately does not name a hero brand, because the Canadian shelf for this category is thin and it changes: the reliable move is to read the active ingredients and the registration number rather than to trust a product name you read in an American forum.</p>

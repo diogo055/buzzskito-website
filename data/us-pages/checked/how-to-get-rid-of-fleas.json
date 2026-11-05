@@ -2,7 +2,7 @@
  "id": "how-to-get-rid-of-fleas",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "444335c80426e9f9252a1a88f2d29431afa9e86e43310ea53ae5f8de0c3592cc",
+ "sha": "26c74f960306dbce15480783a0d678b91fad34833fd6cdee7e3ec77a1d0c3227",
  "claimsChecked": 195,
  "claimsCorrected": 7,
  "claimsRemovedOrSoftened": 2,
@@ -22,6 +22,11 @@
    "on": "2026-10-29",
    "note": "Oct 29: one internal link to /blog/fleas-on-humans; no fact changed",
    "previousSha": "2d338a2c1e3e02146b9dd0a242fa4e23e3335c75e291776428b34838bd38c3ec"
+  },
+  {
+   "on": "2026-11-05",
+   "note": "Nov 4, 2026: one sentence linking the new US buying guide /blog/best-flea-spray-for-home (no claim added)",
+   "previousSha": "444335c80426e9f9252a1a88f2d29431afa9e86e43310ea53ae5f8de0c3592cc"
   }
  ]
 }

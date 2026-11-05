@@ -15,6 +15,7 @@ import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
 import QuickIdTable from '@/components/QuickIdTable'
 import Photo from '@/components/Photo'
+import UsAmazonLine from '@/components/UsAmazonLine'
 
 const SLUG = 'dynatrap-canada-review'
 const DATE = '2026-05-01'
@@ -192,7 +193,8 @@ export default function DynaTrapCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="DynaTrap UV + fan insect trap" search="dynatrap insect trap" label="No DynaTrap model is registered in Canada" />
+      <UsAmazonLine name="DynaTrap insect trap" search="dynatrap insect trap" />
+      <StickyBuyBar usSearch="dynatrap insect trap" tag={AMZ_TAG} name="DynaTrap UV + fan insect trap" search="dynatrap insect trap" label="No DynaTrap model is registered in Canada" />
       <TopBox tag={AMZ_TAG} name="DynaTrap UV + fan insect trap" search="dynatrap insect trap" label="No DynaTrap model is registered in Canada" />
 
       <section className="bg-white px-4">

@@ -32,7 +32,7 @@ export default function AmazonLink({
   component?: string
   /** Human label for the slot, e.g. "Best overall". Analytics only. */
   label?: string
-  /** "com" = amazon.com with the US tag (US guides only); default amazon.ca. One page, one store. */
+  /** "com" = amazon.com with the US tag (US guides, and the fixed US line on lib/amazon-dual-store.json pages); default amazon.ca. */
   store?: AmazonStore
 }) {
   const href = amazonUrl({ asin, search, tag, store })

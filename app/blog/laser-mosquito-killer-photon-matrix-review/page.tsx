@@ -14,6 +14,7 @@ import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import UsAmazonLine from '@/components/UsAmazonLine'
 
 const SLUG = 'laser-mosquito-killer-photon-matrix-review'
 const DATE = '2026-07-12'
@@ -203,7 +204,8 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet Propane CO₂ Trap" asin="B07QFNSC8Z" search="mosquito magnet patriot plus" label="Proven pick instead" />
+      <UsAmazonLine name="Mosquito Magnet propane trap" search="mosquito magnet patriot plus" />
+      <StickyBuyBar usSearch="mosquito magnet patriot plus" tag={AMZ_TAG} name="Mosquito Magnet Propane CO₂ Trap" asin="B07QFNSC8Z" search="mosquito magnet patriot plus" label="Proven pick instead" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

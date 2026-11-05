@@ -1,0 +1,193 @@
+{
+  "slug": "best-fruit-fly-traps",
+  "kind": "spoke",
+  "cluster": "flies",
+  "keyword": "fruit fly trap",
+  "alsoTargets": [
+    "fruit fly traps",
+    "best fruit fly trap",
+    "best fruit fly traps",
+    "fruit fly trap that works",
+    "do fruit fly traps work"
+  ],
+  "metaTitle": "Best Fruit Fly Traps That Actually Work",
+  "metaDescription": "The best fruit fly trap is a liquid-lure trap set where the flies gather. Our picks, how trap types compare, where to put them and why traps alone fail.",
+  "h1": "Best Fruit Fly Traps: What Works, What to Buy and Where to Put Them",
+  "dek": "Fruit flies are drawn to fermenting food, so the traps extension entomologists build are baited with cider vinegar, wine or fruit. Our picks, how the trap types compare, where to put them, and what no trap can fix.",
+  "breadcrumb": "Best Fruit Fly Traps",
+  "excerpt": "Which fruit fly traps work and which to buy: lure traps, sticky cards and light traps compared, where to put them, and why a trap only catches the adults.",
+  "datePublished": "2026-11-05",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**The best fruit fly trap is a liquid-lure trap, such as the TERRO apple or a jar of cider vinegar, set wherever the flies gather while you remove what they breed in.** The [University of Kentucky](https://entomology.mgcafe.uky.edu/ef621) says a vinegar jar trap will soon catch the remaining adults, but that the problem continues unless breeding sites are removed or cleaned.",
+    "bullets": [
+      "Fruit flies are about 1/8 inch long, tan in front and black behind, usually with red eyes, and a female can lay about 500 eggs near the surface of fermenting food (University of Kentucky).",
+      "[Texas A&M AgriLife Extension](https://agrilifeextension.tamu.edu/library/insects/indoor-flies-and-their-control/) lists apple cider vinegar, wine, bananas, orange slices and apple cider as trap baits and says a few drops of soap drown the flies that land.",
+      "Homemade baits may need replacing every few days, Texas A&M says; [TERRO](https://www.terro.com/terro-fruit-fly-trap-t2502b) says each of its traps lasts up to 45 days, and [RESCUE!](https://www.rescue.com/products/traps/fruit-fly-trap/) says each of its traps comes with a 30-day supply of attractant.",
+      "Light traps work best on larger flies such as house flies, Texas A&M says, and RESCUE! says its fruit fly trap won't catch fungus gnats or drain flies.",
+      "Traps alone rarely give adequate control, Texas A&M says, but they help pinpoint the source and show whether your cleanup is working."
+    ]
+  },
+  "facts": {
+    "title": "Which small fly is it, and what catches it?",
+    "head": ["Fly", "What it looks like", "Where it breeds", "What catches it"],
+    "rows": [
+      ["Fruit fly", "About 1/8 inch; tan in front, black behind; usually red eyes", "Ripe or rotting produce, drains, trash, recycling, mops and rags", "A trap baited with cider vinegar, wine or fruit"],
+      ["Dark-eyed fruit fly", "A fruit fly with black eyes", "Drains, and around bathrooms", "A bait trap for the adults; scrub the drain"],
+      ["Fungus gnat", "1/16 to 1/8 inch; slender, delicate and dark, with long legs", "Moist potting soil", "Yellow sticky cards under the leaves or on the pot rim"],
+      ["Drain fly (moth fly)", "1/16 to 1/5 inch; grayish, fuzzy and moth-like", "The film inside sink and floor drains", "No trap fixes it: clean the film out of the drain"],
+      ["Phorid fly", "About 1/8 inch, with a humpbacked look", "Decaying plant and animal matter", "No trap fixes it: find and remove the decaying matter"]
+    ],
+    "caption": "Sizes and breeding sites from the University of Kentucky, Texas A&M AgriLife Extension and Colorado State University Extension; sticky cards from Colorado State. Each source is linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "Our picks at a glance" },
+    { "type": "p", "text": "We chose these from what extension entomologists say catches fruit flies, a bait that smells like fermenting fruit in a trap the flies cannot leave, and from what each maker's own product page says about lure life, refills and placement. No product was tested for this guide." },
+    { "type": "picks", "title": "Best fruit fly traps, and what to buy for look-alikes", "items": [
+      { "label": "Best overall", "name": "TERRO Fruit Fly Trap", "search": "terro fruit fly trap", "why": "Apple-shaped traps with a liquid bait that lures adult fruit flies inside, where TERRO says they cannot escape to keep breeding. Each trap lasts up to 45 days and then goes in the trash; TERRO sells no refills." },
+      { "label": "Best refillable", "name": "RESCUE! Fruit Fly Trap", "search": "rescue fruit fly trap", "why": "A food-based lure and a color fruit flies are drawn to, in a no-tip trap with funnel holes they cannot fly back out of. RESCUE! says each trap holds a 30-day supply of attractant and can be rinsed and refilled; it is made for indoor use." },
+      { "label": "For gnats at houseplants", "name": "Yellow sticky traps", "search": "yellow sticky traps", "why": "RESCUE! says its fruit fly trap won't catch fungus gnats. Colorado State says adult fungus gnats are drawn to yellow and get caught on sticky cards set under the plant's leaves or on the edge of the pot." },
+      { "label": "For flies from a drain", "name": "Stiff drain cleaning brush", "search": "drain cleaning brush", "why": "No trap reaches the larvae living in drain slime. Iowa State says to scrub slow-moving drains with a stiff brush, and that there is no benefit to treating drains with bleach or ammonia." },
+      { "label": "For house flies, not fruit flies", "name": "Plug-in UV light fly trap", "search": "plug in fly trap", "why": "Texas A&M says light traps work best on larger flies such as house flies, mounted 4 to 6 feet above the floor out of sight of the outdoors. For fruit flies alone, a lure trap is the better buy." }
+    ] },
+
+    { "type": "h2", "text": "Do fruit fly traps work?" },
+    { "type": "p", "text": "Yes, on the adult flies, but a trap alone rarely ends the problem. The [University of Kentucky's fruit fly fact sheet](https://entomology.mgcafe.uky.edu/ef621) says its simple jar trap will soon catch any remaining adults, and [Texas A&M AgriLife Extension's guide to indoor flies](https://agrilifeextension.tamu.edu/library/insects/indoor-flies-and-their-control/) says bait traps help pinpoint the source, monitor whether control is working and reduce fly numbers while you find and remove breeding sites, though they rarely provide adequate control on their own. [University of Wisconsin-Madison Extension](https://hort.extension.wisc.edu/articles/fruit-flies-home/) calls trapping short-term control." },
+    { "type": "figure", "src": "/guides/photos/fruit-fly.webp", "width": 1133, "height": 971, "alt": "Side view of a tan fruit fly with a bright red eye, clear iridescent wings and a dark rear end, beside a printed 1 mm (about 1/25 inch) scale bar", "caption": "A male common fruit fly (*Drosophila melanogaster*) beside a 1 mm scale bar printed on the photo, about 1/25 inch. Adults are about 1/8 inch long, the University of Kentucky says.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/13229956" },
+    { "type": "p", "text": "The trap misses the next generation. Kentucky says fruit flies lay their eggs near the surface of fermenting food and other moist organic material, that a female can lay about 500 eggs, and that the cycle from egg to adult can finish in about a week; Wisconsin gives 8 to 10 days. Eggs and larvae in a forgotten potato or a slimy drain keep turning into adults until the source is gone. [How to get rid of fruit flies](/blog/fruit-flies) walks through finding and removing that source; this guide covers what to buy for the flies already in the air." },
+
+    { "type": "h2", "text": "What kind of fruit fly trap works best?" },
+    { "type": "p", "text": "A trap baited with something that smells like fermenting fruit. Every fruit fly trap in the extension sources cited here uses that kind of bait: Kentucky baits a jar with a few ounces of cider vinegar or a slice of banana, Texas A&M lists apple cider vinegar, wine, bananas, orange slices and apple cider and says a small amount of yeast makes the bait more attractive, and Wisconsin baits a jar with ripe bananas, pears or wine. In an open bowl, Texas A&M adds, a few drops of soap drown the flies that land." },
+    { "type": "p", "text": "Store-bought lure traps put the same idea in a closed container. The [TERRO fruit fly trap](https://www.terro.com/terro-fruit-fly-trap-t2502b) uses a liquid bait to lure adult fruit flies inside, where TERRO says they cannot escape to keep breeding. The [RESCUE! fruit fly trap](https://www.rescue.com/products/traps/fruit-fly-trap/) pairs a food-based lure with a color fruit flies are drawn to, and the flies drown behind funnel-shaped holes they cannot fly back out of." },
+    { "type": "p", "text": "Light and sticky traps suit other flies. Texas A&M says light traps use ultraviolet light to draw flies to a glue board or a low-voltage grid and work best on larger flies such as house flies, though they may catch small flies too, and that high-voltage bug zappers should not be used indoors because they scatter insect fragments. [Colorado State University Extension](https://extension.colostate.edu/topic-areas/insects/fungus-gnats-as-houseplant-and-indoor-pests-5-584/) says adult fungus gnats are drawn to yellow and get caught on yellow sticky cards. None of the extension fact sheets cited here recommends a light or a plain sticky card for fruit flies." },
+    { "type": "h3", "text": "How the trap types compare" },
+    { "type": "table", "head": ["Trap type", "How it catches", "Best for", "How long it lasts", "Drawbacks"], "rows": [
+      ["Disposable lure trap, such as the TERRO apple", "Liquid bait lures adults inside, where they cannot escape", "Fruit flies around counters, sinks and fruit bowls", "Up to 45 days, then throw it away; no refills", "You buy new traps each time; it catches adults only"],
+      ["Refillable lure trap, such as RESCUE!", "Food-based lure and color; flies drown behind funnel holes", "Fruit flies that come back year after year", "A 30-day supply of attractant; rinse and refill", "Indoor use only; won't catch fungus gnats or drain flies"],
+      ["Homemade jar or bowl", "Cider vinegar, wine or fruit under a paper funnel, or in a bowl with a few drops of soap", "Starting today with what is in the kitchen", "Bait may need replacing every few days", "Open bowls can tip, and the bait needs regular changing"],
+      ["Yellow sticky card", "No bait: gnats drawn to the yellow stick to it", "Fungus gnats at houseplants", "Until the card is covered", "Not a fruit fly lure"],
+      ["Plug-in ultraviolet light trap", "Ultraviolet light draws flies to a glue board", "House flies and other larger flies", "Replace the glue board as the maker directs", "Texas A&M says it works best on larger flies"]
+    ], "caption": "Lure life and refills are the makers' own figures from the TERRO and RESCUE! product pages; how each trap works from the University of Kentucky, Texas A&M AgriLife Extension and Colorado State University Extension." },
+
+    { "type": "h2", "text": "How do you choose a fruit fly trap?" },
+    { "type": "p", "text": "Start with the fly, then match the bait, the design and the upkeep to it." },
+    { "type": "checklist", "title": "Five checks before you buy", "items": [
+      "**Which fly it is.** Fruit flies are about 1/8 inch long with red eyes and gather at produce, drains and bins (Kentucky). Slender dark flies rising from houseplant soil are fungus gnats, which call for yellow sticky cards (Colorado State).",
+      "**A fermenting bait.** Cider vinegar, wine or ripe fruit, the baits Kentucky, Texas A&M and Wisconsin use, or a store-bought trap with a food-based or liquid lure.",
+      "**A way in but not out.** A funnel or small holes keep caught flies inside, as Kentucky's paper funnel and the RESCUE! funnel holes do.",
+      "**How long the lure lasts.** TERRO gives up to 45 days per disposable trap and RESCUE! a 30-day supply of attractant per fill; homemade bait may need replacing every few days (Texas A&M).",
+      "**Enough traps for every spot.** Kentucky says to place traps wherever fruit flies are seen, so count the places they gather before you buy."
+    ] },
+
+    { "type": "h2", "text": "Disposable or refillable: which lure trap should you buy?" },
+    { "type": "p", "text": "Buy disposable traps for a one-time outbreak and a refillable trap if fruit flies return every year. TERRO says each of its apple-shaped traps lasts up to 45 days and should then be thrown away, and that it does not sell refills; in its answers to buyers it also says a trap should be replaced every 30 days for hygienic reasons. Setting one up takes a minute: stand the traps upright, remove the cap from the lure bottle, insert its tip into the center hole and empty half the bottle into each trap of the pair." },
+    { "type": "p", "text": "RESCUE! says each of its traps comes with a 30-day supply of attractant, that the trap can be reused by rinsing and refilling it once the liquid evaporates, and that refills are sold separately. It is designed for indoor use, RESCUE! says, and outdoor use is not recommended." },
+    { "type": "p", "text": "Whichever you buy, treat the box's claims as the maker's own. [EPA's guide to pesticide devices](https://www.epa.gov/safepestcontrol/pesticide-devices-guide-consumers) lists insect traps among devices, which federal law does not require to be reviewed and registered before sale. EPA says makers generally do not submit their efficacy and safety data to it, and that an EPA establishment number on a device's label does not mean EPA has reviewed the product." },
+
+    { "type": "h2", "text": "Is a homemade fruit fly trap as good as a store-bought one?" },
+    { "type": "p", "text": "It catches the same adult fruit flies, and it is the kind of trap the extension sources describe building; the clearest difference is upkeep. Kentucky sets a funnel rolled from a sheet of notebook paper into a jar baited with a few ounces of cider vinegar, and Texas A&M's simplest version is a bowl of apple cider vinegar with a few drops of soap. Texas A&M says baits like these may need replacing every few days, and that some commercial traps use low-odor lures that can last as long as a week." },
+    { "type": "p", "text": "The makers claim longer for their own traps: up to 45 days for a TERRO trap and a 30-day supply of attractant for RESCUE!. A store-bought trap makes sense if you would rather not refresh a jar every few days for as long as new flies keep emerging; a jar of cider vinegar works if you will. The full jar-and-funnel build is in [the fruit fly control guide](/blog/fruit-flies), and Wisconsin notes that old wine bottles with residue inside also capture adults." },
+
+    { "type": "h2", "text": "Where should you put a fruit fly trap?" },
+    { "type": "p", "text": "Next to wherever you see the flies, which is usually beside their food. Kentucky says to place jar traps wherever fruit flies are seen. TERRO suggests behind or under kitchen counters, sinks and dishwashers and near unrefrigerated fruits and vegetables, in a spot where the trap will not be disturbed or tipped. RESCUE! suggests a counter, table, windowsill or other stable surface near the problem, such as beside fruit bowls, trash and compost bins, the kitchen sink or a food-storage room." },
+    { "type": "figure", "src": "/guides/photos/fruit-fly-mango-peel.webp", "width": 1200, "height": 1200, "alt": "Close side view of a fruit fly with a red eye, a bristly tan body and a dark-banded rear end standing on pale yellow fruit peel", "caption": "A common fruit fly on a mango peel indoors in Austin, Texas, where, the photographer says, the household's fruit flies were feeding and breeding. Kentucky says to place traps wherever fruit flies are seen.", "license": "CC-BY-4.0", "credit": "(c) Justin Williams, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/320069474" },
+    { "type": "ul", "items": [
+      "**A trap at each hot spot.** Because Kentucky says to set traps wherever fruit flies are seen, a kitchen with flies at the fruit bowl and at the sink needs a trap at each.",
+      "**Take away the competition.** RESCUE! says other breeding sites, such as compost or overripe fruit, need to be addressed too, so empty the compost pail and refrigerate ripe produce while the traps run.",
+      "**Test the drains.** Kentucky says to tape a clear plastic food storage bag over a drain or garbage disposal overnight; if flies are breeding there, the adults will be caught in the bag.",
+      "**Mount light traps higher.** For house flies, Texas A&M says light traps should go 4 to 6 feet above the floor and be mounted so they are not visible from outdoors.",
+      "**Keep traps out of reach.** RESCUE! recommends placing its traps out of reach of young children or pets."
+    ] },
+
+    { "type": "h2", "text": "How long does a fruit fly trap take to work?" },
+    { "type": "p", "text": "The makers say within a day or a few days, but a trap catches only the adults. RESCUE! says you will see fruit flies caught in less than 24 hours, and TERRO says you should notice a dramatic decrease within a matter of days. The flies still developing are what keep appearing: Kentucky says the cycle from egg to adult can finish in about a week, Texas A&M says in as few as 8 days under the best conditions, and Wisconsin says 8 to 10 days." },
+    { "type": "p", "text": "If adults are still turning up after that, something is still breeding them. [Iowa State University Extension](https://yardandgarden.extension.iastate.edu/encyclopedia/fruit-vinegar-and-pomace-flies) says a persistent presence of adult fruit flies indicates the larvae are developing nearby. Wisconsin says to check onions, potatoes, squash and other produce stored out of sight, and Kentucky adds trash containers, empty bottles and cans, mops and cleaning rags, and a recycling bin that is never emptied or cleaned." },
+
+    { "type": "h2", "text": "Why is a fruit fly trap not catching anything?" },
+    { "type": "ul", "items": [
+      "**They are not fruit flies.** RESCUE! says its fruit fly trap won't catch fungus gnats or drain flies. Gnats rising from potting soil and fuzzy flies resting on bathroom walls need the fixes in the quick-ID table at the top of this page.",
+      "**The bait has run out.** Homemade bait may need replacing every few days (Texas A&M), and the makers give up to 45 days for a TERRO trap and a 30-day supply of attractant for RESCUE!. Write the start date on each trap.",
+      "**The bait could be stronger.** The extension recipes use cider vinegar, wine or ripe fruit, and Texas A&M says a small amount of yeast increases a bait's attractiveness, though the smell of fermenting bait may be objectionable indoors.",
+      "**Something nearby smells better.** Ripe produce on the counter or an open compost pail competes with the trap; RESCUE! says breeding sites like these have to be dealt with too.",
+      "**The flies come from a drain.** Texas A&M says dark-eyed fruit flies breed more often in drains and around bathrooms. Run Kentucky's overnight bag test and scrub any drain that catches flies."
+    ] },
+    { "type": "figure", "src": "/guides/photos/fungus-gnat-yellow-sticky-trap.webp", "width": 1200, "height": 1600, "alt": "Dark fungus gnat with long antennae and clear wings spread, stuck to a yellow sticky trap, a blurred fingertip at the top edge", "caption": "A dark-winged fungus gnat stuck to a yellow sticky trap in Lincoln, New Zealand; the observer says the gnats were living in potting mix. Colorado State says adult fungus gnats are drawn to yellow.", "license": "CC-BY-4.0", "credit": "(c) Mel Whiting, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/404646444" },
+    { "type": "p", "text": "Not sure which small fly you have? Catch a few and compare them with the cards below, or try [the pest identifier quiz](/tools/what-bug-is-this)." },
+    { "type": "confused", "title": "Not a fruit fly? These need a different fix", "items": [
+      { "href": "/blog/how-to-get-rid-of-drain-flies", "name": "Drain fly", "photo": "drain-fly-bathroom-wall", "note": "Fuzzy, grayish and moth-like, 1/16 to 1/5 inch; breeds in the film inside drains", "alt": "Fuzzy dark drain fly with broad, rounded, hairy wings and feathery antennae on a white bathroom wall" },
+      { "href": "/learn/how-to-get-rid-of-fungus-gnats", "name": "Fungus gnat", "photo": "fungus-gnat-penny-scale", "note": "Slender and dark, 1/16 to 1/8 inch; breeds in moist potting soil and sticks to yellow cards", "alt": "Tiny, slender fungus gnat with long legs on a white surface beside a U.S. penny for scale" },
+      { "href": "/blog/how-to-get-rid-of-gnats", "name": "Phorid fly", "photo": "phorid-fly", "note": "About 1/8 inch and humpbacked; breeds in decaying plant and animal matter", "alt": "Tan phorid fly with a humped back and a large black eye, beside a printed scale bar of 1 mm (about 1/25 inch)" },
+      { "href": "/blog/flies-in-house", "name": "House fly", "photo": "house-fly", "note": "A larger fly; Texas A&M says light traps work best on larger flies such as house flies", "alt": "Close view from above of a house fly with a dark striped thorax, large reddish eyes and clear veined wings" }
+    ] },
+
+    { "type": "h2", "text": "What can a fruit fly trap not do?" },
+    { "type": "p", "text": "It cannot reach eggs and larvae, clean a drain or catch flies its bait does not attract. Kentucky says that unless breeding sites are removed or cleaned, the problem will continue no matter how often insecticides are applied to control the adults, and a trap works on the adults too. Iowa State says eradication will require eliminating the source of the infestation." },
+    { "type": "p", "text": "Drains are the usual blind spot. Iowa State says to scrub slow-moving drains with a stiff brush or other tool, to rinse drains that cannot be scrubbed with water under high pressure, or to use a bacterial drain treatment that biodegrades the organic matter, and that there is no benefit to treating drains with bleach or ammonia. [UC IPM's Pest Note on drain flies](https://ipm.ucanr.edu/home-and-landscape/moth-or-drain-flies/) adds that bleach or boiling water does not remove the organic film inside a drain." },
+    { "type": "figure", "src": "/guides/photos/drain-flies-sink.webp", "width": 1200, "height": 1200, "alt": "Three small, dark, fuzzy drain flies with rounded wings on the white basin of a bathroom sink, the metal drain at the lower left", "caption": "Drain flies (*Clogmia albipunctata*) in a bathroom sink beside the drain in Queens, New York. Texas A&M says their larvae and pupae live in the thin microbial film inside drains, out of any trap's reach.", "license": "CC-BY-4.0", "credit": "(c) Dilrukshan Priyantha Wijesinghe, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/28811964" },
+    { "type": "p", "text": "Garden fruit is a separate problem. On backyard cherries and berries the culprit may be spotted wing drosophila, which [UC IPM's Pest Note](https://ipm.ucanr.edu/home-and-landscape/spotted-wing-drosophila/) says attacks healthy ripening fruit; males carry a black spot toward the tip of each wing. UC IPM baits monitoring traps with 1 to 2 inches of pure apple cider vinegar but says trapping has not been shown to reduce its numbers in backyard trees. Picking fruit as soon as it ripens and removing fallen fruit help cut the population." },
+
+    { "type": "h2", "text": "Are fruit fly traps safe around kids and pets?" },
+    { "type": "p", "text": "Use them the way each maker directs, and keep them where children and pets cannot reach or tip them. RESCUE! recommends placing its traps out of reach of young children or pets and says its no-tip design reduces the risk of accidental spills. TERRO says to set its traps where they will not be disturbed or tipped, and its answers to buyers say the lure's safety data sheet lists no substances considered hazardous to health at the concentrations present, though the lure may cause slight eye irritation on contact. EPA asks consumers to use any pesticide device according to its precautionary language and directions for use." },
+
+    { "type": "h2", "text": "Should you spray for fruit flies instead?" },
+    { "type": "p", "text": "Rarely, and only after the source is gone. Kentucky says a pyrethrum-based aerosol may be used to kill any remaining adults once the source of attraction and breeding is eliminated, and Texas A&M says that once breeding areas are cleaned or eliminated you should not need insecticides. Wisconsin says indoor flying insect sprays containing pyrethrins control only the adults present when you spray and offer no residual control, and Iowa State calls household fly sprays temporary relief at best." },
+    { "type": "p", "text": "If you do use one, [EPA's introduction to pesticide labels](https://www.epa.gov/pesticide-labels/introduction-pesticide-labels) explains that pesticide labels are legally enforceable: using a product in a manner inconsistent with its labeling is a violation of federal law. The label is the law." },
+
+    { "type": "h2", "text": "When should you call a professional about fruit flies?" },
+    { "type": "p", "text": "When the flies are breeding somewhere you cannot reach or clean. UC IPM's drain fly Pest Note says to contact a professional pest control service for advice when the flies are developing out of sight, such as inside a wall void or beneath a structural foundation. Texas A&M says large numbers of phorid flies usually indicate unsanitary conditions, and that removing contaminated soil can sometimes require expensive excavation. In restaurants, Wisconsin says to look for leaking pipes, drains or tubes around soft drink, beer and milk dispensers." },
+    { "type": "p", "text": "Before you pay anyone, get the fly identified: Wisconsin's fact sheet points readers to their county Extension agent. For other small pests in the kitchen, browse [the library of pest guides](/learn), and if the flies turn out to be coming from potted plants, [the fungus gnat fix for houseplants](/blog/how-to-get-rid-of-fungus-gnats-houseplants) goes through the soil steps." },
+    { "type": "media", "needed": "Fruit flies caught in a liquid-lure trap or a jar of cider vinegar on a US kitchen counter, beside a ruler marked in inches, the flies identified as Drosophila; public domain or CC0" },
+    { "type": "callout", "tone": "tip", "title": "Catch one before you buy", "text": "Press a few flies onto clear tape, photograph them beside a ruler marked in inches, and note where you found them. Your state's cooperative extension office can tell a fruit fly from a fungus gnat, a drain fly or a phorid fly, and the right trap follows from that." }
+  ],
+  "faqs": [
+    {
+      "question": "How often should you replace a fruit fly trap?",
+      "answer": "It depends on the trap. TERRO says each of its disposable traps lasts up to 45 days and should then be thrown away, and in answers to buyers it also suggests replacing a trap every 30 days for hygienic reasons. RESCUE! says each of its traps comes with a 30-day supply of attractant and can be rinsed and refilled once the liquid evaporates. Texas A&M AgriLife Extension says homemade baits such as cider vinegar may need replacing every few days."
+    },
+    {
+      "question": "How many fruit fly traps do you need?",
+      "answer": "One for each place the flies gather. The University of Kentucky says to place traps wherever fruit flies are seen, and the makers' suggested spots show how many that can be: TERRO lists counters, sinks, dishwashers and unrefrigerated produce, and RESCUE! lists fruit bowls, trash and compost bins, the kitchen sink and food-storage rooms. A kitchen with flies at the fruit bowl and at the sink needs two. More traps will not end the problem while a breeding source is still producing new flies."
+    },
+    {
+      "question": "Do fruit fly traps catch gnats or drain flies?",
+      "answer": "Usually not. RESCUE! says its fruit fly trap won't catch fungus gnats or drain flies. For fungus gnats from houseplants, Colorado State University Extension recommends yellow sticky cards placed under the plant's leaves or on the edge of the pot, because adult gnats are drawn to yellow, and letting the top 1 to 2 inches of potting mix dry between waterings. Drain flies breed in the film inside drains, which Texas A&M AgriLife Extension says must be cleaned out."
+    },
+    {
+      "question": "Do fruit fly traps work outside?",
+      "answer": "Most kitchen traps are not made for it: RESCUE! says its fruit fly trap is designed for indoor use and that outdoor use is not recommended. Outdoors, fruit flies on backyard cherries and berries may be spotted wing drosophila. UC IPM uses apple cider vinegar traps to monitor that fly but says trapping has not been shown to reduce its numbers in backyard trees, so pick ripe fruit promptly and remove fallen fruit instead."
+    },
+    {
+      "question": "Do bug zappers kill fruit flies?",
+      "answer": "They are the wrong tool indoors. Texas A&M AgriLife Extension says high-voltage bug zappers should not be used indoors because they scatter insect fragments, and that indoor light traps, which use ultraviolet light to draw flies to a glue board or a low-voltage grid, work best on larger flies such as house flies. For fruit flies, the extension traps are baited with cider vinegar, wine or ripe fruit instead of light."
+    },
+    {
+      "question": "Do fruit flies go away on their own?",
+      "answer": "Sometimes, but not while something is still breeding them. Iowa State University Extension says that for many people fruit flies are a temporary annoyance that eventually disappears without a source ever being found, but that a persistent presence of adults indicates the larvae are developing nearby. The University of Kentucky says a single forgotten rotting potato or onion, or fruit juice spilled under a refrigerator, can breed thousands of fruit flies. Kentucky says fruit flies can be a problem year round but are especially common in late summer and fall. Remove the source, then trap the adults that remain."
+    },
+    {
+      "question": "Can you reuse a fruit fly trap?",
+      "answer": "Some, yes. RESCUE! says its trap is reusable: rinse it and refill it with attractant once the liquid evaporates, with refills sold separately. TERRO's traps are meant to be thrown away: it says to discard them after 45 days of use and that it does not sell refills. A homemade jar can be emptied, washed and baited again, and Texas A&M AgriLife Extension says such baits may need replacing every few days anyway."
+    },
+    {
+      "question": "Can fruit flies escape from a trap?",
+      "answer": "Not easily from one built to hold them. TERRO says flies that enter its trap cannot escape to continue breeding, RESCUE! says fruit flies cannot fly back out through its funnel-shaped holes and drown in the liquid, and the University of Kentucky's homemade version sets a paper funnel into a jar. In an open bowl, Texas A&M AgriLife Extension says a few drops of soap drown the flies that land. Kentucky says trapped adults can then be killed or released outdoors."
+    },
+    {
+      "question": "What keeps fruit flies away for good?",
+      "answer": "Taking away what they breed in, not a scent or a repellent. The University of Kentucky says that unless breeding sites are removed or cleaned, the problem will continue, and it recommends tight-fitting 16-mesh screens on windows and doors to help keep adults from coming in from outdoors. Iowa State University Extension says to scrub slow-moving drains with a stiff brush. None of the extension sources cited here recommends a repellent for fruit flies."
+    }
+  ],
+  "sources": [
+    { "title": "ENTFACT-621: Fruit Flies (Michael F. Potter, revised March 2026)", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef621" },
+    { "title": "Indoor Flies and Their Control (Michael Merchant)", "publisher": "Texas A&M AgriLife Extension Service", "url": "https://agrilifeextension.tamu.edu/library/insects/indoor-flies-and-their-control/" },
+    { "title": "Fruit, Vinegar, and Pomace Flies (Yard and Garden, September 12, 2016)", "publisher": "Iowa State University Extension and Outreach", "url": "https://yardandgarden.extension.iastate.edu/encyclopedia/fruit-vinegar-and-pomace-flies" },
+    { "title": "Fruit Flies in the Home (XHT1102; Phil Pellitteri, UW Insect Diagnostic Lab)", "publisher": "University of Wisconsin-Madison Division of Extension", "url": "https://hort.extension.wisc.edu/articles/fruit-flies-home/" },
+    { "title": "Fungus Gnats as Houseplant and Indoor Pests (Fact Sheet 5.584; W. Cranshaw and R. A. Cloyd, reviewed August 2025)", "publisher": "Colorado State University Extension", "url": "https://extension.colostate.edu/topic-areas/insects/fungus-gnats-as-houseplant-and-indoor-pests-5-584/" },
+    { "title": "Pest Notes: Moth or Drain Flies (UC ANR Publication 74167, updated March 2014)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/moth-or-drain-flies/" },
+    { "title": "Pest Notes: Spotted Wing Drosophila (UC ANR Publication 74158, updated August 2011)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/spotted-wing-drosophila/" },
+    { "title": "Pesticide Devices: A Guide for Consumers (updated September 29, 2026)", "publisher": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/safepestcontrol/pesticide-devices-guide-consumers" },
+    { "title": "Introduction to Pesticide Labels (updated June 2, 2026)", "publisher": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/pesticide-labels/introduction-pesticide-labels" },
+    { "title": "TERRO Fruit Fly Trap (Model T2502B), product page and answers to buyers", "publisher": "TERRO", "url": "https://www.terro.com/terro-fruit-fly-trap-t2502b", "kind": "manufacturer" },
+    { "title": "RESCUE! Fruit Fly Trap, product page", "publisher": "RESCUE!", "url": "https://www.rescue.com/products/traps/fruit-fly-trap/", "kind": "manufacturer" }
+  ]
+}

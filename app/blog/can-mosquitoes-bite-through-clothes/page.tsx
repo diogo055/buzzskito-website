@@ -12,6 +12,7 @@ import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import Photo from '@/components/Photo'
 import { shareImage } from '@/lib/photos'
+import UsAmazonLine from '@/components/UsAmazonLine'
 
 const SLUG = 'can-mosquitoes-bite-through-clothes'
 const DATE = '2026-07-16'
@@ -198,6 +199,7 @@ export default function CanMosquitoesBiteThroughClothesPage() {
           </ol>
 
           <AffiliateDisclosure />
+          <UsAmazonLine name="Permethrin-treated shirt" search="permethrin treated shirt" />
           <p className="not-prose text-sm text-gray-600 mb-2">For heavy-exposure situations — hiking, camping, or evenings in a buggy yard — permethrin-treated garments and a bug jacket are the most dependable clothing-based defence:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="insectguard permethrin treated shirt">Permethrin-treated shirt on Amazon.ca →</BuyLink>
@@ -263,7 +265,7 @@ export default function CanMosquitoesBiteThroughClothesPage() {
         </div>
       </article>
 
-      <StickyBuyBar tag={AMZ_TAG} name="Permethrin-Treated Shirt" search="insectguard permethrin treated shirt" label="Best bite-through defence" />
+      <StickyBuyBar usSearch="permethrin treated shirt" tag={AMZ_TAG} name="Permethrin-Treated Shirt" search="insectguard permethrin treated shirt" label="Best bite-through defence" />
 
       <ReadNext path="/blog/can-mosquitoes-bite-through-clothes" standalone />
     </>

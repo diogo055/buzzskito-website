@@ -2,6 +2,30 @@
  "_readme": "Hand-picked in-content links. Anything set here wins over the automatic pick and is never changed by scripts/backfill-recirculation.mjs. Use full paths. A page may set \"next\" (one path), \"related\" (a list of up to three paths), both, or \"off\": true to show neither unit on that page. After editing run: npm run recirculation:backfill",
  "_history": "Oct 11, 2026: the \"next\" entries below were chosen in a page-by-page review of all 416 automatic picks, for the pages where the automatic pick was rated wrong or weak.",
  "pages": {
+  "/blog/best-rat-traps": {
+   "next": "/blog/mice-traps",
+   "_why": "Nov 5, 2026: the US buying guides send US readers on to US guides (amazon.com), not to the Canadian amazon.ca pages the automatic pick chose"
+  },
+  "/blog/best-bed-bug-spray": {
+   "next": "/blog/how-to-get-rid-of-bed-bugs",
+   "_why": "Nov 5, 2026: same; the automatic pick was the Canadian spray page"
+  },
+  "/blog/raccoon-repellent": {
+   "related": ["/blog/animals-in-attic", "/blog/animal-droppings", "/blog/holes-in-yard"],
+   "_why": "Nov 5, 2026: same; the automatic picks were three Canadian amazon.ca product pages"
+  },
+  "/blog/best-fruit-fly-traps": {
+   "related": ["/blog/how-to-get-rid-of-drain-flies", "/blog/flies-in-house", "/blog/how-to-get-rid-of-gnats"],
+   "_why": "Nov 5, 2026: same; one automatic pick was a Canadian amazon.ca trap page"
+  },
+  "/blog/flea-bites-on-humans": {
+   "next": "/blog/best-flea-spray-for-home-canada",
+   "_why": "Nov 4, 2026 (owner: get Canadian shoppers onto the buying pages): a reader with flea bites needs the house treatment; the automatic pick was a spider-bite page"
+  },
+  "/blog/bed-bug-shells-casings-shed-skins-canada": {
+   "next": "/blog/best-bed-bug-steamer-canada",
+   "_why": "Nov 4, 2026 (same): shells mean an active infestation; the steamer page converts at about 545 Amazon clicks per 1,000 Canadian views"
+  },
   "/blog/lone-star-tick": {
    "next": "/blog/alpha-gal-syndrome"
   },

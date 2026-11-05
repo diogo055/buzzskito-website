@@ -283,9 +283,19 @@
   "/guides/photos/bed-bug-hotel-bedding.webp",
   "/guides/photos/bed-bugs-eggs-mattress-seam.webp"
  ],
+ "/blog/best-bed-bug-spray": [
+  "/guides/photos/bed-bug-adult-ruler.webp",
+  "/guides/photos/bed-bugs-eggs-mattress-seam.webp",
+  "/guides/photos/bed-bugs-hotel-headboard.webp"
+ ],
  "/blog/best-bug-spray-for-kids-canada": [
   "/guides/photos/blacklegged-tick-nymph-fingernail.webp",
   "/guides/photos/mosquito-bites-forearm.webp"
+ ],
+ "/blog/best-cockroach-gel-bait": [
+  "/guides/photos/american-cockroach-bathroom-sink.webp",
+  "/guides/photos/german-cockroach-frass-cabinet.webp",
+  "/guides/photos/german-cockroach.webp"
  ],
  "/blog/best-cockroach-killer-canada": [
   "/guides/photos/german-cockroach-adult.webp",
@@ -311,6 +321,21 @@
  "/blog/best-electric-fence-for-raccoons-canada": [
   "/guides/photos/raccoon-on-chimney.webp",
   "/guides/photos/raccoon-scat-lawn-ruler.webp"
+ ],
+ "/blog/best-flea-spray-for-home": [
+  "/guides/photos/cat-flea-scale-bar.webp",
+  "/guides/photos/flea-egg-and-larva.webp",
+  "/guides/photos/flea-on-comb.webp"
+ ],
+ "/blog/best-fruit-fly-traps": [
+  "/guides/photos/drain-flies-sink.webp",
+  "/guides/photos/drain-fly-bathroom-wall.webp",
+  "/guides/photos/fruit-fly-mango-peel.webp",
+  "/guides/photos/fruit-fly.webp",
+  "/guides/photos/fungus-gnat-penny-scale.webp",
+  "/guides/photos/fungus-gnat-yellow-sticky-trap.webp",
+  "/guides/photos/house-fly.webp",
+  "/guides/photos/phorid-fly.webp"
  ],
  "/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada": [
   "/guides/photos/bed-bug-fecal-spots-bed-frame.webp",
@@ -342,6 +367,15 @@
  "/blog/best-raccoon-proof-roof-vent-covers-canada": [
   "/guides/photos/flying-squirrel-attic.webp",
   "/guides/photos/raccoon-on-chimney.webp"
+ ],
+ "/blog/best-rat-traps": [
+  "/guides/photos/copper-wool-wire-gaps.webp",
+  "/guides/photos/norway-rat.webp",
+  "/guides/photos/rat-trap-vs-mouse-trap-size.webp",
+  "/guides/photos/roof-rat.webp",
+  "/guides/photos/snap-traps-set-against-wall.webp",
+  "/guides/photos/tamper-resistant-bait-station.webp",
+  "/guides/photos/young-norway-rats-live-trap.webp"
  ],
  "/blog/best-silverfish-traps": [
   "/guides/photos/gray-silverfish.webp",
@@ -1488,6 +1522,19 @@
   "/guides/photos/head-louse-hatching-from-nit.webp",
   "/guides/photos/head-louse-nit-eyespots-and-nymph.webp"
  ],
+ "/blog/lone-star-tick": [
+  "/guides/photos/american-dog-tick-on-grass.webp",
+  "/guides/photos/blacklegged-tick-questing-stick.webp",
+  "/guides/photos/engorged-lone-star-tick.webp",
+  "/guides/photos/gulf-coast-tick-female.webp",
+  "/guides/photos/lone-star-tick-life-stages-cdc.webp",
+  "/guides/photos/lone-star-tick-male.webp",
+  "/guides/photos/lone-star-tick-nymph-fingernail.webp",
+  "/guides/photos/lone-star-tick-on-grass.webp",
+  "/guides/photos/lone-star-tick-on-white-sneaker.webp",
+  "/guides/photos/lone-star-tick-removal-tweezers-elbow.webp",
+  "/guides/photos/seed-ticks-massed-on-sock.webp"
+ ],
  "/blog/lone-star-tick-alpha-gal-canada": [
   "/guides/photos/american-dog-tick-found-on-head-mississauga.webp",
   "/guides/photos/blacklegged-tick-female-palgrave.webp",
@@ -1844,6 +1891,11 @@
   "/guides/photos/raccoon-scat-branch.webp",
   "/guides/photos/rat-droppings-thumb.webp",
   "/guides/photos/virginia-opossum.webp"
+ ],
+ "/blog/raccoon-repellent": [
+  "/guides/photos/raccoon-latrine-deck.webp",
+  "/guides/photos/raccoon-on-chimney.webp",
+  "/guides/photos/skunk-dug-hole-lawn.webp"
  ],
  "/blog/rat-droppings": [
   "/guides/photos/american-cockroach.webp",
@@ -2601,6 +2653,17 @@
   "/guides/photos/house-mouse.webp",
   "/guides/photos/mouse-droppings-wood.webp"
  ],
+ "/blog/voles": [
+  "/guides/photos/deer-mouse-white-belly-cdc.webp",
+  "/guides/photos/house-mouse-wall-base-long-tail.webp",
+  "/guides/photos/house-mouse.webp",
+  "/guides/photos/meadow-vole-beside-ruler.webp",
+  "/guides/photos/meadow-vole-in-grass.webp",
+  "/guides/photos/meadow-vole-runways.webp",
+  "/guides/photos/mole-hills.webp",
+  "/guides/photos/short-tailed-shrew-snout-usgs.webp",
+  "/guides/photos/vole-hole-snowmelt.webp"
+ ],
  "/blog/wasp-nest-identification": [
   "/guides/photos/bald-faced-hornet-nest.webp",
   "/guides/photos/bald-faced-hornet.webp",
@@ -2927,6 +2990,21 @@
   "/guides/photos/woodlouse-spider-bathroom-floor.webp",
   "/guides/photos/woodlouse-spider.webp",
   "/guides/photos/yellow-sac-spider-wall.webp"
+ ],
+ "/blog/yellow-jackets": [
+  "/guides/photos/bald-faced-hornet-nest.webp",
+  "/guides/photos/bald-faced-hornet.webp",
+  "/guides/photos/cicada-killer.webp",
+  "/guides/photos/eastern-yellowjacket-live.webp",
+  "/guides/photos/eastern-yellowjacket.webp",
+  "/guides/photos/european-hornet-nest.webp",
+  "/guides/photos/european-hornet.webp",
+  "/guides/photos/european-paper-wasp.webp",
+  "/guides/photos/mining-bee-burrow-clay-aggregation.webp",
+  "/guides/photos/paper-wasp-nest-eave-corner.webp",
+  "/guides/photos/sweat-bee-on-fingertip.webp",
+  "/guides/photos/yellowjacket-ground-nest.webp",
+  "/guides/photos/yellowjacket-paper-nest.webp"
  ],
  "/blog/yellow-sac-spiders": [
   "/guides/photos/brown-recluse-female.webp",

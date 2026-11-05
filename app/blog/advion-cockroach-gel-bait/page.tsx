@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { withRegionalAlternates } from '@/lib/guides'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
@@ -95,14 +96,14 @@ const FAQS = [
   },
 ]
 
-export const metadata: Metadata = buildMetadata({
+export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   title: META_TITLE,
   description: 'Advion cockroach gel bait is not registered in Canada: the federal registry lists no indoxacarb product. The cockroach gel baits you can use at home, by PCP number.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
-})
+}), '/blog/advion-cockroach-gel-bait')
 
 const AMZ_TAG = tagForSlug('advion-cockroach-gel-bait-canada')
 
@@ -153,6 +154,8 @@ export default function AdvionCockroachGelBaitCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
+          {/* Regional edition link (Oct 2026): this page is the Canadian edition; see REGIONAL_PAIRS in lib/guides.ts */}
+          <p className="not-prose mb-6 rounded-lg border border-navy-100 bg-brand-50 px-4 py-2.5 text-sm text-gray-700">Reading from the United States? Product rules and what is sold there differ. <Link href="/blog/best-cockroach-gel-bait" className="font-semibold text-brand-700 underline">See the US edition</Link>.</p>
 
           <h2>Can You Buy Advion Cockroach Gel Bait in Canada?</h2>
           <p>Here is the honest version of the answer, which is longer than the one Reddit gives. Advion Cockroach Gel Bait is a Syngenta product built around indoxacarb, and in the United States &mdash; where consumers can freely mail-order professional pesticides &mdash; it has earned its reputation as the default answer to German cockroaches. In Canada, the question is not &ldquo;is Advion good?&rdquo; (it is) but &ldquo;are you legally allowed to buy and use the unit a marketplace seller will ship you?&rdquo; &mdash; and that is a much murkier question than the listings suggest.</p>

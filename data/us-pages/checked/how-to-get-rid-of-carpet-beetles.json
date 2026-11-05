@@ -2,36 +2,9 @@
  "id": "how-to-get-rid-of-carpet-beetles",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "0244c380de7b14918d05f79909d2d6e32cd747e9d6f7cf882352c9bfb0dae606",
- "claimsChecked": 296,
- "claimsCorrected": 4,
- "claimsRemovedOrSoftened": 5,
- "checkedOn": "2026-10-16",
- "released": {
-  "on": "2026-10-16",
-  "scheduledFor": "2026-10-16",
-  "note": "datePublished set to the release day; nothing else changed"
- },
- "amendments": [
-  {
-   "on": "2026-10-20",
-   "note": "Oct 20, 2026: the clothes-moths link now points to the new moths-in-house page, which covers clothes moths (the planned clothes-moths page is replaced by it); no fact changed.",
-   "previousSha": "91265f55c1fc8526f41354b81809dc256e15c7b1c8d976e5a463862b6d63afe3"
-  },
-  {
-   "on": "2026-10-20",
-   "note": "Oct 20, 2026: one sentence added after the species table in 'What do carpet beetles look like?' linking the new /blog/beetles-in-house; no fact changed.",
-   "previousSha": "5d7021985f60ad06a08eff2d3865c47c8b99dd3df02a68db3a87d0e897a5649d"
-  },
-  {
-   "on": "2026-10-21",
-   "note": "Oct 21, 2026: one sentence added after the signs paragraph in 'How do you know if you have carpet beetles?' linking the new /blog/signs-of-carpet-beetles; no fact changed.",
-   "previousSha": "436607fc9178d76e0c35846ced5c9ec28f70382bf9d9b415f0f31eee1f454795"
-  },
-  {
-   "on": "2026-10-23",
-   "note": "alsoTargets: removed 'carpet beetle larvae' (now owned by /blog/carpet-beetle-larvae, 2026-10-24) (volume-20, Oct 23)",
-   "previousSha": "ff2538bb18f940af81fee4dbf12e290feb2e0a09f140886f7691312676294cf9"
-  }
- ]
+ "sha": "4df2f16b25ec2535680e8186dece419a3bba3f3ba1343b011956fdfb2b0ab9dd",
+ "claimsChecked": 11,
+ "claimsCorrected": 1,
+ "claimsRemovedOrSoftened": 0,
+ "checkedOn": "2026-11-05"
 }

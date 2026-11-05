@@ -15,6 +15,7 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import UsAmazonLine from '@/components/UsAmazonLine'
 
 const SLUG = 'how-to-get-rid-of-ground-wasps-canada'
 const DATE = '2026-07-21'
@@ -123,7 +124,8 @@ export default function HowToGetRidOfGroundWaspsCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Wilson OneShot Jet Foam Wasp & Hornet Killer" asin="B00LM93R58" search="wilson one shot foam wasp hornet killer" label="For exposed nests only" />
+      <UsAmazonLine name="Wasp and hornet foam spray" search="wasp and hornet killer foam spray" />
+      <StickyBuyBar usSearch="wasp and hornet killer foam spray" tag={AMZ_TAG} name="Wilson OneShot Jet Foam Wasp & Hornet Killer" asin="B00LM93R58" search="wilson one shot foam wasp hornet killer" label="For exposed nests only" />
       <TopBox tag={AMZ_TAG} name="Wilson OneShot Jet Foam Wasp & Hornet Killer" asin="B00LM93R58" search="wilson one shot foam wasp hornet killer" label="For exposed nests only" />
 
       <section className="bg-white px-4">

@@ -16,6 +16,7 @@ import QuickIdTable from '@/components/QuickIdTable'
 import ConfusedWith from '@/components/ConfusedWith'
 import Photo from '@/components/Photo'
 import { shareImage } from '@/lib/photos'
+import UsAmazonLine from '@/components/UsAmazonLine'
 
 const SLUG = 'baby-bed-bugs-nymphs'
 const DATE = '2026-07-30'
@@ -121,7 +122,8 @@ export default function BabyBedBugsNymphsCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Bed bug interceptor cups (under each bed leg)" search="bed bug interceptor traps" label="Confirm it overnight" />
+      <UsAmazonLine name="Bed bug interceptor traps" search="bed bug interceptor traps" />
+      <StickyBuyBar usSearch="bed bug interceptor traps" tag={AMZ_TAG} name="Bed bug interceptor cups (under each bed leg)" search="bed bug interceptor traps" label="Confirm it overnight" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

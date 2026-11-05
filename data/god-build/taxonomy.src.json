@@ -33482,6 +33482,355 @@
    "suggestedWeek": "2026-10-26",
    "releaseOrder": 239,
    "evidenceScore": null
+  },
+  {
+   "slug": "best-fruit-fly-traps",
+   "path": "/blog/best-fruit-fly-traps",
+   "section": "blog",
+   "role": "page",
+   "cluster": "flies",
+   "guideCluster": "flies",
+   "family": "us-buying",
+   "pageType": "buying",
+   "audience": "us",
+   "title": "Best Fruit Fly Traps: What Works, What to Buy and Where to Put Them",
+   "metaTitle": "Best Fruit Fly Traps That Actually Work",
+   "keyword": "fruit fly trap",
+   "alsoTargets": [
+    "fruit fly traps",
+    "best fruit fly trap",
+    "best fruit fly traps",
+    "fruit fly trap that works",
+    "do fruit fly traps work"
+   ],
+   "demand": {
+    "summary": "Google Keyword Planner, US and Canada, Nov 3, 2026 (research_notes/God plan 10k a day/keyword_volumes.csv): \"fruit fly trap\" US 100K-1M a month (CA 10K-100K); \"best fruit fly trap(s)\" US 1K-10K."
+   },
+   "collisions": [
+    {
+     "path": "/blog/best-fruit-fly-trap-canada",
+     "overlap": "the Canadian edition (TSX, amazon.ca)",
+     "resolution": "regional pair: add { us: '/blog/best-fruit-fly-traps', ca: '/blog/best-fruit-fly-trap-canada' } to REGIONAL_PAIRS at release and wrap that page's metadata in withRegionalAlternates; count its affiliate tokens before and after (they must not change)"
+    },
+    {
+     "path": "/blog/fruit-flies",
+     "overlap": "the US fruit fly guide (identification, life cycle, how to get rid of them)",
+     "resolution": "keeps identification and the control plan; this page owns the buying searches (traps); link both ways"
+    }
+   ],
+   "resolution": "regional pair",
+   "pairWith": "/blog/best-fruit-fly-trap-canada",
+   "priority": 1,
+   "gate": null,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "mustLink": [
+    "/blog/fruit-flies"
+   ],
+   "scope": "US edition of /blog/best-fruit-fly-trap-canada, written fresh for US shoppers: US products and EPA registration (never Canadian PCP numbers or Canadian retailers), US spelling, no prices or star ratings. A buying guide: a short answer naming the best product types first; a \"picks\" block of 3-6 picks, each a product the text itself recommends with a one-line reason; a comparison table; how to choose; how to use it safely (label is the law); what it will not do; when to call a professional; 8-10 FAQs; sources (EPA, university extension, manufacturer labels). No testing claims: we did not test products. The top pick also goes in lib/amazon-us-picks.json.",
+   "flags": [
+    "amazon-com-buying"
+   ],
+   "minWords": 1800,
+   "photos": [],
+   "dataAssets": [],
+   "notes": "Added Nov 4, 2026 (owner: US shoppers count the same as Canadian; build the buying pages).",
+   "wave": "us-buying-1",
+   "suggestedWeek": "2026-11-02",
+   "releaseOrder": 275,
+   "evidenceScore": null
+  },
+  {
+   "slug": "best-rat-traps",
+   "path": "/blog/best-rat-traps",
+   "section": "blog",
+   "role": "page",
+   "cluster": "mice",
+   "guideCluster": "mice",
+   "family": "us-buying",
+   "pageType": "buying",
+   "audience": "us",
+   "title": "Best Rat Traps: Snap, Electric and Box Traps Compared",
+   "metaTitle": "Best Rat Traps: Snap vs Electric vs Live",
+   "keyword": "rat traps",
+   "alsoTargets": [
+    "rat trap",
+    "best rat trap",
+    "best rat traps",
+    "electric rat trap",
+    "rat zapper",
+    "snap rat trap"
+   ],
+   "demand": {
+    "summary": "Google Keyword Planner, US and Canada, Nov 3, 2026 (research_notes/God plan 10k a day/keyword_volumes.csv): \"rat trap(s)\" US 10K-100K a month; \"best rat trap(s)\", \"electric rat trap\", \"rat zapper\" US 1K-10K each."
+   },
+   "collisions": [
+    {
+     "path": "/blog/best-rat-trap-canada",
+     "overlap": "the Canadian edition (TSX, amazon.ca; Search Console shows US impressions on \"rat traps\")",
+     "resolution": "regional pair, as above; affiliate tokens on the Canadian page must not change"
+    },
+    {
+     "path": "/blog/baby-rats and the rat pages under /learn/mice",
+     "overlap": "rat identification",
+     "resolution": "they keep identification; this page owns the trap buying searches; link where a sentence needs it"
+    }
+   ],
+   "resolution": "regional pair",
+   "pairWith": "/blog/best-rat-trap-canada",
+   "priority": 1,
+   "gate": null,
+   "parent": {
+    "href": "/learn/mice",
+    "name": "Mice"
+   },
+   "mustLink": [
+    "/learn/mice"
+   ],
+   "scope": "US edition of /blog/best-rat-trap-canada, written fresh for US shoppers: US products and EPA registration (never Canadian PCP numbers or Canadian retailers), US spelling, no prices or star ratings. A buying guide: a short answer naming the best product types first; a \"picks\" block of 3-6 picks, each a product the text itself recommends with a one-line reason; a comparison table; how to choose; how to use it safely (label is the law); what it will not do; when to call a professional; 8-10 FAQs; sources (EPA, university extension, manufacturer labels). No testing claims: we did not test products. The top pick also goes in lib/amazon-us-picks.json.",
+   "flags": [
+    "amazon-com-buying"
+   ],
+   "minWords": 1800,
+   "photos": [],
+   "dataAssets": [],
+   "notes": "Added Nov 4, 2026 (owner: US shoppers count the same as Canadian; build the buying pages).",
+   "wave": "us-buying-1",
+   "suggestedWeek": "2026-11-02",
+   "releaseOrder": 276,
+   "evidenceScore": null
+  },
+  {
+   "slug": "best-cockroach-gel-bait",
+   "path": "/blog/best-cockroach-gel-bait",
+   "section": "blog",
+   "role": "page",
+   "cluster": "cockroaches",
+   "guideCluster": "cockroaches",
+   "family": "us-buying",
+   "pageType": "buying",
+   "audience": "us",
+   "title": "Best Cockroach Gel Bait: How Roach Gel Works and Which to Buy",
+   "metaTitle": "Best Roach Gel Bait and How to Use It",
+   "keyword": "cockroach gel bait",
+   "alsoTargets": [
+    "roach gel bait",
+    "best roach gel",
+    "advion cockroach gel bait",
+    "advion roach gel",
+    "how to use roach gel bait",
+    "cockroach bait"
+   ],
+   "demand": {
+    "summary": "Google Keyword Planner, US and Canada, Nov 3, 2026 (research_notes/God plan 10k a day/keyword_volumes.csv): \"cockroach gel bait\" US 10K-100K a month; \"advion cockroach gel bait\" US 10K-100K."
+   },
+   "collisions": [
+    {
+     "path": "/blog/advion-cockroach-gel-bait",
+     "overlap": "the Canadian Advion page (TSX, amazon.ca; the #1 Canadian Amazon target)",
+     "resolution": "regional pair, as above; its affiliate tokens must not change"
+    },
+    {
+     "path": "/blog/how-to-get-rid-of-cockroaches",
+     "overlap": "the US cockroach control guide",
+     "resolution": "keeps the control plan; this page owns the gel-bait buying searches; link both ways"
+    }
+   ],
+   "resolution": "regional pair",
+   "pairWith": "/blog/advion-cockroach-gel-bait",
+   "priority": 1,
+   "gate": null,
+   "parent": {
+    "href": "/learn/cockroaches",
+    "name": "Cockroaches"
+   },
+   "mustLink": [
+    "/learn/cockroaches"
+   ],
+   "scope": "US edition of /blog/advion-cockroach-gel-bait, written fresh for US shoppers: US products and EPA registration (never Canadian PCP numbers or Canadian retailers), US spelling, no prices or star ratings. A buying guide: a short answer naming the best product types first; a \"picks\" block of 3-6 picks, each a product the text itself recommends with a one-line reason; a comparison table; how to choose; how to use it safely (label is the law); what it will not do; when to call a professional; 8-10 FAQs; sources (EPA, university extension, manufacturer labels). No testing claims: we did not test products. The top pick also goes in lib/amazon-us-picks.json.",
+   "flags": [
+    "amazon-com-buying"
+   ],
+   "minWords": 1800,
+   "photos": [],
+   "dataAssets": [],
+   "notes": "Added Nov 4, 2026 (owner: US shoppers count the same as Canadian; build the buying pages).",
+   "wave": "us-buying-1",
+   "suggestedWeek": "2026-11-02",
+   "releaseOrder": 277,
+   "evidenceScore": null
+  },
+  {
+   "slug": "best-bed-bug-spray",
+   "path": "/blog/best-bed-bug-spray",
+   "section": "blog",
+   "role": "page",
+   "cluster": "bed-bugs",
+   "guideCluster": "bed-bugs",
+   "family": "us-buying",
+   "pageType": "buying",
+   "audience": "us",
+   "title": "Best Bed Bug Spray: What Kills Bed Bugs and What Is a Waste of Money",
+   "metaTitle": "Best Bed Bug Spray: What Actually Kills Them",
+   "keyword": "bed bug spray",
+   "alsoTargets": [
+    "best bed bug spray",
+    "bed bug killer spray",
+    "does bed bug spray work",
+    "bed bug spray for mattress",
+    "natural bed bug spray"
+   ],
+   "demand": {
+    "summary": "Google Keyword Planner, US and Canada, Nov 3, 2026 (research_notes/God plan 10k a day/keyword_volumes.csv): \"bed bug spray\" US 10K-100K a month (CA 1K-10K)."
+   },
+   "collisions": [
+    {
+     "path": "/blog/bed-bug-spray-canada",
+     "overlap": "the Canadian edition (TSX, amazon.ca)",
+     "resolution": "regional pair, as above; its affiliate tokens must not change"
+    },
+    {
+     "path": "/blog/how-to-get-rid-of-bed-bugs",
+     "overlap": "the US bed bug control guide",
+     "resolution": "keeps the full control plan; this page owns the spray buying searches; link both ways"
+    }
+   ],
+   "resolution": "regional pair",
+   "pairWith": "/blog/bed-bug-spray-canada",
+   "priority": 1,
+   "gate": null,
+   "parent": {
+    "href": "/learn/bed-bugs",
+    "name": "Bed Bugs"
+   },
+   "mustLink": [
+    "/learn/bed-bugs"
+   ],
+   "scope": "US edition of /blog/bed-bug-spray-canada, written fresh for US shoppers: US products and EPA registration (never Canadian PCP numbers or Canadian retailers), US spelling, no prices or star ratings. A buying guide: a short answer naming the best product types first; a \"picks\" block of 3-6 picks, each a product the text itself recommends with a one-line reason; a comparison table; how to choose; how to use it safely (label is the law); what it will not do; when to call a professional; 8-10 FAQs; sources (EPA, university extension, manufacturer labels). No testing claims: we did not test products. The top pick also goes in lib/amazon-us-picks.json.",
+   "flags": [
+    "amazon-com-buying"
+   ],
+   "minWords": 1800,
+   "photos": [],
+   "dataAssets": [],
+   "notes": "Added Nov 4, 2026 (owner: US shoppers count the same as Canadian; build the buying pages).",
+   "wave": "us-buying-1",
+   "suggestedWeek": "2026-11-02",
+   "releaseOrder": 278,
+   "evidenceScore": null
+  },
+  {
+   "slug": "best-flea-spray-for-home",
+   "path": "/blog/best-flea-spray-for-home",
+   "section": "blog",
+   "role": "page",
+   "cluster": "fleas",
+   "guideCluster": "household",
+   "family": "us-buying",
+   "pageType": "buying",
+   "audience": "us",
+   "title": "Best Flea Spray for the House: Carpets, Furniture and Pet Bedding",
+   "metaTitle": "Best Flea Spray for the House (and Carpet)",
+   "keyword": "flea spray for house",
+   "alsoTargets": [
+    "best flea spray for house",
+    "flea spray for home",
+    "flea spray for carpet",
+    "flea treatment for house",
+    "flea killer for house"
+   ],
+   "demand": {
+    "summary": "Google Keyword Planner, US and Canada, Nov 3, 2026 (research_notes/God plan 10k a day/keyword_volumes.csv): \"flea spray for house\" US 10K-100K a month."
+   },
+   "collisions": [
+    {
+     "path": "/blog/best-flea-spray-for-home-canada",
+     "overlap": "the Canadian edition (TSX, amazon.ca)",
+     "resolution": "regional pair, as above; its affiliate tokens must not change"
+    },
+    {
+     "path": "/blog/flea-bites and the other US flea guides",
+     "overlap": "flea bites and identification",
+     "resolution": "they keep bites and ID; this page owns the house-spray buying searches; link where a sentence needs it"
+    }
+   ],
+   "resolution": "regional pair",
+   "pairWith": "/blog/best-flea-spray-for-home-canada",
+   "priority": 1,
+   "gate": null,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "mustLink": [
+    "/blog/flea-bites"
+   ],
+   "scope": "US edition of /blog/best-flea-spray-for-home-canada, written fresh for US shoppers: US products and EPA registration (never Canadian PCP numbers or Canadian retailers), US spelling, no prices or star ratings. A buying guide: a short answer naming the best product types first; a \"picks\" block of 3-6 picks, each a product the text itself recommends with a one-line reason; a comparison table; how to choose; how to use it safely (label is the law); what it will not do; when to call a professional; 8-10 FAQs; sources (EPA, university extension, manufacturer labels). No testing claims: we did not test products. The top pick also goes in lib/amazon-us-picks.json.",
+   "flags": [
+    "amazon-com-buying"
+   ],
+   "minWords": 1800,
+   "photos": [],
+   "dataAssets": [],
+   "notes": "Added Nov 4, 2026 (owner: US shoppers count the same as Canadian; build the buying pages).",
+   "wave": "us-buying-1",
+   "suggestedWeek": "2026-11-02",
+   "releaseOrder": 279,
+   "evidenceScore": null
+  },
+  {
+   "slug": "raccoon-repellent",
+   "path": "/blog/raccoon-repellent",
+   "section": "blog",
+   "role": "page",
+   "cluster": "wildlife",
+   "guideCluster": "wildlife",
+   "family": "us-buying",
+   "pageType": "buying",
+   "audience": "us",
+   "title": "Raccoon Repellent: What Actually Keeps Raccoons Away",
+   "metaTitle": "Raccoon Repellent: What Actually Works",
+   "keyword": "raccoon repellent",
+   "alsoTargets": [
+    "raccoon deterrent",
+    "best raccoon repellent",
+    "how to keep raccoons away",
+    "does ammonia repel raccoons",
+    "motion activated sprinkler for raccoons"
+   ],
+   "demand": {
+    "summary": "Google Keyword Planner, US and Canada, Nov 3, 2026 (research_notes/God plan 10k a day/keyword_volumes.csv): \"raccoon repellent\" / \"raccoon deterrent\" US 10K-100K a month."
+   },
+   "collisions": [
+    {
+     "path": "/blog/raccoon-deterrent",
+     "overlap": "the Canadian page (TSX, amazon.ca)",
+     "resolution": "regional pair, as above; its affiliate tokens must not change"
+    }
+   ],
+   "resolution": "regional pair",
+   "pairWith": "/blog/raccoon-deterrent",
+   "priority": 1,
+   "gate": null,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "mustLink": [],
+   "scope": "US edition of /blog/raccoon-deterrent, written fresh for US shoppers: US products and EPA registration (never Canadian PCP numbers or Canadian retailers), US spelling, no prices or star ratings. A buying guide: a short answer naming the best product types first; a \"picks\" block of 3-6 picks, each a product the text itself recommends with a one-line reason; a comparison table; how to choose; how to use it safely (label is the law); what it will not do; when to call a professional; 8-10 FAQs; sources (EPA, university extension, manufacturer labels). No testing claims: we did not test products. The top pick also goes in lib/amazon-us-picks.json.",
+   "flags": [
+    "amazon-com-buying"
+   ],
+   "minWords": 1800,
+   "photos": [],
+   "dataAssets": [],
+   "notes": "Added Nov 4, 2026 (owner: US shoppers count the same as Canadian; build the buying pages).",
+   "wave": "us-buying-1",
+   "suggestedWeek": "2026-11-02",
+   "releaseOrder": 280,
+   "evidenceScore": null
   }
  ],
  "upgrades": [

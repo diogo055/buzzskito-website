@@ -1412,6 +1412,42 @@
       "name": "Permethrin clothing spray (0.5%)",
       "search": "permethrin spray for clothing",
       "basis": "Prevention: 'Treat clothing and gear with 0.5% permethrin, or buy pretreated items, following the label.' Same pick as ticks-in-alabama, ticks-in-minnesota, ticks-in-new-hampshire and what-kills-ticks. A pesticide only as the type the page names (0.5% permethrin for clothing and gear). Alternative with page support: fine-tipped tweezers (removal step 1: 'Grasp the tick with clean, fine-tipped tweezers as close to the skin as you can, without squeezing its body.'; quick answer: 'Remove an attached tick with fine-tipped tweezers right away')."
+    },
+    "best-fruit-fly-traps": {
+      "label": "For fruit flies in the kitchen",
+      "name": "Liquid-lure fruit fly trap",
+      "search": "fruit fly trap",
+      "basis": "Quick answer: the best fruit fly trap is a liquid-lure trap set wherever the flies gather; 'What kind of fruit fly trap works best?' (Kentucky, Texas A&M, Wisconsin extension: fermenting bait)."
+    },
+    "best-flea-spray-for-home": {
+      "label": "To treat carpets and furniture",
+      "name": "Home flea spray with an IGR",
+      "search": "flea spray for home with igr",
+      "basis": "Quick answer: the best flea spray for a house pairs an adult flea killer with an insect growth regulator (methoprene or pyriproxyfen) on a label that lists carpets and upholstery (UC IPM); label checklist section."
+    },
+    "best-rat-traps": {
+      "label": "Best rat trap for most homes",
+      "name": "Rat-size snap traps",
+      "search": "rat snap traps",
+      "basis": "Quick answer: for most homes the best rat trap is a rat-size snap trap, set several at a time along the walls; 'What is the best rat trap?' (UC IPM, CDC; NC State: mouse snap traps are not effective on rats)."
+    },
+    "raccoon-repellent": {
+      "label": "To scare raccoons off a spot",
+      "name": "Motion-activated sprinkler",
+      "search": "motion activated sprinkler animal deterrent",
+      "basis": "Quick answer: take away food, close dens, and a motion-activated sprinkler for short-term scaring; 'Do motion-activated sprinklers work on raccoons?' (Florida FWC; UC IPM: effective for a few days)."
+    },
+    "best-cockroach-gel-bait": {
+      "label": "To bait cracks and crevices",
+      "name": "Cockroach gel bait",
+      "search": "cockroach gel bait",
+      "basis": "Quick answer: put a professional-grade gel out as many small dots in the cracks where roaches hide (product labels; NC State; Kentucky); 'Which cockroach gel bait should you buy?' and the picks block. Generic type only."
+    },
+    "best-bed-bug-spray": {
+      "label": "For pyrethroid-resistant bugs",
+      "name": "Bed bug spray with imidacloprid",
+      "search": "bed bug spray imidacloprid",
+      "basis": "Quick answer: an EPA-registered product labeled for bed bugs that pairs a pyrethroid with a second ingredient such as imidacloprid; EPA: a combination product can help resistant populations. Generic pesticide type the page names and recommends."
     }
   }
 }

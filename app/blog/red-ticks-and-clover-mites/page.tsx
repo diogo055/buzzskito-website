@@ -14,6 +14,7 @@ import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
 import Photo from '@/components/Photo'
 import { shareImage } from '@/lib/photos'
+import UsAmazonLine from '@/components/UsAmazonLine'
 
 const SLUG = 'red-ticks-and-clover-mites'
 const DATE = '2026-07-13'
@@ -143,6 +144,7 @@ export default function RedTicksAndCloverMitesPage() {
           {/* Service arm first: the lead CTA outranks every affiliate element below it. */}
 
           <AffiliateDisclosure />
+          <UsAmazonLine name="Fine-tipped tick removal tweezers" search="fine tip tick removal tweezers" />
 
           <div className="not-prose my-6 rounded-2xl border-2 border-rose-200 bg-white p-6 sm:p-7 shadow-sm">
             <h2 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-1 leading-tight">What to do right now</h2>
@@ -367,7 +369,7 @@ export default function RedTicksAndCloverMitesPage() {
         </div>
       </article>
 
-      <StickyBuyBar
+      <StickyBuyBar usSearch="fine tip tick removal tweezers"
         name="Fine-Tipped Tick Remover Tool"
         search="tick removal tool tweezers"
         label="For removal"

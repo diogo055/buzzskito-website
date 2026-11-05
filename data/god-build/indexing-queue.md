@@ -26,6 +26,16 @@ Never change any Search Console setting, and never remove or submit sitemaps.
 
 Rebuilt Nov 3, 2026 (evening) from a URL Inspection API check of all 738 sitemap URLs: 720 are on Google, these 18 are not (`research_notes/God plan 10k a day/index_status.md`). All 18 were fetched live the same evening: 200, `index, follow`, self-canonical. The 50 location pages that are noindex on purpose are out of the sitemap and not listed.
 
+Released Nov 5, 2026 (the first US buying guides, amazon.com picks). Request these and the six Nov 4 lines below on Nov 5 (12 in all, about one day's quota):
+
+- https://buzzskito.ca/blog/best-fruit-fly-traps (new; "fruit fly trap" US 100K-1M a month)
+- https://buzzskito.ca/blog/best-bed-bug-spray (new; "bed bug spray" US 10K-100K)
+- https://buzzskito.ca/blog/best-rat-traps (new; "rat traps" US 10K-100K)
+- https://buzzskito.ca/blog/best-cockroach-gel-bait (new; "cockroach gel bait" US 10K-100K)
+- https://buzzskito.ca/blog/best-flea-spray-for-home (new; "flea spray for house" US 10K-100K)
+- https://buzzskito.ca/blog/raccoon-repellent (new; "raccoon repellent" US 10K-100K)
+- Upgraded the same night (amazon.com picks block added), lower priority: /blog/mice-traps, /blog/how-to-get-rid-of-bed-bugs, /blog/how-to-get-rid-of-cockroaches, /blog/mice-repellent
+
 Released or upgraded Nov 4, 2026 (God plan "go", day 1). Request these first:
 
 - https://buzzskito.ca/blog/yellow-jackets (new; "yellow jacket" US 100K-1M a month)

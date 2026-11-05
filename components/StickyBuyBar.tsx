@@ -1,5 +1,6 @@
 import BuyLink from '@/components/BuyLink'
-import { AMAZON_ENABLED, AMAZON_DISCLOSURE } from '@/lib/amazon'
+import AmazonLink from '@/components/AmazonLink'
+import { AMAZON_ENABLED, AMAZON_US_ENABLED, AMAZON_DISCLOSURE } from '@/lib/amazon'
 import StickyBarShell from '@/components/StickyBarShell'
 
 /**
@@ -18,6 +19,7 @@ export default function StickyBuyBar({
   label = 'Top pick',
   cta = 'Check price on Amazon.ca',
   tag,
+  usSearch,
 }: {
   name: string
   search?: string
@@ -26,8 +28,14 @@ export default function StickyBuyBar({
   cta?: string
   /** Optional per-cluster tracking ID (lib/amazon-clusters.ts). */
   tag?: string
+  /**
+   * A second, fixed amazon.com link for American readers, on the pages listed in
+   * lib/amazon-dual-store.json only (owner, Nov 4, 2026). Same for every visitor; never switched by country.
+   */
+  usSearch?: string
 }) {
   if (!AMAZON_ENABLED) return null
+  const us = AMAZON_US_ENABLED && (usSearch ?? '').trim().length > 0
   return (
     <StickyBarShell>
       <div className="mx-2 mb-2 flex items-center gap-3 rounded-2xl border border-gray-200 bg-white/95 px-3 py-2.5 shadow-2xl backdrop-blur">
@@ -43,6 +51,14 @@ export default function StickyBuyBar({
           mobile reader meets is never undisclosed. */}
       <p className="mx-2 mb-1 text-center text-[10px] leading-tight text-gray-500">
         {AMAZON_DISCLOSURE}
+        {us && (
+          <>
+            {' · '}
+            <AmazonLink search={usSearch} store="com" component="StickyBuyBarUS" className="font-semibold text-amber-800 underline">
+              In the US? Amazon.com →
+            </AmazonLink>
+          </>
+        )}
       </p>
     </StickyBarShell>
   )

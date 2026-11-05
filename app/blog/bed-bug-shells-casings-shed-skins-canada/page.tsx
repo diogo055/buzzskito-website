@@ -14,6 +14,7 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import UsAmazonLine from '@/components/UsAmazonLine'
 
 const SLUG = 'bed-bug-shells-casings-shed-skins-canada'
 const DATE = '2026-07-30'
@@ -107,7 +108,8 @@ export default function BedBugShellsCasingsPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="ClimbUp Insect Interceptors — turn husks into a yes or no" search="climbup bed bug interceptor" label="Confirm it is active" />
+      <UsAmazonLine name="Bed bug interceptor traps" search="bed bug interceptor traps" />
+      <StickyBuyBar usSearch="bed bug interceptor traps" tag={AMZ_TAG} name="ClimbUp Insect Interceptors — turn husks into a yes or no" search="climbup bed bug interceptor" label="Confirm it is active" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

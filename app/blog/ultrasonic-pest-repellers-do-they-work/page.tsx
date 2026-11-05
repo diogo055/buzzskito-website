@@ -16,6 +16,7 @@ import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
 import Photo from '@/components/Photo'
 import { shareImage } from '@/lib/photos'
+import UsAmazonLine from '@/components/UsAmazonLine'
 
 const SLUG = 'ultrasonic-pest-repellers-do-they-work'
 const DATE = '2026-07-16'
@@ -132,6 +133,7 @@ export default function UltrasonicPestRepellersPage() {
           />
           <p>This page is the evidence file: the regulatory actions, the university research, and the physics. Ultrasonic repellers are among the best-selling pest products on Amazon.ca — often outselling the traps that actually work — which is why there are deliberately no ultrasonic devices linked anywhere on this page.</p>
           <AffiliateDisclosure />
+          <UsAmazonLine name="Victor electronic mouse trap" search="victor electronic mouse trap" />
           <p className="not-prose text-sm text-gray-600 mb-1">If you came here to buy something that works, the short version: the Victor M250S electronic mouse trap is what we point to instead of a plug-in (full reasoning further down).</p>
           <div className="not-prose mb-6">
             <BuyLink tag={AMZ_TAG} search="victor electronic mouse trap">Check price on Amazon.ca →</BuyLink>
@@ -285,7 +287,7 @@ export default function UltrasonicPestRepellersPage() {
         <ReadNext path="/blog/ultrasonic-pest-repellers-do-they-work" />
       </article>
 
-      <StickyBuyBar tag={AMZ_TAG} name="Victor M250S electronic mouse trap" search="victor electronic mouse trap" label="What to buy instead" />
+      <StickyBuyBar usSearch="victor electronic mouse trap" tag={AMZ_TAG} name="Victor M250S electronic mouse trap" search="victor electronic mouse trap" label="What to buy instead" />
     </>
   )
 }

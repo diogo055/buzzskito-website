@@ -14,6 +14,9 @@ import { QuickIdBox } from '@/components/QuickIdTable'
 import { type Guide, type GuideBlock, CLUSTER_LABEL, GUIDE_HEROES, LICENSE_LABEL, guideParent, guidePath, guideReviewer, guideSchemas, regionalPair, slugifyHeading } from '@/lib/guides'
 import { photoImageObject } from '@/lib/photos'
 import TopBox from '@/components/TopBox'
+import AmazonLink from '@/components/AmazonLink'
+import BuyLink from '@/components/BuyLink'
+import { AMAZON_DISCLOSURE, AMAZON_US_ENABLED } from '@/lib/amazon'
 import usPicks from '@/lib/amazon-us-picks.json'
 
 // amazon.com pick per US guide (owner, Oct 20, 2026): one box right under the quick answer (readers
@@ -63,7 +66,7 @@ const CALLOUT: Record<string, { box: string; label: string; name: string }> = {
   note: { box: 'border-navy-100 bg-brand-50', label: 'text-brand-700', name: 'Note' },
 }
 
-function Block({ block }: { block: GuideBlock }) {
+function Block({ block, us = false }: { block: GuideBlock; us?: boolean }) {
   switch (block.type) {
     case 'h2':
       return <h2 id={slugifyHeading(block.text)} className="scroll-mt-28"><Inline text={block.text} /></h2>
@@ -197,6 +200,34 @@ function Block({ block }: { block: GuideBlock }) {
       return <GuideMap map={block} caption={block.caption ? <Inline text={block.caption} /> : undefined} source={<Inline text={block.source} />} />
     case 'confused':
       return <ConfusedWith items={block.items} title={block.title} />
+    case 'picks':
+      // amazon.com only, so it renders on US guides alone (the caller passes `us`). Amazon's sentence
+      // sits at the top of every block, so no pick appears above a disclosure.
+      if (!us || !AMAZON_US_ENABLED) return null
+      return (
+        <section className="not-prose my-8 rounded-2xl border border-amber-300 bg-amber-50/60 p-4 sm:p-5">
+          {block.title && <h3 className="mb-1 text-lg font-extrabold leading-tight text-brand-900">{block.title}</h3>}
+          <p className="mb-3 text-[11px] leading-snug text-amber-900/60">{AMAZON_DISCLOSURE}</p>
+          <ol className="space-y-3">
+            {block.items.map((p, i) => (
+              <li key={i} className="flex flex-col gap-3 rounded-xl border border-amber-200 bg-white px-4 py-3 sm:flex-row sm:items-center">
+                <div className="min-w-0 flex-1">
+                  <p className="text-[11px] font-extrabold uppercase leading-none tracking-wide text-amber-700">{p.label}</p>
+                  <p className="mt-1 text-base font-extrabold leading-snug text-brand-900">
+                    <AmazonLink search={p.search} store="com" component="GuidePicks" label={p.label} className="text-brand-900 no-underline hover:text-amber-700 hover:underline">
+                      {p.name}
+                    </AmazonLink>
+                  </p>
+                  <p className="mt-1 text-sm leading-relaxed text-gray-700"><Inline text={p.why} /></p>
+                </div>
+                <BuyLink search={p.search} store="com" component="GuidePicks" block className="sm:w-auto sm:shrink-0">
+                  Check price on Amazon →
+                </BuyLink>
+              </li>
+            ))}
+          </ol>
+        </section>
+      )
     default:
       return null
   }
@@ -454,7 +485,7 @@ export default function GuidePage({ guide }: { guide: Guide }) {
             <Fragment key={i}>
               {i === nextAt && <NextUp path={path} />}
               {i === relatedAt && <RelatedLinks path={path} />}
-              <Block block={block} />
+              <Block block={block} us={guide.kind === 'spoke' && !guide.locale} />
             </Fragment>
           ))}
 

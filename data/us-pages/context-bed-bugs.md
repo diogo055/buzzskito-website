@@ -34,6 +34,8 @@
 
 - `/blog/bed-bug-eggs` — **bed bug eggs** (also: what do bed bug eggs look like; bed bug egg; how big are bed bug eggs; how long do bed bug eggs take to hatch; bed bug eggs on mattress; bed bug egg shells; can you see bed bug eggs; what kills bed bug eggs). Photo-ID page for "bed bug eggs" (page one is pest companies: Terminix, Orkin, a regional firm, pestnet; no university or government page in the screens). What bed bug eggs look like (the size of a pinhead, about 1 mm or 1/32 inch, pearl-white, with an eye spot once they are more than five days old: EPA's Bed Bugs Appearance and Life Cycle; sticky when laid so they stay put: University of Kentucky ENTFACT-636), at life size and magnified, where they are laid (secluded places near where people sleep: mattress seams and piping, box spring and bed frame joints, behind the headboard, cracks nearby: EPA, UK ENTFACT-636, UC IPM Pest Notes Bed Bugs), how long they take to hatch (the sources differ: about a week at room temperature in UK ENTFACT-636, about 10 to 15 days in UC IPM Pest Notes 7454; give each with its source, do not average; temperature effects only as a source gives them), how many a female lays (one or more a day, potentially hundreds in her life: UK ENTFACT-636), live eggs vs hatched shells (the open cap; hatched shells vs shed skins in one row), can you see bed bug eggs (hard to see without magnification, especially on light fabric: UK), what finding eggs means (an active, breeding infestation: sources' strength), what else looks like bed bug eggs (lice nits, flea eggs, carpet beetle eggs, clothes moth eggs, lint and grains of salt or sugar: a quick-ID table and cards), what kills bed bug eggs (heat, steam and cold only at EPA or extension strength; why many sprays miss the eggs and treatments need follow-up: sources' strength; link /blog/how-to-get-rid-of-bed-bugs; no product names), and the next stage (link /blog/baby-bed-bugs-nymphs). Quick-ID facts table under the quick answer (bed bug egg, hatched shell, first-stage nymph, flea egg, louse nit: size, color, where found, stuck on or loose). Links: /learn/bed-bugs (mustLink), /blog/what-do-bed-bugs-look-like (mustLink), /blog/baby-bed-bugs-nymphs, /blog/bed-bug-poop, /blog/signs-of-bed-bugs-checklist, /blog/how-to-get-rid-of-bed-bugs, /blog/flea-eggs, /blog/lice-eggs (day 1). Not linked: the frozen Canadian bed bug pages, /blog/bed-bug-bites (read Nov 3-10), /blog/how-to-kill-bed-bug-eggs-canada (amazon.ca). No quote prompt.
 
+- `/blog/best-bed-bug-spray` — **bed bug spray** (also: best bed bug spray; bed bug killer spray; does bed bug spray work; bed bug spray for mattress; natural bed bug spray). US edition of /blog/bed-bug-spray-canada, written fresh for US shoppers: US products and EPA registration (never Canadian PCP numbers or Canadian retailers), US spelling, no prices or star ratings. A buying guide: a short answer naming the best product types first; a "picks" block of 3-6 picks, each a product the text itself recommends with a one-line reason; a comparison table; how to choose; how to use it safely (label is the law); what it will not do; when to call a professional; 8-10 FAQs; sources (EPA, university extension, manufacturer labels). No testing claims: we did not test products. The top pick also goes in lib/amazon-us-picks.json.
+
 ## Pillars (hub pages)
 
 - `/learn/bed-bugs` — the complete bed bugs reference
@@ -475,6 +477,11 @@
 - `/blog/skunk-smell-in-house` — skunk smell in house
 - `/blog/wood-roaches` — wood roach
 - `/blog/tiny-red-bugs` — tiny red bugs
+- `/blog/best-fruit-fly-traps` — fruit fly trap
+- `/blog/best-rat-traps` — rat traps
+- `/blog/best-cockroach-gel-bait` — cockroach gel bait
+- `/blog/best-flea-spray-for-home` — flea spray for house
+- `/blog/raccoon-repellent` — raccoon repellent
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

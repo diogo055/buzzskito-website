@@ -183,6 +183,12 @@
         "**Check that it worked.** For a serious infestation, UC IPM suggests sticky traps around the house, checked once or twice a week; pheromone traps attract only their own species, so match the lure to your beetle."
       ]
     },
+    { "type": "picks", "title": "Cleaning, freezing and storage gear", "items": [
+      { "label": "For baseboards and furniture", "name": "Vacuum crevice tool", "search": "vacuum crevice tool", "why": "Kentucky recommends vacuuming floors, carpets and the inside of heating vents, which removes larvae with the hair and lint they eat, and Connecticut suggests a crevice tool along baseboards and under furniture." },
+      { "label": "To check that it worked", "name": "Carpet beetle traps", "search": "carpet beetle traps", "why": "For a serious infestation, UC IPM suggests sticky traps around the house, checked once or twice a week. Pheromone traps attract only their own species, so match the lure to your beetle." },
+      { "label": "To freeze what you cannot wash", "name": "Large freezer bags", "search": "large freezer bags", "why": "UC IPM says to enclose the item in a plastic bag and freeze it for 2 weeks below 18°F, and Kentucky says to let it return to room temperature, about 24 hours, before unwrapping it." },
+      { "label": "For clean clothes in storage", "name": "Zippered plastic garment bags", "search": "plastic garment bags with zipper", "why": "Kentucky says to store clean items in tight-fitting plastic bags or containers, and UC IPM names a garment bag among good storage containers, noting that closets are generally not airtight. UC IPM also warns that paradichlorobenzene moth products can soften plastic garment bags, so keep the two apart." }
+    ] },
 
     { "type": "h2", "text": "Does freezing or heat kill carpet beetle larvae?" },
     { "type": "p", "text": "Yes, if the item gets cold or hot enough for long enough, which makes them the tools for things you cannot wash. UC IPM says to enclose the item in a plastic bag and freeze it for 2 weeks below 18°F, or heat it in an oven at 120°F or higher for at least 30 minutes, first considering whether cold or heat will damage it. Kentucky gives 0°F or colder for at least a week, or 72 hours in a freezer that reaches -20°F." },

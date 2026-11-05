@@ -203,6 +203,48 @@
       ]
     },
     {
+      "type": "picks",
+      "title": "Gear for the steps in this guide",
+      "items": [
+        {
+          "label": "To seal the mattress",
+          "name": "Bed bug mattress encasement",
+          "search": "bed bug mattress encasement",
+          "why": "The EPA says to zip the mattress and the box spring into bed-bug-proof encasements whose zippers close completely, sturdy enough to last a year; any bugs trapped inside eventually starve."
+        },
+        {
+          "label": "To steam the bed and furniture",
+          "name": "Steam cleaner",
+          "search": "steam cleaner for bed bugs",
+          "why": "The EPA says steam must be at least 130°F without a forceful airflow, which can scatter the bugs; a diffuser prevents that. Rutgers reports that consumer-grade steamers killed bed bugs effectively in a 2018 study."
+        },
+        {
+          "label": "For cracks and crevices",
+          "name": "Desiccant dust labeled for bed bugs",
+          "search": "bed bug dust",
+          "why": "The EPA says bed bugs cannot become resistant to desiccant dusts, which may take several months to work. Use only one registered by the EPA and labeled for bed bugs, apply it in cracks and crevices as the label directs, and never use pool-grade or food-grade diatomaceous earth."
+        },
+        {
+          "label": "To close hiding spots",
+          "name": "Silicone caulk",
+          "search": "silicone caulk",
+          "why": "The EPA recommends silicone caulk for cracks and crevices, which removes hiding spots and pushes the bugs into the open."
+        },
+        {
+          "label": "For shoes, suitcases and electronics",
+          "name": "Portable heat chamber",
+          "search": "bed bug heat chamber",
+          "why": "Rutgers recommends a heating box for items that cannot be washed, such as shoes, electronics and suitcases. Virginia Tech puts the thermal death point at 118°F for adults and nymphs and 122°F for eggs."
+        },
+        {
+          "label": "To replace cardboard boxes",
+          "name": "Plastic storage bins with lids",
+          "search": "plastic storage bins with lids",
+          "why": "The EPA says to replace cardboard boxes with plastic ones, because bed bugs can hide in cardboard, and Rutgers says plastic containers for loose items speed up control once those items are treated."
+        }
+      ]
+    },
+    {
       "type": "h2",
       "text": "How should you prepare the room and the bed?"
     },
@@ -379,7 +421,7 @@
     },
     {
       "type": "p",
-      "text": "Expect less from a pyrethroid spray used alone. Rutgers puts most consumer pesticide sprays on its list of methods that do not work, because the majority of field bed bug populations are resistant to pyrethroids. The EPA adds that on resistant strains these products may just move the bugs to a new hiding place. If repeated treatments are needed, the EPA suggests a combination product or a different chemical class. Do not exceed the amount or the reapplication interval on the label to make up for poor results."
+      "text": "Expect less from a pyrethroid spray used alone. Rutgers puts most consumer pesticide sprays on its list of methods that do not work, because the majority of field bed bug populations are resistant to pyrethroids. The EPA adds that on resistant strains these products may just move the bugs to a new hiding place. If repeated treatments are needed, the EPA suggests a combination product or a different chemical class. Do not exceed the amount or the reapplication interval on the label to make up for poor results. [Which bed bug sprays and dusts are worth buying](/blog/best-bed-bug-spray) compares registered products by active ingredient and by what each label allows on a mattress."
     },
     {
       "type": "h2",

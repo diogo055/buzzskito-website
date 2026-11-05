@@ -15,6 +15,7 @@ import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
 import QuickIdTable from '@/components/QuickIdTable'
+import UsAmazonLine from '@/components/UsAmazonLine'
 
 const SLUG = 'best-rodent-repellent-for-cars-canada'
 const DATE = '2026-07-21'
@@ -119,7 +120,8 @@ export default function BestRodentRepellentForCarsCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Capsaicin rodent deterrent tape (Honda-style)" search="rodent deterrent tape capsaicin" label="Best overall · not a registered repellent" />
+      <UsAmazonLine name="Capsaicin rodent deterrent tape" search="rodent deterrent tape capsaicin" />
+      <StickyBuyBar usSearch="rodent deterrent tape capsaicin" tag={AMZ_TAG} name="Capsaicin rodent deterrent tape (Honda-style)" search="rodent deterrent tape capsaicin" label="Best overall · not a registered repellent" />
       <TopBox tag={AMZ_TAG} name="Capsaicin rodent deterrent tape (Honda-style)" search="rodent deterrent tape capsaicin" label="Best overall · not a registered repellent" />
 
       <section className="bg-white px-4">

@@ -2,21 +2,16 @@
  "id": "how-to-get-rid-of-cockroaches",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "78891469bacede5ff68eff4e5cb1715973a7edb0579cbe41cbfe10b83c58f15a",
- "claimsChecked": 260,
- "claimsCorrected": 7,
- "claimsRemovedOrSoftened": 7,
- "checkedOn": "2026-10-20",
- "released": {
-  "on": "2026-10-20",
-  "scheduledFor": "2026-10-20",
-  "note": "datePublished set to the release day; nothing else changed"
- },
+ "sha": "1712f9a546efcceac9aa2f018319834144950fa116eea31e270f9d19630e36ac",
+ "claimsChecked": 18,
+ "claimsCorrected": 3,
+ "claimsRemovedOrSoftened": 0,
+ "checkedOn": "2026-11-05",
  "amendments": [
   {
-   "on": "2026-10-21",
-   "note": "Oct 21, 2026 link-in (cockroaches): 2 sentences added, no fact changed: /blog/oriental-cockroaches after the Oriental cockroach photo in 'Which cockroach do you have?', /blog/signs-of-cockroaches at the end of 'What are the signs of roaches, and how bad is the infestation?' (before the look-alike cards).",
-   "previousSha": "4b1ec29c97e7ba8e519b3a729c58587533fdb74188c60dfa8759c8de8ac782e6"
+   "on": "2026-11-05",
+   "note": "Nov 4, 2026: one sentence linking the new US buying guide /blog/best-cockroach-gel-bait (no claim added)",
+   "previousSha": "42cab826714bc710c9adcbe6378be53ddc57d52a2d8a5ac805661e6e3e93da8d"
   }
  ]
 }

@@ -14,6 +14,7 @@ import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
 import Photo from '@/components/Photo'
 import { shareImage } from '@/lib/photos'
+import UsAmazonLine from '@/components/UsAmazonLine'
 
 const SLUG = 'wondercide-canada-review'
 const DATE = '2026-07-12'
@@ -99,7 +100,8 @@ export default function WondercideCanadaReviewPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Wondercide Flea & Tick Spray (cedarwood + lemongrass)" search="wondercide flea and tick spray" label="Reviewed here · not registered in Canada" />
+      <UsAmazonLine name="Wondercide flea and tick spray" search="wondercide flea and tick spray" />
+      <StickyBuyBar usSearch="wondercide flea and tick spray" tag={AMZ_TAG} name="Wondercide Flea & Tick Spray (cedarwood + lemongrass)" search="wondercide flea and tick spray" label="Reviewed here · not registered in Canada" />
       <TopBox tag={AMZ_TAG} name="Wondercide Flea & Tick Spray (cedarwood + lemongrass)" search="wondercide flea and tick spray" label="Reviewed here · not registered in Canada" />
 
       <section className="bg-white pt-8 px-4">

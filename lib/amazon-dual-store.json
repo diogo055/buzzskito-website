@@ -1,0 +1,32 @@
+{
+  "_readme": "Canadian amazon.ca pages that also show ONE fixed amazon.com link for American readers (owner, Nov 4, 2026: \"yes\" to an Amazon.com button next to Amazon.ca on Canadian pages that get lots of American readers). The link is the same for every visitor and is never switched by the visitor's country: that client-side swap caused the July 2026 rejection. It sits in components/UsAmazonLine.tsx under the page's Amazon disclosure and in the sticky buy bar (usSearch), with the US tag only. scripts/check-amazon.mjs allows amazon.com on these pages and on the US guides, nowhere else. Chosen from GA4 US views Sep 5-Nov 3, 2026 (scratchpad ga4_us_on_ca_pages.py): pages with the most American readers, minus the geo-title test pages, pages with a US twin in REGIONAL_PAIRS (and the five whose US editions go live Nov 5), and Canadian-only brands. `name` is what the line says; `search` is the amazon.com search, a generic product or a brand sold in the US.",
+  "pages": {
+    "/blog/no-see-um-bites": { "name": "Hydrocortisone 1% anti-itch cream", "search": "hydrocortisone 1% anti itch cream" },
+    "/blog/chigger-bites": { "name": "Calamine lotion", "search": "calamine lotion" },
+    "/blog/bugs-that-look-like-ticks": { "name": "Fine-tipped tick removal tweezers", "search": "fine tip tick removal tweezers" },
+    "/blog/laser-mosquito-killer-photon-matrix-review": { "name": "Mosquito Magnet propane trap", "search": "mosquito magnet patriot plus" },
+    "/blog/when-are-mosquitoes-most-active": { "name": "Picaridin 20% insect repellent", "search": "picaridin 20 insect repellent" },
+    "/blog/flea-bites-on-humans": { "name": "Plug-in flea trap", "search": "plug in flea trap" },
+    "/blog/tick-vs-bed-bug": { "name": "Fine-tipped tick removal tweezers", "search": "fine tip tick removal tweezers" },
+    "/blog/mosquito-larvae-identification": { "name": "Mosquito dunks (Bti)", "search": "summit mosquito dunks" },
+    "/blog/why-do-mosquito-bites-itch": { "name": "Hydrocortisone 1% anti-itch cream", "search": "hydrocortisone 1% anti itch cream" },
+    "/blog/tick-bites-that-wont-heal-when-to-worry": { "name": "Tick removal tool kit", "search": "tick removal tool kit" },
+    "/blog/red-ticks-and-clover-mites": { "name": "Fine-tipped tick removal tweezers", "search": "fine tip tick removal tweezers" },
+    "/blog/why-do-mosquitoes-bite-my-ankles": { "name": "Picaridin insect repellent", "search": "picaridin insect repellent" },
+    "/blog/dynatrap-canada-review": { "name": "DynaTrap insect trap", "search": "dynatrap insect trap" },
+    "/blog/can-mosquitoes-bite-through-clothes": { "name": "Permethrin-treated shirt", "search": "permethrin treated shirt" },
+    "/blog/types-of-ticks-identification": { "name": "Fine-tipped tick removal tweezers", "search": "fine tip tick removal tweezers" },
+    "/blog/ultrasonic-pest-repellers-do-they-work": { "name": "Victor electronic mouse trap", "search": "victor electronic mouse trap" },
+    "/blog/how-long-do-ticks-live": { "name": "Tick removal tool kit", "search": "tick removal tool kit" },
+    "/blog/wondercide-canada-review": { "name": "Wondercide flea and tick spray", "search": "wondercide flea and tick spray" },
+    "/blog/how-to-get-rid-of-ground-wasps-canada": { "name": "Wasp and hornet foam spray", "search": "wasp and hornet killer foam spray" },
+    "/blog/katchy-indoor-insect-trap-review-canada": { "name": "Katchy indoor insect trap", "search": "katchy indoor insect trap" },
+    "/blog/electric-fly-swatter": { "name": "Electric fly swatter racket", "search": "electric fly swatter racket" },
+    "/blog/best-rodent-repellent-for-cars-canada": { "name": "Capsaicin rodent deterrent tape", "search": "rodent deterrent tape capsaicin" },
+    "/blog/tick-removal-tool-guide": { "name": "Tick twister removal tool", "search": "tick twister removal tool" },
+    "/blog/can-ticks-fly-jump-swim": { "name": "Fine-tipped tick removal tweezers", "search": "fine tip tick removal tweezers" },
+    "/blog/what-does-a-tick-bite-look-like": { "name": "Tick removal tool kit", "search": "tick removal tool kit" },
+    "/blog/baby-bed-bugs-nymphs": { "name": "Bed bug interceptor traps", "search": "bed bug interceptor traps" },
+    "/blog/bed-bug-shells-casings-shed-skins-canada": { "name": "Bed bug interceptor traps", "search": "bed bug interceptor traps" }
+  }
+}

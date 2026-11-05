@@ -539,6 +539,12 @@
 - `/blog/skunk-smell-in-house` — skunk smell in house
 - `/blog/wood-roaches` — wood roach
 - `/blog/tiny-red-bugs` — tiny red bugs
+- `/blog/best-fruit-fly-traps` — fruit fly trap
+- `/blog/best-rat-traps` — rat traps
+- `/blog/best-cockroach-gel-bait` — cockroach gel bait
+- `/blog/best-bed-bug-spray` — bed bug spray
+- `/blog/best-flea-spray-for-home` — flea spray for house
+- `/blog/raccoon-repellent` — raccoon repellent
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

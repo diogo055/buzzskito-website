@@ -16,6 +16,7 @@ import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
 import Photo from '@/components/Photo'
 import { shareImage } from '@/lib/photos'
+import UsAmazonLine from '@/components/UsAmazonLine'
 
 const SLUG = 'chigger-bites'
 const DATE = '2026-07-19'
@@ -252,6 +253,7 @@ export default function ChiggerBitesPage() {
         <SpecialistDisclosure pest="chiggers" />
 
         <AffiliateDisclosure />
+        <UsAmazonLine name="Calamine lotion" search="calamine lotion" />
         <div className="not-prose my-6 rounded-xl border border-amber-200 bg-amber-50/60 p-5">
           <p className="text-xs font-extrabold uppercase tracking-wider text-amber-700 mb-3">What to do right now</p>
           <ol className="space-y-4">
@@ -692,7 +694,7 @@ export default function ChiggerBitesPage() {
         <ReadNext path="/blog/chigger-bites" />
       </article>
 
-      <StickyBuyBar tag={AMZ_TAG} name="Calamine lotion" search="calamine lotion" label="Best for the itch" />
+      <StickyBuyBar usSearch="calamine lotion" tag={AMZ_TAG} name="Calamine lotion" search="calamine lotion" label="Best for the itch" />
     </>
   )
 }

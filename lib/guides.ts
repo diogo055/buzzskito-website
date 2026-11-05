@@ -73,6 +73,21 @@ export type GuideBlock =
    * without a link. One row per page.
    */
   | { type: 'confused'; title?: string; items: GuideConfusedCard[] }
+  /**
+   * Product picks with amazon.com buttons (owner, Nov 4, 2026: buying guides for US shoppers). US
+   * spokes only: one page, one store, so a Canadian-locale guide or a pillar may not carry one
+   * (validate-guide and check:amazon enforce it). Each pick is a product the page's own text
+   * recommends; `search` is the amazon.com search it links to. No prices, no star ratings.
+   */
+  | { type: 'picks'; title?: string; items: GuidePick[] }
+
+/** One product in a "picks" block: `label` names its role ("Best for attics"), `why` says why in one or two sentences. */
+export interface GuidePick {
+  label: string
+  name: string
+  search: string
+  why: string
+}
 
 /** One card in a "confused" row. `alt` defaults to `name`. */
 export interface GuideConfusedCard {
@@ -230,6 +245,14 @@ export const REGIONAL_PAIRS: { us: string; ca: string }[] = [
   // Nov 4, 2026: two US editions released the same day (plan entries name them as regional pairs).
   { us: '/blog/voles', ca: '/blog/how-to-get-rid-of-voles-canada' },
   { us: '/blog/lone-star-tick', ca: '/blog/lone-star-tick-alpha-gal-canada' },
+  // Nov 5, 2026: the first US buying guides (owner: US shoppers count the same as Canadian), each the US
+  // edition of a Canadian amazon.ca buying page.
+  { us: '/blog/best-fruit-fly-traps', ca: '/blog/best-fruit-fly-trap-canada' },
+  { us: '/blog/best-rat-traps', ca: '/blog/best-rat-trap-canada' },
+  { us: '/blog/best-cockroach-gel-bait', ca: '/blog/advion-cockroach-gel-bait' },
+  { us: '/blog/best-bed-bug-spray', ca: '/blog/bed-bug-spray-canada' },
+  { us: '/blog/best-flea-spray-for-home', ca: '/blog/best-flea-spray-for-home-canada' },
+  { us: '/blog/raccoon-repellent', ca: '/blog/raccoon-deterrent' },
 ]
 
 export const regionalPair = (path: string) => REGIONAL_PAIRS.find((p) => p.us === path || p.ca === path)

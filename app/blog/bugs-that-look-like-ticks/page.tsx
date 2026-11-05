@@ -17,6 +17,7 @@ import RelatedProducts from '@/components/RelatedProducts'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import UsAmazonLine from '@/components/UsAmazonLine'
 
 const SLUG = 'bugs-that-look-like-ticks'
 const DATE = '2026-04-26'
@@ -190,6 +191,7 @@ export default function BugsThatLookLikeTicksPage() {
 
         <AuthorByline datePublished={DATE} dateModified={UPDATED} />
         <AffiliateDisclosure />
+        <UsAmazonLine name="Fine-tipped tick removal tweezers" search="fine tip tick removal tweezers" />
 
         {/* "What to do right now" — aftercare route. Sits BELOW <BlogPostCTA /> (the
             in-body quote CTA above the article) so the service arm keeps the top slot.
@@ -580,7 +582,7 @@ export default function BugsThatLookLikeTicksPage() {
         </div>
       </section>
 
-      <StickyBuyBar tag={AMZ_TAG} name="Fine-Tipped Tick Removal Tool" search="tick removal tool tweezers" label="If it is a tick" />
+      <StickyBuyBar usSearch="fine tip tick removal tweezers" tag={AMZ_TAG} name="Fine-Tipped Tick Removal Tool" search="tick removal tool tweezers" label="If it is a tick" />
 
       <ReadNext path="/blog/bugs-that-look-like-ticks" standalone />
     </>
