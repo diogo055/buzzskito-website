@@ -2,7 +2,7 @@
  "id": "deer-poop",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "bb4c7a6cfff54e3e51874dcca5bcfe212bbae15660d5331170f16a4047af76a6",
+ "sha": "55c867187ccc4fde42d5e3f4476f41b3923c9535079302a9a14038b081c051ba",
  "claimsChecked": 181,
  "claimsCorrected": 4,
  "claimsRemovedOrSoftened": 2,
@@ -17,6 +17,11 @@
    "on": "2026-10-29",
    "note": "Oct 29: one internal link to /blog/rabbit-poop; no fact changed",
    "previousSha": "3675975210fb9fb1d239118b2b9c0837a01cd0880640a1516ef0b9339b9813b3"
+  },
+  {
+   "on": "2026-11-05",
+   "note": "Photo licence swap (Nov 5, 2026): one iNaturalist photographer relicensed photos CC BY-NC after we took them as CC0; each such photo on this page was replaced with an openly licensed photo of the same subject (credit and licence from the source), and its alt text and caption were rewritten to describe the new photo. No other text changed.",
+   "previousSha": "bb4c7a6cfff54e3e51874dcca5bcfe212bbae15660d5331170f16a4047af76a6"
   }
  ]
 }

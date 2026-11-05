@@ -98,7 +98,7 @@
     { "type": "confused", "items": [
       { "href": "/blog/mouse-nest", "name": "Mouse nest", "photo": "mouse-nest-desk-drawer", "note": "Finely shredded paper or fiber, with droppings 1/8 to 1/4 inch", "alt": "Brown mouse looking up from a nest of shredded white padding in the corner of an old wooden desk drawer" },
       { "href": "/blog/deer-mice", "name": "Deer mouse nest", "photo": "deer-mouse-nest", "note": "Grass and twigs, sometimes lined with fur, feathers or cloth; often in empty cabins", "alt": "Deer mouse with big dark eyes peering out from torn cream-colored fabric, woven green cloth and white feathers" },
-      { "href": "/blog/holes-in-yard", "name": "Chipmunk burrow", "photo": "chipmunk-burrow", "note": "About 2 inches across, typically with no loose soil; often by a stump or log pile", "alt": "Round, dark burrow opening in a lawn of grass and clover with no soil piled around it" },
+      { "href": "/blog/holes-in-yard", "name": "Chipmunk burrow", "photo": "chipmunk-burrow", "note": "About 2 inches across, typically with no loose soil; often by a stump or log pile", "alt": "Round, dark burrow opening among fallen leaves with no soil piled around it" },
       { "href": "/blog/wasp-nest-identification", "name": "Yellowjacket ground nest", "photo": "yellowjacket-ground-nest", "note": "Wasps flying in and out of one hole, often a rodent burrow", "alt": "Several black-and-yellow wasps at a dark opening between gray rocks in dry soil and dead grass" },
       { "href": "/blog/animals-in-attic", "name": "Tree squirrel", "photo": "eastern-gray-squirrel", "note": "A ball of twigs, leaves and bark high in a tree; active by day", "alt": "Eastern gray squirrel sitting upright in green grass, with a pale belly and a bushy tail" }
     ] },

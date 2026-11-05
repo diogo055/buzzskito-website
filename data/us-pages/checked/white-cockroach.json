@@ -2,7 +2,7 @@
  "id": "white-cockroach",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "f4cb29fff8a0cd069fad57e81ff4833fffa5fa7953e32c5c5e4b13d591707634",
+ "sha": "5548818569fa38d7ad479218cad3f7ffa063ee7361f212ad57b718cd42277465",
  "claimsChecked": 280,
  "claimsCorrected": 9,
  "claimsRemovedOrSoftened": 11,
@@ -11,5 +11,12 @@
   "on": "2026-10-21",
   "scheduledFor": "2026-10-21",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-11-05",
+   "note": "Photo licence swap (Nov 5, 2026): one iNaturalist photographer relicensed photos CC BY-NC after we took them as CC0; each such photo on this page was replaced with an openly licensed photo of the same subject (credit and licence from the source), and its alt text and caption were rewritten to describe the new photo. No other text changed.",
+   "previousSha": "f4cb29fff8a0cd069fad57e81ff4833fffa5fa7953e32c5c5e4b13d591707634"
+  }
+ ]
 }

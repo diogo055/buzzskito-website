@@ -2,7 +2,7 @@
  "id": "termite-droppings",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "e1d64d3439f60ab207f3426aebc61a7251a9d2decaba0691faabb6dd9008af97",
+ "sha": "5ba0831d2072651277c22f9a410807d08b1fc3fd31fd1d373bf20e896c2dd128",
  "claimsChecked": 210,
  "claimsCorrected": 2,
  "claimsRemovedOrSoftened": 0,
@@ -12,6 +12,11 @@
    "on": "2026-10-20",
    "note": "Oct 20, 2026 (after the fact-check): the damaged-wood figure caption's second sentence now restates the page's own UC IPM test (pellets = drywood, mud = subterranean) instead of implying the photo shows drywood galleries; the checker flagged the ambiguity. No new fact.",
    "previousSha": "54848db8b6d175be2f542333b475b4bec5b62ee2ede6b9b8ce0bae3355956578"
+  },
+  {
+   "on": "2026-11-05",
+   "note": "Photo licence swap (Nov 5, 2026): one iNaturalist photographer relicensed photos CC BY-NC after we took them as CC0; each such photo on this page was replaced with an openly licensed photo of the same subject (credit and licence from the source), and its alt text and caption were rewritten to describe the new photo. No other text changed.",
+   "previousSha": "e1d64d3439f60ab207f3426aebc61a7251a9d2decaba0691faabb6dd9008af97"
   }
  ],
  "released": {

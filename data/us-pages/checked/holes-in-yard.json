@@ -2,7 +2,7 @@
  "id": "holes-in-yard",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "622d5beaf619106662b11e527ba2ef22fd854495e63f8e184402d057847e59d5",
+ "sha": "843b05a163ecf3caabf25ef1b8bb31d76a6fc6af2c99739ed79b7fab59287249",
  "claimsChecked": 236,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 1,
@@ -27,6 +27,11 @@
    "on": "2026-11-04",
    "note": "Nov 4, 2026: the vole links (paragraph and Vole hole card) now go to the US vole guide /blog/voles instead of the Canadian edition; no facts changed.",
    "previousSha": "efb0e07a1a19af3ba9d529b1680b18d8b1a1eb7823dc5e4533c64d061a987831"
+  },
+  {
+   "on": "2026-11-05",
+   "note": "Photo licence swap (Nov 5, 2026): one iNaturalist photographer relicensed photos CC BY-NC after we took them as CC0; each such photo on this page was replaced with an openly licensed photo of the same subject (credit and licence from the source), and its alt text and caption were rewritten to describe the new photo. No other text changed.",
+   "previousSha": "622d5beaf619106662b11e527ba2ef22fd854495e63f8e184402d057847e59d5"
   }
  ]
 }

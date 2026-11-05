@@ -2,7 +2,7 @@
  "id": "do-carpenter-ants-bite",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "0cc2bcfa439fc5895ffab2557c9136e128580123ad0024ff084207bd4d1b478b",
+ "sha": "5d0811f8ce93a9b66848eb6754c579844682fc87485896a7c223536e239b07cb",
  "claimsChecked": 64,
  "claimsCorrected": 15,
  "claimsRemovedOrSoftened": 6,
@@ -17,6 +17,11 @@
    "on": "2026-10-28",
    "note": "Google Images wave 2 (Oct 28, 2026): 5 real photos added as figure blocks next to the text they illustrate (carpenter-ant-side-view, carpenter-ant-beside-ruler, carpenter-ant-damaged-board, carpenter-ant-frass, carpenter-ant-winged-queen; the CC0 lead carpenter-ant-on-fingers is unchanged). Captions restate each photo's record (data/god-build/photos.json, photo-notes-batch14.json) plus facts the page already cites (UC IPM, Penn State, University of Maryland Extension). One sentence linking /tools/what-bug-is-this in the identification section. No other text changed; dates unchanged.",
    "previousSha": "2652c831e93bb459e7697f50c5b7e5f59c1adc6c37a1c14e36e03ed72f9bd7c9"
+  },
+  {
+   "on": "2026-11-05",
+   "note": "Photo licence swap (Nov 5, 2026): one iNaturalist photographer relicensed photos CC BY-NC after we took them as CC0; each such photo on this page was replaced with an openly licensed photo of the same subject (credit and licence from the source), and its alt text and caption were rewritten to describe the new photo. No other text changed.",
+   "previousSha": "0cc2bcfa439fc5895ffab2557c9136e128580123ad0024ff084207bd4d1b478b"
   }
  ]
 }

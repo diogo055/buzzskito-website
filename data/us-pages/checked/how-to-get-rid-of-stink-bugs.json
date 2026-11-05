@@ -2,9 +2,16 @@
  "id": "how-to-get-rid-of-stink-bugs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "f1005666001c9af672a451d601d6405a9a639fb9b1dab356524d8aadc38ddd77",
+ "sha": "76db3bb70d98e1df0995d71674dd99899eca664f5adb6347807916eed6931e36",
  "claimsChecked": 13,
  "claimsCorrected": 3,
  "claimsRemovedOrSoftened": 0,
- "checkedOn": "2026-11-05"
+ "checkedOn": "2026-11-05",
+ "amendments": [
+  {
+   "on": "2026-11-05",
+   "note": "Photo licence swap (Nov 5, 2026): one iNaturalist photographer relicensed photos CC BY-NC after we took them as CC0; each such photo on this page was replaced with an openly licensed photo of the same subject (credit and licence from the source), and its alt text and caption were rewritten to describe the new photo. No other text changed.",
+   "previousSha": "f1005666001c9af672a451d601d6405a9a639fb9b1dab356524d8aadc38ddd77"
+  }
+ ]
 }

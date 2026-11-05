@@ -2,7 +2,7 @@
  "id": "black-ants",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "527eb7714ab77d2fb1696bf0a059a8d11d8d49b55eb4af32b86b653e2e4e3be0",
+ "sha": "24dfea46e3543cccf3c7643900f2d90f7a93e07b5b14b214b98b0addc9ced0c5",
  "claimsChecked": 96,
  "claimsCorrected": 13,
  "claimsRemovedOrSoftened": 7,
@@ -22,6 +22,11 @@
    "on": "2026-11-03",
    "note": "Nov 3, 2026: added 5 real photos (carpenter-ant-side-view, little-black-ant-specimen-profile, silky-field-ant-side-view, pavement-ants-kitchen-line, odorous-house-ants-kitchen-window); captions from each photo's source description; no other text changed.",
    "previousSha": "00c07a4352e44891eccfeff4c706831457d106895cfff865736a0f173903d0ca"
+  },
+  {
+   "on": "2026-11-05",
+   "note": "Photo licence swap (Nov 5, 2026): one iNaturalist photographer relicensed photos CC BY-NC after we took them as CC0; each such photo on this page was replaced with an openly licensed photo of the same subject (credit and licence from the source), and its alt text and caption were rewritten to describe the new photo. No other text changed.",
+   "previousSha": "527eb7714ab77d2fb1696bf0a059a8d11d8d49b55eb4af32b86b653e2e4e3be0"
   }
  ]
 }

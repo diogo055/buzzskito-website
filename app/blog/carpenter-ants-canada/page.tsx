@@ -109,7 +109,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
-  image: shareImage('carpenter-ant-on-fingers'),
+  image: shareImage('black-carpenter-ant-dry-leaves'),
 })
 
 const AMZ_TAG = tagForSlug(SLUG)
@@ -117,7 +117,7 @@ const AMZ_TAG = tagForSlug(SLUG)
 export default function CarpenterAntsCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian carpenter ant guide: carpenter ant vs termite vs pavement ant ID, frass, winter indoor sightings, parent vs satellite colonies, moisture as root cause, why repellent sprays fail, liquid baiting, void dusts, and an honest call-a-pro threshold.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('carpenter-ant-on-fingers') })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian carpenter ant guide: carpenter ant vs termite vs pavement ant ID, frass, winter indoor sightings, parent vs satellite colonies, moisture as root cause, why repellent sprays fail, liquid baiting, void dusts, and an honest call-a-pro threshold.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('black-carpenter-ant-dry-leaves') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Carpenter Ants in Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -307,7 +307,7 @@ export default function CarpenterAntsCanadaPage() {
           <NextUp path="/blog/carpenter-ants-canada" />
           <h2>Confirm It Is a Carpenter Ant — and Not a Termite</h2>
           <p>Carpenter ants (<em>Camponotus</em> species) are among the largest ants found in Ontario, and the two usually identified here are an all-black species and one with a rusty red-brown midsection. Get one under decent light and check three things. The <strong>waist</strong> is sharply pinched, wasp-like, with a single node. The <strong>antennae</strong> are elbowed &mdash; a short first segment, then a distinct bend. And viewed from the side, the <strong>back is a single smooth arch</strong>, not a bumpy or notched profile like most other ants.</p>
-          <Photo id="carpenter-ant-on-fingers" alt="Large shiny black carpenter ant walking across a person's fingers" caption="An eastern black carpenter ant, Camponotus pennsylvanicus, on a person’s hand (Blount County, Alabama); the observer says it walked on the hand and then bit. Check for the pinched waist and the one smooth arch of the back described above." />
+          <Photo id="carpenter-ant-on-fingers" alt="Large shiny black carpenter ant walking on a person's bare arm" caption="An eastern black carpenter ant, Camponotus pennsylvanicus, on a person’s arm (Austin, Texas). Check for the pinched waist and the one smooth arch of the back described above." />
           <p>One more tell that surprises people: <strong>size varies within a single colony</strong>. Carpenter ant workers are polymorphic, so a trail can contain small ants around 6 mm walking beside majors well over a centimetre. If you have ants of noticeably different sizes on one trail, that is a carpenter ant signature, not two species meeting.</p>
           <p>The comparison that actually matters is with termites, because the response is different and the cost of getting it wrong runs one direction. A termite has <strong>no waist</strong> &mdash; it is straight-sided from head to abdomen. Its antennae are <strong>straight and beaded</strong>, not elbowed. Termite workers are soft and creamy-white, which is why the old name was &ldquo;white ants.&rdquo; And in swarming season, the wings settle it instantly: a carpenter ant&rsquo;s front pair of wings is clearly longer than the back pair, while all four termite wings are the same length and shed off in tidy piles on a windowsill.</p>
           <p>The damage signatures diverge just as cleanly. Carpenter ants keep their galleries <em>immaculate</em> &mdash; smooth, sanded-looking chambers with all the debris pushed outside. Subterranean termites do the opposite: they pack galleries with soil, and they build mud shelter tubes up foundation walls and joists because they must stay in contact with moist ground. And no, termites are not somebody else&rsquo;s problem in Canada: the eastern subterranean termite is established in documented pockets of southern Ontario, including parts of Toronto and several southwestern Ontario municipalities, some of which run their own termite programs and maintain rules about moving untreated wood or soil out of designated areas. Mud tubes, soil-packed grain, or piles of equal-length wings mean you stop, put the bait away, and get a licensed structural inspection.</p>

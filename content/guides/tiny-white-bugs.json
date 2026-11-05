@@ -139,7 +139,7 @@
       { "href": "/blog/dust-mites", "name": "Dust mite", "photo": "house-dust-mite", "note": "Clear to creamy white but generally visible only with a microscope; cannot bite", "alt": "Black-and-white electron microscope image of a house dust mite, a rounded, ridged body on jointed legs" },
       { "href": "/blog/baby-bed-bugs-nymphs", "name": "Bed bug nymph", "photo": "bed-bug-nymph", "note": "Translucent or whitish-yellow; hides in mattress seams and bites at night", "alt": "Rounded amber bed bug nymph with a dark patch inside its abdomen, on white fabric" },
       { "href": "/learn/whitefly-identification-control", "name": "Whitefly", "photo": "greenhouse-whitefly", "note": "Powdery white, 1/16 to 1/10 inch; flutters up when the plant is disturbed", "alt": "Greenhouse whitefly seen from above on a leaf, with white wings folded flat over a pale yellow body" },
-      { "href": "/blog/what-do-termites-look-like", "name": "Termite worker", "photo": "termite-workers-soldier", "note": "White to creamy white, 1/4 to 3/8 inch; rarely leaves wood, soil or mud tubes", "alt": "One pale termite worker and two soldiers with long amber heads at a tunnel in rotten wood" }
+      { "href": "/blog/what-do-termites-look-like", "name": "Termite worker", "photo": "termite-workers-soldier", "note": "White to creamy white, 1/4 to 3/8 inch; rarely leaves wood, soil or mud tubes", "alt": "A pale termite worker beside a soldier with a long amber head in a tunnel in rotting wood" }
     ] },
 
     { "type": "h2", "text": "What should you do once you know what it is?" },

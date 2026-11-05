@@ -2,7 +2,7 @@
  "id": "rat-nest",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "25a56b6959b60f8896edfe6904bfd5009536a716de1f84081028c59849020b28",
+ "sha": "3dc27e5873d87cc1852cb21431336faaded5f7f47bf6c51f72e4bf368a82cd08",
  "claimsChecked": 286,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 20,
@@ -11,5 +11,12 @@
   "on": "2026-10-28",
   "scheduledFor": "2026-10-28",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-11-05",
+   "note": "Photo licence swap (Nov 5, 2026): one iNaturalist photographer relicensed photos CC BY-NC after we took them as CC0; each such photo on this page was replaced with an openly licensed photo of the same subject (credit and licence from the source), and its alt text and caption were rewritten to describe the new photo. No other text changed.",
+   "previousSha": "25a56b6959b60f8896edfe6904bfd5009536a716de1f84081028c59849020b28"
+  }
+ ]
 }

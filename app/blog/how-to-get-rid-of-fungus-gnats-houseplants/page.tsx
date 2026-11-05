@@ -339,9 +339,9 @@ export default function FungusGnatsHouseplantsPage() {
           <h2>Related Guides</h2>
           <ul>
             <li><Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits vs Dunks — Which BTI Format to Buy in Canada</Link></li>
-            <li><Link href="/blog/katchy-indoor-insect-trap-review-canada">Katchy Indoor Insect Trap Review — A Full Season of Testing</Link></li>
+            <li><Link href="/blog/katchy-indoor-insect-trap-review-canada">Katchy Indoor Insect Trap Review — What It Actually Catches</Link></li>
             <li><Link href="/blog/how-to-get-rid-of-fruit-flies">How to Get Rid of Fruit Flies — Full Playbook</Link></li>
-            <li><Link href="/blog/best-fruit-fly-trap-canada">Best Fruit Fly Trap — Tested and Compared</Link></li>
+            <li><Link href="/blog/best-fruit-fly-trap-canada">Best Fruit Fly Trap Canada — TERRO vs Katchy vs Sticky Ribbons</Link></li>
             <li><Link href="/blog/how-to-get-rid-of-silverfish-canada">How to Get Rid of Silverfish — The Other Damp-Loving Indoor Pest</Link></li>
             <li><Link href="/pest-control-cost-canada">Pest Control Cost Canada — What Professionals Charge</Link></li>
           </ul>

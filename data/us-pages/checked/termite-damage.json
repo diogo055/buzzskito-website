@@ -2,7 +2,7 @@
  "id": "termite-damage",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "748cb376fd9b85aa5e9d54fa424b5e972d98352d9dade1a9762521607b090dd9",
+ "sha": "e3cac94948cf203a61b34b54239e1a18fd1a943bccbdca610c95d242900a0bdf",
  "claimsChecked": 220,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 1,
@@ -17,6 +17,11 @@
    "on": "2026-10-23",
    "note": "photos: termite-swarmers-ceiling-light, drywood-termite-swarmer-fingers (batch 12, Oct 23)",
    "previousSha": "3a2e73733dacb446fe884ecf8a048fb7dc069dc330b2f959bb449bc9b5afa424"
+  },
+  {
+   "on": "2026-11-05",
+   "note": "Photo licence swap (Nov 5, 2026): one iNaturalist photographer relicensed photos CC BY-NC after we took them as CC0; each such photo on this page was replaced with an openly licensed photo of the same subject (credit and licence from the source), and its alt text and caption were rewritten to describe the new photo. No other text changed.",
+   "previousSha": "748cb376fd9b85aa5e9d54fa424b5e972d98352d9dade1a9762521607b090dd9"
   }
  ]
 }
