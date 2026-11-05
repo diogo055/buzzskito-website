@@ -1354,7 +1354,8 @@
     "/learn/tick-identification-chart",
     "/blog/what-does-a-tick-bite-look-like",
     "/blog/can-ticks-fly-jump-swim"
-   ]
+   ],
+   "bar": true
   },
   "/blog/best-tick-repellent-yard-canada": {
    "next": "/blog/best-tick-control-yard-treatment",
@@ -1913,7 +1914,8 @@
     "/blog/propane-mosquito-trap-canada",
     "/blog/best-magnetic-screen-door-canada",
     "/blog/is-mosquito-spray-safe-kids-pets"
-   ]
+   ],
+   "bar": true
   },
   "/blog/can-ticks-fly-jump-swim": {
    "next": "/blog/how-long-do-ticks-live",
@@ -3801,7 +3803,8 @@
     "/learn/tick-identification-chart",
     "/blog/how-to-remove-tick-from-dog-ontario",
     "/blog/tick-prevention-caledon-halton-hills"
-   ]
+   ],
+   "bar": true
   },
   "/blog/how-to-kill-bed-bug-eggs-canada": {
    "next": "/blog/bed-bug-heater-canada",
@@ -5073,7 +5076,8 @@
     "/blog/how-long-does-mosquito-spray-last",
     "/blog/mosquito-trap-running-cost-canada",
     "/blog/why-do-mosquitoes-bite-my-ankles"
-   ]
+   ],
+   "bar": true
   },
   "/blog/picaridin-vs-deet": {
    "next": "/blog/off-deep-woods-deet-bug-spray-canada",
@@ -5915,7 +5919,8 @@
     "/learn/tick-identification-chart",
     "/blog/tick-bite-symptoms-what-to-do-ontario",
     "/blog/what-does-a-tick-bite-look-like"
-   ]
+   ],
+   "bar": true
   },
   "/blog/tick-removal-tool-guide": {
    "next": "/blog/tick-head-stuck-in-skin",

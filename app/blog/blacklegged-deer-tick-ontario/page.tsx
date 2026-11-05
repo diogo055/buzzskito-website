@@ -21,6 +21,7 @@ const DATE = '2026-07-12'
 const UPDATED = '2026-10-20'
 const TITLE = 'Blacklegged (Deer) Tick Ontario: ID, Range & Lyme Risk'
 const META_TITLE = 'Blacklegged Deer Tick Ontario: ID & Lyme 2026'
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): the amazon.ca button for Insect Shield permethrin-treated clothing (search "insect shield permethrin treated clothing") after "For the clothing half of that list" is removed, because Insect Shield has no Canadian registration (Health Canada pesticide registry, checked Nov 5, 2026). The list above it says to treat footwear and pant legs with permethrin, so the one sentence in its place says consumer permethrin sprays for clothing are not approved in Canada (linked to the Public Health Agency of Canada page) and names the registered home-use line, No Fly Zone (Reg. No. 32757), and the PCP number on the label.
 
 const FAQS = [
   {
@@ -297,7 +298,7 @@ export default function BlackleggedDeerTickOntarioPage() {
 
           <h2>Protecting Your Yard and Yourself</h2>
           <p>Because blacklegged ticks quest low on vegetation and cannot fly or jump, yard control genuinely works. Mow to 3&ndash;4 inches, clear leaf litter at the edges each spring and fall, keep a dry wood-chip or gravel strip between lawn and woods, and discourage mice and deer. On your body, tuck pant legs into socks, wear light colours to spot ticks, treat footwear and pant legs with permethrin, and use a DEET or icaridin (picaridin) repellent on skin. A licensed <Link href="/tick-control">barrier spray</Link> applied to the shaded borders where deer ticks actually wait removes them at the source for the season.</p>
-          <p>For the clothing half of that list, the format sold to Canadian consumers is factory pre-treated permethrin clothing (intended for ages 16 and over), which covers the ankle-to-knee band where blacklegged ticks actually board. <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Check price on Amazon.ca →</BuyLink> <BuyLink tag={AMZ_TAG} search="icaridin insect repellent">See tick repellents on Amazon.ca →</BuyLink></p>
+          <p>For the clothing half of that list, the format sold to Canadian consumers is factory pre-treated permethrin clothing (intended for ages 16 and over), which covers the ankle-to-knee band where blacklegged ticks actually board. Consumer permethrin sprays for clothing are not approved in Canada (<a href="https://www.canada.ca/en/public-health/services/publications/diseases-conditions/permethrin-treated-clothing.html" target="_blank" rel="noopener" className="underline hover:text-brand-700">Public Health Agency of Canada</a>), and Insect Shield clothing has no Canadian registration: the registered home-use line here is No Fly Zone (Reg. No. 32757), so look for the PCP number on the label. <BuyLink tag={AMZ_TAG} search="icaridin insect repellent">See tick repellents on Amazon.ca →</BuyLink></p>
 
           <h2>Related Reading</h2>
           <ul>

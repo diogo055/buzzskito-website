@@ -11,6 +11,7 @@ import { NEW_BLOGS, TICK_BLOGS, MOSQUITO_BLOGS, PROMISES } from '@/lib/constants
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = NEW_BLOGS[1]
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): the amazon.ca button for Insect Shield permethrin-treated clothing (search "insect shield permethrin treated clothing") in the Oak Ridges Trail and Rouge paragraph is removed, because Insect Shield has no Canadian registration (Health Canada pesticide registry, checked Nov 5, 2026); one sentence in its place says so and names the registered home-use line, No Fly Zone (Reg. No. 32757), and the PCP number on the label.
 
 const AMZ_TAG = tagForSlug('tick-control-richmond-hill-markham')
 
@@ -119,7 +120,7 @@ export default function TickControlRichmondHillMarkhamPage() {
         <h2>The Lyme Disease Piece: Why Nymphs Are the Real Danger</h2>
         <p>Most Lyme disease transmission in Ontario comes not from adult ticks, which are relatively large and easier to spot, but from nymphs — the second life stage. Nymphs are active May through July and are the size of a poppy seed. They are extremely difficult to feel and easy to miss during a tick check.</p>
         <p>Both Richmond Hill and Markham fall within Ontario&rsquo;s established Lyme disease risk zone as defined by Public Health Ontario. If a tick is attached for more than 24–36 hours, Lyme disease transmission becomes a real possibility. Alongside tick checks, one practical step is to cut down the ticks in your own yard by treating it.</p>
-        <p className="not-prose text-gray-700">For the Oak Ridges Trail and Rouge park walks themselves, factory-treated permethrin socks, gaiters, and hiking pants are the ready-to-wear layer for the lower leg, where a questing nymph climbs aboard. <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Check price on Amazon.ca &rarr;</BuyLink></p>
+        <p className="not-prose text-gray-700">For the Oak Ridges Trail and Rouge park walks themselves, factory-treated permethrin socks, gaiters, and hiking pants are the ready-to-wear layer for the lower leg, where a questing nymph climbs aboard. Insect Shield clothing has no Canadian registration, though: the registered home-use line here is No Fly Zone (Reg. No. 32757), so look for the PCP number on the label.</p>
 
         <h2>What Treatment Looks Like for These Properties</h2>
         <p>BuzzSkito&rsquo;s tick barrier spray targets the transition zones where ticks concentrate: leaf litter margins at the lawn edge, low ground cover, the base of shrubs, and shaded mulch beds. These are the areas where ticks quest (climb and wait) for passing hosts.</p>

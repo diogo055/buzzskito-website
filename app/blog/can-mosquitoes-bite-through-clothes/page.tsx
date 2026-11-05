@@ -5,8 +5,6 @@ import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
-import TopPick from '@/components/TopPick'
-import StickyBuyBar from '@/components/StickyBuyBar'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
@@ -19,6 +17,7 @@ const DATE = '2026-07-16'
 const UPDATED = '2026-10-08'
 const TITLE = 'Can Mosquitoes Bite Through Clothes? Yes — Here Is Exactly Which Fabrics'
 const META_TITLE = 'Can Mosquitoes Bite Through Clothes? 8 Fabrics'
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): InsectGuard has no Canadian registration (Health Canada pesticide registry, checked Nov 5, 2026: no product or registrant named InsectGuard), so its 3 amazon.ca elements (search "insectguard permethrin treated shirt") are gone: the "Permethrin-treated shirt" button beside the bug jacket, the "Our Top Pick — Bite-Through Defence" box (named "factory Insect Shield"; Insect Shield has no Canadian registration either) and the sticky buy bar, whose usSearch went with it (the amazon.com UsAmazonLine stays for the dual-store list). No product this page links is named with a PCP/Reg. number, so nothing was switched; ReadNext already renders standalone at the top level. Two sentences said Health Canada's PMRA registers Sawyer's 0.5% permethrin clothing spray. The registry lists no Sawyer permethrin product (the current Sawyer registrations are icaridin repellents 33032 and 33177), and the Public Health Agency of Canada says consumer permethrin sprays for clothing are not approved, so the Quick Answer bullet now says that (linked) and names the registered home-use line, No Fly Zone (Reg. No. 32757); the FAQ says it without a link. TopPick and StickyBuyBar imports removed (unused).
 
 const FAQS = [
   {
@@ -55,7 +54,7 @@ const FAQS = [
   },
   {
     question: 'Does permethrin-treated clothing stop bites through fabric?',
-    answer: 'Yes — this is exactly what permethrin clothing is designed for. Permethrin bonds to the fabric fibres and kills or knocks down mosquitoes and ticks that land on the treated cloth, so they die or leave before they can bite through. Factory-treated Insect Shield garments stay effective through about 70 wash cycles; DIY Sawyer 0.5% permethrin spray applied at home lasts about 6 washes or 6 weeks per application. Health Canada\'s Pest Management Regulatory Agency registers Sawyer 0.5% permethrin clothing spray as a legal consumer product in Canada. Note: wet permethrin is highly toxic to cats — let treated clothing dry fully before it is around cats.',
+    answer: 'Yes — this is exactly what permethrin clothing is designed for. Permethrin bonds to the fabric fibres and kills or knocks down mosquitoes and ticks that land on the treated cloth, so they die or leave before they can bite through. Factory-treated Insect Shield garments stay effective through about 70 wash cycles; DIY Sawyer 0.5% permethrin spray applied at home lasts about 6 washes or 6 weeks per application. In Canada, though, consumer permethrin sprays for clothing are not approved, says the Public Health Agency of Canada, and Health Canada\'s pesticide registry lists no Sawyer permethrin product, so the Canadian route is factory-treated clothing with a PCP number on the label. Note: wet permethrin is highly toxic to cats — let treated clothing dry fully before it is around cats.',
   },
   {
     question: 'Why do I still get bitten through my shirt?',
@@ -120,7 +119,7 @@ export default function CanMosquitoesBiteThroughClothesPage() {
               <li>Even a <strong>3&ndash;5 mm air gap</strong> between loose fabric and skin defeats the proboscis entirely, which is why loose clothing beats tight clothing.</li>
               <li><strong>Denim jeans, canvas, thick wool, and fleece</strong> are effectively bite-proof because their thickness and weave exceed the proboscis&rsquo;s reach.</li>
               <li><strong>Permethrin-treated clothing</strong> kills mosquitoes on contact through fabric &mdash; factory Insect Shield garments last ~70 washes, DIY 0.5% spray ~6 washes.</li>
-              <li>Health Canada&rsquo;s PMRA registers <strong>Sawyer 0.5% permethrin clothing spray</strong> as a legal consumer product in Canada.</li>
+              <li>In Canada, consumer permethrin sprays for clothing, <strong>Sawyer&rsquo;s 0.5% spray</strong> among them, are not approved (<a href="https://www.canada.ca/en/public-health/services/publications/diseases-conditions/permethrin-treated-clothing.html" target="_blank" rel="noopener noreferrer" className="text-brand-700 underline">Public Health Agency of Canada</a>), and InsectGuard and Insect Shield clothing have no Canadian registration: the registered home-use line here is No Fly Zone (Reg. No. 32757), so look for the PCP number on the label.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
@@ -202,18 +201,9 @@ export default function CanMosquitoesBiteThroughClothesPage() {
           <UsAmazonLine name="Permethrin-treated shirt" search="permethrin treated shirt" />
           <p className="not-prose text-sm text-gray-600 mb-2">For heavy-exposure situations — hiking, camping, or evenings in a buggy yard — permethrin-treated garments and a bug jacket are the most dependable clothing-based defence:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="insectguard permethrin treated shirt">Permethrin-treated shirt on Amazon.ca →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="coghlans bug jacket">Coghlan&rsquo;s bug jacket →</BuyLink>
           </div>
 
-          <TopPick tag={AMZ_TAG}
-            label="Our Top Pick — Bite-Through Defence"
-            name="Permethrin-Treated Shirt (factory Insect Shield)"
-            blurb="The one clothing upgrade that fixes the thin-fabric problem directly: permethrin bonds to the fibres and kills or knocks down mosquitoes and ticks on contact, so they die or leave before the proboscis reaches skin. Factory-treated garments stay effective for dozens of washes with no reapplication — the most dependable clothing-based defence for anyone outdoors a lot."
-            search="insectguard permethrin treated shirt"
-            pros={['Kills / repels through the fabric before a bite lands', 'Protects against ticks as well as mosquitoes', 'Factory treatment lasts many washes, no reapplying']}
-            cons={['Costs more than an untreated shirt', 'Keep wet permethrin away from cats until fully dry']}
-          />
           <p>For the fully-covered approach, a <Link href="/blog/bug-protective-clothing-canada">bug-protective clothing setup</Link> (treated shirt, pants, and a mesh bug jacket or head net) removes bare skin from the equation almost entirely. In serious mosquito habitat — cottage country, near wetlands — a <Link href="/blog/mosquito-net">mosquito net</Link> over a sleeping area or gazebo adds a physical barrier that no fabric-biting mosquito can cross.</p>
           <Photo
             id="mosquito-on-vest"
@@ -264,8 +254,6 @@ export default function CanMosquitoesBiteThroughClothesPage() {
 
         </div>
       </article>
-
-      <StickyBuyBar usSearch="permethrin treated shirt" tag={AMZ_TAG} name="Permethrin-Treated Shirt" search="insectguard permethrin treated shirt" label="Best bite-through defence" />
 
       <ReadNext path="/blog/can-mosquitoes-bite-through-clothes" standalone />
     </>

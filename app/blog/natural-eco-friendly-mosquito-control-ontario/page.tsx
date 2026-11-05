@@ -14,6 +14,7 @@ import NextUp from '@/components/NextUp'
 
 const POST = NEW_BLOGS_3[3]
 const UPDATED = POST.date
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"), fifth pass: Wondercide has no Canadian registration (Health Canada pesticide registry, checked Nov 5, 2026: no product or registrant named Wondercide), so its one amazon.ca element is gone: the "Check Wondercide yard spray on Amazon.ca" button (search "wondercide yard spray") in "3. Cedar Oil Yard Treatments". The sticky bar (Summit BTi Mosquito Dunks) is unchanged, and the sentence naming Wondercide, which links our Wondercide review, was left as written.
 
 export const metadata: Metadata = buildMetadata({
   title: 'Natural Mosquito Control Ontario | 2026',
@@ -162,9 +163,6 @@ export default function NaturalMosquitoControlPage() {
         <h3>3. Cedar Oil Yard Treatments — Short Residual, Mild Effect</h3>
         <p>Cedar oil-based products are marketed as &ldquo;natural&rdquo; yard sprays and do have mosquito-repelling and insecticidal properties. The practical limitation for Ontario use is residual time — cedar oil volatilizes rapidly in heat and breaks down quickly in rain, typically providing 7–14 days of light protection, a shorter residual than professional synthetic barrier spray.</p>
         <p>The best-known cedar-oil yard spray is Wondercide — we break down exactly how it holds up in GTA conditions in our full <Link href="/blog/wondercide-canada-review" className="text-brand-700 underline">Wondercide Canada review</Link>.</p>
-        <div className="not-prose my-4">
-          <BuyLink tag={AMZ_TAG} search="wondercide yard spray">Check Wondercide yard spray on Amazon.ca →</BuyLink>
-        </div>
         <p><strong>Best for:</strong> Supplemental perimeter treatment between professional spray visits. Not sufficient as a standalone solution for high-pressure GTA properties.</p>
 
         <h3>4. Essential Oils as Personal Repellents — Works on People, Not Yards</h3>

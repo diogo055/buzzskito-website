@@ -20,6 +20,7 @@ const DATE = '2026-07-14'
 const UPDATED = '2026-07-14'
 const TITLE = 'Thermacell E90 Review Canada 2026 — vs E55, vs EX90 & Which Refills to Buy'
 const META_TITLE = 'Thermacell E90 Review Canada: vs EX90 and E55'
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): the amazon.ca button "check permethrin clothing sprays" (search "permethrin clothing spray") in "And for the tick gap" is removed: consumer permethrin sprays for treating your own clothing are not approved in Canada (Public Health Agency of Canada, Permethrin-treated clothing, canada.ca). The colon that led into it is now a full stop, and one sentence says so, links that page, and points to factory-treated clothing with a PCP number on the label.
 
 const FAQS = [
   {
@@ -307,7 +308,7 @@ export default function ThermacellE90CanadaReviewPage() {
           <h3>Three things worth buying alongside it</h3>
           <p><strong>If the unit is going to the cottage</strong>, the rugged EX90 is the version built for being dropped on a dock, thrown in a canoe barrel and left out in the rain &mdash; same engine as the E90 underneath, tougher shell around it. It is the one variant that survives the way cottage gear actually gets treated: <BuyLink tag={AMZ_TAG} search="thermacell ex90 adventure repeller">check the EX90 on Amazon.ca &rarr;</BuyLink></p>
           <p><strong>For May and June in cottage country</strong>, no spatial repeller of any brand fully handles blackflies, and this is the gap where people give up on the category unfairly. A head net over a ball cap is the unglamorous fix that lets you finish setting up camp in early June, and it packs down to nothing: <BuyLink tag={AMZ_TAG} search="mosquito head net">check head nets on Amazon.ca &rarr;</BuyLink></p>
-          <p><strong>And for the tick gap</strong>, remember the E90 does nothing at ankle height, because ticks quest from grass rather than flying into vapour. The standard answer for anyone walking a trail or a fence line is treated clothing &mdash; a permethrin clothing-and-gear spray applied to fabric, never skin, strictly as its label directs, and re-applied on the schedule that label sets out: <BuyLink tag={AMZ_TAG} search="permethrin clothing spray">check permethrin clothing sprays on Amazon.ca &rarr;</BuyLink></p>
+          <p><strong>And for the tick gap</strong>, remember the E90 does nothing at ankle height, because ticks quest from grass rather than flying into vapour. The standard answer for anyone walking a trail or a fence line is treated clothing &mdash; a permethrin clothing-and-gear spray applied to fabric, never skin, strictly as its label directs, and re-applied on the schedule that label sets out. Consumer permethrin sprays for clothing are not approved in Canada, though, says the <a href="https://www.canada.ca/en/public-health/services/publications/diseases-conditions/permethrin-treated-clothing.html" target="_blank" rel="noopener noreferrer">Public Health Agency of Canada</a>, so the Canadian route is clothing treated at the factory, with a PCP number on the label.</p>
 
           <h2>Related Reading</h2>
           <ul>

@@ -3,7 +3,6 @@ import Link from 'next/link'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AwardRow from '@/components/AwardRow'
-import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
@@ -16,6 +15,8 @@ const POST = TICK_BLOGS.supporting[3]
 const UPDATED = '2026-07-16'
 
 const META_TITLE = 'Best Tick Control for Yards Ontario: 6 Methods'
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): Insect Shield has no Canadian registration (Health Canada pesticide registry, checked Nov 5, 2026), so its 2 amazon.ca elements (search "insect shield permethrin treated clothing") are gone: the "Best Wearable Defence" award card and the button in the "Permethrin-treated clothing" list item. The which-to-buy line now reads "Factory permethrin-treated clothing" instead of pointing at the removed card, and the list item gains one sentence naming the registered home-use line, No Fly Zone (Reg. No. 32757), and the PCP number on the label.
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"), fourth pass: Wondercide has no Canadian registration (Health Canada pesticide registry, checked Nov 5, 2026: no product or registrant named Wondercide), so its 4 amazon.ca elements (search "wondercide tick yard spray") are gone: the sticky buy bar, the button in the opening "DIY layer" line (its colon is now a full stop), the "Best DIY Yard Spray" award card and the button in the "Plant-based yard spray" list item. No product this page links is named with a PCP/Reg. number, so the sticky bar was removed, not switched (the page has no top box); ReadNext already renders standalone at the top level. The which-to-buy line said "The Best DIY Yard Spray" (the removed card) and now says "A botanical yard spray"; one sentence in the list item says Wondercide has no Canadian registration and to look for the PCP number on the label. StickyBuyBar import removed (unused).
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
@@ -57,7 +58,6 @@ export default function BestTickControlPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Wondercide Tick &amp; Flea Yard Spray" search="wondercide tick yard spray" label="Best DIY yard spray" />
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
         <AuthorByline datePublished={POST.date} dateModified={UPDATED} />
@@ -78,28 +78,11 @@ export default function BestTickControlPage() {
         </div>
 
 
-        <p className="not-prose text-gray-700 text-[15px] leading-relaxed my-4">Outside our service area, or want a DIY layer to run between professional visits? The one we would add first is a botanical yard spray for patios, beds, and pet areas: <BuyLink tag={AMZ_TAG} search="wondercide tick yard spray">Check price on Amazon.ca →</BuyLink></p>
+        <p className="not-prose text-gray-700 text-[15px] leading-relaxed my-4">Outside our service area, or want a DIY layer to run between professional visits? The one we would add first is a botanical yard spray for patios, beds, and pet areas.</p>
 
         <AwardRow tag={AMZ_TAG}
           heading="Our Picks — Best DIY Tick Products to Layer With a Barrier Spray"
           awards={[
-            {
-              badge: 'Best DIY Yard Spray',
-              name: 'Wondercide Tick & Flea Yard Spray',
-              why: 'A botanical spray for spot-treating patios, garden beds, and pet areas without harsh synthetics — the practical DIY layer between professional visits.',
-              search: 'wondercide tick yard spray',
-              featured: true,
-              pros: ['Botanical, pet-friendly formula', 'Great for patios, beds & pet areas', 'No harsh synthetics'],
-              cons: ['Short-lived — reapply after rain', 'Not a whole-yard solution'],
-            },
-            {
-              badge: 'Best Wearable Defence',
-              name: 'Insect Shield Permethrin-Treated Clothing',
-              why: 'Factory-treated garments give the long-lasting, wearable protection that skin repellent alone can’t match — ideal for hikes and yard work. Health Canada has not approved permethrin liquids or sprays for consumers to treat their own clothing, so in Canada the permethrin you wear should come pre-treated.',
-              search: 'insect shield permethrin treated clothing',
-              pros: ['Permethrin bonded at the factory — lasts up to 70 wash cycles', 'Protection skin repellent can’t match', 'No handling of liquid permethrin at all'],
-              cons: ['Only covers the garments you buy', 'Doesn’t treat the yard itself'],
-            },
             {
               badge: 'Best Passive Layer',
               name: 'Thermacell Tick Control Tubes',
@@ -111,7 +94,7 @@ export default function BestTickControlPage() {
           ]}
           whichToBuy={
             <>
-              <strong>Want the fastest DIY layer?</strong> The <em>Best DIY Yard Spray</em> handles small problem zones between visits. <strong>Heading into the woods?</strong> The <em>Best Wearable Defence</em> permethrin-treated clothing goes with you where a yard treatment can&rsquo;t. <strong>Playing the long game?</strong> The <em>Best Passive Layer</em> tick tubes quietly thin next year’s population. None of them replaces whole-yard <Link href="/tick-control">professional tick control</Link>, which targets ticks where they wait and is renewed about once a month through the season.
+              <strong>Want the fastest DIY layer?</strong> A botanical yard spray handles small problem zones between visits. <strong>Heading into the woods?</strong> Factory permethrin-treated clothing goes with you where a yard treatment can&rsquo;t. <strong>Playing the long game?</strong> The <em>Best Passive Layer</em> tick tubes quietly thin next year’s population. None of them replaces whole-yard <Link href="/tick-control">professional tick control</Link>, which targets ticks where they wait and is renewed about once a month through the season.
             </>
           }
         />
@@ -178,12 +161,10 @@ export default function BestTickControlPage() {
         <p>Between professional visits, a couple of DIY products round out the layered approach above &mdash; neither replaces a whole-yard barrier treatment, but both are worth keeping on hand:</p>
         <ul>
           <li>
-            <strong>Plant-based yard spray:</strong> For spot-treating small problem zones yourself, a botanical spray like Wondercide handles patios, garden beds, and pet areas without harsh synthetics. Coverage is short-lived, so reapply after rain.{' '}
-            <BuyLink tag={AMZ_TAG} search="wondercide tick yard spray">Check price on Amazon.ca &rarr;</BuyLink>
+            <strong>Plant-based yard spray:</strong> For spot-treating small problem zones yourself, a botanical spray like Wondercide handles patios, garden beds, and pet areas without harsh synthetics. Coverage is short-lived, so reapply after rain. Wondercide has no Canadian registration, though: Health Canada&rsquo;s pesticide registry lists no Wondercide product, so look for the PCP number on the label of any yard spray you buy here.
           </li>
           <li>
-            <strong>Permethrin-treated clothing:</strong> For hikes and yard work, wearing <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 hover:underline">factory permethrin-treated clothing</Link> gives long-lasting, wearable protection that skin repellent alone can&rsquo;t match. Buy the garments already treated rather than treating your own &mdash; Health Canada has not approved permethrin liquids or sprays for consumers to treat their own clothing.{' '}
-            <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Check price on Amazon.ca &rarr;</BuyLink>
+            <strong>Permethrin-treated clothing:</strong> For hikes and yard work, wearing <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 hover:underline">factory permethrin-treated clothing</Link> gives long-lasting, wearable protection that skin repellent alone can&rsquo;t match. Buy the garments already treated rather than treating your own &mdash; Health Canada has not approved permethrin liquids or sprays for consumers to treat their own clothing. Insect Shield clothing has no Canadian registration, though: the registered home-use line here is No Fly Zone (Reg. No. 32757), so look for the PCP number on the label.
           </li>
         </ul>
         <p>For a fuller rundown of what actually works, see our guide to the{' '}

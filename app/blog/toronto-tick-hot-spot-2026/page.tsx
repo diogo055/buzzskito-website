@@ -41,6 +41,7 @@ const FAQS = [
 ]
 
 const META_TITLE = 'Toronto Tick Hot Spots 2026: Why Ravines Matter'
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): the amazon.ca button for Insect Shield permethrin-treated clothing (search "insect shield permethrin treated clothing") after "Step four is the one you can sort out before the weekend" is removed, because Insect Shield has no Canadian registration (Health Canada pesticide registry, checked Nov 5, 2026); one sentence in its place says so and names the registered home-use line, No Fly Zone (Reg. No. 32757), and the PCP number on the label.
 
 const AMZ_TAG = tagForSlug('toronto-tick-hot-spot-2026')
 
@@ -145,7 +146,7 @@ export default function TorontoTickHotSpotPage() {
           <li><strong>Permethrin-treated clothing for ravine hikers.</strong> If you walk in the Don Valley, Rouge, or any forested ravine, wear hiking pants, socks, or gaiters that come factory-treated with permethrin &mdash; in Canada, consumer permethrin sprays for treating your own clothing are not registered. This is the single most effective personal protection layer.</li>
           <li><strong>Know the 24-36 hour rule.</strong> Lyme disease transmission typically requires 24-36 hours of tick attachment. A tick found and removed within 24 hours dramatically reduces — but does not eliminate — risk. Daily checks matter.</li>
         </ol>
-        <p className="not-prose text-gray-700">Step four is the one you can sort out before the weekend: factory-treated permethrin socks, gaiters, and hiking pants are sold ready to wear for exactly these ravine trails. <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Check price on Amazon.ca &rarr;</BuyLink></p>
+        <p className="not-prose text-gray-700">Step four is the one you can sort out before the weekend: factory-treated permethrin socks, gaiters, and hiking pants are sold ready to wear for exactly these ravine trails. Insect Shield clothing has no Canadian registration, though: the registered home-use line here is No Fly Zone (Reg. No. 32757), so look for the PCP number on the label.</p>
 
         <h2>What about the news momentum?</h2>
         <p>Toronto Star, CityNews, and TorontoToday all ran tick coverage in May 2026 because the surge is genuine — not media hype. Public attention will move on within weeks. The tick pressure will not. The properties getting treated now will be protected through the peak season; the ones that wait until September will have missed the window.</p>

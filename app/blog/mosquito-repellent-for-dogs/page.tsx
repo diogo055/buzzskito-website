@@ -19,6 +19,7 @@ const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
 const TITLE = 'Mosquito Repellent for Dogs Canada 2026 — Dog-Labelled Picks + What Not to Use'
 const META_TITLE = 'Mosquito Repellent for Dogs Canada: What to Use'
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"), fifth pass: Wondercide has no Canadian registration (Health Canada pesticide registry, checked Nov 5, 2026: no product or registrant named Wondercide), so its 5 amazon.ca elements are gone: the "Best for Cat Households" award card (search "wondercide flea tick mosquito spray"), the "Wondercide spray" button under the byline and the "Compare natural spray prices" button under the ranked table (both search "wondercide flea tick mosquito dog"), and the Wondercide cells in both tables (search "wondercide flea tick mosquito spray"), which now read "Not registered in Canada, so no link". The which-to-buy line said "the Best for Cat Households cedar/lemongrass spray" (the removed card) and now says "a cedar/lemongrass spray". The sticky bar and top box (K9 Advantix II) are unchanged. The Cedarcide table cell (search "cedarcide dog spray") and the text that still recommends Wondercide were left for the owner. Later the same day: Vet's Best and Cedarcide are not in the registry either, so the "Best Budget Natural" card and their 3 table buttons are gone (plain text), and the cat-household line now sends readers to their vet for a product with a PCP number.
 
 const FAQS = [
   {
@@ -127,26 +128,10 @@ export default function MosquitoRepellentForDogsCanadaPage() {
                 pros: ['Repels mosquitoes and biting flies', 'Weight-banded dosing', 'Widely stocked'],
                 cons: ['Dogs only — fatal to cats', 'Keep separated from cats until fully dry'],
               },
-              {
-                badge: 'Best for Cat Households',
-                name: 'Wondercide (cedar / lemongrass spray)',
-                why: 'A permethrin-free, plant-based topical — check its label for use in homes with cats. The go-to when permethrin is off the table, or for a sensitive dog — reapply before dawn/dusk outings.',
-                search: 'wondercide flea tick mosquito spray',
-                pros: ['Permethrin-free', 'Milder option for sensitive dogs', 'Reapply before walks'],
-                cons: ['Shorter-lived — reapply about every 2 hours', 'Milder than a spot-on'],
-              },
-              {
-                badge: 'Best Budget Natural',
-                name: "Vet's Best / Cedarcide topical spray",
-                why: 'An affordable natural top-up for before-walk protection in cat households. Handy as a quick refresh rather than all-day coverage.',
-                search: 'vets best flea tick dog spray',
-                pros: ['Budget-friendly', 'Permethrin-free', 'Easy pre-walk top-up'],
-                cons: ['Shorter-lived protection', 'Avoid eyes and nose'],
-              },
             ]}
             whichToBuy={
               <>
-                <strong>Dogs only, no cats?</strong> The <em>Best for Dog-Only Homes</em> permethrin spot-on gives the strongest mosquito and tick repellency. <strong>Any cat in the house?</strong> Skip permethrin entirely and use the <em>Best for Cat Households</em> cedar/lemongrass spray. Whatever you pick, repellents never replace a vet-prescribed heartworm preventive — and for fewer mosquitoes reaching your dog at all, <Link href="/mosquito-control">professional yard barrier spray</Link> treats the whole property.
+                <strong>Dogs only, no cats?</strong> The <em>Best for Dog-Only Homes</em> permethrin spot-on gives the strongest mosquito and tick repellency. <strong>Any cat in the house?</strong> Skip permethrin entirely and ask your vet which product with a Canadian PCP number suits a home with cats. Whatever you pick, repellents never replace a vet-prescribed heartworm preventive — and for fewer mosquitoes reaching your dog at all, <Link href="/mosquito-control">professional yard barrier spray</Link> treats the whole property.
               </>
             }
           />
@@ -188,19 +173,19 @@ export default function MosquitoRepellentForDogsCanadaPage() {
                     <td className="px-4 py-3 font-bold text-brand-800">Wondercide <span className="font-normal text-xs text-emerald-700">(permethrin-free)</span></td>
                     <td className="px-4 py-3 text-gray-700">Cedarwood / lemongrass spray · natural topical</td>
                     <td className="px-4 py-3 font-mono text-gray-800">$25 – $40</td>
-                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wondercide flea tick mosquito spray" block>Check price on Amazon.ca →</BuyLink></td>
+                    <td className="px-4 py-3 text-xs text-gray-600">Not registered in Canada, so no link</td>
                   </tr>
                   <tr className="border-b border-navy-50">
                     <td className="px-4 py-3 font-bold text-brand-800">Vet&rsquo;s Best <span className="font-normal text-xs text-emerald-700">(permethrin-free)</span></td>
                     <td className="px-4 py-3 text-gray-700">Peppermint / clove spray · natural topical</td>
                     <td className="px-4 py-3 font-mono text-gray-800">$15 – $25</td>
-                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="vets best flea tick dog spray" block>Check price on Amazon.ca →</BuyLink></td>
+                    <td className="px-4 py-3 text-xs text-gray-600">Not registered in Canada, so no link</td>
                   </tr>
                   <tr className="border-b border-navy-50">
                     <td className="px-4 py-3 font-bold text-brand-800">Cedarcide <span className="font-normal text-xs text-emerald-700">(permethrin-free)</span></td>
                     <td className="px-4 py-3 text-gray-700">Cedar oil spray · natural topical + yard use</td>
                     <td className="px-4 py-3 font-mono text-gray-800">$30 – $50</td>
-                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cedarcide dog spray" block>Check price on Amazon.ca →</BuyLink></td>
+                    <td className="px-4 py-3 text-xs text-gray-600">Not registered in Canada, so no link</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-3 font-bold text-brand-800">Heartgard / NexGard <span className="font-normal text-xs text-gray-500">(Rx)</span></td>
@@ -258,7 +243,6 @@ export default function MosquitoRepellentForDogsCanadaPage() {
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices on the dog-labelled options mentioned below:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="k9 advantix ii dogs">K9 Advantix II price →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="wondercide flea tick mosquito dog">Wondercide spray →</BuyLink>
           </div>
 
           <p><em>This guide is general information, not veterinary advice. Every dog is different — talk to your veterinarian before starting any new repellent or preventive, especially for puppies, seniors, pregnant or nursing dogs, or dogs with health conditions.</em></p>
@@ -304,13 +288,13 @@ export default function MosquitoRepellentForDogsCanadaPage() {
             </thead>
             <tbody>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>K9 Advantix II</strong> / Vectra 3D</td><td className="px-3 py-2">Strong, long-lasting mosquito + tick repellency</td><td className="px-3 py-2">Dogs only · never around cats</td><td className="px-3 py-2"><BuyLink tag={AMZ_TAG} search="k9 advantix ii dogs" block>Check price on Amazon.ca →</BuyLink></td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Wondercide</strong> (cedar/lemongrass)</td><td className="px-3 py-2">Cat-home households · sensitive dogs</td><td className="px-3 py-2">Reapply ~every 2 hours</td><td className="px-3 py-2"><BuyLink tag={AMZ_TAG} search="wondercide flea tick mosquito spray" block>Check price on Amazon.ca →</BuyLink></td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Vet&rsquo;s Best</strong> / Cedarcide</td><td className="px-3 py-2">Budget natural top-up before walks</td><td className="px-3 py-2">Shorter-lived · avoid eyes</td><td className="px-3 py-2"><BuyLink tag={AMZ_TAG} search="vets best flea tick dog spray" block>Check price on Amazon.ca →</BuyLink></td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Wondercide</strong> (cedar/lemongrass)</td><td className="px-3 py-2">Cat-home households · sensitive dogs</td><td className="px-3 py-2">Reapply ~every 2 hours</td><td className="px-3 py-2">Not registered in Canada, so no link</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Vet&rsquo;s Best</strong> / Cedarcide</td><td className="px-3 py-2">Budget natural top-up before walks</td><td className="px-3 py-2">Shorter-lived · avoid eyes</td><td className="px-3 py-2 text-xs text-gray-600">Not registered in Canada, so no link</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Heartgard / NexGard</strong> (Rx)</td><td className="px-3 py-2">Heartworm prevention — every dog, all season</td><td className="px-3 py-2">Not a repellent · vet prescription</td><td className="px-3 py-2">Veterinarian only</td></tr>
             </tbody>
           </table>
           </div>
-          <p className="not-prose text-sm text-gray-600 mb-6">Whichever spray you pick, apply to the coat (avoiding eyes, nose, and mouth), reapply before dawn/dusk outings, and store out of a curious dog&rsquo;s reach. <BuyLink tag={AMZ_TAG} search="wondercide flea tick mosquito dog">Compare natural spray prices →</BuyLink></p>
+          <p className="not-prose text-sm text-gray-600 mb-6">Whichever spray you pick, apply to the coat (avoiding eyes, nose, and mouth), reapply before dawn/dusk outings, and store out of a curious dog&rsquo;s reach.</p>
 
           <h2>When to Use Which</h2>
           <ul>

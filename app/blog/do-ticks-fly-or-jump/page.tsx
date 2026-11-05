@@ -17,6 +17,7 @@ const DATE = '2026-07-09'
 const UPDATED = '2026-10-08'
 const TITLE = 'Do Ticks Fly or Jump? How They Actually Get on You (Ontario)'
 const META_TITLE = 'Do Ticks Fly or Jump? No — They Climb 30–50 cm'
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): the amazon.ca button for Insect Shield permethrin-treated clothing (search "insect shield permethrin treated clothing") after "Factory pre-treated permethrin clothing" is removed, because Insect Shield has no Canadian registration (Health Canada pesticide registry, checked Nov 5, 2026). The sentence above it says to treat footwear and pant legs with permethrin, so the one sentence in its place says consumer permethrin sprays for clothing are not approved in Canada (linked to the Public Health Agency of Canada page) and names the registered home-use line, No Fly Zone (Reg. No. 32757), and the PCP number on the label.
 
 const FAQS = [
   {
@@ -198,7 +199,7 @@ export default function DoTicksFlyOrJumpPage() {
 
           <h2>How High Do Ticks Climb?</h2>
           <p>In Ontario, ticks quest low. Nymphs (the poppy-seed-sized immature stage responsible for most Lyme transmission) usually wait within a few centimetres to about ankle height. Adult blacklegged ticks climb a bit higher, to roughly knee height, on taller grass and brush. None of them climb to head height to attack. This is why the classic prevention — <strong>tuck your pants into your socks, wear light colours, and treat footwear and pant legs with permethrin</strong> — works so well: it blocks ticks at the exact height they board.</p>
-          <p>Factory pre-treated permethrin clothing (the format sold to Canadian consumers, intended for ages 16 and over) covers exactly that ankle-to-knee boarding band, socks and trouser legs included. <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Check price on Amazon.ca →</BuyLink></p>
+          <p>Factory pre-treated permethrin clothing (the format sold to Canadian consumers, intended for ages 16 and over) covers exactly that ankle-to-knee boarding band, socks and trouser legs included. Consumer permethrin sprays for clothing are not approved in Canada (<a href="https://www.canada.ca/en/public-health/services/publications/diseases-conditions/permethrin-treated-clothing.html" target="_blank" rel="noopener noreferrer">Public Health Agency of Canada</a>), and Insect Shield clothing has no Canadian registration: the registered home-use line here is No Fly Zone (Reg. No. 32757), so look for the PCP number on the label.</p>
 
           <RelatedLinks path="/blog/do-ticks-fly-or-jump" />
           <h2>What This Means for Protecting Your Yard</h2>

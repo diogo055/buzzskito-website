@@ -41,6 +41,7 @@ const FAQS = [
 ]
 
 const META_TITLE = 'Oakville + Burlington Tick Hot Spots 2026'
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): the amazon.ca button for Insect Shield permethrin-treated clothing (search "insect shield permethrin treated clothing") after "the Canadian route is clothing treated at the factory" is removed, because Insect Shield has no Canadian registration (Health Canada pesticide registry, checked Nov 5, 2026); one sentence in its place says so and names the registered home-use line, No Fly Zone (Reg. No. 32757), and the PCP number on the label.
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
@@ -177,7 +178,7 @@ export default function TickHotSpotsOakvilleBurlingtonPage() {
 
         <h2>What to do with this ranking</h2>
         <p>If you live in a Tier 1 or Tier 2 neighbourhood, the season plan — five treatments spread roughly monthly from May through September — is the right level of protection, because renewing the residual every month is what keeps the peak nymph window covered instead of leaving it open. If you live in Tier 3, a single early-season treatment in mid-to-late May covers most of the risk. If you live in Tier 4, monitor through the season and treat if you start seeing ticks — but do not assume immunity. All four tiers benefit from habitat modification (3-foot buffer along any wooded edge, weekly leaf-litter clearing, tight mowing), daily tick checks after outdoor exposure, and permethrin-treated clothing for trail use.</p>
-        <p>On that last point, the Canadian route is clothing treated at the factory rather than a spray you apply yourself &mdash; treated socks, gaiters, and trouser legs cover the ankle-to-knee band a questing tick reaches first on the Bronte Creek and escarpment trails. <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Check price on Amazon.ca →</BuyLink></p>
+        <p>On that last point, the Canadian route is clothing treated at the factory rather than a spray you apply yourself &mdash; treated socks, gaiters, and trouser legs cover the ankle-to-knee band a questing tick reaches first on the Bronte Creek and escarpment trails. Insect Shield clothing has no Canadian registration, though: the registered home-use line here is No Fly Zone (Reg. No. 32757), so look for the PCP number on the label.</p>
         <p>Where you live sets the tier; the calendar sets the timing. Oakville readers can line the tiers up against the local activity curve in <Link href="/blog/tick-season-oakville-when-are-ticks-active" className="text-brand-700 underline">when ticks are active in Oakville</Link>, and Burlington readers get the escarpment-and-lakefront version in <Link href="/blog/tick-season-burlington-when-are-ticks-active" className="text-brand-700 underline">tick season in Burlington</Link> — both cover the May-to-July nymph peak and the autumn return of adults.</p>
 
         <p>For the address-specific score, our free <Link href="/yard-risk-report" className="text-brand-700 underline">Yard Risk Report</Link> calculates a 1-100 risk number using neighbourhood pressure, water and forest proximity, lot characteristics, and family-situation factors. Properties scoring 70+ are in the band where professional treatment is strongly recommended.</p>

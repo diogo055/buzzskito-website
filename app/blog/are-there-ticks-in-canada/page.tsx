@@ -14,6 +14,7 @@ const SLUG = 'are-there-ticks-in-canada'
 const DATE = '2026-07-15'
 const TITLE = 'Are There Ticks in Canada? Where Ticks Are Found, Province by Province (2026)'
 const META_TITLE = 'Are There Ticks in Canada? 2026 Province Guide'
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): the amazon.ca button for Insect Shield permethrin-treated clothing (search "insect shield permethrin treated clothing") is removed, because Insect Shield has no Canadian registration (Health Canada pesticide registry, checked Nov 5, 2026); one sentence after "not registered here" now says so and names the registered home-use line, No Fly Zone (Reg. No. 32757), and the PCP number on the label.
 const AMZ_TAG = tagForSlug(SLUG)
 
 const FAQS = [
@@ -251,7 +252,7 @@ export default function AreThereTicksInCanadaPage() {
             </p>
           </div>
 
-          <p>For anyone who spends real time in tick habitat &mdash; trail runners, dog walkers, cottagers, anyone whose yard backs onto woods &mdash; factory permethrin-treated clothing is the format sold to Canadian consumers, since spray-on clothing treatments are not registered here. <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Check price on Amazon.ca &rarr;</BuyLink> <BuyLink tag={AMZ_TAG} search="tick repellent">See tick repellents on Amazon.ca &rarr;</BuyLink></p>
+          <p>For anyone who spends real time in tick habitat &mdash; trail runners, dog walkers, cottagers, anyone whose yard backs onto woods &mdash; factory permethrin-treated clothing is the format sold to Canadian consumers, since spray-on clothing treatments are not registered here. Insect Shield clothing has no Canadian registration, though: the registered home-use line here is No Fly Zone (Reg. No. 32757), so look for the PCP number on the label. <BuyLink tag={AMZ_TAG} search="tick repellent">See tick repellents on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>Related reading</h2>
           <ul>

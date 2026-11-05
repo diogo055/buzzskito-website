@@ -17,6 +17,8 @@ const DATE = '2026-07-14'
 const UPDATED = '2026-07-14'
 const TITLE = 'Bug Jackets, Head Nets & Protective Clothing in Canada 2026 — Black Fly Season Survival Kit'
 const META_TITLE = 'Bug Jackets & Head Nets Canada 2026: Black Fly'
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): InsectGuard has no Canadian registration (Health Canada pesticide registry, checked Nov 5, 2026: no product or registrant named InsectGuard), so its 2 amazon.ca elements (search "insectguard permethrin sleeves") are gone: the "Best for Tick Country" award card and the button under "5. InsectGuard Permethrin-Treated Sleeves & Gaiters". The which-to-buy line said "the tick-country gaiters" (the removed card) and now says "permethrin-treated gaiters"; one sentence at the end of the gaiters paragraph says InsectGuard has no Canadian registration and names the registered home-use line, No Fly Zone (Reg. No. 32757), and the PCP number on the label. The comparison-table row (no link) and the text that calls InsectGuard PMRA-legal were left for the owner.
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"), fifth pass: the text the fourth pass left is now corrected. InsectGuard has no Canadian registration (Health Canada pesticide registry, re-checked Nov 5, 2026: no product named InsectGuard), and the registered home-use permethrin-treated clothing line is No Fly Zone (Reg. No. 32757), so no sentence calls InsectGuard legal, PMRA-compliant or registered any more. Changed: the meta description (false claim and InsectGuard removed, cut to under 160 characters), the FAQs "Is permethrin-treated clothing legal in Canada?" and "Can I buy Sawyer permethrin spray in Canada?", the tick FAQ ("InsectGuard-style"), the comparison-table row's "Best for" cell, heading 5 and its two paragraphs, the legality section's heading and its "What IS legal" paragraph, survival-kit item 4, the which-to-buy gaiters clause and the bottom line. Where InsectGuard was the recommendation, the text now recommends factory-treated clothing with a PCP number on the label and names No Fly Zone, with no other claim about it. No amazon.ca InsectGuard element was left to remove; no button, date or title changed.
 
 const FAQS = [
   {
@@ -29,11 +31,11 @@ const FAQS = [
   },
   {
     question: 'Is permethrin-treated clothing legal in Canada?',
-    answer: 'Yes — factory-treated permethrin clothing is legal and regulated. Permethrin-treated clothing was first registered for sale in Canada under the Pest Control Products Act in 2018; pre-treated garments and accessories (like InsectGuard sleeves and gaiters, or treated apparel lines at Mark\'s) are the legal way to get permethrin protection here. What is NOT approved: DIY permethrin clothing sprays sold to consumers in the US (Sawyer and similar). Those aren\'t PMRA-registered and can\'t legally be sold in Canada. If you want permethrin, buy it already in the fabric.',
+    answer: 'Yes, when it is registered — factory-treated permethrin clothing with a PCP number on the label is legal and regulated. Permethrin-treated clothing was first registered for sale in Canada under the Pest Control Products Act in 2018; pre-treated garments with a PCP number (like the No Fly Zone line, Reg. No. 32757, or treated apparel lines at Mark\'s) are the legal way to get permethrin protection here. InsectGuard sleeves and gaiters have no Canadian registration. What is NOT approved: DIY permethrin clothing sprays sold to consumers in the US (Sawyer and similar). Those aren\'t PMRA-registered and can\'t legally be sold in Canada. If you want permethrin, buy it already in the fabric.',
   },
   {
     question: 'Can I buy Sawyer permethrin spray in Canada?',
-    answer: 'No. Sawyer\'s consumer permethrin clothing spray — a staple in US outdoor stores — is not registered with Health Canada\'s PMRA, so Canadian retailers can\'t sell it and importing it for personal use isn\'t permitted under the Pest Control Products Act. The Canadian-legal equivalents are factory-treated garments: permethrin-treated shirts, pants, socks, and accessories such as InsectGuard\'s treated sleeves and gaiters, which arrive with the insecticide already bonded to the fibres at a regulated concentration — the same tick- and mosquito-repelling effect without handling concentrate.',
+    answer: 'No. Sawyer\'s consumer permethrin clothing spray — a staple in US outdoor stores — is not registered with Health Canada\'s PMRA, so Canadian retailers can\'t sell it and importing it for personal use isn\'t permitted under the Pest Control Products Act. The Canadian-legal equivalents are factory-treated garments with a PCP number on the label (the registered home-use line is No Fly Zone, Reg. No. 32757), which arrive with the insecticide already bonded to the fibres at a regulated concentration — the same tick- and mosquito-repelling effect without handling concentrate. InsectGuard\'s treated sleeves and gaiters have no Canadian registration.',
   },
   {
     question: 'How long does permethrin-treated clothing last?',
@@ -49,7 +51,7 @@ const FAQS = [
   },
   {
     question: 'Do bug jackets and head nets protect against ticks?',
-    answer: 'Only partially. Bug jackets and head nets defend against flying insects; ticks don\'t fly — they quest from grass and climb upward from your boots and pant legs, so mesh over your torso does nothing about a tick that got on at ankle height. Tick-specific clothing tactics are different: permethrin-treated socks and gaiters (InsectGuard-style), pants tucked into socks, light-coloured clothing so you can spot ticks crawling, and a full-body tick check afterward. For properties in tick-heavy parts of the GTA and Ontario, yard-level treatment of the vegetation is the layer clothing can\'t replace.',
+    answer: 'Only partially. Bug jackets and head nets defend against flying insects; ticks don\'t fly — they quest from grass and climb upward from your boots and pant legs, so mesh over your torso does nothing about a tick that got on at ankle height. Tick-specific clothing tactics are different: factory permethrin-treated clothing with a PCP number on the label (InsectGuard has no Canadian registration; the registered home-use line is No Fly Zone, Reg. No. 32757), pants tucked into socks, light-coloured clothing so you can spot ticks crawling, and a full-body tick check afterward. For properties in tick-heavy parts of the GTA and Ontario, yard-level treatment of the vegetation is the layer clothing can\'t replace.',
   },
   {
     question: 'Where can I buy bug jackets and head nets in Canada besides Amazon?',
@@ -59,7 +61,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'The best bug jackets, mosquito head nets and PMRA-legal permethrin-treated clothing in Canada for 2026 — Coghlan\'s, Sea to Summit and InsectGuard compared, plus a black-fly season survival kit for cottage country.',
+  description: 'Best bug jackets, mosquito head nets and permethrin-treated clothing in Canada for 2026 — Coghlan\'s and Sea to Summit compared, plus a black-fly survival kit.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -141,14 +143,6 @@ export default function BugProtectiveClothingCanadaPage() {
                 cons: ['Less airflow than standard mesh', 'Slightly dimmer view'],
               },
               {
-                badge: 'Best for Tick Country',
-                name: 'InsectGuard Permethrin Sleeves & Gaiters',
-                why: 'Factory-treated permethrin bands worn over ankles and forearms — the PMRA-legal way to get permethrin in Canada, armouring the primary tick entry point without a full treated outfit.',
-                search: 'insectguard permethrin sleeves',
-                pros: ['Covers the boot-to-cuff tick zone', 'Legal, factory-bonded permethrin', 'Breathable in July heat'],
-                cons: ['Check label age directions for kids', 'Bands, not full-body coverage'],
-              },
-              {
                 badge: 'Best Lower-Body',
                 name: 'Coghlan’s Bug Pants',
                 why: 'The overlooked half of the kit. Pull-on mesh pants with an elastic waist and ankle cuffs that close the crawl-space black flies exploit around ankles and the backs of knees.',
@@ -159,7 +153,7 @@ export default function BugProtectiveClothingCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>One purchase for the whole season?</strong> The <em>Best Overall</em> head net earns its keep everywhere. <strong>Working outdoors through a cottage-country June?</strong> Add the <em>Best Full-Body</em> jacket (and pants) for head-to-ankle mesh. <strong>Shoreline or marsh summers?</strong> Upgrade to the <em>Best for No-See-Ums</em> ultra-mesh, and slip on the tick-country gaiters for any walk past tall grass. Clothing protects the person on the trail — for the property itself, <Link href="/mosquito-control">professional barrier spray</Link> treats the whole yard for mosquitoes and ticks at once.
+                <strong>One purchase for the whole season?</strong> The <em>Best Overall</em> head net earns its keep everywhere. <strong>Working outdoors through a cottage-country June?</strong> Add the <em>Best Full-Body</em> jacket (and pants) for head-to-ankle mesh. <strong>Shoreline or marsh summers?</strong> Upgrade to the <em>Best for No-See-Ums</em> ultra-mesh, and add permethrin-treated clothing with a PCP number on the label for any walk past tall grass. Clothing protects the person on the trail — for the property itself, <Link href="/mosquito-control">professional barrier spray</Link> treats the whole yard for mosquitoes and ticks at once.
               </>
             }
           />
@@ -185,7 +179,7 @@ export default function BugProtectiveClothingCanadaPage() {
                   { product: 'Coghlan’s Bug Pants', coverage: 'Waist to ankle, elastic cuffs', mesh: 'Standard fine mesh · untreated', best: 'Completing the full-body kit for peak season' },
                   { product: 'Sea to Summit Mosquito Head Net', coverage: 'Head and neck (over a brimmed hat)', mesh: 'Black standard mesh · untreated', best: 'Best all-round head net — pocketable, high visibility' },
                   { product: 'Sea to Summit Ultra-Mesh Head Net', coverage: 'Head and neck (over a brimmed hat)', mesh: 'Ultra-fine no-see-um mesh', best: 'Biting midges — marshes, beaches, northern lakes' },
-                  { product: 'InsectGuard Permethrin Sleeves & Gaiters', coverage: 'Forearms, ankles/lower legs', mesh: 'Fabric factory-treated with permethrin', best: 'Tick country — PMRA-legal permethrin without sprays' },
+                  { product: 'InsectGuard Permethrin Sleeves & Gaiters', coverage: 'Forearms, ankles/lower legs', mesh: 'Fabric factory-treated with permethrin', best: 'Not registered in Canada: for tick country, look for a PCP number (No Fly Zone, Reg. No. 32757)' },
                 ].map(({ product, coverage, mesh, best }) => (
                   <tr key={product} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-3 font-bold text-brand-800">{product}</td>
@@ -198,7 +192,7 @@ export default function BugProtectiveClothingCanadaPage() {
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-3">
-            All five confirmed available on amazon.ca as of July 2026. A complete head-to-ankle mesh kit typically costs less than a tank of gas.
+            The mesh items were confirmed available on amazon.ca in July 2026; permethrin-treated clothing needs a PCP number on the label (InsectGuard has none). A complete head-to-ankle mesh kit typically costs less than a tank of gas.
           </p>
         </div>
       </section>
@@ -240,15 +234,14 @@ export default function BugProtectiveClothingCanadaPage() {
           <p>The Ultra-Mesh version closes that gap with a much finer weave — no-see-um-class mesh runs around 0.6 mm openings, 500+ holes per square inch — while staying light enough to forget in a pocket. The trade-offs are a slightly dimmer view and less airflow. Buy this version if your summers involve shorelines, marsh edges, or paddling trips; buy the standard version if your bugs are backyard mosquitoes and cottage black flies.</p>
           <div className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="sea to summit ultra mesh head net">Check price on Amazon.ca &rarr;</BuyLink></div>
 
-          <h3>5. InsectGuard Permethrin-Treated Sleeves &amp; Gaiters — The Legal Permethrin Play</h3>
-          <p>InsectGuard&rsquo;s sleeves and gaiters take a different approach from everything above: instead of mesh you look through, they&rsquo;re stretchy fabric bands — worn on forearms or over ankles and lower legs — that come factory-treated with permethrin, the contact insecticide that repels and knocks down ticks and mosquitoes on treated fabric. Because the treatment is bonded into the fibres at the factory, these are the PMRA-compliant way to get permethrin protection in Canada (more on that legal distinction below).</p>
-          <p>The gaiters are the standout for tick country. Ticks quest from grass and climb upward from your boots — exactly the zone an ankle gaiter covers. Slip a pair over your socks and pant cuffs before walking trail edges, tall grass, or unmowed cottage lots, and you&rsquo;ve armoured the primary tick entry point without treating an entire outfit. They also solve the summer problem with full treated outfits: in 30&deg;C July heat, a breathable band beats a long-sleeve treated shirt you won&rsquo;t actually wear.</p>
-          <div className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="insectguard permethrin sleeves">Check price on Amazon.ca &rarr;</BuyLink></div>
+          <h3>5. Registered Permethrin-Treated Clothing — The Legal Permethrin Play</h3>
+          <p>Permethrin-treated clothing takes a different approach from everything above: instead of mesh you look through, it&rsquo;s fabric that comes factory-treated with permethrin, the contact insecticide that repels and knocks down ticks and mosquitoes on treated fabric. Factory treatment alone doesn&rsquo;t make a garment legal here, though: the PMRA-compliant way to get permethrin protection in Canada is clothing registered under the Pest Control Products Act, with a PCP number on the label, and the registered home-use line is No Fly Zone, Reg. No. 32757 (more on that legal distinction below).</p>
+          <p>Treated clothing is the standout for tick country. Ticks quest from grass and climb upward from your boots, so the ankles and lower legs are the primary tick entry point to cover before walking trail edges, tall grass, or unmowed cottage lots. InsectGuard&rsquo;s treated gaiters cover exactly that zone, but InsectGuard has no Canadian registration, so look for the PCP number on the label instead.</p>
 
-          <h2>Permethrin in Canada: Treated Garments Are Legal, DIY Sprays Are Not</h2>
+          <h2>Permethrin in Canada: Registered Treated Garments Are Legal, DIY Sprays Are Not</h2>
           <p>This is the part of bug clothing where Canada and the United States genuinely differ, and where a lot of Canadian buyers get tripped up by American advice.</p>
           <p>In the US, hikers buy consumer permethrin sprays (Sawyer is the famous one) and treat their own clothing at home. <strong>Those sprays are not registered in Canada under the Pest Control Products Act, which Health Canada&rsquo;s Pest Management Regulatory Agency (PMRA) administers, which means they can&rsquo;t legally be sold in Canada — and importing pesticides that aren&rsquo;t registered here isn&rsquo;t permitted under the Pest Control Products Act either.</strong> If a US blog tells you to &ldquo;just spray your clothes with permethrin,&rdquo; that advice doesn&rsquo;t transfer across the border.</p>
-          <p>What IS legal in Canada: <strong>factory-treated permethrin clothing and accessories.</strong> Permethrin-treated apparel was first registered for the Canadian market in 2018, and the category has grown since — treated shirts, pants, and socks at retailers like Mark&rsquo;s, and treated accessories like the InsectGuard sleeves and gaiters above on amazon.ca. The factory treatment is applied at a regulated concentration, bonded to the fibres, and rated to survive roughly 70 wash cycles — protection without ever handling concentrate.</p>
+          <p>What IS legal in Canada: <strong>factory-treated permethrin clothing with a PCP number on the label.</strong> Permethrin-treated apparel was first registered for the Canadian market in 2018, and the category has grown since — treated shirts, pants, and socks at retailers like Mark&rsquo;s. The factory treatment is applied at a regulated concentration, bonded to the fibres, and rated to survive roughly 70 wash cycles — protection without ever handling concentrate. The registered home-use line is No Fly Zone (Reg. No. 32757); the InsectGuard sleeves and gaiters above have no Canadian registration.</p>
           <p>Two practical notes. First, read the label before buying treated garments for children — the earliest Canadian registrations were adult-only, and age directions vary by product line. Second, permethrin is for fabric, never skin — on skin you use a repellent with a Canadian PCP registration number (DEET or icaridin), following its label. The full picture of how permethrin works on ticks, and how yard-scale professional applications differ from clothing treatments, is in our <Link href="/blog/permethrin-canada-yard-clothing-spray">permethrin in Canada guide</Link>.</p>
 
           <h2>Mesh Size Explained: Standard vs No-See-Um</h2>
@@ -266,7 +259,7 @@ export default function BugProtectiveClothingCanadaPage() {
             <li><strong>Coghlan&rsquo;s bug jacket</strong> — worn over a ball cap for face clearance, zipped fully when the swarms peak in late afternoon</li>
             <li><strong>Coghlan&rsquo;s bug pants</strong> — for dock evenings and garden work, when ankles take the worst of it</li>
             <li><strong>Sea to Summit head net</strong> — one per person, for the times a full jacket is too warm but your face still needs a wall</li>
-            <li><strong>InsectGuard gaiters</strong> — over socks for any walk past mowed grass; black-fly season is also peak spring tick season in Ontario</li>
+            <li><strong>Permethrin-treated clothing with a Canadian PCP number</strong> (No Fly Zone, Reg. No. 32757) — for any walk past mowed grass; black-fly season is also peak spring tick season in Ontario</li>
             <li><strong>Repellent with a Canadian PCP number</strong> — DEET or icaridin for the hands and any exposed skin the mesh doesn&rsquo;t cover</li>
           </ol>
           <p>Total kit weight is under a kilogram (about 2 lb), and everything works identically on day one and day sixty — no batteries, no fuel, no reapplication schedule.</p>
@@ -279,7 +272,7 @@ export default function BugProtectiveClothingCanadaPage() {
           <p>Mesh is the perfect kids&rsquo; solution precisely because it&rsquo;s dumb technology: no chemical exposure, no age restrictions, no misuse possible beyond wearing it backwards. Small adult bug jackets fit most kids from around age 8, dedicated youth sizes exist on amazon.ca, and a kid-size head net turns the 7 p.m. mosquito hour at the campground from a meltdown into a costume. The one caution repeats from above: treated clothing is the exception to &ldquo;no age limit.&rdquo; Check the product&rsquo;s label for age directions before putting permethrin-treated garments on children, and default to untreated mesh whenever in doubt.</p>
 
           <h2>The Bottom Line</h2>
-          <p>Bug protective clothing is the most reliable dollar you can spend on bite prevention in Canada. A Coghlan&rsquo;s bug jacket plus a Sea to Summit head net handles mosquito and black-fly season anywhere in Ontario; upgrade the head net to Ultra-Mesh if no-see-ums haunt your shoreline; add InsectGuard gaiters for tick country — the legal, factory-treated way to use permethrin in Canada, since DIY sprays aren&rsquo;t PMRA-registered. Everything packs into a lunch bag, nothing needs batteries, and all of it still works in five years. Clothing protects the person; for protecting the property itself, that&rsquo;s where yard-level treatment takes over.</p>
+          <p>Bug protective clothing is the most reliable dollar you can spend on bite prevention in Canada. A Coghlan&rsquo;s bug jacket plus a Sea to Summit head net handles mosquito and black-fly season anywhere in Ontario; upgrade the head net to Ultra-Mesh if no-see-ums haunt your shoreline; add permethrin-treated clothing with a PCP number on the label for tick country (the registered home-use line is No Fly Zone, Reg. No. 32757) — the legal, factory-treated way to use permethrin in Canada, since DIY sprays aren&rsquo;t PMRA-registered. Everything packs into a lunch bag, nothing needs batteries, and all of it still works in five years. Clothing protects the person; for protecting the property itself, that&rsquo;s where yard-level treatment takes over.</p>
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4 my-6">

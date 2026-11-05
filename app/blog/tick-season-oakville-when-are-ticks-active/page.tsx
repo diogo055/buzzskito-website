@@ -6,8 +6,6 @@ import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
-import TopPick from '@/components/TopPick'
-import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
@@ -20,6 +18,7 @@ const POST = {
 }
 
 const UPDATED = POST.date
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): InsectGuard has no Canadian registration (Health Canada pesticide registry, checked Nov 5, 2026: no product or registrant named InsectGuard), so its 3 amazon.ca elements (search "insectguard permethrin gaiters") are gone: the "Best Personal Protection" top pick, the button under it and the sticky buy bar. No product this page links is named with a PCP/Reg. number, so nothing was switched. One sentence at the end of plan item 5 says InsectGuard gaiters have no Canadian registration and names the registered home-use line, No Fly Zone (Reg. No. 32757), and the PCP number on the label. This is a lead post: it keeps its quote CTA and gets no ReadNext (check:article-ctas fails a lead post that shows "Keep reading"). TopPick and StickyBuyBar imports removed (unused).
 
 const FAQS = [
   {
@@ -177,20 +176,9 @@ export default function TickSeasonOakvillePage() {
           <li><strong>Why the cadence is monthly.</strong> A late-May visit paired with a September one leaves a multi-month hole straight through the nymph peak &mdash; the window when poppy-seed-sized nymphs drive most Lyme transmission. Deer and white-footed mice keep walking fresh ticks in from Bronte Creek, 16 Mile Creek, and the North Oakville woodlots all season, so the barrier has to be renewed rather than applied once or twice.</li>
           <li><strong>Habitat modification along the ravine edge.</strong> 3-foot wood-chip or gravel buffer, weekly leaf-litter clearing through May-July, mow tight to the buffer line.</li>
           <li><strong>Daily tick checks for the household and pets.</strong> Especially after Bronte Creek Provincial Park, 16 Mile Creek trail walks, off-leash dog parks, and gardening sessions.</li>
-          <li><strong>Permethrin-treated clothing for trail hikers.</strong> Buy garments that come factory-treated, such as gaiters, socks, and hiking pants &mdash; in Canada, consumer permethrin sprays for treating your own clothing are not registered.</li>
+          <li><strong>Permethrin-treated clothing for trail hikers.</strong> Buy garments that come factory-treated, such as gaiters, socks, and hiking pants &mdash; in Canada, consumer permethrin sprays for treating your own clothing are not registered. InsectGuard gaiters have no Canadian registration, though: the registered home-use line here is No Fly Zone (Reg. No. 32757), so look for the PCP number on the label.</li>
           <li><strong>Year-round tick prevention for dogs.</strong> Talk to your Oakville veterinarian. Most positive canine cases never showed an obvious tick attachment because nymphs are too small to spot in fur.</li>
         </ol>
-        <TopPick tag={AMZ_TAG}
-          label="Best Personal Protection"
-          name="Permethrin-Treated Clothing & Gaiters"
-          blurb="For anyone hiking Bronte Creek Provincial Park or the 16 Mile Creek trails, 0.5% permethrin on pants, socks, and gaiters is the single most effective personal layer — it repels and kills ticks on contact before they reach skin, and one treatment lasts about 6 weeks or 6 washes."
-          search="insectguard permethrin gaiters"
-          pros={['Kills ticks on contact, not just repels', 'One treatment lasts ~6 weeks / 6 washes', 'Ideal for trail hikers and gardeners']}
-          cons={['Wear layer only — still check skin daily', 'Reapply after washes']}
-        />
-        <div className="not-prose my-4">
-          <BuyLink tag={AMZ_TAG} search="insectguard permethrin gaiters">Check InsectGuard permethrin-treated gaiters on Amazon.ca →</BuyLink>
-        </div>
 
         <h2>Same-week Oakville service</h2>
         <p>BuzzSkito treats every Oakville neighbourhood with same-week service availability throughout the May–September season. Pricing scales by lot size. {PROMISES.response} Dedicated treatment pages for <Link href="/oakville-mosquito-control" className="text-brand-700 underline">Oakville mosquito control</Link>, <Link href="/west-oak-trails-mosquito-control" className="text-brand-700 underline">West Oak Trails</Link>, <Link href="/joshua-creek-mosquito-control" className="text-brand-700 underline">Joshua Creek</Link>, <Link href="/bronte-mosquito-control" className="text-brand-700 underline">Bronte</Link>, and <Link href="/old-oakville-mosquito-control" className="text-brand-700 underline">Old Oakville</Link>.</p>
@@ -216,8 +204,6 @@ export default function TickSeasonOakvillePage() {
         </div>
 
       </article>
-
-      <StickyBuyBar tag={AMZ_TAG} name="Permethrin-Treated Clothing & Gaiters" search="insectguard permethrin gaiters" label="Best personal protection" />
 
       <CTASection heading="Oakville tick pressure is climbing — get your yard protected" subtext={`Free custom quote based on your address and lot. ${PROMISES.response} Same-week service across Oakville including West Oak Trails, Glen Abbey, Joshua Creek, Bronte, and Old Oakville.`} />
     </>

@@ -11,6 +11,7 @@ import { NEW_BLOGS, TICK_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = NEW_BLOGS[4]
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): the amazon.ca button for Insect Shield permethrin-treated socks and gaiters (search "insect shield permethrin treated socks gaiters") in the "Between treatments" paragraph is removed, because Insect Shield has no Canadian registration (Health Canada pesticide registry, checked Nov 5, 2026); one sentence in its place says so and names the registered home-use line, No Fly Zone (Reg. No. 32757), and the PCP number on the label.
 
 export const metadata: Metadata = buildMetadata({
   title: 'Tick Prevention Caledon & Halton Hills',
@@ -128,7 +129,7 @@ export default function TickPreventionCaledonPage() {
           <li><strong>Fall peak (September–November):</strong> Adult ticks are active. They are larger and easier to spot, but no less capable of transmitting Lyme disease if attached for more than 24–36 hours.</li>
         </ul>
         <p>In Caledon and Halton Hills, both peaks are more intense than in the urban GTA because deer densities are higher and habitat is more contiguous. Rural properties with woodlots, large gardens, or backing onto farmland hedgerows should plan for treatment in both windows.</p>
-        <p>Between treatments, the personal layer that matters most on a woodlot property is what you wear below the knee — ticks climb up from leaf litter and tall grass, so factory permethrin-treated socks and gaiters cover the height where they board. In Canada that means buying garments that come pre-treated rather than a consumer spray. <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated socks gaiters">Check price on Amazon.ca →</BuyLink></p>
+        <p>Between treatments, the personal layer that matters most on a woodlot property is what you wear below the knee — ticks climb up from leaf litter and tall grass, so factory permethrin-treated socks and gaiters cover the height where they board. In Canada that means buying garments that come pre-treated rather than a consumer spray. Insect Shield clothing has no Canadian registration, though: the registered home-use line here is No Fly Zone (Reg. No. 32757), so look for the PCP number on the label.</p>
 
         <h2>Related Guides and Services</h2>
         <ul>

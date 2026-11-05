@@ -5,7 +5,6 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
-import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, faqSchema, blogPostingSchema, speakableSchema } from '@/lib/seo'
 import { BUSINESS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -14,6 +13,7 @@ import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
 
 const UPDATED = '2026-04-07'
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"), fifth pass: Wondercide has no Canadian registration (Health Canada pesticide registry, checked Nov 5, 2026: no product or registrant named Wondercide), so both of its amazon.ca elements (search "wondercide cedar oil yard spray ticks") are gone: the "Our Top Pick for the Yard" card under "The DIY Yard Layer" and the sticky buy bar. The bar was removed, not switched: the page names no Reg. No. for any product it links (the picaridin repellent and the tick-removal tool). StickyBuyBar import removed; the page already renders ReadNext (standalone) at the top level. The removed card was the only Amazon element above the in-content "Next" unit, so that unit moved down to the section break below the first Amazon button left (the picaridin button), in front of "Post-Outdoor Tick Checks for Children", where scripts/insert-recirculation.mjs's rule puts it (check:recirculation fails a Next unit above the first Amazon button). The Related line stays where it was. The paragraph that recommends a cedar-oil yard concentrate was left as written.
 
 export const metadata: Metadata = buildMetadata({
   title: 'Tick Prevention Yard Ontario | Kids & Families',
@@ -181,17 +181,8 @@ export default function TickPreventionYardKidsPage() {
 
           <h2>The DIY Yard Layer: Treating the Edge Yourself</h2>
           <p>Mowing, mulch strips, and leaf removal make the property edge less hospitable, but they do not kill the ticks already questing there. If you want to treat the edge yourself between professional visits — or you are not ready to book a technician at all — a cedar-oil yard concentrate that hooks onto a garden hose is the practical DIY option for the 1&ndash;3 metre border zone. It is the layer that actually reduces the number of ticks your children can walk into, which is why we put it ahead of anything you spray on skin.</p>
-          <TopPick tag={AMZ_TAG}
-            label="Our Top Pick for the Yard"
-            name="Wondercide Cedar-Oil Yard Spray (hose-end)"
-            blurb="A cedarwood-oil yard concentrate that attaches to a garden hose and covers roughly 465 m² — enough for the perimeter strip on a typical Ontario lot. Cedar oil kills and repels ticks on contact and is the DIY option parents pick most often; follow the label on when children and pets can return to the lawn. Treat the fence line, garden borders, and the base of hedges rather than the open lawn."
-            search="wondercide cedar oil yard spray ticks"
-            pros={['Treats the actual questing zone, not just your skin', 'Cedarwood-oil concentrate', 'Hose-end applicator — no mixing or sprayer needed']}
-            cons={['Shorter residual than professional barrier spray — reapply every 3–4 weeks', 'Cedar scent is noticeable for a day']}
-          />
           <p>For a wider comparison of DIY yard options — granules, concentrates, and tick tubes — see our guide to the <Link href="/blog/best-tick-repellent-yard-canada" className="text-brand-700 hover:underline">best tick repellent for your yard in Canada</Link>.</p>
 
-          <NextUp path="/blog/tick-prevention-yard-ontario-safe-for-kids" />
           <h2>Is Professional Barrier Spray Safe for Children and Pets?</h2>
           <p>This is the question BuzzSkito gets most often from parents, and it deserves a direct answer: <strong>keep children and pets off treated areas until the spray has dried, as the product label directs.</strong> Here is how the product is regulated, how it is applied, and what your family should do on treatment day.</p>
           <p>Here's the regulatory context. In Canada, pesticides are regulated under the <em>Pest Control Products Act</em>, and every product carries a label with a PCP registration number and directions for use, including when people and pets can return to a treated area. Commercial applicators in Ontario must also hold a provincial licence; BuzzSkito works under {PROMISES.licence}. The active ingredients in professional tick barrier spray are typically pyrethrins or synthetic pyrethroids like bifenthrin.</p>
@@ -232,6 +223,7 @@ export default function TickPreventionYardKidsPage() {
           />
           <p>For a full breakdown of repellent options for kids — including lotions versus sprays and the right concentration by age — see our guide to the <Link href="/blog/best-bug-spray-for-kids-canada" className="text-brand-700 hover:underline">best bug spray for kids in Canada</Link>.</p>
 
+          <NextUp path="/blog/tick-prevention-yard-ontario-safe-for-kids" />
           <h2>Post-Outdoor Tick Checks for Children</h2>
           <p>Even with a professionally treated yard, teaching children and adults to do tick checks after outdoor time is part of a complete prevention strategy:</p>
           <ul>
@@ -291,8 +283,6 @@ export default function TickPreventionYardKidsPage() {
           </p>
         </div>
       </section>
-
-      <StickyBuyBar tag={AMZ_TAG} name="Wondercide Cedar-Oil Yard Spray (hose-end)" search="wondercide cedar oil yard spray ticks" label="Top pick for the yard" />
 
       <ReadNext path="/blog/tick-prevention-yard-ontario-safe-for-kids" standalone />
     </>

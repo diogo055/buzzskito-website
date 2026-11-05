@@ -14,6 +14,7 @@ import NextUp from '@/components/NextUp'
 
 const POST = TICK_BLOGS.supporting[0]
 const UPDATED = '2026-04-20'
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): InsectGuard has no Canadian registration (Health Canada pesticide registry, checked Nov 5, 2026: no product or registrant named InsectGuard), so the amazon.ca button "Permethrin gaiters on Amazon.ca" (search "insectguard permethrin gaiters") in the "On your body" list is removed; one sentence in its place says InsectGuard gaiters have no Canadian registration and names the registered home-use line, No Fly Zone (Reg. No. 32757), and the PCP number on the label.
 
 export const metadata: Metadata = buildMetadata({
   title: 'Lyme Disease Ontario: Prevention Guide',
@@ -293,8 +294,7 @@ export default function LymeDiseasePage() {
           </li>
           <li>Wear light-coloured clothing — ticks are easier to spot on pale fabric</li>
           <li>Tuck pants into socks in long grass or wooded areas</li>
-          <li>Factory permethrin-treated clothing (consumer permethrin sprays for treating your own clothes are not registered for that use in Canada) is worth it for people who spend a lot of time outdoors — permethrin gaiters cover the ankle-to-knee zone where most ticks latch on.{' '}
-            <BuyLink tag={AMZ_TAG} search="insectguard permethrin gaiters">Permethrin gaiters on Amazon.ca →</BuyLink>
+          <li>Factory permethrin-treated clothing (consumer permethrin sprays for treating your own clothes are not registered for that use in Canada) is worth it for people who spend a lot of time outdoors — permethrin gaiters cover the ankle-to-knee zone where most ticks latch on. InsectGuard gaiters have no Canadian registration, though: the registered home-use line here is No Fly Zone (Reg. No. 32757), so look for the PCP number on the label.
           </li>
         </ul>
         <p>

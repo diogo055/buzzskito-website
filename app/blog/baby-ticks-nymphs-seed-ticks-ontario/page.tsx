@@ -21,6 +21,7 @@ const UPDATED = '2026-10-16'
 const TITLE = 'Baby Ticks: Nymphs & Seed Ticks in Ontario (Size + ID)'
 // TITLE NOTE (Oct 16, 2026): was 'Baby Ticks Ontario: Seed Tick vs Nymph, 0.5-2 mm'; top queries: baby tick 190, baby ticks 134, what do baby ticks look like 102, what does a baby tick look like 85, seed ticks 75 (1 click); Canadian edition of the seed-ticks pair.
 const META_TITLE = 'What Baby Ticks Look Like in Ontario (Photos)'
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): the amazon.ca button for Insect Shield permethrin-treated socks (search "insect shield permethrin treated socks") after "Of those six steps" is removed, because Insect Shield has no Canadian registration (Health Canada pesticide registry, checked Nov 5, 2026); one sentence in its place says so and names the registered home-use line, No Fly Zone (Reg. No. 32757), and the PCP number on the label.
 
 const FAQS = [
   {
@@ -246,7 +247,7 @@ export default function BabyTicksNymphsSeedTicksOntarioPage() {
           </ol>
           <p>For the full checklist, see <Link href="/blog/how-to-keep-ticks-out-of-yard-ontario">how to keep ticks out of your yard in Ontario</Link>. Ontario health authorities keep current tick-risk maps and prevention guidance too — the <a href="https://www.publichealthontario.ca/" target="_blank" rel="noopener" className="underline hover:text-brand-700">Public Health Ontario</a> and <a href="https://www.canada.ca/en/public-health/services/diseases/lyme-disease.html" target="_blank" rel="noopener" className="underline hover:text-brand-700">Government of Canada Lyme disease</a> pages are the best sources for local, up-to-date information.</p>
 
-          <p>Of those six steps, the treated-clothing one is the only purchase: nymphs board at ankle-to-knee height, so factory permethrin-treated socks and gaiters cover exactly the band where they climb aboard, and in Canada that means buying garments that arrive pre-treated. <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated socks">Check price on Amazon.ca →</BuyLink></p>
+          <p>Of those six steps, the treated-clothing one is the only purchase: nymphs board at ankle-to-knee height, so factory permethrin-treated socks and gaiters cover exactly the band where they climb aboard, and in Canada that means buying garments that arrive pre-treated. Insect Shield clothing has no Canadian registration, though: the registered home-use line here is No Fly Zone (Reg. No. 32757), so look for the PCP number on the label.</p>
 
           <h2>Related Reading</h2>
           <ul>

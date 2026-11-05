@@ -43,6 +43,7 @@ const POST = {
 }
 
 const UPDATED = '2026-07-30'
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): the amazon.ca button for Insect Shield permethrin-treated clothing (search "insect shield permethrin treated clothing") after "For the clothing layer" is removed, because Insect Shield has no Canadian registration (Health Canada pesticide registry, checked Nov 5, 2026); one sentence in its place says so and names the registered home-use line, No Fly Zone (Reg. No. 32757), and the PCP number on the label.
 
 const FAQS = [
   {
@@ -231,7 +232,7 @@ export default function LymeCasesOntario2026Page() {
           <li><Link href="/blog/ultimate-tick-control-guide-ontario" className="text-brand-700 underline">Tick Surge Ontario 2026: Complete Yard Control Guide</Link></li>
           <li><Link href="/lyme-disease-canada-statistics" className="text-brand-700 underline">Lyme Disease in Canada: the national statistics</Link></li>
         </ul>
-        <p>For the clothing layer, buy garments that arrive factory permethrin-treated — socks, gaiters, hiking pants — since consumer permethrin sprays for treating your own clothing are not registered in Canada. <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Check price on Amazon.ca →</BuyLink> <BuyLink tag={AMZ_TAG} search="tick removal tool">See tick-removal tools on Amazon.ca →</BuyLink></p>
+        <p>For the clothing layer, buy garments that arrive factory permethrin-treated — socks, gaiters, hiking pants — since consumer permethrin sprays for treating your own clothing are not registered in Canada. Insect Shield clothing has no Canadian registration, though: the registered home-use line here is No Fly Zone (Reg. No. 32757), so look for the PCP number on the label. <BuyLink tag={AMZ_TAG} search="tick removal tool">See tick-removal tools on Amazon.ca →</BuyLink></p>
 
         <h2>Frequently Asked Questions</h2>
         <div className="not-prose space-y-4">

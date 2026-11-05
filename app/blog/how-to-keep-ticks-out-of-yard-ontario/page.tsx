@@ -2,8 +2,6 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
-import TopPick from '@/components/TopPick'
-import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
@@ -15,6 +13,7 @@ const SLUG = 'how-to-keep-ticks-out-of-yard-ontario'
 const DATE = '2026-04-29'
 const UPDATED = '2026-11-05'
 const TITLE = 'How to Keep Ticks Out of Your Yard (Ontario)'
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): Insect Shield has no Canadian registration (Health Canada pesticide registry, checked Nov 5, 2026), so all 3 of its amazon.ca elements (search "insect shield permethrin treated clothing") in step 9 and at the foot are gone: the "Our Top Pick for Tick-Zone Clothing" card, the "Shop permethrin-treated clothing" button and the sticky buy bar. No product on this page is named with a PCP/Reg. number, so the bar was removed, not switched; ReadNext already renders standalone at the top level. One sentence after "every few washes" names the registered home-use line, No Fly Zone (Reg. No. 32757), and the PCP number on the label. TopPick and StickyBuyBar imports removed (unused).
 
 const FAQS = [
   { question: `Create a 3-Foot Wood-Chip or Gravel Barrier Between Lawn and Woods`, answer: `The single most effective tick-prevention measure is a physical barrier between maintained lawn and natural vegetation. Wood chips or gravel at least 3 feet wide breaks the humidity gradient ticks need to survive — they dry out crossing the barrier. This is the CDC-recommended "tick zone" defense.` },
@@ -143,16 +142,7 @@ export default function HowToKeepTicksOutOfYardOntarioPage() {
         <p>Pair the body check with the laundry step most people skip: put the clothes you wore straight into a hot dryer <em>before</em> washing them. Ten minutes on high heat kills ticks on dry fabric, while a normal wash on its own often does not &mdash; <Link href="/blog/do-ticks-die-in-the-washing-machine" className="text-brand-700 hover:underline">the post-hike laundry sequence</Link> lays out the temperatures behind it.</p>
 
         <h3>9. Wear Factory Permethrin-Treated Clothing for High-Risk Outdoor Activity</h3>
-        <p>Permethrin kills blacklegged ticks on contact through treated fabric, and it never goes on skin. In Canada the route to that protection is a garment, not a bottle: permethrin liquids and sprays sold for consumers to treat their <em>own</em> clothing are not registered for use here. So buy the pants, socks, and shirts already treated at the factory rather than spraying gear yourself &mdash; Insect Shield factory-treated clothing holds its protection for up to 70 wash cycles, where a home treatment would need redoing every few washes. Especially valuable for hiking the Bruce Trail, working in conservation-area-adjacent yards, or outdoor events in tick zones.</p>
-        <TopPick tag={AMZ_TAG}
-          label="Our Top Pick for Tick-Zone Clothing"
-          name="Insect Shield Permethrin-Treated Clothing"
-          blurb="For anyone working, hiking, or gardening in the lawn-to-woods transition zone, permethrin-treated clothing is the highest-impact personal defence: it kills blacklegged ticks on contact before they ever reach skin. Buy it factory-treated rather than treating your own gear — permethrin sprays sold for consumers to treat their own clothing are not registered for that use in Canada, and the factory-bonded permethrin lasts far longer anyway."
-          search="insect shield permethrin treated clothing"
-          pros={['Kills ticks on contact, not just repels', 'Factory-bonded permethrin lasts up to 70 wash cycles', 'Nothing to mix, spray, or re-apply yourself']}
-          cons={['Protects only the garments you buy — boots and packs are not covered', 'Costs more upfront than the same garment untreated']}
-        />
-        <p><BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Shop permethrin-treated clothing on Amazon.ca &rarr;</BuyLink></p>
+        <p>Permethrin kills blacklegged ticks on contact through treated fabric, and it never goes on skin. In Canada the route to that protection is a garment, not a bottle: permethrin liquids and sprays sold for consumers to treat their <em>own</em> clothing are not registered for use here. So buy the pants, socks, and shirts already treated at the factory rather than spraying gear yourself &mdash; Insect Shield factory-treated clothing holds its protection for up to 70 wash cycles, where a home treatment would need redoing every few washes. Insect Shield has no Canadian registration, though: the registered home-use line here is No Fly Zone (Reg. No. 32757), so look for the PCP number on the label. Especially valuable for hiking the Bruce Trail, working in conservation-area-adjacent yards, or outdoor events in tick zones.</p>
         <p>For which permethrin formats are registered in Canada and which are not, see our <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 hover:underline">permethrin for yard &amp; clothing guide (Canada)</Link>, and compare repellent options in our <Link href="/blog/best-tick-repellent-yard-canada" className="text-brand-700 hover:underline">best tick repellents for the yard in Canada</Link> roundup.</p>
 
         <h3>10. Know the GTA's High-Risk Zones</h3>
@@ -188,8 +178,6 @@ export default function HowToKeepTicksOutOfYardOntarioPage() {
         </div>
 
       </article>
-
-      <StickyBuyBar tag={AMZ_TAG} name="Permethrin-Treated Clothing (Insect Shield)" search="insect shield permethrin treated clothing" label="Best tick-zone clothing" />
 
       <ReadNext path="/blog/how-to-keep-ticks-out-of-yard-ontario" standalone />
     </>

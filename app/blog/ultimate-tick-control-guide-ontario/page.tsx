@@ -16,6 +16,7 @@ import RelatedLinks from '@/components/RelatedLinks'
 const POST = TICK_BLOGS.pillar
 
 const META_TITLE = 'Ontario Tick Control: 5-Step Yard Plan 2026'
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): the amazon.ca button "Check treated clothing" (search "insect shield permethrin treated clothing") at the end of the clothing paragraph is removed, because Insect Shield has no Canadian registration (Health Canada pesticide registry, checked Nov 5, 2026); the colon that led into it is now a full stop, and one sentence says so and names the registered home-use line, No Fly Zone (Reg. No. 32757), and the PCP number on the label.
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
@@ -166,7 +167,7 @@ export default function TickPillarPage() {
           <li>Control deer access to your property — deer carry adult ticks onto your land</li>
         </ul>
 
-        <p>Beyond habitat work, what you wear into the high-risk zones adds a personal layer of protection. Permethrin belongs on fabric, not skin — it kills ticks on contact with the cloth rather than simply repelling them. In Canada, though, the do-it-yourself version is off the table: Health Canada does not approve permethrin liquids and sprays for consumers to treat their own clothing. The route that remains open is buying the treatment already in the garment — factory-treated clothing, where the permethrin is bonded in at manufacture and lasts up to 70 wash cycles. Treated socks and trouser legs cover the ankles and lower legs a questing tick reaches first, so those are the pieces worth owning before yard work: <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Check treated clothing on Amazon.ca →</BuyLink></p>
+        <p>Beyond habitat work, what you wear into the high-risk zones adds a personal layer of protection. Permethrin belongs on fabric, not skin — it kills ticks on contact with the cloth rather than simply repelling them. In Canada, though, the do-it-yourself version is off the table: Health Canada does not approve permethrin liquids and sprays for consumers to treat their own clothing. The route that remains open is buying the treatment already in the garment — factory-treated clothing, where the permethrin is bonded in at manufacture and lasts up to 70 wash cycles. Treated socks and trouser legs cover the ankles and lower legs a questing tick reaches first, so those are the pieces worth owning before yard work. Insect Shield clothing has no Canadian registration, though: the registered home-use line here is No Fly Zone (Reg. No. 32757), so look for the PCP number on the label.</p>
         <p>For the full breakdown, see our guides to <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 underline hover:text-brand-500">permethrin for yard &amp; clothing in Canada</Link> and the <Link href="/blog/best-tick-repellent-yard-canada" className="text-brand-700 underline hover:text-brand-500">best tick repellents for your yard</Link>.</p>
 
         <RelatedLinks path="/blog/ultimate-tick-control-guide-ontario" />

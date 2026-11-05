@@ -28,6 +28,7 @@ const TITLE = 'Chiggers and Chigger Bites: What They Look Like, Whether They Bur
 // neutral, and it names what the page now shows (real photos, size, how long bites last).
 // 48 chars; 60 rendered.
 const META_TITLE = 'Chigger Bites: Photos, Size & How Long They Last'
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): InsectGuard has no Canadian registration (Health Canada pesticide registry, checked Nov 5, 2026: no product or registrant named InsectGuard), so the amazon.ca button "Check permethrin-treated gaiters on Amazon" (search "insectguard permethrin gaiters") under the prevention list is removed with its wrapper; one sentence at the end of the "Consider permethrin-treated clothing or gaiters" item says InsectGuard gaiters have no Canadian registration and names the registered home-use line in Canada, No Fly Zone (Reg. No. 32757), and the PCP number on the label.
 
 const FAQS = [
   {
@@ -606,14 +607,11 @@ export default function ChiggerBitesPage() {
         <ul>
           <li><strong>Use a registered insect repellent on exposed skin.</strong> The CDC recommends repellents such as DEET or picaridin; Health Canada&rsquo;s PMRA registers the same actives (picaridin is labelled icaridin in some countries) for the same use. Apply per the label &mdash; concentration and re-application rules vary by product.</li>
           <li><strong>Wear long pants tucked into socks</strong> in grassy or brushy terrain. It looks ridiculous and works brilliantly &mdash; larvae climbing from grass hit treated fabric instead of skin.</li>
-          <li><strong>Consider permethrin-treated clothing or gaiters.</strong> Permethrin-treated fabric kills or repels mites, ticks, and mosquitoes on contact and survives multiple washes. Pre-treated garments and gaiters are the simple route; check what is registered and available where you live before buying treatment kits.</li>
+          <li><strong>Consider permethrin-treated clothing or gaiters.</strong> Permethrin-treated fabric kills or repels mites, ticks, and mosquitoes on contact and survives multiple washes. Pre-treated garments and gaiters are the simple route; check what is registered and available where you live before buying treatment kits. InsectGuard gaiters have no Canadian registration, though: the registered home-use line in Canada is No Fly Zone (Reg. No. 32757), so look for the PCP number on the label.</li>
           <li><strong>Stay on the centre of trails</strong> and avoid sitting directly on grass or logs in prime habitat during warm months.</li>
           <li><strong>Shower with soap within an hour of coming indoors</strong>, scrubbing ankles, waistband, and skin folds &mdash; larvae often wander for a while before feeding, so a fast shower prevents a share of bites outright.</li>
           <li><strong>Bag and hot-wash field clothes</strong> at 52&deg;C (125&deg;F) or hotter rather than re-wearing them.</li>
         </ul>
-        <div className="not-prose my-4">
-          <BuyLink tag={AMZ_TAG} search="insectguard permethrin gaiters">Check permethrin-treated gaiters on Amazon &rarr;</BuyLink>
-        </div>
 
         <h2>Repellents for chiggers: what the EPA and Health Canada actually register</h2>
         <p>Same active ingredients on both sides of the border, different label limits and different regulators &mdash; which is why generic advice to &ldquo;use a registered repellent&rdquo; leaves readers in each country guessing about the other.</p>

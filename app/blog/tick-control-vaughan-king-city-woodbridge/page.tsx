@@ -11,6 +11,7 @@ import { NEW_BLOGS_2, TICK_BLOGS, MOSQUITO_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = NEW_BLOGS_2[4]
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): the amazon.ca button for Insect Shield permethrin-treated clothing (search "insect shield permethrin treated clothing") in the Kortright / Woodbridge trails paragraph is removed, because Insect Shield has no Canadian registration (Health Canada pesticide registry, checked Nov 5, 2026); one sentence in its place says so and names the registered home-use line, No Fly Zone (Reg. No. 32757), and the PCP number on the label.
 const AMZ_TAG = tagForSlug('tick-control-vaughan-king-city-woodbridge')
 
 export const metadata: Metadata = buildMetadata({
@@ -112,7 +113,7 @@ export default function VaughanKingCityTickControlPage() {
         <h2>Woodbridge: High-Risk Properties</h2>
         <p>Woodbridge sits in the Humber River valley itself — one of the most continuous wildlife corridors in the GTA. Deer movement along this corridor brings tick-carrying hosts directly through residential back gardens. East Woodbridge properties backing onto the valley, and homes adjacent to Kortright Centre for Conservation, face consistent tick exposure throughout the season.</p>
         <p>Kortright Centre — an environmental education facility with 325 hectares of naturalized land — has documented tick activity throughout its trail system. Adjacent residential properties should treat both their lawn perimeters and garden borders as a priority.</p>
-        <p className="not-prose text-gray-700">If you walk those trails, factory-treated permethrin socks and gaiters, sold ready to wear, are the standard layer for the lower leg, where ticks climb aboard. <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Check price on Amazon.ca &rarr;</BuyLink></p>
+        <p className="not-prose text-gray-700">If you walk those trails, factory-treated permethrin socks and gaiters, sold ready to wear, are the standard layer for the lower leg, where ticks climb aboard. Insect Shield clothing has no Canadian registration, though: the registered home-use line here is No Fly Zone (Reg. No. 32757), so look for the PCP number on the label.</p>
 
         <h2>King City and King Township: The Highest-Risk Zone</h2>
         <p>King Township sits at the junction of three significant ecological features:</p>

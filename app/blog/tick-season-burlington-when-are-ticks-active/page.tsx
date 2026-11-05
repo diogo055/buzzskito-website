@@ -6,13 +6,12 @@ import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
-import TopPick from '@/components/TopPick'
-import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
 
 const UPDATED = '2026-06-04'
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): InsectGuard has no Canadian registration (Health Canada pesticide registry, checked Nov 5, 2026: no product or registrant named InsectGuard), so its 3 amazon.ca elements (search "insectguard permethrin gaiters") are gone: the button under the protection plan, the "Best for Burlington trail users" top pick and the sticky buy bar. No product this page links is named with a PCP/Reg. number, so nothing was switched. One sentence at the end of plan item 5 says InsectGuard gaiters have no Canadian registration and names the registered home-use line, No Fly Zone (Reg. No. 32757), and the PCP number on the label. This is a lead post: it keeps its quote CTA and gets no ReadNext (check:article-ctas fails a lead post that shows "Keep reading"). TopPick and StickyBuyBar imports removed (unused).
 
 const POST = {
   title: 'Tick Season in Burlington 2026: Why Halton\'s Lakefront and Escarpment Edge Are at Highest Risk',
@@ -172,21 +171,9 @@ export default function TickSeasonBurlingtonPage() {
           <li><strong>Why five and not one or two.</strong> A spring-plus-fall pair leaves a multi-month hole straight across the late-May-to-July nymph peak &mdash; the exact window when poppy-seed-sized nymphs drive most Lyme transmission. Burlington&rsquo;s deer, mice, and birds also keep reintroducing ticks from the escarpment, RBG, and the creek ravines all season, so the barrier has to be renewed rather than applied once and forgotten.</li>
           <li><strong>Habitat modification along forest, escarpment, and ravine edges.</strong> 3-foot wood-chip or gravel buffer, weekly leaf-litter clearing through May-July, mow tight.</li>
           <li><strong>Daily tick checks for the household and pets.</strong> Especially after RBG, Mt. Nemo, Mountainside trails, conservation area hikes, and off-leash dog parks.</li>
-          <li><strong>Permethrin-treated clothing for escarpment hikers.</strong> Buy garments that come factory-treated, such as gaiters, socks, and hiking pants &mdash; in Canada, consumer permethrin sprays for treating your own clothing are not registered.</li>
+          <li><strong>Permethrin-treated clothing for escarpment hikers.</strong> Buy garments that come factory-treated, such as gaiters, socks, and hiking pants &mdash; in Canada, consumer permethrin sprays for treating your own clothing are not registered. InsectGuard gaiters have no Canadian registration, though: the registered home-use line here is No Fly Zone (Reg. No. 32757), so look for the PCP number on the label.</li>
           <li><strong>Year-round veterinary tick prevention for dogs.</strong> Burlington vets are reporting climbing canine Lyme cases. Talk to your vet.</li>
         </ol>
-        <div className="not-prose my-4">
-          <BuyLink tag={AMZ_TAG} search="insectguard permethrin gaiters">Check InsectGuard permethrin-treated gaiters on Amazon.ca →</BuyLink>
-        </div>
-
-        <TopPick tag={AMZ_TAG}
-          label="Best for Burlington trail users"
-          name="InsectGuard Permethrin-Treated Gaiters"
-          blurb="If you hike the escarpment, Mt. Nemo, RBG, or any wooded ravine edge, permethrin-treated clothing is the single most effective personal defence — it kills ticks on contact before they reach skin. One treatment on gaiters, socks, and pant cuffs lasts about six weeks or six washes and covers the exact nymph window when Burlington risk peaks."
-          search="insectguard permethrin gaiters"
-          pros={['Kills ticks on contact, not just repels', 'One application lasts ~6 weeks / 6 washes', 'Covers the ankle-to-knee zone where ticks climb']}
-          cons={['Protects only treated garments, not exposed skin', 'Not a substitute for yard treatment']}
-        />
 
         <h2>Same-week Burlington service</h2>
         <p>BuzzSkito treats every Burlington neighbourhood with same-week service availability through the May–September season. Pricing scales by lot size. {PROMISES.response} See dedicated pages for <Link href="/burlington-mosquito-spray" className="text-brand-700 underline">Burlington mosquito spray</Link>, <Link href="/aldershot-mosquito-control" className="text-brand-700 underline">Aldershot</Link>, <Link href="/millcroft-mosquito-control" className="text-brand-700 underline">Millcroft</Link>, <Link href="/tyandaga-mosquito-control" className="text-brand-700 underline">Tyandaga</Link>, and <Link href="/alton-village-mosquito-control" className="text-brand-700 underline">Alton Village</Link>.</p>
@@ -212,8 +199,6 @@ export default function TickSeasonBurlingtonPage() {
         </div>
 
       </article>
-
-      <StickyBuyBar tag={AMZ_TAG} name="InsectGuard Permethrin-Treated Gaiters" search="insectguard permethrin gaiters" label="For Burlington trails" />
 
       <CTASection heading="Burlington sits on two tick reservoirs — get your yard protected" subtext={`Free custom quote based on your address and lot. ${PROMISES.response} Same-week service across Burlington including Aldershot, Millcroft, Tyandaga, Roseland, and Alton Village.`} />
     </>

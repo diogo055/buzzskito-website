@@ -3,8 +3,6 @@ import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
-import StickyBuyBar from '@/components/StickyBuyBar'
-import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -19,6 +17,8 @@ const SLUG = 'permethrin-canada-yard-clothing-spray'
 const DATE = '2026-05-01'
 const UPDATED = '2026-10-23'
 const TITLE = 'Permethrin Canada: Where to Buy + Is It Legal? (2026)'
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): Insect Shield has no Canadian registration (Health Canada pesticide registry, checked Nov 5, 2026), so all 8 amazon.ca elements searching "insect shield permethrin treated clothing" are gone: the sticky buy bar and top box, the button in "What to do right now" step 3, the "Best Overall" Insect Shield award card, the button under the where-to-buy table, the button under the article's opening line, and the buttons under "1. Wind River No Fly Zone" and "2. Insect Shield". No product this page links is named with a PCP/Reg. number, so the bar and box were removed, not switched; ReadNext already renders standalone at the top level. The which-to-buy line now reads "Start with factory pre-treated clothing" instead of pointing at the removed card; the opening line's colon is now a full stop; one sentence added to "2. Insect Shield" says it has no Canadian registration and names the registered home-use line, No Fly Zone (Reg. No. 32757), and the PCP number on the label. StickyBuyBar and TopBox imports removed (unused).
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"), fourth pass, text only: three places still presented Insect Shield clothing as legal in Canada, though it has no Canadian registration (Health Canada pesticide registry, checked Nov 5, 2026). The legality-table row "Insect Shield treated clothing | Yes — buy & wear | Outdoor apparel brands, Amazon.ca" now reads "Factory-treated clothing with a PCP number (No Fly Zone, Reg. No. 32757) | Yes — buy & wear | Wind River No Fly Zone at Mark's; Insect Shield clothing has no Canadian registration". The FAQs "How much does permethrin cost in Canada?" and "How long does permethrin clothing spray last?" now say Insect Shield has no Canadian registration and point to the PCP number on the label and No Fly Zone (Reg. No. 32757) instead of calling it the permitted format. No button, date or title changed.
 
 const FAQS = [
   {
@@ -39,7 +39,7 @@ const FAQS = [
   },
   {
     question: 'How much does permethrin cost in Canada?',
-    answer: 'Permethrin clothing SPRAY has no Canadian consumer price, because Health Canada has not approved that format for sale here — it is not a registered Canadian retail product, so any price you see quoted for it is either a US price or an invention. Permethrin-treated clothing (Sawyer Insect Shield brand) costs $40–$120 per garment depending on style. Yard-application permethrin concentrate is mostly NOT available to Canadian consumers — Health Canada restricts higher-concentration formulations to licensed applicators. Professional barrier spray treatments by licensed Ontario operators (which use PCP-registered bifenthrin-based formulations) start from $99 per treatment on a standard lot under 10,000 sq ft.',
+    answer: 'Permethrin clothing SPRAY has no Canadian consumer price, because Health Canada has not approved that format for sale here — it is not a registered Canadian retail product, so any price you see quoted for it is either a US price or an invention. Permethrin-treated clothing (Sawyer Insect Shield brand) costs $40–$120 per garment depending on style, but Insect Shield clothing has no Canadian registration: the registered home-use line here is No Fly Zone (Reg. No. 32757), so look for the PCP number on the label. Yard-application permethrin concentrate is mostly NOT available to Canadian consumers — Health Canada restricts higher-concentration formulations to licensed applicators. Professional barrier spray treatments by licensed Ontario operators (which use PCP-registered bifenthrin-based formulations) start from $99 per treatment on a standard lot under 10,000 sq ft.',
   },
   {
     question: 'Can I buy permethrin yard spray in Canada?',
@@ -51,7 +51,7 @@ const FAQS = [
   },
   {
     question: 'How long does permethrin clothing spray last?',
-    answer: 'Spray-on permethrin treatment bonds to fabric fibres and remains effective through 6 wash cycles or approximately 6 weeks of daily wear. In Canada that figure matters mainly as a comparison, because Health Canada has not approved consumer spray-on clothing treatment here: factory-treated permethrin clothing manufactured by Insect Shield lasts up to 70 wash cycles, and is the format Canada actually permits. After the treatment wears off, you can keep wearing the clothing — you simply lose the tick/mosquito repellent benefit.',
+    answer: 'Spray-on permethrin treatment bonds to fabric fibres and remains effective through 6 wash cycles or approximately 6 weeks of daily wear. In Canada that figure matters mainly as a comparison, because Health Canada has not approved consumer spray-on clothing treatment here: factory-treated permethrin clothing manufactured by Insect Shield lasts up to 70 wash cycles, but Insect Shield has no Canadian registration, so the format Canada actually permits is factory-treated clothing with a PCP number on the label, such as No Fly Zone (Reg. No. 32757). After the treatment wears off, you can keep wearing the clothing — you simply lose the tick/mosquito repellent benefit.',
   },
   {
     question: 'Is permethrin effective against ticks?',
@@ -185,8 +185,6 @@ export default function PermethrinCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Permethrin-treated clothing (Insect Shield)" search="insect shield permethrin treated clothing" label="Legal ready-to-wear option" />
-      <TopBox tag={AMZ_TAG} name="Permethrin-treated clothing (Insect Shield)" search="insect shield permethrin treated clothing" label="Legal ready-to-wear option" />
 
       {/* ANSWER CAPSULE */}
       <section className="bg-white px-4">
@@ -222,22 +220,12 @@ export default function PermethrinCanadaPage() {
               <li>
                 <p className="font-bold text-brand-900 mb-1">3. For fabric, the treated-clothing format Canada does permit</p>
                 <p className="text-[15px] text-gray-800 leading-relaxed mb-3">Factory pre-treated permethrin clothing is a different regulatory object from a bottle of pesticide, and it is permitted here for ages 16 and over &mdash; the permethrin is bonded at the factory, so there is no liquid to handle and nothing to reapply each season. Buy it as the trousers and socks you actually walk in rather than as a wardrobe; that is where a tick makes contact first.</p>
-                <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Check price on Amazon.ca &rarr;</BuyLink>
               </li>
             </ol>
           </aside>
           <AwardRow tag={AMZ_TAG}
             heading="Our Picks — The Permethrin You Can Actually Buy in Canada"
             awards={[
-              {
-                badge: 'Best Overall',
-                name: 'Insect Shield Permethrin-Treated Clothing',
-                why: 'Factory pre-treated clothing is the permethrin format Canada permits for consumers, and Insect Shield is the treatment behind garments from outdoor brands (ExOfficio, Orvis, Columbia). The bonded permethrin survives 70 wash cycles — versus 6 for a spray-on treatment. Higher upfront cost, far lower long-term cost for frequent hikers.',
-                search: 'insect shield permethrin treated clothing',
-                featured: true,
-                pros: ['The permitted Canadian route — no unregistered format involved', 'Protection lasts 70 wash cycles — no annual respray', 'No handling of liquid permethrin at all', 'Wide range of garment styles'],
-                cons: ['$40–$120 per garment adds up across a wardrobe', 'Covers only the garments you buy — boots, packs, and tents stay untreated'],
-              },
               {
                 badge: 'Best Canadian-Shelf Buy',
                 name: 'Wind River No Fly Zone (Mark’s)',
@@ -248,7 +236,7 @@ export default function PermethrinCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Want the format Canada actually permits?</strong> Start with <em>Best Overall</em> factory pre-treated clothing &mdash; bonded for 70 wash cycles, and the only permethrin route Canada permits for personal protection here. Buy it as the pants and socks you hike in most. <strong>Want to buy it in a Canadian store?</strong> <em>Best Canadian-Shelf Buy</em> Wind River No Fly Zone at Mark&rsquo;s is the line sold domestically. <strong>Came here looking for a spray-on clothing treatment?</strong> There is deliberately no pick for it: Health Canada has not approved permethrin liquids or sprays sold for consumers to treat their own clothing, so we will not recommend one at any price. And if you came here for <strong>yard permethrin concentrate</strong>: it is not sold to Canadian consumers at any price &mdash; whole-yard treatment legally requires a licensed applicator, which is what our <Link href="/mosquito-control">licensed barrier spray service</Link> covers from $99.
+                <strong>Want the format Canada actually permits?</strong> Start with factory pre-treated clothing &mdash; bonded for 70 wash cycles, and the only permethrin route Canada permits for personal protection here. Buy it as the pants and socks you hike in most. <strong>Want to buy it in a Canadian store?</strong> <em>Best Canadian-Shelf Buy</em> Wind River No Fly Zone at Mark&rsquo;s is the line sold domestically. <strong>Came here looking for a spray-on clothing treatment?</strong> There is deliberately no pick for it: Health Canada has not approved permethrin liquids or sprays sold for consumers to treat their own clothing, so we will not recommend one at any price. And if you came here for <strong>yard permethrin concentrate</strong>: it is not sold to Canadian consumers at any price &mdash; whole-yard treatment legally requires a licensed applicator, which is what our <Link href="/mosquito-control">licensed barrier spray service</Link> covers from $99.
               </>
             }
           />
@@ -316,9 +304,6 @@ export default function PermethrinCanadaPage() {
               </tbody>
             </table>
           </div>
-          <div className="mt-4 flex flex-wrap items-center gap-3">
-            <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Shop permethrin-treated clothing on Amazon.ca →</BuyLink>
-          </div>
           <p className="text-xs text-gray-500 mt-3">
             Source: Public Health Agency of Canada, <em>Permethrin-treated clothing</em>. Pre-treated garments sold in Canada carry a PMRA-required lining between the treated fabric and the skin, and are marketed here for mosquitoes.
           </p>
@@ -367,10 +352,7 @@ export default function PermethrinCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <p className="not-prose text-sm text-gray-600 mb-1">The permethrin format Canadians can legally buy for personal protection is factory pre-treated clothing — worn, never sprayed on skin:</p>
-          <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Shop permethrin-treated clothing on Amazon.ca →</BuyLink>
-          </div>
+          <p className="not-prose text-sm text-gray-600 mb-1">The permethrin format Canadians can legally buy for personal protection is factory pre-treated clothing — worn, never sprayed on skin.</p>
           <h2>What Permethrin Does (and Why It&rsquo;s Different from DEET)</h2>
           <p>Permethrin is a synthetic version of pyrethrin, the natural insecticide found in chrysanthemum flowers. Unlike DEET and picaridin (which are <strong>repellents</strong> applied to skin), permethrin is a <strong>contact insecticide</strong> applied to clothing. When a tick or mosquito lands on permethrin-treated fabric, the chemical disrupts its nervous system within seconds — the insect either falls off or dies before biting through the fabric.</p>
           <p>This is why permethrin is the gold standard for hikers, military personnel, and outdoor workers — DEET only works while it&rsquo;s wet on your skin (a few hours), while permethrin-treated fabric stays active through many washes: about 6 for a spray-on treatment, up to 70 for a factory-treated garment.</p>
@@ -384,7 +366,7 @@ export default function PermethrinCanadaPage() {
             </thead>
             <tbody>
               <tr className="border-t border-navy-50"><td className="px-3 py-2">Consumer 0.5% clothing/gear spray</td><td className="px-3 py-2 text-rose-700 font-semibold">Not approved in Canada</td><td className="px-3 py-2">Pre-treated clothing is the permitted format</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2">Insect Shield treated clothing</td><td className="px-3 py-2 text-emerald-700 font-semibold">Yes — buy &amp; wear</td><td className="px-3 py-2">Outdoor apparel brands, Amazon.ca</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2">Factory-treated clothing with a PCP number (No Fly Zone, Reg. No. 32757)</td><td className="px-3 py-2 text-emerald-700 font-semibold">Yes — buy &amp; wear</td><td className="px-3 py-2">Wind River No Fly Zone at Mark&rsquo;s; Insect Shield clothing has no Canadian registration</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2">10%–36.8% yard/turf concentrate</td><td className="px-3 py-2 text-rose-700 font-semibold">No — licensed applicator only</td><td className="px-3 py-2">Not sold to Canadian consumers</td></tr>
             </tbody>
           </table>
@@ -474,14 +456,8 @@ export default function PermethrinCanadaPage() {
           <p>One format is missing from this list deliberately: a permethrin liquid or spray sold for you to treat your own clothing. Health Canada has not approved that format for Canadian consumers, so it is not a registered product you can buy here &mdash; which is why the personal-protection entries below are garments rather than bottles.</p>
           <h3>1. Wind River No Fly Zone Treated Clothing (Canadian Retail)</h3>
           <p>The permethrin-treated clothing line that reached Canadian retail in 2018 &mdash; shirts, pants, hoodies and socks with the permethrin bonded at the factory rather than sprayed on at home. Sold at Mark&rsquo;s, so it is the domestic route for someone who wants permethrin protection bought in a Canadian store, and under Canadian rules the garments carry the PMRA-required lining between the treated fabric and your skin.</p>
-          <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Shop permethrin-treated clothing on Amazon.ca →</BuyLink>
-          </div>
           <h3>2. Insect Shield Factory-Treated Clothing</h3>
-          <p>Pre-treated clothing from outdoor brands (ExOfficio, Orvis, Columbia, etc.) using a proprietary permethrin-bonding process. Lasts 70 wash cycles, against about 6 for a spray-on treatment &mdash; part of why the factory-treated garment, and not a bottle, is the format permitted for Canadian consumers. Higher upfront cost ($40–$120 per garment) but far lower long-term cost for frequent hikers.</p>
-          <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Shop permethrin-treated clothing on Amazon.ca →</BuyLink>
-          </div>
+          <p>Pre-treated clothing from outdoor brands (ExOfficio, Orvis, Columbia, etc.) using a proprietary permethrin-bonding process. Lasts 70 wash cycles, against about 6 for a spray-on treatment &mdash; part of why the factory-treated garment, and not a bottle, is the format permitted for Canadian consumers. Higher upfront cost ($40–$120 per garment) but far lower long-term cost for frequent hikers. Insect Shield has no Canadian registration, though: the registered home-use line here is No Fly Zone (Reg. No. 32757), so look for the PCP number on the label.</p>
           <h3>3. Permethrin-Treated Pet Products (Dogs Only)</h3>
           <p>Some flea/tick collars and topical treatments for dogs use permethrin-based formulations. Veterinarian prescription typically required. NEVER use on cats — even passive exposure to permethrin is fatal to cats.</p>
           <h3>4. Permethrin Indoor Residuals (Bed Bugs)</h3>

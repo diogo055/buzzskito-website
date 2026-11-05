@@ -11,6 +11,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = NEW_BLOGS_2[3]
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): the amazon.ca button for Insect Shield permethrin-treated clothing (search "insect shield permethrin treated clothing") in the trail-days paragraph is removed, because Insect Shield has no Canadian registration (Health Canada pesticide registry, checked Nov 5, 2026); one sentence in its place says so and names the registered home-use line, No Fly Zone (Reg. No. 32757), and the PCP number on the label.
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito & Tick Control Hamilton-Burlington',
@@ -190,7 +191,7 @@ export default function HamiltonBurlingtonPage() {
           <li><Link href="/blog/lyme-disease-tick-prevention-ontario" className="text-brand-700 hover:underline">Lyme Disease Prevention in Ontario</Link></li>
         </ul>
 
-        <p>Until the yard is on a treatment schedule, the trail days are where most Hamilton and Burlington ticks are picked up. Factory-treated permethrin clothing (sold in Canada as pre-treated garments for ages 16 and over) covers the ankle-to-knee band where ticks board, and a tick check on the drive home catches the rest. <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Check price on Amazon.ca →</BuyLink> <BuyLink tag={AMZ_TAG} search="tick repellent">See tick repellents on Amazon.ca →</BuyLink></p>
+        <p>Until the yard is on a treatment schedule, the trail days are where most Hamilton and Burlington ticks are picked up. Factory-treated permethrin clothing (sold in Canada as pre-treated garments for ages 16 and over) covers the ankle-to-knee band where ticks board, and a tick check on the drive home catches the rest. Insect Shield clothing has no Canadian registration, though: the registered home-use line here is No Fly Zone (Reg. No. 32757), so look for the PCP number on the label. <BuyLink tag={AMZ_TAG} search="tick repellent">See tick repellents on Amazon.ca →</BuyLink></p>
       </article>
 
       <StickyBuyBar tag={AMZ_TAG} name="Fine-Tipped Tick Removal Tool" search="tick removal tool tweezers" label="For removal" />
