@@ -26,6 +26,7 @@ const UPDATED = '2026-10-29'
 // "best carpet beetle spray" sibling — at DR 0.5 splitting this intent is harmful.
 const TITLE = 'How to Get Rid of Carpet Beetles in Canada — The Larvae Are the Pest, and the Vacuum Is the Weapon'
 // TITLE NOTE (Oct 29, 2026): was 'Carpet Beetles & Larvae: Photos and Fixes' (set Oct 16; before that 'Get Rid of Carpet Beetles Canada: Larvae First'); top queries, Jul 29-Oct 26 (all countries): carpet beetles 230 at 6.3 (2 clicks), carpet beetles canada 120 at 7.5 (1), how to get rid of carpet beetles 71 at 11.9 (2). 'Larvae' dropped: 'carpet beetle larvae' belongs to /blog/carpet-beetle-larvae, signs to /blog/signs-of-carpet-beetles, bites and rash to /blog/carpet-beetle-rash; the US edition /blog/how-to-get-rid-of-carpet-beetles keeps the US searches. 'Canada' restored per data/god-build/photo-upgrade-read-2026-10-29.md (keep the place word on pages with a US twin and on Canadian Amazon pages; this page lost it on Oct 16 while getting its twin).
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): carpet beetle pheromone (lure) traps, which this page says are pest control products with no carpet beetle lure, trap or pheromone in Health Canada's registry, lost their 3 buttons: the 'Best for Finding the Source' card, the table cell (now plain text) and the button row.
 const META_TITLE = 'Carpet Beetles in Canada: How to Get Rid of Them'
 
 const FAQS = [
@@ -190,7 +191,7 @@ export default function HowToGetRidOfCarpetBeetlesCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">You cannot find them at all, but you see damage</td>
                   <td className="px-4 py-3 text-gray-700">The source is hidden. You need to narrow the search by room</td>
                   <td className="px-4 py-3 text-gray-700">Lay monitors and read the catch map for two to three weeks</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="carpet beetle pheromone trap" block>Lure traps (not registered in Canada) &rarr;</BuyLink></td>
+                  <td className="px-4 py-3 text-xs text-gray-500">Lure traps are not registered in Canada, so no link</td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">You are not sure it is not bed bugs</td>
@@ -227,14 +228,6 @@ export default function HowToGetRidOfCarpetBeetlesCanadaPage() {
                 cons: ['Only works if the contents are cleaned before sealing', 'Bulky, and cheap lids warp and stop sealing'],
               },
               {
-                badge: 'Best for Finding the Source',
-                name: 'Carpet Beetle Pheromone Traps (Not Registered in Canada)',
-                why: 'Instrumentation, not control. When the food source is hidden inside a wall, an attic, or a closet nobody has emptied in a decade, a line of dated monitors narrows the hunt to a room and tells you whether adults are still emerging. But a lure that attracts a pest is a pest control product under the Pest Control Products Act, Health Canada’s registry listed no carpet beetle lure, trap or pheromone on October 29, 2026, and Health Canada says it is a violation of the Act to buy and use unregistered pesticides. Check any package for a PCP number; a plain glue board with no lure, laid along the carpet edge, still catches wandering larvae and adults.',
-                search: 'carpet beetle pheromone trap',
-                pros: ['Turns a whole-house search into a one-room search', 'Shows whether numbers are actually falling', 'Cheap enough to lay a dozen across the house'],
-                cons: ['Catches adults; the damaging larvae ignore it', 'Measures the problem, does not reduce it'],
-              },
-              {
                 badge: 'Best Crack and Crevice',
                 name: 'Safer’s Diatomaceous Earth + Bulb Duster',
                 why: 'For the carpet edge, the tack strip, and the void behind a baseboard that a vacuum nozzle cannot physically enter. Registered insecticidal diatomaceous earth kills mechanically by abrading and absorbing the waxy layer that holds an insect’s moisture in, and Safer’s label says it stays effective for as long as the powder is present. Buy the duster with it — a barely visible film is what works, and you cannot lay one from the bag. Read the label’s pest list and use sites before you apply it.',
@@ -253,7 +246,7 @@ export default function HowToGetRidOfCarpetBeetlesCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Buying only one thing?</strong> The <em>Does Most of the Work</em> vacuum &mdash; and if yours already has a crevice tool and holds its seal, buy nothing and use it properly instead. Our <Link href="/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada">sealed-HEPA vacuum comparison</Link> covers what &ldquo;sealed&rdquo; actually means on a spec sheet. <strong>Damage in stored clothing?</strong> Go straight to <em>Best Prevention</em> &mdash; clean, then seal, or the next season repeats. <strong>Cannot find where they are coming from?</strong> The <em>Best for Finding the Source</em> monitors will narrow it to a room in a fortnight, but no carpet beetle lure trap is registered in Canada; a plain glue board with no lure, laid along the carpet edge, still catches wandering larvae and adults. <strong>Larvae emerging from the carpet edge?</strong> Add <em>Best Crack and Crevice</em> DE, with technique detail in our <Link href="/blog/diatomaceous-earth-canada-buyers-guide">diatomaceous earth buyer&rsquo;s guide</Link>. <strong>A wool rug you cannot wash?</strong> <em>Best for Rugs and Upholstery</em> steam is the only thing on this list that reaches into pile.
+                <strong>Buying only one thing?</strong> The <em>Does Most of the Work</em> vacuum &mdash; and if yours already has a crevice tool and holds its seal, buy nothing and use it properly instead. Our <Link href="/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada">sealed-HEPA vacuum comparison</Link> covers what &ldquo;sealed&rdquo; actually means on a spec sheet. <strong>Damage in stored clothing?</strong> Go straight to <em>Best Prevention</em> &mdash; clean, then seal, or the next season repeats. <strong>Cannot find where they are coming from?</strong> Monitors will narrow it to a room in a fortnight, but no carpet beetle lure trap is registered in Canada; a plain glue board with no lure, laid along the carpet edge, still catches wandering larvae and adults. <strong>Larvae emerging from the carpet edge?</strong> Add <em>Best Crack and Crevice</em> DE, with technique detail in our <Link href="/blog/diatomaceous-earth-canada-buyers-guide">diatomaceous earth buyer&rsquo;s guide</Link>. <strong>A wool rug you cannot wash?</strong> <em>Best for Rugs and Upholstery</em> steam is the only thing on this list that reaches into pile.
               </>
             }
           />
@@ -393,7 +386,6 @@ export default function HowToGetRidOfCarpetBeetlesCanadaPage() {
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="sealed hepa vacuum crevice tool">Vacuum + crevice tool &rarr;</BuyLink>
             <BuyLink tag={AMZ_TAG} search="airtight storage tote gasket lid">Sealed storage &rarr;</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="carpet beetle pheromone trap">Lure traps (not registered in Canada) &rarr;</BuyLink>
           </div>
 
           <NextUp path="/blog/how-to-get-rid-of-carpet-beetles-canada" />

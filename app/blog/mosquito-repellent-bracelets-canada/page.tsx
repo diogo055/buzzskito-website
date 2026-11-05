@@ -21,6 +21,7 @@ const DATE = '2026-07-12'
 const UPDATED = '2026-10-28'
 const TITLE = 'Mosquito Repellent Bracelets in Canada: Do They Work? Barely.'
 // TITLE NOTE (Oct 28, 2026): was 'Do Mosquito Bracelets Work? Barely — Canada'; top queries, Jul 28-Oct 25 (all countries): how long do citronella bracelets last 74 at 7.5, mosquito repellent bracelet canada 57 at 6.4, parakito canada 47 at 5.1, how long do mosquito bracelets last 29 at 7.8, mosquito bracelets do they work 9 at 8.8 (10 clicks in the top 15); the 90-day pull also shows bug bracelets 181 at 12.6. Clip-ons and other personal devices stay with best-mosquito-repellent-device-canada.
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): this page says no repellent bracelet is in Health Canada's registry and the PARA'KITO refills have no Canadian registration, so the citronella and Mosquito Guard cards are gone, their 2 table cells and the PARA'KITO refill button now open the registered 20% icaridin pick this page already links ("Icaridin instead"), and the citronella button in the top row now opens the registered Thermacell area repeller (Patio Shield, Reg. No. 31998) the page already links.
 const META_TITLE = 'Mosquito Repellent Bracelet Canada: Do They Work'
 
 const FAQS = [
@@ -135,22 +136,6 @@ export default function MosquitoRepellentBraceletsCanadaPage() {
                 cons: ['Something to apply, not something to wear', 'Not for infants under 6 months (Health Canada)'],
               },
               {
-                badge: 'Best Budget',
-                name: 'Citronella Disposable (10-pk; not registered in Canada)',
-                why: 'Cheap multipacks for parties and one-off outings. Fine as a throwaway extra layer, but the scent fades within a day or two of real use. No current Canadian product has citronella oil as its active ingredient, and no bracelet is in Health Canada’s registry.',
-                search: 'citronella mosquito bracelet 10 pack',
-                pros: ['Very cheap per band', 'Great for group events', 'No setup'],
-                cons: ['Fades fast once opened', 'Not reusable'],
-              },
-              {
-                badge: 'Kids’ Band (Not Registered)',
-                name: 'Mosquito Guard Bands',
-                why: 'DEET-free bands parents clip to a stroller or small wrist as an extra layer worn on gear or clothing rather than rubbed into skin. Not a substitute for a topical repellent whose label covers children: no bracelet is in Health Canada’s registry, and for a child CATMAT’s first choice is 20% icaridin from 6 months.',
-                search: 'mosquito guard repellent bracelet',
-                pros: ['DEET-free · worn, not applied', 'Kid-friendly sizing', 'Inexpensive'],
-                cons: ['Minimal real coverage', 'Keep away from mouths'],
-              },
-              {
                 badge: 'Best for a Backyard Gathering',
                 name: 'Thermacell Heated Area Repeller (look for a Canadian Reg. No.)',
                 why: 'Invisaband was one of the three bracelets in the 2017 New Mexico State University test, and none of them reduced mosquito attraction. For a group on a deck, a heated area repeller protects the seating instead: Thermacell’s Patio Shield label (Reg. No. 31998) gives a zone up to 4.5 metres (15 feet) from the unit and says to allow 30 minutes for it to take effect.',
@@ -161,7 +146,7 @@ export default function MosquitoRepellentBraceletsCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Want protection that works?</strong> The <em>What Works Instead</em> pick is a 20% icaridin repellent with a Canadian Reg. No., on exposed skin. <strong>Hosting people on the deck?</strong> The <em>Backyard Gathering</em> heated area repeller protects the seating; a band does not. <strong>Still want a band?</strong> No bracelet is registered in Canada and none of the three in the NMSU test reduced mosquito attraction, so treat a <em>Best Budget</em> multipack or a <em>Kids’ Band</em> as an extra at most, on top of a registered repellent. For a backyard evening with fewer bites, a proper repellent plus <Link href="/mosquito-control">professional barrier spray</Link> does what no bracelet can.
+                <strong>Want protection that works?</strong> The <em>What Works Instead</em> pick is a 20% icaridin repellent with a Canadian Reg. No., on exposed skin. <strong>Hosting people on the deck?</strong> The <em>Backyard Gathering</em> heated area repeller protects the seating; a band does not. <strong>Still want a band?</strong> No bracelet is registered in Canada and none of the three in the NMSU test reduced mosquito attraction, so treat a band as an extra at most, on top of a registered repellent. For a backyard evening with fewer bites, a proper repellent plus <Link href="/mosquito-control">professional barrier spray</Link> does what no bracelet can.
               </>
             }
           />
@@ -276,7 +261,7 @@ export default function MosquitoRepellentBraceletsCanadaPage() {
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices on the best-rated bands and refills:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="icaridin insect repellent">Icaridin repellent instead (look for the Reg. No.) →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="citronella mosquito bracelet">Citronella band multipacks (not registered in Canada) →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermacell mosquito repeller">Area repeller instead (look for the Reg. No.) →</BuyLink>
           </div>
 
           <h2 id="best">Best-Rated Mosquito Repellent Bracelets in Canada</h2>
@@ -305,14 +290,14 @@ export default function MosquitoRepellentBraceletsCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Disposable</td>
                   <td className="px-4 py-3 text-gray-700">Cheap · parties · one-offs</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$8 – $15</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="citronella mosquito bracelet 10 pack" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="icaridin insect repellent" block>Icaridin instead (look for the Reg. No.) →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Mosquito Guard Bands <span className="font-normal text-xs text-gray-500">(not registered in Canada)</span></td>
                   <td className="px-4 py-3 text-gray-700">Disposable</td>
                   <td className="px-4 py-3 text-gray-700">DEET-free · kids&rsquo; wrists</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$10 – $16</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito guard repellent bracelet" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="icaridin insect repellent" block>Icaridin instead (look for the Reg. No.) →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Invisaband <span className="font-normal text-xs text-gray-500">(bulk)</span></td>
@@ -324,7 +309,7 @@ export default function MosquitoRepellentBraceletsCanadaPage() {
               </tbody>
             </table>
           </div>
-          <p className="not-prose text-sm text-gray-600 mb-6">Buying a refillable band anyway? PARA&rsquo;KITO says each pellet lasts up to 15 days, so a few packs cover a full May–September season; like the band, the refills have no Canadian registration. <BuyLink tag={AMZ_TAG} search="parakito refill pellets">Check refill pellet price →</BuyLink></p>
+          <p className="not-prose text-sm text-gray-600 mb-6">Buying a refillable band anyway? PARA&rsquo;KITO says each pellet lasts up to 15 days, so a few packs cover a full May–September season; like the band, the refills have no Canadian registration. <BuyLink tag={AMZ_TAG} search="icaridin insect repellent">Icaridin repellent instead (look for the Reg. No.) →</BuyLink></p>
 
           <div className="not-prose my-6 rounded-xl bg-emerald-50 border-l-4 border-emerald-500 p-5">
             <p className="text-sm font-extrabold text-emerald-900 mb-1">Do mosquito bracelets actually work? The honest answer.</p>

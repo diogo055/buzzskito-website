@@ -22,6 +22,7 @@ const DATE = '2026-05-01'
 const UPDATED = '2026-10-28'
 const TITLE = 'DynaTrap Review: What It Really Catches, Which Model to Buy, and What Works Instead in Canada'
 // TITLE NOTE (Oct 28, 2026): was 'DynaTrap Review: What It Really Catches'; top queries (Jul 28-Oct 25): dynatrap 2,296 (pos 10.4), dynatrap reviews 1,315 (pos 7.9, 9 clicks), dynatrap mosquito trap 785, does dynatrap work 202, dynatrap canada 169, does dynatrap work for mosquitoes 120 (4 clicks). 'Best mosquito trap' stays with /blog/best-mosquito-trap.
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): the Atrakta lure (an attractant; no Atrakta product in Health Canada's registry, per this page) lost its 4 buttons; one was an inline "Amazon.ca" link, now plain text, and the button row's caption no longer lists Atrakta refills. The DynaTrap traps themselves (UV + fan, no lure) are left for the owner's device decision.
 const META_TITLE = 'DynaTrap Reviews: Does It Work on Mosquitoes?'
 
 const FAQS = [
@@ -422,10 +423,9 @@ export default function DynaTrapCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian listings (the DT2030/DT1100 full-acre and DT1050 half-acre models are in the table below), a patio repeller for bites, and Atrakta refills:</p>
+          <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian listings (the DT2030/DT1100 full-acre and DT1050 half-acre models are in the table below) and a patio repeller for bites:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="thermacell mosquito repeller refill">For bites: a patio repeller instead (look for the Reg. No.) →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="dynatrap atrakta refill">Atrakta refills (not registered in Canada) →</BuyLink>
           </div>
 
           <h2 id="models">DynaTrap Models Compared: DT3050 vs DT2030 vs DT1050</h2>
@@ -480,13 +480,13 @@ export default function DynaTrapCanadaPage() {
               </tbody>
             </table>
           </div>
-          <p className="not-prose text-sm text-gray-600 mb-6">Catching too few mosquitoes? The <strong>Atrakta</strong> lure (about 8 weeks each, DynaTrap says) is the add-on DynaTrap sells for mosquitoes; like every DynaTrap product, it has no Canadian registration. <BuyLink tag={AMZ_TAG} search="dynatrap atrakta refill">Check Atrakta refill price →</BuyLink></p>
+          <p className="not-prose text-sm text-gray-600 mb-6">Catching too few mosquitoes? The <strong>Atrakta</strong> lure (about 8 weeks each, DynaTrap says) is the add-on DynaTrap sells for mosquitoes; like every DynaTrap product, it has no Canadian registration.</p>
 
           <h3>DT1050 vs DT1100: which should you buy?</h3>
           <p>They are the same trap mechanically — UV light plus a suction fan. The only real difference is coverage and price: the <strong>DT1050</strong> is rated for a <strong>half acre</strong> (plenty for a standard Mississauga or Brampton backyard), while the <strong>DT1100</strong> covers a <strong>full acre</strong> for larger rural and cottage lots. If your yard is under roughly 10,000 sq ft, the DT1050 saves you $30–$60 with no downside. Size up to the DT1100 or DT2030 only if you genuinely have an acre or a very open, breezy property. Neither model catches meaningfully more mosquitoes than the other.</p>
 
           <h3>DynaTrap at Costco Canada</h3>
-          <p>Costco Canada is usually the cheapest place to buy the larger DT2030 and DT3050, during its spring outdoor-living sale — often $30–$70 below Canadian Tire and Home Depot, sometimes landing the DT2030 near $179–$229. Stock is seasonal and disappears by mid-summer, and Costco rarely carries the Atrakta refills, so grab a couple of cartridges from <BuyLink tag={AMZ_TAG} search="dynatrap atrakta refill">Amazon.ca</BuyLink> or a garden centre at the same time. If Costco is sold out, the <Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link> lineup is stocked there too.</p>
+          <p>Costco Canada is usually the cheapest place to buy the larger DT2030 and DT3050, during its spring outdoor-living sale — often $30–$70 below Canadian Tire and Home Depot, sometimes landing the DT2030 near $179–$229. Stock is seasonal and disappears by mid-summer, and Costco rarely carries the Atrakta refills, so grab a couple of cartridges from Amazon.ca or a garden centre at the same time. If Costco is sold out, the <Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link> lineup is stocked there too.</p>
 
           <NextUp path="/blog/dynatrap-canada-review" />
           <h2 id="dynatrap-xl">DynaTrap XL &amp; 1-Acre Models (DT2030 Series)</h2>
@@ -797,7 +797,6 @@ export default function DynaTrapCanadaPage() {
           </div>
           <p className="not-prose text-xs text-gray-500 mb-6">BuzzSkito is a Canadian service business and our affiliate links point to Amazon.ca. US readers should buy from a US retailer above; the US retailer list is provided for accuracy, not as a referral.</p>
           <p>One item is worth buying regardless of which country you are in and which model you own: the <strong>Atrakta lure</strong>. It is DynaTrap&rsquo;s universal add-on — a sealed octenol cartridge that works across the range and lasts roughly eight weeks (about 60 days) per lure. Octenol is a synthetic stand-in for compounds in human breath and sweat. It genuinely nudges the mosquito share of the catch upward. It does not transform a UV trap into a CO₂ trap, and no lure can, but it is the single accessory that changes the outcome at all — which is why it, and not any particular model number, is the honest upgrade recommendation on this page.</p>
-          <p className="not-prose text-sm text-gray-600 mb-6"><BuyLink tag={AMZ_TAG} search="dynatrap atrakta mosquito lure">Compare Atrakta lure refills on Amazon.ca (no Canadian registration found) →</BuyLink></p>
 
           <h2 id="bulb-replacement">DynaTrap Bulb Replacement: LED Models vs Legacy Fluorescent</h2>
           <p><strong>This depends entirely on which generation you own, and most guidance online gets it wrong by treating the whole range as one product.</strong> The current US outdoor line is LED. The older line is fluorescent. Only one of those two has a bulb you buy.</p>

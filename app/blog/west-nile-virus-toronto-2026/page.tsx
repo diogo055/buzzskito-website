@@ -13,6 +13,7 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const SLUG = 'west-nile-virus-toronto-2026'
 const DATE = '2026-07-09'
 const UPDATED = '2026-07-09'
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): the "Check Mosquito Bits" button (search "summit mosquito bits"; Bits have no Canadian registration) now searches "summit mosquito dunks" and reads "Check Mosquito Dunks (Reg. No. 28888) on Amazon.ca"; the sentence before it gained a clause: Bits unregistered, stay with dunks only in water that stays on the property (the same list item already links /blog/mosquito-bits-canada-vs-dunks).
 const TITLE = 'West Nile Virus in Toronto: 2026 Risk, Symptoms & Prevention'
 const META_TITLE = 'West Nile Virus Toronto 2026: Peak Is August'
 
@@ -180,7 +181,7 @@ export default function WestNileTorontoPage() {
           <AffiliateDisclosure />
           <ol>
             <li><strong>Kill the stagnant water weekly.</strong> Scrub gutters clear of leaf sludge, tip and scrub birdbaths and buckets, and remove old tires. Scrubbing matters &mdash; mosquito eggs stick to container walls and survive drying.</li>
-            <li><strong>Larvicide what you cannot drain.</strong> A BTI dunk in a rain barrel or ornamental pond kills larvae within 24&ndash;48 hours; follow the label directions for rain barrels and ponds. See our <Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Dunks guide</Link>. <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Mosquito Dunks on Amazon.ca →</BuyLink> Granular Mosquito Bits give a faster knockdown using the same Bti active. <BuyLink tag={AMZ_TAG} search="summit mosquito bits">Check Mosquito Bits on Amazon.ca →</BuyLink></li>
+            <li><strong>Larvicide what you cannot drain.</strong> A BTI dunk in a rain barrel or ornamental pond kills larvae within 24&ndash;48 hours; follow the label directions for rain barrels and ponds. See our <Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Dunks guide</Link>. <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Mosquito Dunks on Amazon.ca →</BuyLink> Granular Mosquito Bits give a faster knockdown using the same Bti active, but they have no Canadian registration, so in Canada stay with the dunks (Reg. No. 28888), only in water that stays on your property. <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Mosquito Dunks (Reg. No. 28888) on Amazon.ca →</BuyLink></li>
             <li><strong>Cover up at dusk and dawn</strong>, when <em>Culex</em> feeds. Long sleeves, and a repellent with <strong>DEET or icaridin</strong> (look for the PCP registration number on the label). See our <Link href="/blog/picaridin-vs-deet">icaridin vs DEET comparison</Link>.</li>
             <li><strong>Fix screens</strong> on windows and doors.</li>
             <li><strong>Treat where adults rest.</strong> <Link href="/mosquito-control">A professional barrier spray</Link> treats the shaded vegetation, hedge interiors, and fence lines where adult mosquitoes spend the day, repeated through the August peak as the residual wears down. It adds to the steps above; it does not replace them.</li>

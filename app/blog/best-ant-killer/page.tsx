@@ -30,6 +30,7 @@ const TITLE = 'Best Ant Killer & Ant Traps in Canada 2026 — What Actually Kill
 // carpenter ant bait canada 25. Its one product (TERRO liquid baits) was already here; its glue-trap, liquid/solid/gel,
 // placement, pet and child safety and ant ID sections and six FAQs were folded in.
 // TITLE NOTE (Oct 28, 2026): was 'Best Ant Killer Canada 2026: Bait vs Spray'; top queries (Jul 28-Oct 25): ant bait 68 (pos 10.3), advance carpenter ant bait canada 19, best outdoor ant killer 8 (1 click), best ant poison 7 (1 click), ant bait gel 4. 'Ant bait' added because it is this page's own top search; 'ant traps' and 'best ant traps' stayed with the ant traps page until the Nov 3 merge.
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): Combat ant bait stations (PCP 26467 cancelled in 2006, per this page) lost their 4 buttons: the 'Best for Grease Feeders' card, the table cell (now plain text), the button row and the button under the sugar/protein section.
 const META_TITLE = 'Best Ant Killer & Ant Traps Canada: Use Ant Bait'
 
 const FAQS = [
@@ -202,14 +203,6 @@ export default function BestAntKillerCanadaPage() {
                 cons: ['Slower to show results than an indoor trail treatment', 'Needs replacing through a wet Canadian summer'],
               },
               {
-                badge: 'Best for Grease Feeders',
-                name: 'Combat Ant Killing Bait Stations (solid protein bait; not registered in Canada)',
-                why: 'Colony appetite swings between sugar and protein depending on what the brood needs. When a sweet bait sits untouched for days while the trail keeps running, a solid protein station beside it is often what unlocks the job. Combat’s ant bait is not registered in Canada: its registration (Combat Ant Killing System, PCP 26467) was cancelled in 2006, so a Combat pack on sale here has no Canadian label. For the protein station, buy one whose pack shows a Canadian PCP number and the DOMESTIC class.',
-                search: 'combat ant killing bait stations',
-                pros: ['Addresses a common "bait is not working" case', 'Runs alongside liquid bait — not instead of it', 'Enclosed station format'],
-                cons: ['Useless if the colony is currently sugar-feeding', 'Slower uptake than liquid for most Canadian house ants', 'Not registered in Canada (PCP 26467 cancelled in 2006): buy a protein bait whose pack shows a PCP number'],
-              },
-              {
                 badge: 'Best Emergency Knockdown',
                 name: 'Contact Spray (Doktor Doom House & Garden, permethrin)',
                 why: 'For the narrow, honest case: a swarm at a window or a trail crossing food prep right now. Doktor Doom is a Canadian brand and its House & Garden aerosol is a domestic-class product registered in Canada (PCP 26140). Its active is permethrin (0.25%), a synthetic pyrethroid rather than a short-lived pyrethrin, so it belongs on the one spot only, never on the trail your bait needs. Treat the one spot, wash it, then bait.',
@@ -236,7 +229,7 @@ export default function BestAntKillerCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Ants on the kitchen counter and you want one purchase?</strong> The <em>Best Overall</em> TERRO liquid stations, placed on the live trail, not near it. <strong>Trail leads out the door to a crack in the driveway?</strong> Add the <em>Best for Outdoors</em> stakes at the nest opening &mdash; this is the buy people mistakenly replace with a perimeter spray. <strong>Bait untouched after three days?</strong> The colony is on protein: run a protein bait station whose pack shows a Canadian PCP number beside it rather than switching (the <em>Best for Grease Feeders</em> Combat pick no longer has one). <strong>Need something gone in the next five minutes?</strong> The <em>Best Emergency Knockdown</em> spray, on that spot only, then wash and bait. <strong>Large black ants plus coarse sawdust?</strong> Stop shopping &mdash; read our <Link href="/blog/carpenter-ants-canada">carpenter ant guide</Link>, because that is a structural job.
+                <strong>Ants on the kitchen counter and you want one purchase?</strong> The <em>Best Overall</em> TERRO liquid stations, placed on the live trail, not near it. <strong>Trail leads out the door to a crack in the driveway?</strong> Add the <em>Best for Outdoors</em> stakes at the nest opening &mdash; this is the buy people mistakenly replace with a perimeter spray. <strong>Bait untouched after three days?</strong> The colony is on protein: run a protein bait station whose pack shows a Canadian PCP number beside it rather than switching. <strong>Need something gone in the next five minutes?</strong> The <em>Best Emergency Knockdown</em> spray, on that spot only, then wash and bait. <strong>Large black ants plus coarse sawdust?</strong> Stop shopping &mdash; read our <Link href="/blog/carpenter-ants-canada">carpenter ant guide</Link>, because that is a structural job.
               </>
             }
           />
@@ -274,7 +267,7 @@ export default function BestAntKillerCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Indoor &mdash; beside the liquid station, same trail</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">The colony</strong>, when it is rearing brood</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Essential backup</strong> &mdash; run both</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="combat ant killing bait stations" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3 text-xs text-gray-500">Not registered in Canada, so no link</td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Weatherproof bait stakes<br /><span className="font-normal text-xs text-gray-500">Outdoor liquid bait</span></td>
@@ -388,7 +381,6 @@ export default function BestAntKillerCanadaPage() {
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="terro liquid ant baits">TERRO Liquid Ant Baits →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="terro outdoor liquid ant bait stakes">Outdoor bait stakes →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="combat ant killing bait stations">Combat protein bait stations (not registered in Canada) →</BuyLink>
           </div>
 
           <NextUp path="/blog/best-ant-killer" />
@@ -449,9 +441,6 @@ export default function BestAntKillerCanadaPage() {
           <h2>When Your Bait Gets Ignored: the Sugar/Protein Switch</h2>
           <p>A common failure mode with bait is some version of &ldquo;I put the bait down and they walked right past it.&rdquo; The usual cause is menu, not product failure. Colony appetite shifts through the season with what the brood needs: carbohydrate-heavy when workers are fuelling foraging, protein- and lipid-heavy when there are larvae to raise. A sugar bait during a protein phase is an untouched tray.</p>
           <p>The fix is not to switch &mdash; it is to <strong>run both</strong>. Place a protein/grease station beside the liquid one on the same trail and let the colony choose. Within a day you will see which one they are working, and that also tells you which format to keep stocked for the rest of the season. Other common causes worth ruling out: bait placed off the trail, spray residue nearby causing refusal, too few stations for the traffic volume, and competing food &mdash; a bowl of pet kibble or a sticky spill three feet away out-competes any bait station ever made.</p>
-          <div className="not-prose my-4">
-            <BuyLink tag={AMZ_TAG} search="combat ant killing bait stations">Check Combat protein bait stations on Amazon.ca (not registered in Canada) →</BuyLink>
-          </div>
 
           <QuickIdTable
             title="Which ant is it? The trap that fits"

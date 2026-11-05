@@ -19,6 +19,7 @@ const POST = {
 }
 
 const UPDATED = POST.date
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): all 3 Mosquito Bits elements (search "summit mosquito bits"; Bits have no Canadian registration) now search "summit mosquito dunks" (Reg. No. 28888): the standing-water button (label now Mosquito Dunks, plus one sentence: Bits unregistered, dunks only in water that stays on the property, link /blog/mosquito-bits-canada-vs-dunks), the "Best DIY Companion" TopPick (name and the granules wording in its blurb now name Dunks), and the sticky bar (name).
 
 export const metadata: Metadata = buildMetadata({
   title: 'Is Mosquito Control Worth It? | Cost vs Value',
@@ -190,16 +191,16 @@ export default function MosquitoControlWorthCostPage() {
         <p>To get the most value from professional mosquito control:</p>
         <ul>
           <li><strong>Start early:</strong> Book your first treatment for mid-May to target the first generation of mosquitoes before they breed. This compounds into lower populations all season</li>
-          <li><strong>Eliminate standing water:</strong> No amount of spray can overcome an active mosquito breeding source in your own yard. Remove standing water from birdbaths, gutters, plant saucers, and tarps. For water you cannot drain — rain barrels, pond edges, French drains — a BTi larvicide like Summit Mosquito Bits kills mosquito larvae; use it as the label directs. <BuyLink tag={AMZ_TAG} search="summit mosquito bits">Check Mosquito Bits on Amazon.ca →</BuyLink> See: <Link href="/blog/hidden-mosquito-breeding-spots-backyard" className="text-brand-700 hover:underline">Hidden Mosquito Breeding Spots</Link></li>
+          <li><strong>Eliminate standing water:</strong> No amount of spray can overcome an active mosquito breeding source in your own yard. Remove standing water from birdbaths, gutters, plant saucers, and tarps. For water you cannot drain — rain barrels, pond edges, French drains — a BTi larvicide like Summit Mosquito Bits kills mosquito larvae; use it as the label directs. Bits have no Canadian registration, though, so in Canada use Mosquito Dunks (Reg. No. 28888), only in water that stays on your property (<Link href="/blog/mosquito-bits-canada-vs-dunks" className="text-brand-700 hover:underline">details</Link>). <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Mosquito Dunks (Reg. No. 28888) on Amazon.ca →</BuyLink> See: <Link href="/blog/hidden-mosquito-breeding-spots-backyard" className="text-brand-700 hover:underline">Hidden Mosquito Breeding Spots</Link></li>
           <li><strong>Choose a seasonal package:</strong> Consistent monthly treatments maintain protection across the entire season — gaps in coverage allow population recovery</li>
           <li><strong>Bundle tick + mosquito:</strong> If your property also has tick risk (and most GTA properties do), combined packages provide maximum value</li>
         </ul>
 
         <TopPick tag={AMZ_TAG}
           label="Best DIY Companion"
-          name="Summit Mosquito Bits (BTi larvicide)"
-          blurb="The one DIY product that genuinely complements professional treatment. BTi granules kill mosquito larvae in standing water you cannot drain — rain barrels, pond edges, French drains — and acts on those larvae rather than on pets, birds, or fish; use it where the label directs. Attacks the breeding source that no barrier spray can reach, so populations recover more slowly between visits."
-          search="summit mosquito bits"
+          name="Summit Mosquito Dunks (Reg. No. 28888)"
+          blurb="The one DIY product that genuinely complements professional treatment. BTi dunks (registered in Canada, unlike Mosquito Bits granules) kill mosquito larvae in standing water you cannot drain — rain barrels, pond edges, French drains — and act on those larvae rather than on pets, birds, or fish; use them only in water that stays on your property, as the label directs. Attacks the breeding source that no barrier spray can reach, so populations recover more slowly between visits."
+          search="summit mosquito dunks"
           pros={['Targets larvae before they hatch', 'Acts on mosquito larvae, per the label', 'Works on water you cannot drain']}
           cons={['Not a standalone solution for biting adults', 'Needs reapplication through the season']}
         />
@@ -238,7 +239,7 @@ export default function MosquitoControlWorthCostPage() {
         </ul>
       </article>
 
-      <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Bits (BTi larvicide)" search="summit mosquito bits" label="Best DIY companion" />
+      <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Dunks (Reg. No. 28888)" search="summit mosquito dunks" label="Best DIY companion" />
 
       <CTASection heading="Ready to Reclaim Your Backyard This Summer?" subtext={`Professional mosquito barrier spray from $99 per treatment on a standard lot. Free quote for all GTA properties — no obligation. ${PROMISES.response}`} variant="dark" />
     </>

@@ -2,6 +2,20 @@
  "_readme": "Where every photo on the scheduled pages came from. One entry per file in public/guides/photos/: file (the path the page uses), subject, sourceUrl (the page it was taken from), originalUrl (the file downloaded), license (public-domain, CC0-1.0, CC-BY-x.x or CC-BY-SA-x.x only), credit (exactly as the source asks), downloadedOn, sha256 of the original download. scripts/validate-guide.mjs refuses a figure that is not listed here or whose licence, credit or source differ.",
  "photos": [
   {
+   "file": "/guides/photos/adelgid-wool-christmas-tree-indoors.webp",
+   "subject": "Cooley spruce gall adelgid, Adelges cooleyi (named Douglas fir adelgid on iNaturalist): a white, woolly tuft on a needle of a cut Christmas tree indoors; the observer says the tree was cut where the observation is recorded (Fergus County, Montana, January; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/197069990",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/347000176/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 59240,
+   "sourceDescription": "Adelges cooleyi",
+   "downloadedOn": "2026-11-05",
+   "sha256Original": "37e73d7f4916b2ae811303199f03609eae0e5da65ac2d17737dc9e270cd665fa"
+  },
+  {
    "file": "/guides/photos/aedes-aegypti-female-after-blood-meal.webp",
    "subject": "Female yellow fever mosquito, Aedes aegypti, on a person’s skin after taking her blood meal (CDC photograph)",
    "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26049",
@@ -3210,6 +3224,20 @@
    "sha256Original": "b106cc3ab7b99b84917582deca109967fcd859a2d6999fa403042510e9bf1401"
   },
   {
+   "file": "/guides/photos/chinese-mantis-egg-case-arborvitae.webp",
+   "subject": "Chinese mantis, Tenodera sinensis, egg case (ootheca) attached to the underside of an arborvitae branch about 7 feet off the ground; about 1 inch across by the observer's estimate (Illinois, April; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/207453835",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/366949627/original.jpg",
+   "license": "CC-BY-SA-4.0",
+   "credit": "(c) SA Somers, some rights reserved (CC BY-SA), via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 214988,
+   "sourceDescription": "Tenodera sinensis",
+   "downloadedOn": "2026-11-05",
+   "sha256Original": "f135633d8cfd1aed381d3399670f17756ee69b0df6670b42ec06d86da1a871df"
+  },
+  {
    "file": "/guides/photos/chinese-mantis.webp",
    "subject": "Chinese mantis, Tenodera sinensis, adult on goldenrod (Montgomery County, Maryland)",
    "sourceUrl": "https://www.inaturalist.org/observations/95750410",
@@ -3278,6 +3306,34 @@
    "sourceDescription": "Lasioderma serricorne Tobacco or Cigarette beetles are pests of a wide range of stored products, especially processed foods, tobacco and spices. Occasionally found in grain and grain stores.",
    "downloadedOn": "2026-10-15",
    "sha256Original": "622768905a138c2c3073d20f8b4658df929421374bfe2c2a10713e86417a3957"
+  },
+  {
+   "file": "/guides/photos/cinara-aphid-closeup-fence.webp",
+   "subject": "Giant conifer aphid, genus Cinara, close-up on a black-painted metal fence, showing its long legs and mottled brown body (Lilburn, Georgia, March; research grade on iNaturalist, four identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/108735747",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/183133693/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 180816,
+   "sourceDescription": "Cinara",
+   "downloadedOn": "2026-11-05",
+   "sha256Original": "e346a2882408d59d1930ae939b3eea1d848682e821d705f7bfaf1b9ae0ff4d4c"
+  },
+  {
+   "file": "/guides/photos/cinara-aphids-white-pine-twig.webp",
+   "subject": "Giant conifer aphids (white pine aphid, Cinara strobi), a colony crowded on an eastern white pine twig (Hampshire County, Massachusetts, September; research grade on iNaturalist, two identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/239883014",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/427291711/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 45046,
+   "sourceDescription": "Cinara strobi",
+   "downloadedOn": "2026-11-05",
+   "sha256Original": "e4500e47089b23438752682ea196e6ce193efe74c44adcbd1957594723bb1e6d"
   },
   {
    "file": "/guides/photos/citronella-ant-swarm-winged-leaf.webp",
@@ -8856,6 +8912,20 @@
    "sourceDescription": "Armadillidium vulgare",
    "downloadedOn": "2026-10-23",
    "sha256Original": "54991c6f6137bbec4eedfe7ab00cfebdc46f8e5aff5fa55dca0893df63b3fbfe"
+  },
+  {
+   "file": "/guides/photos/pine-needle-scale-covers.webp",
+   "subject": "Pine needle scale, Chionaspis pinifoliae: white scale covers crowded along pine needles (Appleton, Wisconsin, March; research grade on iNaturalist, three identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/24440285",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/37790826/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 469,
+   "bytes": 33946,
+   "sourceDescription": "Chionaspis pinifoliae",
+   "downloadedOn": "2026-11-05",
+   "sha256Original": "552df61c0a5434b16f4f1c70e7b88d5f431dd15c7ec93c99b13247c5b6758bdd"
   },
   {
    "file": "/guides/photos/plains-camel-cricket.webp",

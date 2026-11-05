@@ -22,6 +22,7 @@ const DATE = '2026-07-21'
 const UPDATED = '2026-10-28'
 const TITLE = 'Harris Bed Bug Killer Review Canada 2026 — Does the Toughest Spray Work, and Is It Even Legal Here?'
 // TITLE NOTE (Oct 28, 2026): was 'Harris Bed Bug Killer Review Canada: 6.9/10'; top queries, Jul 28-Oct 25 (all countries): harris bed bug killer 36 at 7.7, harris bed bug killer canada 28 at 3.5 (shared with /blog/bed-bug-spray-canada, which keeps 'best bed bug killer in canada'), harris toughest bed bug killer 7 at 5.6, harris bed bug and egg killer 2 at 7.0, is harris bed bug killer effective 1 at 1.0 (6 clicks).
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): the 2 Harris buttons (no Harris product in Health Canada's registry, per this page) now open the registered KONK Bed Bug Killer (PCP 31110) this page already recommends, labelled as the registered can instead.
 const META_TITLE = 'Harris Bed Bug Killer in Canada: Is It Legal?'
 
 const FAQS = [
@@ -180,7 +181,7 @@ export default function HarrisBedBugKillerReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Pyrethroid contact/residual chemical</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Weak point</strong> &mdash; resistance undercuts the residual</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Kills what you directly wet; no Harris product is in Health Canada&rsquo;s registry, so none has a PCP number; not a stand-alone fix</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="harris bed bug killer" block>Check price on Amazon.ca &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="konk bed bug killer aerosol" block>A registered can instead: KONK (PCP 31110) &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Desiccant dust<br /><span className="font-normal text-xs text-gray-500">registered diatomaceous earth</span></td>
@@ -272,7 +273,7 @@ export default function HarrisBedBugKillerReviewCanadaPage() {
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability (no Harris product has a Canadian PCP number, so check the label before buying):</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="harris bed bug killer">Harris bed bug killer on Amazon.ca &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="konk bed bug killer aerosol">A registered can instead: KONK Bed Bug Killer (PCP 31110) &rarr;</BuyLink>
             <BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth">Registered DE dust alternative &rarr;</BuyLink>
           </div>
 

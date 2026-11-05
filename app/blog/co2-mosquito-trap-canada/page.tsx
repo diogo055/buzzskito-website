@@ -20,6 +20,7 @@ const DATE = '2026-07-14'
 const UPDATED = '2026-10-28'
 const TITLE = 'CO2 Mosquito Traps in Canada 2026: Biogents vs Propane Traps (No Tank Required)'
 // TITLE NOTE (Oct 28, 2026): kept as is (46 characters, already leads with the top query); top queries: co2 mosquito trap 293, biogents mosquito trap canada 62, biogents mosquito trap 53, mosquito co2 trap 44, c02 mosquito trap 39 (25 clicks across the top 15 queries). The Biogents brand head term belongs to biogents-bg-mosquitaire-mosquito-trap-canada; propane to propane-mosquito-trap-canada.
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): the Biogents lure button (BG-Sweetscent / BG-Lure; no Biogents product in Health Canada's registry, per this page) and the caption that told readers to buy the refill with the trap are gone. BG-Home, BG-GAT and the CO2 booster (traps and hardware; this page does not say a lure comes in the box) are left for the owner's device decision.
 const META_TITLE = 'CO2 Mosquito Traps Canada: Biogents vs Propane'
 
 const FAQS = [
@@ -266,10 +267,6 @@ export default function Co2MosquitoTrapCanadaPage() {
           <p>This is the Mosquito Magnet approach: burn propane through a catalytic converter and you get a strong, steady CO2 plume plus warmth and moisture — a very realistic fake human. The upside is reach: a good propane unit works across roughly an acre. The downside is that combustion is the entire mechanism, so the 20 lb tank is mandatory, and you will swap it about every three weeks all season, plus feed it attractant cartridges. If you want that reach, our <Link href="/blog/propane-mosquito-trap-canada">propane mosquito trap guide</Link> covers the models and the tank math in detail.</p>
           <h3>3. Electric fan + chemical lure (the Biogents way)</h3>
           <p>Here is the &lsquo;no tank required&rsquo; answer people are searching for. Biogents traps run on a wall plug and the BG-Lure — an artificial-skin attractant that reproduces the fatty acids, lactic acid, and ammonia your skin gives off. The fan and lure alone catch mosquitoes with <em>zero</em> CO2. You can optionally clip on the BG-Booster to add a compressed-CO2 cylinder or a managed sugar-yeast generator for heavy-pressure yards, but it is a boost, not a requirement. No combustion, no fuel runs, no tank storage — just a plug and a lure you replace every few months.</p>
-          <p className="not-prose text-sm text-gray-600 mb-2">The lure is the part that runs out mid-season, and an expired cartridge is the most common reason a working trap stops catching. Buy the refill with the trap so you are not waiting on shipping in July.</p>
-          <div className="not-prose mb-6">
-            <BuyLink tag={AMZ_TAG} search="biogents bg-lure refill">Check BG-Sweetscent lures on Amazon.ca (no Canadian registration found) →</BuyLink>
-          </div>
 
           <h2>CO2 Traps Compared: Lures, Registration and What the Research Found</h2>
           <p>Two things decide a Canadian purchase that the shop pages skip: whether the trap and its lure are registered here, and what the trap can honestly do. Every cell below comes from the maker, Health Canada&rsquo;s registry or a university source, named under the table.</p>

@@ -17,6 +17,8 @@ const SLUG = 'ortho-home-defense-canada-review'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
 const TITLE = 'Ortho Home Defense in Canada: Does It Actually Kill Mosquitoes and Ticks?'
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): the 3 table cells for the US-only Ortho products (Home Defense Max: "US only — not PMRA-registered"; Home Defense Insect Killer lawn: "US only"; US Bug B Gon: "US formula — not sold here", per this page) are now plain text. The "Mostly US · limited/none here" mosquito-killer row keeps its button for the owner to decide.
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"), second pass: the "Check BTI mosquito granules" button (search "mosquito bits granules"; Mosquito Bits have no Canadian registration) now searches "summit mosquito dunks" and reads "Check Mosquito Dunks (Reg. No. 28888) on Amazon.ca"; its paragraph gained one sentence: Bits unregistered, Dunks for water that stays on the property and cannot be changed weekly, linking /blog/mosquito-bits-canada-vs-dunks.
 const META_TITLE = 'Ortho Home Defense in Canada: Does It Work?'
 
 const FAQS = [
@@ -139,19 +141,19 @@ export default function OrthoHomeDefenseCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Home Defense Max <span className="font-normal text-xs text-gray-500">(Indoor &amp; Perimeter)</span></td>
                   <td className="px-4 py-3 text-gray-700">Bifenthrin perimeter barrier</td>
                   <td className="px-4 py-3 text-rose-700 font-semibold">US only — not PMRA-registered</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ortho home defense max insect killer" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3 text-xs text-gray-500">Not registered in Canada, so no link</td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Home Defense Insect Killer <span className="font-normal text-xs text-gray-500">(Lawn &amp; Landscape)</span></td>
                   <td className="px-4 py-3 text-gray-700">Bifenthrin yard spray</td>
                   <td className="px-4 py-3 text-rose-700 font-semibold">US only — cosmetic-use ban (ON)</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ortho home defense insect killer lawn" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3 text-xs text-gray-500">US only, so no link</td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Bug B Gon <span className="font-normal text-xs text-gray-500">(US bifenthrin)</span></td>
                   <td className="px-4 py-3 text-gray-700">Insect killer for lawns/gardens</td>
                   <td className="px-4 py-3 text-rose-700 font-semibold">US formula — not sold here</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ortho bug b gon insect killer" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3 text-xs text-gray-500">US formula, not sold here, so no link</td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Bug B Gon ECO <span className="font-normal text-xs text-gray-500">(Canadian line)</span></td>
@@ -249,7 +251,7 @@ export default function OrthoHomeDefenseCanadaPage() {
             <p className="text-sm text-gray-800 leading-relaxed">A can of Ortho Bug B Gon ECO is the right call for a line of ants at the threshold. It is the wrong call for a yard full of mosquitoes or a tick-prone property line — no consumer Ortho SKU sold in Canada is built for either. For whole-yard mosquito <em>and</em> tick control, that is a licensed <Link href="/mosquito-control">barrier treatment</Link> job.</p>
           </div>
 
-          <p>A note on the larvicide half of that stack. Dunks are sized for standing water that sits still for weeks &mdash; a rain barrel, an ornamental pond, a low spot that never quite dries. For a bird bath you refresh every few days, or a plant saucer, the granular form of the same BTI is far easier to dose in small amounts without fishing a half-dissolved disc back out. <BuyLink tag={AMZ_TAG} search="mosquito bits granules">Check BTI mosquito granules on Amazon.ca &rarr;</BuyLink></p>
+          <p>A note on the larvicide half of that stack. Dunks are sized for standing water that sits still for weeks &mdash; a rain barrel, an ornamental pond, a low spot that never quite dries. For a bird bath you refresh every few days, or a plant saucer, the granular form of the same BTI is far easier to dose in small amounts without fishing a half-dissolved disc back out. In Canada, though, Mosquito Bits granules have no registration; Mosquito Dunks (Reg. No. 28888) are registered, for water that stays on your property and cannot be changed weekly, which a bird bath you refresh every few days is not (<Link href="/blog/mosquito-bits-canada-vs-dunks">details</Link>). <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Mosquito Dunks (Reg. No. 28888) on Amazon.ca &rarr;</BuyLink></p>
 
           <RelatedLinks path="/blog/ortho-home-defense-canada-review" />
           <h2>How to Use Ortho Bug B Gon ECO Safely</h2>

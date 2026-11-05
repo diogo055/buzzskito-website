@@ -19,6 +19,7 @@ const DATE = '2026-08-22'
 const UPDATED = '2026-08-22'
 const TITLE = 'Pond Aerators vs Mosquito Larvae: The Canadian Sizing Guide'
 const META_TITLE = 'Pond Aerators vs Mosquito Larvae in Canada'
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): the "Mosquito bits granules" button (search "mosquito bits granules bti"; Bits have no Canadian registration) now searches "summit mosquito dunks" and reads "Mosquito Dunks (Reg. No. 28888)"; the BTI paragraph gained a clause: Bits unregistered, use dunks only in water that stays on the property (it already links /blog/mosquito-bits-canada-vs-dunks).
 
 const FAQS = [
   {
@@ -293,10 +294,10 @@ export default function PondAeratorMosquitoLarvaePage() {
 
           <h2>BTI: The Ten-Dollar Half of the Answer</h2>
           <p>Whatever you run for circulation, <em>Bacillus thuringiensis israelensis</em> handles the water it cannot reach. BTI is a naturally occurring soil bacterium that kills mosquito and black-fly larvae and leaves fish, frogs, dogs, pollinators and people alone &mdash; which is precisely why it is the correct product for a stocked ornamental pond.</p>
-          <p>Dunks are slow-release tablets covering roughly 100 sq ft of surface for about 30 days. Bits are quick-release granules, better for an active outbreak in a skimmer box or a plant tray. Our <Link href="/blog/mosquito-bits-canada-vs-dunks">bits versus dunks comparison</Link> covers which to reach for and where to buy them in Canada. The only habit that matters: a reminder on the first of each month, May through September, plus a re-dose after any downpour heavy enough to overtop the pond.</p>
+          <p>Dunks are slow-release tablets covering roughly 100 sq ft of surface for about 30 days. Bits are quick-release granules, better for an active outbreak in a skimmer box or a plant tray, but Mosquito Bits have no Canadian registration, so in Canada use the dunks (Reg. No. 28888), only in water that stays on your property. Our <Link href="/blog/mosquito-bits-canada-vs-dunks">bits versus dunks comparison</Link> covers which to reach for and where to buy them in Canada. The only habit that matters: a reminder on the first of each month, May through September, plus a re-dose after any downpour heavy enough to overtop the pond.</p>
           <div className="not-prose my-4 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="mosquito dunks bti">Mosquito dunks (BTI) &rarr;</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="mosquito bits granules bti">Mosquito bits granules &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Mosquito Dunks (Reg. No. 28888) &rarr;</BuyLink>
           </div>
 
           <h2>Where to Buy Pond Aeration Gear in Canada</h2>

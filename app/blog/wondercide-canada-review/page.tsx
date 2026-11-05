@@ -2,9 +2,6 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
-import TopPick from '@/components/TopPick'
-import StickyBuyBar from '@/components/StickyBuyBar'
-import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -21,6 +18,7 @@ const DATE = '2026-07-12'
 const UPDATED = '2026-10-28'
 const TITLE = 'Wondercide Canada 2026 — Honest Review + Where to Buy (Does It Work?)'
 // TITLE NOTE (Oct 28, 2026): was 'Wondercide Canada Review 2026: Does It Work?'; top queries, 90 days to Oct 28: wondercide 444 at 7.6 (2 clicks), wondercide canada 294 at 4.8 (7 clicks), wondercide flea and tick spray 97 at 10.0, wondercide flea and tick 71 at 8.4, how to get rid of fleas in house 17 at 1.0, best pet friendly flea spray for home 13 at 1.0, wondercide flea and tick canada 10, wondercide yard spray 10, wondercide canada where to buy 9 (1,055 impressions, 31 clicks).
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): this page says no Wondercide product is in Health Canada's registry and names no registered product with a link, so every amazon.ca Wondercide element is gone: sticky bar, top box, top pick, the 2-button row, the 4 table cells (now plain text), the concentrate button, and two inline "Amazon.ca" links (now plain words). The amazon.com line (UsAmazonLine) for US readers stays; the table intro no longer promises a price check.
 const META_TITLE = 'Wondercide Canada Review 2026: Flea & Tick Spray'
 
 const FAQS = [
@@ -101,15 +99,13 @@ export default function WondercideCanadaReviewPage() {
 
       <AffiliateDisclosure />
       <UsAmazonLine name="Wondercide flea and tick spray" search="wondercide flea and tick spray" />
-      <StickyBuyBar usSearch="wondercide flea and tick spray" tag={AMZ_TAG} name="Wondercide Flea & Tick Spray (cedarwood + lemongrass)" search="wondercide flea and tick spray" label="Reviewed here · not registered in Canada" />
-      <TopBox tag={AMZ_TAG} name="Wondercide Flea & Tick Spray (cedarwood + lemongrass)" search="wondercide flea and tick spray" label="Reviewed here · not registered in Canada" />
 
       <section className="bg-white pt-8 px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
             <p className="text-base text-gray-800 leading-relaxed">
-              <strong>Available but limited, not registered in Canada, and not your only yard tick solution.</strong> Wondercide is a US natural brand built on cedarwood oil (plus lemongrass and sesame oil in the pet sprays), and in Canada it is sold mostly through third-party sellers on <BuyLink tag={AMZ_TAG} search="wondercide flea and tick spray">Amazon.ca</BuyLink> rather than big-box retail, at a premium over US pricing. The cedar-oil formula is sold to kill and repel ticks, fleas, and mosquitoes on contact, but the oils break down within days, so yard use needs frequent reapplication. For whole-yard, long-lasting tick protection, a longer-residual option like permethrin-based treatment or <Link href="/tick-control" className="text-emerald-700 underline">professional barrier spray</Link> is more reliable per dollar &mdash; see our <Link href="/blog/best-tick-repellent-yard-canada" className="text-emerald-700 underline">best tick repellent for yards in Canada</Link> comparison.
+              <strong>Available but limited, not registered in Canada, and not your only yard tick solution.</strong> Wondercide is a US natural brand built on cedarwood oil (plus lemongrass and sesame oil in the pet sprays), and in Canada it is sold mostly through third-party sellers on Amazon.ca rather than big-box retail, at a premium over US pricing. The cedar-oil formula is sold to kill and repel ticks, fleas, and mosquitoes on contact, but the oils break down within days, so yard use needs frequent reapplication. For whole-yard, long-lasting tick protection, a longer-residual option like permethrin-based treatment or <Link href="/tick-control" className="text-emerald-700 underline">professional barrier spray</Link> is more reliable per dollar &mdash; see our <Link href="/blog/best-tick-repellent-yard-canada" className="text-emerald-700 underline">best tick repellent for yards in Canada</Link> comparison.
             </p>
             <p className="mt-2 text-base text-gray-800 leading-relaxed"><strong>Registration check:</strong> Health Canada&rsquo;s pesticide registry lists no Wondercide product, and no current registration with cedarwood or lemongrass oil as an active ingredient (searched October 28, 2026). Health Canada says flea and tick products applied to an animal&rsquo;s skin carry a PCP number on the package, and advises against buying or using any pesticide whose label has none.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
@@ -122,19 +118,6 @@ export default function WondercideCanadaReviewPage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
-        </div>
-      </section>
-
-      <section className="bg-white px-4 py-6">
-        <div className="max-w-4xl mx-auto">
-          <TopPick tag={AMZ_TAG}
-            label="Reviewed Here — Not Registered in Canada"
-            name="Wondercide Flea & Tick Spray (cedarwood + lemongrass + sesame oil)"
-            blurb="The Wondercide product most buyers come for: a ready-to-use cedar-oil spray sold for the dog, the cat's bedding and indoor surfaces as a contact flea and tick spray. It is not registered in Canada: Health Canada's registry lists no Wondercide product, and Health Canada says not to buy or use a pesticide whose label has no PCP registration number. For the pet itself, ask your vet or use a registered product labelled for that species."
-            search="wondercide flea and tick spray"
-            pros={['Cedar-oil formula sold for pets, bedding, and furniture', 'Sold as a contact flea and tick spray', 'Ready-to-use bottle']}
-            cons={['Not registered in Canada: no PCP number on the label', 'Essential oils break down within days — needs frequent reapplication', 'Not a long-residual yard barrier; overwhelmed under heavy pressure']}
-          />
         </div>
       </section>
 
@@ -214,14 +197,8 @@ export default function WondercideCanadaReviewPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices across the Wondercide line (Flea &amp; Tick pet spray, Yard + Garden, personal repellent):</p>
-          <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="wondercide flea and tick spray">Check Flea &amp; Tick price on Amazon.ca →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="wondercide yard and garden">Yard + Garden →</BuyLink>
-          </div>
-
           <h2 id="products">Wondercide Products Compared: Flea &amp; Tick vs Yard + Garden vs Personal</h2>
-          <p>Wondercide is not a single product &mdash; it is a family of cedar-oil sprays for different jobs, and buying the wrong one is the most common mistake. The <strong>Flea &amp; Tick Spray</strong> goes on your pet and indoor surfaces; the <strong>Yard + Garden</strong> line treats the outdoor perimeter; the <strong>personal repellent</strong> goes on you before a hike. Here is every main line sold into Canada, what it is for, and a live Amazon.ca price check:</p>
+          <p>Wondercide is not a single product &mdash; it is a family of cedar-oil sprays for different jobs, and buying the wrong one is the most common mistake. The <strong>Flea &amp; Tick Spray</strong> goes on your pet and indoor surfaces; the <strong>Yard + Garden</strong> line treats the outdoor perimeter; the <strong>personal repellent</strong> goes on you before a hike. Here is every main line sold into Canada and what it is for:</p>
           <div className="not-prose my-6 overflow-x-auto rounded-xl border border-navy-100 shadow-sm">
             <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
@@ -237,37 +214,37 @@ export default function WondercideCanadaReviewPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Flea &amp; Tick Spray</td>
                   <td className="px-4 py-3 text-gray-700">On pets, bedding, indoor surfaces</td>
                   <td className="px-4 py-3 text-gray-700">Cedarwood + lemongrass + sesame oil</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wondercide flea and tick spray" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3 text-xs text-gray-500">Not registered in Canada, so no link</td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Yard + Garden Ready-to-Spray</td>
                   <td className="px-4 py-3 text-gray-700">Hose-end perimeter treatment</td>
                   <td className="px-4 py-3 text-gray-700">Cedar oil blend</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wondercide yard and garden ready to spray" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3 text-xs text-gray-500">Not registered in Canada, so no link</td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Yard + Garden Concentrate</td>
                   <td className="px-4 py-3 text-gray-700">Mixes multiple gallons for larger lots</td>
                   <td className="px-4 py-3 text-gray-700">Cedar oil blend (concentrated)</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wondercide yard and garden concentrate" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3 text-xs text-gray-500">Not registered in Canada, so no link</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Flea, Tick &amp; Mosquito Repellent <span className="font-normal text-xs text-gray-500">(personal)</span></td>
                   <td className="px-4 py-3 text-gray-700">On skin/clothing before outdoor time</td>
                   <td className="px-4 py-3 text-gray-700">Cedarwood / lemongrass / peppermint</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wondercide flea tick mosquito repellent" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3 text-xs text-gray-500">Not registered in Canada, so no link</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <p className="not-prose text-sm text-gray-600 mb-6">Treating a bigger yard? The <strong>Concentrate</strong> mixes multiple gallons, but like every Wondercide product it has no Canadian registration, and you will re-mix and re-apply often through the season. <BuyLink tag={AMZ_TAG} search="wondercide yard and garden concentrate">Check concentrate price →</BuyLink></p>
+          <p className="not-prose text-sm text-gray-600 mb-6">Treating a bigger yard? The <strong>Concentrate</strong> mixes multiple gallons, but like every Wondercide product it has no Canadian registration, and you will re-mix and re-apply often through the season.</p>
 
           <h3>Flea &amp; Tick Spray vs Yard + Garden: which do you need?</h3>
           <p>They solve different problems and are not interchangeable. The <strong>Flea &amp; Tick Spray</strong> is a ready-to-use bottle formulated to go directly on your dog or cat, their bedding, carpets, and furniture &mdash; it is the product most Wondercide fans actually love, because spot-treating a pet and a couch is exactly what a fast-fading cedar-oil spray is good at. The <strong>Yard + Garden</strong> line is a different formula meant for the lawn edges, shrubs, mulch, and shaded resting zones where ticks and mosquitoes live outdoors. If your dog keeps bringing ticks inside, start with the pet spray. If you are getting bitten in your own backyard, you want the Yard + Garden &mdash; but go in knowing you will be re-spraying it frequently.</p>
           <Photo id="brown-dog-ticks-dog-ear" alt="Dog's ear infested with brown dog ticks" caption="A dog's ear infested with brown dog ticks (CDC photograph, 2024). Ticks on the pet are the job the Flea & Tick spray is sold for, but a contact spray does not keep working for weeks." />
 
           <h3>Why Wondercide is hard to buy in Canada</h3>
-          <p>Wondercide has no broad Canadian retail distribution, so most of what you see here is imported. In the US, its essential-oil formulas ride the EPA&rsquo;s 25(b) &ldquo;minimum risk&rdquo; exemption, which lets certain botanical pesticides skip full federal registration. Canada&rsquo;s system is different: pest control products are regulated by Health Canada&rsquo;s PMRA, and there is no automatic blanket exemption that mirrors the US 25(b) list. The practical result is that no Wondercide product, pet or yard, is a registered Canadian pesticide, and you buy them as imported goods through <BuyLink tag={AMZ_TAG} search="wondercide">Amazon.ca</BuyLink> third-party sellers or direct from the US site with duties. Always confirm the seller and check the current listing &mdash; stock and legality of specific SKUs can change.</p>
+          <p>Wondercide has no broad Canadian retail distribution, so most of what you see here is imported. In the US, its essential-oil formulas ride the EPA&rsquo;s 25(b) &ldquo;minimum risk&rdquo; exemption, which lets certain botanical pesticides skip full federal registration. Canada&rsquo;s system is different: pest control products are regulated by Health Canada&rsquo;s PMRA, and there is no automatic blanket exemption that mirrors the US 25(b) list. The practical result is that no Wondercide product, pet or yard, is a registered Canadian pesticide, and you buy them as imported goods through Amazon.ca third-party sellers or direct from the US site with duties. Always confirm the seller and check the current listing &mdash; stock and legality of specific SKUs can change.</p>
           <p>What the registry shows, checked October 28, 2026: Health Canada&rsquo;s Pesticide Product Information Database has no product or registrant named Wondercide, and its only cedarwood-oil and lemongrass-oil entries are cancelled or historical. Health Canada&rsquo;s own position is plain: &ldquo;Unregistered pesticides are illegal in Canada and their safety and effectiveness have not been reviewed by Health Canada,&rdquo; and &ldquo;If the product label does not have a PCP registration number, do not buy or use it.&rdquo; For pets specifically, Health Canada says flea and tick products applied to an animal&rsquo;s skin are registered under the Pest Control Products Act and carry a PCP number on the package.</p>
 
           <div className="not-prose my-6 rounded-xl bg-emerald-50 border-l-4 border-emerald-500 p-5">

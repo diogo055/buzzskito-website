@@ -12,6 +12,7 @@ import { NEW_BLOGS, MOSQUITO_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = NEW_BLOGS[8]
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): the "Check Mosquito Bits" button (search "summit mosquito bits"; Bits have no Canadian registration) now searches "summit mosquito dunks" and reads "Check Mosquito Dunks (Reg. No. 28888) on Amazon.ca"; the sentence before it gained a clause: Bits are unregistered, use dunks only in water that stays on the property, linking /blog/mosquito-bits-canada-vs-dunks.
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Near Ravines & Water',
@@ -120,7 +121,7 @@ export default function MosquitoControlNearWaterPage() {
           <li><strong>Seasonal ponds and drainage swales:</strong> Low areas in your yard that hold water for 5–7 days after rain can be completing larval cycles without being identified as ponds.</li>
         </ul>
         <AffiliateDisclosure />
-        <p>For ornamental ponds, Bti (Bacillus thuringiensis israelensis) mosquito dunks are an effective larval control option — one floating dunk slowly releases Bti for about 30 days. <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Mosquito Dunks on Amazon.ca →</BuyLink> For the shallow low spots and drainage swales that pool for 5&ndash;7 days after rain, granular Mosquito Bits release Bti immediately for a faster larval knockdown. <BuyLink tag={AMZ_TAG} search="summit mosquito bits">Check Mosquito Bits on Amazon.ca →</BuyLink> For stormwater management ponds and drainage features you don&rsquo;t control, the strategy shifts entirely to adult control through barrier spray on your property.</p>
+        <p>For ornamental ponds, Bti (Bacillus thuringiensis israelensis) mosquito dunks are an effective larval control option — one floating dunk slowly releases Bti for about 30 days. <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Mosquito Dunks on Amazon.ca →</BuyLink> For the shallow low spots and drainage swales that pool for 5&ndash;7 days after rain, granular Mosquito Bits release Bti immediately for a faster larval knockdown, but Bits have no Canadian registration, so use the dunks (Reg. No. 28888) there too, only in water that stays on your property (<Link href="/blog/mosquito-bits-canada-vs-dunks" className="text-brand-700">details</Link>). <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Mosquito Dunks (Reg. No. 28888) on Amazon.ca →</BuyLink> For stormwater management ponds and drainage features you don&rsquo;t control, the strategy shifts entirely to adult control through barrier spray on your property.</p>
 
         <TopPick tag={AMZ_TAG}
           label="Best for Standing Water You Control"

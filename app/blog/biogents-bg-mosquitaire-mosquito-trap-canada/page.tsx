@@ -21,6 +21,7 @@ const DATE = '2026-08-22'
 const UPDATED = '2026-10-28'
 const TITLE = 'Biogents BG-Mosquitaire in Canada: CO2 vs Lure-Only, and What It Costs to Run'
 // TITLE NOTE (Oct 28, 2026): was 'Biogents BG-Mosquitaire Trap in Canada'; top queries, 90 days to Oct 28 (all countries): biogents canada 11 at 5.8, biogents mosquito trap canada 10 at 8.1, "bg-home" mosquito trap study 6 at 8.8, biogents 3 at 7.0, mosquitaires 3 at 10.3, bg mosquitaire trap 2 at 6.0 (1 click). co2 mosquito trap stays with co2-mosquito-trap-canada, propane traps with propane-mosquito-trap-canada and best-professional-mosquito-trap-canada.
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): this page says no Biogents trap or lure is in Health Canada's registry and that the BG-Mosquitaire ships with a BG-Sweetscent lure, so the BG-Mosquitaire (lure-only and CO2) and lure buttons are gone: 3 cards (CO2 version, BG-Lure, BG-Sweetscent), 2 table cells (now plain text) and 3 in-text buttons (the lead-in that promised "the trap, and the lure" went with the lure button). BG-GAT and BG-Home (traps; this page does not say a lure comes in the box) are left for the owner's device decision.
 const META_TITLE = 'Biogents Mosquito Trap Canada: BG-Mosquitaire'
 
 const FAQS = [
@@ -140,30 +141,6 @@ export default function BiogentsBgMosquitaireCanadaPage() {
                 cons: ['A 20 lb propane tank every 18 to 21 days', 'Works over weeks, not overnight'],
               },
               {
-                badge: 'Best for Heavy Pressure',
-                name: 'Biogents BG-Mosquitaire CO2 (not registered in Canada)',
-                why: 'The BG-Mosquitaire with a carbon-dioxide plume added, which Biogents says broadens the catch to nearly every species. Biogents includes the regulator, tubing and nozzle; you add the CO2 tank. No Biogents product is in Health Canada’s registry, and a device sold to attract or destroy flying insects needs a Reg. No. (Pest Control Products Regulations, Schedule 1), so check the box for one.',
-                search: 'biogents bg-mosquitaire co2 mosquito trap',
-                pros: ['Greater reach against Culex and similar', 'Still no propane, no flame'],
-                cons: ['Needs a CO2 tank you source locally (Biogents includes the regulator)', 'Ongoing refill cost and a tank to store'],
-              },
-              {
-                badge: 'Check the Lure First',
-                name: 'BG-Lure Cartridge Multipack',
-                why: 'Check which lure your trap takes before you order: Biogents ships the BG-Mosquitaire with a BG-Sweetscent sachet, not a BG-Lure cartridge, and says BG-Sweetscent uses the same formulation as the BG-Lure. No Biogents lure is in Health Canada’s registry, so check the pack for a Reg. No.',
-                search: 'biogents bg-lure replacement cartridge',
-                pros: ['Same skin-scent formulation as BG-Sweetscent (Biogents)', 'Scent lure, no insecticide in the trap'],
-                cons: ['Not the lure Biogents ships with the BG-Mosquitaire', 'Store sealed and cool or it degrades early'],
-              },
-              {
-                badge: 'The Lure It Runs On',
-                name: 'Biogents BG-Sweetscent',
-                why: 'The BG-Mosquitaire’s own lure: Biogents ships the trap with one BG-Sweetscent sachet and says each lasts up to two months, so a May-to-September Ontario season takes about three. No Biogents lure is in Health Canada’s registry, so check the pack for a Reg. No.',
-                search: 'biogents bg-sweetscent lure',
-                pros: ['The lure that ships with the BG-Mosquitaire', 'Up to two months per sachet (Biogents)'],
-                cons: ['About three sachets for May to September', 'No Biogents lure in Health Canada’s registry'],
-              },
-              {
                 badge: 'Best for Cottages',
                 name: 'Biogents BG-GAT (no power required)',
                 why: 'The passive trap that targets pregnant females looking for somewhere to lay. No electricity, no CO2, no fan. Deployed in clusters of three or more it is the right Biogents product for a dock, a cottage, an off-grid site, or anywhere running a mains cord is impractical.',
@@ -182,7 +159,7 @@ export default function BiogentsBgMosquitaireCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Want a trap with a Canadian registration?</strong> The <em>Registered Alternative</em> propane trap: look for Reg. No. 32375 (Patriot Plus) or 29944 (Executive) on the box. <strong>Set on the lure-only BG-Mosquitaire anyway?</strong> No Biogents trap or lure is in Health Canada&rsquo;s registry, so weigh that first; the trap runs on <em>BG-Sweetscent</em>, about three sachets a season. <strong>Backing onto a ravine, pond or wetland, and lure-only was not enough last year?</strong> The <em>Best for Heavy Pressure</em> CO2 version needs a CO2 tank too; Biogents includes the regulator. <strong>Cottage, dock, or nowhere to plug in?</strong> A cluster of <em>Best for Cottages</em> BG-GATs, not a powered trap. <strong>Getting bitten indoors?</strong> That is the <em>Best Indoors</em> BG-Home, a different problem entirely. And if what you actually need is the yard usable <em>this weekend</em>, no trap does that &mdash; that is what <Link href="/mosquito-control">professional barrier spray</Link> is for.
+                <strong>Want a trap with a Canadian registration?</strong> The <em>Registered Alternative</em> propane trap: look for Reg. No. 32375 (Patriot Plus) or 29944 (Executive) on the box. <strong>Set on the lure-only BG-Mosquitaire anyway?</strong> No Biogents trap or lure is in Health Canada&rsquo;s registry, so weigh that first; the trap runs on <em>BG-Sweetscent</em>, about three sachets a season. <strong>Backing onto a ravine, pond or wetland, and lure-only was not enough last year?</strong> The CO2 version needs a CO2 tank too; Biogents includes the regulator. <strong>Cottage, dock, or nowhere to plug in?</strong> A cluster of <em>Best for Cottages</em> BG-GATs, not a powered trap. <strong>Getting bitten indoors?</strong> That is the <em>Best Indoors</em> BG-Home, a different problem entirely. And if what you actually need is the yard usable <em>this weekend</em>, no trap does that &mdash; that is what <Link href="/mosquito-control">professional barrier spray</Link> is for.
               </>
             }
           />
@@ -205,8 +182,8 @@ export default function BiogentsBgMosquitaireCanadaPage() {
               </thead>
               <tbody>
                 {[
-                  { opt: 'BG-Mosquitaire (lure-only)', how: 'Skin-scent lure + convection-style airflow', feed: 'BG-Sweetscent lure, wall power', best: 'Suburban yards with chronic pressure; no Canadian registration found', search: 'biogents bg-mosquitaire mosquito trap' },
-                  { opt: 'BG-Mosquitaire CO2', how: 'Skin-scent lure + CO2 plume', feed: 'Lure, CO2 cylinder refills, wall power', best: 'Ravine, pond and wetland-adjacent lots; no Canadian registration found', search: 'biogents bg-mosquitaire co2 mosquito trap' },
+                  { opt: 'BG-Mosquitaire (lure-only)', how: 'Skin-scent lure + convection-style airflow', feed: 'BG-Sweetscent lure, wall power', best: 'Suburban yards with chronic pressure; no Canadian registration found', search: null },
+                  { opt: 'BG-Mosquitaire CO2', how: 'Skin-scent lure + CO2 plume', feed: 'Lure, CO2 cylinder refills, wall power', best: 'Ravine, pond and wetland-adjacent lots; no Canadian registration found', search: null },
                   { opt: 'CO2 regulator / pressure reducer', how: 'Meters the cylinder into the trap', feed: 'One-time purchase', best: 'Biogents includes one with its CO2 version', search: 'co2 regulator pressure reducer for mosquito trap' },
                   { opt: 'Refillable CO2 cylinder', how: 'Supplies the CO2', feed: 'Refills through the season', best: 'CO2 setups only', search: 'refillable co2 cylinder tank' },
                   { opt: 'Replacement catch bag', how: 'Holds the catch', feed: 'Replace when worn', best: 'Every multi-season owner', search: 'biogents replacement catch bag mosquitaire' },
@@ -220,7 +197,9 @@ export default function BiogentsBgMosquitaireCanadaPage() {
                     <td className="px-4 py-3 text-gray-700">{how}</td>
                     <td className="px-4 py-3 text-gray-700">{feed}</td>
                     <td className="px-4 py-3 text-xs text-gray-600">{best}</td>
-                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check price on Amazon.ca &rarr;</BuyLink></td>
+                    {search
+                      ? <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check price on Amazon.ca &rarr;</BuyLink></td>
+                      : <td className="px-4 py-3 text-xs text-gray-500">Not registered in Canada, so no link</td>}
                   </tr>
                 ))}
               </tbody>
@@ -263,10 +242,8 @@ export default function BiogentsBgMosquitaireCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <p className="not-prose text-sm text-gray-600 mb-1">The two orders that matter &mdash; the trap, and the lure you will need before August:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="mosquito magnet propane mosquito trap">A propane trap instead (look for Reg. No. 32375 or 29944; no Biogents trap is registered) &rarr;</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="biogents bg-lure replacement cartridge">Check BG-Lure cartridges (the BG-Mosquitaire ships with BG-Sweetscent) &rarr;</BuyLink>
           </div>
 
           <h2>What the BG-Mosquitaire Actually Is</h2>
@@ -284,7 +261,6 @@ export default function BiogentsBgMosquitaireCanadaPage() {
           <Photo id="culex-pipiens" alt="Northern house mosquito, Culex pipiens, photographed in Ontario" caption="A northern house mosquito, Culex pipiens, photographed in Ontario, Canada. Biogents says adding CO₂ broadens the catch to nearly every species, not just the tiger mosquitoes the lure-only trap is aimed at." />
           <p>So which do you buy? Our position, based on what actually happens in GTA backyards: <strong>start lure-only.</strong> A standard suburban lot with a fence line and some shrubs is a small enough area that the extra reach buys less than the extra hardware costs, and every CO2 setup adds a cylinder to store, a regulator to fit, and refills to remember. Move up to the CO2 version if your property genuinely backs onto a ravine, a stormwater pond, a creek or a wetland &mdash; a source big enough that you are fighting an incoming population rather than a resident one &mdash; and preferably after a season of lure-only has shown you it is not enough.</p>
           <div className="not-prose my-4 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="biogents bg-mosquitaire co2 mosquito trap">Check the CO2 version (no Canadian registration found) &rarr;</BuyLink>
             <BuyLink tag={AMZ_TAG} search="co2 regulator pressure reducer for mosquito trap">Check CO2 regulators &rarr;</BuyLink>
             <BuyLink tag={AMZ_TAG} search="refillable co2 cylinder tank">Check refillable cylinders &rarr;</BuyLink>
           </div>
@@ -348,7 +324,6 @@ export default function BiogentsBgMosquitaireCanadaPage() {
           <div className="not-prose my-4 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="biogents replacement catch bag mosquitaire">Check replacement catch bags &rarr;</BuyLink>
             <BuyLink tag={AMZ_TAG} search="biogents replacement gauze mosquito trap">Check replacement gauze &rarr;</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="biogents bg-sweetscent lure">Check BG-Sweetscent (no Canadian registration found) &rarr;</BuyLink>
           </div>
 
           <h2>BG-Mosquitaire Buyer&rsquo;s Checklist</h2>

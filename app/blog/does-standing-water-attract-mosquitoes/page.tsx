@@ -16,6 +16,7 @@ const DATE = '2026-07-16'
 const UPDATED = '2026-07-16'
 const TITLE = 'Does Standing Water Attract Mosquitoes? How Fast It Breeds Them'
 const META_TITLE = 'Standing Water Breeds Mosquitoes in 7–10 Days'
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): the "Faster-acting Mosquito Bits" button (search "summit mosquito bits"; Bits have no Canadian registration) now searches "summit mosquito dunks" and reads "Mosquito Dunks (Reg. No. 28888)"; the next sentence gained a clause saying Bits are unregistered and to use Dunks only in water that stays on the property (the same paragraph already links /blog/mosquito-bits-canada-vs-dunks).
 
 const FAQS = [
   {
@@ -233,9 +234,9 @@ export default function StandingWaterMosquitoesPage() {
           <p className="not-prose text-sm text-gray-600 mb-2">Drop one in each rain barrel, pond, or low spot that stays wet, and refresh monthly through the season:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Mosquito Dunks price on Amazon.ca →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="summit mosquito bits">Faster-acting Mosquito Bits →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Mosquito Dunks (Reg. No. 28888) →</BuyLink>
           </div>
-          <p>Dunks are slow-release tablets for long-term water sources; the granular <em>bits</em> version knocks down a larvae outbreak within minutes and suits small or unexpected water. Want the full breakdown of dosing, placement and where to buy them in Canada? See our <Link href="/blog/mosquito-bits-canada-vs-dunks">mosquito bits and dunks guide for Canada</Link>.</p>
+          <p>Dunks are slow-release tablets for long-term water sources; the granular <em>bits</em> version knocks down a larvae outbreak within minutes and suits small or unexpected water, but Mosquito Bits have no Canadian registration, so in Canada use the Dunks (Reg. No. 28888), only in water that stays on your property. Want the full breakdown of dosing, placement and where to buy them in Canada? See our <Link href="/blog/mosquito-bits-canada-vs-dunks">mosquito bits and dunks guide for Canada</Link>.</p>
 
           <NextUp path="/blog/does-standing-water-attract-mosquitoes" />
           <h2>Why standing water matters for health in Ontario</h2>

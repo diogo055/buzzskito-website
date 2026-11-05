@@ -16,6 +16,7 @@ const POST = NEW_BLOGS_2[1]
 const UPDATED = POST.date
 
 const META_TITLE = 'Hidden Mosquito Breeding Spots: 12 in Your Yard'
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): the inline Mosquito Bits button in the ponds section (search "summit mosquito bits"; Bits have no Canadian registration) now searches "summit mosquito dunks" and reads "Mosquito Dunks, Reg. No. 28888", inside one added sentence saying Bits are unregistered and to use dunks only in water that stays on the property (the paragraph already links /blog/mosquito-bits-canada-vs-dunks).
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
@@ -152,7 +153,7 @@ export default function HiddenBreedingSpotsPage() {
         <p>A birdbath not refreshed every 48–72 hours becomes a prime mosquito nursery. Change the water every 2–3 days during peak season. Consider adding a small recirculating pump — moving water cannot support mosquito breeding.</p>
 
         <h3>7. Ornamental Ponds and Water Features</h3>
-        <p>Garden ponds without fish or a recirculating pump are ideal breeding habitat. Add goldfish or mosquito fish (<em>Gambusia affinis</em>) to consume larvae, or treat with BTi mosquito dunks — a bacteria-based larvicide that targets mosquito larvae; follow the label directions. Slow-release dunks like Summit&apos;s (<BuyLink tag={AMZ_TAG} search="summit mosquito dunks">check price on Amazon.ca &rarr;</BuyLink>) treat roughly 100 sq ft of water surface for 30 days, while the granular form — mosquito bits (<BuyLink tag={AMZ_TAG} search="summit mosquito bits">check price on Amazon.ca &rarr;</BuyLink>) — kills larvae within hours and is handy for bird baths, plant saucers, and rain barrels. For dosing, safety, and where to buy across Canada, see our <Link href="/blog/mosquito-bits-canada-vs-dunks" className="text-brand-700 underline">mosquito dunks Canada guide</Link>.</p>
+        <p>Garden ponds without fish or a recirculating pump are ideal breeding habitat. Add goldfish or mosquito fish (<em>Gambusia affinis</em>) to consume larvae, or treat with BTi mosquito dunks — a bacteria-based larvicide that targets mosquito larvae; follow the label directions. Slow-release dunks like Summit&apos;s (<BuyLink tag={AMZ_TAG} search="summit mosquito dunks">check price on Amazon.ca &rarr;</BuyLink>) treat roughly 100 sq ft of water surface for 30 days, while the granular form — mosquito bits — kills larvae within hours and is handy for bird baths, plant saucers, and rain barrels. Mosquito Bits have no Canadian registration, though, so in Canada use the dunks (<BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Mosquito Dunks, Reg. No. 28888 &rarr;</BuyLink>), only in water that stays on your property. For dosing, safety, and where to buy across Canada, see our <Link href="/blog/mosquito-bits-canada-vs-dunks" className="text-brand-700 underline">mosquito dunks Canada guide</Link>.</p>
 
         <TopPick tag={AMZ_TAG}
           label="Best for water you can't drain"

@@ -22,6 +22,7 @@ const DATE = '2026-07-27'
 const UPDATED = '2026-10-28'
 const TITLE = 'How to Get Rid of Ants in Canada — Why Baiting Beats Every Spray in the Aisle'
 // TITLE NOTE (Oct 28, 2026): was 'How to Get Rid of Ants: Bait First (US & Canada)'; top queries (Jul 28-Oct 25): ant pest control 283 (pos 10.7, 0 clicks), ant control 125 (23.4), ant removal 25, ant poison 18. 'ant bait' and 'ant killer' stay with /blog/best-ant-killer, 'ant traps' with /blog/best-ant-traps-canada.
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): Combat ant bait stations (Reg. No. 26467 cancelled in 2006, per this page) lost their 3 buttons: the 'Best for Grease Feeders' card, the table cell (now plain text) and the button row.
 const META_TITLE = 'Ant Pest Control: Get Rid of Ants (Canada & US)'
 
 const FAQS = [
@@ -175,14 +176,6 @@ export default function HowToGetRidOfAntsCanadaPage() {
                 cons: ['Ants get worse before better — the recruitment surge scares people off', 'Dries out; needs replacing every few weeks while in use'],
               },
               {
-                badge: 'Best for Grease Feeders',
-                name: 'Enclosed Solid / Protein Ant Bait Stations (check for a current PCP number)',
-                why: 'Some colonies swing to protein and grease when they are rearing brood, and will walk straight past a sugar bait. Enclosed solid-bait discs cover that half of the menu, are child-resistant, and can sit under the sink or behind the stove without making a mess. The only Combat ant system ever registered in Canada (Reg. No. 26467) was cancelled in 2006, so a Combat box has no current Canadian registration; current home-use ant baits whose registrations list grease-eating ants include Wilson AntOut Ant Bait (28793) and Knock Down Eco Ant Killer Bait (31203). Confirm the PCP number on the label before you buy.',
-                search: 'combat ant killing bait stations',
-                pros: ['Covers the protein/grease preference sugar bait misses', 'Enclosed and child-resistant — designed to sit in a kitchen cupboard', 'Long shelf life; does not dry out like liquid'],
-                cons: ['Ignored entirely by a colony in a sugar-feeding phase', 'Slower uptake than liquid for most house ants', 'Combat’s Canadian registration (26467) was cancelled in 2006 — check for a current PCP number'],
-              },
-              {
                 badge: 'Precision Format (Label-Check First)',
                 name: 'Ant Gel Bait Syringe',
                 why: 'A gel syringe places bait exactly where ants travel — the cabinet seam, the hinge void, the gap where the pipe enters the wall — which a plastic station physically cannot do. The catch is regulatory: many gels marketed to Canadian buyers online are US-market product.',
@@ -201,7 +194,7 @@ export default function HowToGetRidOfAntsCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Standard kitchen or bathroom ant trail?</strong> Buy the <em>Best First Move</em> liquid stations and nothing else &mdash; put them on the trail tonight and then leave everything alone while the colony takes the bait home. <strong>Ants walked past the sugar bait?</strong> Add the <em>Best for Grease Feeders</em> solid stations, with a current PCP number on the label (Combat&rsquo;s Canadian registration was cancelled in 2006); colonies swing between carbohydrate and protein and you want both on offer. <strong>Ants coming out of a cabinet seam or pipe collar?</strong> A gel syringe reaches it &mdash; read the <em>Label-Check First</em> caveat and verify a Canadian PCP number before ordering online. <strong>Colony already dead?</strong> Spend the money on <em>Best Prevention</em> sealing instead of more bait. <strong>Big black ants and sawdust?</strong> Stop shopping &mdash; that is a structural problem, see our <Link href="/blog/carpenter-ants-canada">carpenter ant guide</Link>.
+                <strong>Standard kitchen or bathroom ant trail?</strong> Buy the <em>Best First Move</em> liquid stations and nothing else &mdash; put them on the trail tonight and then leave everything alone while the colony takes the bait home. <strong>Ants walked past the sugar bait?</strong> Add solid protein stations, with a current PCP number on the label (Combat&rsquo;s Canadian registration was cancelled in 2006); colonies swing between carbohydrate and protein and you want both on offer. <strong>Ants coming out of a cabinet seam or pipe collar?</strong> A gel syringe reaches it &mdash; read the <em>Label-Check First</em> caveat and verify a Canadian PCP number before ordering online. <strong>Colony already dead?</strong> Spend the money on <em>Best Prevention</em> sealing instead of more bait. <strong>Big black ants and sawdust?</strong> Stop shopping &mdash; that is a structural problem, see our <Link href="/blog/carpenter-ants-canada">carpenter ant guide</Link>.
               </>
             }
           />
@@ -301,7 +294,7 @@ export default function HowToGetRidOfAntsCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Solid / protein bait<br /><span className="font-normal text-xs text-gray-500">Enclosed discs</span></td>
                   <td className="px-4 py-3 text-gray-700">Covers the grease-and-protein half of the menu when a colony is rearing brood</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Essential backup</strong> &mdash; run it alongside liquid</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="combat ant killing bait stations" block>Check listings (Combat has no current Canadian registration) →</BuyLink></td>
+                  <td className="px-4 py-3 text-xs text-gray-500">Combat has no current Canadian registration, so no link</td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Gel bait syringe<br /><span className="font-normal text-xs text-gray-500">Crack-and-crevice format</span></td>
@@ -391,7 +384,6 @@ export default function HowToGetRidOfAntsCanadaPage() {
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the core kit:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="terro liquid ant baits">Liquid bait stations →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="combat ant killing bait stations">Protein bait stations (Combat: no current Canadian registration) →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="diatomaceous earth insect duster">DE + duster →</BuyLink>
           </div>
 

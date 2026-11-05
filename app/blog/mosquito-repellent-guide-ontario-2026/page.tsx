@@ -18,6 +18,7 @@ const SLUG = 'mosquito-repellent-guide-ontario-2026'
 const DATE = '2026-04-26'
 const UPDATED = '2026-10-23'
 const TITLE = 'Mosquito Repellent Guide — Ontario 2026 (What Actually Works)'
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): the backyard fogger row's Cutter button is now plain text: this page says the US Cutter and Black Flag fogging products are EPA-registered, not PMRA-registered. The repellent-bracelet row keeps its button (this page says bracelets do not protect well, not that they are unregistered): owner's call.
 const META_TITLE = 'Best Mosquito Repellent Canada 2026: Ranked'
 
 const FAQS = [
@@ -229,7 +230,7 @@ export default function MosquitoRepellentGuidePage() {
                   <td className="py-3 pr-4 font-semibold text-gray-900">Backyard fogger (Cutter / Black Flag)</td>
                   <td className="py-3 pr-4">Yard fogger</td>
                   <td className="py-3 pr-4"><strong>Best one-off knockdown</strong> — clears a yard for hours before a party, not weeks. In Canada the fogging insecticide must carry a Health Canada PCP number; US concentrates are EPA-registered only.</td>
-                  <td className="py-3"><BuyLink tag={AMZ_TAG} search="cutter backyard mosquito fogger" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="py-3 text-xs text-gray-500">Not registered in Canada, so no link</td>
                 </tr>
                 <tr>
                   <td className="py-3 pr-4 font-semibold text-gray-900">Repellent bracelet / wristband</td>

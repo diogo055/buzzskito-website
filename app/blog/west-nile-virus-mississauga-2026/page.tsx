@@ -20,6 +20,7 @@ const POST = {
 }
 
 const UPDATED = POST.date
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): the "Check Mosquito Bits" button (search "summit mosquito bits"; Bits have no Canadian registration) now searches "summit mosquito dunks" and reads "Check Mosquito Dunks (Reg. No. 28888) on Amazon.ca"; the sentence before it gained a clause: Bits unregistered, use dunks only in water that stays on the property, linking /blog/mosquito-bits-canada-vs-dunks.
 
 const FAQS = [
   {
@@ -146,7 +147,7 @@ export default function WestNileMississaugaPage() {
 
         <h3>Treat ornamental ponds and water features</h3>
         <AffiliateDisclosure />
-        <p>If you have a backyard pond, fountain, or water feature, either keep the water moving constantly (Culex won\'t breed in moving water) or use Bti products like Mosquito Dunks or Mosquito Bits — they target mosquito larvae; follow the label directions for ponds and water features. One dunk treats up to 100 sq ft of water surface for 30 days. <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Mosquito Dunks on Amazon.ca →</BuyLink> For small containers, rain barrels, and low spots that need a faster knockdown, granular Mosquito Bits release Bti immediately rather than over weeks. <BuyLink tag={AMZ_TAG} search="summit mosquito bits">Check Mosquito Bits on Amazon.ca →</BuyLink></p>
+        <p>If you have a backyard pond, fountain, or water feature, either keep the water moving constantly (Culex won\'t breed in moving water) or use Bti products like Mosquito Dunks or Mosquito Bits — they target mosquito larvae; follow the label directions for ponds and water features. One dunk treats up to 100 sq ft of water surface for 30 days. <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Mosquito Dunks on Amazon.ca →</BuyLink> For small containers, rain barrels, and low spots that need a faster knockdown, granular Mosquito Bits release Bti immediately rather than over weeks, but Bits have no Canadian registration, so in Canada use the dunks (Reg. No. 28888) there too, only in water that stays on your property (<Link href="/blog/mosquito-bits-canada-vs-dunks" className="text-brand-700 underline">details</Link>). <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Mosquito Dunks (Reg. No. 28888) on Amazon.ca →</BuyLink></p>
 
         <TopPick tag={AMZ_TAG}
           label="Best DIY for Standing Water"

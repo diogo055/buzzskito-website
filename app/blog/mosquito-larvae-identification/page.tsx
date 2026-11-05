@@ -19,6 +19,7 @@ import UsAmazonLine from '@/components/UsAmazonLine'
 const SLUG = 'mosquito-larvae-identification'
 const DATE = '2026-04-28'
 const UPDATED = '2026-10-15'
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): the "Mosquito Bits on Amazon.ca" button (search "summit mosquito bits"; Bits have no Canadian registration) now searches "summit mosquito dunks" and reads "Mosquito Dunks (Reg. No. 28888) on Amazon.ca"; the speakable answer above it gained one parenthesis (Dunks, only in water that stays on the property; Bits unregistered). The comparison link to /blog/mosquito-bits-canada-vs-dunks sits beside the button.
 const TITLE = 'Mosquito Larvae — Identification, Look-Alikes & Removal'
 
 const FAQS = [
@@ -314,12 +315,12 @@ export default function MosquitoLarvaePage() {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-3">How do you kill mosquito larvae in standing water?</h2>
           <p className="speakable text-base text-gray-800 leading-relaxed mb-5">
-            <strong>The fastest way to kill mosquito larvae is to drain the water — this kills 100% of larvae instantly and costs nothing.</strong> If the water cannot be drained (a rain barrel, ornamental pond, or drainage ditch), drop in a BTI larvicide such as Mosquito Dunks or Mosquito Bits. BTI is a naturally occurring soil bacterium that kills mosquito larvae within 24 hours, and the U.S. EPA states its toxins affect only mosquito, black fly, and fungus gnat larvae. One dunk treats about 100 square feet of water surface for 30 days, and a pack is one of the cheaper things in the garden aisle at Canadian Tire, Home Depot, or Rona.
+            <strong>The fastest way to kill mosquito larvae is to drain the water — this kills 100% of larvae instantly and costs nothing.</strong> If the water cannot be drained (a rain barrel, ornamental pond, or drainage ditch), drop in a BTI larvicide such as Mosquito Dunks or Mosquito Bits (in Canada, use the Dunks, Reg. No. 28888, only in water that stays on your property: Bits have no Canadian registration). BTI is a naturally occurring soil bacterium that kills mosquito larvae within 24 hours, and the U.S. EPA states its toxins affect only mosquito, black fly, and fungus gnat larvae. One dunk treats about 100 square feet of water surface for 30 days, and a pack is one of the cheaper things in the garden aisle at Canadian Tire, Home Depot, or Rona.
           </p>
           <AffiliateDisclosure />
           <div className="mb-6 flex flex-wrap items-center gap-3">
             <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Mosquito Dunks on Amazon.ca &rarr;</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="summit mosquito bits">Mosquito Bits on Amazon.ca &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Mosquito Dunks (Reg. No. 28888) on Amazon.ca &rarr;</BuyLink>
             <Link href="/blog/mosquito-bits-canada-vs-dunks" className="text-sm font-semibold text-brand-700 hover:text-brand-600">Dunks or Bits? See the comparison &rarr;</Link>
           </div>
           <TopPick tag={AMZ_TAG}

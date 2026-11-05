@@ -20,6 +20,7 @@ const UPDATED = '2026-10-23'
 const TITLE = 'Best Indoor Fly & Mosquito Trap Canada 2026 (Plug-In Buyer’s Guide)'
 // TITLE NOTE (Oct 23, 2026): was 'Best Indoor Fly & Mosquito Trap Canada 2026'; top queries: indoor mosquito trap 76, best indoor mosquito trap 70, best mosquito trap indoor 34, best indoor mosquito traps 15 (10 clicks).
 const META_TITLE = 'Best Indoor Mosquito & Fly Trap in Canada 2026'
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): the BTI granules button (search "mosquito bits bti granules", Mosquito Bits, no Canadian registration) now searches "summit mosquito dunks" (Reg. No. 28888) with a truthful label, and its paragraph gained one sentence: Bits are unregistered, Dunks are for water that stays on the property (not drains or catch basins), linking /blog/mosquito-bits-canada-vs-dunks.
 
 const FAQS = [
   {
@@ -345,9 +346,9 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="window screen repair kit mesh spline">Check screen repair kits on Amazon.ca &rarr;</BuyLink>
           </div>
-          <p>For the water indoors that cannot simply be tipped out — a floor drain, a sump pit, the tray under a dehumidifier, a catch basin that stays wet all summer — BTI is the layer that stops larvae maturing in the house. Granules act on a container within about a day and suit water you refresh often; the slow-release dunks are for water you leave alone for weeks. The label states which water types each one is cleared for.</p>
+          <p>For the water indoors that cannot simply be tipped out — a floor drain, a sump pit, the tray under a dehumidifier, a catch basin that stays wet all summer — BTI is the layer that stops larvae maturing in the house. Granules act on a container within about a day and suit water you refresh often; the slow-release dunks are for water you leave alone for weeks. The label states which water types each one is cleared for. In Canada, Mosquito Bits granules have no registration; Mosquito Dunks (Reg. No. 28888) are registered, for water that stays on your property only, which rules out drains and catch basins that flow off it (<Link href="/blog/mosquito-bits-canada-vs-dunks">details</Link>).</p>
           <div className="not-prose my-4">
-            <BuyLink tag={AMZ_TAG} search="mosquito bits bti granules">Check BTI granules on Amazon.ca &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Mosquito Dunks (Reg. No. 28888) on Amazon.ca &rarr;</BuyLink>
           </div>
           <p>Fruit flies and fungus gnats are the one indoor problem where a trap really is the answer rather than the backup, because the source is a fruit bowl or a pot of damp soil sitting three feet away rather than the whole outdoors. A small vinegar-style fruit fly trap beside the bowl, plus letting the houseplants dry out between waterings, clears them faster than any UV unit across the room.</p>
           <div className="not-prose my-4">

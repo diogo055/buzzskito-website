@@ -24,6 +24,7 @@ const DATE = '2026-07-21'
 const UPDATED = '2026-10-28'
 const TITLE = 'Best Yellow Jacket Traps in Canada — And the Lure Mistake That Leaves Ontario Traps Empty'
 // TITLE NOTE (Oct 28, 2026): was 'Best Yellow Jacket Traps & Bait in Canada'; top queries, Jul 28-Oct 25 (all countries): yellow jacket trap 1,494 at 10.6, yellow jacket traps 434 at 9.7, yellowjacket trap 317 at 9.9, best yellow jacket trap 195 at 6.8, yellow jacket traps that work 77 at 7.3, yellow jacket bait 43 at 6.6 (17 clicks).
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): the RESCUE! W·H·Y Trap (a lure trap; no W·H·Y Trap in Health Canada's registry, per this page) lost its 3 buttons: the 'Best Multi-Species' card is gone, its table cell now opens the registered Disposable Yellowjacket Trap W (PCP 35529) this page already links, and its button in the bottom row is gone.
 const META_TITLE = 'Yellow Jacket Traps & Bait That Work in Canada'
 
 const FAQS = [
@@ -163,14 +164,6 @@ export default function BestYellowJacketTrapCanadaPage() {
                 cons: ['One nationwide lure, similar to the Western disposable formula', 'Targets yellow jackets only, not paper wasps'],
               },
               {
-                badge: 'Best Multi-Species',
-                name: 'RESCUE! WHY Trap (Wasps, Hornets & Yellowjackets)',
-                why: 'One trap, three targets: a dual-chamber design with attractants that pull yellow jackets, paper wasps, and bald-faced hornets together. Not registered in Canada: we found no W·H·Y Trap in Health Canada’s pesticide registry, and a lure trap sold to attract wasps falls under the Pest Control Products Act, so check for a PCP number before you buy one.',
-                search: 'rescue why trap wasp hornet yellow jacket',
-                pros: ['Covers all three stinging-wasp groups', 'Season-long with attractant refills'],
-                cons: ['No Canadian registration found', 'Costs more up front than a single-species trap', 'More attractant components to maintain'],
-              },
-              {
                 badge: 'Best Disposable',
                 name: 'RESCUE! Disposable Yellowjacket Trap W (PCP 35529)',
                 why: 'A pre-baited bag you hang, fill with water, and throw out full. Zero maintenance and modest cost — ideal for a single event weekend or for ringing a rural property without tending cartridges. The registered bag in Canada is the W (PCP 35529), RESCUE!’s western formula; we found no Canadian registration for the East formula (YJTD-E), so check the PCP number on the bag.',
@@ -189,7 +182,7 @@ export default function BestYellowJacketTrapCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Classic late-summer yellow jacket pressure in the GTA?</strong> The <em>Best Overall</em> RESCUE! reusable is the default buy on durability; its cartridge and tube lures are in Health Canada&rsquo;s registry. <strong>Mixed wasp trouble &mdash; paper wasps on the eaves plus yellow jackets at the table?</strong> The <em>Best Multi-Species</em> WHY Trap covers all three, but we found no Canadian registration for it, so check for a PCP number first (our <Link href="/blog/rescue-why-trap-review-canada">full WHY Trap review</Link> covers it in depth). <strong>One long weekend or a cottage you visit monthly?</strong> Hang a few <em>Best Disposable</em> bags and bin them full; the registered one is the W (PCP 35529). <strong>Enjoy tinkering?</strong> A <em>Refillable bottle trap</em> plus the seasonal bait switch below out-catches lazy cartridge use &mdash; but only if you keep the bait fresh, and check its listing for a PCP number.
+                <strong>Classic late-summer yellow jacket pressure in the GTA?</strong> The <em>Best Overall</em> RESCUE! reusable is the default buy on durability; its cartridge and tube lures are in Health Canada&rsquo;s registry. <strong>Mixed wasp trouble &mdash; paper wasps on the eaves plus yellow jackets at the table?</strong> The WHY Trap covers all three, but we found no Canadian registration for it, so check for a PCP number first (our <Link href="/blog/rescue-why-trap-review-canada">full WHY Trap review</Link> covers it in depth). <strong>One long weekend or a cottage you visit monthly?</strong> Hang a few <em>Best Disposable</em> bags and bin them full; the registered one is the W (PCP 35529). <strong>Enjoy tinkering?</strong> A <em>Refillable bottle trap</em> plus the seasonal bait switch below out-catches lazy cartridge use &mdash; but only if you keep the bait fresh, and check its listing for a PCP number.
               </>
             }
           />
@@ -251,7 +244,7 @@ export default function BestYellowJacketTrapCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Multi-attractant, dual chamber</td>
                   <td className="px-4 py-3 text-gray-700">Yes &mdash; with refill kits</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Mixed pressure when you can&rsquo;t ID the wasp</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue why trap wasp hornet yellow jacket" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue disposable yellowjacket trap" block>Registered pick instead: Trap W, yellowjackets only (PCP 35529) →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">RESCUE! Disposable bag<br /><span className="font-normal text-xs text-gray-500">pre-baited, add water</span></td>
@@ -275,7 +268,6 @@ export default function BestYellowJacketTrapCanadaPage() {
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="rescue reusable yellowjacket trap">RESCUE! reusable trap →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="rescue why trap wasp hornet yellow jacket">RESCUE! WHY Trap (no Canadian registration found) →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="rescue disposable yellowjacket trap">Disposable bag traps →</BuyLink>
           </div>
 

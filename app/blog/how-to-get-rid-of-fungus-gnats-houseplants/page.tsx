@@ -5,8 +5,6 @@ import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AwardRow from '@/components/AwardRow'
-import StickyBuyBar from '@/components/StickyBuyBar'
-import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
@@ -20,6 +18,7 @@ const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'How to Get Rid of Fungus Gnats in Houseplants — The Fix That Actually Works'
 const META_TITLE = 'Fungus Gnats in Houseplants: The 3-Step Fix'
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): all 5 Mosquito Bits elements (search "summit mosquito bits") are REMOVED, not switched to Dunks: Bits have no Canadian registration, and per /blog/mosquito-bits-canada-vs-dunks no registered Canadian BTI label (Dunks 28888, AquaBac 200G 27374, My-Crobe 200G 34631) lists fungus gnats, and the Dunks label calls off-label use an offence, so a Dunks button here would sell an off-label use. Gone: the sticky bar and top box (imports removed), the "The Larval Kill" card, the methods-table cell (now plain text), and the Step 3 button. Added: one sentence each in the Quick Answer, "which to buy" and under the table (Bits unregistered, no Canadian BTI label lists fungus gnats, link to the bits-vs-dunks page); Step 3's "it is not [banned], it is a supply hiccup" now says BTI is not banned but the registry lists no Mosquito Bits.
 
 const FAQS = [
   {
@@ -109,14 +108,12 @@ export default function FungusGnatsHouseplantsPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Bits (BTI larvicide granules)" search="summit mosquito bits" label="The larval kill" />
-      <TopBox tag={AMZ_TAG} name="Summit Mosquito Bits (BTI larvicide granules)" search="summit mosquito bits" label="The larval kill" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">To get rid of fungus gnats in houseplants, attack both life stages at once: hang yellow sticky cards to remove the egg-laying adults, and water with a BTI larvicide (Summit Mosquito Bits steeped in your watering can) to kill the larvae living in the top few centimetres of potting soil. Let the top 3&ndash;5 cm of soil dry fully between waterings &mdash; overwatering is what created the habitat &mdash; and switch to bottom-watering so the surface stays dry. Run the combo for 2&ndash;3 weeks and the infestation collapses within one life cycle.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">To get rid of fungus gnats in houseplants, attack both life stages at once: hang yellow sticky cards to remove the egg-laying adults, and water with a BTI larvicide (Summit Mosquito Bits steeped in your watering can) to kill the larvae living in the top few centimetres of potting soil. Let the top 3&ndash;5 cm of soil dry fully between waterings &mdash; overwatering is what created the habitat &mdash; and switch to bottom-watering so the surface stays dry. Run the combo for 2&ndash;3 weeks and the infestation collapses within one life cycle. In Canada, Mosquito Bits have no registration and none of the registered BTI labels lists fungus gnats (<Link href="/blog/mosquito-bits-canada-vs-dunks" className="text-emerald-700 underline">details</Link>), so there the tools that need no pesticide label are the watering fix and the sticky cards.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Fungus gnat larvae live in the top 3&ndash;5 cm of moist soil eating fungi, decaying matter &mdash; and, in heavy infestations, root hairs.</li>
               <li>Adults live only about a week; the infestation persists because soil larvae produce a new wave every few days.</li>
@@ -137,15 +134,6 @@ export default function FungusGnatsHouseplantsPage() {
             heading="The Fungus Gnat Kit — What Actually Earns a Spot"
             awards={[
               {
-                badge: 'The Larval Kill',
-                name: 'Summit Mosquito Bits (BTI granules)',
-                why: 'The tool that ends the infestation rather than trimming it. Steep the granules in your watering can and every watering delivers BTI to the larvae in the soil — the stage every other quick fix misses. A small container treats a whole plant collection for many rounds.',
-                search: 'summit mosquito bits',
-                featured: true,
-                pros: ['Kills the larvae — the actual source of new gnats', 'Targets gnat/mosquito larvae only; safe around kids, pets, and the plants themselves', 'One inexpensive container lasts a full multi-week protocol and beyond'],
-                cons: ['Takes 2–3 weeks of repeat waterings to break the full cycle', 'Granules top-dressed on soil can grow a harmless (but alarming) white fuzz'],
-              },
-              {
                 badge: 'Monitor + Knockdown',
                 name: 'Yellow Sticky Trap Cards (multi-pack)',
                 why: 'Fungus gnat adults are strongly drawn to yellow. Cards staked at soil level remove egg-laying adults on contact and double as your scoreboard — a fresh card that stays clean for a week is how you know you have won.',
@@ -164,7 +152,7 @@ export default function FungusGnatsHouseplantsPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Everyone with an active infestation</strong> should run the same core combo: <em>Mosquito Bits</em> in the watering can plus <em>yellow sticky cards</em> at soil level &mdash; larval kill plus adult knockdown, for less than the cost of replacing one dead plant. <strong>Gnats drifting through the whole room, or a big plant collection?</strong> Add the <em>Katchy</em> to sweep adults from the air overnight &mdash; our <Link href="/blog/katchy-indoor-insect-trap-review-canada">full Katchy review</Link> covers where it shines and where it doesn&rsquo;t. <strong>Only seeing one or two gnats a week?</strong> Skip the device, buy the cards and Bits, and fix the watering habit below &mdash; that is the actual cure.
+                <strong>Everyone with an active infestation</strong> should run the same core combo: <em>Mosquito Bits</em> in the watering can plus <em>yellow sticky cards</em> at soil level &mdash; larval kill plus adult knockdown, for less than the cost of replacing one dead plant. In Canada, Bits have no registration and no registered BTI label lists fungus gnats, so the Canadian combo is the watering fix plus the cards. <strong>Gnats drifting through the whole room, or a big plant collection?</strong> Add the <em>Katchy</em> to sweep adults from the air overnight &mdash; our <Link href="/blog/katchy-indoor-insect-trap-review-canada">full Katchy review</Link> covers where it shines and where it doesn&rsquo;t. <strong>Only seeing one or two gnats a week?</strong> Skip the device, buy the cards and Bits, and fix the watering habit below &mdash; that is the actual cure.
               </>
             }
           />
@@ -202,7 +190,7 @@ export default function FungusGnatsHouseplantsPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> — biological kill of every larva that feeds on treated soil</td>
                   <td className="px-4 py-3 text-gray-700">No</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">The actual fix</strong> — repeat for 2&ndash;3 weeks to break the cycle</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="summit mosquito bits" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3 text-xs text-gray-400">Not registered in Canada, so no link</td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Yellow sticky cards<br /><span className="font-normal text-xs text-gray-500">Staked at soil level</span></td>
@@ -243,7 +231,7 @@ export default function FungusGnatsHouseplantsPage() {
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-3">
-            In Canada, Mosquito Bits and yellow sticky cards are stocked at Canadian Tire, Home Depot Canada, Rona, garden centres, and Amazon.ca; in the US at the same big-box equivalents and Amazon.com. If a specific listing is out of stock it is a supply hiccup, not a ban &mdash; BTI products are approved for residential use on both sides of the border.
+            In Canada, Mosquito Bits and yellow sticky cards are stocked at Canadian Tire, Home Depot Canada, Rona, garden centres, and Amazon.ca; in the US at the same big-box equivalents and Amazon.com. If a specific listing is out of stock it is a supply hiccup, not a ban &mdash; BTI products are approved for residential use on both sides of the border. Mosquito Bits themselves, though, have no Canadian registration, and none of the registered Canadian BTI labels lists fungus gnats (<Link href="/blog/mosquito-bits-canada-vs-dunks" className="underline">details</Link>).
           </p>
         </div>
       </section>
@@ -309,12 +297,9 @@ export default function FungusGnatsHouseplantsPage() {
 
           <h2>Step 3 — Kill the Larvae: BTI, the Actual Fix</h2>
           <p>BTI &mdash; <em>Bacillus thuringiensis israelensis</em> &mdash; is a naturally occurring soil bacterium and one of the most precisely targeted pest controls ever brought to market. When the larvae of fungus gnats, mosquitoes, and blackflies ingest it, a protein specific to their gut chemistry destroys the gut lining and the larva dies within hours to a day. That protein does nothing to humans, cats, dogs, birds, fish, earthworms, bees, or plants &mdash; the mode of action simply does not exist outside those larval guts. This specificity is why BTI is approved for residential use by Health Canada&rsquo;s Pest Management Regulatory Agency and the US EPA alike, and why the same bacterium is trusted in some jurisdictions&rsquo; drinking-water reservoirs. Whatever product you buy, the label is your contract: in Canada, look for the PCP registration number on the package and follow its houseplant directions rather than a stranger&rsquo;s recipe &mdash; including ours &mdash; where they differ.</p>
-          <p>The most widely available consumer BTI product on both sides of the border is <strong>Summit Mosquito Bits</strong> &mdash; BTI-coated corn-cob granules sold in the familiar orange-and-green container at Canadian Tire, Home Depot, Rona, garden centres, and Amazon in Canada, and the equivalent big-box stores in the US. (Periodic stock gaps on specific listings cause a recurring &ldquo;is this banned?&rdquo; rumour in Canada; it is not &mdash; it is a supply hiccup. Our <Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits vs Dunks guide</Link> covers Canadian retail availability in detail.)</p>
+          <p>The most widely available consumer BTI product on both sides of the border is <strong>Summit Mosquito Bits</strong> &mdash; BTI-coated corn-cob granules sold in the familiar orange-and-green container at Canadian Tire, Home Depot, Rona, garden centres, and Amazon in Canada, and the equivalent big-box stores in the US. (Periodic stock gaps on specific listings cause a recurring &ldquo;is this banned?&rdquo; rumour in Canada; BTI is not banned, but Health Canada&rsquo;s pesticide registry lists no Mosquito Bits, so they have no Canadian registration, and none of the registered Canadian BTI labels lists fungus gnats. Our <Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits vs Dunks guide</Link> covers Canadian retail availability in detail.)</p>
           <p>For houseplants, use the <strong>steep method</strong>: add about four tablespoons of Bits per gallon (roughly four litres) of water, let them soak for thirty minutes so the BTI releases into the water, strain out the granules if you like, and water your plants normally with it. Every watering now delivers the larvicide directly into the larval feeding zone. The alternative is top-dressing granules onto the soil and watering through them &mdash; it works, but the corn-cob carrier sometimes sprouts a harmless white fuzz as it breaks down, which tends to cause more panic than the gnats did. The slower-release sibling product, Mosquito Dunks, can also be broken into quarters and steeped the same way; our <Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits vs Dunks guide</Link> covers when the 30-day format makes more sense.</p>
           <p><strong>The critical detail: repeat for two to three weeks.</strong> BTI kills larvae &mdash; not eggs, not pupae, not adults. On day one, every larva feeding in treated soil dies, but eggs keep hatching for days and pupae keep emerging as adults for a week or more. Treat with every watering for two to three weeks and each new hatch meets lethal soil the moment it starts feeding. Seeing some adults in week two is not failure; it is the tail of the pipeline emptying. The sticky-card scoreboard will show the curve bending.</p>
-          <div className="not-prose my-4">
-            <BuyLink tag={AMZ_TAG} search="summit mosquito bits">Check Mosquito Bits on Amazon →</BuyLink>
-          </div>
 
           <h2>The Sand Top-Dress: An Honest Verdict</h2>
           <p>The most-shared fungus gnat tip on plant social media is a centimetre of sand or decorative gravel on the soil surface: adults supposedly cannot lay through the dry barrier, larvae supposedly cannot emerge. The logic is genuinely sound &mdash; and in practice it usually fails, for reasons that are obvious in hindsight. A thin sand layer cracks as soil shrinks and swells, pulls away from the pot rim leaving a perfect egg-laying moat, and wicks moisture upward so its underside stays damp. And fungus gnats do not need the front door anyway: females will happily lay through the <strong>drainage holes</strong> at the bottom of the pot, where the soil is dampest of all. Add that a top-dress makes the finger-test of soil moisture impossible &mdash; encouraging exactly the blind-schedule watering that causes gnats &mdash; and the verdict writes itself. A deep layer (2&ndash;3 cm) of coarse, sharp, fast-draining grit can contribute as one layer of a real protocol; as a standalone cure, it earns its reputation among frustrated plant owners, not its reputation on social media.</p>
@@ -368,8 +353,10 @@ export default function FungusGnatsHouseplantsPage() {
           </div>
         </div>
         <AdjacentPestCTA pest="ants" />
-        <ReadNext path="/blog/how-to-get-rid-of-fungus-gnats-houseplants" />
       </article>
+      {/* standalone since Nov 5, 2026: the page lost its Mosquito Bits sticky bar, so it now carries the fixed
+          "next article" bar, which ReadNext renders only in standalone mode at the top level of the page */}
+      <ReadNext path="/blog/how-to-get-rid-of-fungus-gnats-houseplants" standalone />
     </>
   )
 }

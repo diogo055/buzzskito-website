@@ -22,6 +22,7 @@ const DATE = '2026-07-21'
 const UPDATED = '2026-10-23'
 const TITLE = 'Best Rodent Repellent for Cars in Canada — Tape vs Strobe vs Peppermint vs Traps'
 // TITLE NOTE (Oct 23, 2026): was 'Best Car Rodent Repellent Canada: Tape vs Strobe' (Sep 3 title test, data/exp-title-test.json: Canadian CTR 0.81% Aug 6-Sep 2, 0.47% Sep 24-Oct 21); top queries, 90 days to Oct 23: best rodent repellent for car engines 338 at 5.4, rodent repellent for cars 292 at 7.9, rodent deterrent for cars 230 at 7.8, mouse repellent for car 138 at 8.6, best rodent repellent for cars 120 at 8.7, car rodent repellent 115 at 7.3.
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): peppermint-oil rodent repellent pouches (a repellent; "Not a registered repellent: Health Canada's registry lists no peppermint rodent repellent", per this page) lost their 4 buttons: the 'Best Natural' card, the table cell (now plain text), the button row (its caption now says three picks) and the button under the peppermint section. The capsaicin tape and the under-hood unit are left for the owner (this page calls the tape's status unclear; the unit is a device).
 const META_TITLE = 'Best Rodent Repellent for Car Engines in Canada'
 
 const FAQS = [
@@ -166,14 +167,6 @@ export default function BestRodentRepellentForCarsCanadaPage() {
                 cons: ['Rodents habituate to ultrasound; treat as a layer, not a fix', 'Batteries die in deep cold — check monthly in winter'],
               },
               {
-                badge: 'Best Natural',
-                name: 'Peppermint-Oil Repellent Pouches',
-                why: 'Concentrated peppermint sachets for the cabin, trunk, and engine bay. Real aversion at high concentration, but the honest read is that the effect fades within weeks as the oil evaporates — the weakest evidence of our four picks, and priced accordingly. Not a registered repellent: Health Canada’s registry lists no peppermint rodent repellent, so check the PCP number on any product you buy.',
-                search: 'peppermint oil rodent repellent pouches',
-                pros: ['Pleasant for humans, no residue on parts', 'Easy to place in cabin, trunk, and glovebox', 'Reasonable supplementary layer for stored vehicles'],
-                cons: ['Weakest field evidence on this page', 'Needs refreshing monthly — faded pouches do nothing'],
-              },
-              {
                 badge: 'Best Backstop',
                 name: 'Victor Snap Traps (Perimeter Duty)',
                 why: 'The classic wood snap trap, deployed around the parking spot — garage walls, foundation lines, beside the tires — to remove the local mice before they ever climb into the bay. Population control is the layer no repellent replaces.',
@@ -184,7 +177,7 @@ export default function BestRodentRepellentForCarsCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Daily driver parked outside or in a garage?</strong> Wrap the harness with the <em>Best Overall</em> capsaicin tape once and you are protected all year. <strong>Cottage car, seasonal vehicle, or winter storage?</strong> Tape first, then add the <em>Best Set-and-Forget</em> strobe unit and <em>Best Natural</em> pouches in the cabin — sitting vehicles need layers. <strong>Seeing droppings in the garage already?</strong> Start with the <em>Best Backstop</em> snap traps along the walls, because repellents deter arrivals, they do not evict residents. The full prevention playbook — parking habits, food rules, exclusion — lives in our <Link href="/blog/how-to-keep-mice-out-of-your-car">guide to keeping mice out of your car</Link>.
+                <strong>Daily driver parked outside or in a garage?</strong> Wrap the harness with the <em>Best Overall</em> capsaicin tape once and you are protected all year. <strong>Cottage car, seasonal vehicle, or winter storage?</strong> Tape first, then add the <em>Best Set-and-Forget</em> strobe unit and peppermint pouches in the cabin — sitting vehicles need layers. <strong>Seeing droppings in the garage already?</strong> Start with the <em>Best Backstop</em> snap traps along the walls, because repellents deter arrivals, they do not evict residents. The full prevention playbook — parking habits, food rules, exclusion — lives in our <Link href="/blog/how-to-keep-mice-out-of-your-car">guide to keeping mice out of your car</Link>.
               </>
             }
           />
@@ -229,7 +222,7 @@ export default function BestRodentRepellentForCarsCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">High-concentration mint scent is aversive &mdash; until it evaporates</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-red-700">Weakest</strong> &mdash; real but short-lived; supplementary only</td>
                   <td className="px-4 py-3 text-gray-700">Replace monthly, without fail</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="peppermint oil rodent repellent pouches" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3 text-xs text-gray-500">Not registered in Canada, so no link</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Perimeter snap traps<br /><span className="font-normal text-xs text-gray-500">Victor wood traps, around the car</span></td>
@@ -292,11 +285,10 @@ export default function BestRodentRepellentForCarsCanadaPage() {
           <p>The market structure is easy to see once you sort it by mechanism. Taste deterrents (the tape) punish the chew itself and do not fade into background smell. Light-and-sound units attack the engine bay&rsquo;s appeal as dark shelter, with honestly mixed evidence. Scent products (peppermint) are aversive but evaporate. And traps do the one thing no repellent can — reduce the number of mice in your garage in the first place. A serious defence, especially for a vehicle heading into Canadian winter storage, stacks the layers rather than betting on one.</p>
           <p>This guide is the product-picking companion to our <Link href="/blog/how-to-keep-mice-out-of-your-car">how to keep mice out of your car</Link> playbook, which covers the parking habits, food rules, and inspection routine around the gear. Here we rank the gear itself.</p>
 
-          <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four picks:</p>
+          <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the three picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="rodent deterrent tape capsaicin">Capsaicin deterrent tape →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="under hood rodent repeller battery">Under-hood strobe unit →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="peppermint oil rodent repellent pouches">Peppermint pouches →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="victor mouse trap 4 pack">Victor snap traps →</BuyLink>
           </div>
 
@@ -339,9 +331,6 @@ export default function BestRodentRepellentForCarsCanadaPage() {
           <h2>Peppermint Pouches: The Natural Option, Rated Honestly</h2>
           <p>Peppermint-oil pouches are the most pleasant product on this page and the weakest, and we are going to say the second part louder than the packaging does. The underlying effect is real: at high concentration in a confined space, peppermint oil is genuinely aversive to rodents, whose survival depends on a sense of smell we can barely imagine. The problem is arithmetic — the effect exists only while the concentration stays high, and essential oils evaporate. In an engine bay that heat-cycles every drive, a sachet can fade from &ldquo;aversive&rdquo; to &ldquo;background&rdquo; in one to two weeks. Field results are correspondingly inconsistent, and a cold, motivated November mouse will walk straight past a three-week-old pouch.</p>
           <p>Where they earn their spot: the cabin and trunk of a stored vehicle, where air exchange is low and scent lingers longest, and where you would rather not put anything that drips, shocks, or snaps. Use them as the third layer, replace them monthly without fail (set the reminder — a faded pouch is a placebo), and if a pouch or spray you are considering makes an explicit rodent-repellent claim, check the label for a PCP registration number before buying; more on that below.</p>
-          <div className="not-prose my-4">
-            <BuyLink tag={AMZ_TAG} search="peppermint oil rodent repellent pouches">Check peppermint pouches on Amazon.ca →</BuyLink>
-          </div>
           <p>One branded pouch gets its own explainer: our US guide to <Link href="/blog/vamoose-for-mice">Vamoose for mice</Link> sets out what is in each formula and what the published research on plant-oil rodent repellents shows.</p>
 
           <RelatedLinks path="/blog/best-rodent-repellent-for-cars-canada" />

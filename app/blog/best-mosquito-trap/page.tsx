@@ -19,6 +19,7 @@ const DATE = '2026-07-12'
 const UPDATED = '2026-10-29'
 const TITLE = 'Best Mosquito Trap Canada 2026 — Propane vs UV vs CO₂ Compared'
 // TITLE NOTE (Oct 29, 2026): was 'Best Mosquito Trap Canada 2026: Propane vs UV'; top queries, Jul 29-Oct 26 (all countries): mosquito trap 345 at 10.4 (2 clicks), best mosquito trap 28 at 7.7, best mosquito traps 7 at 16.7, mosquito trap uv 6 at 2.3 (1), most effective mosquito traps 3 at 4.3 (1). 'commercial mosquito trap' left to /blog/best-professional-mosquito-trap-canada, propane searches to /blog/propane-mosquito-trap-canada, 'co2 mosquito trap' to /blog/co2-mosquito-trap-canada, 'best indoor mosquito trap' to /blog/best-indoor-fly-mosquito-trap-canada.
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): the Biogents BG-Mosquitaire (a fan trap baited with the BG-Sweetscent lure; no Biogents product in Health Canada's registry, per this page) lost its 2 buttons: the 'Best Mid-Price' card and the table cell (now plain text). DynaTrap and Katchy (light traps, no lure) are left for the owner's device decision.
 const META_TITLE = 'Best Mosquito Trap Canada: What Actually Works'
 
 const FAQS = [
@@ -137,14 +138,6 @@ export default function BestMosquitoTrapCanadaPage() {
                 cons: ['Premium up-front cost', 'Ongoing propane + attractant cost'],
               },
               {
-                badge: 'Best Mid-Price',
-                name: 'Biogents BG-Mosquitaire (not registered in Canada)',
-                why: 'A fan trap baited with BG-Sweetscent, which Biogents says mimics human skin scent and lasts up to two months a sachet (CO₂ from a tank is optional); it vacuums in host-seeking females — better mosquito targeting than UV. No Biogents product is in Health Canada’s registry, and a device sold to attract or destroy flying insects needs a Reg. No. (Pest Control Products Regulations, Schedule 1), so check the box for one.',
-                search: 'biogents mosquitaire co2 trap',
-                pros: ['Mosquito-specific catch', 'Cheaper than propane', 'Runs on mains power, no propane (Biogents)'],
-                cons: ['Not registered in Canada (no Biogents record)', 'A new BG-Sweetscent sachet about every two months', 'Covers less area than a whole-yard barrier spray'],
-              },
-              {
                 badge: 'Best Budget',
                 name: 'DynaTrap UV + Fan Trap (not registered in Canada)',
                 why: 'Cheap and satisfying to empty, and fine as a supplemental flying-insect catcher — but UW–Madison detected no CO₂ from DynaTraps, so treat it as a bonus, not a solution. No DynaTrap model is in Health Canada’s registry, and a device sold to attract or destroy flying insects needs a Reg. No. (Pest Control Products Regulations, Schedule 1), so check the box for one.',
@@ -163,7 +156,7 @@ export default function BestMosquitoTrapCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Rural acreage or a cottage near water?</strong> The <em>Best Overall</em> propane trap earns its keep, and it is the one pick here with a Canadian Reg. No. (32375). <strong>Suburban lot on a budget?</strong> The <em>Best Mid-Price</em> skin-scent trap gives mosquito-specific catch for less, but no Biogents product is in Health Canada&rsquo;s registry, so weigh that first. <strong>Just want something cheap on the deck?</strong> The <em>Best Budget</em> DynaTrap is a flying-insect catcher, not a mosquito fix, and no DynaTrap model is registered here either. For whole-yard treatment that can also target ticks where they wait, look at <Link href="/mosquito-control">professional barrier spray</Link>.
+                <strong>Rural acreage or a cottage near water?</strong> The <em>Best Overall</em> propane trap earns its keep, and it is the one pick here with a Canadian Reg. No. (32375). <strong>Suburban lot on a budget?</strong> A skin-scent trap gives mosquito-specific catch for less, but no Biogents product is in Health Canada&rsquo;s registry, so weigh that first. <strong>Just want something cheap on the deck?</strong> The <em>Best Budget</em> DynaTrap is a flying-insect catcher, not a mosquito fix, and no DynaTrap model is registered here either. For whole-yard treatment that can also target ticks where they wait, look at <Link href="/mosquito-control">professional barrier spray</Link>.
               </>
             }
           />
@@ -201,7 +194,7 @@ export default function BestMosquitoTrapCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">BG-Sweetscent lure mimics human skin scents; CO₂ from a cylinder is optional; fan suction</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> — targets host-seeking females</td>
                   <td className="px-4 py-3 font-mono text-gray-800">$200 – $500</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="biogents mosquitaire co2 trap" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3 text-xs text-gray-500">Not registered in Canada, so no link</td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">UV + fan<br /><span className="font-normal text-xs text-gray-500">DynaTrap, bug zappers</span></td>

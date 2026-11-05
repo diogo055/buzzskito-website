@@ -313,7 +313,7 @@ Ranked by expected clicks x value (`research_notes/God plan 10k a day/new_pages.
   - **Indexing:** Search Console said "Quota exceeded" for Nov 4, so the six Nov 4 and six Nov 5 URLs head the queue.
 - **2026-11-05, second batch the same night** (owner: "do number 2, 3 and 4 right now"; also "we could just request the pages to be indexed tomorrow manually"):
   - **Indexing:** the quota had reset by 9:28 pm Toronto. I requested by hand in his Chrome the six US buying guides, voles and lone-star-tick, and a recrawl of the bug-bite identifier. yellow-jackets was already indexed. best-cockroach-gel-bait was indexed about 15 minutes after its request and drew a burst of Indian phone readers (8:45 am there).
-  - **Reviewed:** the owner read the six Nov 5 guides, so `OWNER_REVIEWED_THROUGH` is now 2026-11-05.
+  - **Reviewed:** the owner read the six Nov 5 guides; each carries its own `reviewedBy`/`reviewedOn` (`OWNER_REVIEWED_THROUGH` stays 2026-11-04, so pages he has not read never say "Reviewed by").
   - **Merges done** (report: scratchpad `merges-nov5.md`): 23 pages into 12 survivors, with 23 301s in `next.config.mjs` and links repointed on 46 pages (9 US guides amended).
     - Dehumidifiers kept two survivors (large-capacity and cold-garage), because the garage page has its own demand.
     - wasp-dust went into ground-wasps; best-bed-bug-powder into cimexa; mosquito-dunks-guide into mosquito-bits; cockroach-killer into cockroach-spray.
@@ -325,6 +325,14 @@ Ranked by expected clicks x value (`research_notes/God plan 10k a day/new_pages.
     - 11 rewrites applied tonight, for about +27 clicks a month now and +68 a summer month in total.
     - Waiting: 7 that drop "Ontario/Canada" (after the Nov 20-23 geo read), 4 spring swaps (Mar 15 and Apr 1), 6 optional ones for a held test, and 14 service-page suggestions (owner's OK).
     - Also retitled tonight: mouse-repellent-canada, "Does NestOff Work?".
+- **2026-11-05 morning (owner: decisions 1-7 answered; "go ahead and do what you got to do for today"; commit `55b577f3`):**
+  - **Google Discover, first real traffic:** best-cockroach-gel-bait went into India's Discover feed about 45 minutes after release (GSC Discover 4,487 impressions, 150 clicks; GA4 ~290 India sessions Nov 4-5, shown as direct). The visitors are real phones, but the traffic is worth about $0. The other 9 new guides share the same template and photos and were not picked, so the topic and the timing won, not the layout. Memory: `project_discover_india_nov5.md`.
+  - **No buttons for products not registered in Canada** (owner's rule): every CimeXa button (19, on 9 pages) now goes to registered DE (Reg. No. 32561); every Combat roach and Raid Max button (23, on 4 pages) goes to Raid Ant Roach & Earwig Gel Baits (Reg. No. 25735), the Ecopest gel or the registered paste. The Advion page's FAQ and table no longer call hydramethylnon stations registered. bed-bug-spray-canada lost 10 buttons for unregistered sprays. A helper is sweeping the rest (pesticides the page itself calls unregistered); devices are listed for the owner, not changed.
+  - **Merge follow-ups:** the large-capacity dehumidifier page lost 8 repeat buttons (206 views and 14 Amazon clicks across all seven pages Jun 1-Nov 4). The dunk dose is now the Canadian label's quarter dunk per rain barrel, on two pages.
+  - **14 service-page titles** applied (owner's OK): no "2026", all fit 60 rendered characters; the price stays where the description has none.
+  - **Reviewed:** the owner read the four guides of Nov 5 evening; each carries reviewedBy/reviewedOn.
+  - **Nov 6 build (5 pages, plan entries added, releaseOn 2026-11-06):** little-black-ants, roach-droppings-vs-mouse-droppings, christmas-tree-bugs (a December Discover bet; photos scouted first), best-bed-bug-interceptors and best-wasp-spray (US buying guides, regional pairs). american-cockroaches stays gated: it was folded into the live palmetto-bugs page on Oct 16.
+  - **Higgsfield:** 270 credits, Starter. A first cut of a quote-email explainer (q01) is being built from the real footage plus the September AI legs (0 new credits). Customer footage never goes to Higgsfield.
 - **NEXT "go" (Nov 6; pace room 9: 16 new in the 7 days to Nov 6):**
   - **Owner decisions from the merges:**
     1. A CimeXa buy button sits on a page that says CimeXa is not registered in Canada.

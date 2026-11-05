@@ -22,6 +22,7 @@ const DATE = '2026-07-21'
 const UPDATED = '2026-10-28'
 const TITLE = 'RESCUE! WHY Trap Review Canada 2026 — Does the 2-Chamber Wasp Trap Work?'
 // TITLE NOTE (Oct 28, 2026): was 'RESCUE! WHY Trap Canada 2026: Honest Review'; top queries, Jul 28-Oct 25 (all countries): rescue why trap 43 at 8.2 (1 click), why rescue trap 6 at 8.2 (1), whytrap 2 at 8.5 (1). Not targeted: wasp trap canadian tire 693 at 6.7 (5 clicks), bee trap(s) canadian tire 87 + 85 (retailer-named, ops rule 8); best wasp trap searches stay with /blog/best-wasp-trap.
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): this page says Health Canada's registry shows no W·H·Y Trap or W·H·Y attractant, so its 3 W·H·Y Trap buttons now open the registered Disposable Yellowjacket Trap W (PCP 35529) this page already recommends, labelled "Registered pick instead", and the W·H·Y refill-kit button is gone (with the caption that offered "the trap and its refills"). TrapStik (a glue board) is left for the owner's device decision.
 const META_TITLE = 'RESCUE! WHY Trap Review Canada: Does It Work?'
 
 const FAQS = [
@@ -200,10 +201,8 @@ export default function RescueWhyTrapReviewCanadaPage() {
           <p>Run the math on a Canadian season and the pattern becomes clear. Wasp pressure in southern Ontario runs from roughly late April to mid-October &mdash; call it 20 to 24 weeks. At a two-week cadence, that is <strong>10 to 12 refill kits per season</strong> if you run the trap continuously. In practice most owners run it hard from May to June for queen season, ease off in mid-summer, then run it again hard from August to frost when yellowjacket colonies peak &mdash; which lands closer to six to eight refills. Either way, over a full season you will spend noticeably more on attractant than you spent on the trap. That is not a scandal &mdash; it is the same razor-and-blades pattern as water filters or Thermacell repellent mats &mdash; but you should walk in knowing the trap is effectively a subscription product.</p>
           <p>Two cost-control tips from the owner community: buy refills two or three kits at a time in spring (big-box stores sell through refill stock by mid-summer in bad wasp years), and in the late-August scavenging peak you can stretch the bottom chamber with simple sugar bait &mdash; with the caveats we cover in the FAQ, chiefly that DIY sugar bait forfeits the no-bees claim.</p>
 
-          <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the trap and its refills:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="rescue why trap wasp hornet yellowjacket">RESCUE! WHY Trap &rarr;</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="rescue why trap attractant refill">WHY attractant refill kits &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="rescue disposable yellowjacket trap">Registered pick instead: Trap W, yellowjackets only (PCP 35529) &rarr;</BuyLink>
           </div>
 
           <h2>Setup, Placement, and the 2-Week Rhythm</h2>
@@ -262,7 +261,7 @@ export default function RescueWhyTrapReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Dual scent lures; wasps enter, cannot exit, dehydrate</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Broadest</strong> &mdash; paper wasps, hornets, yellowjackets</td>
                   <td className="px-4 py-3 text-gray-700">Recurring &mdash; refill kit about every 2 weeks</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue why trap wasp hornet yellowjacket" block>Check price on Amazon.ca &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue disposable yellowjacket trap" block>Registered pick instead: Trap W, yellowjackets only (PCP 35529) &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">RESCUE! TrapStik<br /><span className="font-normal text-xs text-gray-500">glue, visual lure</span></td>
@@ -337,7 +336,7 @@ export default function RescueWhyTrapReviewCanadaPage() {
           <p>Skip it &mdash; or rather, do not <em>stop</em> at it &mdash; if you have found an active nest. Trapping next to a nest is bailing a boat without plugging the hole; go to a nest-directed treatment or a professional first, then run the trap for the stragglers and next spring&rsquo;s queens.</p>
           <p>The &ldquo;best paired with&rdquo; line in the table above is doing more work than it looks. A trap pulls wasps toward one point in the yard; sanitation removes the competing attractions, and in late August the competing attraction is your table. Pop-up mesh food covers over the serving dishes, lidded cups rather than open cans (a yellowjacket inside a can is the classic sting-in-the-mouth story), and a bin with a latching lid rather than a bag by the back step are what turn a good trap placement into a quiet patio. None of it is pest-control equipment; all of it is what actually decides whether wasps stay interested in where you are sitting. <BuyLink tag={AMZ_TAG} search="pop up mesh food cover outdoor">check mesh food covers on Amazon.ca &rarr;</BuyLink></p>
           <div className="not-prose my-4">
-            <BuyLink tag={AMZ_TAG} search="rescue why trap wasp hornet yellowjacket">Check RESCUE! WHY Trap on Amazon.ca &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="rescue disposable yellowjacket trap">Registered pick instead: RESCUE! Trap W, yellowjackets only (PCP 35529) &rarr;</BuyLink>
           </div>
 
           <h2>Frequently Asked Questions</h2>

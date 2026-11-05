@@ -18,6 +18,7 @@ const DATE = '2026-08-22'
 const UPDATED = '2026-08-22'
 const TITLE = 'Green Pools Breed Mosquitoes in Ontario — Covering, Circulating and Treating a Pool You Are Not Opening'
 const META_TITLE = 'Green Pools Breed Mosquitoes in Ontario'
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): both Mosquito Bits buttons (search "mosquito bits bti granules"; Bits have no Canadian registration) now search "summit mosquito dunks" (Reg. No. 28888): the comparison-table row says "no Canadian registration" and its button reads "Registered instead: Mosquito Dunks (Reg. No. 28888)" (a `buy` label on that row only), and the Option 3 "Bits" bullet gained a clause with the Dunks link and /blog/mosquito-bits-canada-vs-dunks.
 
 const FAQS = [
   {
@@ -198,15 +199,15 @@ export default function GreenPoolMosquitoBreedingOntarioPage() {
                   { model: 'Solar cover / blanket', band: '$60–$200 range', stops: 'No — a heat and evaporation tool', best: 'An open, circulating pool', search: 'solar pool cover blanket' },
                   { model: 'Pool leaf net (over the cover)', band: '$40–$120 range', stops: 'Indirectly — cuts organic load', best: 'Treed lots, autumn leaf drop', search: 'pool leaf net cover' },
                   { model: 'Bti mosquito dunks', band: '$15–$40 range', stops: 'Yes, ~30 days per dunk', best: 'Immediate stopgap treatment', search: 'mosquito dunks bti' },
-                  { model: 'Bti mosquito bits (granular)', band: '$20–$45 range', stops: 'Yes, fast knockdown', best: 'Getting larvae down within a day or two', search: 'mosquito bits bti granules' },
+                  { model: 'Bti mosquito bits (granular), no Canadian registration', band: '$20–$45 range', stops: 'Yes, fast knockdown', best: 'Getting larvae down within a day or two', search: 'summit mosquito dunks', buy: 'Registered instead: Mosquito Dunks (Reg. No. 28888) →' },
                   { model: '1/2 HP submersible utility pump', band: '$150–$350 range', stops: 'Yes — if the pool is emptied properly', best: 'Draining a pool that is finished', search: 'submersible utility pump 1/2 hp' },
-                ].map(({ model, band, stops, best, search }) => (
+                ].map(({ model, band, stops, best, search, buy }) => (
                   <tr key={model} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-3 font-bold text-brand-800">{model}</td>
                     <td className="px-4 py-3 text-gray-700">{band}</td>
                     <td className="px-4 py-3 text-gray-700">{stops}</td>
                     <td className="px-4 py-3 text-xs text-gray-600">{best}</td>
-                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check on Amazon.ca →</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>{buy ?? 'Check on Amazon.ca →'}</BuyLink></td>
                   </tr>
                 ))}
               </tbody>
@@ -250,7 +251,7 @@ export default function GreenPoolMosquitoBreedingOntarioPage() {
           <h2>Option 3: Bti Larvicide — The Bridge, Not the Plan</h2>
           <p>Bti (<em>Bacillus thuringiensis israelensis</em>) is a naturally occurring soil bacterium producing a toxin that targets mosquito larvae specifically. Canadian Bti products carry a PCP registration number for use in standing water, and Bti is what municipal programs use in catch basins. Consumer form comes two ways, and the difference matters when you are shutting a pool down this week:</p>
           <ul>
-            <li><strong><BuyLink tag={AMZ_TAG} search="mosquito bits bti granules">Bits</BuyLink></strong> are granular and disperse immediately. Use these when you need larvae dead in a day or two.</li>
+            <li><strong>Bits</strong> are granular and disperse immediately. Use these when you need larvae dead in a day or two. In Canada, though, Mosquito Bits have no registration; of the two, the registered one is <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Mosquito Dunks (Reg. No. 28888)</BuyLink>, for water that stays on your property (<Link href="/blog/mosquito-bits-canada-vs-dunks">details</Link>).</li>
             <li><strong><BuyLink tag={AMZ_TAG} search="mosquito dunks bti">Dunks</BuyLink></strong> are compressed and release slowly, holding a site for roughly 30 days each at the labelled rate. Use these to keep the pool suppressed while a cover is ordered.</li>
           </ul>
           <p>The professional caveat, and it catches people out: <strong>Bti does not kill pupae.</strong> Pupae have stopped feeding, so they never ingest it. Treat a pool that already has tumblers in it and you will still get a hatch over the next few days &mdash; that is not the product failing, that is the cohort that was already past the vulnerable stage. Dose to the surface area of the pool and re-dose on a calendar rather than by eye; our full <Link href="/blog/mosquito-bits-canada-vs-dunks">mosquito bits and dunks guide for Canada</Link> covers rates and the dunks-versus-bits decision. What Bti cannot do is end the problem &mdash; a treated pool is still stagnant water needing re-dosing every month indefinitely. It is the breathing room you buy while the cover ships.</p>

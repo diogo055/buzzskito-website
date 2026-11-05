@@ -934,6 +934,14 @@ const PHOTOS = [
   ['turkestan-cockroaches-male-female-brick', 'Turkestan cockroaches, Blatta lateralis (filed on iNaturalist as Periplaneta lateralis): a pale, long-winged male and a dark female joined end to end on a brick wall, recorded by the observer as male and female (Los Angeles County, California; research grade on iNaturalist)', { inat: { obs: 88360807, photo: 145780992 } }],
   ['wood-cockroach-cdc', 'Wood cockroach of the genus Parcoblatta (species not identified), dorsal view, with its name printed on the photo (CDC Public Health Image Library)', { phil: 26940 }],
   ['cockroach-agar-plate-cdc', 'A cockroach walking across an open Petri dish of agar, in a CDC demonstration that cockroaches can carry contaminants on their legs; PHIL 26947 shows the colonies that grew afterwards (CDC Public Health Image Library; species not stated)', { phil: 26946 }],
+  // christmas-tree-bugs (Nov 5, 2026): what rides in on a cut tree. A giant conifer aphid colony on a white pine twig (the
+  // CC0 lead) and one aphid up close, adelgid wool on a cut Christmas tree indoors, pine needle scale covers, and a Chinese
+  // mantis egg case on an evergreen branch. All research grade on iNaturalist; notes in the page's scratchpad file.
+  ['cinara-aphids-white-pine-twig', 'Giant conifer aphids (white pine aphid, Cinara strobi), a colony crowded on an eastern white pine twig (Hampshire County, Massachusetts, September; research grade on iNaturalist, two identifiers)', { inat: { obs: 239883014, photo: 427291711 } }],
+  ['cinara-aphid-closeup-fence', 'Giant conifer aphid, genus Cinara, close-up on a black-painted metal fence, showing its long legs and mottled brown body (Lilburn, Georgia, March; research grade on iNaturalist, four identifiers)', { inat: { obs: 108735747, photo: 183133693 } }],
+  ['adelgid-wool-christmas-tree-indoors', 'Cooley spruce gall adelgid, Adelges cooleyi (named Douglas fir adelgid on iNaturalist): a white, woolly tuft on a needle of a cut Christmas tree indoors; the observer says the tree was cut where the observation is recorded (Fergus County, Montana, January; research grade on iNaturalist)', { inat: { obs: 197069990, photo: 347000176 } }],
+  ['pine-needle-scale-covers', 'Pine needle scale, Chionaspis pinifoliae: white scale covers crowded along pine needles (Appleton, Wisconsin, March; research grade on iNaturalist, three identifiers)', { inat: { obs: 24440285, photo: 37790826 } }],
+  ['chinese-mantis-egg-case-arborvitae', 'Chinese mantis, Tenodera sinensis, egg case (ootheca) attached to the underside of an arborvitae branch about 7 feet off the ground; about 1 inch across by the observer\'s estimate (Illinois, April; research grade on iNaturalist)', { inat: { obs: 207453835, photo: 366949627 } }],
 ]
 
 const UA = { 'User-Agent': 'BuzzSkitoSiteBuilder/1.0 (photo credits recorded; support@buzzskito.ca)' }

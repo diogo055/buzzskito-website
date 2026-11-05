@@ -18,6 +18,7 @@ const DATE = '2026-08-22'
 const UPDATED = '2026-08-22'
 const TITLE = 'How to Mosquito-Proof a Rain Barrel in Canada'
 const META_TITLE = 'Mosquito-Proof Your Rain Barrel in Canada'
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): both Mosquito Bits buttons (search "mosquito bits granules"; Bits have no Canadian registration) now search "summit mosquito dunks" (Reg. No. 28888): the kit table's "Larvicide (fast)" row (its spec adds "Mosquito Bits granules have no Canadian registration." and its button reads "Registered instead: Mosquito Dunks (Reg. No. 28888)" via a `buy` label on that row only) and the "Bti granules" button beside "Bti dunks" (now "Mosquito Dunks (Reg. No. 28888)").
 
 const FAQS = [
   {
@@ -134,8 +135,9 @@ const KIT = [
   {
     part: 'Larvicide (fast)',
     what: 'Bti granules for immediate knockdown',
-    spec: 'Sprinkle-on version of the same bacterium. Use it the day you find wrigglers, then fix the opening they came through.',
-    search: 'mosquito bits granules',
+    spec: 'Sprinkle-on version of the same bacterium. Use it the day you find wrigglers, then fix the opening they came through. Mosquito Bits granules have no Canadian registration.',
+    search: 'summit mosquito dunks',
+    buy: 'Registered instead: Mosquito Dunks (Reg. No. 28888) →',
   },
 ]
 
@@ -196,12 +198,12 @@ export default function RainBarrelMosquitoProofPage() {
                 </tr>
               </thead>
               <tbody>
-                {KIT.map(({ part, what, spec, search }) => (
+                {KIT.map(({ part, what, spec, search, buy }) => (
                   <tr key={part} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-3 font-bold text-brand-800 whitespace-nowrap">{part}</td>
                     <td className="px-4 py-3 text-gray-700">{what}</td>
                     <td className="px-4 py-3 text-xs text-gray-600">{spec}</td>
-                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>Check on Amazon.ca &rarr;</BuyLink></td>
+                    <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search={search} block>{buy ?? 'Check on Amazon.ca →'}</BuyLink></td>
                   </tr>
                 ))}
               </tbody>
@@ -265,7 +267,7 @@ export default function RainBarrelMosquitoProofPage() {
           <p>If you want to know whether the barrel is already producing, look at the surface: mosquito larvae hang just under it and dart downward when you shade them with your hand. Our page on <Link href="/blog/mosquito-larvae-identification">identifying mosquito larvae</Link> shows what wrigglers and tumblers look like versus the harmless things people mistake for them.</p>
           <div className="not-prose my-4 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Bti dunks &rarr;</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="mosquito bits granules">Bti granules &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Mosquito Dunks (Reg. No. 28888) &rarr;</BuyLink>
           </div>
 
           <RelatedLinks path="/blog/rain-barrel-mosquito-proof-canada" />

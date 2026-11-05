@@ -1367,7 +1367,8 @@
     "/learn/tick-identification-chart",
     "/blog/tick-bite-on-dog-symptoms",
     "/blog/ultimate-tick-control-guide-ontario"
-   ]
+   ],
+   "bar": true
   },
   "/blog/best-ulv-cold-fogger-canada": {
    "next": "/blog/best-cordless-fogger-canada",
@@ -3532,7 +3533,8 @@
     "/learn/aphid-control-guide",
     "/learn/natural-weed-control",
     "/blog/best-deer-fence-for-gardens-canada"
-   ]
+   ],
+   "bar": true
   },
   "/blog/how-to-get-rid-of-gnats": {
    "next": "/blog/how-to-get-rid-of-fruit-flies",
@@ -7355,7 +7357,8 @@
     "/learn/pet-safe-pest-control",
     "/blog/ultrasonic-pest-repellers-do-they-work",
     "/blog/diy-pest-control"
-   ]
+   ],
+   "bar": true
   },
   "/blog/wood-roaches": {
    "next": "/blog/where-do-cockroaches-come-from",
