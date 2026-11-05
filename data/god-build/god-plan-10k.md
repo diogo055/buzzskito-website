@@ -292,11 +292,32 @@ Ranked by expected clicks x value (`research_notes/God plan 10k a day/new_pages.
   - **Dropped:** build #9, the separate NestOff page. The repellent page's section answers it.
   - **Indexing:** a catch-up run started at 00:55 UTC and hung on a Chrome `find` call, like the Oct 31 run. A hung run blocks the following days' runs. I stopped it and made the task prompt safer (clear the box with its X; stop if Chrome stops responding). The 6 URLs above sit at the top of the queue for the Nov 4 9:10 run.
   - **Images plan, step 2 (weekend by device):** desktop image clicks on Oct 31-Nov 1 were 0.35x weekdays (prior weekends 0.14x), so the school pattern holds. The Nov 1 Search Console click jump is real: GA4 organic mobile sessions were 360, the high of the month. Nov 2 set records: 71 desktop image clicks, 29,826 desktop image impressions, 194 GA4 organic desktop sessions.
-- **NEXT "go" (Nov 5: pace room 10, because Oct 29's 19 releases leave the 7-day window):**
+- **2026-11-04 evening to Nov 5 02:00 UTC (owner: "get more Canadian shoppers onto the buying pages... I don't care if the money is coming from Canada or a US audience"; commit `ab069e42`):**
+  - **The owner's decisions:**
+    - Read the tests now, not on Nov 20.
+    - No first-screen box test.
+    - Yes to a fixed Amazon.com button on Canadian pages Americans read.
+    - Up to 20 new pages that day.
+  - **Converter read, taken early** (scratchpad `read_upgrades_nov4.py`; 60 upgraded pages vs 179 others):
+    - Positions 7.2 → 7.1; none reached the top 3.
+    - Amazon clicks per 1,000 Canadian views 237 → 255, against control flat at 117.
+    - So more content won't move these pages fast. Authority (links) is the gap.
+  - **Released 6 US buying guides** with the new `picks` block (amazon.com), each a regional pair with its Canadian page: best-fruit-fly-traps, best-rat-traps, best-cockroach-gel-bait, best-bed-bug-spray, best-flea-spray-for-home, raccoon-repellent.
+    - Written after a top-3 teardown.
+    - Independently fact-checked: 850 claims, 72 corrected, 3 removed.
+    - Link-ins from 6 US guides.
+  - **Picks on 9 live US guides:** mice-traps, mice-repellent, and bed bugs, cockroaches, silverfish, carpet beetles, centipedes, stink bugs and earwigs. All checked.
+  - **Amazon.com line on 27 Canadian pages** (`lib/amazon-dual-store.json`); `check:amazon` guards it.
+  - **GA4, first two days with ads:** Canadian phone Amazon clicks per 1,000 views on product and remedy pages were 201, against 190 before. The sticky bar's clicks moved to the top box and the in-page buttons.
+  - **Expert-quote link plan:** `reports/expert-quote-link-plan-2026-11-04.md`. The owner signs up (SOS, HARO, Qwoted free) and writes answers in his own words; Qwoted bans AI pitches.
+  - **Indexing:** Search Console said "Quota exceeded" for Nov 4, so the six Nov 4 and six Nov 5 URLs head the queue.
+- **NEXT "go" (Nov 5; pace room after tonight's 6 = 4 more today, then the 7-day cap):**
   - **Indexing:** check the 9:10 run with `list_task_runs`. Stop it if it shows "running" with old activity, and do the batch in Chrome by hand.
-  - **Plan entries first** (extra-pages.json + taxonomy collisions) for little black ants (#2), American cockroach (#5), roach vs mouse droppings (#8) and signs of termites (#10). Signs of termites must be checked against the live termite-damage, termite-droppings and what-do-termites-look-like pages.
-    - carpenter-bee-vs-bumble-bee (#7) is already planned (Dec 14): move it to the day.
-    - snake-poop is planned but waits for a photo.
-    - Then build them, most powerful first.
-  - **Push** #1 (best-rat-trap-canada), #4 (best-fruit-fly-trap-canada: locked until Nov 20, so skip it), #5 (advion-cockroach-gel-bait) and #6 (what-do-fleas-look-like). Check each against the Nov 6-20 read list first.
-  - **Offer the owner the device-registration sweep** (above) as its own session.
+  - **Merges, first** (owner approved every non-service merge and lifted the Nov 20 wait). Use the Nov 3 pattern: every product moves to the survivor, add the 301s, repoint links, amend records.
+    - The six duplicate pairs from `reports/page-one-plan-2026-11-02.md`.
+    - Then the 20 off-topic pages: 9 dehumidifiers into 1, 2 sump pumps into 1, and patio heaters, steam cleaners, leaf blower, brush cutter, bird feeder and dust-mite air purifier into the nearest pest page.
+    - One dual-store page may be affected: how-to-get-rid-of-ground-wasps-canada, if wasp dust merges into it. Keep its amazon.com line.
+  - **Push the Canadian buying pages:** titles in searchers' words ("best ... canada") on product pages ranking 4-15, then links from the busiest Canadian information pages.
+  - **More US buying guides:** next by US volume are mouse traps (upgrade mice-traps further), ant killer, wasp spray (spring), mosquito repellent (spring), bug zapper (spring) and Dynatrap.
+  - **Verify on the GTA report page** (`/buzzskito-2026-gta-mosquito-tick-report`), flagged by the link plan: "200+ property surveys", and blacklegged ticks "established across all 19 GTA cities per Public Health Ontario".
+  - **Still open from Nov 4:** plan entries for little black ants (#2), American cockroach (#5), roach vs mouse droppings (#8) and signs of termites (#10). Offer the owner the device-registration sweep.
