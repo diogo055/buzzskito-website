@@ -9,7 +9,8 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Oakville Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
+  // TITLE NOTE (Nov 5, 2026, owner's OK on the Search Console title audit): was 'Oakville Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews'; dropped "2026", fits 60 rendered; price stays in the description.
+  title: 'Oakville Mosquito Control · 150+ 5-Star Reviews',
   description:
     'Mosquito control in Oakville from $99, no contracts. Compare mosquito control options. Glen Abbey, Bronte, Old Oakville. (289) 216-5030.',
   canonical: '/oakville-mosquito-control',

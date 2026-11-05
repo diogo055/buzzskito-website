@@ -34,7 +34,7 @@ const FAQS = [
   },
   {
     question: 'Do mosquito dunks work in a rain barrel?',
-    answer: 'Yes, and they are the right backstop even on a properly screened barrel. Bti (Bacillus thuringiensis israelensis) kills mosquito larvae and does nothing to people, pets, fish, birds or pollinators. One dunk treats roughly 100 square feet of water surface for about 30 days, which is far more surface than any residential barrel has, so one dunk per barrel replaced monthly from May through September covers it. Use Bti as insurance against the screen you did not clamp properly — not as a substitute for screening, because a dunk does not stop the barrel filling with leaf sludge.',
+    answer: 'Yes, and they are the right backstop even on a properly screened barrel. Bti (Bacillus thuringiensis israelensis) kills mosquito larvae and does nothing to people, pets, fish, birds or pollinators. On the Canadian label (Reg. No. 28888) one dunk treats up to 6 square metres of water surface for about 30 days, far more surface than any residential barrel has, so a barrel takes a quarter dunk (the label\'s 0.1 to 3.0 square metre row), replaced monthly from May through September if larvae are detected. Use Bti as insurance against the screen you did not clamp properly — not as a substitute for screening, because a dunk does not stop the barrel filling with leaf sludge.',
   },
   {
     question: 'Is water from a rain barrel safe to use on a vegetable garden?',
@@ -127,7 +127,7 @@ const KIT = [
   },
   {
     part: 'Larvicide',
-    what: 'Bti dunks — one per barrel, monthly',
+    what: 'Bti dunks — a quarter dunk per barrel, monthly',
     spec: 'The backstop. About 30 days per dunk, harmless to pets, fish and pollinators.',
     search: 'summit mosquito dunks',
   },
@@ -168,12 +168,12 @@ export default function RainBarrelMosquitoProofPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">To mosquito-proof a rain barrel in Canada, screen <em>every</em> opening into the water &mdash; not just the lid &mdash; with 18x16 fibreglass insect screen (about 1 mm openings) clamped down rather than draped, and drop one Bti dunk in monthly as a backstop. The lid is almost never how they get in. The overflow port and the downspout inlet are, and a top-mounted diverter that returns overflow to the downspout removes both openings at once.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">To mosquito-proof a rain barrel in Canada, screen <em>every</em> opening into the water &mdash; not just the lid &mdash; with 18x16 fibreglass insect screen (about 1 mm openings) clamped down rather than draped, and drop a quarter of a Bti dunk in monthly as a backstop. The lid is almost never how they get in. The overflow port and the downspout inlet are, and a top-mounted diverter that returns overflow to the downspout removes both openings at once.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li><strong>Mesh:</strong> 18x16 fibreglass window screen is fine enough for every Ontario mosquito. Finer mesh clogs with pollen and shingle grit and sheds rain over the side.</li>
               <li><strong>The three real gaps:</strong> the overflow port, the linking port between barrels, and the downspout inlet grate.</li>
               <li><strong>Clamp it.</strong> Hose clamps or a bungee lid ring. Wind lifts draped screen, and lifted screen is an open barrel.</li>
-              <li><strong>Bti dunks</strong> &mdash; one per barrel, replaced monthly May through September. Bti targets mosquito larvae; follow the label directions.</li>
+              <li><strong>Bti dunks</strong> &mdash; a quarter dunk per barrel (the Canadian label&rsquo;s smallest dose), replaced monthly May through September. Bti targets mosquito larvae; follow the label directions.</li>
               <li><strong>Winter:</strong> drain fully and disconnect before the first hard freeze, usually late October in the GTA. Leave the spigot open.</li>
               <li><strong>Cheaper is often right:</strong> if your barrel already has a sound lid, a roll of screen, a few clamps and a pack of dunks fixes it for well under $50.</li>
             </ul>
@@ -260,7 +260,7 @@ export default function RainBarrelMosquitoProofPage() {
           <div className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="downspout rain barrel diverter kit">Downspout diverter kits &rarr;</BuyLink></div>
 
           <h2>Bti Dunks: The Backstop, Not the Plan</h2>
-          <p>Bacillus thuringiensis israelensis is a soil bacterium that mosquito larvae eat and die from. It does nothing to people, pets, fish, frogs, birds or bees; its activity is confined to the larvae of mosquitoes, black flies, fungus gnats and their close relatives, which is why it is the standard tool for water you cannot drain. One dunk treats roughly 100 square feet of surface for about 30 days &mdash; vastly more surface than any residential barrel has &mdash; so one dunk per barrel, replaced on the first of the month from May through September, is the whole protocol. Our <Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits vs Dunks guide</Link> covers brands, PCP registration and where dunks are stocked, and explains when the granules are the better format.</p>
+          <p>Bacillus thuringiensis israelensis is a soil bacterium that mosquito larvae eat and die from. It does nothing to people, pets, fish, frogs, birds or bees; its activity is confined to the larvae of mosquitoes, black flies, fungus gnats and their close relatives, which is why it is the standard tool for water you cannot drain. On the Canadian label (Reg. No. 28888) one dunk treats up to 6 square metres of surface for about 30 days &mdash; vastly more surface than any residential barrel has &mdash; so a quarter dunk per barrel (the label&rsquo;s 0.1 to 3.0 square metre row), replaced on the first of the month from May through September while larvae turn up, is the whole protocol. Our <Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits vs Dunks guide</Link> covers brands, PCP registration and where dunks are stocked, and explains when the granules are the better format.</p>
           <p>Two honest caveats. First, a dunk is a backstop for the screen you did not clamp properly, not a replacement for screening &mdash; it does nothing about the leaf sludge that accumulates in an open barrel, and sludge is what makes the water attractive in the first place. Second, dunks only kill what is in your barrel. Adults arriving from a neighbour&rsquo;s untreated barrel or a ravine two streets over are unaffected, which is the ceiling on every larval-control measure.</p>
           <p>If you want to know whether the barrel is already producing, look at the surface: mosquito larvae hang just under it and dart downward when you shade them with your hand. Our page on <Link href="/blog/mosquito-larvae-identification">identifying mosquito larvae</Link> shows what wrigglers and tumblers look like versus the harmless things people mistake for them.</p>
           <div className="not-prose my-4 flex flex-wrap gap-3">
@@ -280,7 +280,7 @@ export default function RainBarrelMosquitoProofPage() {
 
           <h2>When the Cheap Fix Is the Right Fix</h2>
           <p>A page like this has an obvious commercial temptation, so here is the honest version.</p>
-          <p><strong>If you already own a barrel with a sound lid, do not buy a new one.</strong> A roll of fibreglass screen, a handful of stainless hose clamps and a pack of Bti dunks will mosquito-proof it for well under $50, and the result is functionally identical to a $250 system. Screen the overflow, line the inlet grate, clamp the lid, drop a dunk in. Done in twenty minutes.</p>
+          <p><strong>If you already own a barrel with a sound lid, do not buy a new one.</strong> A roll of fibreglass screen, a handful of stainless hose clamps and a pack of Bti dunks will mosquito-proof it for well under $50, and the result is functionally identical to a $250 system. Screen the overflow, line the inlet grate, clamp the lid, drop a quarter dunk in. Done in twenty minutes.</p>
           <p><strong>Add the diverter next</strong>, at around $30&ndash;$60, because it eliminates openings rather than covering them and it fixes the foundation-soaking problem too. That is the highest-value single purchase on this page.</p>
           <p><strong>The full $120&ndash;$400 build is for a specific person:</strong> someone starting from nothing, or scaling to two or three linked barrels on a stand with a proper brass spigot because they actually irrigate a large garden from it. If that is you, buy it as a system so the fittings match. If it is not you, the cheap retrofit is not a compromise &mdash; it is the correct answer, and a barrel with a $12 screen on it breeds exactly as few mosquitoes as a barrel with a $300 one.</p>
           <p><strong>What is never worth it:</strong> a decorative barrel with a large open grate top chosen on looks. Those are the barrels we find producing larvae, every season, and no amount of after-market screening makes an open grate as tight as a sealed lid.</p>
@@ -295,7 +295,7 @@ export default function RainBarrelMosquitoProofPage() {
           <p>Where amazon.ca earns its place is the awkward middle: gasketed linking kits, brass bulkhead spigot assemblies, screened overflow kits and barrel stands are the items that are either seasonal or simply not carried in a given store, and they are the ones you need when a barrel already in your yard needs a specific part in August. Bti dunks are stocked everywhere in spring and thin out badly by mid-July, which is exactly when you discover you need them.</p>
 
           <h2>The Bottom Line</h2>
-          <p>A rain barrel is not a mosquito problem. An <em>unscreened</em> rain barrel is. Screen every opening into the water with 18x16 fibreglass mesh &mdash; clamped, not draped &mdash; pay particular attention to the overflow port, the linking port and the downspout inlet, and drop one Bti dunk in per barrel per month from May to September. If you are building the system rather than fixing one, put the money into a top-mounted diverter before anything else, because it removes openings rather than covering them. Then drain it before the freeze, rinse it in April, and forget about it &mdash; which is the whole point.</p>
+          <p>A rain barrel is not a mosquito problem. An <em>unscreened</em> rain barrel is. Screen every opening into the water with 18x16 fibreglass mesh &mdash; clamped, not draped &mdash; pay particular attention to the overflow port, the linking port and the downspout inlet, and drop a quarter of a Bti dunk in per barrel per month from May to September. If you are building the system rather than fixing one, put the money into a top-mounted diverter before anything else, because it removes openings rather than covering them. Then drain it before the freeze, rinse it in April, and forget about it &mdash; which is the whole point.</p>
 
           <AdjacentPestCTA variant="equipment" />
 

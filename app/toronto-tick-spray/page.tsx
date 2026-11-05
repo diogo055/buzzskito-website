@@ -9,7 +9,8 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Toronto Tick Control 2026 · From $99 · Licensed Operator',
+  // TITLE NOTE (Nov 5, 2026, owner's OK on the Search Console title audit): was 'Toronto Tick Control 2026 · From $99 · Licensed Operator'; searchers type "tick control toronto"; dropped "2026"; price kept here because the description has none.
+  title: 'Tick Control Toronto: Yard Tick Spray From $99',
   description:
     'Toronto tick spray · 150+ five-star reviews. Targets blacklegged ticks in ravine yards — High Park, Don Valley, Rosedale. Rain-back guarantee. (289) 216-5030.',
   canonical: '/toronto-tick-spray',

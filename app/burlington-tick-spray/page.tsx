@@ -9,7 +9,8 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Burlington Tick Control 2026 · From $99 · 150+ Five-Star Reviews',
+  // TITLE NOTE (Nov 5, 2026, owner's OK on the Search Console title audit): was 'Burlington Tick Control 2026 · From $99 · 150+ Five-Star Reviews'; "burlington tick control" 491 impressions, 0 clicks; dropped "2026"; price stays in the description.
+  title: 'Burlington Tick Control: Yard Tick Spray Service',
   description:
     'Professional tick spray in Burlington. Protect your yard near the Escarpment & Royal Botanical Gardens. From $99. Call (289) 216-5030.',
   canonical: '/burlington-tick-spray',

@@ -48,11 +48,11 @@ const FAQS = [
   },
   {
     question: 'What cockroach baits can Canadian consumers legally buy?',
-    answer: 'The domestic-class lane is enclosed bait stations and a handful of registered gels and dusts sold at Canadian retailers: Combat-style bait stations (hydramethylnon), Raid roach bait stations, boric acid gels and baits (boric acid dust has not been sold for home use since 2018), and diatomaceous earth products registered for crawling insects. Every legal option carries a PMRA registration number on the pack. They are slower and less glamorous than professional gel, but bait stations run the same core playbook — delayed-kill bait carried back to the harbourage — and against light-to-moderate German cockroach pressure, a dense, well-placed station deployment plus sanitation genuinely works.',
+    answer: 'The domestic-class lane is enclosed bait stations and a handful of registered gels, pastes and dusts sold at Canadian retailers: boric acid bait stations such as Raid Ant Roach & Earwig Gel Baits (Reg. No. 25735), borate gels such as Ecopest Ant & Roach Bait Gel (Reg. No. 34893), boric acid pastes such as Homeowners DIY Roach Bait (Reg. No. 30293) (boric acid dust has not been sold for home use since 2018), and diatomaceous earth products registered for crawling insects. Two familiar names are gone: Health Canada lists Combat Roach Killing System (hydramethylnon) as cancelled, last retail sale May 31, 2006, and Raid Max Roach Bait as historical, last retail sale September 25, 2025. Every legal option carries a PMRA registration number on the pack. They are slower and less glamorous than professional gel, but bait stations run the same core playbook — delayed-kill bait carried back to the harbourage — and against light-to-moderate German cockroach pressure, a dense, well-placed station deployment plus sanitation genuinely works.',
   },
   {
-    question: 'Do Combat and Raid bait stations actually work on German cockroaches?',
-    answer: 'Yes, with two conditions: density and sanitation. A single station under the sink is a gesture; an effective deployment is 12 to 24 stations concentrated where the evidence is — under the sink, behind the fridge and stove, along cabinet hinges, near the dishwasher. Hydramethylnon and similar delayed-kill actives let foragers feed and return to the harbourage before dying, which spreads the dose. The catch: bait competes with every crumb and grease film in your kitchen. If sanitation is poor, the bait loses the menu contest, and no bait — professional or consumer — out-performs a deep clean plus bait together.',
+    question: 'Do consumer bait stations actually work on German cockroaches?',
+    answer: 'Yes, with two conditions: density and sanitation. A single station under the sink is a gesture; an effective deployment is 12 to 24 stations concentrated where the evidence is — under the sink, behind the fridge and stove, along cabinet hinges, near the dishwasher. Boric acid and other delayed-kill actives let foragers feed and return to the harbourage before dying, which spreads the dose. The catch: bait competes with every crumb and grease film in your kitchen. If sanitation is poor, the bait loses the menu contest, and no bait — professional or consumer — out-performs a deep clean plus bait together.',
   },
   {
     question: 'What is an IGR, and can Canadian homeowners buy one?',
@@ -129,8 +129,8 @@ export default function AdvionCockroachGelBaitCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Combat roach killing bait stations (12-pack)" search="combat roach killing bait stations" label="Consumer pick: check the PCP number" />
-      <TopBox tag={AMZ_TAG} name="Combat roach killing bait stations (12-pack)" search="combat roach killing bait stations" label="Consumer pick: check the PCP number" />
+      <StickyBuyBar tag={AMZ_TAG} name="Raid Ant Roach & Earwig Gel Baits (Reg. No. 25735)" search="raid ant roach earwig gel baits" label="Consumer pick: check the PCP number" />
+      <TopBox tag={AMZ_TAG} name="Raid Ant Roach & Earwig Gel Baits (Reg. No. 25735)" search="raid ant roach earwig gel baits" label="Consumer pick: check the PCP number" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -141,7 +141,7 @@ export default function AdvionCockroachGelBaitCanadaPage() {
               <li>Canada splits pesticides into domestic class (consumers) and commercial class (licensed applicators) &mdash; a US EPA registration means nothing here.</li>
               <li>Grey-market bait costs you four things: a Canadian label, PMRA review of what you actually received, counterfeit recourse, and legal cover.</li>
               <li>Counterfeit and repackaged Advion is a documented problem on marketplaces &mdash; you cannot verify authenticity from a listing photo.</li>
-              <li>Registered consumer bait stations (Combat-style hydramethylnon, Raid baits) run the same delayed-kill playbook and work against light-to-moderate infestations.</li>
+              <li>Registered consumer bait stations (such as Raid Ant Roach &amp; Earwig Gel Baits, Reg. No. 25735, boric acid) run the same delayed-kill playbook and work against light-to-moderate infestations. Combat&rsquo;s hydramethylnon stations are no longer registered here.</li>
               <li>Plan IGR-free: don&rsquo;t assume growth-regulator products marketed to US consumers are available here &mdash; check the PCP number before buying anything.</li>
               <li>Roaches in daylight, roaches far from the kitchen, or any multi-unit building = call a licensed exterminator, who can legally use the professional-tier baits.</li>
             </ul>
@@ -293,16 +293,16 @@ export default function AdvionCockroachGelBaitCanadaPage() {
                   <td className="px-4 py-3 text-xs text-gray-400">Plan your program IGR-free</td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
-                  <td className="px-4 py-3 font-bold text-brand-800">Combat-style bait stations<br /><span className="font-normal text-xs text-gray-500">hydramethylnon, enclosed</span></td>
-                  <td className="px-4 py-3 text-gray-700">Consumer bait stations widely stocked at Canadian retailers &mdash; delayed-kill bait in a child-resistant housing</td>
+                  <td className="px-4 py-3 font-bold text-brand-800">Registered bait stations<br /><span className="font-normal text-xs text-gray-500">boric acid, enclosed (Reg. No. 25735)</span></td>
+                  <td className="px-4 py-3 text-gray-700">Raid Ant Roach &amp; Earwig Gel Baits: delayed-kill bait in a child-resistant housing. Combat&rsquo;s hydramethylnon stations are no longer registered in Canada</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">The consumer workhorse</strong></td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="combat roach killing bait stations" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="raid ant roach earwig gel baits" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
-                  <td className="px-4 py-3 font-bold text-brand-800">Raid roach baits<br /><span className="font-normal text-xs text-gray-500">enclosed consumer stations</span></td>
-                  <td className="px-4 py-3 text-gray-700">The other mainstream consumer station line on Canadian shelves &mdash; useful for rotating bait actives</td>
+                  <td className="px-4 py-3 font-bold text-brand-800">Rotation baits<br /><span className="font-normal text-xs text-gray-500">a different formulation</span></td>
+                  <td className="px-4 py-3 text-gray-700">A registered paste such as Homeowners DIY Roach Bait (Reg. No. 30293), or PIC Roach Control System trays (Reg. No. 20471, propoxur). Raid Max roach baits reached their last retail sale date on September 25, 2025</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Solid second bait</strong></td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="raid max roach bait stations" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3 text-xs text-gray-500">See the boric acid row below</td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Boric acid bait<br /><span className="font-normal text-xs text-gray-500">gel or enclosed bait</span></td>
@@ -331,20 +331,20 @@ export default function AdvionCockroachGelBaitCanadaPage() {
             awards={[
               {
                 badge: 'Best Overall',
-                name: 'Combat Roach Killing Bait Stations (large 12-pack)',
-                why: 'The consumer workhorse: enclosed, child-resistant stations pre-loaded with delayed-kill hydramethylnon bait, so foragers carry the dose back to the harbourage — the same core playbook as professional gel. Check the PCP registration number on the pack you receive before you use it.',
-                search: 'combat roach killing bait stations',
+                name: 'Raid Ant Roach & Earwig Gel Baits (Reg. No. 25735, 12 stations)',
+                why: 'The consumer workhorse: enclosed, child-resistant stations of slow-acting boric acid bait (Reg. No. 25735 P.C.P. Act, domestic class), so foragers carry the dose back to the harbourage — the same core playbook as professional gel. Combat\'s hydramethylnon stations, the usual US pick, are no longer registered in Canada. Check the registration number on the pack you receive before you use it.',
+                search: 'raid ant roach earwig gel baits',
                 featured: true,
                 pros: ['Enclosed, child-resistant format', 'Cheap enough to deploy at the 12–24 station density that actually works'],
                 cons: ['Not enough for daylight sightings or any multi-unit building — that threshold calls for a licensed exterminator, not more stations'],
               },
               {
                 badge: 'Best for Bait Rotation',
-                name: 'Raid Max Roach Bait Stations',
-                why: 'The other mainstream station line on Canadian shelves — a different bait active, which is exactly what you want when a colony turns bait-averse mid-campaign.',
-                search: 'raid max roach bait stations',
-                pros: ['Rotating bait actives is how professionals defeat aversion', 'Widely stocked at Canadian retailers'],
-                cons: ['Not your first buy — deploy a dense Combat set first and add this line when you rotate actives'],
+                name: 'Boric Acid Roach Paste (e.g. Homeowners DIY Roach Bait, Reg. No. 30293)',
+                why: 'A registered bait in a different formulation, which is what you want when a colony turns bait-averse mid-campaign. Raid Max roach baits, once the usual rotation pick, are no longer sold in Canada (Health Canada lists Raid Max Roach Bait as historical, last retail sale September 25, 2025). For a different active, PIC Roach Control System trays (Reg. No. 20471) use propoxur.',
+                search: 'boric acid roach bait',
+                pros: ['Rotating baits is how professionals defeat aversion', 'Reaches the cracks a station cannot'],
+                cons: ['Not your first buy — deploy a dense station set first and add this when you rotate', 'Label: crack-and-crevice use only'],
               },
               {
                 badge: 'Best Chemical-Free',
@@ -365,7 +365,7 @@ export default function AdvionCockroachGelBaitCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Light-to-moderate kitchen problem?</strong> Put <em>glue monitors</em> down for a few nights, then deploy the <em>Best Overall</em> Combat stations densely &mdash; 12 to 24, clustered on the evidence. <strong>Counts stalling or bait going untouched?</strong> Rotate actives with the <em>Raid</em> line, add <em>boric acid bait</em> in the cracks the stations miss, and dust the voids with diatomaceous earth. <strong>Daylight sightings, roaches beyond the kitchen, or a multi-unit building?</strong> That is past the consumer tier &mdash; a licensed pro can legally run the professional gels this article is about; our <Link href="/pest-control-cost-canada">cost guide</Link> shows what that should run.
+                <strong>Light-to-moderate kitchen problem?</strong> Put <em>glue monitors</em> down for a few nights, then deploy the <em>Best Overall</em> Raid stations (Reg. No. 25735) densely &mdash; 12 to 24, clustered on the evidence. <strong>Counts stalling or bait going untouched?</strong> Rotate to the <em>Bait Rotation</em> paste or PIC trays, add <em>boric acid bait</em> in the cracks the stations miss, and dust the voids with diatomaceous earth. <strong>Daylight sightings, roaches beyond the kitchen, or a multi-unit building?</strong> That is past the consumer tier &mdash; a licensed pro can legally run the professional gels this article is about; our <Link href="/pest-control-cost-canada">cost guide</Link> shows what that should run.
               </>
             }
           />

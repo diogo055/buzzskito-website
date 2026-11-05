@@ -118,8 +118,8 @@ export default function BestRoachTrapsCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Combat Roach Killing Bait Stations (check the PCP number)" search="combat roach killing bait stations" label="Best overall" />
-      <TopBox tag={AMZ_TAG} name="Combat Roach Killing Bait Stations (check the PCP number)" search="combat roach killing bait stations" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Raid Ant Roach & Earwig Gel Baits (Reg. No. 25735)" search="raid ant roach earwig gel baits" label="Best overall" />
+      <TopBox tag={AMZ_TAG} name="Raid Ant Roach & Earwig Gel Baits (Reg. No. 25735)" search="raid ant roach earwig gel baits" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -180,7 +180,7 @@ export default function BestRoachTrapsCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Confirmed small tan roaches with two dark stripes</td>
                   <td className="px-4 py-3 text-gray-700">Enclosed domestic-class bait stations, plus boards to measure. This is a breeding population</td>
                   <td className="px-4 py-3 text-gray-700">One station per cabinet and junction</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="combat roach killing bait stations" block>Bait stations &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="raid ant roach earwig gel baits" block>Bait stations &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">One very large reddish-brown roach in the basement</td>
@@ -219,11 +219,11 @@ export default function BestRoachTrapsCanadaPage() {
             awards={[
               {
                 badge: 'Best Overall',
-                name: 'Combat Roach Killing Bait Stations (Domestic-Class Multi-Pack)',
-                why: 'The only "trap" that reaches the roaches you never see. A foraging roach feeds, returns to the harbourage, and dies there — and others are killed in turn by feeding on the carcass and droppings. Child-resistant enclosed format from a brand carried at Canadian retail — confirm the PCP registration number on the label photo before you order, because the same brand also ships as US-market stock.',
-                search: 'combat roach killing bait stations',
+                name: 'Raid Ant Roach & Earwig Gel Baits (Reg. No. 25735, 12 stations)',
+                why: 'The only "trap" that reaches the roaches you never see. A foraging roach feeds, returns to the harbourage, and dies there — and others are killed in turn by feeding on the carcass and droppings. These are domestic-class enclosed stations registered in Canada (Reg. No. 25735 P.C.P. Act, boric acid 2.0%); Combat\'s roach stations no longer hold a Canadian registration. Confirm Reg. No. 25735 in the listing photo before you order, because marketplace sellers also ship US-market stock.',
+                search: 'raid ant roach earwig gel baits',
                 featured: true,
-                pros: ['Kills inside the harbourage, not just on the floor', 'Enclosed and child-resistant — usable under sinks and behind appliances', 'Sold at Canadian retail with a PCP number on the label — verify it in the listing photo'],
+                pros: ['Kills inside the harbourage, not just on the floor', 'Enclosed and child-resistant — usable under sinks and behind appliances', 'Registered in Canada: Reg. No. 25735 on the label — verify it in the listing photo'],
                 cons: ['Slow by design — expect weeks, not a weekend', 'Ruined by spraying anywhere nearby'],
               },
               {
@@ -284,7 +284,7 @@ export default function BestRoachTrapsCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Roach feeds on slow-acting bait, carries it back to the harbourage and dies there; secondary kill via carcasses and droppings</td>
                   <td className="px-4 py-3 text-gray-700">Control</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Buy this first</strong> &mdash; the only option that reaches roaches you never see</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="combat roach killing bait stations" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="raid ant roach earwig gel baits" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Flat glue board<br /><span className="font-normal text-xs text-gray-500">Plain adhesive monitor</span></td>
@@ -370,7 +370,7 @@ export default function BestRoachTrapsCanadaPage() {
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the kit. The stations are a pesticide, so zoom the listing photo and confirm a Canadian PCP registration number on the label before you order; the glue boards carry no insecticide, so there is nothing to verify on those:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="combat roach killing bait stations">Combat bait stations →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="raid ant roach earwig gel baits">Registered bait stations →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="cockroach glue traps sticky boards">Glue-board monitors →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="roach motel glue trap">Covered glue traps →</BuyLink>
           </div>
@@ -412,7 +412,7 @@ export default function BestRoachTrapsCanadaPage() {
           <p><strong>Third, competition matters more than quantity.</strong> Bait has to be the most attractive food in the room. A German cockroach can survive weeks without food but only days without water, so the highest-leverage habit is drying the sink and basin at night, emptying the pet water bowl during the campaign, and fixing the weeping trap under the vanity. Then remove the buffet: crumbs, counter grease, the toaster tray, open dry goods, an unlidded bin. A baited clean kitchen collapses in weeks; a baited kitchen with a permanent buffet limps along for months.</p>
           <p>On legality, the check takes one glance. Every pesticide legally sold in Canada &mdash; and every bait station is a pesticide &mdash; must carry a Canadian <strong>PCP registration number</strong> on its label. Domestic-class stations sold at Canadian retail have one &mdash; but a marketplace listing is not a Canadian shelf, and the same familiar brand can arrive as US-market stock registered with the EPA instead. So do the one-glance check on any station you order online: open the listing photos, zoom the label, and look for the PCP number before you buy. The professional-tier gels that dominate American advice threads generally do not carry Canadian registration when they arrive here through cross-border listings, and we walk through exactly what that means in the <Link href="/blog/advion-cockroach-gel-bait">Advion gel bait in Canada</Link> guide. The short version for this page: you do not need the import, because the domestic stations run the same carry-home mechanism legally.</p>
           <div className="not-prose my-4">
-            <BuyLink tag={AMZ_TAG} search="combat roach killing bait stations">Check Combat bait stations on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="raid ant roach earwig gel baits">Check registered bait stations on Amazon.ca →</BuyLink>
           </div>
 
           <h3>Roach baits and traps registered in Canada: what each label says</h3>

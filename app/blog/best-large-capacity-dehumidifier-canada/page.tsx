@@ -32,6 +32,11 @@ const UPDATED = '2026-11-05'
 // the sizing section (sizing by space), after the pest sections (mould) and after the setup section (crawl spaces,
 // whole-house, LGR, accessories), with 6 FAQs and the dust mite photo. Was 'Best Dehumidifier for a Basement in Canada
 // 2026 — Large-Capacity 50 & 70-Pint Picks', META_TITLE 'Best Basement Dehumidifier Canada: 50 vs 70 Pint' (kept).
+// BUTTON NOTE (Nov 5, 2026, owner: "do what you gotta do" on trimming the 43 buttons): only repeats came off, 8 of them.
+// The 4-button row under the first answer repeated the comparison table right above it; the LGR table's desiccant and
+// residential rows now link to the desiccant page and the sizing table; the generic crawl space unit, and the accessories
+// condensate pump, repeated the sizing-table and drainage buttons. Every product type still has a button on the page. The seven
+// pages together drew 206 views and 14 Amazon clicks from Jun 1 to Nov 4 (GA4), so this is about tidiness, not money.
 const TITLE = 'Best Dehumidifier for a Basement in Canada 2026 — 50 & 70-Pint Picks, Plus Mould, Crawl Space & Whole-House Units'
 // TITLE NOTE (Nov 3, 2026): /blog/best-dehumidifier-for-basement-canada ("best dehumidifier for basement canada" at
 // about 7.5) was merged into this page, because Google split "best dehumidifier canada", "dehumidifier for basement"
@@ -291,14 +296,6 @@ export default function BestLargeCapacityDehumidifierCanadaPage() {
           <p>For most Canadian basements, the best dehumidifier is a 50-pint compressor unit with a humidistat and a drain-hose port, set to hold 45&ndash;50% humidity. For a large or wet basement, it is a top-tier Energy Star compressor unit &mdash; the class that used to be sold as &ldquo;70-pint&rdquo; and is now labelled around &ldquo;50-pint&rdquo; &mdash; run with continuous drainage and, in most basements, a pump. That is the short answer, and the rest of this guide is really about the details that separate a unit that quietly fixes your basement from one that runs non-stop and never wins: the capacity rating, the auto-defrost coil, the drainage route, and the efficiency that determines what it costs you over a long humid season.</p>
           <p>Everything in our picks above is a variation on those trade-offs. The flagship buys you capacity plus efficiency; the pump model buys you drainage freedom; the value unit trades efficiency for a lower price; and the desiccant unit trades capacity for the ability to keep working in the cold. Different basements need different compromises, which is why there is no single &ldquo;best&rdquo; for everyone &mdash; but there is a best for <em>your</em> basement, and the reasoning below points you to it.</p>
           <p>Drying something other than a basement, or fighting one specific problem? This guide also covers <a href="#mould">dehumidifiers for mould</a>, <a href="#crawl-space">crawl spaces and the vapour barrier that comes first</a>, <a href="#whole-house">whole-house (ducted) units</a> and <a href="#lgr">commercial LGR machines for water damage</a>, and its <a href="#sizing-by-space">sizing table by space</a> runs from a closet to a whole house.</p>
-
-          <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the main large-capacity types:</p>
-          <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="midea cube 50 pint dehumidifier">Energy Star flagship →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="frigidaire dehumidifier with pump 50 pint">Built-in pump model →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="waykar 50 pint dehumidifier basement">Value high-capacity →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="desiccant dehumidifier crawlspace">Crawlspace desiccant →</BuyLink>
-          </div>
 
           <NextUp path="/blog/best-large-capacity-dehumidifier-canada" />
           <h2>The &ldquo;70-Pint&rdquo; Confusion, Solved</h2>
@@ -700,7 +697,6 @@ export default function BestLargeCapacityDehumidifierCanadaPage() {
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="alorair crawl space dehumidifier with pump" asin="B097JH2HDH">Low-profile crawl space unit &rarr;</BuyLink>
             <BuyLink tag={AMZ_TAG} search="ducted crawl space dehumidifier 90 pint commercial">High-capacity ducted &rarr;</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="crawl space dehumidifier low temperature">Crawl space dehumidifier &rarr;</BuyLink>
           </div>
           <p>Be clear about the limits. A crawl space dehumidifier will not stop water getting in: seepage after heavy rain, standing water or flooding is a grading, drainage or sump problem, so fix the water first. It will not remove mould already growing on the joists, which has to be physically remediated (anything beyond a small patch, overhead in a confined space, is a job for a remediation contractor), and it does nothing at all for radon. A damp crawl space is close to perfect habitat for camel crickets, silverfish, centipedes, springtails and sowbugs, and drying it removes the main reason they are there, but it does not close a gap in the foundation, seal a utility penetration or fix a rim joist a mouse can walk through: our <Link href="/blog/rodent-exclusion-kit-canada">rodent exclusion guide</Link> covers that half.</p>
 
@@ -769,14 +765,14 @@ export default function BestLargeCapacityDehumidifierCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; cold and unheated spaces</td>
                   <td className="px-4 py-3 text-gray-700">Goes lower than any refrigerant class</td>
                   <td className="px-4 py-3 text-gray-700">Barely affected by temperature</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="desiccant dehumidifier cold room continuous drain" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3 text-gray-700"><Link href="/blog/best-dehumidifier-for-cold-garage-canada" className="font-semibold text-brand-700 underline">Desiccant picks</Link></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Residential Energy Star<br /><span className="font-normal text-xs text-gray-500">basement appliance</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; holding a comfortable humidity long-term</td>
                   <td className="px-4 py-3 text-gray-700">Not designed to chase the dry end</td>
                   <td className="px-4 py-3 text-gray-700">Needs auto-defrost below ~18&deg;C</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="energy star dehumidifier humidistat continuous drain" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3 text-gray-700"><a href="#sizing-by-space" className="font-semibold text-brand-700 underline">Sizing table above</a></td>
                 </tr>
               </tbody>
             </table>
@@ -800,7 +796,6 @@ export default function BestLargeCapacityDehumidifierCanadaPage() {
           </ul>
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="condensate pump dehumidifier">Condensate pump &rarr;</BuyLink>
             <BuyLink tag={AMZ_TAG} search="pinless moisture meter drywall wood">Moisture meter →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="commercial air mover carpet dryer stackable">Air movers →</BuyLink>
           </div>

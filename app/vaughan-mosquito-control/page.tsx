@@ -9,7 +9,8 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Vaughan Mosquito Control · From $99 · 150+ 5-Star Reviews',
+  // TITLE NOTE (Nov 5, 2026, owner's OK on the Search Console title audit): was 'Vaughan Mosquito Control · From $99 · 150+ 5-Star Reviews'; searchers type "mosquito control vaughan" (891 impressions); fits 60 rendered; price stays in the description.
+  title: 'Mosquito Control Vaughan · 150+ 5-Star Reviews',
   description:
     'Vaughan mosquito control from $99 · 150+ 5-star reviews, no contracts. Compare Vaughan companies on price & coverage. Free quote (289) 216-5030.',
   canonical: '/vaughan-mosquito-control',

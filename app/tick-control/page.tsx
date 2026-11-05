@@ -10,7 +10,8 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, speakableSch
 import { BUSINESS, CITIES, TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'GTA Tick Control 2026 · From $99 · 150+ Five-Star Reviews · Licensed',
+  // TITLE NOTE (Nov 5, 2026, owner's OK on the Search Console title audit): was 'GTA Tick Control 2026 · From $99 · 150+ Five-Star Reviews · Licensed'; was 80 rendered with "2026"; "tick spray" is a Business Profile buyer term; price stays in the description.
+  title: 'Tick Control GTA: Yard Tick Spray Service',
   description:
     'GTA tick control specialist. Licensed barrier spray for the lawn edges and leaf litter where ticks wait, from $99/treatment. Rain-back guarantee on every plan. 19+ cities served. Call (289) 216-5030.',
   canonical: '/tick-control',

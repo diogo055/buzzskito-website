@@ -294,9 +294,9 @@ export default function MosquitoBitsCanadaPage() {
               {
                 badge: 'Best for Rain Barrels & Ponds',
                 name: 'Summit Mosquito Dunks (6-pack)',
-                why: 'The same BTI in a slow-release tablet: one dunk per 50-gallon rain barrel covers about 30 days, so a 6-pack handles the whole May–September season. Ornamental ponds are a labelled use site.',
+                why: 'The same BTI in a slow-release tablet. On the Canadian label a rain barrel takes a quarter dunk (the 0.1 to 3.0 m² row), reapplied at 30-day intervals if larvae are detected, so one 6-pack breaks into 24 quarter doses, far more than one barrel needs from May to September. Ornamental ponds are a labelled use site.',
                 search: 'summit mosquito dunks',
-                pros: ['~30 days of coverage per dunk — set and forget', 'One 6-pack covers a rain barrel all season', 'Koi ponds and water gardens are labelled use sites'],
+                pros: ['~30 days of coverage per dose — set and forget', 'One 6-pack covers a rain barrel all season', 'Ornamental ponds are a labelled use site'],
                 cons: ['Slow release: for larvae found today, tip the water out if you can (Bits have no Canadian registration)', 'The floating tablet is visible in small bird baths'],
               },
             ]}
@@ -497,10 +497,10 @@ export default function MosquitoBitsCanadaPage() {
           <h2>When Dunks Are Better</h2>
           <p>On the Canadian Mosquito Dunks label (Reg. No. 28888) the dose goes by water surface, not gallons: a quarter dunk for &ldquo;0.1 to 3.0 sq. metres&rdquo;, which covers a rain barrel, and no ditch that drains off your property.</p>
           <ul>
-            <li><strong>Rain barrels</strong> — drop one dunk per 50 gallons, replace monthly</li>
+            <li><strong>Rain barrels</strong> — a quarter dunk per barrel (the label&rsquo;s 0.1 to 3.0 sq. metre row), reapplied every 30 days if larvae are detected</li>
             <li><strong>Decorative ponds with fish</strong> — slow-release lasts the season, and fish are not a BTI target</li>
             <li><strong>Neglected swimming pools</strong> with accumulated rainwater</li>
-            <li><strong>Drainage ditches</strong> that hold water for weeks</li>
+            <li><strong>Ditches that hold water for weeks</strong>, only if the water stays on your property: the label rules out water designed to flow beyond your property limits</li>
             <li><strong>Tree holes and stump cavities</strong></li>
             <li><strong>Any standing water you can&rsquo;t check on weekly</strong></li>
           </ul>

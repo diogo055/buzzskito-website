@@ -183,11 +183,11 @@ export default function HarrisBedBugKillerReviewCanadaPage() {
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="harris bed bug killer" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
-                  <td className="px-4 py-3 font-bold text-brand-800">Silica gel desiccant dust<br /><span className="font-normal text-xs text-gray-500">CimeXa-type</span></td>
+                  <td className="px-4 py-3 font-bold text-brand-800">Desiccant dust<br /><span className="font-normal text-xs text-gray-500">registered diatomaceous earth</span></td>
                   <td className="px-4 py-3 text-gray-700">Physical desiccation &mdash; dries the bug out</td>
-                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; resistance-proof, years-long residual</td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; resistance-proof, long residual</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Kills by drying bugs out; a lasting barrier in cracks and voids. CimeXa itself has no Canadian registration, so in Canada use a diatomaceous earth dust with a PCP number</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cimexa insecticide dust" block>Check price on Amazon.ca &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Heat / steam<br /><span className="font-normal text-xs text-gray-500">steamer or heater</span></td>
@@ -273,7 +273,7 @@ export default function HarrisBedBugKillerReviewCanadaPage() {
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability (no Harris product has a Canadian PCP number, so check the label before buying):</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="harris bed bug killer">Harris bed bug killer on Amazon.ca &rarr;</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="cimexa insecticide dust">Silica-gel dust alternative &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth">Registered DE dust alternative &rarr;</BuyLink>
           </div>
 
           <NextUp path="/blog/harris-bed-bug-killer-review-canada" />
@@ -325,7 +325,7 @@ export default function HarrisBedBugKillerReviewCanadaPage() {
           <p>Read against that lineup, the Harris spray&rsquo;s role shrinks to what it is actually good at: knocking down the visible bugs you find while the resistance-proof tools do the lasting work. For anything beyond a caught-early, localized problem &mdash; a spreading infestation, bugs established in walls or furniture &mdash; a professional treatment is the honest answer. Our guides on <Link href="/blog/how-to-get-rid-of-bed-bugs-canada">how to get rid of bed bugs in Canada</Link> and <Link href="/blog/how-to-get-rid-of-bed-bugs-in-apartment-canada">bed bugs in an apartment</Link> lay out how the pieces fit.</p>
 
           <div className="not-prose my-4">
-            <BuyLink tag={AMZ_TAG} search="cimexa insecticide dust">See the resistance-proof dust alternative &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth">See the registered dust alternative &rarr;</BuyLink>
           </div>
 
           <h2 id="situation">Which Bed Bug Product for Your Situation in Canada?</h2>

@@ -33,6 +33,11 @@ const UPDATED = '2026-11-05'
 // bait picks (new AwardRow), registered-bait label table, buyer's checklist, three-week timeline,
 // colony-transfer reasoning, 3 photos and 3 FAQs came across. Was 'Cockroach Spray in Canada — The
 // Three Jobs Worth Buying a Can For', META_TITLE 'Cockroach Spray Canada: What to Buy and Skip'.
+// PICK NOTE (Nov 5, 2026, owner: "do what you gotta do"): Combat holds no Canadian registration
+// (Roach Killing System Reg. No. 26519 historical, last retail sale 2006), so no Combat buy link
+// remains. The top box, sticky bar, Best Overall card and in-text link now go to the registered
+// Raid Ant Roach & Earwig Gel Baits (Reg. No. 25735) by name; the bait kit's own Raid card was
+// folded into that Best Overall card (its label density line came with it).
 const TITLE = 'Best Cockroach Killer & Spray in Canada — Bait First, and the Three Jobs Worth Buying a Can For'
 // TITLE NOTE (Oct 23, 2026): was 'Cockroach Spray Canada: What to Buy, What Not'; top queries: cockroach spray 1,527, cockroach killer spray 166, cockroach sprays 21 (5 clicks). Kept off 'best' and 'killer': best-cockroach-killer-canada owned that search until it was merged here on Nov 5, 2026.
 const META_TITLE = 'Best Cockroach Killer & Spray Canada: What Works'
@@ -141,8 +146,8 @@ export default function BestCockroachSprayCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Combat roach bait stations (buy bait before any spray)" search="combat roach killing bait stations" label="Best overall" />
-      <TopBox tag={AMZ_TAG} name="Combat roach bait stations (buy bait before any spray)" search="combat roach killing bait stations" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Raid registered roach bait stations (buy bait before any spray)" search="raid ant roach earwig gel baits" label="Best overall" />
+      <TopBox tag={AMZ_TAG} name="Raid registered roach bait stations (buy bait before any spray)" search="raid ant roach earwig gel baits" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -200,7 +205,7 @@ export default function BestCockroachSprayCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Small tan roaches with two dark stripes, breeding indoors</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Bait, not spray.</strong> Put the can back</td>
                   <td className="px-4 py-3 text-gray-700">A repellent residue scatters a German cockroach population deeper into voids and neighbouring units</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="combat roach killing bait stations" block>Bait stations &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="raid ant roach earwig gel baits" block>Bait stations &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">A gap you cannot get a bait station into</td>
@@ -239,12 +244,12 @@ export default function BestCockroachSprayCanadaPage() {
             awards={[
               {
                 badge: 'Best Overall (and it is not a spray)',
-                name: 'Combat Roach Killing Bait Stations (check the pack for a Canadian PCP number)',
-                why: 'Bait is the highest-impact roach purchase a Canadian household can make: roaches feed, return to the harbourage, and the delayed-kill active spreads through droppings and shared shelter, killing insects deep in wall voids no aerosol will ever reach. One Canadian caveat American guides never mention — Combat itself no longer holds a Canadian registration. Health Canada\'s Pesticide Label Search lists Combat Roach Killing System (Reg. No. 26519 P.C.P. Act) as Historical, and no product named Combat is currently registered here for cockroaches, so listings shipping it to Canada are US-labelled stock. The registered domestic-class equivalent on Canadian shelves is Raid Ant, Roach & Earwig Gel Baits (Reg. No. 25735 P.C.P. Act, boric acid 2%). Whichever pack arrives, check it for a "Reg. No. ___ P.C.P. Act" number before you use it.',
-                search: 'combat roach killing bait stations',
+                name: 'Raid Ant Roach & Earwig Gel Baits (Reg. No. 25735, registered in Canada)',
+                why: 'Bait is the highest-impact roach purchase a Canadian household can make: roaches feed, return to the harbourage, and the delayed-kill active spreads through droppings and shared shelter, killing insects deep in wall voids no aerosol will ever reach. Raid Ant, Roach & Earwig Gel Baits (Reg. No. 25735 P.C.P. Act, boric acid 2%) are the registered domestic-class stations on Canadian shelves. The label says to place at least 10 in the kitchen and 2 in each bathroom, and to replace all of them every 4 weeks while the problem persists, so buy more packs than feels reasonable. One Canadian caveat American guides never mention: Combat, the bait most US lists put first, no longer holds a Canadian registration. Health Canada\'s Pesticide Label Search lists Combat Roach Killing System (Reg. No. 26519 P.C.P. Act) as Historical, and no product named Combat is currently registered here for cockroaches, so listings shipping it to Canada are US-labelled stock. Whichever pack arrives, check it for "Reg. No. 25735 P.C.P. Act" before you use it.',
+                search: 'raid ant roach earwig gel baits',
                 featured: true,
-                pros: ['Reaches the harbourage — a spray never does', 'Delayed kill lets foragers carry the dose home', 'Sealed housing you can place under sinks and behind appliances'],
-                cons: ['Slow by design — judge it over weeks, not overnight', 'Fails if you spray near it or if sanitation is poor', 'Some populations show bait aversion — rotate the bait, not the strategy', 'Combat holds no current Canadian registration — verify the pack, or buy a registered Canadian bait instead'],
+                pros: ['Reaches the harbourage — a spray never does', 'Delayed kill lets foragers carry the dose home', 'Child-resistant stations you can place under sinks and behind appliances'],
+                cons: ['Slow by design — judge it over weeks, not overnight', 'Fails if you spray near it or if sanitation is poor', 'Some populations show bait aversion — rotate the bait, not the strategy', 'Marketplace sellers sometimes ship US stock — confirm Reg. No. 25735 on the box'],
               },
               {
                 badge: 'Best Crack-and-Crevice Spray',
@@ -278,15 +283,6 @@ export default function BestCockroachSprayCanadaPage() {
             heading="Best Cockroach Killer in Canada — The Registered Bait Kit"
             awards={[
               {
-                badge: 'Best Overall',
-                name: 'Raid Ant Roach & Earwig Gel Baits (Reg. No. 25735)',
-                why: 'A registered domestic-class bait station (Reg. No. 25735, boric acid 2.0%): slow-acting bait in child-resistant stations that foragers carry back to the colony. The label says to place at least 10 in the kitchen and 2 in each bathroom, and to replace all of them every 4 weeks while the problem persists. The search below also shows other boric acid baits, so look for Reg. No. 25735 on the box. Buy more packs than feels reasonable — placement density is what separates a bait program from a bait gesture.',
-                search: 'boric acid roach bait',
-                featured: true,
-                pros: ['Colony-transfer mechanism, not one-roach-at-a-time', 'Child-resistant stations, still placed out of reach of children and pets (label)', 'No residue, no odour, no scattered survivors'],
-                cons: ['Slower than the spray your instincts want', 'A single pack is rarely enough placements for a real kitchen'],
-              },
-              {
                 badge: 'Best for Bait Rotation',
                 name: 'Boric Acid Roach Paste (e.g. Homeowners DIY Roach Bait, Reg. No. 30293)',
                 why: 'For rotation, use a registered bait in a different formulation: Raid Max roach baits, once the usual rotation pick, are no longer registered in Canada (Health Canada lists Raid Max Roach Bait and Raid Double Control Roach Baits as historical, last retail sale September 25, 2025). A boric acid paste such as Homeowners DIY Roach Bait (Reg. No. 30293) goes into the cracks a station cannot reach; its label allows crack-and-crevice use only. For a different active, PIC Roach Control System trays (Reg. No. 20471) use propoxur. Bait aversion is a real, documented German-roach behaviour; rotating the bait beats buying more of the same.',
@@ -313,7 +309,7 @@ export default function BestCockroachSprayCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Combat or Raid?</strong> Combat, the bait in our first row of picks, holds no current Canadian registration (see its card above); Raid Ant Roach &amp; Earwig Gel Baits (Reg. No. 25735 P.C.P. Act, boric acid 2%) is the registered domestic-class station on Canadian shelves, and this kit is built around it. <strong>Small striped roaches in the kitchen or bathroom?</strong> That is a German cockroach infestation: buy the <em>Best Overall</em> Raid boric acid stations (Reg. No. 25735) at full density plus the <em>Best Diagnostic</em> glue monitors the same day, and add the <em>Best Budget Add-On</em> boric acid bait for the gaps the stations miss. <strong>Feeding stalls after a strong start?</strong> Rotate to the <em>Best for Bait Rotation</em> paste, or to PIC Roach Control System trays (Reg. No. 20471), which use a different active, rather than doubling down on the same bait. <strong>Big dark roaches in the basement?</strong> Read the species section below first &mdash; you likely need drain work and exclusion, not more bait. <strong>In an apartment, or still catching roaches nightly at week three?</strong> That is professional territory, and in an Ontario rental it is your landlord&rsquo;s bill, not yours.
+                <strong>Combat or Raid?</strong> Combat holds no current Canadian registration; Raid Ant Roach &amp; Earwig Gel Baits (Reg. No. 25735 P.C.P. Act, boric acid 2%), our <em>Best Overall</em> pick above, is the registered domestic-class station on Canadian shelves, and this kit is built around it. <strong>Small striped roaches in the kitchen or bathroom?</strong> That is a German cockroach infestation: buy the <em>Best Overall</em> Raid stations (Reg. No. 25735) at full density (the label: at least 10 in the kitchen and 2 in each bathroom) plus the <em>Best Diagnostic</em> glue monitors the same day, and add the <em>Best Budget Add-On</em> boric acid bait for the gaps the stations miss. <strong>Feeding stalls after a strong start?</strong> Rotate to the <em>Best for Bait Rotation</em> paste, or to PIC Roach Control System trays (Reg. No. 20471), which use a different active, rather than doubling down on the same bait. <strong>Big dark roaches in the basement?</strong> Read the species section below first &mdash; you likely need drain work and exclusion, not more bait. <strong>In an apartment, or still catching roaches nightly at week three?</strong> That is professional territory, and in an Ontario rental it is your landlord&rsquo;s bill, not yours.
               </>
             }
           />
@@ -341,14 +337,14 @@ export default function BestCockroachSprayCanadaPage() {
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Gel bait<br /><span className="font-normal text-xs text-gray-500">Syringe, pea-sized dots</span></td>
                   <td className="px-4 py-3 text-gray-700">Foragers eat and return to harbourage; delayed-kill active spreads through the colony</td>
-                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Buy bait first</strong> &mdash; it reaches insects no aerosol will. Buy a named Canadian-labelled brand, not whatever a generic gel search returns</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="combat roach killing gel" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Buy bait first</strong> &mdash; it reaches insects no aerosol will. Buy a named Canadian-labelled brand, such as Ecopest Ant &amp; Roach Bait Gel (Reg. No. 34893), not whatever a generic gel search returns</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ecopest ant roach bait gel" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Enclosed bait stations<br /><span className="font-normal text-xs text-gray-500">Child- and pet-resistant discs</span></td>
                   <td className="px-4 py-3 text-gray-700">Same delayed-kill principle in a sealed housing you can place under sinks and behind appliances</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Excellent</strong> &mdash; deploy many more than you think, not two</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="combat roach killing bait stations" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="raid ant roach earwig gel baits" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Crack-and-crevice aerosol<br /><span className="font-normal text-xs text-gray-500">Straw applicator can</span></td>
@@ -450,7 +446,7 @@ export default function BestCockroachSprayCanadaPage() {
 
           <p className="not-prose text-sm text-gray-600 mb-1">We link named brands rather than category searches, so that what you land on is something you can actually check for a PCP number:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="combat roach killing bait stations">Combat roach bait stations →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="raid ant roach earwig gel baits">Raid registered bait stations →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="raid ant and roach killer">Raid crack-and-crevice aerosol →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="safers insect killing diatomaceous earth">Safer&rsquo;s registered insect dust →</BuyLink>
           </div>

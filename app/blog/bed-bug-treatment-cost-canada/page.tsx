@@ -284,9 +284,9 @@ export default function BedBugTreatmentCostCanadaPage() {
               },
               {
                 badge: 'Best Registered Product',
-                name: 'Silica Desiccant Dust (Canada-Registered)',
+                name: 'Diatomaceous Earth Dust (Canada-Registered)',
                 why: 'A desiccant kills mechanically by stripping the waxy cuticle, so resistance cannot develop against it — which matters in a pest where pyrethroid resistance is widespread. It belongs in cracks, voids and frame joints as a thin film, never as a visible pile, and never on a sleeping surface. Confirm the PCP registration number on the Canadian label before buying.',
-                search: 'cimexa silica bed bug dust',
+                search: 'doktor doom diatomaceous earth',
                 pros: ['Mechanical kill — no resistance possible', 'Long residual in undisturbed voids', 'Reaches the harbourage a spray cannot wet'],
                 cons: ['Slow — days, not minutes', 'Application technique decides whether it works at all'],
               },

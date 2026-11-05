@@ -149,9 +149,9 @@ export default function BedBugControlCanadaHubPage() {
               },
               {
                 badge: 'Best Residual Kill',
-                name: 'Desiccant Dust (CimeXa / DE)',
+                name: 'Desiccant Dust (registered diatomaceous earth)',
                 why: 'The long-game killer: a fine silica or diatomaceous-earth dust puffed into cracks, outlets, and voids that kills by dehydration for months. Bugs cannot evolve resistance to a physical desiccant, unlike chemical sprays.',
-                search: 'cimexa insecticide dust bed bugs',
+                search: 'doktor doom diatomaceous earth',
                 pros: ['Months-long residual in cracks', 'No resistance possible', 'PMRA-registered options available'],
                 cons: ['Apply thin — thick piles repel bugs', 'Slow kill (days), not instant'],
               },
@@ -219,7 +219,7 @@ export default function BedBugControlCanadaHubPage() {
                   <td className="px-4 py-3 text-gray-700">Long-lasting residual kill in cracks and voids by dehydration</td>
                   <td className="px-4 py-3 text-amber-700 font-semibold">No*</td>
                   <td className="px-4 py-3 text-gray-700"><Link href="/blog/cimexa-bed-bug-review-canada" className="text-emerald-700 underline">CimeXa review</Link> &middot; <Link href="/blog/diatomaceous-earth-for-bed-bugs" className="text-emerald-700 underline">DE guide</Link></td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cimexa insecticide dust bed bugs" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Steamers</td>
@@ -281,7 +281,7 @@ export default function BedBugControlCanadaHubPage() {
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the core kit:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="whole room bed bug heater">Whole-room heater →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="cimexa insecticide dust bed bugs">Desiccant dust →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth">Desiccant dust →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="bed bug interceptor traps">Interceptor traps →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="bed bug mattress encasement">Encasements →</BuyLink>
           </div>

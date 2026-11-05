@@ -151,9 +151,9 @@ export default function GetRidOfBedBugsApartmentCanadaPage() {
               },
               {
                 badge: 'Long-Term Barrier',
-                name: 'Silica Desiccant Dust (CimeXa)',
+                name: 'Desiccant Dust (registered diatomaceous earth)',
                 why: 'A mechanical kill — microscopic silica dries the bug out, so no resistance develops. A whisper-thin film in cracks, outlets, and baseboards keeps working for months as long as it stays dry.',
-                search: 'cimexa insecticide dust',
+                search: 'doktor doom diatomaceous earth',
                 pros: ['No resistance — mechanical action', 'Long residual in voids', 'Great for outlet & baseboard gaps'],
                 cons: ['Apply thin — thick piles get avoided', 'Keep off open sleeping surfaces'],
               },
@@ -209,11 +209,11 @@ export default function GetRidOfBedBugsApartmentCanadaPage() {
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug mattress encasement zippered" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
-                  <td className="px-4 py-3 font-bold text-brand-800">Silica desiccant dust<br /><span className="font-normal text-xs text-gray-500">CimeXa</span></td>
+                  <td className="px-4 py-3 font-bold text-brand-800">Desiccant dust<br /><span className="font-normal text-xs text-gray-500">registered diatomaceous earth</span></td>
                   <td className="px-4 py-3 text-gray-700">Long-lasting mechanical barrier in cracks &amp; voids</td>
                   <td className="px-4 py-3 text-gray-700">Work if piled thick or left damp</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Strong</strong> &mdash; no resistance, cheap residual</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cimexa insecticide dust" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Registered spray<br /><span className="font-normal text-xs text-gray-500">reachable surfaces</span></td>
@@ -248,7 +248,7 @@ export default function GetRidOfBedBugsApartmentCanadaPage() {
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="bed bug interceptor traps">Interceptor traps →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="bed bug mattress encasement zippered">Encasements →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="cimexa insecticide dust">CimeXa dust →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth">Registered DE dust →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="bed bug spray canada">Registered spray →</BuyLink>
           </div>
 

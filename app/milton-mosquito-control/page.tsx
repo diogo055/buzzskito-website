@@ -8,7 +8,8 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Milton · From $99 · 150+ 5-Star Reviews',
+  // TITLE NOTE (Nov 5, 2026, owner's OK on the Search Console title audit): was 'Mosquito Control Milton · From $99 · 150+ 5-Star Reviews'; searchers put the city first (607 vs 308 impressions); price stays in the description.
+  title: 'Milton Mosquito Control · 150+ 5-Star Reviews',
   description:
     "Milton's mosquito & tick specialist. Barrier spray from $99, 150+ five-star reviews, rain-back guarantee. Serving Milton, Georgetown & Halton Hills.",
   canonical: '/milton-mosquito-control',

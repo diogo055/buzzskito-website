@@ -9,7 +9,8 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Toronto — From $99 · 150+ 5-Star Reviews',
+  // TITLE NOTE (Nov 5, 2026, owner's OK on the Search Console title audit): was 'Mosquito Control Toronto — From $99 · 150+ 5-Star Reviews'; fits 60 rendered; the price stays in the description.
+  title: 'Mosquito Control Toronto · 150+ 5-Star Reviews',
   description:
     "Mosquito control in Toronto from $99. Barrier spray for ravine-adjacent yards, plus an honest comparison of Toronto's providers. 150+ five-star reviews.",
   canonical: '/toronto-mosquito-control',

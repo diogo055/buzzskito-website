@@ -22,6 +22,7 @@ const SLUG = 'bed-bug-spray-canada'
 const DATE = '2026-07-16'
 const UPDATED = '2026-11-05'
 // MERGE NOTE (Nov 5, 2026): the mattress spray page and the natural spray page were merged into this page (301s). Their products came across with their labels: the US-market sprays only in the US section, the unregistered botanicals marked "No PCP number" / no Canadian registration, never as Canadian picks.
+// BUTTON NOTE (Nov 5, 2026, owner: "if it's not legal in Canada, remove the button"): no amazon.ca button for a product not registered in Canada. The geraniol and essential-oil rows say so instead, and the US-market table lost its Availability column (8 buttons). US readers have the US edition, /blog/best-bed-bug-spray, with amazon.com picks.
 const TITLE = 'Best Bed Bug Spray & Killer in Canada (2026)'
 // TITLE NOTE (Oct 23, 2026): was 'Best Bed Bug Spray & Killer Canada 2026 (PMRA)'; top queries: best bed bug killer in canada 360, best bed bug spray 116, best bed bug spray canada 108 (16 clicks). This page now owns the general head terms of the bed bug spray cluster (data/god-build/research/top3/bed-bug-spray-cluster.md).
 const META_TITLE = 'Best Bed Bug Spray & Killer in Canada (2026)'
@@ -485,14 +486,14 @@ export default function BedBugSprayCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Essential-oil botanical</td>
                   <td className="px-4 py-3 text-gray-700">Direct-spray kill from the better formulas in lab tests</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">No PCP number</strong> &mdash; no geraniol bed bug spray is registered in Canada; short residual, so not for Canadian beds</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="natural bed bug spray geraniol" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3 text-xs text-gray-500">Not registered in Canada, so no link</td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Budget botanical<br /><span className="font-normal text-xs text-gray-500">clove / lemongrass</span></td>
                   <td className="px-4 py-3 text-gray-700">Essential-oil blend</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Light work</strong> &mdash; spot-treating, supplement</td>
                   <td className="px-4 py-3 text-gray-700">Weakest knockdown; no clove, lemongrass or cedar blend is among Canada&rsquo;s registered bed bug products</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="natural essential oil bed bug spray" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3 text-xs text-gray-500">Not registered in Canada, so no link</td>
                 </tr>
               </tbody>
             </table>
@@ -608,65 +609,48 @@ export default function BedBugSprayCanadaPage() {
           <p>Here is the same label-first reading applied to the products a US shopper actually meets. Texas A&amp;M AgriLife Extension&rsquo;s consumer factsheet, for example, names Bedlam, EcoRaider and Bed Bug Patrol among the products worth knowing, and then warns that the common over-the-counter pesticides are at best moderately effective. This is a reading of published labels and EPA guidance rather than a hands-on comparison, and labels change &mdash; always confirm the current one on the can in front of you.</p>
 
           <div className="not-prose my-6 overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
-            <table className="min-w-[760px] w-full text-sm">
+            <table className="min-w-[640px] w-full text-sm">
               <caption className="sr-only">US-market bed bug sprays, their regulatory status, and where each belongs</caption>
               <thead className="bg-brand-800 text-white">
                 <tr>
                   <th className="px-4 py-3 text-left">US-market product</th>
                   <th className="px-4 py-3 text-left">Regulatory status</th>
                   <th className="px-4 py-3 text-left">Where it belongs</th>
-                  <th className="px-4 py-3 text-left">Availability</th>
                 </tr>
               </thead>
               <tbody>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">EcoRaider Bed Bug Killer<br /><span className="font-normal text-xs text-gray-500">also sold as EcoVenger</span></td>
                   <td className="px-4 py-3 text-gray-700">US: a FIFRA 25(b) exempt botanical; Canada: no registration found</td>
-                  <td className="px-4 py-3 text-gray-700">Plant-based contact kill on mattress seams and piping, per label</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ecoraider bed bug killer spray" block>Check availability &rarr;</BuyLink></td>
-                </tr>
+                  <td className="px-4 py-3 text-gray-700">Plant-based contact kill on mattress seams and piping, per label</td>                </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Harris Egg Kill Bed Bug Killer</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">EPA-registered</strong> &mdash; Reg. No. 1021-1767-3; its label names mattresses and box springs among the use sites. Canada: no registration found (no Harris product in Health Canada&rsquo;s database)</td>
-                  <td className="px-4 py-3 text-gray-700">Mattress seams and box spring; let sprayed articles dry thoroughly before bedding returns</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="harris egg kill bed bug killer" block>Check availability &rarr;</BuyLink></td>
-                </tr>
+                  <td className="px-4 py-3 text-gray-700">Mattress seams and box spring; let sprayed articles dry thoroughly before bedding returns</td>                </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Harris 5-Minute Bed Bug Killer<br /><span className="font-normal text-xs text-gray-500">foaming spray</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">EPA-registered</strong> aerosol; Canada: no registration found</td>
-                  <td className="px-4 py-3 text-gray-700">Foam expands into voids &mdash; frame joints, bolt holes, headboard cracks; check the label before any mattress use</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="harris 5 minute bed bug killer foaming spray" block>Check availability &rarr;</BuyLink></td>
-                </tr>
+                  <td className="px-4 py-3 text-gray-700">Foam expands into voids &mdash; frame joints, bolt holes, headboard cracks; check the label before any mattress use</td>                </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Ortho Home Defense Bedbug Killer</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">EPA-registered</strong>, pyrethroid-based</td>
-                  <td className="px-4 py-3 text-gray-700">Labelled harbourage surfaces &mdash; but this is the class carrying documented US resistance, so judge it by results and rotate if it underperforms</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ortho home defense bed bug killer" block>Check availability &rarr;</BuyLink></td>
-                </tr>
+                  <td className="px-4 py-3 text-gray-700">Labelled harbourage surfaces &mdash; but this is the class carrying documented US resistance, so judge it by results and rotate if it underperforms</td>                </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Bedlam Plus</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">EPA-registered</strong> aerosol (Reg. No. 1021-2569) combining phenothrin, the neonicotinoid imidacloprid and the synergist MGK 264</td>
-                  <td className="px-4 py-3 text-gray-700">Named by Texas A&amp;M among the products worth knowing; confirm the current label&rsquo;s mattress directions</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bedlam plus bed bug spray" block>Check availability &rarr;</BuyLink></td>
-                </tr>
+                  <td className="px-4 py-3 text-gray-700">Named by Texas A&amp;M among the products worth knowing; confirm the current label&rsquo;s mattress directions</td>                </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">CrossFire concentrate</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">EPA-registered</strong> professional combination product &mdash; multiple modes of action in one mix</td>
-                  <td className="px-4 py-3 text-gray-700">Mixed and applied strictly per label; a professional-style product, not a grab-and-spray can</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="crossfire bed bug concentrate" block>Check availability &rarr;</BuyLink></td>
-                </tr>
+                  <td className="px-4 py-3 text-gray-700">Mixed and applied strictly per label; a professional-style product, not a grab-and-spray can</td>                </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">EcoSmart Bed Bug Killer<br /><span className="font-normal text-xs text-gray-500">Mattresses &amp; Carpets aerosol</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">FIFRA 25(b) exempt</strong> &mdash; minimum-risk botanical, so not EPA-registered and never efficacy-reviewed; sold in only about ten states</td>
-                  <td className="px-4 py-3 text-gray-700">Contact treatment where its label allows &mdash; check it ships to your state</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ecosmart bed bug killer mattresses carpets" block>Check availability &rarr;</BuyLink></td>
-                </tr>
+                  <td className="px-4 py-3 text-gray-700">Contact treatment where its label allows &mdash; check it ships to your state</td>                </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Grandpa Gus&rsquo;s Natural Bed Bug Killer</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">FIFRA 25(b) exempt</strong> botanical &mdash; same no-efficacy-review caveat</td>
-                  <td className="px-4 py-3 text-gray-700">A botanical contact spray, on the surfaces its label names; expect short residual</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="grandpa gus natural bed bug killer spray" block>Check availability &rarr;</BuyLink></td>
-                </tr>
+                  <td className="px-4 py-3 text-gray-700">A botanical contact spray, on the surfaces its label names; expect short residual</td>                </tr>
               </tbody>
             </table>
           </div>

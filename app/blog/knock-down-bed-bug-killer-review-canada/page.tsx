@@ -183,11 +183,11 @@ export default function KnockDownBedBugKillerReviewCanadaPage() {
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom sleep tight bed bug" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
-                  <td className="px-4 py-3 font-bold text-brand-800">Silica desiccant dust<br /><span className="font-normal text-xs text-gray-500">CimeXa-type</span></td>
-                  <td className="px-4 py-3 text-gray-700">Dries the insect out over hours; lasts months in dry voids</td>
+                  <td className="px-4 py-3 font-bold text-brand-800">Desiccant dust<br /><span className="font-normal text-xs text-gray-500">registered diatomaceous earth</span></td>
+                  <td className="px-4 py-3 text-gray-700">Dries the insect out over days; lasts months in dry voids</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">No</strong> &mdash; but catches every hatchling</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Registered</strong> options exist</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cimexa insecticide dust bed bugs" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Steam / heat<br /><span className="font-normal text-xs text-gray-500">steamer or room heater</span></td>
@@ -228,7 +228,7 @@ export default function KnockDownBedBugKillerReviewCanadaPage() {
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of Knock Down and the layers you build around it:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="knock down bed bug killer spray canada">Knock Down Bed Bug Killer →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="cimexa insecticide dust bed bugs">Desiccant dust →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth">Desiccant dust →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="bed bug steamer">Bed bug steamer →</BuyLink>
           </div>
 

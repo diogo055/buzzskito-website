@@ -159,9 +159,9 @@ export default function HowToKillBedBugEggsCanadaPage() {
               },
               {
                 badge: 'Best Long-Term Barrier',
-                name: 'CimeXa Silica Desiccant Dust',
+                name: 'Registered Diatomaceous Earth Dust',
                 why: 'An inert silica dust that dries out any bug or nymph that crawls through it and stays active for months in dry voids. Not an on-contact egg-killer, but the long-lasting insurance layer that catches whatever hatches from a missed egg weeks later.',
-                search: 'cimexa desiccant dust bed bug',
+                search: 'doktor doom diatomaceous earth',
                 pros: ['Stays lethal in dry voids for months', 'Catches late hatchlings from missed eggs', 'Odourless, non-volatile'],
                 cons: ['Slow kill, not for eggs directly', 'Must be applied as a fine film, not piled'],
               },
@@ -256,7 +256,7 @@ export default function HowToKillBedBugEggsCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="bed bug steamer dry vapor">Dry-vapour steamer →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="bed bug heater bag chamber">Heated chamber →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="ecoraider bed bug spray">EcoRaider-type residual →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="cimexa desiccant dust bed bug">CimeXa dust →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth">Registered DE dust →</BuyLink>
           </div>
 
           <NextUp path="/blog/how-to-kill-bed-bug-eggs-canada" />

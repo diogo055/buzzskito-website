@@ -8,7 +8,8 @@ import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema } from '@/l
 import { BUSINESS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Cost in Ontario — 2026 Prices from $99',
+  // TITLE NOTE (Nov 5, 2026, owner's OK on the Search Console title audit): was 'Mosquito Control Cost in Ontario — 2026 Prices from $99'; dropped "2026" (stale from Jan 1); kept the price because this title already beat the CTR curve 1.5x.
+  title: 'Mosquito Control Cost Ontario: Prices From $99',
   description:
     'How much does mosquito control cost in Ontario? Single visits from $99, full-season plans from $549. Transparent 2026 pricing, no contracts. Call (289) 216-5030.',
   canonical: '/mosquito-control-cost',

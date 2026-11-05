@@ -198,11 +198,11 @@ export default function KonkBedBugKillerReviewCanadaPage() {
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="konk bed bug killer aerosol" block>Registered pick instead &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
-                  <td className="px-4 py-3 font-bold text-brand-800">Desiccant dust<br /><span className="font-normal text-xs text-gray-500">CimeXa / diatomaceous earth</span></td>
+                  <td className="px-4 py-3 font-bold text-brand-800">Desiccant dust<br /><span className="font-normal text-xs text-gray-500">registered diatomaceous earth</span></td>
                   <td className="px-4 py-3 text-gray-700">Silica desiccant &mdash; kills by drying insects out</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Resistance-proof</strong> &mdash; slow, but near-permanent void barrier</td>
                   <td className="px-4 py-3 text-gray-700">CimeXa has no Canadian registration; diatomaceous earth dusts with PCP numbers exist, such as Wilson Bed Bug Out (26679), and Ortho Bed Bug B Gon Diatom (32674) is a diatomaceous earth aerosol</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cimexa insecticide dust" block>Check price on Amazon.ca &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Grey-market US concentrates<br /><span className="font-normal text-xs text-gray-500">Crossfire, Temprid FX</span></td>
@@ -286,7 +286,7 @@ export default function KonkBedBugKillerReviewCanadaPage() {
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="konk bed bug killer aerosol">Konk on Amazon.ca &rarr;</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="cimexa insecticide dust">Desiccant dust &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth">Desiccant dust &rarr;</BuyLink>
             <BuyLink tag={AMZ_TAG} search="bed bug steamer">Bed bug steamer &rarr;</BuyLink>
           </div>
 

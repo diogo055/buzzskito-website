@@ -9,7 +9,8 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Oakville Tick Control 2026 · From $99 · Bronte Creek Specialist',
+  // TITLE NOTE (Nov 5, 2026, owner's OK on the Search Console title audit): was 'Oakville Tick Control 2026 · From $99 · Bronte Creek Specialist'; dropped "2026", fits 60 rendered; price kept here because the description has none.
+  title: 'Oakville Tick Control: Yard Tick Spray From $99',
   description:
     'Oakville tick spray · 150+ five-star reviews. Targets blacklegged ticks near Bronte Creek, Joshua Creek & Iroquois Shoreline. Rain-back guarantee. (289) 216-5030.',
   canonical: '/oakville-tick-spray',

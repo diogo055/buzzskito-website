@@ -131,7 +131,7 @@ export default function CockroachControlHubPage() {
         subtitle="The bait stations and glue boards that do the work, the narrow jobs a spray still has, and the Canadian answer on imported gel bait — plus identification and how-to guides for readers anywhere in North America."
         heroStats={[{ value: `${POSTS_LINKED}`, label: 'Research guides' }, { value: `${SECTIONS.length}`, label: 'Categories' }, { value: 'Bait-first', label: 'Method' }]}
         adjacentPest="cockroaches"
-        topBox={<TopBox tag={AMZ_TAG} name="Combat Roach Killing Bait Stations (12-pack)" search="combat roach killing bait stations" label="Start Here" disclosure />}
+        topBox={<TopBox tag={AMZ_TAG} name="Raid Ant Roach & Earwig Gel Baits (Reg. No. 25735)" search="raid ant roach earwig gel baits" label="Start Here" disclosure />}
         quickAnswer={{
           lead: <>For a cockroach problem in a Canadian home, start with <strong>bait, not spray</strong>: enclosed bait stations along the wall edges of the kitchen and bathroom, glue-board monitors to measure progress, and no food or water left out overnight. A roach that feeds on the slow-acting bait crawls back to the harbourage, where, the University of Kentucky explains, traces left in its droppings can kill roaches that never touched the bait. A spray kills only the roaches it reaches, and Rutgers University notes that most active ingredients in retail sprays are pyrethroids, which repel cockroaches and may push them into neighbouring units.</>,
           bullets: [
@@ -150,9 +150,9 @@ export default function CockroachControlHubPage() {
             <AffiliateDisclosure />
             <TopPick tag={AMZ_TAG}
               label="Start Here"
-              name="Combat Roach Killing Bait Stations (12-pack)"
-              blurb="The first purchase in the bait-first plan on this page: enclosed bait stations set along the wall edges of the kitchen and bathroom, so roaches feed and carry the slow-acting bait back to the harbourage. Buy the pack that shows a Canadian registration number on the label."
-              search="combat roach killing bait stations"
+              name="Raid Ant Roach & Earwig Gel Baits (Reg. No. 25735)"
+              blurb="The first purchase in the bait-first plan on this page: enclosed bait stations set along the wall edges of the kitchen and bathroom, so roaches feed and carry the slow-acting bait back to the harbourage. These boric acid stations are registered in Canada; Combat's roach stations no longer are. Check for Reg. No. 25735 on the pack you receive."
+              search="raid ant roach earwig gel baits"
             />
           </>,
         }}
@@ -162,7 +162,7 @@ export default function CockroachControlHubPage() {
           body: <><p>This cockroach cluster is one section of our broader <Link href="/pest-product-guides">Canadian pest product guides</Link> library, which applies the same PMRA-legality-first method to bed bugs, mice and rats, and more. If you want identification, biology, health concerns and the control sequence on a single page, <Link href="/learn/cockroaches">the complete cockroach reference</Link> gathers them for readers anywhere in North America. A reminder on scope: everything here is independent research from BuzzSkito&rsquo;s publishing team — our operating business treats mosquitoes and ticks only, and we do not treat cockroaches or sell any product reviewed here.</p>
             <p className="mt-4">Still at the DIY stage? The plan above starts with two purchases: enclosed bait stations, and glue-board monitors to show whether the count is falling.</p>
             <div className="not-prose mt-4 flex flex-wrap gap-3">
-              <BuyLink tag={AMZ_TAG} search="combat roach killing bait stations" className="!text-white !no-underline">Check price on Amazon.ca &rarr;</BuyLink>
+              <BuyLink tag={AMZ_TAG} search="raid ant roach earwig gel baits" className="!text-white !no-underline">Check price on Amazon.ca &rarr;</BuyLink>
               <BuyLink tag={AMZ_TAG} search="cockroach glue traps monitor" className="!text-white !no-underline">See glue-board monitors on Amazon.ca &rarr;</BuyLink>
             </div>
           </>,

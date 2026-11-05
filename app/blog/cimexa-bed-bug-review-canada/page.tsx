@@ -345,7 +345,7 @@ export default function CimexaBedBugReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; faster kill, very light rate</td>
                   <td className="px-4 py-3 text-gray-700">Long residual in dry cracks &amp; voids</td>
                   <td className="px-4 py-3 text-gray-700">No Canadian registration found (no CimeXa listing; its label carries U.S. EPA Reg. No. 73079-12)</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cimexa insecticide dust" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth" block>Registered DE dust instead →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Diatomaceous earth<br /><span className="font-normal text-xs text-gray-500">Doktor Doom, food-grade</span></td>
