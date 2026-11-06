@@ -135,7 +135,7 @@ export default function BestTickRepellentYardPage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
-          <p className="lead text-xl text-gray-700 leading-relaxed mb-6">Personal tick repellents on your skin protect <em>you</em>. Yard-scale tick repellents protect your <em>property</em> — and that&rsquo;s a different problem with different solutions. Here&rsquo;s what works in Canadian yards in 2026.</p>
+          <p className="lead text-xl text-gray-700 leading-relaxed mb-6">Personal tick repellents on your skin protect <em>you</em> (for those, see our guide to the <Link href="/blog/best-tick-repellent">best tick repellent for people in Canada</Link>). Yard-scale tick repellents protect your <em>property</em> — and that&rsquo;s a different problem with different solutions. Here&rsquo;s what works in Canadian yards in 2026.</p>
 
           <h2>Cedarcide Granules and Cedar Sprays in Canada</h2>
           <p>Cedarcide&rsquo;s granules are cedar wood. The maker lists the active ingredient as &ldquo;Cedar Chips (100%)&rdquo;, says &ldquo;the granules only repel bugs, they do not kill them&rdquo;, lists third-party testing for fleas, ants, mosquitoes, mites and chiggers (ticks are not on that list) and says to reapply every 4&ndash;6 weeks. In the United States, Cedarcide sells its products as EPA &ldquo;minimum risk&rdquo; pesticides, a class the EPA exempts from registration and generally does not review.</p>

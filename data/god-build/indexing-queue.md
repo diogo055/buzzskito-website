@@ -35,6 +35,7 @@ Released Nov 6, 2026 (afternoon; mosquito & tick build, top 10), new pages, requ
 - https://buzzskito.ca/blog/what-do-mosquito-bites-look-like (new; bite photo page, "what do mosquito bites look like")
 - https://buzzskito.ca/blog/skeeter-syndrome (new; bites, "skeeter syndrome")
 - https://buzzskito.ca/blog/deer-tick-vs-dog-tick (new; US edition, regional pair with the Canadian page)
+- https://buzzskito.ca/blog/best-tick-repellent (new; Canadian buying page for people, amazon.ca, "best tick repellent")
 
 Upgraded Nov 6, 2026 (owner: "fix the entire mosquito section"; new sections, tables, FAQs, photos, sourced corrections), all `recrawl`. Off-season pages, so after the winter pages above:
 
