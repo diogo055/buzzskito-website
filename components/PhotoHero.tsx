@@ -117,7 +117,7 @@ export default function PhotoHero() {
           <h1 className="font-display text-[2.75rem] font-extrabold leading-[1.02] tracking-tight text-white sm:text-6xl lg:text-7xl xl:text-[5.5rem] [text-wrap:balance]">
             Mosquito &amp; Tick Control
             <br />
-            <span className="accent-serif text-sheen-once text-amber-400">in the Greater Toronto Area</span>
+            <span className="accent-serif text-sheen-once text-amber-400">in the Greater Toronto&nbsp;Area</span>
           </h1>
 
           {/* Subhead — pesticide advertising rules (Health Canada DIR2016-01) bar "Health Canada approved",

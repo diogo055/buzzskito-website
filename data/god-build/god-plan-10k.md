@@ -452,6 +452,7 @@ Ranked by expected clicks x value (`research_notes/God plan 10k a day/new_pages.
 - **NEXT "go" (Nov 6; pace room 4 on Nov 6 UTC: 21 new in the 7 days to Nov 6):**
   - **First:** the NOW 10 (section 4), within the cap, starting with brown-recluse, phorid-flies, centipede-vs-millipede, tiny-flying-bugs-in-house and flea-bites-vs-bed-bug-bites.
   - **Then:** the german-cockroaches and house-centipedes pushes, and the December mosquito holds above.
+  - **amazon.com picks still missing on 3 of tonight's pages:** little-black-ants, roach-droppings-vs-mouse-droppings and christmas-tree-bugs went live without one (the build does not catch it). Give each a pick the page itself recommends, checked like the others, or a `_noPick` reason.
   - **Owner decisions from the merges:**
     1. A CimeXa buy button sits on a page that says CimeXa is not registered in Canada.
     2. bed-bug-spray-canada now carries a US-products table with amazon.ca buttons for products not legal in Canada.
