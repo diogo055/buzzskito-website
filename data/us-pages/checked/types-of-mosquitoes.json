@@ -2,9 +2,14 @@
  "id": "types-of-mosquitoes",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "ba752e6c606594a578a9e405a31b78b9adf52e130e8d3f299f702b5cef4448c8",
+ "sha": "ca36de9f6af527b75e6bcd19edb55bfb111bc2f9a87847e0711de8c653757298",
  "claimsChecked": 275,
  "claimsCorrected": 2,
  "claimsRemovedOrSoftened": 7,
- "checkedOn": "2026-11-06"
+ "checkedOn": "2026-11-06",
+ "released": {
+  "on": "2026-11-06",
+  "scheduledFor": "2026-11-06",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

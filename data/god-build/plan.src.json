@@ -5517,7 +5517,7 @@
    ],
    "family": "us-editions",
    "priority": 2,
-   "releaseOn": "2026-11-08"
+   "releaseOn": "2026-11-06"
   },
   {
    "section": "blog",
@@ -5663,7 +5663,7 @@
    ],
    "family": "mosquito-species",
    "priority": 2,
-   "releaseOn": "2026-11-07"
+   "releaseOn": "2026-11-06"
   },
   {
    "section": "blog",
@@ -5755,7 +5755,7 @@
    ],
    "family": "mosquito-species",
    "priority": 2,
-   "releaseOn": "2026-11-07"
+   "releaseOn": "2026-11-06"
   },
   {
    "section": "blog",
@@ -19114,7 +19114,7 @@
    ],
    "family": "us-buying",
    "priority": 1,
-   "releaseOn": "2026-11-08"
+   "releaseOn": "2026-11-06"
   }
  ]
 }

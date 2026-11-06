@@ -304,6 +304,12 @@ app/blog/alaska-mosquitoes/page.tsx
 content/guides/skeeter-syndrome.json
 data/us-pages/checked/skeeter-syndrome.json
 app/blog/skeeter-syndrome/page.tsx
+content/guides/types-of-mosquitoes.json
+data/us-pages/checked/types-of-mosquitoes.json
+app/blog/types-of-mosquitoes/page.tsx
+content/guides/asian-tiger-mosquito.json
+data/us-pages/checked/asian-tiger-mosquito.json
+app/blog/asian-tiger-mosquito/page.tsx
 content/guides/best-mosquito-repellent.json
 data/us-pages/checked/best-mosquito-repellent.json
 app/blog/best-mosquito-repellent/page.tsx
@@ -457,6 +463,12 @@ app/blog/deer-tick-vs-dog-tick/page.tsx
 content/guides/lone-star-tick.json
 data/us-pages/checked/lone-star-tick.json
 app/blog/lone-star-tick/page.tsx
+content/guides/permethrin-for-clothing.json
+data/us-pages/checked/permethrin-for-clothing.json
+app/blog/permethrin-for-clothing/page.tsx
+content/guides/best-tick-spray-for-yard.json
+data/us-pages/checked/best-tick-spray-for-yard.json
+app/blog/best-tick-spray-for-yard/page.tsx
 content/guides/venomous-spiders.json
 data/us-pages/checked/venomous-spiders.json
 app/blog/venomous-spiders/page.tsx

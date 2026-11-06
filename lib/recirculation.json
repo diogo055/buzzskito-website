@@ -178,6 +178,20 @@
    ],
    "bar": true
   },
+  "/blog/asian-tiger-mosquito": {
+   "next": "/blog/types-of-mosquitoes",
+   "related": [
+    "/blog/skeeter-syndrome",
+    "/blog/what-do-mosquito-bites-look-like",
+    "/blog/how-many-times-can-a-mosquito-bite-you"
+   ],
+   "cards": [
+    "/blog/mosquito-trap-running-cost-canada",
+    "/blog/why-do-mosquito-bites-itch",
+    "/blog/hardtop-vs-soft-top-mosquito-gazebo-canada"
+   ],
+   "bar": true
+  },
   "/blog/baby-bed-bugs-nymphs": {
    "next": "/blog/bed-bug-shells-casings-shed-skins-canada",
    "related": [
@@ -1395,6 +1409,20 @@
     "/learn/tick-identification-chart",
     "/blog/tick-bite-on-dog-symptoms",
     "/blog/ultimate-tick-control-guide-ontario"
+   ],
+   "bar": true
+  },
+  "/blog/best-tick-spray-for-yard": {
+   "next": "/blog/best-tick-control-yard-treatment",
+   "related": [
+    "/blog/tick-season-mississauga-when-are-ticks-active",
+    "/blog/permethrin-for-clothing",
+    "/learn/how-to-combat-ticks"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/tick-season-oakville-when-are-ticks-active",
+    "/blog/ticks-in-virginia"
    ],
    "bar": true
   },
@@ -5162,6 +5190,20 @@
    ],
    "bar": true
   },
+  "/blog/permethrin-for-clothing": {
+   "next": "/blog/what-kills-ticks",
+   "related": [
+    "/blog/best-tick-spray-for-yard",
+    "/learn/ticks-by-province",
+    "/blog/deer-tick-vs-dog-tick"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/red-ticks-and-clover-mites",
+    "/blog/ticks-in-mississippi"
+   ],
+   "bar": true
+  },
   "/blog/picaridin-vs-deet": {
    "next": "/blog/off-deep-woods-deet-bug-spray-canada",
    "related": [
@@ -6735,6 +6777,20 @@
     "/blog/fall-mouse-proofing-checklist",
     "/blog/are-mice-nocturnal",
     "/blog/how-to-get-rid-of-mice-canada"
+   ],
+   "bar": true
+  },
+  "/blog/types-of-mosquitoes": {
+   "next": "/blog/what-do-mosquito-bites-look-like",
+   "related": [
+    "/blog/what-blood-type-do-mosquitoes-bite",
+    "/blog/skeeter-syndrome",
+    "/blog/asian-tiger-mosquito"
+   ],
+   "cards": [
+    "/blog/best-bug-zapper",
+    "/blog/is-deet-safe",
+    "/blog/propane-mosquito-trap-canada"
    ],
    "bar": true
   },

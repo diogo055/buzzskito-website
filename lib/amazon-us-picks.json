@@ -1503,6 +1503,24 @@
       "name": "Fine-tip tick removal tweezers",
       "search": "fine tip tick removal tweezers",
       "basis": "What to do if you find one: remove it with clean, fine-tipped tweezers (CDC). Generic tool, no brand."
+    },
+    "asian-tiger-mosquito": {
+      "label": "For daytime bites",
+      "name": "Picaridin insect repellent",
+      "search": "picaridin insect repellent 20 percent",
+      "basis": "\"Protect your skin. CDC recommends EPA-registered repellents with DEET, picaridin, IR3535, oil of lemon eucalyptus (OLE), para-menthane-diol (PMD) or 2-undecanone, used as the label directs\" (tiger mosquitoes bite by day). Generic type the page names; no brand."
+    },
+    "permethrin-for-clothing": {
+      "label": "For clothing and gear",
+      "name": "Permethrin clothing spray (0.5%)",
+      "search": "permethrin spray for clothing",
+      "basis": "Quick answer: spray 0.5% permethrin on the outside of clothes and gear, never on skin, and let it dry; \"How do you apply permethrin to clothing?\" gives the EPA-accepted label steps (EPA Reg. No. 50404-3). A pesticide only as the type the page names: permethrin for clothing, never skin."
+    },
+    "best-tick-spray-for-yard": {
+      "label": "For lawn borders",
+      "name": "Bifenthrin lawn insect granules labeled for ticks",
+      "search": "bifenthrin lawn insect killer granules",
+      "basis": "Quick answer: \"usually a pyrethroid such as bifenthrin or permethrin\"; picks block: \"Bifenthrin is sold to homeowners as liquids and granules. One 0.2% granule's maker claims 3 months against ticks.\" Generic type the page names; label must list ticks."
     }
   }
 }

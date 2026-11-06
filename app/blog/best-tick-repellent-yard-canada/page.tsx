@@ -11,6 +11,7 @@ import NextUp from '@/components/NextUp'
 import QuickIdTable from '@/components/QuickIdTable'
 import Photo from '@/components/Photo'
 import { shareImage } from '@/lib/photos'
+import { withRegionalAlternates } from '@/lib/guides'
 
 const SLUG = 'best-tick-repellent-yard-canada'
 const DATE = '2026-04-26'
@@ -81,7 +82,7 @@ const FAQS = [
   },
 ]
 
-export const metadata: Metadata = buildMetadata({
+export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   // TITLE NOTE (Oct 28, 2026): was 'Best Tick Repellent for Yards — Canada 2026'; top queries (Jul 28-Oct 25): are granule insecticides actually more effective than sprays for outdoor tick control? 47 (pos 8.3), cedarcide granules canada 42 (7.9, 2 clicks), cedarcide canada where to buy 5 (1 click), is there a tick spray for yards 5 (1 click). 'tick control for yards' stays with /blog/best-tick-control-yard-treatment.
   // TITLE NOTE (Nov 6, 2026): was 'Yard Tick Repellent Canada: Cedarcide & Sprays' (46), description 'Yard tick repellent in Canada: Cedarcide granules and cedar sprays are not registered here. The registered sprays, granules vs spray, and the habitat fixes.' Search Console May-Nov 2026: cedarcide canada 1,262 impressions (pos 7.1), cedar granules canada 372 (8.8), tick spray for yard canada 208 (11.3), tick spray for yard 90 (12.0), tick spray for yard safe for pets canada 53 (8.2). The yard search leads; Cedarcide stays as a question, not a pick (no cedar product is registered in Canada). "best tick repellent" (400, 10.6) is people intent, left to the coming /blog/best-tick-repellent.
   title: 'Yard Tick Spray Canada: Is Cedarcide Registered?',
@@ -91,7 +92,7 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
   image: shareImage('blacklegged-tick-adult-nymph-fingertip'),
-})
+}), '/blog/best-tick-repellent-yard-canada')
 
 const AMZ_TAG = tagForSlug('best-tick-repellent-yard-canada')
 

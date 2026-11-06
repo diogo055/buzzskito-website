@@ -1,6 +1,6 @@
 # Photos and diagrams the new guides still need
 
-566 images across 229 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
+570 images across 232 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
 
 ## /learn/bed-bugs
 
@@ -522,6 +522,14 @@
 - Clinical photograph of skeeter syndrome on an adult's flank: Figure 2 of Vander Does, Labib and Yosipovitch, Front. Immunol. 2022 (CC BY 4.0), a broad, well-defined red patch; its legend says he had been given oral antibiotics for suspected cellulitis in earlier episodes and that this episode responded well to topical corticosteroids and antihistamines
 - A large local reaction to mosquito bites on a young child's arm, leg or face, attributed to mosquitoes by a pediatrician, allergist or health agency, beside a ruler marked in inches if possible; public domain, CC0, CC BY or CC BY-SA; no identifiable face
 
+## /blog/types-of-mosquitoes
+
+- An adult non-biting midge (family Chironomidae) at rest with its front legs raised, ideally a male with feathery antennae on a wall or window in the US, CC BY or public domain, credited; for example the Commons file Non-biting Midge on Moss by Katja Schulz (CC BY 2.0)
+
+## /blog/asian-tiger-mosquito
+
+- Asian tiger mosquito larvae (Aedes albopictus, identified as such, not Ae. aegypti) in a small outdoor container such as a flowerpot saucer, tire or bucket, identified by CDC, an extension service or an entomologist; public domain or CC0
+
 ## /blog/best-mosquito-repellent
 
 - Close-up of the back label of a US insect repellent showing the EPA Reg. No. and EPA's repellency awareness graphic with hours of protection for mosquitoes and ticks, beside a ruler marked in inches; public domain or CC0
@@ -601,6 +609,11 @@
 
 - Unfed adult female and adult male lone star ticks side by side, top view, beside a ruler marked in inches or a US penny, identified by CDC, an extension service or an entomologist; public domain or CC0 so it could also serve as a share image
 - The STARI rash: a red, expanding rash around a confirmed lone star tick bite, from CDC or a university medical source, public domain or CC0, with its size and the days since the bite on record; placed low on the page
+
+## /blog/best-tick-spray-for-yard
+
+- Overhead photo or diagram of a US backyard showing the tick zone: woods, the brushy edge, a 3-foot wood chip strip, the outer 9 feet of lawn shaded as the spray band, and a play set moved to the sunny middle of the lawn
+- Photo of a 3-foot-wide wood chip or gravel strip separating a mowed US lawn from a brushy wooded edge, ideally with a swing set in the sunny part of the lawn
 
 ## /blog/venomous-spiders
 

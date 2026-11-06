@@ -1,5 +1,6 @@
-release: 3 scheduled page(s) go live (2026-11-06)
+release: 4 scheduled page(s) go live (2026-11-06)
 
-- /blog/deer-tick-vs-dog-tick
-- /blog/skeeter-syndrome
-- /blog/what-do-mosquito-bites-look-like
+- /blog/permethrin-for-clothing
+- /blog/types-of-mosquitoes
+- /blog/asian-tiger-mosquito
+- /blog/best-tick-spray-for-yard

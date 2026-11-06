@@ -65,8 +65,12 @@ for (const f of readdirSync(CHECKED).filter((n) => n.endsWith('.json'))) {
   recent.week++
   if (on === DATE) recent.today++
 }
-const room = Math.max(0, Math.min(PACE.perDay - recent.today, PACE.perWeek - recent.week))
+// The owner can lift the cap for one hand-run release (Nov 6, 2026: "you can push everything now. It's okay").
+// PACE_OVERRIDE carries his words into the log; the morning robot never sets it, so the cap stays the default.
+const OVERRIDE = process.env.PACE_OVERRIDE?.trim()
+const room = OVERRIDE ? Infinity : Math.max(0, Math.min(PACE.perDay - recent.today, PACE.perWeek - recent.week))
 console.log(`pace: ${recent.today} released today, ${recent.week} in the last 7 days; room for ${room} more today`)
+if (OVERRIDE) console.log(`pace cap lifted by the owner for this run: ${OVERRIDE}`)
 
 const releasing = new Set(due.map(pathOf))
 const released = [], held = []

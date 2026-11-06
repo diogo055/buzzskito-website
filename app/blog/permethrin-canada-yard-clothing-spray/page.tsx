@@ -12,6 +12,7 @@ import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
 import QuickIdTable from '@/components/QuickIdTable'
+import { withRegionalAlternates } from '@/lib/guides'
 
 const SLUG = 'permethrin-canada-yard-clothing-spray'
 const DATE = '2026-05-01'
@@ -148,14 +149,14 @@ const FAQS = [
   },
 ]
 
-export const metadata: Metadata = buildMetadata({
+export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   title: 'Permethrin Spray Canada: Legal? Where to Buy',
   description: 'Permethrin sprays for treating your own clothing are not approved in Canada; factory-treated clothing is the legal route from 16. What to buy, and where.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
-})
+}), '/blog/permethrin-canada-yard-clothing-spray')
 
 const AMZ_TAG = tagForSlug('permethrin-canada-yard-clothing-spray')
 

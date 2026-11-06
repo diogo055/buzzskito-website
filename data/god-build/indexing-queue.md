@@ -36,6 +36,10 @@ Released Nov 6, 2026 (afternoon; mosquito & tick build, top 10), new pages, requ
 - https://buzzskito.ca/blog/skeeter-syndrome (new; bites, "skeeter syndrome")
 - https://buzzskito.ca/blog/deer-tick-vs-dog-tick (new; US edition, regional pair with the Canadian page)
 - https://buzzskito.ca/blog/best-tick-repellent (new; Canadian buying page for people, amazon.ca, "best tick repellent")
+- https://buzzskito.ca/blog/types-of-mosquitoes (new; released the same evening on the owner's "push everything now")
+- https://buzzskito.ca/blog/asian-tiger-mosquito (new)
+- https://buzzskito.ca/blog/permethrin-for-clothing (new; US buying guide, regional pair with the Canadian permethrin page)
+- https://buzzskito.ca/blog/best-tick-spray-for-yard (new; US buying guide, regional pair with the Canadian yard page)
 
 Upgraded Nov 6, 2026 (owner: "fix the entire mosquito section"; new sections, tables, FAQs, photos, sourced corrections), all `recrawl`. Off-season pages, so after the winter pages above:
 

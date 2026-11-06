@@ -2,14 +2,14 @@
  "generated": "2026-11-06",
  "summary": {
   "keywords": 100,
-  "newPagesBuilt": 276,
+  "newPagesBuilt": 280,
   "hubPages": 4,
-  "guides": 261,
+  "guides": 265,
   "broadened": 9,
   "mergedIntoExistingPages": 9,
   "mergedIntoNewPages": 9,
-  "notBuilt": 189,
-  "internalLinksInNewPages": 3740
+  "notBuilt": 188,
+  "internalLinksInNewPages": 3784
  },
  "pages": [
   {
@@ -686,6 +686,38 @@
   },
   {
    "rank": null,
+   "keyword": "types of mosquitoes",
+   "us_volume": null,
+   "url": "/blog/types-of-mosquitoes",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "mosquitoes",
+   "title": "Types of Mosquitoes: Photo ID Guide and Chart",
+   "wordCount": 2639,
+   "faqs": 10,
+   "sources": 20,
+   "inboundFromNewPages": 0,
+   "outboundInternalLinks": 9,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "asian tiger mosquito",
+   "us_volume": null,
+   "url": "/blog/asian-tiger-mosquito",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "mosquitoes",
+   "title": "Asian Tiger Mosquito: Photos, Range Map, Bites",
+   "wordCount": 2588,
+   "faqs": 10,
+   "sources": 20,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 11,
+   "status": "built"
+  },
+  {
+   "rank": null,
    "keyword": "mosquito repellent",
    "us_volume": null,
    "url": "/blog/best-mosquito-repellent",
@@ -696,7 +728,7 @@
    "wordCount": 2644,
    "faqs": 10,
    "sources": 19,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -872,7 +904,7 @@
    "wordCount": 2896,
    "faqs": 6,
    "sources": 10,
-   "inboundFromNewPages": 32,
+   "inboundFromNewPages": 34,
    "outboundInternalLinks": 61,
    "status": "built"
   },
@@ -1365,11 +1397,43 @@
    "kind": "spoke",
    "cluster": "ticks",
    "title": "Lone Star Tick: ID Photos, Range Map, Diseases",
-   "wordCount": 3549,
+   "wordCount": 3569,
    "faqs": 10,
    "sources": 20,
-   "inboundFromNewPages": 9,
-   "outboundInternalLinks": 17,
+   "inboundFromNewPages": 11,
+   "outboundInternalLinks": 18,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "permethrin spray for clothes",
+   "us_volume": null,
+   "url": "/blog/permethrin-for-clothing",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Permethrin Spray for Clothes: How to Treat Gear",
+   "wordCount": 2564,
+   "faqs": 10,
+   "sources": 20,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 11,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "best tick spray for yard",
+   "us_volume": null,
+   "url": "/blog/best-tick-spray-for-yard",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Best Tick Spray for Your Yard and Where to Spray",
+   "wordCount": 2521,
+   "faqs": 10,
+   "sources": 20,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 10,
    "status": "built"
   },
   {
@@ -2888,7 +2952,7 @@
    "wordCount": 4067,
    "faqs": 6,
    "sources": 20,
-   "inboundFromNewPages": 38,
+   "inboundFromNewPages": 39,
    "outboundInternalLinks": 48,
    "status": "built"
   },
@@ -3906,13 +3970,6 @@
   },
   {
    "rank": null,
-   "keyword": "permethrin spray for clothes",
-   "url": "/blog/permethrin-for-clothing",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "when is tick season",
    "url": "/blog/tick-season",
    "action": "new",
@@ -3927,22 +3984,8 @@
   },
   {
    "rank": null,
-   "keyword": "types of mosquitoes",
-   "url": "/blog/types-of-mosquitoes",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "what percentage of ticks carry lyme disease",
    "url": "/blog/what-percentage-of-ticks-carry-lyme-disease",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "asian tiger mosquito",
-   "url": "/blog/asian-tiger-mosquito",
    "action": "new",
    "status": "not built"
   },
@@ -4584,6 +4627,20 @@
    "status": "not built"
   },
   {
+   "rank": null,
+   "keyword": "best mosquito spray for yard",
+   "url": "/blog/best-mosquito-spray-for-yard",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquito bits vs dunks",
+   "url": "/blog/mosquito-bits-vs-dunks",
+   "action": "new",
+   "status": "not built"
+  },
+  {
    "rank": 1,
    "keyword": "how to get rid of mice",
    "us_volume": 93000,
@@ -4709,7 +4766,7 @@
    "wordCount": 2812,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 14,
+   "inboundFromNewPages": 15,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -4839,7 +4896,7 @@
    "wordCount": 3004,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -4978,11 +5035,11 @@
    "kind": "spoke",
    "cluster": "mosquitoes",
    "title": "How to Keep Mosquitoes Away: What Really Works",
-   "wordCount": 2626,
+   "wordCount": 2630,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 12,
-   "outboundInternalLinks": 10,
+   "inboundFromNewPages": 13,
+   "outboundInternalLinks": 11,
    "status": "built"
   },
   {
@@ -5495,7 +5552,7 @@
    "wordCount": 2543,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -5667,7 +5724,7 @@
    "wordCount": 3549,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 37,
+   "inboundFromNewPages": 39,
    "outboundInternalLinks": 15,
    "status": "built"
   },
@@ -5765,7 +5822,7 @@
    "wordCount": 2812,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 14,
+   "inboundFromNewPages": 15,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -5813,7 +5870,7 @@
    "wordCount": 2623,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -5829,7 +5886,7 @@
    "wordCount": 3484,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 13,
+   "inboundFromNewPages": 15,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -5998,7 +6055,7 @@
    "faqs": 6,
    "sources": 6,
    "inboundFromNewPages": 16,
-   "outboundInternalLinks": 12,
+   "outboundInternalLinks": 13,
    "status": "built"
   },
   {
@@ -6023,7 +6080,7 @@
    "wordCount": 2558,
    "faqs": 6,
    "sources": 5,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 9,
    "status": "built"
   },

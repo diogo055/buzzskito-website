@@ -87,6 +87,17 @@
   "/guides/photos/boxelder-bug.webp",
   "/guides/photos/brown-marmorated-stink-bug.webp"
  ],
+ "/blog/asian-tiger-mosquito": [
+  "/guides/photos/aedes-aegypti-female.webp",
+  "/guides/photos/aedes-albopictus-biting-leg.webp",
+  "/guides/photos/aedes-albopictus-biting.webp",
+  "/guides/photos/aedes-albopictus-eggs.webp",
+  "/guides/photos/aedes-albopictus.webp",
+  "/guides/photos/biting-midge-bites-ankles.webp",
+  "/guides/photos/chigger-bites-ruler.webp",
+  "/guides/photos/flea-bites-ankles-cdc.webp",
+  "/guides/photos/mosquito-bite-welt-quarter.webp"
+ ],
  "/blog/baby-bed-bugs-nymphs": [
   "/guides/photos/bed-bug-adult-ruler.webp",
   "/guides/photos/bed-bug-cast-skin-fabric.webp",
@@ -439,6 +450,13 @@
   "/guides/photos/american-dog-tick-in-hand-yard-work.webp",
   "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
   "/guides/photos/white-footed-mouse-leaf-litter.webp"
+ ],
+ "/blog/best-tick-spray-for-yard": [
+  "/guides/photos/american-dog-tick-in-hand-yard-work.webp",
+  "/guides/photos/blacklegged-tick-questing-grass.webp",
+  "/guides/photos/tick-drag-cloth-woodland.webp",
+  "/guides/photos/white-footed-mouse-leaf-litter.webp",
+  "/guides/photos/white-tailed-deer-yard-ontario.webp"
  ],
  "/blog/best-ulv-cold-fogger-canada": [
   "/guides/photos/anopheles-quadrimaculatus.webp",
@@ -1927,6 +1945,11 @@
   "/guides/photos/biting-midge-on-skin.webp",
   "/guides/photos/black-fly.webp"
  ],
+ "/blog/permethrin-for-clothing": [
+  "/guides/photos/blacklegged-tick-on-camouflage-clothing.webp",
+  "/guides/photos/gallinipper-biting-through-pants.webp",
+  "/guides/photos/tick-check-sock-boot.webp"
+ ],
  "/blog/picaridin-vs-deet": [
   "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
   "/guides/photos/culex-pipiens.webp",
@@ -2740,6 +2763,19 @@
   "/guides/photos/meadow-vole-beside-ruler.webp",
   "/guides/photos/shrew-yard-lawn.webp",
   "/guides/photos/white-footed-mouse.webp"
+ ],
+ "/blog/types-of-mosquitoes": [
+  "/guides/photos/aedes-aegypti-female-feeding.webp",
+  "/guides/photos/aedes-albopictus-blood-fed.webp",
+  "/guides/photos/aedes-vexans-uv-light.webp",
+  "/guides/photos/anopheles-quadrimaculatus.webp",
+  "/guides/photos/biting-midge-on-skin.webp",
+  "/guides/photos/cattail-mosquito-porch-light.webp",
+  "/guides/photos/crane-fly.webp",
+  "/guides/photos/culex-quinquefasciatus-female.webp",
+  "/guides/photos/culex-tarsalis-female.webp",
+  "/guides/photos/fungus-gnat.webp",
+  "/guides/photos/gallinipper-biting-through-pants.webp"
  ],
  "/blog/types-of-ticks-identification": [
   "/diagrams/tick-species-ontario.svg",

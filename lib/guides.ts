@@ -262,6 +262,8 @@ export const REGIONAL_PAIRS: { us: string; ca: string }[] = [
   { us: '/blog/best-bed-bug-interceptors', ca: '/blog/bed-bug-interceptor-traps-canada' },
   { us: '/blog/best-wasp-spray', ca: '/blog/best-wasp-nest-spray-canada' },
   { us: '/blog/deer-tick-vs-dog-tick', ca: '/blog/deer-tick-vs-dog-tick-canada' },
+  { us: '/blog/permethrin-for-clothing', ca: '/blog/permethrin-canada-yard-clothing-spray' },
+  { us: '/blog/best-tick-spray-for-yard', ca: '/blog/best-tick-repellent-yard-canada' },
 ]
 
 export const regionalPair = (path: string) => REGIONAL_PAIRS.find((p) => p.us === path || p.ca === path)
