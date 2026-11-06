@@ -1521,6 +1521,36 @@
       "name": "Bifenthrin lawn insect granules labeled for ticks",
       "search": "bifenthrin lawn insect killer granules",
       "basis": "Quick answer: \"usually a pyrethroid such as bifenthrin or permethrin\"; picks block: \"Bifenthrin is sold to homeowners as liquids and granules. One 0.2% granule's maker claims 3 months against ticks.\" Generic type the page names; label must list ticks."
+    },
+    "best-mosquito-spray-for-yard": {
+      "label": "Best for most yards",
+      "name": "Bifenthrin insecticide concentrate (7.9%)",
+      "search": "bifenthrin 7.9 concentrate",
+      "basis": "Quick answer: \"For most yards, the best mosquito spray is an EPA-registered residual pyrethroid such as bifenthrin, sprayed on the shady shrubs and leaf undersides where mosquitoes rest\"; the page's first pick, same name and search (its label, EPA Reg. No. 53883-118, covers adult mosquitoes on residential lawns, trees and shrubs; fact-checked Nov 6). Generic pesticide type the page names; no brand."
+    },
+    "mosquito-bits-vs-dunks": {
+      "label": "For standing water",
+      "name": "Bti mosquito dunks (slow-release rings)",
+      "search": "mosquito dunks",
+      "basis": "Quick answer: \"Use Mosquito Dunks for standing water you check about once a month, such as rain barrels, ponds and tree holes\"; the page's first pick, same name and search (the Dunks label: Bti released for 30 days under typical conditions). EPA-registered Bti, the type the page recommends."
+    },
+    "little-black-ants": {
+      "label": "For little black ant trails",
+      "name": "Ant bait stations",
+      "search": "ant bait stations",
+      "basis": "Body: \"Bait first, then seal\"; with several queens in a colony, \"a bait that workers carry back to the nest does what a spray on the trail cannot\"; Ohio State says to put bait stations directly on the trail. Generic type the page recommends; no brand."
+    },
+    "roach-droppings-vs-mouse-droppings": {
+      "label": "For cleaning up droppings",
+      "name": "EPA-registered disinfectant spray",
+      "search": "epa registered disinfectant spray",
+      "basis": "Cleanup steps from CDC: put on rubber or plastic gloves, then \"spray the droppings and any urine with an EPA-registered disinfectant, or a fresh mix of about 1.5 cups of household bleach per gallon of water\" and never sweep or vacuum them. Generic type the page names; no brand."
+    },
+    "christmas-tree-bugs": {
+      "label": "For bugs that leave the tree",
+      "name": "Cordless handheld vacuum",
+      "search": "cordless handheld vacuum",
+      "basis": "Penn State's advice on the page: leave insects on the tree until it goes out and \"vacuum strays off ceilings, walls and windows\"; spider webs: \"a vacuum or dusting brush clears them\". The page advises against aerosol sprays on the tree, so the pick is non-chemical. Generic type; no brand."
     }
   }
 }

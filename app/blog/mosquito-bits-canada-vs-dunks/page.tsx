@@ -14,6 +14,7 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import { withRegionalAlternates } from '@/lib/guides'
 
 const SLUG = 'mosquito-bits-canada-vs-dunks'
 const DATE = '2026-05-01'
@@ -154,14 +155,14 @@ const FAQS = [
   },
 ]
 
-export const metadata: Metadata = buildMetadata({
+export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   title: META_TITLE,
   description: 'Health Canada’s pesticide registry lists no Mosquito Bits. Registered here: Mosquito Dunks (28888) and AquaBac or My-Crobe BTI granules, with their label doses.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
-})
+}), `/blog/${SLUG}`)
 
 const AMZ_TAG = tagForSlug('mosquito-bits-canada-vs-dunks')
 
@@ -447,6 +448,8 @@ export default function MosquitoBitsCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
+          {/* Regional edition link (Oct 2026): this page is the Canadian edition; see REGIONAL_PAIRS in lib/guides.ts */}
+          <p className="not-prose mb-6 rounded-lg border border-navy-100 bg-brand-50 px-4 py-2.5 text-sm text-gray-700">Reading from the United States? Product rules and what is sold there differ. <Link href="/blog/mosquito-bits-vs-dunks" className="font-semibold text-brand-700 underline">See the US edition</Link>.</p>
           <h2>How Mosquito Bits Work</h2>
           <p>Mosquito Bits are corn-cob granules coated with BTI (<em>Bacillus thuringiensis</em> subspecies <em>israelensis</em>) — a soil bacterium discovered in 1976 that specifically targets the digestive systems of mosquito and black fly larvae. The corn-cob granules float briefly when sprinkled onto water, then sink as they absorb moisture. As the bits dissolve, they release BTI proteins into the water column where larvae filter-feed. Not sure the wrigglers you found are mosquito larvae? Our <Link href="/blog/mosquito-larvae-identification">mosquito larvae identification guide</Link> shows exactly what to look for before you treat.</p>
           <p>BTI is one of the most species-specific insecticides ever developed. It acts on mosquito larvae, black fly larvae, and a few related midge species, which have to eat it for it to work. BTI larvicides are registered for sale in Canada under the Pest Control Products Act. On drinking water its position is precise and worth stating exactly, because it is widely misreported in both directions: no product containing Bti may be applied to treated, finished drinking water for human consumption, but the PMRA has no human health and safety concerns about applying registered Bt products to bodies of water that will later be used for human consumption. The timings quoted throughout this guide — full larvae kill within 24 hours, 7&ndash;14 days of control from Bits, about 30 days from a Dunk — are Summit&rsquo;s own product-label figures, not our field measurements.</p>

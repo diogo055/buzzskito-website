@@ -319,6 +319,12 @@ app/blog/best-bug-zapper/page.tsx
 content/guides/what-do-mosquito-bites-look-like.json
 data/us-pages/checked/what-do-mosquito-bites-look-like.json
 app/blog/what-do-mosquito-bites-look-like/page.tsx
+content/guides/best-mosquito-spray-for-yard.json
+data/us-pages/checked/best-mosquito-spray-for-yard.json
+app/blog/best-mosquito-spray-for-yard/page.tsx
+content/guides/mosquito-bits-vs-dunks.json
+data/us-pages/checked/mosquito-bits-vs-dunks.json
+app/blog/mosquito-bits-vs-dunks/page.tsx
 content/guides/what-do-ticks-look-like.json
 data/us-pages/checked/what-do-ticks-look-like.json
 app/blog/what-do-ticks-look-like/page.tsx

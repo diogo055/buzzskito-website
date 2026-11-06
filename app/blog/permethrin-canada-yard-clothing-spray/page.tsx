@@ -353,6 +353,8 @@ export default function PermethrinCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
+          {/* Regional edition link (Oct 2026): this page is the Canadian edition; see REGIONAL_PAIRS in lib/guides.ts */}
+          <p className="not-prose mb-6 rounded-lg border border-navy-100 bg-brand-50 px-4 py-2.5 text-sm text-gray-700">Reading from the United States? Product rules and what is sold there differ. <Link href="/blog/permethrin-for-clothing" className="font-semibold text-brand-700 underline">See the US edition</Link>.</p>
           <p className="not-prose text-sm text-gray-600 mb-1">The permethrin format Canadians can legally buy for personal protection is factory pre-treated clothing — worn, never sprayed on skin.</p>
           <h2>What Permethrin Does (and Why It&rsquo;s Different from DEET)</h2>
           <p>Permethrin is a synthetic version of pyrethrin, the natural insecticide found in chrysanthemum flowers. Unlike DEET and picaridin (which are <strong>repellents</strong> applied to skin), permethrin is a <strong>contact insecticide</strong> applied to clothing. When a tick or mosquito lands on permethrin-treated fabric, the chemical disrupts its nervous system within seconds — the insect either falls off or dies before biting through the fabric.</p>

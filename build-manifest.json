@@ -2,14 +2,14 @@
  "generated": "2026-11-06",
  "summary": {
   "keywords": 100,
-  "newPagesBuilt": 280,
+  "newPagesBuilt": 282,
   "hubPages": 4,
-  "guides": 265,
+  "guides": 267,
   "broadened": 9,
   "mergedIntoExistingPages": 9,
   "mergedIntoNewPages": 9,
-  "notBuilt": 188,
-  "internalLinksInNewPages": 3784
+  "notBuilt": 186,
+  "internalLinksInNewPages": 3806
  },
  "pages": [
   {
@@ -728,7 +728,7 @@
    "wordCount": 2644,
    "faqs": 10,
    "sources": 19,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -744,7 +744,7 @@
    "wordCount": 2819,
    "faqs": 10,
    "sources": 20,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -762,6 +762,38 @@
    "sources": 19,
    "inboundFromNewPages": 1,
    "outboundInternalLinks": 19,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "best mosquito spray for yard",
+   "us_volume": null,
+   "url": "/blog/best-mosquito-spray-for-yard",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "mosquitoes",
+   "title": "Best Mosquito Spray for Yard: What Lasts Weeks",
+   "wordCount": 3025,
+   "faqs": 10,
+   "sources": 20,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 12,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquito bits vs dunks",
+   "us_volume": null,
+   "url": "/blog/mosquito-bits-vs-dunks",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "mosquitoes",
+   "title": "Mosquito Bits vs Dunks: Which to Use Where",
+   "wordCount": 2537,
+   "faqs": 10,
+   "sources": 18,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 8,
    "status": "built"
   },
   {
@@ -2040,7 +2072,7 @@
    "wordCount": 2423,
    "faqs": 10,
    "sources": 11,
-   "inboundFromNewPages": 12,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -3176,7 +3208,7 @@
    "wordCount": 4566,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 13,
+   "inboundFromNewPages": 14,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -3205,11 +3237,11 @@
    "kind": "spoke",
    "cluster": "garden",
    "title": "How to Get Rid of Fungus Gnats: The 5-Step Plan",
-   "wordCount": 3627,
+   "wordCount": 3663,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 16,
-   "outboundInternalLinks": 9,
+   "inboundFromNewPages": 17,
+   "outboundInternalLinks": 10,
    "status": "built"
   },
   {
@@ -4627,20 +4659,6 @@
    "status": "not built"
   },
   {
-   "rank": null,
-   "keyword": "best mosquito spray for yard",
-   "url": "/blog/best-mosquito-spray-for-yard",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "mosquito bits vs dunks",
-   "url": "/blog/mosquito-bits-vs-dunks",
-   "action": "new",
-   "status": "not built"
-  },
-  {
    "rank": 1,
    "keyword": "how to get rid of mice",
    "us_volume": 93000,
@@ -4893,11 +4911,11 @@
    "kind": "spoke",
    "cluster": "mosquitoes",
    "title": "How to Get Rid of Mosquitoes: Dump Water First",
-   "wordCount": 3004,
+   "wordCount": 3031,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 12,
-   "outboundInternalLinks": 9,
+   "inboundFromNewPages": 14,
+   "outboundInternalLinks": 10,
    "status": "built"
   },
   {
@@ -5038,7 +5056,7 @@
    "wordCount": 2630,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 13,
+   "inboundFromNewPages": 14,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -5510,7 +5528,7 @@
    "wordCount": 2685,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -5756,7 +5774,7 @@
    "wordCount": 3111,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 17,
+   "inboundFromNewPages": 18,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -5886,7 +5904,7 @@
    "wordCount": 3484,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 15,
+   "inboundFromNewPages": 16,
    "outboundInternalLinks": 13,
    "status": "built"
   },

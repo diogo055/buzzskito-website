@@ -145,7 +145,7 @@ try {
 for (const { name } of released) unlinkSync(join(WAITING, name))
 
 const list = released.map(({ p }) => `- https://buzzskito.ca${pathOf(p)} (scheduled ${p.releaseOn})`)
-const notes = [`# Release ${DATE}`, '', `${released.length} page(s) went live${held.length ? `; ${held.length} held back` : ''}.`, '', ...list, ...(held.length ? ['', 'Held back:', ...held.map((h) => `- ${h}`)] : []), '']
+const notes = [`# Release ${DATE}`, '', `${released.length} page(s) went live${held.length ? `; ${held.length} held back` : ''}.`, ...(OVERRIDE ? ['', `Pace cap lifted by the owner for this run: "${OVERRIDE}"`] : []), '', ...list, ...(held.length ? ['', 'Held back:', ...held.map((h) => `- ${h}`)] : []), '']
 mkdirSync(join(ROOT, 'data', 'god-build', 'releases'), { recursive: true })
 // a second release on the same day (a manual run after the morning one) adds its list below the
 // first instead of replacing it

@@ -145,6 +145,8 @@ const URLS = [
   `${SITE_URL}/blog/best-mosquito-repellent`,
   `${SITE_URL}/blog/best-bug-zapper`,
   `${SITE_URL}/blog/what-do-mosquito-bites-look-like`,
+  `${SITE_URL}/blog/best-mosquito-spray-for-yard`,
+  `${SITE_URL}/blog/mosquito-bits-vs-dunks`,
   `${SITE_URL}/blog/ticks-in-nova-scotia`,
   `${SITE_URL}/blog/ticks-in-manitoba`,
   `${SITE_URL}/blog/ticks-in-alberta`,

@@ -580,6 +580,8 @@ export const US_GUIDE_BUILT = new Set<string>([
   "/blog/best-mosquito-repellent",
   "/blog/best-bug-zapper",
   "/blog/what-do-mosquito-bites-look-like",
+  "/blog/best-mosquito-spray-for-yard",
+  "/blog/mosquito-bits-vs-dunks",
   "/blog/what-do-ticks-look-like",
   "/blog/seed-ticks",
   "/blog/ticks-that-carry-lyme-disease",

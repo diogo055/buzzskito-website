@@ -1,0 +1,15 @@
+{
+ "id": "mosquito-bits-vs-dunks",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "0b4bb871875986957c30fa1254ee6019e7f12237a83d4e8cc0f72f1b950a0a2c",
+ "claimsChecked": 307,
+ "claimsCorrected": 9,
+ "claimsRemovedOrSoftened": 2,
+ "checkedOn": "2026-11-06",
+ "released": {
+  "on": "2026-11-06",
+  "scheduledFor": "2026-11-06",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

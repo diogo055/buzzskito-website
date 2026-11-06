@@ -2,7 +2,7 @@
  "id": "how-to-get-rid-of-fungus-gnats",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "a518cc9bdbaffa98145c7f062c2a8f9a4135629a9f81cdab11f07c403b2c9868",
+ "sha": "b2c505011f6cc4322e3717c3d1c07c56348234688c31512bf77a959b31e246f6",
  "claimsChecked": 119,
  "claimsCorrected": 12,
  "claimsRemovedOrSoftened": 7,
@@ -22,6 +22,16 @@
    "on": "2026-11-05",
    "note": "Nov 5, 2026: link to /blog/mosquito-dunks-canada-guide removed after it was merged into /blog/mosquito-bits-canada-vs-dunks (301 redirect); its anchor ('how the dunk form is used') folded into the existing link to that page. No factual claim touched.",
    "previousSha": "6072e567369fb0b93d85b5581b6d9a792e9dbd3781f268e5b167b0786d3913ae"
+  },
+  {
+   "on": "2026-11-06",
+   "note": "Nov 6: FAQ 'Can I sprinkle Mosquito Bits on the soil' corrected: EPA's accepted Bits label (Reg. No. 6218-86, Dec 13, 2021) adds a dry method (1-2 tsp in a pot 6 in. or smaller, watered in); the label added as a source and cited in the Bits paragraph, with a link to /blog/mosquito-bits-vs-dunks. Found by the independent fact-check of that page.",
+   "previousSha": "a518cc9bdbaffa98145c7f062c2a8f9a4135629a9f81cdab11f07c403b2c9868"
+  },
+  {
+   "on": "2026-11-06",
+   "note": "Nov 6 (final): the dry-method line cites EPA Reg. No. 6218-86 (accepted Dec 13, 2021) in text instead of an 8th source (this page's limit is 7); the label is a source on /blog/mosquito-bits-vs-dunks, which the sentence links.",
+   "previousSha": "e47acdae2b93ffc275e1ebb05c2136281fcce9b9063ebb8e10dbd1aa1ac7514b"
   }
  ]
 }

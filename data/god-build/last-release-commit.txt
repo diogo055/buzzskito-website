@@ -1,6 +1,4 @@
-release: 4 scheduled page(s) go live (2026-11-06)
+release: 2 scheduled page(s) go live (2026-11-06)
 
-- /blog/permethrin-for-clothing
-- /blog/types-of-mosquitoes
-- /blog/asian-tiger-mosquito
-- /blog/best-tick-spray-for-yard
+- /blog/best-mosquito-spray-for-yard
+- /blog/mosquito-bits-vs-dunks

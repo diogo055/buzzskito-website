@@ -122,6 +122,8 @@ export default function BestTickRepellentYardPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
+          {/* Regional edition link (Oct 2026): this page is the Canadian edition; see REGIONAL_PAIRS in lib/guides.ts */}
+          <p className="not-prose mb-6 rounded-lg border border-navy-100 bg-brand-50 px-4 py-2.5 text-sm text-gray-700">Reading from the United States? Product rules and what is sold there differ. <Link href="/blog/best-tick-spray-for-yard" className="font-semibold text-brand-700 underline">See the US edition</Link>.</p>
           <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best tick repellent for Ontario yards is a professional barrier spray &mdash; it places a residual acaricide, applied according to label directions, directly on the leaf litter and lawn edges where ticks actually live, and is re-applied through the season as the residual wears off. The best do-it-yourself option is a yard product registered in Canada with ticks on its label, such as Doktor Doom Tick Killer Plus+ (PCP 34405) for the leaf-litter band at the yard&rsquo;s edge or Safer&rsquo;s Trounce (PCP 28680) for lawns, layered over free habitat fixes; cedar-oil sprays such as Wondercide are not registered here.</p>

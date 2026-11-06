@@ -2,9 +2,16 @@
  "id": "how-to-get-rid-of-mosquitoes",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "505b3267a495a86c98868a9693851a3f3db95a4e56af57ad96574b3d16ec629f",
+ "sha": "b565c393a9d03813847adf492f75cfc4c647ec1f42adcd09886bc9996633abbb",
  "claimsChecked": 66,
  "claimsCorrected": 9,
  "claimsRemovedOrSoftened": 7,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-11-06",
+   "note": "Nov 6: one sentence linking /blog/best-mosquito-spray-for-yard after the CDC adulticide sentence (describes that page's contents; no new claim).",
+   "previousSha": "505b3267a495a86c98868a9693851a3f3db95a4e56af57ad96574b3d16ec629f"
+  }
+ ]
 }

@@ -463,13 +463,12 @@ Ranked by expected clicks x value (`research_notes/God plan 10k a day/new_pages.
     - what-do-mosquito-bites-look-like and skeeter-syndrome;
     - deer-tick-vs-dog-tick (US; REGIONAL_PAIRS added);
     - best-tick-repellent (Canadian TSX, registered products only, Natrapel pinned to ASIN B0BYFF3S3V; no Sawyer/Avon/Murphy's buttons because amazon.ca can show their US bottles).
-  - **Queued:**
-    - types-of-mosquitoes (now a regular article, ads on) and asian-tiger-mosquito: Nov 7;
-    - permethrin-for-clothing and best-tick-spray-for-yard: Nov 8;
-    - best-mosquito-spray-for-yard and mosquito-bits-vs-dunks: Nov 9, once their fact-check is recorded.
-    - Pace: Nov 6 used 9 new URLs, so only about 3 slots exist Nov 7-10. The robot spreads them; the last may wait until Nov 11-12.
+  - **Released the same evening (owner: "you can push everything now. It's okay. Just don't forget to request to index it as the days go by"):** a hand run with `PACE_OVERRIDE` (the robot never sets it):
+    - types-of-mosquitoes, asian-tiger-mosquito, permethrin-for-clothing and best-tick-spray-for-yard (commit `125df80d`, live and checked);
+    - best-mosquito-spray-for-yard (277 claims checked, 12 corrected, 8 softened or removed: the 25-day and 6-week barrier results came from licensed applicators with mist blowers, now said) and mosquito-bits-vs-dunks (307 checked, 9 corrected; EPA's Dec 2021 Bits label adds a dry fungus gnat method).
+    - Nov 6 ends at 15 new URLs (5 robot + 10 mosquito & tick). The 10/25 cap applies again from Nov 7. Counted from the release records, there is no room Nov 7-10, 1 page on Nov 11, and 10 a day again from Nov 12. Edits and upgrades stay uncapped.
   - **Held to 2027-04-05:** the 11 rare-species and mosquito-disease pages; /learn/types-of-mosquitoes is deferred.
-  - **AFTER EACH ROBOT RELEASE (by hand, the release does not do these):**
+  - **AFTER EACH ROBOT RELEASE (by hand, the release does not do these). DONE Nov 6 evening for all six:** picks (types-of-mosquitoes has a `_noPick` reason), the three pairs with hreflang plus the "See the US edition" line on the three Canadian twins where it does not push the first product link down (deer-tick-vs-dog-tick-canada skipped for that reason), and the indexing queue.
     1. amazon.com top picks into `lib/amazon-us-picks.json`, only once the page is live (check:amazon fails on a pick for a non-live page). Asian tiger: "Picaridin insect repellent", basis "Protect your skin. CDC recommends EPA-registered repellents..." The buying guides take their notes' proposed top pick.
     2. REGIONAL_PAIRS plus withRegionalAlternates on the Canadian twin: permethrin-for-clothing ↔ permethrin-canada-yard-clothing-spray, best-tick-spray-for-yard ↔ best-tick-repellent-yard-canada, mosquito-bits-vs-dunks ↔ mosquito-bits-canada-vs-dunks. Neither of the first two Canadian pages wraps its metadata yet.
     3. Indexing queue: add each page first.
@@ -478,12 +477,12 @@ Ranked by expected clicks x value (`research_notes/God plan 10k a day/new_pages.
 - **NEXT "go" (Nov 6; pace room 4 on Nov 6 UTC: 21 new in the 7 days to Nov 6):**
   - **First:** the NOW 10 (section 4), within the cap, starting with brown-recluse, phorid-flies, centipede-vs-millipede, tiny-flying-bugs-in-house and flea-bites-vs-bed-bug-bites.
   - **Then:** the german-cockroaches and house-centipedes pushes, and the December mosquito holds above.
-  - **amazon.com picks still missing on 3 of tonight's pages:** little-black-ants, roach-droppings-vs-mouse-droppings and christmas-tree-bugs went live without one (the build does not catch it). Give each a pick the page itself recommends, checked like the others, or a `_noPick` reason.
+  - **amazon.com picks on 3 of the Nov 6 morning pages: DONE Nov 6 evening.** little-black-ants: ant bait stations ("Bait first, then seal"); roach-droppings-vs-mouse-droppings: EPA-registered disinfectant spray (CDC's cleanup steps); christmas-tree-bugs: cordless handheld vacuum (Penn State: vacuum strays; no aerosol on the tree).
   - **Owner decisions from the merges:**
     1. A CimeXa buy button sits on a page that says CimeXa is not registered in Canada.
     2. bed-bug-spray-canada now carries a US-products table with amazon.ca buttons for products not legal in Canada.
     3. The cockroach page's top box and sticky bar say "Best overall: Combat", which the page says is no longer registered. Switch them to Raid bait.
-    4. The large-capacity dehumidifier page has 43 buttons; trim the low ones.
+    4. ~~The large-capacity dehumidifier page has 43 buttons; trim the low ones.~~ **Declined Nov 6:** the owner said no to Amazon button trims ("Isn't that going to decrease our Amazon income?"). Do not trim.
     5. The mosquito-bits page says "one dunk per 50-gallon barrel", against the label's quarter dunk; fix the prose.
 - **Earlier NEXT list (Nov 5):**
   - **Indexing:** check the 9:10 run with `list_task_runs`. Stop it if it shows "running" with old activity, and do the batch in Chrome by hand.

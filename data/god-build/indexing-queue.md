@@ -40,6 +40,8 @@ Released Nov 6, 2026 (afternoon; mosquito & tick build, top 10), new pages, requ
 - https://buzzskito.ca/blog/asian-tiger-mosquito (new)
 - https://buzzskito.ca/blog/permethrin-for-clothing (new; US buying guide, regional pair with the Canadian permethrin page)
 - https://buzzskito.ca/blog/best-tick-spray-for-yard (new; US buying guide, regional pair with the Canadian yard page)
+- https://buzzskito.ca/blog/best-mosquito-spray-for-yard (new; US buying guide, released the same evening after its fact-check)
+- https://buzzskito.ca/blog/mosquito-bits-vs-dunks (new; US edition, regional pair with /blog/mosquito-bits-canada-vs-dunks)
 
 Upgraded Nov 6, 2026 (owner: "fix the entire mosquito section"; new sections, tables, FAQs, photos, sourced corrections), all `recrawl`. Off-season pages, so after the winter pages above:
 

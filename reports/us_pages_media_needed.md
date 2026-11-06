@@ -1,6 +1,6 @@
 # Photos and diagrams the new guides still need
 
-570 images across 232 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
+572 images across 234 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
 
 ## /learn/bed-bugs
 
@@ -543,6 +543,14 @@
 - One mosquito bite photographed three times on the same person beside a US coin or a ruler marked in inches: about 20 minutes, about 24 hours and about 3 days after the bite, with the times recorded; public domain, CC0, CC BY or CC BY-SA
 - A mosquito bite on a child's upper eyelid or cheek with one-sided puffy swelling around the eye, attributed to a mosquito by a physician or health agency; public domain, CC0, CC BY or CC BY-SA; no identifiable face beyond the eye area
 - Mosquito bites on a baby or toddler (legs, arms or face), including one large local reaction, attributed to mosquitoes by a pediatrician or health agency; public domain, CC0, CC BY or CC BY-SA; no identifiable face
+
+## /blog/best-mosquito-spray-for-yard
+
+- Homeowner in long sleeves, long pants and nitrile gloves aiming the wand of a hand pump sprayer under the leaves inside a dense, shady shrub with no flowers; public domain or CC0
+
+## /blog/mosquito-bits-vs-dunks
+
+- A Bti mosquito dunk floating in a residential rain barrel or birdbath, seen from above, with no readable brand text; public domain or CC0 (candidates in notes.md)
 
 ## /blog/what-do-ticks-look-like
 
