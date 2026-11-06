@@ -2,7 +2,7 @@
  "id": "paper-wasps",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "bd2589ad3d5e1f8869905cd89de4f1c01facb4b24e19761a559c3cd5ad1bd942",
+ "sha": "efac343849fff83ee3bed67733791b2ed250f9ba2baf3ad56c23d6261988f67e",
  "claimsChecked": 185,
  "claimsCorrected": 11,
  "claimsRemovedOrSoftened": 9,
@@ -11,5 +11,12 @@
   "on": "2026-10-23",
   "scheduledFor": "2026-10-23",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-11-06",
+   "note": "Nov 6, 2026 release: one sentence with a link to a new guide added (link-in for the release gate); no fact changed",
+   "previousSha": "bd2589ad3d5e1f8869905cd89de4f1c01facb4b24e19761a559c3cd5ad1bd942"
+  }
+ ]
 }

@@ -685,6 +685,20 @@
     "/blog/bed-bug-bites-vs-mosquito-bites"
    ]
   },
+  "/blog/best-bed-bug-interceptors": {
+   "next": "/blog/where-do-bed-bugs-hide",
+   "related": [
+    "/blog/best-bed-bug-mattress-cover",
+    "/blog/what-do-bed-bugs-look-like",
+    "/blog/best-bed-bug-spray"
+   ],
+   "cards": [
+    "/blog/signs-of-bed-bugs-checklist",
+    "/blog/bugs-that-look-like-bed-bugs",
+    "/blog/how-to-get-rid-of-bed-bugs"
+   ],
+   "bar": true
+  },
   "/blog/best-bed-bug-luggage-heater-canada": {
    "next": "/blog/zappbug-heater-review-canada",
    "related": [
@@ -1410,6 +1424,20 @@
     "/blog/paper-wasps"
    ]
   },
+  "/blog/best-wasp-spray": {
+   "next": "/blog/wasp-vs-hornet",
+   "related": [
+    "/blog/paper-wasps",
+    "/blog/yellow-jackets",
+    "/blog/mud-daubers"
+   ],
+   "cards": [
+    "/blog/ground-bees",
+    "/blog/wasp-nest-identification",
+    "/blog/sweat-bees"
+   ],
+   "bar": true
+  },
   "/blog/best-wasp-trap": {
    "next": "/blog/rescue-why-trap-review-canada",
    "related": [
@@ -1996,6 +2024,20 @@
     "/blog/best-fruit-fly-trap-canada",
     "/blog/cluster-flies-in-house-canada"
    ]
+  },
+  "/blog/christmas-tree-bugs": {
+   "next": "/blog/bugs-in-bathroom",
+   "related": [
+    "/blog/bugs-in-kitchen",
+    "/blog/bugs-in-carpet",
+    "/blog/tiny-white-bugs"
+   ],
+   "cards": [
+    "/blog/termite-damage",
+    "/blog/bugs-in-basement",
+    "/blog/how-to-get-rid-of-earwigs"
+   ],
+   "bar": true
   },
   "/blog/cimexa-bed-bug-review-canada": {
    "next": "/blog/zappbug-heater-review-canada",
@@ -4102,6 +4144,20 @@
    ],
    "bar": true
   },
+  "/blog/little-black-ants": {
+   "next": "/blog/black-ants",
+   "related": [
+    "/blog/ghost-ants",
+    "/blog/crazy-ants",
+    "/blog/flying-ants"
+   ],
+   "cards": [
+    "/learn/ant-killer-recipes",
+    "/blog/carpenter-ants-canada",
+    "/blog/honeypot-ants"
+   ],
+   "bar": true
+  },
   "/blog/lone-star-tick": {
    "next": "/blog/alpha-gal-syndrome",
    "related": [
@@ -5361,6 +5417,20 @@
     "/blog/how-to-get-rid-of-wasps-canada",
     "/blog/best-wasp-killer-canada"
    ]
+  },
+  "/blog/roach-droppings-vs-mouse-droppings": {
+   "next": "/blog/white-cockroach",
+   "related": [
+    "/blog/bugs-that-look-like-cockroaches",
+    "/blog/wood-roaches",
+    "/blog/best-cockroach-gel-bait"
+   ],
+   "cards": [
+    "/blog/cockroach-droppings",
+    "/blog/palmetto-bugs",
+    "/learn/cockroaches"
+   ],
+   "bar": true
   },
   "/blog/rodent-exclusion-kit-canada": {
    "next": "/blog/best-rodent-repellent-for-cars-canada",

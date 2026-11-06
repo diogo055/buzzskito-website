@@ -2,7 +2,7 @@
  "id": "best-bed-bug-mattress-cover",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "7b1d960dc37f71bdd9d6dd76ab8d802e9cb6afd34658347f67ca08cf3e3b68a0",
+ "sha": "834a0ca59dcb293c487f7149cba3b5704dc7319d3255e1a68d9d8f639a2fee42",
  "claimsChecked": 82,
  "claimsCorrected": 8,
  "claimsRemovedOrSoftened": 0,
@@ -17,6 +17,11 @@
    "on": "2026-11-05",
    "note": "Owner read the page (Nov 5, 2026): reviewedBy Alex Francisco and reviewedOn 2026-11-05 added. No text change.",
    "previousSha": "3ecef514e124308aa0456ed4081a3439d6f748a5a2d8784b629f75f5287e953b"
+  },
+  {
+   "on": "2026-11-06",
+   "note": "Nov 6, 2026 release: one sentence with a link to a new guide added (link-in for the release gate); no fact changed",
+   "previousSha": "7b1d960dc37f71bdd9d6dd76ab8d802e9cb6afd34658347f67ca08cf3e3b68a0"
   }
  ]
 }

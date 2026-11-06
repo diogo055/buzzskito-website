@@ -15,13 +15,13 @@
   "/guides/photos/blacklegged-tick-female-leg-hair.webp"
  ],
  "/blog/animal-droppings": [
-  "/guides/photos/anole-droppings-fence.webp",
   "/guides/photos/bat-droppings-bat-box-ruler.webp",
   "/guides/photos/bat-droppings-siding.webp",
   "/guides/photos/cottontail-droppings.webp",
   "/guides/photos/coyote-scat-ruler.webp",
   "/guides/photos/deer-droppings-snow.webp",
   "/guides/photos/german-cockroach-frass-cabinet.webp",
+  "/guides/photos/lizard-droppings-ruler.webp",
   "/guides/photos/mouse-droppings-ruler.webp",
   "/guides/photos/norway-rat-droppings-cornell.webp",
   "/guides/photos/raccoon-latrine-deck.webp",
@@ -291,6 +291,13 @@
   "/guides/photos/bed-bug-hotel-bedding.webp",
   "/guides/photos/bed-bugs-eggs-mattress-seam.webp"
  ],
+ "/blog/best-bed-bug-interceptors": [
+  "/guides/photos/bed-bug-adult-ruler.webp",
+  "/guides/photos/bed-bug-nymph-after-blood-meal.webp",
+  "/guides/photos/bed-bug-nymph-scale-bar-cdc.webp",
+  "/guides/photos/bed-bugs-eggs-mattress-seam.webp",
+  "/guides/photos/carpet-beetle-larva-bedroom.webp"
+ ],
  "/blog/best-bed-bug-mattress-cover": [
   "/guides/photos/bed-bug-fecal-spots-bed-frame.webp",
   "/guides/photos/bed-bug-fecal-stains-mattress.webp",
@@ -423,6 +430,14 @@
  "/blog/best-ulv-cold-fogger-canada": [
   "/guides/photos/anopheles-quadrimaculatus.webp",
   "/guides/photos/culex-pipiens.webp"
+ ],
+ "/blog/best-wasp-spray": [
+  "/guides/photos/bald-faced-hornet-nest.webp",
+  "/guides/photos/paper-wasp-nest-eave-corner.webp",
+  "/guides/photos/paper-wasp-nest.webp",
+  "/guides/photos/yellowjacket-ground-nest.webp",
+  "/guides/photos/yellowjacket-paper-nest.webp",
+  "/guides/photos/yellowjacket-sting-swelling.webp"
  ],
  "/blog/best-whole-room-bed-bug-heater-canada": [
   "/guides/photos/bed-bug-fecal-spots-bed-frame.webp",
@@ -720,6 +735,7 @@
   "/guides/photos/tick-check-sock-ankle.webp"
  ],
  "/blog/carpenter-ants-canada": [
+  "/guides/photos/black-carpenter-ant-dry-leaves.webp",
   "/guides/photos/carpenter-ant-frass.webp",
   "/guides/photos/carpenter-ant-on-fingers.webp",
   "/guides/photos/carpenter-ant-winged-queen.webp",
@@ -759,6 +775,16 @@
   "/guides/photos/chigger-bites-ruler.webp",
   "/guides/photos/flea-bites-lower-leg.webp",
   "/guides/photos/mosquito-bite-welts.webp"
+ ],
+ "/blog/christmas-tree-bugs": [
+  "/guides/photos/adelgid-wool-christmas-tree-indoors.webp",
+  "/guides/photos/blacklegged-tick-female.webp",
+  "/guides/photos/chinese-mantis-egg-case-arborvitae.webp",
+  "/guides/photos/cinara-aphid-closeup-fence.webp",
+  "/guides/photos/cinara-aphids-white-pine-twig.webp",
+  "/guides/photos/pine-needle-scale-covers.webp",
+  "/guides/photos/spotted-lanternfly-egg-masses.webp",
+  "/guides/photos/yellow-garden-spider-egg-sac.webp"
  ],
  "/blog/cluster-flies-in-house-canada": [
   "/guides/photos/asian-lady-beetle-aggregation.webp",
@@ -1541,6 +1567,16 @@
   "/guides/photos/head-louse-hatching-from-nit.webp",
   "/guides/photos/head-louse-nit-eyespots-and-nymph.webp"
  ],
+ "/blog/little-black-ants": [
+  "/guides/photos/carpenter-ant-side-view.webp",
+  "/guides/photos/little-black-ant-specimen-profile.webp",
+  "/guides/photos/little-black-ants-at-sugar.webp",
+  "/guides/photos/longhorn-crazy-ant-carpet.webp",
+  "/guides/photos/odorous-house-ant-kitchen-counter.webp",
+  "/guides/photos/odorous-house-ants-kitchen-window.webp",
+  "/guides/photos/pavement-ant-chip-crumb.webp",
+  "/guides/photos/pavement-ants-kitchen-line.webp"
+ ],
  "/blog/lone-star-tick": [
   "/guides/photos/american-dog-tick-on-grass.webp",
   "/guides/photos/blacklegged-tick-questing-stick.webp",
@@ -1713,12 +1749,12 @@
  ],
  "/blog/mouse-poop": [
   "/guides/photos/american-cockroach-droppings-trap.webp",
-  "/guides/photos/anole-droppings-fence.webp",
   "/guides/photos/bat-droppings-bat-box-ruler.webp",
   "/guides/photos/bat-droppings-cave-inch-ruler.webp",
   "/guides/photos/deer-mouse.webp",
   "/guides/photos/house-mouse-on-stove.webp",
   "/guides/photos/house-mouse.webp",
+  "/guides/photos/lizard-droppings-ruler.webp",
   "/guides/photos/mouse-droppings-ruler.webp",
   "/guides/photos/rat-droppings-thumb.webp",
   "/guides/photos/rodent-droppings-drawer.webp"
@@ -1975,6 +2011,18 @@
   "/guides/photos/honey-bee-on-flower.webp",
   "/guides/photos/paper-wasp-nest-eave-corner.webp"
  ],
+ "/blog/roach-droppings-vs-mouse-droppings": [
+  "/guides/photos/american-cockroach-droppings-trap.webp",
+  "/guides/photos/american-cockroach-ootheca.webp",
+  "/guides/photos/cockroach-nymph-shed-skin.webp",
+  "/guides/photos/german-cockroach-adult.webp",
+  "/guides/photos/german-cockroach-frass-cabinet.webp",
+  "/guides/photos/house-mouse-droppings-wall-corner.webp",
+  "/guides/photos/mouse-droppings-ruler.webp",
+  "/guides/photos/mouse-droppings-wood.webp",
+  "/guides/photos/mouse-nest-desk-drawer.webp",
+  "/guides/photos/norway-rat-droppings-cornell.webp"
+ ],
  "/blog/roof-rat-vs-norway-rat": [
   "/guides/photos/norway-rat-face.webp",
   "/guides/photos/norway-rat.webp",
@@ -2194,24 +2242,24 @@
  ],
  "/blog/termite-damage": [
   "/guides/photos/carpenter-ant-winged-queen.webp",
-  "/guides/photos/carpenter-bee-female.webp",
+  "/guides/photos/carpenter-bee-nest-hole.webp",
   "/guides/photos/drywood-termite-pellets.webp",
   "/guides/photos/drywood-termite-swarmer-fingers.webp",
   "/guides/photos/formosan-termites-wood.webp",
   "/guides/photos/termite-damaged-wood.webp",
   "/guides/photos/termite-mud-tubes.webp",
   "/guides/photos/termite-swarmers-ceiling-light.webp",
-  "/guides/photos/termite-swarmers.webp",
+  "/guides/photos/termite-swarmers-pine-straw-house.webp",
   "/guides/photos/termite-workers-soldier.webp"
  ],
  "/blog/termite-droppings": [
   "/guides/photos/carpenter-ant-winged-queen.webp",
-  "/guides/photos/carpenter-bee-female.webp",
+  "/guides/photos/carpenter-bee-nest-hole.webp",
   "/guides/photos/drywood-termite-pellets.webp",
   "/guides/photos/german-cockroach-adult.webp",
   "/guides/photos/termite-damaged-wood.webp",
   "/guides/photos/termite-mud-tubes.webp",
-  "/guides/photos/termite-swarmers.webp"
+  "/guides/photos/termite-swarmers-pine-straw-house.webp"
  ],
  "/blog/thermal-vs-ulv-fogger-canada": [
   "/guides/photos/aedes-albopictus-goldenrod.webp",
@@ -2820,7 +2868,7 @@
   "/guides/photos/formosan-termites-wood.webp",
   "/guides/photos/termite-mud-tubes.webp",
   "/guides/photos/termite-swarmers-ceiling-light.webp",
-  "/guides/photos/termite-swarmers.webp",
+  "/guides/photos/termite-swarmers-pine-straw-house.webp",
   "/guides/photos/termite-workers-soldier.webp",
   "/guides/photos/white-american-cockroach-shed-skin.webp"
  ],

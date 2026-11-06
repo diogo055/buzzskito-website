@@ -259,6 +259,8 @@ export const REGIONAL_PAIRS: { us: string; ca: string }[] = [
   { us: '/blog/best-bed-bug-mattress-cover', ca: '/blog/bed-bug-mattress-encasement-canada' },
   { us: '/blog/best-mosquito-repellent', ca: '/blog/mosquito-repellent-guide-ontario-2026' },
   { us: '/blog/best-bug-zapper', ca: '/blog/bug-zappers-canada-do-they-work' },
+  { us: '/blog/best-bed-bug-interceptors', ca: '/blog/bed-bug-interceptor-traps-canada' },
+  { us: '/blog/best-wasp-spray', ca: '/blog/best-wasp-nest-spray-canada' },
 ]
 
 export const regionalPair = (path: string) => REGIONAL_PAIRS.find((p) => p.us === path || p.ca === path)

@@ -2,7 +2,7 @@
  "id": "spider-egg-sacs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "54b020e640a724e2ef9138c35d6416e4beede7f41231b5d25356443051d23f5f",
+ "sha": "05f79674867910426d76d29008ba49be4cec4e96e05b9532bf1ad107944fe6e8",
  "claimsChecked": 352,
  "claimsCorrected": 11,
  "claimsRemovedOrSoftened": 6,
@@ -17,6 +17,11 @@
    "on": "2026-10-23",
    "note": "link to /tools/spider-identifier added in section Are brown recluse egg sacs found indoors? (one new paragraph at the end of the section)",
    "previousSha": "658bff6062dee6c000c4bd68694fd4ca3a846f280f06723683b31b93dc906d09"
+  },
+  {
+   "on": "2026-11-06",
+   "note": "Nov 6, 2026 release: one sentence with a link to a new guide added (link-in for the release gate); no fact changed",
+   "previousSha": "54b020e640a724e2ef9138c35d6416e4beede7f41231b5d25356443051d23f5f"
   }
  ]
 }

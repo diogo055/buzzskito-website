@@ -1,0 +1,175 @@
+{
+  "slug": "little-black-ants",
+  "kind": "spoke",
+  "cluster": "ants",
+  "keyword": "little black ants",
+  "alsoTargets": [
+    "little black ant",
+    "tiny black ants in house",
+    "little black ants in kitchen",
+    "how to get rid of little black ants"
+  ],
+  "metaTitle": "Little Black Ants: ID and How to Get Rid of Them",
+  "metaDescription": "Little black ants are shiny, about 1/16 inch, with two nodes at the waist. Tell them from look-alikes, find the nest and use the bait-then-seal plan.",
+  "h1": "Little Black Ants: How to Identify Them and Get Them Out",
+  "dek": "Little black ants are tiny, shiny black ants with two bumps in the waist, several queens per colony and a taste for sweets and grease. Photos, the look-alikes, where they nest, and a bait-then-seal plan that reaches the colony.",
+  "breadcrumb": "Little Black Ants",
+  "excerpt": "How to identify little black ants, tell them from odorous house, pavement and carpenter ants, find where they nest, and get rid of them with bait first and sealing after.",
+  "datePublished": "2026-11-06",
+  "parent": { "href": "/learn/ants", "name": "Ants" },
+  "quickAnswer": {
+    "lead": "**Little black ants are shiny black workers about 1/16 inch long with two bumps (nodes) in the waist, moving slowly along thin trails to sweets and grease; an odorous house ant has one hidden node, and a carpenter ant is several times bigger.** [Texas A&M's urban entomology program](https://urbanentomology.tamu.edu/urban-pests/ants/little_black/) profiles the species.",
+    "bullets": [
+      "Workers run 1/16 to 1/8 inch and queens about 1/8 inch, by the [Northeastern IPM Center's count](https://www.neipmc.org/schools/pests/little-black-ant/), and a colony may have several queens.",
+      "Texas A&M lists nests in lawn soil and under stones, bricks, wood and logs outdoors, and in woodwork, wall voids, masonry and under carpets indoors.",
+      "[Ohio State's ant fact sheet](https://cfaes.osu.edu/fact-sheet/ants-and-around-home) lists sweets, meats, vegetables, honeydew and other insects among their foods.",
+      "Liquid sweet baits are useful against indoor infestations, says [Mississippi State Extension](https://extension.msstate.edu/sites/default/files/publications/P2443__web.pdf).",
+      "Baits take time: [UC IPM](https://ipm.ucanr.edu/home-and-landscape/ants/) says 5 to 10 days to see fewer ants and several weeks or more for complete control."
+    ]
+  },
+  "facts": {
+    "title": "Little black ant or look-alike? Quick ID",
+    "head": ["Ant", "Worker size", "Look", "The tell"],
+    "rows": [
+      ["Little black ant", "About 1/16 to 1/8 inch", "Shiny black; two waist nodes", "Slow, thin trails; no spines on the thorax"],
+      ["Odorous house ant", "About 1/10 to 1/8 inch", "Brown to black; one node hidden under the abdomen", "Faster trails; crushed workers smell like rotten coconut"],
+      ["Pavement ant", "About 1/12 to 1/4 inch", "Brown to blackish; two waist nodes", "Grooved head and thorax; two short spines at the rear of the thorax"],
+      ["Dark rover ant", "About 1/12 inch", "Dark brown, not shiny", "Jerky, stutter-step walk along the trail"],
+      ["Acrobat ant", "About 1/8 to 1/4 inch", "Two waist nodes; heart-shaped abdomen", "Raises its abdomen when disturbed; two spines on the thorax"],
+      ["Carpenter ant", "About 1/4 to 1/2 inch", "Black, or red and black; one node", "Much bigger; evenly rounded back in side view"]
+    ],
+    "caption": "From Texas A&M, the Northeastern IPM Center, Ohio State, UC IPM, Mississippi State and the Mississippi Entomological Museum; sizes differ slightly from one source to the next."
+  },
+  "body": [
+    { "type": "h2", "text": "What are little black ants?" },
+    { "type": "p", "text": "Little black ants are a small native ant, *Monomorium minimum*: the tiny, shiny black ants that turn up in trails in kitchens and pantries. [Texas A&M's Urban and Structural Entomology Program](https://urbanentomology.tamu.edu/urban-pests/ants/little_black/) calls the species native, and the [Mississippi Entomological Museum's species page](https://mississippientomologicalmuseum.org.msstate.edu/Researchtaxapages/Formicidaepages/genericpages/Monomorium.minimum.htm) records it across the continental US. Mississippi State Extension calls it a common outdoor species that, like other small house-invading ants, becomes a pest when it forages in the kitchen and elsewhere in the home. For how ant colonies work and which other species come indoors, see [the complete guide to ants in US homes](/learn/ants)." },
+    { "type": "figure", "src": "/guides/photos/little-black-ants-at-sugar.webp", "width": 1200, "height": 1600, "alt": "About a dozen tiny, shiny black ants clustered together on a white surface, with one more walking toward them", "caption": "Little black ants on a white surface in Ingram, Texas, where the observer says sugar drew them; iNaturalist files the observation in its little black ant group under the name *Monomorium carbonarium*. Sweets are among the foods extension services list for this ant.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/206129737" },
+    { "type": "p", "text": "The scientific name is changing. A 2025 revision of the group by the ant taxonomist Bernhard Seifert found that the North American ant called *M. minimum* is the same species as *Monomorium carbonarium*, an ant that has also been introduced to Europe, and that the older name, *carbonarium*, takes priority. [iNaturalist adopted the change in April 2025](https://www.inaturalist.org/taxon_changes/159564), so identification apps may show *M. carbonarium* where extension fact sheets still say *M. minimum*. Both names describe the same ant." },
+
+    { "type": "h2", "text": "How do you identify a little black ant?" },
+    { "type": "p", "text": "Check the size, the shine, the waist and the way it moves. Sources put workers between 1/16 and 1/8 inch: Texas A&M gives 1/16 inch, the [Northeastern IPM Center](https://www.neipmc.org/schools/pests/little-black-ant/) 1/16 to 1/8 inch with queens about 1/8 inch, [Ohio State's ant fact sheet](https://cfaes.osu.edu/fact-sheet/ants-and-around-home) about 1/8 inch and [Mississippi State Extension](https://extension.msstate.edu/sites/default/files/publications/P2443__web.pdf) about 1/12 inch. Texas A&M and the museum both note that the workers in a colony are all about the same size." },
+    { "type": "ul", "items": [
+      "**Color.** Shiny black, sometimes dark brown, and slender, in Ohio State's description.",
+      "**Waist.** Two nodes, the small bumps between the thorax and the abdomen. Ohio State lists two for this ant, and the museum's description of the genus names both, the petiole and the postpetiole.",
+      "**Antennae.** Twelve segments ending in a three-segmented club, per Texas A&M and the museum. Seeing that takes a strong lens or a zoomed phone photo.",
+      "**Thorax.** No spines or teeth at the rear of the thorax: the museum lists the lack of armament on the propodeum, the back end of the thorax, as a feature of the genus. Pavement ants, the common two-node look-alike, have a pair of short spines there.",
+      "**Movement.** Slow. Texas A&M's household ant guide calls this a slow-moving ant, and Mississippi State says its foragers move more slowly, and in smaller numbers, than odorous house ants or Argentine ants."
+    ] },
+    { "type": "figure", "src": "/guides/photos/little-black-ant-specimen-profile.webp", "width": 1200, "height": 773, "alt": "Side view of a glossy dark ant specimen on a gray background, with two rounded bumps in the narrow waist between the thorax and the abdomen", "caption": "A little black ant museum specimen in side view, photographed for AntWeb beside a scale bar; Wikimedia Commons files it with its queen specimens. The two bumps between the thorax and the abdomen are the two waist nodes that separate it from the odorous house ant.", "license": "CC-BY-4.0", "credit": "April Nobile, CC BY 4.0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monomorium_minimum_casent0104791_profile_1.jpg" },
+    { "type": "p", "text": "To see those features, [Texas A&M's guide to identifying household ants](https://citybugs.tamu.edu/factsheets/household/ants-house/ent-2013/) suggests collecting a few ants and looking at them under a hand lens or magnifier. [The tiny ant identification key](/blog/tiny-ants) walks through color, size, nodes and smell for seven common house ants, and [the guide to black ants in the house](/blog/black-ants) sorts the small black species from the large carpenter ant." },
+
+    { "type": "h2", "text": "Where do little black ants nest?" },
+    { "type": "p", "text": "Mostly outdoors, in soil and under objects, though some colonies move into buildings. Texas A&M lists nests in the soil of open lawns and under stones, bricks, wood and logs, and the Northeastern IPM Center describes shallow nests under debris, wood and small stones. Mississippi State says the ant is especially fond of nesting in or under rotting wood, and Ohio State notes that ground nests show up as very small craters of fine soil." },
+    { "type": "p", "text": "Indoors, Texas A&M lists woodwork, wall voids, masonry and spaces under carpets, and the Northeastern IPM Center says they nest in wall voids and around sources of heat and moisture. At high numbers, Texas A&M says, they can spread through a building and get into nearly every crack and crevice." },
+    { "type": "p", "text": "The ants themselves give a clue to where the nest is. The Northeastern IPM Center says many wingless workers suggest a nearby outdoor nest, while winged ants indoors suggest a nest inside, and [Texas A&M AgriLife Extension's household ant guide](https://extensionentomology.tamu.edu/wp-content/uploads/2017/09/Ants_household_B6183.pdf) agrees that winged ants swarming in a home mean the colony is likely somewhere inside." },
+
+    { "type": "h2", "text": "Why are little black ants in my kitchen?" },
+    { "type": "p", "text": "For food, and sometimes for water. Ants follow scent trails to and from food, the Northeastern IPM Center says, and Texas A&M says little black ants are highly visible on established foraging trails and invade food cabinets and pantries. The museum calls them omnivorous foragers: Ohio State lists sweets, meats, vegetables, honeydew and other insects; Texas A&M's household ant table lists grease, sweets, meats, fruits and vegetables indoors; and the Northeastern IPM Center adds oil. Workers also prey on insects and feed on honeydew from aphids and other plant-sucking insects, Texas A&M says. [What ants eat, and how their tastes shift](/blog/what-do-ants-eat) covers the wider picture." },
+    { "type": "p", "text": "Winged ants show up in late spring and summer. Texas A&M says winged males and females are produced during the summer, and its household ant table gives the swarming season as May to September; the Northeastern IPM Center says winged adults mate from spring through mid-July, and the museum records mating swarms in June and August. Winged ants are easy to mistake for termites, which [the flying ant guide](/blog/flying-ants) sorts out." },
+
+    { "type": "h2", "text": "How big is a little black ant colony?" },
+    { "type": "p", "text": "Big enough, and with enough queens, that killing the ants you can see changes little. Texas A&M describes colonies as moderately sized to large, with up to 2,000 workers and many queens, while the Northeastern IPM Center says colonies can grow to 10,000, each with several queens. The museum notes that having several queens lets colonies grow quickly. Mississippi State, comparing them with Argentine and odorous house ants, says little black ant colonies are generally much smaller than those two species' colonies." },
+    { "type": "p", "text": "Most nests are presumed to start with one or two queens, Texas A&M says, and in the laboratory queens may live about a year. With several queens in a colony, a bait that workers carry back to the nest does what a spray on the trail cannot." },
+
+    { "type": "h2", "text": "How do you tell little black ants from other small black ants?" },
+    { "type": "p", "text": "Count the waist nodes first, then check size, shine and how the ant moves." },
+    { "type": "h3", "text": "Odorous house ant" },
+    { "type": "p", "text": "The odorous house ant is the look-alike to rule out first. Ohio State gives it as about 1/10 inch, brown to dark brown, with one node hidden by the abdomen, and says crushed workers smell like rotten coconuts. [UC IPM's ant guide](https://ipm.ucanr.edu/home-and-landscape/ants/) lists it at 1/8 inch, dark brown to shiny black, with a very strong odor when crushed. Do not rely on the smell alone, though: the Northeastern IPM Center says crushed little black ants can also give off a foul odor sometimes likened to rotten coconuts, although Ohio State and Mississippi State describe that smell only for the odorous house ant. Two nodes mean a little black ant; one hidden node means an odorous house ant, which [the sugar ant guide](/blog/sugar-ants) covers." },
+    { "type": "figure", "src": "/guides/photos/odorous-house-ants-kitchen-window.webp", "width": 1200, "height": 1600, "alt": "A crowd of small dark brown ants spread over a beige textured surface by a kitchen window", "caption": "Odorous house ants coming in through a corner of a kitchen window in Hamilton, Ohio. At a glance they look like little black ants; the single node hidden under the abdomen is the difference.", "license": "CC-BY-4.0", "credit": "(c) Mary Spilman, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/245677524" },
+    { "type": "h3", "text": "Pavement ant" },
+    { "type": "p", "text": "Pavement ants have two nodes too, so look at the head and thorax. Ohio State describes the pavement ant's head and thorax as furrowed with parallel grooves and says it has a pair of short spines at the rear of the thorax, the spot where the little black ant has none. Pavement ants also run bigger, 1/12 to 1/4 inch in Ohio State's range, and nest under stones, in pavement cracks and along curb edges; in winter they may nest indoors near a heat source." },
+    { "type": "figure", "src": "/guides/photos/pavement-ants-kitchen-line.webp", "width": 1200, "height": 1406, "alt": "Three small dark brown ants in a line on a pale tiled surface inside a kitchen, one carrying a yellow crumb", "caption": "Pavement ants in a line inside a kitchen in Brooklyn, New York, one of them carrying a crumb; the observer says they were raiding a garbage bag. Like little black ants they have two waist nodes, but their heads and thoraxes are grooved.", "license": "CC-BY-4.0", "credit": "(c) Dilrukshan Priyantha Wijesinghe, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/204011000" },
+    { "type": "h3", "text": "Carpenter ant" },
+    { "type": "p", "text": "Size settles this one. Ohio State gives carpenter ant workers as about 1/4 inch for the small ones and 1/2 inch for the large ones, with a single node and an evenly rounded back in side view, and UC IPM describes them as black or red and black. UC IPM says they nest in wood, such as tree stumps, firewood, fence posts and hollow doors or window frames, and push sawdust-like debris out of the nest. [The black ants guide](/blog/black-ants) explains how to confirm a carpenter ant, and [a guide to tracking down a carpenter ant nest](/blog/carpenter-ants-canada) covers the search." },
+    { "type": "h3", "text": "Dark rover, acrobat and crazy ants" },
+    { "type": "p", "text": "Mississippi State says the dark rover ant, an invasive ant still spreading through Mississippi, is similar in size and often mistaken for the little black ant, but it is dark brown rather than black, not shiny, and moves along its trails in a jerky, stutter-step way. Acrobat ants have two nodes as well, but Texas A&M's identification guide says they have two spines on the thorax and lift their heart-shaped abdomens into the air when disturbed. Longhorn crazy ants are grayish black with long legs and antennae and run very fast, Texas A&M's household ant guide says, and [the crazy ant guide](/blog/crazy-ants) covers them. Pale yellowish ants of the same size are a different group again, sorted in [the key to tiny house ants](/blog/tiny-ants)." },
+    { "type": "confused", "items": [
+      { "href": "/blog/black-ants", "name": "Carpenter ant", "photo": "carpenter-ant-side-view", "note": "1/4 to 1/2 inch, with one node and an evenly rounded back; nests in wood", "alt": "Large black carpenter ant on weathered gray wood, seen from the side" },
+      { "href": "/blog/sugar-ants", "name": "Odorous house ant", "photo": "odorous-house-ant-kitchen-counter", "note": "One node hidden by the abdomen; crushed workers smell like rotten coconut", "alt": "Single dark brown odorous house ant on a white kitchen counter" },
+      { "href": "/blog/tiny-ants", "name": "Pavement ant", "photo": "pavement-ant-chip-crumb", "note": "Two nodes too, but a grooved head and thorax and two short spines", "alt": "Small dark pavement ant pulling a chip crumb across a wooden surface" },
+      { "href": "/blog/crazy-ants", "name": "Longhorn crazy ant", "photo": "longhorn-crazy-ant-carpet", "note": "Grayish black, with long legs and antennae; runs very fast", "alt": "Longhorn crazy ant with long legs and antennae on cream-colored carpet" }
+    ] },
+
+    { "type": "h2", "text": "Are little black ants harmful?" },
+    { "type": "p", "text": "They are a nuisance more than a danger. Mississippi State says that, unlike Argentine and odorous house ants, little black ants can sting, but the sting is relatively minor compared with a fire ant's, while Texas A&M's household ant table lists the species as neither stinging nor biting. The museum calls them not a big pest species. [Which ants bite and which ones sting](/blog/do-ants-bite) has the species-by-species picture." },
+    { "type": "p", "text": "The real cost is food and annoyance: Texas A&M says they invade food cabinets and pantries. None of the extension sources used here describes little black ants damaging sound wood. Ohio State lists woodwork, masonry, soil and rotted wood as nest sites, and Texas A&M's household ant guide counts replacing wet or rotten wood among the ways to remove the water that draws ants." },
+
+    { "type": "h2", "text": "How do you get rid of little black ants?" },
+    { "type": "p", "text": "Bait first, then seal. A spray kills the workers it touches but not the queens: UC IPM says spraying ants indoors will not stop more from coming in, and Texas A&M says insecticide sprayed on ant trails can sometimes make the problem worse by causing a colony to split into two or more. A slow-acting bait works the other way. [The University of Kentucky's ant control guide](https://entomology.mgcafe.uky.edu/ef619) explains that foragers carry it back to the nest and feed it to the queens and the rest of the colony." },
+    { "type": "ol", "items": [
+      "**Confirm the ant.** Two waist nodes, about 1/16 inch, shiny black and slow-moving: the checks above. The bait and the plan depend on the species.",
+      "**Take away the competition.** Wipe up spills and crumbs and store food in sealed containers, as the Northeastern IPM Center and Texas A&M advise. Texas A&M says removing other food sources makes bait more effective.",
+      "**Set bait beside the trail.** Kentucky says to put baits next to wherever ants are seen, preferably beside their trails, and Ohio State says to put bait stations directly on trails, away from children and pets. Mississippi State says to bait every place where ants are foraging, and to use a product labeled for indoor use.",
+      "**Leave the trail alone.** Kentucky says not to spray other insecticides or cleaning agents around the baits, UC IPM says not to use any insecticide sprays while you are baiting, and Mississippi State says not to disturb the foraging trails to the bait in any other way.",
+      "**Expect more ants at first.** Kentucky says a rise in ants around the bait means they are feeding, and the Northeastern IPM Center says numbers may go up at first and then slowly decline. Keep the bait topped up and fresh.",
+      "**Give it weeks, not hours.** UC IPM says it can take 5 to 10 days to see fewer ants and several weeks or more for control to be complete, and Texas A&M says some colonies take 3 to 4 weeks or more.",
+      "**Then seal and dry out.** Once the trail stops, caulk the cracks and gaps the ants used and replace worn weatherstripping, seal around door thresholds, windows and where pipes and wires enter, fix leaks, and keep mulch, landscape rocks and plant debris away from the foundation."
+    ] },
+    { "type": "p", "text": "The sealing step draws on Texas A&M, UC IPM, Kentucky and the Northeastern IPM Center, and it comes last for a reason: a crack you close while the bait is out also closes the route the foragers use to carry bait home. Mississippi State notes that sealing the points where trails enter a house can help divert foragers to other food outside, and it recommends a 3- to 4-foot band around the house kept free of mulch and leaves. [A whole-house plan for ants indoors](/blog/how-to-get-rid-of-ants-in-the-house) and [the kitchen guide](/blog/how-to-get-rid-of-ants-in-the-kitchen) cover sealing and bait placement room by room." },
+    { "type": "h3", "text": "Which bait do little black ants take?" },
+    { "type": "p", "text": "Start with a sweet liquid or gel. Mississippi State says liquid sweet baits are useful against indoor infestations of little black ants, and because their indoor diet runs from sweets to grease, meat and fruit, a protein or grease bait set beside the sweet one is the next thing to try if they ignore it. UC IPM suggests putting different bait formulations in a single bait station to give the ants a choice, and warns that baits can dry up or turn rancid. Mississippi State adds that fire ant baits usually work poorly on these small house ants and are mostly not labeled for indoor use." },
+    { "type": "p", "text": "Mississippi State lists the active ingredients in baits for small house-invading ants, among them orthoboric acid, disodium octaborate tetrahydrate, fipronil, abamectin and dinotefuran, all meant to act slowly so the ants carry them home. It also notes that two products with the same active ingredient can carry very different labels, one for indoor use and one for outdoors only. [Choosing an ant bait](/blog/best-ant-bait) compares the types for buying, and [why baiting beats spraying](/blog/how-to-get-rid-of-ants-canada) explains the reasoning in more depth." },
+    { "type": "callout", "tone": "warning", "title": "The label is the law", "text": "Use any ant bait only where and how its label directs, keep it out of reach of children and pets, and keep it off surfaces where food is prepared. The label also sets how much to use and how often to replace it." },
+    { "type": "h3", "text": "Why not wipe the trail away?" },
+    { "type": "p", "text": "Wiping is a quick fix, not a cure. UC IPM says vacuuming trails or wiping them with soapy water may be as effective as an insecticide spray at temporarily removing foraging ants, and Mississippi State says that without their scent trail the ants lose their way to the food. The colony is untouched, though, and where many ants live in or around the home, Mississippi State says they will likely return. Wipe trails that cross counters and food areas if you need them gone, and leave the one that leads to the bait." },
+
+    { "type": "h2", "text": "When should you call a professional?" },
+    { "type": "p", "text": "When the nest is inside the walls or the baiting stalls. Texas A&M says wall-void nests can be treated by injecting an aerosol insecticide through cracks and around baseboards, and its household ant guide notes that reaching a colony sometimes means drilling holes into wood and wall voids, a job for a professional with the right skill and equipment. The Northeastern IPM Center says a nest found inside must be removed and suggests calling a professional. Mississippi State cautions that even a professional can need time and several repeat visits to get results." },
+    { "type": "callout", "tone": "tip", "title": "Get an identification", "text": "Photograph a few ants beside a ruler marked in inches, or follow Texas A&M's advice: pick up a few with a cotton swab dipped in rubbing alcohol and drop them into a small vial of alcohol. Your county extension office or a pest professional may be able to identify the species." }
+  ],
+  "faqs": [
+    {
+      "question": "Why do I suddenly have little black ants in my kitchen?",
+      "answer": "Most likely a forager found food or water and the rest followed its scent trail. The Northeastern IPM Center says ants follow scent trails to and from food, and Texas A&M says little black ants invade food cabinets and pantries. Crumbs, spills, grease and sweets draw them, and indoor nests sit near heat and moisture. If you see only wingless workers, the nest is probably outdoors nearby; winged ants inside suggest a nest in the building."
+    },
+    {
+      "question": "What is the best bait for little black ants?",
+      "answer": "Start with a slow-acting sweet liquid or gel bait, which Mississippi State Extension says is useful against indoor infestations of little black ants. Their diet also includes grease, meat and fruit, so if they ignore a sweet bait, set a protein or grease bait beside it; UC IPM suggests giving ants a choice of formulations in one station. Avoid fire ant baits, which Mississippi State says work poorly on these ants and are mostly not labeled for indoor use, and follow the label."
+    },
+    {
+      "question": "Do little black ants bite or sting?",
+      "answer": "Mississippi State Extension says little black ants can sting, but that the sting is relatively minor compared with a fire ant's. Texas A&M's household ant table lists the species as neither stinging nor biting, so expect little or nothing. The Mississippi Entomological Museum does not consider them a big pest species. If a bite or sting causes a reaction that worries you, contact a healthcare provider."
+    },
+    {
+      "question": "Are little black ants harmful to my house?",
+      "answer": "Not in the way carpenter ants can be. None of the extension sources used here describes little black ants damaging sound wood; they nest in soil, under stones and logs, in rotting wood, in wall voids and in woodwork and masonry. Their cost is getting into food cabinets and pantries. Ants nesting in rotted wood can point to moisture, and Texas A&M recommends fixing leaks and replacing wet or rotten wood as part of ant control."
+    },
+    {
+      "question": "How long does it take to get rid of little black ants?",
+      "answer": "Expect days to see a change and weeks to finish. UC IPM says it can take 5 to 10 days to see fewer ants and several weeks or more for control with baits to be complete, and Texas A&M says some colonies take 3 to 4 weeks or more. The University of Kentucky notes that ant activity usually drops within a few days as a colony shrinks. Keep the bait fresh and do not spray near it while it works."
+    },
+    {
+      "question": "Are tiny black ants in the house always little black ants?",
+      "answer": "No. Odorous house ants, pavement ants, dark rover ants and acrobat ants can all look like small black ants in a kitchen. Count the waist nodes: little black ants have two and no spines on the thorax. Odorous house ants have one node hidden under the abdomen, pavement ants have two nodes with a grooved head and thorax and two short spines, and dark rover ants are dark brown, not shiny, and walk in a jerky way, according to Ohio State and Mississippi State."
+    },
+    {
+      "question": "Do little black ants smell when you crush them?",
+      "answer": "The sources disagree. The Northeastern IPM Center says crushed little black ants give off a foul odor sometimes described as like rotten coconuts, the smell Ohio State and Mississippi State use to identify the odorous house ant, while neither of those two fact sheets mentions any odor for the little black ant. With the sources split, the crush-and-sniff test is unreliable for telling these two apart. Count the waist nodes instead: a little black ant has two, while an odorous house ant has one node hidden under the front of its abdomen."
+    },
+    {
+      "question": "Why are there more ants after I put out bait?",
+      "answer": "Because they found it. The University of Kentucky says early increases in ant activity around a bait mean the ants are feeding, and advises not spraying them. The Northeastern IPM Center says ant numbers may rise at first and then slowly decline. Leave the trail alone, keep the bait topped up and fresh, and give it time: UC IPM says it can take 5 to 10 days to see fewer ants."
+    },
+    {
+      "question": "When do little black ants swarm?",
+      "answer": "In late spring and summer. Texas A&M's household ant table gives the swarming season as May to September, the Northeastern IPM Center says winged adults mate from spring through mid-July, and the Mississippi Entomological Museum records mating swarms in June and August. Texas A&M says winged ants swarming inside a home usually mean the colony is somewhere inside, while swarms outdoors around porch lights are not a concern."
+    },
+    {
+      "question": "Is the little black ant Monomorium minimum or Monomorium carbonarium?",
+      "answer": "Both names have been used for the same ant. Extension fact sheets call it Monomorium minimum, but a 2025 revision of the group by the ant taxonomist Bernhard Seifert concluded that the North American little black ant is the same species as Monomorium carbonarium, an older name that takes priority. iNaturalist adopted the change in April 2025, so photo identification apps may show Monomorium carbonarium."
+    }
+  ],
+  "sources": [
+    { "title": "Little Black Ant, Monomorium minimum", "publisher": "Urban and Structural Entomology Program, Texas A&M University", "url": "https://urbanentomology.tamu.edu/urban-pests/ants/little_black/" },
+    { "title": "Managing Household Ant Pests (B-6183), by Bastiaan M. Drees", "publisher": "Texas A&M AgriLife Extension Service", "url": "https://extensionentomology.tamu.edu/wp-content/uploads/2017/09/Ants_household_B6183.pdf" },
+    { "title": "Identifying Household Ants (ENT-2013), by Michael Merchant", "publisher": "Texas A&M AgriLife Extension Service, Insects in the City", "url": "https://citybugs.tamu.edu/factsheets/household/ants-house/ent-2013/" },
+    { "title": "Little Black Ant, Monomorium minimum (School IPM Best Practices, reviewed February 2020)", "publisher": "Northeastern IPM Center (New York State IPM Program, Cornell University)", "url": "https://www.neipmc.org/schools/pests/little-black-ant/" },
+    { "title": "Ants In and Around the Home (HYG-2064)", "publisher": "Ohio State University, College of Food, Agricultural, and Environmental Sciences", "url": "https://cfaes.osu.edu/fact-sheet/ants-and-around-home" },
+    { "title": "Control Household Insect Pests (Publication 2443), by Blake Layton", "publisher": "Mississippi State University Extension Service", "url": "https://extension.msstate.edu/sites/default/files/publications/P2443__web.pdf" },
+    { "title": "Monomorium minimum (Buckley), by Joe A. MacGown and Ryan J. Whitehouse", "publisher": "Mississippi Entomological Museum, Mississippi State University", "url": "https://mississippientomologicalmuseum.org.msstate.edu/Researchtaxapages/Formicidaepages/genericpages/Monomorium.minimum.htm" },
+    { "title": "Pest Notes: Ants (UC ANR Publication 7411)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/ants/" },
+    { "title": "ENTFACT-619: Ant Control for Householders, by Michael F. Potter", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef619" },
+    { "title": "Taxon change 159564: Monomorium minimum to Monomorium carbonarium (committed April 22, 2025)", "publisher": "iNaturalist", "url": "https://www.inaturalist.org/taxon_changes/159564" }
+  ],
+  "disclaimer": "pesticide"
+}

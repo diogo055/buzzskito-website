@@ -49,6 +49,9 @@ app/blog/best-bed-bug-spray/page.tsx
 content/guides/best-bed-bug-mattress-cover.json
 data/us-pages/checked/best-bed-bug-mattress-cover.json
 app/blog/best-bed-bug-mattress-cover/page.tsx
+content/guides/best-bed-bug-interceptors.json
+data/us-pages/checked/best-bed-bug-interceptors.json
+app/blog/best-bed-bug-interceptors/page.tsx
 content/guides/pillar-ants.json
 data/us-pages/checked/pillar-ants.json
 app/learn/ants/page.tsx
@@ -124,6 +127,9 @@ app/blog/crazy-ants/page.tsx
 content/guides/best-ant-bait.json
 data/us-pages/checked/best-ant-bait.json
 app/blog/best-ant-bait/page.tsx
+content/guides/little-black-ants.json
+data/us-pages/checked/little-black-ants.json
+app/blog/little-black-ants/page.tsx
 content/guides/pillar-mice.json
 data/us-pages/checked/pillar-mice.json
 app/learn/mice/page.tsx
@@ -277,6 +283,9 @@ app/blog/wood-roaches/page.tsx
 content/guides/best-cockroach-gel-bait.json
 data/us-pages/checked/best-cockroach-gel-bait.json
 app/blog/best-cockroach-gel-bait/page.tsx
+content/guides/roach-droppings-vs-mouse-droppings.json
+data/us-pages/checked/roach-droppings-vs-mouse-droppings.json
+app/blog/roach-droppings-vs-mouse-droppings/page.tsx
 content/guides/how-to-get-rid-of-mosquitoes.json
 data/us-pages/checked/how-to-get-rid-of-mosquitoes.json
 app/blog/how-to-get-rid-of-mosquitoes/page.tsx
@@ -529,6 +538,9 @@ app/blog/sweat-bees/page.tsx
 content/guides/wasp-vs-hornet.json
 data/us-pages/checked/wasp-vs-hornet.json
 app/blog/wasp-vs-hornet/page.tsx
+content/guides/best-wasp-spray.json
+data/us-pages/checked/best-wasp-spray.json
+app/blog/best-wasp-spray/page.tsx
 content/guides/no-see-ums.json
 data/us-pages/checked/no-see-ums.json
 app/blog/no-see-ums/page.tsx
@@ -715,6 +727,9 @@ app/blog/tiny-red-bugs/page.tsx
 content/guides/best-flea-spray-for-home.json
 data/us-pages/checked/best-flea-spray-for-home.json
 app/blog/best-flea-spray-for-home/page.tsx
+content/guides/christmas-tree-bugs.json
+data/us-pages/checked/christmas-tree-bugs.json
+app/blog/christmas-tree-bugs/page.tsx
 content/guides/bug-bites.json
 data/us-pages/checked/bug-bites.json
 app/learn/bug-bites/page.tsx

@@ -2,7 +2,7 @@
  "id": "tiny-ants",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "ee61516b56b8d7af0277241b910cccb3908495df0e47e462ed8f252037cb7df6",
+ "sha": "1d55e7f894d91669f6d065444384e2b56bc210f534fcfe22064d04578b21bdd5",
  "claimsChecked": 78,
  "claimsCorrected": 4,
  "claimsRemovedOrSoftened": 2,
@@ -17,6 +17,11 @@
    "on": "2026-11-03",
    "note": "Nov 3, 2026: one internal link moved from /blog/best-ant-traps-canada to /blog/best-ant-killer, because the two pages were merged (301 redirect). No other text changed; no factual claim touched.",
    "previousSha": "8753c571303b744ac51fae1bf21db8450cac0cd95d831b89d4a9bdcd926b07f6"
+  },
+  {
+   "on": "2026-11-06",
+   "note": "Nov 6, 2026 release: one sentence with a link to a new guide added (link-in for the release gate); no fact changed",
+   "previousSha": "ee61516b56b8d7af0277241b910cccb3908495df0e47e462ed8f252037cb7df6"
   }
  ]
 }

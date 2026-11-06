@@ -54,6 +54,8 @@
 
 - `/blog/best-ant-bait` — **ant killer** (also: ant bait; ant traps; best ant killer; best ant bait; ant killer indoor; ant bait stations). US edition of /blog/best-ant-killer, written fresh for US shoppers: US products and EPA registration (never Canadian PCP numbers or Canadian retailers), US spelling, no prices or star ratings. A buying guide: a short answer naming the best product types first; a "picks" block of 3-6 picks, each a product the text itself recommends with a one-line reason; a comparison table; how to choose; how to use it safely (label is the law); what it will not do; when to call a professional; 8-10 FAQs; sources (EPA, CDC, university extension, manufacturer labels). No testing claims: we did not test products. The top pick also goes in lib/amazon-us-picks.json.
 
+- `/blog/little-black-ants` — **little black ants** (also: little black ant; tiny black ants in house; little black ants in kitchen; how to get rid of little black ants). Monomorium minimum: size (about 1/16 inch), shiny black, two-node waist, many queens per colony, nests in soil, under stones and in wall voids, trails indoors in spring and summer, what bait they take, how to tell them from odorous house ants, pavement ants, carpenter ants and other small black ants, and the bait-then-seal plan.
+
 ## Pillars (hub pages)
 
 - `/learn/bed-bugs` — the complete bed bugs reference
@@ -495,6 +497,10 @@
 - `/blog/best-bed-bug-mattress-cover` — bed bug mattress cover
 - `/blog/best-mosquito-repellent` — mosquito repellent
 - `/blog/best-bug-zapper` — bug zapper
+- `/blog/roach-droppings-vs-mouse-droppings` — roach droppings vs mouse droppings
+- `/blog/christmas-tree-bugs` — christmas tree bugs
+- `/blog/best-bed-bug-interceptors` — bed bug interceptors
+- `/blog/best-wasp-spray` — wasp spray
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

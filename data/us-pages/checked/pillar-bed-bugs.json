@@ -2,7 +2,7 @@
  "id": "pillar-bed-bugs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "d3df40e6b2b2523d5b7513151058625901b0787316666ee224ea4dd09a7385cc",
+ "sha": "00afd7599a2151a675388d19b966cf72bb4d316fb06bcb57da03b2b3a16857e0",
  "claimsChecked": 145,
  "claimsCorrected": 14,
  "claimsRemovedOrSoftened": 11,
@@ -31,6 +31,11 @@
    "on": "2026-11-03",
    "note": "Nov 3, 2026: added 6 real photos (bed-bug-on-skin-macro, bed-bugs-male-female-cdc, bed-bug-swollen-after-feeding, bed-bug-nymph-after-blood-meal, bed-bugs-mating-eggs-fabric-fold, bed-bug-feces-bed-corner); captions from each photo's source description; no other text changed.",
    "previousSha": "188aa9b9d50a5a77e0505e973c8ee723c0b1af73845582740e7667c662cc1e69"
+  },
+  {
+   "on": "2026-11-06",
+   "note": "Nov 6, 2026 release: one sentence with a link to a new guide added (link-in for the release gate); no fact changed",
+   "previousSha": "d3df40e6b2b2523d5b7513151058625901b0787316666ee224ea4dd09a7385cc"
   }
  ]
 }

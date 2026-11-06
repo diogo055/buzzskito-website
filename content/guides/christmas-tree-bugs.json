@@ -1,0 +1,185 @@
+{
+  "slug": "christmas-tree-bugs",
+  "kind": "spoke",
+  "cluster": "household",
+  "keyword": "christmas tree bugs",
+  "alsoTargets": [
+    "bugs in christmas tree",
+    "christmas tree aphids",
+    "tiny bugs in christmas tree",
+    "christmas tree mites",
+    "praying mantis egg case on christmas tree",
+    "aphids on christmas tree",
+    "christmas tree bugs in house"
+  ],
+  "metaTitle": "Christmas Tree Bugs: What They Are (Photos)",
+  "metaDescription": "Bugs on a real Christmas tree are dormant conifer aphids, adelgids, scale, mites, spiders or a mantis egg case. Photos, quick ID and what to do.",
+  "h1": "Bugs in Your Christmas Tree: What They Are and What to Do",
+  "dek": "Real photos of the aphids, adelgid wool, scale and mantis egg cases that ride in on a cut tree, a quick-ID table, why they wake up indoors, and how to check and shake a tree before it comes in.",
+  "breadcrumb": "Christmas Tree Bugs",
+  "excerpt": "What the tiny bugs on a real Christmas tree are, from giant conifer aphids to mantis egg cases, why they appear indoors, and how to check and shake a tree first.",
+  "datePublished": "2026-11-06",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**The bugs on a real Christmas tree are outdoor insects, mites and spiders that were wintering on it and wake up in your warm house: mostly aphids and spiders, sometimes adelgids, scale crawlers, barklice, bark beetles or a mantis egg case.** [Penn State Extension](https://extension.psu.edu/insects-on-real-christmas-trees) says none is dangerous to your home or family.",
+    "bullets": [
+      "Aphids and spiders are the two pests found most often on fresh-cut trees, says [Iowa State University Extension](https://yardandgarden.extension.iastate.edu/faq/there-are-some-tiny-bugs-my-christmas-tree-what-should-i-do), and the newly hatched ones are about 1/16 inch long.",
+      "Giant conifer aphids, the dark ones, reach about 1/8 inch and stand on six long legs; [NC State Extension](https://christmastrees.ces.ncsu.edu/2025/11/cinara-aphids-and-christmas-trees/) says they do not sting or bite.",
+      "Pine needle scale crawlers, tiny and red, may appear after a couple of weeks indoors, and a mantis egg case hatches dozens of nymphs after several weeks.",
+      "Before the tree comes in, shake it hard or use the lot's mechanical shaker, and move any mantis egg case, twig and all, to an outdoor shrub.",
+      "Never spray an aerosol bug spray on the tree: [University of Illinois Extension](https://extension.illinois.edu/news-releases/christmas-tree-hitchhikers) says aerosol insect sprays are flammable."
+    ]
+  },
+  "facts": {
+    "title": "Christmas tree bugs: quick ID",
+    "head": ["Bug", "What it looks like", "Where you see it", "Indoors"],
+    "rows": [
+      ["Giant conifer aphid", "Up to 1/8 inch; black, gray or brown; six long legs", "Often low on the trunk and lower branches in fall; later on gifts and the tree skirt", "Wakes as the tree warms; may breed on a tree kept in a long time"],
+      ["Balsam twig aphid", "Gray-green; much smaller than a giant conifer aphid", "Fir trees such as Fraser and balsam fir", "Eggs may hatch before the tree comes down"],
+      ["Adelgids", "Tiny aphid-like insects under white, cottony wax", "Needles, twigs or bark of white pine, hemlock or Douglas-fir", "Stay on the tree; harmless"],
+      ["Pine needle scale", "Females about 1/8 inch long under white, waxy covers; crawlers tiny and red", "Pine needles", "Crawlers may emerge after a couple of weeks"],
+      ["Mites", "Predatory mites tiny and pale; spruce spider mites green to red or nearly black", "Mostly stay on the tree", "Predatory mites do not bite; spider mites only rarely spread"],
+      ["Spiders", "Overwintering adults, or spiderlings about 1/16 inch", "Small webs on walls, ceilings or furniture", "Die indoors; not dangerous to people or pets"],
+      ["Barklice", "Soft-bodied, often winged, gray or brown; usually under 1/4 inch", "Bark and branches", "Die quickly in dry indoor air; cannot bite"],
+      ["Bark beetles", "Small, cylindrical, brown; pine engravers 1/8 to 3/16 inch", "Tiny holes with fine sawdust on the trunk or branches", "May emerge after a long stay; cannot infest dry wood"],
+      ["Praying mantis egg case", "Brown, frothy-looking mass; a Chinese mantis case is about 3/4 inch", "Glued to a twig or branch", "Hatches dozens of nymphs after several weeks"]
+    ],
+    "caption": "From Penn State Extension, Iowa State, University of Illinois Extension, NC State Extension (aphids, spruce spider mite, engraver beetles), Washington State University (adelgids), Clemson (barklice) and Mississippi State (mantis egg case), all linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "What are the bugs in my Christmas tree?" },
+    { "type": "p", "text": "They are outdoor insects, mites and spiders that were spending the winter on the tree when it was cut, woken by the warmth of your house. [Penn State Extension's guide to insects on real Christmas trees](https://extension.psu.edu/insects-on-real-christmas-trees) says most real trees carry none at all, some may carry overwintering species that become active indoors, and none of those species is dangerous to the home, its contents or the people in it." },
+    { "type": "figure", "src": "/guides/photos/cinara-aphids-white-pine-twig.webp", "width": 1200, "height": 900, "alt": "Dozens of small, dark giant conifer aphids crowded along a green eastern white pine twig among long, thin needles, with several larger ants among them", "caption": "Giant conifer aphids (white pine aphid, *Cinara strobi*) on an eastern white pine twig in Hampshire County, Massachusetts, in September. Look for dark bodies up to 1/8 inch long on long legs.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/239883014" },
+    { "type": "p", "text": "Aphids and spiders are the two pests found most often on fresh-cut trees, according to [Iowa State University Extension](https://yardandgarden.extension.iastate.edu/faq/there-are-some-tiny-bugs-my-christmas-tree-what-should-i-do). Their eggs were laid on stems and needles in late summer or fall and sat dormant through the cold; an infestation may run from a few to several hundred individuals, and the newly hatched ones are about 1/16 inch long. Penn State's list adds adelgids, scale insects, mites, barklice, bark beetles and mantis egg cases, and it says a tree may harbor one or more of them." },
+
+    { "type": "h2", "text": "Why do the bugs show up after the tree comes inside?" },
+    { "type": "p", "text": "Warmth. Iowa State says the eggs hatch once heat in the house warms them enough, and [NC State Extension's household entomologist](https://entomology.ces.ncsu.edu/2020/11/cinara-aphid-nuisance) describes dormant giant conifer aphids waking in a warm room, wandering, and dropping onto the tree skirt and the decorations underneath. Penn State adds that some may be drawn to light: windows by day, lamps at night." },
+    { "type": "p", "text": "Not everything appears at once. Aphids and spiders turn up once the tree warms; Penn State says pine needle scale crawlers may take a couple of weeks, mantis egg cases several weeks, and bark beetles a long stay." },
+
+    { "type": "h2", "text": "How do you identify the bugs on a Christmas tree?" },
+    { "type": "p", "text": "Go by what you see and where: dark, long-legged bugs on the gifts fit giant conifer aphids; cottony white tufts fit adelgids; flat white flecks on pine needles, followed by tiny red specks, fit pine needle scale; and a tan, foam-like lump on a twig is a mantis egg case." },
+    { "type": "h3", "text": "Giant conifer aphids" },
+    { "type": "p", "text": "These are usually the dark bugs people notice. Penn State says giant conifer aphids (*Cinara*) reach 1/8 inch, among the largest native aphids in North America, and most are black, gray or brown with long legs. [University of Illinois Extension](https://extension.illinois.edu/news-releases/christmas-tree-hitchhikers) notes that aphids can be confused with spiders or ticks, but an aphid has six legs, not eight; [bugs that look like ticks](/blog/bugs-that-look-like-ticks) covers other mix-ups." },
+    { "type": "figure", "src": "/guides/photos/cinara-aphid-closeup-fence.webp", "width": 1200, "height": 1200, "alt": "Close-up of one giant conifer aphid on a dark painted metal surface, its rounded, mottled brown and cream body raised on six long, thin, brown legs", "caption": "A giant conifer aphid (genus *Cinara*) on a black-painted metal fence in Lilburn, Georgia, in March. Count the legs: six, where a tick or spider has eight.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/108735747" },
+    { "type": "p", "text": "As fall comes on, NC State says, they are more often found low on the trunk and on the lower branches, where they are often hidden from view, and squashed ones stain the tree skirt and wrapping paper. [NC State's Christmas tree specialists](https://christmastrees.ces.ncsu.edu/2025/11/cinara-aphids-and-christmas-trees/) add that they survive subfreezing temperatures and sometimes give birth to live young on trees brought inside, and Penn State says a tree kept indoors a long time, especially a living tree with a root ball, may end up with winged offspring." },
+    { "type": "p", "text": "They will not move to your plants: Illinois says Christmas tree aphids target specific hosts and will not harm houseplants (the garden kinds are covered in [natural ways to control aphids](/learn/aphid-control-guide)). Fir trees can also carry balsam twig aphids, gray-green and much smaller, whose eggs Penn State says may hatch indoors before the tree comes down." },
+    { "type": "h3", "text": "Adelgids: white fluff on needles or bark" },
+    { "type": "p", "text": "Cottony white tufts on needles, twigs or bark are adelgids, tiny aphid-like sap feeders that cover themselves in wax. Penn State names the pine bark adelgid on white pine and the hemlock woolly adelgid on hemlock; on Douglas-fir, [Washington State University's HortSense](https://hortsense.cahnrs.wsu.edu/fact-sheet/douglas-fir-cooley-spruce-gall-adelgid/) describes the Cooley spruce gall adelgid as woolly tufts on the needles with small purplish insects beneath. Penn State says adelgids stay on the tree and that they and their wax are harmless." },
+    { "type": "figure", "src": "/guides/photos/adelgid-wool-christmas-tree-indoors.webp", "width": 1200, "height": 1600, "alt": "A round tuft of fine white, woolly threads clinging to a flat green needle with pale bands, other needles of the same cut branch around it", "caption": "Woolly wax of the Cooley spruce gall adelgid (*Adelges cooleyi*) on a needle of a cut Christmas tree indoors in Fergus County, Montana, in January; the observer says the tree was cut there.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/197069990" },
+    { "type": "h3", "text": "Pine needle scale: white flecks, then tiny red crawlers" },
+    { "type": "p", "text": "Flat white flecks stuck to pine needles are scale insects. Penn State says pine needle scale is probably the most common scale on Christmas trees: the adult female, about 1/8 inch long, lives under a white, waxy cover, and her eggs spend the winter beneath it. Indoors the crawlers may emerge after a couple of weeks, tiny, red and sometimes in large numbers, and a damp towel wipes them off floors and walls. For red specks far from the tree, see [tiny red bugs](/blog/tiny-red-bugs)." },
+    { "type": "figure", "src": "/guides/photos/pine-needle-scale-covers.webp", "width": 1200, "height": 469, "alt": "Two pine needles lined along their length with small white, oval and teardrop-shaped scale covers, close-up against a blurred tan background", "caption": "Pine needle scale (*Chionaspis pinifoliae*) covers on pine needles in Appleton, Wisconsin, in March. Needles flecked like this can release red crawlers indoors.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/24440285" },
+    { "type": "h3", "text": "Mites" },
+    { "type": "p", "text": "Many of the mites on a Christmas tree are hunters. Penn State says many kinds of predatory mites winter on the tree as adults, wake indoors and mostly stay put eating insect and mite eggs, and do not bite or threaten people or pets; most are tiny and pale, though whirligig and concrete mites are somewhat larger and brightly colored." },
+    { "type": "p", "text": "The plant feeder to know is the spruce spider mite, green to red, or dark red to almost black in western North Carolina. [NC State's spruce spider mite guide](https://content.ces.ncsu.edu/spruce-spider-mite-on-fraser-fir) says it winters as brilliant red eggs, each with a single hair, on the shoots of Fraser fir. When harvest weather is mild and dry and the mites are not yet dormant, they can keep feeding and breeding on a cut tree indoors; homeowners have reported webbing, needle drop and mites on ornaments, presents and furniture, though NC State says this only rarely happens. Houseplant mites are covered in [spider mites](/blog/spider-mites)." },
+    { "type": "h3", "text": "Spiders" },
+    { "type": "p", "text": "Spiders on a Christmas tree are insect hunters: adults that were overwintering there, or spiderlings that hatched once the tree warmed. Penn State says they are not dangerous to people or pets, may spin small webs on walls, ceilings and furniture (a vacuum or dusting brush clears them), and die indoors because the house does not suit them. Spiders that live indoors year-round are covered in [common house spiders](/blog/house-spiders)." },
+    { "type": "h3", "text": "Barklice" },
+    { "type": "p", "text": "Barklice, or psocids, are small, soft-bodied insects, often winged and usually gray or brown, that graze on fungus, mold, pollen and algae on bark. Penn State says they are not parasites, cannot bite people and die quickly in a heated home because most need high humidity; [Clemson Cooperative Extension](https://hgic.clemson.edu/factsheet/barklice/) puts them at usually under 1/4 inch long. Their indoor cousins are the [booklice of damp rooms and pantries](/blog/booklice)." },
+    { "type": "h3", "text": "Bark beetles" },
+    { "type": "p", "text": "Tiny holes ringed with fine sawdust on the trunk or branches mean bark beetles, which Penn State says attack stressed, dying or dead trees and may have moved in before harvest. The small, cylindrical brown adults may come out after a long stay indoors; one group, the pine engravers, measures about 1/8 to 3/16 inch, according to [NC State's pine engraver guide](https://content.ces.ncsu.edu/pine-engraver-beetles). Penn State says the wood in homes and furniture is too dry for them to colonize." },
+
+    { "type": "h2", "text": "Is that a praying mantis egg case on your Christmas tree?" },
+    { "type": "p", "text": "If it is a tan or brown, foam-like lump glued to a twig, yes: that is a mantis egg case, or ootheca. Penn State says all the mantids found in Pennsylvania lay brown, frothy-looking egg masses on plants, conifer twigs included, and Illinois says females commonly prefer Fraser fir Christmas trees for laying eggs. [Mississippi State University Extension](https://extension.msstate.edu/newsletters/bugs-eye-view/2016/chinese-mantid-ootheca-vol-2-no-34) measures a Chinese mantis case at about 3/4 inch long, and [NC State](https://content.ces.ncsu.edu/chinese-mantid) says each holds 50 to 600 eggs in a frothy mass that hardens around them." },
+    { "type": "figure", "src": "/guides/photos/chinese-mantis-egg-case-arborvitae.webp", "width": 1200, "height": 1600, "alt": "A rounded, tan mantis egg case with a foamy, ridged surface fixed to the underside of a twig among flat, scaly green arborvitae sprays", "caption": "A Chinese mantis egg case under an arborvitae branch in Illinois in April, about 1 inch across by the observer's estimate. Indoors, a case like this hatches after several weeks.", "license": "CC-BY-SA-4.0", "credit": "(c) SA Somers, some rights reserved (CC BY-SA), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/207453835" },
+    { "type": "p", "text": "Indoors, the case is a problem for the mantises, not for you. Penn State says it hatches after several weeks into dozens of nymphs that eat each other when there is no other food, as is typical indoors in winter, and Illinois says they will likely starve." },
+    { "type": "p", "text": "So look for cases before the tree comes in. Penn State and Illinois both advise cutting off the twig that holds the case and leaving it on an outdoor shrub or evergreen, where it hatches in spring when there is food. Nymphs that have already hatched indoors are hard to keep alive, Penn State warns, and it notes that no law protects mantids." },
+    { "type": "p", "text": "A spider's egg sac looks different: the [Missouri Department of Conservation](https://mdc.mo.gov/discover-nature/field-guide/black-and-yellow-garden-spider) describes the black-and-yellow garden spider's as papery, tan and a little smaller than a ping-pong ball, attached to plants. The [guide to spider egg sacs](/blog/spider-egg-sacs) shows other kinds." },
+
+    { "type": "h2", "text": "Can a Christmas tree bring in spotted lanternflies?" },
+    { "type": "p", "text": "It is unlikely, Penn State says, but where this invasive planthopper has spread, an egg mass on the trunk or a branch could hatch indoors in a few weeks. [USDA APHIS](https://www.aphis.usda.gov/plant-pests-diseases/slf) describes egg masses about 1 inch long that look like wet gray putty when new and later like a smear of cracked mud, on smooth surfaces including trees, from fall through spring. Its page, last updated in August 2025, says 19 states and the District of Columbia have some degree of infestation." },
+    { "type": "p", "text": "Penn State says the young nymphs, black with white spots, cannot feed on a Christmas tree, quickly die indoors of starvation and low humidity, and do not bite people. If you find egg masses, APHIS says to smash them and scrape them into a zippered plastic bag filled with hand sanitizer or rubbing alcohol, zip it shut, throw it away and report the find to your state or local contact. Penn State calls looking the tree over before you move it imperative, and it encourages people in and around a quarantine zone to get rid of old trees through community tree recycling programs, which generally chip them." },
+    { "type": "confused", "items": [
+      { "href": "/blog/what-do-ticks-look-like", "name": "Tick", "photo": "blacklegged-tick-female", "note": "Eight legs; a tree aphid has six, though Illinois Extension says the two get confused", "alt": "Reddish-brown female blacklegged tick with eight dark legs on a green leaf against a blue background" },
+      { "href": "/blog/spider-egg-sacs", "name": "Spider egg sac", "photo": "yellow-garden-spider-egg-sac", "note": "Papery, tan and nearly ping-pong-ball size, hung among plants; a mantis case looks foamy", "alt": "Tan, papery, pear-shaped spider egg sac hanging in silk threads among white wildflowers" },
+      { "href": "/blog/spotted-lanternfly", "name": "Spotted lanternfly eggs", "photo": "spotted-lanternfly-egg-masses", "note": "About 1 inch long; like wet gray putty when new, later like a smear of cracked mud", "alt": "Brown spotted lanternfly egg masses in rows of small seed-like eggs on rough tree bark" }
+    ] },
+
+    { "type": "h2", "text": "Do Christmas tree bugs bite or infest the house?" },
+    { "type": "p", "text": "Almost never. Iowa State says the insects and spiders that hatch on a cut tree cannot bite or sting, will not harm the tree, the house, the furnishings or the people in it, and will not live long enough to grow or multiply; they die of starvation or drying out, whichever comes first. NC State's Christmas tree specialists call giant conifer aphids harmless to people and say they do not sting or bite." },
+    { "type": "p", "text": "The house and its plants are safe as well. Penn State says house wood is too dry for bark beetles, conifer aphids pose no risk to houseplants, and dry indoor air and a lack of food usually kill the rest within a short time. The exceptions are small: aphids breeding on a tree kept indoors a long time, and the rare spruce spider mites NC State has heard of spreading to presents." },
+    { "type": "p", "text": "Ticks are a rare exception worth a thought. Writing about calls over small dark bugs on Christmas trees, [NC State's household entomologist](https://entomology.ces.ncsu.edu/2017/12/whats-under-or-on-your-christmas-tree) pointed to giant conifer aphids and noted a few instances of ticks passing the winter on the twigs or trunk. If you cut your own tree in the woods, a [quick tick check](/blog/how-to-do-a-tick-check) after hauling it in is a sensible habit." },
+
+    { "type": "h2", "text": "How many bugs are in a Christmas tree?" },
+    { "type": "p", "text": "Usually none that you will notice. Penn State says most real Christmas trees are free of insects and other arthropods, and Illinois Extension calls these post-harvest pests rare, occurring in 1 out of 100,000 cut trees. When a tree does carry them, Iowa State says the number may run from a few to several hundred." },
+    { "type": "p", "text": "The 25,000 figure that turns up in holiday news stories traces to Norway. A [2012 University of Bergen release](https://www.sciencedaily.com/releases/2012/12/121218081830.htm) said research on Christmas trees had found as many as 25,000 small creatures in some trees, without naming the study, and listed springtails, barklice, mites, moths and the odd spider as the ones likely to come indoors. It said the count varies a lot, partly by chance and partly by type of tree, with trees cut in the woods carrying more than farmed ones. It also said they posed no risk to people or furniture, though people with severe allergies might react to an extreme number of mites." },
+
+    { "type": "h2", "text": "How do you check a Christmas tree for bugs before bringing it inside?" },
+    { "type": "p", "text": "Do it outdoors, at the lot or in the driveway, before the tree has a chance to warm up." },
+    { "type": "checklist", "title": "Before the tree comes in", "items": [
+      "**Look inside it.** While the tree is lying on its side, Illinois Extension suggests looking up into the interior from the cut end.",
+      "**Check low.** NC State says that as fall comes on, giant conifer aphids are more often found low on the trunk and on the lower branches, where they are often hidden from view.",
+      "**Clip and remove.** Cut out mantis egg cases and set them on an outdoor shrub, scrape off other egg masses, and take out bird nests, which Penn State says may hold bird mites.",
+      "**Shake it hard.** Use the lot's mechanical shaker if it has one; Penn State says vigorous shaking dislodges some arthropods, especially adults. The Bergen release suggests a white sheet underneath to see what falls.",
+      "**Consider hosing it.** NC State's household entomologist says it is not a bad idea to hose the tree down before it goes indoors, though the Bergen release warns that flushing a tree clean of bugs will damage it.",
+      "**In spotted lanternfly states,** look over the trunk and branches for gray or mud-brown egg masses and deal with them as APHIS directs."
+    ] },
+    { "type": "p", "text": "If the tree turns out to be badly infested, Illinois Extension says you can take it back to the supplier and ask for a refund or an exchange." },
+
+    { "type": "h2", "text": "Should you spray a Christmas tree for bugs?" },
+    { "type": "p", "text": "Not with an aerosol bug spray. Penn State says aerosol insect sprays are often flammable and usually not labeled for indoor use, so they should not be sprayed on a Christmas tree, and Illinois Extension says they should never be used on one because they are flammable. Iowa State adds that an insecticide on a fresh-cut tree is not necessary or recommended, and that the insects soon die of starvation or drying out." },
+    { "type": "p", "text": "NC State's household entomologist gives three reasons not to spray the tree with a typical insecticide: an aerosol might ignite on the heated lights if they are old-style incandescent bulbs, small children touch the tree and may then put their hands in their mouths, and cats chew the needles. For aphids, the same entomologist prefers an EPA-registered insecticidal soap, a contact spray with no lasting residue, used only as its label directs; Penn State advises keeping indoor control non-chemical." },
+    { "type": "callout", "tone": "warning", "title": "Keep the tree watered", "text": "NC State's household entomologist adds a reminder that has nothing to do with bugs: keep the tree watered so it does not drop its needles too soon or become a fire hazard." },
+
+    { "type": "h2", "text": "What should you do about bugs once the tree is inside?" },
+    { "type": "p", "text": "Leave the tree alone and clean up what wanders off. Penn State's advice is to leave insects on the tree until it goes out, vacuum strays off ceilings, walls and windows, and wipe scale crawlers off floors and walls with a damp towel. Iowa State says to vacuum up any found on the floor or around the tree and throw them away. Avoid squashing aphids: NC State says they stain the tree skirt and wrapping paper." },
+    { "type": "p", "text": "Bugs that keep turning up after the tree is gone probably did not come from it. [Bugs in the house in winter](/blog/bugs-in-house-in-winter) covers the insects that move indoors on their own, and [the bug identifier quiz](/tools/what-bug-is-this) can help put a name to one. For other finds, browse [more pest identification guides](/learn)." },
+    { "type": "callout", "tone": "tip", "title": "Still not sure what it is?", "text": "Photograph it beside a ruler marked in inches, note where it was on the tree and the date, and keep it in a sealed jar or bag. Your state's cooperative extension office can use those details to help identify it." }
+  ],
+  "faqs": [
+    {
+      "question": "Why are there tiny black bugs on my Christmas tree?",
+      "answer": "They are usually giant conifer aphids, dark, long-legged insects up to about 1/8 inch long that were dormant on the tree when it was cut. NC State Extension says the warmth of a house wakes them, and they wander and drop onto the tree skirt and presents. They have six legs, which tells them apart from ticks and spiders. NC State's Christmas tree specialists say they do not sting or bite. Vacuum strays rather than squashing them, because crushed aphids stain fabric and wrapping paper."
+    },
+    {
+      "question": "What are the tiny red bugs on my Christmas tree?",
+      "answer": "Usually one of two things. Pine needle scale crawlers are tiny red insects that hatch from eggs under the white, waxy scale covers on pine needles; Penn State Extension says they may emerge after a couple of weeks indoors and can be wiped off floors and walls with a damp towel. Mites are the other possibility. NC State says spruce spider mites range from green to red and only rarely spread from a cut tree onto presents and furniture. Penn State says the predatory mites on Christmas trees are mostly tiny and light-colored, though a few kinds are brightly colored, and that they generally stay on the tree and do not bite people or pets."
+    },
+    {
+      "question": "What is the white fuzzy stuff on my Christmas tree?",
+      "answer": "Cottony white tufts on needles, twigs or bark are usually adelgids, tiny aphid-like insects that cover themselves with wax. Penn State Extension names the pine bark adelgid on white pine and the hemlock woolly adelgid on hemlock, and Washington State University describes woolly tufts of the Cooley spruce gall adelgid on Douglas-fir needles. Adelgids stay on the tree and are harmless, Penn State says. Flat white flecks glued to pine needles are a different insect, pine needle scale, whose tiny red crawlers can hatch indoors."
+    },
+    {
+      "question": "Can ticks come in on a Christmas tree?",
+      "answer": "It is uncommon. Writing about calls over small dark bugs on Christmas trees, NC State Extension's household entomologist noted a few instances of ticks passing the winter on the twigs or trunk. The aphids, spiders and mites usually found on cut trees do not bite people, according to Iowa State and Penn State Extension. If you cut your own tree in the woods, checking yourself and any pets for ticks after handling it is a sensible precaution."
+    },
+    {
+      "question": "Are Christmas tree bugs dangerous to dogs and cats?",
+      "answer": "Generally not, according to the extension sources on this page. Penn State Extension says the spiders and predatory mites on Christmas trees are not dangerous to people or pets, and Iowa State says the insects that hatch on a cut tree cannot bite or sting. Bug spray on the tree is another matter: NC State's household entomologist warns against household insecticides there partly because cats chew the needles. Take bird nests out before the tree comes in, since Penn State says they may hold bird mites."
+    },
+    {
+      "question": "Will Christmas tree bugs spread to my houseplants?",
+      "answer": "No. University of Illinois Extension says the aphids that hatch on Christmas trees target specific host plants and will not harm houseplants, and Penn State Extension says most conifer-feeding aphids are so host-specific that they pose no risk to them. Adelgids stay on the tree, and the other insects usually die within a short time indoors from dry air and a lack of suitable food. The aphids that feed on garden and house plants are different species."
+    },
+    {
+      "question": "Is it illegal to kill a praying mantis?",
+      "answer": "No. Penn State Extension notes that there is no law protecting mantids. For an egg case on a Christmas tree, the practical choice is to cut off the twig that holds it and leave it on an outdoor shrub or evergreen before the tree comes in, as Penn State and the University of Illinois Extension advise; the eggs then hatch in spring, when there is food. A case left indoors hatches after several weeks into dozens of nymphs that will likely starve or eat each other."
+    },
+    {
+      "question": "Do Christmas tree farms remove bugs before selling trees?",
+      "answer": "Some steps are common. Penn State Extension says some retail lots have a mechanical tree shaker, and University of Illinois Extension says most lots and farms do. NC State's Christmas tree specialists tell growers that finding and removing giant conifer aphid colonies before a tree is sold is preferable, and to check or treat trees before sale. Shake and check the tree yourself anyway before it comes indoors, paying attention to the lower trunk and branches, where these aphids are more often found in the fall."
+    },
+    {
+      "question": "How long do Christmas tree bugs live indoors?",
+      "answer": "Not long. Penn State Extension says low indoor humidity and a lack of suitable food usually kill these arthropods within a short time, and Iowa State says the insects and spiders that hatch will quickly die of starvation or drying out without growing or multiplying. Barklice need high humidity, and bark beetles that emerge usually die quickly in dry air. The exception is giant conifer aphids on a tree kept indoors a long time, especially a living tree with a root ball, where they may breed."
+    }
+  ],
+  "sources": [
+    { "title": "Insects on Real Christmas Trees (Michael J. Skvarla; updated January 19, 2026)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/insects-on-real-christmas-trees" },
+    { "title": "There are some tiny bugs on my Christmas tree. What should I do? (updated December 6, 2024)", "publisher": "Iowa State University Extension and Outreach, Yard and Garden", "url": "https://yardandgarden.extension.iastate.edu/faq/there-are-some-tiny-bugs-my-christmas-tree-what-should-i-do" },
+    { "title": "Christmas tree hitchhikers (Chris Enroth; December 6, 2019)", "publisher": "University of Illinois Extension", "url": "https://extension.illinois.edu/news-releases/christmas-tree-hitchhikers" },
+    { "title": "Cinara Aphid - Early Christmas Visitors (Michael Waldvogel; November 26, 2020)", "publisher": "NC State Extension, Department of Entomology and Plant Pathology", "url": "https://entomology.ces.ncsu.edu/2020/11/cinara-aphid-nuisance" },
+    { "title": "What's under (or on) your Christmas tree? (Michael Waldvogel; December 22, 2017)", "publisher": "NC State Extension, Department of Entomology and Plant Pathology", "url": "https://entomology.ces.ncsu.edu/2017/12/whats-under-or-on-your-christmas-tree" },
+    { "title": "Cinara Aphids and Christmas Trees (Jamie Bookwalter; November 3, 2025)", "publisher": "NC State Extension, Christmas Trees", "url": "https://christmastrees.ces.ncsu.edu/2025/11/cinara-aphids-and-christmas-trees/" },
+    { "title": "Spruce Spider Mite on Fraser Fir (Jill Sidebottom and Jamie Bookwalter; revised January 10, 2019)", "publisher": "NC State Extension, Christmas Tree Notes", "url": "https://content.ces.ncsu.edu/spruce-spider-mite-on-fraser-fir" },
+    { "title": "Chinese Praying Mantid (James Baker; revised October 26, 2019)", "publisher": "NC State Extension", "url": "https://content.ces.ncsu.edu/chinese-mantid" },
+    { "title": "Chinese Mantid ootheca (Bug's Eye View, Vol. 2, No. 34; Blake Layton)", "publisher": "Mississippi State University Extension Service", "url": "https://extension.msstate.edu/newsletters/bugs-eye-view/2016/chinese-mantid-ootheca-vol-2-no-34" },
+    { "title": "Pine Engraver Beetles (James Baker; revised May 15, 2024)", "publisher": "NC State Extension", "url": "https://content.ces.ncsu.edu/pine-engraver-beetles" },
+    { "title": "Barklice (HGIC 2365; revised May 7, 2024)", "publisher": "Clemson Cooperative Extension, Home and Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/barklice/" },
+    { "title": "Douglas Fir: Cooley spruce gall adelgid (reviewed April 27, 2026)", "publisher": "Washington State University, HortSense", "url": "https://hortsense.cahnrs.wsu.edu/fact-sheet/douglas-fir-cooley-spruce-gall-adelgid/" },
+    { "title": "Spotted Lanternfly (updated August 26, 2025)", "publisher": "USDA Animal and Plant Health Inspection Service", "url": "https://www.aphis.usda.gov/plant-pests-diseases/slf" },
+    { "title": "Black-and-Yellow Garden Spider (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/black-and-yellow-garden-spider" },
+    { "title": "Bugs in the Christmas tree (University of Bergen release, December 18, 2012)", "publisher": "ScienceDaily", "url": "https://www.sciencedaily.com/releases/2012/12/121218081830.htm", "kind": "news" }
+  ],
+  "disclaimer": "pesticide"
+}

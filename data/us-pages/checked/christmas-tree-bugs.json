@@ -1,0 +1,15 @@
+{
+ "id": "christmas-tree-bugs",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "b3c37b05b07a9331c5c1c365f683b8e07a75a3c0ab58f76e03525c9087c5e442",
+ "claimsChecked": 187,
+ "claimsCorrected": 28,
+ "claimsRemovedOrSoftened": 2,
+ "checkedOn": "2026-11-05",
+ "released": {
+  "on": "2026-11-06",
+  "scheduledFor": "2026-11-06",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

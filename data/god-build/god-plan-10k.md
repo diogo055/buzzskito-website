@@ -145,7 +145,44 @@ Then the rest of `top3_push.csv` in order.
 
 ## 4. BUILD QUEUE: new pages, most powerful first
 
-Ranked by expected clicks x value (`research_notes/God plan 10k a day/new_pages.csv`, estimates calibrated on our own October pages: a new page draws about 400-600 impressions a month at first, more for big topics). Keyword Planner volumes will refine this when they arrive.
+### NOW 10: the strongest new pages we can write (owner, Nov 5 evening)
+
+The owner asked for "the combination of 10 pages that is literally the most powerful that we can make right now... don't repeat anything that we have on the site." These come before everything else in this section. Evidence: `data/god-build/research/what-wins-2026-11-05.md`.
+
+**How they were chosen:**
+- **Page types, median Google clicks per mature page in 28 days:** bites & stings 39, identification 33.5, droppings & signs 21. Everything else is 0-4.5.
+- **New pages in winter start best as identification:** "bugs that look like" and "tiny bugs" pages drew 72-117 clicks in their first 28 days. Droppings and signs pages come next.
+- **Topics, median per page:** flies & gnats 41, cockroaches 22, mice & rats 13.5, crawling bugs 13.
+  - Bed bugs and ticks have about 80 pages each and are saturated.
+  - Mosquitoes are a summer topic: US searches in January are 19% of July, and Canada's are 13%.
+- **No repeats:** each page was checked against all 794 live pages, the scheduled folder and this plan.
+
+| # | Page (slug) | Main search, US volume (Keyword Planner unless noted) | Type | Why now | Keep it distinct from |
+|---|---|---|---|---|---|
+| 1 | `brown-recluse` (planned Feb 1, now) | brown recluse, brown recluse spider: 100K-1M each | ID with look-alike cards | The biggest search we can reach. It is found indoors all winter, and our look-alike and bite pages already sit around position 9 | `brown-recluse-look-alikes`, `brown-recluse-bite`: link both, don't re-cover bites |
+| 2 | `phorid-flies` | 10K-100K (CA 1K-10K) | species ID | Flies & gnats is our best topic per page, and these flies are indoors in winter | the drain fly, fruit fly and fungus gnat pages |
+| 3 | `centipede-vs-millipede` | 10K-100K (CA 1K-10K) | ID, X vs Y | Both come indoors in fall | `house-centipedes`, `millipedes` |
+| 4 | `tiny-flying-bugs-in-house` | six searches at 1K-10K ("small flying bugs in house", "small black flying bugs in house not fruit flies"...) | ID (the tiny-bugs formula) | The tiny-bugs pages are our best new pages | It replaces the planned "gnats vs fruit flies vs drain flies". The how-to pages keep the killing |
+| 5 | `flea-bites-vs-bed-bug-bites` (was #11, now) | about 8,400 (Trends); 9,400 image impressions in 28 days | bites, X vs Y | Both pests are indoors all year | `flea-bites`, `bed-bug-bites`, `what-do-bed-bug-bites-look-like` (Nov 24) |
+| 6 | `possum-poop` (held for photos) | 10K-100K | droppings | Year-round. `animal-droppings` drew 62 clicks in its first 28 days | `animal-droppings`, `raccoon-poop` |
+| 7 | `signs-of-mice` | Not in our Keyword Planner seeds: check its volume first | signs | Mice peak in Oct-Nov, and nothing on the site answers "do I have mice?" | `mouse-poop`, `mouse-urine`, `mice-in-walls`: summarize and link |
+| 8 | `mouse-nest` (planned Jan 4, now) | plan targets: what does a mouse nest look like, mouse nest in car or wall | signs, ID | Winter | `signs-of-mice`, `rat-nest` |
+| 9 | `snake-poop` (held for photos) | 10K-100K (Trends 17,400) | droppings | Built now, it is aged by April; snakes are out April-October | `animal-droppings`, lizard droppings |
+| 10 | `stink-bug-eggs` | 10K-100K | ID | Eggs are found May-August, so it is aged by spring | `how-to-get-rid-of-stink-bugs`, which doesn't rank for it |
+
+- **Order:** build 1-5 first. Pages 6 and 9 need their photo check first; open iNaturalist scat photos exist (10 possum, 25 snake), plus Wikimedia Commons. All ten fit the pace cap in about a week, as the Oct 31-Nov 4 releases age out.
+- **Two pushes that may beat any new page** (top of section 3, now): `german-cockroaches` and `house-centipedes`. Both searches run 100K-1M in the US.
+  - Our German cockroach page sits at position 15-16 with 1 click in 28 days.
+  - Our house centipede page sits at position 12.
+  - Rewrite both into the winning ID format.
+- **Rule from now on, "hammer what wins, never repeat" (owner, Nov 5):**
+  - Pick new pages by per-page yield: bites, identification, droppings and signs, in the topics where pages earn most. Re-measure the type and topic table every month.
+  - One search, one page. If a live page already holds a search's words or ranks for it, improve that page instead.
+  - Species-only, trivia and disease pages get built only when demand is big and we have a real angle. Google answers trivia in the results, and trusts health authorities on disease.
+
+### Earlier queue
+
+Ranked by expected clicks x value (`research_notes/God plan 10k a day/new_pages.csv`). The estimates are calibrated on our own October pages: a new page draws about 400-600 impressions a month at first, more for big topics. Keyword Planner volumes will refine this when they arrive.
 
 **NEXT 10**, re-ordered Nov 3 evening with Google Keyword Planner volumes (`keyword_volumes.csv`, `discovered_keywords.csv`; ranges because the Ads account runs no campaigns; the US is about 10x Canada):
 
@@ -163,7 +200,17 @@ Ranked by expected clicks x value (`research_notes/God plan 10k a day/new_pages.
 | 10 | signs of termites (+ mud tubes) | household / ID | ~8,600 US a month | Live by early March |
 
 **Then, in order:**
-- 11-20: wasp vs bee; flea bites vs bed bug bites (image demand 9,400 in 28 days); **brown recluse** (US 100K-1M, planned Feb 1, build in January; the results page is institutions and Wikipedia, so it's hard); carpenter ant frass; bugs that look like termites; how to get rid of termites; snake poop (photo first); gnats vs fruit flies vs drain flies (one page); how to get rid of moles; yellow jacket sting.
+- 11-20:
+  - wasp vs bee;
+  - flea bites vs bed bug bites (**moved to NOW 10**);
+  - **brown recluse** (**moved to NOW 10**; the results page is institutions and Wikipedia, so it's hard);
+  - carpenter ant frass;
+  - bugs that look like termites;
+  - how to get rid of termites;
+  - snake poop (**moved to NOW 10**);
+  - gnats vs fruit flies vs drain flies (**folded into tiny-flying-bugs-in-house**);
+  - how to get rid of moles;
+  - yellow jacket sting.
 - 21-40: cricket poop; American dog tick (US); possum poop (photo first); moth eggs; horse fly (US); bee sting vs wasp sting; how to get rid of squirrels; lacewings; fleas vs ticks; deer tick (US); huntsman spider; how to get rid of chipmunks; types of bees; carpenter ants vs termites; black flies (US); engorged tick; rat vs lizard droppings; roach bombs vs gel bait; then `new_pages.csv` from #39.
 - **Big searches we already have pages for** (US 100K-1M per Keyword Planner): ticks and tick bites, spider bites, fleas, rats, cockroaches, carpenter ants, wasps, fruit flies and gnats, silverfish, house centipede, carpet beetles, bed bug bites, chigger bites. These are push work (section 3), not new pages.
 - **Seasons** (`trends_seasonality.md`, 5 years of Google Trends): mosquito bites swing 29x in Canada (June-August); ticks peak in May; fruit flies in September; wasps in August; mice and mouse traps in October-November; bed bugs and cockroaches are flat. Build each family 3-6 months before its peak.
@@ -332,8 +379,79 @@ Ranked by expected clicks x value (`research_notes/God plan 10k a day/new_pages.
   - **14 service-page titles** applied (owner's OK): no "2026", all fit 60 rendered characters; the price stays where the description has none.
   - **Reviewed:** the owner read the four guides of Nov 5 evening; each carries reviewedBy/reviewedOn.
   - **Nov 6 build (5 pages, plan entries added, releaseOn 2026-11-06):** little-black-ants, roach-droppings-vs-mouse-droppings, christmas-tree-bugs (a December Discover bet; photos scouted first), best-bed-bug-interceptors and best-wasp-spray (US buying guides, regional pairs). american-cockroaches stays gated: it was folded into the live palmetto-bugs page on Oct 16.
-  - **Higgsfield:** 270 credits, Starter. A first cut of a quote-email explainer (q01) is being built from the real footage plus the September AI legs (0 new credits). Customer footage never goes to Higgsfield.
-- **NEXT "go" (Nov 6; pace room 9: 16 new in the 7 days to Nov 6):**
+  - **Higgsfield:** 270 credits, Starter. A first cut of the quote-email explainer (q01, 42.8 s) was built from the real footage plus the September AI legs, using 0 new credits, and sent to the owner. Customer footage never goes to Higgsfield. render.mjs gained AI/REAL chips, custom end-card lines and a blur fix.
+- **2026-11-05 afternoon (commits `cc49bba8`, `bf7d5a5a`; the owner's rule applied site-wide):** five passes over every Canadian page. A button came off only where a Health Canada primary source or the page's own sourced text says the product is unregistered, cancelled or not legal; devices were left for the owner. Reports: scratchpad `unregistered-sweep-report.md` to `-5-report.md`.
+  - **Removed or switched, about 190 amazon.ca elements on about 60 pages:** Combat ant baits, Wondercide/Cedarcide/Vet's Best, Insect Shield, InsectGuard, consumer permethrin clothing sprays, Biogents/Atrakta/W·H·Y lures, Black Flag fogging liquid, citronella bands and PARA'KITO, peppermint pouches, carpet beetle pheromone traps, and three US-only Ortho products.
+  - **Mosquito Bits → Mosquito Dunks (Reg. No. 28888)** on 16 pages.
+  - **Cancelled total-release foggers** (RVD2023-06) are off the flea bomb page, which no longer calls them registered.
+  - **Corrected text that called unregistered products legal:** permethrin-canada, can-mosquitoes, ortho, and bug-protective-clothing-canada (13 passages).
+  - **Still open, for the owner:**
+    - devices: DynaTrap, Katchy, BG-Home/BG-GAT, glue boards, heaters, steamers, fogger machines, capsaicin tape;
+    - the frozen horse-fly page (one Insect Shield button, after Nov 24).
+  - **Done Nov 5 evening (commit `c6a0b08e`, ships with the Nov 6 release):** the fungus gnat page's related links no longer say "A Full Season of Testing" / "Tested and Compared".
+  - **Photo licences, done Nov 5 evening (same commit):** 9 iNaturalist photos from one photographer (kzoebel) were CC0 when downloaded (Oct 16-23) and later relicensed CC BY-NC.
+    - Five were replaced with CC BY or CC BY-SA photos of the same subjects, under the same ids.
+    - Three were retired, and their seven uses now point at photos already on record: termite-swarmers-pine-straw-house, carpenter-bee-nest-hole, lizard-droppings-ruler. The unused carpenter-bee-male is gone too.
+    - Captions and alt text on 17 guides and 4 TSX pages were rewritten to describe the new photos, and the 17 records were amended.
+    - The carpenter-ants-canada share image is now black-carpenter-ant-dry-leaves, because a share image must be CC0 or public domain.
+    - Re-run scratchpad `audit-inat-licences.mjs` now and then: photographers can relicense.
+  - **Site map dashboard for the owner and his partner:** https://claude.ai/artifact/BjoM5C1kcLqJaAhsbSskwA.
+    - It is a treemap of all 794 pages in 29 groups and 8 families, sized by Google web clicks, with a toggle for 28 days, summer or 2026, monthly bars by family, and a ranked group table.
+    - The data is a fixed snapshot to Nov 4. To refresh it, use `scripts/site-map/`.
+  - **Indexing:** the 9:10 run hung on its first PowerShell call; I stopped it and ran the batch by hand. The Search Console quota is a **rolling 24 hours**: last night's 9:28 pm batch left room for one request this morning (best-mosquito-repellent requested; best-ant-bait already indexed). Next window about 9:30 pm.
+  - **GTA report:** the tick claim now cites the five public health units. "200+ property surveys" waits on the owner's count.
+- **2026-11-05, GA4 read** (owner: "tell me what's working and what isn't"; scratchpad `ga4_working_nov5.py` and `ga4_working_nov5b.py`; GA4 data to 9 am):
+  - **Google, Sun-Wed vs Sun-Wed:**
+    - Search Console clicks 1,553 vs 1,366 (+14%); two weeks earlier 1,029. Impressions +23%.
+    - November goal: 29% reached in 4 days.
+    - The gain came from October pages now indexed: tiny-white-bugs 0→21, tiny-brown-bugs 29→50, raccoon-deterrent 5→21, no-see-ums 0→15, maggots 0→13, mite-bites 0→11, bugs-in-carpet 0→10.
+  - **Ads, Nov 3-4 vs the week before:**
+    - Phone pages per visit 1.12→1.15; time on page 65→61 s.
+    - Desktop time on page 76→61 s, but pages per visit 1.09→1.20.
+    - Canadian Amazon.ca clicks per 1,000 Canadian views: 128→152.
+    - Phone sticky-bar clicks (8→0) moved to the top box (9→14).
+  - **Merges:** the 23 old URLs had 0 views on Nov 5.
+  - **Not yet:**
+    - The 13 new pages had 0-3 views each, except best-cockroach-gel-bait (India Discover: ~460 visits, 36 amazon.com clicks that pay nothing).
+    - Americans clicked amazon.com 6 times since Oct 20.
+    - The amazon.com line on 27 pages had 11 US views and 0 clicks overnight.
+    - Recirculation gets about 8 clicks a day; the next-article bar got 0 in two ad days.
+  - **Noise:** 42 US "direct" visits on Nov 4 were a bot in Ashburn, VA.
+  - **Next reads:** titles in Search Console Nov 12-19; new pages and merges Nov 19.
+- **2026-11-05 evening: what wins, and the NOW 10.** The owner asked whether mosquitoes are our most powerful topic, then for the 10 strongest pages to write now.
+  - **The answer:** the measurement is in `research/what-wins-2026-11-05.md`, and the NOW 10 are at the top of section 4.
+    - Mosquitoes bring the most visits because we have the most pages (116, counting local pages). Per page they are weak off-season: a median of 2 clicks, against 15 in August.
+    - The winning page types are bites (39), identification (33.5) and droppings & signs (21).
+  - **Mosquito search map** (Search Console, 6 months): 27,066 searches. Bites are 21%, timing 18%, kill & control 15%, shopping 12% and larvae 8%. We already have a page for nearly every type, so the mosquito work is pushes before May.
+  - **Trends** (`research/mosquito-trends-2026-11-05.md`):
+    - "Mosquito" in January is 19% of July in the US and 13% in Canada. Bites drop to 4-9% and larvae hold at 15-20%.
+    - Rising in the US: "mosquito control near me" +170%, "mosquito spraying near me" +160%, mosquito dunks +400%, and Spartan/"mosquito tnt" devices.
+    - Google Trends blocked our browser with a CAPTCHA partway through, so the pest comparison and the 12-month related lists are not in.
+  - **December mosquito batch, apply after the Nov 6 release:** set these 11 pages to `2027-04-05` in `release-overrides.json` and regenerate the plan (`node scripts/god-build-plan.mjs`, then `node scripts/us-pages-plan.mjs`):
+    - culex-mosquitoes, anopheles-mosquitoes, floodwater-mosquitoes, gallinipper, yellow-fever-mosquito;
+    - dengue, eastern-equine-encephalitis, chikungunya, la-crosse-encephalitis, jamestown-canyon-virus, st-louis-encephalitis.
+    - `types-of-mosquitoes` and `mosquito-borne-diseases` (Dec 7) cover them as sections instead.
+    - Kept: asian-tiger-mosquito and skeeter-syndrome.
+    - The owner was told and did not object.
+  - **Forecast for the NOW 10, given to the owner Nov 5.** Read it Dec 15 and Jan 15 against Search Console.
+    - **The base:** 510 pages launched Jul 10-Nov 4, read day by day (`page_date.json` in the session scratchpad).
+      - Bite, identification and droppings pages averaged about 0.5 clicks and 120 impressions a day per page in their first 4 weeks (median; the mean was about 0.9 and 180).
+      - They roughly doubled in weeks 5-8, to a median of 0.9-1.4 clicks and 190-280 impressions.
+      - October launches, in winter, ran at a median of about 14 clicks per 28 days for identification, 19 for droppings and 13 for bites.
+    - **All 10 combined:**
+      - Month 1 (to about mid-December): 100-400 Google visits (likely about 225), and 20,000-60,000 impressions (likely about 35,000).
+      - Month 2 (to about mid-January): 150-750 visits (likely about 400), and 30,000-100,000 impressions (likely about 60,000).
+    - **Who carries it:** tiny-flying-bugs-in-house, signs-of-mice, flea-bites-vs-bed-bug-bites and phorid-flies. Snake poop and stink bug eggs are spring pages and add little before April.
+    - **The swing is brown-recluse.** In the top 10 it is worth 100-300+ visits a month by itself. On page 2, like german-cockroaches at position 15, it is worth about 10.
+- **2026-11-06, released by hand just after 7 pm Toronto on Nov 5 (with the homepage title and the photo licence commit `c6a0b08e`):**
+  - **Live (5):** little-black-ants, roach-droppings-vs-mouse-droppings, christmas-tree-bugs, best-bed-bug-interceptors, best-wasp-spray. Pace: 21 new in the 7 days to Nov 6, so 4 more fit on Nov 6 (UTC).
+  - **Links in** (the release gate holds a page until a live guide links it): one sentence each on best-bed-bug-mattress-cover, pillar-bed-bugs, paper-wasps, spider-egg-sacs, cockroach-droppings, mouse-poop, black-ants and tiny-ants; on yellow-jackets one link swapped from the Canadian wasp removal page to best-wasp-spray. All 9 validated and their records amended. None is in a frozen test.
+  - **US editions:** best-bed-bug-interceptors pairs with bed-bug-interceptor-traps-canada and best-wasp-spray with best-wasp-nest-spray-canada (REGIONAL_PAIRS, hreflang on both Canadian pages, affiliate tokens unchanged). The regional script's edits to 5 other Canadian pages were reverted.
+  - **amazon.com picks:** "Bed bug interceptor cups" and "Wasp and hornet jet spray" (basis sentences in `lib/amazon-us-picks.json`). The two buying guides send readers on to US guides, not Canadian amazon.ca pages (overrides plus stored cards).
+  - **Homepage (owner's request):** title "Mosquito & Tick Control | Greater Toronto Area | From $99"; H1 "Mosquito & Tick Control in the Greater Toronto Area"; hero line "for backyards across the GTA, from our Mississauga-based team". Read it in May-June 2027 (memory `project_homepage_title_gbp`).
+- **NEXT "go" (Nov 6; pace room 4 on Nov 6 UTC: 21 new in the 7 days to Nov 6):**
+  - **First:** the NOW 10 (section 4), within the cap, starting with brown-recluse, phorid-flies, centipede-vs-millipede, tiny-flying-bugs-in-house and flea-bites-vs-bed-bug-bites.
+  - **Then:** the german-cockroaches and house-centipedes pushes, and the December mosquito holds above.
   - **Owner decisions from the merges:**
     1. A CimeXa buy button sits on a page that says CimeXa is not registered in Canada.
     2. bed-bug-spray-canada now carries a US-products table with amazon.ca buttons for products not legal in Canada.

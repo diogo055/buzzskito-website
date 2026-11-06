@@ -117,15 +117,15 @@ export default function PhotoHero() {
           <h1 className="font-display text-[2.75rem] font-extrabold leading-[1.02] tracking-tight text-white sm:text-6xl lg:text-7xl xl:text-[5.5rem] [text-wrap:balance]">
             Mosquito &amp; Tick Control
             <br />
-            <span className="accent-serif text-sheen-once text-amber-400">in Mississauga &amp; the GTA</span>
+            <span className="accent-serif text-sheen-once text-amber-400">in the Greater Toronto Area</span>
           </h1>
 
           {/* Subhead — pesticide advertising rules (Health Canada DIR2016-01) bar "Health Canada approved",
               blanket safety claims and untested protection periods, so this states only what the business
               can show: the licence, label-directed application, and the owner-confirmed response line. */}
           <p className="mt-6 max-w-xl text-lg font-light leading-relaxed text-white/90">
-            Professional mosquito &amp; tick barrier spray for Mississauga &amp; GTA backyards, applied by an
-            Ontario-licensed operator according to product label directions. {PROMISES.response}
+            Professional mosquito &amp; tick barrier spray for backyards across the GTA, from our Mississauga-based
+            team, applied by an Ontario-licensed operator according to product label directions. {PROMISES.response}
           </p>
 
           {/* CTAs */}

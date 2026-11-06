@@ -1,0 +1,15 @@
+{
+ "id": "roach-droppings-vs-mouse-droppings",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "4144fab04f7ca480a2716e598cf3a1be0caad10d9104f82d284cb1ebd416ab80",
+ "claimsChecked": 290,
+ "claimsCorrected": 12,
+ "claimsRemovedOrSoftened": 2,
+ "checkedOn": "2026-11-05",
+ "released": {
+  "on": "2026-11-06",
+  "scheduledFor": "2026-11-06",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

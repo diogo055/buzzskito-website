@@ -567,6 +567,11 @@
 - `/blog/best-bed-bug-mattress-cover` — bed bug mattress cover
 - `/blog/best-mosquito-repellent` — mosquito repellent
 - `/blog/best-bug-zapper` — bug zapper
+- `/blog/little-black-ants` — little black ants
+- `/blog/roach-droppings-vs-mouse-droppings` — roach droppings vs mouse droppings
+- `/blog/christmas-tree-bugs` — christmas tree bugs
+- `/blog/best-bed-bug-interceptors` — bed bug interceptors
+- `/blog/best-wasp-spray` — wasp spray
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

@@ -38,6 +38,8 @@
 
 - `/blog/best-cockroach-gel-bait` — **cockroach gel bait** (also: roach gel bait; best roach gel; advion cockroach gel bait; advion roach gel; how to use roach gel bait; cockroach bait). US edition of /blog/advion-cockroach-gel-bait, written fresh for US shoppers: US products and EPA registration (never Canadian PCP numbers or Canadian retailers), US spelling, no prices or star ratings. A buying guide: a short answer naming the best product types first; a "picks" block of 3-6 picks, each a product the text itself recommends with a one-line reason; a comparison table; how to choose; how to use it safely (label is the law); what it will not do; when to call a professional; 8-10 FAQs; sources (EPA, university extension, manufacturer labels). No testing claims: we did not test products. The top pick also goes in lib/amazon-us-picks.json.
 
+- `/blog/roach-droppings-vs-mouse-droppings` — **roach droppings vs mouse droppings** (also: mouse droppings vs cockroach droppings; cockroach poop vs mouse poop; what do roach droppings look like; mouse droppings or roach droppings). Side by side, with real photos: size (roach specks and smears vs rice-grain mouse pellets), shape and ends, where each turns up (hinges and corners vs along walls and in drawers), smell, how many, what else to look for (shed skins and egg cases vs gnaw marks and nests), why it matters (hantavirus cleanup rules for mouse droppings; allergens for roach droppings), and safe cleanup for each (CDC: wet, do not sweep or vacuum mouse droppings).
+
 ## Pillars (hub pages)
 
 - `/learn/bed-bugs` — the complete bed bugs reference
@@ -487,6 +489,10 @@
 - `/blog/best-bed-bug-mattress-cover` — bed bug mattress cover
 - `/blog/best-mosquito-repellent` — mosquito repellent
 - `/blog/best-bug-zapper` — bug zapper
+- `/blog/little-black-ants` — little black ants
+- `/blog/christmas-tree-bugs` — christmas tree bugs
+- `/blog/best-bed-bug-interceptors` — bed bug interceptors
+- `/blog/best-wasp-spray` — wasp spray
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

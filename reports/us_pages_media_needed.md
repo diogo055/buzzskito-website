@@ -1,6 +1,6 @@
 # Photos and diagrams the new guides still need
 
-556 images across 225 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
+557 images across 226 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
 
 ## /learn/bed-bugs
 
@@ -92,6 +92,10 @@
 
 - Close-up of a zippered bed bug mattress encasement being closed on a mattress, showing the zipper pull pushed fully to the end of the track and a fabric flap or guard covering the zipper end (public domain or CC0, no brand logo prominent)
 - A plastic bed bug interceptor cup under the leg of a bed, with the bed pulled a few inches from the wall and no bedding touching the floor (public domain or CC0)
+
+## /blog/best-bed-bug-interceptors
+
+- Plastic double-well bed bug interceptor cup under the leg of a wooden bed frame, the bed pulled a few inches from the wall and no bedding touching the floor (public domain or CC0, no brand logo prominent)
 
 ## /learn/ants
 

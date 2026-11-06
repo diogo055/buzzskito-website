@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-05",
+ "generated": "2026-11-06",
  "summary": {
   "keywords": 100,
-  "newPagesBuilt": 268,
+  "newPagesBuilt": 273,
   "hubPages": 4,
-  "guides": 253,
+  "guides": 258,
   "broadened": 9,
   "mergedIntoExistingPages": 9,
   "mergedIntoNewPages": 9,
   "notBuilt": 191,
-  "internalLinksInNewPages": 3613
+  "internalLinksInNewPages": 3685
  },
  "pages": [
   {
@@ -21,11 +21,11 @@
    "kind": "pillar",
    "cluster": "bed-bugs",
    "title": "Bed Bugs: Identification, Signs and Treatment",
-   "wordCount": 5538,
+   "wordCount": 5553,
    "faqs": 8,
    "sources": 8,
-   "inboundFromNewPages": 20,
-   "outboundInternalLinks": 22,
+   "inboundFromNewPages": 21,
+   "outboundInternalLinks": 23,
    "status": "built"
   },
   {
@@ -40,7 +40,7 @@
    "wordCount": 3402,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -88,7 +88,7 @@
    "wordCount": 2414,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 15,
+   "inboundFromNewPages": 16,
    "outboundInternalLinks": 33,
    "status": "built"
   },
@@ -120,7 +120,7 @@
    "wordCount": 2134,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 17,
    "status": "built"
   },
@@ -136,7 +136,7 @@
    "wordCount": 2896,
    "faqs": 10,
    "sources": 20,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 3,
    "outboundInternalLinks": 6,
    "status": "built"
   },
@@ -149,11 +149,27 @@
    "kind": "spoke",
    "cluster": "bed-bugs",
    "title": "Best Bed Bug Mattress Cover: What to Look For",
-   "wordCount": 2029,
+   "wordCount": 2048,
    "faqs": 10,
    "sources": 12,
+   "inboundFromNewPages": 3,
+   "outboundInternalLinks": 9,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "bed bug interceptors",
+   "us_volume": null,
+   "url": "/blog/best-bed-bug-interceptors",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "bed-bugs",
+   "title": "Best Bed Bug Interceptors (Cups That Work)",
+   "wordCount": 3111,
+   "faqs": 10,
+   "sources": 9,
    "inboundFromNewPages": 2,
-   "outboundInternalLinks": 8,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {
@@ -168,7 +184,7 @@
    "wordCount": 6281,
    "faqs": 9,
    "sources": 9,
-   "inboundFromNewPages": 27,
+   "inboundFromNewPages": 28,
    "outboundInternalLinks": 35,
    "status": "built"
   },
@@ -216,7 +232,7 @@
    "wordCount": 2515,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 3,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -232,8 +248,24 @@
    "wordCount": 3208,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 3,
    "outboundInternalLinks": 16,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "little black ants",
+   "us_volume": null,
+   "url": "/blog/little-black-ants",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ants",
+   "title": "Little Black Ants: ID and How to Get Rid of Them",
+   "wordCount": 2599,
+   "faqs": 10,
+   "sources": 10,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 13,
    "status": "built"
   },
   {
@@ -296,7 +328,7 @@
    "wordCount": 2214,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 18,
+   "inboundFromNewPages": 19,
    "outboundInternalLinks": 17,
    "status": "built"
   },
@@ -309,11 +341,11 @@
    "kind": "spoke",
    "cluster": "mice",
    "title": "Mouse Poop: What Mouse Droppings Look Like",
-   "wordCount": 2098,
+   "wordCount": 2109,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 17,
-   "outboundInternalLinks": 19,
+   "inboundFromNewPages": 18,
+   "outboundInternalLinks": 20,
    "status": "built"
   },
   {
@@ -324,11 +356,11 @@
    "action": "new",
    "kind": "spoke",
    "cluster": "mice",
-   "title": "Mouse Urine: Stains, Smell and UV Glow",
+   "title": "Mouse Urine (Pee): What It Smells and Looks Like",
    "wordCount": 2095,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 15,
    "status": "built"
   },
@@ -344,7 +376,7 @@
    "wordCount": 2457,
    "faqs": 10,
    "sources": 20,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 25,
    "status": "built"
   },
@@ -456,7 +488,7 @@
    "wordCount": 5417,
    "faqs": 10,
    "sources": 10,
-   "inboundFromNewPages": 24,
+   "inboundFromNewPages": 25,
    "outboundInternalLinks": 26,
    "status": "built"
   },
@@ -488,7 +520,7 @@
    "wordCount": 2639,
    "faqs": 6,
    "sources": 13,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -501,11 +533,11 @@
    "kind": "spoke",
    "cluster": "cockroaches",
    "title": "Cockroach Poop: ID Roach Droppings (Photos)",
-   "wordCount": 1771,
+   "wordCount": 1784,
    "faqs": 10,
    "sources": 19,
-   "inboundFromNewPages": 16,
-   "outboundInternalLinks": 18,
+   "inboundFromNewPages": 17,
+   "outboundInternalLinks": 19,
    "status": "built"
   },
   {
@@ -520,7 +552,7 @@
    "wordCount": 3136,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 18,
    "status": "built"
   },
@@ -536,7 +568,7 @@
    "wordCount": 2371,
    "faqs": 10,
    "sources": 19,
-   "inboundFromNewPages": 12,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 19,
    "status": "built"
   },
@@ -548,7 +580,7 @@
    "action": "new",
    "kind": "spoke",
    "cluster": "cockroaches",
-   "title": "Oriental Cockroach: The Big Black Roach (Photos)",
+   "title": "Big Black Cockroach? Likely an Oriental Roach",
    "wordCount": 2203,
    "faqs": 10,
    "sources": 11,
@@ -618,6 +650,22 @@
    "sources": 20,
    "inboundFromNewPages": 2,
    "outboundInternalLinks": 5,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "roach droppings vs mouse droppings",
+   "us_volume": null,
+   "url": "/blog/roach-droppings-vs-mouse-droppings",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "cockroaches",
+   "title": "Roach Droppings vs Mouse Droppings (Photos)",
+   "wordCount": 2084,
+   "faqs": 10,
+   "sources": 12,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 16,
    "status": "built"
   },
   {
@@ -1416,7 +1464,7 @@
    "wordCount": 3581,
    "faqs": 6,
    "sources": 17,
-   "inboundFromNewPages": 20,
+   "inboundFromNewPages": 21,
    "outboundInternalLinks": 19,
    "status": "built"
   },
@@ -1605,11 +1653,11 @@
    "kind": "spoke",
    "cluster": "spiders",
    "title": "Spider Egg Sacs: Which Spider Made It? (Photos)",
-   "wordCount": 2268,
+   "wordCount": 2284,
    "faqs": 5,
    "sources": 15,
-   "inboundFromNewPages": 18,
-   "outboundInternalLinks": 14,
+   "inboundFromNewPages": 19,
+   "outboundInternalLinks": 15,
    "status": "built"
   },
   {
@@ -1653,10 +1701,10 @@
    "kind": "spoke",
    "cluster": "wasps",
    "title": "Yellow Jackets: ID, Ground Nests, Behavior",
-   "wordCount": 2784,
+   "wordCount": 2783,
    "faqs": 10,
    "sources": 19,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 20,
    "status": "built"
   },
@@ -1672,7 +1720,7 @@
    "wordCount": 2546,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 20,
    "status": "built"
   },
@@ -1685,11 +1733,11 @@
    "kind": "spoke",
    "cluster": "wasps",
    "title": "Paper Wasps: ID, Nests and Stings (Photos)",
-   "wordCount": 2330,
+   "wordCount": 2345,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 8,
-   "outboundInternalLinks": 10,
+   "inboundFromNewPages": 9,
+   "outboundInternalLinks": 11,
    "status": "built"
   },
   {
@@ -1704,7 +1752,7 @@
    "wordCount": 2358,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 15,
    "status": "built"
   },
@@ -1752,8 +1800,24 @@
    "wordCount": 2760,
    "faqs": 10,
    "sources": 19,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 17,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "wasp spray",
+   "us_volume": null,
+   "url": "/blog/best-wasp-spray",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "wasps",
+   "title": "Best Wasp Spray: Jet vs Foam for Nests",
+   "wordCount": 3509,
+   "faqs": 10,
+   "sources": 18,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {
@@ -2232,7 +2296,7 @@
    "wordCount": 1789,
    "faqs": 10,
    "sources": 12,
-   "inboundFromNewPages": 12,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -2312,7 +2376,7 @@
    "wordCount": 3047,
    "faqs": 5,
    "sources": 15,
-   "inboundFromNewPages": 22,
+   "inboundFromNewPages": 23,
    "outboundInternalLinks": 27,
    "status": "built"
   },
@@ -2468,7 +2532,7 @@
    "action": "new",
    "kind": "spoke",
    "cluster": "household",
-   "title": "Flea Dirt: What It Looks Like and How to Test It",
+   "title": "Flea Dirt (Flea Poop): What It Looks Like & Test",
    "wordCount": 2216,
    "faqs": 9,
    "sources": 18,
@@ -2728,7 +2792,7 @@
    "wordCount": 2553,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 2,
    "outboundInternalLinks": 20,
    "status": "built"
   },
@@ -2746,6 +2810,22 @@
    "sources": 18,
    "inboundFromNewPages": 1,
    "outboundInternalLinks": 8,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "christmas tree bugs",
+   "us_volume": null,
+   "url": "/blog/christmas-tree-bugs",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Christmas Tree Bugs: What They Are (Photos)",
+   "wordCount": 2565,
+   "faqs": 9,
+   "sources": 15,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 11,
    "status": "built"
   },
   {
@@ -2808,7 +2888,7 @@
    "wordCount": 1800,
    "faqs": 9,
    "sources": 18,
-   "inboundFromNewPages": 18,
+   "inboundFromNewPages": 19,
    "outboundInternalLinks": 20,
    "status": "built"
   },
@@ -3032,7 +3112,7 @@
    "wordCount": 4836,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -3096,7 +3176,7 @@
    "wordCount": 2436,
    "faqs": 10,
    "sources": 15,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 6,
    "status": "built"
   },
@@ -4489,7 +4569,7 @@
    "wordCount": 3683,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 24,
+   "inboundFromNewPages": 25,
    "outboundInternalLinks": 15,
    "status": "built"
   },
@@ -4505,7 +4585,7 @@
    "wordCount": 2530,
    "faqs": 9,
    "sources": 7,
-   "inboundFromNewPages": 33,
+   "inboundFromNewPages": 34,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -4555,7 +4635,7 @@
    "wordCount": 3109,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 12,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -4611,7 +4691,7 @@
    "wordCount": 3325,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 19,
+   "inboundFromNewPages": 20,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -4627,7 +4707,7 @@
    "wordCount": 2866,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -4659,7 +4739,7 @@
    "wordCount": 5382,
    "faqs": 8,
    "sources": 8,
-   "inboundFromNewPages": 42,
+   "inboundFromNewPages": 43,
    "outboundInternalLinks": 42,
    "status": "built"
   },
@@ -4691,7 +4771,7 @@
    "wordCount": 2334,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 16,
+   "inboundFromNewPages": 17,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -4709,7 +4789,7 @@
    "wordCount": 3109,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 12,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -4751,7 +4831,7 @@
    "wordCount": 3206,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 24,
+   "inboundFromNewPages": 25,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -4928,11 +5008,11 @@
    "kind": "spoke",
    "cluster": "ants",
    "title": "Black Ants: Tell Carpenter Ants from the Rest",
-   "wordCount": 2673,
+   "wordCount": 2682,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 12,
-   "outboundInternalLinks": 12,
+   "inboundFromNewPages": 13,
+   "outboundInternalLinks": 13,
    "status": "built"
   },
   {
@@ -4965,7 +5045,7 @@
    "wordCount": 3683,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 24,
+   "inboundFromNewPages": 25,
    "outboundInternalLinks": 15,
    "status": "built"
   },
@@ -5029,7 +5109,7 @@
    "wordCount": 2772,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 26,
+   "inboundFromNewPages": 27,
    "outboundInternalLinks": 21,
    "status": "built"
   },
@@ -5131,7 +5211,7 @@
    "wordCount": 3056,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 22,
+   "inboundFromNewPages": 23,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -5163,7 +5243,7 @@
    "wordCount": 3056,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 22,
+   "inboundFromNewPages": 23,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -5195,7 +5275,7 @@
    "wordCount": 3263,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 28,
+   "inboundFromNewPages": 29,
    "outboundInternalLinks": 16,
    "status": "built"
   },
@@ -5431,7 +5511,7 @@
    "wordCount": 2866,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -5444,11 +5524,11 @@
    "kind": "spoke",
    "cluster": "ants",
    "title": "Tiny Ants: Identify Them by Color, Size, Smell",
-   "wordCount": 2516,
+   "wordCount": 2525,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 17,
-   "outboundInternalLinks": 13,
+   "inboundFromNewPages": 18,
+   "outboundInternalLinks": 14,
    "status": "built"
   },
   {
@@ -5505,7 +5585,7 @@
    "wordCount": 3298,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 13,
+   "inboundFromNewPages": 14,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -5601,7 +5681,7 @@
    "wordCount": 3380,
    "faqs": 10,
    "sources": 10,
-   "inboundFromNewPages": 16,
+   "inboundFromNewPages": 17,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -5617,7 +5697,7 @@
    "wordCount": 3099,
    "faqs": 6,
    "sources": 5,
-   "inboundFromNewPages": 16,
+   "inboundFromNewPages": 17,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -5695,7 +5775,7 @@
    "action": "new",
    "kind": "spoke",
    "cluster": "mosquitoes",
-   "title": "Alaska Mosquitoes: Why So Many, When They Peak",
+   "title": "Alaskan Mosquitoes: Size, Species & Why So Many",
    "wordCount": 2623,
    "faqs": 5,
    "sources": 6,
@@ -5751,7 +5831,7 @@
    "action": "new",
    "kind": "spoke",
    "cluster": "ants",
-   "title": "Bullet Ants: The Sting That Tops the Pain Scale",
+   "title": "Bullet Ants: Can the Sting Kill You? Pain Scale",
    "wordCount": 2401,
    "faqs": 6,
    "sources": 6,
@@ -5805,7 +5885,7 @@
    "action": "new",
    "kind": "spoke",
    "cluster": "mice",
-   "title": "Baby Mice: Pup Stages and What a Nest Means",
+   "title": "What Are Baby Mice Called? Pups, Stages & Nests",
    "wordCount": 2293,
    "faqs": 5,
    "sources": 6,

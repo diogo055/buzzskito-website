@@ -2,7 +2,7 @@
  "id": "cockroach-droppings",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "a1bd32ed747097194e38b6833cd50a532f6e333da573386541598e3e95cd52f0",
+ "sha": "58b4df850167a877adebdb56db2969bc4b6ecc8c372074c7fc708e4101461260",
  "claimsChecked": 380,
  "claimsCorrected": 5,
  "claimsRemovedOrSoftened": 4,
@@ -22,6 +22,11 @@
    "on": "2026-10-21",
    "note": "Oct 21, 2026 link-in (cockroaches): one sentence added after the paragraph in 'How much roach poop means a big infestation?' linking /blog/signs-of-cockroaches; no fact changed.",
    "previousSha": "94c71cfe3a5c6b3d026e9283fcd9f648fcae4ae6323c2e892d9a813349a92086"
+  },
+  {
+   "on": "2026-11-06",
+   "note": "Nov 6, 2026 release: one sentence with a link to a new guide added (link-in for the release gate); no fact changed",
+   "previousSha": "a1bd32ed747097194e38b6833cd50a532f6e333da573386541598e3e95cd52f0"
   }
  ]
 }

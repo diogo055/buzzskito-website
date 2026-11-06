@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { withRegionalAlternates } from '@/lib/guides'
 import BuyLink from '@/components/BuyLink'
 import AmazonLink from '@/components/AmazonLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -121,14 +122,14 @@ const FAQS = [
   },
 ]
 
-export const metadata: Metadata = buildMetadata({
+export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   title: META_TITLE,
   description: 'Best wasp spray in Canada: Raid Wasp & Hornet Bug Killer 7, a jet rated to 5.7 m. Foam vs jet, what each label allows, ground and wall nests, dusk timing.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
-})
+}), '/blog/best-wasp-nest-spray-canada')
 
 const AMZ_TAG = tagForSlug('best-wasp-nest-spray-canada')
 
@@ -327,6 +328,8 @@ export default function BestWaspNestSprayCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
+          {/* Regional edition link (Oct 2026): this page is the Canadian edition; see REGIONAL_PAIRS in lib/guides.ts */}
+          <p className="not-prose mb-6 rounded-lg border border-navy-100 bg-brand-50 px-4 py-2.5 text-sm text-gray-700">Reading from the United States? Product rules and what is sold there differ. <Link href="/blog/best-wasp-spray" className="font-semibold text-brand-700 underline">See the US edition</Link>.</p>
 
           <h2>What Makes a Wasp Spray Legal in Canada? (Start Here)</h2>
           <p>Before comparing foam patterns and jet distances, the question almost nobody asks: is the can in your hand legal to use in Canada at all? Every pesticide sold for home use here must be registered with Health Canada&rsquo;s <strong>Pest Management Regulatory Agency (PMRA)</strong> and must display a <strong>PCP registration number</strong> on the label &mdash; usually a five-digit number after &ldquo;Registration No.&rdquo; That number means the exact formulation and its label directions were reviewed for Canadian use, and it makes the label legally binding: the directions on a Canadian can are not suggestions, they are the law of how the product may be applied.</p>

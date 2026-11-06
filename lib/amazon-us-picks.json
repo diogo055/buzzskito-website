@@ -1472,6 +1472,18 @@
       "name": "Indoor UV fly light trap with glue board",
       "search": "uv fly light trap glue board",
       "basis": "Quick answer: for flies indoors, a UV light trap with a glue board is the better choice (Texas A&M); outdoors, zappers kill few mosquitoes (UC IPM, Frick & Tallamy). Generic type only."
+    },
+    "best-bed-bug-interceptors": {
+      "label": "Best bed bug interceptor",
+      "name": "Bed bug interceptor cups",
+      "search": "bed bug interceptors",
+      "basis": "Quick answer: 'The best bed bug interceptor is a pitfall cup with a rough outside wall and a slick inside wall, set under every leg of each bed and couch, with the bed pulled away from the wall' (Rutgers FS1117: pitfall-style traps are the most cost-effective bed bug monitors). Generic type only, no brand."
+    },
+    "best-wasp-spray": {
+      "label": "Best wasp spray for most nests",
+      "name": "Wasp and hornet jet spray",
+      "search": "wasp and hornet jet spray",
+      "basis": "Quick answer: 'For most wasp and hornet nests, the best wasp spray is an aerosol labeled for nests that shoots a long jet stream, sprayed at dusk from a safe distance on the ground' (UC IPM: use an insecticide that shoots a long stream into the nest entrance and is labeled for yellowjacket nests). Generic pesticide type the page names and recommends; no brand."
     }
   }
 }

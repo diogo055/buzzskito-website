@@ -17,7 +17,7 @@ import { buildMetadata, localBusinessSchema, faqSchema, speakableSchema } from '
 import { BUSINESS, CITIES, MOSQUITO_BLOGS, TICK_BLOGS, PRICING, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito & Tick Control in Mississauga & the GTA | From $99 | BuzzSkito',
+  title: 'Mosquito & Tick Control | Greater Toronto Area | From $99',
   description:
     "GTA mosquito + tick specialist with a perfect 5.0★ rating (150+ reviews, zero negative). From $99/treatment, no contracts, rain-back guarantee. Same-week service across Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton + 13 more cities. Call (289) 216-5030.",
   canonical: '/',

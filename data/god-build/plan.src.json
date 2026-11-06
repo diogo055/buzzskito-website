@@ -18677,6 +18677,254 @@
    "family": "us-buying",
    "priority": 1,
    "releaseOn": "2026-11-05"
+  },
+  {
+   "section": "blog",
+   "role": "page",
+   "minExisting": 2,
+   "mustLink": [
+    "/learn/ants",
+    "/blog/black-ants",
+    "/blog/tiny-ants"
+   ],
+   "neighbors": [],
+   "minNeighbors": 0,
+   "slug": "little-black-ants",
+   "cluster": "ants",
+   "keyword": "little black ants",
+   "alsoTargets": [
+    "little black ant",
+    "tiny black ants in house",
+    "little black ants in kitchen",
+    "how to get rid of little black ants"
+   ],
+   "h1Hint": "Little Black Ants: How to Identify Them and Get Them Out",
+   "metaTitleHint": "Little Black Ants: ID and How to Get Rid of Them",
+   "scope": "Monomorium minimum: size (about 1/16 inch), shiny black, two-node waist, many queens per colony, nests in soil, under stones and in wall voids, trails indoors in spring and summer, what bait they take, how to tell them from odorous house ants, pavement ants, carpenter ants and other small black ants, and the bait-then-seal plan.",
+   "pageType": "entity-id",
+   "flags": [],
+   "minWords": 1500,
+   "parent": {
+    "href": "/learn/ants",
+    "name": "Ants"
+   },
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/black-ants",
+     "overlap": "\"little black ants\" shows there now (24 impressions at 6.9)",
+     "resolution": "black-ants keeps the general \"black ants in house\" searches; this page owns the Monomorium minimum species searches; link both ways"
+    },
+    {
+     "path": "/blog/tiny-ants",
+     "overlap": "small-ant identification",
+     "resolution": "link both ways; tiny-ants keeps the by-color/by-size key"
+    },
+    {
+     "path": "/blog/best-ant-bait",
+     "overlap": "bait buying",
+     "resolution": "link for the buying step; no picks block here"
+    }
+   ],
+   "family": "species",
+   "priority": 1,
+   "releaseOn": "2026-11-06"
+  },
+  {
+   "section": "blog",
+   "role": "page",
+   "minExisting": 2,
+   "mustLink": [
+    "/blog/cockroach-droppings",
+    "/blog/mouse-poop"
+   ],
+   "neighbors": [],
+   "minNeighbors": 0,
+   "slug": "roach-droppings-vs-mouse-droppings",
+   "cluster": "cockroaches",
+   "keyword": "roach droppings vs mouse droppings",
+   "alsoTargets": [
+    "mouse droppings vs cockroach droppings",
+    "cockroach poop vs mouse poop",
+    "what do roach droppings look like",
+    "mouse droppings or roach droppings"
+   ],
+   "h1Hint": "Roach Droppings vs Mouse Droppings: How to Tell Them Apart",
+   "metaTitleHint": "Roach vs Mouse Droppings: How to Tell Them Apart",
+   "scope": "Side by side, with real photos: size (roach specks and smears vs rice-grain mouse pellets), shape and ends, where each turns up (hinges and corners vs along walls and in drawers), smell, how many, what else to look for (shed skins and egg cases vs gnaw marks and nests), why it matters (hantavirus cleanup rules for mouse droppings; allergens for roach droppings), and safe cleanup for each (CDC: wet, do not sweep or vacuum mouse droppings).",
+   "pageType": "vs",
+   "flags": [],
+   "minWords": 1400,
+   "parent": {
+    "href": "/learn/cockroaches",
+    "name": "Cockroaches"
+   },
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/cockroach-droppings",
+     "overlap": "roach droppings identification (about 250 impressions Aug-Nov)",
+     "resolution": "it keeps the roach-only searches; this page owns the side-by-side; link both ways"
+    },
+    {
+     "path": "/blog/mouse-poop",
+     "overlap": "mouse droppings identification",
+     "resolution": "it keeps the mouse-only searches; link both ways"
+    },
+    {
+     "path": "/blog/rat-droppings and /blog/animal-droppings",
+     "overlap": "other droppings",
+     "resolution": "link from a look-alike card; no rat vs mouse section beyond a line"
+    }
+   ],
+   "family": "droppings",
+   "priority": 1,
+   "releaseOn": "2026-11-06"
+  },
+  {
+   "section": "blog",
+   "role": "page",
+   "minExisting": 2,
+   "mustLink": [],
+   "neighbors": [],
+   "minNeighbors": 0,
+   "slug": "christmas-tree-bugs",
+   "cluster": "household",
+   "keyword": "christmas tree bugs",
+   "alsoTargets": [
+    "bugs in christmas tree",
+    "christmas tree aphids",
+    "tiny bugs in christmas tree",
+    "christmas tree mites",
+    "praying mantis egg case on christmas tree"
+   ],
+   "h1Hint": "Bugs in Your Christmas Tree: What They Are and What to Do",
+   "metaTitleHint": "Christmas Tree Bugs: What They Are, What to Do",
+   "scope": "The insects and mites that ride in on a real Christmas tree (conifer aphids such as Cinara, adelgids, bark beetles, spider mites, psocids, spiders and praying mantis egg cases): what each looks like, why they appear after a few days of indoor warmth, that they do not infest the house or bite, how to inspect and shake the tree outdoors before bringing it in, and what not to do (no aerosol insecticide on a tree indoors: label and fire risk). Extension sources (e.g. Penn State, NC State, University of Illinois). Real photos only; scout new ones first.",
+   "pageType": "entity-id",
+   "flags": [],
+   "minWords": 1300,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/aphids and /learn/aphid-control-guide (if present)",
+     "overlap": "aphids in general",
+     "resolution": "this page covers only the conifer species that ride in on a cut tree; link where a sentence needs it"
+    }
+   ],
+   "family": "seasonal",
+   "priority": 1,
+   "releaseOn": "2026-11-06"
+  },
+  {
+   "section": "blog",
+   "role": "page",
+   "minExisting": 2,
+   "mustLink": [
+    "/learn/bed-bugs"
+   ],
+   "neighbors": [],
+   "minNeighbors": 0,
+   "slug": "best-bed-bug-interceptors",
+   "cluster": "bed-bugs",
+   "keyword": "bed bug interceptors",
+   "alsoTargets": [
+    "bed bug interceptor cups",
+    "best bed bug interceptors",
+    "do bed bug interceptors work",
+    "bed bug traps",
+    "bed bug monitors"
+   ],
+   "h1Hint": "Best Bed Bug Interceptors: How Interceptor Cups Catch Bed Bugs",
+   "metaTitleHint": "Best Bed Bug Interceptors (Cups That Work)",
+   "scope": "US edition of /blog/bed-bug-interceptor-traps-canada, written fresh for US shoppers: US products and EPA registration (never Canadian PCP numbers or Canadian retailers), US spelling, no prices or star ratings. A buying guide: a short answer naming the best product types first; a \"picks\" block of 3-6 picks, each a product the text itself recommends with a one-line reason; a comparison table; how to choose; how to use it safely (label is the law); what it will not do; when to call a professional; 8-10 FAQs; sources (EPA, CDC, university extension, manufacturer labels). No testing claims: we did not test products. The top pick also goes in lib/amazon-us-picks.json.",
+   "pageType": "buying",
+   "flags": [
+    "amazon-com-buying"
+   ],
+   "minWords": 1800,
+   "parent": {
+    "href": "/learn/bed-bugs",
+    "name": "Bed Bugs"
+   },
+   "pairWith": "/blog/bed-bug-interceptor-traps-canada",
+   "collisions": [
+    {
+     "path": "/blog/bed-bug-interceptor-traps-canada",
+     "overlap": "the Canadian page (TSX, amazon.ca)",
+     "resolution": "regional pair: add { us: '/blog/best-bed-bug-interceptors', ca: '/blog/bed-bug-interceptor-traps-canada' } to REGIONAL_PAIRS at release and wrap that page's metadata in withRegionalAlternates; its affiliate tokens must not change"
+    },
+    {
+     "path": "/blog/best-bed-bug-trap-canada and /blog/best-bed-bug-detector-canada",
+     "overlap": "Canadian trap and detector pages",
+     "resolution": "they keep their searches; do not link Canadian product pages in the text"
+    },
+    {
+     "path": "/blog/best-bed-bug-mattress-cover",
+     "overlap": "its short interceptor section",
+     "resolution": "it keeps a short section; this page owns the interceptor buying searches; link both ways"
+    }
+   ],
+   "family": "us-buying",
+   "priority": 1,
+   "releaseOn": "2026-11-06"
+  },
+  {
+   "section": "blog",
+   "role": "page",
+   "minExisting": 2,
+   "mustLink": [
+    "/blog/yellow-jackets"
+   ],
+   "neighbors": [],
+   "minNeighbors": 0,
+   "slug": "best-wasp-spray",
+   "cluster": "wasps",
+   "keyword": "wasp spray",
+   "alsoTargets": [
+    "best wasp spray",
+    "wasp and hornet spray",
+    "wasp foam spray",
+    "best wasp spray for nests",
+    "wasp spray vs foam"
+   ],
+   "h1Hint": "Best Wasp Spray: Jet vs Foam Sprays for Wasp and Hornet Nests",
+   "metaTitleHint": "Best Wasp Spray: Jet vs Foam for Nests",
+   "scope": "US edition of /blog/best-wasp-nest-spray-canada, written fresh for US shoppers: US products and EPA registration (never Canadian PCP numbers or Canadian retailers), US spelling, no prices or star ratings. A buying guide: a short answer naming the best product types first; a \"picks\" block of 3-6 picks, each a product the text itself recommends with a one-line reason; a comparison table; how to choose; how to use it safely (label is the law); what it will not do; when to call a professional; 8-10 FAQs; sources (EPA, CDC, university extension, manufacturer labels). No testing claims: we did not test products. The top pick also goes in lib/amazon-us-picks.json.",
+   "pageType": "buying",
+   "flags": [
+    "amazon-com-buying"
+   ],
+   "minWords": 1800,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "pairWith": "/blog/best-wasp-nest-spray-canada",
+   "collisions": [
+    {
+     "path": "/blog/best-wasp-nest-spray-canada",
+     "overlap": "the Canadian page (TSX, amazon.ca)",
+     "resolution": "regional pair: add { us: '/blog/best-wasp-spray', ca: '/blog/best-wasp-nest-spray-canada' } to REGIONAL_PAIRS at release and wrap that page's metadata in withRegionalAlternates; its affiliate tokens must not change"
+    },
+    {
+     "path": "/blog/how-to-get-rid-of-ground-wasps-canada",
+     "overlap": "ground nests (dust)",
+     "resolution": "Canadian; do not link it in the text"
+    },
+    {
+     "path": "/blog/yellow-jackets",
+     "overlap": "yellow jacket identification (US)",
+     "resolution": "link it for identification; this page owns the spray buying searches"
+    }
+   ],
+   "family": "us-buying",
+   "priority": 1,
+   "releaseOn": "2026-11-06"
   }
  ]
 }

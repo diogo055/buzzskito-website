@@ -1,0 +1,15 @@
+{
+ "id": "best-wasp-spray",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "b1f83daadf747301e70a26ac80db91291696e5d5297250e81ebe6c2cb468a1e1",
+ "claimsChecked": 271,
+ "claimsCorrected": 34,
+ "claimsRemovedOrSoftened": 1,
+ "checkedOn": "2026-11-05",
+ "released": {
+  "on": "2026-11-06",
+  "scheduledFor": "2026-11-06",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}
