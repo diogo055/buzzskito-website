@@ -5,7 +5,7 @@ Owner, Oct 29, 2026: "request indexing on the most important ones... every day a
 ## Rules
 
 - **Daily limit:** Search Console allows about 10-12 requests a day, so do the top 10-12 not-yet-done URLs each day.
-- **Skip pages already indexed.** Check each URL first with the URL Inspection API: `scratchpad gsc/inspect_urls.py`, or Search Console's inspection box. Mark them "indexed".
+- **Skip pages already indexed**, except lines marked `recrawl` (merged or upgraded pages that Google should re-read). Check each URL first with the URL Inspection API: `scratchpad gsc/inspect_urls.py`, or Search Console's inspection box. Mark them "indexed".
 - **Order:** most important first. That means the biggest search demand (god list Trends volume), new pages before old, and bite and identification pages first.
 - **After every run:** add new releases at the right priority, and mark each line `requested YYYY-MM-DD` or `indexed`.
 
@@ -15,7 +15,7 @@ Use the owner's Chrome (Claude in Chrome), signed in to Search Console:
 
 1. Open https://search.google.com/search-console?resource_id=sc-domain%3Abuzzskito.ca.
 2. Paste the full URL into the top "Inspect any URL" box and press Enter. Wait for the result.
-3. If it says "URL is on Google", mark the line `indexed` and move on.
+3. If it says "URL is on Google", mark the line `indexed` and move on. **A line marked `recrawl` is the exception:** request indexing anyway, so Google re-reads the new version, and mark it `recrawl requested YYYY-MM-DD`.
 4. Otherwise click **Request indexing**: the newest matching button on the page. Wait about 40 seconds for the live test.
 5. When "Indexing requested" shows, click **Dismiss**.
 6. If you see "Quota exceeded" or "Oops! Something went wrong" twice, stop for the day.
@@ -26,11 +26,11 @@ Never change any Search Console setting, and never remove or submit sitemaps.
 
 Rebuilt Nov 3, 2026 (evening) from a URL Inspection API check of all 738 sitemap URLs: 720 are on Google, these 18 are not (`research_notes/God plan 10k a day/index_status.md`). All 18 were fetched live the same evening: 200, `index, follow`, self-canonical. The 50 location pages that are noindex on purpose are out of the sitemap and not listed.
 
-**The quota is a rolling 24 hours, not a calendar day** (measured Nov 5, 2026): the 9 requests made at 9:28 pm Toronto on Nov 4 left room for only one more at 9:40 am on Nov 5, then "Quota exceeded". So request at about the same time each day; the next window after a late-evening batch opens about 24 hours later. Second reading, 9:31-9:55 pm Toronto on Nov 5: 11 requests went through and the 12th got "Quota exceeded" (12 in 24 hours with the 9:40 am one), so plan on 10-12.
+**The quota is a rolling 24 hours, not a calendar day** (measured Nov 5, 2026): the 9 requests made at 9:28 pm Toronto on Nov 4 left room for only one more at 9:40 am on Nov 5, then "Quota exceeded". So request at about the same time each day; the next window after a late-evening batch opens about 24 hours later. Second reading, 9:31-9:47 pm Toronto on Nov 5: 11 requests went through and the 12th got "Quota exceeded" (12 in 24 hours with the 9:40 am one), so plan on 10-12.
 
-**Next run: about 9:30 pm Toronto on Nov 6.** First anything released on Nov 6-7, then the two merge survivors still open below (Mosquito Bits vs Dunks, Cimexa), then the upgraded pages (`/blog/mice-traps` and the others under Nov 5, the two Canadian mouse pages under Nov 4), then lines 12-18.
+**Next run: from about 9:50 pm Toronto on Nov 6**, when the Nov 5 evening batch has aged out: by hand if we are working then, otherwise the 9:10 am run on Nov 7. The 9:10 am run on Nov 6 will most likely get "Quota exceeded" at its first request (12 requests are still inside the 24 hours); that is expected, so it stops there. Order: first anything released on Nov 6-7, then the two merge survivors still open below (Mosquito Bits vs Dunks, Cimexa), then the upgraded pages (`/blog/mice-traps` and the others under Nov 5, the two Canadian mouse pages under Nov 4), then lines 12-18.
 
-Released Nov 6, 2026 (just after 7 pm Toronto on Nov 5), plus the homepage's new title. All requested at 9:31-9:55 pm Toronto on Nov 5; the five new pages were "unknown to Google" before the request:
+Released Nov 6, 2026 (just after 7 pm Toronto on Nov 5), plus the homepage's new title. All requested at 9:31-9:47 pm Toronto on Nov 5; the five new pages were "unknown to Google" before the request:
 
 - https://buzzskito.ca/ (homepage: new title "Mosquito & Tick Control | Greater Toronto Area | From $99" and H1); recrawl requested 2026-11-06
 - https://buzzskito.ca/blog/little-black-ants (new; ant ID, "little black ants"); requested 2026-11-06
@@ -45,7 +45,9 @@ Nov 5, 2026, second batch (the owner wants it done by hand in his Chrome, not by
 - https://buzzskito.ca/blog/best-ant-bait (new; "ant killer" / "ant bait" / "ant traps" US 10K-100K each); indexed (checked 2026-11-05)
 - https://buzzskito.ca/blog/best-bed-bug-mattress-cover (new; "bed bug mattress cover" US 10K-100K); indexed (checked 2026-11-06)
 - https://buzzskito.ca/blog/best-bug-zapper (new; "bug zapper" US 10K-100K); was "Discovered - currently not indexed"; requested 2026-11-06
-- Merge survivors, so Google sees the folded content and the 301s (all four checked were already on Google, so these are recrawl requests): https://buzzskito.ca/blog/best-large-capacity-dehumidifier-canada (requested 2026-11-06), https://buzzskito.ca/blog/bed-bug-spray-canada (requested 2026-11-06), https://buzzskito.ca/blog/best-cockroach-spray-canada (requested 2026-11-06), https://buzzskito.ca/blog/how-to-get-rid-of-ground-wasps-canada (requested 2026-11-06), https://buzzskito.ca/blog/mosquito-bits-canada-vs-dunks (on Google; "Quota exceeded" on Nov 5, request on Nov 6), https://buzzskito.ca/blog/cimexa-bed-bug-review-canada (not reached; request on Nov 6)
+- Merge survivors, so Google sees the folded content and the 301s (all four checked were already on Google, so these are recrawl requests): https://buzzskito.ca/blog/best-large-capacity-dehumidifier-canada (requested 2026-11-06), https://buzzskito.ca/blog/bed-bug-spray-canada (requested 2026-11-06), https://buzzskito.ca/blog/best-cockroach-spray-canada (requested 2026-11-06), https://buzzskito.ca/blog/how-to-get-rid-of-ground-wasps-canada (requested 2026-11-06)
+- https://buzzskito.ca/blog/mosquito-bits-canada-vs-dunks (merge survivor, `recrawl`; on Google; "Quota exceeded" on Nov 5)
+- https://buzzskito.ca/blog/cimexa-bed-bug-review-canada (merge survivor, `recrawl`; not reached on Nov 5)
 
 Released Nov 5, 2026 (the first US buying guides, amazon.com picks). Request these and the six Nov 4 lines below on Nov 5 (12 in all, about one day's quota):
 
@@ -55,7 +57,7 @@ Released Nov 5, 2026 (the first US buying guides, amazon.com picks). Request the
 - https://buzzskito.ca/blog/best-cockroach-gel-bait (new; "cockroach gel bait" US 10K-100K); requested 2026-11-05)
 - https://buzzskito.ca/blog/best-flea-spray-for-home (new; "flea spray for house" US 10K-100K); requested 2026-11-05)
 - https://buzzskito.ca/blog/raccoon-repellent (new; "raccoon repellent" US 10K-100K); requested 2026-11-05)
-- Upgraded the same night (amazon.com picks block added), lower priority: /blog/mice-traps, /blog/how-to-get-rid-of-bed-bugs, /blog/how-to-get-rid-of-cockroaches, /blog/mice-repellent
+- Upgraded the same night (amazon.com picks block added), lower priority, all `recrawl`: https://buzzskito.ca/blog/mice-traps, https://buzzskito.ca/blog/how-to-get-rid-of-bed-bugs, https://buzzskito.ca/blog/how-to-get-rid-of-cockroaches, https://buzzskito.ca/blog/mice-repellent
 
 Released or upgraded Nov 4, 2026 (God plan "go", day 1). Request these first:
 
@@ -63,8 +65,8 @@ Released or upgraded Nov 4, 2026 (God plan "go", day 1). Request these first:
 - https://buzzskito.ca/blog/voles (new; "vole" ~101K US); requested 2026-11-05)
 - https://buzzskito.ca/blog/lone-star-tick (new; US edition of the Canadian lone star page); requested 2026-11-05)
 - https://buzzskito.ca/tools/bug-bite-identifier (upgraded: title, intro, bite pictures moved up, open FAQ); recrawl requested 2026-11-05)
-- https://buzzskito.ca/blog/mouse-repellent-canada (upgraded: NestOff section, evidence and registry table)
-- https://buzzskito.ca/blog/best-mouse-trap-canada (upgraded: trap-type tables, numbered picks, registration FAQ)
+- https://buzzskito.ca/blog/mouse-repellent-canada (`recrawl`; upgraded: NestOff section, evidence and registry table)
+- https://buzzskito.ca/blog/best-mouse-trap-canada (`recrawl`; upgraded: trap-type tables, numbered picks, registration FAQ)
 
 Released since Oct 1. Bites and stings, identification, droppings and product pages first, by US search demand:
 
