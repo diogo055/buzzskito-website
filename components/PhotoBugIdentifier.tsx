@@ -1,16 +1,34 @@
 'use client'
 
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState, type ReactNode } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { PHOTO_ID_DAILY_LIMIT, PHOTO_ID_MAX_EDGE, type PhotoConfidence, type PhotoIdError, type PhotoIdResult } from '@/lib/photo-id'
 
 /**
- * The photo half of /tools/what-bug-is-this (lib/photo-id.ts explains the switch, the cost and
- * the limits; app/api/identify-bug does the check). The page renders this only while the switch
- * is on. The photo is shrunk in the browser before it is sent, so a 12 MB phone picture travels
- * as a few hundred kilobytes.
+ * The photo half of /tools/what-bug-is-this and, in spider mode, of /tools/spider-identifier
+ * (lib/photo-id.ts explains the switch, the cost and the limits; app/api/identify-bug does the
+ * check). A page renders this only while the switch is on. The photo is shrunk in the browser
+ * before it is sent, so a 12 MB phone picture travels as a few hundred kilobytes.
+ *
+ * Spider mode (Nov 6, 2026): spider wording, the request asks "What kind of spider is this?", and
+ * a creature or sign result shows the page's own sourced safety box (`safety`) instead of the
+ * model's one-line safety note. Bite photos get the red-flag box in both modes.
  */
+
+export type PhotoFocus = 'bug' | 'spider'
+
+const COPY: Record<PhotoFocus, { heading: string; intro: string }> = {
+  bug: {
+    heading: 'Identify it from a photo',
+    intro: 'Take or upload a clear photo of the bug, its droppings or its nest. You get the most likely match in a few seconds, how to confirm it and what to read next.',
+  },
+  spider: {
+    heading: 'Identify the spider from a photo',
+    intro:
+      'Take or upload a clear photo of the spider: from above, and of its face if you can, with a coin beside it for size. Don’t handle it to get the shot. You get the most likely match in a few seconds, how to confirm it and what to read next.',
+  },
+}
 
 type RedFlags = { emergency: { title: string; items: readonly string[] }; doctor: { title: string; items: readonly string[] } }
 
@@ -59,17 +77,18 @@ async function shrink(file: File): Promise<string> {
   }
 }
 
-const MESSAGES: Record<PhotoIdError | 'unreadable', string> = {
-  off: 'The photo check is resting right now. The five questions below work just as well.',
-  resting: 'The photo check is resting right now. The five questions below work just as well.',
-  busy: 'The photo check is busy. Try again in a minute, or use the five questions below.',
-  limit: `That is today’s ${PHOTO_ID_DAILY_LIMIT} photo checks. Come back tomorrow, or use the five questions below.`,
+/** `questions` names the page's own fallback, e.g. "five questions". */
+const messages = (questions: string): Record<PhotoIdError | 'unreadable', string> => ({
+  off: `The photo check is resting right now. The ${questions} below work just as well.`,
+  resting: `The photo check is resting right now. The ${questions} below work just as well.`,
+  busy: `The photo check is busy. Try again in a minute, or use the ${questions} below.`,
+  limit: `That is today’s ${PHOTO_ID_DAILY_LIMIT} photo checks. Come back tomorrow, or use the ${questions} below.`,
   too_big: 'That photo is too large to send. Take a screenshot of it and upload the screenshot.',
   bad_image: 'We could not read that photo. Try a JPG or PNG, or take a screenshot of it and upload that.',
   unreadable: 'We could not open that photo on this device. Try a JPG or PNG, or take a screenshot of it and upload that.',
   origin: 'Something went wrong sending the photo. Reload the page and try again.',
   failed: 'Something went wrong sending the photo. Check your connection and try again.',
-}
+})
 
 const CONFIDENCE: Record<PhotoConfidence, string> = { high: 'Most likely', medium: 'Possibly', low: 'Hard to tell from this photo' }
 
@@ -79,7 +98,20 @@ type State =
   | { kind: 'done'; preview: string; result: PhotoIdResult }
   | { kind: 'error'; preview: string | null; message: string }
 
-export default function PhotoBugIdentifier({ redFlags }: { redFlags: RedFlags }) {
+export default function PhotoBugIdentifier({
+  redFlags,
+  focus = 'bug',
+  questions = 'five questions',
+  safety,
+}: {
+  redFlags: RedFlags
+  focus?: PhotoFocus
+  /** The page's own fallback, as it should read in "Answer the …": "five questions", "seven questions". */
+  questions?: string
+  /** The page's sourced safety box, shown with every creature or sign result in place of the model's safety line. */
+  safety?: ReactNode
+}) {
+  const MESSAGES = messages(questions)
   const [state, setState] = useState<State>({ kind: 'idle' })
   const input = useRef<HTMLInputElement>(null)
   const heading = useRef<HTMLHeadingElement>(null)
@@ -117,7 +149,7 @@ export default function PhotoBugIdentifier({ redFlags }: { redFlags: RedFlags })
       const res = await fetch('/api/identify-bug', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ image }),
+        body: JSON.stringify(focus === 'spider' ? { image, focus } : { image }),
       })
       const json = (await res.json().catch(() => ({}))) as { result?: PhotoIdResult; error?: PhotoIdError }
       if (!res.ok || !json.result) {
@@ -159,8 +191,8 @@ export default function PhotoBugIdentifier({ redFlags }: { redFlags: RedFlags })
       {state.kind === 'idle' && (
         <>
           <p className="text-xs font-extrabold uppercase tracking-widest text-emerald-700">Photo check</p>
-          <h2 id="photo-id-title" className="mt-1 text-2xl font-extrabold leading-tight text-brand-900">Identify it from a photo</h2>
-          <p className="mt-2 text-base text-gray-700">Take or upload a clear photo of the bug, its droppings or its nest. You get the most likely match in a few seconds, how to confirm it and what to read next.</p>
+          <h2 id="photo-id-title" className="mt-1 text-2xl font-extrabold leading-tight text-brand-900">{COPY[focus].heading}</h2>
+          <p className="mt-2 text-base text-gray-700">{COPY[focus].intro}</p>
           <div className="mt-5">{button('Take or choose a photo')}</div>
         </>
       )}
@@ -182,12 +214,14 @@ export default function PhotoBugIdentifier({ redFlags }: { redFlags: RedFlags })
           <p className="mt-2 text-base text-gray-700" role="status">{state.message}</p>
           <div className="mt-5 flex flex-wrap items-center gap-4">
             {button('Try another photo')}
-            <a href="#questions" className="text-sm font-bold text-brand-700 underline underline-offset-2">Answer the five questions</a>
+            <a href="#questions" className="text-sm font-bold text-brand-700 underline underline-offset-2">Answer the {questions}</a>
           </div>
         </>
       )}
 
-      {state.kind === 'done' && <Result result={state.result} preview={state.preview} heading={heading} redFlags={redFlags} again={button('Check another photo')} />}
+      {state.kind === 'done' && (
+        <Result result={state.result} preview={state.preview} heading={heading} redFlags={redFlags} safety={safety} questions={questions} again={button('Check another photo')} />
+      )}
 
       {(state.kind === 'idle' || state.kind === 'done') && (
         <p className="mt-5 text-xs leading-relaxed text-gray-600">
@@ -199,8 +233,26 @@ export default function PhotoBugIdentifier({ redFlags }: { redFlags: RedFlags })
   )
 }
 
-function Result({ result, preview, heading, redFlags, again }: { result: PhotoIdResult; preview: string; heading: React.RefObject<HTMLHeadingElement>; redFlags: RedFlags; again: React.ReactNode }) {
+function Result({
+  result,
+  preview,
+  heading,
+  redFlags,
+  safety,
+  questions,
+  again,
+}: {
+  result: PhotoIdResult
+  preview: string
+  heading: React.RefObject<HTMLHeadingElement>
+  redFlags: RedFlags
+  safety?: ReactNode
+  questions: string
+  again: React.ReactNode
+}) {
   const [top, ...others] = result.candidates
+  // A page that passes its own sourced safety box shows it with every named result, instead of the model's line.
+  const sourcedSafety = safety && (result.subject === 'creature' || result.subject === 'sign') ? safety : null
   const title =
     result.subject === 'bite_or_skin' ? 'A photo cannot identify a bite'
     : result.subject === 'not_a_pest' ? 'We could not find a bug in this photo'
@@ -222,7 +274,7 @@ function Result({ result, preview, heading, redFlags, again }: { result: PhotoId
             <p className="mt-2 text-base text-gray-700">Bites from bed bugs, fleas, mosquitoes, spiders and mites can look alike, so the marks alone do not show what bit you. The bite identifier asks the questions that narrow it down.</p>
           )}
           {(result.subject === 'not_a_pest' || result.subject === 'unclear') && (
-            <p className="mt-2 text-base text-gray-700">{result.photoTip || 'Try a sharp, close photo of the bug on a plain surface, in good light.'} Or answer the five questions below.</p>
+            <p className="mt-2 text-base text-gray-700">{result.photoTip || 'Try a sharp, close photo of the bug on a plain surface, in good light.'} Or answer the {questions} below.</p>
           )}
         </div>
       </div>
@@ -249,7 +301,11 @@ function Result({ result, preview, heading, redFlags, again }: { result: PhotoId
         </>
       )}
 
-      {result.safety && <p className="mt-5 rounded-xl bg-amber-50 px-4 py-3 text-sm text-amber-900"><strong>Stay safe:</strong> {result.safety}</p>}
+      {sourcedSafety ? (
+        <div className="mt-5">{sourcedSafety}</div>
+      ) : (
+        result.safety && <p className="mt-5 rounded-xl bg-amber-50 px-4 py-3 text-sm text-amber-900"><strong>Stay safe:</strong> {result.safety}</p>
+      )}
       {result.photoTip && top && <p className="mt-4 text-sm text-gray-600"><strong>For a surer answer:</strong> {result.photoTip}</p>}
 
       {result.subject === 'bite_or_skin' && (
@@ -291,7 +347,7 @@ function Result({ result, preview, heading, redFlags, again }: { result: PhotoId
 
       <div className="mt-6 flex flex-wrap items-center gap-4">
         {again}
-        <a href="#questions" className="text-sm font-bold text-brand-700 underline underline-offset-2">Or answer the five questions</a>
+        <a href="#questions" className="text-sm font-bold text-brand-700 underline underline-offset-2">Or answer the {questions}</a>
       </div>
     </div>
   )

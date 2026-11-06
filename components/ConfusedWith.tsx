@@ -42,12 +42,12 @@ const CONFUSED_GRID: Record<number, string> = {
  * not allowed. A card whose page is planned but not live yet is shown without a link.
  * Clicks are counted by components/RecircClickTracker.tsx (location "confused_with").
  */
-export default function ConfusedWith({ items, title }: { items: ConfusedCard[]; title?: string }) {
+export default function ConfusedWith({ items, title, id = 'look-alike-cards' }: { items: ConfusedCard[]; title?: string; /** Give a second row on the same page its own heading id. */ id?: string }) {
   const cards = items.map((c) => ({ ...c, rec: ledgerPhoto(c.photo), live: !notLiveYet(c.href) }))
   const box = 'flex w-full flex-col overflow-hidden rounded-xl border border-gray-200 bg-white'
   return (
-    <section aria-labelledby="look-alike-cards" className="not-prose my-8">
-      <h3 id="look-alike-cards" className="mb-3 text-lg font-extrabold leading-tight text-brand-900">{title || 'Commonly confused with'}</h3>
+    <section aria-labelledby={id} className="not-prose my-8">
+      <h3 id={id} className="mb-3 text-lg font-extrabold leading-tight text-brand-900">{title || 'Commonly confused with'}</h3>
       <ul className={`grid gap-3 ${CONFUSED_GRID[cards.length] ?? CONFUSED_GRID[6]}`}>
         {cards.map((c) => {
           const inner = (

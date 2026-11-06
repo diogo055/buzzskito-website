@@ -19,7 +19,10 @@ import wolfSpidersGuide from '@/content/guides/wolf-spiders.json'
 import IdentifierQuiz, { type IdLinkView, type IdResultView } from '@/components/IdentifierQuiz'
 import ConfusedWith from '@/components/ConfusedWith'
 import Photo from '@/components/Photo'
+import PhotoBugIdentifier from '@/components/PhotoBugIdentifier'
 import type { CandidateCopy, IdLinkSpec } from '@/lib/identifier-quiz'
+import { PHOTO_ID_ENABLED } from '@/lib/photo-id'
+import { RED_FLAGS } from '@/lib/bite-quiz'
 import { CANDIDATES, FLAGS, QUIZ, QUIZ_PATH, SAFETY, SPIDER_IDS, UNSURE, type SpiderId } from '@/lib/spider-quiz'
 
 /**
@@ -45,11 +48,18 @@ import { CANDIDATES, FLAGS, QUIZ, QUIZ_PATH, SAFETY, SPIDER_IDS, UNSURE, type Sp
  * reassurance, and every claim tied to a source listed at the bottom. Photos come only from the
  * photo ledger through the Photo component, each with a literal id so scripts/check-photos.mjs can
  * verify it.
+ *
+ * Photo check (Nov 6, 2026): while lib/photo-id.ts is switched on (the owner's Anthropic key is in
+ * Vercel), the photo uploader (components/PhotoBugIdentifier.tsx, spider mode) sits above the
+ * questions, and the description, the intro and two FAQ answers say so. Every named photo result
+ * carries this page's sourced safety box. With the switch off the page is exactly the
+ * seven-question identifier. The title stays the same either way.
  */
 
 const META_TITLE = 'Spider Identifier: What Kind of Spider Is This?'
-const DESCRIPTION =
-  'Answer 7 quick questions about the web, size, markings and where you found it. Get the most likely spiders, real photos and how to spot a widow or recluse.'
+const DESCRIPTION = PHOTO_ID_ENABLED
+  ? 'Upload a photo or answer 7 quick questions about the web, size and markings. Get the most likely spiders, real photos and how to spot a widow or recluse.'
+  : 'Answer 7 quick questions about the web, size, markings and where you found it. Get the most likely spiders, real photos and how to spot a widow or recluse.'
 const PUBLISHED = 'October 23, 2026'
 
 export const metadata: Metadata = buildMetadata({ title: META_TITLE, description: DESCRIPTION, canonical: QUIZ_PATH, image: shareImage('bold-jumping-spider') })
@@ -260,13 +270,17 @@ const FAQS: Faq[] = [
   },
   {
     question: 'Can I identify a spider from a picture?',
-    answer:
-      'Often, if the photo is sharp. Take one from above and one of the face, with a coin or ruler beside the spider, and do not handle it to get the shot. Photo apps and community sites such as iNaturalist and BugGuide can suggest a name, but treat any answer as a lead: telling a hobo spider from its relatives takes a microscope (UC IPM), and a recluse’s six eyes are easiest to see with a good hand lens (UC IPM).',
+    answer: `Often, if the photo is sharp. Take one from above and one of the face, with a coin or ruler beside the spider, and do not handle it to get the shot. ${
+      PHOTO_ID_ENABLED ? 'The photo check at the top of this page gives a free first opinion, and photo apps' : 'Photo apps'
+    } and community sites such as iNaturalist and BugGuide can suggest a name, but treat any answer as a lead: telling a hobo spider from its relatives takes a microscope (UC IPM), and a recluse’s six eyes are easiest to see with a good hand lens (UC IPM).`,
   },
   {
     question: 'Is there a free spider identifier?',
-    answer:
-      'Yes, this page: seven questions about the place, the web, the size, the markings and the behavior give the most likely spiders, with real photos and the reason behind each suggestion. For a confirmed identification, ask your county Cooperative Extension office; in California, UC IPM sends readers to theirs, which can forward a spider to an arachnologist. Keep the spider whole, because a crushed one is hard to identify (UC IPM).',
+    answer: `Yes, this page: ${
+      PHOTO_ID_ENABLED
+        ? 'upload a photo for a quick first opinion, or answer seven questions about the place, the web, the size, the markings and the behavior to get'
+        : 'seven questions about the place, the web, the size, the markings and the behavior give'
+    } the most likely spiders, with real photos and the reason behind each suggestion. For a confirmed identification, ask your county Cooperative Extension office; in California, UC IPM sends readers to theirs, which can forward a spider to an arachnologist. Keep the spider whole, because a crushed one is hard to identify (UC IPM).`,
   },
   {
     question: 'How can you tell if a spider is dangerous?',
@@ -400,10 +414,17 @@ export default function SpiderIdentifierPage() {
             <span className="text-white">Spider Identifier</span>
           </nav>
           <h1 className="mb-4 text-4xl font-extrabold leading-tight sm:text-5xl">Spider Identifier: What Kind of Spider Is This?</h1>
-          <p className="max-w-3xl text-xl text-brand-100">
-            {QUIZ.questions.length} quick questions about where you found it, its web, size and markings, what it did and where you live. You get the best match and
-            any close ones (up to three in all), a real photo of each, how to confirm it and how to tell the few dangerous ones apart.
-          </p>
+          {PHOTO_ID_ENABLED ? (
+            <p className="max-w-3xl text-xl text-brand-100">
+              Upload a photo, or answer {QUIZ.questions.length} quick questions about where you found it, its web, size and markings, what it did and where you live. The
+              questions give you the best match and any close ones (up to three in all), a real photo of each, how to confirm it and how to tell the few dangerous ones apart.
+            </p>
+          ) : (
+            <p className="max-w-3xl text-xl text-brand-100">
+              {QUIZ.questions.length} quick questions about where you found it, its web, size and markings, what it did and where you live. You get the best match and
+              any close ones (up to three in all), a real photo of each, how to confirm it and how to tell the few dangerous ones apart.
+            </p>
+          )}
           <p className="mt-5 text-sm text-brand-200">
             Published by{' '}
             <Link href="/buzzskito-history" className="font-semibold text-white underline-offset-2 hover:underline">BuzzSkito Mosquito &amp; Tick Control</Link> · Reviewed by Alex Francisco · {PUBLISHED} ·
@@ -414,6 +435,12 @@ export default function SpiderIdentifierPage() {
 
       <div className="bg-brand-50 px-4 py-8 sm:py-12">
         <div className="mx-auto max-w-4xl">
+          {PHOTO_ID_ENABLED && (
+            <>
+              <PhotoBugIdentifier focus="spider" questions="seven questions" redFlags={RED_FLAGS} safety={<SafetyBox headingId="photo-result-safety" />} />
+              <h2 id="questions" className="mb-4 mt-10 scroll-mt-32 text-2xl font-extrabold text-brand-900">No photo? Answer {QUIZ.questions.length} quick questions</h2>
+            </>
+          )}
           <IdentifierQuiz
             quiz={QUIZ}
             results={VIEWS}

@@ -48,7 +48,7 @@ const META_TITLE = 'Bug Bite Identifier With Pictures: What Bit Me?'
 const DESCRIPTION =
   'What bit me? Identify a bug bite in 6 quick questions, compare real bite pictures of the likely biters, and see which signs mean a doctor should look.'
 const PUBLISHED = 'October 20, 2026'
-const UPDATED = 'November 4, 2026'
+const UPDATED = 'November 6, 2026'
 
 export const metadata: Metadata = buildMetadata({ title: META_TITLE, description: DESCRIPTION, canonical: QUIZ_PATH })
 
@@ -337,7 +337,7 @@ export default function BugBiteIdentifierPage() {
 
       <div className="bg-brand-50 px-4 py-8 sm:py-12">
         <div className="mx-auto max-w-4xl">
-          <BiteQuiz results={VIEWS} photos={PHOTOS} redFlags={<RedFlagBox headingId="bite-result-red-flags" />} />
+          <BiteQuiz results={VIEWS} photos={PHOTOS} redFlags={<RedFlagBox headingId="bite-result-red-flags" />} picturesAnchor="#photos" />
           <p className="mt-4 text-xs leading-relaxed text-gray-600">
             How this works: each answer adds points to the biters it fits, using what CDC, the American Academy of Dermatology, Mayo Clinic, Cleveland Clinic, EPA and
             university extension services say about each one, and the result shows the reasons. It cannot see your skin, so treat the result as a place to start, and it
@@ -361,7 +361,10 @@ export default function BugBiteIdentifierPage() {
       </section>
 
       {/* Nov 4, 2026: moved up from below the clues so the bite pictures sit near the top for readers who search "identify bug bites by
-          picture". Still the same six ledger photos, so the page's image count is unchanged (cap: about 8 visible, see CLAUDE.md). */}
+          picture". Nov 6, 2026: a second row with no-see-um and spider bite cards (Search Console: "no see ums bites pictures" and
+          "spider bites pics" near page one), using the two photos the results already show; a row holds 6 cards at most
+          (scripts/check-photos.mjs). Eight photos is the cap until the Dec 30 image test (about 8 visible a page, see CLAUDE.md): add
+          no more here. */}
       <section aria-labelledby="photos" className="bg-white px-4 pt-12">
         <div className="mx-auto max-w-4xl">
           <h2 id="photos" className={H2}>Bug bite pictures to compare</h2>
@@ -379,6 +382,14 @@ export default function BugBiteIdentifierPage() {
               { href: '/blog/do-ants-bite', name: 'Fire ant stings', photo: 'fire-ant-sting-pustule', note: 'A burning sting that turns into a white pustule' },
             ]}
             title="Six common bites, side by side"
+          />
+          <ConfusedWith
+            id="more-bite-cards"
+            items={[
+              { href: '/blog/no-see-um-bites', name: 'No-see-um bites', photo: 'biting-midge-bites-ankles', note: 'Many small red welts on bare skin, near water at dawn or dusk' },
+              { href: '/blog/what-does-a-spider-bite-look-like', name: 'Spider bite', photo: 'brown-recluse-bite-early', note: 'An early brown recluse bite; most spider bites are far milder' },
+            ]}
+            title="Two more: no-see-um bites and spider bites"
           />
         </div>
       </section>

@@ -18,6 +18,9 @@ import {
  * The photo bug identifier's server half (lib/photo-id.ts explains the switch, the cost and the
  * limits). The browser sends one photo, already shrunk, as base64 JPEG; Claude Haiku 5.5 says what
  * it shows and picks up to three of our pages to read next. Nothing is stored.
+ *
+ * The spider identifier sends `focus: "spider"` (Nov 6, 2026): the question becomes "What kind of
+ * spider is this?" and its own page is left out of the links. Any other focus value is ignored.
  */
 
 export const runtime = 'nodejs'
@@ -46,6 +49,7 @@ const SYSTEM = `You identify household and garden bugs from one photo for BuzzSk
 Rules:
 - Name what the photo actually shows. Give up to three candidates, most likely first. Use "high" confidence only when the features that separate it from its look-alikes are clearly visible. Many look-alikes need a closer look (a brown recluse and other brown spiders, a deer tick nymph and other tick nymphs, bed bugs and bat bugs or carpet beetles, termites and flying ants): say what to check in "confirm".
 - Bites, rashes and marks on skin: never name a cause, because a photo cannot identify a bite. Use subject "bite_or_skin", no candidates, and pick /tools/bug-bite-identifier.
+- Spiders: never call a spider harmless or safe when it could be a widow (Latrodectus) or a recluse (Loxosceles). Say what to check instead: a red or orange hourglass on the underside of a shiny, round black spider; or six eyes in three pairs and plain legs without spines on a brown one. Harvestmen (daddy longlegs) and solifuges (camel spiders) are not true spiders: say so.
 - Droppings, nests, egg cases, shed skins and damage count: use subject "sign" and name what most likely left them.
 - No bug or sign in the photo: "not_a_pest". Too blurry, small or dark to judge: "unclear". Give a photo_tip in both cases.
 - Plain words and short sentences for a homeowner. No product or brand names, no pesticide instructions, no medical diagnosis. If it bites, stings, carries disease or damages houses, the safety line says how to stay safe; otherwise leave it empty.
@@ -97,8 +101,8 @@ const SUBJECTS: PhotoSubject[] = ['creature', 'sign', 'bite_or_skin', 'not_a_pes
 const CONFIDENCE: PhotoConfidence[] = ['high', 'medium', 'low']
 const text = (v: unknown, max: number) => (typeof v === 'string' ? v.trim().slice(0, max) : '')
 
-/** The model's answer, checked field by field: anything malformed is dropped, never shown. */
-function clean(input: unknown): PhotoIdResult {
+/** The model's answer, checked field by field: anything malformed is dropped, never shown. `skip` is a page the reader is already on. */
+function clean(input: unknown, skip?: string): PhotoIdResult {
   const r = (input ?? {}) as Record<string, unknown>
   const subject = SUBJECTS.includes(r.subject as PhotoSubject) ? (r.subject as PhotoSubject) : 'unclear'
   const named = subject === 'creature' || subject === 'sign'
@@ -114,7 +118,7 @@ function clean(input: unknown): PhotoIdResult {
     .slice(0, 3)
   const confirm = Array.isArray(r.confirm) ? r.confirm.map((c) => text(c, 220)).filter(Boolean).slice(0, 3) : []
   const paths = Array.isArray(r.pages) ? r.pages.map((p) => text(p, 200)) : []
-  const links = Array.from(new Set(paths)).map((p) => PAGES.get(p)).filter((l): l is PhotoLink => Boolean(l)).slice(0, 3)
+  const links = Array.from(new Set(paths)).map((p) => PAGES.get(p)).filter((l): l is PhotoLink => Boolean(l) && l?.path !== skip).slice(0, 3)
   return {
     subject: named && candidates.length === 0 ? 'unclear' : subject,
     candidates,
@@ -139,13 +143,15 @@ export async function POST(req: Request) {
   }
   if (!sameSite) return fail('origin', 403)
 
-  let body: { image?: unknown }
+  let body: { image?: unknown; focus?: unknown }
   try {
     body = await req.json()
   } catch {
     return fail('bad_image', 400)
   }
   const image = typeof body.image === 'string' ? body.image : ''
+  const spider = body.focus === 'spider'
+  const skip = spider ? '/tools/spider-identifier' : undefined
   if (image.length > PHOTO_ID_MAX_BYTES) return fail('too_big', 413)
   // A JPEG in base64 starts with "/9j/"; the browser always sends JPEG.
   if (image.length < 1000 || !image.startsWith('/9j/') || !/^[A-Za-z0-9+/]+={0,2}$/.test(image)) return fail('bad_image', 400)
@@ -174,16 +180,16 @@ export async function POST(req: Request) {
           role: 'user',
           content: [
             { type: 'image', source: { type: 'base64', media_type: 'image/jpeg', data: image } },
-            { type: 'text', text: 'What bug is this?' },
+            { type: 'text', text: spider ? 'What kind of spider is this? (I am already on the spider identifier page.)' : 'What bug is this?' },
           ],
         },
       ],
     })
     const call = message.content.find((b) => b.type === 'tool_use')
     if (message.stop_reason === 'refusal' || !call || call.type !== 'tool_use') {
-      return NextResponse.json({ result: clean({ subject: 'unclear', photo_tip: 'Try a clear, close photo of the bug on a plain surface.' }) })
+      return NextResponse.json({ result: clean({ subject: 'unclear', photo_tip: `Try a clear, close photo of the ${spider ? 'spider, from above,' : 'bug'} on a plain surface.` }) })
     }
-    return NextResponse.json({ result: clean(call.input) })
+    return NextResponse.json({ result: clean(call.input, skip) })
   } catch (err) {
     if (err instanceof APIError) {
       // Out of credit, a bad or revoked key, or Anthropic busy: the reader sees the questions instead.

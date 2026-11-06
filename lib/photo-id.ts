@@ -1,11 +1,13 @@
 /**
  * Photo bug identifier on /tools/what-bug-is-this (owner, Oct 28, 2026: "I love the tool...
- * make sure that money-wise, it's not too expensive").
+ * make sure that money-wise, it's not too expensive"), and since Nov 6, 2026 the same uploader in
+ * spider mode on /tools/spider-identifier (owner said yes to research report Move 2). One switch,
+ * one API route, one daily limit for both pages.
  *
  * OFF until the owner adds ANTHROPIC_API_KEY in Vercel (Settings → Environment Variables) and the
  * site is redeployed. The key is a secret: only the server reads it (app/api/identify-bug and,
- * at build time, the page and the privacy policy, to decide whether to show the uploader and the
- * paragraph about it). A placeholder does not switch it on: a real key starts with "sk-ant-".
+ * at build time, the two pages and the privacy policy, to decide whether to show the uploader and
+ * the paragraph about it). A placeholder does not switch it on: a real key starts with "sk-ant-".
  *
  * Why it exists: Google Trends (US, Oct 2026) puts "what bug is this" at about 34,500 searches a
  * month, "bug identifier" 14,300 and "insect identification" 11,700, against about 1,100 for

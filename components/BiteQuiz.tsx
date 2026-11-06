@@ -78,6 +78,7 @@ export default function BiteQuiz({
   results,
   photos,
   redFlags,
+  picturesAnchor,
   extraEvidence = [],
 }: {
   results: Record<ResultId, BiteResultView>
@@ -85,6 +86,8 @@ export default function BiteQuiz({
   photos: Partial<Record<CulpritId, ReactNode>>
   /** The red-flag box, shown with every result. */
   redFlags: ReactNode
+  /** Where the page's bite-picture gallery is (e.g. "#photos"): every result then offers to compare against it. */
+  picturesAnchor?: string
   /** Extension point for a later photo check: see Evidence in lib/bite-quiz.ts. */
   extraEvidence?: Evidence[]
 }) {
@@ -193,6 +196,13 @@ export default function BiteQuiz({
             <h4 className={`mt-6 ${SUBHEAD_CLASS}`}>Compare the common bites</h4>
             <ReadNextLinks links={unsure.links} kind="compare" />
           </article>
+        )}
+
+        {picturesAnchor && (
+          <p className="mt-6 text-[15px] text-gray-700">
+            Compare your bites side by side:{' '}
+            <a href={picturesAnchor} className="font-semibold text-brand-700 underline underline-offset-2 hover:text-brand-900">see the bug bite pictures below</a>, each one linked to the full guide to that bite.
+          </p>
         )}
 
         <div className="mt-6">{redFlags}</div>

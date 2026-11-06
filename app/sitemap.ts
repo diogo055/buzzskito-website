@@ -256,7 +256,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/tools/what-bug-is-this`,        lastModified: '2026-10-12T12:00:00.000Z', changeFrequency: 'monthly', priority: 0.7 },
     // Bug bite identifier, published Oct 20, 2026 (its true date)
     // Nov 4, 2026: new intro, a new sourced FAQ, open FAQ answers and the bite pictures moved near the top (page shows "Updated").
-    { url: `${SITE_URL}/tools/bug-bite-identifier`,     lastModified: '2026-11-04T12:00:00.000Z', changeFrequency: 'monthly', priority: 0.7 },
+    // Nov 6, 2026: no-see-um and spider bite pictures added below the gallery (8 photos), and results point to it.
+    { url: `${SITE_URL}/tools/bug-bite-identifier`,     lastModified: '2026-11-06T12:00:00.000Z', changeFrequency: 'monthly', priority: 0.7 },
     // Tick and spider identifiers, published Oct 23, 2026 (their true date)
     { url: `${SITE_URL}/tools/tick-identifier`,         lastModified: '2026-10-23T04:00:00.000Z', changeFrequency: 'monthly', priority: 0.7 },
     { url: `${SITE_URL}/tools/spider-identifier`,       lastModified: '2026-10-23T04:00:00.000Z', changeFrequency: 'monthly', priority: 0.7 },
