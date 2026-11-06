@@ -1,0 +1,199 @@
+{
+  "slug": "skeeter-syndrome",
+  "kind": "spoke",
+  "cluster": "mosquitoes",
+  "keyword": "skeeter syndrome",
+  "alsoTargets": [
+    "mosquito bite allergy",
+    "swollen mosquito bite",
+    "skeeter syndrome treatment",
+    "skeeter syndrome vs cellulitis",
+    "skeeter syndrome vs spider bite",
+    "skeeter syndrome in adults",
+    "skeeter syndrome toddler",
+    "skeeter syndrome blister",
+    "skeeter syndrome vs normal mosquito bite",
+    "allergic reaction to mosquito bite",
+    "large local reaction to mosquito bite"
+  ],
+  "metaTitle": "Skeeter Syndrome: Big Swollen Mosquito Bites",
+  "metaDescription": "Skeeter syndrome is a big, swollen, itchy reaction to mosquito saliva, most common in young kids. Photos, how long it lasts, cellulitis signs, treatment.",
+  "h1": "Skeeter Syndrome: When a Mosquito Bite Swells Up, and When to Worry",
+  "dek": "Photos of large reactions to mosquito bites, who gets them and why, how long they last, how to tell skeeter syndrome from cellulitis or a spider bite, what helps, and the red flags that need a doctor.",
+  "breadcrumb": "Skeeter Syndrome",
+  "excerpt": "What skeeter syndrome is, photos of big swollen mosquito bites, who gets them, how long they last, how to tell them from cellulitis, treatment and when to see a doctor.",
+  "datePublished": "2026-11-06",
+  "parent": { "href": "/learn/bug-bites", "name": "Bug Bites" },
+  "quickAnswer": {
+    "lead": "**Skeeter syndrome is a large, local reaction to proteins in mosquito saliva: within hours of a bite, the skin around it turns red or darker, swells, feels warm and itches, and may be hard or painful.** [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/23289-skeeter-syndrome) says it is most common in young children, usually improves within 3 to 10 days and is diagnosed by looking at it.",
+    "bullets": [
+      "Large reactions are very common in young children: the [American Academy of Pediatrics' KidsDoc checker](https://www.healthychildren.org/English/tips-tools/symptom-checker/Pages/symptomviewer.aspx?symptom=Mosquito+Bite) describes redness 2 to 4 inches (5 to 10 cm) across that can grow for 2 to 3 days and calls it harmless, not anaphylaxis and not infection.",
+      "It mimics cellulitis but comes on within hours, while cellulitis has a more drawn-out course, says a [2022 review in Frontiers in Immunology](https://www.frontiersin.org/articles/10.3389/fimmu.2022.1024559/full).",
+      "[Mayo Clinic](https://www.mayoclinic.org/diseases-conditions/mosquito-bites/symptoms-causes/syc-20375310) suggests that people who get large reactions consider a nondrowsy, nonprescription antihistamine when they know they will be around mosquitoes.",
+      "Whole-body allergic reactions (anaphylaxis) to mosquito bites are rare, says the [American Academy of Allergy, Asthma & Immunology](https://www.aaaai.org/tools-for-the-public/conditions-library/allergies/taking-a-bite-out-of-mosquitoes), but they need emergency treatment.",
+      "Call 911 for trouble breathing or swallowing, or swelling of the face, mouth, tongue or throat, Cleveland Clinic advises."
+    ]
+  },
+  "facts": {
+    "title": "Normal bite, skeeter syndrome or infection?",
+    "head": ["Clue", "Normal bite", "Skeeter syndrome", "Infected bite"],
+    "rows": [
+      ["When it starts", "A puffy bump within minutes; a firmer bump a day or so later", "Within hours, often 8 to 10; can keep growing for 2 to 3 days", "Usually later: painful redness that starts more than 48 hours after the bite"],
+      ["Size", "Usually under 1/2 inch", "Several inches; 2 to 4 inches is common in young children", "Redness that keeps spreading"],
+      ["Look and feel", "An itchy bump; sometimes a small blister", "Red or darker, swollen, warm and itchy; can be hard or painful", "Painful, red, swollen, tender and warm; pus or a red streak"],
+      ["Fever", "No", "Rarely", "Sometimes, with chills"],
+      ["Course", "Fades over several days", "Better within 3 to 10 days", "Can keep spreading if not treated"]
+    ],
+    "caption": "From Cleveland Clinic, CDC (mosquito bites and cellulitis), the AAP KidsDoc checker and the Frontiers in Immunology review, each linked on this page. A scratched reaction can become infected, so one bite can move between columns."
+  },
+  "body": [
+    { "type": "h2", "text": "What is skeeter syndrome?" },
+    { "type": "p", "text": "Skeeter syndrome is a large, local inflammatory reaction to mosquito bites, in which the skin around a bite becomes red, warm, swollen and itchy, and sometimes hard and painful, according to [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/23289-skeeter-syndrome). The [American Academy of Allergy, Asthma & Immunology](https://www.aaaai.org/tools-for-the-public/allergy,-asthma-immunology-glossary/skeeter-syndrome-defined) (AAAAI) defines it as an uncommonly large or exaggerated reaction to mosquito bites whose swelling, heat, redness and itching or pain mimic an infection, and which can develop within hours of a bite." },
+    { "type": "figure", "src": "/guides/photos/mosquito-bites-forearm.webp", "width": 1200, "height": 799, "alt": "A large, raised, red patch on the inside of a medium-brown forearm where several mosquito bites have swollen and merged", "caption": "Several mosquito bites swollen and merging into one raised patch on a forearm, in a 2024 CDC photograph. CDC does not call it skeeter syndrome.", "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28630" },
+    { "type": "p", "text": "It is the immune system overreacting, not an infection. Cleveland Clinic says it happens when the body overreacts to proteins in mosquito saliva, and the [2022 review in Frontiers in Immunology](https://www.frontiersin.org/articles/10.3389/fimmu.2022.1024559/full) says IgE and IgG antibodies against that saliva drive it. An ordinary bite is a small version of the same thing: Mayo Clinic says the saliva a mosquito injects triggers the immune reaction behind the usual itchy bump." },
+    { "type": "p", "text": "The name, from skeeter, a nickname for the mosquito, is the title of a [1999 report in The Journal of Allergy and Clinical Immunology](https://pubmed.ncbi.nlm.nih.gov/10482852/) by F. Estelle R. Simons and Zhikang Peng." },
+    { "type": "figure", "src": "/guides/photos/skeeter-syndrome-leg.webp", "width": 960, "height": 1280, "alt": "A lower leg with a broad, swollen, reddened area spreading across it rather than separate small bumps", "caption": "A large local reaction to mosquito bites on a lower leg, which its photographer describes as skeeter syndrome: a broad, swollen, reddened area rather than separate bumps.", "credit": "Cinder2020, CC BY-SA 4.0, via Wikimedia Commons", "license": "CC-BY-SA-4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mosquito_Bites_on_Leg.jpg" },
+
+    { "type": "h2", "text": "What does skeeter syndrome look like?" },
+    { "type": "p", "text": "A swollen patch, not a bump. Cleveland Clinic says the main symptom is large areas of swelling where the mosquito bit, and lists skin redness, darkening or other color changes, hard lumps, itching, pain and skin that feels warm to the touch. [CDC's page on mosquito bites](https://www.cdc.gov/mosquitoes/about/about-mosquito-bites.html) describes strong reactions as a large area of swelling, soreness and redness." },
+    { "type": "p", "text": "Size varies. The [American Academy of Pediatrics' KidsDoc symptom checker](https://www.healthychildren.org/English/tips-tools/symptom-checker/Pages/symptomviewer.aspx?symptom=Mosquito+Bite) (AAP) says redness 2 to 4 inches (5 to 10 cm) across is very common in young children, and a [2020 review in Allergologie Select](https://pmc.ncbi.nlm.nih.gov/articles/PMC7709451/) describes delayed swellings more than 4 inches (10 cm) across." },
+    { "type": "p", "text": "Some reactions blister. [AAAAI's page on mosquito bites](https://www.aaaai.org/tools-for-the-public/conditions-library/allergies/taking-a-bite-out-of-mosquitoes) mentions blistering lesions, or larger hives with fever and joint swelling, in some people. In a [2025 study of 15 children with skeeter syndrome](https://pubmed.ncbi.nlm.nih.gov/41256061/) at a pediatric allergy clinic (average age about 4), the hard, swollen areas measured about 2 to 8 inches (5 to 20 cm) across, 11 children had a blister in them, and 13 had repeat episodes. The author calls blisters at the center of a large swollen area, together with the history, a distinguishing feature." },
+    { "type": "p", "text": "On darker skin, look for swelling, warmth and a change in color rather than redness alone; Cleveland Clinic's list includes darkening and other color changes, not just redness." },
+    { "type": "figure", "src": "/guides/photos/severe-mosquito-bite-reaction-leg.webp", "width": 1200, "height": 1200, "alt": "A large, faint red patch on the pale skin of a leg, with a fingertip pointing to its lower edge", "caption": "A large, faint red patch on a leg that the photographer, who took the picture of their own leg after a mosquito bite, describes as a severe allergic reaction.", "credit": "Nurse90, CC BY-SA 4.0, via Wikimedia Commons", "license": "CC-BY-SA-4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Severe_mosquito_bite_reaction.jpeg" },
+    { "type": "p", "text": "Rarely, more than the skin is involved. Cleveland Clinic says fever, hives in many areas of the body or swollen lymph nodes can occur rarely, and CDC lists low-grade fever, hives and swollen lymph nodes among the more severe reactions to mosquito bites." },
+    { "type": "media", "needed": "Clinical photograph of skeeter syndrome on an adult's flank: Figure 2 of Vander Does, Labib and Yosipovitch, Front. Immunol. 2022 (CC BY 4.0), a broad, well-defined red patch; its legend says he had been given oral antibiotics for suspected cellulitis in earlier episodes and that this episode responded well to topical corticosteroids and antihistamines" },
+    { "type": "media", "needed": "A large local reaction to mosquito bites on a young child's arm, leg or face, attributed to mosquitoes by a pediatrician, allergist or health agency, beside a ruler marked in inches if possible; public domain, CC0, CC BY or CC BY-SA; no identifiable face" },
+
+    { "type": "h2", "text": "Who gets skeeter syndrome?" },
+    { "type": "p", "text": "Mostly young children, but not only them. Mayo Clinic and Cleveland Clinic both say it is most common in children, and Cleveland Clinic adds that adults can have it too. CDC names three groups in whom severe reactions can occur: children, adults bitten by a kind of mosquito they have not been exposed to before, and people with immune system disorders." },
+    { "type": "p", "text": "The Frontiers review adds outdoor workers with heavy exposure and people with no previous exposure to the local mosquitoes, and says skeeter syndrome tends to occur in people with weakened immune systems and in immigrants bitten by local mosquitoes. In a study of 180 children it describes, large or unusual reactions were linked to atopy, the inherited tendency toward allergies: 35 percent of the children with those reactions had atopy, against 12 percent of the comparison group. Travel can matter, Cleveland Clinic explains, because different mosquitoes have different proteins in their saliva, so you may react to some kinds and not others." },
+    { "type": "h3", "text": "Why do young children react so strongly?" },
+    { "type": "p", "text": "Because their immune systems have not yet been desensitized to the proteins in mosquito saliva, Cleveland Clinic says. The Frontiers review lays out the usual sequence, first described in 1946: a first bite leaves only a small red spot; later bites cause a delayed reaction, then both a quick and a delayed one, then only the quick one, and finally, for some people, none. AAAAI adds that people who have never been bitten, mainly young children, may not react at all at first." },
+    { "type": "h3", "text": "Will a child outgrow it?" },
+    { "type": "p", "text": "Sometimes the reactions ease, but not always completely. Cleveland Clinic says reactions sometimes become less severe over time, and [Peng and Simons](https://pubmed.ncbi.nlm.nih.gov/17620829/) write that naturally acquired desensitization to mosquito saliva may occur during childhood or with long-term exposure to mosquitoes. The Allergologie Select review is more cautious: with average exposure, 80 to 90 percent of children and adults stay in the middle stages, still reacting, for decades, and only about 5 percent become tolerant." },
+
+    { "type": "h2", "text": "How long does skeeter syndrome last?" },
+    { "type": "p", "text": "Usually 3 to 10 days. Cleveland Clinic says symptoms usually start 8 to 10 hours after the bite and get better within 3 to 10 days, and the Frontiers review also gives 3 to 10 days. In young children, AAP says the redness can start right after the bite and keep getting larger for 2 to 3 days before it settles." },
+    { "type": "p", "text": "Scratching can make it worse. Cleveland Clinic warns that large swollen areas can break the skin and become ulcers, especially if scratched, and can then become infected with bacteria or leave a scar." },
+
+    { "type": "h2", "text": "Is it skeeter syndrome or cellulitis?" },
+    { "type": "p", "text": "Timing is the best clue: skeeter syndrome comes on within hours of a bite, while cellulitis, a bacterial skin infection, has a more drawn-out course, the Frontiers review says. AAP's checker puts it plainly for children: any redness that starts in the first 24 hours is always a reaction to the bite. Its warning signs come later: painful, spreading redness that starts more than 48 hours after the bite, or redness still getting larger more than 72 hours after it, call for a doctor within 24 hours." },
+    { "type": "p", "text": "Cellulitis also looks and feels different. [CDC's page on cellulitis](https://www.cdc.gov/group-a-strep/about/cellulitis.html) describes skin that is painful, red, swollen, tender to the touch and warm, sometimes pitted like the peel of an orange or blistered, sometimes with fever and chills. It is most common on the feet and legs, and bites are among the breaks in the skin that let it start. AAP adds that infected bites are painful to touch, uncommon, and usually begin in a bite that was scratched or picked at, as an infected sore or scab." },
+    { "type": "p", "text": "Doctors can mistake one for the other too. The Frontiers review shows a man who had been given antibiotics for suspected cellulitis in earlier episodes of skeeter syndrome; the episode pictured responded well to corticosteroids applied to the skin and antihistamines, and Cleveland Clinic lists antibiotics for skeeter syndrome only when a skin infection develops." },
+    { "type": "checklist", "title": "Signs that point to infection, not skeeter syndrome", "items": [
+      "**Redness that starts more than 48 hours after the bite, or keeps spreading after 72 hours** (AAP).",
+      "**Pain and tenderness**, especially in a bite that was scratched or picked open (AAP, CDC).",
+      "**A red streak** spreading from the bite, warmth, or pus (CDC on infected bites; AAP).",
+      "**A red area that spreads quickly, or fever and chills**, which CDC says need medical attention immediately."
+    ] },
+
+    { "type": "h2", "text": "Is it skeeter syndrome or a spider bite?" },
+    { "type": "p", "text": "Usually it is the mosquitoes. [UC IPM's guide to spiders](https://ipm.ucanr.edu/home-and-landscape/spiders/) says people and their physicians often blame spiders for skin lesions with no proof and names mosquitoes among the biters mistaken for them. It says a spider generally does not try to bite unless it is squeezed, lain on or similarly provoked, and that a bite is, at worst, usually no more severe than a bee sting." },
+    { "type": "p", "text": "A few clues separate them. A mosquito reaction itches, builds within hours and may come with other bites on uncovered skin, which AAP calls a reason to suspect mosquitoes. A brown recluse bite may sting with localized pain, and a small white blister usually develops at the bite, according to [NIOSH, part of CDC](https://www.cdc.gov/niosh/outdoor-workers/about/venomous-spiders.html); its venom can destroy skin tissue, a lesion that needs professional medical attention." },
+    { "type": "p", "text": "[How to tell a mosquito bite from a spider bite](/blog/mosquito-bite-vs-spider-bite) goes through the differences with photos, [brown recluse bites](/blog/brown-recluse-bite) have their own page, and [what a spider bite looks like](/blog/what-does-a-spider-bite-look-like) covers the other spiders." },
+    { "type": "confused", "title": "Often confused with skeeter syndrome", "items": [
+      { "href": "/blog/why-do-mosquito-bites-itch", "name": "Normal mosquito bite", "photo": "mosquito-bite-welt-quarter", "note": "A puffy, itchy bump within minutes, usually under 1/2 inch across", "alt": "A single raised, pinkish-red mosquito bite welt on a pale forearm beside a US quarter" },
+      { "href": "/blog/brown-recluse-bite", "name": "Brown recluse bite", "photo": "brown-recluse-bite-early", "note": "Stinging pain and a small white blister at the bite; the venom can destroy skin tissue", "alt": "Inflamed red skin around a brown recluse spider bite, before any tissue damage developed" },
+      { "href": "/blog/what-does-a-tick-bite-look-like", "name": "Lyme disease rash", "photo": "erythema-migrans-rash", "note": "Starts 3 to 30 days after a tick bite, expands slowly and is rarely itchy", "alt": "A large, round red rash of early Lyme disease on the back of a woman's upper arm" }
+    ] },
+    { "type": "p", "text": "A rash that appears days after a tick bite is a different matter: [CDC's Lyme disease page](https://www.cdc.gov/lyme/signs-symptoms/index.html) says the erythema migrans rash begins 3 to 30 days after the bite, expands gradually over several days to as much as 12 inches across or more, and is rarely itchy or painful." },
+
+    { "type": "h2", "text": "How is skeeter syndrome treated?" },
+    { "type": "p", "text": "Mostly at home, with the same care as any bite plus an antihistamine. Cleveland Clinic lists the treatments a provider might recommend:" },
+    { "type": "ul", "items": [
+      "**An antihistamine**, such as cetirizine, fexofenadine or loratadine.",
+      "**Hydrocortisone or another anti-itch cream.**",
+      "**An over-the-counter pain reliever or fever reducer** for pain or fever.",
+      "**Antibiotic cream or antibiotics by mouth**, only if the skin becomes infected."
+    ] },
+    { "type": "p", "text": "For severe symptoms, it says a provider may prescribe corticosteroids by mouth or as a shot. AAAAI adds simple steps: raise the swollen area and ice it, apply an over-the-counter lotion, clean any blisters with soap and water without breaking them, try a steroid cream or an oral antihistamine if the itch persists, and see a physician if the swelling keeps spreading or the area looks infected. CDC suggests an ice pack for 10 minutes at a time and says not to scratch, because scratched bites can become infected." },
+    { "type": "p", "text": "The evidence behind these is uneven. The Frontiers review notes that steroid creams, which its authors consider effective, have not been tested in controlled trials for mosquito bite itch, and the Allergologie Select review says antihistamine creams have no proven effect on the quick reaction, while antihistamine tablets taken beforehand reduce itching and swelling in children and adults. AAP's checker gives age limits for common allergy medicines, so check the package for the child's age and follow its directions." },
+
+    { "type": "h2", "text": "Can you prevent skeeter syndrome?" },
+    { "type": "p", "text": "Preventing the bites prevents the reaction, and Cleveland Clinic calls avoiding mosquito bites the best way to prevent skeeter syndrome. For people who know they react, Mayo Clinic suggests considering a nondrowsy, nonprescription antihistamine when you know you will be around mosquitoes, and the Frontiers review cites placebo-controlled trials in which second-generation antihistamines taken beforehand reduced bite reactions in adults and in children." },
+    { "type": "ul", "items": [
+      "**Use a repellent.** Cleveland Clinic suggests a bug spray proven to keep mosquitoes away, usually one containing DEET, and [CDC's advice on preventing mosquito bites](https://www.cdc.gov/mosquitoes/prevention/index.html) lists the EPA-registered active ingredients: DEET, picaridin, IR3535, oil of lemon eucalyptus, para-menthane-diol and 2-undecanone. [The best mosquito repellents](/blog/best-mosquito-repellent) compares products by ingredient.",
+      "**Cover up.** CDC suggests loose, long-sleeved shirts and long pants, and clothing treated with permethrin, which goes on clothing and gear, never on skin.",
+      "**Protect small children.** CDC says to cover strollers and baby carriers with mosquito netting, to keep repellent off a child's hands, eyes, mouth, cuts and irritated skin, and not to use oil of lemon eucalyptus or para-menthane-diol on children under 3. The [American Academy of Pediatrics](https://www.healthychildren.org/English/safety-prevention/at-play/Pages/Insect-Repellents.aspx) urges parents of newborns and premature infants to be especially cautious about DEET.",
+      "**Keep mosquitoes out and their numbers down.** CDC suggests screens without holes on windows and doors, and air conditioning if you have it; [how to keep mosquitoes away](/blog/how-to-keep-mosquitoes-away) and [how to get rid of mosquitoes](/blog/how-to-get-rid-of-mosquitoes) cover the yard."
+    ] },
+    { "type": "p", "text": "Testing and allergy shots are not routine. Cleveland Clinic says there is no specific test, such as an allergy test, for skeeter syndrome, and the Frontiers review says skin testing with whole-mosquito extract has no significant role and that desensitization treatment for mosquito allergy is not currently available." },
+
+    { "type": "h2", "text": "When should you see a doctor for a swollen mosquito bite?" },
+    { "type": "p", "text": "See a healthcare provider if you have large areas of swelling after a mosquito bite, Cleveland Clinic advises, or if symptoms are bothersome or keep you from your daily activities. AAAAI says to see a physician if the swelling keeps progressing or the area looks infected." },
+    { "type": "ul", "items": [
+      "**Seek care right away** for a spreading red area or red streak with fever, or a child who looks or acts very sick (AAP), and for a red area that spreads quickly or fever and chills, which CDC says need medical attention immediately.",
+      "**Call a doctor within 24 hours** for painful, spreading redness that starts more than 48 hours after the bite, or redness still getting larger more than 72 hours after it (AAP).",
+      "**Contact a health care provider** if bites come with a high fever, severe headache or body aches, which Mayo Clinic lists among the warning signs of a serious condition; [West Nile virus symptoms](/blog/west-nile-virus-symptoms) covers one illness mosquitoes spread."
+    ] },
+    { "type": "callout", "tone": "warning", "title": "Call 911 or go to the emergency room", "text": "Cleveland Clinic says to call 911 or go to the emergency room for difficulty breathing or swallowing; swelling of the face, mouth, tongue or throat; hives over much of the body; or broken skin that is oozing pus, discolored or foul-smelling. The American Academy of Dermatology adds chest pain, a racing heartbeat lasting more than a few minutes, dizziness, vomiting and a headache after a bite. AAAAI says whole-body allergic reactions to mosquito bites are rare but need emergency treatment, and that anyone who has had one should consider seeing an allergist." },
+    { "type": "p", "text": "The [American Academy of Dermatology's guide to bug bites](https://www.aad.org/public/everyday-care/injured-skin/bites/bug-bites-see-dermatologist) also says to see a board-certified dermatologist right away for a fever, headache, body aches or a rash after a bug bite. Two reviews also link severe blistering, ulcers or dead skin after mosquito bites to a rare condition tied to Epstein-Barr virus infection; one notes general symptoms with it and says it was described almost exclusively in children from East Asia. [When to worry about a mosquito bite](/blog/when-to-worry-about-a-mosquito-bite) covers the warning signs of ordinary bites." },
+
+    { "type": "h2", "text": "What should you do next?" },
+    { "type": "p", "text": "Note when the swelling started, photograph it and compare it the next day. [The bug bite identification chart](/learn/bug-bites) sorts other bites by pattern, place and timing, [why mosquito bites itch](/blog/why-do-mosquito-bites-itch) covers ordinary bites and how long they last, and the [bug bite identifier](/tools/bug-bite-identifier) asks six questions about yours." },
+    { "type": "callout", "tone": "tip", "title": "Track the edge", "text": "Photograph the swollen area beside a ruler marked in inches when you first notice it and again each day, and note the hour of the bite. A reaction that peaks and then settles is the usual course of a large local reaction; redness that keeps spreading after the second day is what AAP says needs a doctor." }
+  ],
+  "faqs": [
+    {
+      "question": "Is skeeter syndrome dangerous?",
+      "answer": "Usually not, though it can be uncomfortable for days. Cleveland Clinic says many people manage it at home with over-the-counter treatments, and the American Academy of Pediatrics calls large local reactions in young children harmless. The risks are infection or ulcers if the swollen skin is scratched open, which Cleveland Clinic says can also leave a scar, and, very rarely, anaphylaxis. Call 911 for trouble breathing or swallowing, or swelling of the face, mouth, tongue or throat."
+    },
+    {
+      "question": "Can adults get skeeter syndrome?",
+      "answer": "Yes. Cleveland Clinic says it is most common in young children but that adults can also have it. CDC says severe reactions can occur in adults bitten by a kind of mosquito they have not been exposed to before and in people with immune system disorders, and a 2022 review in Frontiers in Immunology adds outdoor workers with heavy exposure and people new to an area's mosquitoes. The review's clinical photo shows skeeter syndrome on a middle-aged man."
+    },
+    {
+      "question": "Is a mosquito bite allergy the same as skeeter syndrome?",
+      "answer": "Skeeter syndrome is one kind of mosquito bite allergy. Mayo Clinic says the usual itchy bump is itself an immune reaction to mosquito saliva; skeeter syndrome is that local reaction at a much larger scale. The rarest and most serious kind is anaphylaxis, a whole-body reaction with throat swelling, hives all over, faintness or wheezing; AAAAI says it is rarely caused by mosquitoes, and a 2022 review counts fewer than thirty reported cases worldwide."
+    },
+    {
+      "question": "Do antihistamines help skeeter syndrome?",
+      "answer": "They can. Cleveland Clinic lists antihistamines such as cetirizine, fexofenadine and loratadine among the treatments a provider might recommend. Taken beforehand, they can also lessen reactions: a 2020 review says antihistamine tablets taken before bites reduce itching and swelling in children and adults, and Mayo Clinic suggests a nondrowsy, nonprescription antihistamine when you know you will be around mosquitoes. Antihistamine creams have no proven effect on the quick reaction, the same review says. Follow the package directions and age limits."
+    },
+    {
+      "question": "Does skeeter syndrome need antibiotics?",
+      "answer": "Not unless the skin becomes infected. Skeeter syndrome is an immune reaction to mosquito saliva, not an infection, and Cleveland Clinic lists antibiotic creams or oral antibiotics only for a skin infection. A 2022 review shows a man given antibiotics for suspected cellulitis in earlier episodes; the episode it pictures responded well to steroids applied to the skin and antihistamines. Infection is more likely when redness starts or spreads more than 48 hours after the bite, the American Academy of Pediatrics says."
+    },
+    {
+      "question": "Can skeeter syndrome cause a fever?",
+      "answer": "Rarely. Cleveland Clinic says fever, hives in many areas of the body or swollen lymph nodes can occur rarely, and CDC lists a low-grade fever among more severe reactions. Fever can also signal infection: the American Academy of Pediatrics says a spreading red area or streak with fever needs care right away, and CDC says a red area that spreads quickly, or fever and chills, needs medical attention immediately. Mayo Clinic adds that a high fever, severe headache or body aches after bites are warning signs."
+    },
+    {
+      "question": "Will skeeter syndrome happen every time I get bitten?",
+      "answer": "It often comes back. In a 2025 study of 15 children with skeeter syndrome, 13 had repeat episodes. Cleveland Clinic says different kinds of mosquitoes have different proteins in their saliva, so you may react to some and not others. Reactions can also ease with time: Cleveland Clinic says they sometimes become less severe, though a 2020 review says 80 to 90 percent of people keep reacting to bites for decades and only about 5 percent become tolerant."
+    },
+    {
+      "question": "Can an allergist test for skeeter syndrome?",
+      "answer": "Not with a standard test. Cleveland Clinic says there is no specific test, such as an allergy test, and that a provider diagnoses it by looking at the reaction and asking when the bite happened, when the reaction started and about recent travel. A 2022 review says skin testing with whole-mosquito extract has no significant role. AAAAI suggests seeing an allergist or immunologist after anaphylaxis to help find the cause."
+    },
+    {
+      "question": "Why do my toddler's mosquito bites swell so much?",
+      "answer": "Because young children's immune systems have not yet been desensitized to mosquito saliva, Cleveland Clinic says. The American Academy of Pediatrics says redness 2 to 4 inches across that starts right after the bite and grows for 2 to 3 days is very common in young children and is still normal: a harmless local reaction, not anaphylaxis and not infection. It says bites near the eye can swell a lot, often worse in the morning, without harming vision."
+    },
+    {
+      "question": "Is skeeter syndrome contagious?",
+      "answer": "No. Cleveland Clinic explains skeeter syndrome as the body's overreaction to proteins in mosquito saliva, an immune reaction rather than an infection, so there is no germ to pass from one person to another. A scratched reaction can become infected with bacteria, Cleveland Clinic warns, and that infection, not the reaction, then needs treatment; CDC says that in general people cannot catch cellulitis from others."
+    }
+  ],
+  "sources": [
+    { "title": "Skeeter Syndrome (last updated March 11, 2026)", "publisher": "Cleveland Clinic", "url": "https://my.clevelandclinic.org/health/diseases/23289-skeeter-syndrome" },
+    { "title": "Skeeter Syndrome (Allergy, Asthma & Immunology Glossary)", "publisher": "American Academy of Allergy, Asthma & Immunology", "url": "https://www.aaaai.org/tools-for-the-public/allergy,-asthma-immunology-glossary/skeeter-syndrome-defined" },
+    { "title": "Take a Bite Out of Mosquito Stings (July 29, 2026)", "publisher": "American Academy of Allergy, Asthma & Immunology", "url": "https://www.aaaai.org/tools-for-the-public/conditions-library/allergies/taking-a-bite-out-of-mosquitoes" },
+    { "title": "Mosquito bites: Symptoms and causes (November 15, 2024)", "publisher": "Mayo Clinic", "url": "https://www.mayoclinic.org/diseases-conditions/mosquito-bites/symptoms-causes/syc-20375310" },
+    { "title": "About Mosquito Bites (June 21, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/mosquitoes/about/about-mosquito-bites.html" },
+    { "title": "Preventing Mosquito Bites (August 28, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/mosquitoes/prevention/index.html" },
+    { "title": "Mosquito Bite (KidsDoc symptom checker; Barton Schmitt MD, FAAP)", "publisher": "HealthyChildren.org, American Academy of Pediatrics", "url": "https://www.healthychildren.org/English/tips-tools/symptom-checker/Pages/symptomviewer.aspx?symptom=Mosquito+Bite" },
+    { "title": "How to Choose an Insect Repellent for Your Child (S. J. Balk, MD; updated June 21, 2024)", "publisher": "HealthyChildren.org, American Academy of Pediatrics", "url": "https://www.healthychildren.org/English/safety-prevention/at-play/Pages/Insect-Repellents.aspx" },
+    { "title": "Update on mosquito bite reaction: Itch and hypersensitivity, pathophysiology, prevention, and treatment (A. Vander Does, A. Labib and G. Yosipovitch; Front. Immunol. 13:1024559, 2022)", "publisher": "Frontiers in Immunology", "url": "https://www.frontiersin.org/articles/10.3389/fimmu.2022.1024559/full" },
+    { "title": "Insect hypersensitivity beyond bee and wasp venom allergy (W. Hemmer and F. Wantke; Allergol Select 4:97-104, 2020)", "publisher": "Allergologie Select, via PubMed Central (U.S. National Library of Medicine)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7709451/" },
+    { "title": "Advances in mosquito allergy (Z. Peng and F. E. R. Simons; Curr Opin Allergy Clin Immunol, 2007; abstract)", "publisher": "PubMed, U.S. National Library of Medicine", "url": "https://pubmed.ncbi.nlm.nih.gov/17620829/" },
+    { "title": "A rare allergic disease due to mosquito bite: Skeeter syndrome (S. Karaman; Postepy Dermatol Alergol 42(5):475-479, 2025; abstract)", "publisher": "PubMed, U.S. National Library of Medicine", "url": "https://pubmed.ncbi.nlm.nih.gov/41256061/" },
+    { "title": "Skeeter syndrome (F. E. R. Simons and Z. Peng; J Allergy Clin Immunol 104(3 Pt 1):705-707, 1999; citation record)", "publisher": "PubMed, U.S. National Library of Medicine", "url": "https://pubmed.ncbi.nlm.nih.gov/10482852/" },
+    { "title": "About Cellulitis (August 5, 2025)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/group-a-strep/about/cellulitis.html" },
+    { "title": "Pest Notes: Spiders (UC ANR Publication 7442; R. S. Vetter, updated October 2020)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/spiders/" },
+    { "title": "Venomous Spiders at Work (updated September 28, 2026)", "publisher": "National Institute for Occupational Safety and Health (CDC)", "url": "https://www.cdc.gov/niosh/outdoor-workers/about/venomous-spiders.html" },
+    { "title": "Signs and Symptoms of Untreated Lyme Disease (May 15, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/lyme/signs-symptoms/index.html" },
+    { "title": "Bug bites and stings: When to see a dermatologist", "publisher": "American Academy of Dermatology", "url": "https://www.aad.org/public/everyday-care/injured-skin/bites/bug-bites-see-dermatologist" }
+  ],
+  "disclaimer": "health"
+}

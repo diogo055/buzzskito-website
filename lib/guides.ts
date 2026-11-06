@@ -261,6 +261,7 @@ export const REGIONAL_PAIRS: { us: string; ca: string }[] = [
   { us: '/blog/best-bug-zapper', ca: '/blog/bug-zappers-canada-do-they-work' },
   { us: '/blog/best-bed-bug-interceptors', ca: '/blog/bed-bug-interceptor-traps-canada' },
   { us: '/blog/best-wasp-spray', ca: '/blog/best-wasp-nest-spray-canada' },
+  { us: '/blog/deer-tick-vs-dog-tick', ca: '/blog/deer-tick-vs-dog-tick-canada' },
 ]
 
 export const regionalPair = (path: string) => REGIONAL_PAIRS.find((p) => p.us === path || p.ca === path)

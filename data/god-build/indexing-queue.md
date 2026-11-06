@@ -30,6 +30,12 @@ Rebuilt Nov 3, 2026 (evening) from a URL Inspection API check of all 738 sitemap
 
 **Next run: from about 9:50 pm Toronto on Nov 6**, when the Nov 5 evening batch has aged out: by hand if we are working then, otherwise the 9:10 am run on Nov 7. The 9:10 am run on Nov 6 will most likely get "Quota exceeded" at its first request (12 requests are still inside the 24 hours); that is expected, so it stops there. Order: first anything released on Nov 6-7, then the two merge survivors still open below (Mosquito Bits vs Dunks, Cimexa), then the upgraded pages (`/blog/mice-traps` and the others under Nov 5, the two Canadian mouse pages under Nov 4), then the Nov 6 mosquito and tick upgrades just below, then lines 12-18.
 
+Released Nov 6, 2026 (afternoon; mosquito & tick build, top 10), new pages, request first:
+
+- https://buzzskito.ca/blog/what-do-mosquito-bites-look-like (new; bite photo page, "what do mosquito bites look like")
+- https://buzzskito.ca/blog/skeeter-syndrome (new; bites, "skeeter syndrome")
+- https://buzzskito.ca/blog/deer-tick-vs-dog-tick (new; US edition, regional pair with the Canadian page)
+
 Upgraded Nov 6, 2026 (owner: "fix the entire mosquito section"; new sections, tables, FAQs, photos, sourced corrections), all `recrawl`. Off-season pages, so after the winter pages above:
 
 - https://buzzskito.ca/blog/mosquito-larvae-identification (`recrawl`; "mosquito larvae" 30,700 summer impressions at 9.7)

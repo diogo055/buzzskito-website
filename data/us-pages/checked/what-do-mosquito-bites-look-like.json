@@ -1,0 +1,15 @@
+{
+ "id": "what-do-mosquito-bites-look-like",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "5cce5c1766d0649b2c8b3860cfc076441f8a3195f82b795038c1c693258d506a",
+ "claimsChecked": 243,
+ "claimsCorrected": 8,
+ "claimsRemovedOrSoftened": 12,
+ "checkedOn": "2026-11-06",
+ "released": {
+  "on": "2026-11-06",
+  "scheduledFor": "2026-11-06",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

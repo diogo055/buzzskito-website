@@ -4709,7 +4709,7 @@
    ],
    "family": "ticks",
    "priority": 1,
-   "releaseOn": "2026-12-07"
+   "releaseOn": "2026-11-06"
   },
   {
    "section": "blog",
@@ -5203,7 +5203,7 @@
    ],
    "family": "bites-stings",
    "priority": 1,
-   "releaseOn": "2026-12-07"
+   "releaseOn": "2026-11-06"
   },
   {
    "section": "blog",
@@ -18973,7 +18973,7 @@
    ],
    "family": "bites-stings",
    "priority": 1,
-   "releaseOn": "2026-12-07"
+   "releaseOn": "2026-11-06"
   }
  ]
 }

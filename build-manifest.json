@@ -2,14 +2,14 @@
  "generated": "2026-11-06",
  "summary": {
   "keywords": 100,
-  "newPagesBuilt": 273,
+  "newPagesBuilt": 276,
   "hubPages": 4,
-  "guides": 258,
+  "guides": 261,
   "broadened": 9,
   "mergedIntoExistingPages": 9,
   "mergedIntoNewPages": 9,
-  "notBuilt": 192,
-  "internalLinksInNewPages": 3685
+  "notBuilt": 189,
+  "internalLinksInNewPages": 3740
  },
  "pages": [
   {
@@ -40,7 +40,7 @@
    "wordCount": 3402,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 12,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -670,6 +670,22 @@
   },
   {
    "rank": null,
+   "keyword": "skeeter syndrome",
+   "us_volume": null,
+   "url": "/blog/skeeter-syndrome",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "mosquitoes",
+   "title": "Skeeter Syndrome: Big Swollen Mosquito Bites",
+   "wordCount": 2403,
+   "faqs": 10,
+   "sources": 18,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 11,
+   "status": "built"
+  },
+  {
+   "rank": null,
    "keyword": "mosquito repellent",
    "us_volume": null,
    "url": "/blog/best-mosquito-repellent",
@@ -680,7 +696,7 @@
    "wordCount": 2644,
    "faqs": 10,
    "sources": 19,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -702,6 +718,22 @@
   },
   {
    "rank": null,
+   "keyword": "what do mosquito bites look like",
+   "us_volume": null,
+   "url": "/blog/what-do-mosquito-bites-look-like",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "mosquitoes",
+   "title": "What Do Mosquito Bites Look Like? (Photos)",
+   "wordCount": 2699,
+   "faqs": 9,
+   "sources": 19,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 19,
+   "status": "built"
+  },
+  {
+   "rank": null,
    "keyword": "tick identification chart",
    "us_volume": null,
    "url": "/learn/tick-identification-chart",
@@ -709,11 +741,11 @@
    "kind": "spoke",
    "cluster": "ticks",
    "title": "Tick Identification Chart: Deer, Dog, Lone Star",
-   "wordCount": 3528,
+   "wordCount": 3548,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 18,
-   "outboundInternalLinks": 12,
+   "inboundFromNewPages": 19,
+   "outboundInternalLinks": 13,
    "status": "built"
   },
   {
@@ -840,7 +872,7 @@
    "wordCount": 2896,
    "faqs": 6,
    "sources": 10,
-   "inboundFromNewPages": 31,
+   "inboundFromNewPages": 32,
    "outboundInternalLinks": 61,
    "status": "built"
   },
@@ -856,7 +888,7 @@
    "wordCount": 3369,
    "faqs": 6,
    "sources": 12,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -872,7 +904,7 @@
    "wordCount": 3462,
    "faqs": 6,
    "sources": 19,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -936,7 +968,7 @@
    "wordCount": 3558,
    "faqs": 6,
    "sources": 17,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -952,7 +984,7 @@
    "wordCount": 3435,
    "faqs": 6,
    "sources": 17,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 3,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -1048,7 +1080,7 @@
    "wordCount": 3368,
    "faqs": 6,
    "sources": 15,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 18,
    "status": "built"
   },
@@ -1064,7 +1096,7 @@
    "wordCount": 3570,
    "faqs": 6,
    "sources": 20,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -1096,7 +1128,7 @@
    "wordCount": 3461,
    "faqs": 6,
    "sources": 20,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -1310,6 +1342,22 @@
   },
   {
    "rank": null,
+   "keyword": "deer tick vs dog tick",
+   "us_volume": null,
+   "url": "/blog/deer-tick-vs-dog-tick",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Deer Tick vs Dog Tick: How to Tell (Photos)",
+   "wordCount": 2490,
+   "faqs": 10,
+   "sources": 19,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 23,
+   "status": "built"
+  },
+  {
+   "rank": null,
    "keyword": "lone star tick",
    "us_volume": null,
    "url": "/blog/lone-star-tick",
@@ -1320,7 +1368,7 @@
    "wordCount": 3549,
    "faqs": 10,
    "sources": 20,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 17,
    "status": "built"
   },
@@ -1368,7 +1416,7 @@
    "wordCount": 2575,
    "faqs": 6,
    "sources": 12,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -1848,7 +1896,7 @@
    "wordCount": 2406,
    "faqs": 10,
    "sources": 20,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 16,
    "status": "built"
   },
@@ -2088,7 +2136,7 @@
    "wordCount": 2079,
    "faqs": 10,
    "sources": 16,
-   "inboundFromNewPages": 13,
+   "inboundFromNewPages": 14,
    "outboundInternalLinks": 8,
    "status": "built"
   },
@@ -2568,7 +2616,7 @@
    "wordCount": 2378,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 15,
    "status": "built"
   },
@@ -2837,11 +2885,11 @@
    "kind": "spoke",
    "cluster": "bites",
    "title": "Bug Bite Identification: What Bit You? (Photos)",
-   "wordCount": 4053,
+   "wordCount": 4067,
    "faqs": 6,
    "sources": 20,
-   "inboundFromNewPages": 36,
-   "outboundInternalLinks": 47,
+   "inboundFromNewPages": 38,
+   "outboundInternalLinks": 48,
    "status": "built"
   },
   {
@@ -3795,13 +3843,6 @@
   },
   {
    "rank": null,
-   "keyword": "deer tick vs dog tick",
-   "url": "/blog/deer-tick-vs-dog-tick",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "deer tick",
    "url": "/blog/deer-tick",
    "action": "new",
@@ -3832,13 +3873,6 @@
    "rank": null,
    "keyword": "spider bites ontario",
    "url": "/blog/spider-bites",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "skeeter syndrome",
-   "url": "/blog/skeeter-syndrome",
    "action": "new",
    "status": "not built"
   },
@@ -4550,13 +4584,6 @@
    "status": "not built"
   },
   {
-   "rank": null,
-   "keyword": "what do mosquito bites look like",
-   "url": "/blog/what-do-mosquito-bites-look-like",
-   "action": "new",
-   "status": "not built"
-  },
-  {
    "rank": 1,
    "keyword": "how to get rid of mice",
    "us_volume": 93000,
@@ -4682,7 +4709,7 @@
    "wordCount": 2812,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 13,
+   "inboundFromNewPages": 14,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -4812,7 +4839,7 @@
    "wordCount": 3004,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -4954,7 +4981,7 @@
    "wordCount": 2626,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -5100,7 +5127,7 @@
    "wordCount": 2323,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 44,
+   "inboundFromNewPages": 45,
    "outboundInternalLinks": 15,
    "status": "built"
   },
@@ -5484,7 +5511,7 @@
    "wordCount": 3069,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -5640,7 +5667,7 @@
    "wordCount": 3549,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 36,
+   "inboundFromNewPages": 37,
    "outboundInternalLinks": 15,
    "status": "built"
   },
@@ -5738,7 +5765,7 @@
    "wordCount": 2812,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 13,
+   "inboundFromNewPages": 14,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -5802,7 +5829,7 @@
    "wordCount": 3484,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 12,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -5970,7 +5997,7 @@
    "wordCount": 3210,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 15,
+   "inboundFromNewPages": 16,
    "outboundInternalLinks": 12,
    "status": "built"
   },

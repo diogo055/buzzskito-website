@@ -161,7 +161,7 @@ export default function MosquitoBiteVsSpiderBitePage() {
 
           <h2 className="text-2xl font-extrabold text-brand-900 mt-10 mb-3">What does a spider bite look like vs a mosquito bite?</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            A mosquito bite looks like a soft, round, raised welt &mdash; pink to red, often with a paler firm centre &mdash; and it is intensely itchy. In people with stronger reactions the welt can swell to the size of a coin (sometimes called &ldquo;skeeter syndrome&rdquo;), but it is still soft, itchy, and one of several.
+            A mosquito bite looks like a soft, round, raised welt &mdash; pink to red, often with a paler firm centre &mdash; and it is intensely itchy. In people with stronger reactions the welt can swell to the size of a coin (sometimes called &ldquo;<Link href="/blog/skeeter-syndrome">skeeter syndrome</Link>&rdquo;), but it is still soft, itchy, and one of several.
           </p>
           <Photo
             id="mosquito-bite-welts"

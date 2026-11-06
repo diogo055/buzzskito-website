@@ -1,0 +1,15 @@
+{
+ "id": "skeeter-syndrome",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "33a4dca7e06afb11bd4998230953c4c5a97317d5c84cecee2b9bdd48222585e7",
+ "claimsChecked": 201,
+ "claimsCorrected": 8,
+ "claimsRemovedOrSoftened": 9,
+ "checkedOn": "2026-11-06",
+ "released": {
+  "on": "2026-11-06",
+  "scheduledFor": "2026-11-06",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

@@ -1,6 +1,6 @@
 # Photos and diagrams the new guides still need
 
-557 images across 226 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
+566 images across 229 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
 
 ## /learn/bed-bugs
 
@@ -517,6 +517,11 @@
 - Close-up photo of a snow mosquito (Culiseta alaskaensis) beside a US quarter for scale, with a smaller Aedes mosquito from the same Alaska site placed next to it for comparison
 - Photo of a group of caribou standing together on a summer snow patch or river gravel bar on the North Slope, with open tundra and a low sun in the background
 
+## /blog/skeeter-syndrome
+
+- Clinical photograph of skeeter syndrome on an adult's flank: Figure 2 of Vander Does, Labib and Yosipovitch, Front. Immunol. 2022 (CC BY 4.0), a broad, well-defined red patch; its legend says he had been given oral antibiotics for suspected cellulitis in earlier episodes and that this episode responded well to topical corticosteroids and antihistamines
+- A large local reaction to mosquito bites on a young child's arm, leg or face, attributed to mosquitoes by a pediatrician, allergist or health agency, beside a ruler marked in inches if possible; public domain, CC0, CC BY or CC BY-SA; no identifiable face
+
 ## /blog/best-mosquito-repellent
 
 - Close-up of the back label of a US insect repellent showing the EPA Reg. No. and EPA's repellency awareness graphic with hours of protection for mosquitoes and ticks, beside a ruler marked in inches; public domain or CC0
@@ -524,6 +529,12 @@
 ## /blog/best-bug-zapper
 
 - A plug-in UV fly light trap with a glue board mounted on a kitchen or garage wall about 5 feet up, out of sight of windows, with flies on the board and a ruler marked in inches for scale; public domain or CC0
+
+## /blog/what-do-mosquito-bites-look-like
+
+- One mosquito bite photographed three times on the same person beside a US coin or a ruler marked in inches: about 20 minutes, about 24 hours and about 3 days after the bite, with the times recorded; public domain, CC0, CC BY or CC BY-SA
+- A mosquito bite on a child's upper eyelid or cheek with one-sided puffy swelling around the eye, attributed to a mosquito by a physician or health agency; public domain, CC0, CC BY or CC BY-SA; no identifiable face beyond the eye area
+- Mosquito bites on a baby or toddler (legs, arms or face), including one large local reaction, attributed to mosquitoes by a pediatrician or health agency; public domain, CC0, CC BY or CC BY-SA; no identifiable face
 
 ## /blog/what-do-ticks-look-like
 
@@ -578,6 +589,13 @@
 
 - Macro photo, top view, of an unfed adult female blacklegged tick, lone star tick and American dog tick side by side on a ruler marked in sixteenths of an inch, with a blacklegged nymph, a poppy seed and a sesame seed in the same frame for scale
 - Three-panel close-up, top view, of an adult female blacklegged tick (plain dark shield, reddish abdomen), an adult female American dog tick (whitish mottled shield) and an adult female lone star tick (single white spot), each with the adult male of the species beside it, all labeled
+
+## /blog/deer-tick-vs-dog-tick
+
+- An unfed adult female deer tick and an unfed adult female American dog tick side by side, top view, beside a ruler marked in inches or a US penny, identified by CDC, an extension service or an entomologist; public domain or CC0 so it could become the lead photo and share image
+- An adult male blacklegged (deer) tick from above, all dark brown with the shield covering the back, ideally beside an adult male American dog tick on a ruler marked in inches; identified by an entomologist or health department; public domain, CC0, CC BY or CC BY-SA (candidate: iNaturalist observation 4468549, photo 5390567, CC BY, Summit Metro Parks)
+- An American dog tick nymph beside a deer tick nymph on a fingertip or a ruler marked in inches, identified by an entomologist; public domain, CC0, CC BY or CC BY-SA. None was found on Nov 6, 2026: CDC PHIL 27714 is a drawing, and no openly licensed iNaturalist photo of a dog tick nymph turned up
+- An engorged female deer tick and an engorged female American dog tick side by side beside a US penny, top view so both shields show, identified by an entomologist or health department; public domain, CC0, CC BY or CC BY-SA
 
 ## /blog/lone-star-tick
 

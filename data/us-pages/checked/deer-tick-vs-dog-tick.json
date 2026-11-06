@@ -1,0 +1,15 @@
+{
+ "id": "deer-tick-vs-dog-tick",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "183079e8c8800409e158b3d05492c42a728a2f4afd390889db0c809ecb33fdb5",
+ "claimsChecked": 313,
+ "claimsCorrected": 10,
+ "claimsRemovedOrSoftened": 9,
+ "checkedOn": "2026-11-06",
+ "released": {
+  "on": "2026-11-06",
+  "scheduledFor": "2026-11-06",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

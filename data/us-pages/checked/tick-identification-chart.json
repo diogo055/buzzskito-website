@@ -2,7 +2,7 @@
  "id": "tick-identification-chart",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "5ffbf75724a4048cb18881892e530bead4b2f516f751b081b23735fb016388cb",
+ "sha": "3ee0a2bf39d00b3fa2a697fc365e59ca01b9cd99496546dd9189ceea88195275",
  "claimsChecked": 90,
  "claimsCorrected": 8,
  "claimsRemovedOrSoftened": 8,
@@ -22,6 +22,11 @@
    "on": "2026-11-04",
    "note": "Nov 4, 2026: one sentence at the end of the lone star tick disease paragraph linking the new US lone star tick guide (/blog/lone-star-tick); no facts changed.",
    "previousSha": "ef609d4f6cf410e6549d1c24db4ef62b13e504d699e9084e7dbc7b3c44bbc283"
+  },
+  {
+   "on": "2026-11-06",
+   "note": "Nov 6, 2026: one sentence added under the chart heading linking the new US page /blog/deer-tick-vs-dog-tick; no claim changed.",
+   "previousSha": "5ffbf75724a4048cb18881892e530bead4b2f516f751b081b23735fb016388cb"
   }
  ]
 }

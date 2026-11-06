@@ -1484,6 +1484,24 @@
       "name": "Wasp and hornet jet spray",
       "search": "wasp and hornet jet spray",
       "basis": "Quick answer: 'For most wasp and hornet nests, the best wasp spray is an aerosol labeled for nests that shoots a long jet stream, sprayed at dusk from a safe distance on the ground' (UC IPM: use an insecticide that shoots a long stream into the nest entrance and is labeled for yellowjacket nests). Generic pesticide type the page names and recommends; no brand."
+    },
+    "what-do-mosquito-bites-look-like": {
+      "label": "For the itch",
+      "name": "1% hydrocortisone anti-itch cream",
+      "search": "hydrocortisone 1 percent anti itch cream",
+      "basis": "h2 \"How do you care for a mosquito bite while it heals?\": \"The American Academy of Dermatology says most bug bites can be treated at home with a hydrocortisone cream or ointment, or an oral antihistamine to reduce the itch\"; CDC's step 3 there also names an over-the-counter anti-itch cream. Generic type, no brand."
+    },
+    "skeeter-syndrome": {
+      "label": "To prevent the bites",
+      "name": "DEET insect repellent",
+      "search": "deet insect repellent spray",
+      "basis": "Prevention list, first bullet: \"Cleveland Clinic suggests a bug spray proven to keep mosquitoes away, usually one containing DEET\", after \"Cleveland Clinic calls avoiding mosquito bites the best way to prevent skeeter syndrome.\" Generic type, no brand."
+    },
+    "deer-tick-vs-dog-tick": {
+      "label": "To remove a tick",
+      "name": "Fine-tip tick removal tweezers",
+      "search": "fine tip tick removal tweezers",
+      "basis": "What to do if you find one: remove it with clean, fine-tipped tweezers (CDC). Generic tool, no brand."
     }
   }
 }

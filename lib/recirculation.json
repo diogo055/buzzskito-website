@@ -2244,6 +2244,20 @@
    ],
    "bar": true
   },
+  "/blog/deer-tick-vs-dog-tick": {
+   "next": "/blog/bugs-that-look-like-ticks",
+   "related": [
+    "/blog/what-kills-ticks-on-dogs-instantly",
+    "/blog/blacklegged-deer-tick-ontario",
+    "/blog/american-dog-tick-canada"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/how-to-do-a-tick-check",
+    "/blog/ticks-in-arkansas"
+   ],
+   "bar": true
+  },
   "/blog/deer-tick-vs-dog-tick-canada": {
    "next": "/blog/american-dog-tick-canada",
    "related": [
@@ -5556,6 +5570,20 @@
    ],
    "bar": true
   },
+  "/blog/skeeter-syndrome": {
+   "next": "/blog/when-to-worry-about-a-mosquito-bite",
+   "related": [
+    "/blog/what-do-mosquito-bites-look-like",
+    "/blog/why-do-mosquito-bites-itch",
+    "/blog/how-many-times-can-a-mosquito-bite-you"
+   ],
+   "cards": [
+    "/blog/citronella-candles-canada-do-they-work",
+    "/blog/mosquito-magnet-vs-dynatrap-canada",
+    "/blog/what-attracts-mosquitoes-to-you"
+   ],
+   "bar": true
+  },
   "/blog/skunk-smell-in-house": {
    "next": "/blog/raccoon-and-skunk-proofing-under-a-deck-canada",
    "related": [
@@ -7037,6 +7065,20 @@
     "/blog/fall-mouse-proofing-checklist",
     "/blog/are-mice-nocturnal",
     "/blog/how-to-get-rid-of-mice-canada"
+   ],
+   "bar": true
+  },
+  "/blog/what-do-mosquito-bites-look-like": {
+   "next": "/blog/do-mosquitoes-bite-dogs",
+   "related": [
+    "/blog/skeeter-syndrome",
+    "/blog/how-many-times-can-a-mosquito-bite-you",
+    "/blog/male-vs-female-mosquito"
+   ],
+   "cards": [
+    "/blog/gutter-guards-mosquito-breeding-canada",
+    "/blog/mosquito-season-gta-when-does-it-start",
+    "/blog/where-do-mosquitoes-go-in-winter-ontario"
    ],
    "bar": true
   },

@@ -358,7 +358,7 @@ export default function WhyDoMosquitoBitesItchPage() {
           <p>The practical test is whether you can feel it. A raised, itchy, warm bump is still an active reaction. A flat, painless, discoloured patch is finished healing and is simply fading. If a bite has flattened and stopped itching but the colour remains, nothing is wrong and nothing needs treating &mdash; keep it out of direct sun and it will even out on its own.</p>
 
           <h2>Stages of mosquito bite healing, day by day</h2>
-          <p>Mosquito bite healing runs through five stages: the painless bite itself, an immediate welt at 5 to 20 minutes, a firmer delayed bump peaking at 24 to 48 hours, flattening and fading between days 3 and 7, and a flat discoloured mark that clears over the following weeks.</p>
+          <p>Mosquito bite healing runs through five stages: the painless bite itself, an immediate welt at 5 to 20 minutes, a firmer delayed bump peaking at 24 to 48 hours, flattening and fading between days 3 and 7, and a flat discoloured mark that clears over the following weeks. <Link href="/blog/what-do-mosquito-bites-look-like">Photos of each stage, including on darker skin</Link>, show what to expect.</p>
           <ul>
             <li><strong>Day 0, the first hour.</strong> The bite is usually painless. A pale, soft, itchy welt rises within about 5 to 20 minutes as histamine leaks fluid into the skin.</li>
             <li><strong>Day 1 to 2, the peak.</strong> Immune cells arrive and the welt becomes firmer, redder, and hotter. This delayed phase is the itchiest point for most people &mdash; a bite that seemed trivial at bedtime is often worst the next morning.</li>
@@ -428,7 +428,7 @@ export default function WhyDoMosquitoBitesItchPage() {
           <p>A normal mosquito bite stays swollen for about 1 to 3 days and flattens as the histamine clears. A large local allergic reaction &mdash; a hot, firm patch 5 cm (about 2 inches) or wider &mdash; can stay raised for up to two weeks. The swelling is leaked plasma rather than pus, so it settles on its own once the immune reaction fades. Mayo Clinic notes that these larger reactions are most common in young children and in people newly exposed to a mosquito species.</p>
 
           <h2>What is skeeter syndrome?</h2>
-          <p>Skeeter syndrome is the informal name for a large local allergic reaction to mosquito saliva. Instead of a small welt, the skin swells into a hot, red, firm patch 5 cm (about 2 inches) or wider within hours of the bite, sometimes with blistering or a low-grade fever. Mayo Clinic notes these severe reactions are most common in young children.</p>
+          <p>Skeeter syndrome is the informal name for a large local allergic reaction to mosquito saliva. Instead of a small welt, the skin swells into a hot, red, firm patch 5 cm (about 2 inches) or wider within hours of the bite, sometimes with blistering or a low-grade fever. Mayo Clinic notes these severe reactions are most common in young children. <Link href="/blog/skeeter-syndrome">Skeeter syndrome</Link> has its own guide: photos, who gets it, treatment and when to see a doctor.</p>
           <Photo
             id="skeeter-syndrome-leg"
             alt="A large, red, swollen reaction to mosquito bites on a person's leg"
