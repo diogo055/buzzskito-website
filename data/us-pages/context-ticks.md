@@ -200,6 +200,8 @@
 
 - `/blog/winter-tick` — **winter tick** (also: moose tick; winter tick moose; winter tick vs deer tick). Dermacentor albipictus: the one-host tick of moose, deer and horses, why it is active in fall and winter, its effect on moose populations, whether it bites people and pets, and how it differs from deer ticks.
 
+- `/blog/best-tick-spray-for-yard` — **best tick spray for yard** (also: tick spray for yard; tick yard spray; tick killer for yard; how to get rid of ticks in yard; tick control for yard). US buying guide, amazon.com picks only: EPA-registered products (25(b) products described honestly), label directions, no prices or star ratings, no testing claims. CDC's yard approach, where and when to spray, the EPA-registered actives, 25(b) products honestly, tick tubes with their evidence, label safety for kids and pets, DIY vs professional.
+
 ## Pillars (hub pages)
 
 - `/learn/bed-bugs` — the complete bed bugs reference
@@ -573,6 +575,8 @@
 - `/blog/best-bed-bug-interceptors` — bed bug interceptors
 - `/blog/best-wasp-spray` — wasp spray
 - `/blog/what-do-mosquito-bites-look-like` — what do mosquito bites look like
+- `/blog/best-mosquito-spray-for-yard` — best mosquito spray for yard
+- `/blog/mosquito-bits-vs-dunks` — mosquito bits vs dunks
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

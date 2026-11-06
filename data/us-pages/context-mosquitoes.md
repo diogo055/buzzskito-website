@@ -170,6 +170,10 @@
 
 - `/blog/what-do-mosquito-bites-look-like` — **what do mosquito bites look like** (also: what does a mosquito bite look like; mosquito bite pictures; mosquito bites; mosquito bite on face; mosquito bites on babies; mosquito bites on toddler; mosquito bite blister; does a mosquito bite have a dot in the middle; mosquito bite vs hives). Photo-led: how a bite looks by stage, body part, skin tone and age; blisters; what else it could be (short pointers to the comparison pages).
 
+- `/blog/best-mosquito-spray-for-yard` — **best mosquito spray for yard** (also: mosquito spray for yard; mosquito yard spray; mosquito killer for yard; backyard mosquito spray; how long does mosquito yard spray last). US buying guide, amazon.com picks only: EPA-registered products (25(b) products described honestly), label directions, no prices or star ratings, no testing claims. Barrier sprays on resting sites, the EPA-registered actives homeowners can buy, hose-end vs pump vs fogger, pollinator rules, kids and pets per label, how long it lasts, standing water first, DIY vs professional.
+
+- `/blog/mosquito-bits-vs-dunks` — **mosquito bits vs dunks** (also: mosquito bits; mosquito dunks; how to use mosquito dunks; how long do mosquito dunks last; mosquito dunks for fungus gnats). US buying guide, amazon.com picks only: EPA-registered products (25(b) products described honestly), label directions, no prices or star ratings, no testing claims. Bti and how it works; Bits vs Dunks side by side (form, label dose, coverage, how long each lasts, where to use each); label doses; safety evidence; fungus gnats only as the label allows; what Bti does not do.
+
 ## Pillars (hub pages)
 
 - `/learn/bed-bugs` — the complete bed bugs reference
@@ -558,6 +562,7 @@
 - `/blog/christmas-tree-bugs` — christmas tree bugs
 - `/blog/best-bed-bug-interceptors` — bed bug interceptors
 - `/blog/best-wasp-spray` — wasp spray
+- `/blog/best-tick-spray-for-yard` — best tick spray for yard
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

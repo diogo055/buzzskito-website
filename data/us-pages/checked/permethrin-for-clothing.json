@@ -1,0 +1,10 @@
+{
+ "id": "permethrin-for-clothing",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "605da37d19fd3b8e00476189405f3a7ba7dd4dcaef7d5bde248d7e025a9edb6c",
+ "claimsChecked": 295,
+ "claimsCorrected": 7,
+ "claimsRemovedOrSoftened": 2,
+ "checkedOn": "2026-11-06"
+}

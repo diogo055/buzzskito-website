@@ -2,7 +2,7 @@
  "id": "lone-star-tick",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "ac14cd18f4047d84e925fb4a02348f370508f20f58c2d0af8c622fbe13caaea4",
+ "sha": "7d2ede821659f62a75384ae67380c7af3cecd3c734871d3039e91674d393b551",
  "claimsChecked": 511,
  "claimsCorrected": 11,
  "claimsRemovedOrSoftened": 6,
@@ -11,5 +11,12 @@
   "on": "2026-11-04",
   "scheduledFor": "2026-11-04",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-11-06",
+   "note": "Nov 6, 2026: one sentence added after the CDC yard steps, linking the new /blog/best-tick-spray-for-yard; no claim changed.",
+   "previousSha": "ac14cd18f4047d84e925fb4a02348f370508f20f58c2d0af8c622fbe13caaea4"
+  }
+ ]
 }

@@ -1,0 +1,214 @@
+{
+  "slug": "asian-tiger-mosquito",
+  "kind": "spoke",
+  "cluster": "mosquitoes",
+  "keyword": "asian tiger mosquito",
+  "alsoTargets": [
+    "tiger mosquito",
+    "aedes albopictus",
+    "asian tiger mosquito map",
+    "asian tiger mosquito range",
+    "when are tiger mosquitoes most active",
+    "asian tiger mosquito bite",
+    "asian tiger mosquito in ontario",
+    "asian tiger mosquito in canada",
+    "when do asian tiger mosquitoes go away"
+  ],
+  "metaTitle": "Asian Tiger Mosquito: Photos, Range Map, Bites",
+  "metaDescription": "An Asian tiger mosquito is black with one white stripe down its back. Real photos, a US range map, when it bites, what it carries and how to stop it.",
+  "h1": "Asian Tiger Mosquito (Aedes albopictus): ID, Range Map, Bites and Diseases",
+  "dek": "Real photos of the single white stripe, a state-by-state map built from county records, how the mosquito reached southern Ontario, when it bites, what it can carry and how to stop it breeding near your home.",
+  "breadcrumb": "Asian Tiger Mosquito",
+  "excerpt": "How to spot an Asian tiger mosquito by its one white stripe, where it lives in the US and Ontario, when it bites, what it can carry and how to stop it breeding.",
+  "datePublished": "2026-11-07",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**An Asian tiger mosquito (*Aedes albopictus*) is a black mosquito with a single white stripe running from its head down the middle of its back and white bands on its legs, and it bites by day, most in the early morning and late afternoon.** [UF/IFAS Extension](https://ask.ifas.ufl.edu/publication/IN594) says it breeds in water-holding containers; it is common across much of the eastern US and has reached southern Ontario.",
+    "bullets": [
+      "Adults measure about 0.08 to 0.4 inch (2 to 10 mm), and males average about 20% smaller than females, with bushier antennae, according to UF/IFAS.",
+      "UF/IFAS says it was first documented in the US in Texas in 1985; the [Maryland Department of Agriculture](https://mda.maryland.gov/plants-pests/mosquito-control/mosquito-basics/asian-tiger-mosquito) links its spread to the used-tire trade and dates Maryland's first find to Baltimore in 1987.",
+      "A 2019 analysis by CDC scientists and colleagues counted records in 1,568 of the 3,111 counties of the contiguous US ([PLOS Computational Biology](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007369)).",
+      "Canada's first established population was detected in Windsor, Ontario, in 2016, Public Health Ontario says.",
+      "CDC says it can spread dengue, chikungunya and Zika, though less readily than the yellow fever mosquito, because it also feeds on animals.",
+      "Its eggs survive drying for up to 8 months, so [CDC](https://www.cdc.gov/mosquitoes/prevention/index.html) advises emptying and scrubbing, turning over, covering or throwing out anything that holds water once a week."
+    ]
+  },
+  "facts": {
+    "title": "Asian tiger mosquito quick ID: every life stage",
+    "head": ["Stage", "What to look for", "Where you find it"],
+    "rows": [
+      ["Egg", "Black, oval, about 0.02 inch (0.5 mm) long and laid singly; survives drying for up to 8 months", "Glued to the inner walls of containers above the waterline"],
+      ["Larva (wiggler)", "Wriggling in the water and rising to the surface to breathe through a siphon; turns into a pupa after about 5 to 10 days", "Tires, buckets, birdbaths, flowerpot saucers, clogged gutters and tree holes"],
+      ["Pupa (tumbler)", "Does not feed but can move about; the adult emerges after about 2 days", "The same water as the larvae"],
+      ["Adult female", "Black, with one white stripe from the head down the back, white bands on the legs and white scales on the palps; about 0.08 to 0.4 inch (2 to 10 mm)", "Resting in shady shrubs near the ground; biting ankles and knees by day"],
+      ["Adult male", "Same pattern but about 20% smaller, with bushy antennae; does not bite", "Within a few blocks of the container it came from"]
+    ],
+    "caption": "Markings, sizes and stage lengths: UF/IFAS. Eggs, flight and who bites: CDC. Biting places: the Maryland Department of Agriculture. Gutters: Clemson Extension. All are linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "What does an Asian tiger mosquito look like?" },
+    { "type": "p", "text": "It is a black mosquito with one white stripe down the middle of its back and white bands on its legs. [UF/IFAS Extension's species profile](https://ask.ifas.ufl.edu/publication/IN594) describes shiny black scales, silvery-white scales on the palps and feet, and a white stripe that starts on top of the head and runs down the thorax, and calls field identification very easy because of those marks. Adults measure about 0.08 to 0.4 inch (2 to 10 mm), and the abdomen narrows to a point, a trait of the genus *Aedes*." },
+    { "type": "figure", "src": "/guides/photos/aedes-albopictus-biting.webp", "width": 1200, "height": 795, "alt": "Asian tiger mosquito seen from the side on a person's skin, black with white spots on its body, white-banded legs and its proboscis pressed into the skin", "caption": "A female Asian tiger mosquito pushing her proboscis into the skin of the photographer she landed on, in a CDC photo. The white bands on the legs show clearly from the side.", "license": "public-domain", "credit": "CDC/ James D. Gathany; photo: James D. Gathany (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=2165" },
+    { "type": "p", "text": "From above, the single stripe is the mark to look for. [Texas A&M AgriLife's Mosquito Safari](https://mosquitosafari.tamu.edu/aedes-albopictus) describes a strikingly marked black-and-white mosquito with distinct white bands at the base of the leg segments and the abdominal segments, and calls it the most widespread nuisance mosquito in urban areas across the southern two-thirds of the eastern US." },
+    { "type": "figure", "src": "/guides/photos/aedes-albopictus-biting-leg.webp", "width": 1200, "height": 1600, "alt": "Small black mosquito seen from above on the hairy skin of a person's leg, with a thin white line down the middle of its back and black-and-white banded legs", "caption": "An Asian tiger mosquito on a leg in Savannah, Georgia, which the observer says it bit. From above, look for the thin white line down the middle of the back.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/135703423" },
+    { "type": "h3", "text": "Is it a male or a female?" },
+    { "type": "p", "text": "Only the female bites. [CDC's page on the Aedes life cycle](https://www.cdc.gov/mosquitoes/about/life-cycle-of-aedes-mosquitoes.html) says only female *Aedes* mosquitoes bite, and UF/IFAS says males are on average about 20% smaller, with plumose, or bushy, antennae and mouthparts built for feeding on nectar. The guide to [telling a male mosquito from a female](/blog/male-vs-female-mosquito) shows the antennae side by side." },
+    { "type": "figure", "src": "/guides/photos/aedes-albopictus.webp", "width": 1200, "height": 800, "alt": "Male Asian tiger mosquito resting on skin, seen from the side, black with white spots on the thorax and white-banded legs, against a yellow background", "caption": "A male Asian tiger mosquito resting on skin, in a CDC photo. Males carry the same black-and-white pattern, but only females bite.", "license": "public-domain", "credit": "CDC/ Amy E. Lockwood, MS (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26043" },
+
+    { "type": "h2", "text": "Asian tiger mosquito vs yellow fever mosquito: how do you tell them apart?" },
+    { "type": "p", "text": "Check the top of the thorax. The two look alike to the naked eye, [UF/IFAS's yellow fever mosquito profile](https://ask.ifas.ufl.edu/publication/IN792) says, but the yellow fever mosquito, *Aedes aegypti*, carries white scales in the shape of a lyre or violin on its back, while the Asian tiger mosquito has a single white stripe down the middle. Both have white bands at the base of the leg segments." },
+    { "type": "figure", "src": "/guides/photos/aedes-aegypti-female.webp", "width": 1200, "height": 767, "alt": "Female yellow fever mosquito standing on a green surface, black with curved white lines on top of the thorax and white-banded legs", "caption": "A female yellow fever mosquito, Aedes aegypti, in a CDC photo. The curved white lines on her back are part of the lyre that sets her apart from the tiger mosquito's single stripe.", "license": "public-domain", "credit": "CDC/ Amy E. Lockwood, MS; photo: Lauren Bishop; Brandon Clifton (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26042" },
+    { "type": "table", "head": ["Feature", "Asian tiger mosquito", "Yellow fever mosquito"], "rows": [
+      ["Top of the thorax", "One white stripe down the middle", "White lyre, or violin, shape"],
+      ["Size", "About 0.08 to 0.4 inch (2 to 10 mm)", "About 1/4 inch (4 to 7 mm)"],
+      ["Where it lives", "Outdoors, in or near homes or nearby woods", "Indoors and outdoors"],
+      ["What it bites", "People and animals", "Prefers people"],
+      ["US records, 1995 to March 2016", "1,241 counties in 40 states and DC", "183 counties in 26 states and DC"],
+      ["Dengue, chikungunya, Zika", "Can spread them, but less likely to", "The main mosquito that spreads them"]
+    ], "caption": "Markings and sizes: UF/IFAS. Where each lives, what it bites and its disease role: CDC. Records: Hahn and colleagues, Journal of Medical Entomology, 2016. All linked on this page." },
+    { "type": "p", "text": "Where the two species met, the tiger mosquito's arrival has been linked to a decline of the yellow fever mosquito. UF/IFAS lists likely reasons: sterile offspring when the species cross-mate, parasites brought in with the tiger mosquito, and tiger mosquito larvae winning the competition for food." },
+    { "type": "p", "text": "No stripe and no leg bands, and biting after dark? That points away from both. A mosquito that finds you at night is more likely a *Culex* house mosquito: [CDC says adult Culex mosquitoes are most active from dusk to dawn](https://www.cdc.gov/mosquitoes/about/culex-mosquitoes.html)." },
+
+    { "type": "h2", "text": "Asian tiger mosquito map: where does it live in the US?" },
+    { "type": "p", "text": "Mostly across the South and East, and less often to the north and west. A 2019 analysis by CDC scientists and colleagues, published in [PLOS Computational Biology](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007369), counted 1,568 of the 3,111 counties in the contiguous US with at least one record of the mosquito, meaning a mosquito of any life stage was collected and reported there. It used records from 1995 to 2016 plus earlier historical ones. The map shows, for each state, the share of its counties on that list." },
+    { "type": "map", "scope": "us", "title": "Asian tiger mosquito map: share of each state's counties with a record", "categories": [
+      { "key": "most", "label": "Half or more of its counties" },
+      { "key": "some", "label": "10% to 49% of its counties" },
+      { "key": "few", "label": "Under 10% of its counties" }
+    ], "values": {
+      "AL": "most", "AR": "most", "DC": "most", "DE": "most", "FL": "most", "GA": "most", "IN": "most", "KS": "most", "KY": "most", "LA": "most", "MD": "most", "MS": "most", "NC": "most", "NJ": "most", "OK": "most", "PA": "most", "RI": "most", "SC": "most", "TN": "most", "TX": "most", "VA": "most", "WV": "most",
+      "AZ": "some", "CA": "some", "CT": "some", "IL": "some", "MA": "some", "MO": "some", "NH": "some", "NY": "some", "OH": "some",
+      "CO": "few", "IA": "few", "MI": "few", "MN": "few", "NE": "few", "NM": "few", "OR": "few", "UT": "few", "WA": "few"
+    }, "caption": "A county counts if at least one Asian tiger mosquito of any life stage was collected and reported there, in records from 1995 to 2016 plus earlier ones, as compiled for a 2019 study by CDC scientists and colleagues. No record does not mean no mosquitoes: many counties have had little surveillance, and records after 2016 are not included. Alaska and Hawaii are outside this dataset. Shares calculated by BuzzSkito.", "source": "[Monaghan and colleagues, PLOS Computational Biology, 2019](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007369): county presence records for the contiguous US, released with the paper under CC0" },
+    { "type": "p", "text": "Every county is on the list in ten states (Alabama, Delaware, Florida, Georgia, Mississippi, New Jersey, North Carolina, South Carolina, Tennessee and Virginia) and in the District of Columbia, and so are 23 of Maryland's 24 counties. The records thin out across New England, the upper Midwest and the West, and nine states have none: Maine, Vermont, Wisconsin, North Dakota, South Dakota, Montana, Idaho, Wyoming and Nevada." },
+    { "type": "h3", "text": "What CDC's estimated range map shows" },
+    { "type": "p", "text": "[CDC's estimated range maps](https://www.cdc.gov/mosquitoes/php/toolkit/potential-range-of-aedes.html), dated 2017 and built with a model that used county records, historical records and climate, show where the tiger mosquito could survive and reproduce if it were introduced. On that map the highest likelihood covers most of the Southeast and the lower Midwest and runs up the mid-Atlantic, with lower ratings toward New England and the Great Lakes, along parts of the Pacific Coast and in pockets of the Southwest. CDC stresses that the maps do not show the risk of disease, and that populations may turn up outside the shaded areas and be missing from some shaded ones." },
+    { "type": "p", "text": "The 2019 analysis drew a similar edge. Its combined model gave better-than-even odds of presence west to eastern Texas and Oklahoma and north to Arkansas, southern Illinois, Indiana, Ohio, West Virginia and Maryland, reaching southwestern Connecticut along the coast. The authors also found that the combined model underrated west Texas, Oklahoma and Kansas, where many counties had already reported the mosquito." },
+
+    { "type": "h2", "text": "How did the Asian tiger mosquito spread across the US?" },
+    { "type": "p", "text": "It came from Asia in the 1980s and moved with the used-tire trade. UF/IFAS says it was first documented in the US in Texas in 1985 and turned up a year later at a tire dump near Jacksonville, Florida. The Maryland Department of Agriculture says the species most likely reached the Western Hemisphere through international trade in used tires, and that Maryland's first tiger mosquitoes were found in 1987 at a used tire processing plant in Baltimore." },
+    { "type": "p", "text": "By March 2016 it had been reported in 1,241 counties in 40 states and the District of Columbia, according to a review of records since 1995 by CDC scientists in the [Journal of Medical Entomology](https://pmc.ncbi.nlm.nih.gov/articles/PMC9379858/). It had been collected in at least three separate years in 514 counties in 34 states and DC, though the authors caution that repeat records do not necessarily mean an established population." },
+    { "type": "p", "text": "Cold slows it less than its tropical cousin. CDC's range page says the tiger mosquito can live in a broader temperature range and at cooler temperatures than the yellow fever mosquito, and UF/IFAS says it survives temperate winters in the egg stage; the guide to [how cold affects mosquitoes and their eggs](/blog/what-temperature-kills-mosquitoes) explains why a frost does not end the story." },
+
+    { "type": "h2", "text": "Are there Asian tiger mosquitoes in Ontario and Canada?" },
+    { "type": "p", "text": "Yes, in southern Ontario. [Public Health Ontario's 2026 assessment of climate change and vector-borne disease](https://www.publichealthontario.ca/-/media/Documents/H/26/hira-climate-change-vector-borne-disease.pdf?rev=6a295cd193f541618f1d08e73e60db92&sc_lang=en) says the first established population of *Aedes albopictus* in Canada was detected in Windsor, Ontario, in 2016, and calls it a newly invasive mosquito in the province." },
+    { "type": "p", "text": "Two years of active surveillance in Windsor-Essex County had documented established populations by 2018, [Public Health Ontario reported](https://www.publichealthontario.ca/-/media/documents/a/2019/at-a-glance-zika-virus-update.pdf?sc_lang=en), likely because the cold-tolerant tiger mosquito survived the winters there. The few yellow fever mosquitoes found in the same area were more likely summer arrivals that died off each winter." },
+    { "type": "p", "text": "Researchers who studied the Windsor population collected its larvae and pupae from tires, tree holes, foam containers, discarded plastic cups, old recycling bins and egg-laying traps, and caught the most adults in September, according to [their 2020 report in Medical and Veterinary Entomology](https://onlinelibrary.wiley.com/doi/10.1111/mve.12408)." },
+    { "type": "p", "text": "Outside Windsor-Essex, [Global News reported](https://globalnews.ca/news/12027011/aggressive-asian-tiger-mosquito-found-in-niagara-region/) on August 19, 2026, that Niagara Region Public Health's surveillance program had found a single *Aedes albopictus* in Lincoln, Ontario, and that it tested negative for mosquito-borne viruses. Public Health Ontario expects warmer temperatures and erratic winters to widen the range of mosquitoes such as the tiger mosquito that can carry La Crosse virus." },
+
+    { "type": "h2", "text": "When are Asian tiger mosquitoes most active?" },
+    { "type": "p", "text": "By day, especially in the early morning and late afternoon. UF/IFAS and the Maryland Department of Agriculture both give those two peaks, and Maryland says the tiger mosquito rarely bites at night. Between meals it rests in shady shrubs near the ground, UF/IFAS says. [CDC's dengue page](https://www.cdc.gov/dengue/transmission/index.html) adds that *Aedes* mosquitoes as a group can bite during the day and at night, so darkness is no guarantee." },
+    { "type": "h3", "text": "What months are tiger mosquitoes out?" },
+    { "type": "p", "text": "It depends on the climate. In Maryland, adults are found from May through October and peak from June through September, while eggs are present all year, the state's Department of Agriculture says. UF/IFAS says the species is active all year in tropical and subtropical places, and in Windsor, Ontario, adult catches peaked in September." },
+    { "type": "h3", "text": "When do Asian tiger mosquitoes go away?" },
+    { "type": "p", "text": "Where winters are cold, the adults are gone by late fall and the species waits for spring as eggs; in the warmest parts of the South it can stay active all year. Eggs left stuck to a bucket or tire can hatch when rain or sprinklers cover them, CDC's life-cycle page says, so scrubbing out containers in fall removes eggs that could hatch the next year. For the hour-by-hour pattern of every mosquito group, see [when mosquitoes bite and when they stop](/blog/when-are-mosquitoes-most-active)." },
+
+    { "type": "h2", "text": "Where do Asian tiger mosquitoes breed?" },
+    { "type": "p", "text": "In small containers of standing water around homes. CDC's life-cycle page says females lay their eggs on the inner walls of water-holding containers, above the waterline, where the eggs stick like glue and can survive drying out for up to 8 months. When rain or sprinklers raise the water, the eggs hatch, and an egg can become an adult in 7 to 10 days." },
+    { "type": "figure", "src": "/guides/photos/aedes-albopictus-eggs.webp", "width": 1200, "height": 790, "alt": "Many shiny black, cigar-shaped Asian tiger mosquito eggs scattered on a tan paper surface under magnification", "caption": "Asian tiger mosquito eggs on paper, magnified, in a CDC photo. UF/IFAS puts each egg at about 0.02 inch (0.5 mm) long.", "license": "public-domain", "credit": "CDC/ Dr. Henry D. Pratt (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=21723" },
+    { "type": "p", "text": "UF/IFAS lists tires, animal watering dishes, birdbaths, flowerpots and natural holes in plants as egg sites, and the [Clemson Cooperative Extension fact sheet](https://hgic.clemson.edu/factsheet/asian-tiger-mosquito/) adds clogged rain gutters, plastic tarps, buckets, children's toys, boats, cans, bottles and bamboo stumps. Maryland says outdoor containers are greatly preferred over indoor ones. The guide to [hidden breeding spots in a backyard](/blog/hidden-mosquito-breeding-spots-backyard) walks through the places people miss." },
+    { "type": "media", "needed": "Asian tiger mosquito larvae (Aedes albopictus, identified as such, not Ae. aegypti) in a small outdoor container such as a flowerpot saucer, tire or bucket, identified by CDC, an extension service or an entomologist; public domain or CC0" },
+    { "type": "p", "text": "Larvae usually turn into pupae after 5 to 10 days, and the pupal stage lasts about 2 days, UF/IFAS says. [What mosquito larvae look like](/blog/mosquito-larvae-identification) helps you check a bucket, and [the mosquito life cycle](/learn/mosquito-life-cycle) explains each stage." },
+
+    { "type": "h2", "text": "What does an Asian tiger mosquito bite look like?" },
+    { "type": "p", "text": "Like other mosquito bites. [CDC's page on mosquito bites](https://www.cdc.gov/mosquitoes/about/about-mosquito-bites.html) describes a puffy, reddish bump a few minutes after the bite, then a hard, itchy, reddish-brown bump or several bumps a day or so later; some people get small blisters or dark spots that look like bruises instead. The bump and the itch are the body's reaction to the mosquito's saliva." },
+    { "type": "figure", "src": "/guides/photos/mosquito-bite-welt-quarter.webp", "width": 1200, "height": 799, "alt": "Raised pink welt from a mosquito bite on the inside of a forearm, next to a US quarter for scale", "caption": "A raised, reddened mosquito bite reaction beside a US quarter for scale, in a CDC photo. CDC does not name the mosquito species.", "license": "public-domain", "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28626" },
+    { "type": "p", "text": "Tiger mosquitoes bite any exposed skin but prefer the ankles and knees, the Maryland Department of Agriculture says, so their bites tend to collect low on the legs; [why mosquitoes go for ankles and feet](/blog/why-do-mosquitoes-bite-my-ankles) covers the reasons. CDC says severe reactions are more likely in children, in adults bitten by a mosquito species they have not been exposed to before and in people with immune system disorders, and it advises seeing a healthcare provider if a bite that looks infected gets worse." },
+    { "type": "h3", "text": "Other bites that turn up on the ankles" },
+    { "type": "p", "text": "Small itchy bites around the ankles are not always from a mosquito. Chigger bites form a speckled line of red spots where clothing fits tightly, such as sock lines and waistbands, and itch most in the first 24 to 48 hours, [Cleveland Clinic says](https://my.clevelandclinic.org/health/diseases/23267-chigger-bites). Flea bites are small discolored bumps, sometimes ringed by a halo, that mostly stay on the feet, calves and ankles and can sit in a straight line or a cluster, according to [Cleveland Clinic's flea bite page](https://my.clevelandclinic.org/health/diseases/21718-flea-bites). Biting midges, or no-see-ums, are usually only 0.04 to 0.08 inch (1 to 2 mm) long and get through ordinary window screens, [UF/IFAS Extension says](https://ask.ifas.ufl.edu/publication/IN626)." },
+    { "type": "confused", "title": "Ankle bites often mistaken for tiger mosquito bites", "items": [
+      { "href": "/blog/no-see-um-bites", "name": "No-see-um bites", "photo": "biting-midge-bites-ankles", "note": "From a biting midge under 1/10 inch long that gets through ordinary window screens", "alt": "Many small red bumps from biting midge bites on a man's lower legs above rolled-down white socks" },
+      { "href": "/blog/chigger-bites", "name": "Chigger bites", "photo": "chigger-bites-ruler", "note": "A speckled line of red spots where clothing fits tightly, such as sock lines", "alt": "Three raised red chigger bite welts on a hairy arm beside a ruler marked in inches" },
+      { "href": "/blog/flea-bites", "name": "Flea bites", "photo": "flea-bites-ankles-cdc", "note": "Small bumps in a line or cluster that mostly stay on the feet, calves and ankles", "alt": "Dozens of small dark flea bite spots around a woman's ankles and lower legs above black shoes" }
+    ] },
+    { "type": "p", "text": "Still not sure? The [bug bite identifier](/tools/bug-bite-identifier) narrows it down from six questions, and the [photo guide to common bug bites](/learn/bug-bites) compares them side by side." },
+
+    { "type": "h2", "text": "What diseases can Asian tiger mosquitoes carry?" },
+    { "type": "p", "text": "It can spread dengue, chikungunya and Zika viruses, but less readily than the yellow fever mosquito. CDC's range page explains that because the tiger mosquito feeds on animals as well as people, it is less likely than *Aedes aegypti* to spread those viruses, and CDC's dengue page names both species as carriers of dengue. Agencies also link it to dog heartworm and, with some disagreement, to West Nile virus:" },
+    { "type": "table", "head": ["Illness", "What agencies say about the tiger mosquito's role"], "rows": [
+      ["Dengue, chikungunya and Zika", "A carrier, but less likely than the yellow fever mosquito to spread them, because it feeds on animals as well as people (CDC)"],
+      ["Dog heartworm", "Known to transmit the parasite (Maryland Department of Agriculture; Clemson Extension)"],
+      ["West Nile virus", "Considered a vector in Maryland by the state's Department of Agriculture, while Texas A&M AgriLife says it is not thought to carry the virus; CDC names Culex mosquitoes among those that spread West Nile in US states"],
+      ["La Crosse and Cache Valley viruses", "Capable of transmitting both (Public Health Ontario)"]
+    ], "caption": "From CDC, the Maryland Department of Agriculture, Clemson Extension, Texas A&M AgriLife and Public Health Ontario, each linked on this page. Not a diagnosis." },
+    { "type": "p", "text": "UF/IFAS describes the tiger mosquito as a less efficient carrier than other *Aedes* mosquitoes and says it should be monitored for disease activity." },
+    { "type": "callout", "tone": "warning", "title": "When to see a healthcare provider", "text": "CDC warns that scratched bites can become infected and advises seeing a healthcare provider if an infected bite, which may look red, feel warm or have a red streak spreading from it, gets worse. If you feel unwell after being bitten, mention the bites and any recent travel. This page summarizes agency guidance and is not a diagnosis." },
+
+    { "type": "h2", "text": "How do you get rid of Asian tiger mosquitoes?" },
+    { "type": "p", "text": "Take away the water they breed in, every week. The Maryland Department of Agriculture calls reducing or eliminating water-holding containers the most effective way to control tiger mosquitoes, and [CDC's bite prevention page](https://www.cdc.gov/mosquitoes/prevention/index.html) advises emptying and scrubbing, turning over, covering or throwing out anything that holds water once a week. The eggs cling to container walls above the waterline, CDC's life-cycle page notes, so scrub as well as empty." },
+    { "type": "ul", "items": [
+      "**Think in blocks, not just your yard.** CDC says these mosquitoes fly only a few blocks in their lifetime, and Maryland finds most adults within a few hundred yards of the container they came from, so a neighbor's containers matter too.",
+      "**Treat water you cannot dump.** Clemson Extension suggests floating products that release Bti, a bacterium that kills the larvae that eat it, for small water features, used as the label directs; it leaves larger bodies of water to professionals.",
+      "**Do not count on night fogging.** Clemson says nighttime fogs by mosquito control agencies often fail against this daytime mosquito, and Maryland says spraying gives temporary relief that may need repeating weekly in heavily infested neighborhoods.",
+      "**Protect your skin.** CDC recommends EPA-registered repellents with DEET, picaridin, IR3535, oil of lemon eucalyptus (OLE), para-menthane-diol (PMD) or 2-undecanone, used as the label directs, and no OLE or PMD on children under 3. Permethrin-treated clothing helps, but do not put permethrin on skin.",
+      "**Keep them outside.** CDC advises screens on windows and doors, with any holes repaired."
+    ] },
+    { "type": "p", "text": "The guide to [getting rid of mosquitoes in the yard](/blog/how-to-get-rid-of-mosquitoes) covers treating water you cannot empty and whether sprays and foggers work, and [the mosquito repellent guide](/blog/best-mosquito-repellent) compares DEET, picaridin and the other active ingredients." },
+    { "type": "callout", "tone": "tip", "title": "Catch one for an ID", "text": "Trap a resting mosquito under a clear jar, slide paper underneath and photograph it from above beside a ruler marked in inches; the single white stripe shows best from the top. Your state's cooperative extension office or local mosquito control district can confirm it, and in Ontario, health units such as Windsor-Essex and Niagara run mosquito surveillance." }
+  ],
+  "faqs": [
+    {
+      "question": "Are Asian tiger mosquitoes dangerous?",
+      "answer": "Mostly they are a biting nuisance, but they can carry disease. CDC lists the Asian tiger mosquito as a carrier of dengue, chikungunya and Zika viruses, though it says the yellow fever mosquito is more likely to spread them because the tiger mosquito also feeds on animals. The Maryland Department of Agriculture says it transmits dog heartworm. CDC says some people have only a mild reaction to a bite, and it advises seeing a healthcare provider if a bite that looks infected gets worse."
+    },
+    {
+      "question": "Why is it called the Asian tiger mosquito?",
+      "answer": "For where it came from and how it looks. The Maryland Department of Agriculture says the species was introduced to North America from Asia, most likely through the international trade in used tires. Its striped look does the rest: UF/IFAS Extension describes shiny black scales, silvery-white scales on the palps and feet, white bands on the legs and a single white stripe running from the top of the head down the back."
+    },
+    {
+      "question": "Do Asian tiger mosquitoes bite at night?",
+      "answer": "Rarely. The Maryland Department of Agriculture says tiger mosquitoes bite in the daytime and rarely at night, with peaks in the early morning and late afternoon, which matches UF/IFAS Extension. CDC notes that Aedes mosquitoes as a group can bite during the day and at night, so darkness is no guarantee. If you are bitten mostly after dark, a Culex house mosquito, which CDC says is most active from dusk to dawn, is a likelier culprit."
+    },
+    {
+      "question": "When do Asian tiger mosquitoes go away?",
+      "answer": "Where winters are cold, the adults disappear in fall and the species survives as eggs. In Maryland, adults are found from May through October and peak from June through September, while eggs are present all year, the state's Department of Agriculture says. UF/IFAS Extension says the mosquito overwinters as eggs in temperate climates but stays active year-round in tropical and subtropical areas. Eggs left on containers can hatch when water covers them."
+    },
+    {
+      "question": "How far can an Asian tiger mosquito fly?",
+      "answer": "Not far. CDC says these mosquitoes fly only a few blocks in their lifetime, Texas A&M AgriLife says the tiger mosquito usually stays within a block or two of where it bred, and the Maryland Department of Agriculture finds most adults within a few hundred yards of their breeding container. That short range means the mosquitoes biting you probably hatched nearby, in your yard or a neighbor's."
+    },
+    {
+      "question": "Can Asian tiger mosquitoes survive winter in the north?",
+      "answer": "Their eggs can. UF/IFAS Extension says the species passes temperate winters in the egg stage, and CDC says it tolerates cooler temperatures than the yellow fever mosquito. In Windsor-Essex County, Ontario, two years of active surveillance had documented established populations by 2018, which Public Health Ontario said was likely the result of successful overwintering. County records still thin out sharply across the northern US, and nine northern and western states have none."
+    },
+    {
+      "question": "Do Asian tiger mosquitoes carry West Nile virus?",
+      "answer": "Agencies differ. The Maryland Department of Agriculture considers the tiger mosquito a vector of West Nile virus in that state, and Clemson Extension says it may be one, but Texas A&M AgriLife says it is not thought to carry the virus. CDC names Culex mosquitoes, which are most active from dusk to dawn, among the mosquitoes that spread West Nile in US states, so it pays to protect yourself in the evening as well."
+    },
+    {
+      "question": "Why do Asian tiger mosquitoes bite my ankles?",
+      "answer": "They tend to bite low. The Maryland Department of Agriculture says tiger mosquitoes will bite any exposed skin but prefer the ankles and knees, and UF/IFAS Extension says they rest in shady shrubs near the ground between meals. Clemson Extension advises repellent, long sleeves and long pants outdoors. Itchy bites around the ankles can also come from chiggers, fleas or no-see-ums, so look at the pattern before blaming mosquitoes."
+    },
+    {
+      "question": "Does bug spray work on Asian tiger mosquitoes?",
+      "answer": "Skin repellents do. CDC recommends EPA-registered insect repellents containing DEET, picaridin, IR3535, oil of lemon eucalyptus, para-menthane-diol or 2-undecanone, applied as the label directs, and says not to use oil of lemon eucalyptus or para-menthane-diol on children under 3. For yards, Clemson Extension notes that nighttime fogging often misses this daytime mosquito, and Maryland says removing water-holding containers is the most effective control."
+    },
+    {
+      "question": "Where did the Asian tiger mosquito come from?",
+      "answer": "Asia. UF/IFAS Extension says the species is native to Asia and the Pacific islands and has spread to North and South America, Africa and Europe. In the US it was first documented in Texas in 1985 and turned up a year later at a tire dump near Jacksonville, Florida. Maryland's first record came in 1987, at a used tire processing plant in Baltimore, and the state links its spread to the trade in used tires."
+    }
+  ],
+  "sources": [
+    { "title": "Asian Tiger Mosquito, Aedes albopictus (Skuse) (EENY-319; L. Rios and J. E. Maruniak)", "publisher": "University of Florida IFAS Extension, Featured Creatures", "url": "https://ask.ifas.ufl.edu/publication/IN594" },
+    { "title": "Yellow Fever Mosquito, Aedes aegypti (Linnaeus) (EENY-434; C. Zettel Nalen and P. Kaufman)", "publisher": "University of Florida IFAS Extension, Featured Creatures", "url": "https://ask.ifas.ufl.edu/publication/IN792" },
+    { "title": "Types of Mosquitoes: Aedes albopictus (Mosquito Safari)", "publisher": "Texas A&M AgriLife Extension Service", "url": "https://mosquitosafari.tamu.edu/aedes-albopictus" },
+    { "title": "Life Cycle of Aedes Mosquitoes (updated April 16, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/mosquitoes/about/life-cycle-of-aedes-mosquitoes.html" },
+    { "title": "Potential Range of Aedes Mosquitoes (estimated range maps, 2017; page updated July 1, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/mosquitoes/php/toolkit/potential-range-of-aedes.html" },
+    { "title": "Consensus and uncertainty in the geographic range of Aedes aegypti and Aedes albopictus in the contiguous United States: Multi-model assessment and synthesis (A. J. Monaghan and others, PLOS Computational Biology 15(10): e1007369, October 2019)", "publisher": "PLOS Computational Biology", "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007369" },
+    { "title": "Reported Distribution of Aedes (Stegomyia) aegypti and Aedes (Stegomyia) albopictus in the United States, 1995-2016 (M. B. Hahn and others, Journal of Medical Entomology 53(5): 1169-1175, 2016)", "publisher": "Journal of Medical Entomology, via PubMed Central", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9379858/" },
+    { "title": "Asian Tiger Mosquito", "publisher": "Maryland Department of Agriculture, Mosquito Control", "url": "https://mda.maryland.gov/plants-pests/mosquito-control/mosquito-basics/asian-tiger-mosquito" },
+    { "title": "Asian Tiger Mosquito (HGIC 2471; W. K. Reeves, E. P. Benson and C. Stoops, November 25, 2002)", "publisher": "Clemson Cooperative Extension, Home & Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/asian-tiger-mosquito/" },
+    { "title": "At a Glance: Zika Virus Infection Update (October 2018)", "publisher": "Public Health Ontario", "url": "https://www.publichealthontario.ca/-/media/documents/a/2019/at-a-glance-zika-virus-update.pdf?sc_lang=en" },
+    { "title": "Hazard Identification and Risk Assessment (HIRA): Climate Change and Vector-borne Diseases (May 2026)", "publisher": "Public Health Ontario", "url": "https://www.publichealthontario.ca/-/media/Documents/H/26/hira-climate-change-vector-borne-disease.pdf?rev=6a295cd193f541618f1d08e73e60db92&sc_lang=en" },
+    { "title": "Discovery of an Aedes (Stegomyia) albopictus population and first records of Aedes (Stegomyia) aegypti in Canada (B. V. Giordano and others, Medical and Veterinary Entomology 34(1): 10-16, 2020)", "publisher": "Medical and Veterinary Entomology (Wiley)", "url": "https://onlinelibrary.wiley.com/doi/10.1111/mve.12408" },
+    { "title": "'Aggressive' Asian tiger mosquito found in Niagara Region (A. D'Andrea, August 19, 2026)", "publisher": "Global News", "url": "https://globalnews.ca/news/12027011/aggressive-asian-tiger-mosquito-found-in-niagara-region/", "kind": "news" },
+    { "title": "How Dengue Spreads (updated May 22, 2025)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/dengue/transmission/index.html" },
+    { "title": "About Mosquito Bites (June 21, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/mosquitoes/about/about-mosquito-bites.html" },
+    { "title": "Preventing Mosquito Bites (updated August 28, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/mosquitoes/prevention/index.html" },
+    { "title": "About Culex Mosquitoes (updated September 3, 2025)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/mosquitoes/about/culex-mosquitoes.html" },
+    { "title": "Chigger Bites (last updated June 7, 2022)", "publisher": "Cleveland Clinic", "url": "https://my.clevelandclinic.org/health/diseases/23267-chigger-bites" },
+    { "title": "Flea Bites (last updated August 31, 2021)", "publisher": "Cleveland Clinic", "url": "https://my.clevelandclinic.org/health/diseases/21718-flea-bites" },
+    { "title": "Biting Midges, No-See-Ums, Culicoides spp. (EENY-349; N. Burkett-Cadena and others)", "publisher": "University of Florida IFAS Extension, Featured Creatures", "url": "https://ask.ifas.ufl.edu/publication/IN626" }
+  ],
+  "disclaimer": "health"
+}

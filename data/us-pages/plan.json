@@ -10965,14 +10965,14 @@
     "pesticide"
    ],
    "minWords": 1200,
-   "datePublished": "2026-12-07",
+   "datePublished": "2026-11-08",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": null,
    "state": null,
-   "releaseOn": "2026-12-07",
+   "releaseOn": "2026-11-08",
    "parent": null,
    "h1Hint": "Permethrin for Clothing: How to Treat Gear for Ticks and Mosquitoes (US)",
    "scope": "US edition: how EPA-registered clothing treatments work, how to apply and how long they last through washes, factory-treated clothing, the danger to cats, and what permethrin is not for (skin).",
@@ -11155,14 +11155,14 @@
     "id"
    ],
    "minWords": 1600,
-   "datePublished": "2026-12-07",
+   "datePublished": "2026-11-07",
    "projClicks": 0,
    "batch": "god",
    "audience": "na",
    "role": "page",
    "series": null,
    "state": null,
-   "releaseOn": "2026-12-07",
+   "releaseOn": "2026-11-07",
    "parent": {
     "href": "/learn",
     "name": "Learning Centre"
@@ -11283,14 +11283,14 @@
     "id"
    ],
    "minWords": 1400,
-   "datePublished": "2026-12-07",
+   "datePublished": "2026-11-07",
    "projClicks": 0,
    "batch": "god",
    "audience": "na",
    "role": "page",
    "series": null,
    "state": null,
-   "releaseOn": "2026-12-07",
+   "releaseOn": "2026-11-07",
    "parent": {
     "href": "/learn",
     "name": "Learning Centre"
@@ -28215,6 +28215,195 @@
     "mustLink": [
      "/learn/bug-bites"
     ],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "best-mosquito-spray-for-yard",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/best-mosquito-spray-for-yard",
+   "keyword": "best mosquito spray for yard",
+   "alsoTargets": [
+    "mosquito spray for yard",
+    "mosquito yard spray",
+    "mosquito killer for yard",
+    "backyard mosquito spray",
+    "how long does mosquito yard spray last"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "amazon-com-buying",
+    "pesticide"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-09",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2026-11-09",
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "h1Hint": "Best Mosquito Spray for Yard: Barrier Sprays, Foggers and What Lasts",
+   "scope": "US buying guide, amazon.com picks only: EPA-registered products (25(b) products described honestly), label directions, no prices or star ratings, no testing claims. Barrier sprays on resting sites, the EPA-registered actives homeowners can buy, hose-end vs pump vs fogger, pollinator rules, kids and pets per label, how long it lasts, standing water first, DIY vs professional.",
+   "dataPacket": null,
+   "metaTitleHint": "Best Mosquito Spray for Yard: What Lasts Weeks",
+   "pageType": "buying",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/mosquito-fogger-canada and /blog/how-to-get-rid-of-mosquitoes-in-yard-ontario",
+     "overlap": "Canadian yard control pages",
+     "resolution": "they keep the Canadian searches; this page is for US buyers (EPA products)"
+    },
+    {
+     "path": "/blog/mosquito-bits-vs-dunks",
+     "overlap": "larval control",
+     "resolution": "adult barrier sprays here; Bti larvicides there; link both ways"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquito-bits-vs-dunks",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquito-bits-vs-dunks",
+   "keyword": "mosquito bits vs dunks",
+   "alsoTargets": [
+    "mosquito bits",
+    "mosquito dunks",
+    "how to use mosquito dunks",
+    "how long do mosquito dunks last",
+    "mosquito dunks for fungus gnats"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "amazon-com-buying",
+    "pesticide"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-09",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2026-11-09",
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "h1Hint": "Mosquito Bits vs Dunks: How Each Bti Larvicide Works and Where to Use It",
+   "scope": "US buying guide, amazon.com picks only: EPA-registered products (25(b) products described honestly), label directions, no prices or star ratings, no testing claims. Bti and how it works; Bits vs Dunks side by side (form, label dose, coverage, how long each lasts, where to use each); label doses; safety evidence; fungus gnats only as the label allows; what Bti does not do.",
+   "dataPacket": null,
+   "metaTitleHint": "Mosquito Bits vs Dunks: Which to Use Where",
+   "pageType": "buying",
+   "pairWith": "/blog/mosquito-bits-canada-vs-dunks",
+   "collisions": [
+    {
+     "path": "/blog/mosquito-bits-canada-vs-dunks",
+     "overlap": "the Canadian page (TSX, amazon.ca)",
+     "resolution": "regional pair: add { us: '/blog/mosquito-bits-vs-dunks', ca: '/blog/mosquito-bits-canada-vs-dunks' } to REGIONAL_PAIRS at release and wrap that page's metadata in withRegionalAlternates; its affiliate tokens must not change"
+    },
+    {
+     "path": "/blog/mosquito-larvae-identification",
+     "overlap": "how to kill larvae",
+     "resolution": "it keeps larvae identification; this page owns the Bti products; link both ways"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "best-tick-spray-for-yard",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/best-tick-spray-for-yard",
+   "keyword": "best tick spray for yard",
+   "alsoTargets": [
+    "tick spray for yard",
+    "tick yard spray",
+    "tick killer for yard",
+    "how to get rid of ticks in yard",
+    "tick control for yard"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "amazon-com-buying",
+    "pesticide"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-08",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2026-11-08",
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "h1Hint": "Best Tick Spray for Yard: Active Ingredients, Where to Spray and Pet Safety",
+   "scope": "US buying guide, amazon.com picks only: EPA-registered products (25(b) products described honestly), label directions, no prices or star ratings, no testing claims. CDC's yard approach, where and when to spray, the EPA-registered actives, 25(b) products honestly, tick tubes with their evidence, label safety for kids and pets, DIY vs professional.",
+   "dataPacket": null,
+   "metaTitleHint": "Best Tick Spray for Your Yard and Where to Spray",
+   "pageType": "buying",
+   "pairWith": "/blog/best-tick-repellent-yard-canada",
+   "collisions": [
+    {
+     "path": "/blog/best-tick-repellent-yard-canada",
+     "overlap": "the Canadian yard page",
+     "resolution": "regional pair: add { us: '/blog/best-tick-spray-for-yard', ca: '/blog/best-tick-repellent-yard-canada' } to REGIONAL_PAIRS at release and wrap that page's metadata in withRegionalAlternates"
+    },
+    {
+     "path": "/blog/permethrin-for-clothing",
+     "overlap": "permethrin",
+     "resolution": "clothing treatment there; yard treatment here; link both ways"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []

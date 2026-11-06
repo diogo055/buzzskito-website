@@ -1,0 +1,10 @@
+{
+ "id": "types-of-mosquitoes",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "ba752e6c606594a578a9e405a31b78b9adf52e130e8d3f299f702b5cef4448c8",
+ "claimsChecked": 275,
+ "claimsCorrected": 2,
+ "claimsRemovedOrSoftened": 7,
+ "checkedOn": "2026-11-06"
+}

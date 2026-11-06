@@ -449,6 +449,32 @@ Ranked by expected clicks x value (`research_notes/God plan 10k a day/new_pages.
   - **US editions:** best-bed-bug-interceptors pairs with bed-bug-interceptor-traps-canada and best-wasp-spray with best-wasp-nest-spray-canada (REGIONAL_PAIRS, hreflang on both Canadian pages, affiliate tokens unchanged). The regional script's edits to 5 other Canadian pages were reverted.
   - **amazon.com picks:** "Bed bug interceptor cups" and "Wasp and hornet jet spray" (basis sentences in `lib/amazon-us-picks.json`). The two buying guides send readers on to US guides, not Canadian amazon.ca pages (overrides plus stored cards).
   - **Homepage (owner's request):** title "Mosquito & Tick Control | Greater Toronto Area | From $99"; H1 "Mosquito & Tick Control in the Greater Toronto Area"; hero line "for backyards across the GTA, from our Mississauga-based team". Read it in May-June 2027 (memory `project_homepage_title_gbp`).
+- **2026-11-06, the mosquito & tick section** (owner: "fix the entire mosquito section... make the 10 pages... put the buttons near the top... make the existing pages rank higher"; commits `cb35171f`, `910b3797`, `e61d04a3` and the queue commit after them). Audit: memory `project_mosquito_tick_money_nov6`. Each page had a beat-the-top-3 read and a separate fact-check.
+  - **Upgraded and live (12):**
+    - mosquito-larvae-identification (30,700 summer impressions at 9.7) and the laser page (#1 earner);
+    - tick-head-stuck-in-skin (new title) and deer-tick-vs-dog-tick-canada;
+    - the repellent-device, DynaTrap and bug-zapper pages, plus screen tent and tick-removal-tool;
+    - the best and natural repellent pages;
+    - best-tick-repellent-yard-canada (broken by the Nov 5 sweep; now "Yard Tick Spray Canada: Is Cedarcide Registered?").
+    - Every Amazon element byte-identical against source snapshots. The Repel button became Natrapel lemon eucalyptus (30823), per the Nov 5 rule.
+    - Sourced corrections: black flies get through standard mesh; DynaTrap models and bulbs; no DT3050 exists; propane-trap evidence softened.
+  - **Top boxes and amazon.com lines: already done.** Every traffic-side mosquito/tick buying page got its box in October (the laser page has a TopPick under the disclosure). The pages Americans read already carry the line; the rest had under 90 US views all summer.
+  - **New and live (4):**
+    - what-do-mosquito-bites-look-like and skeeter-syndrome;
+    - deer-tick-vs-dog-tick (US; REGIONAL_PAIRS added);
+    - best-tick-repellent (Canadian TSX, registered products only, Natrapel pinned to ASIN B0BYFF3S3V; no Sawyer/Avon/Murphy's buttons because amazon.ca can show their US bottles).
+  - **Queued:**
+    - types-of-mosquitoes (now a regular article, ads on) and asian-tiger-mosquito: Nov 7;
+    - permethrin-for-clothing and best-tick-spray-for-yard: Nov 8;
+    - best-mosquito-spray-for-yard and mosquito-bits-vs-dunks: Nov 9, once their fact-check is recorded.
+    - Pace: Nov 6 used 9 new URLs, so only about 3 slots exist Nov 7-10. The robot spreads them; the last may wait until Nov 11-12.
+  - **Held to 2027-04-05:** the 11 rare-species and mosquito-disease pages; /learn/types-of-mosquitoes is deferred.
+  - **AFTER EACH ROBOT RELEASE (by hand, the release does not do these):**
+    1. amazon.com top picks into `lib/amazon-us-picks.json`, only once the page is live (check:amazon fails on a pick for a non-live page). Asian tiger: "Picaridin insect repellent", basis "Protect your skin. CDC recommends EPA-registered repellents..." The buying guides take their notes' proposed top pick.
+    2. REGIONAL_PAIRS plus withRegionalAlternates on the Canadian twin: permethrin-for-clothing ↔ permethrin-canada-yard-clothing-spray, best-tick-spray-for-yard ↔ best-tick-repellent-yard-canada, mosquito-bits-vs-dunks ↔ mosquito-bits-canada-vs-dunks. Neither of the first two Canadian pages wraps its metadata yet.
+    3. Indexing queue: add each page first.
+  - **Gamma-cyhalothrin:** taken out of best-tick-spray-for-yard's picks. EPA's 2020 proposed interim decision proposed cancelling its outdoor residential uses; the final 2021 decision could not be read (403). Bifenthrin granules are the top pick.
+  - **Owner flags (Amazon elements, not changed by the agents):** see scratchpad `upgrades/*.md`. Example: unsourced DynaTrap XL row specs.
 - **NEXT "go" (Nov 6; pace room 4 on Nov 6 UTC: 21 new in the 7 days to Nov 6):**
   - **First:** the NOW 10 (section 4), within the cap, starting with brown-recluse, phorid-flies, centipede-vs-millipede, tiny-flying-bugs-in-house and flea-bites-vs-bed-bug-bites.
   - **Then:** the german-cockroaches and house-centipedes pushes, and the December mosquito holds above.

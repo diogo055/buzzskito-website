@@ -1,0 +1,227 @@
+{
+  "slug": "types-of-mosquitoes",
+  "kind": "spoke",
+  "cluster": "mosquitoes",
+  "keyword": "types of mosquitoes",
+  "alsoTargets": [
+    "mosquito species",
+    "types of mosquitoes in the us",
+    "mosquito identification",
+    "different types of mosquitoes",
+    "kinds of mosquitoes",
+    "big mosquitoes",
+    "mosquito with white stripes",
+    "mosquito with black and white legs"
+  ],
+  "metaTitle": "Types of Mosquitoes: Photo ID Guide and Chart",
+  "metaDescription": "Most mosquitoes that bite in the US are Aedes, Culex, Anopheles or a few other groups. Real photos, ID tells, when each bites and what each can carry.",
+  "h1": "Types of Mosquitoes: The Ones That Bite in North America, With Photos",
+  "dek": "Real photos and field marks for the mosquitoes North Americans actually meet, from striped daytime biters to brown house mosquitoes and giant gallinippers, with when each bites and what each can carry.",
+  "breadcrumb": "Types of Mosquitoes",
+  "excerpt": "The main types of mosquitoes in the US and Canada, with real photos, how to tell them apart, when each bites, what each can carry and which bugs only look like mosquitoes.",
+  "datePublished": "2026-11-07",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Most mosquitoes that bite people in North America belong to a handful of groups: *Aedes*, including the striped, day-biting tiger mosquito; brown *Culex* house mosquitoes that bite from dusk to dawn; *Anopheles*, which rest tail-up; the giant *Psorophora* gallinipper; and the speckled cattail mosquito.** [CDC](https://www.cdc.gov/mosquitoes/about/about-mosquitoes-in-the-united-states.html) counts more than 200 types in the US and its territories.",
+    "bullets": [
+      "About 12 of those types spread germs that can make people sick, CDC says; most are nuisance mosquitoes that bite but do not spread disease.",
+      "Worldwide, more than 3,700 mosquito species are known, according to [CDC's Yellow Book](https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/mosquitoes-ticks-and-other-arthropods.html).",
+      "One white stripe down the back marks the Asian tiger mosquito, and a white lyre shape marks the yellow fever mosquito ([UF/IFAS](https://ask.ifas.ufl.edu/publication/IN792)).",
+      "*Culex* mosquitoes are most active from dusk to dawn and can spread West Nile virus ([CDC](https://www.cdc.gov/mosquitoes/about/culex-mosquitoes.html)).",
+      "*Anopheles* have palps as long as the proboscis and rest with the abdomen tipped up ([CDC](https://www.cdc.gov/dpdx/malaria/index.html)).",
+      "Crane flies reach about 1 1/2 inches and look like giant mosquitoes, but they do not bite ([Missouri Department of Conservation](https://mdc.mo.gov/discover-nature/field-guide/large-crane-flies))."
+    ]
+  },
+  "facts": {
+    "title": "Types of mosquitoes: quick ID",
+    "head": ["Mosquito", "How to spot it", "When it bites", "Can spread in the US"],
+    "rows": [
+      ["Asian tiger mosquito (Aedes albopictus)", "Black, with one white stripe down the back and white-banded legs", "By day, most in early morning and late afternoon", "Dengue, chikungunya and Zika, less readily than the yellow fever mosquito"],
+      ["Yellow fever mosquito (Aedes aegypti)", "Black, with a white lyre shape on the back and white-banded legs", "By day, indoors and outdoors", "Dengue, chikungunya and Zika; their main carrier"],
+      ["Inland floodwater mosquito (Aedes vexans)", "Brown, with narrow pale bands on the legs and notched pale bands on the abdomen", "In shade by day; worst at dusk and after dark", "Dog heartworm; not considered a serious threat to people"],
+      ["House mosquitoes (Culex pipiens, Culex quinquefasciatus)", "Medium-sized and brown", "Dusk to dawn", "West Nile, St. Louis encephalitis and eastern equine encephalitis"],
+      ["Western encephalitis mosquito (Culex tarsalis)", "Small and brown, with a pale band around the middle of the beak and pale bands at the leg joints", "Dusk to dawn", "West Nile, western equine and St. Louis encephalitis"],
+      ["Malaria mosquitoes (Anopheles)", "Palps as long as the beak; rests with the abdomen tipped up", "Mostly night, dusk or dawn", "Malaria, rarely: 10 locally acquired US cases in 2023"],
+      ["Gallinipper (Psorophora ciliata)", "Very large, black and white, like a super-sized tiger mosquito", "In large numbers after heavy rain floods low ground", "Not considered a significant disease carrier"],
+      ["Cattail mosquito (Coquillettidia perturbans)", "Speckled salt-and-pepper, with a pale band around the middle of the beak and pale bands on the legs", "Early evening; also by day in shade", "West Nile and eastern equine encephalitis"]
+    ],
+    "caption": "From CDC, UF/IFAS, Texas A&M AgriLife, the University of Florida and Brunswick County Mosquito Control, each linked on this page. Beak means the proboscis."
+  },
+  "body": [
+    { "type": "h2", "text": "How many types of mosquitoes are there?" },
+    { "type": "p", "text": "More than 200 types live in the continental US and US territories, [CDC says](https://www.cdc.gov/mosquitoes/about/about-mosquitoes-in-the-united-states.html), and about 12 of them spread germs that can make people sick; most are nuisance mosquitoes that bite but do not spread disease. Worldwide, [CDC's Yellow Book](https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/mosquitoes-ticks-and-other-arthropods.html) counts more than 3,700 species. This guide sorts the ones North Americans are likely to meet into six groups: *Aedes*, *Culex*, *Anopheles*, *Psorophora*, *Coquillettidia* and *Culiseta*." },
+    { "type": "figure", "src": "/guides/photos/culex-quinquefasciatus-female.webp", "width": 1200, "height": 800, "alt": "Brown southern house mosquito standing on skin, seen from the side, with a long dark proboscis and pale scales on its abdomen, against a yellow-green background", "caption": "A female southern house mosquito, Culex quinquefasciatus, in a CDC photo: a brown mosquito with no bold white markings.", "license": "public-domain", "credit": "CDC/ Amy E. Lockwood, MS; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26026" },
+    { "type": "p", "text": "Telling them apart takes a close look at a few things: the markings on the back and legs, the palps beside the proboscis, how the mosquito sits, when it bites and where its young grow. The table compares the main groups, and each one has its own section below." },
+    { "type": "table", "head": ["Group", "How to recognize it", "Where the young grow", "When it bites", "US examples"], "rows": [
+      ["Aedes", "Abdomen narrows to a point; container species are black with white bands", "Eggs stuck to damp container walls or flood-prone ground hatch when water covers them", "Container species mostly by day; floodwater species worst at dusk", "Asian tiger, yellow fever, inland floodwater and eastern treehole mosquitoes"],
+      ["Culex", "Medium-sized and brown", "Rafts of 100 to 300 eggs float on ponds, storm drains and ditches", "Dusk to dawn", "Northern house, southern house and western encephalitis mosquitoes"],
+      ["Anopheles", "Palps as long as the proboscis; rests with the abdomen tipped up", "Marshes, swamps and rice fields, mostly in clean water", "Mostly night, dusk or dawn", "Anopheles quadrimaculatus and Anopheles freeborni"],
+      ["Psorophora", "Includes the gallinipper, with a body about 1/2 inch long", "Eggs in soil at the edges of water that floods; they can wait years", "In large numbers after floods", "Gallinipper"],
+      ["Coquillettidia", "Speckled salt-and-pepper body; pale bands on the beak and legs", "Larvae cling to cattail roots underwater to breathe", "Early evening; by day in shade", "Cattail mosquito, the only species in the US and Canada"]
+    ], "caption": "From CDC, UF/IFAS, Texas A&M AgriLife, Brunswick County Mosquito Control and the University of Florida, each linked on this page." },
+
+    { "type": "h2", "text": "How do you tell mosquito types apart?" },
+    { "type": "p", "text": "Start with the back and legs, then check the beak, the palps and the posture. Bold black-and-white markings usually point to an *Aedes*, a brown mosquito biting after dark fits a *Culex*, and a mosquito resting with its tail in the air is likely an *Anopheles*. These checks work on a mosquito trapped under a glass:" },
+    { "type": "checklist", "title": "Five checks for a mosquito in a jar", "items": [
+      "**Back.** One white stripe down the middle means an Asian tiger mosquito; a white lyre or violin shape means a yellow fever mosquito, [UF/IFAS says](https://ask.ifas.ufl.edu/publication/IN792).",
+      "**Legs.** White bands on the legs are typical of the striped *Aedes*; a speckled body with pale leg bands suggests the cattail mosquito.",
+      "**Beak.** A pale band around the middle of the proboscis points to the western encephalitis mosquito or the cattail mosquito.",
+      "**Palps and posture.** Palps as long as the proboscis, and a resting pose with the abdomen sticking up rather than parallel to the surface, mean *Anopheles*, CDC says.",
+      "**Antennae.** Bushy, feathery antennae belong to males, which feed on nectar and do not bite; [how to tell a male mosquito from a female](/blog/male-vs-female-mosquito) shows both."
+    ] },
+    { "type": "p", "text": "Time of day is a clue too. [CDC's Culex page](https://www.cdc.gov/mosquitoes/about/culex-mosquitoes.html) says adult *Culex* are most active from dusk to dawn, CDC's malaria page says most *Anopheles* are active at dusk, dawn or night, and the container *Aedes* bite by day. For the hour-by-hour pattern, see [when mosquitoes are most active](/blog/when-are-mosquitoes-most-active)." },
+
+    { "type": "h2", "text": "Aedes mosquitoes: the striped daytime biters" },
+    { "type": "p", "text": "The container-breeding *Aedes* are black with white bands, bite by day and lay eggs that can wait out dry spells until water covers them. Their abdomen narrows to a point, a trait of the genus, [UF/IFAS Extension's tiger mosquito profile](https://ask.ifas.ufl.edu/publication/IN594) notes." },
+    { "type": "h3", "text": "Asian tiger mosquito (Aedes albopictus)" },
+    { "type": "p", "text": "The striped backyard mosquito of the eastern US: black, with a single white stripe from the head down the back and white bands on the legs, UF/IFAS says. It bites by day, most in the early morning and late afternoon, rests in shady shrubs near the ground and breeds in tires, flowerpots, birdbaths and other containers. [CDC's range page](https://www.cdc.gov/mosquitoes/php/toolkit/potential-range-of-aedes.html) says it can live at cooler temperatures than the yellow fever mosquito, and that because it feeds on animals as well as people it is less likely to spread dengue, chikungunya and Zika." },
+    { "type": "figure", "src": "/guides/photos/aedes-albopictus-blood-fed.webp", "width": 1200, "height": 782, "alt": "Black-and-white Asian tiger mosquito on a fingertip, its abdomen swollen red with blood and its legs banded white", "caption": "An Asian tiger mosquito on the photographer's finger, its abdomen red with the blood it has taken, in a CDC photo.", "license": "public-domain", "credit": "CDC/ James Gathany; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=1969" },
+    { "type": "h3", "text": "Yellow fever mosquito (Aedes aegypti)" },
+    { "type": "p", "text": "The tiger mosquito's look-alike carries a white lyre or violin shape on its back instead of one stripe and is about 1/4 inch (4 to 7 mm) long, UF/IFAS says. It bites readily by day, indoors as well as outdoors, and CDC says it lives near and prefers to feed on people, which makes it the main mosquito that spreads Zika, dengue and chikungunya. UF/IFAS says it remains common in urban south Florida and in cities along the Gulf Coast of Texas and Louisiana." },
+    { "type": "figure", "src": "/guides/photos/aedes-aegypti-female-feeding.webp", "width": 1200, "height": 807, "alt": "Yellow fever mosquito standing on pink skin with its proboscis down, black with white-banded legs and white marks on its body, its abdomen starting to turn red", "caption": "A female yellow fever mosquito taking a blood meal, her abdomen beginning to turn red, in a CDC photo by James Gathany.", "license": "public-domain", "credit": "CDC/ Prof. Frank Hadley Collins, Dir., Cntr. for Global Health and Infectious Diseases, Univ. of Notre Dame; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=9258" },
+    { "type": "h3", "text": "Inland floodwater mosquito (Aedes vexans)" },
+    { "type": "p", "text": "[Texas A&M AgriLife](https://mosquitosafari.tamu.edu/aedes-vexans) calls it the number one pest mosquito in many parts of the US: a brown mosquito with narrow pale bands on its legs and notched pale bands on its abdomen that breeds in temporary rain-filled pools and roadside and irrigation ditches. Females lay their eggs at the receding waterline of rain pools and floodplains, and the eggs hatch when a later rain floods them, says [Brunswick County Mosquito Control in North Carolina](https://www.brunswickcountync.gov/DocumentCenter/View/1336/Aedes-Vexans-Biology-PDF); the larvae need 7 to 10 days." },
+    { "type": "p", "text": "Females feed in shady places by day and are particularly annoying at dusk and after dark, and they can fly 5 to 8 miles from where they bred, Brunswick County says. Texas A&M says the species may transmit dog heartworm but is otherwise not considered a serious disease threat to people." },
+    { "type": "figure", "src": "/guides/photos/aedes-vexans-uv-light.webp", "width": 1173, "height": 801, "alt": "Brown mosquito with pale-banded legs and a pale-banded abdomen resting on pale fabric at night, casting a soft shadow", "caption": "An inland floodwater mosquito, Aedes vexans, that came to an ultraviolet light at night in Charlotte, North Carolina.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/389869754" },
+    { "type": "h3", "text": "Eastern treehole mosquito (Aedes triseriatus)" },
+    { "type": "p", "text": "A woodland *Aedes* that bites aggressively by day, especially in or near the forests where it lives, and lays its eggs in rainwater caught in tree holes and in discarded tires, [CDC's La Crosse page](https://www.cdc.gov/la-crosse-encephalitis/cause-and-spread/index.html) says. It is the main carrier of La Crosse virus. Alaska's mosquitoes are a different crowd again; [mosquitoes in Alaska](/blog/alaska-mosquitoes) covers them." },
+
+    { "type": "h2", "text": "Culex mosquitoes: the brown house mosquitoes that bite at night" },
+    { "type": "p", "text": "*Culex* mosquitoes are brown, bite from dusk to dawn and can spread West Nile virus. CDC's Culex page names three US species, *Culex pipiens*, *Cx. quinquefasciatus* and *Cx. tarsalis*. It says the adults rest in grass, shrubs and other thick plants when they are not active, and that females lay rafts of 100 to 300 eggs on permanent standing water such as ponds, or on floodwater in storm drains, ditches, low pastures and farm fields. In US states, *Culex* can spread West Nile, St. Louis encephalitis and eastern equine encephalitis viruses." },
+    { "type": "h3", "text": "Northern and southern house mosquitoes" },
+    { "type": "p", "text": "The two house mosquitoes are close relatives that split the country. The southern house mosquito, *Culex quinquefasciatus*, is a medium-sized brown mosquito about 0.16 inch (4 mm) long that bites at night, and it ranges from Virginia across the southern plains to southern California, says [UF/IFAS's southern house mosquito profile](https://ask.ifas.ufl.edu/publication/IN837). Between about 36° and 39° N it interbreeds with the northern house mosquito, *Culex pipiens*, which is usually not found south of 39° N. UF/IFAS calls the southern species the main carrier of St. Louis encephalitis virus in the southern US. West Nile, which both house mosquitoes can spread, is one of the most common mosquito-borne diseases in the continental US, CDC says; see [the symptoms of West Nile virus](/blog/west-nile-virus-symptoms)." },
+    { "type": "h3", "text": "Western encephalitis mosquito (Culex tarsalis)" },
+    { "type": "p", "text": "[Texas A&M AgriLife](https://mosquitosafari.tamu.edu/culex-tarsalis) calls *Culex tarsalis* the most important carrier of mosquito-borne viruses in the western US, including West Nile virus and western equine and St. Louis encephalitis. It is a small brown mosquito with a pale band around the middle of its proboscis and pale bands over the leg joints. It breeds in almost any standing water, especially farm ditches and poorly drained pastures, and can fly 2 to 10 miles from where it bred." },
+    { "type": "figure", "src": "/guides/photos/culex-tarsalis-female.webp", "width": 1200, "height": 788, "alt": "Brown mosquito on dark fabric seen from the front, with an arrowhead pointing to a pale band around the middle of its dark proboscis", "caption": "A female western encephalitis mosquito, Culex tarsalis, in a CDC photo. The arrowhead marks the pale band around the middle of the proboscis.", "license": "public-domain", "credit": "CDC; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=7955" },
+
+    { "type": "h2", "text": "Anopheles mosquitoes: the malaria mosquitoes" },
+    { "type": "p", "text": "*Anopheles* are the mosquitoes that can spread malaria, and their posture gives them away. [CDC's malaria page](https://www.cdc.gov/dpdx/malaria/index.html) says their palps are as long as the proboscis and that they rest with the abdomen sticking up in the air rather than parallel to the surface. Most species are active at dusk, dawn or night, and the larvae live in marshes, swamps and rice fields, mostly in clean water. CDC's list of US mosquitoes that can spread germs names *Anopheles freeborni* and *An. quadrimaculatus*." },
+    { "type": "figure", "src": "/guides/photos/anopheles-quadrimaculatus.webp", "width": 1200, "height": 800, "alt": "Brown Anopheles mosquito on a green leaf seen from the side, with long dark palps lying alongside its proboscis and long thin legs", "caption": "A common malaria mosquito, Anopheles quadrimaculatus, resting on a leaf, in a CDC photo. Its palps run alongside the proboscis for nearly its full length.", "license": "public-domain", "credit": "CDC/ Amy E. Lockwood, MS; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=27676" },
+    { "type": "p", "text": "Malaria was common in the US into the 20th century, CDC says, and *Anopheles* still live across most of the continental US. Local spread is rare: [CDC's 2026 malaria guidance](https://www.cdc.gov/mmwr/volumes/75/rr/rr7501a1.htm) reports 10 locally acquired, mosquito-transmitted cases from Arkansas, Florida, Maryland and Texas in 2023. For the young stages, [how to identify mosquito larvae](/blog/mosquito-larvae-identification) covers *Anopheles* as well as the other groups." },
+
+    { "type": "h2", "text": "What are the big mosquitoes?" },
+    { "type": "p", "text": "The giant that bites is the gallinipper, *Psorophora ciliata*. [A University of Florida news release](https://archive.news.ufl.edu/articles/2013/03/huge-aggressive-mosquito-may-be-abundant-in-florida-this-summer-ufifas-exper.html) describes a body about half an inch long, a black-and-white pattern like a super-sized Asian tiger mosquito and a notoriously aggressive biter with a painful bite. Its eggs lie in soil at the edges of ponds, streams and other water that overflows in heavy rain, can stay dry and dormant for years, and hatch when floodwater covers them, which is why a tropical storm brought large numbers to Florida in 2012. The larvae eat other mosquito larvae and even tadpoles. The species is native to the eastern half of North America and is not considered a significant carrier of disease." },
+    { "type": "figure", "src": "/guides/photos/gallinipper-biting-through-pants.webp", "width": 1200, "height": 800, "alt": "Large gallinipper mosquito with yellow-and-black banded legs standing on khaki pant fabric in low sunlight", "caption": "A gallinipper on a pant leg in Butler County, Ohio, which the observer says it was biting through.", "license": "CC-BY-4.0", "credit": "(c) Andrew Cannizzaro, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/1859142" },
+    { "type": "p", "text": "Anything bigger and leggier that never bites is probably not a mosquito. The [Missouri Department of Conservation](https://mdc.mo.gov/discover-nature/field-guide/large-crane-flies) says crane flies reach about 1 1/2 inches and nearly all look like giant mosquitoes, but they lack a piercing, tubelike mouth and the scales on the wing veins, and they do not bite; it also notes that gallynipper was once an Ozark name for a crane fly. [What people call a mosquito hawk](/blog/mosquito-hawk-explained) covers crane flies in full." },
+
+    { "type": "h2", "text": "Coquillettidia and Culiseta: the cattail and swamp mosquitoes" },
+    { "type": "p", "text": "The cattail mosquito, *Coquillettidia perturbans*, is the only member of its genus in the US and Canada, says [UF/IFAS's cattail mosquito profile](https://ask.ifas.ufl.edu/publication/IN1192). Its larvae do not need to come up for air: they pierce the roots of cattails and other water plants with a thorn-like siphon and take oxygen from the plant, which makes them hard to reach with ordinary larvicides. Adults are medium-sized and speckled salt-and-pepper, with a broad pale band around the middle of the proboscis and pale bands on the legs." },
+    { "type": "p", "text": "They bite mostly in the early evening but also by day in shady places, can bite through clothing and can fly up to five miles, UF/IFAS says, and they can transmit West Nile and eastern equine encephalitis viruses. In the northern part of its range it spends the winter as larvae, and the adults emerge together the following spring or early summer." },
+    { "type": "figure", "src": "/guides/photos/cattail-mosquito-porch-light.webp", "width": 1160, "height": 1712, "alt": "Speckled brown mosquito seen from above with bushy antennae and black-and-white banded legs, resting on a gray surface", "caption": "A male cattail mosquito, with the bushy antennae of a male, photographed under a front porch light in Onondaga County, New York.", "license": "CC-BY-4.0", "credit": "(c) Randy A Nonenmacher, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/172620098" },
+    { "type": "p", "text": "*Culiseta melanura* matters for a different reason. [CDC's eastern equine encephalitis page](https://www.cdc.gov/eastern-equine-encephalitis/cause-and-spread/index.html) says the virus cycles between this mosquito and birds in freshwater hardwood swamps. Because it feeds mostly on birds, it is not an important carrier to people; the virus reaches people and horses through bridge species, mostly *Aedes*, *Coquillettidia* and *Culex*." },
+
+    { "type": "h2", "text": "Which mosquitoes have white stripes or black-and-white legs?" },
+    { "type": "p", "text": "Several do, and the pattern tells you which:" },
+    { "type": "ul", "items": [
+      "**One white stripe down the back, banded legs:** the Asian tiger mosquito.",
+      "**A white lyre or violin shape on the back, banded legs:** the yellow fever mosquito, common in urban south Florida and Gulf Coast cities.",
+      "**Very large and black and white:** a gallinipper, especially after floods.",
+      "**A pale band around the middle of the beak:** the western encephalitis mosquito, which also has pale bands at the leg joints, or the cattail mosquito, which has a speckled body.",
+      "**Brown with narrow pale leg bands:** the inland floodwater mosquito."
+    ] },
+    { "type": "p", "text": "A brown mosquito with no bold white marks that bites after dark fits a *Culex* house mosquito instead." },
+
+    { "type": "h2", "text": "Which types of mosquitoes spread disease in the US?" },
+    { "type": "p", "text": "Only a minority: about 12 of the more than 200 US types, CDC says. West Nile is one of the most common mosquito-borne diseases in the continental US, and CDC also lists Cache Valley, eastern equine encephalitis, Jamestown Canyon, La Crosse and St. Louis encephalitis viruses, as well as outbreaks of dengue, chikungunya and Zika in US states and territories." },
+    { "type": "table", "head": ["Disease", "Mosquitoes that spread it", "Good to know"], "rows": [
+      ["West Nile, St. Louis encephalitis", "Culex house mosquitoes and the western encephalitis mosquito; the cattail mosquito can carry West Nile", "Culex are most active from dusk to dawn"],
+      ["Eastern equine encephalitis", "Kept going in birds by Culiseta melanura; reaches people through Aedes, Coquillettidia and Culex", "Rare, and tied to freshwater hardwood swamps"],
+      ["La Crosse encephalitis", "Eastern treehole mosquito", "A daytime biter in and near woods"],
+      ["Dengue, chikungunya, Zika", "Yellow fever mosquito, and less readily the Asian tiger mosquito", "Outbreaks have occurred in US states and territories"],
+      ["Malaria", "Anopheles", "10 locally acquired US cases in 2023"]
+    ], "caption": "From CDC's pages on US mosquitoes, Culex, eastern equine encephalitis, La Crosse virus and malaria, plus UF/IFAS and Texas A&M AgriLife, each linked on this page. Not a diagnosis." },
+    { "type": "callout", "tone": "warning", "title": "Feeling sick after mosquito bites?", "text": "See a healthcare provider and mention the bites and any recent travel. This page summarizes what CDC and extension services say about mosquitoes and is not a diagnosis. [When a mosquito bite needs a doctor](/blog/when-to-worry-about-a-mosquito-bite) covers warning signs." },
+
+    { "type": "h2", "text": "What looks like a mosquito but is not one?" },
+    { "type": "p", "text": "Crane flies, non-biting midges, no-see-ums and fungus gnats all get mistaken for mosquitoes. The quickest check is the mouth: a biting mosquito has a long, piercing proboscis, and the [Missouri Department of Conservation's midge guide](https://mdc.mo.gov/discover-nature/field-guide/midges) adds that mosquito wings carry scales, while midge wings do not." },
+    { "type": "ul", "items": [
+      "**Non-biting midges** are mostly under 3/8 inch long, hold their front legs forward and up at rest, have a short proboscis and do not bite people; the males gather in big swarms that seem to dance in the air, the Missouri Department of Conservation says.",
+      "**No-see-ums**, the biting midges, are usually only 0.04 to 0.08 inch (1 to 2 mm) long, bite with a stinging or burning feeling and get through ordinary window screens, [UF/IFAS Extension says](https://ask.ifas.ufl.edu/publication/IN626).",
+      "**Fungus gnats** are dark, delicate flies 1/16 to 1/8 inch long that look like mosquitoes but often stay near potted plants and do not bite people, according to [UC IPM](https://ipm.ucanr.edu/home-and-landscape/fungus-gnats/).",
+      "**Crane flies** reach about 1 1/2 inches, with very long legs and a V-shaped groove on the thorax, and do not bite."
+    ] },
+    { "type": "media", "needed": "An adult non-biting midge (family Chironomidae) at rest with its front legs raised, ideally a male with feathery antennae on a wall or window in the US, CC BY or public domain, credited; for example the Commons file Non-biting Midge on Moss by Katja Schulz (CC BY 2.0)" },
+    { "type": "confused", "items": [
+      { "href": "/blog/mosquito-hawk-explained", "name": "Crane fly (mosquito hawk)", "photo": "crane-fly", "note": "Up to about 1 1/2 inches with very long legs; no piercing mouth, and it does not bite", "alt": "Giant crane fly with very long thin legs resting flat on a gray textured surface" },
+      { "href": "/blog/no-see-ums", "name": "No-see-um", "photo": "biting-midge-on-skin", "note": "A biting midge only 0.04 to 0.08 inch long that gets through window screens", "alt": "Tiny dark biting midge with pale-spotted wings standing on human skin among fine hairs" },
+      { "href": "/learn/how-to-get-rid-of-fungus-gnats", "name": "Fungus gnat", "photo": "fungus-gnat", "note": "A dark fly 1/16 to 1/8 inch long that often stays near houseplants and does not bite people", "alt": "Dark-winged fungus gnat with long antennae and clear, shimmering wings standing on rotting wood" }
+    ] },
+
+    { "type": "h2", "text": "How do you identify a mosquito you caught?" },
+    { "type": "p", "text": "Photograph it well, then work through the marks above. A sharp photo from above and one from the side, next to a ruler, show the stripe or lyre on the back, the leg and beak bands, the palps and the antennae, which is everything the checks on this page rely on." },
+    { "type": "checklist", "title": "What to record before you let it go", "items": [
+      "A photo from above and one from the side, beside a ruler marked in inches.",
+      "The top of the thorax: one white stripe, a white lyre, or plain brown.",
+      "Pale bands on the legs or around the middle of the proboscis.",
+      "Palps as long as the proboscis, or a resting pose with the tail up.",
+      "When and where it bit: in daytime shade, after dark, or after a flood."
+    ] },
+    { "type": "p", "text": "[The mosquito life cycle](/learn/mosquito-life-cycle) explains the stages you may find in standing water, and [the bug identifier quiz](/tools/what-bug-is-this) helps when you are not sure the insect is a mosquito at all." },
+    { "type": "callout", "tone": "tip", "title": "Get a second opinion", "text": "Your state's cooperative extension office or local mosquito control district can often identify a specimen or a clear photo. Send the photos from above and from the side, with the ruler, and say where and when you caught it." }
+  ],
+  "faqs": [
+    {
+      "question": "What are the 3 main types of mosquitoes?",
+      "answer": "For health, the three groups that matter most in the US are Aedes, Culex and Anopheles, the genera CDC names among the mosquitoes that spread germs. Aedes include the striped daytime biters such as the Asian tiger and yellow fever mosquitoes. Culex are brown house mosquitoes that bite from dusk to dawn and can spread West Nile virus. Anopheles rest with the abdomen tipped up and can spread malaria. Psorophora, Coquillettidia and Culiseta are other common groups."
+    },
+    {
+      "question": "How many types of mosquitoes are there in the US?",
+      "answer": "More than 200 types live in the continental United States and US territories, CDC says, and about 12 of them spread germs that can make people sick. Most are nuisance mosquitoes that bite without spreading disease. Worldwide, CDC's Yellow Book counts more than 3,700 species. The common types differ by region, from the Asian tiger mosquito in eastern backyards to the western encephalitis mosquito on western farmland."
+    },
+    {
+      "question": "What kind of mosquito has white stripes?",
+      "answer": "Usually an Aedes. A single white stripe down the middle of the back marks the Asian tiger mosquito, and a white lyre or violin shape marks the yellow fever mosquito, UF/IFAS says; both have white-banded legs. A very large black-and-white mosquito is likely a gallinipper. A pale band around the middle of the beak points to the western encephalitis mosquito or the speckled cattail mosquito, and narrow pale leg bands on a brown body fit the inland floodwater mosquito."
+    },
+    {
+      "question": "What is the biggest mosquito in the US?",
+      "answer": "Among biting mosquitoes, the gallinipper, Psorophora ciliata, stands out: a University of Florida news release describes a body about half an inch long and a black-and-white pattern like a super-sized Asian tiger mosquito, with a painful bite. Larger insects that look like mosquitoes are usually crane flies, which the Missouri Department of Conservation says reach about 1 1/2 inches but lack a piercing mouth and do not bite."
+    },
+    {
+      "question": "Which mosquitoes bite during the day?",
+      "answer": "Mainly Aedes. The Asian tiger and yellow fever mosquitoes bite by day, the tiger most in the early morning and late afternoon, and CDC calls the eastern treehole mosquito an aggressive daytime biter near woods. The cattail mosquito bites mostly in the early evening but also by day in shade. Culex house mosquitoes are most active from dusk to dawn, and most Anopheles are active at dusk, dawn or night, CDC says."
+    },
+    {
+      "question": "Which mosquito carries West Nile virus?",
+      "answer": "Mainly Culex. CDC says Culex mosquitoes can spread West Nile, St. Louis encephalitis and eastern equine encephalitis viruses in US states, and names Culex pipiens, Culex quinquefasciatus and Culex tarsalis among the US species that can spread germs. Texas A&M AgriLife calls Culex tarsalis the most important carrier of mosquito-borne viruses in the western US. UF/IFAS adds that the cattail mosquito can transmit West Nile virus too."
+    },
+    {
+      "question": "Which mosquitoes carry malaria in the US?",
+      "answer": "Only Anopheles mosquitoes spread malaria, and CDC names Anopheles freeborni and Anopheles quadrimaculatus among the US mosquitoes that can spread germs. Malaria was common in the United States into the 20th century, and Anopheles still live across most of the continental US. Local spread is now rare: CDC reports 10 locally acquired, mosquito-transmitted cases in Arkansas, Florida, Maryland and Texas in 2023. Most Anopheles bite at dusk, dawn or night, CDC says."
+    },
+    {
+      "question": "Do all mosquitoes bite humans?",
+      "answer": "No. Only females take blood; males feed on plant nectar and sugar, as UF/IFAS describes for the cattail and southern house mosquitoes. Some species rarely bite people at all: CDC says Culiseta melanura feeds mostly on birds, which is why it is not an important carrier of eastern equine encephalitis to people. And most of the more than 200 US types are nuisance mosquitoes that bite without spreading disease, CDC says."
+    },
+    {
+      "question": "How can you tell a mosquito from a crane fly or a midge?",
+      "answer": "Look at the mouth and the wings. A mosquito has a long, piercing proboscis and scales on its wings. The Missouri Department of Conservation says crane flies lack a piercing mouth and wing-vein scales and have a V-shaped groove on the thorax, and that non-biting midges have a short proboscis, no wing scales and hold their front legs forward and up at rest. Neither crane flies nor non-biting midges bite people."
+    },
+    {
+      "question": "Where do different mosquitoes lay their eggs?",
+      "answer": "It depends on the group. Container Aedes such as the tiger and yellow fever mosquitoes glue eggs to damp container walls, and floodwater Aedes lay them on ground that will flood. Culex float rafts of 100 to 300 eggs on ponds, storm drains and ditches, CDC says. The gallinipper lays eggs in soil at the edges of water that overflows in heavy rain, and cattail mosquito larvae attach to cattail roots."
+    }
+  ],
+  "sources": [
+    { "title": "About Mosquitoes in the United States (June 4, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/mosquitoes/about/about-mosquitoes-in-the-united-states.html" },
+    { "title": "Mosquitoes, Ticks, and Other Arthropods (CDC Yellow Book 2026; updated April 23, 2025)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/mosquitoes-ticks-and-other-arthropods.html" },
+    { "title": "About Culex Mosquitoes (updated September 3, 2025)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/mosquitoes/about/culex-mosquitoes.html" },
+    { "title": "Potential Range of Aedes Mosquitoes (updated July 1, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/mosquitoes/php/toolkit/potential-range-of-aedes.html" },
+    { "title": "DPDx: Malaria (last reviewed December 13, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/dpdx/malaria/index.html" },
+    { "title": "CDC Operational Guidance for Investigating Locally Acquired Mosquito-Transmitted Malaria, United States, 2026 (MMWR Recommendations and Reports, May 21, 2026)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/mmwr/volumes/75/rr/rr7501a1.htm" },
+    { "title": "Eastern Equine Encephalitis: Causes and How It Spreads (July 15, 2026)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/eastern-equine-encephalitis/cause-and-spread/index.html" },
+    { "title": "La Crosse: Causes and How It Spreads (July 15, 2026)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/la-crosse-encephalitis/cause-and-spread/index.html" },
+    { "title": "Asian Tiger Mosquito, Aedes albopictus (Skuse) (EENY-319; L. Rios and J. E. Maruniak)", "publisher": "University of Florida IFAS Extension, Featured Creatures", "url": "https://ask.ifas.ufl.edu/publication/IN594" },
+    { "title": "Yellow Fever Mosquito, Aedes aegypti (Linnaeus) (EENY-434; C. Zettel Nalen and P. Kaufman)", "publisher": "University of Florida IFAS Extension, Featured Creatures", "url": "https://ask.ifas.ufl.edu/publication/IN792" },
+    { "title": "Southern House Mosquito, Culex quinquefasciatus Say (EENY-457; S. Hill and C. R. Connelly)", "publisher": "University of Florida IFAS Extension, Featured Creatures", "url": "https://ask.ifas.ufl.edu/publication/IN837" },
+    { "title": "Cattail Mosquito, Coquillettidia perturbans (Walker) (EENY-694; L. R. Johnson, J. P. Cuda and N. Burkett-Cadena)", "publisher": "University of Florida IFAS Extension, Featured Creatures", "url": "https://ask.ifas.ufl.edu/publication/IN1192" },
+    { "title": "Types of Mosquitoes: Aedes vexans (Mosquito Safari)", "publisher": "Texas A&M AgriLife Extension Service", "url": "https://mosquitosafari.tamu.edu/aedes-vexans" },
+    { "title": "Types of Mosquitoes: Culex tarsalis (Mosquito Safari)", "publisher": "Texas A&M AgriLife Extension Service", "url": "https://mosquitosafari.tamu.edu/culex-tarsalis" },
+    { "title": "Aedes vexans Biology (R. Hickman and J. Brown)", "publisher": "Brunswick County Mosquito Control, North Carolina", "url": "https://www.brunswickcountync.gov/DocumentCenter/View/1336/Aedes-Vexans-Biology-PDF" },
+    { "title": "Huge, aggressive mosquito may be abundant in Florida this summer, UF/IFAS expert warns (March 4, 2013)", "publisher": "University of Florida News", "url": "https://archive.news.ufl.edu/articles/2013/03/huge-aggressive-mosquito-may-be-abundant-in-florida-this-summer-ufifas-exper.html" },
+    { "title": "Midges (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/midges" },
+    { "title": "Large Crane Flies (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/large-crane-flies" },
+    { "title": "Biting Midges, No-See-Ums, Culicoides spp. (EENY-349; N. Burkett-Cadena and others)", "publisher": "University of Florida IFAS Extension, Featured Creatures", "url": "https://ask.ifas.ufl.edu/publication/IN626" },
+    { "title": "Pest Notes: Fungus Gnats (UC ANR Publication 7448, updated August 2013)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/fungus-gnats/" }
+  ],
+  "disclaimer": "health"
+}

@@ -2,7 +2,7 @@
  "id": "how-to-keep-mosquitoes-away",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "ef76f9032c4d4fd3933bdb13d73298349c2df8df6991b15af12bcc76843aa67e",
+ "sha": "0a742fb7622b847242bbaa5d025269675b9c57748f2a5f05fb1cf32d06f18e81",
  "claimsChecked": 72,
  "claimsCorrected": 9,
  "claimsRemovedOrSoftened": 8,
@@ -12,6 +12,11 @@
    "on": "2026-11-05",
    "note": "Nov 5, 2026: one sentence linking the new US buying guide /blog/best-mosquito-repellent (no claim added)",
    "previousSha": "ec367875b090a840b1673601920397aa58b4e1198a38e0d0872b47b492c2b461"
+  },
+  {
+   "on": "2026-11-06",
+   "note": "Nov 6, 2026: link added on the existing Aedes albopictus mention to the new /blog/asian-tiger-mosquito; no claim changed.",
+   "previousSha": "ef76f9032c4d4fd3933bdb13d73298349c2df8df6991b15af12bcc76843aa67e"
   }
  ]
 }

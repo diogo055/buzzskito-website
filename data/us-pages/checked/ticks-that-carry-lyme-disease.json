@@ -2,7 +2,7 @@
  "id": "ticks-that-carry-lyme-disease",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "d8d080f1a7a0017f1a0871f5095b28cda4f4c5db3b336a58ef007b4d73db018f",
+ "sha": "ff794a8fa14b49a5efedbf0c3fb9829ab44ec4fc6c67fd6b678cc6a164aa33d3",
  "claimsChecked": 112,
  "claimsCorrected": 9,
  "claimsRemovedOrSoftened": 8,
@@ -21,6 +21,11 @@
    "on": "2026-11-03",
    "note": "Nov 3, 2026: added 6 real photos (blacklegged-tick-female-fingertip-cdc, blacklegged-tick-nymph-macro, engorged-deer-tick-niaid, western-blacklegged-tick-female-leaf, lone-star-tick-female-hand, blacklegged-tick-removal-behind-ear); captions from each photo's source description; no other text changed.",
    "previousSha": "03d01f76b54c89b8f8ce11316e861c69c32750dfefa09528f8c92dc85396c424"
+  },
+  {
+   "on": "2026-11-06",
+   "note": "Nov 6, 2026: the words permethrin-treated clothing now link the new /blog/permethrin-for-clothing; no claim changed.",
+   "previousSha": "d8d080f1a7a0017f1a0871f5095b28cda4f4c5db3b336a58ef007b4d73db018f"
   }
  ]
 }

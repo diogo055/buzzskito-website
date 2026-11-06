@@ -494,6 +494,9 @@
 - `/blog/christmas-tree-bugs` — christmas tree bugs
 - `/blog/best-wasp-spray` — wasp spray
 - `/blog/what-do-mosquito-bites-look-like` — what do mosquito bites look like
+- `/blog/best-mosquito-spray-for-yard` — best mosquito spray for yard
+- `/blog/mosquito-bits-vs-dunks` — mosquito bits vs dunks
+- `/blog/best-tick-spray-for-yard` — best tick spray for yard
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 
