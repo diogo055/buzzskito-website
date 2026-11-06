@@ -18,7 +18,7 @@ import UsAmazonLine from '@/components/UsAmazonLine'
 
 const SLUG = 'tick-removal-tool-guide'
 const DATE = '2026-04-26'
-const UPDATED = '2026-10-28'
+const UPDATED = '2026-11-06'
 const TITLE = 'Best Tick Removal Tools — Compared for Ontario 2026'
 
 const FAQS = [
@@ -65,6 +65,26 @@ const FAQS = [
   {
     question: 'Should you twist a tick to remove it?',
     answer: 'Not with tweezers. Canada’s public health agency says to try not to twist or squeeze the tick, and the CDC says not to twist or jerk it. Hook tools work differently: the O’Tom Tick Twister is a slit-and-rotation device, and in a randomized trial on pets (Duscher, 2012) twisting with removal devices left fewer ticks with damaged mouthparts than pulling (37 of 337 against 60 of 190). Use the method that matches your tool.',
+  },
+  {
+    question: 'Is a plastic or metal tick removal spoon more effective?',
+    answer: 'Neither has been shown to work better. We found no study that compares a plastic tick spoon with a metal one, and none of the trials in the international first aid review tested the material. A spoon works like the TickKey: a notch slides under the tick at the skin and you pull. In a rabbit study by untrained volunteers, two tools of that kind damaged the mouthparts of 9 of 104 and 13 of 82 ticks, against 20 of 79 with medium-tipped tweezers, but no tool removed nymphs without damage (Stewart, 1998). Choose a spoon by how fine its notch is, not by the material, and keep fine-point tweezers with it.',
+  },
+  {
+    question: 'What is the safest tick remover?',
+    answer: 'A mechanical tool, used early and as its maker directs. The international first aid review strongly recommends against chemicals, heat or ice: none of them detached ticks in the studies it reviewed, and a freezing spray removed 0 of 40 ticks from people (Akin Belli, 2016). Canada’s public health agency warns that burning or smothering a tick can make it release its stomach contents into the bite. Between tweezers and commercial devices the evidence is very low certainty, and the review suggests either one rather than pulling the tick off by hand.',
+  },
+  {
+    question: 'What should be in a tick removal kit?',
+    answer: 'Fine-point tweezers for people, a slot-and-rotate hook such as the Tick Twister for pets and engorged ticks, a small light and a magnifier for nymphs, a sealable bag or pill bottle, rubbing alcohol to kill the tick once it is out (never on an attached tick), soap or an alcohol-based hand sanitizer for the bite, and your phone or a pen to photograph the tick for eTick and note the date, the place on the body and where you were. Those last steps are what Canada’s public health agency asks for.',
+  },
+  {
+    question: 'How do you remove a tick from a cat?',
+    answer: 'With the same tools as for a dog: fine-point tweezers or a slot-and-rotate hook. In a trial that included 46 cats and 178 dogs, the Tick Twister left fewer damaged mouthparts than two kinds of forceps (Zenner, 2006). Part the fur until you can see where the tick enters the skin and work slowly. Do not put any tick product on a cat without asking your veterinarian first, including one sold for dogs: the CDC warns that cats are extremely sensitive to a variety of chemicals.',
+  },
+  {
+    question: 'What are the best tweezers for removing ticks?',
+    answer: 'Clean tweezers with fine points that meet at the tip, as Canada’s public health agency and the CDC describe. The international first aid review notes that the tweezers and forceps in the studies had a thin jaw, like Adson forceps, which grips the tick near the skin without crushing the body. In a trial on dogs, medium-tipped angled forceps performed best overall, though three kinds of forceps damaged about the same small share of mouthparts (1 or 2 ticks in about 73 each). Avoid blunt or pliers-style tips.',
   },
 ]
 
@@ -129,6 +149,7 @@ export default function TickRemovalToolGuidePage() {
             <BuyLink tag={AMZ_TAG} search="fine tip tick tweezers">Fine-tip tick tweezers →</BuyLink>
           </div>
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">Removing a tick correctly takes 30 seconds with the right tool. Done wrong, you can break off the mouthparts, squeeze the tick&rsquo;s body and increase Lyme disease risk, or just panic. Here&rsquo;s the honest 2026 guide to what tools actually work.</p>
+          <p><strong>The verdict:</strong> keep clean, fine-point tweezers for people and a slot-and-rotate hook such as the O&rsquo;Tom Tick Twister for the dog, and keep both wherever you pick up ticks. Tweezers are the tool Canada&rsquo;s public health agency and the CDC describe, and the CDC adds that &ldquo;a plain set of tweezers works very well.&rdquo; In the largest trial on pets, the Tick Twister left the fewest damaged mouthparts of the five tools tested. Keys, spoons and cards are backups. The international first aid review found no study of whether any tool lowers the risk of infection and judged early removal likely the most important step, so the best tool is the one you have with you when you find the tick.</p>
 
           <AwardRow tag={AMZ_TAG}
             heading="Our Picks — Best Tick Removal Tools"
@@ -275,6 +296,167 @@ export default function TickRemovalToolGuidePage() {
           </div>
           <p className="not-prose text-xs text-gray-500 mb-4">Sources: Public Health Agency of Canada, <a href="https://www.canada.ca/en/public-health/services/diseases/lyme-disease/removing-submitting-ticks-testing.html" target="_blank" rel="noopener" className="underline">Removing and submitting ticks for testing</a> (page dated 2026-07-03); CDC, <a href="https://www.cdc.gov/ticks/after-a-tick-bite/index.html" target="_blank" rel="noopener" className="underline">What to Do After a Tick Bite</a> (June 9, 2026); International Liaison Committee on Resuscitation, First Aid Task Force, <a href="https://costr.ilcor.org/document/methods-of-tick-removal-first-aid-systematic-review" target="_blank" rel="noopener" className="underline">Methods of tick removal: systematic review</a> (2021 draft for public comment), which summarizes the trials on pets (Duscher 2012; Zenner 2006) and the study on people (Akin Belli 2016) and rates all of this evidence low or very low certainty.</p>
 
+          <h2>Plastic vs Metal Tick Removal Spoons, and Other Non-Tweezer Tools</h2>
+          <p>We found no published study that compares a plastic tick spoon with a metal one, and none of the trials in the international first aid review tested the material, so there is no evidence that either removes ticks better. What the trials did test is the design. A tick spoon, the TickKey and a notched card all work the same way, which the review calls slit and traction: you slide a notch under the tick at the skin and pull. Here is how that design did, next to the other non-tweezer tools that have been tried.</p>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm my-6">
+            <table className="min-w-[680px] w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Design</th>
+                  <th className="px-4 py-3 text-left">Tools tested</th>
+                  <th className="px-4 py-3 text-left">What the trials found</th>
+                  <th className="px-4 py-3 text-left">Tested on</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Spoon or slot<br /><span className="font-normal text-xs text-gray-500">slit and traction</span></td>
+                  <td className="px-4 py-3 text-gray-700">Ticked Off, Pro-Tick Remedy, TickPic</td>
+                  <td className="px-4 py-3 text-gray-700">Untrained volunteers damaged the mouthparts of 9 of 104 ticks with the Ticked Off and 13 of 82 with the Pro-Tick Remedy, against 20 of 79 with medium-tipped tweezers (Stewart, 1998). On pets, the TickPic left 24 of 100 damaged, against 36 of 90 for Adson forceps (Duscher, 2012)</td>
+                  <td className="px-4 py-3 text-gray-700">Rabbits; pets</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Card with a notch<br /><span className="font-normal text-xs text-gray-500">slit and traction</span></td>
+                  <td className="px-4 py-3 text-gray-700">A wallet tick card</td>
+                  <td className="px-4 py-3 text-gray-700">3 of 40 ticks out intact, against 33 of 40 with tweezers (Akin Belli, 2016)</td>
+                  <td className="px-4 py-3 text-gray-700">People</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Hook<br /><span className="font-normal text-xs text-gray-500">slit and rotation</span></td>
+                  <td className="px-4 py-3 text-gray-700">O&rsquo;Tom Tick Twister</td>
+                  <td className="px-4 py-3 text-gray-700">7 of 108 ticks with damaged mouthparts, the fewest of the five tools in the trial (Duscher, 2012); fewer damaged mouthparts than two kinds of forceps on 178 dogs and 46 cats (Zenner, 2006)</td>
+                  <td className="px-4 py-3 text-gray-700">Pets</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Lasso</td>
+                  <td className="px-4 py-3 text-gray-700">Trix Ticklasso</td>
+                  <td className="px-4 py-3 text-gray-700">20 of 108 damaged on pets (Duscher, 2012); 19 of 40 out intact on people, against 33 of 40 with tweezers (Akin Belli, 2016)</td>
+                  <td className="px-4 py-3 text-gray-700">Pets; people</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Tick pliers and pens<br /><span className="font-normal text-xs text-gray-500">opposing jaws</span></td>
+                  <td className="px-4 py-3 text-gray-700">Tick Nipper, pen-style tick tweezers, Tick Solution</td>
+                  <td className="px-4 py-3 text-gray-700">10 of 77 damaged on rabbits, against 20 of 79 with tweezers (Stewart, 1998); 10 of 121 on pets (Duscher, 2012); on dogs, the Tick Solution needed significantly more removal attempts than forceps (Bowles, 1992)</td>
+                  <td className="px-4 py-3 text-gray-700">Rabbits; pets; dogs</td>
+                </tr>
+                <tr className="align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Freezing spray</td>
+                  <td className="px-4 py-3 text-gray-700">Tickner</td>
+                  <td className="px-4 py-3 text-gray-700">Removed 0 of 40 ticks (Akin Belli, 2016)</td>
+                  <td className="px-4 py-3 text-gray-700">People</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p>Three points stand out. The spoon-style tools did well on animals in the hands of people who had never used one, while the one notched card tested on people did badly; those were different tools on different hosts, so neither result settles the question for people. Nymphs were the hard case for every design: in the rabbit study no tool removed nymphs without damage, although the commercial tools did better on nymphs than medium-tipped tweezers. And the review&rsquo;s advice does not depend on the material: pull with tweezers or use a commercial device according to the maker&rsquo;s instructions, rather than removing the tick by hand.</p>
+          <p>So if you buy a spoon, choose it by the notch rather than by plastic or metal. The narrow end has to get under the smallest tick you are likely to meet, a nymph, which the CDC compares to a poppy seed. If you are not sure a notch is fine enough, keep fine-point tweezers with it.</p>
+          <h3>What is the safest tick remover?</h3>
+          <p>A mechanical tool, used early and as its maker directs. The first aid review strongly recommends against chemicals, heat or ice, none of which detached a tick in the studies it reviewed, and Canada&rsquo;s public health agency warns that burning or smothering a tick can make it release its stomach contents into the bite. Between tweezers and commercial devices the evidence is very low certainty either way.</p>
+          <p className="not-prose text-xs text-gray-500 mb-4">Sources: International Liaison Committee on Resuscitation, <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8581280/" target="_blank" rel="noopener" className="underline">2021 International Consensus on Cardiopulmonary Resuscitation and Emergency Cardiovascular Care Science With Treatment Recommendations</a> (Resuscitation, 2021), first aid section &ldquo;Methods of Tick Removal&rdquo;, the published version of the review cited above, which names each tool&rsquo;s design and rates every comparison low or very low certainty; the trials: <a href="https://pubmed.ncbi.nlm.nih.gov/11990185/" target="_blank" rel="noopener" className="underline">Stewart, Burgdorfer and Needham, 1998</a>; <a href="https://pubmed.ncbi.nlm.nih.gov/22733005/" target="_blank" rel="noopener" className="underline">Duscher, Peschke and Tichy, 2012</a>; <a href="https://pubmed.ncbi.nlm.nih.gov/17041067/" target="_blank" rel="noopener" className="underline">Zenner and others, 2006</a>; <a href="https://pubmed.ncbi.nlm.nih.gov/26944595/" target="_blank" rel="noopener" className="underline">Akin Belli and others, 2016</a>; <a href="https://pubmed.ncbi.nlm.nih.gov/1404275/" target="_blank" rel="noopener" className="underline">Bowles, McHugh and Spradling, 1992</a>. Nymph size: CDC, <a href="https://www.cdc.gov/lyme/causes/index.html" target="_blank" rel="noopener" className="underline">How Lyme Disease Spreads</a> (Nov. 2, 2026).</p>
+
+          <h2>Tick Removal Tools Side by Side: Type, Tick Sizes, Pros and Cons</h2>
+          <p>The tools on this page by what they are and what they can grip. &ldquo;Type&rdquo; uses the first aid review&rsquo;s terms.</p>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm my-6">
+            <table className="min-w-[680px] w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Tool</th>
+                  <th className="px-4 py-3 text-left">Type</th>
+                  <th className="px-4 py-3 text-left">Made of</th>
+                  <th className="px-4 py-3 text-left">Motion</th>
+                  <th className="px-4 py-3 text-left">Tick sizes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Fine-point tweezers</td>
+                  <td className="px-4 py-3 text-gray-700">Tweezers (pulling)</td>
+                  <td className="px-4 py-3 text-gray-700">Metal</td>
+                  <td className="px-4 py-3 text-gray-700">Grip the head at the skin, pull slowly and steadily straight out, no twisting</td>
+                  <td className="px-4 py-3 text-gray-700">Any size, if the tips are fine; grip the head, never an engorged body</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Tick Twister</td>
+                  <td className="px-4 py-3 text-gray-700">Slit and rotation</td>
+                  <td className="px-4 py-3 text-gray-700">Plastic</td>
+                  <td className="px-4 py-3 text-gray-700">Slide the slot under the tick, then rotate</td>
+                  <td className="px-4 py-3 text-gray-700">Nymphs to engorged adults, with the right hook from the pack</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">TickKey</td>
+                  <td className="px-4 py-3 text-gray-700">Slit and traction</td>
+                  <td className="px-4 py-3 text-gray-700">Metal</td>
+                  <td className="px-4 py-3 text-gray-700">Slide along the skin until the slot catches the tick, pull back</td>
+                  <td className="px-4 py-3 text-gray-700">Adults; tiny nymphs can slip out of the slot</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Tick spoon</td>
+                  <td className="px-4 py-3 text-gray-700">Slit and traction</td>
+                  <td className="px-4 py-3 text-gray-700">Plastic or metal</td>
+                  <td className="px-4 py-3 text-gray-700">Slide the notch under the tick, pull</td>
+                  <td className="px-4 py-3 text-gray-700">Depends on how fine the notch is</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Wallet card</td>
+                  <td className="px-4 py-3 text-gray-700">Slit and traction</td>
+                  <td className="px-4 py-3 text-gray-700">Varies</td>
+                  <td className="px-4 py-3 text-gray-700">Slide the notch under the tick and push it along the skin</td>
+                  <td className="px-4 py-3 text-gray-700">Awkward on very small nymphs; needs a flat patch of skin</td>
+                </tr>
+                <tr className="align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Removal kit</td>
+                  <td className="px-4 py-3 text-gray-700">Several in one pouch</td>
+                  <td className="px-4 py-3 text-gray-700">Mixed</td>
+                  <td className="px-4 py-3 text-gray-700">Depends on the tool you take out</td>
+                  <td className="px-4 py-3 text-gray-700">All sizes, if it holds both fine tweezers and a hook</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm my-6">
+            <table className="min-w-[560px] w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Tool</th>
+                  <th className="px-4 py-3 text-left">Pros</th>
+                  <th className="px-4 py-3 text-left">Cons</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Fine-point tweezers</td>
+                  <td className="px-4 py-3 text-gray-700">The tool Canada&rsquo;s public health agency and the CDC describe; 33 of 40 ticks out intact in the one study on people; often already in the first aid kit</td>
+                  <td className="px-4 py-3 text-gray-700">Twisting or jerking can break off the mouthparts, the CDC warns; blunt tips cannot reach under the tick&rsquo;s head</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Tick Twister</td>
+                  <td className="px-4 py-3 text-gray-700">Fewest damaged mouthparts in the largest pet trial; cannot squeeze the body</td>
+                  <td className="px-4 py-3 text-gray-700">Its twist suits this hook only, never tweezers; small enough to lose; no trial on people</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">TickKey</td>
+                  <td className="px-4 py-3 text-gray-700">Metal, lives on a keychain</td>
+                  <td className="px-4 py-3 text-gray-700">No trial of the TickKey itself; tiny nymphs can slip out of the slot</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Tick spoon</td>
+                  <td className="px-4 py-3 text-gray-700">Two spoon-style tools damaged fewer mouthparts than medium-tipped tweezers in untrained hands, on rabbits</td>
+                  <td className="px-4 py-3 text-gray-700">No trial on people; no study of plastic against metal</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Wallet card</td>
+                  <td className="px-4 py-3 text-gray-700">Cheapest; fits in a wallet or glovebox</td>
+                  <td className="px-4 py-3 text-gray-700">3 of 40 ticks out intact on people, against 33 of 40 with tweezers</td>
+                </tr>
+                <tr className="align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Removal kit</td>
+                  <td className="px-4 py-3 text-gray-700">Tweezers and a hook in one pouch, plus a vial for the tick</td>
+                  <td className="px-4 py-3 text-gray-700">More to keep track of; pricier than a single hook</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
           <h2>Buyer&rsquo;s Checklist for a Tick Removal Tool</h2>
           <ul>
             <li><strong>Fine points, not blunt ones.</strong> Tweezers must close at the very tip so they can grip the head at skin level.</li>
@@ -285,6 +467,22 @@ export default function TickRemovalToolGuidePage() {
             <li><strong>Add a sealable bag or pill bottle</strong> to keep the tick for a health care visit or a photo for eTick, as the Public Health Agency of Canada suggests.</li>
             <li><strong>Pack soap, an alcohol-based sanitizer or rubbing alcohol</strong> to clean the bite and to kill the tick before you throw it out.</li>
           </ul>
+
+          <h2>What to Put in a Tick Removal Kit (People and Pets)</h2>
+          <p>A ready-made kit is convenient, but what belongs in it is set by what Canada&rsquo;s public health agency and the CDC ask you to do after a bite. Check any kit against this list, or build your own:</p>
+          <ul>
+            <li><strong>Clean, fine-point tweezers</strong> &mdash; the tool both agencies describe for people.</li>
+            <li><strong>A slot-and-rotate hook</strong> such as the Tick Twister, for dogs, cats and engorged ticks.</li>
+            <li><strong>A small light and a magnifier.</strong> The CDC compares a nymph to a poppy seed, and says ticks are hard to spot on pets with long or dark fur.</li>
+            <li><strong>A sealable bag or small container, such as a pill bottle,</strong> for a tick you want to show a health care provider.</li>
+            <li><strong>Rubbing alcohol</strong> for after the tick is out, never on an attached one: Canada&rsquo;s public health agency says to kill a removed tick by drowning it in rubbing alcohol, or by freezing it for several days, before it goes in the household garbage.</li>
+            <li><strong>Soap or an alcohol-based hand sanitizer</strong> to clean the bite and your hands.</li>
+            <li><strong>A strip of tape.</strong> Wrapping a live tick tightly in tape is one of the ways the CDC lists to dispose of it.</li>
+            <li><strong>Your phone, or a pen and a card,</strong> to photograph the tick for eTick and to note the date, the place on the body and where you were, which is what the public health agency asks you to record.</li>
+          </ul>
+          <Photo id="tick-dropped-into-bottle" alt="Tweezers dropping a female blacklegged tick into a small bottle before the lid goes on" caption="Tweezers dropping a female blacklegged tick into a small bottle before the lid goes on (CDC photograph). The CDC lists a sealed container as one way to dispose of a tick." />
+          <p>Once the tick is out, the CDC says to check for others, because there may be more on your body. Then watch the bite: our guide to <Link href="/blog/tick-bite-symptoms-what-to-do-ontario" className="text-brand-700 underline">tick bite symptoms and what to do</Link> covers the signs worth a call to a doctor.</p>
+          <p className="not-prose text-xs text-gray-500 mb-4">Sources: Public Health Agency of Canada, <a href="https://www.canada.ca/en/public-health/services/diseases/lyme-disease/removing-submitting-ticks-testing.html" target="_blank" rel="noopener" className="underline">Removing and submitting ticks for testing</a>; CDC, <a href="https://www.cdc.gov/ticks/after-a-tick-bite/index.html" target="_blank" rel="noopener" className="underline">What to Do After a Tick Bite</a>, <a href="https://www.cdc.gov/lyme/causes/index.html" target="_blank" rel="noopener" className="underline">How Lyme Disease Spreads</a> and <a href="https://www.cdc.gov/ticks/prevention/preventing-ticks-on-pets.html" target="_blank" rel="noopener" className="underline">Preventing Ticks on Pets</a>.</p>
 
           <h2>The Top 3 Tick Removal Tools (Ranked)</h2>
 
@@ -319,6 +517,13 @@ export default function TickRemovalToolGuidePage() {
             <li><strong>Critical:</strong> Must be FINE-TIPPED. The thick blunt tweezers from a pharmacy first-aid kit don&rsquo;t work — you can&rsquo;t grip close enough to the skin.</li>
           </ul>
 
+          <h2>Best Tweezers for Tick Removal: What to Look For</h2>
+          <p>Canada&rsquo;s public health agency asks for &ldquo;clean, fine-point tweezers&rdquo; and the CDC for &ldquo;clean fine-tipped tweezers.&rdquo; The first aid review adds the detail that matters when you shop: the tweezers and forceps used in the studies had a thin jaw, similar to Adson forceps, which lets you grip the tick near the skin without crushing its body.</p>
+          <Photo id="tick-removal-tweezers-forearm" alt="A tick being pulled away from a person's arm with fine-tipped tweezers" caption="Fine-tipped tweezers pulling a tick away from a person's arm with steady, even pressure (CDC photograph)." />
+          <p>Angled or curved tips can help, but they are not essential. In a trial on dogs, medium-tipped angled forceps gave the best overall performance, and an early study on tick removal recommended curved forceps, gripping as close to the skin as possible. But the kind of forceps made little difference to the mouthparts: angled, economy and jeweller&rsquo;s forceps each damaged 1 or 2 ticks in about 73. Pointed eyebrow tweezers whose tips meet cleanly fit the description; pliers-style and blunt tips do not.</p>
+          <p>No fine-tipped tweezers to hand? The CDC says regular tweezers, or your fingers, can be used, gripping the tick close to the skin so you do not squeeze its body. Use a tool if there is one: the first aid review suggests tweezers or a device rather than removal by hand, and in an emergency-department study, ticks pulled off by hand had broken mouthparts in 11 of 21 cases, against 4 of 22 removed with tweezers.</p>
+          <p className="not-prose text-xs text-gray-500 mb-4">Sources: Public Health Agency of Canada and CDC removal pages (linked above); International Liaison Committee on Resuscitation, <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8581280/" target="_blank" rel="noopener" className="underline">2021 consensus on science, &ldquo;Methods of Tick Removal&rdquo;</a>; <a href="https://pubmed.ncbi.nlm.nih.gov/1404275/" target="_blank" rel="noopener" className="underline">Bowles, McHugh and Spradling, 1992</a> (dogs); <a href="https://pubmed.ncbi.nlm.nih.gov/4000801/" target="_blank" rel="noopener" className="underline">Needham, 1985</a>; <a href="https://pubmed.ncbi.nlm.nih.gov/32436976/" target="_blank" rel="noopener" className="underline">Şahin and others, 2020</a> (removal by hand).</p>
+
           <h2>Tools and Methods to Avoid</h2>
           <ul>
             <li><strong>Pliers-style tweezers</strong> — Tips are too thick. Can&rsquo;t grip close to skin.</li>
@@ -344,10 +549,32 @@ export default function TickRemovalToolGuidePage() {
             <li><strong>Note the date and bite location</strong> for monitoring symptoms over the next 5 months.</li>
           </ol>
 
+          <h2>Tiny Nymphs: The Hardest Ticks to Remove</h2>
+          <p>The CDC says nymphs are about the size of a poppy seed, that they quest for hosts from April through July, and that their numbers and small size make them a particular risk because they are so hard to see. The same small size is what defeats tools.</p>
+          <Photo id="blacklegged-tick-nymph-fingernail" alt="A blacklegged tick nymph crawling beside a person's fingernail" caption="A blacklegged tick nymph crawling beside a person's index fingernail (CDC photograph). Whatever tool you carry has to grip a tick this size at the skin." />
+          <p>In the rabbit study, no tool removed nymphs without damage; the commercial tools did better on nymphs than medium-tipped tweezers, but nymphs were still harder to remove than adults. The TickKey&rsquo;s slot can let a tiny nymph slip through, and a card is awkward at that size. For a nymph, use fine-point tweezers whose tips meet, or the smaller hook from a Tick Twister pack, with good light and a magnifier, and photograph the tick for eTick before you dispose of it. Our guide to <Link href="/blog/baby-ticks-nymphs-seed-ticks-ontario" className="text-brand-700 underline">baby ticks: nymphs and seed ticks in Ontario</Link> shows how small each stage is.</p>
+
           <h2>Best Tick Remover for Dogs</h2>
           <p>The tool trials that exist were mostly done on pets, and they favour the hook. In a randomized trial in which veterinarians and lay helpers removed 596 ticks from pets such as dogs and cats (Duscher, 2012), twisting methods damaged fewer mouthparts than pulling, and the O&rsquo;Tom Tick Twister left 7 of 108 ticks with damaged mouthparts against 20 of 108 for a lasso-style remover. In a second trial (Zenner, 2006), pet owners using the Tick Twister damaged fewer mouthparts than with Buster tick forceps or Adson forceps. Both are rated very low certainty, so treat the hook as the easier tool for a dog, not a guarantee.</p>
           <Photo id="brown-dog-ticks-dog-ear" alt="A dog's ear infested with brown dog ticks" caption="A dog's ear infested with brown dog ticks (CDC photograph, 2024). On a dog, part the fur and use a good light before you reach for any tool." />
           <p>The practical part is the same for every tool: part the fur until you can see where the tick enters the skin, have a second person hold or distract the dog, and work slowly. Keep the tick in a sealed bag if your vet will want to identify it, and ask your vet about tick prevention for the dog itself; our guide to <Link href="/blog/how-to-remove-tick-from-dog-ontario" className="text-brand-700 underline">removing a tick from a dog</Link> walks through it step by step.</p>
+
+          <h2>Removing a Tick From a Cat</h2>
+          <p>Cats take the same tools as dogs. The Zenner trial that favoured the Tick Twister over two kinds of forceps included 46 cats alongside 178 dogs. Part the fur until you can see where the tick enters the skin, have a helper hold the cat, and use fine-point tweezers or the hook exactly as you would on a dog.</p>
+          <Photo id="tick-on-cat" alt="An engorged tick attached to a cat's head between the eye and the ear" caption="An engorged tick on a cat's head, between the eye and the ear. The removal is the same as on a dog; the tick products are not." />
+          <p>The difference with cats is chemicals. The CDC warns that &ldquo;cats are extremely sensitive to a variety of chemicals&rdquo; and says not to apply any tick prevention product to a cat without first asking your veterinarian, so do not reach for the dog&rsquo;s product without that conversation.</p>
+          <p>For dogs and cats alike, the CDC says to check pets that go outdoors every day and to remove any tick you find right away. These are the places it says to look:</p>
+          <ul>
+            <li>In and around the ears</li>
+            <li>Around the eyelids</li>
+            <li>Under the collar</li>
+            <li>Under the front legs</li>
+            <li>Between the back legs</li>
+            <li>Between the toes</li>
+            <li>Around the tail</li>
+          </ul>
+          <p>Our <Link href="/blog/how-to-do-a-tick-check" className="text-brand-700 underline">full-body tick check</Link> covers the same routine for people and kids.</p>
+          <p className="not-prose text-xs text-gray-500 mb-4">Sources: CDC, <a href="https://www.cdc.gov/ticks/prevention/preventing-ticks-on-pets.html" target="_blank" rel="noopener" className="underline">Preventing Ticks on Pets</a>; <a href="https://pubmed.ncbi.nlm.nih.gov/17041067/" target="_blank" rel="noopener" className="underline">Zenner and others, 2006</a> (178 dogs and 46 cats, as summarized in the 2021 first aid consensus).</p>
 
           <RelatedLinks path="/blog/tick-removal-tool-guide" />
           <h2>What If the Mouthparts Stay Behind?</h2>

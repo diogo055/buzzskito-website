@@ -18,7 +18,7 @@ import Photo from '@/components/Photo'
 
 const SLUG = 'best-mosquito-repellent-device-canada'
 const DATE = '2026-07-12'
-const UPDATED = '2026-10-28'
+const UPDATED = '2026-11-06'
 const TITLE = 'Best Mosquito Repellent Machines and Devices in Canada — What Actually Works'
 // TITLE NOTE (Oct 28, 2026): was 'Mosquito Repellent Machines: What Works'; top queries, Jul 28-Oct 25 (all countries): mosquito repellent machine 2,576 at 8.9, mosquito killer machine 577 at 9.7, bug repellent machine 414 at 9.2, best mosquito repellent device 356 at 6.6, mosquito machine 135 at 10.4, best mosquito killer machine for home 126 at 7.6 (29 clicks). Trap searches stay with best-mosquito-trap and best-professional-mosquito-trap-canada, wearables with mosquito-repellent-bracelets-canada.
 const META_TITLE = 'Mosquito Repellent Machines That Work in Canada'
@@ -30,11 +30,11 @@ const FAQS = [
   },
   {
     question: 'Do mosquito repellent machines actually work?',
-    answer: 'It depends entirely on the type. Thermacell zone repellers genuinely work — university and manufacturer testing shows substantially fewer bites inside the treated zone because they diffuse a repellent vapour (allethrin, prallethrin or metofluthrin, depending on the model) that mosquitoes avoid. Propane CO₂ traps (Mosquito Magnet) also work but slowly, thinning local populations over 6–8 weeks of continuous running. UV traps (DynaTrap) catch mostly non-biting insects — mosquitoes are typically under 5% of the catch. Bug zappers are the least effective; studies from the University of Delaware found mosquitoes made up well under 1% of what they electrocute. So "machines" range from very effective (Thermacell) to nearly useless for mosquitoes (bug zappers).',
+    answer: 'It depends entirely on the type. Thermacell zone repellers genuinely work — university and manufacturer testing shows substantially fewer bites inside the treated zone because they diffuse a repellent vapour (allethrin, prallethrin or metofluthrin, depending on the model) that mosquitoes avoid. Propane CO₂ traps (Mosquito Magnet) catch biting females, but slowly, and independent trials disagree on whether they thin a yard’s population. UV traps (DynaTrap) catch mosquitoes along with many other insects, but in a 2013 field trial traps placed near people did not reduce bites. Bug zappers are the least effective; studies from the University of Delaware found mosquitoes made up well under 1% of what they electrocute. So "machines" range from very effective (Thermacell) to nearly useless for mosquitoes (bug zappers).',
   },
   {
     question: 'What is a mosquito killer machine and does it kill mosquitoes?',
-    answer: 'A "mosquito killer machine" usually refers to a trap that lures and captures or electrocutes insects — either a propane CO₂ trap, a UV light-plus-fan trap, or an electric bug zapper. Propane CO₂ traps (Mosquito Magnet) genuinely kill biting female mosquitoes by mimicking human breath and vacuuming them into a net; they are the most effective killing device but cost $400–$1,300 plus $400–$600 a season in propane and attractant. UV traps and bug zappers are marketed as mosquito killers but catch overwhelmingly moths, beetles, and midges. If your goal is actually killing mosquitoes rather than repelling them, a propane CO₂ trap is the only device category with strong independent evidence, and even it takes weeks to show results.',
+    answer: 'A "mosquito killer machine" usually refers to a trap that lures and captures or electrocutes insects — either a propane CO₂ trap, a UV light-plus-fan trap, or an electric bug zapper. Propane CO₂ traps (Mosquito Magnet) genuinely kill biting female mosquitoes by mimicking human breath and vacuuming them into a net; they are the most effective killing device but cost $400–$1,300 plus $400–$600 a season in propane and attractant. UV traps and bug zappers are marketed as mosquito killers but catch overwhelmingly moths, beetles, and midges. If your goal is actually killing mosquitoes rather than repelling them, a propane CO₂ trap is the device aimed at the right cue, but independent trials are mixed (a two-summer University of Winnipeg study could not show that one reduced mosquito activity), and even where it works it takes weeks.',
   },
   {
     question: 'What is the best mosquito repellent machine?',
@@ -42,7 +42,7 @@ const FAQS = [
   },
   {
     question: 'Do mosquito killer machines work?',
-    answer: 'Some do, most do not. "Mosquito killer machine" covers three very different devices. Propane CO₂ killer machines (Mosquito Magnet) genuinely work — they mimic human breath to lure and vacuum up biting females, thinning local populations over 6–8 weeks, but they cost $400–$1,300 plus $400–$600 a season. UV light-and-fan killer machines (DynaTrap) work poorly for mosquitoes specifically — peer-reviewed testing shows mosquitoes are only about 5% of the catch. Bug-zapper killer machines barely work at all; University of Delaware research found mosquitoes were well under 1% of what they electrocute. So a propane CO₂ killer machine is the only category with strong evidence, and even it takes weeks. If you want to feel a difference sooner, reach for a Thermacell repellent machine or a professional barrier spray instead — a repellent zone forms in about 15 minutes and a barrier treatment is applied to the foliage where adults rest, while any killer machine has to thin the population over weeks before you feel a difference.',
+    answer: 'Some do, most do not. "Mosquito killer machine" covers three very different devices. Propane CO₂ killer machines (Mosquito Magnet) catch real biting females by mimicking human breath, but independent trials disagree on whether they thin a yard’s population, and they cost $400–$1,300 plus $400–$600 a season. UV light-and-fan killer machines (DynaTrap) work poorly for mosquitoes specifically — in a 2013 field trial, traps placed near people, a DynaTrap among them, either raised biting or made no difference. Bug-zapper killer machines barely work at all; University of Delaware research found mosquitoes were well under 1% of what they electrocute. So a propane CO₂ killer machine is the only category aimed at the right cue, and even it takes weeks and does not always deliver. If you want to feel a difference sooner, reach for a Thermacell repellent machine or a professional barrier spray instead — a repellent zone forms in about 15 minutes and a barrier treatment is applied to the foliage where adults rest, while any killer machine has to thin the population over weeks before you feel a difference.',
   },
   {
     question: 'Thermacell vs bug zapper vs propane trap — which is best?',
@@ -71,6 +71,26 @@ const FAQS = [
   {
     question: 'What is a personal mosquito repellent device?',
     answer: 'It is a small repeller you wear or keep right beside you. The type with evidence behind it is the clip-on that releases metofluthrin: Health Canada says clip-on devices containing metofluthrin repel mosquitoes and have no age restriction, though children should not replace the refill disks, and OFF! Clip On carries Reg. No. 30211. In the 2017 New Mexico State University test it was the only wearable that reduced mosquito attraction. Repellent wristbands are a different product: Health Canada lists wristbands, neckbands and ankle bands that contain repellents among products that do not protect well against bites.',
+  },
+  {
+    question: 'Is there a plug-in mosquito repellent machine for indoor use in Canada?',
+    answer: 'Not a registered one that we could find. The plug-in “mosquito repellent machines” sold in India and many other countries are liquid vaporizers: a heater warms a refill of insecticide liquid through the night. In Health Canada’s registry, every heated mosquito repeller we found, Thermacell’s and the OFF! lamps, is registered for outdoor sites only, and the labels we read say not to use them indoors, in a tent or in an enclosed area. The registry also lists no product containing transfluthrin, an active ingredient in some heated repellers sold elsewhere (searched November 6, 2026). Health Canada says it is a violation of the Pest Control Products Act to buy and use unregistered pesticides, and that applies to products bought online. Indoors, the practical defence is intact window and door screens.',
+  },
+  {
+    question: 'How long does a mosquito repellent machine run before it needs a refill?',
+    answer: 'By the Canadian labels: a Thermacell Patio Shield mat lasts up to 4 hours (it turns from pale blue to white when it is spent), an OFF! Clip On refill disk up to 11 hours, and an OFF! Mosquito Lamp candle and refill 6 hours. Thermacell rates its butane cartridges at 12 hours, sells refills for its rechargeable repellers by running time (12 to 40 hours), and says they stop protecting reliably after their rated hours. A Mosquito Magnet Patriot Plus burns about 1 lb of propane a day, so Woodstream Canada says to change its 20 lb tank every 18 to 21 days.',
+  },
+  {
+    question: 'Does a mosquito repellent machine work in the wind?',
+    answer: 'Not well. The Thermacell Patio Shield label says it works well where there is minimal air movement and that wind, heat or humidity may affect it; the American Mosquito Control Association says Thermacell devices and mosquito coils are most effective where there is little wind; and the OFF! Clip On label says wind may affect its area of protection. On the Zone refills, keep the unit within 3 metres of where you sit, as that label says, and add units rather than expecting one to cover a breezy deck.',
+  },
+  {
+    question: 'Do mosquito repellent machines work on black flies or ticks?',
+    answer: 'Not as registered. The Canadian registrations for Thermacell’s area repellers and Zone refills, the OFF! Clip On and the OFF! lamps list mosquitoes as the pest. Health Canada notes that some clip-on products also repel blackflies, so check the pests named on the label you buy. No machine on this page is registered for ticks or controls them; ticks are handled with a registered repellent on skin and clothing and with treatment of the yard’s shaded edges.',
+  },
+  {
+    question: 'Is a mosquito repellent machine better than bug spray?',
+    answer: 'For protecting a person, no. Health Canada says area repellents such as lanterns and coils repel mosquitoes from a limited area but do not protect people from bites as well as personal insect repellents, the registered sprays and lotions that go on skin. A heated repeller earns its place where people sit together and nobody wants spray on, such as dinner on the deck; for gardening, hiking or anything that takes you out of the zone, a registered skin repellent such as DEET or icaridin is the better tool.',
   },
 ]
 
@@ -117,7 +137,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For most Canadian backyards, the best mosquito repellent device is a <AmazonLink search="thermacell patio shield" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Thermacell zone repeller</AmazonLink> &mdash; the Patio Shield&rsquo;s Canadian label (Reg. No. 31998) gives a repellent zone up to 4.5 metres (15 feet) from the unit and says to allow 30 minutes for it to take effect, with no smoke or spray. For thinning a whole large lot, a propane CO&#8322; trap is the strongest killing device but takes 6&ndash;8 weeks.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>A Thermacell zone repeller ($35&ndash;$229) protects a 4.5-metre (15-foot) zone on the butane Patio Shield models and 6 metres (20 feet) on the larger metofluthrin Zone models, and starts working in roughly 15 to 30 minutes, by model.</li>
-              <li>A propane CO&#8322; trap (Mosquito Magnet) covers up to about 1 acre and costs $400&ndash;$1,300, thinning the population over 6&ndash;8 weeks.</li>
+              <li>A propane CO&#8322; trap (Mosquito Magnet) covers up to about 1 acre and costs $400&ndash;$1,300; it works over weeks, and independent trials are mixed on whether it thins a yard&rsquo;s population.</li>
               <li>UV + fan traps like DynaTrap ($79&ndash;$330) are weak on mosquitoes and best treated as supplemental insect catch.</li>
               <li>Bug zappers are the worst pick &mdash; independent studies show under 1% of what they kill is mosquitoes.</li>
               <li>Health Canada lists bug zappers, odour-baited mosquito traps and electronic or ultrasonic devices among products that do not protect well against insect bites.</li>
@@ -128,6 +148,20 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
             <div className="mt-4">
               <BuyLink search="thermacell patio shield" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
             </div>
+          </div>
+
+          <div className="mb-6 rounded-xl border border-navy-100 bg-white p-5">
+            <h2 className="text-xl font-extrabold text-brand-900 mb-2">Our Verdict on Mosquito Repellent Machines</h2>
+            <p className="text-[15px] text-gray-700 leading-relaxed">If the goal is fewer bites where you sit this evening, buy a heated area repeller with a Canadian registration number, not a trap or a zapper. In a 2013 field trial in Israel that set repellers and traps side by side, a Thermacell patio lantern cut biting pressure by up to 96.1% within about 1 to 3&nbsp;metres (3 to 10&nbsp;feet) of a volunteer, while three traps, a DynaTrap among them, either raised biting or made no difference at that range (Revay and colleagues, <em>Acta Tropica</em>). Two limits keep the verdict honest: the Patio Shield label says it works well where there is minimal air movement, and Health Canada says area repellents, lanterns and coils included, do not protect people from bites as well as a personal insect repellent on the skin. A killer machine is a different purchase: a propane CO&#8322; trap only makes sense on acreage, and even there the independent results are mixed.</p>
+            <p className="mt-3 text-sm font-bold text-brand-900">The best mosquito repellent machines in Canada, by job:</p>
+            <ol className="mt-2 space-y-1.5 text-sm text-gray-700 list-decimal pl-5">
+              <li><strong>Deck or patio:</strong> Thermacell Patio Shield (Reg. No. 31998). Its label gives up to 4.5&nbsp;m from the unit, 30 minutes to take effect and up to 4 hours per mat.</li>
+              <li><strong>A bigger seating area:</strong> a Thermacell rechargeable repeller on Zone refills (Reg. Nos. 34261 and 34262). The refill labels give a 6&nbsp;m zone (28&nbsp;m&sup2;) within 15 minutes, and the unit runs on a rechargeable battery instead of butane.</li>
+              <li><strong>Something to wear:</strong> OFF! Clip On (Reg. No. 30211), up to 11 hours per refill disk for the person wearing it, by its label. Repellent wristbands are a different product; our <Link href="/blog/mosquito-repellent-bracelets-canada">mosquito repellent bracelet guide</Link> explains why they fall short.</li>
+              <li><strong>A candle-style lamp:</strong> OFF! Mosquito Lamp (Reg. No. 32308), one lamp per 9.3&nbsp;m&sup2; and 6 hours per candle and pad, by its label.</li>
+              <li><strong>A killer machine, acreage only:</strong> Mosquito Magnet Patriot Plus (Reg. No. 32375). Woodstream Canada rates it at up to 1 acre and says the big drops take about four weeks.</li>
+            </ol>
+            <p className="mt-3 text-xs text-gray-500">Skip for bites: UV fan traps, bug zappers and ultrasonic gadgets. The pros and cons of each, the label specs and the studies behind this verdict are further down the page.</p>
           </div>
         </div>
       </section>
@@ -223,7 +257,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
               {
                 badge: 'Best for Large Lots',
                 name: 'Mosquito Magnet (propane CO₂ trap)',
-                why: 'The only device category with strong independent evidence of actually reducing mosquito numbers, by mimicking a breathing human. Woodstream Canada rates the Patriot Plus (Reg. No. 32375) at up to 1 acre and says results come in 7 to 10 days, with the big drops in about four weeks.',
+                why: 'Aimed at the cue biting mosquitoes actually follow, by mimicking a breathing human with real CO₂; field results are mixed, so treat it as one part of a plan. Woodstream Canada rates the Patriot Plus (Reg. No. 32375) at up to 1 acre and says results come in 7 to 10 days, with the big drops in about four weeks.',
                 search: 'mosquito magnet patriot plus',
                 pros: ['Genuinely thins the population', 'Covers up to ~1 acre', 'Targets biting females'],
                 cons: ['Premium up-front cost plus propane', 'Works over weeks — nothing tonight'],
@@ -231,10 +265,10 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
               {
                 badge: 'Best Supplemental',
                 name: 'DynaTrap UV + Fan Trap (not registered in Canada)',
-                why: 'Quiet, chemical-free, and satisfying to empty — but only about 5% of the catch is mosquitoes, so treat it as a bonus flying-insect catcher rather than your primary plan. No DynaTrap model is in Health Canada’s register, and a device sold to attract or destroy flying insects needs a Reg. No. (Pest Control Products Regulations, Schedule 1), so check the box for one.',
+                why: 'Quiet, chemical-free, and satisfying to empty — but in studies of UV insect traps mosquitoes were only about 4–6% of the catch, so treat it as a bonus flying-insect catcher rather than your primary plan. No DynaTrap model is in Health Canada’s register, and a device sold to attract or destroy flying insects needs a Reg. No. (Pest Control Products Regulations, Schedule 1), so check the box for one.',
                 search: 'dynatrap insect trap',
                 pros: ['Quiet and chemical-free', 'Catches lots of flying insects', 'Low maintenance'],
-                cons: ['~5% of catch is mosquitoes', 'Bulbs and cartridges add up'],
+                cons: ['UV-trap studies: ~4–6% of the catch is mosquitoes', 'Bulbs and cartridges add up'],
               },
               {
                 badge: 'Best Pre-Event',
@@ -306,6 +340,71 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
             <li><strong>An ultrasonic or electronic gadget:</strong> skip it for bites. Health Canada says these devices do not protect well.</li>
             <li><strong>The whole yard, and ticks too:</strong> no machine on this page covers both; that takes a whole-yard barrier treatment.</li>
           </ul>
+
+          <h2 className="text-xl font-extrabold text-brand-900 mt-8 mb-4">Pros and Cons of Each Mosquito Machine</h2>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100">
+            <table className="min-w-[640px] w-full text-sm">
+              <thead className="bg-brand-50">
+                <tr>
+                  <th className="px-4 py-2 text-left">Machine</th>
+                  <th className="px-4 py-2 text-left">Pros</th>
+                  <th className="px-4 py-2 text-left">Cons</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['Heated area repeller (Thermacell; Reg. Nos. 31998, 34261, 34262, 33274)', 'Registered in Canada; works the same evening (label: allow 30 minutes for the Patio Shield, 15 for the Zone refills); nothing sprayed on skin; field trials found far fewer bites close to the unit', 'Outdoor use only; the Patio Shield label says wind, heat, humidity or rain may affect it; protects one zone, not the yard; refills are the running cost; Health Canada says area repellents protect people less well than a skin repellent'],
+                  ['Clip-on repeller (OFF! Clip On, Reg. No. 30211)', 'Registered; up to 11 hours per refill disk (label); goes where you go; Health Canada says metofluthrin clip-ons repel mosquitoes and have no age restriction', 'Outdoor use only; the label says to clip it below the waist, keep the fan from blowing toward the face and let only adults replace the disk; wind can affect the protected area'],
+                  ['Propane CO₂ trap (Mosquito Magnet Patriot Plus 32375, Executive 29944)', 'Registered devices; built around carbon dioxide, a cue host-seeking females follow; Woodstream Canada rates the Patriot Plus at up to 1 acre', 'Works over weeks, not tonight; independent results are mixed (a two-summer University of Winnipeg study could not show less mosquito activity); a 20 lb propane tank every 18 to 21 days, by the maker’s figures; Health Canada lists odour-baited mosquito traps among products that do not protect well'],
+                  ['UV + fan trap (DynaTrap)', 'Quiet; no insecticide in the trap; catches mosquitoes along with other night fliers', 'No DynaTrap model in Health Canada’s registry; in the 2013 Israeli field trial, traps near people raised biting or made no difference; DynaTrap says to hang it 20 to 40 feet from where people sit'],
+                  ['Bug zapper', 'Kills moths, beetles and midges at a light; no insecticide', 'Health Canada lists bug zappers among products that do not protect well; an outdoor zapper sold here without registration must say on its label that it does not control mosquitoes'],
+                  ['Ultrasonic or electronic repeller', 'None for bites', 'A Cochrane review of 10 field studies found no difference in mosquitoes landing on people; a McGill University field test in Quebec found one ineffective; none is registered for mosquitoes in Canada'],
+                ].map(([machine, pros, cons]) => (
+                  <tr key={machine} className="border-t border-navy-50 align-top">
+                    <td className="px-4 py-2 font-semibold text-brand-800">{machine}</td>
+                    <td className="px-4 py-2 text-gray-700">{pros}</td>
+                    <td className="px-4 py-2 text-gray-700">{cons}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-2">From each product&rsquo;s Canadian label and registry record (Health Canada&rsquo;s pesticide registry, searched November 6, 2026), Woodstream Canada&rsquo;s Patriot Plus page, DynaTrap&rsquo;s FAQ, Health Canada&rsquo;s Personal insect repellents page and the field studies listed further down. BuzzSkito has not tested these machines.</p>
+
+          <h2 className="text-xl font-extrabold text-brand-900 mt-8 mb-4">Mosquito Repellent Machine Specs, From the Labels</h2>
+          <p className="text-sm text-gray-700 mb-4 leading-relaxed">Coverage, start-up time and running time decide which machine fits your deck. These are the figures on each product&rsquo;s Canadian label, with the maker&rsquo;s own running-time figures where the label gives none.</p>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100">
+            <table className="min-w-[720px] w-full text-sm">
+              <thead className="bg-brand-50">
+                <tr>
+                  <th className="px-4 py-2 text-left">Machine (Reg. No.)</th>
+                  <th className="px-4 py-2 text-left">Power</th>
+                  <th className="px-4 py-2 text-left">Area</th>
+                  <th className="px-4 py-2 text-left">Starts working</th>
+                  <th className="px-4 py-2 text-left">What runs out</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['Thermacell Patio Shield (31998)', 'A butane cartridge heats a repellent mat; Thermacell rates its cartridges at 12 hours', 'Up to 4.5 m from the unit; one unit per 21 m² (4.5 × 4.5 m), more units for larger areas', 'Allow 30 minutes', 'A mat lasts up to 4 hours and turns from pale blue to white when spent'],
+                  ['Thermacell rechargeable repellers on Zone refills (refills 34261, 34262)', 'A rechargeable battery heats a liquid refill; Thermacell lists up to 5.5 hours a charge for the E55 and 9 for the E90', '6 m zone (28 m²); keep the unit within 3 m of where you sit and space several units 6 m apart', 'Allow 15 minutes', 'Refills are sold by running time (Thermacell lists 12- to 40-hour sizes) and stop protecting reliably after their rated hours'],
+                  ['Thermacell Radius Zone (33274)', 'A rechargeable battery heats a refill', '3 m area', 'Within 15 minutes', 'Refills; Thermacell says all its rechargeable repellers take one refill type'],
+                  ['OFF! Clip On (30211)', 'A battery fan releases metofluthrin from a refill disk', 'The person wearing it; wind can affect the area', 'A few minutes', 'Up to 11 hours per refill disk; switch it off and the rest keeps for later'],
+                  ['OFF! Mosquito Lamp (32308)', 'A candle heats a metofluthrin refill', 'One lamp per 9.3 m² (3.05 × 3.05 m)', 'Not stated on the label', 'The candle and refill last 6 hours; replace both together'],
+                  ['Mosquito Magnet Patriot Plus (32375)', 'Burns propane to make carbon dioxide; plugs in with a 50-foot cord', 'Up to 1 acre (maker)', 'Results in 7 to 10 days, big drops in about four weeks (maker)', 'About 1 lb of propane a day; change the 20 lb tank every 18 to 21 days'],
+                ].map(([machine, power, area, start, runs]) => (
+                  <tr key={machine} className="border-t border-navy-50 align-top">
+                    <td className="px-4 py-2 font-semibold text-brand-800">{machine}</td>
+                    <td className="px-4 py-2 text-gray-700">{power}</td>
+                    <td className="px-4 py-2 text-gray-700">{area}</td>
+                    <td className="px-4 py-2 text-gray-700">{start}</td>
+                    <td className="px-4 py-2 text-gray-700">{runs}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-2">Label figures from Health Canada&rsquo;s <a href="https://pest-control.canada.ca/pesticide-registry/en/product-search.html" target="_blank" rel="noopener noreferrer" className="underline">pesticide registry</a> (labels read November 6, 2026). Every repeller in the table is labelled for outdoor use only. Battery, cartridge and refill hours from Thermacell&rsquo;s <a href="https://www.thermacell.com/faqs/product-questions/rechargeable/battery-charge-duration" target="_blank" rel="noopener noreferrer" className="underline">battery</a> and <a href="https://www.thermacell.com/questions-by-topic/device-refills" target="_blank" rel="noopener noreferrer" className="underline">refill</a> pages; Patriot Plus figures from <a href="https://www.woodstreambrands.ca/patriot-plus-mm-trap-canada-mm4202b" target="_blank" rel="noopener noreferrer" className="underline">Woodstream Canada</a>.</p>
         </div>
       </section>
 
@@ -337,7 +436,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
           <p>Full breakdown: <Link href="/blog/thermacell-canada-where-to-buy">Thermacell Canada — where to buy and do they work</Link>.</p>
 
           <h3>2. Propane CO₂ traps — best for killing over a large property</h3>
-          <p>Propane traps such as the Mosquito Magnet burn propane to generate CO₂, heat, and moisture that mimic a breathing human. Female mosquitoes are lured in and vacuumed into a net. This is the only device category with strong independent evidence of actually <em>reducing</em> mosquito numbers, over 6–8 weeks of continuous running within about a 1-acre radius.</p>
+          <p>Propane traps such as the Mosquito Magnet burn propane to generate CO₂, heat, and moisture that mimic a breathing human. Female mosquitoes are lured in and vacuumed into a net. It is the only device category here built around a cue a biting female actually follows, but the independent evidence that it <em>reduces</em> the mosquitoes in a yard is mixed: a University of Winnipeg study ran a Mosquito Magnet Pro through two summers and could not show that it reduced mosquito activity, while in an Israeli field trial four propane traps (Blue Rhino SV3100) at the corners of a site cut biting by 40.1%.</p>
           <Photo id="culex-pipiens" alt="Northern house mosquito, Culex pipiens, photographed in Ontario" caption="A northern house mosquito, Culex pipiens, photographed in Ontario, Canada. A propane trap draws host-seeking females with CO₂, heat and moisture and vacuums them into a net." />
           <p>The catch is cost and patience: $400–$1,300 for the device plus $400–$600 a season in propane and attractant cartridges, and it does nothing for tonight&rsquo;s barbecue because it works over weeks, not hours. It earns its keep on cottage and rural acreage, not on a fenced suburban lot where the neighbours&rsquo; yards keep restocking the population.</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
@@ -346,7 +445,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
           <p>Full breakdown: <Link href="/blog/mosquito-magnet-canada">Mosquito Magnet Canada — where to buy and do they work</Link>.</p>
 
           <h3>3. UV + fan traps (DynaTrap) — supplemental only</h3>
-          <p>UV traps use an ultraviolet light to attract flying insects and a fan to suck them into a basket. They are quiet, use no insecticide, and are satisfying to empty — but peer-reviewed testing (University of Florida; Notre Dame) finds mosquitoes make up only about 5% of the catch; the rest is moths, beetles, and midges. An octenol booster cartridge nudges the mosquito share up a little, not enough to rival a propane trap.</p>
+          <p>UV traps use an ultraviolet light to attract flying insects and a fan to suck them into a basket. They are quiet, use no insecticide, and are satisfying to empty — but the University of Florida and Notre Dame counts often quoted for them were bug zapper studies (mosquitoes were 4.1% and 6.4% of the daily catch in the two Notre Dame yard trials, per the American Mosquito Control Association), and in the one field trial we found that measured bites next to a DynaTrap, traps placed near people either raised biting or made no difference. An octenol booster cartridge nudges the mosquito share up a little, not enough to rival a propane trap.</p>
           <p>Priced $79–$330 plus $90–$150 a season in bulbs and cartridges, a UV trap is a fine <em>supplemental</em> gadget on a cottage deck, but it should never be your primary mosquito plan.</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="dynatrap insect trap">Check UV trap price on Amazon.ca (no DynaTrap is registered in Canada) →</BuyLink>
@@ -366,6 +465,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="mosquito fogging insecticide">Check fogging insecticide on Amazon.ca (look for a current Canadian Reg. No.) →</BuyLink>
           </div>
+          <Photo id="fogging-for-mosquitoes-navy" alt="A Navy officer spraying for mosquitoes with a handheld fogger that puts out a white fog" caption="A U.S. Navy preventive medicine officer spraying for mosquitoes with a handheld fogger at Camp Buehring, Kuwait, in April 2010 (U.S. Navy photo). A fogger turns its insecticide into that fog, which is why the fogging liquid, not the machine, is what needs a current Canadian registration number." />
 
           <h3>5. Bug zappers — worst for mosquitoes</h3>
           <p>Electric bug zappers lure insects with UV light and electrocute them on a charged grid. They are cheap ($30–$120) and oddly satisfying, but they are the wrong tool for mosquitoes: a landmark University of Delaware study found mosquitoes and other biting insects made up well under 1% of what zappers kill, while the bulk were harmless — and sometimes beneficial — beetles and moths. Worse, the light can draw more insects toward your yard. Buy one if you hate moths near a porch light; do not buy one expecting fewer mosquito bites.</p>
@@ -383,7 +483,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
           <p>Shoppers use two phrases almost interchangeably, but they describe opposite jobs. A <strong>mosquito repellent machine</strong> pushes mosquitoes away from a space without killing them, while a <strong>mosquito killer machine</strong> tries to trap or electrocute them. Knowing which word matches your goal is the fastest way to stop wasting money on the wrong gadget.</p>
           <ul>
             <li><strong>Repellent machine → Thermacell.</strong> The Thermacell zone repeller is the only true <em>repellent machine</em> here — it diffuses an allethrin, prallethrin or metofluthrin vapour (depending on the model) that keeps mosquitoes out of a 3- to 6-metre zone within about 15 to 30 minutes. It kills nothing; it simply makes the air where you sit unpleasant to mosquitoes. This is what you want if the problem is getting bitten on the patio <em>tonight</em>.</li>
-            <li><strong>Killer machine → Mosquito Magnet &amp; DynaTrap.</strong> Propane CO₂ traps (Mosquito Magnet) and UV+fan traps (DynaTrap) are <em>killer machines</em> — they lure and capture insects. The propane CO₂ killer machine is the only one with strong evidence of actually thinning a mosquito population (over 6–8 weeks, on up to an acre); the UV killer machine catches mostly moths and beetles, so it is a weak killer for mosquitoes specifically.</li>
+            <li><strong>Killer machine → Mosquito Magnet &amp; DynaTrap.</strong> Propane CO₂ traps (Mosquito Magnet) and UV+fan traps (DynaTrap) are <em>killer machines</em> — they lure and capture insects. The propane CO₂ killer machine is the one aimed at the cue biting females follow, though independent trials disagree on whether it thins a yard&rsquo;s population (a University of Winnipeg study could not show that it did); the UV killer machine catches mostly moths and beetles, so it is a weak killer for mosquitoes specifically.</li>
             <li><strong>Also killer machines, but skip them.</strong> Foggers and bug zappers technically kill too, but a fogger only knocks mosquitoes down for a few hours and a bug-zapper killer machine electrocutes under 1% mosquitoes — mostly harmless night insects.</li>
           </ul>
           <p>Rule of thumb: buy a <strong>repellent machine</strong> (Thermacell) for same-day patio comfort, and only add a <strong>killer machine</strong> (a propane CO₂ trap) if you have rural acreage worth thinning over the whole season. For a whole yard plus ticks — which no machine of either type controls — pair either with <Link href="/mosquito-control">professional barrier spray</Link>.</p>
@@ -395,6 +495,39 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
           <h2>Repel vs Kill: Which Do You Actually Need?</h2>
           <p>The single most common mistake is buying a &ldquo;killer machine&rdquo; when you actually want a repeller. If your problem is <strong>getting bitten on the patio tonight</strong>, you need a repeller (Thermacell) or a whole-yard treatment — a trap does nothing on that timescale. If your problem is a <strong>chronically buggy acre near a wetland</strong>, you need a killing device (propane CO₂ trap) running all season, plus patience. Zappers and UV traps sit in an awkward middle: they kill insects, just mostly the wrong ones.</p>
           <Photo id="mosquito-bites-forearm" alt="Several swollen mosquito bites fusing together on a forearm" caption="Several swollen mosquito bites fusing together on a forearm (CDC photograph, 2024). Preventing bites tonight is a repeller’s job; a trap works on the population over weeks." />
+
+          <h2 id="field-studies">What the Field Studies Say About Mosquito Machines</h2>
+          <p>Every claim on a mosquito machine box can be checked against field trials, and the trials agree with each other more than the marketing does. These are the studies behind the verdict at the top of this page. BuzzSkito has not tested these machines; the figures are the researchers&rsquo; own.</p>
+          <div className="not-prose overflow-x-auto my-4">
+            <table className="min-w-[640px] w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden">
+              <thead className="bg-brand-50">
+                <tr>
+                  <th className="px-3 py-2 text-left">Study</th>
+                  <th className="px-3 py-2 text-left">What was tested</th>
+                  <th className="px-3 py-2 text-left">What it found</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['Revay and colleagues, Acta Tropica, 2013 (Israel)', 'Three repellers (a Thermacell patio lantern, an OFF! PowerPad lamp and a Terminix tabletop repeller) and three traps (a DynaTrap, a Vortex electronic trap and a Blue Rhino SV3100 propane trap), with volunteers as bait', 'In minimal air movement, all three repellers cut biting at 3 to 10 feet, the Thermacell by up to 96.1%. Near people, the traps raised biting or made no difference. Over a larger area, only four Blue Rhino traps at the corners cut biting, by 40.1%'],
+                  ['Alten and colleagues, Journal of Medical Entomology, 2003 (Turkey)', 'One Thermacell unit, with volunteers at 2.3, 4.6 and 7.6 m from it', 'Mosquito biting fell by 90.2 to 97.4% (93% on average) and stayed above 90% through the 6-hour assessment'],
+                  ['Dame and colleagues, Journal of the American Mosquito Control Association, 2014 (Arkansas)', 'OFF! Clip-On (metofluthrin), Thermacell (allethrin), a linalool device and a dichlorvos strip', 'The metofluthrin, allethrin and linalool devices cut the mosquitoes reaching stand-in human traps, by up to 84% depending on the product and the species'],
+                  ['Collier and colleagues, Journal of the American Mosquito Control Association, 2006 (Louisiana, 14 months)', 'Thermacell and an OFF! Mosquito Lantern, against a Mosquito Magnet and a Dragonfly trap', 'Sites with the two repellers had significantly fewer mosquitoes in light traps than the sites with the two traps'],
+                  ['Henderson and colleagues, Journal of the American Mosquito Control Association, 2006 (University of Winnipeg, Manitoba)', 'A Mosquito Magnet Pro run continuously at an urban and a rural Winnipeg site in 2001 and 2002', 'It caught an estimated 2 million mosquitoes in 94 trap nights, mostly Aedes vexans, but the researchers could not show that it reduced mosquito activity; landing counts did not drop'],
+                  ['Kline, Journal of the American Mosquito Control Association, 2006 (USDA review, Florida)', 'Mosquito Magnet Pro traps', 'Traps along a nature trail on an isolated Gulf of Mexico island cut the annoyance from salt-marsh mosquitoes; a perimeter of the same traps in a Gainesville residential area did not do as well'],
+                  ['Enayati and colleagues, Cochrane review, 2007', 'Electronic (ultrasonic) mosquito repellers', 'All 10 field studies found no difference in the mosquitoes caught landing on people with or without the device'],
+                  ['Lewis and colleagues, The Canadian Entomologist, 1982 (McGill University, Quebec)', 'An electronic mosquito repeller', 'Ineffective against wild mosquitoes, mostly Aedes, at Sainte-Anne-de-Bellevue'],
+                ].map(([study, tested, found]) => (
+                  <tr key={study} className="border-t border-navy-50 align-top">
+                    <td className="px-3 py-2 font-semibold text-brand-800">{study}</td>
+                    <td className="px-3 py-2 text-gray-700">{tested}</td>
+                    <td className="px-3 py-2 text-gray-700">{found}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p>Read together: a heated repeller protects the spot next to it, best in still air; a trap catches mosquitoes but rarely changes the bites where people sit; an electronic repeller does nothing. Health Canada adds the last limit in its own advice: area repellents such as lanterns and coils are approved to repel mosquitoes from a limited area, but they do not protect people from bites as well as a personal insect repellent. A 2026 field trial in Mali that compared six consumer devices found the same order: heated repellers first, <Link href="/blog/mosquito-coils-canada">mosquito coils</Link> moderate but inconsistent, and a citronella candle and an ultrasonic unit with little or no measurable effect (its heated cartridges used transfluthrin, which has no Canadian registration, and one of its authors worked for Woodstream, whose Canadian arm sells DynaTrap). If a trap is still the plan for an acreage, our <Link href="/blog/best-mosquito-trap">mosquito trap comparison</Link> puts propane, UV and CO&#8322; models side by side.</p>
 
           <RelatedLinks path="/blog/best-mosquito-repellent-device-canada" />
           <h2>Devices vs Professional Barrier Spray for GTA Yards</h2>

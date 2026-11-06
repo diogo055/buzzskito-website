@@ -18,7 +18,7 @@ import UsAmazonLine from '@/components/UsAmazonLine'
 
 const SLUG = 'mosquito-larvae-identification'
 const DATE = '2026-04-28'
-const UPDATED = '2026-10-15'
+const UPDATED = '2026-11-06'
 // BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): the "Mosquito Bits on Amazon.ca" button (search "summit mosquito bits"; Bits have no Canadian registration) now searches "summit mosquito dunks" and reads "Mosquito Dunks (Reg. No. 28888) on Amazon.ca"; the speakable answer above it gained one parenthesis (Dunks, only in water that stays on the property; Bits unregistered). The comparison link to /blog/mosquito-bits-canada-vs-dunks sits beside the button.
 const TITLE = 'Mosquito Larvae — Identification, Look-Alikes & Removal'
 
@@ -41,7 +41,7 @@ const FAQS = [
   },
   {
     question: 'How do you get rid of mosquito larvae?',
-    answer: 'Three options ranked by effectiveness: (1) Drain or empty the water — most effective, kills 100% of larvae instantly. (2) BTI Mosquito Dunks or Bits (Bacillus thuringiensis israelensis) — bacterial larvicide, kills larvae in 24–48 hours; the U.S. EPA states BTI toxins affect only mosquito, black fly, and fungus gnat larvae. Available at Canadian Tire, Home Depot, Rona for $10–$20. (3) Cooking oil or dish soap on the water surface — disrupts the larvae\'s breathing siphon, kills within hours. Use only as last resort and only in non-environmental water (e.g., disposable containers).',
+    answer: 'Three options ranked by effectiveness: (1) Drain or empty the water — most effective, kills 100% of larvae instantly. (2) BTI Mosquito Dunks or Bits (Bacillus thuringiensis israelensis) — bacterial larvicide, kills larvae in 24–48 hours; the U.S. EPA states BTI toxins affect only mosquito, black fly, and fungus gnat larvae. In Canada only the Dunks are registered (Reg. No. 28888; Health Canada’s registry lists no Mosquito Bits), at Canadian Tire, Home Depot, Rona for $10–$20. (3) Cooking oil or dish soap on the water surface — disrupts the larvae\'s breathing siphon, kills within hours. Use only as last resort and only in non-environmental water (e.g., disposable containers).',
   },
   {
     question: 'Are mosquito larvae harmful to humans or pets?',
@@ -165,7 +165,7 @@ const FAQS = [
   },
   {
     question: 'What larvicides can I buy in the United States?',
-    answer: 'The CDC names five classes. BTI (Bacillus thuringiensis israelensis). Lysinibacillus sphaericus, which the CDC notes does not work on Aedes aegypti. Spinosad, derived from the bacterium Saccharopolyspora spinosa. The insect growth regulators methoprene and pyriproxyfen, which stop adults emerging rather than killing larvae outright. And mineral oils plus monomolecular surface films — the only class that also kills pupae. All must be EPA-registered and used according to the label. Summit Mosquito Dunks and Bits are the EPA-registered BTI products on U.S. shelves at Home Depot, Lowe\'s, Walmart, Ace, and Tractor Supply; in Canada the same products carry a Health Canada PCP number and sell at Canadian Tire, Home Depot, and Rona.',
+    answer: 'The CDC names five classes. BTI (Bacillus thuringiensis israelensis). Lysinibacillus sphaericus, which the CDC notes does not work on Aedes aegypti. Spinosad, derived from the bacterium Saccharopolyspora spinosa. The insect growth regulators methoprene and pyriproxyfen, which stop adults emerging rather than killing larvae outright. And mineral oils plus monomolecular surface films — the only class that also kills pupae. All must be EPA-registered and used according to the label. Summit Mosquito Dunks and Bits are the EPA-registered BTI products on U.S. shelves at Home Depot, Lowe\'s, Walmart, Ace, and Tractor Supply; in Canada only the Dunks carry a Health Canada registration number (Reg. No. 28888), and they sell at Canadian Tire, Home Depot, and Rona; Health Canada’s registry lists no Mosquito Bits.',
   },
   {
     question: 'How long until mosquito larvae turn into mosquitos?',
@@ -174,6 +174,33 @@ const FAQS = [
   {
     question: 'What are mosquito larvae?',
     answer: 'Mosquito larvae are the aquatic larval stage of the mosquito lifecycle (egg, larva, pupa, adult): 5–8 mm brown-to-black "wigglers" that live only in standing water, hang head-down at the surface to breathe through a tail siphon, and dart downward in an S-shape when the water is disturbed. They cannot bite, and they moult four times as they grow before turning into comma-shaped pupae.',
+  },
+  // Nov 6, 2026 additions. Sources: CDC life-cycle pages for Culex, Aedes and Anopheles mosquitoes; American Mosquito Control
+  // Association, "Life Cycle"; Health Canada, "Mosquitoes" (pest-control-tips) and its Pesticide Label Search (Reg. No. 28888,
+  // 27374, 34631, 34197, checked Nov 6, 2026); V. B. Wigglesworth, J. Exp. Biol. 10 (1933): 16-26, doi:10.1242/jeb.10.1.16.
+  {
+    question: 'Do mosquito larvae have gills?',
+    answer: 'Not for breathing. Most mosquito larvae breathe air through a siphon at the tail end, which is why they hang from the surface, and Anopheles larvae, which have no siphon, breathe through spiracles on the abdomen, according to the U.S. Centers for Disease Control and Prevention. At the tip of the tail they do carry small finger-like papillae often called anal gills, but V. B. Wigglesworth showed in the Journal of Experimental Biology in 1933 that these are mainly water-absorbing organs and only incidentally concerned with breathing. Feathery gills along the sides of the body point to a mayfly or another aquatic insect, not a mosquito.',
+  },
+  {
+    question: 'Can you see mosquito larvae with the naked eye?',
+    answer: 'Yes. The U.S. Centers for Disease Control and Prevention says larvae can be seen in the water. A full-grown wiggler is about 5–8 mm long in a typical Culex, and the Missouri Department of Conservation gives a range of under 1/4 inch to over 1/2 inch across species. Newly hatched larvae are only about 1 mm and nearly transparent, so they are easy to miss. Eggs are harder still: a Culex egg raft is about 1/4 inch long and looks like a fleck of soot on the water (American Mosquito Control Association), and Aedes eggs sit as black specks on the container wall just above the waterline. Pour a cupful of the water into a white container to make all of them easier to spot.',
+  },
+  {
+    question: 'Do mosquito larvae look like tadpoles?',
+    answer: 'Only at a glance. A mosquito larva is a thin, segmented wriggler, usually 5–8 mm long, that hangs from the surface by a breathing tube at its tail and darts down in an S-shape when the water is disturbed. A tadpole has a rounded body with no segments and one broad paddle tail, and it grazes along surfaces instead of hanging from the surface film. Tadpoles belong in a pond; mosquito larvae become adults in about one to two weeks, and the females bite.',
+  },
+  {
+    question: 'What larvicides are registered in Canada for mosquito larvae?',
+    answer: 'In Health Canada’s pesticide registry, the mosquito larvicides registered for homeowners include Mosquito Dunks (Reg. No. 28888, BTI tablets), the BTI granules AquaBac 200G (Reg. No. 27374) and My-Crobe 200G (Reg. No. 34631), and Doktor Doom 90 Day Mosquito Larva Killer (Reg. No. 34197, a novaluron briquet). Summit Mosquito Bits are not registered in Canada. Health Canada says to use only a larvicide with a pest control product (PCP) number on the label, and only in water that cannot be emptied, drained, flushed or changed on a regular basis; the Canadian Mosquito Dunks label also limits it to water that stays on your property.',
+  },
+  {
+    question: 'How often should I empty standing water to stop mosquito larvae?',
+    answer: 'At least once a week, and twice a week for small water you can change easily. Health Canada advises replacing the water in bird baths and outdoor pet dishes at least twice a week, changing the water in a plastic wading pool at least twice a week, and emptying a rain barrel whose water is over a week old unless it is protected with a fine screen. The timing follows the biology: the U.S. Centers for Disease Control and Prevention says a Culex or Aedes egg takes 7–10 days to become a flying adult, so water that is changed every few days never produces one.',
+  },
+  {
+    question: 'How many eggs does a mosquito lay?',
+    answer: 'It depends on the kind of mosquito. A Culex female sticks 100–300 eggs together into one floating raft, and the American Mosquito Control Association notes she may lay a raft every third night during her life. Anopheles females lay 50–200 eggs at a time, one by one on the water, according to the U.S. Centers for Disease Control and Prevention, while container-breeding Aedes lay single eggs on the inside walls of containers, just above the waterline. That is why one forgotten bucket can produce a great many mosquitoes over a summer.',
   },
 ]
 
@@ -282,6 +309,12 @@ export default function MosquitoLarvaePage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
+          {/* Nov 6, 2026: photo-led answer for "what do mosquito larvae look like (in water)". CDC PHIL 26029, public domain. */}
+          <Photo
+            id="aedes-aegypti-larvae-at-surface"
+            alt="Three mosquito larvae hanging from the surface of standing water, each with a dark breathing tube at the tail end touching the surface"
+            caption="Three yellow fever mosquito larvae (Aedes aegypti) suspended at the surface of standing water, photographed by the CDC. This is the posture to look for in a bucket, saucer or barrel: the body hangs down into the water while the dark breathing tube at the tail end touches the surface."
+          />
         </div>
       </section>
 
@@ -386,6 +419,66 @@ export default function MosquitoLarvaePage() {
           </ul>
           <p className="text-base text-gray-800 leading-relaxed mb-5">
             To check, scoop a cupful into a white container so the larvae show as dark specks, then look at one through a hand lens &mdash; at 5&ndash;10x the siphon is obvious. Larvae cannot bite. Once confirmed, drain the water, or treat water you keep with a BTI larvicide &mdash; see the <Link href="/blog/mosquito-bits-canada-vs-dunks" className="underline hover:text-brand-700">Mosquito Bits vs Dunks Canada guide</Link>.
+          </p>
+        </div>
+      </section>
+
+      {/* Nov 6, 2026: stage-by-stage identification of what you actually see in a container (eggs, larvae, pupae). Sources:
+          CDC life-cycle pages for Culex (dated Sep 3, 2025), Aedes (Apr 16, 2024) and Anopheles (May 14, 2024) mosquitoes;
+          American Mosquito Control Association, "Life Cycle" (mosquito.org/life-cycle); Missouri Department of Conservation
+          field guide (mdc.mo.gov). The full cycle lives on /learn/mosquito-life-cycle and is linked here, not repeated. */}
+      <section className="bg-white py-10 px-4 border-b border-gray-100">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-xl font-extrabold text-brand-900 mb-3">Mosquito eggs, larvae and pupae: how to tell the stages apart</h2>
+          <p className="text-base text-gray-800 leading-relaxed mb-5">
+            A container that has been sitting for a week often holds more than one stage at once: an egg raft on the surface, wigglers of several sizes, and a few curled pupae about to hatch. This table is about what you can see in the water. For how the stages connect, and how long each one takes in an Ontario summer, see our <Link href="/learn/mosquito-life-cycle" className="underline hover:text-brand-700">mosquito life cycle guide</Link>.
+          </p>
+          <div className="rounded-xl border border-gray-200 overflow-x-auto">
+            <table className="min-w-[720px] w-full text-sm">
+              <thead className="bg-brand-50">
+                <tr>
+                  <th className="px-3 py-2 text-left">What you see</th>
+                  <th className="px-3 py-2 text-left">Size</th>
+                  <th className="px-3 py-2 text-left">What it looks like</th>
+                  <th className="px-3 py-2 text-left">How long it lasts</th>
+                  <th className="px-3 py-2 text-left">What to do</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['Egg raft (Culex, the house mosquito)', 'About 1/4 inch long and 1/8 inch wide (about 6 × 3 mm), holding 100–300 eggs', 'A dark speck, like a fleck of soot, floating on still water', 'Larvae hatch within 24–48 hours', 'Tip the water out: Culex eggs are susceptible to drying out'],
+                  ['Eggs on a container wall (Aedes, such as the Asian tiger mosquito)', 'Single eggs, each under 1 mm', 'Black specks stuck to the inside wall just above the waterline', 'Survive drying for up to 8 months, then hatch when rain or a sprinkler covers them', 'Empty the container, scrub the inside wall, and store it upside down'],
+                  ['Single floating eggs (Anopheles)', '50–200 eggs laid at a time, one by one', 'Separate eggs floating on the surface, not stuck together in a raft', 'Do not tolerate drying out', 'Tip the water out'],
+                  ['Larva ("wiggler")', 'About 1 mm at hatching; full grown, 5–8 mm in a typical Culex, and from under 1/4 inch to over 1/2 inch across species','A segmented worm with a wide head and thorax, a narrow abdomen and, in most species, a breathing tube at the tail', '4–14 days, depending on water temperature', 'Dump the water, or treat water you keep with a registered BTI larvicide'],
+                  ['Pupa ("tumbler")', 'Curled into a comma shape', 'A large head-and-thorax with a curled tail, floating at the surface and breathing through two small tubes called trumpets', '1–4 days, without feeding', 'Dump the water: BTI has to be eaten, and pupae do not eat'],
+                  ['Newly emerged adult', 'Full adult size', 'Standing on the water surface beside its split pupal case', 'Rests only until its body dries and hardens', 'Too late for that one: fix the water so the next batch never hatches'],
+                ].map(([s, z, l, d, w]) => (
+                  <tr key={s} className="border-t border-gray-100 align-top">
+                    <td className="px-3 py-2 font-semibold text-brand-800">{s}</td>
+                    <td className="px-3 py-2 text-gray-700">{z}</td>
+                    <td className="px-3 py-2 text-gray-700">{l}</td>
+                    <td className="px-3 py-2 text-gray-700">{d}</td>
+                    <td className="px-3 py-2 text-gray-700">{w}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-3 mb-5">
+            Egg to flying adult takes 7&ndash;10 days for <em>Culex</em> and <em>Aedes</em> mosquitoes and 10&ndash;14 days for <em>Anopheles</em>, according to the U.S. Centers for Disease Control and Prevention. Sources: the CDC&rsquo;s life-cycle pages for{' '}
+            <a href="https://www.cdc.gov/mosquitoes/about/life-cycle-of-culex-mosquitoes.html" target="_blank" rel="noopener" className="underline hover:text-brand-700"><em>Culex</em></a>,{' '}
+            <a href="https://www.cdc.gov/mosquitoes/about/life-cycle-of-aedes-mosquitoes.html" target="_blank" rel="noopener" className="underline hover:text-brand-700"><em>Aedes</em></a> and{' '}
+            <a href="https://www.cdc.gov/mosquitoes/about/life-cycle-of-anopheles-mosquitoes.html" target="_blank" rel="noopener" className="underline hover:text-brand-700"><em>Anopheles</em></a> mosquitoes; the{' '}
+            <a href="https://www.mosquito.org/life-cycle/" target="_blank" rel="noopener" className="underline hover:text-brand-700">American Mosquito Control Association&rsquo;s life-cycle page</a>; and the{' '}
+            <a href="https://mdc.mo.gov/discover-nature/field-guide/mosquito-larvae" target="_blank" rel="noopener" className="underline hover:text-brand-700">Missouri Department of Conservation field guide</a>.
+          </p>
+          <Photo
+            id="mosquito-larvae-pupae-bottle-cap"
+            alt="Mosquito larvae and pupae in the water held by an upturned plastic bottle cap"
+            caption="Yellow fever mosquito (Aedes aegypti) larvae and pupae in the water held by a plastic bottle cap, photographed by the CDC. The long, bristly wrigglers are larvae; the darker, rounded comma shapes are pupae. The CDC notes that mosquitoes need only a small amount of water to lay eggs."
+          />
+          <p className="text-base text-gray-800 leading-relaxed">
+            <strong>Eggs are the stage people miss.</strong> A <em>Culex</em> raft looks like a fleck of soot on the water, and container mosquitoes leave their eggs out of the water altogether: the CDC says <em>Aedes</em> eggs stick to container walls &ldquo;like glue&rdquo; just above the waterline and can survive drying out for up to 8 months, then hatch when water covers them again. That is why emptying a bucket is only half the job. Run a stiff brush around the inside wall, rinse it out onto dry ground, and store the container upside down or under cover.
           </p>
         </div>
       </section>
@@ -615,6 +708,72 @@ export default function MosquitoLarvaePage() {
             </table>
           </div>
 
+          {/* Nov 6, 2026: the Canadian version of the table above. Sources: Health Canada, "Mosquitoes" (canada.ca, pest-control-tips,
+              date modified 2024-09-11); Health Canada Pesticide Label Search, Reg. No. 28888 Mosquito Dunks (domestic, registered),
+              27374 AquaBac 200G, 34631 My-Crobe 200G and 34197 Doktor Doom 90 Day Mosquito Larva Killer (all "Registered"), checked
+              Nov 6, 2026; Canadian label figures for 28888 as read and quoted on /blog/mosquito-bits-canada-vs-dunks (Oct 23, 2026);
+              Health Canada, "Importing pesticides for personal use" (no online purchase and shipment of unregistered pesticides). */}
+          <h2 className="text-xl font-extrabold text-brand-900 mb-3">How to get rid of mosquito larvae in Canada</h2>
+          <p className="speakable text-base text-gray-800 leading-relaxed mb-5">
+            <strong>Empty what you can on a schedule, screen what you keep, and treat only water you cannot empty, with a larvicide that has a Canadian registration number.</strong> Health Canada&rsquo;s advice starts with the water: mosquitoes grow in still or very slow-moving water, and &ldquo;even very small quantities of water can be a problem.&rdquo; Here is its checklist, with what the Canadian labels allow for the water you cannot empty.
+          </p>
+          <div className="rounded-xl border border-gray-200 overflow-x-auto mb-5">
+            <table className="min-w-[680px] w-full text-sm">
+              <thead className="bg-brand-50">
+                <tr>
+                  <th className="px-3 py-2 text-left">Where the water is</th>
+                  <th className="px-3 py-2 text-left">Health Canada&rsquo;s advice</th>
+                  <th className="px-3 py-2 text-left">If you cannot empty it</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-t border-gray-100 align-top">
+                  <td className="px-3 py-2 font-semibold text-brand-800">Bird bath or outdoor pet dish</td>
+                  <td className="px-3 py-2 text-gray-700">Replace the water at least twice a week</td>
+                  <td className="px-3 py-2 text-gray-700">No product needed: changing the water that often breaks the cycle</td>
+                </tr>
+                <tr className="border-t border-gray-100 align-top">
+                  <td className="px-3 py-2 font-semibold text-brand-800">Plastic wading pool</td>
+                  <td className="px-3 py-2 text-gray-700">Turn it over when not in use, and change the water at least twice a week</td>
+                  <td className="px-3 py-2 text-gray-700">No product: the registered BTI granule labels rule out wading pools</td>
+                </tr>
+                <tr className="border-t border-gray-100 align-top">
+                  <td className="px-3 py-2 font-semibold text-brand-800">Rain barrel</td>
+                  <td className="px-3 py-2 text-gray-700">Empty it if the water is over a week old, unless it is protected with a fine screen</td>
+                  <td className="px-3 py-2 text-gray-700">Screen it, then use Mosquito Dunks (Reg. No. 28888) if larvae appear: the Canadian label puts 0.1 to 3.0 square metres of water at a quarter dunk. More in our <Link href="/blog/rain-barrel-mosquito-proof-canada" className="underline hover:text-brand-700">rain barrel guide</Link>.</td>
+                </tr>
+                <tr className="border-t border-gray-100 align-top">
+                  <td className="px-3 py-2 font-semibold text-brand-800">Eavestroughs and gutters</td>
+                  <td className="px-3 py-2 text-gray-700">Keep them clean</td>
+                  <td className="px-3 py-2 text-gray-700">Do not treat: the Canadian Dunks label rules out rain gutters and drains that flow off your property. See <Link href="/blog/gutter-guards-mosquito-breeding-canada" className="underline hover:text-brand-700">gutter guards and mosquito breeding</Link>.</td>
+                </tr>
+                <tr className="border-t border-gray-100 align-top">
+                  <td className="px-3 py-2 font-semibold text-brand-800">Swimming pool and pool cover</td>
+                  <td className="px-3 py-2 text-gray-700">Keep the pool cleaned and chlorinated even when it is not being used, and dump any water that collects on the cover</td>
+                  <td className="px-3 py-2 text-gray-700">Chlorine and filtration, not a larvicide. For a pool you are not opening, see <Link href="/blog/green-pool-mosquito-breeding-ontario" className="underline hover:text-brand-700">green pools and mosquitoes</Link>.</td>
+                </tr>
+                <tr className="border-t border-gray-100 align-top">
+                  <td className="px-3 py-2 font-semibold text-brand-800">Tire swing</td>
+                  <td className="px-3 py-2 text-gray-700">Empty it of water, or replace the tire with another type of swing</td>
+                  <td className="px-3 py-2 text-gray-700">&mdash;</td>
+                </tr>
+                <tr className="border-t border-gray-100 align-top">
+                  <td className="px-3 py-2 font-semibold text-brand-800">Ornamental pond</td>
+                  <td className="px-3 py-2 text-gray-700">Aerate it, which creates oxygen bubbles in the water</td>
+                  <td className="px-3 py-2 text-gray-700">Fish, or Mosquito Dunks: ornamental ponds are on the Canadian label. Sizing an aerator: <Link href="/blog/pond-aerator-mosquito-larvae-canada" className="underline hover:text-brand-700">pond aerators vs mosquito larvae</Link>.</td>
+                </tr>
+                <tr className="border-t border-gray-100 align-top">
+                  <td className="px-3 py-2 font-semibold text-brand-800">Ditch, storm drain or catch basin</td>
+                  <td className="px-3 py-2 text-gray-700">&mdash;</td>
+                  <td className="px-3 py-2 text-gray-700">Do not treat water that flows off your property: the label says to contact your provincial regulator first, as a permit may be required. Report standing water on public land to your municipality (311 in the GTA).</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-base text-gray-800 leading-relaxed mb-8">
+            <strong>Use only a larvicide with a PCP number on the label.</strong> That is Health Canada&rsquo;s rule for water that cannot be emptied, drained, flushed or changed on a regular basis. In its pesticide registry, the mosquito larvicides registered for homeowners include Mosquito Dunks (Reg. No. 28888, BTI tablets), the BTI granules AquaBac 200G (Reg. No. 27374) and My-Crobe 200G (Reg. No. 34631), and Doktor Doom 90 Day Mosquito Larva Killer (Reg. No. 34197, a novaluron growth-regulator briquet). Summit Mosquito Bits are not among them: the bag carries only a U.S. EPA number, and Health Canada&rsquo;s import guidance says online purchases of unregistered pesticides and their shipment to Canada are not permitted. The Canadian Dunks label also differs from the U.S. figures quoted elsewhere on this page: one dunk covers up to 6 square metres of water surface, it needs at least 48 hours to work, and it is only for water that stays on your property. Doses and limits for each product are compared in our <Link href="/blog/mosquito-bits-canada-vs-dunks" className="underline hover:text-brand-700">Mosquito Bits vs Dunks guide</Link>.
+          </p>
+
           <h2 className="text-xl font-extrabold text-brand-900 mb-3">Will putting vinegar in water kill mosquito larvae?</h2>
           <p className="speakable text-base text-gray-800 leading-relaxed mb-5">
             <strong>Not reliably.</strong> Household vinegar is about 5% acetic acid. A heavy dose in a cup of water can kill larvae over several hours, but the volume needed to acidify a rain barrel or pond is impractical and would damage plants and fish. Neither white nor apple cider vinegar is registered as a larvicide by the U.S. Environmental Protection Agency or Health Canada.
@@ -817,8 +976,8 @@ export default function MosquitoLarvaePage() {
               </tbody>
             </table>
           </div>
-          <p><strong>The label is the law in both countries.</strong> In the U.S., a larvicide must be registered with the U.S. Environmental Protection Agency and used according to its label instructions &mdash; the EPA registration number on the front of the pack is the thing to look for, and Summit Mosquito Dunks and Bits carry one. <strong>In Canada</strong>, the equivalent is a Health Canada PCP number issued by the Pest Management Regulatory Agency. Same product, different number on the box.</p>
-          <p><strong>Where to buy.</strong> In Canada the dunks and bits sit in the garden aisle at Canadian Tire, Home Depot, and Rona for $10&ndash;$20. In the United States the same Summit products are stocked at Home Depot, Lowe&rsquo;s, Walmart, Ace Hardware, and Tractor Supply, and the surface films and IGR briquets above are usually a special-order or online item rather than an end-cap product.</p>
+          <p><strong>The label is the law in both countries.</strong> In the U.S., a larvicide must be registered with the U.S. Environmental Protection Agency and used according to its label instructions &mdash; the EPA registration number on the front of the pack is the thing to look for, and Summit Mosquito Dunks and Bits carry one. <strong>In Canada</strong>, the equivalent is a Health Canada PCP number issued by the Pest Management Regulatory Agency. For Mosquito Dunks that number is Reg. No. 28888; Mosquito Bits have no Canadian registration, so there is no Canadian number to look for on them.</p>
+          <p><strong>Where to buy.</strong> In Canada the dunks (Reg. No. 28888) sit in the garden aisle at Canadian Tire, Home Depot, and Rona for $10&ndash;$20; Mosquito Bits are not registered here. In the United States the same Summit products are stocked at Home Depot, Lowe&rsquo;s, Walmart, Ace Hardware, and Tractor Supply, and the surface films and IGR briquets above are usually a special-order or online item rather than an end-cap product.</p>
           <p>The growth-regulator row is the one worth knowing about if your problem water is a catch basin, a cistern, or a pond you top up all season rather than a barrel you can tip over. A methoprene or pyriproxyfen briquet is a sustained-release ring that sits in the water for weeks and stops the larvae under it from ever emerging as adults, which is a different job from a dunk that has to be eaten and a different job again from a film that suffocates what is already at the surface. Read the label for the water types it is cleared for and the replacement interval before you drop one in. <BuyLink tag={AMZ_TAG} search="mosquito larvicide growth regulator briquets">check IGR larvicide briquets on Amazon.ca &rarr;</BuyLink></p>
 
           <RelatedLinks path="/blog/mosquito-larvae-identification" />
@@ -875,6 +1034,10 @@ export default function MosquitoLarvaePage() {
             <a href="https://www.mosquito.org/" target="_blank" rel="noopener" className="underline">American Mosquito Control Association</a>. Canadian West Nile virus and standing-water guidance follows{' '}
             <a href="https://www.publichealthontario.ca/" target="_blank" rel="noopener" className="underline">Public Health Ontario</a> and the{' '}
             <a href="https://www.canada.ca/en/public-health.html" target="_blank" rel="noopener" className="underline">Public Health Agency of Canada</a>.</p>
+          <p className="text-sm">Added November 2026: the egg, larva and pupa table follows the CDC&rsquo;s life-cycle pages for <em>Culex</em>, <em>Aedes</em> and <em>Anopheles</em> mosquitoes and the{' '}
+            <a href="https://www.mosquito.org/life-cycle/" target="_blank" rel="noopener" className="underline">American Mosquito Control Association&rsquo;s life-cycle page</a>. The Canadian checklist follows Health Canada&rsquo;s{' '}
+            <a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/mosquitoes.html" target="_blank" rel="noopener" className="underline">mosquito page</a>, and the registration numbers come from Health Canada&rsquo;s{' '}
+            <a href="https://pr-rp.hc-sc.gc.ca/ls-re/index-eng.php" target="_blank" rel="noopener" className="underline">Pesticide Label Search</a>, checked November 6, 2026. The note on anal gills is V. B. Wigglesworth, &ldquo;The function of the anal gills of the mosquito larva,&rdquo; <em>Journal of Experimental Biology</em> 10 (1933): 16&ndash;26.</p>
           <p className="text-sm text-gray-600">Everything on this page is general public health and pest-management information, <strong>not medical advice</strong>. For questions about mosquito-borne illness or symptoms, speak to a physician, your local public health unit in Canada, or your county health department in the United States. Always read and follow the label on any larvicide you apply.</p>
 
           <h2>The Bigger Picture</h2>

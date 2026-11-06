@@ -354,7 +354,7 @@
 - `/blog/deer-fly-vs-horse-fly` — horse fly
 - `/learn/household-bugs` — common household bugs
 - `/blog/spider-beetles` — spider beetle
-- `/learn/types-of-mosquitoes` — types of mosquitoes
+- `/blog/types-of-mosquitoes` — types of mosquitoes
 - `/blog/asian-tiger-mosquito` — asian tiger mosquito
 - `/blog/gallinipper` — gallinipper
 - `/learn/mosquito-borne-diseases` — mosquito borne diseases
@@ -572,6 +572,7 @@
 - `/blog/christmas-tree-bugs` — christmas tree bugs
 - `/blog/best-bed-bug-interceptors` — bed bug interceptors
 - `/blog/best-wasp-spray` — wasp spray
+- `/blog/what-do-mosquito-bites-look-like` — what do mosquito bites look like
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

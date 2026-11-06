@@ -11139,9 +11139,9 @@
   {
    "slug": "types-of-mosquitoes",
    "kind": "spoke",
-   "section": "learn",
+   "section": "blog",
    "cluster": "mosquitoes",
-   "path": "/learn/types-of-mosquitoes",
+   "path": "/blog/types-of-mosquitoes",
    "keyword": "types of mosquitoes",
    "alsoTargets": [
     "mosquito species",
@@ -11159,7 +11159,7 @@
    "projClicks": 0,
    "batch": "god",
    "audience": "na",
-   "role": "hub",
+   "role": "page",
    "series": null,
    "state": null,
    "releaseOn": "2026-12-07",
@@ -11171,7 +11171,7 @@
    "scope": "The mosquito groups that bite people in the US and Canada (Aedes, Culex, Anopheles, Psorophora, floodwater and snow-pool Aedes), how to tell them apart with real photos, when each bites, what each spreads, and a link to each species page and the state pages.",
    "dataPacket": null,
    "metaTitleHint": "Types of Mosquitoes in North America",
-   "pageType": "hub",
+   "pageType": "entity-id",
    "pairWith": null,
    "collisions": [
     {
@@ -11194,7 +11194,7 @@
     "pillar": null,
     "ring": [],
     "minSiblings": 0,
-    "minExisting": 3,
+    "minExisting": 2,
     "category": null,
     "mustLink": [],
     "neighbors": [],
@@ -11292,8 +11292,8 @@
    "state": null,
    "releaseOn": "2026-12-07",
    "parent": {
-    "href": "/learn/types-of-mosquitoes",
-    "name": "Types of Mosquitoes"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Asian Tiger Mosquitoes: Identification, Daytime Biting and Where They Live",
    "scope": "Aedes albopictus: the white stripe, daytime and ankle biting, container breeding, the US county range and its northern edge (including southern Ontario detections), diseases it can spread, and container control.",
@@ -11319,9 +11319,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/types-of-mosquitoes"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -11417,17 +11415,17 @@
     "id"
    ],
    "minWords": 1100,
-   "datePublished": "2026-12-07",
+   "datePublished": "2027-04-05",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": null,
    "state": null,
-   "releaseOn": "2026-12-07",
+   "releaseOn": "2027-04-05",
    "parent": {
-    "href": "/learn/types-of-mosquitoes",
-    "name": "Types of Mosquitoes"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Gallinippers: The Giant Mosquitoes That Bite Hard",
    "scope": "Psorophora ciliata: size, the painful bite, floodwater egg hatches after heavy rain and hurricanes in the South and Midwest, how it differs from crane flies, and whether it spreads disease.",
@@ -11448,9 +11446,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/types-of-mosquitoes"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -11603,17 +11599,17 @@
     "id"
    ],
    "minWords": 1400,
-   "datePublished": "2026-12-07",
+   "datePublished": "2027-04-05",
    "projClicks": 0,
    "batch": "god",
    "audience": "na",
    "role": "page",
    "series": null,
    "state": null,
-   "releaseOn": "2026-12-07",
+   "releaseOn": "2027-04-05",
    "parent": {
-    "href": "/learn/types-of-mosquitoes",
-    "name": "Types of Mosquitoes"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Culex Mosquitoes: The House Mosquitoes That Spread West Nile Virus",
    "scope": "Culex pipiens, quinquefasciatus, tarsalis and restuans: identification, night biting, egg rafts in dirty water, the bird-mosquito West Nile cycle, where each species dominates (including the Prairie provinces), and source control.",
@@ -11634,9 +11630,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/types-of-mosquitoes"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -11727,14 +11721,14 @@
     "health"
    ],
    "minWords": 1300,
-   "datePublished": "2026-12-07",
+   "datePublished": "2027-04-05",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": null,
    "state": null,
-   "releaseOn": "2026-12-07",
+   "releaseOn": "2027-04-05",
    "parent": {
     "href": "/learn/mosquito-borne-diseases",
     "name": "Mosquito-Borne Diseases"
@@ -11779,17 +11773,17 @@
     "id"
    ],
    "minWords": 1300,
-   "datePublished": "2026-12-07",
+   "datePublished": "2027-04-05",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": null,
    "state": null,
-   "releaseOn": "2026-12-07",
+   "releaseOn": "2027-04-05",
    "parent": {
-    "href": "/learn/types-of-mosquitoes",
-    "name": "Types of Mosquitoes"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Yellow Fever Mosquitoes (Aedes aegypti): ID, US Range and Dengue Risk",
    "scope": "Aedes aegypti: the lyre marking, where it lives in the US (county records, California spread), why it drives local dengue and Zika transmission in Florida and Texas, and how it differs from the Asian tiger mosquito.",
@@ -11804,9 +11798,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/types-of-mosquitoes"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -12174,14 +12166,14 @@
     "health"
    ],
    "minWords": 1300,
-   "datePublished": "2026-12-07",
+   "datePublished": "2027-04-05",
    "projClicks": 0,
    "batch": "god",
    "audience": "na",
    "role": "page",
    "series": null,
    "state": null,
-   "releaseOn": "2026-12-07",
+   "releaseOn": "2027-04-05",
    "parent": {
     "href": "/learn/mosquito-borne-diseases",
     "name": "Mosquito-Borne Diseases"
@@ -15288,17 +15280,17 @@
     "id"
    ],
    "minWords": 1100,
-   "datePublished": "2026-12-21",
+   "datePublished": "2027-04-05",
    "projClicks": 0,
    "batch": "god",
    "audience": "na",
    "role": "page",
    "series": null,
    "state": null,
-   "releaseOn": "2026-12-21",
+   "releaseOn": "2027-04-05",
    "parent": {
-    "href": "/learn/types-of-mosquitoes",
-    "name": "Types of Mosquitoes"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Anopheles Mosquitoes: The Malaria Mosquitoes That Live in North America",
    "scope": "Anopheles in the US and Canada: identification (resting angle, palps), where they breed, why malaria is not established but local cases occurred in 2023, and the larvae that lie flat.",
@@ -15319,9 +15311,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/types-of-mosquitoes"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -15345,17 +15335,17 @@
     "id"
    ],
    "minWords": 1100,
-   "datePublished": "2026-12-21",
+   "datePublished": "2027-04-05",
    "projClicks": 0,
    "batch": "god",
    "audience": "na",
    "role": "page",
    "series": null,
    "state": null,
-   "releaseOn": "2026-12-21",
+   "releaseOn": "2027-04-05",
    "parent": {
-    "href": "/learn/types-of-mosquitoes",
-    "name": "Types of Mosquitoes"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Floodwater Mosquitoes: Why Swarms Follow Heavy Rain",
    "scope": "Aedes vexans and relatives: eggs that wait years in dry ground, hatch after flooding, the 7-10 day lag to biting swarms, why the Prairies and the Midwest see nuisance peaks, and what does and does not help.",
@@ -15376,9 +15366,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/types-of-mosquitoes"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -15402,14 +15390,14 @@
     "health"
    ],
    "minWords": 1000,
-   "datePublished": "2026-12-21",
+   "datePublished": "2027-04-05",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": null,
    "state": null,
-   "releaseOn": "2026-12-21",
+   "releaseOn": "2027-04-05",
    "parent": {
     "href": "/learn/mosquito-borne-diseases",
     "name": "Mosquito-Borne Diseases"
@@ -15561,14 +15549,14 @@
     "health"
    ],
    "minWords": 1000,
-   "datePublished": "2026-12-21",
+   "datePublished": "2027-04-05",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": null,
    "state": null,
-   "releaseOn": "2026-12-21",
+   "releaseOn": "2027-04-05",
    "parent": {
     "href": "/learn/mosquito-borne-diseases",
     "name": "Mosquito-Borne Diseases"
@@ -15662,14 +15650,14 @@
     "health"
    ],
    "minWords": 1000,
-   "datePublished": "2026-12-21",
+   "datePublished": "2027-04-05",
    "projClicks": 0,
    "batch": "god",
    "audience": "na",
    "role": "page",
    "series": null,
    "state": null,
-   "releaseOn": "2026-12-21",
+   "releaseOn": "2027-04-05",
    "parent": {
     "href": "/learn/mosquito-borne-diseases",
     "name": "Mosquito-Borne Diseases"
@@ -15712,14 +15700,14 @@
     "health"
    ],
    "minWords": 1000,
-   "datePublished": "2026-12-21",
+   "datePublished": "2027-04-05",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": null,
    "state": null,
-   "releaseOn": "2026-12-21",
+   "releaseOn": "2027-04-05",
    "parent": {
     "href": "/learn/mosquito-borne-diseases",
     "name": "Mosquito-Borne Diseases"
@@ -28150,6 +28138,82 @@
     "category": null,
     "mustLink": [
      "/blog/yellow-jackets"
+    ],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "what-do-mosquito-bites-look-like",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/what-do-mosquito-bites-look-like",
+   "keyword": "what do mosquito bites look like",
+   "alsoTargets": [
+    "what does a mosquito bite look like",
+    "mosquito bite pictures",
+    "mosquito bites",
+    "mosquito bite on face",
+    "mosquito bites on babies",
+    "mosquito bites on toddler",
+    "mosquito bite blister",
+    "does a mosquito bite have a dot in the middle",
+    "mosquito bite vs hives"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [],
+   "minWords": 1800,
+   "datePublished": "2026-12-07",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "na",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2026-12-07",
+   "parent": {
+    "href": "/learn/bug-bites",
+    "name": "Bug Bites"
+   },
+   "h1Hint": "What Do Mosquito Bites Look Like? Photos by Stage, Body Part and Skin Tone",
+   "scope": "Photo-led: how a bite looks by stage, body part, skin tone and age; blisters; what else it could be (short pointers to the comparison pages).",
+   "dataPacket": null,
+   "metaTitleHint": "What Do Mosquito Bites Look Like? (Photos)",
+   "pageType": "bite-sting",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/why-do-mosquito-bites-itch",
+     "overlap": "how long bites last and itch",
+     "resolution": "it keeps the timeline searches; this page owns how a bite looks; link both ways"
+    },
+    {
+     "path": "/blog/when-to-worry-about-a-mosquito-bite",
+     "overlap": "red flags",
+     "resolution": "it keeps the warning signs; link from the reactions section"
+    },
+    {
+     "path": "/blog/skeeter-syndrome",
+     "overlap": "large swollen reactions",
+     "resolution": "skeeter owns the allergy searches; this page shows them briefly and links"
+    },
+    {
+     "path": "/blog/bug-bites-on-babies (planned)",
+     "overlap": "\"mosquito bites on toddler/babies\"",
+     "resolution": "this page owns the mosquito-specific baby searches; the babies page keeps bites in general"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/bug-bites"
     ],
     "neighbors": [],
     "minNeighbors": 0,

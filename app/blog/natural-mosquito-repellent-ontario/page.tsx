@@ -17,7 +17,7 @@ import { shareImage } from '@/lib/photos'
 
 const SLUG = 'natural-mosquito-repellent-ontario'
 const DATE = '2026-04-26'
-const UPDATED = '2026-04-26'
+const UPDATED = '2026-11-06'
 const TITLE = 'Natural Mosquito Repellent — What Actually Works in Ontario'
 
 const FAQS = [
@@ -35,7 +35,7 @@ const FAQS = [
   },
   {
     question: 'Are essential oil sprays a real mosquito repellent?',
-    answer: 'Most homemade essential oil sprays — peppermint, lavender, eucalyptus, tea tree — provide 30–60 minutes of weak repellency at best. The exception is oil of lemon eucalyptus (OLE), which is a different chemical (PMD) extracted and refined from the eucalyptus citriodora plant. Pure OLE-based products like Off Botanicals or Repel Lemon Eucalyptus are evidence-backed and last 4–6 hours. Generic essential oil blends are not.',
+    answer: 'Most homemade essential oil sprays — peppermint, lavender, eucalyptus, tea tree — provide 30–60 minutes of weak repellency at best. The exception is oil of lemon eucalyptus (OLE), which is a different chemical (PMD) extracted and refined from the eucalyptus citriodora plant. Registered lemon-eucalyptus products are evidence-backed: in Canada, the 30% Citriodiol repellents claim 4–6 hours against mosquitoes and the 10% PMD in Off Botanicals is labelled for 2 hours. Generic essential oil blends are not.',
   },
   {
     question: 'What\'s the best chemical-free way to control mosquitoes in my yard?',
@@ -43,7 +43,7 @@ const FAQS = [
   },
   {
     question: 'Is BTI (Bacillus thuringiensis israelensis) safe?',
-    answer: 'BTI is a naturally occurring soil bacterium that produces a toxin aimed specifically at mosquito and black fly larvae, rather than a broad-spectrum insecticide. Use it exactly as the label directs. It\'s sold as Mosquito Dunks (donut-shaped) or Bits (granular) at Canadian Tire, Home Depot, and most garden centres. Drop one dunk into any water that can\'t be drained — old tires, neglected birdbaths, ornamental ponds, rain barrels — and it kills larvae for 30 days. BTI is the gold-standard natural larviciding tool used by mosquito-control districts worldwide.',
+    answer: 'BTI is a naturally occurring soil bacterium that produces a toxin aimed specifically at mosquito and black fly larvae, rather than a broad-spectrum insecticide. Use it exactly as the label directs. In Canada it’s sold as Mosquito Dunks (donut-shaped; Reg. No. 28888) at Canadian Tire, Home Depot and most garden centres; Mosquito Bits are not registered here, and the home-use Bti granules that are registered are AquaBac 200G (27374) and My-Crobe 200G (34631). Drop one dunk into any water that can\'t be drained — old tires, neglected birdbaths, ornamental ponds, rain barrels — and it kills larvae for 30 days. BTI is the gold-standard natural larviciding tool used by mosquito-control districts worldwide.',
   },
   {
     question: 'Does a fan actually keep mosquitoes away?',
@@ -59,7 +59,7 @@ const FAQS = [
   },
   {
     question: 'Does neem oil repel mosquitoes?',
-    answer: 'Neem oil has mild mosquito-repellent properties, but field trials are inconsistent — protection ranges from under an hour to about two hours depending on concentration and formulation, and neem can irritate sensitive skin. It is a reasonable pinch-hitter but not dependable for a full evening outdoors. For reliable plant-based protection, oil of lemon eucalyptus (OLE / PMD) is far stronger and is the only botanical active the CDC rates comparable to low-concentration DEET, giving about 95% protection for 4–6 hours.',
+    answer: 'Neem oil has mild mosquito-repellent properties, but field trials are inconsistent — protection ranges from under an hour to about two hours depending on concentration and formulation, and neem can irritate sensitive skin. It is a reasonable pinch-hitter but not dependable for a full evening outdoors. For reliable plant-based protection, oil of lemon eucalyptus (OLE / PMD) is far stronger: it is on the U.S. CDC’s list of recommended repellent actives, and the 30% lemon-eucalyptus products registered in Canada claim 4–6 hours against mosquitoes.',
   },
   {
     question: 'Is picaridin a natural mosquito repellent?',
@@ -71,17 +71,42 @@ const FAQS = [
   },
   {
     question: 'Does peppermint oil repel mosquitoes?',
-    answer: 'Peppermint oil repels mosquitoes only weakly and only very briefly. In field trials, undiluted peppermint essential oil gives roughly 15–30 minutes of partial protection before it evaporates and the effect disappears, so it is one of the weakest options in the essential-oil group. The cooling menthol scent is pleasant and may mask some of the cues mosquitoes use, but it is nowhere near strong enough to protect you for an evening outside. For real plant-based protection, oil of lemon eucalyptus (OLE / PMD) is the only botanical the U.S. CDC rates comparable to low-concentration DEET, lasting 4–6 hours instead of minutes.',
+    answer: 'Peppermint oil repels mosquitoes only weakly and only very briefly. In field trials, undiluted peppermint essential oil gives roughly 15–30 minutes of partial protection before it evaporates and the effect disappears, so it is one of the weakest options in the essential-oil group. The cooling menthol scent is pleasant and may mask some of the cues mosquitoes use, but it is nowhere near strong enough to protect you for an evening outside. For real plant-based protection, oil of lemon eucalyptus (OLE / PMD) is on the U.S. CDC’s list of recommended repellent actives, and the 30% products registered in Canada claim 4–6 hours instead of minutes.',
   },
   {
     question: 'Does lavender repel mosquitoes?',
     answer: 'Lavender has mild mosquito-repelling properties but is mostly aromatic rather than protective. Lavender essential oil gives about 15–30 minutes of weak repellency when applied to skin, and a planted lavender bush releases almost no repellent unless the leaves are crushed. It smells lovely and works as a minor complement to a real strategy, but it will not keep a backyard bite-free on its own. If you want dependable botanical protection, choose oil of lemon eucalyptus (OLE / PMD), which lasts 4–6 hours — or pair a patio fan with BTI larvicide for whole-yard control.',
   },
+  {
+    question: 'Which natural mosquito repellents are registered in Canada?',
+    answer: 'Three plant-based actives have skin repellents registered by Health Canada today: oil of lemon eucalyptus, hydrated, cyclized (Citriodiol) at 30%, in 14 home-use products such as Druide and Murphy’s Outdoors; p-menthane-3,8-diol (PMD) at 10%, in the OFF! Botanicals line and STEM; and a mixture of lemon, camphor, geranium, eucalyptus and pine needle oils, sold as Citrobug. Soybean-oil and citronella skin repellents are no longer registered, and 2-undecanone, neem, catnip and single oils such as lavender or peppermint have no registered insect repellent. Look for the PCP registration number on the label (Health Canada’s registry, checked November 6, 2026).',
+  },
+  {
+    question: 'Is citronella still a registered mosquito repellent in Canada?',
+    answer: 'No. Health Canada’s registry lists no current product with citronella oil as an active ingredient. The Natrapel and Buzz Away citronella skin repellents were cancelled with a final expiry at the end of 2014, Druide’s citronella repellents at the end of 2020, and the last technical-grade citronella oil in January 2022. The “citronella-scented” mosquito coils still registered here work through a different active, the insecticide d-cis,trans-allethrin. Studies also found citronella short-lived: a 10% citronella product lasted 0.9 to 2.3 hours in a 2004 laboratory comparison, and some citronella products had no significant effect in a 2015 study.',
+  },
+  {
+    question: 'Can you still buy soybean oil repellent (Bite Blocker) in Canada?',
+    answer: 'Not as a registered repellent. Health Canada’s registry shows that the soybean-oil skin repellents sold here, Woodstream’s Blocker line, were cancelled on November 12, 2024, and no other soybean-oil repellent is registered, although Health Canada’s 2021 repellent page still lists soybean oil with no age limit. The research on 2% soybean oil was mixed: about 1.5 hours of complete protection in a 2002 New England Journal of Medicine study, but more than 7 hours in a 2004 laboratory test. For young children, the registered routes now are 20% icaridin from 6 months, and a net over the crib or stroller before that.',
+  },
+  {
+    question: 'Is oil of lemon eucalyptus the same as lemon eucalyptus essential oil?',
+    answer: 'No. Registered repellents use a refined form: in Canada either oil of lemon eucalyptus, hydrated, cyclized (sold as Citriodiol, at 30%) or p-menthane-3,8-diol (PMD, at 10%), the compound that does most of the repelling. Lemon eucalyptus essential oil from a health-food shop is neither, and the U.S. CDC does not recommend using “pure” oil of lemon eucalyptus, an essential oil that has not been formulated, as a repellent. Health Canada says lemon-eucalyptus repellents should not be used on children younger than 3.',
+  },
+  {
+    question: 'Do natural mosquito repellents work against ticks?',
+    answer: 'Some do, if ticks are on the label. Several 30% lemon-eucalyptus products registered in Canada list ticks: Murphy’s Outdoors claims up to 5 hours against them, and Tick Attack and Mosi-guard list ticks too, while the OFF! Botanicals spray (10% PMD) lists ticks for up to 2 hours. The essential-oil mixture sold as Citrobug lists mosquitoes only. For a longer day in tick country, the 20% Natrapel Icaridin label claims 12 hours against ticks, and Health Canada says icaridin products repel mosquitoes and ticks.',
+  },
+  {
+    question: 'Is PMD a natural ingredient?',
+    answer: 'It depends on the product. Entomologists describe PMD (p-menthane-3,8-diol) as a by-product of distilling the leaves of the lemon-scented gum tree (Carroll and Loye, 2006), and the U.S. CDC describes PMD as the synthesized version of oil of lemon eucalyptus. The OFF! Botanicals spray label approved in Canada says its 10% PMD is chemically synthesized from pine oil extract, while the 30% Citriodiol products, such as Druide’s, use a refined oil from lemon eucalyptus leaves. Health Canada treats both as registered repellents that should not be used on children younger than 3.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: 'Natural Mosquito Repellent: Lemon Eucalyptus',
-  description: 'Oil of lemon eucalyptus: about 95% protection for 4-6 hours, the only botanical the US CDC rates near low-concentration DEET. Candles and bracelets do not.',
+  // DESCRIPTION NOTE (Nov 6, 2026): was 'Oil of lemon eucalyptus: about 95% protection for 4-6 hours, the only botanical the US CDC rates near low-concentration DEET. Candles and bracelets do not.' The CDC no longer compares any active with low-concentration DEET (cdc.gov/mosquitoes/prevention, Aug 28, 2024, lists OLE and 2-undecanone as plant-derived actives), and Canadian labels give 2-6 hours. Search Console May-Nov 2026: natural mosquito repellent 2,224 impressions (pos 6.2), best natural mosquito repellent 343 (6.7), natural mosquito repellent canada 161 (9.9).
+  description: 'Natural mosquito repellent in Canada: lemon eucalyptus lasts 2-6 hours on its labels. Which plant actives are registered, which are not, and what fails.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -119,14 +144,15 @@ export default function NaturalMosquitoRepellentPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The most effective natural mosquito repellent is oil of lemon eucalyptus (OLE / PMD) — the only plant-derived ingredient the U.S. CDC rates comparable to low-concentration DEET, giving about 95% protection for 4–6 hours. For a whole yard, pair BTI larvicide with a patio fan.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The most effective natural mosquito repellent is oil of lemon eucalyptus (OLE / PMD) — one of only two plant-derived actives on the U.S. CDC&rsquo;s list of recommended repellents, and the only one of the two sold as a registered insect repellent in Canada, where its labels claim 4–6 hours against mosquitoes at 30% (Citriodiol) and 2 hours at 10% PMD. For a whole yard, pair BTI larvicide with a patio fan.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
-              <li>Oil of lemon eucalyptus (OLE / PMD) gives roughly 95% protection for 4–6 hours — the only botanical the CDC rates comparable to low-concentration DEET.</li>
+              <li>Oil of lemon eucalyptus (OLE / PMD) is the longest-lasting plant-based skin repellent registered in Canada: 4–6 hours against mosquitoes on 30% Citriodiol labels, 2 hours on 10% PMD labels.</li>
               <li>Soybean oil products (like Bite Blocker) provide about 1.5 hours of solid protection.</li>
               <li>Citronella oil protects for only 20–60 minutes before it needs re-applying.</li>
               <li>A patio fan drops mosquito landing rates 60–80% in a 3–5 metre radius — mosquitoes are weak fliers.</li>
               <li>BTI Mosquito Dunks ($15/season) kill larvae in standing water for 30 days, with a toxin that targets mosquito and black fly larvae.</li>
               <li>Homemade essential-oil sprays give 30–60 minutes of weak repellency at best.</li>
+              <li>In Canada, the registered plant-based skin repellents are lemon eucalyptus (30% Citriodiol or 10% PMD) and one five-oil blend; soybean-oil and citronella repellents are no longer registered (Health Canada&rsquo;s registry, November 2026).</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
           </div>
@@ -179,11 +205,13 @@ export default function NaturalMosquitoRepellentPage() {
             }
           />
 
+          <p>This page sticks to plant-based options. If you want the strongest <Link href="/blog/mosquito-repellent-guide-ontario-2026">mosquito repellent</Link> for your family, DEET and icaridin included, our ranked guide compares every type sold in Canada, with Health Canada&rsquo;s age rules and how long each one lasts.</p>
+
           <h2>Best Natural Mosquito Repellents, Ranked</h2>
           <p className="text-sm text-gray-500 mb-3">Updated July 2026</p>
           <p>If you only remember one thing: not all &ldquo;natural&rdquo; repellents are equal. Ranked by published complete-protection time and real-world reliability, these are the best natural mosquito repellents for an Ontario yard:</p>
           <ol>
-            <li><strong>Oil of lemon eucalyptus (OLE / PMD)</strong> — the single plant-derived active the <a href="https://www.cdc.gov/mosquitoes/" rel="noopener">U.S. CDC</a> rates on par with low-concentration DEET. About 95% protection for 4&ndash;6 hours. Refined from <em>Eucalyptus citriodora</em>; the active molecule is PMD.</li>
+            <li><strong>Oil of lemon eucalyptus (OLE / PMD)</strong> — one of two plant-derived actives on the <a href="https://www.cdc.gov/mosquitoes/" rel="noopener">U.S. CDC</a>&rsquo;s list of recommended repellents (the other, 2-undecanone, has no insect repellent registered in Canada). Canadian labels give 4&ndash;6 hours against mosquitoes for 30% Citriodiol and 2 hours for 10% PMD. Refined from <em>Eucalyptus citriodora</em>; the active molecule is PMD.</li>
             <li><strong>Soybean oil</strong> (e.g. Bite Blocker) — the strongest everyday botanical after OLE, giving roughly 1.5 hours of solid protection with a mild scent.</li>
             <li><strong>Citronella oil</strong> — real but brief. Complete protection lasts only about 20&ndash;60 minutes, so plan on frequent re-application for anything longer than a short outing.</li>
             <li><strong>Neem oil</strong> — mild and inconsistent in field trials; a usable pinch-hitter, but not dependable for a full evening outside.</li>
@@ -238,7 +266,73 @@ export default function NaturalMosquitoRepellentPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500">Figures reflect published complete-protection-time trials and vary by concentration and formulation. Only oil of lemon eucalyptus (PMD) is recommended by the <a href="https://www.cdc.gov/mosquitoes/" rel="noopener">CDC</a> and registered by the <a href="https://www.epa.gov/insect-repellents" rel="noopener">U.S. EPA</a> as comparable to low-concentration DEET (PMD products sold in Canada carry a PCP registration number); the others need far more frequent re-application. Sources: <a href="https://www.cdc.gov/mosquitoes/" rel="noopener">CDC &mdash; Mosquitoes</a>, <a href="https://www.epa.gov/insect-repellents" rel="noopener">U.S. EPA &mdash; Insect Repellents</a>.</p>
+          <p className="text-sm text-gray-500">Figures reflect published complete-protection-time trials and vary by concentration and formulation. Of the four actives in this table, only oil of lemon eucalyptus (PMD) is among the actives the <a href="https://www.cdc.gov/mosquitoes/" rel="noopener">CDC</a> recommends in <a href="https://www.epa.gov/insect-repellents" rel="noopener">U.S. EPA</a>-registered repellents, and only it has repellents registered in Canada today (10% PMD and 30% Citriodiol, each with a PCP registration number); the others need far more frequent re-application. Sources: <a href="https://www.cdc.gov/mosquitoes/" rel="noopener">CDC &mdash; Mosquitoes</a>, <a href="https://www.epa.gov/insect-repellents" rel="noopener">U.S. EPA &mdash; Insect Repellents</a>.</p>
+
+          <h2 id="registered-in-canada">Which Natural Repellents Are Registered in Canada?</h2>
+          <p>A repellent sold in Canada needs a PCP registration number from Health Canada, and that rule narrows the natural shelf a lot. We searched Health Canada&rsquo;s Pesticide Product Information Database by active ingredient on November 6, 2026, for every plant-based repellent on this page. Three plant-based actives have skin repellents registered today; soybean oil and citronella, both still named on older advice pages, do not.</p>
+          <div className="not-prose my-6 overflow-x-auto">
+            <table className="w-full min-w-[600px] border-collapse text-sm">
+              <thead>
+                <tr className="border-b-2 border-gray-300 text-left text-gray-900">
+                  <th className="py-2 pr-4 font-bold">Plant-based active</th>
+                  <th className="py-2 pr-4 font-bold">Registered in Canada?</th>
+                  <th className="py-2 pr-4 font-bold">Protection on the label</th>
+                  <th className="py-2 font-bold">Youngest age</th>
+                </tr>
+              </thead>
+              <tbody className="align-top text-gray-700">
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold">Oil of lemon eucalyptus, hydrated, cyclized (Citriodiol), 30%</td>
+                  <td className="py-3 pr-4">Yes: 14 home-use products, such as Druide (Reg. No. 32998), Murphy&rsquo;s Outdoors (35409), Tick Attack (34641) and Mosi-guard (30822)</td>
+                  <td className="py-3 pr-4">4&ndash;6 hrs vs mosquitoes (Druide, Murphy&rsquo;s); Murphy&rsquo;s also up to 5 hrs vs ticks; no more than twice a day</td>
+                  <td className="py-3">Not under 3 (Health Canada)</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold">p-Menthane-3,8-diol (PMD), 10%</td>
+                  <td className="py-3 pr-4">Yes: the OFF! Botanicals line (lotion, 34008; spray, 34594) and STEM (35422); the spray&rsquo;s label says its PMD is chemically synthesized from pine oil extract</td>
+                  <td className="py-3 pr-4">2 hrs vs mosquitoes (and ticks, on the spray), 5 hrs vs black flies; no more than twice a day</td>
+                  <td className="py-3">Not under 3</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold">Essential-oil mixture: lemon, camphor, geranium, eucalyptus and pine needle oils</td>
+                  <td className="py-3 pr-4">Yes: Citrobug Mosquito Repellent Oil (25797) and Citrobug Mosquito Repellent Oil for Kids (32733)</td>
+                  <td className="py-3 pr-4">Reapply at 2-hour intervals; no more than 2 applications a day</td>
+                  <td className="py-3">Not under 2; the label says not on children 2 and under</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold">Soybean oil</td>
+                  <td className="py-3 pr-4">No longer: the last skin repellents (Woodstream&rsquo;s Blocker line) were cancelled on November 12, 2024</td>
+                  <td className="py-3 pr-4">&mdash;</td>
+                  <td className="py-3">Health Canada&rsquo;s 2021 page still lists it with no age limit</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold">Citronella oil</td>
+                  <td className="py-3 pr-4">No current product of any kind: the last skin repellents were cancelled at the end of 2020, and &ldquo;citronella-scented&rdquo; coils are registered on the insecticide d-cis,trans-allethrin</td>
+                  <td className="py-3 pr-4">&mdash;</td>
+                  <td className="py-3">&mdash;</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold">Garlic</td>
+                  <td className="py-3 pr-4">Only as yard repellents, not for skin, such as Mosquito Barrier (31022, 32049)</td>
+                  <td className="py-3 pr-4">Re-apply after heavy rain (Mosquito Barrier label)</td>
+                  <td className="py-3">&mdash;</td>
+                </tr>
+                <tr>
+                  <td className="py-3 pr-4 font-semibold">2-undecanone (BioUD), neem, catnip, geraniol, lavender, peppermint, lemongrass, cedar oil</td>
+                  <td className="py-3 pr-4">No insect repellent registered</td>
+                  <td className="py-3 pr-4">&mdash;</td>
+                  <td className="py-3">&mdash;</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-gray-500">Source: Health Canada&rsquo;s <a href="https://pest-control.canada.ca/pesticide-registry/en/index.html" target="_blank" rel="noopener noreferrer">Pesticide Product Information Database</a>, searched by active ingredient on November 6, 2026; protection times are quoted from each product&rsquo;s approved label, and age rules from Health Canada&rsquo;s <a href="https://www.canada.ca/en/health-canada/services/about-pesticides/insect-repellents.html" target="_blank" rel="noopener noreferrer">Personal insect repellents</a> page. Geraniol appears in the registry only in a Japanese beetle trap lure, 2-undecanone (methyl nonyl ketone) only in dog and cat repellents, and the only cedar entries are an expired mouse repellent and a cancelled technical-grade oil.</p>
+          <p>Two practical rules follow. First, a long-lasting natural repellent in Canada means lemon eucalyptus: it is the only plant-based family with registered skin products that last more than a couple of hours. Second, a citronella, soybean or essential-oil spray without a PCP number is not a registered repellent here, whatever its US label says; the U.S. CDC itself says it does not know how well non-EPA-registered repellents, including some natural ones, work. If a candle is what you had in mind, our verdict on whether <Link href="/blog/citronella-candles-canada-do-they-work">citronella candles work in Canada</Link> covers that separately.</p>
+          <Photo
+            id="lemongrass-plant"
+            alt="Clump of lemongrass with long, narrow leaves"
+            caption="A clump of lemongrass, Cymbopogon citratus (San Blas, Nayarit, Mexico). Lemongrass and its relative citronella grass turn up in many natural sprays, but no lemongrass or citronella repellent is registered in Canada."
+          />
 
           <NextUp path="/blog/natural-mosquito-repellent-ontario" />
           <h2>The Tier System — What Actually Works</h2>
@@ -246,7 +340,7 @@ export default function NaturalMosquitoRepellentPage() {
           <h3>🟢 Tier 1: Evidence-backed, comparable to low-concentration DEET</h3>
           <ul>
             <li><strong>Oil of Lemon Eucalyptus (OLE / PMD)</strong> — extracted from <em>Eucalyptus citriodora</em>. Products sold in Canada carry a PCP registration number. 4–6 hours of skin protection in published trials. Found in Off Botanicals, Repel Lemon Eucalyptus, Murphy&rsquo;s Naturals.</li>
-            <li><strong>2-Undecanone (BioUD)</strong> — derived from wild tomato plants. Comparable to OLE. Less common in Canadian retail.</li>
+            <li><strong>2-Undecanone (BioUD)</strong> — derived from wild tomato plants. Comparable to OLE. Not registered as an insect repellent in Canada (Health Canada&rsquo;s registry, November 2026).</li>
           </ul>
 
           <h3>🟡 Tier 2: Real but short-duration repellents</h3>
@@ -255,6 +349,7 @@ export default function NaturalMosquitoRepellentPage() {
             <li><strong>Soybean oil products</strong> (e.g. Bite Blocker) — 1.5 hours protection. Mild scent.</li>
             <li><strong>Geraniol</strong> — used in some natural sprays. 1–2 hours.</li>
           </ul>
+          <p className="text-sm text-gray-600">Registration check: none of these three is a registered skin repellent in Canada today. Health Canada&rsquo;s registry lists no current citronella product (the last skin repellents were cancelled at the end of 2020), the soybean-oil Blocker repellents were cancelled on November 12, 2024, and geraniol appears only in a Japanese beetle trap lure. Read this tier as what the research found, not as a shopping list.</p>
 
           <h3>🔴 Tier 3: Marketing more than mosquitoes</h3>
           <ul>
@@ -273,8 +368,55 @@ export default function NaturalMosquitoRepellentPage() {
             caption="A citronella candle burning in its metal pail. Citronella candles work only directly downwind, within about 1 metre, which is why they sit in the third tier above."
           />
 
+          <h2 id="research">What the Research Says About Natural Repellents</h2>
+          <p>Six peer-reviewed studies put natural repellents, wearable devices and DEET to a direct test. Most were run in laboratories, test cages or enclosed greenhouses rather than backyards, so read them as a ranking, not a promise for your deck:</p>
+          <div className="not-prose my-6 overflow-x-auto">
+            <table className="w-full min-w-[600px] border-collapse text-sm">
+              <thead>
+                <tr className="border-b-2 border-gray-300 text-left text-gray-900">
+                  <th className="py-2 pr-4 font-bold">Study</th>
+                  <th className="py-2 pr-4 font-bold">What was tested</th>
+                  <th className="py-2 font-bold">What it found</th>
+                </tr>
+              </thead>
+              <tbody className="align-top text-gray-700">
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold">Fradin &amp; Day, <em>New England Journal of Medicine</em>, 2002</td>
+                  <td className="py-3 pr-4">16 products, including 7 botanical repellents and 3 wristbands, on 15 volunteers in a lab</td>
+                  <td className="py-3">23.8% DEET: 301.5 minutes of complete protection on average. 2% soybean oil: 94.6 minutes. Every other botanical: under 20 minutes. Repellent wristbands: no protection.</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold">Barnard &amp; Xue, <em>Journal of Medical Entomology</em>, 2004</td>
+                  <td className="py-3 pr-4">12 repellents against 3 mosquito species in a lab</td>
+                  <td className="py-3">A 26% PMD repellent ranked first, ahead of 2% soybean oil, 10% icaridin and 15% DEET (tied); 10% citronella and neem products lasted 0.9&ndash;2.3 hours.</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold">Carroll &amp; Loye, <em>Journal of the American Mosquito Control Association</em>, 2006</td>
+                  <td className="py-3 pr-4">A review of PMD plus new field and lab data</td>
+                  <td className="py-3">PMD has &ldquo;deet-like efficacy&rdquo;; the authors note the CDC began recommending it in April 2005.</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold">Revay and colleagues, <em>Acta Tropica</em>, 2013</td>
+                  <td className="py-3 pr-4">7 wearable and personal products in mesh-enclosed greenhouses</td>
+                  <td className="py-3">Citronella wristbands, a lemon-eucalyptus sticker patch, a vitamin B1 patch and a sonic device gave no significant protection; a metofluthrin clip-on cut bites on the arms by about 95% in the first trial.</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-semibold">Rodriguez and colleagues, <em>Journal of Insect Science</em>, 2015</td>
+                  <td className="py-3 pr-4">8 repellents, 2 fragrances and a vitamin B patch against 2 <em>Aedes</em> species</td>
+                  <td className="py-3">PMD repellents came close to DEET but for shorter periods; some citronella and geraniol products had no significant effect; the vitamin B patch did nothing.</td>
+                </tr>
+                <tr>
+                  <td className="py-3 pr-4 font-semibold">Rodriguez and colleagues, <em>Journal of Insect Science</em>, 2017</td>
+                  <td className="py-3 pr-4">11 repellents, including 5 wearable devices</td>
+                  <td className="py-3">DEET and PMD sprays repelled best; of the wearables, only a metofluthrin device worked; a citronella candle had no effect.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p>Read together, the six point one way: lemon-eucalyptus actives are the plant-based family that most consistently lands near DEET, soybean oil&rsquo;s results were mixed, and citronella, geraniol and most essential-oil products fade within minutes to a couple of hours. Two cautions from the same literature. A review in <em>Malaria Journal</em> (Maia &amp; Moore, 2011) notes that plant-based repellents are commonly seen as &ldquo;safe&rdquo; but that this is sometimes a misconception, so patch-test any oil before wider use. And the U.S. CDC says the effectiveness of non-EPA-registered repellents, including some natural ones, is unknown; in Canada the equivalent check is the PCP registration number.</p>
+
           <h2>Natural Repellents Compared — And Where to Buy</h2>
-          <p>Every pick below is stocked in Canada and evidence-ranked above. Prices change constantly, so the buttons go straight to the live Amazon.ca listing (US visitors are auto-routed to Amazon.com). For the full rundown of every repellent type — including DEET and picaridin concentrations — see our <Link href="/blog/mosquito-repellent-guide-ontario-2026">2026 Ontario mosquito repellent guide</Link>.</p>
+          <p>Every pick below is stocked in Canada and evidence-ranked above. Prices change constantly, so the buttons go straight to the live Amazon.ca listing. For the full rundown of every repellent type — including DEET and picaridin concentrations — see our <Link href="/blog/mosquito-repellent-guide-ontario-2026">2026 Ontario mosquito repellent guide</Link>.</p>
           <div className="not-prose my-6 overflow-x-auto">
             <table className="w-full min-w-[600px] border-collapse text-sm">
               <thead>
@@ -289,7 +431,7 @@ export default function NaturalMosquitoRepellentPage() {
                 <tr className="border-b border-gray-200">
                   <td className="py-3 pr-4 font-semibold">Off! Botanicals</td>
                   <td className="py-3 pr-4">Lemon eucalyptus (OLE / PMD)</td>
-                  <td className="py-3 pr-4">4–6 hrs</td>
+                  <td className="py-3 pr-4">2 hrs on the Canadian label (5 hrs vs black flies)</td>
                   <td className="py-3"><BuyLink tag={AMZ_TAG} search="off botanicals lemon eucalyptus" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-gray-200">
@@ -327,6 +469,7 @@ export default function NaturalMosquitoRepellentPage() {
             <li><strong>Mosquito Dunks</strong> — donut-shaped, drop one in any water that can&rsquo;t be drained. Each dunk lasts 30 days.</li>
             <li><strong>Mosquito Bits</strong> — granular, sprinkled in standing water. Faster knockdown, so <Link href="/blog/mosquito-bits-canada-vs-dunks">mosquito bits</Link> suit water you refresh often, while a dunk is better for a source you leave alone for a month.</li>
           </ul>
+          <p className="text-sm text-gray-600">In Canada, check the registration number before you buy: Health Canada&rsquo;s registry lists Mosquito Dunks (Reg. No. 28888) and two home-use Bti granules, AquaBac 200G (27374) and My-Crobe 200G (34631), but no Mosquito Bits (checked November 6, 2026).</p>
           <p>Available at Canadian Tire, Home Depot, garden centres. Use in: rain barrels, ornamental ponds, neglected birdbaths, drainage ditches, kiddie pools that can&rsquo;t be emptied, old tires holding water. <strong>One dunk treats standing water for up to 30 days, per the label.</strong></p>
           <p className="not-prose my-4">Of everything on this page, BTI is the only natural option that <em>removes</em> mosquitoes rather than repelling them for a few hours — and a season&rsquo;s supply costs about the same as one bottle of spray. <BuyLink tag={AMZ_TAG} search="mosquito dunks bti">Check Mosquito Dunks (BTI) on Amazon.ca →</BuyLink></p>
 

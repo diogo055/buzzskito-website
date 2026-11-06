@@ -15,9 +15,9 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'tick-head-stuck-in-skin'
 const DATE = '2026-07-16'
-const UPDATED = '2026-07-16'
+const UPDATED = '2026-11-06'
 const TITLE = 'Tick Head Stuck in Skin? What to Do (and When It\'s Dangerous)'
-const META_TITLE = 'Tick Head Stuck in Skin: What to Do (Ontario)'
+const META_TITLE = 'Tick Head Stuck in Skin: Symptoms and What to Do'
 
 const FAQS = [
   {
@@ -68,12 +68,40 @@ const FAQS = [
     question: 'Can I prevent tick heads from breaking off?',
     answer: 'Yes — technique and tools make the difference. Grip the tick right where its mouthparts enter the skin, not the body, and pull straight up with slow, steady pressure rather than twisting. A purpose-built tick-removal tool (a fine-tipped tweezer or a notched "tick key" style remover) slides under the mouthparts and levers the whole tick out intact far more reliably than fingers or blunt household tweezers. Keeping one in your first-aid kit, car, and dog-walking bag means you are never tempted to yank a tick out by hand.',
   },
+  // Nov 6, 2026 upgrade: six questions Search Console shows people asking with no direct answer on the page.
+  // Sources: CDC, What to Do After a Tick Bite (2026) and Lyme PEP checklist; Public Health Agency of Canada, How to remove a tick (2025);
+  // Mayo Clinic, Tick bites: first aid (2024); Public Health Ontario (2026 update, pharmacist PEP algorithm); TickEncounter (URI);
+  // Goddard & Wyatt, Cureus 2022 (PMID 36348875); Bartosik et al., Insects 2025 (PMID 40332863).
+  {
+    question: 'What are the symptoms of a tick head left in the skin?',
+    answer: 'Usually just a small bump at the bite, which Mayo Clinic calls typical. Signs that the spot is infected are redness or a change in skin colour that spreads, warmth, swelling, pain that gets worse, oozing or pus, and sometimes fever or chills; the CDC says to get medical care right away if the red area spreads quickly or you develop fever or chills. Separately, watch for signs of a tick-borne illness for about a month: an expanding rash 3 to 30 days after the bite, fever, chills, headache, fatigue, muscle and joint aches or swollen lymph nodes (Public Health Ontario). A firm lump that lasts for weeks can be a tick bite granuloma, and a doctor should check one that persists or grows.',
+  },
+  {
+    question: 'How do I know if the tick head is still in my skin?',
+    answer: 'Check the tick you removed. TickEncounter at the University of Rhode Island says ticks usually break at the base of the barbed feeding tube (the hypostome) or at the head capsule, so a tick that came out whole still has its pointed mouthparts at the front, and a flat or torn front end means part of it probably stayed behind. A white fleck on the mouthparts is usually the cement the tick glued itself in with, sometimes with a little skin, not a broken head. If you cannot tell, do not dig to find out: clean the spot, leave it, and ask a clinician to look if it is not settling.',
+  },
+  {
+    question: 'Can a tick head stay in your skin for months?',
+    answer: 'A lump can. The CDC says the body pushes leftover mouthparts out over time as the skin heals, but the reaction around a bite can last longer: a 2022 case report in Cureus followed a single tick-bite lesion that lasted at least 30 days without complications, and a 2025 report in Insects described a tick bite granuloma, confirmed by biopsy, that was still itching and burning 9 weeks after a tick was removed incompletely. A firm lump that persists or grows should be checked by a doctor.',
+  },
+  {
+    question: 'What does the CDC say to do if tick mouthparts stay in the skin?',
+    answer: 'The CDC says twisting or jerking a tick can make its mouthparts break off and remain in the skin. If that happens, it says your body will naturally push the mouthparts out over time as the skin heals, and if you cannot remove them easily with tweezers, you should leave them alone. It also says to clean the bite and your hands with soap and water, rubbing alcohol or hand sanitizer, and not to use petroleum jelly, heat or nail polish to make a tick let go. The Public Health Agency of Canada gives the same advice on leftover mouthparts.',
+  },
+  {
+    question: 'Do I need antibiotics if part of the tick is still in my skin?',
+    answer: 'Not because of the leftover piece: TickEncounter notes that the germs that can make you sick sit further back in the tick, in its salivary glands and gut. Whether a single preventive dose of doxycycline makes sense depends on the bite itself. The CDC asks whether the tick was removed within the last 72 hours, whether it was engorged, whether it was a blacklegged (deer) tick and whether Lyme disease is common where you were bitten. In Ontario, a pharmacist can assess the bite and prescribe the dose when Public Health Ontario\'s criteria are met. An infection at the bite site is a separate problem that needs a clinician.',
+  },
+  {
+    question: 'What if the tick head is stuck in my scalp?',
+    answer: 'The rules are the same: part the hair, make one gentle attempt with clean, fine-tipped tweezers if you can see the fragment, and leave it if it will not come out easily (CDC). You cannot see your own scalp well, so ask someone to look, and see a health care provider if you are uncomfortable removing it or the tick has buried itself deep in the skin (Public Health Agency of Canada). American dog ticks typically climb to the crown of the head (TickEncounter), so the scalp and hairline are worth checking after time outdoors.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
   description:
-    'Tick head stuck in your skin? What looks like a head is the tick\'s mouthparts. Leave it if it won\'t lift out easily — it works out like a splinter. How to remove it, whether it\'s dangerous, when to see a doctor (PHAC/CDC), plus dogs. Ontario guide, updated 2026.',
+    'Tick head stuck in your skin? It\'s the mouthparts. How to tell if part is still in, what the CDC says to do, symptoms to watch and when to see a doctor.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -154,9 +182,109 @@ export default function TickHeadStuckInSkinPage() {
         />
 
         <NextUp path="/blog/tick-head-stuck-in-skin" />
+        <h2>How to tell if the tick head is still in your skin</h2>
+        <p>Start with the tick you pulled out, not with your skin. Look at its front end in good light, with a magnifier or your phone camera zoomed in. <a href="https://web.uri.edu/tickencounter/ticksmart-tips/tip-12-dont-dread-the-broken-head-on-your-tick/" target="_blank" rel="noopener noreferrer">TickEncounter</a>, the tick research program at the University of Rhode Island, says the two most common breaking points during removal are the base of the hypostome (the barbed feeding tube) and the head capsule the mouthparts sit on. A tick that came out whole still has its pointed mouthparts at the front. If the front end looks flat, torn or empty, part of it is probably still in the bite.</p>
+        <div className="not-prose grid gap-4 sm:grid-cols-2">
+          <Photo
+            id="engorged-deer-tick-niaid"
+            alt="An engorged female deer tick seen from above on white paper, its swollen brown body behind the legs and the mouthparts at the front"
+            caption="An engorged adult female deer (blacklegged) tick collected in Annapolis, Maryland (NIAID photo). A tick that came out whole still has its mouthparts at the front end, ahead of the legs."
+          />
+          <Photo
+            id="engorged-blacklegged-tick-dog-neck"
+            alt="An engorged blacklegged tick seen from above on white, with its dark shield at the front and no mouthparts sticking out"
+            caption="An engorged blacklegged tick pulled from a dog's neck in Trois-Rivières, Quebec. The person who photographed it notes its mouthparts are missing, probably left in the bite: compare its front end with the whole tick in the other photo."
+          />
+        </div>
+        <div className="not-prose overflow-x-auto my-6">
+          <table className="min-w-[560px] w-full text-sm border-collapse">
+            <thead>
+              <tr className="bg-brand-50 text-left">
+                <th className="border border-gray-200 px-3 py-2 font-semibold text-brand-900">Where the tick breaks</th>
+                <th className="border border-gray-200 px-3 py-2 font-semibold text-brand-900">What stays in your skin</th>
+                <th className="border border-gray-200 px-3 py-2 font-semibold text-brand-900">Does the piece add disease risk?</th>
+              </tr>
+            </thead>
+            <tbody className="align-top text-gray-700">
+              <tr>
+                <td className="border border-gray-200 px-3 py-2 font-semibold">Base of the hypostome</td>
+                <td className="border border-gray-200 px-3 py-2">The barbed feeding tube, covered in rows of sharp, backward-pointing teeth</td>
+                <td className="border border-gray-200 px-3 py-2">No: the break cuts it off from the tick&rsquo;s salivary glands</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-200 px-3 py-2 font-semibold">Head capsule</td>
+                <td className="border border-gray-200 px-3 py-2">The mouthparts and the base they sit on, the part people call the head</td>
+                <td className="border border-gray-200 px-3 py-2">No, for the same reason</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-200 px-3 py-2 font-semibold">Nowhere (it came out whole)</td>
+                <td className="border border-gray-200 px-3 py-2">Nothing, though a fleck of white cement, sometimes with a little skin, can come away on the tick</td>
+                <td className="border border-gray-200 px-3 py-2">Any risk comes from the bite: what kind of tick it was and how long it fed</td>
+              </tr>
+            </tbody>
+          </table>
+          <p className="mt-2 text-xs text-gray-500">Sources: TickEncounter, University of Rhode Island (breaking points, salivary glands, cement); <a href="https://edis.ifas.ufl.edu/publication/IN781" target="_blank" rel="noopener noreferrer" className="underline">University of Florida IFAS Extension</a> (barbed mouthparts).</p>
+        </div>
+        <p>Two things are easy to mistake for a stuck head. A white fleck on the mouthparts of the tick you removed is usually the cement the tick glued itself in with, sometimes with a little of your skin: <a href="https://web.uri.edu/tickencounter/uncategorized/when-i-pulled-this-tick-off-my-skin-came-with-it/" target="_blank" rel="noopener noreferrer">TickEncounter</a> sees skin come away like this in roughly 10 to 20% of the American dog tick photos people send in, and almost never with blacklegged ticks. The University of Florida&rsquo;s extension service says a piece of skin breaking off is not a great concern, though the bite is worth watching for infection. And a small bump at the bite is normal: <a href="https://www.mayoclinic.org/first-aid/first-aid-tick-bites/basics/art-20056671" target="_blank" rel="noopener noreferrer">Mayo Clinic</a> calls it typical.</p>
+        <p>If you still can&rsquo;t tell, don&rsquo;t squeeze or probe the spot to find out. Clean it, leave it, and use the symptoms table below to decide when it needs a clinician.</p>
         <h2>What happens if you leave a tick head in your skin?</h2>
         <p>In most cases, nothing serious happens. Your immune system treats the fragment as foreign material and gradually pushes it toward the surface, usually within a few days to two weeks. You might see a small red bump or feel mild tenderness while it works its way out — that&rsquo;s normal healing, not a warning sign.</p>
         <p>The one outcome worth watching for is a <strong>localized skin infection</strong> at the site — for example cellulitis — which shows up as spreading redness, warmth, swelling, or pus. That&rsquo;s a wound-care problem, not a tick-disease problem, and it&rsquo;s treatable, but it needs a clinician. The good news, echoed by the U.S. CDC, is that trying to dig out a stubborn mouthpart usually causes more skin trauma than simply leaving it alone.</p>
+
+        <h2>Symptoms of a tick head left in the skin: what&rsquo;s normal and what isn&rsquo;t</h2>
+        <p>Keep two things apart. A leftover piece is a local skin issue: TickEncounter says it adds no disease risk. Illness from the tick depends on the bite itself, on what kind of tick it was and how long it fed, whether or not anything was left behind. This table puts both on one timeline.</p>
+        <div className="not-prose overflow-x-auto my-6">
+          <table className="min-w-[640px] w-full text-sm border-collapse">
+            <thead>
+              <tr className="bg-brand-50 text-left">
+                <th className="border border-gray-200 px-3 py-2 font-semibold text-brand-900">When</th>
+                <th className="border border-gray-200 px-3 py-2 font-semibold text-brand-900">What you might notice</th>
+                <th className="border border-gray-200 px-3 py-2 font-semibold text-brand-900">What it can mean</th>
+                <th className="border border-gray-200 px-3 py-2 font-semibold text-brand-900">What to do</th>
+              </tr>
+            </thead>
+            <tbody className="align-top text-gray-700">
+              <tr>
+                <td className="border border-gray-200 px-3 py-2 font-semibold">First few days</td>
+                <td className="border border-gray-200 px-3 py-2">A small bump at the bite</td>
+                <td className="border border-gray-200 px-3 py-2">A normal reaction: Mayo Clinic calls a small bump typical</td>
+                <td className="border border-gray-200 px-3 py-2 text-emerald-700 font-semibold">Keep it clean and leave it alone</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-200 px-3 py-2 font-semibold">Days after the bite</td>
+                <td className="border border-gray-200 px-3 py-2">Redness or a change in skin colour that spreads, warmth, swelling, pain that gets worse, oozing or pus, sometimes with fever or chills</td>
+                <td className="border border-gray-200 px-3 py-2">A skin infection such as cellulitis</td>
+                <td className="border border-gray-200 px-3 py-2 text-red-600 font-semibold">See a doctor; go right away if the red area spreads quickly or you get fever or chills (CDC)</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-200 px-3 py-2 font-semibold">3 to 30 days</td>
+                <td className="border border-gray-200 px-3 py-2">A red rash that keeps growing, sometimes like a bull&rsquo;s-eye; fever, chills, headache, fatigue, muscle and joint aches, swollen lymph nodes</td>
+                <td className="border border-gray-200 px-3 py-2">Possible early Lyme disease; the rash shows up in about 70 to 80% of people who have it</td>
+                <td className="border border-gray-200 px-3 py-2 text-red-600 font-semibold">See a doctor and mention the tick bite</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-200 px-3 py-2 font-semibold">5 to 21 days</td>
+                <td className="border border-gray-200 px-3 py-2">Fever, chills, fatigue, severe headache, muscle aches</td>
+                <td className="border border-gray-200 px-3 py-2">Possible anaplasmosis, another infection blacklegged ticks spread</td>
+                <td className="border border-gray-200 px-3 py-2 text-red-600 font-semibold">See a doctor and mention the tick bite</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-200 px-3 py-2 font-semibold">Weeks to months</td>
+                <td className="border border-gray-200 px-3 py-2">A small, firm lump that stays, sometimes itching or burning</td>
+                <td className="border border-gray-200 px-3 py-2">Possibly a tick bite granuloma, a lasting inflammatory reaction</td>
+                <td className="border border-gray-200 px-3 py-2 font-semibold">See a doctor if it persists or grows</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-200 px-3 py-2 font-semibold">Any time</td>
+                <td className="border border-gray-200 px-3 py-2">Severe headache, difficulty breathing, paralysis, heart palpitations</td>
+                <td className="border border-gray-200 px-3 py-2">An emergency</td>
+                <td className="border border-gray-200 px-3 py-2 text-red-600 font-semibold">Call 911</td>
+              </tr>
+            </tbody>
+          </table>
+          <p className="mt-2 text-xs text-gray-500">Sources: <a href="https://www.mayoclinic.org/first-aid/first-aid-tick-bites/basics/art-20056671" target="_blank" rel="noopener noreferrer" className="underline">Mayo Clinic</a>, Tick bites: first aid (2024); <a href="https://www.cdc.gov/group-a-strep/about/cellulitis.html" target="_blank" rel="noopener noreferrer" className="underline">CDC</a>, About cellulitis (2025); <a href="https://www.publichealthontario.ca/en/Education-and-Events/Events-and-Presentations/2026/05/Tick-Borne-Diseases-in-Ontario-2026-Update" target="_blank" rel="noopener noreferrer" className="underline">Public Health Ontario</a>, Tick-borne diseases in Ontario: an update (2026); <a href="https://pubmed.ncbi.nlm.nih.gov/40332863/" target="_blank" rel="noopener noreferrer" className="underline">Bartosik et al., <em>Insects</em> (2025)</a>. General information, not a diagnosis.</p>
+        </div>
+        <p>A lump can outlast the leftover piece. In a <a href="https://pubmed.ncbi.nlm.nih.gov/36348875/" target="_blank" rel="noopener noreferrer">2022 case report in <em>Cureus</em></a>, the skin lesion from a single tick bite lasted at least 30 days with no complications. In a <a href="https://pubmed.ncbi.nlm.nih.gov/40332863/" target="_blank" rel="noopener noreferrer">2025 report in <em>Insects</em></a>, a woman who removed a tick incompletely after about 12 hours of feeding still had itching and burning at the spot 9 weeks later, and a biopsy showed a tick bite granuloma. A lump that persists or grows is worth showing a doctor. Our guide to <Link href="/blog/tick-bites-that-wont-heal-when-to-worry">tick bites that won&rsquo;t heal</Link> covers the warning signs, and <Link href="/blog/what-does-a-tick-bite-look-like">what a tick bite looks like day by day</Link> shows normal healing.</p>
 
         <h2>How to remove a tick head (and when to stop)</h2>
         <p>Make exactly one careful attempt, then let it go if it resists. Here&rsquo;s the safe method:</p>
@@ -173,6 +301,49 @@ export default function TickHeadStuckInSkinPage() {
           caption="Fine-tipped tweezers pulling a tick away from the skin of an arm with steady, even pressure (CDC photo). The same grip, at the skin and straight up, is the one gentle attempt to make on a leftover fragment."
         />
         <p>What you should <em>never</em> do: dig with a needle or pin, cut the skin, apply a hot match, smother it in petroleum jelly or nail polish, or squeeze the area. These old &ldquo;tricks&rdquo; don&rsquo;t help and can push contaminants deeper or raise infection risk. For the full step-by-step on removing an attached tick the right way — before it ever breaks — see our <Link href="/blog/how-to-remove-tick-safely">guide to removing a tick safely</Link>.</p>
+
+        <h3>What the CDC, the Public Health Agency of Canada and Mayo Clinic say</h3>
+        <p>The <a href="https://www.cdc.gov/ticks/after-a-tick-bite/index.html" target="_blank" rel="noopener noreferrer">CDC</a> warns that twisting or jerking a tick can make its mouthparts break off and remain in the skin. If that happens, it says your body will naturally push them out over time as the skin heals, and if you can&rsquo;t remove them easily with tweezers, you should leave them alone. The three sources most people check compare like this:</p>
+        <div className="not-prose overflow-x-auto my-6">
+          <table className="min-w-[640px] w-full text-sm border-collapse">
+            <thead>
+              <tr className="bg-brand-50 text-left">
+                <th className="border border-gray-200 px-3 py-2 font-semibold text-brand-900">Source</th>
+                <th className="border border-gray-200 px-3 py-2 font-semibold text-brand-900">If mouthparts stay in the skin</th>
+                <th className="border border-gray-200 px-3 py-2 font-semibold text-brand-900">Clean the bite with</th>
+                <th className="border border-gray-200 px-3 py-2 font-semibold text-brand-900">Don&rsquo;t</th>
+              </tr>
+            </thead>
+            <tbody className="align-top text-gray-700">
+              <tr>
+                <td className="border border-gray-200 px-3 py-2 font-semibold">CDC (U.S.)</td>
+                <td className="border border-gray-200 px-3 py-2">Take them out with tweezers if that&rsquo;s easy; otherwise leave them and let the skin heal</td>
+                <td className="border border-gray-200 px-3 py-2">Soap and water, rubbing alcohol or hand sanitizer</td>
+                <td className="border border-gray-200 px-3 py-2">Twist or jerk the tick; use petroleum jelly, heat or nail polish</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-200 px-3 py-2 font-semibold">Public Health Agency of Canada</td>
+                <td className="border border-gray-200 px-3 py-2">Remove them with tweezers; if they won&rsquo;t come out easily, leave them and let the skin heal</td>
+                <td className="border border-gray-200 px-3 py-2">Soap and water, or an alcohol-based hand sanitizer</td>
+                <td className="border border-gray-200 px-3 py-2">Burn the tick, or smother it with nail polish, nail polish remover, essential oils or petroleum jelly</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-200 px-3 py-2 font-semibold">Mayo Clinic</td>
+                <td className="border border-gray-200 px-3 py-2">Contact a health care professional if you can&rsquo;t completely remove the tick</td>
+                <td className="border border-gray-200 px-3 py-2">Warm water and soap, rubbing alcohol or an iodine scrub</td>
+                <td className="border border-gray-200 px-3 py-2">Twist or squeeze the tick, handle it with bare hands, or use petroleum jelly, nail polish or a hot match</td>
+              </tr>
+            </tbody>
+          </table>
+          <p className="mt-2 text-xs text-gray-500">Sources: CDC, What to Do After a Tick Bite (2026); <a href="https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/remove-tick.html" target="_blank" rel="noopener noreferrer" className="underline">Public Health Agency of Canada</a>, How to remove a tick (2025); Mayo Clinic, Tick bites: first aid (2024).</p>
+        </div>
+        <p>All three agree on what matters most: no digging, no burning or smothering, and a clean bite. Where they differ is whether to have it checked, so if you aren&rsquo;t sure the whole tick came out, or the spot bothers you, it&rsquo;s reasonable to have a clinician look.</p>
+        <p>Before you throw the tick away:</p>
+        <ul>
+          <li><strong>Keep it, or a clear photo.</strong> The Public Health Agency of Canada suggests a sealable bag or a small container such as a pill bottle, labelled with the date, the part of the body bitten and where you were, and points to photo identification platforms such as <a href="https://www.etick.ca" target="_blank" rel="noopener noreferrer">eTick</a>. Mayo Clinic notes that a photo helps your provider tell what kind of tick it was.</li>
+          <li><strong>Don&rsquo;t crush it with your fingers</strong> (CDC). To dispose of it, PHAC suggests killing it in rubbing alcohol or by freezing it for several days, then putting it in the garbage.</li>
+          <li><strong>Skip testing the tick for germs.</strong> The CDC says testing a removed tick is generally not recommended: results shouldn&rsquo;t guide treatment, and a negative result can give false reassurance.</li>
+        </ul>
 
         <h2>Tick mouthparts left behind: leave it or dig it out?</h2>
         <p>Here&rsquo;s the decision at a glance. When a fragment is embedded, the trade-off is almost always in favour of leaving it alone.</p>
@@ -236,6 +407,44 @@ export default function TickHeadStuckInSkinPage() {
         <p>Will a leftover mouthpart give you Lyme disease? On its own, that&rsquo;s very unlikely — the <em>Borrelia</em> bacteria live in the tick&rsquo;s midgut and salivary glands, which are part of the body you already removed. Your actual Lyme risk is driven mainly by <strong>how long the whole tick was attached</strong> before removal. In Ontario, Public Health Ontario notes that transmission risk from a blacklegged tick rises significantly after 24–36 hours of attachment, so tell your provider how long it was on and, if you saved the tick, bring it. For the wider picture on symptoms and timelines, see our <Link href="/blog/tick-bite-symptoms-what-to-do-ontario">tick bite symptoms guide for Ontario</Link>.</p>
         <p>If you saved the tick, our <Link href="/tools/tick-identifier">tick identifier</Link> asks six quick questions about its size, legs and markings, where you found it, where you picked it up and the season, then shows the most likely ticks with a real photo of each, which is useful to have when you tell your provider what bit you.</p>
 
+        <h3>What actually sets your risk: the bite, not the leftover piece</h3>
+        <p><a href="https://web.uri.edu/tickencounter/news/how-not-to-remove-a-tick/" target="_blank" rel="noopener noreferrer">TickEncounter</a> puts it plainly: even if the hypostome breaks, the germs that can make you sick are further back in the tick&rsquo;s body, in the salivary glands and gut. What matters is which tick bit you and how long it fed. Public Health Ontario&rsquo;s 2026 clinical update gives these times for the infections blacklegged ticks spread in Ontario:</p>
+        <div className="not-prose overflow-x-auto my-6">
+          <table className="min-w-[520px] w-full text-sm border-collapse">
+            <thead>
+              <tr className="bg-brand-50 text-left">
+                <th className="border border-gray-200 px-3 py-2 font-semibold text-brand-900">Infection</th>
+                <th className="border border-gray-200 px-3 py-2 font-semibold text-brand-900">Attachment usually needed to pass it on</th>
+                <th className="border border-gray-200 px-3 py-2 font-semibold text-brand-900">Symptoms usually start</th>
+              </tr>
+            </thead>
+            <tbody className="align-top text-gray-700">
+              <tr>
+                <td className="border border-gray-200 px-3 py-2 font-semibold">Lyme disease</td>
+                <td className="border border-gray-200 px-3 py-2">24 to 36 hours or more</td>
+                <td className="border border-gray-200 px-3 py-2">3 to 30 days after the bite</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-200 px-3 py-2 font-semibold">Anaplasmosis</td>
+                <td className="border border-gray-200 px-3 py-2">12 to 24 hours or more</td>
+                <td className="border border-gray-200 px-3 py-2">5 to 21 days</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-200 px-3 py-2 font-semibold">Babesiosis</td>
+                <td className="border border-gray-200 px-3 py-2">36 to 48 hours or more</td>
+                <td className="border border-gray-200 px-3 py-2">1 to 4 weeks</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-200 px-3 py-2 font-semibold">Powassan virus disease</td>
+                <td className="border border-gray-200 px-3 py-2">As little as 15 minutes</td>
+                <td className="border border-gray-200 px-3 py-2">1 to 5 weeks</td>
+              </tr>
+            </tbody>
+          </table>
+          <p className="mt-2 text-xs text-gray-500">Source: <a href="https://www.publichealthontario.ca/en/Education-and-Events/Events-and-Presentations/2026/05/Tick-Borne-Diseases-in-Ontario-2026-Update" target="_blank" rel="noopener noreferrer" className="underline">Public Health Ontario</a>, Tick-borne diseases in Ontario: an update (PHO Rounds, May 2026).</p>
+        </div>
+        <p>The same facts decide whether a doctor or pharmacist offers a single preventive dose of the antibiotic doxycycline. The <a href="https://www.cdc.gov/lyme/media/pdfs/Lyme-Disease-Prophylaxis-After-Tick-Bite-Poster.pdf" target="_blank" rel="noopener noreferrer">CDC&rsquo;s checklist</a> asks whether the tick was removed within the last 72 hours, whether it was engorged with blood, whether it was a blacklegged (deer) tick and whether Lyme disease is common where you were bitten. <a href="https://www.publichealthontario.ca/-/media/Documents/L/2023/lyme-disease-assessment-prescribing-algorithm-antibiotic-prophylaxis.pdf" target="_blank" rel="noopener noreferrer">Public Health Ontario&rsquo;s criteria</a> are similar, with a likely attachment of 24 hours or more, and Ontario pharmacists can assess the bite and prescribe the dose. A leftover mouthpart doesn&rsquo;t change any of those answers, so bring the tick or a photo and know roughly when you picked it up. In Canada and the US, Lyme disease is spread by blacklegged ticks, not by the larger dog ticks: our <Link href="/blog/deer-tick-vs-dog-tick-canada">deer tick vs dog tick guide</Link> shows how to tell them apart.</p>
+
         <div className="not-prose bg-red-50 border-l-4 border-red-400 rounded-r-xl px-5 py-4 my-8">
           <p className="text-sm font-bold text-red-800 mb-1">See a doctor promptly if you notice&hellip;</p>
           <ul className="text-sm text-red-900 space-y-1 list-disc pl-5">
@@ -249,6 +458,8 @@ export default function TickHeadStuckInSkinPage() {
         <h2>Tick head stuck in a dog: what to do</h2>
         <p>The logic is identical for pets. What&rsquo;s left in your dog&rsquo;s skin is the mouthpart, not a live tick, and it is <strong>not still feeding</strong>. Don&rsquo;t gouge at the spot. If the fragment lifts out easily with fine-tipped tweezers or a pet tick tool, take it; if it resists, leave it and let the skin push it out naturally.</p>
         <p>Clean the area and keep an eye on it. Signs to call your veterinarian: redness, swelling, oozing, a lump that isn&rsquo;t shrinking, or your dog persistently licking, scratching, or biting the site. Because dogs are also at risk of tick-borne disease, mention the bite at your next vet visit. Our step-by-step <Link href="/blog/how-to-remove-tick-from-dog-ontario">guide to removing a tick from a dog in Ontario</Link> covers safe removal and aftercare in detail.</p>
+
+        <p>To check whether part of the tick is still in your dog, look at the tick you removed the same way as above: a whole tick still has its mouthparts at the front. The <a href="https://edis.ifas.ufl.edu/publication/IN781" target="_blank" rel="noopener noreferrer">University of Florida&rsquo;s extension service</a> notes that a small piece of the host&rsquo;s skin sometimes comes away with a tick; that is not a great concern, but the spot is worth watching for infection. Our photo guide to <Link href="/blog/what-does-tick-look-like-on-dog">what a tick looks like on a dog</Link> shows how to rule out a skin tag or a flea.</p>
 
         <h2>Why the head breaks off — and how to stop it next time</h2>
         <p>Nine times out of ten, a broken-off mouthpart comes down to <strong>technique</strong>. Those hypostome barbs anchor the tick firmly, so twisting, jerking, or grabbing the swollen body tends to snap the mouthparts off and leave them in the skin. The fix is simple: grip right where the mouthparts enter the skin, and pull <strong>straight up, slow and steady</strong> — no twisting.</p>
@@ -265,6 +476,15 @@ export default function TickHeadStuckInSkinPage() {
           <BuyLink tag={AMZ_TAG} search="fine tip tick tweezers">Fine-tip tick tweezers →</BuyLink>
         </div>
 
+        <h3>How to get the whole tick out next time</h3>
+        <ol>
+          <li><strong>Find ticks early.</strong> Check for ticks after time outdoors (Public Health Ontario), and remove an attached tick as soon as possible rather than waiting to see a provider (CDC). Our <Link href="/blog/how-to-do-a-tick-check">full-body tick check</Link> shows where they hide.</li>
+          <li><strong>Use pointy tweezers.</strong> TickEncounter&rsquo;s staff tried more than a dozen removal methods and found that pointy tweezers, which can grab even a poppy-seed-sized nymph close to the skin, were the most consistently reliable for every species and life stage. Household tweezers make it more likely you squeeze the tick.</li>
+          <li><strong>Grip the head, at the skin.</strong> Grasp the tick&rsquo;s head as close to your skin as possible (Public Health Agency of Canada), not its swollen body; TickEncounter notes that squeezing the back end is the riskier move.</li>
+          <li><strong>Pull straight out, slowly and steadily.</strong> Don&rsquo;t twist or jerk: that can snap the mouthparts off (CDC).</li>
+          <li><strong>Skip the shortcuts.</strong> No petroleum jelly, nail polish, heat or essential oils. PHAC says they can make the tick release its stomach contents, which may be infected, into the bite.</li>
+        </ol>
+
         <h2>The bottom line</h2>
         <p>A tick &ldquo;head&rdquo; stuck in your skin is really the mouthparts, and it&rsquo;s usually a minor problem. Try once to lift it out with fine tweezers; if it won&rsquo;t budge, leave it, disinfect, and let your skin expel it like a splinter over a couple of weeks. Skip the needle, the match, and the squeezing. Watch the site for infection, and watch yourself for rash or fever over the next month. When in doubt — or if it&rsquo;s your child, or the area looks infected — a healthcare provider can settle it quickly.</p>
 
@@ -274,6 +494,10 @@ export default function TickHeadStuckInSkinPage() {
           <li><Link href="/blog/tick-removal-tool-guide">Tick Removal Tool Guide — Which Type Works Best</Link></li>
           <li><Link href="/blog/tick-bite-symptoms-what-to-do-ontario">Tick Bite Symptoms &amp; What to Do in Ontario</Link></li>
           <li><Link href="/blog/how-to-remove-tick-from-dog-ontario">How to Remove a Tick from a Dog in Ontario</Link></li>
+          <li><Link href="/blog/tick-bites-that-wont-heal-when-to-worry">Tick Bites That Won&rsquo;t Heal: When to Worry</Link></li>
+          <li><Link href="/blog/what-does-a-tick-bite-look-like">What a Tick Bite Looks Like, Day by Day</Link></li>
+          <li><Link href="/blog/deer-tick-vs-dog-tick-canada">Deer Tick vs Dog Tick: Which Is It, Lyme or Not</Link></li>
+          <li><Link href="/blog/how-to-do-a-tick-check">How to Do a Full-Body Tick Check</Link></li>
         </ul>
         <h2>Frequently Asked Questions</h2>
         <div className="not-prose space-y-4">

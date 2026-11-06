@@ -907,8 +907,8 @@
   },
   {
    "slug": "types-of-mosquitoes",
-   "section": "learn",
-   "role": "hub",
+   "section": "blog",
+   "role": "page",
    "cluster": "mosquitoes",
    "audience": "na",
    "keyword": "types of mosquitoes",
@@ -920,13 +920,13 @@
    "h1Hint": "Types of Mosquitoes: The Species That Bite in North America, With Photos",
    "metaTitleHint": "Types of Mosquitoes in North America",
    "scope": "The mosquito groups that bite people in the US and Canada (Aedes, Culex, Anopheles, Psorophora, floodwater and snow-pool Aedes), how to tell them apart with real photos, when each bites, what each spreads, and a link to each species page and the state pages.",
-   "pageType": "hub",
+   "pageType": "entity-id",
    "flags": [
     "health",
     "id"
    ],
    "minWords": 1600,
-   "minExisting": 3,
+   "minExisting": 2,
    "parent": {
     "href": "/learn",
     "name": "Learning Centre"
@@ -1019,12 +1019,10 @@
    "minWords": 1400,
    "minExisting": 2,
    "parent": {
-    "href": "/learn/types-of-mosquitoes",
-    "name": "Types of Mosquitoes"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
-   "mustLink": [
-    "/learn/types-of-mosquitoes"
-   ],
+   "mustLink": [],
    "pairWith": null,
    "collisions": [
     {
@@ -13627,6 +13625,64 @@
     }
    ],
    "family": "us-buying",
+   "priority": 1
+  },
+  {
+   "slug": "what-do-mosquito-bites-look-like",
+   "section": "blog",
+   "role": "page",
+   "cluster": "mosquitoes",
+   "audience": "na",
+   "keyword": "what do mosquito bites look like",
+   "alsoTargets": [
+    "what does a mosquito bite look like",
+    "mosquito bite pictures",
+    "mosquito bites",
+    "mosquito bite on face",
+    "mosquito bites on babies",
+    "mosquito bites on toddler",
+    "mosquito bite blister",
+    "does a mosquito bite have a dot in the middle",
+    "mosquito bite vs hives"
+   ],
+   "h1Hint": "What Do Mosquito Bites Look Like? Photos by Stage, Body Part and Skin Tone",
+   "metaTitleHint": "What Do Mosquito Bites Look Like? (Photos)",
+   "scope": "Photo-led: how a bite looks by stage, body part, skin tone and age; blisters; what else it could be (short pointers to the comparison pages).",
+   "pageType": "bite-sting",
+   "flags": [],
+   "minWords": 1800,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn/bug-bites",
+    "name": "Bug Bites"
+   },
+   "mustLink": [
+    "/learn/bug-bites"
+   ],
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/why-do-mosquito-bites-itch",
+     "overlap": "how long bites last and itch",
+     "resolution": "it keeps the timeline searches; this page owns how a bite looks; link both ways"
+    },
+    {
+     "path": "/blog/when-to-worry-about-a-mosquito-bite",
+     "overlap": "red flags",
+     "resolution": "it keeps the warning signs; link from the reactions section"
+    },
+    {
+     "path": "/blog/skeeter-syndrome",
+     "overlap": "large swollen reactions",
+     "resolution": "skeeter owns the allergy searches; this page shows them briefly and links"
+    },
+    {
+     "path": "/blog/bug-bites-on-babies (planned)",
+     "overlap": "\"mosquito bites on toddler/babies\"",
+     "resolution": "this page owns the mosquito-specific baby searches; the babies page keeps bites in general"
+    }
+   ],
+   "family": "bites-stings",
    "priority": 1
   }
  ]

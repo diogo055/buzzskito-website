@@ -8,7 +8,7 @@
   "broadened": 9,
   "mergedIntoExistingPages": 9,
   "mergedIntoNewPages": 9,
-  "notBuilt": 191,
+  "notBuilt": 192,
   "internalLinksInNewPages": 3685
  },
  "pages": [
@@ -3894,7 +3894,7 @@
   {
    "rank": null,
    "keyword": "types of mosquitoes",
-   "url": "/learn/types-of-mosquitoes",
+   "url": "/blog/types-of-mosquitoes",
    "action": "new",
    "status": "not built"
   },
@@ -4546,6 +4546,13 @@
    "rank": null,
    "keyword": "snake poop",
    "url": "/blog/snake-poop",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "what do mosquito bites look like",
+   "url": "/blog/what-do-mosquito-bites-look-like",
    "action": "new",
    "status": "not built"
   },

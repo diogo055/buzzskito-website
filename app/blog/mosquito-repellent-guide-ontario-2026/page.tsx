@@ -13,10 +13,11 @@ import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
 import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
 
 const SLUG = 'mosquito-repellent-guide-ontario-2026'
 const DATE = '2026-04-26'
-const UPDATED = '2026-10-23'
+const UPDATED = '2026-11-06'
 const TITLE = 'Mosquito Repellent Guide — Ontario 2026 (What Actually Works)'
 // BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): the backyard fogger row's Cutter button is now plain text: this page says the US Cutter and Black Flag fogging products are EPA-registered, not PMRA-registered. The repellent-bracelet row keeps its button (this page says bracelets do not protect well, not that they are unregistered): owner's call.
 const META_TITLE = 'Best Mosquito Repellent Canada 2026: Ranked'
@@ -77,6 +78,30 @@ const FAQS = [
   {
     question: 'What is the best mosquito spray?',
     answer: 'It depends on what you are spraying. On skin, a 20% icaridin (picaridin) repellent suits most people, and DEET, which Health Canada allows at "up to 30%" for adults and children older than 12, suits the heaviest bug pressure. Health Canada says to "apply only a small amount of repellent on exposed skin or on top of clothing," and not to spray it directly onto your face: spray your hands, then apply. For the yard itself, a fogger knocks adult mosquitoes down for an evening, while a professional barrier spray treats the shaded leaves where they rest and is re-applied on a schedule.',
+  },
+  {
+    question: 'How long does mosquito repellent last?',
+    answer: 'It depends on the active ingredient and its strength, and the label of a product registered in Canada states the time. Canadian labels give 12 hours against mosquitoes and ticks for 20% icaridin (Natrapel Icaridin, PCP 34244), 8 hours against mosquitoes for 25% and 30% DEET (OFF! Deep Woods 3, PCP 24723; Muskol Backcountry, PCP 33618), 3 hours for 10% DEET (Muskol Family & Kids II, PCP 33875), 4 to 6 hours for 30% oil of lemon eucalyptus (Druide, PCP 32998) and 2 hours for 10% PMD (OFF! Botanicals). In the DEET data from Health Canada’s 2002 re-evaluation, complete protection averaged about 2 hours at 5% and about 6.5 hours at 30%. Swimming, sweating and towelling shorten it, so reapply as the label directs.',
+  },
+  {
+    question: 'What percentage of DEET should I use?',
+    answer: 'Health Canada allows up to 30% DEET for adults and children older than 12, the strongest sold in Canada, and up to 10% for children from 6 months to 12 years. A higher percentage lasts longer rather than working harder: in the DEET data from Health Canada’s 2002 re-evaluation, 10% averaged about 3.5 hours of complete protection, 20% about 5.5 hours and 30% about 6.5 hours. The Public Health Agency of Canada’s travel-medicine committee recommends 20% to 30% DEET, or 20% icaridin, as the first choice for adults, and 20% icaridin as the first choice for children from 6 months to 12 years.',
+  },
+  {
+    question: 'Can I use mosquito repellent every day?',
+    answer: 'Adults can, used as each label directs, and some labels set a daily limit: the 10% PMD label (OFF! Botanicals) and the 30% lemon-eucalyptus labels we read (Druide, Murphy’s Outdoors) say not to apply more than twice a day. Children have stricter rules. Health Canada says that for children younger than 12, do not use a DEET product on a daily basis for more than a month, and it limits DEET to once a day from 6 months to 2 years and 3 times a day from 2 to 12. For weeks of daily use, such as day camp or the cottage, 20% icaridin carries no such limit on Health Canada’s page. Wash treated skin with soap and water when you come back indoors.',
+  },
+  {
+    question: 'Should sunscreen or mosquito repellent go on first?',
+    answer: 'Sunscreen first. Health Canada says to apply the sunscreen first and then the insect repellent, and the Public Health Agency of Canada’s travel-medicine committee suggests letting the sunscreen soak in, for example for 15 minutes, before the repellent goes on. Use two separate products: combination sunscreen and insect repellent products are no longer available in Canada. Sunscreen is meant to be reapplied often; repellent only as its own label directs.',
+  },
+  {
+    question: 'How do I know a mosquito repellent is approved in Canada?',
+    answer: 'Look for the registration number on the label, printed as “Reg. No.” with a number and “P.C.P. Act”. It means Health Canada has registered the product under the Pest Control Products Act, and you can look the number up in Health Canada’s Pesticide Product Information Database. Bottles bought in the United States may carry only an EPA number, and some actives sold there, including IR3535 and 2-undecanone, have no insect repellent registered in Canada. Health Canada’s position is that it is a violation of the Pest Control Products Act to buy and use unregistered pesticides.',
+  },
+  {
+    question: 'Does mosquito repellent work on ticks?',
+    answer: 'Only if ticks are on the label. Health Canada says icaridin products repel mosquitoes and ticks, and the 20% Natrapel Icaridin label claims 12 hours against both. Many DEET labels list ticks too: OFF! Deep Woods 3 says it also repels black flies, deer flies and ticks. Among plant-based products, some 30% lemon-eucalyptus labels list ticks (Murphy’s Outdoors claims up to 5 hours), and the OFF! Botanicals spray lists ticks for up to 2 hours. For long days in tick country, adults can add permethrin-treated clothing, and a full-body tick check afterwards still matters.',
   },
 ]
 
@@ -174,13 +199,15 @@ export default function MosquitoRepellentGuidePage() {
                   pros: ['15 ft protection zone (~225 sq ft)', 'No skin spray or smoke', 'Great for still patios and campsites'],
                   cons: ['Needs calm, still air', 'Mats and fuel are consumables'],
                 },
+                // Nov 6, 2026 (owner's Nov 5 rule, "if it's not registered in Canada, remove the button"): Repel has no
+                // Canadian registration, so this card and the table button now go to Natrapel Lemon Eucalyptus (Reg. No. 30823).
                 {
                   badge: 'Best DEET-Free',
-                  name: 'Repel Oil of Lemon Eucalyptus',
+                  name: 'Natrapel Lemon Eucalyptus (Reg. No. 30823)',
                   why: 'Lemon eucalyptus is the one natural repellent family with Canadian PCP-registered products and real repellency evidence. Read the active before you buy: synthetic PMD is registered in Canada only at 10% (Health Canada RVD2022-11), while the naturally sourced Citriodiol form is registered here at up to 30%. Either way, check the label for a Canadian PCP number.',
-                  search: 'repel lemon eucalyptus insect repellent',
+                  search: 'natrapel lemon eucalyptus insect repellent',
                   pros: ['Best-evidenced natural active', 'DEET-free', 'Pleasant lemon scent'],
-                  cons: ['Short duration — the Canadian Paediatric Society rates PMD at about 2 hrs vs mosquitoes', 'Health Canada: not for children under 3'],
+                  cons: ['Shorter-lasting than 20% icaridin; the label allows no more than two applications a day', 'Health Canada: not for children under 3'],
                 },
               ]}
               whichToBuy={
@@ -221,10 +248,10 @@ export default function MosquitoRepellentGuidePage() {
                   <td className="py-3"><BuyLink tag={AMZ_TAG} search="thermacell patio shield mosquito repeller" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-gray-200">
-                  <td className="py-3 pr-4 font-semibold text-gray-900">Oil of Lemon Eucalyptus / PMD (Repel)</td>
+                  <td className="py-3 pr-4 font-semibold text-gray-900">Oil of Lemon Eucalyptus (Natrapel, Reg. No. 30823)</td>
                   <td className="py-3 pr-4">Natural skin spray</td>
                   <td className="py-3 pr-4"><strong>Best DEET-free pick</strong> — plant-derived, real evidence; synthetic PMD is 10% in Canada (~2 hrs), natural Citriodiol up to 30% (~6 hrs).</td>
-                  <td className="py-3"><BuyLink tag={AMZ_TAG} search="repel lemon eucalyptus insect repellent" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="py-3"><BuyLink tag={AMZ_TAG} search="natrapel lemon eucalyptus insect repellent" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-gray-200">
                   <td className="py-3 pr-4 font-semibold text-gray-900">Backyard fogger (Cutter / Black Flag)</td>
@@ -254,6 +281,11 @@ export default function MosquitoRepellentGuidePage() {
           </ul>
           <p className="text-sm text-gray-600"><strong>Correction (Sept 2026):</strong> this tier previously listed <strong>IR3535 (15–20%)</strong> as a registered Canadian option. It is not. IR3535 is EPA-registered in the United States, but it does not appear among the personal insect repellent actives Health Canada lists as registered in Canada, and we could not find a PCP-registered IR3535 product for the Canadian market.</p>
           <p>One entry on that list is not a bottle at all. Permethrin appears there for <strong>factory-treated clothing only</strong>, which means the way to use it in Canada is to buy the garment already treated rather than treating one yourself. A treated shirt, a pair of trousers or a set of socks works as a layer underneath whatever you put on your skin, which is why people who spend their evenings in long grass or at a trailhead tend to own a set alongside a bottle. Read the garment label for the wash count it is rated to. <BuyLink tag={AMZ_TAG} search="insect repellent treated clothing">Check insect-repellent clothing on Amazon.ca &rarr;</BuyLink></p>
+          <Photo
+            id="botanist-head-to-toe-clothing-denali"
+            alt="Botanist in head-to-toe light clothing and a head net measuring a spruce tree in Alaska"
+            caption="A botanist covered head to toe in light clothing and a head net while measuring a spruce in Denali National Park, Alaska (National Park Service photo). Repellent goes on exposed skin or on top of clothing, never under it."
+          />
 
           <h3>🟡 Tier 2: Effective natural options</h3>
           <ul>
@@ -262,9 +294,9 @@ export default function MosquitoRepellentGuidePage() {
 
           <h3>🟠 Tier 3: Real but short-duration</h3>
           <ul>
-            <li><strong>Soybean oil products</strong> (Bite Blocker) — ~1.5 hours. Registered in Canada; Health Canada states there are no age restrictions on these products.</li>
+            <li><strong>Soybean oil products</strong> (Bite Blocker) — ~1.5 hours. No longer registered in Canada: the last soybean-oil skin repellents, Woodstream&rsquo;s Blocker line, were cancelled on November 12, 2024 (Health Canada&rsquo;s pesticide registry), although Health Canada&rsquo;s repellent page, last updated in 2021, still lists soybean oil with no age restrictions.</li>
             <li><strong>Registered essential-oil blend sprays</strong> — short-lived, roughly an hour or two, but legitimately registered. Not for children under 2.</li>
-            <li><strong>Citronella oil skin sprays — no longer a registered option in Canada.</strong> Health Canada&rsquo;s PMRA proposed phasing out citronella-oil <em>personal</em> insect repellents after its 2004 re-evaluation, reconsidered following public feedback, and set out a new framework for essential-oil repellents in regulatory directive DIR2017-02. The outcome for buyers today: citronella does not appear on Health Canada&rsquo;s current list of registered personal repellent actives — the only essential-oil entry on that list is a specific mixture of lemon, camphor, geranium, eucalyptus and pine-needle oils. Citronella candles, coils and torches remain registered as <em>area</em> repellents — a different, and weak, product class.</li>
+            <li><strong>Citronella oil skin sprays — no longer a registered option in Canada.</strong> Health Canada&rsquo;s PMRA proposed phasing out citronella-oil <em>personal</em> insect repellents after its 2004 re-evaluation, reconsidered following public feedback, and set out a new framework for essential-oil repellents in regulatory directive DIR2017-02. The outcome for buyers today: citronella does not appear on Health Canada&rsquo;s current list of registered personal repellent actives — the only essential-oil entry on that list is a specific mixture of lemon, camphor, geranium, eucalyptus and pine-needle oils. No product with citronella as its active ingredient is registered in Canada today, for skin or for an area (Health Canada&rsquo;s registry, November 2026): the &ldquo;citronella-scented&rdquo; mosquito coils on Canadian shelves are registered on a different active, the insecticide d-cis,trans-allethrin, and Health Canada says <em>area</em> repellents such as lanterns and coils do not protect people from bites as well as personal repellents.</li>
           </ul>
 
           <h3>🔴 Tier 4: Marketing more than mosquitoes (avoid)</h3>
@@ -283,12 +315,64 @@ export default function MosquitoRepellentGuidePage() {
               ['DEET', <>Adults and children older than 12: &ldquo;up to 30%&rdquo;. Ages 2 to 12: &ldquo;up to 10%&rdquo;, &ldquo;up to 3 times daily&rdquo;. 6 months to 2 years: &ldquo;up to 10%&rdquo;, not &ldquo;more than once a day&rdquo;. Under 6 months: &ldquo;do not use&rdquo;.</>, 'Not listed for DEET on Health Canada’s page: the label names the insects', 'Heavy bug pressure: cottage docks, canoe trips, dense bush', <>Can damage plastics and synthetics. Under 12, &ldquo;do not use a DEET product on a daily basis for more than a month&rdquo;</>],
               ['Icaridin (picaridin)', <>Products &ldquo;should not be used on infants younger than 6 months old&rdquo;</>, <>&ldquo;mosquitoes and ticks&rdquo;</>, 'Everyday backyard and travel use; Natrapel is the 20% pick above', 'Protects skin only, not the yard'],
               ['PMD / oil of lemon eucalyptus', <>Products &ldquo;should not be used on children younger than 3 years old&rdquo;</>, <>&ldquo;mosquitoes&rdquo;; some products &ldquo;also repel blackflies&rdquo;</>, 'A DEET-free skin repellent', 'Every PMD product listed in RVD2022-11 is 10%: read which active the label names'],
-              ['Soybean oil', <>&ldquo;There are no age restrictions for these products&rdquo;</>, <>&ldquo;mosquitoes and blackflies&rdquo;</>, 'Short outings, any age', 'Short protection (Tier 3 above)'],
+              ['Soybean oil', <>&ldquo;There are no age restrictions for these products&rdquo;</>, <>&ldquo;mosquitoes and blackflies&rdquo;</>, 'None today: no soybean-oil repellent has been registered in Canada since November 12, 2024', 'Short protection (Tier 3 above)'],
               ['Metofluthrin clip-on', <>No age restrictions, but &ldquo;children should not be allowed to replace the refill disks&rdquo;</>, <>&ldquo;mosquitoes&rdquo;; some products &ldquo;also repel blackflies&rdquo;</>, 'No age limit, and nothing goes on the skin', 'A clip-on device, not a skin product'],
               ['Essential-oil mixture', <>Lemon, eucalyptus, pine needle, geranium and camphor: &ldquo;should not be used on children younger than 2 years old&rdquo;</>, <>&ldquo;mosquitoes&rdquo;</>, 'A short, DEET-free outing', 'Short protection (Tier 3 above)'],
               ['Permethrin-treated clothing', <>It is &ldquo;not available for children under the age of 16&rdquo;; adults, &ldquo;including pregnant women, may wear&rdquo; it</>, <>&ldquo;mosquitoes and ticks&rdquo;</>, 'Long days in tick country, under a skin repellent', <>Clothing only, never skin; it lasts for the wash cycles &ldquo;indicated on the clothing label&rdquo;</>],
             ]}
             caption={<>Age rules and what each active repels are quoted from Health Canada&rsquo;s <a href="https://www.canada.ca/en/health-canada/services/about-pesticides/insect-repellents.html" target="_blank" rel="noopener noreferrer" className="underline">Personal insect repellents</a> page (canada.ca, dated 2021-06-02). It gives no protection times: &ldquo;Depending on the ingredients, some products repel insects for a longer time than others do,&rdquo; and the label states &ldquo;how much to apply, and how often.&rdquo; Best for and limits restate the picks and tiers on this page.</>}
+          />
+
+          <p className="mt-8">Health Canada&rsquo;s repellent page sets no protection times, so the hours below come from two other Canadian sources: the label Health Canada approved for each product, and the DEET data from Health Canada&rsquo;s 2002 re-evaluation of DEET. Every product named carries a PCP registration number, checked in Health Canada&rsquo;s Pesticide Product Information Database on November 6, 2026. For plant-based options only, see our <Link href="/blog/natural-mosquito-repellent-ontario">natural mosquito repellent</Link> guide.</p>
+
+          <QuickIdTable
+            title="How long mosquito repellent lasts: Canadian labels compared"
+            head={['Active and strength', 'Protection time on the label', 'Age rule (Health Canada)', 'Example registered product (PCP no.)']}
+            rows={[
+              ['DEET, 25% to 30%', <>&ldquo;Repels mosquitoes for 8 hours&rdquo;; also lists ticks and black flies</>, 'Adults and children older than 12', <><Link href="/blog/off-deep-woods-deet-bug-spray-canada" className="underline">OFF! Deep Woods 3</Link>, 25% (24723); Muskol Backcountry, 30% (33618)</>],
+              ['DEET, 10%', <>&ldquo;Repels mosquitoes for 3 hours&rdquo;</>, 'From 6 months: once a day under 2, up to 3 times a day from 2 to 12', 'Muskol Family & Kids II (33875)'],
+              ['Icaridin, 20%', '12 hours against mosquitoes and ticks; 10 hours against black flies', 'Not under 6 months', 'Natrapel Icaridin (34244)'],
+              ['Icaridin, 10%', '5 hours against mosquitoes; 7 hours against deer ticks', 'Not under 6 months', 'Coleman 10% Icaridin (34941)'],
+              ['Oil of lemon eucalyptus (Citriodiol), 30%', '4 to 6 hours against mosquitoes; no more than twice a day', 'Not under 3', 'Druide (32998); Murphy’s Outdoors, which also claims up to 5 hours against ticks (35409)'],
+              ['PMD, 10%', 'Reapply after 2 hours for mosquitoes, 5 hours for black flies; no more than twice a day', 'Not under 3', 'OFF! Botanicals Lotion (34008)'],
+              ['Essential-oil mixture (lemon, camphor, geranium, eucalyptus, pine needle)', 'Reapply at 2-hour intervals; no more than 2 applications a day', 'Not under 2 (the label: not on children 2 and under)', 'Citrobug Mosquito Repellent Oil (25797)'],
+              ['Metofluthrin clip-on', 'Up to 11 hours per refill', 'No age limit; children should not replace the refill disks', 'OFF! Clip On (30211)'],
+              ['Permethrin-treated clothing, 0.52%', 'Effective for 70 washings', 'Not available for children under 16', 'No Fly Zone (32757)'],
+            ]}
+            caption={<>Protection times are each product&rsquo;s claim on its Health Canada-approved label, read in Health Canada&rsquo;s <a href="https://pest-control.canada.ca/pesticide-registry/en/index.html" target="_blank" rel="noopener noreferrer" className="underline">Pesticide Product Information Database</a> on November 6, 2026; age rules are Health Canada&rsquo;s, from its <a href="https://www.canada.ca/en/health-canada/services/about-pesticides/insect-repellents.html" target="_blank" rel="noopener noreferrer" className="underline">Personal insect repellents</a> page. Label times rest on efficacy data, but the Public Health Agency of Canada&rsquo;s travel-medicine committee notes they do not fully account for sweating, the mosquito species or how many mosquitoes are biting, so treat them as a best case. Soybean oil is missing on purpose: no soybean-oil repellent has been registered here since November 12, 2024.</>}
+          />
+
+          <QuickIdTable
+            title="DEET strength vs. protection time: Health Canada’s data"
+            head={['DEET strength', 'Average complete protection', 'Range in the data', 'Who may use it (Health Canada)']}
+            rows={[
+              ['5%', 'About 2 hours (110 minutes)', '1.5 to 2.5 hours', 'Children from 6 months, and adults'],
+              ['10%', 'About 3.5 hours (214 minutes)', '2.5 to 4.5 hours', 'Children from 6 months (the most a child under 12 may use), and adults'],
+              ['15%', 'About 5 hours (276 minutes)', '3.5 to 5.5 hours', 'Adults and children older than 12'],
+              ['20%', 'About 5.5 hours (319 minutes)', '4 to 6.5 hours', 'Adults and children older than 12'],
+              ['25%', 'About 6 hours (352 minutes)', '4.5 to 8 hours', 'Adults and children older than 12'],
+              ['30%', 'About 6.5 hours (380 minutes)', '5 to 8 hours', 'Adults and children older than 12 (the Canadian maximum)'],
+            ]}
+            caption={<>Complete protection time against mosquitoes by DEET concentration, rounded to the nearest half hour, from Health Canada&rsquo;s Pest Management Regulatory Agency (DEET re-evaluation document RRD2002-01), as reproduced in Appendix 4 of the Public Health Agency of Canada&rsquo;s <a href="https://www.canada.ca/content/dam/phac-aspc/migration/phac-aspc/publicat/ccdr-rmtc/12vol38/acs-dcc-3/assets/pdf/acs-dcc-3-eng.pdf" target="_blank" rel="noopener noreferrer" className="underline">Statement on Personal Protective Measures to Prevent Arthropod Bites</a> (Committee to Advise on Tropical Medicine and Travel, Canada Communicable Disease Report, November 2012). The range is the lower and upper residual given in that table.</>}
+          />
+          <p>Two things follow from these numbers. A stronger DEET mainly buys time, because protection lasts longer as the concentration rises; that is why the Public Health Agency of Canada&rsquo;s travel-medicine committee recommends 20% or more for adults, so it does not need reapplying as often, and our <Link href="/blog/picaridin-vs-deet">picaridin vs DEET</Link> comparison sets the two actives side by side. And for a child under 12 the ceiling is 10% DEET, which is why the same committee names 20% icaridin, which Health Canada limits only to children 6 months and older, as the first choice from 6 months to 12 years.</p>
+
+          <QuickIdTable
+            title="Mosquito repellent for kids and babies: Health Canada’s rules by age"
+            head={['Age', 'DEET', 'Icaridin', 'Lemon eucalyptus (PMD, OLE)', 'Other registered options']}
+            rows={[
+              ['Under 6 months', 'Do not use', 'Do not use', 'Do not use', 'A mosquito net over the crib or stroller; metofluthrin clip-ons have no age limit'],
+              ['6 months to 2 years', 'Up to 10%, no more than once a day', 'Yes', 'Not until age 3', 'Metofluthrin clip-ons'],
+              ['2 to 3 years', 'Up to 10%, up to 3 times a day', 'Yes', 'Not until age 3', 'The essential-oil mixture, from after age 2'],
+              ['3 to 12 years', 'Up to 10%, up to 3 times a day', 'Yes', 'Yes, as the label directs', 'Essential-oil mixture; metofluthrin clip-ons'],
+              ['Older than 12, and adults', 'Up to 30%', 'Yes', 'Yes', 'Permethrin-treated clothing from age 16'],
+            ]}
+            caption={<>From Health Canada&rsquo;s <a href="https://www.canada.ca/en/health-canada/services/about-pesticides/insect-repellents.html" target="_blank" rel="noopener noreferrer" className="underline">Personal insect repellents</a> page, which adds for every child under 12: &ldquo;do not use a DEET product on a daily basis for more than a month.&rdquo; The same page lists soybean oil with no age limit, but no soybean-oil repellent has been registered since November 12, 2024. The Public Health Agency of Canada&rsquo;s travel-medicine committee names 20% icaridin as the first choice from 6 months to 12 years. Product picks by age are in our guide to the <Link href="/blog/best-bug-spray-for-kids-canada" className="underline">best bug spray for kids in Canada</Link>.</>}
+          />
+          <Photo
+            id="mosquito-net-mesh-closeup"
+            alt="Close-up of mosquito net mesh with hexagonal openings"
+            caption="Close-up of mosquito net mesh with hexagonal openings. For a baby under 6 months, Health Canada says no DEET and no icaridin: use a mosquito net over the crib or stroller."
           />
 
           <h2>What to Buy for What Situation</h2>
@@ -304,6 +388,24 @@ export default function MosquitoRepellentGuidePage() {
             <li><strong>Pets in yard:</strong> Don&rsquo;t apply human repellents to pets. Use vet-prescribed flea/tick preventatives + professional yard barrier spray.</li>
           </ul>
           <p>For the under-six-month case in that list, the product doing the actual work is the net, because nothing goes on the baby at all. A fine-mesh cover over the crib, playpen, bassinet or stroller is the barrier Health Canada points parents to, and the ones worth having are elasticated the whole way round so they stay put when the stroller moves rather than draping loose over the hood. Measure the frame before you order &mdash; stroller nets and crib canopies are not the same size. <BuyLink tag={AMZ_TAG} search="stroller mosquito net">Check stroller &amp; crib mosquito nets on Amazon.ca &rarr;</BuyLink></p>
+
+          <h2 id="how-to-apply">How to Apply Mosquito Repellent</h2>
+          <p>Health Canada&rsquo;s directions apply to every personal repellent, whichever active you choose:</p>
+          <ol>
+            <li><strong>Sunscreen first, then repellent.</strong> Health Canada says to apply the sunscreen first and then the insect repellent, and the Public Health Agency of Canada&rsquo;s travel-medicine committee suggests about 15 minutes for the sunscreen to soak in. Combination sunscreen-and-repellent products are no longer available in Canada.</li>
+            <li><strong>A small amount, on exposed skin or on top of clothing.</strong> Never under clothing, and never on open wounds or on irritated or sunburned skin.</li>
+            <li><strong>Never spray your face.</strong> Spray your hands, then apply, keeping it away from the eyes and mouth.</li>
+            <li><strong>An adult applies it to a child.</strong> Do not put repellent on a child&rsquo;s hands, which end up in eyes and mouths, and keep to the age limits in the table above.</li>
+            <li><strong>Reapply only as the label directs.</strong> Swimming, sweating and towelling can mean reapplying sooner, but some labels cap the day at two applications.</li>
+            <li><strong>Outdoors only.</strong> Do not spray it indoors, in an enclosed space or near food, where the mist can be breathed in or eaten.</li>
+            <li><strong>Wash it off.</strong> Wash treated skin with soap and water when you come back inside or no longer need protection.</li>
+            <li><strong>If skin reacts, stop.</strong> Wash the treated skin and get medical help, taking the container with you. If you are unsure how your skin will react, try a small patch on your arm and wait 24 hours first.</li>
+          </ol>
+          <Photo
+            id="mosquito-on-jeans"
+            alt="Woodland pool mosquito resting on blue denim jeans"
+            caption="A woodland pool mosquito, Aedes canadensis, on a pair of blue jeans (Blendon Woods Metro Park, Columbus, Ohio). Repellent goes on exposed skin or on top of clothing like this, never underneath."
+          />
 
           <RelatedLinks path="/blog/mosquito-repellent-guide-ontario-2026" />
           <h2>The Strategy Most Ontario Homeowners Miss</h2>
@@ -324,7 +426,7 @@ export default function MosquitoRepellentGuidePage() {
           <ul>
             <li>Ultrasonic plug-ins or yard devices (zero evidence)</li>
             <li>Mosquito-repelling bracelets/wristbands</li>
-            <li>Citronella tiki torches — registered in Canada as area repellents, but Health Canada notes lanterns and coils do not protect people from bites as well as a personal repellent (roughly a 1-metre downwind effect)</li>
+            <li>Citronella tiki torches — no citronella product is currently registered in Canada (Health Canada&rsquo;s registry, November 2026), and Health Canada notes lanterns and coils do not protect people from bites as well as a personal repellent (roughly a 1-metre downwind effect)</li>
             <li>Bug zappers (kill the wrong insects)</li>
             <li>&ldquo;DIY essential oil&rdquo; sprays from Pinterest (most don&rsquo;t work)</li>
           </ul>
@@ -337,6 +439,8 @@ export default function MosquitoRepellentGuidePage() {
             <li><Link href="/blog/best-mosquito-repellent-device-canada">Best Mosquito Repellent Devices in Canada — Ranked</Link></li>
             <li><Link href="/blog/thermacell-e90-canada-review">Thermacell E90 Review — Canada</Link></li>
             <li><Link href="/blog/mosquito-magnet-canada">Mosquito Magnet Review — Is It Worth It in Canada?</Link></li>
+            <li><Link href="/blog/is-deet-safe">Is DEET Safe? What It Is and Health Canada&rsquo;s Limits</Link></li>
+            <li><Link href="/blog/best-bug-spray-for-kids-canada">Best Bug Spray for Kids in Canada — Picks by Age</Link></li>
             <li><Link href="/mosquito-control">Professional Yard Barrier Spray</Link></li>
           </ul>
         </div>

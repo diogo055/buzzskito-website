@@ -384,6 +384,7 @@
  "/blog/best-mosquito-repellent-device-canada": [
   "/guides/photos/aedes-albopictus-biting.webp",
   "/guides/photos/culex-pipiens.webp",
+  "/guides/photos/fogging-for-mosquitoes-navy.webp",
   "/guides/photos/mosquito-bites-forearm.webp"
  ],
  "/blog/best-mosquito-trap": [
@@ -407,6 +408,11 @@
   "/guides/photos/tamper-resistant-bait-station.webp",
   "/guides/photos/young-norway-rats-live-trap.webp"
  ],
+ "/blog/best-screen-tent-canada": [
+  "/guides/photos/biting-midge-culicoides.webp",
+  "/guides/photos/black-fly.webp",
+  "/guides/photos/mosquito-net-mesh-closeup.webp"
+ ],
  "/blog/best-silverfish-traps": [
   "/guides/photos/gray-silverfish.webp",
   "/guides/photos/silverfish.webp"
@@ -424,6 +430,7 @@
   "/guides/photos/mosquito-swarm-alaska-tundra.webp"
  ],
  "/blog/best-tick-repellent-yard-canada": [
+  "/guides/photos/american-dog-tick-in-hand-yard-work.webp",
   "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
   "/guides/photos/white-footed-mouse-leaf-litter.webp"
  ],
@@ -559,8 +566,10 @@
   "/guides/photos/yellow-sac-spider.webp"
  ],
  "/blog/bug-zappers-canada-do-they-work": [
+  "/guides/photos/bug-zapper-roof-eave.webp",
   "/guides/photos/culex-quinquefasciatus-female.webp",
   "/guides/photos/house-fly.webp",
+  "/guides/photos/june-beetle-window-ledge.webp",
   "/guides/photos/mayfly-swarm.webp"
  ],
  "/blog/bugs-in-basement": [
@@ -882,9 +891,11 @@
   "/guides/photos/rat-droppings-thumb.webp"
  ],
  "/blog/deer-tick-vs-dog-tick-canada": [
+  "/guides/photos/american-dog-tick-engorged-ksre.webp",
   "/guides/photos/american-dog-tick-female.webp",
   "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
   "/guides/photos/blacklegged-tick-female.webp",
+  "/guides/photos/engorged-blacklegged-tick.webp",
   "/guides/photos/tick-on-cat.webp"
  ],
  "/blog/diatomaceous-earth-canada-buyers-guide": [
@@ -1011,6 +1022,8 @@
   "/guides/photos/scabies-mite.webp"
  ],
  "/blog/dynatrap-canada-review": [
+  "/guides/photos/aedes-vexans-uv-light.webp",
+  "/guides/photos/cdc-light-trap-navy-new-orleans.webp",
   "/guides/photos/culex-quinquefasciatus-female.webp",
   "/guides/photos/honey-bee-on-flower.webp"
  ],
@@ -1700,11 +1713,13 @@
  ],
  "/blog/mosquito-larvae-identification": [
   "/diagrams/mosquito-larvae-identification.svg",
+  "/guides/photos/aedes-aegypti-larvae-at-surface.webp",
   "/guides/photos/aedes-aegypti-pupae.webp",
   "/guides/photos/aedes-albopictus-eggs.webp",
   "/guides/photos/anopheles-larvae.webp",
   "/guides/photos/culex-egg-raft.webp",
-  "/guides/photos/culex-larvae.webp"
+  "/guides/photos/culex-larvae.webp",
+  "/guides/photos/mosquito-larvae-pupae-bottle-cap.webp"
  ],
  "/blog/mosquito-magnet-canada": [
   "/guides/photos/aedes-vexans.webp",
@@ -1721,6 +1736,11 @@
  "/blog/mosquito-repellent-bracelets-canada": [
   "/guides/photos/aedes-albopictus-biting-lower-leg.webp",
   "/guides/photos/mosquito-bites-ankle.webp"
+ ],
+ "/blog/mosquito-repellent-guide-ontario-2026": [
+  "/guides/photos/botanist-head-to-toe-clothing-denali.webp",
+  "/guides/photos/mosquito-net-mesh-closeup.webp",
+  "/guides/photos/mosquito-on-jeans.webp"
  ],
  "/blog/mosquito-season-gta-when-does-it-start": [
   "/guides/photos/aedes-vexans.webp",
@@ -1791,6 +1811,7 @@
  "/blog/natural-mosquito-repellent-ontario": [
   "/guides/photos/citronella-candle-burning.webp",
   "/guides/photos/lemon-scented-gum-tree.webp",
+  "/guides/photos/lemongrass-plant.webp",
   "/guides/photos/mosquito-larva-close-up-trough.webp",
   "/guides/photos/peppermint-flowering.webp",
   "/guides/photos/scarlet-bee-balm-ontario.webp"
@@ -2288,14 +2309,20 @@
  ],
  "/blog/tick-head-stuck-in-skin": [
   "/guides/photos/american-dog-tick-mouthparts-sem.webp",
+  "/guides/photos/engorged-blacklegged-tick-dog-neck.webp",
+  "/guides/photos/engorged-deer-tick-niaid.webp",
   "/guides/photos/erythema-migrans-bullseye-arm.webp",
   "/guides/photos/lone-star-tick-removal-tweezers-elbow.webp",
   "/guides/photos/tick-removal-tweezers-forearm.webp"
  ],
  "/blog/tick-removal-tool-guide": [
   "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
+  "/guides/photos/blacklegged-tick-nymph-fingernail.webp",
   "/guides/photos/brown-dog-ticks-dog-ear.webp",
-  "/guides/photos/engorged-blacklegged-tick.webp"
+  "/guides/photos/engorged-blacklegged-tick.webp",
+  "/guides/photos/tick-dropped-into-bottle.webp",
+  "/guides/photos/tick-on-cat.webp",
+  "/guides/photos/tick-removal-tweezers-forearm.webp"
  ],
  "/blog/tick-season-ontario-when-are-ticks-active": [
   "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",

@@ -23,7 +23,7 @@ const DATE = '2026-07-12'
 // policies; anti-counterfeit page dated July 23, 2026) and SCMP (Jun 27, Oct 1). New status table near the top; "no published laser
 // class", "in production since August" and the Register "delivery slipped" attribution (not in that article; SCMP's) corrected; 2 FAQs.
 // META_TITLE, description and slug unchanged on purpose (the site's #1 page by clicks).
-const UPDATED = '2026-10-23'
+const UPDATED = '2026-11-06'
 const TITLE = 'Laser Mosquito Killer 2026 — Is the Photon Matrix Real? (Honest Review)'
 const META_TITLE = 'Laser Mosquito Killer Canada: Photon Matrix'
 
@@ -148,6 +148,33 @@ const FAQS = [
     question: 'Has anyone independently tested the Photon Matrix?',
     answer: 'Not that we can find. Every performance figure, from 30 mosquitoes a second to 90% cleared in ten minutes, comes from the maker or from coverage of its claims, and New Atlas wrote in August 2026 that it was "yet to see this machine in action". The maker\'s own FAQ says its safety features "do not establish an unconditional safety guarantee for people, babies or pregnant users" and that "Certification and compliance work is in progress." BuzzSkito has not tested one either: this page is built from the maker\'s documents and published reporting.',
   },
+  // Nov 6, 2026 additions. Sources: The New York Times (Keith Bradsher, late Oct 2026, read in the copy syndicated by The Star on
+  // Oct 30, 2026); the maker's FAQ (photonmatrixlab.com/faq, "Information updated 20 September 2026") and store banner, re-read
+  // Nov 6, 2026; Keller et al., Scientific Reports 6:20936 (2016) and 10:14795 (2020); New Atlas, Aug 24, 2026.
+  {
+    question: 'What is the latest Photon Matrix news (November 2026)?',
+    answer: 'The biggest update came from The New York Times in late October 2026: the company said it had received 5,000 prepaid orders and lined up a contract manufacturer, with mass production expected to begin “within weeks”, and that it was seeking regulatory approval in China, Europe and the United States. Its founder and chief executive, Wang Chuan, said Chinese approval was close. That does not match the August reports that mass production had already begun. When we re-checked on November 6, 2026, the official store still read “Pre-order Now”, with pre-order items quoted to ship within 120 days and a new 15% discount banner, and the maker’s FAQ was still dated 20 September 2026. We found no confirmed delivery to a buyer.',
+  },
+  {
+    question: 'How do you switch on a Photon Matrix, and is there really a safety quiz?',
+    answer: 'Yes, there is a quiz. The maker’s FAQ says “First-time use requires a 100% pass on the 15-question app safety quiz” and that “Fingerprint and app-password authentication restrict access.” The New York Times reported the same: only buyers who answer every question correctly can register a fingerprint and activate the machine, and one question asks which room is least suitable (the answer is a bathroom, for its humidity, confined space and reflective surfaces). A new unit “starts in scan-only mode”, and striking has to be selected in the Bluetooth app or on the device. A quiz controls who can switch it on; it does not change the Class 4 rating of the laser.',
+  },
+  {
+    question: 'Do mosquitoes die instantly when the Photon Matrix hits them?',
+    answer: 'Not by the company’s own account. The maker’s FAQ says a short pulse “disables the mosquito’s wings”, and its founder told The New York Times that mosquitoes whose wings have burned off can take “hours or even days to die”. That matches the published research: in the Intellectual Ventures laser studies (Scientific Reports, 2016 and 2020), a mosquito counted as killed if it was dead or dying 24 hours after the shot.',
+  },
+  {
+    question: 'Do laser mosquito killers actually work?',
+    answer: 'In the laboratory, yes. Researchers at Intellectual Ventures Laboratory shot single mosquitoes flying freely in clear cages and published the doses that killed 90% of them (Scientific Reports, 2020); blue and green light did it with about one-eighth of the exposure that 1,064 nm infrared light needed, and a 30-metre proof-of-principle run killed all 15 mosquitoes it shot. What nobody has published is a field test of a consumer unit in a real yard, counting bites or trapped mosquitoes with the device on and off, which is the only kind of result that would show it reduces bites. The physics works; the product is unproven.',
+  },
+  {
+    question: 'Will the Photon Matrix fire at a person, a dog or a cat?',
+    answer: 'It is designed not to, but the maker does not promise that it never will. The company describes radar and an AI camera that recognizes people and pets and stops the laser, and detection that inhibits firing near highly reflective surfaces. Its FAQ is careful: pets are treated as non-targets, but “this is not a guarantee in every situation”, and the safety features “do not establish an unconditional safety guarantee for people, babies or pregnant users.” Ken Barat, a former laser safety officer at Lawrence Berkeley National Laboratory, told The New York Times that the safeguards could make it safe, while warning that a Class 4 laser focused on something tiny can pack “a lot of energy” into a small space. No independent lab has tested the safeguards.',
+  },
+  {
+    question: 'Can a Photon Matrix stay outside in the rain?',
+    answer: 'Not out in the open, by the maker’s own advice. Its FAQ says the unit can be used outdoors but rates it only IP56 splash-resistant, recommends a spot “sheltered from rain and out of direct sunlight, such as under eaves or an awning”, and excludes water damage from the 12-month warranty. It also gives an operating range of 0–40 °C and 40–60% relative humidity. The campaign’s earlier IP68 figure (submersible to 1.5 m for 30 minutes, per New Atlas) no longer appears in the maker’s own specifications, so plan for a covered patio rather than an open lawn.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
@@ -178,6 +205,9 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <p className="text-xl text-brand-100 max-w-3xl">The Photon Matrix is real but still a pre-order, sold only by its maker, which says mass production is planned to begin in October 2026. Its own documentation calls the laser Class 4, certification is still in progress, and no one independent has tested it. For fewer bites, our pick is a Thermacell on the patio, which you can buy today.</p>
+          {/* Nov 6, 2026: verdict paragraph. Sources: The New York Times (Keith Bradsher, late Oct 2026, read in the copy syndicated by
+              The Star on Oct 30, 2026); the maker's FAQ and store banner, re-read Nov 6, 2026. */}
+          <p className="mt-4 text-base text-brand-100 max-w-3xl leading-relaxed"><strong className="text-white">Our verdict, November 2026: wait.</strong> In late October the company told <em>The New York Times</em> it had 5,000 prepaid orders and expected mass production to begin &ldquo;within weeks&rdquo;, and we have found no unit delivered to a buyer. Nobody independent has tested one. For fewer bites next season, compare the <Link href="/blog/best-mosquito-repellent-device-canada" className="underline text-white hover:text-emerald-200">patio repellent devices sold in Canada</Link> or, on a large lot, the <Link href="/blog/mosquito-magnet-canada" className="underline text-white hover:text-emerald-200">Mosquito Magnet propane trap</Link>, and tip out standing water.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -258,6 +288,84 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
             ]}
             caption={<>Sources, all opened October 23, 2026: the maker&rsquo;s <a href="https://photonmatrixlab.com/faq/" target="_blank" rel="noopener noreferrer" className="text-emerald-700 underline">FAQ</a> (&ldquo;Information updated 20 September 2026&rdquo;); the <a href="https://store.photonmatrixlab.com/policies/shipping-policy" target="_blank" rel="noopener noreferrer" className="text-emerald-700 underline">shipping policy</a>, <a href="https://store.photonmatrixlab.com/policies/refund-policy" target="_blank" rel="noopener noreferrer" className="text-emerald-700 underline">refund policy</a> and store banner; the maker&rsquo;s anti-counterfeit page (July 23, 2026); <em>South China Morning Post</em>, October 1, 2026; <em>The Register</em>, August 17, 2026. Every performance and safety figure is the seller&rsquo;s.</>}
           />
+        </div>
+      </section>
+
+      {/* STATUS, NOVEMBER 2026 (added Nov 6, 2026). The New York Times, Keith Bradsher, late October 2026, read in the copy syndicated by
+          The Star (thestar.com.my, Oct 30, 2026); the maker's FAQ (photonmatrixlab.com/faq, still "Information updated 20 September
+          2026") and the official store banner, both re-read Nov 6, 2026; the maker's anti-counterfeit page (July 23, 2026). */}
+      <section className="bg-white px-4 pb-4">
+        <div className="max-w-4xl mx-auto">
+          <QuickIdTable
+            title="Photon Matrix in November 2026: what changed since October"
+            head={['Question', 'What the source says', 'Source']}
+            rows={[
+              ['Has mass production started?', 'Not as of late October. The company told the Times it had received 5,000 prepaid orders and lined up a contract manufacturer, with mass production expected to begin “within weeks”. That does not match the August reports, listed below, that it had already begun.', 'The New York Times'],
+              ['Has anyone received one?', 'We found no confirmed delivery to a buyer as of November 6. The store banner still reads “Pre-order Now” and “Pre-order Items Will Ship Within 120 Days”, and the FAQ is still dated 20 September 2026 and still says mass production is “planned to begin in October 2026”.', 'Official store; maker FAQ; our check'],
+              ['Is it approved anywhere?', 'Not yet. The company is seeking regulatory approval in China, Europe and the United States, and its founder said Chinese approval was close. The FAQ: “Certification and compliance work is in progress”; CE marking: “Not yet.”', 'The New York Times; maker FAQ'],
+              ['How do you switch it on?', '“First-time use requires a 100% pass on the 15-question app safety quiz,” and “Fingerprint and app-password authentication restrict access.” A new unit “starts in scan-only mode”; striking has to be selected in the app or on the device.', 'Maker FAQ; The New York Times'],
+              ['Does a hit mosquito die on the spot?', 'Not necessarily. The FAQ says a pulse “disables the mosquito’s wings”; the founder told the Times that mosquitoes whose wings have burned off can take “hours or even days to die”.', 'Maker FAQ; The New York Times'],
+              ['What stops it firing at people or pets?', 'Radar, plus an AI camera that recognizes people and pets and stops the laser, and detection of highly reflective surfaces, by the company’s account. Ken Barat, a former laser safety officer at Lawrence Berkeley National Laboratory, told the Times the safeguards could make it safe, but that a Class 4 laser focused on something tiny can pack “a lot of energy” into a small space.', 'The New York Times; maker FAQ'],
+              ['Any change at the store?', 'The banner now adds “Products Including 15% Discount”. A discount shown on store.photonmatrixlab.com itself is the maker’s own offer; the counterfeit warning further down is about other domains, and the maker’s own scam page says “Anything dramatically lower is a red flag.”', 'Official store; maker anti-counterfeit page'],
+              ['Who runs the company?', 'The Times names the founder and chief executive as Wang Chuan, and places the company in Changzhou, about 160 km northwest of Shanghai.', 'The New York Times'],
+            ]}
+            caption={<>Sources: <em>The New York Times</em> (Keith Bradsher, late October 2026), read in the copy <a href="https://www.thestar.com.my/tech/tech-news/2026/10/30/in-china-the-war-on-mosquitoes-has-entered-the-ai-era" target="_blank" rel="noopener noreferrer" className="text-emerald-700 underline">syndicated by <em>The Star</em></a> on October 30, 2026; the maker&rsquo;s <a href="https://photonmatrixlab.com/faq/" target="_blank" rel="noopener noreferrer" className="text-emerald-700 underline">FAQ</a> (&ldquo;Information updated 20 September 2026&rdquo;) and the official store banner, both re-read November 6, 2026; the maker&rsquo;s anti-counterfeit page (July 23, 2026). Every performance and safety figure is the seller&rsquo;s.</>}
+          />
+        </div>
+      </section>
+
+      {/* PROS AND CONS (added Nov 6, 2026). Each line names its source: the maker's FAQ (20 Sep 2026, re-read Nov 6); the official
+          store's shipping policy; The New York Times (late Oct 2026); New Atlas (Aug 24, 2026); Keller et al., Scientific Reports
+          6:20936 (2016) and 10:14795 (2020). No line comes from a test of ours. */}
+      <section className="bg-white px-4 pb-8">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-xl font-extrabold text-brand-900 mb-3">Photon Matrix pros and cons</h2>
+          <p className="text-sm text-gray-700 mb-4 leading-relaxed">What counts for and against it, on the maker&rsquo;s own documents and the published reporting. None of it comes from a test of ours: we have not handled a unit.</p>
+          <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white">
+            <table className="min-w-[620px] w-full text-sm">
+              <thead className="bg-brand-50">
+                <tr>
+                  <th className="px-4 py-2 text-left w-1/2">For it</th>
+                  <th className="px-4 py-2 text-left w-1/2">Against it</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-t border-navy-50 align-top">
+                  <td className="px-4 py-2 text-gray-700">Chemical-free: nothing is sprayed on the yard (company claim).</td>
+                  <td className="px-4 py-2 text-gray-700">Not shipping yet: in late October, mass production was still expected &ldquo;within weeks&rdquo; (<em>The New York Times</em>), and the store says pre-orders ship within 120 days.</td>
+                </tr>
+                <tr className="border-t border-navy-50 align-top">
+                  <td className="px-4 py-2 text-gray-700">Built on a real idea: published lab studies have killed mosquitoes with laser pulses, including in free flight (<em>Scientific Reports</em>, 2016 and 2020).</td>
+                  <td className="px-4 py-2 text-gray-700">No independent test of the device itself: every kill-rate figure is the seller&rsquo;s, and New Atlas wrote that it was &ldquo;yet to see this machine in action.&rdquo;</td>
+                </tr>
+                <tr className="border-t border-navy-50 align-top">
+                  <td className="px-4 py-2 text-gray-700">Layers of claimed safeguards: radar, an AI camera that recognizes people and pets, reflective-surface detection, a scan-only start, a 15-question safety quiz and a fingerprint lock (maker FAQ; <em>The New York Times</em>).</td>
+                  <td className="px-4 py-2 text-gray-700">A Class 4 laser by the maker&rsquo;s own documents, with certification work &ldquo;in progress&rdquo; and CE marking &ldquo;Not yet&rdquo; (maker FAQ).</td>
+                </tr>
+                <tr className="border-t border-navy-50 align-top">
+                  <td className="px-4 py-2 text-gray-700">Quiet: under 30 dB, the maker says.</td>
+                  <td className="px-4 py-2 text-gray-700">A hit mosquito may not die on the spot: the founder told the <em>Times</em> that mosquitoes whose wings have burned off can take &ldquo;hours or even days to die.&rdquo;</td>
+                </tr>
+                <tr className="border-t border-navy-50 align-top">
+                  <td className="px-4 py-2 text-gray-700">Runs on mains power or a power bank, drawing about 20 W (maker FAQ).</td>
+                  <td className="px-4 py-2 text-gray-700">One unit covers a 90&deg; slice of a 6 m radius: &ldquo;Full 360&deg; coverage requires multiple units&rdquo; (maker FAQ).</td>
+                </tr>
+                <tr className="border-t border-navy-50 align-top">
+                  <td className="px-4 py-2 text-gray-700">12-month warranty from the date of delivery (maker FAQ).</td>
+                  <td className="px-4 py-2 text-gray-700">The warranty excludes water damage, the unit is only IP56 splash-resistant, and the maker wants it sheltered from rain and direct sun; it is rated for 0&ndash;40&deg;C and 40&ndash;60% relative humidity (maker FAQ).</td>
+                </tr>
+                <tr className="border-t border-navy-50 align-top">
+                  <td className="px-4 py-2 text-gray-700">International shipping is included in the price (maker FAQ).</td>
+                  <td className="px-4 py-2 text-gray-700">Duties, taxes and brokerage are on the buyer (store shipping policy), and returns and warranty service run to the company in China.</td>
+                </tr>
+                <tr className="border-t border-navy-50 align-top">
+                  <td className="px-4 py-2 text-gray-700">&mdash;</td>
+                  <td className="px-4 py-2 text-gray-700">Its target window, flying insects of 2&ndash;20 mm, includes pollinators, and the maker advises keeping it away from flowering plants and beehives. It does nothing for ticks, which do not fly.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-gray-700 mt-4 leading-relaxed">If the patio is the whole problem, the same footprint can be covered without a laser: our <Link href="/blog/outdoor-fan-mosquito-control-canada" className="text-emerald-700 underline font-semibold">outdoor fan guide</Link> covers the airflow approach, and the alternatives further down this page are all stocked in Canada today.</p>
         </div>
       </section>
 
@@ -466,6 +574,18 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
                   <td className="px-4 py-3 text-gray-700">The store banner still reads &ldquo;Pre-order Now&rdquo;. We found no confirmed delivery to a buyer.</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Official store · our check</td>
                 </tr>
+                {/* Nov 6, 2026 rows: The New York Times (Keith Bradsher, late Oct 2026, syndicated by The Star on Oct 30); store banner and
+                    maker FAQ re-read Nov 6, 2026. */}
+                <tr className="border-t border-navy-50">
+                  <td className="px-4 py-3 font-mono text-gray-800 whitespace-nowrap">Late Oct 2026</td>
+                  <td className="px-4 py-3 text-gray-700">The company tells <em>The New York Times</em> it has <strong>5,000 prepaid orders</strong> and a contract manufacturer, with mass production expected to begin <strong>&ldquo;within weeks&rdquo;</strong>, and that it is seeking regulatory approval in China, Europe and the United States. Buyers must pass a 15-question safety quiz and register a fingerprint before a unit will work.</td>
+                  <td className="px-4 py-3 text-xs text-gray-600">The New York Times</td>
+                </tr>
+                <tr className="border-t border-navy-50">
+                  <td className="px-4 py-3 font-mono text-gray-800 whitespace-nowrap">Nov 6, 2026</td>
+                  <td className="px-4 py-3 text-gray-700">The store banner still reads &ldquo;Pre-order Now&rdquo;, now with &ldquo;Products Including 15% Discount&rdquo;; the FAQ is still dated 20 September 2026. We found no confirmed delivery to a buyer.</td>
+                  <td className="px-4 py-3 text-xs text-gray-600">Official store · maker FAQ · our check</td>
+                </tr>
               </tbody>
             </table>
           </div>
@@ -645,6 +765,24 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
           <h2>The Safety Question Nobody Should Skip</h2>
           <p>A laser strong enough to kill an insect mid-flight is not automatically harmless to a human eye or a curious dog at close range. The serious research versions of the photonic fence treated eye safety as a first-order design problem. A mass-market gadget lives or dies on the same question: <strong>how confident are you that the software will never misfire at a child&rsquo;s face, a pet, or a neighbour?</strong></p>
           <p>Canada does not answer that by certifying the product &mdash; there is no Health Canada sign-off to look for, and CSA or cUL marks cover electrical safety, not beams. What Canada requires instead is a label: under the Radiation Emitting Devices Regulations, in force in their amended form since October 9, 2025, a laser product imported into, or sold or leased in, Canada must be classified and labelled to IEC 60825-1, with its hazard class, wavelength and maximum output stated. Until a backyard laser device carries that class on its label and has some independent testing behind it, the cautious call is to treat it as experimental hardware, not a family-yard appliance. That is not fear-mongering; it is the same standard you would apply to anything that points an energy beam across a space where people and pets move.</p>
+          {/* Nov 6, 2026: FDA, "Laser Products and Instruments" (fda.gov, content current as of 11/13/2024), class descriptions quoted or
+              closely paraphrased. General class descriptions only, not test results for any mosquito device. */}
+          <p>For reference, this is how the U.S. Food and Drug Administration describes each laser hazard class. Its Class I to IV sit beside the IEC classes in brackets, which are the ones Canada&rsquo;s label rule uses.</p>
+          <div className="not-prose overflow-x-auto rounded-lg border border-navy-100 my-4">
+          <table className="min-w-[560px] w-full text-sm border-collapse">
+            <thead className="bg-brand-50">
+              <tr><th className="px-3 py-2 text-left">FDA class (IEC class)</th><th className="px-3 py-2 text-left">The FDA&rsquo;s description of the hazard</th></tr>
+            </thead>
+            <tbody>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2">Class I (1, 1M)</td><td className="px-3 py-2">&ldquo;Considered non-hazardous.&rdquo; The hazard increases if the beam is viewed with optical aids such as magnifiers, binoculars or telescopes.</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2">Class IIa and II (2, 2M)</td><td className="px-3 py-2">The hazard increases when the beam is viewed directly for long periods, or with optical aids.</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2">Class IIIa (3R)</td><td className="px-3 py-2">Depending on power and beam area, can be momentarily hazardous when viewed directly.</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2">Class IIIb (3B)</td><td className="px-3 py-2">&ldquo;Immediate skin hazard from direct beam and immediate eye hazard when viewed directly.&rdquo;</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Class IV (4): the class the maker gives the Photon Matrix strike laser</strong></td><td className="px-3 py-2"><strong>&ldquo;Immediate skin hazard and eye hazard from exposure to either the direct or reflected beam; may also present a fire hazard.&rdquo;</strong></td></tr>
+            </tbody>
+          </table>
+          </div>
+          <p className="text-xs text-gray-500">Source: U.S. Food and Drug Administration, <a href="https://www.fda.gov/radiation-emitting-products/home-business-and-entertainment-products/laser-products-and-instruments" target="_blank" rel="noopener noreferrer" className="underline">Laser Products and Instruments</a> (content current as of November 13, 2024). These describe each class in general; they are not test results for any mosquito device.</p>
 
           <h2>What Actually Works Today (and Where to Buy It in Canada)</h2>
           <p>While the laser idea matures, here is the honest, boring, effective toolkit that clears mosquitoes from a real Canadian backyard right now. Most homeowners get the best results by combining two or three of these rather than chasing a single silver-bullet gadget.</p>
@@ -707,6 +845,36 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
           <p>The 1 metre-per-second target-speed ceiling deserves a second look too. Mosquitoes are slow flyers, so that ceiling is plausible for the intended target &mdash; but it also tells you what else falls inside the envelope. Commenters on New Atlas&rsquo;s coverage raised exactly this: a system that engages small, slow-flying objects is describing most pollinators as well. The 2007 Intellectual Ventures lab device solved that by identifying mosquitoes on wing-beat frequency, down to species and sex. The published consumer spec is a size-and-speed filter, not a species filter.</p>
           <p>There is a second number in that filter that we published only half of, and the missing half sharpens the point. The spec table above lists a <strong>minimum</strong> target size of about 2 mm. The manufacturer&rsquo;s published target window is <strong>roughly 2 mm to 20 mm</strong> &mdash; and 20 mm is not a mosquito. Twenty millimetres is a honeybee, a hoverfly, a small moth, a bumblebee at the top of the range. A device advertised as a mosquito killer is describing an engagement envelope that comfortably contains most of the beneficial flying insects in a Canadian garden, and it identifies them by size and speed rather than by wingbeat. The 2007 lab system solved that with species-level wing-beat identification precise enough to spare males and target only biting females; a 2 mm-to-20 mm size gate is not that, and the difference is worth knowing before a unit runs unattended next to a pollinator border. The maker&rsquo;s FAQ answers that its detection is &ldquo;optimised exclusively for mosquitoes&rdquo;, and it also advises: &ldquo;Avoid placing the unit near flowering plants or beehives.&rdquo;</p>
 
+          {/* Nov 6, 2026: the maker's current specification list, from photonmatrixlab.com/faq ("Information updated 20 September
+              2026"), re-read Nov 6, 2026. "Checked by anyone independent?" = we found no lab, regulator or reviewer who has published a
+              check of that figure. */}
+          <h3 id="photon-matrix-current-specs">The maker&rsquo;s current spec sheet: claimed vs. independently checked</h3>
+          <p>The campaign numbers above have since been replaced by a shorter list in the maker&rsquo;s FAQ, still dated 20 September 2026 when we re-read it on November 6. Here it is in full, beside the column a buyer should read first.</p>
+          <div className="not-prose overflow-x-auto rounded-lg border border-navy-100 my-4">
+          <table className="min-w-[620px] w-full text-sm border-collapse">
+            <thead className="bg-brand-50">
+              <tr><th className="px-3 py-2 text-left">Specification</th><th className="px-3 py-2 text-left">What the maker&rsquo;s FAQ says</th><th className="px-3 py-2 text-left">Checked by anyone independent?</th></tr>
+            </thead>
+            <tbody>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Strike laser</strong></td><td className="px-3 py-2">Blue, 450 nm (recommended outdoors) or Infrared, 976 nm (recommended indoors)</td><td className="px-3 py-2">No</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Laser class</strong></td><td className="px-3 py-2">IEC 60825-1 Class 4, per the supplied product documentation; &ldquo;Certification and compliance work is in progress&rdquo;</td><td className="px-3 py-2">No: not certified</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2">Coverage</td><td className="px-3 py-2">6 m (about 20 ft) radius in a horizontal 90&deg; scan; &ldquo;Full 360&deg; coverage requires multiple units&rdquo;</td><td className="px-3 py-2">No</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2">Targets</td><td className="px-3 py-2">Flying insects of 2&ndash;20 mm moving at 1 m/s or slower</td><td className="px-3 py-2">No</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2">Detection</td><td className="px-3 py-2">LiDAR, millimetre-wave radar and vision AI</td><td className="px-3 py-2">No</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2">Power</td><td className="px-3 py-2">100&ndash;240 V mains through a 24 V DC adapter, or a PD/QC power bank with the specified cable; about 20 W</td><td className="px-3 py-2">No</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2">Size and weight</td><td className="px-3 py-2">200 &times; 92 &times; 88 mm; about 1,220 g</td><td className="px-3 py-2">No</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2">Weather</td><td className="px-3 py-2">IP56 splash-resistant; place it &ldquo;sheltered from rain and out of direct sunlight, such as under eaves or an awning&rdquo;; the warranty excludes water damage</td><td className="px-3 py-2">No</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2">Operating range</td><td className="px-3 py-2">0&ndash;40&deg;C and 40&ndash;60% relative humidity</td><td className="px-3 py-2">No</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2">Noise</td><td className="px-3 py-2">&ldquo;Noise is very low (&lt;30 dB)&rdquo;</td><td className="px-3 py-2">No</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2">App and radios</td><td className="px-3 py-2">Bluetooth (BLE 5.0) app for mode switching, status monitoring, firmware updates and mosquito elimination counts; Wi-Fi 2.4 GHz</td><td className="px-3 py-2">Not stated: FCC is on the FAQ&rsquo;s list of requirements, which it says &ldquo;does not mean that approvals or certifications have already been obtained&rdquo;</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2">Safety lockouts</td><td className="px-3 py-2">Starts in scan-only mode; fingerprint and app-password access; a 100% pass on a 15-question app safety quiz before first use</td><td className="px-3 py-2">No</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2">Warranty</td><td className="px-3 py-2">12 months from the date of delivery; excludes misuse, water damage, drops, and unauthorized disassembly or modification</td><td className="px-3 py-2">&mdash;</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2">Certifications</td><td className="px-3 py-2">CE (LVD/EMC/RED), IEC 60825-1, FCC and FDA are among the requirements listed; CE: &ldquo;Not yet&rdquo;</td><td className="px-3 py-2">No approval published</td></tr>
+            </tbody>
+          </table>
+          </div>
+          <p className="text-xs text-gray-500">Source: Photon Matrix Lab, <a href="https://photonmatrixlab.com/faq/" target="_blank" rel="noopener noreferrer" className="underline">FAQ</a> (&ldquo;Information updated 20 September 2026&rdquo;), re-read November 6, 2026. &ldquo;No&rdquo; means we found no lab, regulator or reviewer who has published a check of that figure.</p>
+
           <h3>Indoor 976 nm vs. outdoor 450 nm &mdash; the split that matters most</h3>
           <p>The manufacturer&rsquo;s own FAQ divides the line by wavelength, and this is the single most useful thing on their site. It is also the piece almost every review skips.</p>
           <div className="not-prose overflow-x-auto rounded-lg border border-navy-100 my-4">
@@ -746,6 +914,34 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
             ))}
           </div>
           <p className="text-xs text-gray-500">Mechanism as described by embedded.com and the manufacturer. The same write-up carries a claim of at least 90% of insects cleared in under 10 minutes &mdash; again, a seller&rsquo;s figure with no independent test behind it.</p>
+
+          {/* Nov 6, 2026: the peer-reviewed evidence. Keller MD, Leahy DJ, Norton BJ, et al., "Laser induced mortality of Anopheles
+              stephensi mosquitoes", Scientific Reports 6:20936 (2016), doi:10.1038/srep20936; Keller MD, Norton BJ, Farrar DJ, et al.,
+              "Optical tracking and laser-induced mortality of insects during flight", Scientific Reports 10:14795 (2020),
+              doi:10.1038/s41598-020-71824-y (Table 2; CC BY 4.0). Authors' affiliation: Intellectual Ventures Laboratory, Bellevue,
+              WA; funded by the Global Good Fund (Europe PMC record). */}
+          <h3 id="laser-research-evidence">What the published research shows about killing mosquitoes with a laser</h3>
+          <p>The consumer device has no independent test, but the question underneath it, how much laser light it takes to kill a mosquito, has been studied in peer-reviewed work by the Intellectual Ventures Laboratory team that grew out of the original photonic fence. Two papers in <em>Scientific Reports</em> are the closest thing to evidence this category has:</p>
+          <ul>
+            <li><strong>2016:</strong> the team dosed immobilized female <em>Anopheles stephensi</em> with laser pulses shorter than 25 milliseconds and counted the dead 24 hours later. Green and far-infrared light worked better than near- and mid-infrared, larger spots needed less energy per area but more per pulse, and the pulse had to be shortened by several orders of magnitude before the lethal energy dropped much.</li>
+            <li><strong>2020:</strong> they tracked single mosquitoes flying freely in clear cages two metres from the optics and shot them in flight. For 90% mortality with a 25-millisecond pulse and a 2.5 mm spot, blue (445 nm) and green (532 nm) light each needed 1.6 J/cm&sup2;, against 12.9 J/cm&sup2; at 1,064 nm in the near infrared, roughly eight times as much. A proof-of-principle run at 30 metres killed all 15 mosquitoes it shot. Mortality was again counted about 24 hours after the shot.</li>
+          </ul>
+          <div className="not-prose overflow-x-auto rounded-lg border border-navy-100 my-4">
+          <table className="min-w-[560px] w-full text-sm border-collapse">
+            <thead className="bg-brand-50">
+              <tr><th className="px-3 py-2 text-left">Wavelength tested (2020)</th><th className="px-3 py-2 text-left">Exposure for 90% mortality</th><th className="px-3 py-2 text-left">Nearest Photon Matrix laser</th></tr>
+            </thead>
+            <tbody>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2">445 nm, blue</td><td className="px-3 py-2">1.6 J/cm&sup2; (25 ms pulse, 2.5 mm spot)</td><td className="px-3 py-2">Outdoor model, 450 nm blue</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2">532 nm, green</td><td className="px-3 py-2">1.6 J/cm&sup2; (25 ms pulse, 2.5 mm spot)</td><td className="px-3 py-2">&mdash;</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2">1,064 nm, near infrared</td><td className="px-3 py-2">12.9 J/cm&sup2; (25 ms pulse, 2.5 mm spot)</td><td className="px-3 py-2">Indoor model uses 976 nm, which the study did not test</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2">1,570 nm, infrared</td><td className="px-3 py-2">11.7 J/cm&sup2; (11 W, 2.5 mm spot, pulse length varied)</td><td className="px-3 py-2">&mdash;</td></tr>
+            </tbody>
+          </table>
+          </div>
+          <p className="text-xs text-gray-500">Source: Keller and colleagues, &ldquo;Optical tracking and laser-induced mortality of insects during flight,&rdquo; <a href="https://www.nature.com/articles/s41598-020-71824-y" target="_blank" rel="noopener noreferrer" className="underline"><em>Scientific Reports</em> 10, 14795 (2020)</a>, Table 2; and &ldquo;Laser induced mortality of <em>Anopheles stephensi</em> mosquitoes,&rdquo; <a href="https://www.nature.com/articles/srep20936" target="_blank" rel="noopener noreferrer" className="underline"><em>Scientific Reports</em> 6, 20936 (2016)</a>. Laboratory results on caged mosquitoes, not a test of any consumer device.</p>
+          <p>Three things follow for the Photon Matrix. <strong>First, wavelength.</strong> Its outdoor 450 nm laser sits beside the most efficient light in that work. Its indoor 976 nm beam is near-infrared, the kind of light that needed about eight times the exposure in 2020, though 976 nm itself was not tested and the maker publishes no exposure figures for either model, so the comparison cannot be finished. <strong>Second, &ldquo;killed&rdquo; meant dead or dying a day later.</strong> That fits the founder&rsquo;s own description of downed mosquitoes taking hours or days to die. <strong>Third, safety.</strong> The researchers wrote that they preferred a &ldquo;retina-safe&rdquo; wavelength in the near infrared and paired the laser with a separate safety system that stops it firing when people or other animals are close to the target area. Both Photon Matrix lasers sit inside the 400&ndash;1,400 nm retinal hazard region described above.</p>
+          <p>The same study gives a yardstick for the device&rsquo;s reported pulse. In 2020, 90% mortality in blue light took about 50 to 78 millijoules per pulse, depending on spot size. The 40-watt, 10-millisecond pulse reported by embedded.com works out to about 400 millijoules, five to eight times as much, although the spot size at range, which decides the dose a mosquito actually receives, has never been published for this device.</p>
 
           <h2 id="is-the-photon-matrix-mosquito-zapper-real">Is the photon matrix mosquito zapper real?</h2>
           <p><strong>Yes &mdash; the device exists and, since late summer 2026, US outlets including Tom&rsquo;s Hardware and Fox Business have reported it on sale online at roughly $988 to $1,088 USD with a 12-month warranty; the maker&rsquo;s store sells it as a pre-order. What is not real is the proof: no certification yet (the maker&rsquo;s FAQ gives a Class 4 laser and says certification work is in progress), no FDA/CDRH accession number, no independent efficacy test, and a maximum range of six metres.</strong></p>

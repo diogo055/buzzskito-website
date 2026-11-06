@@ -14,10 +14,11 @@ import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
 import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
 
 const SLUG = 'best-screen-tent-canada'
 const DATE = '2026-07-14'
-const UPDATED = '2026-10-23'
+const UPDATED = '2026-11-06'
 const TITLE = 'Best Screen Tents & Screen Houses in Canada 2026'
 // TITLE NOTE (Oct 23, 2026): was 'Best Screen Tents & Screen Houses Canada 2026'; top queries Jul 23-Oct 20: screen tent 1,212 impressions at 14.5, screen house 612 at 16.2, screen houses 447 at 12.8, screen tents 363 at 17.3 (page: 13,514 impressions at 10.2, 165 clicks).
 const META_TITLE = 'Screen Tents & Screen Houses: Best in Canada'
@@ -57,7 +58,7 @@ const FAQS = [
   },
   {
     question: 'Do screen tents keep out black flies and no-see-ums?',
-    answer: 'Standard mosquito mesh (roughly 1.2 mm holes) reliably stops mosquitoes and black flies, so every model in this guide handles Ontario black-fly season (mid-May to late June in cottage country). No-see-ums (biting midges) are smaller — under 1 mm — and can pass through standard mesh. If you camp near Georgian Bay marshes or northern lakes where midges are the main problem, look for a model that advertises fine or "no-see-um" mesh, or add a fine-mesh inner layer. For typical GTA backyards and most Ontario campgrounds, standard mesh is enough.',
+    answer: 'Standard mosquito mesh (roughly 1.2 mm holes) reliably stops mosquitoes, but not black flies: the Illinois Department of Public Health warns that black flies can get through most window screens, so for Ontario black-fly season (mid-May to late June in cottage country) buy a model sold with fine or "no-see-um" mesh, such as the Clam Quick-Set Escape. No-see-ums (biting midges) are smaller still, usually 1 to 2 mm long, and pass through standard mesh. If you camp near Georgian Bay marshes or northern lakes where midges are the main problem, look for a model that advertises fine or "no-see-um" mesh, or add a fine-mesh inner layer. For mosquitoes alone, standard mesh is enough.',
   },
   {
     question: 'How much wind can a screen tent handle?',
@@ -85,7 +86,7 @@ const FAQS = [
   },
   {
     question: 'Can you sleep in a screen tent?',
-    answer: 'You can, but a screen house is not built for it. It has no floor, so it sits straight on the grass, deck or campsite pad, and on grass a tick can walk in under the edge (on a mowed lawn the risk is low). Standard mesh stops mosquitoes and black flies, but no-see-ums are small enough to pass through it. If you want one shelter for sleeping and sitting, buy a tent with a screen room, which has a sewn-in floor; otherwise sleep in a tent or under a bed net and keep the screen house for meals.',
+    answer: 'You can, but a screen house is not built for it. It has no floor, so it sits straight on the grass, deck or campsite pad, and on grass a tick can walk in under the edge (on a mowed lawn the risk is low). Standard mesh stops mosquitoes, but no-see-ums are small enough to pass through it, and black flies can get through most window screens. If you want one shelter for sleeping and sitting, buy a tent with a screen room, which has a sewn-in floor; otherwise sleep in a tent or under a bed net and keep the screen house for meals.',
   },
   {
     question: 'Are screen tents waterproof?',
@@ -94,6 +95,26 @@ const FAQS = [
   {
     question: 'What is the best screen tent for a deck?',
     answer: 'For a deck or patio dining set, the Coleman Back Home 12x10: its rectangular 120 sq ft footprint fits a rectangular table better than a square campsite model, and its instant frame goes up in three to five minutes. Measure the deck before you order. If you want something that stays up from May to September, a steel-framed screened gazebo is the heavier, all-season alternative; whichever you choose, take a screen house down for storms.',
+  },
+  {
+    question: 'What mesh keeps out black flies?',
+    answer: 'Finer than standard mosquito mesh. Black flies are 1 to 5 mm long, the Illinois Department of Public Health warns that they can get through most window screens, and Penn State Extension says netting on tents is useful if the mesh is small enough to exclude them. For Ontario’s black-fly weeks, mid-May to late June in cottage country, buy a screen house sold with fine or “no-see-um” mesh, such as the Clam Quick-Set Escape, and check the listing of any other model for its mesh before you order.',
+  },
+  {
+    question: 'What is the best dining tent for camping?',
+    answer: 'A dining tent is a screen house you pitch over a table, so the picks are the same. For a family at a standard campsite, the Coleman Instant Screened Canopy 11x11: a table and four chairs, two doors, about three minutes to set up. For group meals around a full picnic table, the Coleman Skylodge 15x13. For a camp kitchen on an exposed or windy site that you pitch most weekends, a hub shelter such as the Clam Quick-Set Escape, the only type here that takes wind panels. In black-fly or no-see-um country, choose fine mesh first.',
+  },
+  {
+    question: 'Should I buy a screen tent or a gazebo with mosquito netting?',
+    answer: 'A screen tent (screen house) if you want something portable that goes up for meals and comes down after, at a campsite, dock or deck. A screened gazebo, a heavier steel-framed structure, if you want a screened room that stays on the deck from May to September. Either way, the mesh grade decides whether it stops black flies and no-see-ums as well as mosquitoes.',
+  },
+  {
+    question: 'How many people fit in a screen tent?',
+    answer: 'Roughly two in an 8x8, four around a table in a 10x10 or 11x11, and six or more around a full picnic table in a 15x13. Maker figures can run higher: Clam rates its 94 sq ft Escape for up to 6 people. If a picnic table is going inside, size by the table rather than the head count.',
+  },
+  {
+    question: 'How do you anchor a screen tent?',
+    answer: 'With every stake, guy line and tie-down it comes with, every time, and by taking it down when a severe thunderstorm watch is issued. Clam, for example, packs the Escape with 7 stakes and 5 tie-down ropes, I-bolts for external tie-down straps and corner grommets for staking inside, and still describes its protection as “light rain and light wind”.',
   },
 ]
 
@@ -268,11 +289,12 @@ export default function BestScreenTentCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="clam quick set escape screen shelter">Check the Clam Quick-Set on Amazon.ca &rarr;</BuyLink>
             <BuyLink tag={AMZ_TAG} search="coleman instant screen house 11x11">Check the Coleman 11x11 &rarr;</BuyLink>
           </div>
+          <p><strong>Our verdict:</strong> buy the frame for how often you pitch it and the mesh for what bites where you sit. A hub shelter such as the Clam Quick-Set Escape earns its price only if you pitch it most weekends or somewhere exposed; for a few sheltered weekends a year, the Coleman Instant 11x11 is the better buy. In black-fly or no-see-um country the mesh matters more than either: standard mosquito mesh stops mosquitoes but not reliably black flies or midges, and Clam lists no-see-um mesh on the Escape.</p>
 
           <h2>Why a Screen Tent Is the Best Chemical-Free Mosquito Defence</h2>
           <p>Every mosquito solution falls into one of two camps: chemical control (repellents, coils, barrier sprays) or physical barriers (mesh). We run a professional mosquito and tick control company in the GTA, so it might surprise you that we recommend screen tents constantly — because a physical barrier is the right tool for a specific set of situations that no spray can serve as well.</p>
           <p>One Canadian wrinkle is worth knowing before you weigh mesh against chemicals: the DIY yard spray many people picture as the alternative is not on the shelf here. The bifenthrin version of Ortho Home Defense that dominates US hardware stores is not registered with Health Canada&rsquo;s Pest Management Regulatory Agency, so it is not legally sold in Canada — our review of <Link href="/blog/ortho-home-defense-canada-review">Ortho Home Defense in Canada</Link> covers what is registered here instead and whether any of it actually touches mosquitoes. A screen house sidesteps the question entirely: mesh needs no registration at all.</p>
-          <p>A screen house works the moment the last stake goes in. There is nothing to reapply, no product regulated by Health Canada&rsquo;s PMRA to think about, nothing that washes off in rain, and no waiting period. Mesh with holes around 1.2 mm stops every mosquito species in Ontario, and it stops black flies too — which matters enormously north of Barrie, where <Link href="/blog/black-flies-ontario-when-they-come-out">black-fly season</Link> makes late May and June miserable in cottage country.</p>
+          <p>A screen house works the moment the last stake goes in. There is nothing to reapply, no product regulated by Health Canada&rsquo;s PMRA to think about, nothing that washes off in rain, and no waiting period. Mesh with holes around 1.2 mm stops every mosquito species in Ontario, but not reliably black flies, and that matters enormously north of Barrie, where <Link href="/blog/black-flies-ontario-when-they-come-out">black-fly season</Link> makes late May and June miserable in cottage country. The Illinois Department of Public Health warns that black flies can get through most window screens, so a screen house for those weeks needs fine, no-see-um-grade mesh.</p>
           <NextUp path="/blog/best-screen-tent-canada" />
           <p>The limitation is just as clean-cut: a screen tent protects the 100&ndash;200 square feet it encloses and nothing else. Step outside to tend the barbecue, throw a ball with the kids, or garden, and you&rsquo;re back on the menu. That&rsquo;s the honest framing for the rest of this guide — and it&rsquo;s covered in depth in our <Link href="/blog/mosquito-netting-vs-barrier-spray">mosquito netting vs barrier spray</Link> comparison.</p>
           <p>A screen tent clearly beats spray when:</p>
@@ -281,7 +303,7 @@ export default function BestScreenTentCanadaPage() {
             <li><strong>You own a cottage you visit on weekends</strong> — sprays need scheduled applications; a screen house waits for you</li>
             <li><strong>You eat outdoors at a dock, campsite, or park</strong> — no service treats public or waterfront land</li>
             <li><strong>Someone in the family wants zero chemicals</strong> — mesh is mesh</li>
-            <li><strong>Black flies are the main enemy</strong> — repellents underperform against black flies; mesh doesn&rsquo;t care</li>
+            <li><strong>Black flies are the main enemy</strong> — repellents underperform against black flies; fine, no-see-um-grade mesh doesn&rsquo;t care (standard mosquito mesh can let them through)</li>
           </ul>
 
           <h2>The 6 Best Screen Tents in Canada for 2026</h2>
@@ -295,6 +317,38 @@ export default function BestScreenTentCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="clam quick set escape screen shelter">Check the Clam Quick-Set on Amazon.ca &rarr;</BuyLink>
             <BuyLink tag={AMZ_TAG} search="gazelle g6 pop up portable gazebo screen tent">Check the Gazelle G6 &rarr;</BuyLink>
           </div>
+          <p className="not-prose text-sm font-bold text-brand-900 mt-6 mb-2">Clam Quick-Set Escape: the maker&rsquo;s specs</p>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm mb-3">
+            <table className="w-full min-w-[480px] text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Spec</th>
+                  <th className="px-4 py-3 text-left">What Clam lists</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['Set-up size', '11.5 x 11.5 ft (3.5 x 3.5 m)'],
+                  ['Footprint', '94 sq ft (8.7 m²), less floor than the 121 sq ft Coleman 11x11'],
+                  ['Height', '90 in (2.3 m) at the peak; 72 in (1.8 m) walls'],
+                  ['Weight and packed size', '37 lb (17 kg); 75 x 14 x 14 in carry bag, about 1.9 m long'],
+                  ['Setup', 'About 60 seconds, no assembly; 11 mm fibreglass poles'],
+                  ['Mesh', 'Tear-resistant, durable no-see-um mesh'],
+                  ['Roof', 'Water-resistant and seam-taped; Clam says it gives protection from “light rain and light wind”'],
+                  ['Anchoring', '7 stakes and 5 tie-down ropes included; I-bolts for external tie-down straps; corner grommets for staking inside'],
+                  ['Wind panels', 'Sold separately; the wind-panel version comes with two three-packs, enough to cover the whole shelter'],
+                  ['Capacity', 'Up to 6 people'],
+                  ['Warranty', '1 year against manufacturing defects'],
+                ].map(([spec, value]) => (
+                  <tr key={spec} className="border-b border-navy-50 last:border-0 align-top">
+                    <td className="px-4 py-3 font-bold text-brand-800">{spec}</td>
+                    <td className="px-4 py-3 text-gray-700">{value}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="not-prose text-xs text-gray-500 mb-6">From Clam&rsquo;s product pages for the <a href="https://clamoutdoors.com/products/escape-screen-tent" target="_blank" rel="noopener noreferrer" className="underline">Escape</a> and the <a href="https://clamoutdoors.com/products/escape-w-wind-panels" target="_blank" rel="noopener noreferrer" className="underline">Escape with wind panels</a>, opened Nov 6, 2026. The comparison table on the same page says &ldquo;Up to 8 People&rdquo;; the capacity above is from Clam&rsquo;s spec list. The 121 sq ft is this guide&rsquo;s figure for the Coleman.</p>
 
           <h3>2. Coleman Instant Screened Canopy 11x11 — Best Value Screen House</h3>
           <p>Coleman&rsquo;s instant-frame design is the reason this is the value pick and the model most people reading this should actually buy: the poles come pre-attached to the canopy, so setup is a matter of unfolding the frame, extending the telescoping legs, and clicking them into place. One adult can genuinely do it in about three minutes — no separate pole bundle, no threading fiberglass through sleeves in the wind.</p>
@@ -331,7 +385,8 @@ export default function BestScreenTentCanadaPage() {
               ['A deck or patio dining set', 'Coleman Back Home 12x10', 'The rectangle fits a rectangular table better than a square campsite model', 'Take it down for storms'],
               ['Setting up alone at docks, beaches and tailgates', 'EAST OAK 10x10 pop-up', 'Up in about a minute, one person', 'Heavy for its size; the pivoting joints bend first in wind'],
               ['Up in May, down in September, on a budget', 'CAMPROS 12x10', 'The most mesh per dollar', '10–15 minutes of pole assembly, better with two people'],
-              ['Beside a marsh or northern lake (no-see-ums)', <>A model sold with fine mesh: Clam lists &ldquo;no-see-um mesh&rdquo; on the Escape</>, 'Standard mesh stops mosquitoes and black flies, but no-see-ums can pass through it', 'A fan under the shelter helps, because midges are weak fliers'],
+              ['Beside a marsh or northern lake (no-see-ums)', <>A model sold with fine mesh: Clam lists &ldquo;no-see-um mesh&rdquo; on the Escape</>, 'Standard mesh stops mosquitoes, but no-see-ums pass through it and black flies can get through most window screens', 'A fan under the shelter helps, because midges are weak fliers'],
+              ['Cottage country in black-fly season (late May and June)', <>A model sold with fine mesh, such as the Clam Escape</>, 'The Illinois Department of Public Health warns that black flies can get through most window screens', 'Check the listing for “no-see-um” or fine mesh before you buy'],
               ['Sleeping out', 'Not a screen house: a tent with a screen room, or a bed net', 'A screen house has no floor', 'A tent with a screen room is smaller to sit in and comes down when you strike camp'],
             ]}
             caption={<>Picks, sizes and setup times are from this guide&rsquo;s reviews above. The Clam Escape&rsquo;s weight, setup time, no-see-um mesh and separately sold wind panels are from Clam&rsquo;s product pages (<a href="https://clamoutdoors.com/products/escape-screen-tent" target="_blank" rel="noopener noreferrer" className="underline">Escape</a> and <a href="https://clamoutdoors.com/products/escape-w-wind-panels" target="_blank" rel="noopener noreferrer" className="underline">Escape with wind panels</a>, opened Oct 23, 2026).</>}
@@ -351,6 +406,40 @@ export default function BestScreenTentCanadaPage() {
           </ul>
           <p>If that last category is what you actually want — something that lives on the deck from May to September instead of folding into a bag — our guide to the <Link href="/blog/best-gazebo-with-mosquito-net-canada">best gazebos with mosquito netting in Canada</Link> compares soft-top and hard-top screened models, footprint sizing, and how to anchor one against summer wind.</p>
           <p>One thing no dedicated screen house includes: a floor. That&rsquo;s deliberate — you place them over grass, deck boards, or a campsite pad. If you want overhead-plus-under protection for sleeping outdoors, that&rsquo;s a bed net or camping tent problem; our <Link href="/blog/mosquito-net">mosquito net guide for Canada</Link> covers those formats.</p>
+          <p className="not-prose text-sm font-bold text-brand-900 mt-6 mb-2">Screen house vs screened gazebo vs tent with a screen room</p>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm mb-3">
+            <table className="w-full min-w-[720px] text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left"><span className="sr-only">Feature</span></th>
+                  <th className="px-4 py-3 text-left">Screen tent / screen house</th>
+                  <th className="px-4 py-3 text-left">Screened gazebo</th>
+                  <th className="px-4 py-3 text-left">Tent with a screen room</th>
+                  <th className="px-4 py-3 text-left">Camping gazebo or canopy</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['Also sold as', 'Dining tent, kitchen tent, screen shelter, screened canopy', 'Gazebo with mosquito netting', 'Tent with a screened porch or vestibule', 'Sun or shade canopy'],
+                  ['Walls', 'Mesh on every side', 'Mesh netting on a heavier frame', 'Mesh on the screened end only', 'Often open sides with no mesh at all'],
+                  ['Floor', 'None', 'Stands on the deck or patio', 'Sewn-in floor', 'None'],
+                  ['Frame and setup', 'Pole, instant, pop-up or hub; about 1 to 15 minutes', 'Heavier steel frame, meant to stay up', 'Packs up with the tent', 'Varies'],
+                  ['Up all season?', 'Possible on a deck from May to September; take it down for storms', 'Yes, that is what it is built for', 'No: it comes down when you strike camp', 'Varies'],
+                  ['Black flies and no-see-ums', 'Only with no-see-um-grade mesh', 'Only with no-see-um-grade mesh', 'Only with no-see-um-grade mesh', 'No'],
+                  ['Best for', 'Meals and sitting out at a campsite, dock or deck', 'A screened room that lives on the deck', 'One shelter for sleeping and sitting', 'Shade only'],
+                ].map(([feature, house, gazebo, tent, canopy]) => (
+                  <tr key={feature} className="border-b border-navy-50 last:border-0 align-top">
+                    <td className="px-4 py-3 font-bold text-brand-800">{feature}</td>
+                    <td className="px-4 py-3 text-gray-700">{house}</td>
+                    <td className="px-4 py-3 text-gray-700">{gazebo}</td>
+                    <td className="px-4 py-3 text-gray-700">{tent}</td>
+                    <td className="px-4 py-3 text-gray-700">{canopy}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p>If the gazebo column is the one you want, our comparison of <Link href="/blog/hardtop-vs-soft-top-mosquito-gazebo-canada">hardtop vs soft-top mosquito gazebos</Link> covers the roof choice, mesh density, anchoring and Ontario snow load. If you already have a covered deck or porch, screening it in may beat both: see our guide to <Link href="/blog/mosquito-screened-porch-kit-canada">mosquito screened porch kits in Canada</Link>.</p>
 
           <h2>What Size Screen Tent Do You Need? 8x8 Through 15x13</h2>
           <p>Footprint is the decision people get wrong most often, because a screen house that looks generous in a product photo shrinks the moment four people sit down and push their chairs back. Sizing by what actually goes underneath:</p>
@@ -362,6 +451,68 @@ export default function BestScreenTentCanadaPage() {
             <li><strong>15x13 ft (195 sq ft)</strong> — hosting size. A full 6-ft picnic table with benches, a cooler, a side table, and standing room. Bulky in the trunk and it wants two people to square up.</li>
           </ul>
           <p>Two constraints worth checking before you order: measure the pad or deck, and check the campground&rsquo;s rules — many Ontario provincial-park sites cap the total shelter footprint you can pitch alongside a tent or trailer.</p>
+          <p className="not-prose text-sm font-bold text-brand-900 mt-6 mb-2">Screen tent size by number of people</p>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm mb-3">
+            <table className="w-full min-w-[560px] text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">People</th>
+                  <th className="px-4 py-3 text-left">Size</th>
+                  <th className="px-4 py-3 text-left">Floor area</th>
+                  <th className="px-4 py-3 text-left">What fits</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['2', '8x8 ft', '64 sq ft (5.9 m²)', 'Two camp chairs and a small side table; no picnic table'],
+                  ['4', '10x10 ft', '100 sq ft (9.3 m²)', 'A round patio table and four chairs; a picnic table only if nobody needs to walk around it'],
+                  ['4, with room to move', '11x11 or 12x10 ft', '120 to 121 sq ft (about 11.2 m²)', 'A table and four chairs with room to reach the door; the 12x10 suits a rectangular patio set'],
+                  ['6 or more', '15x13 ft', '195 sq ft (18.1 m²)', 'A 6-ft picnic table with benches, a cooler, a side table and standing room'],
+                ].map(([people, size, area, fits]) => (
+                  <tr key={size} className="border-b border-navy-50 last:border-0 align-top">
+                    <td className="px-4 py-3 font-bold text-brand-800">{people}</td>
+                    <td className="px-4 py-3 text-gray-700">{size}</td>
+                    <td className="px-4 py-3 text-gray-700">{area}</td>
+                    <td className="px-4 py-3 text-gray-700">{fits}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p>Maker figures can run higher than this: Clam rates its 94 sq ft Escape for up to 6 people. If a picnic table is going inside, size by the table rather than the head count.</p>
+
+          <h2>Screen Tent Mesh: What Stops Mosquitoes, Black Flies and No-See-Ums</h2>
+          <p>Mesh grade is the spec most listings bury, and it decides whether a screen house works in Ontario&rsquo;s worst weeks. Standard insect screening is made for mosquitoes. Black flies and no-see-ums are smaller, and the agencies that study them say plainly that ordinary screens let them through.</p>
+          <Photo id="mosquito-net-mesh-closeup" alt="Close-up of mosquito netting with hexagonal openings" caption="Close-up of mosquito netting with hexagonal openings, the kind of mesh made to stop mosquitoes. Black flies and no-see-ums need a finer weave." />
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm my-6">
+            <table className="w-full min-w-[720px] text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Biter</th>
+                  <th className="px-4 py-3 text-left">Standard mosquito mesh</th>
+                  <th className="px-4 py-3 text-left">Why</th>
+                  <th className="px-4 py-3 text-left">What to buy</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['Mosquitoes', 'Stops them', 'Screens on windows and doors are the CDC’s first advice against mosquitoes; repair any holes', 'Any screen house in this guide'],
+                  ['Black flies', 'Not reliably', 'Black flies are 1 to 5 mm long, and the Illinois Department of Public Health warns that they can get through most window screens', 'Fine or no-see-um mesh'],
+                  ['No-see-ums (biting midges)', 'No', 'Usually 1 to 2 mm long; UF/IFAS Extension says regular window screens do not keep them out', 'No-see-um mesh'],
+                  ['Ticks', 'Not the issue', 'Ticks crawl, and a screen house has no floor, so one can walk in under the edge', 'A mowed lawn under the shelter'],
+                ].map(([biter, standard, why, buy]) => (
+                  <tr key={biter} className="border-b border-navy-50 last:border-0 align-top">
+                    <td className="px-4 py-3 font-bold text-brand-800">{biter}</td>
+                    <td className="px-4 py-3 text-gray-700">{standard}</td>
+                    <td className="px-4 py-3 text-gray-700">{why}</td>
+                    <td className="px-4 py-3 text-gray-700">{buy}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p>Clam lists &ldquo;tear resistant, durable no-see-um mesh&rdquo; for the Quick-Set Escape, our best overall pick. We could not confirm the mesh grade of the other five picks from their makers&rsquo; own pages, so if black flies or midges are the reason you are buying, look for &ldquo;no-see-um&rdquo; or fine mesh in the listing before you order. Our guide to <Link href="/blog/no-see-ums-biting-midges-ontario">no-see-ums and biting midges in Ontario</Link> covers where and when they bite.</p>
+          <p className="not-prose text-xs text-gray-500 mb-6">Sources: CDC, <a href="https://www.cdc.gov/mosquitoes/prevention/index.html" target="_blank" rel="noopener noreferrer" className="underline">Preventing Mosquito Bites</a>; Environment and Climate Change Canada, <a href="https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/publications/wild-species-2010/chapter-16.html" target="_blank" rel="noopener noreferrer" className="underline">Wild Species 2010, chapter 16</a> (black fly size); Illinois Department of Public Health, <a href="https://dph.illinois.gov/topics-services/environmental-health-protection/structural-pest-control/black-flies.html" target="_blank" rel="noopener noreferrer" className="underline">Black Flies (&ldquo;Buffalo Gnats&rdquo;)</a>; Penn State Extension, <a href="https://extension.psu.edu/black-flies-in-our-gardens" target="_blank" rel="noopener noreferrer" className="underline">Black Flies in Our Gardens</a>; UF/IFAS Extension, <a href="https://doi.org/10.32473/EDIS-IN626-2025" target="_blank" rel="noopener noreferrer" className="underline">Biting Midges, No-See-Ums</a> (EENY 349, 2025); Clam, <a href="https://clamoutdoors.com/products/escape-screen-tent" target="_blank" rel="noopener noreferrer" className="underline">Escape</a> (opened Nov 6, 2026).</p>
 
           <h2>The Best Screen House for Camping (vs the Best One for a Backyard)</h2>
           <p>These are different buys, and the reviews that treat them as one category are the reason people end up disappointed. Camping punishes a screen house in a way a backyard never does: it gets packed wet, jammed into a trunk, pitched on gravel, and stood up in whatever wind the site happens to have that weekend.</p>
@@ -377,6 +528,34 @@ export default function BestScreenTentCanadaPage() {
             <li><strong>Traditional pole assembly (CAMPROS):</strong> 10&ndash;15 minutes with two people the first time; faster once you&rsquo;ve learned the pole order.</li>
           </ul>
           <p>Match the frame to the usage pattern. Set-and-forget for the season: pole-style is fine and cheaper. Deployed and packed every weekend: pay for instant or pop-up, because the screen tent you don&rsquo;t bother setting up protects nobody.</p>
+          <p className="not-prose text-sm font-bold text-brand-900 mt-6 mb-2">Frame types: pros and cons</p>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm mb-6">
+            <table className="w-full min-w-[720px] text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Frame</th>
+                  <th className="px-4 py-3 text-left">Picks</th>
+                  <th className="px-4 py-3 text-left">Pros</th>
+                  <th className="px-4 py-3 text-left">Cons</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['Hub shelter', 'Clam Quick-Set Escape, Gazelle G6', 'One connected frame, no loose poles; up in 1 to 2 minutes; the only frames here that take clip-on wind panels', 'Several times the price; heavy (Clam lists the Escape at 37 lb, packed 75 in long); pivoting joints are the first thing to bend in high wind'],
+                  ['Pop-up', 'EAST OAK 10x10', 'About a minute, one person; just as fast to take down', 'Heavy for its footprint; many pivoting joints'],
+                  ['Instant (pre-attached poles)', 'Coleman 11x11, Back Home 12x10, Skylodge 15x13', '3 to 5 minutes; no separate pole bag; nearly pop-up speed with better wind behaviour', 'No wind-panel option; the Skylodge wants two people to square up'],
+                  ['Pole-style', 'CAMPROS 12x10', 'Most mesh per dollar; steel frame flexes less in wind', '10 to 15 minutes, better with two people; loose poles to lose on every trip'],
+                ].map(([frame, picks, pros, cons]) => (
+                  <tr key={frame} className="border-b border-navy-50 last:border-0 align-top">
+                    <td className="px-4 py-3 font-bold text-brand-800">{frame}</td>
+                    <td className="px-4 py-3 text-gray-700">{picks}</td>
+                    <td className="px-4 py-3 text-gray-700">{pros}</td>
+                    <td className="px-4 py-3 text-gray-700">{cons}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
 
           <h2>Wind &amp; Weather: Will a Screen House Survive a Canadian Summer?</h2>
           <p>Southern Ontario summers deliver two specific threats to screen tents: fast-building thunderstorm gust fronts (June through August) and long UV exposure that embrittles polyester and mesh. A few rules from years of watching these things live and die in GTA backyards and cottage country:</p>
@@ -387,11 +566,14 @@ export default function BestScreenTentCanadaPage() {
             <li><strong>Shade extends lifespan.</strong> A screen house under partial tree cover keeps its fabric years longer than one in full sun — just clear the deadfall above it first.</li>
             <li><strong>Winter storage is non-negotiable.</strong> Dry it fully before packing to prevent mildew, and store it indoors. Frames left out under snow load rarely see a second June.</li>
           </ul>
+          <p>Use every anchor the tent ships with. Clam, for example, packs the Escape with 7 stakes and 5 tie-down ropes, plus I-bolts for external tie-down straps and corner grommets for staking inside. Even so, Clam describes the Escape&rsquo;s protection as &ldquo;light rain and light wind,&rdquo; so take the shelter down before a storm whatever it is anchored with.</p>
 
           <h2>Screen Tents in Black-Fly Season — The Cottage Country Play</h2>
           <p>From roughly Mother&rsquo;s Day to Canada Day, black flies rule Muskoka, Haliburton, the Kawarthas, and everywhere north. Unlike mosquitoes, black flies are daytime biters, they swarm faces and hairlines, and repellents work noticeably worse on them. This is where a screen tent stops being a nice-to-have and becomes the difference between eating lunch on the deck and eating it in the car.</p>
-          <p>Standard mosquito mesh stops black flies completely — they&rsquo;re larger than the mesh openings. A screen house over the dock table or deck dining area gives you a guaranteed bite-free zone during the exact weeks when nothing else reliably works outdoors. If you&rsquo;re planning a cottage purchase around it, check our guide to <Link href="/blog/black-flies-ontario-when-they-come-out">when black flies come out in Ontario</Link> for the regional timing map.</p>
-          <p>The one biter that walks through the same mesh unchallenged is the no-see-um. Biting midges are slim enough to pass straight through standard insect screening, which is why people who set a screen house up beside a marsh or a northern lake sometimes still wake up with clustered welts at the ankles and hairline from something they never saw — if that is what happened to you, our guide to <Link href="/blog/no-see-um-bites">no-see-um bites</Link> covers how to recognise them and the finer &ldquo;no-see-um mesh&rdquo; spec (roughly 20x20 threads per inch) you need instead. A fan running under the shelter helps too, because midges are weak fliers.</p>
+          <Photo id="black-fly" alt="A male black fly, genus Simulium" caption="A male black fly (genus Simulium). Only the females bite." />
+          <p>Standard mosquito mesh does not reliably stop them: as the mesh table above shows, black flies are 1&ndash;5 mm long and can get through most window screens, and Penn State Extension says netting on tents is useful if the mesh is small enough to keep them out. A screen house with fine, no-see-um-grade mesh over the dock table or deck dining area gives you somewhere to sit out the exact weeks when nothing else reliably works outdoors. If you&rsquo;re planning a cottage purchase around it, check our guide to <Link href="/blog/black-flies-ontario-when-they-come-out">when black flies come out in Ontario</Link> for the regional timing map.</p>
+          <Photo id="biting-midge-culicoides" alt="A biting midge, or no-see-um, genus Culicoides, under a microscope" caption="A biting midge, or no-see-um (genus Culicoides), under a microscope. Adults are usually 1 to 2 mm long." />
+          <p>The other biter that walks through standard mesh unchallenged is the no-see-um. Biting midges are slim enough to pass straight through standard insect screening, which is why people who set a screen house up beside a marsh or a northern lake sometimes still wake up with clustered welts at the ankles and hairline from something they never saw — if that is what happened to you, our guide to <Link href="/blog/no-see-um-bites">no-see-um bites</Link> covers how to recognise them and the finer &ldquo;no-see-um mesh&rdquo; spec (roughly 20x20 threads per inch) you need instead. A fan running under the shelter helps too, because midges are weak fliers.</p>
 
           <h2>Where to Buy a Screen House in Canada</h2>
           <p>Screen houses are aggressively seasonal in Canadian retail. Canadian Tire and Walmart Canada stock entry and mid-range models from roughly May through July, with selection thinning fast by August. Costco Canada rotates larger-format screen houses through warehouses and costco.ca in late spring — good value when the timing works, gone when it doesn&rsquo;t. Cabela&rsquo;s, Bass Pro Shops, and SAIL carry camping-oriented screen shelters more consistently for the cottage crowd.</p>

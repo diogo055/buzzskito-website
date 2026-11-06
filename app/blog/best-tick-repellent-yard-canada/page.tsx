@@ -14,7 +14,7 @@ import { shareImage } from '@/lib/photos'
 
 const SLUG = 'best-tick-repellent-yard-canada'
 const DATE = '2026-04-26'
-const UPDATED = '2026-10-28'
+const UPDATED = '2026-11-06'
 const TITLE = 'Best Tick Repellent for Yards — Canada 2026'
 // BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): every Amazon button on this page bought a product it says has no Canadian registration (Wondercide, Cedarcide, permethrin granules, Insect Shield clothing), and no registered product it names has a link, so the sticky bar, top box, the 2 buttons under the quick answer and the 4-card picks row are gone; "the Wondercide pick below" in the hero now reads "Wondercide".
 
@@ -41,7 +41,7 @@ const FAQS = [
   },
   {
     question: 'What\'s the cheapest way to get rid of ticks in my yard?',
-    answer: 'In order of cost-effectiveness: (1) FREE — habitat modification (mow short, remove leaf litter, create 3-ft mulch barrier between lawn and woods). (2) $15–$30 — cedar mulch in seating areas. (3) $50/year — a DIY tick spray with a Canadian PCP number, such as a permethrin yard spray. (4) $597 a season, or $497 when added to a mosquito plan — BuzzSkito professional 5-spray season program. For yards in active Lyme risk areas, it is the option that treats the edge habitat most thoroughly.',
+    answer: 'In order of cost-effectiveness: (1) FREE — habitat modification (mow short, remove leaf litter, create 3-ft mulch barrier between lawn and woods). (2) $15–$30 — bagged wood chips or mulch for that border and under play sets, as the Public Health Agency of Canada suggests (any wood chips will do: no cedar product is registered in Canada as a tick repellent). (3) $50/year — a DIY tick spray with a Canadian PCP number, such as a permethrin yard spray. (4) $597 a season, or $497 when added to a mosquito plan — BuzzSkito professional 5-spray season program. For yards in active Lyme risk areas, it is the option that treats the edge habitat most thoroughly.',
   },
   {
     question: 'Are tick yard sprays safe for kids and pets?',
@@ -63,12 +63,29 @@ const FAQS = [
     question: 'Is there a tick spray for yards in Canada?',
     answer: 'Yes. Health Canada’s registry (October 2026) lists home-use yard products with ticks on the label, including Doktor Doom Tick Killer Plus+ For Yards and Buildings (PCP 34405), a permethrin spray for outdoor activity areas and ornamentals, and Safer’s Trounce Hose-End Lawn & Turf Insecticide (PCP 28680), pyrethrins with insecticidal soap for lawns and turf, plus a garlic-juice repellent, Mosquito Barrier (PCP 32049). Spray the shaded edge where the lawn meets woods or tall grass, follow the label on timing and re-entry, and check your province’s rules.',
   },
+  {
+    question: 'Is there a pet-safe tick spray for yards in Canada?',
+    answer: 'Go by the label’s precautions rather than a “pet safe” claim. The registered yard sprays say not to let people or pets onto treated areas until the spray has dried (Doktor Doom Tick Killer Plus+, PCP 34405; Safer’s Trounce, PCP 28680), and the Thermacell Tick Control Tubes label (PCP 33858) says to place the tubes where children and pets cannot reach them. The registered garlic repellent, Mosquito Barrier (PCP 32049), repels rather than kills; a garlic-juice product gave 37–59% control of nymphs in a Connecticut field trial. For the pet itself, ask your veterinarian about a tick preventive.',
+  },
+  {
+    question: 'Do I need to spray my whole yard for ticks?',
+    answer: 'Usually not. The Connecticut Agricultural Experiment Station’s tick handbook found 82% of the ticks in a lawn within 3 yards of its edge, and the Doktor Doom Tick Killer Plus+ label (PCP 34405) directs you to treat a band of vegetation and leaf litter 1.8 to 3 metres (6 to 10 feet) wide next to the areas you use, not the open lawn. Safer’s Trounce (PCP 28680) is the registered product for lawns and turf, sprayed where ticks first appear. The CDC adds that spraying can reduce ticks in the treated areas but should not be relied on to reduce your risk of infection.',
+  },
+  {
+    question: 'Do tick tubes work, and are they registered in Canada?',
+    answer: 'Two are registered for home use: Thermacell Tick Control Tubes (PCP 33858) and Zecken Rollen Tick Tubes (PCP 33780), both cotton treated with 7.4% permethrin. Mice carry the cotton into their nests, and the young ticks feeding on them die. The label says to place the tubes no more than 10 metres apart where mice live, not on mowed lawns, at least twice a year (spring and summer), and warns that a drop in yard ticks may not show until the year after you start. They work alongside edge treatment and habitat work, not instead of it.',
+  },
+  {
+    question: 'Does cedar mulch keep ticks out of the yard?',
+    answer: 'We found no published study showing cedar mulch repelling ticks in a yard, and no cedar product is registered in Canada as a tick repellent. What has support is the dry strip itself: the Public Health Agency of Canada recommends a wood chip, mulch or gravel border at least 1 metre wide between the lawn and shrubs, stone walls or woods, and notes that ticks cannot survive for long in dry, sunny areas. Any wood chips will do, and Connecticut’s tick handbook adds that results vary widely from yard to yard.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   // TITLE NOTE (Oct 28, 2026): was 'Best Tick Repellent for Yards — Canada 2026'; top queries (Jul 28-Oct 25): are granule insecticides actually more effective than sprays for outdoor tick control? 47 (pos 8.3), cedarcide granules canada 42 (7.9, 2 clicks), cedarcide canada where to buy 5 (1 click), is there a tick spray for yards 5 (1 click). 'tick control for yards' stays with /blog/best-tick-control-yard-treatment.
-  title: 'Yard Tick Repellent Canada: Cedarcide & Sprays',
-  description: 'Yard tick repellent in Canada: Cedarcide granules and cedar sprays are not registered here. The registered sprays, granules vs spray, and the habitat fixes.',
+  // TITLE NOTE (Nov 6, 2026): was 'Yard Tick Repellent Canada: Cedarcide & Sprays' (46), description 'Yard tick repellent in Canada: Cedarcide granules and cedar sprays are not registered here. The registered sprays, granules vs spray, and the habitat fixes.' Search Console May-Nov 2026: cedarcide canada 1,262 impressions (pos 7.1), cedar granules canada 372 (8.8), tick spray for yard canada 208 (11.3), tick spray for yard 90 (12.0), tick spray for yard safe for pets canada 53 (8.2). The yard search leads; Cedarcide stays as a question, not a pick (no cedar product is registered in Canada). "best tick repellent" (400, 10.6) is people intent, left to the coming /blog/best-tick-repellent.
+  title: 'Yard Tick Spray Canada: Is Cedarcide Registered?',
+  description: 'Tick spray for yards in Canada: Cedarcide and cedar granules are not registered. The sprays and tick tubes that are (PCP numbers), pet rules, habitat fixes.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -106,7 +123,7 @@ export default function BestTickRepellentYardPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best tick repellent for Ontario yards is a professional barrier spray &mdash; it places a residual acaricide, applied according to label directions, directly on the leaf litter and lawn edges where ticks actually live, and is re-applied through the season as the residual wears off. The best DIY runner-up is a cedar-oil spray like Wondercide, layered over free habitat fixes.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best tick repellent for Ontario yards is a professional barrier spray &mdash; it places a residual acaricide, applied according to label directions, directly on the leaf litter and lawn edges where ticks actually live, and is re-applied through the season as the residual wears off. The best do-it-yourself option is a yard product registered in Canada with ticks on its label, such as Doktor Doom Tick Killer Plus+ (PCP 34405) for the leaf-litter band at the yard&rsquo;s edge or Safer&rsquo;s Trounce (PCP 28680) for lawns, layered over free habitat fixes; cedar-oil sprays such as Wondercide are not registered here.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Professional barrier spray holds a longer residual on the treated edges than consumer tick sprays, which are typically labelled for re-application after days &mdash; that is the real gap.</li>
               <li>Professional treatment kills adult ticks, nymphs, and larvae on contact, not just adults.</li>
@@ -114,6 +131,7 @@ export default function BestTickRepellentYardPage() {
               <li>Cedar-oil sprays like Wondercide have no Canadian registration; in lab tests cedarwood oil repels tick nymphs, but the effect fades within hours.</li>
               <li>Pyrethrin-and-soap sprays have little residual activity and may need at least two applications (Connecticut Agricultural Experiment Station).</li>
               <li>A short lawn plus a 3-foot mulch barrier at property edges are free habitat fixes that reduce tick pressure.</li>
+              <li>Home-use yard products with ticks on the label (Health Canada&rsquo;s registry, checked November 6, 2026): Doktor Doom Tick Killer Plus+ (PCP 34405) and Tick Killer + II (PCP 34673), Safer&rsquo;s Trounce (PCP 28680), the Mosquito Barrier garlic repellent (PCP 32049) and Thermacell Tick Control Tubes (PCP 33858).</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
@@ -140,6 +158,17 @@ export default function BestTickRepellentYardPage() {
             caption={<>Sources: Health Canada&rsquo;s pesticide product registry (export with registrations to October 1, 2026); Cedarcide&rsquo;s <a href="https://cedarcide.com/products/cedar-granules" target="_blank" rel="noopener noreferrer" className="underline">cedar granules</a> and <a href="https://cedarcide.com/pages/shipping-policy" target="_blank" rel="noopener noreferrer" className="underline">shipping policy</a> pages; the EPA&rsquo;s <a href="https://www.epa.gov/minimum-risk-pesticides" target="_blank" rel="noopener noreferrer" className="underline">minimum risk pesticides</a> page; Health Canada, <a href="https://www.canada.ca/en/health-canada/services/publications/product-safety/importing-pesticides-personal-use.html" target="_blank" rel="noopener noreferrer" className="underline">importing pesticides for personal use</a>; Connecticut Agricultural Experiment Station, <a href="https://portal.ct.gov/-/media/caes/documents/publications/bulletins/b1010pdf" target="_blank" rel="noopener noreferrer" className="underline">Tick Management Handbook</a> (2007); Public Health Agency of Canada, <a href="https://www.canada.ca/en/public-health/services/publications/diseases-conditions/permethrin-treated-clothing.html" target="_blank" rel="noopener noreferrer" className="underline">permethrin-treated clothing</a>; Ontario&rsquo;s <a href="https://www.ontario.ca/page/guide-pesticide-classes" target="_blank" rel="noopener noreferrer" className="underline">guide to pesticide classes</a>; CDC, <a href="https://www.cdc.gov/ticks/prevention/index.html" target="_blank" rel="noopener noreferrer" className="underline">preventing tick bites</a>. Read October 28, 2026.</>}
           />
 
+          <h2 id="registered-yard-tick-sprays">Tick Sprays for Yards Registered in Canada: What Each Label Says</h2>
+          <p>These are the home-use (domestic-class) yard products registered for ticks that you are most likely to find, with what each approved label says. We looked each one up by registration number in Health Canada&rsquo;s <a href="https://pest-control.canada.ca/pesticide-registry/en/index.html" target="_blank" rel="noopener noreferrer" className="underline">Pesticide Product Information Database</a> on November 6, 2026; the label on the container you buy is the one that governs.</p>
+          <ol>
+            <li><strong>Doktor Doom Tick Killer Plus+ For Yards and Buildings (PCP 34405), and Tick Killer + II (PCP 34673).</strong> Ready-to-use 0.25% permethrin. For ticks outdoors, the 34405 label says to treat a band of vegetation and leaf litter 1.8 to 3 metres (6 to 10 feet) wide next to the areas you use, especially where vegetation is dense, and not on plants grown for food. Keep people and pets off until the spray has dried, and do not spray while bees are visiting: the label lists it as toxic to bees.</li>
+            <li><strong>Safer&rsquo;s Trounce Hose-End Lawn &amp; Turf Insecticide (PCP 28680).</strong> Pyrethrins (0.2%) with insecticidal soap (potassium salts of fatty acids, 20%) on a hose-end sprayer, for lawns and turf. The label says to spray ticks to wet when they first appear and to repeat only after 10 days if the problem persists. Connecticut&rsquo;s tick handbook notes that pyrethrin-and-soap products have little residual activity, so plan on more than one application.</li>
+            <li><strong>Mosquito Barrier Hose End Sprayer (PCP 32049).</strong> A 99.3% garlic-juice repellent for yards, grassy areas, plants and the space under decks and porches. It repels rather than kills: the label says to re-apply after heavy rain or if ticks keep turning up, and to start spraying for tick nymphs in late spring or early summer. In a Connecticut field trial a garlic-juice product controlled 37&ndash;59% of nymphs over 6 to 18 days.</li>
+            <li><strong>Thermacell Tick Control Tubes (PCP 33858).</strong> Tubes of cotton treated with 7.4% permethrin that mice carry into their nests, killing the young ticks that feed on them. The label says to place them no more than 10 metres apart where mice live (not on mowed lawns), at least twice a year, and warns that the drop in yard ticks may not show until the following year. More in our guide to <Link href="/blog/tick-tubes-canada">tick tubes in Canada</Link>.</li>
+          </ol>
+          <p>Other home-use products with ticks and an outdoor site on the label include Pramex Insect Killer R4 (PCP 26289), the Mosquito Barrier concentrate (PCP 31022) and Zecken Rollen Tick Tubes (PCP 33780). What the registry does not list matters as much: no registered product named Cedarcide, Wondercide, TropiClean, Vet&rsquo;s Best, EcoSmart or Essentria, no cedar-oil pesticide of any kind, and no home-use granular product with ticks on its label. One widely read US round-up of the best tick sprays for yards, updated in April 2026, picks four of those brands (TropiClean, Cedarcide, Vet&rsquo;s Best and Wondercide), which is why American lists do not carry over to a Canadian yard; for Wondercide specifically, see our <Link href="/blog/wondercide-canada-review">Wondercide Canada review</Link>. Provinces add their own rules: Ontario lets homeowners use pesticides to protect health or safety from pests such as ticks that bite pets, and other provinces differ.</p>
+          <Photo id="american-dog-tick-in-hand-yard-work" alt="American dog tick on the palm of a person's hand" caption="An American dog tick, Dermacentor variabilis, on a person’s palm, found after yard work (U.S. Fish and Wildlife Service photo by Tina Shaw)." />
+
           <h2>Which Yard Tick Option for Your Situation</h2>
           <ul>
             <li><strong>You came looking for Cedarcide granules:</strong> they are cedar chips sold to repel, with no Canadian registration; the registered choices are in the table above.</li>
@@ -160,7 +189,9 @@ export default function BestTickRepellentYardPage() {
           <h3>🟡 Tier 2: Effective DIY options</h3>
           <ul>
             <li><strong>Permethrin-based yard sprays</strong> — registered for home use in Canada, for example Doktor Doom Tick Killer Plus+ For Yards and Buildings (PCP 34405). No permethrin granules, and no home-use granular tick product, are registered here. Requires proper coverage of the edge zones.</li>
-            <li><strong>Cedar oil sprays</strong> (Wondercide, Cedarcide) — repellency in lab tests that fades within hours, no published yard field trial found, and no Canadian registration. Cedarcide&rsquo;s own directions: twice, two weeks apart, then monthly.</li>
+            <li><strong>Cedar oil sprays</strong> (Wondercide, Cedarcide) — <strong>not a Canadian option</strong>: no cedar-oil pesticide is registered here (Health Canada&rsquo;s registry, checked November 6, 2026). Their repellency in lab tests fades within hours, no published yard field trial was found, and Cedarcide&rsquo;s own directions are twice, two weeks apart, then monthly.</li>
+            <li><strong>Pyrethrin-and-soap lawn spray</strong> — Safer&rsquo;s Trounce Hose-End Lawn &amp; Turf Insecticide (PCP 28680) is registered for ticks on lawns and turf; spray ticks when they first appear and repeat only after 10 days if needed, per the label. Little residual activity, so it suits a known problem patch more than season-long control.</li>
+            <li><strong>Permethrin tick tubes</strong> — Thermacell Tick Control Tubes (PCP 33858) treat the mice that carry young ticks rather than the lawn; at least twice a year, tubes no more than 10 metres apart, per the label.</li>
           </ul>
 
           <h3>🟠 Tier 3: Habitat modification (FREE and important)</h3>
@@ -200,8 +231,11 @@ export default function BestTickRepellentYardPage() {
             <li><strong>Trim shrubs</strong> 12 inches off the ground around outdoor seating.</li>
             <li><strong>Stack firewood off the ground and away from the house.</strong> Mice live in woodpiles. Ticks ride on mice.</li>
             <li><strong>Discourage deer.</strong> Deer fences, deer-resistant landscaping, no deer corn.</li>
+            <li><strong>Let the sun in.</strong> Prune shrubs and trees so sunlight reaches the ground, and put patios, decks and play sets in sunny spots away from the yard&rsquo;s edges, with play sets on wood chips or mulch (Public Health Agency of Canada). Ontario&rsquo;s tick page gives the reason: ticks avoid hot, dry locations.</li>
+            <li><strong>Seal stone walls and clear out trash.</strong> The Public Health Agency of Canada advises sealing stone walls and other openings so deer, mice and other rodents do not bring ticks in, and the CDC adds removing old furniture, mattresses or trash where ticks can hide. A 2019 study of 143 yards in a high-Lyme county of New York found more young ticks in yards with trash or stone walls, and fewer ticks per mouse where more than three-quarters of the yard was fenced (Fischhoff and colleagues, <em>Journal of Medical Entomology</em>).</li>
           </ol>
           <p>Habitat modification works by removing the conditions ticks need rather than by killing them: ticks dry out in short, sun-exposed turf, they overwinter in the leaf litter you rake away, and a dry wood-chip strip cuts how many of them reach the lawn. It costs nothing and uses no pesticide. Its limit is that it only reshapes your own property — ticks keep arriving on deer, mice, and birds regardless.</p>
+          <p>For a fuller yard plan, see our guide on how to <Link href="/blog/how-to-keep-ticks-out-of-yard-ontario">keep ticks out of your yard in Ontario</Link>.</p>
           <Photo id="white-footed-mouse-leaf-litter" alt="White-footed mouse with large dark eyes sitting among dry fallen leaves" caption="A white-footed mouse, Peromyscus leucopus, in leaf litter (Nineveh, Indiana). Leaf litter at the lawn edge is where ticks shelter, and mice are one of the animals that keep carrying them in." />
 
           <p>Mowing height and shrub trimming both work for the same physical reason: a tick cannot fly or jump, so it can only wait wherever it managed to climb, and that is usually no more than 30&ndash;50 cm off the ground. <Link href="/blog/do-ticks-fly-or-jump" className="text-brand-700 underline">Do ticks fly or jump? How high they actually climb</Link> sets out the heights involved.</p>
@@ -236,6 +270,8 @@ export default function BestTickRepellentYardPage() {
             <li><Link href="/blog/best-tick-control-yard-treatment">Best Tick Control Yard Treatment</Link></li>
             <li><Link href="/blog/tick-tubes-canada">Tick Tubes in Canada — Do They Actually Work?</Link></li>
             <li><Link href="/blog/lyme-disease-risk-areas-ontario-2026">Ontario Lyme Risk Areas 2026</Link></li>
+            <li><Link href="/blog/tick-repellent-for-dogs-ontario">Tick Repellent for Dogs — What Actually Works</Link></li>
+            <li><Link href="/blog/permethrin-canada-yard-clothing-spray">Permethrin in Canada — Where to Buy and Is It Legal?</Link></li>
             <li><Link href="/tick-control">BuzzSkito Tick Control Service</Link></li>
           </ul>
         <h2>Frequently Asked Questions</h2>

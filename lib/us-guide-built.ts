@@ -225,7 +225,7 @@ export const US_GUIDE_PLANNED = new Set<string>([
   "/blog/permethrin-for-clothing",
   "/blog/tick-season",
   "/learn/tick-borne-diseases",
-  "/learn/types-of-mosquitoes",
+  "/blog/types-of-mosquitoes",
   "/blog/what-percentage-of-ticks-carry-lyme-disease",
   "/blog/asian-tiger-mosquito",
   "/blog/tick-bite-what-to-do",
@@ -465,6 +465,7 @@ export const US_GUIDE_PLANNED = new Set<string>([
   "/blog/christmas-tree-bugs",
   "/blog/best-bed-bug-interceptors",
   "/blog/best-wasp-spray",
+  "/blog/what-do-mosquito-bites-look-like",
   "/pest-product-guides/ant-control",
   "/pest-product-guides/cockroach-control",
 ])

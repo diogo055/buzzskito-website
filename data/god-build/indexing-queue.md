@@ -28,7 +28,22 @@ Rebuilt Nov 3, 2026 (evening) from a URL Inspection API check of all 738 sitemap
 
 **The quota is a rolling 24 hours, not a calendar day** (measured Nov 5, 2026): the 9 requests made at 9:28 pm Toronto on Nov 4 left room for only one more at 9:40 am on Nov 5, then "Quota exceeded". So request at about the same time each day; the next window after a late-evening batch opens about 24 hours later. Second reading, 9:31-9:47 pm Toronto on Nov 5: 11 requests went through and the 12th got "Quota exceeded" (12 in 24 hours with the 9:40 am one), so plan on 10-12.
 
-**Next run: from about 9:50 pm Toronto on Nov 6**, when the Nov 5 evening batch has aged out: by hand if we are working then, otherwise the 9:10 am run on Nov 7. The 9:10 am run on Nov 6 will most likely get "Quota exceeded" at its first request (12 requests are still inside the 24 hours); that is expected, so it stops there. Order: first anything released on Nov 6-7, then the two merge survivors still open below (Mosquito Bits vs Dunks, Cimexa), then the upgraded pages (`/blog/mice-traps` and the others under Nov 5, the two Canadian mouse pages under Nov 4), then lines 12-18.
+**Next run: from about 9:50 pm Toronto on Nov 6**, when the Nov 5 evening batch has aged out: by hand if we are working then, otherwise the 9:10 am run on Nov 7. The 9:10 am run on Nov 6 will most likely get "Quota exceeded" at its first request (12 requests are still inside the 24 hours); that is expected, so it stops there. Order: first anything released on Nov 6-7, then the two merge survivors still open below (Mosquito Bits vs Dunks, Cimexa), then the upgraded pages (`/blog/mice-traps` and the others under Nov 5, the two Canadian mouse pages under Nov 4), then the Nov 6 mosquito and tick upgrades just below, then lines 12-18.
+
+Upgraded Nov 6, 2026 (owner: "fix the entire mosquito section"; new sections, tables, FAQs, photos, sourced corrections), all `recrawl`. Off-season pages, so after the winter pages above:
+
+- https://buzzskito.ca/blog/mosquito-larvae-identification (`recrawl`; "mosquito larvae" 30,700 summer impressions at 9.7)
+- https://buzzskito.ca/blog/laser-mosquito-killer-photon-matrix-review (`recrawl`; #1 mosquito Amazon earner)
+- https://buzzskito.ca/blog/tick-head-stuck-in-skin (`recrawl`; new title, position 18-29 before)
+- https://buzzskito.ca/blog/deer-tick-vs-dog-tick-canada (`recrawl`)
+- https://buzzskito.ca/blog/best-mosquito-repellent-device-canada (`recrawl`)
+- https://buzzskito.ca/blog/dynatrap-canada-review (`recrawl`)
+- https://buzzskito.ca/blog/bug-zappers-canada-do-they-work (`recrawl`)
+- https://buzzskito.ca/blog/best-screen-tent-canada (`recrawl`)
+- https://buzzskito.ca/blog/tick-removal-tool-guide (`recrawl`)
+- https://buzzskito.ca/blog/mosquito-repellent-guide-ontario-2026 (`recrawl`)
+- https://buzzskito.ca/blog/natural-mosquito-repellent-ontario (`recrawl`)
+- https://buzzskito.ca/blog/best-tick-repellent-yard-canada (`recrawl`; new title, buttons for unregistered products gone since Nov 5)
 
 Released Nov 6, 2026 (just after 7 pm Toronto on Nov 5), plus the homepage's new title. All requested at 9:31-9:47 pm Toronto on Nov 5; the five new pages were "unknown to Google" before the request:
 

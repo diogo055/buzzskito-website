@@ -2,7 +2,7 @@
  "id": "no-see-ums",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "5db149ee8df3b59ce9ab372343d8df37cd422206b72682df5fc52459afecfaa9",
+ "sha": "cb9e8ae3804f4e602c63bb1e92919f2420da6f5fccb2aa4e2606d0482c16fe3b",
  "claimsChecked": 303,
  "claimsCorrected": 8,
  "claimsRemovedOrSoftened": 9,
@@ -17,6 +17,11 @@
    "on": "2026-10-29",
    "note": "Oct 29: one link added to /blog/no-see-um-bites in 'Are no-see-ums harmful?' (navigation only; no claims changed)",
    "previousSha": "4a4ff8f5c25d4efa83128e28cbd84816899e24768d780a129f658fd2ee1fde0a"
+  },
+  {
+   "on": "2026-11-06",
+   "note": "Nov 6, 2026: look-alike card link moved from /learn/types-of-mosquitoes to /blog/types-of-mosquitoes (types-of-mosquitoes is now a regular article, not a hub); no claim changed.",
+   "previousSha": "5db149ee8df3b59ce9ab372343d8df37cd422206b72682df5fc52459afecfaa9"
   }
  ]
 }

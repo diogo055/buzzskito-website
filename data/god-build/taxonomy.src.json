@@ -2794,13 +2794,13 @@
   },
   {
    "slug": "types-of-mosquitoes",
-   "path": "/learn/types-of-mosquitoes",
-   "section": "learn",
-   "role": "hub",
+   "path": "/blog/types-of-mosquitoes",
+   "section": "blog",
+   "role": "page",
    "cluster": "mosquitoes",
    "guideCluster": "mosquitoes",
    "family": "mosquito-species",
-   "pageType": "hub",
+   "pageType": "entity-id",
    "audience": "na",
    "title": "Types of Mosquitoes: The Species That Bite in North America, With Photos",
    "metaTitle": "Types of Mosquitoes in North America",
@@ -2915,7 +2915,7 @@
    "minWords": 1600,
    "photos": "in-hand",
    "dataAssets": "Aedes aegypti and albopictus county records (raw CSVs)",
-   "notes": null,
+   "notes": "Nov 6, 2026 (owner: \"fix the entire mosquito section\"): now a regular article at /blog/types-of-mosquitoes (ads on), not a hub; its species and disease pages are held to 2027-04-05.",
    "wave": 1,
    "suggestedWeek": "2026-12-07",
    "releaseOrder": 19,
@@ -3150,12 +3150,10 @@
    "priority": 2,
    "gate": null,
    "parent": {
-    "href": "/learn/types-of-mosquitoes",
-    "name": "Types of Mosquitoes"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
-   "mustLink": [
-    "/learn/types-of-mosquitoes"
-   ],
+   "mustLink": [],
    "scope": "Aedes albopictus: the white stripe, daytime and ankle biting, container breeding, the US county range and its northern edge (including southern Ontario detections), diseases it can spread, and container control.",
    "flags": [
     "health",
@@ -3164,7 +3162,7 @@
    "minWords": 1400,
    "photos": "in-hand",
    "dataAssets": "aedes-albopictus-by-county.csv",
-   "notes": null,
+   "notes": "Nov 6, 2026 (owner: \"fix the entire mosquito section\"): parent is /learn (types-of-mosquitoes is no longer a hub).",
    "wave": 1,
    "suggestedWeek": "2026-12-07",
    "releaseOrder": 21,
@@ -34363,6 +34361,76 @@
    "wave": "nov-6",
    "suggestedWeek": "2026-11-02",
    "releaseOrder": 289,
+   "evidenceScore": null
+  },
+  {
+   "slug": "what-do-mosquito-bites-look-like",
+   "path": "/blog/what-do-mosquito-bites-look-like",
+   "section": "blog",
+   "role": "page",
+   "cluster": "mosquitoes",
+   "guideCluster": "mosquitoes",
+   "family": "bites-stings",
+   "pageType": "bite-sting",
+   "audience": "na",
+   "title": "What Do Mosquito Bites Look Like? Photos by Stage, Body Part and Skin Tone",
+   "metaTitle": "What Do Mosquito Bites Look Like? (Photos)",
+   "keyword": "what do mosquito bites look like",
+   "alsoTargets": [
+    "what does a mosquito bite look like",
+    "mosquito bite pictures",
+    "mosquito bites",
+    "mosquito bite on face",
+    "mosquito bites on babies",
+    "mosquito bites on toddler",
+    "mosquito bite blister",
+    "does a mosquito bite have a dot in the middle",
+    "mosquito bite vs hives"
+   ],
+   "demand": {
+    "summary": "Google Trends (US, 5 years): \"mosquito bites\" is the #1 related search to \"mosquito\". Search Console May-Nov 2026: \"what does a mosquito bite look like\" 26 impressions at 15.2 on a page that does not target it; bite pages are our best page type (median 39 visits a month, Nov 5)."
+   },
+   "collisions": [
+    {
+     "path": "/blog/why-do-mosquito-bites-itch",
+     "overlap": "how long bites last and itch",
+     "resolution": "it keeps the timeline searches; this page owns how a bite looks; link both ways"
+    },
+    {
+     "path": "/blog/when-to-worry-about-a-mosquito-bite",
+     "overlap": "red flags",
+     "resolution": "it keeps the warning signs; link from the reactions section"
+    },
+    {
+     "path": "/blog/skeeter-syndrome",
+     "overlap": "large swollen reactions",
+     "resolution": "skeeter owns the allergy searches; this page shows them briefly and links"
+    },
+    {
+     "path": "/blog/bug-bites-on-babies (planned)",
+     "overlap": "\"mosquito bites on toddler/babies\"",
+     "resolution": "this page owns the mosquito-specific baby searches; the babies page keeps bites in general"
+    }
+   ],
+   "resolution": "new page",
+   "priority": 1,
+   "gate": null,
+   "parent": {
+    "href": "/learn/bug-bites",
+    "name": "Bug Bites"
+   },
+   "mustLink": [
+    "/learn/bug-bites"
+   ],
+   "scope": "Photo-led: how a bite looks by stage, body part, skin tone and age; blisters; what else it could be (short pointers to the comparison pages).",
+   "flags": [],
+   "minWords": 1800,
+   "photos": [],
+   "dataAssets": [],
+   "notes": "Nov 6, 2026 (owner: \"fix the entire mosquito section\"): mosquito & tick build, top 10.",
+   "wave": "mosquito-nov6",
+   "suggestedWeek": "2026-11-02",
+   "releaseOrder": 290,
    "evidenceScore": null
   }
  ],

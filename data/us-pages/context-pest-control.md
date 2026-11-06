@@ -239,7 +239,7 @@
 - `/blog/permethrin-for-clothing` — permethrin spray for clothes
 - `/blog/tick-season` — when is tick season
 - `/learn/tick-borne-diseases` — tick borne diseases
-- `/learn/types-of-mosquitoes` — types of mosquitoes
+- `/blog/types-of-mosquitoes` — types of mosquitoes
 - `/blog/what-percentage-of-ticks-carry-lyme-disease` — what percentage of ticks carry lyme disease
 - `/blog/asian-tiger-mosquito` — asian tiger mosquito
 - `/blog/tick-bite-what-to-do` — what to do after a tick bite
@@ -479,6 +479,7 @@
 - `/blog/christmas-tree-bugs` — christmas tree bugs
 - `/blog/best-bed-bug-interceptors` — bed bug interceptors
 - `/blog/best-wasp-spray` — wasp spray
+- `/blog/what-do-mosquito-bites-look-like` — what do mosquito bites look like
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 
