@@ -26,24 +26,26 @@ Never change any Search Console setting, and never remove or submit sitemaps.
 
 Rebuilt Nov 3, 2026 (evening) from a URL Inspection API check of all 738 sitemap URLs: 720 are on Google, these 18 are not (`research_notes/God plan 10k a day/index_status.md`). All 18 were fetched live the same evening: 200, `index, follow`, self-canonical. The 50 location pages that are noindex on purpose are out of the sitemap and not listed.
 
-**The quota is a rolling 24 hours, not a calendar day** (measured Nov 5, 2026): the 9 requests made at 9:28 pm Toronto on Nov 4 left room for only one more at 9:40 am on Nov 5, then "Quota exceeded". So request at about the same time each day; the next window after a late-evening batch opens about 24 hours later.
+**The quota is a rolling 24 hours, not a calendar day** (measured Nov 5, 2026): the 9 requests made at 9:28 pm Toronto on Nov 4 left room for only one more at 9:40 am on Nov 5, then "Quota exceeded". So request at about the same time each day; the next window after a late-evening batch opens about 24 hours later. Second reading, 9:31-9:55 pm Toronto on Nov 5: 11 requests went through and the 12th got "Quota exceeded" (12 in 24 hours with the 9:40 am one), so plan on 10-12.
 
-Released Nov 6, 2026 (just after 7 pm Toronto on Nov 5), plus the homepage's new title. Request these first, tonight at about 9:30 pm Toronto, then the Nov 5 second batch below as far as the quota goes (14 lines in all, so the merge survivors may wait a day):
+**Next run: about 9:30 pm Toronto on Nov 6.** First anything released on Nov 6-7, then the two merge survivors still open below (Mosquito Bits vs Dunks, Cimexa), then the upgraded pages (`/blog/mice-traps` and the others under Nov 5, the two Canadian mouse pages under Nov 4), then lines 12-18.
 
-- https://buzzskito.ca/ (homepage: new title "Mosquito & Tick Control | Greater Toronto Area | From $99" and H1)
-- https://buzzskito.ca/blog/little-black-ants (new; ant ID, "little black ants")
-- https://buzzskito.ca/blog/roach-droppings-vs-mouse-droppings (new; droppings comparison)
-- https://buzzskito.ca/blog/christmas-tree-bugs (new; seasonal, searched late November to December)
-- https://buzzskito.ca/blog/best-bed-bug-interceptors (new; US buying guide, amazon.com pick)
-- https://buzzskito.ca/blog/best-wasp-spray (new; US buying guide, amazon.com pick)
+Released Nov 6, 2026 (just after 7 pm Toronto on Nov 5), plus the homepage's new title. All requested at 9:31-9:55 pm Toronto on Nov 5; the five new pages were "unknown to Google" before the request:
 
-Nov 5, 2026, second batch. Request these first (the owner wants it done by hand in his Chrome, not by the scheduled task). Next window: after about 9:30 pm Toronto on Nov 5:
+- https://buzzskito.ca/ (homepage: new title "Mosquito & Tick Control | Greater Toronto Area | From $99" and H1); recrawl requested 2026-11-06
+- https://buzzskito.ca/blog/little-black-ants (new; ant ID, "little black ants"); requested 2026-11-06
+- https://buzzskito.ca/blog/roach-droppings-vs-mouse-droppings (new; droppings comparison); requested 2026-11-06
+- https://buzzskito.ca/blog/christmas-tree-bugs (new; seasonal, searched late November to December); requested 2026-11-06
+- https://buzzskito.ca/blog/best-bed-bug-interceptors (new; US buying guide, amazon.com pick); requested 2026-11-06
+- https://buzzskito.ca/blog/best-wasp-spray (new; US buying guide, amazon.com pick); requested 2026-11-06
+
+Nov 5, 2026, second batch (the owner wants it done by hand in his Chrome, not by the scheduled task):
 
 - https://buzzskito.ca/blog/best-mosquito-repellent (new; "mosquito repellent" US 100K-1M a month); requested 2026-11-05
 - https://buzzskito.ca/blog/best-ant-bait (new; "ant killer" / "ant bait" / "ant traps" US 10K-100K each); indexed (checked 2026-11-05)
-- https://buzzskito.ca/blog/best-bed-bug-mattress-cover (new; "bed bug mattress cover" US 10K-100K)
-- https://buzzskito.ca/blog/best-bug-zapper (new; "bug zapper" US 10K-100K)
-- Merge survivors, so Google sees the folded content and the 301s: https://buzzskito.ca/blog/best-large-capacity-dehumidifier-canada, https://buzzskito.ca/blog/bed-bug-spray-canada, https://buzzskito.ca/blog/best-cockroach-spray-canada, https://buzzskito.ca/blog/how-to-get-rid-of-ground-wasps-canada, https://buzzskito.ca/blog/mosquito-bits-canada-vs-dunks, https://buzzskito.ca/blog/cimexa-bed-bug-review-canada
+- https://buzzskito.ca/blog/best-bed-bug-mattress-cover (new; "bed bug mattress cover" US 10K-100K); indexed (checked 2026-11-06)
+- https://buzzskito.ca/blog/best-bug-zapper (new; "bug zapper" US 10K-100K); was "Discovered - currently not indexed"; requested 2026-11-06
+- Merge survivors, so Google sees the folded content and the 301s (all four checked were already on Google, so these are recrawl requests): https://buzzskito.ca/blog/best-large-capacity-dehumidifier-canada (requested 2026-11-06), https://buzzskito.ca/blog/bed-bug-spray-canada (requested 2026-11-06), https://buzzskito.ca/blog/best-cockroach-spray-canada (requested 2026-11-06), https://buzzskito.ca/blog/how-to-get-rid-of-ground-wasps-canada (requested 2026-11-06), https://buzzskito.ca/blog/mosquito-bits-canada-vs-dunks (on Google; "Quota exceeded" on Nov 5, request on Nov 6), https://buzzskito.ca/blog/cimexa-bed-bug-review-canada (not reached; request on Nov 6)
 
 Released Nov 5, 2026 (the first US buying guides, amazon.com picks). Request these and the six Nov 4 lines below on Nov 5 (12 in all, about one day's quota):
 
