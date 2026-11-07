@@ -148,7 +148,7 @@ export default function MosquitoControlNearWaterPage() {
           <li><Link href="/mosquito-control" className="text-brand-700 hover:underline">All GTA Mosquito Control Services</Link></li>
           <li><Link href="/service-areas" className="text-brand-700 hover:underline">BuzzSkito Service Areas</Link></li>
           <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>
-          <li><Link href="/blog/mosquito-control-vaughan-york-region" className="text-brand-700 hover:underline">Mosquito Control in Vaughan &amp; York Region</Link></li>
+          <li><Link href="/blog/mosquito-control-vaughan-york-region" className="text-brand-700 hover:underline">Mosquitoes in Vaughan &amp; York Region</Link></li>
           <li><Link href="/blog/mosquito-season-scarborough-east-toronto" className="text-brand-700 hover:underline">Mosquito Season in Scarborough &amp; East Toronto</Link></li>
           <li><Link href="/blog/when-to-schedule-first-mosquito-treatment-ontario" className="text-brand-700 hover:underline">When to Book Your First Treatment of the Season</Link></li>
         </ul>

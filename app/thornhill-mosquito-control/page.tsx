@@ -8,7 +8,8 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Thornhill Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
+  // TITLE NOTE (Nov 7, 2026, owner: "if you find that having 2026 on these titles is bad, then obviously strip it"): was 'Thornhill Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews'; dropped "2026" (stale from Jan 1); no city searches on record yet; default word order; fits 60 rendered; price stays in the description.
+  title: 'Mosquito Control Thornhill · 150+ 5-Star Reviews',
   description:
     "Thornhill specialist mosquito barrier spray. Ontario-licensed, from $99/treatment, no contracts, rain-back guarantee. Royal Orchard, Beverley Glen, German Mills, Thornhill Woods. Call (289) 216-5030.",
   canonical: '/thornhill-mosquito-control',

@@ -9,7 +9,8 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Burlington Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
+  // TITLE NOTE (Nov 7, 2026, owner: "if you find that having 2026 on these titles is bad, then obviously strip it"): was 'Burlington Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews'; dropped "2026" (stale from Jan 1); searchers type "mosquito control burlington" (52 vs 6); fits 60 rendered; price stays in the description.
+  title: 'Mosquito Control Burlington · 5-Star Rated',
   description:
     'Professional mosquito spray in Burlington from $99. Compare providers, pricing & neighbourhoods from Alton Village to Aldershot. Call (289) 216-5030.',
   canonical: '/burlington-mosquito-spray',
@@ -244,7 +245,7 @@ export default function BurlingtonMosquitoPage() {
             </table>
           </div>
           <p>Season plans are $549 (5 sprays), $994 (10 sprays) or $2,049 (20+ sprays). Prices are plus HST.</p>
-          <p>See our <Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">2026 pricing guide</Link> for a full Ontario breakdown. Call <a href={BUSINESS.phoneHref} className="text-brand-700 font-semibold hover:underline">{BUSINESS.phone}</a> for a free quote.</p>
+          <p>See our <Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">pricing guide</Link> for a full Ontario breakdown. Call <a href={BUSINESS.phoneHref} className="text-brand-700 font-semibold hover:underline">{BUSINESS.phone}</a> for a free quote.</p>
 
           <h2>What to Ask Any Mosquito Control Company in Burlington</h2>
           <p>Burlington homeowners have several professional options. Ask every company you call the same five questions and compare the answers side by side.</p>
@@ -353,7 +354,7 @@ export default function BurlingtonMosquitoPage() {
           <ul>
             <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>
             <li><Link href="/blog/mosquito-vs-diy-vs-professional-control" className="text-brand-700 hover:underline">DIY vs. Professional Mosquito Control: What Actually Works</Link></li>
-            <li><Link href="/blog/mosquito-tick-control-hamilton-burlington" className="text-brand-700 hover:underline">Hamilton &amp; Burlington Mosquito &amp; Tick Control Guide</Link></li>
+            <li><Link href="/blog/mosquito-tick-control-hamilton-burlington" className="text-brand-700 hover:underline">Mosquitoes &amp; Ticks in Hamilton and Burlington</Link></li>
             <li><Link href="/blog/hidden-mosquito-breeding-spots-backyard" className="text-brand-700 hover:underline">Hidden Mosquito Breeding Spots in Your GTA Backyard</Link></li>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>
           </ul>

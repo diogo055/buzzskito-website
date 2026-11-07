@@ -8,7 +8,8 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'North York Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
+  // TITLE NOTE (Nov 7, 2026, owner: "if you find that having 2026 on these titles is bad, then obviously strip it"): was 'North York Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews'; dropped "2026" (stale from Jan 1); no city searches on record yet; default word order; fits 60 rendered; price stays in the description.
+  title: 'Mosquito Control North York · 5-Star Rated',
   description:
     "North York mosquito barrier spray from $99, no contracts, rain-back guarantee. Compare providers, pricing and how to choose. Call (289) 216-5030.",
   canonical: '/north-york-mosquito-control',
@@ -185,7 +186,7 @@ export default function NorthYorkMosquitoPage() {
           <p>For a detailed comparison, see our <Link href="/mosquito-control-diy-vs-professional" className="text-brand-700 hover:underline">DIY vs Professional Mosquito Control</Link> guide.</p>
 
           <h2>What to Ask Any Mosquito Control Company in North York</h2>
-          <p>North York homeowners have several professional options. Ask each one the same five questions and compare the answers side by side. Here is how BuzzSkito answers them for the 2026 season.</p>
+          <p>North York homeowners have several professional options. Ask each one the same five questions and compare the answers side by side. Here is how BuzzSkito answers them.</p>
           <div className="not-prose overflow-x-auto my-6">
             <table className="w-full text-sm border-collapse">
               <thead>

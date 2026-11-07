@@ -43,6 +43,22 @@ Released Nov 6, 2026 (afternoon; mosquito & tick build, top 10), new pages, requ
 - https://buzzskito.ca/blog/best-mosquito-spray-for-yard (new; US buying guide, released the same evening after its fact-check)
 - https://buzzskito.ca/blog/mosquito-bits-vs-dunks (new; US edition, regional pair with /blog/mosquito-bits-canada-vs-dunks)
 
+Service pages changed Nov 7, 2026 (owner: "the goal is to appear number one for each one of these searches"; "make it right now so the pages aren't competing with each other"). All `recrawl`, all already on Google. They are off-season pages, so request them after the new pages above but before the Nov 6 upgrades below, within the week:
+
+- https://buzzskito.ca/hamilton-mosquito-control (`recrawl`; new section "Residential Mosquito Spray and Treatment in Hamilton", H1 "Hamilton Mosquito Control & Yard Spray", City of Hamilton West Nile facts with source)
+- https://buzzskito.ca/blog/tick-control-vaughan-king-city-woodbridge (`recrawl`; retitled "Ticks in Vaughan, Woodbridge & King City" so it stops competing with /vaughan-tick-spray; now links to the Vaughan, Woodbridge and King City tick pages)
+- https://buzzskito.ca/vaughan-tick-spray (`recrawl`; title "Tick Control Vaughan: Yard Tick Spray From $99", no 2026)
+- https://buzzskito.ca/oakville-mosquito-control (`recrawl`; its Nov 5 title was still not showing in Google on Nov 7)
+- https://buzzskito.ca/toronto-tick-spray (`recrawl`; "tick control toronto" is our weakest big city search, about 21st; Nov 5 title)
+- https://buzzskito.ca/burlington-mosquito-spray (`recrawl`; title "Mosquito Control Burlington · 5-Star Rated", no 2026)
+- https://buzzskito.ca/blog/mosquito-control-vaughan-york-region (`recrawl`; retitled "Mosquitoes in Vaughan & York Region: Hot Spots")
+- https://buzzskito.ca/blog/tick-control-ancaster-dundas-hamilton (`recrawl`; retitled "Ticks in Ancaster & Dundas: Escarpment Risk"; now links to /hamilton-tick-spray)
+- https://buzzskito.ca/blog/mosquito-tick-control-hamilton-burlington (`recrawl`; retitled "Mosquitoes & Ticks in Hamilton and Burlington")
+- https://buzzskito.ca/blog/mosquito-control-etobicoke-north-york (`recrawl`; retitled "Mosquitoes & Ticks in Etobicoke and North York")
+- https://buzzskito.ca/hamilton-tick-spray (`recrawl`; title "Tick Control Hamilton: Yard Tick Spray From $99")
+- https://buzzskito.ca/woodbridge-mosquito-control (`recrawl`; title "Mosquito Control Woodbridge · 5-Star Rated")
+- The other 22 service pages that lost "2026" from their titles on Nov 7 are left to Google's normal crawl.
+
 Upgraded Nov 6, 2026 (owner: "fix the entire mosquito section"; new sections, tables, FAQs, photos, sourced corrections), all `recrawl`. Off-season pages, so after the winter pages above:
 
 - https://buzzskito.ca/blog/mosquito-larvae-identification (`recrawl`; "mosquito larvae" 30,700 summer impressions at 9.7)

@@ -14,7 +14,8 @@ const POST = NEW_BLOGS_2[3]
 // BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): the amazon.ca button for Insect Shield permethrin-treated clothing (search "insect shield permethrin treated clothing") in the trail-days paragraph is removed, because Insect Shield has no Canadian registration (Health Canada pesticide registry, checked Nov 5, 2026); one sentence in its place says so and names the registered home-use line, No Fly Zone (Reg. No. 32757), and the PCP number on the label.
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito & Tick Control Hamilton-Burlington',
+  // TITLE NOTE (Nov 7, 2026, owner: "make it right now so the pages aren't competing with each other"): was 'Mosquito & Tick Control Hamilton-Burlington', which competed with the Hamilton and Burlington service pages. Its named clicks come from "ticks in burlington" searches.
+  title: 'Mosquitoes & Ticks in Hamilton and Burlington',
   description: "Hamilton Escarpment trails and Burlington waterfront create mosquito and tick pressure. Professional barrier spray from $99.",
   canonical: `/blog/${POST.slug}`,
   type: 'article',
@@ -110,7 +111,7 @@ export default function HamiltonBurlingtonPage() {
 
         <h3>Tick Risk in Hamilton</h3>
         <p>Blacklegged ticks are established along Hamilton&apos;s Escarpment trail network, Dundas Valley Conservation Area, and Fifty Point Conservation Area near Winona. The Hamilton Conservation Authority has documented tick populations across most of its managed lands. Properties backing onto any forested conservation area should prioritize professional tick treatment.</p>
-        <p>The west-end communities carry the heaviest share of that risk, since Dundas Valley is one of the most consistently tick-positive conservation blocks the HCA surveys. We go through the Escarpment-edge streets and the month-by-month treatment timing in <Link href="/blog/tick-control-ancaster-dundas-hamilton" className="text-brand-700 hover:underline">the Ancaster and Dundas tick control guide</Link>.</p>
+        <p>The west-end communities carry the heaviest share of that risk, since Dundas Valley is one of the most consistently tick-positive conservation blocks the HCA surveys. We go through the Escarpment-edge streets and the month-by-month treatment timing in <Link href="/blog/tick-control-ancaster-dundas-hamilton" className="text-brand-700 hover:underline">the Ancaster and Dundas tick guide</Link>.</p>
         <p>If you walk those Escarpment and Dundas Valley trails, the low-cost defence is the same one public-health guidance gives for any wooded area in Ontario: tuck pant legs into socks, wear light colours so a crawling tick shows, and apply a DEET or icaridin (picaridin) repellent to the lower legs according to the label. <BuyLink tag={AMZ_TAG} search="icaridin insect repellent">Check price on Amazon.ca →</BuyLink></p>
 
         <h2>Burlington: Waterfront and Greenbelt Pressure</h2>

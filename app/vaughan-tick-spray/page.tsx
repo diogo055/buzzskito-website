@@ -9,7 +9,8 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Vaughan Tick Control 2026 · From $99 · Boyd Conservation Specialist',
+  // TITLE NOTE (Nov 7, 2026, owner: "if you find that having 2026 on these titles is bad, then obviously strip it"): was 'Vaughan Tick Control 2026 · From $99 · Boyd Conservation Specialist'; dropped "2026" (stale from Jan 1); searchers type "tick control vaughan" (822); fits 60 rendered; price is in this title.
+  title: 'Tick Control Vaughan: Yard Tick Spray From $99',
   description:
     'Vaughan tick spray · 150+ five-star reviews. Targets blacklegged ticks across Woodbridge, Kleinburg, Maple, Thornhill, Concord. Rain-back guarantee. (289) 216-5030.',
   canonical: '/vaughan-tick-spray',

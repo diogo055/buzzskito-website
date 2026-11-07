@@ -175,7 +175,7 @@ export default function LymeRiskAreas2026Page() {
           caption="A blacklegged tick, Ixodes scapularis, on a fingernail, found at Cootes Paradise in Hamilton (identification confirmed on iNaturalist). Cootes Paradise is one of the established blacklegged tick zones named in this section."
         />
         <p>The escarpment shelf carries the same conditions east across the city, where Stoney Creek runs from the Fifty Point shoreline up to the brow with the Red Hill ravine between. We rank that stretch area by area in <Link href="/blog/mosquito-tick-control-stoney-creek" className="text-brand-700 hover:underline">the Stoney Creek mosquito and tick guide</Link>.</p>
-        <p>West of the harbour the same escarpment conditions run through Dundas Valley and the Ancaster woodlots &mdash; that corridor is covered neighbourhood by neighbourhood in <Link href="/blog/tick-control-ancaster-dundas-hamilton" className="text-brand-700 hover:underline">our Ancaster, Dundas and Hamilton tick control guide</Link>.</p>
+        <p>West of the harbour the same escarpment conditions run through Dundas Valley and the Ancaster woodlots &mdash; that corridor is covered neighbourhood by neighbourhood in <Link href="/blog/tick-control-ancaster-dundas-hamilton" className="text-brand-700 hover:underline">our guide to ticks in Ancaster and Dundas</Link>.</p>
         <p>See: <Link href="/hamilton-tick-spray" className="text-brand-700 hover:underline">Hamilton tick control</Link></p>
 
         <h3>Oakville and Burlington</h3>

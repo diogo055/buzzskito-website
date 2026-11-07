@@ -352,7 +352,7 @@ export const TICK_BLOGS = {
 export const NEW_BLOGS = [
   {
     slug: 'mosquito-control-vaughan-york-region',
-    title: 'Mosquito Control in Vaughan & York Region: What Homeowners Need to Know',
+    title: 'Mosquitoes in Vaughan & York Region: Hot Spots, Season and What Works',
     excerpt: "Boyd Conservation Area, Humber River, and Vaughan's new-build ponds create intense seasonal mosquito pressure. Here's how to protect your property.",
     date: '2026-04-12',
     category: 'mosquito' as const,
@@ -366,7 +366,7 @@ export const NEW_BLOGS = [
   },
   {
     slug: 'mosquito-control-etobicoke-north-york',
-    title: 'Mosquito & Tick Control in Etobicoke and North York',
+    title: 'Mosquitoes & Ticks in Etobicoke and North York: The Ravine Problem',
     excerpt: "Humber River valley, Don Valley ravines, and Centennial Park — Etobicoke and North York homeowners face real mosquito and tick pressure near Toronto's natural corridors.",
     date: '2026-04-15',
     category: 'mosquito' as const,
@@ -448,14 +448,14 @@ export const NEW_BLOGS_2 = [
   },
   {
     slug: 'mosquito-tick-control-hamilton-burlington',
-    title: 'Mosquito & Tick Control in Hamilton & Burlington: Escarpment & Waterfront Guide',
+    title: 'Mosquitoes & Ticks in Hamilton & Burlington: Escarpment & Waterfront Guide',
     excerpt: "Hamilton's Niagara Escarpment trails and Burlington's waterfront create some of the GTA's most intense mosquito and tick pressure. Here's what homeowners in both cities need to know.",
     date: '2026-05-05',
     category: 'mosquito' as const,
   },
   {
     slug: 'tick-control-vaughan-king-city-woodbridge',
-    title: 'Tick Control in Vaughan, King City & Woodbridge: York Region Rural Property Guide',
+    title: 'Ticks in Vaughan, King City & Woodbridge: York Region Rural Property Guide',
     excerpt: 'Boyd Conservation Area, Kortright Centre, and King Township forest edges put York Region homeowners at serious tick risk. Professional treatment schedules and what to expect.',
     date: '2026-05-08',
     category: 'tick' as const,
@@ -495,7 +495,7 @@ export const NEW_BLOGS_3 = [
   },
   {
     slug: 'tick-control-ancaster-dundas-hamilton',
-    title: 'Tick Control in Ancaster & Dundas: Living on the Escarpment Edge in Hamilton',
+    title: 'Ticks in Ancaster & Dundas: Living on the Escarpment Edge in Hamilton',
     excerpt: "Ancaster and Dundas sit at the base of the Niagara Escarpment — Ontario's most active tick corridor. Why these Hamilton suburbs have some of the highest tick risk in the GTA, and what to do about it.",
     date: '2026-04-29',
     category: 'tick' as const,

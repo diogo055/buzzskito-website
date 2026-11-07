@@ -8,7 +8,8 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Milton Tick Control 2026 · From $99 · 150+ Five-Star Reviews',
+  // TITLE NOTE (Nov 7, 2026, owner: "if you find that having 2026 on these titles is bad, then obviously strip it"): was 'Milton Tick Control 2026 · From $99 · 150+ Five-Star Reviews'; dropped "2026" (stale from Jan 1); searchers type "milton tick control" (145 vs 26); fits 60 rendered; price is in this title.
+  title: 'Milton Tick Control: Yard Tick Spray From $99',
   description:
     "Milton tick spray for Niagara Escarpment, Crawford Lake, and Halton Greenbelt properties. Licensed Ontario operator, from $99/treatment, rain-back guarantee. Old Milton, Beaty, Coates, Hawthorne Village, Scott. Call (289) 216-5030.",
   canonical: '/milton-tick-spray',

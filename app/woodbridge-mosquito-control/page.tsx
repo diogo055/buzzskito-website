@@ -8,7 +8,8 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Woodbridge Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
+  // TITLE NOTE (Nov 7, 2026, owner: "if you find that having 2026 on these titles is bad, then obviously strip it"): was 'Woodbridge Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews'; dropped "2026" (stale from Jan 1); searchers type "mosquito control woodbridge" (444 vs 67); fits 60 rendered; price stays in the description.
+  title: 'Mosquito Control Woodbridge · 5-Star Rated',
   description:
     "Woodbridge specialist mosquito barrier spray. Licensed Ontario operator, from $99/treatment, no contracts, rain-back guarantee on every plan. Sonoma Heights, West Woodbridge, East Woodbridge, Pine Valley. Call (289) 216-5030.",
   canonical: '/woodbridge-mosquito-control',

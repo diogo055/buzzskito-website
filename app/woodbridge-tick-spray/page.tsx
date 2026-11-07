@@ -8,7 +8,8 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Woodbridge Tick Control 2026 · From $99 · 150+ Five-Star Reviews',
+  // TITLE NOTE (Nov 7, 2026, owner: "if you find that having 2026 on these titles is bad, then obviously strip it"): was 'Woodbridge Tick Control 2026 · From $99 · 150+ Five-Star Reviews'; dropped "2026" (stale from Jan 1); searchers type "woodbridge tick control" (83 vs 17); fits 60 rendered; price is in this title.
+  title: 'Woodbridge Tick Control: Yard Spray From $99',
   description:
     "Woodbridge tick spray for Humber River corridor properties. Licensed Ontario operator, from $99/treatment, rain-back guarantee on every plan. Sonoma Heights, West Woodbridge, East Woodbridge, Pine Valley, Vellore Village. Call (289) 216-5030.",
   canonical: '/woodbridge-tick-spray',

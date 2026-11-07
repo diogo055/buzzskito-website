@@ -160,7 +160,7 @@ export default function BabyPointMosquitoPage() {
           <ul>
             <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>
             <li><Link href="/blog/mosquito-control-near-water-ravines-gta" className="text-brand-700 hover:underline">Mosquito Control Near Water: Ravines &amp; Waterfront Properties</Link></li>
-            <li><Link href="/blog/mosquito-control-etobicoke-north-york" className="text-brand-700 hover:underline">Mosquito &amp; Tick Control in Etobicoke and North York</Link></li>
+            <li><Link href="/blog/mosquito-control-etobicoke-north-york" className="text-brand-700 hover:underline">Mosquitoes &amp; Ticks in Etobicoke and North York</Link></li>
           </ul>
         </div>
       </section>

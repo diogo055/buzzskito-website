@@ -8,7 +8,8 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Scarborough Tick Control 2026 · From $99 · 150+ Five-Star Reviews',
+  // TITLE NOTE (Nov 7, 2026, owner: "if you find that having 2026 on these titles is bad, then obviously strip it"): was 'Scarborough Tick Control 2026 · From $99 · 150+ Five-Star Reviews'; dropped "2026" (stale from Jan 1); no city searches on record yet; default word order; fits 60 rendered; price is in this title.
+  title: 'Tick Control Scarborough: Yard Spray From $99',
   description:
     "Scarborough tick spray for Rouge National Urban Park watershed and Highland Creek properties. Ontario-licensed, from $99/treatment, rain-back guarantee on every plan. Guildwood, West Hill, Rouge, Malvern, Centennial, Morningside. Call (289) 216-5030.",
   canonical: '/scarborough-tick-spray',

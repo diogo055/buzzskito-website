@@ -7,7 +7,8 @@ import { NEW_BLOGS, MOSQUITO_BLOGS, TICK_BLOGS, PROMISES } from '@/lib/constants
 const POST = NEW_BLOGS[0]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control in Vaughan & York Region',
+  // TITLE NOTE (Nov 7, 2026, owner: "make it right now so the pages aren't competing with each other"): was 'Mosquito Control in Vaughan & York Region', which competed with /vaughan-mosquito-control for "mosquito control vaughan" (this post 10.8 vs the city page 6.1, Aug 15-Nov 5; 0 clicks in 6 months). Retitled to what the article is: where and when Vaughan's mosquitoes are worst.
+  title: 'Mosquitoes in Vaughan & York Region: Hot Spots',
   description:
     "Boyd Conservation Area, Humber River, and Vaughan's new-build ponds create intense seasonal mosquito pressure. Here's how to protect your Vaughan property.",
   canonical: `/blog/${POST.slug}`,

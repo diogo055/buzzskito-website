@@ -8,7 +8,8 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Etobicoke Tick Control 2026 · From $99 · 150+ Five-Star Reviews',
+  // TITLE NOTE (Nov 7, 2026, owner: "if you find that having 2026 on these titles is bad, then obviously strip it"): was 'Etobicoke Tick Control 2026 · From $99 · 150+ Five-Star Reviews'; dropped "2026" (stale from Jan 1); no city searches on record yet; default word order; fits 60 rendered; price is in this title.
+  title: 'Tick Control Etobicoke: Yard Tick Spray From $99',
   description:
     "Etobicoke tick spray for Humber River valley and Etobicoke Creek properties. Licensed operator, from $99/treatment, rain-back guarantee. Mimico, The Kingsway, Humber Valley, Long Branch, Islington Village. Call (289) 216-5030.",
   canonical: '/etobicoke-tick-spray',

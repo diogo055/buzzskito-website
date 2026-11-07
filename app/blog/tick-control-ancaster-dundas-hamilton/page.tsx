@@ -15,7 +15,8 @@ const POST = NEW_BLOGS_3[4]
 const AMZ_TAG = tagForSlug(POST.slug)
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Control Ancaster & Dundas | Hamilton',
+  // TITLE NOTE (Nov 7, 2026, owner: "make it right now so the pages aren't competing with each other"): was 'Tick Control Ancaster & Dundas | Hamilton', which competed with /hamilton-tick-spray for "tick control hamilton" (this post 17.7 vs the city page 5.4).
+  title: 'Ticks in Ancaster & Dundas: Escarpment Risk',
   description:
     "Ancaster and Dundas sit at the Niagara Escarpment — Ontario's most active tick corridor. Professional tick spray from $99.",
   canonical: `/blog/${POST.slug}`,
@@ -167,6 +168,7 @@ export default function AncasterDundasTickPage() {
           <li>Wood pile areas and compost borders</li>
           <li>Any area where Escarpment or conservation-area vegetation encroaches onto the property</li>
         </ul>
+        <p>Ancaster and Dundas are covered by our <Link href="/hamilton-tick-spray" className="text-brand-700 hover:underline">tick control in Hamilton</Link> service, where you will find prices, plans and booking.</p>
         <p>The formula leaves a residual on the treated leaf litter and shaded edges that persists for weeks, not days — but it is not a one-time fix, and it wears off. Five treatments per season, spaced roughly a month apart from May through September, are what hold that barrier continuously. Nymphs are emerging from late May through July, adults come back through the autumn, and deer, mice, and birds re-seed the property from the Escarpment the whole time — so the treatment has to be renewed as the residual fades, not applied once and left.</p>
         <p>This is the practical argument against a one-off or twice-yearly visit on an Escarpment-edge lot: two sprays leave a multi-month hole in the middle of the season, and that hole falls squarely over nymph peak — the stretch with the highest Lyme transmission risk and the heaviest backyard use. Monthly coverage closes it.</p>
 
@@ -223,7 +225,7 @@ export default function AncasterDundasTickPage() {
         <h2>Related Guides</h2>
         <ul>
           <li><Link href="/hamilton-mosquito-control" className="text-brand-700 hover:underline">Hamilton Mosquito Control Services</Link></li>
-          <li><Link href="/blog/mosquito-tick-control-hamilton-burlington" className="text-brand-700 hover:underline">Mosquito & Tick Control in Hamilton & Burlington</Link></li>
+          <li><Link href="/blog/mosquito-tick-control-hamilton-burlington" className="text-brand-700 hover:underline">Mosquitoes & Ticks in Hamilton & Burlington</Link></li>
           <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>
           <li><Link href="/blog/lyme-disease-tick-prevention-ontario" className="text-brand-700 hover:underline">Lyme Disease Prevention in Ontario</Link></li>
           <li><Link href="/blog/tick-bite-symptoms-what-to-do-ontario" className="text-brand-700 hover:underline">Tick Bite Symptoms & What to Do in Ontario</Link></li>

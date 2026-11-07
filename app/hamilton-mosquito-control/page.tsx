@@ -96,7 +96,7 @@ export default function HamiltonMosquitoPage() {
           { label: 'Mosquito Control', href: '/mosquito-control' },
           { label: CITY },
         ]}
-        title={<>Hamilton Mosquito Control</>}
+        title={<>Hamilton Mosquito Control &amp; Yard Spray</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
         subtitle={<>Licensed Ontario pesticide operator. Treatments applied according to label directions, with specialist barrier spray for Cootes Paradise, Dundas Valley, escarpment, and creek-adjacent Hamilton properties.</>}
         image="/spray-backyard.webp"
@@ -190,6 +190,10 @@ export default function HamiltonMosquitoPage() {
 
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">
+          <h2>Residential Mosquito Spray and Treatment in Hamilton</h2>
+          <p>Our Hamilton mosquito service is a residential yard treatment. A licensed technician sprays the shrubs, hedges, under-deck plants, fence lines and garden-bed borders where adult mosquitoes rest during the day, following the product label. Treatments repeat monthly, every two weeks or weekly from May to September, depending on your plan, and a single treatment on a standard lot under 10,000 sq ft starts at $99. We treat homes on the Mountain and in the lower city, plus Ancaster, Dundas, Stoney Creek, Waterdown, Flamborough and Binbrook.</p>
+          <p>The City of Hamilton works on public land, not on private yards. Its West Nile virus program, run by Public Health Services, traps and tests mosquitoes, puts larvicide in street catch basins in rounds from June to August, and checks several hundred standing-water sites from June into the fall, treating them when needed. Its contingency plan for spraying adult mosquitoes has never been needed in Hamilton. In 2026 the City counted 39 mosquito pools that tested positive for West Nile virus, in Lower Central Hamilton, the Central Mountain, Lower East Hamilton, Lower Stoney Creek and Dundas. On private land, the City enforces its standing water by-law and asks residents to empty standing water at least once a week (<a href="https://www.hamilton.ca/people-programs/public-health/environmental-health-hazards/animal-insect-related-diseases/west-nile" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">City of Hamilton, West Nile Virus</a>, updated October 21, 2026).</p>
+
           <h2>Why Hamilton Has Intense Mosquito Pressure</h2>
           <p>Hamilton is one of the GTA&apos;s most challenging cities for mosquito control because of its unique combination of natural features. Cootes Paradise — a 250-hectare wetland complex at the western end of Hamilton Harbour — is one of the largest urban wetlands in the Great Lakes basin. It generates enormous quantities of mosquitoes from May through September, and its proximity to Westdale, Ainslie Wood, and Ancaster means that residents in Hamilton&apos;s west end face continuous re-pressure from this massive breeding source throughout the season.</p>
           <p>Red Hill Creek runs north through the east end from Glanbrook to the Harbour, providing a second major mosquito corridor. Spencer Creek drains the Dundas Valley and flows through Dundas, Greensville, and Ancaster. The Niagara Escarpment channels moisture and creates cool, humid air pockets in the lower city that adult mosquitoes exploit as daytime resting habitat. Combined, these features give Hamilton a mosquito season that often starts earlier than other GTA cities and lasts well into September.</p>
@@ -230,7 +234,7 @@ export default function HamiltonMosquitoPage() {
           <p>Cootes Paradise &mdash; one of the Great Lakes basin&apos;s largest urban wetlands &mdash; sits directly adjacent to Hamilton&apos;s west end residential areas (Westdale, Ainslie Wood, McMaster area). It produces enormous quantities of mosquitoes from May through September. Properties within 2 km of Cootes Paradise face the most intense seasonal pressure in Hamilton. Barrier spray treats your property &mdash; it doesn&apos;t fix the marsh source, but it stops mosquitoes from settling once they arrive.</p>
 
           <h3>Does Hamilton Public Health or the City spray for mosquitoes?</h3>
-          <p>No &mdash; not on residential properties. Hamilton Public Services performs targeted larviciding of catch basins for West Nile surveillance. The City does not treat private yards. Yard-level mosquito control is the homeowner&apos;s responsibility.</p>
+          <p>No &mdash; not on residential properties. Hamilton Public Health Services places larvicide in street catch basins and treats standing water on public land as part of its <a href="https://www.hamilton.ca/people-programs/public-health/environmental-health-hazards/animal-insect-related-diseases/west-nile" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">West Nile virus program</a>, and its plan for spraying adult mosquitoes has never been needed. The City does not treat private yards. Yard-level mosquito control is the homeowner&apos;s responsibility.</p>
 
           <h3>How much does Hamilton mosquito control cost for a typical lot?</h3>
           <p>For a standard Hamilton residential lot under 10,000 sq ft: from $99 per single treatment. Larger Ancaster or Dundas estate properties require a custom quote. No contracts &mdash; book one treatment and decide whether to continue.</p>
@@ -309,7 +313,8 @@ export default function HamiltonMosquitoPage() {
           <ul>
             <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>
             <li><Link href="/blog/west-nile-virus-mosquito-risk-ontario" className="text-brand-700 hover:underline">West Nile Virus &amp; Mosquito Risk in Ontario</Link></li>
-            <li><Link href="/blog/mosquito-tick-control-hamilton-burlington" className="text-brand-700 hover:underline">Mosquito &amp; Tick Control in Hamilton and Burlington</Link></li>
+            <li><Link href="/blog/mosquito-tick-control-hamilton-burlington" className="text-brand-700 hover:underline">Mosquitoes &amp; Ticks in Hamilton and Burlington</Link></li>
+            <li><Link href="/blog/tick-control-ancaster-dundas-hamilton" className="text-brand-700 hover:underline">Ticks in Ancaster &amp; Dundas</Link></li>
             {MOSQUITO_BLOGS.supporting.slice(0, 2).map(b => <li key={b.slug}><Link href={`/blog/${b.slug}`} className="text-brand-700 hover:underline">{b.title}</Link></li>)}
           </ul>
         </div>

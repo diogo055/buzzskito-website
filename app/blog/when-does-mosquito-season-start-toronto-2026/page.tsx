@@ -187,7 +187,7 @@ export default function MosquitoSeasonToronto2026Page() {
           <li><Link href="/blog/mosquito-season-gta-when-does-it-start" className="text-brand-700 hover:underline">When Does Mosquito Season Start in the GTA?</Link></li>
           <li><Link href="/blog/west-nile-virus-ontario-2026" className="text-brand-700 hover:underline">West Nile Virus Risk Ontario 2026</Link></li>
           <li><Link href="/blog/mosquito-control-worth-the-cost" className="text-brand-700 hover:underline">Is Professional Mosquito Control Worth the Cost?</Link></li>
-          <li><Link href="/blog/mosquito-control-etobicoke-north-york" className="text-brand-700 hover:underline">Mosquito Control in Etobicoke & North York</Link></li>
+          <li><Link href="/blog/mosquito-control-etobicoke-north-york" className="text-brand-700 hover:underline">Mosquitoes & Ticks in Etobicoke & North York</Link></li>
           <li><Link href="/blog/mosquito-season-scarborough-east-toronto" className="text-brand-700 hover:underline">Mosquito Season in Scarborough & East Toronto</Link></li>
           <li><Link href="/mosquito-control" className="text-brand-700 hover:underline">BuzzSkito Mosquito Control Services</Link></li>
         </ul>

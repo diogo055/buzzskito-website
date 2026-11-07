@@ -8,7 +8,8 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Richmond Hill Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
+  // TITLE NOTE (Nov 7, 2026, owner: "if you find that having 2026 on these titles is bad, then obviously strip it"): was 'Richmond Hill Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews'; dropped "2026" (stale from Jan 1); searchers type "mosquito control richmond hill"; fits 60 rendered; price stays in the description.
+  title: 'Mosquito Control Richmond Hill · 5-Star Rated',
   description:
     "Richmond Hill mosquito barrier spray from $99. Ontario-licensed, no contracts, rain-back guarantee. Oak Ridges, Lake Wilcox. (289) 216-5030.",
   canonical: '/richmond-hill-mosquito-control',

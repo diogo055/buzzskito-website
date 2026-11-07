@@ -8,7 +8,8 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'King City Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
+  // TITLE NOTE (Nov 7, 2026, owner: "if you find that having 2026 on these titles is bad, then obviously strip it"): was 'King City Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews'; dropped "2026" (stale from Jan 1); searchers type "mosquito control king city"; fits 60 rendered; price stays in the description.
+  title: 'Mosquito Control King City · 150+ 5-Star Reviews',
   description:
     "King City specialist mosquito and tick barrier spray. Licensed Ontario operator, from $99/treatment, no contracts, rain-back guarantee. King City village, Schomberg, Nobleton, Pottageville. Call (289) 216-5030.",
   canonical: '/king-city-mosquito-control',

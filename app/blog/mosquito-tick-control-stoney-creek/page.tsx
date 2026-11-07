@@ -213,7 +213,7 @@ export default function StoneyCeekMosquitoPage() {
         <ul>
           <li><Link href="/hamilton-mosquito-control" className="text-brand-700 hover:underline">Hamilton Mosquito Control Services</Link></li>
           <li><Link href="/stoney-creek-mosquito-control" className="text-brand-700 hover:underline">Stoney Creek Mosquito Control Service</Link></li>
-          <li><Link href="/blog/mosquito-tick-control-hamilton-burlington" className="text-brand-700 hover:underline">Mosquito & Tick Control in Hamilton & Burlington</Link></li>
+          <li><Link href="/blog/mosquito-tick-control-hamilton-burlington" className="text-brand-700 hover:underline">Mosquitoes & Ticks in Hamilton & Burlington</Link></li>
           <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>
           <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>
           <li><Link href="/blog/lyme-disease-tick-prevention-ontario" className="text-brand-700 hover:underline">Lyme Disease Prevention in Ontario</Link></li>

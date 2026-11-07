@@ -15,7 +15,8 @@ const POST = NEW_BLOGS_2[4]
 const AMZ_TAG = tagForSlug('tick-control-vaughan-king-city-woodbridge')
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Control Vaughan & King City',
+  // TITLE NOTE (Nov 7, 2026, owner: "make it right now so the pages aren't competing with each other"): was 'Tick Control Vaughan & King City', which competed with /vaughan-tick-spray for "tick control vaughan". Its named clicks come from "ticks in vaughan" searches, so the title now leads with that.
+  title: 'Ticks in Vaughan, Woodbridge & King City',
   description: "Boyd Conservation, Kortright Centre, and King Township forests put York Region at tick risk. Professional spray schedules for Vaughan.",
   canonical: `/blog/${POST.slug}`,
   type: 'article',
@@ -108,7 +109,7 @@ export default function VaughanKingCityTickControlPage() {
           <li><strong>Sonoma Heights</strong> — near Humber River tributary ravines</li>
           <li><strong>Kleinburg</strong> — rural character with extensive wooded property edges</li>
         </ul>
-        <p>For mosquitoes, our guide to <Link href="/blog/mosquito-control-vaughan-york-region" className="text-brand-700 underline">mosquito control in Vaughan and York Region</Link> covers which Vaughan neighbourhoods see the worst mosquito activity and what the season looks like there.</p>
+        <p>For mosquitoes, our guide to <Link href="/blog/mosquito-control-vaughan-york-region" className="text-brand-700 underline">mosquitoes in Vaughan and York Region</Link> covers which Vaughan neighbourhoods see the worst mosquito activity and what the season looks like there.</p>
 
         <h2>Woodbridge: High-Risk Properties</h2>
         <p>Woodbridge sits in the Humber River valley itself — one of the most continuous wildlife corridors in the GTA. Deer movement along this corridor brings tick-carrying hosts directly through residential back gardens. East Woodbridge properties backing onto the valley, and homes adjacent to Kortright Centre for Conservation, face consistent tick exposure throughout the season.</p>
@@ -164,6 +165,7 @@ export default function VaughanKingCityTickControlPage() {
           <li><strong>Shaded lawn sections</strong> — ticks desiccate in direct sun and concentrate in shade</li>
           <li><strong>Ornamental garden beds with mulch</strong> — leaf litter and mulch are favoured tick micro-habitats</li>
         </ul>
+        <p>Prices, plans and booking are on each town&apos;s own service page: <Link href="/vaughan-tick-spray" className="text-brand-700 hover:underline">tick control in Vaughan</Link>, <Link href="/woodbridge-tick-spray" className="text-brand-700 hover:underline">Woodbridge tick control</Link> and <Link href="/king-city-tick-spray" className="text-brand-700 hover:underline">King City tick control</Link>.</p>
         <p className="not-prose text-gray-700">Between visits, the two things worth having in the house are a fine-tipped remover and a small screw-top vial to keep and date any tick you pull off &mdash; the attachment date is the first thing a clinician asks about. <BuyLink tag={AMZ_TAG} search="small screw top specimen vials">Check price on Amazon.ca &rarr;</BuyLink></p>
         <p className="not-prose"><BuyLink tag={AMZ_TAG} search="tick removal tool">See tick-removal tools on Amazon.ca &rarr;</BuyLink></p>
 

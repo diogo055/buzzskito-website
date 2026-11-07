@@ -7,7 +7,8 @@ import { NEW_BLOGS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 const POST = NEW_BLOGS[2]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Control Etobicoke & North York',
+  // TITLE NOTE (Nov 7, 2026, owner: "make it right now so the pages aren't competing with each other"): was 'Mosquito Control Etobicoke & North York', which competed with the Etobicoke, North York and Toronto service pages (2 clicks in 6 months). Retitled to what the article covers: the ravine mosquito and tick problem.
+  title: 'Mosquitoes & Ticks in Etobicoke and North York',
   description:
     "Humber River, Don Valley, Centennial Park — Etobicoke and North York mosquito and tick pressure. Professional spray from $99.",
   canonical: `/blog/${POST.slug}`,

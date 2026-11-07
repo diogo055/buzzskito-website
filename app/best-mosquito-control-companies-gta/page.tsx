@@ -9,9 +9,10 @@ import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema, itemListSc
 import { BUSINESS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Best Mosquito Control Companies GTA 2026 (4 Compared, Prices Inside)',
+  // TITLE NOTE (Nov 7, 2026, owner: "if you find that having 2026 on these titles is bad, then obviously strip it"): was 'Best Mosquito Control Companies GTA 2026 (4 Compared, Prices Inside)'; dropped "2026" (stale from Jan 1); keeps the page's own search words; fits 60 rendered; price stays in the description.
+  title: 'Best Mosquito Control Companies GTA: 4 Compared',
   description:
-    'Honest 2026 comparison: BuzzSkito ($99, 150+ reviews, no contracts) vs Mosquito Man (seasonal contracts) vs Mosquito.Buzz (franchise) vs LawnSavers (bundled lawn care). Real pricing, reviews, service areas, and which is right for your GTA property.',
+    'Honest comparison: BuzzSkito ($99, 150+ reviews, no contracts) vs Mosquito Man (seasonal contracts) vs Mosquito.Buzz (franchise) vs LawnSavers (bundled lawn care). Real pricing, reviews, service areas, and which is right for your GTA property.',
   canonical: '/best-mosquito-control-companies-gta',
 })
 
@@ -21,8 +22,8 @@ const FAQS = [
     answer: `It depends on what matters most to you. BuzzSkito offers a starting price from $99/treatment, no contracts, and 150+ five-star Google reviews. MosquitoMan has a large Google review volume and a long track record. LawnSavers offers bundled lawn care and pest control. Mosquito.Buzz operates nationally with franchise locations. Each has trade-offs in pricing, flexibility, and service area coverage. Whichever you consider, ask any provider five questions before you book: Is the price shown before you book? How many sprays per season? What happens if it rains after a treatment? Is an Ontario pesticide operator licence number shown? Which plans include a guarantee? BuzzSkito's answers: from $99 on a standard lot; 5, 10 or 20+ sprays (tick: 5); a free re-treat if it rains within 1 hour of a treatment, on every plan; Licence ${BUSINESS.licenseNumber}; and the Bite-Free Guarantee on Standard & Exclusive plans.`,
   },
   {
-    question: 'How much does mosquito control cost in the GTA in 2026?',
-    answer: 'BuzzSkito single treatments in 2026 start at $99 on a standard lot under 10,000 sq ft, and season plans are $549 (5 sprays), $994 (10 sprays) or $2,049 (20+ sprays), plus HST. Tick control adds $497 with any mosquito plan (5 sprays per season). Other providers, including LawnSavers, price differently (pricing varies — check their site), so ask for a written price before you book. Most companies offer free quotes.',
+    question: 'How much does mosquito control cost in the GTA?',
+    answer: 'BuzzSkito single treatments start at $99 on a standard lot under 10,000 sq ft, and season plans are $549 (5 sprays), $994 (10 sprays) or $2,049 (20+ sprays), plus HST. Tick control adds $497 with any mosquito plan (5 sprays per season). Other providers, including LawnSavers, price differently (pricing varies — check their site), so ask for a written price before you book. Most companies offer free quotes.',
   },
   {
     question: 'Do I need a contract for mosquito control in the GTA?',
@@ -44,7 +45,7 @@ export default function BestMosquitoControlCompaniesGTAPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Mosquito Control', url: '/mosquito-control' }, { name: 'Best Companies GTA', url: '/best-mosquito-control-companies-gta' }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/best-mosquito-control-companies-gta', '2026-07-01')) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema({ name: 'Best Mosquito Control Companies in the GTA — 2026', description: 'Honest 2026 comparison: BuzzSkito ($99, 150+ reviews, no contracts) vs Mosquito Man (seasonal contracts) vs Mosquito.Buzz (franchise) vs LawnSavers (bundled lawn care).', slug: '/best-mosquito-control-companies-gta', items: [{ name: 'BuzzSkito' }, { name: 'MosquitoMan' }, { name: 'Mosquito.Buzz' }, { name: 'LawnSavers' }] })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema({ name: 'Best Mosquito Control Companies in the GTA', description: 'Honest comparison: BuzzSkito ($99, 150+ reviews, no contracts) vs Mosquito Man (seasonal contracts) vs Mosquito.Buzz (franchise) vs LawnSavers (bundled lawn care).', slug: '/best-mosquito-control-companies-gta', items: [{ name: 'BuzzSkito' }, { name: 'MosquitoMan' }, { name: 'Mosquito.Buzz' }, { name: 'LawnSavers' }] })) }} />
 
       {/* Hero */}
       <CityHero
@@ -53,8 +54,8 @@ export default function BestMosquitoControlCompaniesGTAPage() {
           { label: 'Mosquito Control', href: '/mosquito-control' },
           { label: 'Best Companies GTA' },
         ]}
-        title={<>Best Mosquito Control Companies in the GTA &mdash; 2026</>}
-        subtitle={<>An honest comparison of the top mosquito control providers serving the Greater Toronto Area in 2026. Pricing, reviews, service areas, and what each company actually offers. BuzzSkito is a licensed Ontario pesticide operator, with treatments applied according to label directions.</>}
+        title={<>Best Mosquito Control Companies in the GTA</>}
+        subtitle={<>An honest comparison of the top mosquito control providers serving the Greater Toronto Area. Pricing, reviews, service areas, and what each company actually offers. BuzzSkito is a licensed Ontario pesticide operator, with treatments applied according to label directions.</>}
         image="/spray-pool.webp"
         imageAlt="BuzzSkito technician applying barrier spray beside a backyard pool"
       />
@@ -71,7 +72,7 @@ export default function BestMosquitoControlCompaniesGTAPage() {
 
       <QuickAnswer question="Who is the best mosquito control company in the GTA?">
         <p>
-          <strong>BuzzSkito is the best mosquito control company in the GTA for 2026, with a starting price from $99/treatment, no contracts, and 150+ five-star Google reviews.</strong> This comparison ranks 4 providers — BuzzSkito, MosquitoMan, Mosquito.Buzz, and LawnSavers — on pricing, reviews, contracts, and service area coverage. Whichever you choose, ask about price, sprays per season, rain, licensing ({PROMISES.licence} for BuzzSkito), and which plans carry a guarantee.
+          <strong>BuzzSkito is the best mosquito control company in the GTA, with a starting price from $99/treatment, no contracts, and 150+ five-star Google reviews.</strong> This comparison ranks 4 providers — BuzzSkito, MosquitoMan, Mosquito.Buzz, and LawnSavers — on pricing, reviews, contracts, and service area coverage. Whichever you choose, ask about price, sprays per season, rain, licensing ({PROMISES.licence} for BuzzSkito), and which plans carry a guarantee.
         </p>
       </QuickAnswer>
 
@@ -80,7 +81,7 @@ export default function BestMosquitoControlCompaniesGTAPage() {
       {/* Main content */}
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">
-          <h2>GTA Mosquito Control Companies Compared — 2026</h2>
+          <h2>GTA Mosquito Control Companies Compared</h2>
           <p>There are several professional mosquito control companies serving the Greater Toronto Area. Here&rsquo;s an honest comparison based on publicly available information and service offerings as of July 2026.</p>
 
           {/* Comparison table */}

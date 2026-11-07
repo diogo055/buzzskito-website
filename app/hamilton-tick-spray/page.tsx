@@ -9,7 +9,8 @@ import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusines
 import { BUSINESS, TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Hamilton Tick Control 2026 · From $99 · Escarpment and Dundas Valley',
+  // TITLE NOTE (Nov 7, 2026, owner: "if you find that having 2026 on these titles is bad, then obviously strip it"): was 'Hamilton Tick Control 2026 · From $99 · Escarpment and Dundas Valley'; dropped "2026" (stale from Jan 1); searchers type "tick control hamilton"; fits 60 rendered; price is in this title.
+  title: 'Tick Control Hamilton: Yard Tick Spray From $99',
   description:
     'Hamilton tick spray · 150+ five-star reviews. Targets blacklegged ticks near the Escarpment, Dundas Valley & conservation areas. Rain-back guarantee. (289) 216-5030.',
   canonical: '/hamilton-tick-spray',
@@ -166,7 +167,7 @@ export default function HamiltonTickSprayPage() {
           <h2>Why Hamilton Backyards Are Prime Tick Zones</h2>
           <p>Hamilton has some of Southern Ontario's most significant tick habitat. The <strong>Dundas Valley Conservation Area</strong> — 1,200+ hectares of managed conservation land directly adjacent to Dundas and Ancaster — supports thriving blacklegged tick populations supported by large deer herds. The <strong>Niagara Escarpment</strong> trail corridor running through Ancaster, Westdale, and Stoney Creek creates continuous tick dispersal pathways into adjacent residential neighbourhoods. <strong>Cootes Paradise</strong> and Hamilton Harbour's naturalized shoreline add additional habitat pressure across the city's west end.</p>
           <p>Hamilton Conservation Authority conducts tick surveillance across managed lands and has documented established blacklegged tick populations in Dundas Valley, Spencer Gorge, and Fifty Point Conservation Area. Public Health Ontario reports rising Lyme disease case numbers across the province, and many Hamilton homeowners near these areas add yard tick treatment alongside personal precautions like tick checks.</p>
-          <p>Ancaster and Dundas carry the sharpest version of that exposure, since both sit against the Escarpment with deer moving nightly through residential streets. Our guide to <Link href="/blog/tick-control-ancaster-dundas-hamilton" className="text-brand-700 hover:underline">tick control in Ancaster and Dundas</Link> covers the streets closest to the conservation boundary and the monthly May-to-September treatment timing that works there.</p>
+          <p>Ancaster and Dundas carry the sharpest version of that exposure, since both sit against the Escarpment with deer moving nightly through residential streets. Our guide to <Link href="/blog/tick-control-ancaster-dundas-hamilton" className="text-brand-700 hover:underline">ticks in Ancaster and Dundas</Link> covers the streets closest to the conservation boundary and the monthly May-to-September treatment timing that works there.</p>
 
           <CityPriceCard city="Hamilton" service="tick" />
 
@@ -188,7 +189,7 @@ export default function HamiltonTickSprayPage() {
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>
             <li><Link href="/blog/lyme-disease-tick-prevention-ontario" className="text-brand-700 hover:underline">Lyme Disease &amp; Ticks in Ontario: What to Know</Link></li>
             <li><Link href="/blog/tick-bite-symptoms-what-to-do-ontario" className="text-brand-700 hover:underline">Tick Bite Symptoms &amp; What to Do in Ontario</Link></li>
-            <li><Link href="/blog/mosquito-tick-control-hamilton-burlington" className="text-brand-700 hover:underline">Hamilton &amp; Burlington Mosquito &amp; Tick Control Guide</Link></li>
+            <li><Link href="/blog/mosquito-tick-control-hamilton-burlington" className="text-brand-700 hover:underline">Mosquitoes &amp; Ticks in Hamilton and Burlington</Link></li>
           </ul>
         </div>
       </section>
