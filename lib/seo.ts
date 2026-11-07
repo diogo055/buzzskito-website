@@ -318,7 +318,10 @@ export function websiteSchema() {
     name: BUSINESS.name,
     description: BUSINESS.description,
     inLanguage: 'en-CA',
-    publisher: { '@type': 'LocalBusiness', '@id': `${SITE_URL}/#business` },
+    // A bare @id reference (Nov 6, 2026): with '@type' here, Google read this as a LocalBusiness of its
+    // own on every page without the full localBusinessSchema (all articles and guides) and flagged it
+    // "missing name and image" in the Rich Results Test. Service pages still merge it with the full node.
+    publisher: { '@id': `${SITE_URL}/#business` },
   }
 }
 
@@ -389,7 +392,7 @@ export function organizationSchema() {
       '@type': 'Place',
       address: { '@type': 'PostalAddress', addressLocality: 'Mississauga', addressRegion: 'ON', addressCountry: 'CA' },
     },
-    subOrganization: { '@type': 'LocalBusiness', '@id': `${SITE_URL}/#business` },
+    subOrganization: { '@id': `${SITE_URL}/#business` }, // bare reference: see websiteSchema
     knowsAbout: [
       'Mosquito control',
       'Tick control',
