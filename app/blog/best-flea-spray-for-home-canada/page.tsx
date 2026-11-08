@@ -10,6 +10,8 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
@@ -18,7 +20,7 @@ import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'best-flea-spray-for-home-canada'
 const DATE = '2026-07-28'
-const UPDATED = '2026-10-23'
+const UPDATED = '2026-11-08'
 const TITLE = 'Best Flea Spray for Home Canada 2026 — Why the IGR Matters More Than the Kill'
 // TITLE NOTE (Oct 23, 2026): was 'Best Flea Spray for Home Canada 2026: IGR Guide'; top queries: flea spray for house 953, best flea spray for home and furniture 274, flea spray for furniture 216, best flea spray for home 101 (9 clicks).
 const META_TITLE = 'Best Flea Spray for House & Furniture in Canada'
@@ -89,6 +91,7 @@ export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('cat-flea-scale-bar'),
 }), '/blog/best-flea-spray-for-home-canada')
 
 const AMZ_TAG = tagForSlug(SLUG)
@@ -96,7 +99,7 @@ const AMZ_TAG = tagForSlug(SLUG)
 export default function BestFleaSprayForHomeCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to home flea sprays: IGR vs adulticide, the 95% life-cycle problem, PMRA/PCP label checks, carpet and upholstery technique, the vacuum-first protocol, the pupal window, and why flea bombs are the wrong buy.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to home flea sprays: IGR vs adulticide, the 95% life-cycle problem, PMRA/PCP label checks, carpet and upholstery technique, the vacuum-first protocol, the pupal window, and why flea bombs are the wrong buy.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('cat-flea-scale-bar') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Best Flea Spray for Home Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -318,6 +321,7 @@ export default function BestFleaSprayForHomeCanadaPage() {
           <h2>What Is the Best Flea Spray for a Home in Canada?</h2>
           <p>The best home flea spray is whichever PMRA-registered product you can buy that contains an <strong>insect growth regulator</strong> &mdash; methoprene or pyriproxyfen &mdash; ideally alongside a contact adulticide, with a label that names fleas and lists carpets and upholstery. That is the whole recommendation, and it deliberately does not name a hero brand, because the Canadian shelf for this category is thin and it changes: the reliable move is to read the active ingredients and the registration number rather than to trust a product name you read in an American forum.</p>
           <p>The reasoning behind that recommendation is the single most useful thing on this page. A flea infestation is not the insects you see. Standard entomological breakdowns put a household flea population at roughly <strong>50% eggs, 35% larvae, 10% pupae, and 5% adults</strong>. The adults you spot leaping off the dog are one insect in twenty. Everything else is invisible, and it is not on the pet &mdash; it is in your floor. Female fleas lay eggs on the host, but flea eggs are smooth and non-adhesive by design, so they roll off within hours and land wherever the animal has been: carpet pile, cracks between floorboards, the seam of the sofa cushion, the pet bed, the rug by the back door.</p>
+          <Photo id="cat-flea-scale-bar" alt="Cat flea seen from the side, with long spiny hind legs, under a 3 mm scale bar" caption="A cat flea, Ctenocephalides felis, seen from the side with a 3 mm scale bar (CDC photograph). It is the flea found on dogs and cats alike in Canadian homes, and adults like this are only about 5% of an infestation." />
           <p>Once you internalise that split, the product aisle reorganises itself. An adulticide-only spray is engineered against 5% of your problem. It will work &mdash; you will see dead fleas, the biting will ease, and you will believe you have won &mdash; and then, ten to fourteen days later, the eggs that were already in the carpet finish developing and you are back where you started, now convinced the product was junk. It was not junk. It was aimed at the wrong 5% of the population.</p>
           <p>To see what those eggs and larvae actually look like, our photo guide to <Link href="/blog/flea-eggs">flea eggs, larvae and flea dirt</Link> covers the sizes that matter and how to tell eggs from dandruff.</p>
 
@@ -333,6 +337,7 @@ export default function BestFleaSprayForHomeCanadaPage() {
           <p>Household flea sprays contain two functionally different kinds of chemistry, and understanding which one is doing what turns a confusing label into a simple decision.</p>
           <p><strong>Adulticides</strong> are the killers. In consumer products these are usually pyrethrins (extracted from chrysanthemums, often paired with piperonyl butoxide to slow the flea&rsquo;s ability to break them down) or a synthetic pyrethroid such as permethrin or tetramethrin. They act on the insect nervous system, they act fast, and they give you the visible result that makes a purchase feel worthwhile. Their weakness is that they are contact and short-residual by nature: they kill what they touch and what walks across the treated surface while it is still active, and they do nothing whatsoever to an egg or to a larva burrowed at the base of the carpet.</p>
           <p><strong>Insect growth regulators</strong> are the opposite in every respect. Methoprene and pyriproxyfen are synthetic analogues of the juvenile hormone that keeps an immature insect immature. Expose a flea egg or larva to one and development simply never completes: the egg fails to hatch, or the larva never turns into a reproducing adult. Nothing dies in front of you. There is no satisfying pile of dead fleas. An IGR-only product applied on Monday changes nothing you can perceive by Friday &mdash; and it is nonetheless the ingredient that ends the infestation, because it removes the generation that would otherwise replace every adult you killed.</p>
+          <Photo id="flea-egg-and-larva" alt="Pale, worm-like cat flea larva beside an oval white flea egg, magnified under a microscope" caption="A first-stage cat flea larva beside an egg, seen under a microscope. These are the stages an insect growth regulator works on: the egg fails to hatch, or the larva never becomes a breeding adult." />
           <p>That is why the ideal home product carries both: the adulticide buys relief tonight, the IGR wins the month. If you can only find one or the other on a Canadian shelf, buy the IGR product and handle the adults with vacuuming and traps &mdash; that combination works. The reverse combination, adulticide plus optimism, is the version that fails.</p>
 
           <QuickIdTable
@@ -360,6 +365,7 @@ export default function BestFleaSprayForHomeCanadaPage() {
           <p>Order of operations matters more than product choice. Do these steps in sequence and a mid-range spray outperforms a premium one applied carelessly.</p>
           <h3>Step 1 &mdash; Confirm it is fleas</h3>
           <p>Before you spend anything, prove the diagnosis. Comb the pet over a sheet of white paper and look for live insects and for black pepper-like specks; smear a speck on a damp paper towel and if it blooms rust-red, that is flea dirt &mdash; dried blood excreted by adult fleas and the primary food of flea larvae. Then walk the suspect rooms slowly in white socks, which makes jumping fleas obvious, and plug in a light trap overnight in the room where the bites happen. If you are working backwards from bites on people, our guide to <Link href="/blog/flea-bites-on-humans">flea bites on humans</Link> covers the ankle-cluster pattern and how it differs from bed bug and mosquito bites.</p>
+          <Photo id="flea-on-comb" alt="Small brown flea on a fine-toothed metal flea comb held in a hand" caption="A flea on a fine-toothed flea comb held in a hand, at an animal health clinic (CDC photograph, 2024). Comb over white paper and look for live fleas and black, pepper-like specks; a speck that blooms rust-red on a damp paper towel is flea dirt." />
           <p>The comb is the whole diagnosis, and a household brush will not do it &mdash; the teeth on a proper flea comb are spaced to catch an adult flea and the dirt, which is what you are actually trying to see on the white paper. It is the cheapest item in this entire protocol and the one that tells you whether to spend anything else at all: <BuyLink tag={AMZ_TAG} search="flea comb">check flea combs on Amazon.ca &rarr;</BuyLink></p>
           <h3>Step 2 &mdash; Book the pet in with your veterinarian</h3>
           <p>Do this before or on the same day as the first treatment, not after. An untreated animal re-seeds every square metre you clean, and effective flea treatment for a specific animal is a veterinary decision that depends on species, weight, age, health, and what else the animal is taking. Nothing in this guide goes on a pet. See the section below for why this is a firmer rule than it looks.</p>
@@ -392,6 +398,7 @@ export default function BestFleaSprayForHomeCanadaPage() {
           <h2>Treating the Pet Is a Veterinary Question</h2>
           <p>This guide covers the house. It does not cover the animal, and that is a deliberate line rather than a hedge.</p>
           <p>The environmental half of flea control is genuinely DIY: vacuum, wash, spray the right zones with a registered product, steam what you cannot spray, monitor. The on-animal half is a medical decision that depends on species, weight, age, pregnancy or lactation, kidney and liver function, skin condition, and every other medication the animal is on &mdash; and the most effective modern flea products for pets generally come through the veterinary channel for exactly that reason. A veterinarian can also tell you whether what you are seeing is flea allergy dermatitis, which changes the urgency completely, and can check for tapeworm, which fleas transmit to pets that groom and swallow them.</p>
+          <Photo id="flea-dirt-on-dog" alt="Dark specks of flea dirt scattered through a patch of white fur on a dog" caption="Flea dirt, dark specks in a patch of white fur, on a dog being examined at an animal health clinic (CDC photograph, 2024). Specks like these on the pet mean the animal needs treating as well as the house, and that part is a veterinary decision." />
           <p>Two hard rules regardless. <strong>Never apply a carpet or upholstery product to an animal.</strong> Environmental and on-animal products differ in dose, carrier and active ingredient, and using one for the other is unsafe and off-label. And <strong>be extremely careful with permethrin if you have a cat</strong> &mdash; it is an adulticide found in some household and canine products, and it is seriously toxic to cats. If you own a cat, read active ingredients on anything you bring into the house and ask your veterinarian before anything at all goes on the animal. If something has already been applied and the animal seems unwell, contact a veterinarian immediately.</p>
           <p>The reason this matters for your spray purchase: environmental treatment without pet treatment is a treadmill. One untreated animal returning to a treated room reintroduces eggs within a day, and you will run the whole protocol twice.</p>
 

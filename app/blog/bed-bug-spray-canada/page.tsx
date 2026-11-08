@@ -17,10 +17,12 @@ import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
 import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'bed-bug-spray-canada'
 const DATE = '2026-07-16'
-const UPDATED = '2026-11-05'
+const UPDATED = '2026-11-08'
 // MERGE NOTE (Nov 5, 2026): the mattress spray page and the natural spray page were merged into this page (301s). Their products came across with their labels: the US-market sprays only in the US section, the unregistered botanicals marked "No PCP number" / no Canadian registration, never as Canadian picks.
 // BUTTON NOTE (Nov 5, 2026, owner: "if it's not legal in Canada, remove the button"): no amazon.ca button for a product not registered in Canada. The geraniol and essential-oil rows say so instead, and the US-market table lost its Availability column (8 buttons). US readers have the US edition, /blog/best-bed-bug-spray, with amazon.com picks.
 const TITLE = 'Best Bed Bug Spray & Killer in Canada (2026)'
@@ -129,6 +131,7 @@ export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('bed-bugs-eggs-mattress-seam'),
 }), '/blog/bed-bug-spray-canada')
 
 const AMZ_TAG = tagForSlug('bed-bug-spray-canada')
@@ -136,7 +139,7 @@ const AMZ_TAG = tagForSlug('bed-bug-spray-canada')
 export default function BedBugSprayCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to PMRA domestic-class bed bug sprays — what is legal, what actually works, and what to use alongside them.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to PMRA domestic-class bed bug sprays — what is legal, what actually works, and what to use alongside them.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('bed-bugs-eggs-mattress-seam') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Bed Bug Spray Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -336,6 +339,11 @@ export default function BedBugSprayCanadaPage() {
           <p>That narrow permission is deliberate rather than fussy. A mattress is a surface you breathe against for eight hours, so the registered use pattern is a targeted treatment of the harbourage strip &mdash; the piping, the seam, the tuft, the fold, the tag &mdash; not a general misting of the sleeping surface. In the United States, mattress-approved labels typically restrict application to the edges, tufts, folds, sides and seams, and warn against treating bed linens or any surface in prolonged contact with occupants. Bedding itself is in any case better handled in a hot wash and a hot dryer cycle than with a pesticide.</p>
           <p>So the short answer to &ldquo;can I spray bed bug spray on my mattress?&rdquo;, in either country, is a three-part check. <strong>One:</strong> does the label contain the word &ldquo;mattress&rdquo; in its use sites? If not, the can stays off the bed and goes only where its label says. <strong>Two:</strong> does it carry a registration number for your country &mdash; a PCP number in Canada, an EPA registration number in the United States (or, for a 25(b) botanical, the knowledge that it was never reviewed)? <strong>Three:</strong> is the bed fully dry before you remake it? If all three are yes, spraying a mattress is a normal, label-compliant thing to do. If any one is no, you are improvising with a pesticide on the surface you sleep on, which is the one place improvising is not worth it.</p>
           <p>Technique decides whether a good mattress spray works or wastes itself on the open surface where bed bugs rarely sit. Stand the mattress up so you can reach both faces and every edge: bed bugs concentrate in the piping, seams, tufts, and the fabric tag, so treat those thoroughly, not just the flat centre, and wet the seams and folds until the product reaches into the crease, never so heavily that the mattress stays damp. Then flip the box spring, treat the fabric edge, and spray the wooden frame beneath &mdash; the box spring is a bigger harbourage than the mattress in many infestations. The rest of the routine, from stripping the bed to the repeat schedule, is in the step-by-step sequence further down this page.</p>
+          <Photo
+            id="bed-bugs-eggs-mattress-seam"
+            alt="Bed bugs and their white eggs packed along the seam of a bed"
+            caption="Bed bugs and their white eggs along a seam of a bed, as the photographer describes them. Bed bugs concentrate in the seams, piping and tufts, so that is where a mattress-labelled spray goes, not over the whole sleeping surface."
+          />
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the mattress-labelled cans:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="knock down bed bug killer">Knock Down Bed Bug Killer →</BuyLink>
@@ -502,6 +510,11 @@ export default function BedBugSprayCanadaPage() {
           <h3>Do bed bug repellents work?</h3>
           <p>Not as a way to keep bed bugs off you or your bed. When Rutgers University researchers tested whether bed bugs would avoid surfaces treated with EcoRaider or Bed Bug Patrol, two of the better plant-based sprays, they found no detectable repellency once a carbon dioxide source, the cue bed bugs use to find a sleeping person, was present. Without that cue, bugs given a choice did avoid resting on treated fabric, and that let most of them survive.</p>
           <p>A personal insect repellent is not a bed bug spray either. DEET, picaridin and citronella products are built to keep biting insects off skin outdoors, and repellents are not registered to control a bed bug infestation. Spraying yourself before bed does not protect you from bed bugs in any dependable way, and it does nothing at all to the population living in the mattress seam beside you. A registered spray that kills on contact, plus encasements and interceptor traps, does more than any repellent.</p>
+          <Photo
+            id="bed-bug-on-skin-cdc"
+            alt="A bed bug standing on human skin, seen from the side"
+            caption="A common bed bug on a person's skin, seen from the side; it feeds through mouthparts adapted to piercing skin (CDC photograph). Spraying repellent on yourself before bed does not protect you from bed bugs in any dependable way."
+          />
 
           <h2>Do Bed Bug Sprays Actually Work?</h2>
           <p>Partially — and anyone telling you otherwise is selling something. Contact sprays reliably kill the bed bugs you directly hit, and residuals kill a portion of the bugs that later cross treated surfaces. But three hard limits keep sprays in the supporting-tool category:</p>
@@ -514,6 +527,11 @@ export default function BedBugSprayCanadaPage() {
 
           <h2>What Chemical Kills Bed Bugs and Their Eggs?</h2>
           <p>Almost none of them kill both — and the gap between &ldquo;kills the bugs&rdquo; and &ldquo;kills the eggs&rdquo; is the single most useful thing to understand before you spend a dollar. Bed bug eggs are cemented to fabric, wood, and seams inside a shell that most domestic-class actives penetrate poorly. A treatment that wipes out every visible bug in the room still leaves the next generation intact for the 6&ndash;10 days it takes them to hatch, which is exactly why week-two rebounds are so common.</p>
+          <Photo
+            id="bed-bug-fecal-stains-mattress"
+            alt="Mattress edge with thick black bed bug fecal stains and clusters of white bed bug eggs"
+            caption="A mattress from a large bed bug infestation, with thick black fecal stains and white bed bug eggs, as described by the New York State IPM Program at Cornell University. Most domestic sprays do not kill eggs like these, and eggs hatch in 6 to 10 days, so plan on a repeat treatment."
+          />
           <div className="not-prose my-6 overflow-x-auto rounded-xl border border-navy-100 shadow-sm">
             <table className="w-full text-sm min-w-[620px]">
               <thead className="bg-brand-800 text-white">
@@ -689,6 +707,11 @@ export default function BedBugSprayCanadaPage() {
 
           <h2>Beyond the Spray: Identifying, Finding and Eliminating Bed Bugs</h2>
           <p>A spray is one step in a longer job, and <Link href="/learn/bed-bugs">our complete bed bug reference</Link> sets out the whole sequence, from identification through every treatment option to follow-up monitoring. If you have not confirmed the insect yet, start with <Link href="/blog/what-do-bed-bugs-look-like">what bed bugs look like at each life stage</Link>, because every pesticide label is written for specific pests. Dark specimens cause a lot of doubt, so <Link href="/blog/black-bed-bugs">whether a bed bug can look black</Link> explains how color shifts with life stage and feeding, and <Link href="/blog/bugs-that-look-like-bed-bugs">the insects most often mistaken for bed bugs</Link> covers bat bugs, carpet beetles and the other look-alikes that call for a different response.</p>
+          <Photo
+            id="bed-bug-adult-ruler"
+            alt="Adult bed bug seen from above beside a millimetre ruler marked 0 to 5"
+            caption="An adult bed bug seen from above beside a millimetre ruler, photographed by CDC: oval, flat and about 5 mm long, the average for an adult. Confirm the insect before you buy a spray, because every pesticide label is written for specific pests."
+          />
           <p>Sprays only kill what they reach, which makes location the next question. <Link href="/blog/where-do-bed-bugs-hide">Where bed bugs hide in a bedroom</Link> ranks the harborage sites to inspect before you treat, and <Link href="/blog/bed-bugs-on-mattress">what to do when the signs are on your mattress</Link> walks through vacuuming, steaming and encasing, along with which pesticides are and are not labeled for a sleeping surface.</p>
           <p>For the full campaign, <Link href="/blog/how-to-get-rid-of-bed-bugs">our step-by-step plan for getting rid of bed bugs</Link> follows the EPA&rsquo;s integrated approach and shows where registered sprays and desiccant dusts fit among heat, steam and monitoring. And before improvising with something from under the sink, read <Link href="/blog/does-alcohol-kill-bed-bugs">what rubbing alcohol actually does to bed bugs</Link> and <Link href="/blog/does-lysol-kill-bed-bugs">whether Lysol or another household disinfectant kills them</Link>; both guides set out what the research and the labels support.</p>
 

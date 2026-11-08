@@ -15,13 +15,15 @@ import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
 import { withRegionalAlternates } from '@/lib/guides'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'mosquito-bits-canada-vs-dunks'
 const DATE = '2026-05-01'
 // Oct 23, 2026: Health Canada's pesticide registry (searched through its API) lists no Mosquito Bits, so the answer-first hero, the
 // where-to-buy copy, the legal section and 11 FAQ answers now say so; new table of the domestic larvicides the registry does list
 // (Dunks 28888, AquaBac 200G 27374, My-Crobe 200G 34631, Doktor Doom 34197) quoting their Canadian labels; fungus gnat label caveat; 3 FAQs.
-const UPDATED = '2026-11-05'
+const UPDATED = '2026-11-08'
 // TITLE NOTE (Nov 5, 2026): the Mosquito Dunks Canada guide (slug mosquito-dunks-canada-guide, now a 301 to this page) was merged in.
 // Search Console, May 1-Nov 1: 95% of both pages' impressions were on searches they shared, where this page had 48,697 @ 5.8
 // (1,689 clicks) and the guide 33,699 @ 7.2 (344). Its searches are now this page's: mosquito dunks canada 8,982 @ 7.6 (this page
@@ -162,6 +164,7 @@ export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('aedes-aegypti-larvae-at-surface'),
 }), `/blog/${SLUG}`)
 
 const AMZ_TAG = tagForSlug('mosquito-bits-canada-vs-dunks')
@@ -169,7 +172,7 @@ const AMZ_TAG = tagForSlug('mosquito-bits-canada-vs-dunks')
 export default function MosquitoBitsCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Comprehensive 2026 guide to Mosquito Bits in Canada vs Mosquito Dunks.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Comprehensive 2026 guide to Mosquito Bits in Canada vs Mosquito Dunks.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('aedes-aegypti-larvae-at-surface') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Mosquito Bits Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -452,6 +455,7 @@ export default function MosquitoBitsCanadaPage() {
           <p className="not-prose mb-6 rounded-lg border border-navy-100 bg-brand-50 px-4 py-2.5 text-sm text-gray-700">Reading from the United States? Product rules and what is sold there differ. <Link href="/blog/mosquito-bits-vs-dunks" className="font-semibold text-brand-700 underline">See the US edition</Link>.</p>
           <h2>How Mosquito Bits Work</h2>
           <p>Mosquito Bits are corn-cob granules coated with BTI (<em>Bacillus thuringiensis</em> subspecies <em>israelensis</em>) — a soil bacterium discovered in 1976 that specifically targets the digestive systems of mosquito and black fly larvae. The corn-cob granules float briefly when sprinkled onto water, then sink as they absorb moisture. As the bits dissolve, they release BTI proteins into the water column where larvae filter-feed. Not sure the wrigglers you found are mosquito larvae? Our <Link href="/blog/mosquito-larvae-identification">mosquito larvae identification guide</Link> shows exactly what to look for before you treat.</p>
+          <Photo id="aedes-aegypti-larvae-at-surface" alt="Three mosquito larvae hanging head-down from the surface of standing water" caption="Three yellow fever mosquito larvae, Aedes aegypti, suspended at the surface of standing water (CDC photograph). BTI works only when larvae like these eat it." />
           <p>BTI is one of the most species-specific insecticides ever developed. It acts on mosquito larvae, black fly larvae, and a few related midge species, which have to eat it for it to work. BTI larvicides are registered for sale in Canada under the Pest Control Products Act. On drinking water its position is precise and worth stating exactly, because it is widely misreported in both directions: no product containing Bti may be applied to treated, finished drinking water for human consumption, but the PMRA has no human health and safety concerns about applying registered Bt products to bodies of water that will later be used for human consumption. The timings quoted throughout this guide — full larvae kill within 24 hours, 7&ndash;14 days of control from Bits, about 30 days from a Dunk — are Summit&rsquo;s own product-label figures, not our field measurements.</p>
 
           <NextUp path="/blog/mosquito-bits-canada-vs-dunks" />
@@ -466,6 +470,7 @@ export default function MosquitoBitsCanadaPage() {
           </ul>
           <p>The granules themselves are 2.86% <em>Bacillus thuringiensis</em> subspecies <em>israelensis</em> (strain SUM-6218) and 97.14% inert corn-cob carrier, and Summit&rsquo;s label states a potency of 200 <em>Aedes aegypti</em> Units per mg, or 91 million such units per pound. Resist reading that as a strength score. The same label says plainly that the percent active ingredient does not indicate product performance and that potency measurements are not federally standardized &mdash; which is precisely why a bare &ldquo;contains BTI&rdquo; claim, and even the percentage beside it, tells you so little when comparing one brand against another.</p>
           <p>Two things the rates imply but never spell out. BTI has to be <em>eaten</em> to work, so it only reaches larvae that are actively filter-feeding &mdash; pupae have stopped eating and will still hatch, which is why a treated barrel can produce one last small batch of adults a day or two after you treat it. And BTI does not persist: it degrades in sunlight and settles out of the water column. The 7&ndash;14 day interval is a genuine re-treatment schedule, not a marketing figure, and it is the single most common reason people conclude the product &ldquo;stopped working.&rdquo;</p>
+          <Photo id="aedes-aegypti-pupae-adult-emerging" alt="Mosquito pupae in standing water with an adult mosquito emerging above them" caption="Four yellow fever mosquito pupae, Aedes aegypti, in standing water, with an adult mosquito emerging above them (CDC photograph). Pupae no longer feed, so BTI will not stop them from emerging." />
 
           <h2>Mosquito Bits for Fungus Gnats in Houseplants</h2>
           <p>A large share of Canadians searching for Mosquito Bits are not treating a rain barrel at all &mdash; they are trying to kill fungus gnats in houseplant soil. That use is on Summit&rsquo;s U.S. label: fungus gnat larvae, usually <em>Bradysia</em> species, are a labelled target pest alongside mosquito and black fly larvae, and the same BTI that kills a mosquito wriggler kills a gnat larva in potting mix.</p>
@@ -496,6 +501,7 @@ export default function MosquitoBitsCanadaPage() {
             <li><strong>Septic tank ventilation pipes</strong> that can hold water</li>
             <li><strong>Storm drain catch basins:</strong> not these; the Canadian labels exclude catch basin sumps that flow into weeping tile beds or municipal storm drain systems</li>
           </ul>
+          <Photo id="mosquito-larvae-clay-pot-saucer" alt="Mosquito larvae in the water of a clay plant pot saucer" caption="Yellow fever mosquito larvae, Aedes aegypti, in water in a clay pot saucer (CDC photograph). If you find larvae in a saucer like this, tip the water out if you can." />
 
           <h2>When Dunks Are Better</h2>
           <p>On the Canadian Mosquito Dunks label (Reg. No. 28888) the dose goes by water surface, not gallons: a quarter dunk for &ldquo;0.1 to 3.0 sq. metres&rdquo;, which covers a rain barrel, and no ditch that drains off your property.</p>
@@ -617,6 +623,7 @@ export default function MosquitoBitsCanadaPage() {
           <h2>The &ldquo;Bucket of Doom&rdquo; and the 2026 Canadian Dunk Shortage</h2>
           <p>If you went looking for dunks in June 2026 and found empty pegs, you were not imagining it. CBC News reported that mosquito dunks were selling out as bug season collided with the &ldquo;bucket of doom&rdquo; trend; a manager at a Home Hardware on Bank Street in Ottawa told CBC that his store was sold out by mid-June and so was the company&rsquo;s warehouse. Cottage Life covered the same DIY trend through the summer. That shortage, not any regulatory action, is the origin of most of the &ldquo;you can&rsquo;t get these in Canada&rdquo; chatter.</p>
           <p>The technique is simple, and it is the one situation where the Bits-versus-Dunks question genuinely changes shape. Fill a five-gallon bucket with water, add a handful of grass clippings, straw or leaves, and let it sit until it goes properly foul. Female mosquitoes strongly prefer that organic stink to clean water, so the bucket becomes the most attractive place in your yard to lay eggs. Add BTI, and every egg laid there dies as a larva. It is an attract-and-kill trap built out of the mosquito&rsquo;s own preferences rather than against them.</p>
+          <Photo id="culex-egg-raft" alt="Mosquito egg raft: brown eggs packed side by side in a small floating raft" caption="An egg raft deposited on water by a female southern house mosquito, Culex quinquefasciatus (CDC photograph). In a bucket dosed with BTI, every egg laid there dies as a larva." />
           <p>Under Summit&rsquo;s U.S. label this job points toward Bits: bucket water is deliberately deep, dark and loaded with organic matter, which is precisely the condition Summit flags as needing the higher 8 oz per 1,000 sq ft rate, and Bits let you top the dose back up on the 7&ndash;14 day schedule as the brew degrades. In Canada, Bits have no registration, so the BTI option is a registered product such as Mosquito Dunks (Reg. No. 28888), used only as its label directs. Whichever you use, the bucket has to be re-dosed all season &mdash; an untreated bucket of doom is just an unusually effective mosquito nursery, and that is the failure mode to take seriously before building one.</p>
           <p>The build below follows the instructions published by <strong>K-State Research and Extension</strong> in Johnson County, Kansas, which credits the approach to <strong>Doug Tallamy</strong>, the University of Delaware entomologist; <strong>Mississippi State University Extension</strong> has published its own version with an urban entomologist walking through the same steps.</p>
           <div className="not-prose rounded-xl border-2 border-emerald-200 bg-emerald-50/60 p-5 my-6">

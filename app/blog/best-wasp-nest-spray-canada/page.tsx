@@ -16,10 +16,12 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'best-wasp-nest-spray-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-10-23'
+const UPDATED = '2026-11-08'
 const TITLE = 'Best Wasp Nest Spray Canada 2026 — PMRA-Legal Foams & Jets Compared'
 const META_TITLE = 'Best Wasp Spray Canada: Foam vs Jet Nest Killers'
 
@@ -129,6 +131,7 @@ export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('bald-faced-hornet-nest'),
 }), '/blog/best-wasp-nest-spray-canada')
 
 const AMZ_TAG = tagForSlug('best-wasp-nest-spray-canada')
@@ -136,7 +139,7 @@ const AMZ_TAG = tagForSlug('best-wasp-nest-spray-canada')
 export default function BestWaspNestSprayCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'An independent Canadian comparison of PMRA-registered wasp nest sprays — foam vs jet formats, safe application technique, and the grey-market US products to avoid.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'An independent Canadian comparison of PMRA-registered wasp nest sprays — foam vs jet formats, safe application technique, and the grey-market US products to avoid.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('bald-faced-hornet-nest') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Best Wasp Nest Spray Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -446,6 +449,7 @@ export default function BestWaspNestSprayCanadaPage() {
             <li><strong>Leave. Do not linger to admire the work.</strong> Walk your planned exit immediately and give the nest 24 hours.</li>
             <li><strong>Re-check the next evening.</strong> Steady traffic at the entrance means a second dusk treatment. Zero activity across a full warm day means you can knock the nest down and bag it &mdash; wearing gloves, because residue and the odd surviving wasp are both possible.</li>
           </ul>
+          <Photo id="bald-faced-hornet-nest" alt="Large grey paper bald-faced hornet nest hanging in a shrub" caption="A bald-faced hornet nest, a grey paper football, hanging in a shrub (U.S. Fish and Wildlife Service photo). On an enclosed paper nest like this, soak the entrance first, then the envelope." />
           <p>Two hard rules sit on top of all technique. First, <strong>never treat a nest from a ladder at dusk</strong> &mdash; if you cannot hit it with both feet on the ground, it is a professional&rsquo;s nest. Second, <strong>never seal a wall-void entrance right after spraying.</strong> Yellowjackets trapped in a void will look for another way out, and the other way out is frequently through your drywall into a bedroom. Treat, wait days for zero activity, then seal.</p>
 
           <h2>Ground Nests, Wall Voids, and Other Special Cases</h2>
@@ -593,8 +597,11 @@ export default function BestWaspNestSprayCanadaPage() {
           <h2>Wasp, Hornet or Yellowjacket? Identify It Before You Buy a Can</h2>
           <p>Format advice is worthless if the nest is not the kind you think it is, and one very common North American nest breaks the central rule of this guide. Here is what you are actually looking at.</p>
           <p><strong>Polistes paper wasps</strong> build an <em>open umbrella comb</em> &mdash; bare hexagonal cells on a short stalk, no paper envelope, no entrance hole. That last point matters enormously: the &ldquo;hit the entrance first&rdquo; technique this page describes has nothing to aim at on a Polistes comb. Instead you saturate the comb face and the adults sitting on it directly, from the underside upward, at dusk. The good news is that these colonies are small &mdash; often under fifty insects &mdash; and comparatively slow to defend, so a single thorough treatment ends it and format matters far less than on an enclosed nest.</p>
+          <Photo id="paper-wasp-nest" alt="Paper wasps on an open comb of bare hexagonal cells" caption="Paper wasps, Polistes apachus, on their open-comb nest (Texas). Look for bare hexagonal cells with no paper envelope and no entrance hole." />
           <p><strong>Yellowjackets (Vespula)</strong> are the enclosed-nest, single-entrance, hundreds-to-thousands species this guide is otherwise built around, and the scavengers that show up at food. In the eastern United States and eastern Canada the common species are the German yellowjacket (<em>V. germanica</em>) and the eastern yellowjacket (<em>V. maculifrons</em>); in the west, the western yellowjacket (<em>V. pensylvanica</em>). Practically they behave the same: defended entrance, aggressive from August, ground or void nesting.</p>
+          <Photo id="eastern-yellowjacket" alt="Eastern yellowjacket, a black and yellow wasp, seen from above with wings spread" caption="An eastern yellowjacket worker, Vespula maculifrons, a pinned specimen seen from above (CDC photograph). It is one of the two common yellowjackets in the eastern United States and eastern Canada." />
           <p><strong>Bald-faced hornets</strong> (<em>Dolichovespula maculata</em>) build the grey aerial football people photograph and post &mdash; black and white, high in a tree or under a soffit, exposed. Despite the name they are genetically yellowjackets, not true hornets. They are also the most defensive nest in the average yard and the one most likely to be out of safe ground reach, which makes them the classic call-a-professional nest.</p>
+          <Photo id="bald-faced-hornet" alt="Bald-faced hornet, a black and white wasp" caption="A bald-faced hornet, Dolichovespula maculata (Herndon, Virginia). Look for black and white markings; despite the name, it is a yellowjacket, not a true hornet." />
           <p><strong>Cicada killers</strong> are the enormous solitary wasps that alarm American homeowners every July. Females dig burrows in bare sandy soil or lawn edges, and while they look like something out of a monster film, males cannot sting at all and females almost never do unless handled. <strong>Do not spray them.</strong> They are solitary, they do not defend a colony, and they disappear on their own in weeks.</p>
           <p><strong>Mud daubers</strong> build the small tubular mud pipes on walls and under eaves. They are solitary, essentially non-aggressive, and they hunt spiders &mdash; a beneficial insect doing free pest control. Scrape the tubes off if you dislike them; do not empty a can at them.</p>
           <p><strong>The northern giant hornet</strong> (<em>Vespa mandarinia</em>), the &ldquo;murder hornet&rdquo; of 2020 headlines, was declared <strong>eradicated from Washington State and the United States</strong> by the Washington State Department of Agriculture and the USDA on <strong>18 December 2024</strong>, after three years with no confirmed detections. It was found in Whatcom County in 2019 and four nests were destroyed in 2020&ndash;21. If you are staring at a very large hornet in a US or Canadian yard, it is a European hornet, a bald-faced hornet, or a cicada killer.</p>

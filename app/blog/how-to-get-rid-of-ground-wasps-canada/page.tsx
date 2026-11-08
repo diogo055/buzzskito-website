@@ -16,10 +16,12 @@ import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
 import UsAmazonLine from '@/components/UsAmazonLine'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'how-to-get-rid-of-ground-wasps-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-11-05'
+const UPDATED = '2026-11-08'
 // TITLE NOTE (Nov 5, 2026): the wasp-dust-canada page was merged into this one: 94% of its search impressions were on
 // searches this page also shows for ("wasp dust", "wasp powder canada", "wasp powder", "wasp dust canada", "insecticide
 // dust for wasps", "delta dust canada"), and the two split the clicks on them. "Wasp Dust" added to the H1; META_TITLE kept.
@@ -112,6 +114,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('yellowjacket-ground-nest'),
 })
 
 const AMZ_TAG = tagForSlug('how-to-get-rid-of-ground-wasps-canada')
@@ -119,7 +122,7 @@ const AMZ_TAG = tagForSlug('how-to-get-rid-of-ground-wasps-canada')
 export default function HowToGetRidOfGroundWaspsCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to ground-nesting yellow jackets: nest identification, the dusk treatment protocol, what wasp-can labels allow, why boiling water and grey-market US dusts are the wrong answer, and when a nest is beyond DIY.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to ground-nesting yellow jackets: nest identification, the dusk treatment protocol, what wasp-can labels allow, why boiling water and grey-market US dusts are the wrong answer, and when a nest is beyond DIY.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('yellowjacket-ground-nest') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'How to Get Rid of Ground Wasps Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -221,12 +224,14 @@ export default function HowToGetRidOfGroundWaspsCanadaPage() {
 
           <h2>First, Confirm What Is Actually in That Hole</h2>
           <p>Late summer is when Canadians discover ground nests the hard way, so start with a 60-second identification from a safe distance. Watch the hole from 4&ndash;5 metres for a minute in daylight. A yellow jacket nest announces itself unmistakably: a steady, two-way stream of sleek, bright black-and-yellow wasps entering and leaving <em>one</em> hole, often a former rodent burrow at the edge of a garden bed, under a shrub, or in open lawn. By August that traffic can be several wasps per second, because eastern and common yellowjacket colonies in southern Canada routinely grow to hundreds &mdash; and late in the season, several thousand &mdash; workers.</p>
+          <Photo id="yellowjacket-ground-nest" alt="Yellowjackets at the entrance hole of a ground nest among stones and dry soil" caption="Western yellowjackets, Vespula pensylvanica, at the entrance of a ground nest. Watch for a steady two-way stream of black-and-yellow wasps using one hole." />
           <p>Two look-alikes matter because they should be left alone. <strong>Solitary ground-nesting bees</strong> (fuzzy, often smaller, active in spring) and <strong>digger wasps or cicada killers</strong> (large but non-aggressive, active mid-summer) make <em>scattered individual holes</em> across dry, sandy soil &mdash; one insect per hole, no traffic jam, almost no sting risk, and genuine pollination and pest-predation value. Dozens of little holes with the occasional insect is a leave-it-alone situation. One busy hole with constant traffic is a yellow jacket colony, and the rest of this guide is about that. A third look-alike works wood instead of soil: if the insect is hovering at a fascia board or deck rail and leaving a clean round hole, see <Link href="/blog/how-to-get-rid-of-carpenter-bees-canada" className="text-brand-700 underline">how to deal with carpenter bees</Link>.</p>
           <p>Photos of ground-nesting bees and their burrows, side by side with yellow jackets and cicada killers, are in our <Link href="/blog/ground-bees">guide to ground bees</Link>, along with whether they sting and how long they stay.</p>
 
           <NextUp path="/blog/how-to-get-rid-of-ground-wasps-canada" />
           <h2>Why Mowing Over the Nest Triggers an Attack</h2>
           <p>Most people find a ground nest at full throttle on a riding mower, and that is not bad luck &mdash; it is biology. Yellow jackets evolved with skunks, raccoons, and bears digging out their nests for the protein-rich larvae, so the colony treats <strong>ground vibration as an excavating predator</strong>. A mower deck, string trimmer, aerator, or even repeated heavy footfalls directly over the nest sends exactly that signal. Guard wasps boil out of the entrance and release alarm pheromone, which chemically recruits nestmates to the attack; and unlike a honey bee, every yellow jacket can sting repeatedly without dying.</p>
+          <Photo id="eastern-yellowjacket-live" alt="Eastern yellowjacket, a black and yellow wasp, resting on fabric" caption="An eastern yellowjacket, Vespula maculifrons, on fabric (Leominster, Massachusetts). Unlike a honey bee, every yellow jacket can sting repeatedly without dying." />
           <p>This is why the danger curve climbs through the season. In June a nest holds a few dozen wasps and a mowing pass gets you one or two stings; by late August and September the same nest holds its maximum population, its brood is at peak value, and the colony is at its most defensive &mdash; the mass-sting incidents that put people in Canadian emergency rooms cluster exactly there. If you hit a nest with the mower: abandon the mower, walk away fast in a straight line into a building or vehicle, and do not swat &mdash; crushed wasps release more alarm pheromone. Come back for the mower after dark.</p>
           <p>Until the nest is dead, flag a generous no-mow zone around it and tell everyone in the house. A nest you know about and avoid is a minor hazard; a nest a landscaper or visiting kid does not know about is the dangerous one.</p>
 
@@ -381,6 +386,7 @@ export default function HowToGetRidOfGroundWaspsCanadaPage() {
 
           <h2>Why Dust Beats Spray for Ground and Void Nests</h2>
           <p>The hole in the lawn is not the nest &mdash; it is the front door. Behind it, an entrance tunnel runs anywhere from a hand-span to well over 30 centimetres through the soil before opening into a paper colony the size of a football or bigger: stacked brood combs, workers by the thousand at late-summer peak, and the queen at the centre of it. A wall-void nest is the same architecture turned sideways, with the colony sometimes metres of stud bay away from the gap the wasps use. Fire a can of liquid jet spray at the front door and you wet the rim and the first stretch of tunnel; the colony&rsquo;s core &mdash; queen, brood, the night shift &mdash; never meets a droplet, and the survivors rebuild traffic within days. It is not the can&rsquo;s fault. It is the wrong physics for the target.</p>
+          <Photo id="yellowjacket-paper-nest" alt="Yellowjacket paper nest built inside the lid of a storage box, beside a tape measure" caption="A yellowjacket (Vespula) paper nest found inside the lid of a storage box, beside a tape measure (Lake Forest Park, Washington). In a ground nest, a paper colony like this sits behind the entrance tunnel, where a spray at the hole does not reach." />
           <p>Dust reverses the physics. A puff into the entrance coats the tunnel, and then the colony does the applicator&rsquo;s job: <strong>every forager walking the powdered passage picks up dust, grooms it, and tracks it inward</strong> &mdash; deeper with each trip, across the combs, onto nest-mates, eventually to the queen. Because dry dust is far less repellent than a wet pyrethroid residue, the wasps keep using the treated door rather than avoiding it. Traffic looks normal for hours; the colony collapses inside 24 to 48. The professional habit of <strong>leaving the entrance open</strong> is deliberate &mdash; returning foragers walking through the dust are part of the dose.</p>
           <p>This tracking-in mechanism is the same colony-level logic that makes bait beat spray for cockroaches and ants: recruit the insect&rsquo;s own behaviour as the delivery system, and the hidden majority of the colony stops being hidden.</p>
 
@@ -480,6 +486,7 @@ export default function HowToGetRidOfGroundWaspsCanadaPage() {
 
           <h2>When Dust Is the Wrong Tool Entirely</h2>
           <p>Dust&rsquo;s superpower is the enclosed passage, so it has a sharply defined failure case: <strong>the exposed aerial nest</strong>. The grey paper basketball on a branch or under an eave, and the open umbrella comb of a paper wasp under a railing, offer no tunnel to contaminate &mdash; the envelope and comb are right there in the open air. Puffing powder up at one from below deposits a little dust on the outside, thoroughly announces your presence, and leaves the colony largely intact and entirely annoyed.</p>
+          <Photo id="paper-wasp-nest-house-siding" alt="Paper wasps on an open-cell paper nest attached to house siding" caption="Guinea paper wasps, Polistes exclamans, on their nest on house siding (Lee County, Texas). An open comb like this has no tunnel for dust to coat." />
           <p>Exposed nests are what the pressurized can was born for: saturate the envelope and the entrance hole at the bottom with a foam or stream aerosol, at night, from the product&rsquo;s full rated distance. Our <Link href="/blog/best-wasp-killer-canada">best wasp killer guide</Link> matches every nest architecture to its weapon &mdash; foam, jet, dust, and trap &mdash; and our <Link href="/blog/how-to-get-rid-of-wasps-canada">complete Canadian wasp guide</Link> covers identification if you are not sure what is building what. If you are working anywhere near a colony in the meantime, dress for it &mdash; our <Link href="/blog/bug-protective-clothing-canada">protective clothing guide</Link> covers what actually stops a stinger.</p>
 
           <h2>When the Nest Is Beyond DIY</h2>

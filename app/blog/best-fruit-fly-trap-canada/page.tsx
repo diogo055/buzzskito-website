@@ -11,6 +11,8 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
@@ -20,7 +22,7 @@ import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'best-fruit-fly-trap-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-10-23'
+const UPDATED = '2026-11-08'
 const TITLE = 'The 4 Best Fruit Fly Traps in Canada: Why a Scent Lure Beats UV and Sticky Traps'
 const META_TITLE = 'Best Fruit Fly Trap in Canada: 4 Picks Ranked'
 
@@ -130,6 +132,7 @@ export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('fruit-fly'),
 }), '/blog/best-fruit-fly-trap-canada')
 
 const AMZ_TAG = tagForSlug('best-fruit-fly-trap-canada')
@@ -137,7 +140,7 @@ const AMZ_TAG = tagForSlug('best-fruit-fly-trap-canada')
 export default function BestFruitFlyTrapCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian comparison of liquid-lure, UV, plug-in, and sticky-ribbon fruit fly traps, with refill economics, placement science, and PMRA context on why traps beat sprays.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian comparison of liquid-lure, UV, plug-in, and sticky-ribbon fruit fly traps, with refill economics, placement science, and PMRA context on why traps beat sprays.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('fruit-fly') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Best Fruit Fly Trap Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -371,6 +374,7 @@ export default function BestFruitFlyTrapCanadaPage() {
 
           <h2 id="best-in-canada">What Is the Best Fruit Fly Trap in Canada?</h2>
           <p>The TERRO Fruit Fly Trap — the small red apple with a bottle of amber liquid inside — is the best fruit fly trap for most Canadian kitchens, and the reason is biology rather than branding. A fruit fly locates food almost entirely by smell: the yeasty, acetic odour of fermentation. The TERRO&rsquo;s lure is a vinegar-based formulation of exactly that odour profile, concentrated and sealed so it broadcasts for about a month instead of the few days an open bowl of apple cider vinegar manages. Flies follow the scent through the holes in the apple, land on the liquid, and drown. You never see them; you eventually just notice you have not seen <em>any</em> in a while. One thing it will not catch is a pantry moth: those answer a species-specific pheromone lure rather than vinegar, so see <Link href="/blog/pantry-moth-traps-canada" className="text-brand-700 underline">which pantry moth trap to buy and how many you need</Link> if the flier came out of a flour bag.</p>
+          <Photo id="fruit-fly" alt="Common fruit fly with a tan body and bright red eyes, seen from the side beside a 1 mm scale bar" caption="A male common fruit fly, Drosophila melanogaster, shown with a 1 mm scale bar. Look for the tan body and red eyes: this is the fly a vinegar-based lure is built to catch." />
           <p>That scent-first logic is also the honest frame for the whole category. Light-based traps — the Katchy, plug-in units like the Zevo — are real products with real strengths, but for <em>Drosophila</em> specifically they are fighting with the wrong lure. Where they earn their place is the adjacent problems: fungus gnats, which genuinely are light-attracted, and the &ldquo;small flying things, unsure which&rdquo; situation half of readers are actually in. This guide is the commercial companion to our step-by-step <Link href="/blog/how-to-get-rid-of-fruit-flies">how to get rid of fruit flies in Canada</Link> playbook — that page covers finding the breeding source; this one covers which hardware to buy.</p>
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four picks:</p>
@@ -411,6 +415,7 @@ export default function BestFruitFlyTrapCanadaPage() {
 
           <h2 id="katchy">Katchy: The Crossover Pick for Gnats and Mixed Infestations</h2>
           <p>The Katchy Indoor Insect Trap is the premium option in this roundup, and for a pure fruit fly problem it is honestly more machine than you need. Its UV-and-fan design shines when the enemy is <strong>fungus gnats</strong> — the skinny, mosquito-looking flies that rise from houseplant soil — because gnats are strongly light-attracted in a way fruit flies are not. Run overnight in a dark room, it clears gnat clouds impressively, and it will collect a respectable side-catch of fruit flies too.</p>
+          <Photo id="fungus-gnat-kitchen-counter" alt="Dark-winged fungus gnat with a shiny black body, long thin legs and clear wings, seen from above" caption="A dark-winged fungus gnat (family Sciaridae) found on a kitchen counter, seen close up from above (Moscow, Idaho). Darker and skinnier than a fruit fly, a fungus gnat breeds in damp potting soil and is drawn to light rather than to a vinegar lure." />
           <p>The winning combination for gnats is the Katchy for adults plus a BTI larvicide drench for the soil they breed in — the same <em>Bacillus thuringiensis israelensis</em> sold for mosquito larvae. Our guides to <Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits vs Dunks</Link> and the <Link href="/blog/mosquito-dunks-canada-guide">Mosquito Dunks Canada guide</Link> cover exactly how to use BTI granules in houseplant watering — it is the single most effective fungus gnat move in Canada, and it is fully PMRA-registered. If your flies come from plant pots, start there; if they come from the fruit bowl, start with the TERRO; if you genuinely cannot tell, the Katchy hedges both bets.</p>
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="katchy indoor insect trap">Check Katchy on Amazon.ca →</BuyLink>
@@ -441,6 +446,7 @@ export default function BestFruitFlyTrapCanadaPage() {
 
           <h2 id="timeline">The 2–3 Week Reality (Set Expectations Now)</h2>
           <p>Here is the lifecycle math that governs every fruit fly infestation in every Canadian kitchen. At room temperature, a fruit fly goes from egg to egg-laying adult in as little as eight to ten days. Each female lays up to 500 eggs directly onto fermenting material — the soft spot on a peach, the film inside a drain, the residue in a beer can headed for recycling. So the cloud you see today is one generation of a production line, and traps only intercept the finished product.</p>
+          <Photo id="fruit-fly-mango-peel" alt="Fruit fly with red eyes standing on a pale mango peel, seen from the side" caption="A common fruit fly, Drosophila melanogaster, on the mango peel where the observer’s household fruit flies were feeding and breeding, indoors (Austin, Texas). Soft fruit and peels like this are where females lay their eggs, which is why the breeding source has to go as well as the adults." />
           <p>That yields a predictable three-act timeline. <strong>Week one:</strong> traps thin the visible adults dramatically while eggs already laid keep hatching — you are catching a lot and still seeing flies, which is normal, not failure. <strong>Week two:</strong> with the breeding source found and removed, hatch-out tails off and daily catches collapse. <strong>Week three:</strong> traps sit empty; leave one dated TERRO out as a sentinel for another couple of weeks. If catches have <em>not</em> collapsed by day 14, the trap is not the problem — an undiscovered breeding site is, and the drain-check, produce-audit, and appliance-sweep sequence in our <Link href="/blog/how-to-get-rid-of-fruit-flies">fruit fly removal guide</Link> is the next move. No trap purchase substitutes for that search, which is exactly why this page and that one are a pair.</p>
 
           <h2 id="pmra">Why Traps and Not Sprays in Canada (the PMRA Line)</h2>
@@ -536,6 +542,7 @@ export default function BestFruitFlyTrapCanadaPage() {
           <p>Partly. The dish soap does the important half of the job &mdash; it breaks surface tension so any fly that lands drowns rather than walking away. Plain white vinegar is the weakest lure in the vinegar family, because distilled acetic acid lacks the fruit esters and residual ethanol that make apple cider vinegar, wine, and beer smell like real fermentation to a fruit fly.</p>
           <p>So the answer splits in two. As a <em>killing</em> medium, white vinegar plus soap works exactly as well as any other liquid: what lands, sinks. As an <em>attractant</em>, it under-recruits, which is why people report a white-vinegar bowl sitting untouched next to a cloud of flies. Three upgrades, in order of effectiveness: add a splash of fruit juice or a piece of ripe banana to the vinegar; swap to apple cider vinegar outright; or use the last inch of an open bottle of red wine.</p>
           <p>And the caveat that applies to every liquid in this guide: a bowl catches adults. If flies keep appearing, the eggs are somewhere you have not looked yet &mdash; most often a drain biofilm, which needs mechanical scrubbing rather than a better lure. If the flies are hovering near a bathroom or basement floor drain rather than the kitchen, check whether they are actually <Link href="/blog/how-to-get-rid-of-drain-flies-canada">drain flies, which need the pipe wall scrubbed</Link> instead.</p>
+          <Photo id="drain-flies-sink" alt="Three small dark drain flies on the white basin of a bathroom sink, near the drain" caption="Drain flies (bathroom moth flies), Clogmia albipunctata, in a bathroom sink beside the drain (Queens, New York). Flies like these that hang around a sink or floor drain breed in the film on the pipe wall, so the drain needs scrubbing, not a better lure." />
 
           <h2 id="best-liquid">What Liquid Attracts Fruit Flies the Most?</h2>
           <p>Liquids that smell like active fermentation: acetic acid, ethanol, and fruit esters together. A formulated commercial lure leads because it is engineered to hold that blend at strength for about 30 days. Among things already in your kitchen, overripe fruit steeping in its own juice leads, then red wine, then apple cider vinegar, then beer or kombucha.</p>

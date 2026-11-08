@@ -55,6 +55,17 @@ const ARTICLES_EXTENDED_NOV6 = new Set([
   'bug-zappers-canada-do-they-work', 'best-screen-tent-canada', 'tick-removal-tool-guide',
   'mosquito-repellent-guide-ontario-2026', 'natural-mosquito-repellent-ontario', 'best-tick-repellent-yard-canada',
 ])
+// Nov 8, 2026 (owner: "put pictures on all 17 pages"): the biggest Amazon pages, which had no photo at all, gained
+// 3-4 real, credited photographs each (pests, signs, nests; never product shots). Checked before every older set.
+const UPDATED_NOV8 = '2026-11-08T12:00:00.000Z'
+const ARTICLES_UPDATED_NOV8 = new Set([
+  'best-fruit-fly-trap-canada', 'best-rat-trap-canada', 'raccoon-deterrent', 'advion-cockroach-gel-bait',
+  'best-rodent-repellent-for-cars-canada', 'mosquito-bits-canada-vs-dunks', 'laser-mosquito-killer-photon-matrix-review',
+  'rat-poison-canada-what-is-legal', 'bed-bug-mattress-encasement-canada', 'bed-bug-spray-canada',
+  'best-flea-spray-for-home-canada', 'permethrin-canada-yard-clothing-spray', 'electric-fly-swatter',
+  'how-to-get-rid-of-ground-wasps-canada', 'best-wasp-nest-spray-canada', 'best-mouse-trap-canada',
+  'vamoose-for-mice',
+])
 // Oct 15, 2026: nine identification articles gained real, credited photographs (their first),
 // and /lyme-disease-canada-statistics was corrected to PHAC's current series (2024 = 5,809,
 // preliminary 2025 = 7,105).
@@ -462,7 +473,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Add blog posts from constants
   const blogPosts: MetadataRoute.Sitemap = allBlogArrays.map((post) => ({
     url: `${SITE_URL}/blog/${post.slug}`,
-    lastModified: ARTICLES_EXTENDED_NOV6.has(post.slug) ? UPDATED_NOV6 : ARTICLES_EXTENDED_NOV5.has(post.slug) ? UPDATED_NOV5 : ARTICLES_EXTENDED_NOV4.has(post.slug) ? UPDATED_NOV4 : (ARTICLES_RETROFITTED[`/blog/${post.slug}`] ?? (ARTICLES_PHOTOS_OCT16.has(post.slug) ? UPDATED_OCT16 : ARTICLES_PHOTOS_OCT15.has(post.slug) ? UPDATED_OCT15 : ARTICLES_EXTENDED_OCT8.has(post.slug) ? HUBS_UPDATED_OCT8 : new Date(post.date).toISOString())),
+    lastModified: ARTICLES_UPDATED_NOV8.has(post.slug) ? UPDATED_NOV8 : ARTICLES_EXTENDED_NOV6.has(post.slug) ? UPDATED_NOV6 : ARTICLES_EXTENDED_NOV5.has(post.slug) ? UPDATED_NOV5 : ARTICLES_EXTENDED_NOV4.has(post.slug) ? UPDATED_NOV4 : (ARTICLES_RETROFITTED[`/blog/${post.slug}`] ?? (ARTICLES_PHOTOS_OCT16.has(post.slug) ? UPDATED_OCT16 : ARTICLES_PHOTOS_OCT15.has(post.slug) ? UPDATED_OCT15 : ARTICLES_EXTENDED_OCT8.has(post.slug) ? HUBS_UPDATED_OCT8 : new Date(post.date).toISOString())),
     changeFrequency: 'monthly' as const,
     priority: 0.8,
   }))
@@ -504,7 +515,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     .filter(slug => !registeredSlugs.has(slug))
     .map((slug) => ({
       url: `${SITE_URL}/blog/${slug}`,
-      lastModified: ARTICLES_EXTENDED_NOV6.has(slug) ? UPDATED_NOV6 : ARTICLES_EXTENDED_NOV5.has(slug) ? UPDATED_NOV5 : ARTICLES_EXTENDED_NOV4.has(slug) ? UPDATED_NOV4 : (ARTICLES_RETROFITTED[`/blog/${slug}`] ?? (ARTICLES_PHOTOS_OCT16.has(slug) ? UPDATED_OCT16 : ARTICLES_PHOTOS_OCT15.has(slug) ? UPDATED_OCT15 : ARTICLES_EXTENDED_OCT8.has(slug) ? HUBS_UPDATED_OCT8 : LAST_CONTENT_UPDATE)),
+      lastModified: ARTICLES_UPDATED_NOV8.has(slug) ? UPDATED_NOV8 : ARTICLES_EXTENDED_NOV6.has(slug) ? UPDATED_NOV6 : ARTICLES_EXTENDED_NOV5.has(slug) ? UPDATED_NOV5 : ARTICLES_EXTENDED_NOV4.has(slug) ? UPDATED_NOV4 : (ARTICLES_RETROFITTED[`/blog/${slug}`] ?? (ARTICLES_PHOTOS_OCT16.has(slug) ? UPDATED_OCT16 : ARTICLES_PHOTOS_OCT15.has(slug) ? UPDATED_OCT15 : ARTICLES_EXTENDED_OCT8.has(slug) ? HUBS_UPDATED_OCT8 : LAST_CONTENT_UPDATE)),
       changeFrequency: 'monthly' as const,
       priority: 0.8,
     }))

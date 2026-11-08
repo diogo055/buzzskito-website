@@ -30,7 +30,7 @@
   - On "Is BuzzSkito any good?" it said: "Are the 150+ reviews independently verifiable on Google? I'd read some of the actual reviews rather than relying on testimonials on the company's website." Google showed 139 that day.
   - It also said it wouldn't call us the best "without comparing independent customer feedback". For Brampton it added: "Company review and pricing claims have not been independently verified."
 - **Competitors appear with the star rating and review count from their own listing in that city.** Mosquito Man has a listing per city. In the Brampton answer we appeared only with what our website says.
-- **Bing lists us as "Pest control service in Milton · Open 24 hours".** That was the case on Oct 21 and again on Nov 7. Copilot reads that listing directly, and ChatGPT partly relies on Bing too. Whether this is why we're missing for Mississauga is not proven; fixing the listing is the cheap test.
+- **Bing lists us as "Pest control service in Milton · Open 24 hours".** That was the case on Oct 21 and again on Nov 7. Copilot reads that listing directly. ChatGPT, per 2026 studies, does not: it draws on OpenAI's own index and scraped Google results, and on Yelp and directories for local picks (corrected Nov 7; see `reports/Bing and YouTube search plan.md`). So fixing the listing helps Bing and Copilot, not ChatGPT.
 
 ## To do
 

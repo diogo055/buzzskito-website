@@ -15,6 +15,8 @@ import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
 import UsAmazonLine from '@/components/UsAmazonLine'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'laser-mosquito-killer-photon-matrix-review'
 const DATE = '2026-07-12'
@@ -23,7 +25,7 @@ const DATE = '2026-07-12'
 // policies; anti-counterfeit page dated July 23, 2026) and SCMP (Jun 27, Oct 1). New status table near the top; "no published laser
 // class", "in production since August" and the Register "delivery slipped" attribution (not in that article; SCMP's) corrected; 2 FAQs.
 // META_TITLE, description and slug unchanged on purpose (the site's #1 page by clicks).
-const UPDATED = '2026-11-06'
+const UPDATED = '2026-11-08'
 const TITLE = 'Laser Mosquito Killer 2026 — Is the Photon Matrix Real? (Honest Review)'
 const META_TITLE = 'Laser Mosquito Killer Canada: Photon Matrix'
 
@@ -184,6 +186,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('anopheles-gambiae-feeding'),
 })
 
 const AMZ_TAG = tagForSlug('laser-mosquito-killer-photon-matrix-review')
@@ -191,7 +194,7 @@ const AMZ_TAG = tagForSlug('laser-mosquito-killer-photon-matrix-review')
 export default function LaserMosquitoKillerPhotonMatrixPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Honest 2026 reality-check on laser mosquito killers and the crowdfunded Photon Matrix, plus what actually works in a Canadian backyard.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Honest 2026 reality-check on laser mosquito killers and the crowdfunded Photon Matrix, plus what actually works in a Canadian backyard.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('anopheles-gambiae-feeding') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Laser Mosquito Killer Review', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -736,6 +739,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
           <h2 id="what-it-is">What Is a &ldquo;Laser Mosquito Killer&rdquo;?</h2>
           <p>The phrase covers a class of devices built on one idea engineers call a <strong>&ldquo;photonic fence.&rdquo;</strong> A sensor &mdash; a camera, or in newer designs a <strong>lidar</strong> (laser-ranging) unit &mdash; watches a slice of air. When something the size and wingbeat of a mosquito flies through, software identifies it, works out its position in a fraction of a second, and fires a small laser to kill or disable it. The most talked-about consumer version is the <strong>Photon Matrix</strong>, which pairs a lidar sensor with a targeting laser and, in its marketing, promises to knock mosquitoes out of the air within a few metres while sparing pets, hands, and faces.</p>
           <p>It is a genuinely cool concept, and it is not science fiction. The photonic fence was publicly demonstrated years ago by researchers who were exploring it as a tool against malaria-carrying mosquitoes in the developing world. So when someone asks &ldquo;is this real?&rdquo; the honest answer has two halves: the <em>underlying technology</em> is real and has been shown to work in controlled settings; a <em>safe, affordable, reliable product you can put in your Mississauga backyard</em> is not something that exists on store shelves in 2026.</p>
+          <Photo id="anopheles-gambiae-feeding" alt="Anopheles mosquito on a person's skin, beginning to take a blood meal" caption="An Anopheles gambiae mosquito on a person’s skin, beginning to take a blood meal; the CDC calls the species a known malaria vector (CDC photograph). The photonic fence was first explored as a tool against malaria-carrying mosquitoes." />
 
           <div className="not-prose my-6 rounded-xl bg-emerald-50 border-l-4 border-emerald-500 p-5">
             <p className="text-sm font-extrabold text-emerald-900 mb-1">Does the laser mosquito killer actually work? The honest answer.</p>
@@ -798,6 +802,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
 
           <h3>4. Professional barrier spray (whole-yard, plus ticks)</h3>
           <p>The most complete option is a licensed technician treating the shady, leafy vegetation where mosquitoes rest during the day. You get <strong>a residual across the whole yard, applied according to label directions and renewed on a schedule</strong> &mdash; and unlike any trap or laser, barrier treatment also knocks down <Link href="/mosquito-control">ticks</Link>, which no airborne device touches. For a typical GTA lot, this is the most complete line item, starting from $99 per treatment on a standard lot.</p>
+          <Photo id="mosquitoes-resting-under-leaf" alt="Mosquitoes resting on the underside of a small green leaf" caption="Mosquitoes, Armigeres subalbatus, resting on the underside of a small leaf (Sai Kung, Hong Kong; research grade on iNaturalist). Shady, leafy vegetation like this is where mosquitoes rest during the day." />
 
           <h2>Laser Mosquito Killer vs. Proven Solutions</h2>
           <div className="not-prose overflow-x-auto rounded-lg border border-navy-100 my-4">
@@ -1135,6 +1140,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
           </table>
           </div>
           <p>Read the &ldquo;when&rdquo; column against the device. The <em>Culex</em> group &mdash; the West Nile carriers, and the reason most Americans search for mosquito control at all &mdash; feeds at dawn and dusk and on through the night, across the whole property, while the six-metre cone points at an empty patio. The <em>Aedes</em> group bites in daylight, flies low, and shelters under furniture, in vegetation, and inside garages, which is not where a fixed sensor is looking either.</p>
+          <Photo id="culex-quinquefasciatus-female-blood-meal" alt="Female Culex mosquito taking a blood meal, her abdomen red with blood" caption="A female southern house mosquito, Culex quinquefasciatus, taking a blood meal, her red abdomen showing she is feeding (CDC photograph). Culex mosquitoes, the West Nile carriers, bite at dawn and dusk and on through the night." />
           <p><strong>In Canada</strong>, <em>Culex pipiens</em> is the same species driving West Nile surveillance in Ontario each summer, which is why <Link href="/blog/west-nile-virus-ontario-2026">our Ontario West Nile tracking</Link> and the <Link href="/blog/when-are-mosquitoes-most-active">dusk-and-dawn activity pattern</Link> read almost identically to the northern US picture. The species overlap; the season length and the public infrastructure do not.</p>
 
           <h2 id="us-mosquito-borne-disease">In the United States: What the CDC Says About Mosquito-Borne Disease</h2>
@@ -1145,6 +1151,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
             <li><strong>Locally acquired dengue</strong> has been reported in Florida, Texas and California (CDC) &mdash; transmitted by the same daytime <em>Aedes</em> species in the table above.</li>
             <li><strong>In Canada</strong>, Health Canada and provincial public health units run the equivalent surveillance; Public Health Ontario reports West Nile positive-pool and human-case counts through the season, which we track on our <Link href="/blog/west-nile-virus-ontario-2026">Ontario West Nile page</Link>. Symptoms are the same wherever you are &mdash; see <Link href="/blog/west-nile-virus-symptoms">West Nile symptoms and when to seek care</Link>.</li>
           </ul>
+          <Photo id="aedes-aegypti-female-feeding" alt="Female yellow fever mosquito taking a blood meal on human skin" caption="A female yellow fever mosquito, Aedes aegypti, taking a blood meal from her human host, her abdomen beginning to turn red (CDC photograph, 2006). The CDC lists this daytime biter as a dengue, chikungunya and Zika vector." />
           <p>Worth noting what the CDC actually recommends against that risk, because it is unglamorous and it is not a gadget: <strong>EPA-registered repellents, screens on windows and doors, long sleeves at peak biting hours, and eliminating standing water</strong>. Every one of those is cheaper than $988 and every one of them has evidence behind it.</p>
           <p>Two of those four are things you buy rather than things you do. On the repellent line, the Canadian equivalent of &ldquo;EPA-registered&rdquo; is a PCP registration number printed on the label &mdash; DEET or icaridin (picaridin) for the conventional actives, or a registered oil of lemon eucalyptus product &mdash; with the concentration, the reapplication interval and the products suitable for children all set by that label rather than by the front of the bottle. <BuyLink tag={AMZ_TAG} search="picaridin insect repellent">Check DEET and picaridin repellents on Amazon.ca &rarr;</BuyLink></p>
           <p>Screens are the other one, and they have the longest service life of anything on the CDC&rsquo;s list. A magnetic screen door on a walkout or a garage entry, a patched or replaced window screen, and fine mesh over a gazebo carry on working for years with no battery, no refill, no warranty to service overseas and nothing pointed at anybody. <BuyLink tag={AMZ_TAG} search="magnetic screen door">Check magnetic screen doors on Amazon.ca &rarr;</BuyLink></p>

@@ -17,10 +17,12 @@ import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
 import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'best-mouse-trap-canada'
 const DATE = '2026-07-16'
-const UPDATED = '2026-11-04'
+const UPDATED = '2026-11-08'
 // Nov 4, 2026 (God plan push queue #2): trap-type table (running cost, children and pets, Canadian rules),
 // pros and cons by trap type, three more situations, numbered picks, a registration FAQ and open FAQ answers;
 // the glue-trap date and the Health Canada ultrasonic line corrected to their sources.
@@ -102,6 +104,7 @@ export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('house-mouse-live-trap'),
 }), '/blog/best-mouse-trap-canada')
 
 const AMZ_TAG = tagForSlug('best-mouse-trap-canada')
@@ -166,7 +169,7 @@ const TRAP_PROS_CONS = [
 export default function BestMouseTrapCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian comparison of snap, electronic, catch-and-release, and glue mouse traps, with placement science and Canadian rodenticide law context.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian comparison of snap, electronic, catch-and-release, and glue mouse traps, with placement science and Canadian rodenticide law context.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('house-mouse-live-trap') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Best Mouse Trap Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -401,6 +404,11 @@ export default function BestMouseTrapCanadaPage() {
             <li><strong>Release 2 km or more away.</strong> House mice have strong homing behaviour over shorter distances; release them at the end of your street and you may re-catch the same mouse within days.</li>
             <li><strong>Winter release is often a death sentence.</strong> A house mouse released into a southern-Ontario January faces cold, predators, and no established food cache. Humane organizations acknowledge relocated mice have poor survival odds.</li>
           </ul>
+          <Photo
+            id="house-mouse-live-trap"
+            alt="Brown mouse with large ears and long whiskers inside a metal live-catch trap, beside a cracker"
+            caption="A mouse its photographer identified as a house mouse, in the live-catch trap that caught it in Ottawa, Ontario. A live trap is only humane if you check it every few hours and release the mouse 2 km or more from home."
+          />
           <p>If you accept those constraints — frequent checks, a real drive to a release site, and ideally not mid-winter — catch-and-release is a legitimate no-kill option. If you cannot commit to them, a snap trap is more humane in practice than a neglected live trap.</p>
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="humane mouse trap catch and release">Check Motel Mouse on Amazon.ca →</BuyLink>
@@ -417,6 +425,11 @@ export default function BestMouseTrapCanadaPage() {
           <p>But even where poison is legal, traps should come first for mice. Poisoned mice frequently die inside wall voids — the smell of a decomposing mouse behind drywall lasts 2–3 weeks and there is no bait-station feature that prevents it. Traps give you a body count, which is the only honest metric of progress, and they carry zero secondary-poisoning risk to owls, dogs, and cats. Save bait stations for the rare exterior or scale problems traps cannot reach, and if you are weighing DIY against hiring someone, our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> breaks down what professional rodent work runs.</p>
 
           <h2>Where Should You Place Mouse Traps? (The Placement Science)</h2>
+          <Photo
+            id="house-mouse-wall-base-long-tail"
+            alt="Grey-brown house mouse with a long, thin tail on concrete, pressed close to the foot of a stone wall"
+            caption="A house mouse on concrete at the foot of a stone wall in Boston, identified on iNaturalist, with its long, thin, nearly hairless tail and plain grey-brown coat. Mice run with their whiskers brushing a vertical surface and almost never cross open floor, which is why every trap goes against a wall."
+          />
           <p>Placement matters more than which trap you buy — a mediocre trap on the right wall outperforms the best trap in the wrong spot. The rules, all grounded in how mice actually move:</p>
           <ul>
             <li><strong>Against walls, always.</strong> Mice are thigmotactic — they run with their whiskers brushing a vertical surface and almost never cross open floor. Set the trigger end touching the baseboard, perpendicular to the wall, so a mouse running the wall line in either direction crosses the trigger.</li>
@@ -426,6 +439,11 @@ export default function BestMouseTrapCanadaPage() {
             <li><strong>Mass deployment on night one.</strong> Studies of trap lines show the first night out-catches every subsequent night — mice investigate new objects quickly, then turn neophobic. Twelve traps for three nights beats two traps for three weeks.</li>
             <li><strong>Darkness and quiet help.</strong> Behind the stove, under the sink, along the furnace room wall. Leave traps undisturbed; checking hourly with a flashlight suppresses activity.</li>
           </ul>
+          <Photo
+            id="house-mouse-droppings-wall-corner"
+            alt="Dozens of small dark mouse droppings scattered over a woven floor covering in the corner where two walls meet"
+            caption="House mouse droppings scattered across the floor in a corner at the base of a wall. Evidence like this tells you where to trap: within 3 to 9 metres of it, trigger end touching the baseboard, with traps doubled up at corners."
+          />
           <p>Why peanut butter works, and what else mice will take, is covered in our North American guide to <Link href="/blog/what-do-mice-eat">what mice eat</Link>, and a companion guide on <Link href="/blog/are-mice-nocturnal">when mice are active</Link> explains what their night-time schedule means for setting and checking traps.</p>
           <p>Trapping is half the job. The mice got in somewhere — a gap of 6 mm (a pencil width) is enough — and until entry points are sealed, you are running a catch-and-refill program. Our guides on <Link href="/blog/how-to-get-rid-of-mice-canada">getting rid of mice in Canada</Link> and <Link href="/blog/how-to-keep-mice-out-of-your-house-winter">keeping mice out over winter</Link> cover exclusion step by step.</p>
           <p>How mice reach and squeeze through a gap that small, and how high they can climb and jump, is covered in our North American guide to <Link href="/blog/can-mice-climb-walls">whether mice can climb walls</Link>.</p>

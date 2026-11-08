@@ -10,6 +10,8 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
@@ -20,7 +22,7 @@ import NextUp from '@/components/NextUp'
 // so the canonical, og:url and structured data pointed at an address that redirects back here.
 const SLUG = 'advion-cockroach-gel-bait'
 const DATE = '2026-07-21'
-const UPDATED = '2026-10-23'
+const UPDATED = '2026-11-08'
 const TITLE = 'Advion Cockroach Gel Bait in Canada — The Honest Grey-Market Answer'
 // TITLE NOTE (Oct 23, 2026): was 'Advion Cockroach Gel Bait Canada: 2026 Legality'; top queries: cockroach gel bait canada 408, advion cockroach gel bait 355, advion cockroach gel bait canada 321, advion cockroach gel 301 (15 clicks).
 const META_TITLE = 'Advion Cockroach Gel Bait Canada: Legal Options'
@@ -103,6 +105,7 @@ export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('german-cockroach-adult'),
 }), '/blog/advion-cockroach-gel-bait')
 
 const AMZ_TAG = tagForSlug('advion-cockroach-gel-bait-canada')
@@ -110,7 +113,7 @@ const AMZ_TAG = tagForSlug('advion-cockroach-gel-bait-canada')
 export default function AdvionCockroachGelBaitCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to Advion cockroach gel bait legality: the PMRA class system, what grey-market listings actually cost you, the PCP registration-number check, and the compliant bait-station alternatives that work.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to Advion cockroach gel bait legality: the PMRA class system, what grey-market listings actually cost you, the PCP registration-number check, and the compliant bait-station alternatives that work.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('german-cockroach-adult') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Advion Cockroach Gel Bait Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -159,6 +162,7 @@ export default function AdvionCockroachGelBaitCanadaPage() {
 
           <h2>Can You Buy Advion Cockroach Gel Bait in Canada?</h2>
           <p>Here is the honest version of the answer, which is longer than the one Reddit gives. Advion Cockroach Gel Bait is a Syngenta product built around indoxacarb, and in the United States &mdash; where consumers can freely mail-order professional pesticides &mdash; it has earned its reputation as the default answer to German cockroaches. In Canada, the question is not &ldquo;is Advion good?&rdquo; (it is) but &ldquo;are you legally allowed to buy and use the unit a marketplace seller will ship you?&rdquo; &mdash; and that is a much murkier question than the listings suggest.</p>
+          <Photo id="german-cockroach-adult" alt="Adult German cockroach, light brown with two dark stripes behind the head, on a white surface" caption="An adult German cockroach, Blattella germanica, on a white surface (Charlotte, North Carolina). It is the roach Advion is known for in the US, and the one the registered Canadian baits on this page are meant for." />
           <p>Canada regulates every pesticide through Health Canada&rsquo;s Pest Management Regulatory Agency (PMRA), which assigns each registered product a class: <strong>domestic</strong> products are for ordinary consumers, <strong>commercial</strong> products are for licensed applicators. Professional cockroach gels live in the commercial tier. Meanwhile, a large share of the Advion sold through cross-border sellers and marketplace listings is US-labelled stock &mdash; formulated, registered, and labelled under a US EPA registration that confers exactly zero legal status in Canada. Under the federal Pest Control Products Act, importing, selling, or using a pest control product that is not registered in Canada is an offence, and using a commercial-class product without provincial certification is a separate offence on top.</p>
           <p>We want to be careful and fair here: this is not an accusation aimed at any product or seller, and some products in this space do carry Canadian registrations. The problem is that <em>you cannot tell which from a product photo</em>. The only thing that settles it is the label on the physical unit in your hands: every pesticide legal to use in Canada carries a Canadian registration number that reads <strong>&ldquo;Reg. No. XXXXX P.C.P. Act&rdquo;</strong>, plus a class designation. No PCP number, or a commercial designation without a licence on your wall &mdash; the legal risk is yours, not the seller&rsquo;s. That one ten-second habit is the entire screening system, and it works on every pesticide category, not just roach gel &mdash; it is the same check we teach in our <Link href="/blog/rat-poison-canada-what-is-legal">rat poison legality guide</Link>, where the grey market is even bigger. Syngenta&rsquo;s ant version of this gel lands Canadian buyers in exactly the same spot, which is why <Link href="/blog/how-to-get-rid-of-ants-canada">our Canadian ant guide argues for the shelf-legal bait station instead</Link>.</p>
 
@@ -258,6 +262,7 @@ export default function AdvionCockroachGelBaitCanadaPage() {
 
           <h2>Why the Pro&rsquo;s Gel Works &mdash; and Why the Pro Comes With It</h2>
           <p>The uncomfortable truth behind Advion&rsquo;s legend is that the molecule is only half the story. Indoxacarb is genuinely clever &mdash; a &ldquo;pro-insecticide&rdquo; activated by enzymes inside the insect, with a documented secondary-transfer effect where poisoned roaches contaminate nest-mates through droppings and shared harbourage. But the results American renters rave about also come from what surrounds the syringe in professional hands: crack-and-crevice placement technique, follow-up visits on a schedule matched to the German cockroach breeding cycle, rotation between bait actives to defeat aversion and resistance, and pairing bait with an insect growth regulator so nymphs never mature into breeding adults.</p>
+          <Photo id="german-cockroach-nymphs" alt="Three German cockroach nymphs of different sizes, dark brown with a pale stripe down the middle of the back" caption="German cockroach nymphs at three different stages, seen from above (CDC photograph); they keep shedding their skins as they grow until they reach adulthood. An insect growth regulator is what stops nymphs like these from maturing into breeding adults." />
           <p>That package is what commercial-class registration assumes. Provincial applicator certification tests exactly the failure modes of casual use &mdash; baiting over repellent residues, contaminating food surfaces, mis-dosing, ignoring sanitation &mdash; and a licensed operator carries insurance and record-keeping obligations behind every placement. So the honest reframe for a Canadian homeowner is this: you are not locked out of good cockroach control. You are locked out of <em>one tier of tools</em>, and the licensed professionals who can use that tier are a phone call away when the situation warrants them. What you can do yourself, legally and effectively, is the tier below &mdash; and against light-to-moderate infestations it is a real tier, not a consolation prize.</p>
 
           <h2>The Compliant Toolkit: What Canadian Consumers Can Actually Use</h2>
@@ -381,6 +386,7 @@ export default function AdvionCockroachGelBaitCanadaPage() {
             <li><strong>Never spray over your bait.</strong> Repellent aerosols and foggers contaminate baiting surfaces and scatter the colony into new rooms. If you feel the urge to fog, re-read the FAQ below and put the money into more stations.</li>
             <li><strong>Expect a nymph wave, and re-judge at 4 weeks.</strong> Egg cases laid before you started will hatch on schedule; small roaches at week three are not failure. Falling monitor counts by week four are success. Flat counts are your signal to escalate.</li>
           </ul>
+          <Photo id="german-cockroach-egg-case-hatchlings" alt="Adult German cockroach on a sticky trap beside an egg case, with newly hatched pale nymphs stuck around it" caption="An adult German cockroach on a sticky trap beside an egg case (ootheca), with newly hatched pale nymphs stuck around it; the observer in Ontario saw them hatch. Egg cases laid before you started baiting hatch on their own schedule, so small roaches around week three do not mean the bait failed." />
           <p>What those small roaches look like, species by species and size by size, is shown in our photo guide to <Link href="/blog/what-do-baby-cockroaches-look-like">baby cockroaches</Link>, written for US readers.</p>
           <p>The full room-by-room campaign &mdash; including apartment-specific tactics and what to do about neighbouring units &mdash; lives in our <Link href="/blog/how-to-get-rid-of-cockroaches-canada">complete guide to getting rid of cockroaches in Canada</Link>; this page is the legality-and-products chapter of that playbook.</p>
 
@@ -413,6 +419,7 @@ export default function AdvionCockroachGelBaitCanadaPage() {
 
           <h2>When the Right Answer Is a Licence, Not a Listing</h2>
           <p>There is a threshold past which the consumer tier &mdash; used perfectly &mdash; will not win, and recognizing it early saves months. Daylight sightings mean the harbourages are overcrowded (the other warning signs are in our guide to the <Link href="/blog/signs-of-cockroaches">signs of cockroaches</Link>). Roaches in bedrooms and bathrooms mean the population has expanded beyond one resource zone. And any infestation in a multi-unit building is structurally a building problem: German cockroaches commute between units through plumbing chases and shared walls, so a single tenant&rsquo;s bait stations are bailing a boat with the drain open. In Ontario, landlords generally carry responsibility for pest treatment in rentals &mdash; document what you see and put the request in writing.</p>
+          <Photo id="german-cockroach-frass-cabinet" alt="Hole in the back wall of a kitchen cabinet, with dead cockroaches and dark specks of droppings around it" caption="A hole in the back wall of a kitchen cabinet that let cockroaches into the kitchen, with dead roaches and specks of droppings (frass) around it; the photographer identified them as German cockroaches. Gaps like this in shared walls and around plumbing are how roaches move between units, which is why one tenant’s bait stations rarely hold." />
           <p>A licensed exterminator is also, quite literally, the legal route to everything this article says you should not grey-market: the professional gels, the IGR pairing, and the follow-up schedule that makes them perform the way the forums promise. Our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> covers what professional cockroach treatment typically runs so you can budget and compare quotes with a straight face. And if your kitchen problem turns out to be flies rather than roaches &mdash; it happens more than you would think with drain-breeding insects &mdash; start at the <Link href="/blog/how-to-get-rid-of-fruit-flies">fruit fly guide</Link> instead; the moisture-loving traffic in cabinets might also point you to our <Link href="/blog/how-to-get-rid-of-silverfish-canada">silverfish guide</Link>.</p>
           <p>One last shopping note, since it is the other half of the same grey-market problem: aerosols are the category Canadian buyers reach for when bait feels too slow, and most of that spending is wasted or actively counterproductive. What a can is genuinely good for &mdash; and the registered products worth owning &mdash; is laid out in <Link href="/blog/best-cockroach-spray-canada">our review of cockroach sprays sold in Canada</Link>.</p>
 

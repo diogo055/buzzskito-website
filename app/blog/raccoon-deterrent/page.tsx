@@ -16,10 +16,12 @@ import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
 import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'raccoon-deterrent'
 const DATE = '2026-07-21'
-const UPDATED = '2026-10-23'
+const UPDATED = '2026-11-08'
 const TITLE = 'Best Raccoon Deterrent Canada 2026 — What Actually Works (and What Ontario Law Allows)'
 // TITLE NOTE (Oct 23, 2026): was 'Raccoon Deterrents Canada: The 2026 Tier List'; top queries: raccoon repellent 896, racoon deterrent 435, racoon repellent 423, raccoon deterrent 280 (24 clicks). Kept off 'motion activated sprinkler': motion-activated-sprinkler-canada owns that search.
 const META_TITLE = 'Raccoon Repellent Canada: Deterrents That Work'
@@ -94,6 +96,7 @@ export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('raccoon-on-chimney'),
 }), '/blog/raccoon-deterrent')
 
 const AMZ_TAG = tagForSlug('raccoon-deterrent-canada')
@@ -101,7 +104,7 @@ const AMZ_TAG = tagForSlug('raccoon-deterrent-canada')
 export default function RaccoonDeterrentCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to raccoon deterrents — motion-activated sprinklers, bin straps, exclusion mesh, and honest evidence tiers — built around Ontario’s deterrence-only wildlife law.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to raccoon deterrents — motion-activated sprinklers, bin straps, exclusion mesh, and honest evidence tiers — built around Ontario’s deterrence-only wildlife law.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('raccoon-on-chimney') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Raccoon Deterrent Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -202,6 +205,11 @@ export default function RaccoonDeterrentCanadaPage() {
 
           <h2>What Is the Best Raccoon Deterrent in Canada?</h2>
           <p>A motion-activated sprinkler is the best single raccoon deterrent you can buy in Canada &mdash; but the honest answer is that no single product wins this fight. Urban raccoons, and GTA raccoons in particular, are arguably the most human-adapted wild animals on the planet. Toronto&rsquo;s nickname &mdash; raccoon capital of the world &mdash; is not a joke: urban densities in parts of the city are estimated at 10 to 20 times what raccoons achieve in wild habitat, and research on Toronto&rsquo;s population suggests city life is actively selecting for better problem-solvers. The city literally spent years engineering a raccoon-resistant green bin, and a handful of raccoons still learned to open it.</p>
+          <Photo
+            id="raccoon-on-chimney"
+            alt="A raccoon on top of a brick house chimney at night"
+            caption="A raccoon on top of a house chimney at night in Chapel Hill, North Carolina. Around a house, raccoons den in the chimney, the attic, under a deck or in a shed."
+          />
           <p>Against an opponent like that, the strategy that works is a layered one, in strict priority order: <strong>first remove the food</strong> (strapped bins, no overnight pet food, bird-feeder discipline), <strong>then add an active deterrent</strong> (the motion sprinkler), <strong>then physically exclude</strong> the den sites (hardware cloth around decks and sheds). Lights, sound, and smell go last, because that is where the evidence puts them. Everything below follows that order &mdash; after one section you cannot skip, because it is the law.</p>
 
           <NextUp path="/blog/raccoon-deterrent" />
@@ -334,12 +342,22 @@ export default function RaccoonDeterrentCanadaPage() {
 
           <h2>Lawn Digging, Ponds, and Gardens</h2>
           <p>Torn-up turf in August and September is raccoons (and skunks) harvesting white grubs under the sod &mdash; the digging is a symptom, and the grubs are the disease. Under Ontario&rsquo;s cosmetic pesticide rules, the main grub control available to homeowners is <strong>beneficial nematodes</strong>, applied to moist soil in late August or September when young grubs are near the surface; kill the buffet and the excavation contract ends. While the nematodes work, run the motion sprinkler over the damaged sections and peg chicken wire flat over the worst patches &mdash; raccoons hate digging through mesh they are standing on. Fish ponds get the same two answers: a sprinkler covering the bank, plus mesh over the shallow end where raccoons wade. For vegetable gardens and sweet corn (a raccoon delicacy the week before you would have picked it), the sprinkler again earns its keep &mdash; positioned between the fence line and the crop.</p>
+          <Photo
+            id="european-chafer-grubs-from-lawn"
+            alt="About twenty white, C-shaped lawn grubs with brown heads in soil inside a plastic cup"
+            caption="About 20 European chafer grubs, white and C-shaped with brown heads, that the observer collected from one lawn in British Columbia and identified under a microscope. White grubs like these, beetle larvae in the root zone, are what raccoons roll back the turf to eat."
+          />
           <p>Not sure the digging is raccoons? Our photo guide to <Link href="/blog/holes-in-yard">which animal dug the holes in your yard</Link> sorts the usual diggers, from voles and chipmunks to skunks, by hole size, shape and mound.</p>
 
           <h2>Attic Noises: The One Job to Hand Off</h2>
           <p>Heavy thumping over the ceiling at night, chittering at dusk, insulation appearing in the soffits &mdash; an attic raccoon is the scenario where our advice is simply: hire a <strong>licensed wildlife control company</strong>. Not because the tools differ, but because the stakes do. Attic entries are overwhelmingly maternity dens; the work happens at roofline height; and every DIY failure mode is expensive &mdash; a mother locked out will peel back shingles and rip open soffits to reach her kits, and kits sealed inside become a carcass and fly problem inside your insulation. Professionals scope the attic with cameras, hand-remove the kits into a heated reunion box, one-way-door the mother, then screen the entry point and the roof vents she would use next time. It is the same deterrence-and-exclusion playbook, executed where the law and the ladder both say it should be. For what that work typically costs across Canada &mdash; and how to recognize a padded quote &mdash; see our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link>.</p>
           <p>To confirm it is a raccoon before you call anyone, our guide to <Link href="/blog/animals-in-attic">which animal is making noise in the attic</Link> sorts mice, rats, squirrels, raccoons, opossums and bats by when you hear them and the signs each one leaves.</p>
           <p>One safety note wherever raccoons have lingered: their communal latrines (flat roofs, deck corners, sandboxes, woodpiles) can carry <strong>raccoon roundworm</strong> (Baylisascaris procyonis) eggs, which are hazardous if ingested and resistant to most disinfectants. Clean latrine sites with boiling water, gloves, and a mask &mdash; never a dry sweep or shop vac &mdash; and report any raccoon seen staggering, circling, or active and fearless in daylight to your municipal animal control or Ontario&rsquo;s Wildlife Health Information Line (1-888-574-6656, monitored during business hours) rather than approaching it; Ontario only eliminated raccoon-strain rabies from the south of the province in 2023, and canine distemper produces near-identical symptoms.</p>
+          <Photo
+            id="raccoon-latrine-deck"
+            alt="Old and newer raccoon droppings piled on the boards of a backyard deck"
+            caption="A raccoon latrine: droppings that built up over a few months on a backyard deck in Richmond, California. A latrine like this can carry raccoon roundworm eggs, so clean it with boiling water, gloves and a mask, never a dry sweep."
+          />
           <p>To recognize a latrine before you clean it, our photo guide to <Link href="/blog/raccoon-poop">raccoon poop and latrines</Link> shows real latrine sites and how to tell raccoon droppings from opossum, dog and coyote droppings.</p>
 
           <h2>Raccoon Deterrence — Key Facts</h2>

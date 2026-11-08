@@ -17,10 +17,12 @@ import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
 import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'best-rat-trap-canada'
 const DATE = '2026-07-16'
-const UPDATED = '2026-10-23'
+const UPDATED = '2026-11-08'
 const TITLE = 'Best Rat Trap Canada 2026 — Snap vs Electronic + Why Mouse Traps Fail'
 // TITLE NOTE (Oct 23, 2026): was 'Best Rat Trap Canada 2026: Why Mouse Traps Fail'; top queries, 90 days to Oct 23: rat traps 1,792 at 10.6, best rat traps 1,121 at 6.9, rat trap 935 at 9.1, best rat trap 650 at 5.5, effective rat traps 640 at 11.2, electric rat trap 408 at 8.2, rat zapper 393 at 9.7 (76 clicks on the top 100 queries).
 const META_TITLE = 'Best Rat Traps Canada 2026: Snap vs Electric'
@@ -147,6 +149,7 @@ export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('house-mouse-vs-young-rat'),
 }), '/blog/best-rat-trap-canada')
 
 const AMZ_TAG = tagForSlug('best-rat-trap-canada')
@@ -154,7 +157,7 @@ const AMZ_TAG = tagForSlug('best-rat-trap-canada')
 export default function BestRatTrapCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent 2026 Canadian guide to rat traps — snap vs electronic, rat-vs-mouse trap sizing, pre-baiting technique, and PMRA-legal rodenticide rules.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent 2026 Canadian guide to rat traps — snap vs electronic, rat-vs-mouse trap sizing, pre-baiting technique, and PMRA-legal rodenticide rules.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('house-mouse-vs-young-rat') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Best Rat Trap Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -325,6 +328,11 @@ export default function BestRatTrapCanadaPage() {
 
           <h2 id="mouse-traps-fail">Why Do Mouse Traps Fail on Rats?</h2>
           <p>Because of mass. An adult Norway rat weighs 200–500 grams; a house mouse weighs 15–30 grams. A mouse trap&rsquo;s spring bar is engineered to break the neck of a 20-gram animal — against a rat that&rsquo;s 10–20 times heavier, it delivers a painful pinch instead of a kill. The rat tears free, and now you have a bigger problem than before: a <strong>trap-shy rat</strong>.</p>
+          <Photo
+            id="house-mouse-vs-young-rat"
+            alt="Sepia photograph of a house mouse lying above a two-week-old Norway rat on a wooden plank, each labelled with its name"
+            caption="A house mouse (top) beside a Norway rat only two weeks old (bottom). CDC points to the young rat’s coarser hair, smaller ears, blunter head and tail and proportionally larger feet, against the mouse’s larger ears, longer tail and finer hair. A grown Norway rat weighs 200 to 500 grams, 10 to 20 times a house mouse, which is why a mouse trap wounds a rat instead of killing it."
+          />
           <p>Trap-shyness is the reason sizing matters so much. Rats are intelligent, cautious animals that learn from a single bad experience and transmit avoidance behaviour to the rest of the colony. A rat that survives a mouse-trap strike will refuse to approach anything trap-shaped for weeks — sometimes permanently. Rat traps are built to close the deal the first time: roughly twice the footprint of a mouse trap, with several times the spring force. If you&rsquo;re actually dealing with mice (3–6 mm pointed droppings rather than 12–19 mm blunt capsules), you want our <Link href="/blog/best-mouse-trap-canada">best mouse trap Canada guide</Link> instead — the reverse mistake, rat traps for mice, wastes money and risks a nasty injury to fingers and paws.</p>
 
           <NextUp path="/blog/best-rat-trap-canada" />
@@ -359,6 +367,11 @@ export default function BestRatTrapCanadaPage() {
 
           <h2 id="norway-vs-roof">Do You Have Norway Rats or Roof Rats?</h2>
           <p>If you&rsquo;re in the GTA — or almost anywhere in Ontario — you have Norway rats. <em>Rattus norvegicus</em> is a heavy-bodied, blunt-nosed burrower with a tail shorter than its body. It travels at ground level, digs burrows along foundations, under decks, sheds, and compost bins, and enters homes through floor-level gaps, weeping tile, and sewer connections. Toronto, Mississauga, Brampton, and Hamilton rat complaints are overwhelmingly Norway rats, and construction excavation is a well-documented trigger for neighbourhood-level surges as burrow systems get displaced.</p>
+          <Photo
+            id="norway-rat"
+            alt="Brown rat with a grey-brown back, pale belly and feet, rounded ears and a thick dark tail, walking through dead leaves and stems"
+            caption="A Norway (brown) rat in side view, photographed in King County, Washington. This heavy-bodied, blunt-nosed burrower is the rat of the GTA and almost all of Ontario, so set traps low, along the walls and beside burrows."
+          />
           <p>Roof rats (<em>Rattus rattus</em>) — slimmer, larger-eared climbers with tails longer than their bodies — are established in coastal British Columbia but remain rare in Ontario. This matters for trap placement: US websites written for California or Florida tell you to trap in the attic and along rafters. In the GTA, that advice wastes your traps. <strong>Place traps low</strong> — basement perimeter walls, behind the furnace and appliances, near floor drains, along garage walls, and beside outdoor burrow entrances. If you have persistent attic noise in Ontario, the culprit is more likely squirrels, raccoons, or mice than rats — and if it is mice, our guide on <Link href="/blog/how-to-keep-mice-out-of-your-house-winter">keeping mice out in winter</Link> covers the exclusion work.</p>
           <p>How mice climb to an attic in the first place, and how small a gap they need, is covered in our North American guide to <Link href="/blog/can-mice-climb-walls">how mice climb, jump and squeeze through gaps</Link>.</p>
 
@@ -437,6 +450,11 @@ export default function BestRatTrapCanadaPage() {
 
           <h2 id="placement">Where Should You Place Rat Traps?</h2>
           <p>Rats are edge-runners: they travel with a wall or object against one flank, almost never crossing open floor. Read the evidence first — droppings, greasy rub marks at baseboard height, gnawing, and tracks in dust all mark active runways.</p>
+          <Photo
+            id="norway-rat-droppings-cornell"
+            alt="A scatter of dark, thick Norway rat droppings on a white background"
+            caption="Norway rat droppings, identified by the New York State IPM Program at Cornell University, which says they have blunt ends, can measure 19 mm (3/4 in) long and often contain hair swallowed during grooming. Droppings, greasy rub marks, gnawing and tracks in dust mark the active runways where rat traps go."
+          />
           <ul>
             <li><strong>Perpendicular to the wall</strong>, trigger end touching the baseboard, so the rat crosses the trigger whichever direction it&rsquo;s travelling.</li>
             <li><strong>3–5 metres apart</strong> along the active wall — and pairs of traps side by side catch rats that jump the first one.</li>
@@ -485,6 +503,11 @@ export default function BestRatTrapCanadaPage() {
             <li><strong>Beside compost bins, bird feeders and pet feeding areas</strong> &mdash; but deal with the food first, because a trap next to an open food source is a trap the rats will ignore.</li>
             <li><strong>High, in roof-rat country.</strong> On the Gulf and Pacific Coasts add traps along fence tops, in garage rafters and where utility lines meet the building, wired in place so nothing can fall.</li>
           </ul>
+          <Photo
+            id="norway-rat-burrows"
+            alt="Several dark burrow openings in mossy soil around the base of a small tree growing beside a building’s concrete wall"
+            caption="Burrow entrances identified on iNaturalist as Norway rat, in mossy soil at the base of a street tree beside a building in Seattle. Set an anchored trap station a hand’s width to the side of an opening like these, not over it."
+          />
           <p>Two outdoor realities worth naming. First, sustained outdoor pressure often is not coming from your property &mdash; a neighbour&rsquo;s compost, a restaurant bin, or a construction excavation two streets over can supply rats faster than you trap them, and no amount of hardware fixes that alone. Second, garden trapping never ends the way indoor trapping does: outdoors you are managing a population rather than clearing a closed space, so treat the stations as permanent infrastructure to be checked weekly, not a two-week project.</p>
 
           <RelatedLinks path="/blog/best-rat-trap-canada" />

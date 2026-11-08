@@ -8,6 +8,8 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
@@ -18,7 +20,7 @@ import UsAmazonLine from '@/components/UsAmazonLine'
 
 const SLUG = 'electric-fly-swatter'
 const DATE = '2026-07-14'
-const UPDATED = '2026-10-23'
+const UPDATED = '2026-11-08'
 const TITLE = 'Best Electric Fly Swatter Canada 2026 — The Executioner vs Zap It vs Black Flag'
 const META_TITLE = 'Best Electric Fly Swatter Canada 2026: 3 Picks'
 
@@ -76,6 +78,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('house-fly'),
 })
 
 const AMZ_TAG = tagForSlug('electric-fly-swatter-canada')
@@ -83,7 +86,7 @@ const AMZ_TAG = tagForSlug('electric-fly-swatter-canada')
 export default function ElectricFlySwatterCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Honest 2026 Canadian buyer\'s guide to electric fly swatters and bug zapper rackets — Executioner vs Zap It vs Black Flag, voltage, mesh safety, and what they really kill.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Honest 2026 Canadian buyer\'s guide to electric fly swatters and bug zapper rackets — Executioner vs Zap It vs Black Flag, voltage, mesh safety, and what they really kill.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('house-fly') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Electric Fly Swatter Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -238,10 +241,12 @@ export default function ElectricFlySwatterCanadaPage() {
           <h2>Why the Bug Zapper Racket Is the One Zapper We Endorse</h2>
           <p>We spend every summer treating yards across the GTA, and we spend a good chunk of this blog telling people the uncomfortable truth about UV bug zappers: the plug-in lantern on your fence post kills moths and beetles all night while the mosquitoes bite you anyway. (The research on that is in our <Link href="/blog/bug-zappers-canada-do-they-work">honest bug zappers guide</Link>.)</p>
           <p>The electric fly swatter is different, and the difference is the operator. A passive UV zapper hopes the right insect flies into it. A racket puts the targeting computer — you — in charge. No attractant needed, no bycatch of pollinators, no chemicals, no waiting. For indoor flies and dusk-time mosquitoes on the deck, it is the highest-satisfaction $20-ish pest product in existence.</p>
+          <Photo id="house-fly" alt="Adult house fly seen from above, with a striped thorax, large reddish-brown eyes and clear wings" caption="An adult house fly, Musca domestica, in a close view from above (CDC photograph). Indoor house flies are what a racket is built for, and it can kill one in mid-air without waiting for it to land." />
           <p>The catch is that the category is flooded with near-identical-looking rackets whose grids range from &ldquo;kills a wasp mid-air&rdquo; to &ldquo;mildly inconveniences a fruit fly.&rdquo; Voltage, mesh design, and power source are what separate them. Three brands dominate Amazon.ca in 2026, and they map neatly onto three kinds of buyers.</p>
 
           <h2>The Executioner — Best Overall (the First-Swing Kill)</h2>
           <p>The Executioner, made by UK company Sourcing4U, has been the enthusiast pick for over a decade, and the reason is a design choice: it uses a <strong>single-layer grid</strong> of 1.2 mm zinc-plated steel wires with no protective outer mesh, driven at roughly 2,800–3,200 volts. Nothing stands between the insect and the charged wires, so contact means an instant, audible kill — flies, mosquitoes, moths, and yes, wasps, dropped on the first swing. The electronics are rated for over 100,000 zaps, the racket head is oversized (the standard model runs over 50 cm / 20 inches long), and it runs on two AA batteries.</p>
+          <Photo id="eastern-yellowjacket-live" alt="Eastern yellowjacket wasp with black and yellow bands, standing on white fabric" caption="An eastern yellowjacket, Vespula maculifrons, on fabric (Leominster, Massachusetts). A racket of 3,000 volts or more kills a wasp like this on contact, but never swing at one near its nest." />
           <p>The <strong>Executioner Pro</strong> stretches the head and handle past 55 cm (22 in) and steps up to two C cells for a hotter, longer-lasting zap — the pick if you are clearing cluster flies off cottage ceilings or want extra reach for wasps. There is also a single-layer <strong>Executioner Revenge</strong> variant with a soft-touch handle, plus colour options (yellow, blue, pink, purple).</p>
           <p>The trade-off is the same thing that makes it great: the live grid is exposed. Brush it against your leg mid-swing with the button held and you will feel it — which is exactly why the second brand exists.</p>
           <div className="not-prose my-4 flex flex-wrap gap-3">
@@ -296,9 +301,11 @@ export default function ElectricFlySwatterCanadaPage() {
           <h2>What They Kill — the Honest Version</h2>
           <p><strong>Houseflies: excellent.</strong> This is the design brief and the racket nails it. The oversized head means you do not need a precise swing, and unlike a plastic swatter there is no fly-gut smear on the window.</p>
           <p><strong>Mosquitoes indoors: excellent.</strong> Mosquitoes fly at barely 2 km/h (about 1.2 mph) and rest on walls and ceilings — easy racket targets. On a still evening on the deck, a racket plus long sleeves genuinely takes the edge off. If most of your biting problem is indoors, pair the racket with one of the picks from our <Link href="/blog/best-indoor-fly-mosquito-trap-canada">best indoor fly and mosquito traps guide</Link> so something is working while you sleep.</p>
+          <Photo id="culex-tarsalis-kitchen-wall" alt="Mosquito resting on a pale kitchen wall indoors, its long legs spread and its shadow on the wall" caption="A Culex tarsalis mosquito resting on a kitchen wall indoors in December (Moscow, Idaho). Indoors, mosquitoes fly slowly and rest on walls and ceilings, which makes them easy racket targets." />
           <p><strong>Mosquitoes outdoors, as yard control: poor.</strong> Be realistic — you are one person with a racket against a breeding population that can produce thousands of adults a week from a neglected eavestrough. Swatting is personal defence, not population control. Reducing the yard population takes source control, residual treatment of resting vegetation, or a CO&#8322;-baited trap — not more cardio.</p>
           <p><strong>Wasps and hornets: very good, with rules.</strong> A 3,000V+ racket is the best single-wasp tool ever invented: you can intercept them mid-air over the patio table without waiting for them to land. But zapped wasps release alarm pheromone, so never do this within sight of the nest, and let a zapped wasp drop before finishing it — stinger reflexes outlive the wasp by a few seconds.</p>
           <p><strong>Moths, fruit flies, cluster flies: good to excellent.</strong> Fruit flies die even at low voltage; big October cluster flies on cottage ceilings are exactly what the Executioner Pro&rsquo;s reach and C-cell zap are for.</p>
+          <Photo id="cluster-fly-window-sill" alt="Grey, bristly cluster fly with clear wings standing on a window sill" caption="A cluster fly, genus Pollenia, on a window sill in January (Moscow, Idaho). When cluster flies gather high on a cottage ceiling or foyer window in October, a racket’s reach matters more than its voltage." />
           <p><strong>Ticks: zero.</strong> Ticks do not fly. Nothing with a grid, a fan, or a UV bulb touches a tick problem — that requires targeted treatment of the tall grass and leaf-litter edges where ticks quest.</p>
 
           <h2>Battery vs USB-Rechargeable: Match It to Where the Racket Lives</h2>

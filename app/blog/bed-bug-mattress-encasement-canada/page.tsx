@@ -16,11 +16,13 @@ import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
 import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'bed-bug-mattress-encasement-canada'
 const DATE = '2026-07-16'
 // Oct 23, 2026: answer-first hero, the 12–18 month rule sourced to EPA, Health Canada and University of Minnesota Extension, encasement-type table, situation guide, 3 FAQs
-const UPDATED = '2026-10-23'
+const UPDATED = '2026-11-08'
 const TITLE = 'Best Bed Bug Mattress Encasement in Canada 2026 — SafeRest vs Utopia + the 12–18 Month Rule'
 // TITLE NOTE (Oct 23, 2026): was 'Bed Bug Mattress Encasement Canada: 2026 Picks'; top queries (Jul 23-Oct 20): bed bug mattress encasement 441 @ 8.9, bed bug mattress cover 327 @ 8.9, bed bug mattress protector 221 @ 10.0, best mattress encasement for bed bugs 99 @ 4.4 (page: 103 clicks on 12,224 impressions).
 const META_TITLE = 'Bed Bug Mattress Encasement Canada: Best Covers'
@@ -95,6 +97,7 @@ export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('bed-bug-dark-on-pale-fabric'),
 }), '/blog/bed-bug-mattress-encasement-canada')
 
 const AMZ_TAG = tagForSlug('bed-bug-mattress-encasement-canada')
@@ -102,7 +105,7 @@ const AMZ_TAG = tagForSlug('bed-bug-mattress-encasement-canada')
 export default function BedBugMattressEncasementCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to bed bug mattress encasements — SafeRest vs Utopia, the 12–18 month containment rule, and zipper failure points.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to bed bug mattress encasements — SafeRest vs Utopia, the 12–18 month containment rule, and zipper failure points.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('bed-bug-dark-on-pale-fabric') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Bed Bug Mattress Encasement Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -218,6 +221,11 @@ export default function BedBugMattressEncasementCanadaPage() {
           <NextUp path="/blog/bed-bug-mattress-encasement-canada" />
           <h2>Do Encasements Actually Work Against Bed Bugs?</h2>
           <p>Yes — encasements are one of the few bed bug products with a genuinely strong evidence base, because their job is mechanical rather than chemical. A quality encasement does three things: it traps any bugs and eggs already on the mattress inside, where they cannot feed and eventually starve; it denies new bugs the seams they need to hide in, forcing them onto smooth, light-coloured fabric where you can see them; and it converts a 30-minute mattress inspection into a 30-second glance. An encasement also freezes the evidence in place, which helps &mdash; anything appearing on that white surface afterwards is new, and <Link href="/blog/bed-bug-shells-casings-shed-skins-canada" className="text-brand-700 underline">telling a shed skin from a carpet beetle casing</Link> is the first read to make.</p>
+          <Photo
+            id="bed-bug-dark-on-pale-fabric"
+            alt="A dark bed bug in plain view on pale fabric"
+            caption="A bed bug on pale fabric, photographed in McAllen, Texas; in this photo its body looks almost black. A smooth, light-coloured encasement leaves bugs no seam to hide in, so they show up in plain view like this one."
+          />
           <p>What an encasement does <em>not</em> do is treat the room. Bed bugs harbor in the bed frame, headboard, baseboards, night stands, and outlet plates too. Field studies of infested homes consistently find the bed system (mattress, box spring, frame) holds the majority of an infestation — which is why encasements are considered a cornerstone of treatment — but the remainder lives beyond the fabric. Pair the encasement with <Link href="/blog/bed-bug-interceptor-traps-canada">interceptor cups under the bed legs</Link>, which stop bugs elsewhere in the room from climbing back up, and a <Link href="/blog/best-bed-bug-steamer-canada">steamer for the frame and baseboards</Link>.</p>
           <p>One honest caveat: bed bugs can still walk across the <em>outside</em> of an encasement and bite you through the night. The encasement is containment and denial of harborage — the interceptors and follow-up treatment are what cut off the rest of the population.</p>
 
@@ -278,6 +286,11 @@ export default function BedBugMattressEncasementCanadaPage() {
             <li><strong>Seam quality.</strong> A skipped stitch or unreinforced seam corner opens under the stress of flipping the mattress during installation. Inspect all seams when the encasement arrives, before it goes on the bed.</li>
             <li><strong>Frame abrasion.</strong> Metal frame burrs, staples in the box spring rails, and broken slats saw through encasement fabric over months. Run your hand over the frame before installing, tape over anything sharp, and re-inspect the encasement at every sheet change — a 10-second look at the corners and underside catches damage early.</li>
           </ul>
+          <Photo
+            id="bed-bug-nymph-scale-bar-cdc"
+            alt="Bed bug nymph seen from above beside a printed 1 mm scale bar"
+            caption="A bed bug nymph seen from above beside a 1 mm scale bar, photographed by CDC. First-instar nymphs are about 1 mm wide, so a zipper that gapes two or three teeth at the end-stop is enough to let them out."
+          />
           <p>A torn encasement isn&rsquo;t a total loss — patch small punctures immediately with heavy fabric tape as a stopgap — but a compromised zipper means replacing the unit, because the whole design assumes that closure is absolute.</p>
           <p>One brand has built its whole pitch around that first failure point: SureGuard&rsquo;s Invisi-Zip hides a fine-tooth zipper behind a Velcro-sealed flap that pins the pull shut, which is precisely the end-of-track gap described above. <Link href="/blog/sureguard-mattress-encasement-review-canada">Our teardown of that closure design</Link> covers whether it earns the premium and how to size it to a deep mattress.</p>
 
@@ -296,6 +309,11 @@ export default function BedBugMattressEncasementCanadaPage() {
             <li><strong>Date it.</strong> Write the install date on a piece of tape on the encasement corner. The zipper stays closed for 12–18 months from that date.</li>
           </ol>
           <p>Step four is where most households quietly stop. Encasing the mattress and leaving the box spring bare buys far less than it looks like it does, because a box spring is a hollow, stapled wooden frame — dozens of protected cracks that bed bugs actively prefer over a smooth mattress face. <Link href="/blog/best-bed-bug-box-spring-encasement-canada">The box-spring cover comparison</Link> explains why the two go on together and why you must buy the box-spring-specific size rather than a second mattress cover.</p>
+          <Photo
+            id="bed-bug-fecal-spots-bed-frame"
+            alt="Black bed bug fecal spots along the joint of a wooden bed frame"
+            caption="Black bed bug fecal spots on a wooden bed frame near where the bugs hid, photographed by the New York State IPM Program at Cornell University. A box spring is a stapled wooden frame with dozens of protected cracks like these, which is why it needs an encasement of its own."
+          />
           <p>If you want to treat the mattress before sealing it, be selective about what you spray on something you sleep on: only a product whose label explicitly names mattresses belongs there. <Link href="/blog/best-bed-bug-spray-for-mattress-canada">The mattress-labelled, PMRA-registered short list</Link> covers what passes that test in Canada, and the wider sequence this all fits into is laid out in <Link href="/blog/how-to-get-rid-of-bed-bugs-canada">the complete seven-step Canadian bed bug plan</Link>.</p>
 
           <h2>Where Encasements Fit in the Bigger Bed Bug Plan</h2>

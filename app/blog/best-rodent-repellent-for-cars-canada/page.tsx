@@ -16,10 +16,12 @@ import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
 import QuickIdTable from '@/components/QuickIdTable'
 import UsAmazonLine from '@/components/UsAmazonLine'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'best-rodent-repellent-for-cars-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-10-23'
+const UPDATED = '2026-11-08'
 const TITLE = 'Best Rodent Repellent for Cars in Canada — Tape vs Strobe vs Peppermint vs Traps'
 // TITLE NOTE (Oct 23, 2026): was 'Best Car Rodent Repellent Canada: Tape vs Strobe' (Sep 3 title test, data/exp-title-test.json: Canadian CTR 0.81% Aug 6-Sep 2, 0.47% Sep 24-Oct 21); top queries, 90 days to Oct 23: best rodent repellent for car engines 338 at 5.4, rodent repellent for cars 292 at 7.9, rodent deterrent for cars 230 at 7.8, mouse repellent for car 138 at 8.6, best rodent repellent for cars 120 at 8.7, car rodent repellent 115 at 7.3.
 // BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): peppermint-oil rodent repellent pouches (a repellent; "Not a registered repellent: Health Canada's registry lists no peppermint rodent repellent", per this page) lost their 4 buttons: the 'Best Natural' card, the table cell (now plain text), the button row (its caption now says three picks) and the button under the peppermint section. The capsaicin tape and the under-hood unit are left for the owner (this page calls the tape's status unclear; the unit is a device).
@@ -95,6 +97,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('deer-mouse-grass-feathers-cdc'),
 })
 
 const AMZ_TAG = tagForSlug('best-rodent-repellent-for-cars-canada')
@@ -102,7 +105,7 @@ const AMZ_TAG = tagForSlug('best-rodent-repellent-for-cars-canada')
 export default function BestRodentRepellentForCarsCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian comparison of capsaicin rodent deterrent tape, under-hood strobe/ultrasonic units, peppermint pouches, and perimeter snap traps for protecting vehicles from mice, with a winter-storage protocol and PMRA context.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian comparison of capsaicin rodent deterrent tape, under-hood strobe/ultrasonic units, peppermint pouches, and perimeter snap traps for protecting vehicles from mice, with a winter-storage protocol and PMRA context.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('deer-mouse-grass-feathers-cdc') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Best Rodent Repellent for Cars Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -309,7 +312,17 @@ export default function BestRodentRepellentForCarsCanadaPage() {
           <NextUp path="/blog/best-rodent-repellent-for-cars-canada" />
           <h2>Why Mice Move Into Cars (and Why Canada Makes It Worse)</h2>
           <p>An engine bay is close to a perfect mouse habitat: enclosed, dark, sheltered from rain, wind, and owls, riddled with cavities that hold nesting material — and, for hours after you park, warm. In a southern-Ontario October, a just-driven engine is one of the warmest objects on the street, and mice are superb heat-seekers. The air filter box, the battery tray, the cowl under the wipers, and the blower-motor housing are the classic nest sites, because they combine shelter with soft material to shred.</p>
+          <Photo
+            id="deer-mouse-grass-feathers-cdc"
+            alt="Dark grey-brown deer mouse with big dark eyes and ears crouched in a wooden corner among sawdust, pine needles and fluffy white fibres"
+            caption="A North American deer mouse in a corner between wooden boards, among wood shavings, pine needles and fluffy fibres. In a car, the air filter box, battery tray, cowl and blower-motor housing are the classic nest sites because they combine the same shelter with soft material to shred."
+          />
           <p>The chewing that follows is not feeding. Rodent incisors grow continuously through life, and gnawing is how they are kept ground down — wire insulation, vacuum hoses, and sound-deadening felt happen to be ideal gnawing media. You may have read that modern soy-based wire insulation &ldquo;attracts&rdquo; mice; the class-action lawsuits built on that theory were largely dismissed for lack of evidence, and mice chewed petroleum-based looms for decades before soy insulation existed. The practical takeaway is unchanged either way: any parked car is chewable, the risk concentrates in fall and during storage, and in Canada the repair claim — if you are lucky — goes through the comprehensive portion of your auto policy, deductible first.</p>
+          <Photo
+            id="mouse-nest-under-car-hood"
+            alt="Ball of reddish-brown fibrous nest material packed beside a black plastic housing in a car engine bay under the open hood"
+            caption="Nest material packed in beside the engine of a car that had not been driven for a few weeks, in San Diego; two iNaturalist identifiers attributed it to deer mice. Any parked car is chewable, and the risk concentrates in fall and during storage."
+          />
           <p>What mice actually eat, and the other things they gnaw that are not food, from cardboard and soap to insulation, are covered in our North American guide to <Link href="/blog/what-do-mice-eat">what mice eat and gnaw</Link>.</p>
 
           <h2>Capsaicin Deterrent Tape: The Best Overall, and Why It Earned It</h2>
@@ -363,6 +376,11 @@ export default function BestRodentRepellentForCarsCanadaPage() {
 
           <h2>When Repellents Are Not Enough</h2>
           <p>Escalate past this page when the evidence says the mice have already won a round: droppings reappearing on the engine cover within days of cleaning, a nest rebuilt after removal, chewed wiring on more than one loom, a check-engine light after the car has sat, or a blower fan that rattles and smells. At that point the sequence is trap-and-evict first (the <Link href="/blog/how-to-keep-mice-out-of-your-car">car playbook</Link> walks it step by step), then harden the building the car sleeps in — garage door sweeps, foundation gaps, the full <Link href="/blog/rodent-exclusion-kit-canada">exclusion kit checklist</Link>. If droppings are large, gnaw marks show individual tooth grooves, or you hear activity in the garage walls, price out professional help before the damage compounds — our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> shows what rodent work typically runs so you can sanity-check any quote.</p>
+          <Photo
+            id="mouse-tracks-car-engine-cover"
+            alt="Small rodent footprints in the dust on a black plastic engine cover, with a tuft of fibrous nest material in front of them"
+            caption="Rodent footprints in the dust on a plastic cover in the engine bay, with nest material in front of them, in the same San Diego car. Droppings back on the engine cover within days of cleaning, or a nest rebuilt after removal, mean it is time to trap and evict rather than repel."
+          />
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">

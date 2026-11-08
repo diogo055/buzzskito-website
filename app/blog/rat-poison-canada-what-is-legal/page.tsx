@@ -15,10 +15,12 @@ import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
 import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'rat-poison-canada-what-is-legal'
 const DATE = '2026-07-16'
-const UPDATED = '2026-10-23'
+const UPDATED = '2026-11-08'
 const TITLE = 'Rat Poison in Canada 2026 — What\'s Actually Legal (and What Isn\'t)'
 // TITLE NOTE (Oct 23, 2026): was 'Rat Poison Canada 2026: What Is Actually Legal'; top queries Jul 23-Oct 20: rodenticide canada 101 at 8.9, best mouse poison in canada 98 at 8.4, brodifacoum canada 78 at 6.0, is rat poison legal in ontario 78 at 5.0, rat poison canada 61 at 4.4 (page: 10,612 impressions at 5.5, 237 clicks).
 const META_TITLE = 'Rat Poison Canada: Which Rodenticides Are Legal'
@@ -93,6 +95,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('rodent-bait-station-wall'),
 })
 
 const AMZ_TAG = tagForSlug('rat-poison-canada-what-is-legal')
@@ -100,7 +103,7 @@ const AMZ_TAG = tagForSlug('rat-poison-canada-what-is-legal')
 export default function RatPoisonCanadaLegalPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to rodenticide law: which rat poisons are PMRA-registered for consumers, why second-generation anticoagulants are commercial-only, BC\'s SGAR restrictions, and the legal alternatives.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to rodenticide law: which rat poisons are PMRA-registered for consumers, why second-generation anticoagulants are commercial-only, BC\'s SGAR restrictions, and the legal alternatives.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('rodent-bait-station-wall') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Rat Poison Canada — What Is Legal', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -220,6 +223,11 @@ export default function RatPoisonCanadaLegalPage() {
           <p>Because they are lethal in a single feeding and persist in tissue. Health Canada says second-generation anticoagulants &ldquo;tend to be more acutely toxic than the first-generation and are retained much longer in body tissues,&rdquo; and that the extra measures it required in 2010 were &ldquo;warranted in order to prevent exposure of children, pets and non-target wildlife.&rdquo; Under that decision (REV2010-17, with new labels due by December 31, 2012), domestic products containing SGARs were prohibited, block or solid baits became the only domestic formulations allowed for the rodenticides it covered, loose bait forms (&ldquo;meal, treated whole-grain, pelleted and liquid&rdquo;) were prohibited, and domestic products must always be used in bait stations.</p>
           <p>The logic explains the whole Canadian market. A first-generation active like warfarin usually needs several feedings to kill and clears from tissue relatively quickly. Brodifacoum kills from one feeding — but the rat keeps eating for the 5 to 10 days it usually takes to die, loading its body with many lethal doses. Whatever eats that rat next — an owl, a hawk, a fox, the neighbour&rsquo;s cat — takes the accumulated dose. Scale that across every backyard in the country and you get chronic contamination of the predators that eat rodents for a living, which is exactly what wildlife testing later confirmed.</p>
           <p>So the loose anticoagulant pellets your parents bought at the hardware store are gone from the consumer aisle — removed by regulation, not fashion. For the rodenticides that decision covered, what remains on the consumer shelf is solid bait in a bait station, harder for a child, dog, or barred owl to get into.</p>
+          <Photo
+            id="rodent-bait-station-wall"
+            alt="Black plastic rodent bait station with a lid, set on paving stones tight against the wall of a building, a red warning label on top"
+            caption="A rodent bait station, a lidded plastic box for poisoned bait, set on paving stones against the wall of a building; its red label is Polish for deratization station, do not touch. Health Canada says domestic rodenticides must always be used in bait stations."
+          />
 
           <h2>What Are BC&rsquo;s SGAR Rules — and Will Other Provinces Follow?</h2>
           <p>British Columbia went further than the federal rules. Its 18-month Minister&rsquo;s Order banning the sale and use of SGARs was in place from July 21, 2021 to January 20, 2023, and the revised Integrated Pest Management Regulation took effect on January 21, 2023. The province says it prohibits &ldquo;the sale and use of SGARs in B.C. for all members of the public, and most commercial and industrial operations&rdquo;; only select sectors deemed &ldquo;essential services,&rdquo; such as hospitals and food production, can buy and use them, provided they meet the requirements (a certificate and licence, a site-specific integrated pest management plan and records of use) or hire a licensed pest-control company to do the work. Homeowners never had SGARs to lose: Health Canada prohibits them in domestic products nationwide.</p>
@@ -254,11 +262,21 @@ export default function RatPoisonCanadaLegalPage() {
             <li><strong>Current US d-CON (cholecalciferol)</strong> — reformulated for the American market after the EPA forced consumer SGARs off US shelves in 2015; no d-CON product is currently registered in Canada (the PMRA database lists only a historical one). Canada&rsquo;s own consumer cholecalciferol baits, registered in June 2026, are BASF&rsquo;s TC 411, 412 and 413.</li>
             <li><strong>Any loose pellet, meal, or place-pack poison bait</strong> — for the rodenticides covered by the 2010 decision, Health Canada prohibits loose bait forms (&ldquo;meal, treated whole-grain, pelleted and liquid&rdquo;) in domestic products and says domestic products &ldquo;must always be used in bait stations.&rdquo; (Corn-cellulose pellets are a separate, registered domestic product.)</li>
           </ul>
+          <Photo
+            id="bait-station-block-bait-loading"
+            alt="Gloved hand placing pink blocks of rodent bait on metal rods inside an opened black bait box against a brick wall"
+            caption="A gloved hand placing blocks of rodent bait on the rods inside an opened bait box set against a brick wall. For the rodenticides covered by Health Canada’s 2010 decision, a domestic product may only be a block or solid bait used in a bait station, never loose pellets or meal."
+          />
           <p>The screening rule takes ten seconds: look for the registration number and the word DOMESTIC on the label or listing (the Tomcat rat station reads &ldquo;REG&rsquo;N NO.: 31970 PCP ACT&rdquo;). Number and DOMESTIC present — a consumer product; follow its label. Absent — walk away, whatever the reviews say: Health Canada says &ldquo;Unregistered pesticides are illegal in Canada,&rdquo; and the Pest Control Products Act prohibits importing or using one. A COMMERCIAL label is for certified pest control operators, farmers and authorized program staff, not homeowners.</p>
 
           <h2>How Bad Is Secondary Poisoning of Owls, Hawks, and Pets?</h2>
           <p>Bad enough that it drove the law you&rsquo;ve just read about. B.C.&rsquo;s 2021 science review reports that in 164 owls collected in B.C. from 1988 to 2003, &ldquo;70% of owls had detectable liver residues of at least one anticoagulant rodenticide,&rdquo; with brodifacoum and bromadiolone the most commonly detected, and that across Canada great horned owls were the raptors most consistently exposed to SGARs (65%). The same review is careful about what that means: only six of the 164 owls (4%) were diagnosed with rodenticide toxicity as the cause of death.</p>
           <p>The mechanism is the delay: a rat carrying several lethal doses spends its final days slow, disoriented, and active in daylight — exactly the rodent a great horned owl or red-tailed hawk picks off first. The predator concentrates every dose its prey collected. The same relay can reach a pet that scavenges a poisoned rodent, on top of the direct risk of a dog chewing into bait.</p>
+          <Photo
+            id="red-tailed-hawk-with-mouse"
+            alt="Brown-and-white red-tailed hawk standing in tall green grass, facing the camera with a mouse in its beak"
+            caption="A red-tailed hawk with a mouse in its beak at Nisqually National Wildlife Refuge, Washington. A hawk or owl that eats a poisoned rodent concentrates every dose its prey collected."
+          />
           <p>Residues are not deaths, and sampling methods differ between studies — but no Canadian dataset we&rsquo;ve seen points the other way. Bait stations reduce the direct-access risk; nothing eliminates the relay risk except not poisoning the rat in the first place.</p>
 
           <h2>Should You Even Use Poison? Traps First</h2>
