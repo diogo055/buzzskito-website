@@ -18,7 +18,7 @@ import UsAmazonLine from '@/components/UsAmazonLine'
 
 const SLUG = 'red-ticks-and-clover-mites'
 const DATE = '2026-07-13'
-const UPDATED = '2026-10-15'
+const UPDATED = '2026-11-08'
 const TITLE = 'Red Ticks & Tiny Red Bugs: What They Actually Are'
 
 const FAQS = [
@@ -36,7 +36,7 @@ const FAQS = [
   },
   {
     question: 'Why does my tick look red or reddish-brown?',
-    answer: 'A tick that has already fed can look red, reddish-brown, or grey because it is engorged with blood. Unfed blacklegged (deer) ticks are dark, but as they feed their body balloons and the colour shifts. Some species — notably the lone star tick and Gulf Coast tick — also have naturally reddish-brown bodies with distinctive markings. A tick found attached and swollen with a red or rust colour is an engorged, feeding tick and should be removed promptly with fine-tipped tweezers.',
+    answer: 'A tick that has already fed can look red, reddish-brown, or grey because it is engorged with blood. Among unfed blacklegged (deer) ticks, only the adult female is reddish, with a red-orange body around a dark brown shield, but as ticks feed their body balloons and the colour shifts. Some species — notably the lone star tick and Gulf Coast tick — also have naturally reddish-brown bodies with distinctive markings. A tick found attached and swollen with a red or rust colour is an engorged, feeding tick and should be removed promptly with fine-tipped tweezers.',
   },
   {
     question: 'Are clover mites dangerous or do they bite?',
@@ -45,6 +45,14 @@ const FAQS = [
   {
     question: 'What is the lone star tick and is it red?',
     answer: 'The lone star tick (Amblyomma americanum) is a reddish-brown tick whose adult females carry a single white or silvery dot on the back — the "lone star." It is aggressive about biting humans and is expanding its range northward; the U.S. CDC tracks it across the southeastern and eastern United States, with occasional detections in southern Canada. Its bite is linked to alpha-gal syndrome (a red-meat allergy) and to ehrlichiosis. It is a true tick, not a clover mite, and its reddish body is a common reason people search for a "red tick."',
+  },
+  {
+    question: 'Do red ticks carry Lyme disease?',
+    answer: 'Some do. A small tick with a red-orange body around a dark brown shield is most likely an adult female blacklegged (deer) tick, the tick that spreads Lyme disease in the northeastern, mid-Atlantic and north-central United States, according to the U.S. Centers for Disease Control and Prevention. The reddish-brown lone star and brown dog ticks are not able to transmit Lyme disease bacteria, the CDC says, although they spread other infections. Clover mites and red velvet mites are harmless to people and do not feed on them.',
+  },
+  {
+    question: 'What is the big, bright red bug that looks like a tick?',
+    answer: 'Often a red velvet mite. The Missouri Department of Conservation describes true velvet mites as small, velvety, usually bright red mites, most no bigger than about 3 mm (1/8 inch), often seen on rocks, planters, tree trunks or the ground after rain. They are harmless to people and do not feed on people or pets at any stage of life; their larvae live on insects and spiders. A tick, by contrast, is brown to reddish-brown (the adult female deer tick is red-orange around a dark shield) and is found in grass or attached to skin.',
   },
   {
     question: 'How do I get rid of tiny red clover mites in my house?',
@@ -56,7 +64,7 @@ const FAQS = [
   },
   {
     question: 'How big is a clover mite compared to a tick?',
-    answer: 'A clover mite is about 0.75 mm long (roughly 1/32 inch, smaller than a pinhead), while a tick runs 1–5 mm (about 1/16 to 3/16 inch) unfed and swells to 4–10 mm (about 3/16 to 3/8 inch) once engorged with blood. Size alone settles most cases: if you can make out individual legs without magnification, you are looking at a tick, not a clover mite. Clover mites are so small that most people notice the swarm before they notice any single mite.',
+    answer: 'A clover mite is about 0.75 mm long (roughly 1/32 inch, smaller than a pinhead), while a tick runs 1–5 mm (about 1/16 to 3/16 inch) unfed and swells to 4–10 mm (about 3/16 to 3/8 inch) once engorged with blood. Size alone settles most cases: if you can make out individual legs without magnification, you are looking at a tick, not a clover mite, unless its body is velvety and bright red, which marks a harmless red velvet mite. Clover mites are so small that most people notice the swarm before they notice any single mite.',
   },
   {
     question: 'Clover mites vs chiggers — which tiny red mite actually bites?',
@@ -129,12 +137,13 @@ export default function RedTicksAndCloverMitesPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">There is no common bright-red tick species. Most &ldquo;red ticks&rdquo; people find are actually clover mites or engorged ticks &mdash; a tiny scarlet speck swarming a sunny wall is a harmless clover mite, while a reddish, swollen bug attached to skin is a tick that turned rust-coloured from feeding.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">There is no common bright-red tick species. A tiny scarlet speck swarming a sunny wall is a harmless clover mite and a bigger, velvety red mite on soil or rocks is a red velvet mite, also harmless to people; a small tick with a red-orange body around a dark brown shield is most likely an adult female blacklegged (deer) tick; and a reddish, swollen bug attached to skin is a tick that turned rust-coloured from feeding.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>A clover mite is about 0.75 mm (pinhead-sized), bright brick-red, and has 8 legs.</li>
               <li>Clover mites never bite people or pets and carry no disease &mdash; they feed only on plants.</li>
               <li>An engorged, feeding tick swells to 4&ndash;10 mm and turns rust-red, grey, or reddish-brown.</li>
               <li>True reddish-brown ticks include the lone star tick, whose adult female has a single white dot.</li>
+              <li>An unfed adult female blacklegged (deer) tick is about 2&ndash;3 mm, the size of a sesame seed, with a red-orange body around a dark brown shield.</li>
               <li>Clover mites cluster on sunny walls and windows; ticks live in grass and leaf litter and attach to skin.</li>
               <li>Keep a 45&ndash;60 cm (18&ndash;24 inch) plant-free border around the foundation to reduce clover mites.</li>
             </ul>
@@ -215,11 +224,11 @@ export default function RedTicksAndCloverMitesPage() {
           <AffiliateDisclosure />
 
           <h2>Why &ldquo;Red Tick&rdquo; Is Almost Always a Case of Mistaken Identity</h2>
-          <p>There is no common tick species that is bright, uniform red. A clover mite is about 0.75 mm (roughly 1/32 inch) and vivid scarlet, while a tick is 1–10 mm (about 1/16 to 3/8 inch) and brown to rust-brown. A red speck smaller than a pinhead, moving fast on a sunny wall, is a clover mite, not a tick.</p>
+          <p>There is no common tick species that is bright, uniform red. A clover mite is about 0.75 mm (roughly 1/32 inch) and vivid scarlet, while a tick is 1–10 mm (about 1/16 to 3/8 inch) and usually brown to rust-brown. A red speck smaller than a pinhead, moving fast on a sunny wall, is a clover mite, not a tick.</p>
           <Figure
             src="/diagrams/bugs-that-look-like-ticks.svg"
             alt="Comparison chart of a blacklegged tick against spider beetle, clover mite and bed bug across leg count, antennae, body shape, colour and true size"
-            caption="A bright red speck that leaves a red smear when crushed is a clover mite, not a tick. Clover mites are about 0.75 mm with one very long front pair of legs; ticks are brown to red-brown and never that vivid."
+            caption="A bright red speck that leaves a red smear when crushed is a clover mite, not a tick. Clover mites are about 0.75 mm with one very long front pair of legs; ticks are usually brown to red-brown and not that vivid."
             width={720}
             height={420}
             priority
@@ -252,8 +261,8 @@ export default function RedTicksAndCloverMitesPage() {
           </aside>
 
           <h2>2. Engorged Ticks — Real Ticks That Turned Red</h2>
-          <p>An engorged tick is an ordinary tick swollen with blood, not a separate red species. Unfed ticks are 1–5 mm (about 1/16 to 3/16 inch) and dark brown or black; a fully fed tick reaches 4–10 mm (about 3/16 to 3/8 inch) and turns rust-red, grey, or reddish-brown. Remove it with fine-tipped tweezers, pulling straight out.</p>
-          <p>The second common source of &ldquo;red tick&rdquo; confusion is a tick that has already been feeding. An unfed blacklegged (deer) tick, <em>Ixodes scapularis</em>, is small and dark. But as a tick feeds, its body balloons with blood and the colour shifts to grey, tan, rust, or reddish-brown. A swollen, reddish, grape- or bean-shaped bug attached to your skin or your pet is not a special &ldquo;red&rdquo; species — it is an ordinary tick that is <strong>engorged</strong> and actively feeding.</p>
+          <p>An engorged tick is an ordinary tick swollen with blood, not a separate red species. Unfed ticks are 1–5 mm (about 1/16 to 3/16 inch) and mostly dark brown or black (the adult female deer tick is red-orange around a dark brown shield); a fully fed tick reaches 4–10 mm (about 3/16 to 3/8 inch) and turns rust-red, grey, or reddish-brown. Remove it with fine-tipped tweezers, pulling straight out.</p>
+          <p>The second common source of &ldquo;red tick&rdquo; confusion is a tick that has already been feeding. An unfed blacklegged (deer) tick, <em>Ixodes scapularis</em>, is small, and only the adult female is reddish, with a red-orange body around a dark brown shield. But as a tick feeds, its body balloons with blood and the colour shifts to grey, tan, rust, or reddish-brown. A swollen, reddish, grape- or bean-shaped bug attached to your skin or your pet is not a special &ldquo;red&rdquo; species — it is an ordinary tick that is <strong>engorged</strong> and actively feeding.</p>
           <Photo
             id="tick-unfed-vs-engorged"
             alt="Two Ixodes ticks seen from above: a small dark-brown male beside a much larger female with a swollen, pale, engorged abdomen"
@@ -272,7 +281,7 @@ export default function RedTicksAndCloverMitesPage() {
           <p>For step-by-step guidance, see how to <Link href="/blog/how-to-remove-tick-safely">remove a tick safely</Link>, and to picture the unfed versus fed stages, our guide to <Link href="/blog/what-ticks-look-like-ontario">what ticks look like</Link> shows the colour changes in detail.</p>
 
           <h2>3. True Red-Bodied Ticks — Lone Star and Gulf Coast</h2>
-          <p>Two true tick species are naturally reddish-brown: the lone star tick, whose adult female carries a single white dot on her back, and the Gulf Coast tick, which has ornate silvery markings. Adults of both measure roughly 3–6 mm (about 1/8 to 1/4 inch). The CDC maps both mainly to the United States rather than Canada.</p>
+          <p>True ticks that are naturally reddish-brown include the lone star tick, whose adult female carries a single white dot on her back, and the Gulf Coast tick, which has ornate silvery markings. Adults of both measure roughly 3–6 mm (about 1/8 to 1/4 inch). The CDC maps both mainly to the United States rather than Canada.</p>
           <p>A handful of genuine tick species do have naturally reddish-brown bodies, which is the third reason &ldquo;red tick&rdquo; searches happen. These are real ticks that bite people, so they are worth recognizing.</p>
           <p><strong>Lone star tick (<em>Amblyomma americanum</em>):</strong> Reddish-brown, and the adult female carries a single bright white or silvery dot in the centre of her back — the &ldquo;lone star.&rdquo; It is an aggressive biter of humans, and per the CDC its range covers much of the southeastern and eastern United States and is pushing northward, with occasional detections in southern Canada. Its bite is associated with alpha-gal syndrome (a red-meat allergy) and with ehrlichiosis rather than Lyme disease.</p>
           <p><strong>Gulf Coast tick (<em>Amblyomma maculatum</em>):</strong> A reddish-brown to dark tick with ornate silvery markings, found mainly along the U.S. Gulf and Atlantic coasts. It can transmit a spotted-fever-group <em>Rickettsia</em>. It is uncommon in Canada but sometimes turns up in travellers&rsquo; searches.</p>
@@ -284,8 +293,20 @@ export default function RedTicksAndCloverMitesPage() {
           <p>Neither of these looks like the tiny scarlet dots on your windowsill. They are tick-sized (a few millimetres), eight-legged, brown with reddish tones, and found in grass and brush — not swarming your siding. To compare the ticks you are most likely to meet in Ontario, see our breakdown of the <Link href="/blog/blacklegged-deer-tick-ontario">blacklegged (deer) tick</Link>.</p>
           <p>If you are still unsure which tick you have found, or whether it is a tick at all, our <Link href="/tools/tick-identifier">tick identifier quiz</Link> asks six quick questions about where you picked it up, where you found it, its size, its colour and markings, its legs and the season, then shows the most likely ticks with a real photo of each, how to confirm it and what it can spread, or tells you when the bug is probably not a tick.</p>
 
+          <h2>Two More Red Ticks: the Adult Female Deer Tick and the Brown Dog Tick</h2>
+          <p>A small, flat tick with a red-orange body and a dark brown shield behind its head is most likely an adult female blacklegged (deer) tick. <a href="https://cfaes.osu.edu/fact-sheet/blacklegged-deer-tick-ixodes-scapularis" target="_blank" rel="noopener" className="underline hover:text-brand-700">Ohio State University&rsquo;s blacklegged tick fact sheet</a> gives the adult female exactly that colouring, while the male&rsquo;s back is covered by the dark brown shield and the nymph is translucent to slightly grey or brown, so a red-orange tick and a dark one can be the same species. Unfed adults are about the size of a sesame seed (2&ndash;3 mm), and a fed female can swell to about 6 mm wide and look grey.</p>
+          <Photo
+            id="blacklegged-tick-female-leg-hair"
+            alt="Small adult female blacklegged deer tick with a red-orange body and a dark shield crawling through the hair on a leg"
+            caption="An adult female blacklegged (deer) tick, Ixodes scapularis, crawling through the hair on a person’s leg, in a CDC photograph. Note the red-orange body around the dark brown shield."
+          />
+          <p>This is the red tick that can spread Lyme disease. The <a href="https://www.cdc.gov/ticks/about/where-ticks-live.html" target="_blank" rel="noopener" className="underline hover:text-brand-700">CDC&rsquo;s guide to where ticks live</a> places the blacklegged tick across the eastern United States, lists Lyme disease, anaplasmosis, babesiosis and Powassan virus disease among the infections it spreads, and says nymphs and adult females are the stages most likely to bite people. Ohio State says adults are active in spring and fall, and the CDC adds that adults may look for a host whenever winter temperatures are above freezing, so they can turn up in late fall and on mild winter days, not just in spring.</p>
+          <p>A plain reddish-brown tick on the family dog, or climbing a wall indoors, may be a brown dog tick. The <a href="https://ask.ifas.ufl.edu/publication/IN378" target="_blank" rel="noopener" className="underline hover:text-brand-700">University of Florida&rsquo;s brown dog tick profile</a> describes nymphs and adults as reddish-brown and elongated with no markings on the back, with adults about 2.3&ndash;3.2 mm long. Unusually for a tick, it can complete its whole life cycle indoors, so infestations build up in homes and kennels and are often first noticed as ticks crawling up walls or curtains.</p>
+          <p>Dogs are its main host. UF says it will bite people, although that is uncommon in the U.S., and the CDC says it spreads Rocky Mountain spotted fever in the southwestern United States and along the U.S.&ndash;Mexico border. <Link href="/blog/ticks-on-dogs">How to check a dog for ticks</Link> covers finding and removing them, and <Link href="/blog/deer-tick-vs-dog-tick">the deer tick vs dog tick guide</Link> compares the common species side by side.</p>
+          <p>One tick does have red in its name: the red sheep tick (<em>Haemaphysalis punctata</em>), an exotic tick whose adults prefer grazing livestock. A <a href="https://www.aphis.usda.gov/sites/default/files/fs-red-sheep-tick.pdf" target="_blank" rel="noopener" className="underline hover:text-brand-700">USDA information sheet on the red sheep tick</a> reports that it was identified in the United States for the first time in the summer of 2020, in ticks collected from vegetation on Block Island, Rhode Island, between 2013 and 2020.</p>
+
           <h2>How Big Is a Clover Mite Compared to a Tick?</h2>
-          <p>A clover mite is about 0.75 mm long — roughly 1/32 inch, smaller than the head of a pin. A tick is much bigger: 1–5 mm (about 1/16 to 3/16 inch) unfed, and 4–10 mm (about 3/16 to 3/8 inch) once engorged. If you can make out individual legs without magnification, it is a tick.</p>
+          <p>A clover mite is about 0.75 mm long — roughly 1/32 inch, smaller than the head of a pin. A tick is much bigger: 1–5 mm (about 1/16 to 3/16 inch) unfed, and 4–10 mm (about 3/16 to 3/8 inch) once engorged. If you can make out individual legs without magnification, it is a tick, unless its body is velvety and bright red, which marks a red velvet mite (see below).</p>
 
           <h2>What Are the Tiny Red Bugs on My Windowsill?</h2>
           <p>Tiny bright-red bugs appearing by the dozens on sunny windowsills, brick, siding, patios, and concrete are clover mites. Each one is about 0.75 mm (roughly 1/32 inch), has eight legs, and moves quickly in loose groups. They feed on lawn grass and clover, not on blood, and they cannot bite people or pets.</p>
@@ -301,6 +322,15 @@ export default function RedTicksAndCloverMitesPage() {
             caption="An adult chigger (left) and a larval chigger (the tiny speck at right) on the head of a pin. The biting chigger is the larva, roughly 0.25 mm, smaller than a 0.75 mm clover mite."
           />
 
+          <h2>Red Velvet Mites — the Bigger, Velvety Red Bug on Soil and Rocks</h2>
+          <p>A bright red, velvety mite crawling over soil, rocks, planters or a tree trunk, especially after rain, is a red velvet mite, not a tick. The <a href="https://mdc.mo.gov/discover-nature/field-guide/true-velvet-mites-red-velvet-mites" target="_blank" rel="noopener" className="underline hover:text-brand-700">Missouri Department of Conservation&rsquo;s velvet mite page</a> says true velvet mites are usually no bigger than about 3 mm (1/8 inch), though giant velvet mites can be nearly 13 mm (1/2 inch) long. At up to about 3 mm, a velvet mite can be as big as an unfed adult deer tick (2&ndash;3 mm), so size alone does not rule it out; the plump, velvety, bright red body does.</p>
+          <Photo
+            id="red-velvet-mite"
+            alt="Plump, bright red velvet mite with a velvety body and red legs crawling over mossy bark"
+            caption="A red velvet mite (family Trombidiidae) on bark in Rock Creek Park, Washington, DC. Note the plump, velvety, bright red body."
+          />
+          <p>Velvet mites are harmless to people. The same source says they do not feed on people or any other vertebrate at any stage of life: the larvae cling to insects and spiders and suck their juices, and the adults eat insects and insect eggs. Many people take them for adult chiggers, it adds, but they are not. <Link href="/blog/tiny-red-bugs">The tiny red bugs guide</Link> sorts the other red mites and insects by where you found them.</p>
+
           <h2>Clover Mites vs Red Spider Mites — What Is the Difference?</h2>
           <p>Clover mites and red spider mites are both tiny red plant-feeding mites, but they turn up in different places. Clover mites are about 0.75 mm and swarm the sunny outside walls and windowsills of a house; red spider mites are a similar size but live on plant leaves, cause pale stippling, and spin fine webbing. Neither bites people.</p>
 
@@ -313,6 +343,10 @@ export default function RedTicksAndCloverMitesPage() {
             <li><strong>Create a plant-free border.</strong> Keep a 45–60 cm (18–24 inch) strip of mulch, gravel, or bare soil between the lawn and the foundation. Clover mites cluster in the thick grass that touches the house, so this strip removes their launch pad.</li>
             <li><strong>Wait out the season.</strong> Clover mites die back in hot, dry summer weather and are naturally seasonal in spring and fall.</li>
           </ol>
+
+          <h2>Are Red Ticks Dangerous?</h2>
+          <p>It depends on what the red bug turns out to be. Clover mites and red velvet mites are harmless to people and do not feed on them, chiggers cause itchy welts but, the <a href="https://mdc.mo.gov/discover-nature/field-guide/chiggers" target="_blank" rel="noopener" className="underline hover:text-brand-700">Missouri Department of Conservation</a> says, are not known to spread disease in North America, and the real ticks that look red can all spread infections.</p>
+          <p>According to the <a href="https://www.cdc.gov/ticks/about/where-ticks-live.html" target="_blank" rel="noopener" className="underline hover:text-brand-700">CDC</a>, the adult female blacklegged tick can spread Lyme disease, anaplasmosis, babesiosis and Powassan virus disease; the lone star tick spreads ehrlichiosis, among other infections, and growing evidence suggests its bite may trigger alpha-gal syndrome; the brown dog tick spreads Rocky Mountain spotted fever in the southwestern United States and along the U.S.&ndash;Mexico border; and the Gulf Coast tick spreads <em>Rickettsia parkeri</em> rickettsiosis, a form of spotted fever. Lyme disease comes from blacklegged ticks: the <a href="https://www.cdc.gov/lyme/causes/index.html" target="_blank" rel="noopener" className="underline hover:text-brand-700">CDC&rsquo;s page on how Lyme disease spreads</a> says lone star and brown dog ticks are not able to transmit Lyme disease bacteria. Whatever the species, remove an attached tick promptly, as described below.</p>
 
           <RelatedLinks path="/blog/red-ticks-and-clover-mites" />
           <h2>What to Do if It Really Is a Tick</h2>

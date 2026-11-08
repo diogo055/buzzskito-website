@@ -11,7 +11,9 @@
     "beach fleas",
     "sand hoppers",
     "beach bugs that bite",
-    "chigoe flea"
+    "chigoe flea",
+    "are sand fleas dangerous",
+    "how to get rid of sand fleas"
   ],
   "metaTitle": "Sand Fleas: What They Are and Do They Bite?",
   "metaDescription": "Sand fleas on US beaches are harmless beach hoppers and mole crabs. See photos, the beach bugs that do bite, the chigoe flea, and how to treat bites.",
@@ -20,6 +22,7 @@
   "breadcrumb": "Sand Fleas",
   "excerpt": "What sand fleas are, whether they bite, which beach bugs do, the tropical chigoe flea, and how to treat and avoid bites, with real photos.",
   "datePublished": "2026-10-28",
+  "dateModified": "2026-11-08",
   "parent": { "href": "/learn/bug-bites", "name": "Bug Bites" },
   "quickAnswer": {
     "lead": "**On US beaches, the animals called sand fleas are crustaceans: beach hoppers, small jumping scavengers of washed-up seaweed that an entomology textbook calls harmless, and mole crabs, the surf-zone fishing bait that cannot bite or pinch.** Bites blamed on them can come from biting midges, stable flies or fleas; the sand flea that burrows into skin, the chigoe flea, lives in the tropics and subtropics.",
@@ -61,6 +64,15 @@
     { "type": "p", "text": "One medical source is less categorical: Cleveland Clinic says these crustaceans might cause red, itchy bumps that usually go away in a few days. If you were bitten on the sand, consider the insects that share the beach. Ebeling names two: fleas, which may turn up on beaches near homes, and stable flies, often found in piles of seaweed." },
     { "type": "p", "text": "The chigoe flea, covered below, is the exception: its mated females burrow into the skin." },
 
+    { "type": "h2", "text": "Are sand fleas dangerous?" },
+    { "type": "p", "text": "Not the beach hoppers and mole crabs of US beaches, which, as above, are described as harmless and do not feed on blood. The risks attached to the name come from other animals:" },
+    { "type": "ul", "items": [
+      "**The chigoe flea**, which burrows into skin in the tropics and subtropics: CDC says secondary bacterial infections, including tetanus and gangrene, are not uncommon.",
+      "**Horse flies and deer flies**, greenheads included: UF/IFAS says their bite wounds can become infected and that many people are allergic to the bites.",
+      "**Severe allergic reactions**: MedlinePlus says a severe allergic reaction can follow insect bites as well as stings; the warning box below lists the signs that call for 911.",
+      "**Biting insects abroad**: UF/IFAS says some biting midges spread Oropouche virus in South America and the Caribbean, and CDC says sand flies spread leishmaniasis in parts of about 90 countries."
+    ] },
+
     { "type": "h2", "text": "What are the mole crabs anglers call sand fleas?" },
     { "type": "p", "text": "Mole crabs are small, oval crustaceans that live in the swash zone, the wet sand where waves break and run up the beach. The [Florida Fish and Wildlife Conservation Commission](https://myfwc.com/wildlifehabitats/profiles/invertebrates/mole-crab/) describes the Atlantic mole crab, *Emerita talpoida*, as light brownish gray and up to 2 inches long, with five pairs of legs, no claws on the first pair and two feathery antennae for filtering plankton and debris from the water. It digs into the sand tail first." },
     { "type": "figure", "src": "/guides/photos/atlantic-mole-crab.webp", "width": 1200, "height": 812, "alt": "Atlantic mole crab, a smooth, oval, pinkish-brown crustacean with pale feathery appendages tucked beneath it, resting on a white surface", "caption": "An Atlantic mole crab, *Emerita talpoida*, from Assateague Island National Seashore in Maryland. Mole crabs are clawless and cannot bite or pinch, UF/IFAS Extension says.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/8470803" },
@@ -100,7 +112,7 @@
     { "type": "confused", "title": "Mistaken for sand fleas, or blamed for their bites", "items": [
       { "href": "/blog/no-see-ums", "name": "Biting midge (no-see-um)", "photo": "biting-midge-culicoides", "note": "About 1/25 to 1/12 inch with spotted wings; bites most around sunrise and sunset in still air", "alt": "Magnified biting midge seen from above through a microscope, with a speckled brown body and mottled wings" },
       { "href": "/blog/what-do-fleas-look-like", "name": "Cat flea", "photo": "cat-flea-on-fingertip", "note": "The most common flea in and around homes; its bites often land on the lower legs and feet", "alt": "Shiny reddish-brown cat flea in side view on a fingertip, its body flattened from side to side" },
-      { "href": "/blog/how-to-get-rid-of-chiggers", "name": "Chigger", "photo": "chigger-and-pinhead", "note": "A mite larva, not a flea; red welts and severe itching show up hours to a day later", "alt": "Adult chigger and a far smaller larval chigger on the head of a pin, each marked with an arrow" },
+      { "href": "/blog/chigger-bites", "name": "Chigger", "photo": "chigger-and-pinhead", "note": "A mite larva, not a flea; red welts and severe itching show up hours to a day later", "alt": "Adult chigger and a far smaller larval chigger on the head of a pin, each marked with an arrow" },
       { "href": "/blog/stable-flies", "name": "Stable fly", "photo": "stable-fly", "note": "Looks like a house fly but has a piercing beak pointing forward; breeds in beach seaweed", "alt": "Gray stable fly seen from above on white wood, with a striped thorax and a spotted abdomen" }
     ] },
 
@@ -114,6 +126,10 @@
     ] },
     { "type": "p", "text": "Never dig out a chigoe flea yourself. Cleveland Clinic says a burrowed sand flea should be removed only by a healthcare provider, with sterilized tools such as forceps or a needle, or other proven methods." },
     { "type": "callout", "tone": "warning", "title": "When to get medical care", "text": "Call 911 for signs of a severe allergic reaction, which MedlinePlus says can follow insect bites as well as stings: trouble breathing, swelling of the face or mouth, throat tightness or trouble swallowing, feeling weak, or turning blue. Cleveland Clinic says open sores, ulcers or signs of infection need immediate medical attention. After time in a place with chigoe fleas, call a provider about a white lesion on the foot, ankle or elsewhere, or an itchy or painful rash. See one for any rash or irritation that lasts more than a few days." },
+
+    { "type": "h2", "text": "How do you get rid of sand fleas?" },
+    { "type": "p", "text": "The beach hoppers and mole crabs themselves need no treatment. Ebeling's text calls beach hoppers harmless and UF/IFAS says mole crabs cannot bite or pinch; the sources here place beach hoppers in sand and washed-up seaweed and mole crabs in the wet sand where waves break, and none describes either one living indoors. What you can control is the insects that bite, with repellent, timing and clothing, as the next section explains." },
+    { "type": "p", "text": "If the bites start at home after a beach trip, check for ordinary fleas. Ebeling's text says the cat flea and dog flea are the most common fleas in and around homes, and CDC notes that flea bites often land on the lower legs and feet. Start with the pets, using [how to check a dog or cat for fleas](/blog/what-do-fleas-look-like), then follow [the plan for fleas in the house and yard](/blog/how-to-get-rid-of-fleas)." },
 
     { "type": "h2", "text": "How can you avoid bites at the beach?" },
     { "type": "p", "text": "Match the defense to the biter:" },

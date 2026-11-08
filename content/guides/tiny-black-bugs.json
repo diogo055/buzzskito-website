@@ -9,7 +9,10 @@
     "tiny black bugs that bite",
     "tiny black bugs that jump",
     "tiny black bugs in bathroom",
-    "tiny black bugs in bed"
+    "tiny black bugs in bed",
+    "black bugs in house",
+    "long skinny black bug in house",
+    "small round black bugs in house"
   ],
   "metaTitle": "Tiny Black Bugs in the House? ID Them (Photos)",
   "metaDescription": "Tiny black bugs indoors are usually small beetles, ants, fleas, springtails or small flies. Sort yours by where you found it, with photos and sizes.",
@@ -18,6 +21,7 @@
   "breadcrumb": "Tiny Black Bugs in the House",
   "excerpt": "Carpet beetle, pantry beetle, ant, flea, springtail or small fly? Sort a tiny black bug by where you found it, with photos and sizes.",
   "datePublished": "2026-10-16",
+  "dateModified": "2026-11-08",
   "parent": { "href": "/learn", "name": "Learning Centre" },
   "quickAnswer": {
     "lead": "**Tiny black bugs in a house are usually small beetles, ants, fleas, springtails or small flies, and two clues sort them: where you found the bug, and whether it crawls, jumps or flies.** A round beetle on a windowsill is likely a carpet beetle, which [UC IPM](https://ipm.ucanr.edu/home-and-landscape/carpet-beetles/) says is drawn to sunlight. A jumper is probably a flea or a springtail, and a tiny fly points to a drain, a houseplant or food.",
@@ -131,6 +135,17 @@
     { "type": "figure", "src": "/guides/photos/fungus-gnat.webp", "width": 1200, "height": 900, "alt": "Dark fungus gnat with long antennae, long thin legs and clear wings, standing on a piece of wood", "caption": "Dark-winged fungus gnat (family Sciaridae): a dark, delicate fly with long legs, built much like a small mosquito.", "credit": "Katja Schulz from Washington, D. C., USA, CC BY 2.0, via Wikimedia Commons", "license": "CC-BY-2.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dark-winged_Fungus_Gnat_(28778903446).jpg" },
     { "type": "p", "text": "In the pot, look for the larvae: UC IPM describes them as legless, with a shiny black head and a whitish to clear body. Texas A&M says fungus gnat infestations are most common in winter. Two other tiny bugs can come out of potting soil: springtails, which Colorado State says occasionally develop in houseplant soil and are often seen just after watering, and phorid flies, whose larvae can live in wet potting soil. [The fungus gnat control plan](/learn/how-to-get-rid-of-fungus-gnats) starts with letting the soil dry between waterings." },
 
+    { "type": "h2", "text": "What are the long, skinny black bugs in my house?" },
+    { "type": "p", "text": "A long, skinny dark bug indoors is often a millipede, a ground beetle, an earwig, a silverfish or a carpet beetle larva, and up close several of them are dark brown or gray rather than black. [The University of Maryland Extension's household pest key](https://extension.umd.edu/resource/identifying-common-household-insect-pests) describes most of them in a line or two." },
+    { "type": "ul", "items": [
+      "**Millipede.** An inch or longer and dark brown, with many short legs; UMD says millipedes curl up and die indoors and are usually found in the basement or near an outside entry door. [Millipedes in the house](/blog/millipedes) explains why they come in.",
+      "**Ground beetle.** [The University of Kentucky's ground beetle fact sheet](https://entomology.mgcafe.uky.edu/ef706) says most are shiny black, oval and elongate, with ridged wing covers. They wander in under doors and through small openings but generally do not stay indoors, and Kentucky says control is generally not warranted.",
+      "**Earwig.** Brown and about 1/2 inch long, with pincers on the rear, in UMD's key; [how to get rid of earwigs](/blog/how-to-get-rid-of-earwigs) covers them.",
+      "**Silverfish.** Flattened, about 1/2 inch long and gray or tan, with three tails, in boxes, cabinets, bathrooms and warm spots near the furnace, UMD says; see [how to get rid of silverfish](/blog/how-to-get-rid-of-silverfish).",
+      "**Carpet beetle larva.** UMD calls carpet beetle larvae carrot-shaped and furry, and UC IPM says black carpet beetle larvae reach 5/16 inch, light brown to almost black; the bed and carpet section above covers them."
+    ] },
+    { "type": "p", "text": "If the skinny black insect flies and stays near potted plants or a window, it is more likely a fungus gnat, covered in the houseplant section above." },
+
     { "type": "h2", "text": "Which tiny black bugs jump, and which ones bite?" },
     { "type": "p", "text": "Of the bugs on this page, fleas and springtails are the jumpers, and of those two only fleas bite. A flea is flattened from side to side and turns up where pets rest, while a springtail stays near moisture and, according to Colorado State, cannot bite. [The guide to bugs that look like fleas](/blog/bugs-that-look-like-fleas) compares the two." },
     { "type": "p", "text": "Fleas feed on blood. [The CDC's flea page](https://www.cdc.gov/fleas/about/index.html) says they prefer animal hosts but will bite people when animals are unavailable, and that the bites can cause discomfort, itchiness and irritation. UC IPM describes a flea bite as a small red spot with a red halo, usually without much swelling." },
@@ -175,6 +190,18 @@
     {
       "question": "What causes tiny black bugs in the house?",
       "answer": "Moisture, light and food explain most of them. Springtails, drain flies and phorid flies follow water and the decaying film in drains, according to Colorado State and Texas A&M. Carpet beetle adults, fungus gnats and several pantry beetles are drawn to light, which is why they turn up at windows and lamps. Pantry beetles and weevils come for stored grain products, and carpet beetle larvae for wool, fur, feathers and pet hair, as UC IPM and the University of Kentucky describe."
+    },
+    {
+      "question": "What are the small round black bugs in my house?",
+      "answer": "Usually carpet beetles or spider beetles. UC IPM describes adult carpet beetles as round, about 1/10 to 1/8 inch long, with short antennae, and says sunlight draws them to windows; the black carpet beetle is shiny black and dark brown and 1/8 to 3/16 inch long. Colorado State describes spider beetles as about 1/12 to 1/6 inch, with a round body on thin legs and the head hidden from above. A flat, oval, brown bug in a bed is more likely a bed bug, which EPA compares in size to an apple seed."
+    },
+    {
+      "question": "What are the tiny black bugs in my bed or bedroom?",
+      "answer": "Usually carpet beetles or, in a home with pets, fleas. UC IPM says carpet beetle larvae feed on wool, feathers, hair and pet hair in dark, undisturbed places and notes that some mattresses and pillows are stuffed with hair or feathers, while the small, round adults gather near windows. Adult fleas are no longer than 1/8 inch, flattened from side to side, and jump, and UC IPM says they are most numerous where pets sleep. Bed bugs bite, but EPA describes them as brown, turning reddish brown after feeding, not black."
+    },
+    {
+      "question": "Are tiny black bugs in the house harmful?",
+      "answer": "Most are a nuisance rather than a danger. Colorado State says springtails cannot bite and cause no significant damage, UC IPM says adult fungus gnats do not bite people, and Penn State says clover mites do not attack people. Pantry beetles infest stored dry food, and carpet beetle larvae feed on wool, fur and feathers. Fleas are the main biters here: CDC says their bites can cause discomfort, itchiness and irritation. Penn State adds that carpet beetle larva hairs can cause an itchy rash in some people exposed to them for years."
     }
   ],
   "sources": [
@@ -192,6 +219,8 @@
     { "title": "Fungus Gnats (Pest Notes, Publication 7448)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/fungus-gnats/" },
     { "title": "About Fleas", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/fleas/about/index.html" },
     { "title": "Biology and Impact of Biting Midges in Montana (MontGuide MT201205AG)", "publisher": "Montana State University Extension", "url": "https://extension-store.montana.edu/assets/publications/montguidepdfs/mt201205ag_biology_and_impact_of_biting_midges_in_mt.pdf" },
-    { "title": "Carpet Beetle Dermatitis", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/carpet-beetle-dermatitis" }
+    { "title": "Carpet Beetle Dermatitis", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/carpet-beetle-dermatitis" },
+    { "title": "Identifying Common Household Insect Pests (updated October 17, 2024)", "publisher": "University of Maryland Extension", "url": "https://extension.umd.edu/resource/identifying-common-household-insect-pests" },
+    { "title": "Ground Beetles (ENTFACT-706)", "publisher": "University of Kentucky Entomology", "url": "https://entomology.mgcafe.uky.edu/ef706" }
   ]
 }

@@ -10,7 +10,10 @@
     "identify animal poop",
     "raccoon vs possum poop",
     "animal poop in yard",
-    "snake poop"
+    "snake poop",
+    "animal poop identification chart by photo",
+    "rodent poop identification chart",
+    "insect poop identification chart"
   ],
   "metaTitle": "Animal Poop Identification Chart (Photos)",
   "metaDescription": "Raccoon, opossum, coyote, deer, rabbit, rat, mouse, bat, lizard and roach droppings compared by size, shape, contents and place, with real photos.",
@@ -19,6 +22,7 @@
   "breadcrumb": "Animal Poop Identification",
   "excerpt": "Whose poop is this? An animal droppings chart with real photos: raccoon, opossum, coyote, deer, rabbit, rat, mouse, bat, lizard and more, plus CDC cleanup steps.",
   "datePublished": "2026-10-20",
+  "dateModified": "2026-11-08",
   "parent": { "href": "/learn", "name": "Learning Centre" },
   "quickAnswer": {
     "lead": "**Identify animal poop by four clues together: its size against a ruler, its shape (pellets, tubes or specks), what is in it (seeds, hair, insect bits or white uric acid) and where you found it, especially whether it is piled in one spot or scattered.** Raccoons reuse one spot again and again; mice scatter theirs. Look, measure and photograph, but do not touch.",
@@ -63,14 +67,14 @@
     ] },
 
     { "type": "h2", "text": "What animal poop is in my yard?" },
-    { "type": "p", "text": "In a yard or on a lawn, start with five animals: raccoons, opossums, coyotes, deer and rabbits. Raccoon droppings look like small dog droppings, CDPH says: dark, smelly and often full of undigested seeds. A flyer from [Santa Barbara County Animal Services](https://www.dshs.texas.gov/sites/default/files/IDCU/health/zoonosis/outdoor/raccoonLatrine.pdf) adds that fresh ones are tubular with blunt ends and about as thick as a dime or nickel. [CDC](https://www.cdc.gov/baylisascaris/prevention/index.html) says raccoons usually go at the base of trees or on raised spots such as fallen logs, stumps and large rocks. More photos and the raccoon-versus-opossum comparison are in [the raccoon poop guide](/blog/raccoon-poop)." },
+    { "type": "p", "text": "In a yard or on a lawn, start with five animals: raccoons, opossums, coyotes, deer and rabbits. Raccoon droppings look like small dog droppings, CDPH says: dark, smelly and often full of undigested seeds. A flyer from [Santa Barbara County Animal Services](https://www.dshs.texas.gov/sites/default/files/IDCU/health/zoonosis/outdoor/raccoonLatrine.pdf) adds that fresh ones are tubular with blunt ends and about as thick as a dime or nickel, and [ICWDM's droppings key](https://icwdm.org/identification/inspection/brown-or-black-droppings/) puts them at 2 to 3 inches long and 1/2 inch wide. [CDC](https://www.cdc.gov/baylisascaris/prevention/index.html) says raccoons usually go at the base of trees or on raised spots such as fallen logs, stumps and large rocks. More photos and the raccoon-versus-opossum comparison are in [the raccoon poop guide](/blog/raccoon-poop)." },
     { "type": "figure", "src": "/guides/photos/raccoon-scat-branch.webp", "width": 1200, "height": 1200, "alt": "One long, dark, segmented raccoon scat with blunt ends draped over a fallen branch in woodland leaf litter", "caption": "Raccoon scat draped over a fallen branch in New Jersey woodland, identified on iNaturalist by the observer and an experienced tracker: one long, segmented tube with blunt ends.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/254031120" },
     { "type": "p", "text": "Opossum droppings are easy to mistake for a raccoon's. [UNL Extension](https://extensionpubs.unl.edu/publication/g1688/na/html/view) says the droppings of both animals are generally cat-sized and full of the remains of a varied diet, and that raccoon droppings stand out because raccoons go in the same place again and again. [The possum poop guide](/blog/possum-poop) covers the opossum in detail, and [possum vs opossum](/blog/possum-vs-opossum) explains the two names." },
     { "type": "p", "text": "Coyote scat often contains hair and is often left in the middle of a trail or another prominent place, according to [the Missouri Department of Conservation](https://mdc.mo.gov/discover-nature/field-guide/coyote). Deer and rabbits leave pellets: [WSU Extension](https://wpcdn.web.wsu.edu/wp-ecommerce/uploads/sites/2/product-4077-sku-FS231E.pdf) describes rabbit droppings as round, about pea-sized and closely grouped, and deer droppings as similar but usually longer, somewhat pointed at one end and more scattered. For more on deer pellets, see [what deer poop looks like](/blog/deer-poop)." },
     { "type": "figure", "src": "/guides/photos/deer-droppings-snow.webp", "width": 1200, "height": 800, "alt": "A scatter of dark, oval deer pellets on clean white snow, some in a loose cluster and others spread apart", "caption": "White-tailed deer pellets on snow at Big Meadows in Shenandoah National Park, Virginia, in a National Park Service photo.", "license": "public-domain", "credit": "ShenandoahNPS, Public domain, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Deer_Scat_in_the_Snow_(51861792238).jpg" },
     { "type": "figure", "src": "/guides/photos/cottontail-droppings.webp", "width": 1200, "height": 1200, "alt": "A small cluster of round, dark rabbit pellets on gravel beside a US dime for scale", "caption": "Round droppings on gravel in Brooklyn, New York, beside a dime for scale, identified on iNaturalist as eastern cottontail. Rabbit droppings are round, about pea-sized and closely grouped.", "license": "CC-BY-4.0", "credit": "(c) Dilrukshan Priyantha Wijesinghe, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/7615549" },
     { "type": "media", "needed": "Virginia opossum droppings beside a ruler marked in inches, identified by a wildlife agency or an experienced tracker, ideally next to raccoon droppings for comparison" },
-    { "type": "p", "text": "If the yard also has fresh holes or torn-up turf, [the guide to holes in the yard](/blog/holes-in-yard) sorts the diggers, including skunks hunting grubs. None of the extension or agency sources behind this chart gives a size for skunk or gray squirrel droppings, so they are left out of it; [the squirrel poop guide](/blog/squirrel-poop) covers squirrels." },
+    { "type": "p", "text": "If the yard also has fresh holes or torn-up turf, [the guide to holes in the yard](/blog/holes-in-yard) sorts the diggers, including skunks hunting grubs. None of the extension or agency sources behind this chart gives a size for skunk droppings, so skunks are left out of it. Gray squirrel droppings are compared with mouse and rat droppings further down, and [the squirrel poop guide](/blog/squirrel-poop) covers squirrels." },
 
     { "type": "h2", "text": "What is pooping on my deck, roof or porch?" },
     { "type": "p", "text": "A pile on a deck, porch, roof or woodpile that keeps growing is usually a raccoon latrine. CDC lists woodpiles, decks and rooftops among the places raccoon feces turn up, and CDPH adds porches and fireplaces. To discourage raccoons from using the yard, see [the raccoon deterrent guide](/blog/raccoon-deterrent)." },
@@ -79,6 +83,7 @@
     { "type": "figure", "src": "/guides/photos/bat-droppings-siding.webp", "width": 1200, "height": 904, "alt": "Clumps of small, dark, crumbly droppings stuck to brown wooden siding around a narrow gap between two boards", "caption": "Droppings on wooden siding at a gap between boards in Minnesota, identified on iNaturalist as big brown bat droppings.", "license": "CC-BY-4.0", "credit": "(c) Matt Muir, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/184631840" },
     { "type": "p", "text": "Droppings with chalky white on them can come from birds, snakes or lizards. The USFWS manual explains that birds and lizards that eat insects leave droppings marked with white, chalky uric acid, sometimes mixed in with bat droppings, and that bat droppings never have it." },
     { "type": "figure", "src": "/guides/photos/lizard-droppings-ruler.webp", "width": 1200, "height": 862, "alt": "Dark lizard dropping with a chalky white cap beside a centimeter ruler", "caption": "A western fence lizard's dropping, dark with a chalky white cap, beside a centimeter ruler in San Mateo County, California; the observer saw the lizard leave it seconds before.", "license": "CC-BY-4.0", "credit": "(c) Garth Harwood, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/163828317" },
+    { "type": "p", "text": "Dark droppings that appear in the same spot morning after morning near an outdoor floodlight may be a toad's. ICWDM's key says toads come for the insects drawn to night lights, and that insect exoskeletons can show in their droppings." },
 
     { "type": "h2", "text": "Whose droppings are in the attic?" },
     { "type": "p", "text": "In an attic, the likely makers are bats, roof rats, mice and, now and then, a raccoon. Bat droppings pile up under the roost and the entry gap and crumble into shiny insect bits. Roof rats nest in attics and other high spaces, [UC IPM](https://ipm.ucanr.edu/home-and-landscape/rats/) says, and [Cornell IPM](https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior) puts their droppings at about 1/2 inch long. CDC lists attics among the places raccoon latrines turn up. To match droppings with the noises you hear overhead, see [the guide to noises in the attic at night](/blog/animals-in-attic); rats have their own [rat droppings guide](/blog/rat-droppings)." },
@@ -89,6 +94,21 @@
     { "type": "p", "text": "[Mouse urine stains and smell](/blog/mouse-urine) have a guide of their own, including how to check a spot with a black light." },
     { "type": "figure", "src": "/guides/photos/rodent-droppings-drawer.webp", "width": 1200, "height": 791, "alt": "Small dark rodent droppings scattered over the liner of an open cupboard drawer", "caption": "Rodent droppings in an open cupboard drawer, in a CDC photo that does not record which rodent left them.", "license": "public-domain", "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=14340" },
     { "type": "p", "text": "Specks smaller than a mouse dropping point to insects. [Texas A&M AgriLife Extension](https://extensionentomology.tamu.edu/wp-content/uploads/sites/3/2017/12/Cockroach-Biol-and-Mngmt_ENTO-037_2017.pdf) says German cockroach droppings look like crushed pepper and stick to surfaces where the roaches gather, near cracks and crevices in warm spots close to water and food; [the cockroach droppings guide](/blog/cockroach-droppings) and [the cockroach guide](/learn/cockroaches) cover them. Pellets with six sides below tiny holes in wood are drywood termite pellets, which [UC IPM](https://ipm.ucanr.edu/home-and-landscape/drywood-termites/) calls diagnostic for drywood termites, though it says pellets alone cannot show whether an infestation is still active; see [the termite droppings guide](/blog/termite-droppings). Dark spots on a mattress or bedding are covered in [the bed bug stains guide](/blog/bed-bug-stains-poop-droppings-canada)." },
+
+    { "type": "h2", "text": "How do you tell rodent droppings from bat and insect droppings?" },
+    { "type": "p", "text": "Size, shape and texture settle most small droppings. Mouse droppings are 1/8 to 1/4 inch and pointed, a roof rat's about 1/2 inch and a Norway rat's 3/4 to 1 inch; gray squirrel droppings fall in between at 5/16 to 3/8 inch (8 to 10 mm), brown to reddish and placed at random, according to [the Missouri Department of Conservation's scat guide](https://mdc.mo.gov/magazines/missouri-conservationist/2021-09/scat-detective). Bat droppings crumble, and insect droppings are specks or tiny shaped pellets." },
+    { "type": "table", "head": ["Droppings", "Size and shape", "Where you find them"], "rows": [
+      ["[House mouse](/blog/mouse-poop)", "1/8 to 1/4 inch, usually black, one or both ends pointed", "Usually scattered, not piled, in high-traffic areas"],
+      ["[Roof rat](/blog/rat-droppings)", "About 1/2 inch", "Attics, wall voids and other high, enclosed spaces"],
+      ["[Norway rat](/blog/rat-droppings)", "3/4 to 1 inch", "Basements and ground floors"],
+      ["[Gray squirrel](/blog/squirrel-poop)", "5/16 to 3/8 inch, brown to reddish", "Placed at random"],
+      ["[Shrew](/blog/shrews)", "Almost 1/4 inch long and 1/16 inch thick, often curled", "Often in piles, with a distinctive odor"],
+      ["[Bat](/blog/bat-poop)", "Crumble easily into shiny insect bits; no white, chalky tip", "Piled beneath roosts and entry holes"],
+      ["[German cockroach](/blog/cockroach-droppings)", "Specks like crushed pepper", "Stuck to surfaces near cracks, close to food, water and warmth"],
+      ["[Drywood termite](/blog/termite-droppings)", "Pellets with six sides", "Pushed out of tiny holes in infested wood"],
+      ["Caterpillar", "Tend to be squarish and cube-like", "Typically under trees; easy to mistake for bat droppings"]
+    ], "caption": "Mouse from Nebraska Extension and ICWDM; rats from Cornell IPM and UC IPM; gray squirrel from the Missouri Department of Conservation; shrew and caterpillar from ICWDM; bat from the U.S. Fish and Wildlife Service and ICWDM; cockroach from Texas A&M; termite from UC IPM." },
+    { "type": "p", "text": "Two side-by-side guides go further: [cockroach droppings vs mouse droppings](/blog/roach-droppings-vs-mouse-droppings) and [how to tell a rat from a mouse](/blog/rat-vs-mouse)." },
 
     { "type": "h2", "text": "What should you do about raccoon poop in the pool?" },
     { "type": "p", "text": "Close the pool to swimmers right away. [CDC's guidance on raccoons and pools](https://www.cdc.gov/healthy-swimming/response/responding-to-raccoons-in-and-near-the-pool.html) says to ask local animal control for its recommendations first; otherwise, put on disposable gloves, lift the poop out with a net, double-bag it, and wash your hands. Pool chlorine kills most germs a raccoon could carry but not raccoon roundworm eggs, so CDC gives two filtering options before reopening. CDC adds that raccoons usually go in the same spots again and again, in pools usually the shallow areas such as the steps." },
@@ -157,6 +177,10 @@
     {
       "question": "Is it safe to clean up raccoon poop yourself?",
       "answer": "CDC gives steps for homeowners who choose to do it: disposable gloves, scrubbable boots or disposable booties, an N95-rated respirator in a confined space, a light mist of water to keep dust down, and removal of the feces to be burned, buried or sent to a landfill. Bleach does not kill the roundworm eggs, the California Department of Public Health says, while CDC says heat, such as boiling water, does. Local animal control can help."
+    },
+    {
+      "question": "What does insect poop look like?",
+      "answer": "Usually like specks or tiny shaped pellets, smaller than a mouse dropping. Texas A&M says German cockroach droppings look like crushed pepper stuck to surfaces where the roaches gather. UC IPM calls six-sided pellets pushed out of tiny holes in wood diagnostic for drywood termites, and ICWDM says caterpillar droppings, typically found under trees, tend to be squarish and cube-like and can be easily confused with bat droppings. Bat droppings themselves crumble into shiny bits of undigested insects, the U.S. Fish and Wildlife Service says, while rodent droppings are harder."
     }
   ],
   "sources": [
@@ -177,7 +201,9 @@
     { "title": "How to Clean Up After Rodents", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html" },
     { "title": "About Hantavirus", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/hantavirus/about/index.html" },
     { "title": "Responding to Raccoons in and around the Pool", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-swimming/response/responding-to-raccoons-in-and-near-the-pool.html" },
-    { "title": "Reducing Risk for Histoplasmosis", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/histoplasmosis/prevention/index.html" }
+    { "title": "Reducing Risk for Histoplasmosis", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/histoplasmosis/prevention/index.html" },
+    { "title": "Brown or Black Droppings (droppings identification key)", "publisher": "Internet Center for Wildlife Damage Management", "url": "https://icwdm.org/identification/inspection/brown-or-black-droppings/" },
+    { "title": "The Scat Detective (Tom Meister, Missouri Conservationist, September 2021)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/magazines/missouri-conservationist/2021-09/scat-detective" }
   ],
   "disclaimer": "health"
 }

@@ -8,7 +8,10 @@
     "little brown bugs in house",
     "tiny brown bugs in kitchen",
     "tiny brown bugs that bite",
-    "tiny brown bugs in bed"
+    "tiny brown bugs in bed",
+    "small tiny brown bugs in house all of a sudden",
+    "long skinny brown bug in house",
+    "small brown bug"
   ],
   "metaTitle": "Tiny Brown Bugs in the House? ID Them (Photos)",
   "metaDescription": "Tiny brown bugs indoors are usually pantry beetles, carpet beetle larvae, booklice, cockroach nymphs, bed bugs or fleas. Sort yours by where you found it.",
@@ -17,6 +20,7 @@
   "breadcrumb": "Tiny Brown Bugs in the House",
   "excerpt": "Pantry beetle, carpet beetle larva, booklouse, cockroach nymph, bed bug or flea? Sort a tiny brown bug by where you found it, with photos and sizes.",
   "datePublished": "2026-10-20",
+  "dateModified": "2026-11-08",
   "parent": { "href": "/learn", "name": "Learning Centre" },
   "quickAnswer": {
     "lead": "**Tiny brown bugs in a house are usually pantry beetles, carpet beetle larvae, booklice, young cockroaches, bed bugs or fleas, and where you found the bug sorts them fastest.** Beetles in flour, spices or pet food are pantry pests, which [UC IPM](https://ipm.ucanr.edu/home-and-landscape/pantry-pests/) says usually arrive in an infested package. Check a bug from a bed or a pet's bed closely: bed bugs and fleas bite.",
@@ -43,7 +47,8 @@
       ["Carpet beetle larva", "Slightly longer than the 1/10- to 1/8-inch adult", "Closets, rugs, under furniture, pet hair", "Fuzzy or hairy; leaves brown, bristly cast skins"],
       ["Booklouse", "1 to 2 mm (about 1/25 to 1/12 inch)", "Damp books, paper, walls, moldy stored food", "Soft, flat and wingless, with a wide head"],
       ["Spider beetle", "About 1/12 to 1/6 inch", "Damp basements, crawl spaces, stored food", "Round body on thin legs, head hidden from above"],
-      ["Cat flea", "No longer than 1/8 inch", "Pets and where they sleep", "Flattened from side to side; jumps"]
+      ["Cat flea", "No longer than 1/8 inch", "Pets and where they sleep", "Flattened from side to side; jumps"],
+      ["Earwig", "About 1/2 to 3/4 inch", "Dark, damp hiding spots; may come in when it is too dry, hot or cold outside", "Pincers at the tail end"]
     ],
     "caption": "Sizes and features from UC IPM, the Universities of Kentucky, Florida and Maryland, Colorado State, Penn State and EPA, each linked in the sections below."
   },
@@ -56,11 +61,23 @@
       ["Kitchen or pantry", "Drugstore, cigarette, flour or sawtoothed grain beetles; weevils", "Ants on a trail; cockroach nymphs at night"],
       ["Bed or mattress", "Bed bugs", "Carpet beetle larvae; booklice"],
       ["Closet, rug or under furniture", "Carpet beetle larvae", "Clothes moth larvae, which spin silk"],
-      ["Bathroom, basement or damp room", "Booklice", "Cockroach nymphs, drain fly larvae, spider beetles"],
+      ["Bathroom, basement or damp room", "Booklice", "Cockroach nymphs, drain fly larvae, spider beetles; earwigs, millipedes and silverfish"],
       ["The pet or its bed", "Fleas", "Brown dog ticks"],
-      ["Windowsill", "Carpet beetle adults", "Drugstore and cigarette beetles drawn to light"]
+      ["Windowsill", "Carpet beetle adults", "Drugstore and cigarette beetles drawn to light; in fall, larger stink bugs"]
     ], "caption": "Compiled from the extension, EPA and CDC sources linked in the sections below." },
     { "type": "p", "text": "If the bug looks black rather than brown, start with [the guide to tiny black bugs](/blog/tiny-black-bugs), which sorts the dark ones the same way. A larger beetle belongs in [the guide to beetles in the house](/blog/beetles-in-house), and a small flying insect with scaly wings in [the guide to small moths in the house](/blog/moths-in-house)." },
+
+    { "type": "h2", "text": "Why are there tiny brown bugs in my house all of a sudden?" },
+    { "type": "p", "text": "A sudden crowd of tiny brown bugs usually has one new cause: an infested package of food, a change in the weather outside, or damp that lets mold grow. The common triggers, and the bug each one brings:" },
+    { "type": "ul", "items": [
+      "**A new bag or box of food.** UC IPM says pantry pests usually arrive in an infested package, and Colorado State notes that drugstore and cigarette beetles fly well and can be strongly attracted to lights, so they can show up at windows and lamps away from the shelf.",
+      "**Flowers.** UC IPM says carpet beetle adults often fly in from flowers outdoors or arrive on cut flowers, then gather at sunny windows.",
+      "**A humid spell, a leak or new drywall.** Booklice feed on mold. [Penn State Extension's booklice page](https://extension.psu.edu/booklice) says females lay about 60 eggs in the warm summer months and fewer when it is cooler, and it points to leaky pipes and roofs and to new construction closed up before it dried.",
+      "**Dry, hot, cold or rainy weather.** [UC IPM's earwig guide](https://ipm.ucanr.edu/home-and-landscape/earwigs/) says earwigs may come indoors when it is too dry, hot or cold outside, and [Penn State's millipede page](https://extension.psu.edu/millipedes) ties millipede migrations to cooler weather and heavy rains.",
+      "**Fall.** Brown marmorated stink bugs, about 5/8 inch long, move to buildings on warm, sunny days in September and October to spend the winter, and [the University of Kentucky](https://entomology.mgcafe.uky.edu/ef654) says they do not breed indoors. [How to get rid of stink bugs](/blog/how-to-get-rid-of-stink-bugs) covers them.",
+      "**Fleas waiting in the carpet.** UC IPM says fully formed fleas can wait in their cocoons for up to 12 months at cool temperatures, and that warmth and the pressure of feet or a vacuum on the carpet bring them out.",
+      "**Travel.** The University of Maryland advises checking mattress edges and headboards when you travel, so you do not carry bed bugs home."
+    ] },
 
     { "type": "h2", "text": "How do you tell which tiny brown bug you have?" },
     { "type": "p", "text": "Catch one in a clear jar or press it onto clear tape, then look at it with a magnifying glass, because many of these are 1/8 inch long or less. Run through the checks below, then find the match in the table at the top of the page." },
@@ -73,6 +90,7 @@
       "**Long antennae, a flat body, no wings and dark bands behind the head?** It is a young cockroach.",
       "**Pinched waist and elbowed antennae, walking in a line?** It is an ant.",
       "**Eight legs?** Check it against tick photos: CDC describes tick nymphs as eight-legged.",
+      "**Long and skinny?** Pincers at the tail end point to an earwig, many short legs to a millipede, long legs to a house centipede and three tails to a silverfish; see the section on long, skinny brown bugs below.",
       "**How big is it?** Lay it beside a ruler marked in inches and compare it with the sizes in the quick-ID table."
     ] },
 
@@ -89,12 +107,12 @@
     { "type": "p", "text": "A line of tiny brown insects walking to food is ants. [UC IPM's ant guide](https://ipm.ucanr.edu/home-and-landscape/ants/) separates ants from look-alikes by their constricted, thin waist and elbowed antennae. Of the small species it lists, the Argentine ant is 1/8 inch and dull brown, the Pharaoh ant 1/16 inch and yellow or honey-colored to orange, and the thief ant 1/32 inch and yellow to light brown. UC IPM calls the Pharaoh ant the main ant that nests indoors in California, in wall voids, under flooring and near hot water pipes. [The key to tiny house ants](/blog/tiny-ants) separates the small species by color, size and smell." },
     { "type": "h3", "text": "Cockroach nymphs" },
     { "type": "figure", "src": "/guides/photos/german-cockroach-nymphs.webp", "width": 1200, "height": 799, "alt": "Three German cockroach nymphs of different sizes seen from above on a blue background, dark brown to black with pale edges and long antennae", "caption": "German cockroach (Blattella germanica) nymphs at three stages. They have no wings, and the University of Florida describes them as dark brown to black with dark bands along the plate behind the head.", "license": "public-domain", "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26933" },
-    { "type": "p", "text": "A small, fast, wingless brown bug with long antennae near the sink or stove is often a young cockroach. [UC IPM's cockroach guide](https://ipm.ucanr.edu/home-and-landscape/cockroaches/) calls the German cockroach the most common indoor species in California and perhaps worldwide, favoring warm, humid kitchens and bathrooms close to food and water. Adults are about 1/2 inch long and light brown with two dark stripes behind the head, and the nymphs, which lack fully developed wings, are usually the most numerous stage. [The University of Florida's German cockroach profile](https://edis.ifas.ufl.edu/publication/IN128) describes the nymphs as dark brown to black with dark parallel bands. [What baby cockroaches look like](/blog/what-do-baby-cockroaches-look-like) compares the nymphs of each species, and [the German cockroach guide](/blog/german-cockroaches) covers control." },
+    { "type": "p", "text": "A small, fast, wingless brown bug with long antennae near the sink or stove is often a young cockroach. [UC IPM's cockroach guide](https://ipm.ucanr.edu/home-and-landscape/cockroaches/) calls the German cockroach the most common indoor species in California and perhaps worldwide, favoring warm, humid kitchens and bathrooms close to food and water. Adults are about 1/2 inch long and light brown with two dark stripes behind the head, and the nymphs, which lack fully developed wings, are usually the most numerous stage. [The University of Florida's German cockroach profile](https://edis.ifas.ufl.edu/publication/IN128) describes the nymphs as dark brown to black with dark parallel bands. [What baby cockroaches look like](/blog/what-do-baby-cockroaches-look-like) compares the nymphs of each species, [the guide to bugs that look like cockroaches](/blog/bugs-that-look-like-cockroaches) sorts the brown look-alikes, and [the German cockroach guide](/blog/german-cockroaches) covers control." },
 
     { "type": "h2", "text": "What are the tiny brown bugs in my bed?" },
     { "type": "p", "text": "A small, flat, brown bug in a bed is the one to check first, because bed bugs feed on blood: [the University of Maryland Extension](https://extension.umd.edu/resource/bed-bugs) says they bite all over the body, usually on exposed skin while a person sleeps. [EPA's page on what bed bugs look like](https://www.epa.gov/bedbugs/bed-bugs-appearance-and-life-cycle) describes an unfed adult as about the size of an apple seed, 3/16 to 1/4 inch (5 to 7 mm), brown, with a flat, oval body that turns reddish brown, swollen and longer after feeding. Young bed bugs are smaller and translucent or whitish yellow, and EPA notes that unfed ones can be nearly invisible." },
     { "type": "figure", "src": "/guides/photos/bed-bug-nymph.webp", "width": 1200, "height": 1600, "alt": "Small, translucent amber bed bug nymph with a dark patch inside its abdomen, resting on white fabric", "caption": "A bed bug nymph on fabric. EPA describes young bed bugs as smaller than adults and translucent or whitish yellow.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/325824918" },
-    { "type": "p", "text": "Two other tiny brown bugs turn up in beds or get mistaken for bed bugs.Carpet beetle larvae can live inside bedding: UC IPM notes that some mattresses and pillows are stuffed with hair or feathers, which the larvae eat. Booklice are the other: [Penn State Extension's booklice page](https://extension.psu.edu/booklice) says their flat bodies get them confused with bed bugs, but bed bugs are rounder with a proportionally narrower head, and a newly hatched bed bug is about the size of an adult booklouse. Photos and the signs to look for are in [what bed bugs look like](/blog/what-do-bed-bugs-look-like), [the guide to baby bed bugs](/blog/baby-bed-bugs-nymphs) and [the side-by-side guide to bugs that look like bed bugs](/blog/bugs-that-look-like-bed-bugs)." },
+    { "type": "p", "text": "Two other tiny brown bugs turn up in beds or get mistaken for bed bugs. Carpet beetle larvae can live inside bedding: UC IPM notes that some mattresses and pillows are stuffed with hair or feathers, which the larvae eat. Booklice are the other: [Penn State Extension's booklice page](https://extension.psu.edu/booklice) says their flat bodies get them confused with bed bugs, but bed bugs are rounder with a proportionally narrower head, and a newly hatched bed bug is about the size of an adult booklouse. Photos and the signs to look for are in [what bed bugs look like](/blog/what-do-bed-bugs-look-like), [the guide to baby bed bugs](/blog/baby-bed-bugs-nymphs) and [the side-by-side guide to bugs that look like bed bugs](/blog/bugs-that-look-like-bed-bugs)." },
 
     { "type": "h2", "text": "What are the tiny brown bugs in closets, rugs and carpets?" },
     { "type": "figure", "src": "/guides/photos/carpet-beetle-larva.webp", "width": 1200, "height": 800, "alt": "Hairy carpet beetle larva with bands of brown bristles, clinging to the edge of a pale surface", "caption": "A carpet beetle larva (genus Anthrenus). UC IPM describes carpet beetle larvae as slightly longer than the adults and like fuzzy or hairy maggots.", "license": "CC-BY-4.0", "credit": "(c) Owen Strickland, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/22181694" },
@@ -108,6 +126,17 @@
     { "type": "media", "needed": "Phone-style photo of several booklice on a damp book page, cardboard box or window frame, beside a ruler marked in inches, showing how small and pale they look without magnification" },
     { "type": "p", "text": "Three other suspects like damp rooms. German cockroach nymphs favor warm, humid bathrooms as well as kitchens, according to UC IPM. Brown, worm-like larvae in a sink or floor drain are likely drain fly larvae: [Texas A&M AgriLife Extension](https://agrilifeextension.tamu.edu/library/insects/indoor-flies-and-their-control) describes them as legless, up to 3/8 inch (4 to 10 mm), brown and sometimes banded, living in the film inside drains; [the drain fly guide](/blog/how-to-get-rid-of-drain-flies) covers them. Spider beetles, about 1/12 to 1/6 inch (2 to 4 mm) and mostly brown to reddish brown, with a round body on thin legs and the head hidden from above, are typically found in damp basements and crawl spaces, Colorado State says; see [the spider beetle guide](/blog/spider-beetles)." },
     { "type": "p", "text": "If the tiny brown bug stuck in a sink or tub has two long pincer arms in front, [the pseudoscorpion guide](/blog/pseudoscorpions) explains what it is and whether it can bite." },
+
+    { "type": "h2", "text": "What is the long, skinny brown bug in my house?" },
+    { "type": "p", "text": "A long, skinny brown bug indoors is often an earwig, a millipede, a house centipede or a silverfish, and the tail end and the legs tell them apart. [The University of Maryland Extension's household pest key](https://extension.umd.edu/resource/identifying-common-household-insect-pests) gives short descriptions of each." },
+    { "type": "figure", "src": "/guides/photos/european-earwig-male.webp", "width": 1200, "height": 1464, "alt": "Dark brown earwig seen from above on gray fabric, with yellowish legs, long antennae and a pair of strongly curved pincers at the tail end", "caption": "A male European earwig (Forficula auricularia) on fabric in Urbana, Illinois. The pincers at the tail end mark an earwig; UC IPM notes they are somewhat curved in males and straighter in females.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/223467049" },
+    { "type": "ul", "items": [
+      "**Earwig: pincers at the tail end.** UMD describes earwigs as brown and about 1/2 inch long, and UC IPM puts the adult earwig at about 3/4 inch and reddish brown; it says most earwigs have wings under short wing covers but seldom fly. Earwigs hide in dark, cool, moist places by day and can bite if trapped in clothing or sat on, but UC IPM says they are not harmful to people. [How to get rid of earwigs](/blog/how-to-get-rid-of-earwigs) covers keeping them out.",
+      "**Millipede: many short legs, curls up.** Penn State describes the millipedes people meet as dark brown, about an inch long and 1/16 inch thick, with two pairs of legs on most body segments; most curl into a spiral when they die, and they do not live more than a few days indoors. See [millipedes in the house](/blog/millipedes).",
+      "**House centipede: long legs, runs fast.** UMD's key describes it as over an inch long, grayish-yellow with three dark stripes and 15 pairs of long legs, found mostly in basements, damp closets and bathrooms, where it feeds on other indoor insects and spiders. See [house centipedes](/blog/house-centipedes).",
+      "**Silverfish or firebrat: three tails.** UMD's key describes both as flattened, about 1/2 inch long and gray or tan, in boxes, cabinets, bathrooms and warm spots near the furnace. [How to get rid of silverfish](/blog/how-to-get-rid-of-silverfish) explains why they need humid air.",
+      "**Carpet beetle larva: furry.** UMD calls carpet beetle larvae carrot-shaped and furry, and UC IPM says black carpet beetle larvae reach 5/16 inch, light brown to almost black, with a tuft of long hairs at the end. The closets and rugs section above covers them."
+    ] },
 
     { "type": "h2", "text": "What are the tiny brown bugs on my pet or where it sleeps?" },
     { "type": "figure", "src": "/guides/photos/cat-flea-scale-bar.webp", "width": 1200, "height": 1215, "alt": "Magnified side view of an amber, see-through cat flea with bristly legs, shown under a 3 mm scale bar", "caption": "Cat flea (Ctenocephalides felis), side view, with a scale bar of 3 mm, about 1/8 inch.", "license": "public-domain", "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=25575" },
@@ -135,7 +164,8 @@
       "**Cockroach nymphs.** Clean up crumbs and spills, vacuum cracks and clean behind appliances, as UC IPM advises; it calls baits effective for long-term control. [How to get rid of cockroaches](/blog/how-to-get-rid-of-cockroaches) goes step by step.",
       "**Bed bugs.** The University of Maryland advises hiring a pest control company that specializes in bed bugs. [How to get rid of bed bugs](/blog/how-to-get-rid-of-bed-bugs) explains what that involves.",
       "**Fleas.** Treat the pet and regularly clean where it sleeps, as UC IPM advises; [the flea control plan](/blog/how-to-get-rid-of-fleas) covers both.",
-      "**Ants.** Use baits rather than sprays, clean up food and caulk entry points; UC IPM says spraying indoors will not stop more ants coming in. [The kitchen ant guide](/blog/how-to-get-rid-of-ants-in-the-kitchen) explains baiting."
+      "**Ants.** Use baits rather than sprays, clean up food and caulk entry points; UC IPM says spraying indoors will not stop more ants coming in. [The kitchen ant guide](/blog/how-to-get-rid-of-ants-in-the-kitchen) explains baiting.",
+      "**Earwigs, millipedes and silverfish.** Seal cracks and entry points and keep water and moisture away from the house. UC IPM does not recommend insecticides indoors for earwigs, and Penn State says millipedes, which die within days indoors, need no indoor treatment: sweep or vacuum them up. For silverfish, UMD advises dehumidifying and storing books and papers in sealed containers."
     ] },
     { "type": "callout", "tone": "tip", "title": "Save a specimen", "text": "Seal the bug in a small jar or press it onto clear tape, photograph it beside a ruler marked in inches, and note where you found it. Your state's cooperative extension office or a pest professional can use those details to help identify it." }
   ],
@@ -196,6 +226,10 @@
     { "title": "Fleas (Pest Notes, Publication 7419)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/fleas/" },
     { "title": "Preventing Ticks on Pets", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/ticks/prevention/preventing-ticks-on-pets.html" },
     { "title": "Tick Lifecycles", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/ticks/about/tick-lifecycles.html" },
-    { "title": "Carpet Beetle Dermatitis", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/carpet-beetle-dermatitis" }
+    { "title": "Carpet Beetle Dermatitis", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/carpet-beetle-dermatitis" },
+    { "title": "Identifying Common Household Insect Pests (updated October 17, 2024)", "publisher": "University of Maryland Extension", "url": "https://extension.umd.edu/resource/identifying-common-household-insect-pests" },
+    { "title": "Pest Notes: Earwigs (UC ANR Publication 74102)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/earwigs/" },
+    { "title": "Millipedes (Steven B. Jacobs)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/millipedes" },
+    { "title": "Stink Bug Infestation of Dwellings (ENTFACT-654)", "publisher": "University of Kentucky Entomology", "url": "https://entomology.mgcafe.uky.edu/ef654" }
   ]
 }

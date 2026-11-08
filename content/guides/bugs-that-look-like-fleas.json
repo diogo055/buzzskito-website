@@ -8,7 +8,10 @@
     "bugs that look like fleas and bite",
     "springtails vs fleas",
     "what are the little bugs that look like fleas",
-    "flea vs bed bug"
+    "flea vs bed bug",
+    "what looks like a flea with wings",
+    "bugs that look like fleas on dogs",
+    "do mites jump like fleas"
   ],
   "metaTitle": "Bugs That Look Like Fleas: How to Tell (Photos)",
   "metaDescription": "Springtails, young bed bugs, bat bugs, carpet beetle larvae, booklice, bird mites and flea beetles pass for fleas. See the clues that sort them.",
@@ -17,9 +20,10 @@
   "breadcrumb": "Bugs That Look Like Fleas",
   "excerpt": "Springtails, bed bug nymphs, bat bugs, carpet beetle larvae, booklice, bird mites and flea beetles get mistaken for fleas. The clues that tell them apart.",
   "datePublished": "2026-10-16",
+  "dateModified": "2026-11-08",
   "parent": { "href": "/learn", "name": "Learning Centre" },
   "quickAnswer": {
-    "lead": "**A real flea is a hard, reddish-brown, wingless insect no longer than about 1/8 inch, flattened from side to side, that jumps and lives on pets or where they rest; every look-alike here fails at least one of those checks.** [UC IPM](https://ipm.ucanr.edu/home-and-landscape/fleas/) describes the flea's body. Springtails jump but are soft and grayish, flea beetles fly, bed bugs are flat from top to bottom, and bird mites have eight legs.",
+    "lead": "**A real flea is a hard, reddish-brown, wingless insect no longer than about 1/8 inch, flattened from side to side, that jumps and lives on pets or where they rest; every look-alike here fails at least one of those checks** ([UC IPM](https://ipm.ucanr.edu/home-and-landscape/fleas/)). Springtails jump but are soft and grayish, flea beetles and fungus gnats fly, bed bugs are flat from top to bottom, and bird mites have eight legs and, like ticks, do not jump.",
     "bullets": [
       "The University of Kentucky puts an adult flea at about 1/8 inch, about half the size of a grain of rice, and a springtail at the size of a mustard seed or smaller.",
       "Adult fleas can jump vertically up to about 6 inches, according to the University of Kentucky's flea control fact sheet.",
@@ -35,16 +39,18 @@
       ["Real flea", "Hard, reddish brown, wingless, up to about 1/8 inch, flattened side to side; jumps; on pets and where they rest"],
       ["Springtail", "Jumps with a forked tail but is soft and usually grayish; mustard-seed size or smaller; near moisture; does not bite"],
       ["Bed bug nymph", "Oval and flat from top to bottom; about 1/16 inch at hatching; crawls but does not jump; hides in bed seams"],
+      ["Tick", "Cannot jump or fly; often waits on grass or leaves and climbs aboard when a person or pet brushes past, then settles in to feed"],
       ["Carpet beetle larva", "Covered in bristles and banded in brown; up to about 5/16 inch; feeds on wool, fur, feathers and pet hair"],
       ["Booklouse", "Usually under 1/16 inch, soft and pale with long antennae; in damp, moldy places; not a parasite"],
       ["Bird mite", "About 1/25 inch with eight legs; comes from a bird nest on or in the house; bites mostly at night"],
       ["Bat bug", "A bed bug relative about 1/5 inch long; fringe hairs behind the head at least as long as the eye is wide; near roosting bats"],
+      ["Fungus gnat", "A dark, delicate fly about 1/16 to 1/8 inch long with light gray to clear wings; near windows and houseplants; does not bite"],
       ["Flea beetle", "1/15 to 1/6 inch shiny beetle; jumps and also flies; chews small holes in garden leaves"]
     ]
   },
   "body": [
     { "type": "h2", "text": "Which bugs look like fleas?" },
-    { "type": "p", "text": "Springtails, young bed bugs, bat bugs, carpet beetle larvae, booklice, bird mites and flea beetles are bugs often taken for fleas, and each one fails part of the flea test on shape, size, color, wings or where it lives. Springtails are the closest match: as [the University of Kentucky's springtail fact sheet](https://entomology.mgcafe.uky.edu/ef420) explains, both they and fleas turn up indoors and both look like small jumping insects." },
+    { "type": "p", "text": "Springtails, young bed bugs, ticks, carpet beetle larvae, booklice, bird mites, bat bugs, fungus gnats and flea beetles are bugs often taken for fleas, and each one fails part of the flea test on shape, size, color, wings or where it lives. Springtails are the closest match: as [the University of Kentucky's springtail fact sheet](https://entomology.mgcafe.uky.edu/ef420) explains, both they and fleas turn up indoors and both look like small jumping insects." },
     {
       "type": "figure",
       "src": "/guides/photos/cat-flea-scale-bar.webp",
@@ -86,6 +92,7 @@
       ["Booklouse", "Usually under 1/16 inch", "Most indoor kinds are wingless", "No; not a parasite", "Damp, moldy spots, books, papers, stored food"],
       ["Bird mite", "About 1/25 inch", "No wings; eight legs", "Yes, mostly at night", "Near bird nests in eaves, attics or chimneys"],
       ["Bat bug", "About 1/5 inch", "Crawls, like a bed bug", "Yes, especially once the bats are gone", "Buildings where bats roost"],
+      ["Fungus gnat", "Commonly 1/16 to 1/8 inch", "Flies, weakly; has wings", "No", "Near windows and potted plants"],
       ["Flea beetle", "1/15 to 1/6 inch", "Jumps and flies", "No bites described; eats plants", "Vegetable gardens and crops"]
     ], "caption": "Sources: University of Florida, University of Kentucky, Penn State, Colorado State, Iowa State, Washington State, Utah State and University of Minnesota extension, UC IPM and the EPA, each linked in the sections below." },
 
@@ -103,9 +110,9 @@
     { "type": "h2", "text": "Are springtails fleas?" },
     { "type": "p", "text": "No. Springtails are tiny, soft-bodied jumpers that feed on decaying organic material and do not bite people, while fleas feed on blood, according to the University of Kentucky's springtail fact sheet." },
     { "type": "media", "needed": "Top-down macro photo of a gray springtail beside a cat flea on a white surface with a ruler marked in inches, plus a side view showing the forked jumping appendage folded under the springtail's body" },
-    { "type": "p", "text": "Up close they differ. Kentucky says fleas are always dark reddish brown with hard bodies flattened from side to side, while springtails come in a variety of colors, look gray at first glance and have softer bodies. [Penn State Extension's springtail page](https://extension.psu.edu/springtails) puts most springtails that invade homes at 1 to 2 mm, about 1/25 to 1/12 inch, against about 1/8 inch for a flea." },
+    { "type": "p", "text": "Up close they differ. Kentucky says fleas are always dark reddish brown with hard bodies flattened from side to side, while springtails come in a variety of colors, look gray at first glance and have softer bodies. [Penn State Extension's springtail page](https://extension.psu.edu/springtails) puts most springtails that invade homes at 1 to 2 mm, about 1/25 to 1/12 inch, against about 1/8 inch for a flea. Penn State adds that springtail colors range from white to black, so a pale speck that jumps near a drain or a houseplant is more likely a springtail than a flea." },
     { "type": "p", "text": "They jump differently, too. [Colorado State University Extension's springtail fact sheet](https://extension.colostate.edu/resource/springtails/) describes a fork-like structure at the hind end that folds under the body and, when released, pushes the springtail into a short jump; Penn State says it can launch one up to 100 times its body length. A flea jumps with its hind legs." },
-    { "type": "p", "text": "Colorado State says springtails gather indoors where water collects, in bathrooms, drains, tubs and kitchen sinks, and sometimes in houseplant soil after watering; Kentucky adds basements and leaking pipes. Hot, dry summer spells can drive them indoors in numbers, but Colorado State says these migrations usually last less than a week and trapped springtails soon die. The springtails called snow fleas, which jump on thawing snow, are not fleas either." },
+    { "type": "p", "text": "Colorado State says springtails gather indoors where water collects, in bathrooms, drains, tubs and kitchen sinks, and sometimes in houseplant soil after watering; Kentucky adds basements and leaking pipes. Hot, dry summer spells can drive them indoors in numbers, but Colorado State says these migrations usually last less than a week and trapped springtails soon die. The springtails called snow fleas, which jump on thawing snow, are not fleas either. [The springtail guide](/blog/springtails) covers why they gather in bathrooms, basements and houseplant soil, and the moisture fixes." },
 
     { "type": "h2", "text": "Is it a flea or a bed bug?" },
     { "type": "p", "text": "A bed bug is oval and flat from top to bottom, while a flea is narrow from side to side, and bed bugs do not jump. [The University of Kentucky's bed bug fact sheet](https://entomology.mgcafe.uky.edu/ef636) says bed bugs do not fly or jump like fleas but crawl rapidly over floors, walls and ceilings." },
@@ -123,6 +130,10 @@
     { "type": "p", "text": "Size is one reason the two get confused. The [EPA's bed bug identification page](https://www.epa.gov/bedbugs/bed-bugs-appearance-and-life-cycle) gives newly hatched nymphs as about 1.5 mm (1/16 inch) long and fifth-stage nymphs as about 4.5 mm (3/16 inch), so a young bed bug can be flea-sized. Nymphs are translucent or whitish yellow and can be nearly invisible until they feed; unfed adults are brown, oval and about the size of an apple seed, 3/16 to 1/4 inch long." },
     { "type": "p", "text": "Location settles most cases. Kentucky says bed bugs hide in the seams, folds and crevices of mattresses, box springs, bed frames and headboards, and that flea bites occur mainly around the ankles while bed bugs bite any skin exposed during sleep. [The guide to flea bites on humans](/blog/flea-bites-on-humans) compares the bites; for the bed bug itself, see [baby bed bugs stage by stage](/blog/baby-bed-bugs-nymphs) and [the bugs most often mistaken for bed bugs](/blog/bugs-that-look-like-bed-bugs)." },
 
+    { "type": "h2", "text": "Could it be a tick?" },
+    { "type": "p", "text": "Not if it jumps. [CDC](https://www.cdc.gov/ticks/about/index.html) says ticks can't fly or jump: many wait on leaves and grass, holding on with their third and fourth pairs of legs and stretching out the first pair, and climb aboard when a person or animal brushes past. Once aboard, a tick prepares to feed, which can take from 10 minutes to 2 hours; many kinds then secrete a cement-like substance that keeps them firmly attached during the meal, CDC says, and most drop off after feeding." },
+    { "type": "p", "text": "On a pet, that is the practical difference: the University of Florida says a flea's powerful hind legs let it run and jump through fur, while a feeding tick stays attached in one place until it drops off. [How a tick on a dog differs from a flea](/blog/what-does-tick-look-like-on-dog), [what ticks look like at each life stage](/blog/what-do-ticks-look-like) and [seed ticks](/blog/seed-ticks) show the details, and [bugs that look like ticks](/blog/bugs-that-look-like-ticks) covers the mix-up from the other side." },
+
     { "type": "h2", "text": "Could it be a carpet beetle larva?" },
     { "type": "p", "text": "Yes, if the bug is hairy and banded. [UC IPM's carpet beetle guide](https://ipm.ucanr.edu/home-and-landscape/carpet-beetles/) describes varied carpet beetle larvae with dense tufts of hair and alternating light and dark brown stripes, and black carpet beetle larvae up to about 5/16 inch, shiny and covered in short, stiff hairs, with a tuft of long hairs at the tail." },
     {
@@ -137,7 +148,7 @@
       "sourceUrl": "https://www.inaturalist.org/observations/22181694"
     },
     { "type": "p", "text": "The larvae feed in dark, undisturbed places on wool, silk, leather, fur, feathers and pet hair, and can live inside mattresses and pillows stuffed with hair or feathers, UC IPM says. The adults are tiny, round beetles about 1/10 to 1/8 inch long, usually seen near windows because they are attracted to light." },
-    { "type": "p", "text": "To check a room for them, the guide on [where to look for carpet beetle signs](/blog/signs-of-carpet-beetles) shows the shed skins, droppings and fabric damage the larvae leave, with photos." },
+    { "type": "p", "text": "[What carpet beetle larvae look like, and where they hide](/blog/carpet-beetle-larvae) has close-up photos of the larvae themselves. To check a room for them, the guide on [where to look for carpet beetle signs](/blog/signs-of-carpet-beetles) shows the shed skins, droppings and fabric damage the larvae leave, with photos." },
     { "type": "p", "text": "The larvae get blamed for bites, but the trouble is their hairs: [Penn State Extension's page on carpet beetle dermatitis](https://extension.psu.edu/carpet-beetle-dermatitis) describes people who felt bitten when their itchy rash was an allergic reaction to larval hairs, a sensitivity it says apparently develops only after years of exposure. [The carpet beetle rash guide](/blog/carpet-beetle-rash) explains more, and [how to get rid of carpet beetles](/blog/how-to-get-rid-of-carpet-beetles) starts with finding what the larvae eat." },
 
     { "type": "h2", "text": "What are the tiny pale bugs that look like fleas?" },
@@ -169,6 +180,7 @@
       "sourceUrl": "https://www.inaturalist.org/observations/331043408"
     },
     { "type": "p", "text": "Bird mites are not insects: WSU gives adults as about 1 mm (1/25 inch) long with eight legs, whitish before feeding and red after a recent blood meal. Bites usually come at night and can leave small, itchy or painful pimple-like bumps. The mites cannot survive and reproduce on human blood, but WSU says northern fowl mites can live up to about three weeks without a bird and chicken mites up to eight months." },
+    { "type": "p", "text": "They also move differently from fleas: [Texas A&M AgriLife Extension's guide to biting mites](https://citybugs.tamu.edu/factsheets/biting-stinging/others/ent-3009/) says bird and rodent mites do not hop or fly, but may crawl several yards from an infested nest." },
     { "type": "p", "text": "Start outside. WSU advises removing abandoned nests promptly while wearing gloves, then vacuuming the wandering mites and sealing the bag. Songbird nests may be removed only after the young have left, because songbirds are protected by federal law. [The bird mite guide](/blog/bird-mites) covers the cleanup." },
 
     { "type": "h2", "text": "Could the biting bug be a bat bug?" },
@@ -187,6 +199,10 @@
     { "type": "p", "text": "A bat bug looks like a bed bug, not a flea: the [University of Minnesota Extension's bat bug page](https://apps.extension.umn.edu/garden/diagnose/insect/indoor/beetles/medium/batbug.html) gives adults as about 1/5 inch long and says they feed at night. Telling one from a bed bug takes magnification; Iowa State says the fringe hairs just behind a bat bug's head are at least as long as its eye is wide, while a bed bug's are shorter. Iowa State calls their feeding an annoyance rather than a danger and says bat bugs have not been found to transmit any disease." },
     { "type": "p", "text": "The bats come first. Iowa State says spraying without removing the bats will probably bring only short-term benefit: seal the bats out, ideally from late summer to fall, then, if needed, apply a residual insecticide labeled for indoor use against bat bugs to cracks, crevices and hiding places. [The bat bug guide](/blog/bat-bugs) covers exclusion." },
 
+    { "type": "h2", "text": "Could a tiny bug with wings be a fungus gnat?" },
+    { "type": "p", "text": "Yes, if it flies weakly around houseplants or windows. A flea has no wings, so a flea-sized bug that flies is something else, such as a fungus gnat: [UC IPM's fungus gnat guide](https://ipm.ucanr.edu/home-and-landscape/fungus-gnats/) describes dark, delicate-looking flies, commonly 1/16 to 1/8 inch long, with slender legs, antennae longer than the head and light gray to clear wings." },
+    { "type": "p", "text": "UC IPM says the adults are drawn to light, so you might first notice them near windows, but that they are relatively weak fliers and often stay near potted plants, running over or resting on the soil, where the larvae feed on fungi and organic matter. The adults do not bite people. [How to get rid of gnats](/blog/how-to-get-rid-of-gnats) covers fungus gnats in houseplants, and [gnat bites](/blog/gnat-bites) sorts out the small flies that do bite." },
+
     { "type": "h2", "text": "What are the tiny beetles that jump like fleas in a garden?" },
     { "type": "p", "text": "Flea beetles. [Utah State University Extension's flea beetle fact sheet](https://extension.usu.edu/planthealth/uppdl/files/factsheet/flea-beetles.pdf) describes them as small, shiny insects with enlarged hind legs that let them jump great distances when disturbed, and, unlike fleas, they are strong fliers." },
     { "type": "media", "needed": "Close-up photo of an adult flea beetle on a leaf peppered with small round shot holes, beside a ruler marked in inches, showing the thickened hind legs and the hard wing covers" },
@@ -194,7 +210,7 @@
     { "type": "p", "text": "Flea beetles feed on plants, and the extension sources used here describe no bites on people or pets. Utah State says most species spend the winter as adults under leaf litter, dirt clods or weeds and become active in mid to late spring." },
 
     { "type": "h2", "text": "Which flea look-alikes bite?" },
-    { "type": "p", "text": "Fleas, bed bugs, bat bugs and bird mites bite people. Springtails do not, booklice are not parasites, flea beetles are described only as plant feeders, and carpet beetle larvae can cause a rash with their hairs rather than a bite." },
+    { "type": "p", "text": "Fleas, bed bugs, bat bugs, bird mites and ticks bite people. Springtails do not, booklice are not parasites, flea beetles are described only as plant feeders, UC IPM says adult fungus gnats do not bite, and carpet beetle larvae can cause a rash with their hairs rather than a bite." },
     { "type": "p", "text": "The [CDC's flea page](https://www.cdc.gov/fleas/about/index.html) says fleas prefer animal hosts but will bite people when animals are unavailable, and that the bites can cause discomfort, itchiness and irritation. Fleas can also spread disease in the US; the CDC lists flea-borne (murine) typhus among them, with most US cases reported from California, Texas and Hawaii." },
     { "type": "p", "text": "Bites alone are a poor way to name the bug: UF notes that reactions to flea bites vary with each person's sensitivity, and the carpet beetle cases show how a rash can pass for bites. [The bug bite identification chart](/learn/bug-bites) compares bites by pattern, place and timing." },
     { "type": "callout", "tone": "warning", "title": "When to get medical help", "text": "The [American Academy of Dermatology](https://www.aad.org/public/everyday-care/injured-skin/bites/bug-bites-see-dermatologist) says most bug bites and stings can be treated at home, but to go to the emergency room immediately for signs such as difficulty breathing, a feeling that the throat is closing, or swollen lips, tongue or face after a bite or sting." },
@@ -205,9 +221,11 @@
       "**Fleas.** [How to get rid of fleas](/blog/how-to-get-rid-of-fleas) covers the steps for the pets, the home and the yard, and a veterinarian can advise on products for the pets.",
       "**Springtails.** Dry things out: Kentucky puts controlling dampness first, through ventilation, drier potting soil and thinner mulch, and says insecticides applied indoors give only temporary relief.",
       "**Bed bugs.** Have a specimen confirmed, then follow [the bed bug treatment guide](/blog/how-to-get-rid-of-bed-bugs).",
+      "**Ticks.** [How to remove a tick safely](/blog/how-to-remove-tick-safely) walks through it, and [ticks on dogs](/blog/ticks-on-dogs) covers checking pets.",
       "**Bat bugs and bird mites.** Seal out the bats or remove the empty nest first, as above.",
       "**Carpet beetles.** Remove what the larvae eat; UC IPM says insecticides may not be necessary once the food sources are gone.",
       "**Booklice.** Lower the humidity and clear up mold.",
+      "**Fungus gnats.** Start with the potting soil, where UC IPM says the larvae feed; [how to get rid of gnats](/blog/how-to-get-rid-of-gnats) covers the steps.",
       "**Flea beetles.** Protect young plants with the row covers, trap crops, mulches and sanitation that Utah State lists."
     ] },
     { "type": "callout", "tone": "tip", "title": "Save the specimen", "text": "Seal the bug in a small jar or press it onto clear tape, photograph it beside a ruler marked in inches, and note where and when you found it. Your state's cooperative extension office or a pest professional can use those details to help identify it." }
@@ -219,7 +237,7 @@
     },
     {
       "question": "What looks like a flea but has wings?",
-      "answer": "Not a flea: UC IPM and the University of Florida both describe adult fleas as wingless. A tiny insect that jumps and also flies is most likely a flea beetle, which Utah State University Extension describes as a small, shiny beetle with enlarged hind legs for jumping and a strong flier. Flea beetles feed on garden plants such as broccoli, cabbage, potatoes and tomatoes, chewing small round holes in the leaves, and the extension sources describe no bites on people."
+      "answer": "Not a flea: UC IPM and the University of Florida both describe adult fleas as wingless. A tiny insect that jumps and also flies is most likely a flea beetle, which Utah State University Extension describes as a small, shiny beetle with enlarged hind legs for jumping and a strong flier. Flea beetles feed on garden plants such as broccoli, cabbage, potatoes and tomatoes, chewing small round holes in the leaves, and the extension sources describe no bites on people. A tiny dark fly that flits weakly around houseplants or windows is more likely a fungus gnat, which UC IPM says does not bite people."
     },
     {
       "question": "Do springtails bite people or pets?",
@@ -236,6 +254,18 @@
     {
       "question": "How high can a flea jump?",
       "answer": "Up to about 6 inches vertically, according to the University of Kentucky's flea fact sheet, which is enough to reach a passing pet or a person's shoes and pant legs. A springtail jumps another way, by snapping a forked appendage folded under its body, and Penn State Extension says that can launch it up to 100 times its own body length. Flea beetles jump with enlarged hind legs and, unlike fleas, can also fly away."
+    },
+    {
+      "question": "Do mites jump like fleas?",
+      "answer": "Not the bird and rodent mites that bite people indoors. Texas A&M AgriLife Extension says those mites do not hop or fly, though they may crawl several yards from an infested nest, so a speck that jumps is not one of them. Washington State University describes adult bird mites as about 1/25 inch long with eight legs, two more than a flea or any other insect. Among the look-alikes on this page, the ones that jump are springtails and flea beetles."
+    },
+    {
+      "question": "Do fleas have nymphs?",
+      "answer": "No. Young bed bugs, called nymphs, are smaller and lighter in color than the adults, the University of Kentucky says, but young fleas look nothing like adult fleas. UC IPM describes flea larvae as hairy and wormlike, no larger than 3/16 inch, with a brownish head but no eyes or legs; they feed on the dried blood and droppings adult fleas leave, then spin silken cocoons and come out as adults. So a tiny six-legged bug shaped like a flea is an adult flea or a look-alike."
+    },
+    {
+      "question": "What are the tiny white bugs that look like fleas?",
+      "answer": "Probably not fleas, since adult fleas are reddish brown to black. White specks may be flea eggs, which UC IPM describes as pearly white ovals about 1/32 inch long, or the wormlike, legless flea larvae. A pale speck that jumps near a drain or a houseplant may be a springtail: Penn State Extension says springtail colors range from white to black. Pale, soft bugs on damp books, papers or stored food are often booklice, which the University of Florida describes as translucent white, gray or light brown."
     }
   ],
   "sources": [
@@ -255,7 +285,10 @@
     { "title": "Bat Bug", "publisher": "Iowa State University Extension and Outreach", "url": "https://yardandgarden.extension.iastate.edu/encyclopedia/bat-bug" },
     { "title": "Bat bug", "publisher": "University of Minnesota Extension", "url": "https://apps.extension.umn.edu/garden/diagnose/insect/indoor/beetles/medium/batbug.html" },
     { "title": "Flea Beetles on Vegetables (ENT-174-15)", "publisher": "Utah State University Extension", "url": "https://extension.usu.edu/planthealth/uppdl/files/factsheet/flea-beetles.pdf" },
-    { "title": "Bug bites and stings: When to see a dermatologist", "publisher": "American Academy of Dermatology", "url": "https://www.aad.org/public/everyday-care/injured-skin/bites/bug-bites-see-dermatologist" }
+    { "title": "Bug bites and stings: When to see a dermatologist", "publisher": "American Academy of Dermatology", "url": "https://www.aad.org/public/everyday-care/injured-skin/bites/bug-bites-see-dermatologist" },
+    { "title": "About Ticks and Tickborne Disease (May 15, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/ticks/about/index.html" },
+    { "title": "Fungus Gnats (Pest Notes, UC ANR Publication 7448)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/fungus-gnats/" },
+    { "title": "Biting Mites (M. Merchant and P. Teel)", "publisher": "Texas A&M AgriLife Extension Service, Insects in the City", "url": "https://citybugs.tamu.edu/factsheets/biting-stinging/others/ent-3009/" }
   ],
   "disclaimer": "health"
 }

@@ -7,7 +7,10 @@
     "what do fleas look like on dogs",
     "what do fleas look like on humans",
     "what do fleas look like to the human eye",
-    "what do fleas look like on a bed"
+    "what do fleas look like on a bed",
+    "how big is a flea",
+    "flea up close",
+    "what do baby fleas look like"
   ],
   "metaTitle": "What Do Fleas Look Like? Up Close (Photos)",
   "metaDescription": "Adult fleas are wingless, reddish-brown insects about 1/8 inch long and flat from side to side. Photos up close, and fleas on pets, people and beds.",
@@ -16,9 +19,10 @@
   "breadcrumb": "What Do Fleas Look Like",
   "excerpt": "An adult flea is a wingless, reddish-brown insect about 1/8 inch long and flattened side to side. Photos up close, and what fleas look like on pets, people and beds.",
   "datePublished": "2026-10-16",
+  "dateModified": "2026-11-08",
   "parent": { "href": "/learn", "name": "Learning Centre" },
   "quickAnswer": {
-    "lead": "**An adult flea is a hard, wingless, dark reddish-brown insect about 1/8 inch long, flattened from side to side, with enlarged hind legs that can launch it up to 7 inches straight up.** That is how [Ohio State University Extension](https://ohioline.osu.edu/factsheet/HYG-2081-11) describes fleas. Seen from above, a flea looks thin, and under a magnifier the cat flea, the usual flea on pets, shows two combs of spines.",
+    "lead": "**An adult flea is a hard, wingless, dark reddish-brown insect about 1/8 inch long, flattened from side to side, with enlarged hind legs that can launch it up to 7 inches straight up** ([Ohio State University Extension](https://ohioline.osu.edu/factsheet/HYG-2081-11)). To the naked eye it is a dark speck about half the size of a grain of rice that looks thin from above; magnified, the cat flea, the usual flea on pets, shows two combs of spines.",
     "bullets": [
       "Adult cat fleas are 1 to 3 mm long, about 1/25 to 1/8 inch, by the University of Florida's measure, and the University of Kentucky likens a 1/8-inch flea to half a grain of rice.",
       "Fleas have no wings; they jump, up to about 6 inches straight up by Kentucky's figure or 7 inches by Ohio State's, which adds 13 inches forward.",
@@ -59,15 +63,26 @@
       "license": "public-domain",
       "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=25575"
     },
-    { "type": "p", "text": "The flea most people find is the cat flea, *Ctenocephalides felis*. [The University of Florida's cat flea profile](https://ask.ifas.ufl.edu/publication/IN137) says it is common on both cats and dogs in North America and, unlike many other fleas, stays on its host, which is why fleas turn up mostly on pets and where they rest. This page is about the adult insect; [flea eggs, larvae and flea dirt](/blog/flea-eggs) have their own photo guide." },
+    { "type": "p", "text": "The flea most people find is the cat flea, *Ctenocephalides felis*. [The University of Florida's cat flea profile](https://ask.ifas.ufl.edu/publication/IN137) says it is common on both cats and dogs in North America and, unlike many other fleas, stays on its host, which is why fleas turn up mostly on pets and where they rest. This page is mostly about the adult insect, with a short section on the young; [flea eggs, larvae and flea dirt](/blog/flea-eggs) have their own photo guide." },
 
-    { "type": "h2", "text": "What does a flea look like to the naked eye?" },
+    { "type": "h2", "text": "How big is a flea, and what does it look like to the naked eye?" },
     { "type": "p", "text": "To the naked eye, an adult flea is a small dark speck about 1/8 inch long, roughly half the size of a grain of rice, according to [the University of Kentucky's springtail fact sheet](https://entomology.mgcafe.uky.edu/ef420), which compares the two because both turn up indoors as small jumping insects. The University of Florida gives 1 to 3 mm, about 1/25 to 1/8 inch, for the adult cat flea." },
     { "type": "p", "text": "That speck can jump out of sight. [Ohio State University Extension's flea fact sheet](https://ohioline.osu.edu/factsheet/HYG-2081-11) says fleas can leap up to 7 inches straight up and 13 inches forward, and [the University of Kentucky's flea control fact sheet](https://entomology.mgcafe.uky.edu/ef602) gives a vertical jump of up to about 6 inches. Ohio State also warns that fleas can be hard to find in fur. The features that set a flea apart show best under a magnifying glass." },
+    {
+      "type": "figure",
+      "src": "/guides/photos/flea-on-comb.webp",
+      "width": 1200,
+      "height": 1600,
+      "alt": "A tiny reddish-brown flea on the white plastic back of a fine-toothed metal flea comb, held between a thumb and fingers",
+      "caption": "A flea on a fine-toothed flea comb at an animal health clinic, in a CDC photograph. Without magnification, a flea is a small speck like this one.",
+      "credit": "CDC/ Ann Carpenter, DVM; photo: Ann Carpenter, DVM (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=30839"
+    },
     { "type": "media", "needed": "Life-size photo, without magnification, of an adult cat flea on a white sock or white paper beside a ruler marked in inches, showing how small and dark a flea looks to the naked eye" },
 
-    { "type": "h2", "text": "What does a flea look like under a magnifying glass?" },
-    { "type": "p", "text": "Magnified, a flea is a hard-bodied oval, flattened side to side and lined with backward-pointing bristles, with six long legs and a much bigger hind pair. The University of Florida says those powerful hind legs let fleas run and jump through hair, fur and feathers, and UC IPM adds the piercing-sucking mouthparts fleas use to take blood." },
+    { "type": "h2", "text": "What does a flea look like up close?" },
+    { "type": "p", "text": "Up close, under a magnifying glass, a flea is a hard-bodied oval, flattened side to side and lined with backward-pointing bristles, with six long legs and a much bigger hind pair. The University of Florida says those powerful hind legs let fleas run and jump through hair, fur and feathers, and UC IPM adds the piercing-sucking mouthparts fleas use to take blood." },
     {
       "type": "figure",
       "src": "/guides/photos/cat-flea.webp",
@@ -91,6 +106,12 @@
 
     { "type": "h2", "text": "What do fleas look like on a dog or cat?" },
     { "type": "p", "text": "On a dog or cat, fleas look like small dark specks moving quickly through the fur. The [Merck Veterinary Manual's guide to fleas on dogs](https://www.merckvetmanual.com/dog-owners/skin-disorders-of-dogs/fleas-of-dogs) says slowly parting a dog's hair often reveals rapidly moving fleas or their droppings. Ohio State says fleas concentrate their bites on the neck, the shoulder blades and the base of the tail, and that in heavy infestations they can be seen running across the thinly haired belly." },
+    { "type": "p", "text": "To check a pet, comb it with a fine-toothed flea comb like the one pictured above. [UC IPM's flea guide](https://ipm.ucanr.edu/home-and-landscape/fleas/) says metal flea combs help remove adult fleas from a pet's coat, and that combing at regular intervals is a good way to keep track of how many fleas there are. Ohio State describes a simple check:" },
+    { "type": "ol", "items": [
+      "Part the fur at the shoulder blades and the base of the tail and watch for fleas running about.",
+      "If the pet will allow it, stand it in a white sink or bathtub and comb its back and sides.",
+      "Wet any small black specks that fall off: specks that turn red are the blood-filled droppings of adult fleas."
+    ] },
     { "type": "p", "text": "Look for flea dirt as well. Kentucky's flea control fact sheet describes it as dark, pepper-like specks of digested blood in the pet's fur, and Merck says it is reddish black, pellet- or comma-shaped, and dissolves into a reddish-brown color in water or on a damp paper towel. [The guide to flea eggs and flea dirt](/blog/flea-eggs) covers that test and what else the specks could be." },
     { "type": "p", "text": "A photo of flea dirt in a dog's coat and the wet paper towel test that confirms it are in our [flea dirt guide](/blog/flea-dirt)." },
     {
@@ -120,6 +141,21 @@
     { "type": "p", "text": "On a bed, look for the jumping specks and for what fleas leave behind: UC IPM says flea eggs readily fall from a pet onto bedding and carpeting, and Texas A&M says flea dirt shows up in pet fur and bedding." },
     { "type": "p", "text": "If no pet sleeps on the bed and the bugs crawl instead of jumping, consider bed bugs. [The University of Kentucky's bed bug fact sheet](https://entomology.mgcafe.uky.edu/ef636) says bed bugs do not jump like fleas but crawl rapidly, that beds are the most common place to find them, and that adults are about 3/16 inch long with oval, flattened bodies while the young are smaller and lighter in color. [What baby bed bugs look like at each stage](/blog/baby-bed-bugs-nymphs) shows the young ones." },
 
+    { "type": "h2", "text": "What do baby fleas look like?" },
+    { "type": "p", "text": "Baby fleas look nothing like adults: they are larvae, pale, legless and wormlike, so any flea you see hopping is already grown. [Ohio State's flea fact sheet](https://ohioline.osu.edu/factsheet/HYG-2081-11) says fleas pass through egg, larva, pupa and adult stages, and it describes the larvae as slender, translucent white, sparsely hairy, blind and legless, up to about 1/4 inch long; UC IPM puts them at no more than 3/16 inch, with a distinct brownish head. UC IPM describes the eggs as pearly white ovals about 1/32 inch long, and both sources say the pupae sit inside silken cocoons coated with debris such as pet hair and carpet fibers." },
+    {
+      "type": "figure",
+      "src": "/guides/photos/flea-egg-and-larva.webp",
+      "width": 624,
+      "height": 832,
+      "alt": "Microscope view of a smooth, pale, oval flea egg beside a slender, segmented, whitish flea larva with fine bristles",
+      "caption": "A first-stage cat flea (Ctenocephalides felis) larva beside an egg, under a microscope. Look for the smooth oval egg and the legless, wormlike larva.",
+      "credit": "Auguste Le Roux, Public domain, via Wikimedia Commons",
+      "license": "public-domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ctenocephalides_felis,_L1..JPG"
+    },
+    { "type": "p", "text": "Look for the young where the pet sleeps, not on the pet. UC IPM says the larvae develop only in protected places with at least 75% relative humidity, feeding on the dried blood and droppings adult fleas leave, and that at normal room temperatures the whole cycle from egg to adult can take about 18 days. [The flea egg guide](/blog/flea-eggs) has close-up photos of each stage and shows how to tell flea eggs from dandruff." },
+
     { "type": "h2", "text": "Can you tell a cat flea from a dog flea or a rat flea?" },
     { "type": "p", "text": "Not with the naked eye. The University of Florida says the dog flea looks similar to the cat flea and that the two differ by a slight feature detectable only under high magnification. On a pet in North America the odds favor the cat flea: Ohio State calls the dog flea relatively rare in North America, and Merck says most fleas found on dogs and cats are cat fleas." },
     { "type": "p", "text": "Rare is not absent. The University of Florida's dog flea profile cites a 2005 study by Durden and colleagues in which over 21% of the fleas collected from dogs in Georgia were dog fleas, and says dog fleas also turn up fairly often on wild canids such as foxes and coyotes." },
@@ -146,8 +182,9 @@
     ], "caption": "Sources: the University of Florida's flea profiles, UC IPM, Ohio State, Texas A&M, the Merck Veterinary Manual and NC State's flea key, each linked in the text." },
 
     { "type": "h2", "text": "What else looks like a flea?" },
-    { "type": "p", "text": "Springtails can be mistaken for fleas: Kentucky's springtail fact sheet says both turn up indoors as small jumping insects, but springtails look gray at first glance, have softer bodies, feed on decaying organic matter and do not bite people. Young bed bugs are another, but as Kentucky's bed bug fact sheet says, bed bugs crawl and do not jump like fleas." },
-    { "type": "p", "text": "[The guide to bugs that look like fleas](/blog/bugs-that-look-like-fleas) sorts these two and five more, including booklice, carpet beetle larvae, bird mites and flea beetles, and [the tiny black bug sorter](/blog/tiny-black-bugs) works by the room where you found the bug." },
+    { "type": "p", "text": "[Springtails](/blog/springtails) can be mistaken for fleas: Kentucky's springtail fact sheet says both turn up indoors as small jumping insects, but springtails look gray at first glance, have softer bodies, feed on decaying organic matter and do not bite people. Young bed bugs are another, but as Kentucky's bed bug fact sheet says, bed bugs crawl and do not jump like fleas." },
+    { "type": "p", "text": "[The guide to bugs that look like fleas](/blog/bugs-that-look-like-fleas) sorts these two and seven more, including booklice, carpet beetle larvae, bird mites and flea beetles, and [the tiny black bug sorter](/blog/tiny-black-bugs) works by the room where you found the bug." },
+    { "type": "p", "text": "Ticks and head lice are two more to rule out, and neither one jumps. [CDC](https://www.cdc.gov/ticks/about/index.html) says ticks can't fly or jump: many wait on leaves and grass and climb aboard when a host brushes past, then settle in to feed. Head lice move by crawling and cannot hop or fly, according to [CDC's head lice page](https://www.cdc.gov/lice/about/head-lice.html); adults are about the size of a sesame seed, live mostly on the head, and are not caught from or spread by animals. Compare [what ticks look like](/blog/what-do-ticks-look-like) and [what lice look like](/blog/what-do-lice-look-like)." },
 
     { "type": "h2", "text": "What does finding a flea mean?" },
     { "type": "p", "text": "A flea in the house points to an animal host nearby and to fleas developing where that animal rests. Kentucky says adults spend most of their time on the dog or cat and lay their eggs in the fur, from which the eggs soon fall into carpets and furniture. UC IPM says fleas can be found on pets throughout the year, so a flea in fall or winter is not unusual." },
@@ -180,6 +217,14 @@
     {
       "question": "How can you tell if you have fleas in the house?",
       "answer": "Check the pets and the places they rest. Ohio State suggests combing the pet's back and sides over a white sink or bathtub and wetting any black specks that fall: if they turn red, they are flea droppings. UC IPM suggests walking through pet resting areas in white socks pulled up to the knee, since fleas jump onto them. Texas A&M says sticky flea traps placed near pet beds can help show where flea numbers are high, and Ohio State notes that flea bites on people are usually on the ankles and legs."
+    },
+    {
+      "question": "Do fleas have long legs?",
+      "answer": "Yes, and the hind pair is much bigger than the others. Ohio State describes adult fleas as hard-bodied insects with enlarged hind legs, and the University of Florida says those powerful hind legs let fleas run and jump through hair, fur and feathers. They are what launch a flea up to 7 inches straight up and 13 inches forward, by Ohio State's figures. Under a magnifier the long hind legs stand out, and the cat flea also shows two combs of spines near the head."
+    },
+    {
+      "question": "Can a dog or cat have fleas if you can't see any?",
+      "answer": "Yes. Ohio State says fleas can be difficult to find in an animal's fur, and the Merck Veterinary Manual says dogs that are very allergic to flea saliva may be almost free of fleas because they groom so much. Look for the signs instead: flea droppings, dark specks in the coat that turn red when wetted, and, in dogs with flea allergy, itchy, crusted skin over the hips, the base of the tail and the thighs, which Merck lists as the classic signs. A veterinarian can check the pet."
     }
   ],
   "sources": [
@@ -195,7 +240,9 @@
     { "title": "Fleas of Dogs", "publisher": "Merck Veterinary Manual", "url": "https://www.merckvetmanual.com/dog-owners/skin-disorders-of-dogs/fleas-of-dogs" },
     { "title": "Parasite Diagnostic Key: Fleas", "publisher": "NC State College of Veterinary Medicine", "url": "https://parasitology.cvm.ncsu.edu/keys/fleas/ctenoant.html" },
     { "title": "About Fleas", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/fleas/about/index.html" },
-    { "title": "Getting Rid of Fleas", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/fleas/getting-rid/index.html" }
+    { "title": "Getting Rid of Fleas", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/fleas/getting-rid/index.html" },
+    { "title": "About Ticks and Tickborne Disease (May 15, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/ticks/about/index.html" },
+    { "title": "About Head Lice (June 4, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/lice/about/head-lice.html" }
   ],
   "disclaimer": "health"
 }

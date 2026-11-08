@@ -16,9 +16,10 @@
   "breadcrumb": "Oriental Cockroaches",
   "excerpt": "Photos and a quick-ID table for the Oriental cockroach, the big black roach of basements and drains: male or female, look-alikes, where it hides and what to do.",
   "datePublished": "2026-10-21",
+  "dateModified": "2026-11-08",
   "parent": { "href": "/learn/cockroaches", "name": "Cockroaches" },
   "quickAnswer": {
-    "lead": "**An Oriental cockroach is a shiny, dark brown to black roach about 1 to 1 1/4 inches long with short wings: the male's leave the tip of his abdomen bare, the female has only small pads, and neither can fly.** It is the big black roach of damp basements, crawl spaces and drains, which is why [Penn State Extension](https://extension.psu.edu/oriental-cockroaches) says it is often called a water bug.",
+    "lead": "**A big black cockroach in a home is often an Oriental cockroach: shiny, dark brown to black, about 1 to 1 1/4 inches long, with wings too short to fly (the male's leave the tip of his abdomen bare; the female has only small pads).** It lives in damp basements, crawl spaces and drains, which is why [Penn State Extension](https://extension.psu.edu/oriental-cockroaches) says it is often called a water bug.",
     "bullets": [
       "Females are nearly 1 1/4 inches long and males about 1 inch, according to [Texas A&M's urban entomology program](https://urbanentomology.tamu.edu/cockroaches/oriental/).",
       "A dark roach with wings reaching past its abdomen is more likely a smokybrown cockroach, which flies; the American cockroach is reddish brown and can fly too.",
@@ -37,11 +38,13 @@
       ["Smokybrown cockroach", "1 1/4 to 1 1/2 inches", "Dark brown to black; wings reach past the abdomen; flies on warm, humid evenings", "Mulch, tree holes, attic eaves; humid southern states"],
       ["Turkestan cockroach, female", "About 1 inch", "Shiny dark reddish brown; short wings with pale edges; cream markings behind the head", "Water meter boxes, compost, leaf litter; California and western Texas"],
       ["Florida woods cockroach", "1.2 to 1.6 inches", "Reddish brown to nearly black; short, leathery wing pads; slow-moving", "Tree holes, under bark, leaf litter; Florida and the coasts of Georgia, Alabama and Mississippi"],
+      ["Wood cockroach", "Males up to 1 inch; females up to 3/4 inch", "Light brown to nearly black, some with cream edges; males fly, females have short wings", "Under logs, loose bark and in woodpiles; indoors only by accident, and dies within days"],
       ["German cockroach", "1/2 to 5/8 inch", "Light brown with two dark stripes behind the head; has wings but does not fly", "Indoors only: warm cracks near food and water"],
       ["Ground beetle", "Most 1/4 to 3/4 inch", "Black or brown, often shiny; hard wing covers meet in a straight line down the back", "Under rocks, logs and debris outdoors; many fly to lights"],
-      ["Giant water bug", "About 2 inches", "Brownish and flat, with clawlike front legs for grabbing prey", "Ponds and slow water; comes to lights at night"]
+      ["Giant water bug", "About 2 inches", "Brownish and flat, with clawlike front legs for grabbing prey", "Ponds and slow water; comes to lights at night"],
+      ["Field cricket", "1/2 to 1 1/4 inches", "Robust and shiny black; hind legs built for jumping; males chirp", "Lower floors and basements; comes to lights"]
     ],
-    "caption": "Sources: Texas A&M AgriLife and its urban entomology program, Penn State, Kentucky, UC IPM and the University of Florida for the cockroaches; the Missouri Department of Conservation for the ground beetle and giant water bug."
+    "caption": "Sources: Texas A&M AgriLife and its urban entomology program, Penn State, Kentucky, UC IPM and the University of Florida for the cockroaches; the Missouri Department of Conservation for the ground beetle, giant water bug and field cricket, with University of Maryland Extension."
   },
   "body": [
     { "type": "h2", "text": "What does an Oriental cockroach look like?" },
@@ -68,9 +71,12 @@
     { "type": "p", "text": "The two share sewers and drains, and Texas A&M lists waterbug as a nickname for the American cockroach too. Its own guide is filed under another of its names, [the palmetto bug](/blog/palmetto-bugs)." },
 
     { "type": "h2", "text": "What else could a big black cockroach be?" },
-    { "type": "p", "text": "Three other large, dark cockroaches, each found mainly in one region, and a black beetle can pass for an Oriental cockroach. Check the wings first: on an adult Oriental cockroach they always stop short of the tip of the abdomen." },
+    { "type": "p", "text": "Three other large, dark cockroaches, each found mainly in one region, can pass for an Oriental cockroach, and so can the wood cockroach, a black beetle and a field cricket. Check the wings first: on an adult Oriental cockroach they always stop short of the tip of the abdomen." },
     { "type": "h3", "text": "Smokybrown cockroach" },
     { "type": "p", "text": "The smokybrown cockroach is 1 1/4 to 1 1/2 inches long and dark brown to black, but Texas A&M says its wings extend beyond the abdomen in both sexes, and UC IPM says adults fly, especially on warm, humid evenings. It lives outdoors in the more humid southern states, in mulch, palm fronds, tree holes and attic eaves, Texas A&M says, so a big dark roach in an attic fits it better than an Oriental cockroach." },
+    { "type": "h3", "text": "Wood cockroaches" },
+    { "type": "p", "text": "A dark roach that flies to a porch light at night in the country may be a male wood cockroach. [Penn State Extension's wood cockroach guide](https://extension.psu.edu/wood-cockroaches) describes adults in shades of light brown to nearly black, some species with cream-colored stripes along the edges of the wings and the plate behind the head. Males grow up to 1 inch long and can fly; females grow up to 3/4 inch and have short wings that often leave the end of the abdomen exposed, the same short-winged look as a male Oriental cockroach, though he is bigger, about 1 inch." },
+    { "type": "p", "text": "Wood cockroaches live outdoors under fallen logs, loose bark and stones and in wood piles, and come in by accident through foundation cracks, on firewood or drawn by porch lights. Penn State says they die within a few days indoors from dehydration and do not feed or reproduce there, so pesticides are not necessary or recommended; the fix is keeping them out." },
     { "type": "h3", "text": "Turkestan cockroach" },
     { "type": "p", "text": "The female Turkestan cockroach (*Blatta lateralis*) is the closest match. Texas A&M describes her as shiny and dark reddish brown with short wings, like an Oriental cockroach, except that the outer bases of her wings are pale, and UC IPM puts her at about 1 inch, with cream-colored markings behind the head and around the wings. The male is brownish yellow and 1/2 to 7/8 inch long." },
     { "type": "p", "text": "Native to Asia, it lives mostly outdoors in water meter boxes, compost and leaf litter. Texas A&M says it is spreading from California into Texas and is one of the most common outdoor roaches in El Paso, and UC IPM says it is displacing the Oriental cockroach in warm, dry parts of California." },
@@ -78,6 +84,8 @@
     { "type": "p", "text": "In Florida and coastal Georgia, Alabama and Mississippi, a big, slow, dark roach may be a Florida woods cockroach. The [University of Florida's profile](https://ask.ifas.ufl.edu/publication/IN915) gives it as 1.2 to 1.6 inches long and reddish brown to nearly black, with short, leathery wing pads, no working flight wings and an oily, smelly secretion that can harm skin and eyes. It usually gets indoors on firewood or other items, and it is one of the roaches called [palmetto bugs](/blog/palmetto-bugs)." },
     { "type": "h3", "text": "Ground beetles" },
     { "type": "p", "text": "A shiny black bug that runs fast may be a ground beetle. The [Missouri Department of Conservation's ground beetle page](https://mdc.mo.gov/discover-nature/field-guide/ground-beetles-carabids) describes shell-like wing covers that meet in a straight line down the back, often grooved; most species are black or brown, 1/4 to 3/4 inch long and fast runners. An Oriental cockroach's short wings leave its abdomen partly bare, and it is slow. More look-alikes are in [bugs that look like cockroaches](/blog/bugs-that-look-like-cockroaches) and [beetles in the house](/blog/beetles-in-house)." },
+    { "type": "h3", "text": "Field crickets" },
+    { "type": "p", "text": "If the big black bug chirps or jumps, look at the field cricket. [University of Maryland Extension's cricket page](https://extension.umd.edu/resource/crickets) describes field crickets as robust black insects 1/2 to 1 1/4 inches long, usually on lower floors and in basements and attracted to light, and the [Missouri Department of Conservation's field cricket page](https://mdc.mo.gov/discover-nature/field-guide/field-crickets) notes hind legs adapted for jumping and males that chirp by rubbing their wings together. [Why crickets come indoors and how to stop them](/blog/crickets-in-house) has the rest." },
     { "type": "h3", "text": "Why are Oriental cockroaches called water bugs?" },
     { "type": "p", "text": "Because of where they live: Penn State says the name comes from their preference for dark, damp, cool places such as under sinks and washing machines and in damp basements. The true giant water bug is a brownish, flattened pond insect about 2 inches long with clawlike front legs, and the [Missouri Department of Conservation](https://mdc.mo.gov/discover-nature/field-guide/giant-water-bugs) warns that it can bite painfully. [Water bugs vs cockroaches](/blog/water-bugs-vs-cockroaches) tells the two apart." },
     { "type": "confused", "items": [
@@ -109,11 +117,11 @@
     { "type": "p", "text": "Their life cycle is slow: egg to adult averages 575 to 600 days in Texas A&M's account, against about 100 days for a German cockroach generation, and UF, Penn State and UC IPM give the nymph stage as about a year, 24 to 130 weeks, and 1 to 2 years or more. One female and her offspring can produce nearly 200 cockroaches a year, UC IPM says." },
 
     { "type": "h2", "text": "How can you tell if you have Oriental cockroaches?" },
-    { "type": "p", "text": "Look low and damp, and let sticky traps do the counting. The University of Florida advises checking crawl spaces, basements and kitchen and bathroom plumbing, or any cool, humid area, for dead roaches, egg cases and fecal smears. Penn State recommends sticky traps against a wall or in a floor corner, and Texas A&M puts sticky cards next to doors and behind laundry appliances, noting they also give some control of small numbers of large roaches." },
+    { "type": "p", "text": "Look low and damp, and let sticky traps do the counting. The University of Florida advises checking crawl spaces, basements and kitchen and bathroom plumbing, or any cool, humid area, for dead roaches, egg cases and fecal smears. Penn State recommends sticky traps against a wall or in a floor corner, and Texas A&M puts sticky cards next to doors and behind laundry appliances, noting they also give some control of small numbers of large roaches. Your nose can help too: Penn State says cockroaches produce odorous secretions that, when populations are high, may leave a characteristic odor in the area of the infestation." },
     { "type": "p", "text": "Roaches out in daylight usually mean there are a lot of them, Texas A&M says. [The guide to cockroach droppings](/blog/cockroach-droppings) shows each species' droppings, [signs of cockroaches](/blog/signs-of-cockroaches) covers the other clues, and a separate guide explains [how sticky traps and bait stations do different jobs](/blog/best-roach-traps-canada)." },
 
     { "type": "h2", "text": "Are Oriental cockroaches dangerous?" },
-    { "type": "p", "text": "They can carry germs to food, and their droppings and shed skins can trigger allergies and asthma. Penn State says forms of gastroenteritis, such as food poisoning, dysentery and diarrhea, appear to be the principal diseases they transmit, carried on their legs and bodies to food and utensils, and that their droppings and cast skins contain allergens that cause rashes, watery eyes, nasal congestion, sneezing and asthma in many people." },
+    { "type": "p", "text": "They can carry germs to food, and their droppings and shed skins can trigger allergies and asthma. Penn State says forms of gastroenteritis, such as food poisoning, dysentery and diarrhea, appear to be the principal diseases they transmit, carried on their legs and bodies to food and utensils, and that their droppings and cast skins contain allergens that cause rashes, watery eyes, nasal congestion, sneezing and asthma in many people. Whether a cockroach can bite at all is covered in [the guide to cockroach bites](/blog/do-cockroaches-bite)." },
     { "type": "p", "text": "The [EPA's guide to asthma triggers](https://www.epa.gov/asthma/asthma-triggers-gain-control) says proteins in cockroach feces and saliva can cause allergic reactions or trigger asthma symptoms in some people, and UC IPM reports that indoor cockroach infestations have been identified as risk factors for asthma developing in children, especially in multi-unit housing." },
     { "type": "callout", "tone": "note", "title": "Asthma or allergies at home?", "text": "The EPA advises people with asthma to work with a doctor to identify their triggers and develop a treatment plan, so mention the cockroaches if anyone at home has symptoms. It also advises clean counters and floors, food in airtight containers and sealed cracks around cabinets." },
 
@@ -182,7 +190,10 @@
     { "title": "EENY-514/IN915: Florida Woods Cockroach (AKA Palmetto Bug) Eurycotis floridana (Walker)", "publisher": "University of Florida IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IN915" },
     { "title": "Asthma Triggers: Gain Control", "publisher": "US Environmental Protection Agency", "url": "https://www.epa.gov/asthma/asthma-triggers-gain-control" },
     { "title": "Ground Beetles (Carabids)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/ground-beetles-carabids" },
-    { "title": "Giant Water Bugs", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/giant-water-bugs" }
+    { "title": "Giant Water Bugs", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/giant-water-bugs" },
+    { "title": "Wood Cockroaches", "publisher": "Penn State Extension (M. J. Skvarla, updated 2026)", "url": "https://extension.psu.edu/wood-cockroaches" },
+    { "title": "Crickets", "publisher": "University of Maryland Extension, Home and Garden Information Center", "url": "https://extension.umd.edu/resource/crickets" },
+    { "title": "Field Crickets", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/field-crickets" }
   ],
   "disclaimer": "health"
 }

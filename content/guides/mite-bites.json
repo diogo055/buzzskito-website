@@ -10,7 +10,8 @@
     "mites that bite humans",
     "types of mite bites",
     "mite bites treatment",
-    "mite bites pictures"
+    "mite bites pictures",
+    "what does a mite bite look like"
   ],
   "metaTitle": "Mite Bites: What They Look Like (Photos)",
   "metaDescription": "Mite bites are small, very itchy red bumps. Photos of chigger, bird mite, itch mite and scabies bites, where each mite comes from and when to see a doctor.",
@@ -19,6 +20,7 @@
   "breadcrumb": "Mite Bites",
   "excerpt": "What mite bites look like, how to tell chigger, bird mite, rodent mite, itch mite and scabies bites apart, which mites do not bite, and when to see a doctor.",
   "datePublished": "2026-10-28",
+  "dateModified": "2026-11-08",
   "parent": { "href": "/learn/bug-bites", "name": "Bug Bites" },
   "quickAnswer": {
     "lead": "**Mite bites are small, very itchy red bumps, and the bites alone rarely show which mite made them, so start with where you picked them up: grass and weeds point to chiggers, an empty bird nest or trapped rodents to bird or rodent mites, oaks or hay to itch mites, and a night itch between the fingers to scabies.** Dust mites do not bite.",
@@ -50,6 +52,15 @@
     { "type": "h2", "text": "What do mite bites look like?" },
     { "type": "p", "text": "Most are small red bumps or pimples that itch, often intensely. [MedlinePlus](https://medlineplus.gov/ency/article/001333.htm) describes chigger bites as red, pimple-like bumps or hives with severe itching, the [Illinois Department of Public Health](https://dph.illinois.gov/topics-services/environmental-health-protection/structural-pest-control/mites-affecting-humans.html) (IDPH) says itch mite bites leave itchy red marks that can resemble a rash, and the [University of Kentucky's fact sheet on parasitic mites](https://entomology.mgcafe.uky.edu/ef637) describes hardened, raised chigger bumps that can itch for a week or more." },
     { "type": "figure", "src": "/guides/photos/chigger-bites-ruler.webp", "width": 1200, "height": 780, "alt": "Three small, raised red welts on a hairy arm beside a paper ruler printed with inch and metric scales", "caption": "Three chigger bites on a patient's arm about 10 days after the bites, in a CDC photograph; each red welt measured about 1/8 inch (3 to 4 mm) across, CDC says.", "credit": "CDC/ M.A. Parsons (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=12069" },
+    { "type": "p", "text": "Each biting mite leaves a slightly different mark, though rarely different enough to name the mite from the bite alone:" },
+    { "type": "table", "head": ["Mite", "What the bites look like", "How they feel"], "rows": [
+      ["Chigger", "Red, pimple-like bumps or hives, or hardened, raised bumps, often in a line where clothing fits tightly", "Severe itching that can last a week or more"],
+      ["Oak leaf itch mite", "Red, raised, pimple-like bumps that closely resemble insect bites, often several together", "Extremely itchy"],
+      ["Straw itch mite", "Itchy red marks that can resemble a skin rash, as IDPH describes itch mite bites", "IDPH says itch mite bites are not felt at the time"],
+      ["Bird mites", "Small red lesions (chicken mite) or a localized rash (northern fowl mite)", "Itching; the chicken mite's bite can be painful and comes mostly at night"],
+      ["Rat and mouse mites", "A rash around the bite (house mouse mite), or irritated skin that may last 2 to 3 days (tropical rat mite)", "Painful and itchy (tropical rat mite)"],
+      ["Scabies mite", "A pimple-like rash and tiny, raised, crooked lines (burrows), grayish-white or skin-colored", "Intense itching, often worse at night"]
+    ], "caption": "Sources: MedlinePlus, the University of Kentucky, Cleveland Clinic, CDC (including its report on the 2004 Kansas outbreak), Penn State and IDPH, each linked on this page." },
     { "type": "p", "text": "The bite alone rarely shows which mite made it. The University of Kentucky's [guide to mystery bites](https://entomology.mgcafe.uky.edu/ef649) says even physicians find bug bites difficult to diagnose, and the University of California's [guide to unexplained itching](https://ipm.ucanr.edu/home-and-landscape/itching-and-infestation-whats-attacking-me/) (UC IPM) says confirming a mite as the cause takes a specimen identified by a trained entomologist. Doctors go by the story: MedlinePlus says a provider can usually diagnose chigger bites from the rash and recent time outdoors." },
 
     { "type": "h2", "text": "Which mite bit you? Start with where you had been" },
@@ -61,8 +72,10 @@
       "**Indoors, in rooms near a nest in the eaves, attic or chimney, after the birds left:** bird mites.",
       "**Indoors, after mice or rats were trapped, poisoned or shut out:** rat or mouse mites.",
       "**Close, prolonged skin-to-skin contact with another person, and an itch that is worst at night, between the fingers or at the wrists:** scabies.",
+      "**Handling a pet with a mange-like skin condition:** Cheyletiella mites.",
       "**Bites in bed and none of the above:** check for bed bugs and fleas before blaming mites."
     ] },
+    { "type": "p", "text": "The pet mites are the odd ones out: IDPH says Cheyletiella mites, which infest birds and mammals, can cause a mange-like condition in pets and itching in people who handle infested pets, though they do not stay long on people." },
     { "type": "p", "text": "The [bug bite identification chart](/learn/bug-bites) compares mite bites with every other common bite, and the [bug bite identifier](/tools/bug-bite-identifier) asks six questions about yours and names the likely biters." },
 
     { "type": "h2", "text": "Chiggers: after grass, weeds or woods" },
@@ -85,7 +98,7 @@
     { "type": "h2", "text": "Itch mites: under oak trees or in hay and straw" },
     { "type": "p", "text": "Bites from itch mites, which normally prey on insects and bite people who touch the places those insects live. IDPH says these mites cannot be seen and their bites are not felt but leave itchy red marks that can resemble a rash, and that they cannot live on people, do not survive indoors and are not known to spread disease." },
     { "type": "h3", "text": "Under oak trees in late summer and fall" },
-    { "type": "p", "text": "Oak leaf itch mites develop in galls along the leaf edges of pin oaks and other red oaks, [Penn State Extension](https://extension.psu.edu/oak-leaf-itch-mite) says, and CDC describes them preying on the gall-making midge larvae. About 1/125 inch (0.2 mm) long and nearly invisible, they can fall from trees in large numbers in late summer and fall and ride the wind, even through window screens. Most bites happen to people gardening, especially while raking pin oak leaves." },
+    { "type": "p", "text": "Oak leaf itch mites develop in galls along the leaf edges of pin oaks and other red oaks, [Penn State Extension](https://extension.psu.edu/oak-leaf-itch-mite) says, and CDC describes them preying on the gall-making midge larvae. IDPH says the same mite, *Pyemotes herfsi*, also attacks cicada eggs beneath tree bark. About 1/125 inch (0.2 mm) long and nearly invisible, they can fall from trees in large numbers in late summer and fall and ride the wind, even through window screens. Most bites happen to people gardening, especially while raking pin oak leaves." },
     { "type": "p", "text": "In [a 2004 outbreak in Kansas](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5438a3.htm) that affected an estimated 54% of Crawford County's residents, CDC found the rash most often on the neck and arms, and also on the shoulders, upper torso and face. Itching typically begins 10 to 16 hours after contact, CDC notes; few people recalled a bite, and 38 of the 65 who said how long it lasted reported it gone within 1 to 7 days." },
     { "type": "media", "needed": "Oak leaf itch mite bites on a person's neck or shoulders after time under pin oaks, from a case where the mite was identified, with the timing stated; public domain or CC0, no identifiable face" },
     { "type": "h3", "text": "In hay, straw and grain" },
@@ -100,7 +113,7 @@
     { "type": "p", "text": "It needs a healthcare provider, not pest control. CDC says to contact a provider if you suspect scabies, and its [scabies treatment page](https://www.cdc.gov/scabies/treatment/index.html) says a provider can prescribe a cream, lotion or pill, that nonprescription products have not been tested and approved to treat it, and that insecticide sprays and fumigants should not be used. [How scabies differs from bed bug bites](/blog/scabies-vs-bed-bugs) is covered separately." },
 
     { "type": "h2", "text": "Which mites do not bite people?" },
-    { "type": "p", "text": "Dust mites, clover mites and spider mites. Kentucky's mystery-bite guide says house dust mites do not cause itching or bite-like reactions; their effect is allergy, from sneezing to asthma, and IDPH says they do not live on people. [What dust mites are and the allergy they cause](/blog/dust-mites) has its own guide." },
+    { "type": "p", "text": "Dust mites, clover mites and spider mites. Kentucky's mystery-bite guide says house dust mites do not cause itching or bite-like reactions; their effect is allergy, from sneezing to asthma, and IDPH says they do not live on people. [What dust mites are and the allergy they cause](/blog/dust-mites) has its own guide, and [whether dust mites bite](/blog/dust-mite-bites) covers the rashes blamed on them." },
     { "type": "p", "text": "Clover mites, tiny reddish mites by Texas A&M's description, come indoors in large numbers, in fall or late winter to early spring, but IDPH says they do not bite or cause health problems. Spider mites feed on plants: the [National Pesticide Information Center](https://www.npic.orst.edu/pest/mites.html) (NPIC) groups them with the plant-damaging mites, and its list of mites that may bite people names chiggers, bird mites and rodent mites." },
 
     { "type": "h2", "text": "What else can look like mite bites?" },
@@ -112,7 +125,7 @@
       "**Itching or a rash with no bite:** Kentucky names fibers from paper, fabric and insulation, static and dry winter skin, and UC IPM many medical conditions and medicines; [carpet beetle rash](/blog/carpet-beetle-rash) has its own guide."
     ] },
     { "type": "confused", "title": "Mites that bite, and what gets mistaken for them", "items": [
-      { "href": "/blog/how-to-get-rid-of-chiggers", "name": "Chigger", "photo": "chigger-and-pinhead", "note": "Larvae about 1/100 inch; bites where clothing fits tightly, after grass or weeds", "alt": "Pinhead seen up close with a labeled adult chigger and a far smaller larval chigger, a white speck, on its surface" },
+      { "href": "/blog/chigger-bites", "name": "Chigger", "photo": "chigger-and-pinhead", "note": "Larvae about 1/100 inch; bites where clothing fits tightly, after grass or weeds", "alt": "Pinhead seen up close with a labeled adult chigger and a far smaller larval chigger, a white speck, on its surface" },
       { "href": "/blog/bird-mites", "name": "Bird mite", "photo": "northern-fowl-mites", "note": "Period-size speck; bites indoors near a nest the birds have left", "alt": "Magnified northern fowl mite, a pale oval mite with dark brown markings, on green fabric fibers" },
       { "href": "/blog/itch-mites", "name": "Straw itch mite", "photo": "straw-itch-mites", "note": "Nearly invisible; bites after handling hay, straw or grain", "alt": "Microscope view of two pale straw itch mites with long legs beside the dark, swollen round abdomen of a female" },
       { "href": "/blog/scabies-vs-bed-bugs", "name": "Scabies mite", "photo": "scabies-mite", "note": "Lives in the skin; the itch is worst at night, often between the fingers", "alt": "Microscope view of a round, translucent human itch mite from below, with short legs and long bristles" },

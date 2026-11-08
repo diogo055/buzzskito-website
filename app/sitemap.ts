@@ -65,6 +65,11 @@ const ARTICLES_UPDATED_NOV8 = new Set([
   'best-flea-spray-for-home-canada', 'permethrin-canada-yard-clothing-spray', 'electric-fly-swatter',
   'how-to-get-rid-of-ground-wasps-canada', 'best-wasp-nest-spray-canada', 'best-mouse-trap-canada',
   'vamoose-for-mice',
+  // Same day, top-3 walkthrough (owner: "see what can be improved to get the positions up versus whoever already
+  // ranks top 3"): new sourced sections, tables, FAQs and photos, each claim fact-checked. camel-crickets only had its
+  // first sentence reworded, which is not a content change, so its date stays.
+  'what-do-fleas-look-like', 'bugs-that-look-like-fleas', 'sand-fleas', 'mite-bites', 'tiny-brown-bugs', 'tiny-white-bugs',
+  'tiny-black-bugs', 'animal-droppings', 'oriental-cockroaches', 'maggots', 'red-ticks-and-clover-mites',
 ])
 // Oct 15, 2026: nine identification articles gained real, credited photographs (their first),
 // and /lyme-disease-canada-statistics was corrected to PHAC's current series (2024 = 5,809,
@@ -254,7 +259,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // ── Core pages ──────────────────────────────────────────────────────────────
   const core: MetadataRoute.Sitemap = [
     { url: SITE_URL,                                    lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'weekly',  priority: 1.0 },
-    { url: `${SITE_URL}/mosquito-control`,              lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.9 },
+    // Rebuilt Nov 8, 2026 (owner: "for mosquito control, yes, you can rebuild"): six new sections and eight new FAQs.
+    { url: `${SITE_URL}/mosquito-control`,              lastModified: UPDATED_NOV8, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${SITE_URL}/tick-control`,                  lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${SITE_URL}/service-areas`,                 lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${SITE_URL}/contact`,                       lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.8 },

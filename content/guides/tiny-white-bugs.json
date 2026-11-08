@@ -11,7 +11,10 @@
     "tiny white bugs in bed",
     "tiny white bugs in bathroom",
     "tiny white bugs in kitchen",
-    "tiny white jumping bugs"
+    "tiny white jumping bugs",
+    "very tiny white bugs that look like dust",
+    "white bugs",
+    "small clear white bugs in house"
   ],
   "metaTitle": "Tiny White Bugs in the House? ID Them (Photos)",
   "metaDescription": "Tiny white bugs indoors are usually booklice, springtails or mites in damp rooms and stored food. Sort yours by where you found it, with photos and sizes.",
@@ -20,6 +23,7 @@
   "breadcrumb": "Tiny White Bugs in the House",
   "excerpt": "Booklouse, springtail, grain mite, mealybug, whitefly or bed bug egg? Sort a tiny white bug by where you found it, with real photos and sizes in inches.",
   "datePublished": "2026-10-28",
+  "dateModified": "2026-11-08",
   "parent": { "href": "/learn", "name": "Learning Centre" },
   "quickAnswer": {
     "lead": "**Tiny white bugs in a house are usually booklice, springtails or mites feeding on mold in damp rooms and stored food, or mealybugs and whiteflies on houseplants, and where you found yours sorts them fastest.** A white speck that jumps is most likely a springtail; one that flutters up from a plant, a whitefly; one glued to a hair, a nit, which is an egg, not a bug.",
@@ -45,6 +49,7 @@
       ["Whitefly", "1/16 to 1/10 inch", "Undersides of houseplant leaves", "Flutters up when the plant is disturbed", "Powdery white, like a tiny moth"],
       ["Termite worker", "1/4 to 3/8 inch", "Inside wood, soil or mud tubes", "Crawls; rarely out in the open", "Wingless and white to creamy white"],
       ["White cockroach", "Its species' usual size", "Kitchens, bathrooms and other roach hiding places", "Crawls", "Cockroach shape; usually darkens within hours of molting"],
+      ["Young silverfish", "About 1/16 inch when newly hatched", "Bathtubs, sinks and other humid spots", "Crawls; wingless", "White and scaleless at first; two long antennae and three tail threads"],
       ["Nit (head louse egg)", "About 1/32 inch", "Glued to hairs close to the scalp", "Does not move", "Oval, yellow to white; often mistaken for dandruff"]
     ],
     "caption": "Sizes and features from UF/IFAS, Penn State, the Defense Centers for Public Health, UC IPM, Purdue, UC Davis, the University of Kentucky, EPA, CDC, Clemson and Texas A&M, each linked on this page."
@@ -56,7 +61,7 @@
     { "type": "p", "text": "Where you found the bug narrows the list fastest:" },
     { "type": "table", "head": ["Where you found it", "Check first", "Also check"], "rows": [
       ["Kitchen or pantry", "Grain or mold mites; booklice in damp dry food", "Pantry moth larvae, whitish caterpillars that leave silk"],
-      ["Bathroom, sink or drain", "Springtails", "Booklice on damp walls"],
+      ["Bathroom, sink or drain", "Springtails", "Booklice on damp walls; young silverfish in the tub"],
       ["Damp wall, books, papers or windowsill", "Booklice", "Springtails, which come in through screens and gaps"],
       ["Bed, mattress or carpet", "Bed bug eggs and newly hatched nymphs", "Booklice in damp bedding; dust mites, which you usually cannot see"],
       ["Closet, wool clothes or rug", "Clothes moth larvae", "Silk webbing or cases where they feed"],
@@ -65,6 +70,11 @@
       ["Hair", "Nits (lice eggs)", "Dandruff or hair spray droplets"]
     ], "caption": "Compiled from the extension, EPA and CDC sources linked in the sections below." },
     { "type": "p", "text": "Up close, some white bugs turn out tan: the University of Florida describes booklice as translucent white to light brown. If yours looks brown or dark under a magnifier, [the guide to tiny brown bugs](/blog/tiny-brown-bugs) and [the tiny black bug guide](/blog/tiny-black-bugs) sort those by place the same way. Tiny red bugs are a separate set again." },
+
+    { "type": "h2", "text": "What are the very tiny white bugs that look like dust or lint?" },
+    { "type": "p", "text": "Very tiny white bugs that look like dust are usually mites, and where the dust is tells you which kind. Moving dust on flour, grain, cereal or pet food is grain or mold mites: Purdue describes grain mites so numerous that grain looks covered with moving dust, and the [Bohart Museum at UC Davis](https://bohart.ucdavis.edu/sites/g/files/dgvnsk4616/files/media/documents/note_39_mold_mites.pdf) the pale brownish mite dust that mold mites leave around food. White specks that fly up from a houseplant when you brush it, then settle again, are whiteflies, which Clemson describes as powdery white, 1/16 to 1/10 inch long and like tiny moths; [the whitefly guide](/learn/whitefly-identification-control) covers them." },
+    { "type": "p", "text": "Booklice and springtails are bigger, around 1/16 inch, so each shows as a separate pale speck, and Penn State says young booklice can be nearly clear. Dust mites are the one white bug here you usually cannot see." },
+    { "type": "p", "text": "Outdoors, white fluff that seems to drift through the air may be woolly aphids. [Iowa State University Extension](https://yardandgarden.extension.iastate.edu/article/2003/7-11-2003/flyingfuzz.html) describes small, cottony white fuzz-balls that are winged woolly alder aphids, each a dark body with clear wings pulling a tuft of white wax, which fly readily when disturbed; it says control is not warranted. [The aphid guide](/learn/aphid-control-guide) covers aphids on garden plants." },
 
     { "type": "h2", "text": "How do you tell which tiny white bug you have?" },
     { "type": "p", "text": "Catch one in a clear jar or press it onto clear tape, and look at it through a magnifying glass, since many of these are 1/16 inch long or less. Then run through these checks." },
@@ -96,6 +106,7 @@
     { "type": "media", "needed": "Booklice on a windowsill or white springtails in a white bathtub in a US home, beside a ruler marked in inches, identified by an extension service or expert; public domain or CC0 so it could lead the page" },
     { "type": "p", "text": "Tiny white bugs that jump around a tub, sink or floor drain are springtails. [UC IPM's springtail guide](https://ipm.ucanr.edu/home-and-landscape/springtails/) describes wingless creatures about 1/16 inch long that leap with a spring tucked under the abdomen; the young are usually whitish, adults whitish, bluish or dark gray to black. Indoors they gather in moist spots such as sinks, tubs, floor drains, damp basements and wall voids, and they do not bite people or pets or damage furnishings." },
     { "type": "p", "text": "[Penn State Extension's springtail page](https://extension.psu.edu/springtails) puts most household kinds at 1 to 2 mm (about 1/25 to 1/12 inch), white to black, and says long droughts and prolonged soaking rains can both send them indoors. [The springtail guide](/blog/springtails) covers them in full, and [the guide to bugs in the bathroom](/blog/bugs-in-bathroom) sorts the other bathroom regulars." },
+    { "type": "p", "text": "A white bug with two long antennae and three long tail threads, in a tub or sink, is likely a young silverfish: the University of Florida says silverfish have both, and that the young look like the adults, only smaller. [UC IPM's silverfish guide](https://ipm.ucanr.edu/home-and-landscape/silverfish-and-firebrats/) says newly hatched silverfish are about 1/16 inch long, plump, white and without scales, and that silverfish sometimes turn up in bathtubs and sinks; [what baby silverfish look like](/blog/baby-silverfish) shows them." },
 
     { "type": "h2", "text": "What are the tiny white bugs in my bed or carpet?" },
     { "type": "p", "text": "In a bed, look first for bed bug eggs and young bed bugs, because bed bugs feed on blood. The [EPA's page on bed bug appearance](https://www.epa.gov/bedbugs/bed-bugs-appearance-and-life-cycle) describes the eggs as pearl-white and the size of a pinhead, about 1 mm (1/25 inch), with an eye spot once they are more than five days old. Newly hatched nymphs are about 1.5 mm (1/16 inch), translucent or whitish-yellow, and if they have not fed recently they can be nearly invisible to the naked eye." },
@@ -123,10 +134,6 @@
     { "type": "p", "text": "Usually they are eggs. [CDC's parasite reference on head lice](https://www.cdc.gov/dpdx/pediculosis/index.html) describes nits as oval, usually yellow to white and about 0.8 mm (1/32 inch) long, cemented to the hair shaft close to the scalp, hard to see and often mistaken for dandruff or hair spray droplets. Adult lice, about the size of a sesame seed, are tan to grayish-white, so a pale speck crawling through the hair may be a louse itself." },
     { "type": "figure", "src": "/guides/photos/head-lice-nits-on-hair-life-size.webp", "width": 608, "height": 648, "alt": "Brown hair seen close up without magnification, with many tiny pale specks stuck to individual hairs", "caption": "Head louse nits on human hair, photographed without a microscope: the small pale specks stuck to single hairs are the eggs.", "credit": "KostaMumcuoglu at English Wikipedia, CC BY-SA 3.0, via Wikimedia Commons", "license": "CC-BY-SA-3.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fig._5._Louse_nits.jpg" },
     { "type": "p", "text": "[The lice egg guide](/blog/lice-eggs) shows how to tell live nits from hatched ones and from dandruff, and [what lice look like](/blog/what-do-lice-look-like) covers the adults." },
-
-    { "type": "h2", "text": "What are the tiny white bugs that look like dust or lint?" },
-    { "type": "p", "text": "Moving dust is usually mites: Purdue describes grain mites so numerous that grain looks covered with moving dust, and UC Davis the pale brownish mite dust that mold mites leave around food. Booklice and springtails are bigger, around 1/16 inch, so each shows as a separate pale speck. Dust mites are the one white bug here you usually cannot see." },
-    { "type": "p", "text": "Outdoors, white fluff that seems to drift through the air may be woolly aphids. [Iowa State University Extension](https://yardandgarden.extension.iastate.edu/article/2003/7-11-2003/flyingfuzz.html) describes small, cottony white fuzz-balls that are winged woolly alder aphids, each a dark body with clear wings pulling a tuft of white wax, which fly readily when disturbed; it says control is not warranted. [The aphid guide](/learn/aphid-control-guide) covers aphids on garden plants." },
 
     { "type": "h2", "text": "Which tiny white bugs jump, fly or bite?" },
     { "type": "p", "text": "Springtails jump and whiteflies fly; outdoors, Iowa State says winged woolly alder aphids fly readily when disturbed. Booklice, springtails, dust mites and mold mites do not bite people: Penn State says booklice do not, UC IPM says springtails do not bite people or pets, Kentucky says dust mites cannot, and UC Davis says mold mites are not parasites." },
@@ -217,6 +224,7 @@
     { "title": "Termites: How to Identify and Control Them (updated October 8, 2026)", "publisher": "US Environmental Protection Agency", "url": "https://www.epa.gov/safepestcontrol/termites-how-identify-and-control-them" },
     { "title": "Pest Notes: Cockroaches (UC ANR Publication 7467)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/cockroaches/" },
     { "title": "DPDx: Pediculosis", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/dpdx/pediculosis/index.html" },
-    { "title": "Flying Fuzz-Balls: Woolly Alder Aphid (Donald Lewis, July 11, 2003)", "publisher": "Iowa State University Extension and Outreach, Yard and Garden", "url": "https://yardandgarden.extension.iastate.edu/article/2003/7-11-2003/flyingfuzz.html" }
+    { "title": "Flying Fuzz-Balls: Woolly Alder Aphid (Donald Lewis, July 11, 2003)", "publisher": "Iowa State University Extension and Outreach, Yard and Garden", "url": "https://yardandgarden.extension.iastate.edu/article/2003/7-11-2003/flyingfuzz.html" },
+    { "title": "Pest Notes: Silverfish and Firebrats (UC ANR Publication 7475; M.K. Rust and M.R. Millard)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/silverfish-and-firebrats/" }
   ]
 }
