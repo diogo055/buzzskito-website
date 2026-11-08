@@ -14,7 +14,7 @@ import Photo from '@/components/Photo'
 import { shareImage } from '@/lib/photos'
 
 const POST = {
-  title: 'Lyme Disease Risk Areas Ontario 2026',
+  title: 'Ontario Tick Map 2026: Lyme Disease Risk Areas',
   slug: 'lyme-disease-risk-areas-ontario-2026',
   date: '2026-04-15',
   excerpt: 'Updated 2026 map of confirmed Lyme disease risk areas across Ontario, including GTA-specific zones, public health surveillance data, and what homeowners can do to protect their families.',

@@ -20,7 +20,7 @@ import RelatedLinks from '@/components/RelatedLinks'
 const SLUG = 'mouse-bait-station-canada'
 const DATE = '2026-07-16'
 const UPDATED = '2026-10-29'
-const TITLE = 'Mouse Bait Stations Canada 2026 — What\'s Actually Legal (PMRA Guide)'
+const TITLE = 'Mouse Poison & Bait Stations in Canada 2026 — What\'s Actually Legal (PMRA Guide)'
 
 const FAQS = [
   {

@@ -143,7 +143,7 @@ export default function HowToGetRidOfMosquitoesInYardOntarioPage() {
         <p>Mosquito populations rebuild within 2–3 weeks if treatments stop. A common mistake Ontario homeowners make is stopping mosquito control in late July when activity dips, then having a misery-spike in August. Continue barrier spray treatments through mid-September for full-season protection.</p>
 
 
-        <h2>Bottom Line</h2>
+        <h2>The Bottom Line on Getting Rid of Yard Mosquitoes</h2>
         <p>A layered approach — source elimination, BTI for what you can&apos;t drain, professional barrier spray for adult control, and personal protection for outdoor activities — each cover a gap the others leave open. The compounding is the point: source elimination removes local breeding, BTI handles water you cannot drain, barrier spray treats the resting vegetation for mosquitoes arriving from off-property, and personal protection catches what still gets through. No layer clears a yard on its own.</p>
 
         <h2>Related Guides</h2>

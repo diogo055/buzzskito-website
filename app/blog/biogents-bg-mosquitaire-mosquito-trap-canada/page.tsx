@@ -338,7 +338,7 @@ export default function BiogentsBgMosquitaireCanadaPage() {
             <li><strong>Expectations:</strong> Health Canada lists odour-baited traps among products that do not protect well against bites, so keep a registered personal repellent for evenings outside.</li>
           </ol>
 
-          <h2>The Bottom Line</h2>
+          <h2>The Bottom Line on the BG-Mosquitaire</h2>
           <p>The Biogents BG-Mosquitaire is the best consumer mosquito trap a Canadian can buy online, and the lure-only version is the one to get. It has the research lineage, it costs almost nothing to feed compared with a propane trap, and it does its work without putting anything on your lawn. Site it between the source and your patio, in shade, low, out of the wind. Run it from early May to late September without moving it. Buy the lure multipack in the same order. Bring it inside for winter.</p>
           <p>What it will not do is fix a bad Saturday, cover an acre, out-run standing water on your own property, or touch a tick. If any of those is your actual problem, spend the money somewhere else &mdash; and if what you want is a yard that is usable tonight and stays that way, a trap belongs alongside a barrier treatment rather than instead of one.</p>
 

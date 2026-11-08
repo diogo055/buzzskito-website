@@ -271,7 +271,7 @@ export default function CanLymeDiseaseKillYouPage() {
           For the full playbook, see our <Link href="/blog/lyme-disease-tick-prevention-ontario" className="text-brand-700 hover:underline">Lyme disease and tick prevention guide for Ontario</Link>. If your property backs onto a ravine, conservation area, or wooded edge, professional yard treatment adds a meaningful layer: BuzzSkito&rsquo;s tick barrier spray targets the lawn-to-woods transition zones, leaf litter, and fence lines where ticks concentrate, at $597 for the season (or $497 when bundled with a mosquito plan). It won&rsquo;t replace tick checks, but it reduces how many ticks are lying in wait in the areas your family actually uses.
         </p>
 
-        <h2>The bottom line</h2>
+        <h2>The Bottom Line: Can Lyme Disease Kill You?</h2>
         <p>
           Lyme disease is serious enough to take seriously and treatable enough not to panic about. It is curable with antibiotics, it does not spread from person to person, and it is only very rarely fatal &mdash; and even that rare risk is tied almost entirely to infections left untreated. Remove ticks promptly, watch for symptoms, and see a doctor early. That combination keeps the outlook, for the vast majority of Canadians, very good.
         </p>

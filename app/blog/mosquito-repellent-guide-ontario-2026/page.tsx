@@ -18,7 +18,7 @@ import Photo from '@/components/Photo'
 const SLUG = 'mosquito-repellent-guide-ontario-2026'
 const DATE = '2026-04-26'
 const UPDATED = '2026-11-06'
-const TITLE = 'Mosquito Repellent Guide — Ontario 2026 (What Actually Works)'
+const TITLE = 'Best Mosquito Repellent in Ontario 2026 (What Actually Works)'
 // BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): the backyard fogger row's Cutter button is now plain text: this page says the US Cutter and Black Flag fogging products are EPA-registered, not PMRA-registered. The repellent-bracelet row keeps its button (this page says bracelets do not protect well, not that they are unregistered): owner's call.
 const META_TITLE = 'Best Mosquito Repellent Canada 2026: Ranked'
 

@@ -391,7 +391,7 @@ export default function BedBugControlHubPage() {
       <GuideHub
         breadcrumb={[{ name: 'Home', href: '/' }, { name: 'Pest Product Guides', href: '/pest-product-guides' }, { name: 'Bed Bug Control' }]}
         badge="Bed Bug Control"
-        title="The Bed Bug Products That Actually Work in Canada"
+        title="Best Bed Bug Killers in Canada: The Products That Actually Work"
         subtitle="Independent research on the bed bug products Canadian homeowners can actually buy — every spray checked against Health Canada's PMRA registry, and every device weighed on published evidence."
         heroStats={[
           { value: `${POSTS_LINKED}`, label: 'Independent guides' },

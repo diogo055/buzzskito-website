@@ -295,7 +295,7 @@ export default function HardtopVsSoftTopMosquitoGazeboCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="mellcom hardtop gazebo 10x13 aluminum">Check the MELLCOM 10x13 &rarr;</BuyLink>
           </div>
 
-          <h2>The Bottom Line</h2>
+          <h2>The Bottom Line: Hardtop or Soft-Top Gazebo?</h2>
           <p>Hardtop versus soft-top is a question about how long the structure lasts and how many autumns you spend on a ladder &mdash; not about how many mosquitoes get in. Spend on mesh density first, anchoring second, and the roof third. A soft-top in a standard 10x12 footprint, hung with no-see-um mesh, bolted down properly and stripped every October, is the right answer for most Canadian backyards. A hardtop earns its price when you are staying in the house, the pad is level, and you want to stop thinking about it. And whichever way you go, remember the boundary: mesh protects the space it encloses. The lawn, the garden beds, the play structure and the ticks in the long grass need the yard treated, not screened.</p>
 
           <h2>Frequently Asked Questions</h2>

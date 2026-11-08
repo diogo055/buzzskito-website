@@ -22,7 +22,7 @@ import { shareImage } from '@/lib/photos'
 const SLUG = 'best-rodent-repellent-for-cars-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-11-08'
-const TITLE = 'Best Rodent Repellent for Cars in Canada — Tape vs Strobe vs Peppermint vs Traps'
+const TITLE = 'Best Rodent Repellent for Car Engines in Canada — Tape vs Strobe vs Peppermint vs Traps'
 // TITLE NOTE (Oct 23, 2026): was 'Best Car Rodent Repellent Canada: Tape vs Strobe' (Sep 3 title test, data/exp-title-test.json: Canadian CTR 0.81% Aug 6-Sep 2, 0.47% Sep 24-Oct 21); top queries, 90 days to Oct 23: best rodent repellent for car engines 338 at 5.4, rodent repellent for cars 292 at 7.9, rodent deterrent for cars 230 at 7.8, mouse repellent for car 138 at 8.6, best rodent repellent for cars 120 at 8.7, car rodent repellent 115 at 7.3.
 // BUTTON NOTE (Nov 5, 2026, owner: "if it's not registered in Canada, remove the button"): peppermint-oil rodent repellent pouches (a repellent; "Not a registered repellent: Health Canada's registry lists no peppermint rodent repellent", per this page) lost their 4 buttons: the 'Best Natural' card, the table cell (now plain text), the button row (its caption now says three picks) and the button under the peppermint section. The capsaicin tape and the under-hood unit are left for the owner (this page calls the tape's status unclear; the unit is a device).
 const META_TITLE = 'Best Rodent Repellent for Car Engines in Canada'

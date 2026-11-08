@@ -284,7 +284,7 @@ export default function GutterGuardsMosquitoBreedingPage() {
           <p>Clearing and guarding the gutters before the leaves fall removes the first breeding site of the following season before it forms. It is the rare piece of pest work that is genuinely better done in October than in May, which also means it competes for nobody&rsquo;s attention in June.</p>
           <p>For anything that still holds water after all this &mdash; a flat roof scupper, a window well, a decorative pond &mdash; a Bti dunk is the standing answer; see our <Link href="/blog/mosquito-bits-canada-vs-dunks">mosquito dunks guide for Canada</Link>.</p>
 
-          <h2>The Bottom Line</h2>
+          <h2>The Bottom Line on Gutter Guards and Mosquitoes</h2>
           <p>Mosquitoes absolutely breed in gutters, and a dammed eavestrough is the breeding site most likely to be running unnoticed on a Canadian house all season. Gutter guards prevent it by keeping out the fine debris that forms the dam, and in Ontario conditions that means aluminium-framed micro-mesh &mdash; not foam, not brush, and not plastic. Measure the run rather than the perimeter, confirm your gutter profile, order about ten percent over, and fit it in early autumn before leaf drop. Do it yourself on a bungalow, where a few hundred dollars replaces a few thousand. Do not do it yourself off a two-storey eave, where the saving is not worth the ladder. And if the trough ponds water when it is clean, re-hang it first &mdash; a guard over a sagging gutter just makes standing water harder to see.</p>
 
           <AdjacentPestCTA variant="equipment" />

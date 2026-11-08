@@ -265,7 +265,7 @@ export default function GoodnatureA24ReviewCanadaPage() {
           <h2>Is the A24 Humane?</h2>
           <p>Among lethal options, it is one of the most humane a consumer can buy. The CO₂-driven piston delivers a fast, high-energy strike to the head, and independent animal-welfare assessments in New Zealand &mdash; where these traps run at national conservation scale &mdash; have rated the A24 favourably against humane-kill benchmarks. Compare that to the alternatives it displaces: a glue board kills by hours of stress and dehydration, and an anticoagulant poison kills by internal bleeding over days. If a fast, low-suffering kill matters to you, a well-maintained A24 is a genuinely strong ethical choice &mdash; far ahead of the methods it replaces.</p>
 
-          <h2>The Bottom Line</h2>
+          <h2>The Bottom Line on the Goodnature A24</h2>
           <p>The Goodnature A24 is not for everyone, and any review that pretends otherwise is selling you something. For a single mouse, buy snap traps. But for a Canadian household with recurring rat pressure &mdash; a barn, a coop, a compost-fed alley, a foundation that keeps getting breached &mdash; who wants a hands-off, poison-free, humane solution that works unattended for weeks, the A24 is the standout instrument on the market. You are paying for deleted labour, continuous coverage, and a food web with no rodenticide in it. On the right property, that is money well spent. If you are weighing DIY tools like this against hiring a professional, our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> breaks down what recurring rodent work runs.</p>
 
           <h2>Frequently Asked Questions</h2>

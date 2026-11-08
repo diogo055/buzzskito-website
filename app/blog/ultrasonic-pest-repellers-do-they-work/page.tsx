@@ -250,7 +250,7 @@ export default function UltrasonicPestRepellersPage() {
           </div>
           <p className="text-sm text-gray-600">Only consumer options are listed. Second-generation anticoagulant rodenticides are commercial-class in Canada and are not a legal DIY option — details in our <Link href="/blog/rat-poison-canada-what-is-legal">rodenticide legality guide</Link>.</p>
 
-          <h2>The Bottom Line</h2>
+          <h2>The Bottom Line: Do Ultrasonic Repellers Work?</h2>
           <p>Ultrasonic pest repellers are a category kept alive by a regulatory gap and a startle effect that fades before the return window closes. The FTC warned over 60 companies in 2001; the habituation research predates that by a decade; and in Canada, nobody checks the box copy at all. Every dollar spent on a plug-in is a dollar not spent on the traps and steel wool that actually end infestations — and every week spent waiting on ultrasound is a week of unchecked breeding. Buy the boring stuff. It works.</p>
 
           <h2>Frequently Asked Questions</h2>

@@ -439,7 +439,7 @@ export default function BestSumpPumpForBasementCanadaPage() {
           />
           <p>The subsidy covers licensed installation, not a pump you put in yourself, so price both routes: the parts list above for a DIY swap, or a licensed plumber&rsquo;s quote with the City paying part of it.</p>
 
-          <h2>The Bottom Line</h2>
+          <h2>The Bottom Line on Basement Sump Pumps</h2>
           <p>Buy a 1/3 HP cast iron submersible unless the tape measure says otherwise, and let total head &mdash; not the horsepower badge &mdash; make that call. Match the float switch to your basin diameter and keep a spare, because the switch is what fails. Fit a serviceable check valve above the lid, drill the weep hole, add a union. Then spend your winter attention on the discharge line, since a frozen pipe during a February thaw is how a perfectly good pump dies in this country. Seal the pit, run the discharge well away from the foundation, and the damp that has been feeding the silverfish, centipedes and mould goes with it &mdash; which is the whole reason a mosquito company ended up writing about sump pumps.</p>
           <p>If the basement is finished, add a battery backup &mdash; and buy the system, not the pump: a DC backup pump on a matched controller, with a group 27 or 31 deep-cycle AGM battery, its own check valve, and an alarm you will actually hear. Size it by gallons per amp-hour at 10 feet of head, keep the battery warm, and test it twice a year. If your pit genuinely never runs, buy the alarm and a spare primary instead and put the difference somewhere it earns more.</p>
 

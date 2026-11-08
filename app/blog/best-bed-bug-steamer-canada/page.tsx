@@ -21,7 +21,7 @@ const SLUG = 'best-bed-bug-steamer-canada'
 const DATE = '2026-07-16'
 // Oct 23, 2026: answer-first hero, kill temperatures restated from University of Minnesota Extension and Health Canada, steamer-type table, situation guide, 3 FAQs, McCulloch heat-up time per McCulloch
 const UPDATED = '2026-10-23'
-const TITLE = 'Best Bed Bug Steamer Canada 2026 — Vapamore MR-100 vs McCulloch MC1275 vs PurSteam'
+const TITLE = 'Best Bed Bug Steamer & Steam Cleaner in Canada 2026 — Vapamore MR-100 vs McCulloch MC1275 vs PurSteam'
 // TITLE NOTE (Oct 23, 2026): was 'Best Bed Bug Steamer Canada 2026: 100°C Kill'; top queries (Jul 23-Oct 20): steam cleaner for bed bugs 499 @ 6.8, steamer for bed bugs 226 @ 6.9, best steamer for bed bugs 222 @ 4.5, steamer to kill bed bugs 176 @ 7.3, bed bug steamer 167 @ 6.7, best steam cleaner for bed bugs canada 119 @ 3.3 (page: 179 clicks on 6,722 impressions).
 const META_TITLE = 'Best Steam Cleaner for Bed Bugs Canada 2026'
 

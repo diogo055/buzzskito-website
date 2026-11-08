@@ -22,7 +22,7 @@ import { shareImage } from '@/lib/photos'
 const SLUG = 'raccoon-deterrent'
 const DATE = '2026-07-21'
 const UPDATED = '2026-11-08'
-const TITLE = 'Best Raccoon Deterrent Canada 2026 — What Actually Works (and What Ontario Law Allows)'
+const TITLE = 'Best Raccoon Deterrent & Repellent in Canada 2026 — What Actually Works (and What Ontario Law Allows)'
 // TITLE NOTE (Oct 23, 2026): was 'Raccoon Deterrents Canada: The 2026 Tier List'; top queries: raccoon repellent 896, racoon deterrent 435, racoon repellent 423, raccoon deterrent 280 (24 clicks). Kept off 'motion activated sprinkler': motion-activated-sprinkler-canada owns that search.
 const META_TITLE = 'Raccoon Repellent Canada: Deterrents That Work'
 

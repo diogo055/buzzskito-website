@@ -24,9 +24,9 @@ export default function BlogPostCTA() {
           <p className="text-[11px] sm:text-xs font-extrabold text-amber-700 uppercase tracking-widest mb-1.5">
             ★ As Featured in Toronto Star · CityNews · TorontoToday
           </p>
-          <h3 className="text-lg sm:text-xl font-extrabold text-brand-900 leading-tight mb-1.5">
+          <p className="text-lg sm:text-xl font-extrabold text-brand-900 leading-tight mb-1.5">
             Want this problem solved at YOUR address?
-          </h3>
+          </p>
           <p className="text-sm text-gray-700 leading-snug">
             Free custom quote. {PROMISES.response} No contracts · 150+ five-star reviews · Ontario-licensed operator
           </p>

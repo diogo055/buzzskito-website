@@ -271,7 +271,7 @@ export default function BugProtectiveClothingCanadaPage() {
           <h2>Kids and Bug Clothing</h2>
           <p>Mesh is the perfect kids&rsquo; solution precisely because it&rsquo;s dumb technology: no chemical exposure, no age restrictions, no misuse possible beyond wearing it backwards. Small adult bug jackets fit most kids from around age 8, dedicated youth sizes exist on amazon.ca, and a kid-size head net turns the 7 p.m. mosquito hour at the campground from a meltdown into a costume. The one caution repeats from above: treated clothing is the exception to &ldquo;no age limit.&rdquo; Check the product&rsquo;s label for age directions before putting permethrin-treated garments on children, and default to untreated mesh whenever in doubt.</p>
 
-          <h2>The Bottom Line</h2>
+          <h2>The Bottom Line on Bug Jackets and Head Nets</h2>
           <p>Bug protective clothing is the most reliable dollar you can spend on bite prevention in Canada. A Coghlan&rsquo;s bug jacket plus a Sea to Summit head net handles mosquito and black-fly season anywhere in Ontario; upgrade the head net to Ultra-Mesh if no-see-ums haunt your shoreline; add permethrin-treated clothing with a PCP number on the label for tick country (the registered home-use line is No Fly Zone, Reg. No. 32757) — the legal, factory-treated way to use permethrin in Canada, since DIY sprays aren&rsquo;t PMRA-registered. Everything packs into a lunch bag, nothing needs batteries, and all of it still works in five years. Clothing protects the person; for protecting the property itself, that&rsquo;s where yard-level treatment takes over.</p>
 
           <h2>Frequently Asked Questions</h2>

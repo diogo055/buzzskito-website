@@ -81,12 +81,12 @@ export default function HowToKeepTicksOutOfYardOntarioPage() {
 
         <AffiliateDisclosure />
 
-        <h3>1. Create a 3-Foot Wood-Chip or Gravel Barrier Between Lawn and Woods</h3>
+        <h2>1. Create a 3-Foot Wood-Chip or Gravel Barrier Between Lawn and Woods</h2>
         <p>The single most effective tick-prevention measure is a physical barrier between maintained lawn and natural vegetation. Wood chips or gravel at least 3 feet wide breaks the humidity gradient ticks need to survive — they dry out crossing the barrier. This is the CDC-recommended "tick zone" defense.</p>
 
         <p>The strip only works while it stays loose and dry, and turf creeps back into wood chip within a season or two. Rigid landscape edging on the lawn side is what keeps a barrier a barrier in year three. <BuyLink tag={AMZ_TAG} search="landscape edging lawn border">Check price on Amazon.ca &rarr;</BuyLink></p>
 
-        <h3>2. Keep Grass Cut Short (2 inches or less)</h3>
+        <h2>2. Keep Grass Cut Short (2 inches or less)</h2>
         <p>Ticks need humidity to survive. Tall grass holds humidity at the soil level where ticks live. Mowing to 2 inches or less significantly reduces tick survival on the lawn surface. Combine with edge-zone barrier spray for maximum effect.</p>
         <p>Height matters for a second reason: grass blades are the launch pad. A tick has no wings and cannot jump, so it climbs vegetation and waits with its front legs out for a leg or a dog to brush past &mdash; take the blades away and you take away the perch. <Link href="/blog/can-ticks-fly-jump-swim" className="text-brand-700 underline">Can ticks fly, jump, or swim?</Link> explains how that questing behaviour works, and why the tree-drop story is a myth.</p>
         <p>The open lawn is the easy part; the strip a mower cannot reach is not. Blacklegged ticks quest from tall grass and brushy edges and need humidity at ground level, which is why the lawn-to-woods transition is reliably the highest-risk strip on a property, and cutting that band back to mown, sun-exposed turf removes both the perch and the microclimate. Overgrowth also gets in the way of the barrier spray in step 7, which goes on the surfaces where ticks rest and quest &mdash; the undersides of leaves, shrub interiors, the shaded band along a fence. On a lot where the back third is hip-high grass and buckthorn, half of that is out of reach, and the result is worse than it should be.</p>
@@ -103,7 +103,7 @@ export default function HowToKeepTicksOutOfYardOntarioPage() {
         </div>
         <p>You will be standing in the exact habitat where ticks quest while you work, so wear light-coloured clothing with trousers tucked into socks, do the full tick check in step 8 afterwards, and consider the factory-treated permethrin clothing in step 9 for the job.</p>
 
-        <h3>3. Remove Leaf Litter Weekly During Active Season</h3>
+        <h2>3. Remove Leaf Litter Weekly During Active Season</h2>
         <p>Leaf litter is prime tick habitat — it holds humidity, hides ticks from sun, and accumulates in garden bed edges where they thrive. Rake or vacuum leaf litter weekly through spring and fall. Composting leaves on-property is fine — just keep the compost pile away from play areas.</p>
         <p>Humidity is the constraint on where blacklegged ticks can survive, which is why they concentrate in the leaf litter at the lawn-to-woods transition rather than out in the open turf. That litter is also where they overwinter, insulated under the snowpack, and where they are questing when the ground thaws in April, so stripping it in the fall removes habitat, not just mess. If your property has a woodland edge, the cleanup that matters most is the three-metre band on your side of it, plus the fence line and the foundation beds: a blower big enough to actually clear that band, rather than giving up on it, is worth more than any extra airflow out on the open lawn.</p>
         <p>Size the blower to the turf and tree cover you actually clear, not to the lot line: a corded electric blower for a small city lot within reach of an outdoor outlet, a 60V-class cordless handheld for a standard GTA suburban lot with mature trees, and a backpack, gas or battery, from about half an acre up, along long fence lines, or on a property that backs onto bush. Judge it on CFM, the air volume that carries leaves, rather than MPH, the air speed that only unsticks them.</p>
@@ -123,36 +123,36 @@ export default function HowToKeepTicksOutOfYardOntarioPage() {
         </div>
         <p>The big fall cleanup lands from late October into mid-November in most of the GTA, timed to the second big leaf drop. Do the lawn first and the fence line and foundation beds last, properly: that damp leaf layer is where next spring&rsquo;s ticks overwinter, and debris banked against a foundation is also a staging area mice use before they find a gap in the siding (see step 5 and <Link href="/blog/how-to-keep-mice-out-of-your-house-winter" className="text-brand-700 underline">keeping mice out over winter</Link>).</p>
 
-        <h3>4. Move Woodpiles, Bird Feeders, and Compost Away from Play Areas</h3>
+        <h2>4. Move Woodpiles, Bird Feeders, and Compost Away from Play Areas</h2>
         <p>Mice are the primary reservoir of Lyme disease bacteria — and they nest in woodpiles, under bird feeders, and in compost. Locate these features at least 30 feet from where children play. If you must keep them close, treat the surrounding area with barrier spray.</p>
 
-        <h3>5. Seal Mouse-Entry Points to Your House</h3>
+        <h2>5. Seal Mouse-Entry Points to Your House</h2>
         <p>Tick prevention starts with mouse prevention. Seal foundation cracks, garage gaps, basement window wells, and dryer vents. The fewer mice on your property, the fewer ticks. This is a long-term play but highly effective.</p>
 
-        <h3>6. Plant Deer-Resistant Landscaping if You're Near Conservation Land</h3>
+        <h2>6. Plant Deer-Resistant Landscaping if You're Near Conservation Land</h2>
         <p>White-tailed deer are the primary host for adult blacklegged ticks. Properties bordering conservation areas, ravines, or rural land that attract deer accumulate more ticks. Replace deer-favorite plants (hostas, daylilies, tulips) with deer-resistant alternatives (lavender, salvia, marigolds, Russian sage).</p>
         <p>The other question homeowners ask at this point is whether they can let wildlife do the work instead &mdash; opossums, guinea fowl, bats, or a backyard pond full of frogs. Our ranked rundown of <Link href="/blog/what-eats-ticks-and-mosquitoes" className="text-brand-700 underline">what eats ticks and mosquitoes</Link> goes through each predator and how much of a dent it really makes in a suburban yard. Some are worth encouraging; none of them replace the barrier zone and the spray schedule below.</p>
 
-        <h3>7. Apply Professional Tick Barrier Spray Five Times Per Season</h3>
+        <h2>7. Apply Professional Tick Barrier Spray Five Times Per Season</h2>
         <p>Five applications spread roughly monthly from May through September is what actually holds a barrier. Blacklegged tick nymphs peak from May into July, and nymphs are the stage that drives most Lyme transmission because they are poppy-seed sized and easily missed. Adults then re-emerge and stay active through the autumn, into November in mild years. The acaricide residual is temporary, and deer, mice, and birds continuously reintroduce ticks from adjacent woodland — so a one-off visit, or a spring-and-fall pair, leaves a multi-month hole straight through peak nymph season. Spray must be applied to the specific 1–3 metre transition zones, not broadcast across the lawn. Single treatments start at $99; a full five-treatment tick season is $597, or $497 added to any mosquito plan.</p>
 
-        <h3>8. Inspect Yourself and Pets After Outdoor Activity</h3>
+        <h2>8. Inspect Yourself and Pets After Outdoor Activity</h2>
         <p>Lyme disease bacteria typically require 24–36 hours of tick attachment to transmit. Daily tick checks dramatically reduce infection risk. Focus checks on warm, hidden areas: behind ears, scalp, armpits, groin, behind knees. For dogs: between toes, under collars, around ears.</p>
         <p>Keep a fine-tipped tick remover wherever the checks happen &mdash; back door, car, hiking pack &mdash; so an attached tick comes straight out at the skin line instead of waiting for the bathroom tweezers. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">See tick removal tools on Amazon.ca &rarr;</BuyLink></p>
         <p>Pair the body check with the laundry step most people skip: put the clothes you wore straight into a hot dryer <em>before</em> washing them. Ten minutes on high heat kills ticks on dry fabric, while a normal wash on its own often does not &mdash; <Link href="/blog/do-ticks-die-in-the-washing-machine" className="text-brand-700 hover:underline">the post-hike laundry sequence</Link> lays out the temperatures behind it.</p>
 
-        <h3>9. Wear Factory Permethrin-Treated Clothing for High-Risk Outdoor Activity</h3>
+        <h2>9. Wear Factory Permethrin-Treated Clothing for High-Risk Outdoor Activity</h2>
         <p>Permethrin kills blacklegged ticks on contact through treated fabric, and it never goes on skin. In Canada the route to that protection is a garment, not a bottle: permethrin liquids and sprays sold for consumers to treat their <em>own</em> clothing are not registered for use here. So buy the pants, socks, and shirts already treated at the factory rather than spraying gear yourself &mdash; Insect Shield factory-treated clothing holds its protection for up to 70 wash cycles, where a home treatment would need redoing every few washes. Insect Shield has no Canadian registration, though: the registered home-use line here is No Fly Zone (Reg. No. 32757), so look for the PCP number on the label. Especially valuable for hiking the Bruce Trail, working in conservation-area-adjacent yards, or outdoor events in tick zones.</p>
         <p>For which permethrin formats are registered in Canada and which are not, see our <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 hover:underline">permethrin for yard &amp; clothing guide (Canada)</Link>, and compare repellent options in our <Link href="/blog/best-tick-repellent-yard-canada" className="text-brand-700 hover:underline">best tick repellents for the yard in Canada</Link> roundup.</p>
 
-        <h3>10. Know the GTA's High-Risk Zones</h3>
+        <h2>10. Know the GTA's High-Risk Zones</h2>
         <p>Public Health Ontario confirms blacklegged tick populations across the GTA. Highest-risk areas: Oak Ridges Moraine (King City, Caledon, Richmond Hill), Rouge National Urban Park (Scarborough, Markham), Niagara Escarpment (Hamilton, Burlington north end), Don Valley and ravine system (Toronto), Bronte Creek Provincial Park (Oakville/Burlington edge), and Boyd Conservation Area (Vaughan/Woodbridge). Properties within 1 km of these areas should run the full five-treatment season on their barrier zones — monthly May through September — rather than a single spring visit.</p>
         <p>Three of those zones have their own neighbourhood-level breakdowns: <Link href="/blog/tick-control-vaughan-king-city-woodbridge" className="text-brand-700 hover:underline">Boyd Conservation Area and the Vaughan, King City and Woodbridge corridor</Link>, <Link href="/blog/tick-prevention-caledon-halton-hills" className="text-brand-700 hover:underline">the moraine-and-escarpment convergence across Caledon and Halton Hills</Link>, and <Link href="/blog/mosquito-tick-control-stoney-creek" className="text-brand-700 hover:underline">the escarpment shelf above Stoney Creek</Link>.</p>
         <p>Two more of the corridors on that list are mapped street by street as well: the Credit River and Rattray Marsh side in <Link href="/blog/tick-hot-spots-mississauga-2026" className="text-brand-700 underline">Mississauga tick hot spots 2026</Link>, and the Bronte Creek and RBG side in <Link href="/blog/tick-hot-spots-oakville-burlington-2026" className="text-brand-700 underline">Oakville and Burlington tick hot spots 2026</Link>.</p>
         <p>Knowing the zone is half of it; knowing the calendar is the other half, because the work above is only worth doing before the ticks are questing rather than after. Mississauga homeowners can time it from <Link href="/blog/tick-season-mississauga-when-are-ticks-active" className="text-brand-700 underline">the month-by-month Mississauga tick season guide</Link>, and the west end of the Escarpment corridor is covered in <Link href="/blog/tick-control-ancaster-dundas-hamilton" className="text-brand-700 underline">our guide to ticks in Ancaster and Dundas</Link>.</p>
 
 
-        <h2>Bottom Line</h2>
+        <h2>The Bottom Line on Keeping Ticks Out of Your Yard</h2>
         <p>Tick prevention in Ontario is now a year-round consideration — not just a cottage-country issue. Blacklegged tick populations have established across virtually all of Southern Ontario and continue expanding northward. The combination of physical yard modifications + professional barrier spray + personal vigilance reduces how often your household runs into ticks, the carriers of Lyme disease, anaplasmosis, babesiosis, and other tick-borne illnesses that are increasing in Ontario. None of it replaces daily tick checks or prompt removal.</p>
 
         <h2>Related Guides</h2>

@@ -206,7 +206,7 @@ export default function WhatAttractsMosquitoesToYouPage() {
             cons={['Needs reapplying every few hours', 'Only protects the skin you cover']}
           />
 
-          <h2>The bottom line</h2>
+          <h2>The Bottom Line on What Attracts Mosquitoes to You</h2>
           <p>Most of what makes you a mosquito magnet — your CO&#8322; output, blood type, skin microbiome, and genetics — is baked in and roughly 85% heritable. That is genuinely why some people get destroyed and others barely notice. But the levers you <em>can</em> pull add up fast: light clothing, no dusk beer, a rinse after sweating, a good repellent, and cutting the mosquito population in your yard at the source. You will never be invisible to a hungry female, but you can absolutely stop being her first choice.</p>
 
           <h2>Related Reading</h2>

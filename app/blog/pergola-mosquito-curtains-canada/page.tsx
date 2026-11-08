@@ -372,7 +372,7 @@ export default function PergolaMosquitoCurtainsCanadaPage() {
           <p>That is also the honest answer for a rental, or for a yard where the eating happens in a different spot each summer: a pop-up screen house goes up over the picnic table in ten minutes, needs no fixings in anyone&rsquo;s beams, and travels to the cottage in the back of the car. It will never feel as solid as mesh hung on a frame, but nothing gets drilled and nothing stays behind.</p>
           <div className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="pop up screen house canopy">Check pop-up screen houses on Amazon.ca &rarr;</BuyLink></div>
 
-          <h2>The Bottom Line</h2>
+          <h2>The Bottom Line on Pergola Mosquito Curtains</h2>
           <p>A pergola is the cheapest bug-free room in a Canadian backyard, because the expensive part is already built. Hang mesh panels from a ceiling-mounted track under the beams, two per bay, seal the walk-through seams with magnets, weight every hem, and if the roof is open slats put a canopy over it. Standard 1.2&nbsp;mm mesh for inland GTA yards, no-see-um mesh only for shoreline and marsh-adjacent properties. Take it all down in October. Total cost lands in the $150&ndash;$600 range for a four-bay pergola, which is a small fraction of screening the same structure permanently &mdash; and it buys back the hours between seven and ten in the evening, which is exactly when a pergola was supposed to be useful.</p>
 
           <h2>Frequently Asked Questions</h2>

@@ -79,10 +79,10 @@ export default function MosquitoMistakesOntarioHomeownersMakePage() {
         <AuthorByline datePublished={DATE} dateModified={UPDATED} />
         <AffiliateDisclosure />
 
-        <h3>1. Waiting Until July to Start Treatment</h3>
+        <h2>1. Waiting Until July to Start Treatment</h2>
         <p>Most mosquito control failures start with timing, not product choice. By July, mosquito populations are 5–10× larger than they were in May. Starting treatment in May (when populations are tiny) keeps them tiny all season. Starting in July means playing catch-up against an established population that takes weeks to bring under control.</p>
 
-        <h3>2. Trusting Citronella Candles for Full-Yard Protection</h3>
+        <h2>2. Trusting Citronella Candles for Full-Yard Protection</h2>
         <p>Citronella candles work in a 2–3 foot bubble around the candle — not for the yard. Multiple research studies confirm this. They&apos;re ambiance, not protection. If you want yard-wide mosquito control, you need barrier spray + source elimination, not candles. For the patio zone itself, a rechargeable spatial repellent like the Thermacell E90 protects roughly a 20-foot radius — a far more effective seat-level tool than any candle. See our <Link href="/blog/thermacell-e90-canada-review" className="text-brand-700 underline">Thermacell E90 Canada review</Link> for how it performs here.</p>
         <TopPick tag={AMZ_TAG}
           label="Best Patio-Zone Fix"
@@ -94,41 +94,41 @@ export default function MosquitoMistakesOntarioHomeownersMakePage() {
           cta="Check the Thermacell E90 on Amazon.ca →"
         />
 
-        <h3>3. Ignoring Rain Barrels and Birdbaths as Breeding Sites</h3>
+        <h2>3. Ignoring Rain Barrels and Birdbaths as Breeding Sites</h2>
         <p>A single uncovered rain barrel or birdbath can produce thousands of mosquitoes per week. Many Ontario homeowners think they&apos;ve eliminated standing water because the lawn drains well — without realizing their rain barrel and birdbath are pumping out mosquitoes daily. Cover the barrel, change birdbath water weekly, or use BTI dunks.</p>
         <div className="not-prose my-4">
           <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Summit BTI mosquito dunks on Amazon.ca →</BuyLink>
         </div>
 
-        <h3>4. Spraying Grass Instead of Leaf Undersides</h3>
+        <h2>4. Spraying Grass Instead of Leaf Undersides</h2>
         <p>Mosquitoes don&apos;t rest on grass during the day. They rest on shaded undersides of leaves, in shrub interiors, on fence-line vegetation, and on the underside of deck joists. DIY sprays applied to lawns hit nothing. Professional barrier spray applied with <Link href="/blog/backpack-sprayer-canada" className="text-brand-700 underline">backpack sprayers</Link> is aimed at the actual resting surfaces — the places DIY lawn spraying misses.</p>
 
-        <h3>5. Stopping Treatments After One Bad Weekend</h3>
+        <h2>5. Stopping Treatments After One Bad Weekend</h2>
         <p>A single rainy weekend doesn&apos;t mean treatments aren&apos;t working — it means mosquitoes that were already present took advantage of the humidity spike. Continued treatment through that week knocks the population back down. Stopping treatments hands them a week to multiply.</p>
 
-        <h3>6. Using Consumer Foggers Expecting Weeks of Protection</h3>
+        <h2>6. Using Consumer Foggers Expecting Weeks of Protection</h2>
         <p>Hardware-store foggers (Black Flag, Cutter, etc.) provide 1–6 hours of relief — they kill mosquitoes flying through the fog at the moment of application. Professional barrier spray is a residual treatment applied to the leaf surfaces where mosquitoes rest, then re-applied on a set schedule through the season. They&apos;re different products. Comparing them by price is comparing an umbrella to a roof.</p>
 
-        <h3>7. Trusting "Mosquito Plants" as a Standalone Solution</h3>
+        <h2>7. Trusting "Mosquito Plants" as a Standalone Solution</h2>
         <p>Lavender, citronella plants, and basil have mild mosquito-repellent properties. They reduce ambient mosquito pressure within 1–3 metres of the plant — which is genuinely useful near a patio or doorway. They&apos;re not a yard-wide solution. Plants + barrier spray = good. Plants alone = not enough.</p>
 
-        <h3>8. Overlooking Pool Covers and Tarps</h3>
+        <h2>8. Overlooking Pool Covers and Tarps</h2>
         <p>Active chlorinated pools can&apos;t breed mosquitoes — chlorine kills larvae. But pool covers that collect rainwater can produce mosquitoes for weeks. Tarps with creases, kiddie pool covers, hot tub covers — all major breeding sites that get overlooked. Drain weekly or treat with BTI dunks.</p>
 
-        <h3>9. Hiring a Generalist Pest Control Company</h3>
+        <h2>9. Hiring a Generalist Pest Control Company</h2>
         <p>General pest control companies cover 10–20 pests. Their technicians rotate between ant jobs, mouse jobs, mosquito jobs, etc. Specialist mosquito-and-tick companies (like BuzzSkito) do nothing else — meaning their technicians know exactly where mosquitoes rest in your specific Ontario neighborhood and exactly where ticks concentrate in your specific lawn-to-woods transition. Specialization compounds.</p>
 
-        <h3>10. Not Bundling Tick Control When Near Ravines</h3>
+        <h2>10. Not Bundling Tick Control When Near Ravines</h2>
         <p>Ontario homeowners whose properties back onto ravines, conservation areas, or wooded edges have confirmed blacklegged tick exposure. Treating mosquitoes alone leaves blacklegged ticks, which can carry Lyme disease, untreated. Bundling tick control adds modest cost and covers both pests.</p>
 
-        <h3>11. Treating Only the Deck While Leaving Fence-Line Vegetation Untreated</h3>
+        <h2>11. Treating Only the Deck While Leaving Fence-Line Vegetation Untreated</h2>
         <p>Mosquitoes spend the day in fence-line vegetation, shrub interiors, and shaded perimeter areas — then move to the deck at dusk. Treating only the deck means the mosquitoes are still arriving from the perimeter. Full-yard barrier spray treats the resting habitat AND the activity zone.</p>
 
-        <h3>12. Cancelling Treatments After a Cold Week Thinking the Season Is Over</h3>
+        <h2>12. Cancelling Treatments After a Cold Week Thinking the Season Is Over</h2>
         <p>Ontario mosquito season runs through mid-September in normal years. A cold snap in mid-August doesn&apos;t end the season — it pauses it. Mosquitoes return immediately when temperatures rebound. Final treatment of the season should be early September minimum, sometimes late September for ravine-adjacent properties.</p>
 
 
-        <h2>Bottom Line</h2>
+        <h2>The Bottom Line on Avoiding Mosquito Mistakes</h2>
         <p>Most Ontario mosquito-control failures aren&apos;t product failures — they&apos;re strategy failures. A homeowner doing the right things in the wrong order, on the wrong surfaces, at the wrong times, will spend money and still have mosquitoes. The pattern that works is consistent across every successful yard: start in May, eliminate breeding sources, apply professional barrier spray to actual resting surfaces, maintain through September, and don&apos;t cancel during temporary dips.</p>
 
         <h2>Related Guides</h2>

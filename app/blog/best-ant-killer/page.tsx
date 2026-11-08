@@ -23,7 +23,7 @@ import RelatedLinks from '@/components/RelatedLinks'
 const SLUG = 'best-ant-killer'
 const DATE = '2026-07-28'
 const UPDATED = '2026-11-03'
-const TITLE = 'Best Ant Killer & Ant Traps in Canada 2026 — What Actually Kills the Colony'
+const TITLE = 'Best Ant Killer, Ant Bait & Traps in Canada 2026 — What Actually Kills the Colony'
 // MERGE NOTE (Nov 3, 2026): the ant traps page (best-ant-traps-canada, 301-redirected here) was merged into this one,
 // because Google split 'ant bait', 'best ant killer canada' and 'ant traps' between the two (both stuck around positions 6-15).
 // Its top queries (Jul 28-Oct 25): ant traps 591 (pos 15.0), best ant traps 433 (8.0), protein ant bait 44, best ant bait 36,

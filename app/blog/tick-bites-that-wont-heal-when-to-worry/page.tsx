@@ -171,7 +171,7 @@ export default function TickBitesThatWontHealWhenToWorryPage() {
         <AffiliateDisclosure />
         <p className="not-prose"><BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca &rarr;</BuyLink></p>
 
-        <h2>Bottom Line</h2>
+        <h2>The Bottom Line: When a Tick Bite Won’t Heal</h2>
         <p>In Ontario in 2026, every persistent tick bite warrants attention. Lyme disease is treatable — and treatment is dramatically more effective when started in the first few weeks. The cost of a false alarm (one doctor visit) is much lower than the cost of late-stage Lyme (months of antibiotics, possible permanent symptoms, lost income). When in doubt, document and see a doctor. And prevent next time with professional tick barrier spray on yard transition zones — the lawn-to-woods edge where ticks wait is where the barrier goes down.</p>
 
         <p className="not-prose text-gray-700">Before the next walk in long grass, two of the three useful steps cost nothing: tuck trousers into socks so a questing tick has to climb the outside of the fabric, and do a full body check within a couple of hours of coming back inside &mdash; the check is what stops a bite from becoming one of the ten problems listed above. The third is repellent on exposed skin. Icaridin (the Canadian name for picaridin) and DEET are the two actives Canadian public-health guidance points to for personal protection against ticks and mosquitoes; check for the PCP registration number on the bottle and follow the age directions printed on the label. <BuyLink tag={AMZ_TAG} search="icaridin insect repellent">Check price on Amazon.ca &rarr;</BuyLink></p>

@@ -485,7 +485,7 @@ export default function TickHeadStuckInSkinPage() {
           <li><strong>Skip the shortcuts.</strong> No petroleum jelly, nail polish, heat or essential oils. PHAC says they can make the tick release its stomach contents, which may be infected, into the bite.</li>
         </ol>
 
-        <h2>The bottom line</h2>
+        <h2>The Bottom Line on a Tick Head Stuck in Skin</h2>
         <p>A tick &ldquo;head&rdquo; stuck in your skin is really the mouthparts, and it&rsquo;s usually a minor problem. Try once to lift it out with fine tweezers; if it won&rsquo;t budge, leave it, disinfect, and let your skin expel it like a splinter over a couple of weeks. Skip the needle, the match, and the squeezing. Watch the site for infection, and watch yourself for rash or fever over the next month. When in doubt — or if it&rsquo;s your child, or the area looks infected — a healthcare provider can settle it quickly.</p>
 
         <h2>Related reading</h2>

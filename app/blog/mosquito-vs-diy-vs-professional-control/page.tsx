@@ -127,7 +127,7 @@ export default function DIYvsProfessionalPage() {
           <li>{PROMISES.biteFreeScope}: if mosquitoes come back between scheduled treatments, we re-treat at no charge</li>
         </ul>
 
-        <h2>The Bottom Line</h2>
+        <h2>The Bottom Line: DIY or Professional Mosquito Control?</h2>
         <p>For homeowners who want to actually use their backyard during GTA mosquito season, professional barrier spray is the option here that treats the resting surfaces across the entire property on a set schedule, applied by a licensed technician according to label directions. DIY methods are useful supplements — not substitutes.</p>
 
         <h2>Related Guides</h2>

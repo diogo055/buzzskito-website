@@ -221,7 +221,7 @@ export default function CanMosquitoesBiteThroughClothesPage() {
             caption="A female western encephalitis mosquito, Culex tarsalis, resting on a piece of fabric (CDC, 2005); the arrowhead marks the pale band on her proboscis. Culex is the genus public-health agencies track as the main West Nile virus vector."
           />
 
-          <h2>The bottom line</h2>
+          <h2>The Bottom Line: Which Clothes Mosquitoes Bite Through</h2>
           <p>Can mosquitoes bite through clothes? Yes — through thin, tight fabric like leggings, thin tees, and thin socks, because their ~2 mm proboscis reaches skin. No — through loose or thick weaves like denim, canvas, and loose long-sleeves, where the fabric or the air gap puts your skin out of reach. The best clothing defence is loose, tightly woven, long, and (for heavy exposure) permethrin-treated. And when the bites keep coming no matter what you wear, the durable answer is knocking down the mosquito population in your yard rather than armouring yourself against it.</p>
 
           <h2>What does the CDC recommend for clothing protection in the United States?</h2>

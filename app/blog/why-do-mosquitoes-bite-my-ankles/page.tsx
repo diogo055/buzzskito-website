@@ -231,7 +231,7 @@ export default function WhyMosquitoesBiteAnklesPage() {
             caption="Flea bites attributed to the cat flea, Ctenocephalides felis: dozens of small dark spots around a woman's ankles and lower legs (CDC photograph, 1963). If you are not sure which insect made your ankle bites, the bite identifier above compares the likely biters."
           />
 
-          <h2>The bottom line</h2>
+          <h2>The Bottom Line: Why Mosquitoes Bite Your Ankles</h2>
           <p>Your ankles and feet are not unlucky &mdash; they are the ideal target. Ground-level CO&#8322; pooling, dense foot-bacteria odour that literally shares a scent family with Limburger cheese, low-flying <em>Aedes</em> species, and bare, hard-to-watch skin all converge on the same few centimetres. You cannot change the physics of CO&#8322; or your foot microbiome, but you can cover up below the knee, use a registered repellent, wash before dusk, and thin out the mosquito population in your yard. Do those four things and the ankle-bite hotspot cools right down.</p>
 
           <aside aria-label="What to do right now" className="not-prose my-6 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 sm:p-7">

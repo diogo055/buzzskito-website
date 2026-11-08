@@ -296,7 +296,7 @@ export default function RainBarrelMosquitoProofPage() {
           <p>Barrels themselves are widely stocked seasonally &mdash; Canadian Tire, Home Depot, Rona and Lowe&rsquo;s all carry them from roughly April through July, and municipal or conservation-authority truckload sales across the GTA are usually the cheapest route if the timing lines up. Screen rolls, hose clamps and downspout hardware are year-round stock at all four.</p>
           <p>Where amazon.ca earns its place is the awkward middle: gasketed linking kits, brass bulkhead spigot assemblies, screened overflow kits and barrel stands are the items that are either seasonal or simply not carried in a given store, and they are the ones you need when a barrel already in your yard needs a specific part in August. Bti dunks are stocked everywhere in spring and thin out badly by mid-July, which is exactly when you discover you need them.</p>
 
-          <h2>The Bottom Line</h2>
+          <h2>The Bottom Line on Mosquito-Proofing a Rain Barrel</h2>
           <p>A rain barrel is not a mosquito problem. An <em>unscreened</em> rain barrel is. Screen every opening into the water with 18x16 fibreglass mesh &mdash; clamped, not draped &mdash; pay particular attention to the overflow port, the linking port and the downspout inlet, and drop a quarter of a Bti dunk in per barrel per month from May to September. If you are building the system rather than fixing one, put the money into a top-mounted diverter before anything else, because it removes openings rather than covering them. Then drain it before the freeze, rinse it in April, and forget about it &mdash; which is the whole point.</p>
 
           <AdjacentPestCTA variant="equipment" />
