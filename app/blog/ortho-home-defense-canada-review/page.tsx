@@ -103,7 +103,7 @@ export default function OrthoHomeDefenseCanadaPage() {
               <li>No consumer Ortho SKU sold in Canada provides tick control.</li>
               <li>A licensed professional barrier spray from $99 covers the whole yard and controls both mosquitoes and ticks, applied according to label directions.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
           </div>
         </div>
       </section>

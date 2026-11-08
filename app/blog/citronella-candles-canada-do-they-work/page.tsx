@@ -95,7 +95,7 @@ export default function CitronellaCandlesCanadaPage() {
               <li>A season of citronella for a patio costs about $30&ndash;$80 in Canada.</li>
               <li>A Thermacell creates a ~4.5 m (15 ft) protected zone, and professional barrier spray reduces the adult mosquitoes resting across the whole yard, with the residual renewed on your plan&rsquo;s schedule.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

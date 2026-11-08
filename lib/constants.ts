@@ -43,11 +43,12 @@ export const BUSINESS = {
   // Project: BuzzSkito · Industry: B2C Services · clarity.microsoft.com/projects/view/qp6yufkbs2
   clarityId: 'qp6yufkbs2',
   // Our Google Business Profile rating. A record only: since Nov 3, 2026 it is not emitted as
-  // markup anywhere (see localBusinessSchema in lib/seo.ts).
+  // markup anywhere (see localBusinessSchema in lib/seo.ts). Nov 8, 2026: Google shows 139 reviews
+  // (137 five-star, 2 four-star, displayed 5.0); the owner counts 150+ across platforms.
   aggregateRating: {
     ratingValue: '5',
     bestRating: '5',
-    ratingCount: '150',
+    ratingCount: '139',
   },
   guarantee: {
     name: 'BuzzSkito Bite-Free Guarantee',

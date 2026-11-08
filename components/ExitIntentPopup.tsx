@@ -315,7 +315,7 @@ export default function ExitIntentPopup() {
             </form>
 
             <p className="text-[11px] text-gray-500 mt-3 text-center leading-snug">
-              150+ five-star Google reviews · As featured in Toronto Star · {PROMISES.rainBackShort}
+              150+ five-star reviews · As featured in Toronto Star · {PROMISES.rainBackShort}
               <br />
               {PROMISES.licence}
             </p>

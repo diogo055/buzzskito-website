@@ -52,7 +52,7 @@ const FAQS = [
   },
   {
     question: `What's the BuzzSkito Bite-Free Guarantee?`,
-    answer: `On Standard and Exclusive season plans in ${CITY}, if mosquitoes come back between scheduled treatments, we re-treat at no charge. Every plan, Basic included, also carries our rain-back guarantee: rain within 1 hour of your treatment and we come back and re-treat free. No contracts required. It's how we've built 150+ five-star Google reviews with zero negative reviews — we stand behind every treatment.`,
+    answer: `On Standard and Exclusive season plans in ${CITY}, if mosquitoes come back between scheduled treatments, we re-treat at no charge. Every plan, Basic included, also carries our rain-back guarantee: rain within 1 hour of your treatment and we come back and re-treat free. No contracts required. It's how we've built 150+ five-star reviews with zero negative reviews — we stand behind every treatment.`,
   },
   {
     question: `When should ${CITY} homeowners book pest control for mosquitoes and ticks?`,
@@ -90,7 +90,7 @@ export default function PestControlTorontoPage() {
       {/* QUICK ANSWER */}
       <QuickAnswer question={`Who is the best pest control company for mosquitoes and ticks in ${CITY}?`}>
         <p>
-            <strong>BuzzSkito is {CITY}'s specialist pest control company for mosquitoes and ticks — the two outdoor pests that drive backyard misery during the GTA's May-September season.</strong> Unlike general pest control companies that cover 10–20 pests across all categories, BuzzSkito focuses exclusively on barrier spray for mosquitoes and ticks, allowing us to develop deeper expertise in {CITY}-specific pressure zones (Don Valley, Humber River, ravine corridors). Single treatments start at <strong>$99</strong> on a standard lot under 10,000 sq ft, with season plans from $549. With <strong>150+ five-star Google reviews</strong> (zero negative), no contracts, the rain-back guarantee on every plan, and the <strong>BuzzSkito Bite-Free Guarantee</strong> on Standard &amp; Exclusive plans, {CITY} families get specialist results without specialist pricing. We don't treat ants, rodents, or other pests — for those, hire a general pest control company. For mosquitoes and ticks in {CITY}, call (289) 216-5030.
+            <strong>BuzzSkito is {CITY}'s specialist pest control company for mosquitoes and ticks — the two outdoor pests that drive backyard misery during the GTA's May-September season.</strong> Unlike general pest control companies that cover 10–20 pests across all categories, BuzzSkito focuses exclusively on barrier spray for mosquitoes and ticks, allowing us to develop deeper expertise in {CITY}-specific pressure zones (Don Valley, Humber River, ravine corridors). Single treatments start at <strong>$99</strong> on a standard lot under 10,000 sq ft, with season plans from $549. With <strong>150+ five-star reviews</strong> (zero negative), no contracts, the rain-back guarantee on every plan, and the <strong>BuzzSkito Bite-Free Guarantee</strong> on Standard &amp; Exclusive plans, {CITY} families get specialist results without specialist pricing. We don't treat ants, rodents, or other pests — for those, hire a general pest control company. For mosquitoes and ticks in {CITY}, call (289) 216-5030.
         </p>
       </QuickAnswer>
 

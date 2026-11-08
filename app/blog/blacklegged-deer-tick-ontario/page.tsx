@@ -111,7 +111,7 @@ export default function BlackleggedDeerTickOntarioPage() {
               <li>Blacklegged ticks are active whenever temperatures top about 4&deg;C.</li>
               <li>They are now established across much of southern and eastern Ontario.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

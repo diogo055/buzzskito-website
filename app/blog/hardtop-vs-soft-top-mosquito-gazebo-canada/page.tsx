@@ -104,7 +104,7 @@ export default function HardtopVsSoftTopMosquitoGazeboCanadaPage() {
               <li>Buy a common footprint &mdash; 10x10, 10x12, 12x12 &mdash; so universal replacement netting fits when the original tears.</li>
               <li>A screened gazebo protects the table, not the yard. Ticks in the lawn and mosquitoes in the shrubs need a barrier treatment, not netting.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star reviews</p>
           </div>
         </div>
       </section>

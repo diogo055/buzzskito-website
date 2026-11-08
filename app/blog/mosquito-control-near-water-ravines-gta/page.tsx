@@ -83,7 +83,7 @@ export default function MosquitoControlNearWaterPage() {
               <li>Virtually every GTA subdivision built since 1990 includes stormwater retention or detention ponds &mdash; ideal shallow-water breeding habitat.</li>
               <li>Open Lake Ontario water is not a breeding source; the risk is sheltered marshes like Rattray Marsh, with homes within 500m most affected.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

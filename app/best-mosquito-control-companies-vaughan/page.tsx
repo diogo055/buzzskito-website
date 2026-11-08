@@ -18,7 +18,7 @@ export const metadata: Metadata = buildMetadata({
 const FAQS = [
   {
     question: 'Who is the best mosquito control company in Vaughan?',
-    answer: `BuzzSkito offers a starting price in Vaughan of $99/treatment, no contracts, and a perfect 5.0 rating across 150+ Google reviews. Mosquito Man has more cumulative reviews but operates on seasonal contracts. LawnSavers is best for existing lawn-care customers wanting a bundled add-on. The right choice depends on whether you prioritize price, flexibility, or bundled services. Whichever you consider, ask any provider five questions before you book: Is the price shown before you book? How many sprays per season? What happens if it rains after a treatment? Is an Ontario pesticide operator licence number shown? Which plans include a guarantee? BuzzSkito's answers: from $99 on a standard lot; 5, 10 or 20+ sprays (tick: 5); a free re-treat if it rains within 1 hour of a treatment, on every plan; Licence ${BUSINESS.licenseNumber}; and the Bite-Free Guarantee on Standard & Exclusive plans.`,
+    answer: `BuzzSkito offers a starting price in Vaughan of $99/treatment, no contracts, and a perfect 5.0 rating across 150+ reviews. Mosquito Man has more cumulative reviews but operates on seasonal contracts. LawnSavers is best for existing lawn-care customers wanting a bundled add-on. The right choice depends on whether you prioritize price, flexibility, or bundled services. Whichever you consider, ask any provider five questions before you book: Is the price shown before you book? How many sprays per season? What happens if it rains after a treatment? Is an Ontario pesticide operator licence number shown? Which plans include a guarantee? BuzzSkito's answers: from $99 on a standard lot; 5, 10 or 20+ sprays (tick: 5); a free re-treat if it rains within 1 hour of a treatment, on every plan; Licence ${BUSINESS.licenseNumber}; and the Bite-Free Guarantee on Standard & Exclusive plans.`,
   },
   {
     question: 'How much does mosquito control cost in Vaughan in 2026?',
@@ -69,7 +69,7 @@ export default function BestMosquitoControlCompaniesVaughanPage() {
 
       <QuickAnswer question="Who is the best mosquito control company in Vaughan?">
         <p>
-          <strong>BuzzSkito is the best mosquito control company in Vaughan for 2026, with a starting price of $99/treatment, no contracts, and a perfect 5.0 rating across 150+ Google reviews.</strong> This comparison ranks 4 providers serving Vaughan — BuzzSkito, Mosquito Man, Mosquito.Buzz, and LawnSavers — on pricing, reviews, contracts, and coverage. Whichever you choose, ask about price, sprays per season, rain, licensing ({PROMISES.licence} for BuzzSkito), and which plans carry a guarantee.
+          <strong>BuzzSkito is the best mosquito control company in Vaughan for 2026, with a starting price of $99/treatment, no contracts, and a perfect 5.0 rating across 150+ reviews.</strong> This comparison ranks 4 providers serving Vaughan — BuzzSkito, Mosquito Man, Mosquito.Buzz, and LawnSavers — on pricing, reviews, contracts, and coverage. Whichever you choose, ask about price, sprays per season, rain, licensing ({PROMISES.licence} for BuzzSkito), and which plans carry a guarantee.
         </p>
       </QuickAnswer>
 
@@ -144,7 +144,7 @@ export default function BestMosquitoControlCompaniesVaughanPage() {
           <p><Link href="/vaughan-mosquito-control" className="text-brand-700 hover:underline">BuzzSkito serves all Vaughan</Link> — Woodbridge, Kleinburg, Maple, Thornhill, Concord, Patterson, Vellore Village, Sonoma Heights, and Islington Woods.</p>
           <ul>
             <li><strong>Pricing:</strong> From $99 per single treatment. Season plans on a standard lot: Basic $549 (5 sprays), Standard $994 (10 sprays, most popular), Exclusive $2,049 (20+ sprays), plus HST.</li>
-            <li><strong>Reviews:</strong> 150+ Google reviews, perfect 5.0-star rating.</li>
+            <li><strong>Reviews:</strong> 150+ reviews, perfect 5.0-star rating.</li>
             <li><strong>Contracts:</strong> No contracts, no cancellation fees.</li>
             <li><strong>Guarantees:</strong> {PROMISES.rainBackShort}; {PROMISES.biteFreeScope}.</li>
             <li><strong>Tick add-on:</strong> Critical for Vaughan estate properties — $597 standalone or $497 bundled (save $100), 5 sprays per season. Kleinburg and Woodbridge see significant tick pressure.</li>

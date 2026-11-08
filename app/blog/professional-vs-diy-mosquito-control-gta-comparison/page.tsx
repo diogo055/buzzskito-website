@@ -103,7 +103,7 @@ export default function ProfessionalVsDIYPage() {
             <li>BTi dunks give 95%+ larval kill for 30 days but do nothing for adult mosquitoes already biting.</li>
             <li>University research found only 0.22% of insects killed by bug zappers were biting mosquitoes.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
         </div>
 
         <aside className="not-prose mb-6 rounded-xl bg-brand-50 border-l-4 border-brand-700 px-5 py-4">

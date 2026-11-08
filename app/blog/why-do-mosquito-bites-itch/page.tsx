@@ -206,7 +206,7 @@ export default function WhyDoMosquitoBitesItchPage() {
               <li>Only female mosquitoes bite, because they need blood protein to develop their eggs.</li>
               <li>Antihistamines and 1% hydrocortisone target the histamine reaction; scratching releases fresh histamine and prolongs the itch.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

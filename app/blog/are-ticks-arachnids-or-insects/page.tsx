@@ -102,7 +102,7 @@ export default function AreTicksArachnidsOrInsectsPage() {
               <li>Because ticks are arachnids, they ignore the CO&#8322; traps and zappers built for insects.</li>
               <li>A tick&rsquo;s nearest relatives are mites and spiders, not flies, beetles, or mosquitoes.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

@@ -288,7 +288,7 @@ export default function BugZappersCanadaPage() {
               <li>The <AmazonLink search="flowtron bk-40d bug zapper" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Flowtron BK-40D</AmazonLink> covers up to 1 acre for moths, gnats, and beetles &mdash; not mosquitoes.</li>
               <li>For real mosquito control, use professional barrier spray, BTI dunks, or a Thermacell for patio use.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
             <div className="mt-4">
               <BuyLink search="flowtron bk-40d bug zapper" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
             </div>

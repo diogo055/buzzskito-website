@@ -114,7 +114,7 @@ export default function BestBugSprayForKidsCanadaPage() {
               <li>Adults and children 12 and older can use DEET up to 30%.</li>
               <li>Oil of lemon eucalyptus (PMD) is not recommended for children under 3 years old.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

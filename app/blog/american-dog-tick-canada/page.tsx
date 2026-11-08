@@ -98,7 +98,7 @@ export default function AmericanDogTickPage() {
               <li>In Ontario, American dog ticks peak twice a year: late April–June and again August–October.</li>
               <li>Professional barrier spray applies a residual acaricide to the lawn edges and shaded margins where both American dog ticks and blacklegged ticks wait, rather than to the open lawn.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

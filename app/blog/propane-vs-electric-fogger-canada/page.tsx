@@ -131,7 +131,7 @@ export default function PropaneVsElectricFoggerCanadaPage() {
               <li>Foggers target flying/resting mosquitoes &mdash; they do little for ticks, which sit low in leaf litter.</li>
               <li><strong>Use only a PMRA-registered fog solution.</strong> Many US fogging liquids are grey-market and not legal in Canada, and the Canadian Black Flag fogging liquid was cancelled in 2017.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star reviews</p>
           </div>
         </div>
       </section>

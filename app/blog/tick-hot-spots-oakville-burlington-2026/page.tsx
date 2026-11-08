@@ -91,7 +91,7 @@ export default function TickHotSpotsOakvilleBurlingtonPage() {
             <li>Lakefront rule: a ravine or creek touching the lake within 500 metres of your property puts you in a tick travel corridor.</li>
             <li>The free Yard Risk Report scores addresses 1&ndash;100; properties scoring 70+ are strongly recommended for professional treatment.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
         </div>
 
         <AffiliateDisclosure />

@@ -144,7 +144,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
               <li>Professional barrier spray starts from $99 per treatment on a standard lot under 10,000 sq ft, treats the whole yard rather than one zone, and tick treatment can be added.</li>
               <li>No plug-in device covers your whole yard and ticks at once, so the ideal setup is a Thermacell where you sit plus barrier spray for the yard.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
             <div className="mt-4">
               <BuyLink search="thermacell patio shield" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
             </div>

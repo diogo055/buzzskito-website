@@ -110,7 +110,7 @@ export default function FlowtronBugZapperCanadaPage() {
               <li>Replace the BF-190 UV bulb roughly once per season (5,000&ndash;8,000 hours) and brush the grid clean every 2&ndash;3 weeks.</li>
               <li>Mount the zapper 7.5&ndash;12 m (25&ndash;40 ft) away from seating, about 1.8&ndash;2 m (6 ft) off the ground.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

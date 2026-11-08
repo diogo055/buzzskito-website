@@ -81,7 +81,7 @@ export default function MosquitoSeasonToronto2026Page() {
             <li>The season lasts roughly 18&ndash;22 weeks and ends after the first hard frost (below 0&deg;C), typically late September to October.</li>
             <li>A professional barrier spray&rsquo;s residual wears down within weeks; BuzzSkito season plans run from 5 monthly sprays (Basic) to 10 every two weeks (Standard) to 20+ weekly (Exclusive).</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
         </div>
 
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">

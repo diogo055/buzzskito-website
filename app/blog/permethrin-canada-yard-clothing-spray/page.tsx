@@ -204,7 +204,7 @@ export default function PermethrinCanadaPage() {
               <li>Permethrin is highly toxic to cats &mdash; let treated clothing dry 24+ hours before it enters a cat household.</li>
               <li>Licensed Ontario barrier spray (bifenthrin/deltamethrin) starts at $99 per treatment and is re-applied on a schedule.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
           </div>
           {/* Service arm takes the top slot on this GTA-relevant page: quote CTA above
               the first affiliate module (the AwardRow below), per the service-arm rule. */}

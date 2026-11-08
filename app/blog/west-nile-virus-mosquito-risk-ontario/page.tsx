@@ -87,7 +87,7 @@ export default function WestNilePage() {
             <li>WNV risk peaks in July and August, with positive mosquito pools usually first detected in late June.</li>
             <li>Professional barrier spray reduces yard mosquito density, and eliminating standing water plus DEET or picaridin further lowers exposure.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           <p className="mt-1.5 text-xs text-gray-500">Health information for general education, not medical advice. Consult Public Health Ontario or a healthcare provider about West Nile symptoms.</p>
         </div>
 

@@ -100,7 +100,7 @@ export default function WestNileTorontoPage() {
               <li>Adults over 50 face the highest risk of severe illness.</li>
               <li>There is no human vaccine, so prevention is bite avoidance and reducing standing water and adult mosquitoes.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
             <p className="mt-1.5 text-xs text-gray-500">Health information for general education, not medical advice. Consult Toronto Public Health or a healthcare provider about West Nile symptoms.</p>
           </div>
         </div>

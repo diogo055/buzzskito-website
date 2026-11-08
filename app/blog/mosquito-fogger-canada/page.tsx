@@ -125,7 +125,7 @@ export default function MosquitoFoggerCanadaPage() {
               <li>Any pesticide used in Canada must be registered under the Pest Control Products Act and carry a PCP number; the US fogging liquids do not, and Health Canada does not permit unregistered pesticides to be ordered online and shipped here.</li>
               <li>Foggers barely touch ticks, which hide low in leaf litter; a professional barrier spray leaves a residual that is renewed on a schedule and also treats for ticks.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
             <div className="mt-4">
               <BuyLink search="black flag propane fogger" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
             </div>

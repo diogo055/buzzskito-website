@@ -116,7 +116,7 @@ export default function StandingWaterMosquitoesPage() {
               <li>For water you cannot dump — rain barrels, ponds, ditches — <strong>one BTI mosquito dunk</strong> targets larvae for about 30 days; follow the label directions.</li>
               <li>Public Health Ontario and the CDC both list <strong>removing standing water</strong> as the first line of defence against West Nile virus.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
           </div>
         </div>
       </section>

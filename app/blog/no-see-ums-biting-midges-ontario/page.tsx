@@ -103,7 +103,7 @@ export default function NoSeeUmsBitingMidgesOntarioPage() {
               <li>Repellents with DEET or picaridin (icaridin) and a PCP registration number on the label work against biting midges, and a fan grounds them because they are weak fliers.</li>
               <li>Ontario&rsquo;s biting midges are an itchy nuisance rather than significant carriers of human disease.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
           </div>
         </div>
       </section>

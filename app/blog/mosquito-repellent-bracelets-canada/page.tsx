@@ -117,7 +117,7 @@ export default function MosquitoRepellentBraceletsCanadaPage() {
               <li>Bracelets provide zero tick protection.</li>
               <li>Professional barrier spray treats the whole yard, from $99 per treatment.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
           </div>
         </div>
       </section>

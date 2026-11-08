@@ -143,7 +143,7 @@ export default function WhatDoesATickBiteLookLikePage() {
             <li>Public Health Ontario notes the rash shows in only about 70&ndash;80% of Lyme cases, so no rash does not rule out Lyme.</li>
             <li>Watch for a red patch expanding beyond about 5 cm, or fever and aches &mdash; both are reasons to see a healthcare provider.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
         </div>
 
         <AuthorByline datePublished={DATE} dateModified={UPDATED} />

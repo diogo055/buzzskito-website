@@ -103,7 +103,7 @@ export default function VaughanMosquitoPage() {
       {/* QUICK ANSWER */}
       <QuickAnswer question="What is the best mosquito control company in Vaughan?">
         <p>
-          <strong>BuzzSkito provides specialist mosquito barrier spray across all Vaughan neighbourhoods — Woodbridge, Kleinburg, Maple, Concord, Thornhill, Patterson, Vellore Village, Islington Woods, and Sonoma Heights.</strong> Treatments are applied by a licensed Ontario pesticide operator, according to label directions, to vegetation and shrub interiors where mosquitoes rest. Single treatments start at <strong>$99</strong> on a standard lot, with season plans from <strong>$549</strong> (plus HST). With <strong>150+ five-star Google reviews</strong>, no contracts, a <strong>rain-back guarantee on every plan</strong>, and the <strong>BuzzSkito Bite-Free Guarantee</strong> on Standard &amp; Exclusive plans, BuzzSkito treats Humber River, Boyd Conservation, and stormwater-pond-adjacent properties. Call (289) 216-5030.
+          <strong>BuzzSkito provides specialist mosquito barrier spray across all Vaughan neighbourhoods — Woodbridge, Kleinburg, Maple, Concord, Thornhill, Patterson, Vellore Village, Islington Woods, and Sonoma Heights.</strong> Treatments are applied by a licensed Ontario pesticide operator, according to label directions, to vegetation and shrub interiors where mosquitoes rest. Single treatments start at <strong>$99</strong> on a standard lot, with season plans from <strong>$549</strong> (plus HST). With <strong>150+ five-star reviews</strong>, no contracts, a <strong>rain-back guarantee on every plan</strong>, and the <strong>BuzzSkito Bite-Free Guarantee</strong> on Standard &amp; Exclusive plans, BuzzSkito treats Humber River, Boyd Conservation, and stormwater-pond-adjacent properties. Call (289) 216-5030.
         </p>
       </QuickAnswer>
 
@@ -341,10 +341,10 @@ export default function VaughanMosquitoPage() {
         <div className="max-w-4xl mx-auto">
           <p className="kicker mb-3 text-center">Reviews</p>
           <h2 className="h2-display text-brand-900 mb-2 text-center">What GTA Homeowners Say</h2>
-          <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star Google reviews</p>
+          <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star reviews</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
-              { author: 'Katharine M.', text: 'Fantastic experience with the mosquito control last summer! We\u2019re re-signing for this season once again \u2014 we can finally enjoy our yard again in Mississauga.' },
+              { author: 'Katharine M.', text: 'Fantastic experience with the mosquito control last summer! We\u2019re re-signing for this season once again! We can enjoy our yard again in Mississauga.' },
               { author: 'Anthony', text: 'Highly recommend this company for mosquito control. I got my house in Milton serviced recently and loved the end result!' },
             ].map(({ author, text }) => (
               <div key={author} className="bg-brand-50 rounded-2xl p-6 border border-brand-100">
@@ -359,7 +359,7 @@ export default function VaughanMosquitoPage() {
             ))}
           </div>
           <div className="text-center mt-6">
-            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read all 150+ reviews on Google &rarr;</a>
+            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read our reviews on Google &rarr;</a>
           </div>
         </div>
       </section>

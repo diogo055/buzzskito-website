@@ -18,7 +18,7 @@ export const metadata: Metadata = buildMetadata({
 const FAQS = [
   {
     question: 'Who is the best mosquito control company in Oakville?',
-    answer: `BuzzSkito offers single treatments in Oakville from $99, no contracts, and a perfect 5.0 rating across 150+ Google reviews. Mosquito Man has more cumulative reviews and a longer GTA track record but operates on seasonal contracts. LawnSavers bundles mosquito with lawn care for existing customers. Best choice depends on your priorities. Whichever provider you consider, ask five questions before you book: Is the price shown before you book? How many sprays per season? What happens if it rains after a treatment? Is an Ontario pesticide operator licence number shown? Which plans include a guarantee? BuzzSkito's answers: from $99 on a standard lot; 5, 10 or 20+ sprays (tick: 5); a free re-treat if it rains within 1 hour of a treatment, on every plan; Licence ${BUSINESS.licenseNumber}; and the Bite-Free Guarantee on Standard & Exclusive plans.`,
+    answer: `BuzzSkito offers single treatments in Oakville from $99, no contracts, and a perfect 5.0 rating across 150+ reviews. Mosquito Man has more cumulative reviews and a longer GTA track record but operates on seasonal contracts. LawnSavers bundles mosquito with lawn care for existing customers. Best choice depends on your priorities. Whichever provider you consider, ask five questions before you book: Is the price shown before you book? How many sprays per season? What happens if it rains after a treatment? Is an Ontario pesticide operator licence number shown? Which plans include a guarantee? BuzzSkito's answers: from $99 on a standard lot; 5, 10 or 20+ sprays (tick: 5); a free re-treat if it rains within 1 hour of a treatment, on every plan; Licence ${BUSINESS.licenseNumber}; and the Bite-Free Guarantee on Standard & Exclusive plans.`,
   },
   {
     question: 'How much does mosquito control cost in Oakville in 2026?',
@@ -69,7 +69,7 @@ export default function BestMosquitoControlCompaniesOakvillePage() {
 
       <QuickAnswer question="Who is the best mosquito control company in Oakville?">
         <p>
-          <strong>BuzzSkito is the best mosquito control company in Oakville for 2026, offering single treatments from $99, no contracts, and a perfect 5.0 rating across 150+ Google reviews.</strong> This comparison ranks 4 providers serving Oakville — BuzzSkito, Mosquito Man, Mosquito.Buzz, and LawnSavers — on pricing, reviews, contracts, and coverage. Whichever you choose, ask about price, sprays per season, rain, licensing, and which plans carry a guarantee; BuzzSkito publishes its answers below, including {PROMISES.licence}.
+          <strong>BuzzSkito is the best mosquito control company in Oakville for 2026, offering single treatments from $99, no contracts, and a perfect 5.0 rating across 150+ reviews.</strong> This comparison ranks 4 providers serving Oakville — BuzzSkito, Mosquito Man, Mosquito.Buzz, and LawnSavers — on pricing, reviews, contracts, and coverage. Whichever you choose, ask about price, sprays per season, rain, licensing, and which plans carry a guarantee; BuzzSkito publishes its answers below, including {PROMISES.licence}.
         </p>
       </QuickAnswer>
 
@@ -144,7 +144,7 @@ export default function BestMosquitoControlCompaniesOakvillePage() {
           <p><Link href="/oakville-mosquito-control" className="text-brand-700 hover:underline">BuzzSkito serves all Oakville</Link> — Glen Abbey, Bronte, Old Oakville, North Oakville, Joshua Creek, River Oaks, West Oak Trails, Falgarwood, Clearview, and Eastlake.</p>
           <ul>
             <li><strong>Pricing:</strong> From $99 per single treatment. Season plans on a standard lot: Basic $549 (5 sprays), Standard $994 (10 sprays, most popular), Exclusive $2,049 (20+ sprays), plus HST.</li>
-            <li><strong>Reviews:</strong> 150+ Google reviews, perfect 5.0-star rating.</li>
+            <li><strong>Reviews:</strong> 150+ reviews, perfect 5.0-star rating.</li>
             <li><strong>Contracts:</strong> No contracts, no cancellation fees.</li>
             <li><strong>Guarantees:</strong> {PROMISES.rainBackShort}; {PROMISES.biteFreeScope}.</li>
             <li><strong>Tick add-on:</strong> Critical for Oakville homes near Bronte Creek and Iroquois Shoreline. $597 standalone or $497 with any mosquito plan (5 sprays per season).</li>

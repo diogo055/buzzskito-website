@@ -121,7 +121,7 @@ export default function CanMosquitoesBiteThroughClothesPage() {
               <li><strong>Permethrin-treated clothing</strong> kills mosquitoes on contact through fabric &mdash; factory Insect Shield garments last ~70 washes, DIY 0.5% spray ~6 washes.</li>
               <li>In Canada, consumer permethrin sprays for clothing, <strong>Sawyer&rsquo;s 0.5% spray</strong> among them, are not approved (<a href="https://www.canada.ca/en/public-health/services/publications/diseases-conditions/permethrin-treated-clothing.html" target="_blank" rel="noopener noreferrer" className="text-brand-700 underline">Public Health Agency of Canada</a>), and InsectGuard and Insect Shield clothing have no Canadian registration: the registered home-use line here is No Fly Zone (Reg. No. 32757), so look for the PCP number on the label.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

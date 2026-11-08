@@ -88,7 +88,7 @@ export default function OakvilleTickSprayPage() {
       {/* QUICK ANSWER */}
       <QuickAnswer question="What is the best tick control company in Oakville?">
         <p>
-          <strong>BuzzSkito provides specialist tick barrier spray across all Oakville neighbourhoods — Bronte, Glen Abbey, Joshua Creek, West Oak Trails, Clearview, Palermo, River Oaks, Kerr Village, Old Oakville, North Oakville, Eastlake, Falgarwood.</strong> Treatments are applied by a licensed Ontario operator, according to label directions, to the specific 1–3 metre zones where blacklegged ticks concentrate — lawn-to-woods transitions, leaf litter, garden bed edges, and fence-line vegetation. Single treatments start at <strong>$99</strong>; tick add-on bundled with mosquito plan from $497. With <strong>150+ five-star Google reviews</strong>, no contracts, a <strong>rain-back guarantee on every plan</strong>, and 5 tick sprays per season, Oakville families get professional tick treatment for ravine, conservation-area, and wooded-edge properties. Call (289) 216-5030.
+          <strong>BuzzSkito provides specialist tick barrier spray across all Oakville neighbourhoods — Bronte, Glen Abbey, Joshua Creek, West Oak Trails, Clearview, Palermo, River Oaks, Kerr Village, Old Oakville, North Oakville, Eastlake, Falgarwood.</strong> Treatments are applied by a licensed Ontario operator, according to label directions, to the specific 1–3 metre zones where blacklegged ticks concentrate — lawn-to-woods transitions, leaf litter, garden bed edges, and fence-line vegetation. Single treatments start at <strong>$99</strong>; tick add-on bundled with mosquito plan from $497. With <strong>150+ five-star reviews</strong>, no contracts, a <strong>rain-back guarantee on every plan</strong>, and 5 tick sprays per season, Oakville families get professional tick treatment for ravine, conservation-area, and wooded-edge properties. Call (289) 216-5030.
         </p>
       </QuickAnswer>
 
@@ -286,13 +286,13 @@ export default function OakvilleTickSprayPage() {
         <div className="max-w-4xl mx-auto">
           <p className="kicker mb-3 text-center">Customer Reviews</p>
           <h2 className="h2-display text-brand-950 mb-2 text-center">What Oakville Homeowners Say About Our Tick Control</h2>
-          <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star Google reviews</p>
+          <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star reviews</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
-              { author: 'James K.', location: 'Glen Abbey', text: 'We had a tick problem near our garden border in Oakville. BuzzSkito came out quickly, treated the whole yard, and gave us a detailed service log. Great experience and the kids can play outside again.' },
-              { author: 'Mark S.', location: 'Bronte', text: 'Our property backs onto Bronte Creek and we found ticks on our dog twice. After BuzzSkito treated the perimeter the problem stopped completely. Peace of mind for the whole family.' },
-              { author: 'Rachel D.', location: 'West Oak Trails', text: 'The technician knew exactly where to focus — the fence line backing onto the creek and our garden bed edges. Very knowledgeable about tick habitat and the treatment worked immediately.' },
-              { author: 'David L.', location: 'North Oakville', text: 'With young kids and a yard near conservation land, tick prevention is non-negotiable for us. BuzzSkito handles it professionally and the communication is excellent.' },
+              { author: 'Ban Petros', location: 'Google review', text: 'Great tick control, will return next year. Very friendly, fast on work, fast on answering and really helpful.' },
+              { author: 'Harman Walia', location: 'Google review', text: 'No more mosquitos or ticks! Thanks BuzzSkito.' },
+              { author: 'Manjit S', location: 'Google review', text: 'Clean and professional. BuzzSkito sprayed our yard for mosquitoes and ticks. 5 star service.' },
+              { author: 'William Rosario', location: 'Google review', text: 'Great tick control. Highly recommend their services.' },
             ].map(({ author, location, text }) => (
               <div key={author} className="bg-brand-50 rounded-2xl p-6 border border-brand-100">
                 <div className="flex items-center gap-1 mb-3">
@@ -301,12 +301,12 @@ export default function OakvilleTickSprayPage() {
                   ))}
                 </div>
                 <p className="text-gray-700 text-sm mb-3 italic">&ldquo;{text}&rdquo;</p>
-                <p className="text-brand-800 font-semibold text-sm">{author} — <span className="text-gray-500 font-normal">{location}, Oakville</span></p>
+                <p className="text-brand-800 font-semibold text-sm">{author} — <span className="text-gray-500 font-normal">{location}</span></p>
               </div>
             ))}
           </div>
           <div className="text-center mt-6">
-            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read all 150+ reviews on Google &rarr;</a>
+            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read our reviews on Google &rarr;</a>
           </div>
         </div>
       </section>

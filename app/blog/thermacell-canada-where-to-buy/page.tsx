@@ -136,7 +136,7 @@ export default function ThermacellCanadaPage() {
               <li>Covering a 3,000&ndash;10,000 sq ft GTA yard would need roughly 4&ndash;15 units running at once.</li>
               <li>Professional barrier spray treats the whole yard from $99 and is re-applied on a schedule.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
           </div>
           <TopPick tag={AMZ_TAG}
             label="Our Canadian Pick"

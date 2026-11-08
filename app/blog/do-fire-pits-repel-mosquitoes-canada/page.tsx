@@ -109,7 +109,7 @@ export default function DoFirePitsRepelMosquitoesCanadaPage() {
               <li>Expect roughly the <strong>$300&ndash;$800 CAD</strong> range for a quality smokeless pit plus its stand, lid and cover; a plain steel wood pit with a spark screen sits far below that and is better at the mosquito job.</li>
               <li>Fire does nothing whatsoever about ticks &mdash; they wait in grass and leaf litter and never fly.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star reviews</p>
           </div>
         </div>
       </section>

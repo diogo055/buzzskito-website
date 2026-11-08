@@ -79,7 +79,7 @@ export default function TickBitesThatWontHealWhenToWorryPage() {
               <li>eTick (etick.ca) identifies ticks for free from a photo; it does not test them for disease.</li>
               <li>Doxycycline works best started early &mdash; document the bite and see a doctor if in doubt.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
           </div>
         </div>
       </section>

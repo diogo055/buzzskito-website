@@ -364,7 +364,7 @@ export default function PestProductGuidesPage() {
                 'The only two pests BuzzSkito treats as a service are mosquitoes and ticks, across 19+ GTA cities.',
               ].map((b) => (<li key={b} className="flex gap-2"><span className="mt-0.5 text-emerald-500" aria-hidden="true">▸</span><span>{b}</span></li>))}
             </ul>
-            <p className="mt-4 text-xs text-gray-500">— BuzzSkito Mosquito &amp; Tick Control · 150 five-star Google reviews · independent product research</p>
+            <p className="mt-4 text-xs text-gray-500">— BuzzSkito Mosquito &amp; Tick Control · 150 five-star reviews · independent product research</p>
           </div>
           <div className="mt-5"><SpecialistDisclosure pest="most household pests" /></div>
         </div>

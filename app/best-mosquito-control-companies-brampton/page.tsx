@@ -18,7 +18,7 @@ export const metadata: Metadata = buildMetadata({
 const FAQS = [
   {
     question: 'Who is the best mosquito control company in Brampton?',
-    answer: `It depends on what matters most. BuzzSkito is priced from $99/treatment in Brampton, with no contracts and 150+ five-star Google reviews. Mosquito Man has a longer track record in the GTA. Mosquito.Buzz is a national franchise, so service depends on the local operator. LawnSavers bundles mosquito control with lawn care for existing customers. Each has different strengths in pricing, flexibility, and bundled services. Whichever you consider, ask any provider five questions before you book: Is the price shown before you book? How many sprays per season? What happens if it rains after a treatment? Is an Ontario pesticide operator licence number shown? Which plans include a guarantee? BuzzSkito's answers: from $99 on a standard lot; 5, 10 or 20+ sprays (tick: 5); a free re-treat if it rains within 1 hour of a treatment, on every plan; Licence ${BUSINESS.licenseNumber}; and the Bite-Free Guarantee on Standard & Exclusive plans. BuzzSkito has 150+ five-star Google reviews.`,
+    answer: `It depends on what matters most. BuzzSkito is priced from $99/treatment in Brampton, with no contracts and 150+ five-star reviews. Mosquito Man has a longer track record in the GTA. Mosquito.Buzz is a national franchise, so service depends on the local operator. LawnSavers bundles mosquito control with lawn care for existing customers. Each has different strengths in pricing, flexibility, and bundled services. Whichever you consider, ask any provider five questions before you book: Is the price shown before you book? How many sprays per season? What happens if it rains after a treatment? Is an Ontario pesticide operator licence number shown? Which plans include a guarantee? BuzzSkito's answers: from $99 on a standard lot; 5, 10 or 20+ sprays (tick: 5); a free re-treat if it rains within 1 hour of a treatment, on every plan; Licence ${BUSINESS.licenseNumber}; and the Bite-Free Guarantee on Standard & Exclusive plans. BuzzSkito has 150+ five-star reviews.`,
   },
   {
     question: 'How much does mosquito control cost in Brampton in 2026?',
@@ -69,7 +69,7 @@ export default function BestMosquitoControlCompaniesBramptonPage() {
 
       <QuickAnswer question="Who is the best mosquito control company in Brampton?">
         <p>
-          <strong>The best mosquito control company for a Brampton yard is one that answers five questions clearly before you book, and BuzzSkito publishes its answers: from $99 on a standard lot, 150+ five-star Google reviews, and {PROMISES.licence}.</strong> This comparison ranks 4 providers serving Brampton — BuzzSkito, Mosquito Man, Mosquito.Buzz, and LawnSavers — on pricing, reviews, contracts, and coverage. Ask any provider about price, sprays per season, rain, licensing, and which plans carry a guarantee. The checklist below covers those questions for Brampton homeowners.
+          <strong>The best mosquito control company for a Brampton yard is one that answers five questions clearly before you book, and BuzzSkito publishes its answers: from $99 on a standard lot, 150+ five-star reviews, and {PROMISES.licence}.</strong> This comparison ranks 4 providers serving Brampton — BuzzSkito, Mosquito Man, Mosquito.Buzz, and LawnSavers — on pricing, reviews, contracts, and coverage. Ask any provider about price, sprays per season, rain, licensing, and which plans carry a guarantee. The checklist below covers those questions for Brampton homeowners.
         </p>
       </QuickAnswer>
 
@@ -143,7 +143,7 @@ export default function BestMosquitoControlCompaniesBramptonPage() {
           <p><Link href="/brampton-mosquito-control" className="text-brand-700 hover:underline">BuzzSkito serves all Brampton neighbourhoods</Link> including Castlemore, Heart Lake, Springdale, Mount Pleasant, Bramalea, Bram West, Sandalwood, Snelgrove, and Fletcher's Meadow.</p>
           <ul>
             <li><strong>Pricing:</strong> From $99 per single treatment. Season plans on a standard lot: Basic $549 (5 sprays), Standard $994 (10 sprays, most popular), Exclusive $2,049 (20+ sprays), plus HST.</li>
-            <li><strong>Reviews:</strong> 150+ Google reviews, perfect 5.0-star rating across the GTA.</li>
+            <li><strong>Reviews:</strong> 150+ reviews, perfect 5.0-star rating across the GTA.</li>
             <li><strong>Contracts:</strong> No contracts, no cancellation fees. Test a single treatment before committing.</li>
             <li><strong>Guarantees:</strong> {PROMISES.rainBackShort}; {PROMISES.biteFreeScope}.</li>
             <li><strong>Tick add-on:</strong> $597 on its own or $497 with any mosquito plan (5 sprays per season) — important for Brampton homes near Heart Lake and the Etobicoke Creek.</li>

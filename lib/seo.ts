@@ -51,7 +51,7 @@ const ALL_AREA_SERVED = [
 // localBusinessSchema — emit on every page (per-page areaServed for local relevance).
 // No aggregateRating anywhere (removed Nov 3, 2026, owner's OK): Google doesn't let a
 // business mark up its own reviews, and these were our Google Business Profile reviews.
-// The visible "150 five-star Google reviews" text stays. Credentials/identifiers live on
+// The visible "150 five-star reviews" text stays. Credentials/identifiers live on
 // organizationSchema (emitted globally in layout.tsx) — keeping them off LocalBusiness
 // avoids `<parent_node>` parser errors that Google reports when those fields are nested
 // inside PestControlService.

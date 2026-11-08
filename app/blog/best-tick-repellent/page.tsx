@@ -142,7 +142,7 @@ export default function BestTickRepellentPage() {
               <li>Repellent wristbands, ankle bands and ultrasonic devices are on Health Canada&rsquo;s list of products that do not protect well.</li>
               <li>After time in tick habitat: dry clothes on high heat for 10 minutes, shower, and do a full-body tick check (Public Health Agency of Canada).</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
 
           <TopPick tag={AMZ_TAG}

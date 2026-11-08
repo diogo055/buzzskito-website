@@ -143,7 +143,7 @@ export default function HowManyTimesCanAMosquitoBiteYouPage() {
               <li>A female mosquito lives about 2 to 3 weeks (up to a month in cool, sheltered conditions) and bites across her whole life.</li>
               <li>One mosquito can bite more than one person, which is how a single infected mosquito can spread viruses such as West Nile.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
             <p className="mt-2 text-xs text-gray-500">Sources: <a href="https://pubmed.ncbi.nlm.nih.gov/686250/" target="_blank" rel="noopener" className="text-emerald-700 underline">Klowden &amp; Lea, <em>American Journal of Tropical Medicine and Hygiene</em>, 1978</a> (yellow fever mosquitoes that had taken less than about 2.5 microlitres of blood still went after a host; above that, their tendency to respond dropped sharply); <a href="https://pubmed.ncbi.nlm.nih.gov/22300806/" target="_blank" rel="noopener" className="text-emerald-700 underline">Scott &amp; Takken, <em>Trends in Parasitology</em>, 2012</a> (<em>Aedes aegypti</em> and <em>Anopheles gambiae</em> commonly take more than one blood meal per batch of eggs); <a href="https://www.cdc.gov/mosquitoes/about/life-cycle-of-aedes-mosquitoes.html" target="_blank" rel="noopener" className="text-emerald-700 underline">CDC</a> (only female mosquitoes bite, because they need blood to produce eggs).</p>
           </div>
         </div>

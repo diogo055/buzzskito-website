@@ -136,7 +136,7 @@ export default function BestTickRepellentYardPage() {
               <li>A short lawn plus a 3-foot mulch barrier at property edges are free habitat fixes that reduce tick pressure.</li>
               <li>Home-use yard products with ticks on the label (Health Canada&rsquo;s registry, checked November 6, 2026): Doktor Doom Tick Killer Plus+ (PCP 34405) and Tick Killer + II (PCP 34673), Safer&rsquo;s Trounce (PCP 28680), the Mosquito Barrier garlic repellent (PCP 32049) and Thermacell Tick Control Tubes (PCP 33858).</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">Personal tick repellents on your skin protect <em>you</em> (for those, see our guide to the <Link href="/blog/best-tick-repellent">best tick repellent for people in Canada</Link>). Yard-scale tick repellents protect your <em>property</em> — and that&rsquo;s a different problem with different solutions. Here&rsquo;s what works in Canadian yards in 2026.</p>
 

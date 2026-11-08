@@ -91,7 +91,7 @@ export default function TickTreatmentCostPage() {
             <li>Professional barrier spray is placed on the shaded edges and leaf litter where ticks quest rather than across the whole lawn, and applied according to label directions.</li>
             <li>DIY granular treatments cost $30&ndash;$80 but require precise application and reapplication as the label directs.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
         </div>
 
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">

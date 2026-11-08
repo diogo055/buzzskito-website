@@ -73,7 +73,7 @@ export default function MosquitoControlEtobicokePage() {
               <li>Hotspots include James Gardens, Centennial Park, Serena Gundy Park&rsquo;s 120 acres of valley land, and the Burke Brook corridor.</li>
               <li>Barrier spray targets shrub undersides, hedge interiors, and leaf-litter margins &mdash; not the open lawn or the ravine itself.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

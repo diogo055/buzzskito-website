@@ -118,7 +118,7 @@ export default function MosquitoSprayLastPage() {
             <li>BuzzSkito plans run May through September: Basic is 5 sprays monthly, Standard is 10 sprays every 2 weeks (most popular), and Exclusive is 20+ sprays weekly.</li>
             <li>Heavy rain before the spray dries can wash it off. {PROMISES.rainBack}</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
         </div>
       </div>
 

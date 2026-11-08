@@ -107,7 +107,7 @@ export default function WhenToWorryMosquitoBitePage() {
               <li>Fewer than 1 in 150 West Nile infections cause serious neurological illness.</li>
               <li>Call 911 for trouble breathing, swelling of the lips, tongue, or throat, rapidly spreading hives, or fainting.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </div>

@@ -100,7 +100,7 @@ export default function MosquitoNettingVsSprayPage() {
               <li>Netting does nothing for ticks; barrier spray controls both mosquitoes and ticks.</li>
               <li>Ravine-adjacent Ontario properties get the best results combining a screened zone with whole-yard spray.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
           </div>
 
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">Mosquito netting and barrier spray are both real solutions to mosquito problems — but they solve different problems. Netting protects an enclosed space; barrier spray protects an entire yard. Here&rsquo;s how to decide which one (or both) fits your situation.</p>

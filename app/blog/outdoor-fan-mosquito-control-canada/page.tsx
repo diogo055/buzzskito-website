@@ -104,7 +104,7 @@ export default function OutdoorFanMosquitoControlCanadaPage() {
               <li>Outdoor receptacles must be GFCI-protected under the Canadian Electrical Code; use an outdoor-rated cord and an in-use cover.</li>
               <li>Realistic budget: $120–$450 for the fan, plus brackets, downrod and cord. It protects the airflow only — not the yard, and not against ticks.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150 five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150 five-star reviews</p>
           </div>
         </div>
       </section>

@@ -116,7 +116,7 @@ export default function BurlingtonMosquitoPage() {
       {/* QUICK ANSWER */}
       <QuickAnswer question="What is the best mosquito control company in Burlington?">
         <p>
-          <strong>BuzzSkito provides specialist mosquito barrier spray across all Burlington neighbourhoods — Alton Village, Millcroft, The Orchard, Roseland, Downtown Burlington, Shoreacres, Headon Forest, North Burlington, Palmer, Tyandaga, and Aldershot.</strong> Treatments are applied according to label directions to vegetation and shrub interiors where mosquitoes rest. Single treatments start at <strong>$99</strong> on a standard lot, with season plans from <strong>$549</strong>. With <strong>150+ five-star Google reviews</strong>, no contracts, a rain-back guarantee on every plan, and the <strong>Bite-Free Guarantee on Standard &amp; Exclusive plans</strong>, Burlington homeowners get barrier spray for waterfront and creek-adjacent properties. Call (289) 216-5030.
+          <strong>BuzzSkito provides specialist mosquito barrier spray across all Burlington neighbourhoods — Alton Village, Millcroft, The Orchard, Roseland, Downtown Burlington, Shoreacres, Headon Forest, North Burlington, Palmer, Tyandaga, and Aldershot.</strong> Treatments are applied according to label directions to vegetation and shrub interiors where mosquitoes rest. Single treatments start at <strong>$99</strong> on a standard lot, with season plans from <strong>$549</strong>. With <strong>150+ five-star reviews</strong>, no contracts, a rain-back guarantee on every plan, and the <strong>Bite-Free Guarantee on Standard &amp; Exclusive plans</strong>, Burlington homeowners get barrier spray for waterfront and creek-adjacent properties. Call (289) 216-5030.
         </p>
       </QuickAnswer>
 
@@ -366,13 +366,13 @@ export default function BurlingtonMosquitoPage() {
         <div className="max-w-4xl mx-auto">
           <p className="kicker mb-3 text-center">Reviews</p>
           <h2 className="h2-display text-brand-900 mb-2 text-center">What Burlington Homeowners Say</h2>
-          <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star Google reviews</p>
+          <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star reviews</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
-              { author: 'Anthony', location: 'Milton', text: 'Highly recommend this company for mosquito control. I got my house in Milton serviced recently and loved the end result!' },
-              { author: 'Sandra H.', location: 'Roseland', text: 'Our mature garden near the lake was a mosquito magnet. BuzzSkito treated it carefully around all our plants and the results were immediate. Very professional team.' },
-              { author: 'Greg W.', location: 'Aldershot', text: 'Living near the waterfront means mosquitoes every summer. We tried everything before calling BuzzSkito. One treatment made more difference than years of citronella candles.' },
-              { author: 'Lisa M.', location: 'Millcroft', text: 'The stormwater pond behind our house made our backyard unusable. BuzzSkito changed that completely. Great communication, professional service, and our yard is finally enjoyable.' },
+              { author: 'Anthony', location: 'Milton · Google review', text: 'Highly recommend this company for mosquito control. I got my house in Milton serviced recently and loved the end result!' },
+              { author: 'Dylan Casimiro', location: 'Google review', text: 'These guys are the real deal! I love to host in my backyard and always used to get complaints about my guests being eaten alive until last summer. A friend recommended BuzzSkito and they were amazing, very responsive and professional and had my backyard done so quickly.' },
+              { author: 'Cathy Sadkowski', location: 'Google review', text: 'Really professional and personable. Price is very reasonable. Loved being able to enjoy my backyard for once. Saved my little one from lots of bites!' },
+              { author: 'Ricardo', location: 'Google review', text: 'So happy with the service. It really did work and had no mosquitos all summer. Will definitely do it again next summer. Highly recommend!!!' },
             ].map(({ author, location, text }) => (
               <div key={author} className="bg-brand-50 rounded-2xl p-6 border border-brand-100">
                 <div className="flex items-center gap-1 mb-3">
@@ -381,12 +381,12 @@ export default function BurlingtonMosquitoPage() {
                   ))}
                 </div>
                 <p className="text-gray-700 text-sm mb-3 italic">&ldquo;{text}&rdquo;</p>
-                <p className="text-brand-800 font-semibold text-sm">{author} — <span className="text-gray-500 font-normal">{location}, Burlington</span></p>
+                <p className="text-brand-800 font-semibold text-sm">{author} — <span className="text-gray-500 font-normal">{location}</span></p>
               </div>
             ))}
           </div>
           <div className="text-center mt-6">
-            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read all 150+ reviews on Google &rarr;</a>
+            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read our reviews on Google &rarr;</a>
           </div>
         </div>
       </section>

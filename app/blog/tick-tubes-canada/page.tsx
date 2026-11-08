@@ -112,7 +112,7 @@ export default function TickTubesCanadaPage() {
               <li>Tubes do nothing for ticks already questing in the open yard, so pair them with a perimeter barrier spray.</li>
               <li>Permethrin is highly toxic to cats, so keep tubes away from them; Thermacell is the most widely available brand in Canada.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

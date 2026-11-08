@@ -81,7 +81,7 @@ export default function TickControlRichmondHillMarkhamPage() {
             <li>Lyme transmission becomes a real possibility after 24–36 hours of tick attachment.</li>
             <li>Highest-risk areas: Oak Ridges and Jefferson Forest in Richmond Hill; Cornell, Cathedraltown, and Rouge Park in Markham.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
         </div>
         <p className="text-lg text-gray-600 leading-relaxed not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           Richmond Hill and Markham sit directly on the Oak Ridges Moraine — one of Ontario&rsquo;s most ecologically sensitive areas and one of the province&rsquo;s highest-density tick habitats. If your property backs onto forest, a ravine, or conservation land in either city, this guide is for you. Start with our <Link href="/richmond-hill-tick-spray" className="text-brand-700 underline">Richmond Hill tick control</Link> or <Link href="/markham-tick-spray" className="text-brand-700 underline">Markham tick control</Link> service pages for treatment options.

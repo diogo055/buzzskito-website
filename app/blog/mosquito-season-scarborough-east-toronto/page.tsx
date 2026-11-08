@@ -71,7 +71,7 @@ export default function MosquitoSeasonScarboroughPage() {
             <li>Rouge Park and the Highland Creek valley have confirmed blacklegged tick populations and appear in Ontario&rsquo;s Lyme disease risk zone mapping.</li>
             <li>Valley-adjacent properties need a 5-treatment program (May&ndash;September); flat suburban blocks like Agincourt usually need 3 (June&ndash;August).</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
         </div>
 
         <p className="text-lg text-gray-600 leading-relaxed not-prose border-l-4 border-brand-400 pl-5 py-2 mb-8">

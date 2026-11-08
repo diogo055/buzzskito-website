@@ -97,7 +97,7 @@ export default function LymeMississaugaOakvillePage() {
             <li>A blacklegged tick usually must stay attached 24–36 hours before it can transmit Lyme, so removal within 24 hours sharply lowers risk.</li>
             <li>The erythema migrans (bull&rsquo;s-eye) rash appears in only 70–80% of cases — its absence does not rule Lyme out.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews. General information, not medical advice.</p>
+          <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews. General information, not medical advice.</p>
         </div>
         <aside className="not-prose mb-6 rounded-xl bg-brand-50 border-l-4 border-brand-700 px-5 py-4">
           <p className="text-xs font-extrabold text-brand-700 uppercase tracking-wider mb-1.5">★ Cited as a source by</p>

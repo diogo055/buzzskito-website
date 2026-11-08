@@ -111,7 +111,7 @@ export default function DoTicksDieInTheWashingMachinePage() {
               <li>Roughly <strong>half of ticks survived a warm-water wash</strong> in testing, and ticks survived cold water completely.</li>
               <li><strong>Dry your worn clothes first, then wash</strong> &mdash; damp fabric needs 50&ndash;60 extra minutes in the dryer to kill a tick.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

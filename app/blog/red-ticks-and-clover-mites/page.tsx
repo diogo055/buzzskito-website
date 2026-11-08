@@ -147,7 +147,7 @@ export default function RedTicksAndCloverMitesPage() {
               <li>Clover mites cluster on sunny walls and windows; ticks live in grass and leaf litter and attach to skin.</li>
               <li>Keep a 45&ndash;60 cm (18&ndash;24 inch) plant-free border around the foundation to reduce clover mites.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
           </div>
 
           {/* Service arm first: the lead CTA outranks every affiliate element below it. */}

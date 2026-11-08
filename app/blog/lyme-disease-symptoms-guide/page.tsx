@@ -110,7 +110,7 @@ export default function LymeDiseaseSymptomsGuidePage() {
             <li>Untreated, Lyme can progress to facial palsy, Lyme carditis, and arthritis — most often in the knees.</li>
             <li>Most people recover fully with early antibiotics such as doxycycline, amoxicillin, or cefuroxime.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews. General information, not medical advice.</p>
+          <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews. General information, not medical advice.</p>
         </div>
       </section>
 

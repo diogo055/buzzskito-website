@@ -105,7 +105,7 @@ export default function BabyTicksNymphsSeedTicksOntarioPage() {
               <li>Remove any attached tick with fine-tipped tweezers, pulling straight up close to the skin.</li>
               <li>Professional barrier spray targets the shaded, humid yard edges where nymphs wait &mdash; the residual goes where they quest, not across the open lawn.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

@@ -87,7 +87,7 @@ export default function TorontoTickHotSpotPage() {
             <li>Highest-risk neighbourhoods include Rosedale, Forest Hill, Leaside, Lawrence Park, the Beaches, High Park, Don Mills, and Riverdale.</li>
             <li>Lyme transmission typically needs 24&ndash;36 hours of attachment, so a late-May/early-June barrier spray plus daily tick checks is the recommended response.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
         </div>
 
         <BlogPostCTA />

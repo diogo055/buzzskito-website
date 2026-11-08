@@ -119,7 +119,7 @@ export default function BlackFlagElectricFoggerReviewCanadaPage() {
               <li>For acreage, a gas thermal fogger or battery backpack sprayer reaches farther.</li>
               <li>For whole-yard coverage &mdash; and tick control &mdash; a licensed barrier spray works differently: it leaves a residual on the foliage mosquitoes rest on, renewed on the plan&rsquo;s schedule, which a fog does not.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star reviews</p>
           </div>
         </div>
       </section>

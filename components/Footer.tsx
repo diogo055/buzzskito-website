@@ -165,7 +165,7 @@ export default function Footer() {
             {/* Was "Health Canada–Approved Formulations": DIR2016-01 bars that wording, so the label line replaces it. */}
             <span>{PROMISES.labelLine}</span>
             <span aria-hidden="true">·</span>
-            <span><strong className="text-brand-300">5.0 ★</strong> Google Rating · 150+ Reviews · 0 Negative</span>
+            <span><strong className="text-brand-300">5.0 ★</strong> Google Rating · 0 Negative Reviews</span>
           </div>
         </div>
 

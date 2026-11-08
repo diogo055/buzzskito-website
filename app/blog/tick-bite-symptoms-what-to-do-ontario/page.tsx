@@ -102,7 +102,7 @@ export default function TickBiteSymptomsPage() {
             <li>Pull straight up with fine-tipped tweezers &mdash; do not twist, burn, or squeeze the tick.</li>
             <li>Professional tick barrier spray targets the lawn edges where ticks wait and is renewed roughly monthly, 5 treatments a season.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
         </div>
 
         <div className="not-prose bg-amber-50 border border-amber-200 rounded-xl p-5 mb-8">

@@ -100,7 +100,7 @@ export default function TickBiteOnDogSymptomsPage() {
               <li>Canine Lyme responds well to doxycycline, typically a 28-day course.</li>
               <li>Most yard ticks are picked up at home &mdash; professional yard spray targets the leaf litter and lawn edges where they wait.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
           </div>
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 

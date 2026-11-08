@@ -79,7 +79,7 @@ export default function VaughanKingCityTickControlPage() {
             <li>Treatment targets the 3-metre lawn-to-woods transition strip, fence lines, woodpiles, and shaded lawn sections.</li>
             <li>Highest-risk Vaughan areas: Islington Woods, Weston Downs, Pine Valley, Sonoma Heights, and Kleinburg.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
         </div>
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           York Region&apos;s rapid residential development has pushed subdivisions right up against some of Ontario&apos;s most active tick habitat — Boyd Conservation Area, the Humber River valley, and King Township&apos;s Oak Ridges Moraine properties. This guide explains the specific risks for Vaughan, Woodbridge, and King City homeowners. Part of our <Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Tick Control Guide for Ontario</Link>.

@@ -62,7 +62,7 @@ export default function BurlingtonTickPage() {
       {/* QUICK ANSWER */}
       <QuickAnswer question="What is the best tick control company in Burlington?">
         <p>
-          <strong>BuzzSkito provides specialist tick barrier spray across all Burlington neighbourhoods — Alton Village, Millcroft, The Orchard, Roseland, Downtown Burlington, Shoreacres, Headon Forest, North Burlington, Palmer, Tyandaga, Aldershot.</strong> Treatments are applied according to label directions to the specific 1–3 metre zones where blacklegged ticks concentrate — lawn-to-woods transitions, leaf litter, garden bed edges, and fence-line vegetation. Single treatments start at <strong>$99</strong>; the 5-spray tick season is <strong>$597</strong> on its own or <strong>$497</strong> with any mosquito plan. With <strong>150+ five-star Google reviews</strong>, no contracts, and a rain-back guarantee on every plan, Burlington families get targeted tick-zone treatment for ravine, conservation-area, and wooded-edge properties. Call (289) 216-5030.
+          <strong>BuzzSkito provides specialist tick barrier spray across all Burlington neighbourhoods — Alton Village, Millcroft, The Orchard, Roseland, Downtown Burlington, Shoreacres, Headon Forest, North Burlington, Palmer, Tyandaga, Aldershot.</strong> Treatments are applied according to label directions to the specific 1–3 metre zones where blacklegged ticks concentrate — lawn-to-woods transitions, leaf litter, garden bed edges, and fence-line vegetation. Single treatments start at <strong>$99</strong>; the 5-spray tick season is <strong>$597</strong> on its own or <strong>$497</strong> with any mosquito plan. With <strong>150+ five-star reviews</strong>, no contracts, and a rain-back guarantee on every plan, Burlington families get targeted tick-zone treatment for ravine, conservation-area, and wooded-edge properties. Call (289) 216-5030.
         </p>
       </QuickAnswer>
 
@@ -244,13 +244,13 @@ export default function BurlingtonTickPage() {
         <div className="max-w-4xl mx-auto">
           <p className="kicker mb-3 text-center">Customer Reviews</p>
           <h2 className="h2-display text-brand-950 mb-2 text-center">What Burlington Homeowners Say About Our Tick Control</h2>
-          <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star Google reviews</p>
+          <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star reviews</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
-              { author: 'Sandra H.', location: 'Roseland', text: 'Our property backs onto Escarpment trails and ticks were a constant worry with our dog. BuzzSkito treated the fence line and garden edges — exactly where the ticks were coming from. Problem solved.' },
-              { author: 'Greg W.', location: 'Headon Forest', text: 'Found a tick on my daughter after she was playing near the back fence. Called BuzzSkito the next day and they were out within the week. Professional, knowledgeable, and the treatment worked immediately.' },
-              { author: 'Lisa M.', location: 'Alton Village', text: 'We bundle mosquito and tick control and the convenience is fantastic. One visit covers both. The technician explained exactly why certain areas of our yard were higher risk than others.' },
-              { author: 'Anthony', location: 'Milton', text: 'Highly recommend this company for mosquito control. I got my house in Milton serviced recently and loved the end result!' },
+              { author: 'Harman Walia', location: 'Google review', text: 'No more mosquitos or ticks! Thanks BuzzSkito.' },
+              { author: 'Zbigniew', location: 'Google review', text: 'Had these guys do my mosquito and tick control. Amazing season, highly recommend!' },
+              { author: 'Manjit S', location: 'Google review', text: 'Clean and professional. BuzzSkito sprayed our yard for mosquitoes and ticks. 5 star service.' },
+              { author: 'Anthony', location: 'Milton · Google review', text: 'Highly recommend this company for mosquito control. I got my house in Milton serviced recently and loved the end result!' },
             ].map(({ author, location, text }) => (
               <div key={author} className="bg-brand-50 rounded-2xl p-6 border border-brand-100">
                 <div className="flex items-center gap-1 mb-3">
@@ -259,7 +259,7 @@ export default function BurlingtonTickPage() {
                   ))}
                 </div>
                 <p className="text-gray-700 text-sm mb-3 italic">&ldquo;{text}&rdquo;</p>
-                <p className="text-brand-800 font-semibold text-sm">{author} — <span className="text-gray-500 font-normal">{location}, Burlington</span></p>
+                <p className="text-brand-800 font-semibold text-sm">{author} — <span className="text-gray-500 font-normal">{location}</span></p>
               </div>
             ))}
           </div>

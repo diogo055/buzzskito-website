@@ -88,7 +88,7 @@ export default function HamiltonTickSprayPage() {
       {/* QUICK ANSWER */}
       <QuickAnswer question="What is the best tick control company in Hamilton?">
         <p>
-          <strong>BuzzSkito provides specialist tick barrier spray across all Hamilton neighbourhoods — Stoney Creek, Dundas, Ancaster, Westdale, Waterdown, Rymal, Downtown Hamilton, Mount Hope, Binbrook, Flamborough.</strong> Treatments are applied by an Ontario-licensed pesticide operator, according to label directions, to the specific 1–3 metre zones where blacklegged ticks concentrate — lawn-to-woods transitions, leaf litter, garden bed edges, and fence-line vegetation. Single treatments start at <strong>$99</strong>; the 5-spray tick season is $597 on its own or $497 added to any mosquito plan. With <strong>150+ five-star Google reviews</strong>, no contracts, and a <strong>rain-back guarantee on every plan</strong>, Hamilton families get targeted tick treatment for ravine, conservation-area, and wooded-edge properties. Call (289) 216-5030.
+          <strong>BuzzSkito provides specialist tick barrier spray across all Hamilton neighbourhoods — Stoney Creek, Dundas, Ancaster, Westdale, Waterdown, Rymal, Downtown Hamilton, Mount Hope, Binbrook, Flamborough.</strong> Treatments are applied by an Ontario-licensed pesticide operator, according to label directions, to the specific 1–3 metre zones where blacklegged ticks concentrate — lawn-to-woods transitions, leaf litter, garden bed edges, and fence-line vegetation. Single treatments start at <strong>$99</strong>; the 5-spray tick season is $597 on its own or $497 added to any mosquito plan. With <strong>150+ five-star reviews</strong>, no contracts, and a <strong>rain-back guarantee on every plan</strong>, Hamilton families get targeted tick treatment for ravine, conservation-area, and wooded-edge properties. Call (289) 216-5030.
         </p>
       </QuickAnswer>
 
@@ -199,13 +199,13 @@ export default function HamiltonTickSprayPage() {
         <div className="max-w-4xl mx-auto">
           <p className="kicker mb-3 text-center">Customer Reviews</p>
           <h2 className="h2-display text-brand-950 mb-2 text-center">What Hamilton Homeowners Say About Our Tick Control</h2>
-          <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star Google reviews</p>
+          <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star reviews</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
-              { author: 'Steve R.', location: 'Westdale', text: 'Our yard backs onto Cootes Paradise and ticks were a serious concern. BuzzSkito treated the perimeter professionally and the difference was immediate. No more finding ticks after gardening.' },
-              { author: 'Karen L.', location: 'Dundas', text: 'Living near the Dundas Valley means ticks are unavoidable — unless you treat for them. BuzzSkito knows exactly where to focus and the results speak for themselves. Signed up for the full season.' },
-              { author: 'Paul G.', location: 'Ancaster', text: 'Found ticks on our dog twice last spring from the trail behind our house. After BuzzSkito treated the fence line and garden edges, haven\'t seen one since. Very knowledgeable team.' },
-              { author: 'Jennifer W.', location: 'Stoney Creek', text: 'We bundle tick and mosquito control and the convenience is great. One visit, both problems handled. The technician was thorough and the communication was excellent.' },
+              { author: 'William Rosario', location: 'Google review', text: 'Great tick control. Highly recommend their services.' },
+              { author: 'Manpreet Kaur', location: 'Google review', text: 'Got rid of my tick problem!!! Definitely recommend.' },
+              { author: 'Ahmad Alsakka', location: 'Google review', text: 'Got the mosquito and tick control service. Definitely recommend!' },
+              { author: 'Zbigniew', location: 'Google review', text: 'Had these guys do my mosquito and tick control. Amazing season, highly recommend!' },
             ].map(({ author, location, text }) => (
               <div key={author} className="bg-brand-50 rounded-2xl p-6 border border-brand-100">
                 <div className="flex items-center gap-1 mb-3">
@@ -214,7 +214,7 @@ export default function HamiltonTickSprayPage() {
                   ))}
                 </div>
                 <p className="text-gray-700 text-sm mb-3 italic">&ldquo;{text}&rdquo;</p>
-                <p className="text-brand-800 font-semibold text-sm">{author} — <span className="text-gray-500 font-normal">{location}, Hamilton</span></p>
+                <p className="text-brand-800 font-semibold text-sm">{author} — <span className="text-gray-500 font-normal">{location}</span></p>
               </div>
             ))}
           </div>

@@ -185,7 +185,7 @@ export default function DeerTickVsDogTickPage() {
               <li>Ticks generally need to stay attached 24+ hours to transmit Lyme, so prompt removal sharply cuts the risk.</li>
               <li>Not sure which you found? Photograph it from above and submit to eTick.ca for free species ID within 1&ndash;3 days.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

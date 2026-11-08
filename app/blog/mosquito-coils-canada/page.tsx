@@ -98,7 +98,7 @@ export default function MosquitoCoilsCanadaPage() {
               <li>Coils do nothing against ticks, which live in grass and leaf litter and ignore airborne smoke.</li>
               <li>Allethrin coils are registered pest-control products with Health Canada&rsquo;s PMRA.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

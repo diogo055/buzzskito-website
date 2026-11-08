@@ -136,7 +136,7 @@ export default function YardRiskReportPage() {
           <h2 className="text-2xl font-extrabold text-brand-900 mt-10 mb-3">Trusted by 150+ GTA homeowners</h2>
           <p className="text-gray-700 mb-3">BuzzSkito is owner-operated by Alex out of Mississauga. We service 19 cities across the Greater Toronto Area, with products applied according to label directions by an Ontario-licensed pesticide operator (Licence #{BUSINESS.licenseNumber}).</p>
           <ul className="text-gray-700 mb-5 space-y-1">
-            <li>150+ verified Google reviews · 5.0-star average · zero negative reviews</li>
+            <li>150+ reviews · 5.0-star average · zero negative reviews</li>
             <li>{PROMISES.rainBack}</li>
             <li>{PROMISES.biteFreeScope} — if mosquitoes come back between scheduled treatments, we re-treat free</li>
             <li>Same-week scheduling during peak season</li>

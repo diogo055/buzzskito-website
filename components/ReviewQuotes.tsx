@@ -8,7 +8,7 @@ const REVIEWS = [
   {
     name: 'Katharine M.',
     city: 'Mississauga',
-    text: 'Fantastic experience with the mosquito control last summer! We’re re-signing for this season once again — we can finally enjoy our yard again in Mississauga.',
+    text: 'Fantastic experience with the mosquito control last summer! We’re re-signing for this season once again! We can enjoy our yard again in Mississauga.',
   },
   {
     name: 'Anthony',
@@ -18,7 +18,7 @@ const REVIEWS = [
   {
     name: 'Matt Santos',
     city: 'Mississauga',
-    text: 'I got my house serviced last summer and I’d highly recommend this service to anyone in the Mississauga area. Great job!',
+    text: 'I got my house serviced last summer and I’d highly recommend this service to anyone in the Mississauga area, great job.',
   },
 ]
 
@@ -50,15 +50,15 @@ export default function ReviewQuotes({
                     <path fill="#FBBC05" d="M5.84 14.1c-.22-.66-.35-1.36-.35-2.1s.13-1.44.35-2.1V7.06H2.18A10.96 10.96 0 0 0 1 12c0 1.77.43 3.45 1.18 4.94l3.66-2.84z"/>
                     <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
                   </svg>
-                  150+ verified reviews
+                  Rated 5.0
                 </div>
               </div>
             </div>
             <p className="mt-5 font-display text-2xl font-extrabold tracking-tight text-white leading-snug">
-              Every single review: five stars.<br className="hidden sm:block" /> Zero exceptions.
+              Rated 5.0 on Google.<br className="hidden sm:block" /> Zero negative reviews.
             </p>
             <p className="mt-3 text-sm text-[#8fa0bd] leading-relaxed max-w-sm mx-auto lg:mx-0">
-              Not averaged across a franchise. Not padded with lawn-care jobs. 150+ GTA homeowners, all mosquito &amp; tick work, all five stars.
+              Not averaged across a franchise. Not padded with lawn-care jobs. 150+ GTA homeowners, all mosquito &amp; tick work, rated 5.0 on Google.
             </p>
             <a
               href={BUSINESS.googleReviewUrl}
@@ -66,7 +66,7 @@ export default function ReviewQuotes({
               rel="noopener noreferrer"
               className="arrow-nudge mt-5 inline-flex items-center gap-2 text-white/80 font-bold hover:text-white text-sm"
             >
-              Read all 150+ reviews on Google
+              Read our reviews on Google
               <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
             </a>
           </Reveal>

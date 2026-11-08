@@ -76,7 +76,7 @@ export default function MosquitoPillarPage() {
               <li>Just a tablespoon of standing water can produce hundreds of mosquitoes within a week.</li>
               <li>In the GTA, professional treatment starts at $99 per visit, with full-season plans running May through September.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

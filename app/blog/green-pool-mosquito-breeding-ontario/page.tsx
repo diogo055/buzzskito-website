@@ -104,7 +104,7 @@ export default function GreenPoolMosquitoBreedingOntarioPage() {
               <li><strong>Do not drain an inground pool blind</strong> &mdash; a high water table can float an empty shell, and the deep end still collects rain.</li>
               <li><strong>A neighbour&rsquo;s green pool</strong> is a municipal property-standards matter and a public-health matter; Culex pipiens, Ontario&rsquo;s main West Nile vector, is exactly the species that thrives in it.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star reviews</p>
           </div>
         </div>
       </section>

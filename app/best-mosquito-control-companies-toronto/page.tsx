@@ -85,7 +85,7 @@ export default function BestMosquitoControlCompaniesTorontoPage() {
 
       <QuickAnswer question="Who is the best mosquito control company in Toronto?">
         <p>
-          <strong>BuzzSkito is the best mosquito control company in Toronto for 2026, offering single treatments from $99, 150+ perfect five-star Google reviews, and no contracts.</strong> This comparison ranks 4 providers serving Toronto — BuzzSkito, Mosquito Man, Mosquito.Buzz, and LawnSavers — on pricing, reviews, contracts, and neighbourhood coverage. Whichever you choose, ask about price, sprays per season, rain, licensing, and which plans carry a guarantee; BuzzSkito publishes its answers below, including {PROMISES.licence}.
+          <strong>BuzzSkito is the best mosquito control company in Toronto for 2026, offering single treatments from $99, 150+ five-star reviews, and no contracts.</strong> This comparison ranks 4 providers serving Toronto — BuzzSkito, Mosquito Man, Mosquito.Buzz, and LawnSavers — on pricing, reviews, contracts, and neighbourhood coverage. Whichever you choose, ask about price, sprays per season, rain, licensing, and which plans carry a guarantee; BuzzSkito publishes its answers below, including {PROMISES.licence}.
         </p>
       </QuickAnswer>
 
@@ -158,7 +158,7 @@ export default function BestMosquitoControlCompaniesTorontoPage() {
           <p><Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">BuzzSkito serves all of Toronto</Link> — Rosedale, Forest Hill, The Beaches, High Park, Don Mills, Leaside, East York, Etobicoke, North York, Scarborough, Willowdale, Lawrence Park, Sunnybrook, Bridle Path, Casa Loma, and 20+ more neighbourhoods.</p>
           <ul>
             <li><strong>Pricing:</strong> From $99 per single treatment. Transparent season plans: Basic $549 (5 sprays), Standard $994 (10 sprays — most popular), Exclusive $2,049 (20+ sprays). All plus HST, no hidden fees.</li>
-            <li><strong>Reviews:</strong> 150+ Google reviews, perfect 5.0-star rating, and zero negative reviews.</li>
+            <li><strong>Reviews:</strong> 150+ reviews, perfect 5.0-star rating, and zero negative reviews.</li>
             <li><strong>Guarantee:</strong> {PROMISES.rainBackShort}; {PROMISES.biteFreeScope} (free re-treatment if mosquitoes come back between scheduled treatments). {PROMISES.licence}.</li>
             <li><strong>Contracts:</strong> No contracts, no cancellation fees.</li>
             <li><strong>Tick add-on:</strong> Critical for ravine-adjacent Toronto properties. $597 standalone or $497 bundled, 5 sprays per season. Toronto Public Health has confirmed Lyme-vector blacklegged ticks in High Park, Don Valley, and other ravines.</li>

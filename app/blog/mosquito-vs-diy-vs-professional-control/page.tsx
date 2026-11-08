@@ -81,7 +81,7 @@ export default function DIYvsProfessionalPage() {
             <li>A Thermacell creates roughly a 6-metre repellent zone around a seated area — effective for a patio table, useless for a whole yard.</li>
             <li>Professional barrier spray starts from $99 per treatment and leaves a residual on the shaded vegetation where mosquitoes rest during the day.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
         </div>
 
         <p className="text-lg text-gray-600 not-prose border-l-4 border-brand-400 pl-5 py-2 mb-8">

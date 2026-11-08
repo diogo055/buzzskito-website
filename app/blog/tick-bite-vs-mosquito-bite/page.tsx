@@ -118,7 +118,7 @@ export default function TickBiteVsMosquitoBitePage() {
             <li>In Ontario, mosquitoes carry a small West Nile risk and blacklegged ticks carry Lyme disease.</li>
             <li>Professional barrier spray treats the vegetation where mosquitoes rest and the lawn edges where ticks wait, re-applied on a schedule.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
         </div>
 
         <AffiliateDisclosure />

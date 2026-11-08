@@ -119,7 +119,7 @@ export default function BestMosquitoTrapForAcreageCanadaPage() {
               <li>DynaTrap XL trades mosquito-specific catch for lower cost and no propane logistics &mdash; good for cottages.</li>
               <li>Traps take weeks, and none control ticks &mdash; a professional barrier spray treats the vegetation around the living areas directly and targets ticks where they wait.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star reviews</p>
           </div>
         </div>
       </section>

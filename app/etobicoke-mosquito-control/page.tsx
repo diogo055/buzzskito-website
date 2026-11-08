@@ -32,7 +32,7 @@ const NEIGHBOURHOODS: { name: string; href?: string }[] = [
 const FAQS = [
   {
     question: 'Who is the best mosquito control company in Etobicoke?',
-    answer: `The best company for your yard is the one that answers five questions clearly before you book: Is the price shown before you book? How many sprays per season? What happens if it rains after a treatment? Is an Ontario pesticide operator licence number shown? Which plans include a guarantee? BuzzSkito's answers: from $99 on a standard lot; 5, 10 or 20+ sprays per season (tick: 5); ${PROMISES.rainBack} Our licence is ${BUSINESS.licenseNumber}, and the Bite-Free Guarantee comes with Standard & Exclusive plans. BuzzSkito has 150+ five-star Google reviews at a 5.0 average.`,
+    answer: `The best company for your yard is the one that answers five questions clearly before you book: Is the price shown before you book? How many sprays per season? What happens if it rains after a treatment? Is an Ontario pesticide operator licence number shown? Which plans include a guarantee? BuzzSkito's answers: from $99 on a standard lot; 5, 10 or 20+ sprays per season (tick: 5); ${PROMISES.rainBack} Our licence is ${BUSINESS.licenseNumber}, and the Bite-Free Guarantee comes with Standard & Exclusive plans. BuzzSkito has 150+ five-star reviews at a 5.0 average.`,
   },
   {
     question: 'How much does mosquito control cost in Etobicoke?',
@@ -240,10 +240,10 @@ export default function EtobicokeMosquitoPage() {
         <div className="max-w-4xl mx-auto">
           <p className="kicker mb-3 text-center">Reviews</p>
           <h2 className="h2-display text-brand-900 mb-2 text-center">What GTA Homeowners Say</h2>
-          <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star Google reviews</p>
+          <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star reviews</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
-              { author: 'Katharine M.', text: 'Fantastic experience with the mosquito control last summer! We\u2019re re-signing for this season once again \u2014 we can finally enjoy our yard again in Mississauga.' },
+              { author: 'Katharine M.', text: 'Fantastic experience with the mosquito control last summer! We\u2019re re-signing for this season once again! We can enjoy our yard again in Mississauga.' },
               { author: 'Anthony', text: 'Highly recommend this company for mosquito control. I got my house in Milton serviced recently and loved the end result!' },
             ].map(({ author, text }) => (
               <div key={author} className="bg-brand-50 rounded-2xl p-6 border border-brand-100">
@@ -258,7 +258,7 @@ export default function EtobicokeMosquitoPage() {
             ))}
           </div>
           <div className="text-center mt-6">
-            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read all 150+ reviews on Google &rarr;</a>
+            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read our reviews on Google &rarr;</a>
           </div>
         </div>
       </section>

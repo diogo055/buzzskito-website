@@ -79,7 +79,7 @@ export default function MosquitoSprayCompaniesPage() {
             <li>Fogging lasts hours to days; barrier spray leaves a residual on the vegetation and is re-applied on a schedule &mdash; reputable GTA companies use barrier spray.</li>
             <li>Tick treatment can be added to the same visit, so many companies bundle mosquito and tick control.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
         </div>
 
         <p className="text-lg text-gray-600 not-prose border-l-4 border-brand-400 pl-5 py-2 mb-8">
@@ -152,7 +152,7 @@ export default function MosquitoSprayCompaniesPage() {
           <li>{PROMISES.biteFreeScope} — if mosquitoes come back between scheduled treatments, we re-treat at no charge</li>
           <li>{PROMISES.rainBack}</li>
           <li>Clear re-entry directions: stay off treated areas until the spray has dried, as the label directs</li>
-          <li>150+ five-star Google reviews across the GTA</li>
+          <li>150+ five-star reviews across the GTA</li>
           <li>Serving 19 cities — Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, and more</li>
         </ul>
 

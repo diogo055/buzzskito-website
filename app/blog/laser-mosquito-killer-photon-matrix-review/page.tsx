@@ -231,7 +231,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
             <li>Proven alternative: a Thermacell creates a roughly 20 sq metre repellent zone within minutes.</li>
             <li>Professional barrier spray treats the whole yard from $99 on a standard lot, renewed on a schedule; tick treatment is available as an add-on ($497/season with a mosquito plan).</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
 
         </div>
       </section>

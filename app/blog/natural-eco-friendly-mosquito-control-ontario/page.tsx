@@ -124,7 +124,7 @@ export default function NaturalMosquitoControlPage() {
             <li>Oil of lemon eucalyptus (OLE) is the best-evidenced plant-based personal repellent, and the US CDC lists it among the repellent actives it recommends.</li>
             <li>Ravine-adjacent and waterfront properties typically need professional seasonal treatment; low-pressure urban lots can often manage with BTi plus standing-water elimination.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
         </div>
 
         <p className="text-lg text-gray-600 not-prose border-l-4 border-brand-400 pl-5 py-2 mb-8">

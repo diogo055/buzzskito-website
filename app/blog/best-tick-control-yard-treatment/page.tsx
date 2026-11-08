@@ -74,7 +74,7 @@ export default function BestTickControlPage() {
             <li>A layered plan uses 5 professional treatments per season &mdash; roughly one a month from May through September, so the residual is renewed right through nymph peak.</li>
             <li>{PROMISES.rainBack}</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
         </div>
 
 

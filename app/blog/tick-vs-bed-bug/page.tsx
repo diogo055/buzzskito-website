@@ -151,7 +151,7 @@ export default function TickVsBedBugPage() {
               <li>Ticks in Ontario can transmit Lyme disease, anaplasmosis, babesiosis, and Powassan virus; bed bugs transmit no known disease.</li>
               <li>Ticks cannot reproduce indoors, so they never infest a home; bed bugs reproduce rapidly indoors.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

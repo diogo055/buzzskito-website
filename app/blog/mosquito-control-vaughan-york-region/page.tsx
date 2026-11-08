@@ -73,7 +73,7 @@ export default function MosquitoControlVaughanPage() {
               <li>Boyd, the Humber valley, and Kortright are also confirmed blacklegged tick habitat documented by York Region Public Health.</li>
               <li>Keep kids and pets off treated areas until the spray has dried, as the product label directs.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

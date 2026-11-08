@@ -96,7 +96,7 @@ export default function IFoundTickOnMyDogPage() {
               <li>A 4DX SNAP blood test takes about 8 minutes and screens for Lyme, ehrlichiosis, anaplasmosis, and heartworm.</li>
               <li>eTick.ca offers free tick identification in Ontario, run by Bishop&rsquo;s University.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
           </div>
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">First — take a breath. You have time. Most blacklegged ticks need to be attached for <strong>24 hours or more</strong> before they can transmit Lyme disease. Removing the tick correctly within the first day dramatically reduces any risk. Here&rsquo;s exactly what to do, in order.</p>
 

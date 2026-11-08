@@ -122,7 +122,7 @@ export default function GetRidOfMosquitoesInHousePage() {
               <li>A fitted bed net gives complete physical protection while you sleep, with no chemicals.</li>
               <li>Bug zappers are a poor indoor choice &mdash; research shows they kill mostly moths and beetles and very few biting mosquitoes.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
 
           <div className="not-prose mb-6 rounded-xl border border-navy-100 bg-white p-5">

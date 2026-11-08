@@ -130,7 +130,7 @@ export default function BestProfessionalMosquitoTrapCanadaPage() {
               <li>No trap or station controls ticks or treats the foliage where adult mosquitoes rest &mdash; a barrier spray does both.</li>
               <li>On most GTA lots the spray is the anchor and a pro trap is the supplement, not the reverse.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star reviews</p>
           </div>
         </div>
       </section>

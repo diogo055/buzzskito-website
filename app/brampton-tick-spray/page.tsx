@@ -88,7 +88,7 @@ export default function BramptonTickSprayPage() {
       {/* QUICK ANSWER */}
       <QuickAnswer question="What is the best tick control company in Brampton?">
         <p>
-          <strong>BuzzSkito provides specialist tick barrier spray across all Brampton neighbourhoods — Mount Pleasant, Gore Meadows, Castlemore, Springdale, Bramalea, Creditview, Fletcher&apos;s Meadow, Heart Lake, Snelgrove, Sandalwood, Bram West.</strong> Treatments are applied according to label directions to the specific 1–3 metre zones where blacklegged ticks concentrate — lawn-to-woods transitions, leaf litter, garden bed edges, and fence-line vegetation. Single treatments start at <strong>$99</strong>; the 5-spray tick season is <strong>$597</strong> on its own or <strong>$497</strong> with any mosquito plan. With <strong>150+ five-star Google reviews</strong>, no contracts, and a rain-back guarantee on every plan, Brampton families get targeted tick-zone treatment for ravine, conservation-area, and wooded-edge properties. Call (289) 216-5030.
+          <strong>BuzzSkito provides specialist tick barrier spray across all Brampton neighbourhoods — Mount Pleasant, Gore Meadows, Castlemore, Springdale, Bramalea, Creditview, Fletcher&apos;s Meadow, Heart Lake, Snelgrove, Sandalwood, Bram West.</strong> Treatments are applied according to label directions to the specific 1–3 metre zones where blacklegged ticks concentrate — lawn-to-woods transitions, leaf litter, garden bed edges, and fence-line vegetation. Single treatments start at <strong>$99</strong>; the 5-spray tick season is <strong>$597</strong> on its own or <strong>$497</strong> with any mosquito plan. With <strong>150+ five-star reviews</strong>, no contracts, and a rain-back guarantee on every plan, Brampton families get targeted tick-zone treatment for ravine, conservation-area, and wooded-edge properties. Call (289) 216-5030.
         </p>
       </QuickAnswer>
 
@@ -287,13 +287,13 @@ export default function BramptonTickSprayPage() {
         <div className="max-w-4xl mx-auto">
           <p className="kicker mb-3 text-center">Customer Reviews</p>
           <h2 className="h2-display text-brand-950 mb-2 text-center">What Brampton Homeowners Say About Our Tick Control</h2>
-          <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star Google reviews</p>
+          <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star reviews</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
-              { author: 'James K.', location: 'Heart Lake', text: 'We had a tick problem near our garden border. BuzzSkito came out quickly, treated the whole yard, and gave us a detailed service log. Great experience and the kids can play outside again.' },
-              { author: 'Raj P.', location: 'Castlemore', text: 'Our property backs onto conservation land and we found ticks on our dog twice last spring. After BuzzSkito treated the perimeter the problem stopped completely. Signed up for both treatments.' },
-              { author: 'Michelle T.', location: 'Credit Valley', text: 'The technician explained exactly where ticks live on our property and why the garden edges and fence line were the priority zones. Very knowledgeable and the treatment worked immediately.' },
-              { author: 'Kevin M.', location: 'Gore Meadows', text: 'Living near Claireville Conservation Area means ticks are a real concern. BuzzSkito is the first service that actually gave us peace of mind. Professional, on time, great communication.' },
+              { author: 'Nishant Patel', location: 'Brampton & Mississauga · Google review', text: 'Great tick and mosquito control. They did both my homes in Brampton and Mississauga. 10/10' },
+              { author: 'Ban Petros', location: 'Google review', text: 'Great tick control, will return next year. Very friendly, fast on work, fast on answering and really helpful.' },
+              { author: 'William Rosario', location: 'Google review', text: 'Great tick control. Highly recommend their services.' },
+              { author: 'Manpreet Kaur', location: 'Google review', text: 'Got rid of my tick problem!!! Definitely recommend.' },
             ].map(({ author, location, text }) => (
               <div key={author} className="bg-brand-50 rounded-2xl p-6 border border-brand-100">
                 <div className="flex items-center gap-1 mb-3">
@@ -302,12 +302,12 @@ export default function BramptonTickSprayPage() {
                   ))}
                 </div>
                 <p className="text-gray-700 text-sm mb-3 italic">&ldquo;{text}&rdquo;</p>
-                <p className="text-brand-800 font-semibold text-sm">{author} — <span className="text-gray-500 font-normal">{location}, Brampton</span></p>
+                <p className="text-brand-800 font-semibold text-sm">{author} — <span className="text-gray-500 font-normal">{location}</span></p>
               </div>
             ))}
           </div>
           <div className="text-center mt-6">
-            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read all 150+ reviews on Google &rarr;</a>
+            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read our reviews on Google &rarr;</a>
           </div>
         </div>
       </section>

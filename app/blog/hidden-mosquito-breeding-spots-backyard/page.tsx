@@ -84,7 +84,7 @@ export default function HiddenBreedingSpotsPage() {
               <li>Mosquitoes can fly up to 3 km, so draining your own containers never reaches the ones bred elsewhere &mdash; treating resting vegetation is what covers those arrivals.</li>
               <li>Properly chlorinated pools cannot support mosquito larvae, but rainwater pooling on the pool cover can.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

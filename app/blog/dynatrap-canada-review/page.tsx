@@ -230,7 +230,7 @@ export default function DynaTrapCanadaPage() {
               <li><strong>Availability note (checked September 2026):</strong> Amazon.ca currently lists only the DT1130-CA (half acre) and a quarter-acre portable &mdash; searching the DT3050 there returns replacement bulbs and glue cards, not the trap. For the DT2030, check Canadian Tire, Home Depot or Costco rather than Amazon; DynaTrap&rsquo;s own model and manual lists have no DT3050.</li>
               <li>DynaTraps do nothing for ticks, which do not fly to UV light.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
           </div>
 
           <div className="mb-6 rounded-xl border border-navy-100 bg-white p-5">
@@ -1060,7 +1060,7 @@ export default function DynaTrapCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="tick remover tool">Check tick removal tools on Amazon.ca →</BuyLink>
           </div>
           <p className="not-prose my-6 rounded-xl bg-emerald-50 border-l-4 border-emerald-500 p-5 text-sm text-gray-800 leading-relaxed">
-            <strong>Where BuzzSkito fits:</strong> we are a licensed mosquito and tick control company serving 19 cities across the Greater Toronto Area — Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton and beyond — with 150+ five-star Google reviews. If you are in the GTA, our <Link href="/mosquito-control">barrier spray program</Link> treats the whole property and is re-applied through the season, and our tick program runs five treatments a season. If you are reading from the United States, we cannot treat your yard, but everything on this page about what a UV trap does and does not do applies to you exactly as written — and a local licensed applicator can do the same work.
+            <strong>Where BuzzSkito fits:</strong> we are a licensed mosquito and tick control company serving 19 cities across the Greater Toronto Area — Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton and beyond — with 150+ five-star reviews. If you are in the GTA, our <Link href="/mosquito-control">barrier spray program</Link> treats the whole property and is re-applied through the season, and our tick program runs five treatments a season. If you are reading from the United States, we cannot treat your yard, but everything on this page about what a UV trap does and does not do applies to you exactly as written — and a local licensed applicator can do the same work.
           </p>
 
           <h2>Related Reading</h2>

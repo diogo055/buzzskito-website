@@ -119,7 +119,7 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
               <li>A UV + sticky-cartridge plug-in is the simplest set-and-forget option for a single room.</li>
               <li>Pair any indoor trap with source control and an outdoor barrier so far fewer insects get inside.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

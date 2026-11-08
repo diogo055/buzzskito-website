@@ -120,7 +120,7 @@ export default function LongrayThermalFoggerReviewCanadaPage() {
               <li>In Canada you may only fog PMRA-registered products labelled for thermal fogging; US grey-market fogging concentrates are illegal here.</li>
               <li>It runs on gasoline with a very hot barrel &mdash; real fire, burn, and inhalation risk demands proper PPE and cool-down.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star reviews</p>
           </div>
         </div>
       </section>

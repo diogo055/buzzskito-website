@@ -113,7 +113,7 @@ export default function ThermacellE90CanadaReviewPage() {
               <li>It does nothing for ticks, which quest from grass rather than flying into vapour.</li>
               <li>For whole-yard coverage, licensed barrier spray starts at $99 per treatment, seasonal plans renew the residual on schedule, and tick plans are available.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
             <div className="mt-4">
               <BuyLink search="thermacell e90 rechargeable" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
             </div>

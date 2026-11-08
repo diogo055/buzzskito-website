@@ -148,7 +148,7 @@ export default function WhatBloodTypeDoMosquitoesBitePage() {
               <li>Carbon dioxide is the main long-range cue: mosquitoes detect exhaled CO2 from up to about 50 metres away.</li>
               <li>Roughly 20% of people are especially attractive to mosquitoes, driven mainly by CO2 output, skin temperature, and skin bacteria &mdash; not their ABO type.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

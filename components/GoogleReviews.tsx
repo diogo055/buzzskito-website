@@ -32,7 +32,7 @@ export default function GoogleReviews({ light = false }: { light?: boolean }) {
           <span className={`font-extrabold text-sm ${nameText}`}>5.0</span>
         </div>
         <p className={`text-xs ${subText} leading-tight`}>
-          150+ verified Google reviews · zero negative
+          Google rating · zero negative reviews
         </p>
       </div>
     </a>

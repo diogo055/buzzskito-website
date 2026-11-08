@@ -29,7 +29,7 @@ const FAQS = [
   },
   {
     question: 'How should I compare reviews between a franchise and BuzzSkito?',
-    answer: 'Franchise reviews vary by location, so read the reviews for the franchisee that would serve your address, not the national brand. BuzzSkito has 150+ Google reviews with a 5.0 average and zero negative reviews, all from a single team.',
+    answer: 'Franchise reviews vary by location, so read the reviews for the franchisee that would serve your address, not the national brand. BuzzSkito has 150+ reviews with a 5.0 average and zero negative reviews, all from a single team.',
   },
   {
     question: 'Do mosquito franchises offer no-contract service?',
@@ -128,7 +128,7 @@ export default function BuzzSkitoVsMosquitoBuzzPage() {
           </ul>
 
           <h2>Try BuzzSkito Without Committing</h2>
-          <p>One $99 treatment. No contract. See for yourself why our 150+ Google reviews average 5.0. Call <a href={BUSINESS.phoneHref} className="text-brand-700 hover:underline">{BUSINESS.phone}</a> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a quick quote</Link>.</p>
+          <p>One $99 treatment. No contract. See for yourself why our reviews average 5.0. Call <a href={BUSINESS.phoneHref} className="text-brand-700 hover:underline">{BUSINESS.phone}</a> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a quick quote</Link>.</p>
 
           <h2>Related Comparisons</h2>
           <ul>

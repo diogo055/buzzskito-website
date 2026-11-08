@@ -127,7 +127,7 @@ export default function MosquitoBiteTreatmentReliefPage() {
               <li>See a doctor if redness spreads, the bite fills with pus, or you develop fever &mdash; signs of an infected bite.</li>
               <li>Whole-body hives, facial or lip swelling, or trouble breathing is a medical emergency &mdash; call 911.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

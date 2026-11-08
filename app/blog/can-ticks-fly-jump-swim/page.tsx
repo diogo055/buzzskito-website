@@ -117,7 +117,7 @@ export default function CanTicksFlyJumpSwimPage() {
               <li>To kill ticks hiding in clothing, tumble-dry on high heat for at least 10 minutes.</li>
               <li>A blacklegged tick generally needs to stay attached about 24 hours or more to transmit Lyme disease.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
 
           <AffiliateDisclosure />

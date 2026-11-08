@@ -83,7 +83,7 @@ export default function WestNile2026Page() {
             <li>Culex mosquitoes can breed in as little as a tablespoon of stagnant water, so weekly standing-water removal matters.</li>
             <li>BuzzSkito season plans run May&ndash;September, from 5 monthly sprays (Basic) to 20+ weekly sprays (Exclusive), so treatments continue through the July&ndash;August WNV peak.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           <p className="mt-1.5 text-xs text-gray-500">Health information for general education, not medical advice. Consult a licensed healthcare provider for diagnosis or treatment.</p>
         </div>
 

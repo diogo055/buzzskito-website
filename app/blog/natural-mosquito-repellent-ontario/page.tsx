@@ -154,7 +154,7 @@ export default function NaturalMosquitoRepellentPage() {
               <li>Homemade essential-oil sprays give 30–60 minutes of weak repellency at best.</li>
               <li>In Canada, the registered plant-based skin repellents are lemon eucalyptus (30% Citriodiol or 10% PMD) and one five-oil blend; soybean-oil and citronella repellents are no longer registered (Health Canada&rsquo;s registry, November 2026).</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
           </div>
 
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">If you&rsquo;re trying to avoid DEET, you&rsquo;re not alone. Most Ontario homeowners would prefer a natural option — but the marketing claims for &ldquo;natural mosquito repellent&rdquo; products often outpace the science. Here&rsquo;s what the peer-reviewed research actually says works in Ontario backyards in 2026 — including why <Link href="/blog/picaridin-vs-deet" className="text-emerald-800 underline underline-offset-2">picaridin</Link>, modelled on a black-pepper compound, is the best-tolerated non-DEET option for all-day wear.</p>

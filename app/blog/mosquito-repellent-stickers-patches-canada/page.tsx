@@ -100,7 +100,7 @@ export default function MosquitoRepellentStickersPatchesCanadaPage() {
               <li>Vitamin B1 (thiamine) patches do not work &mdash; peer-reviewed studies found no measurable repellent effect.</li>
               <li>Stickers give zero tick protection; professional yard barrier spray from $99 treats the whole play space; tick treatment can be added ($497/season with a mosquito plan).</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

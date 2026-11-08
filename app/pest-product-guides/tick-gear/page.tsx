@@ -182,7 +182,7 @@ export default function TickGearGuidePage() {
             <>Remove an attached tick with fine-tipped tweezers or a tick tool, pulling straight up &mdash; never twist, burn, or smother it.</>,
             <>Professional barrier spray is aimed at the exact edge microhabitats DIY sprays often miss, applied as the product label directs.</>,
           ],
-          attribution: '— BuzzSkito, GTA mosquito & tick control · 150 five-star Google reviews',
+          attribution: '— BuzzSkito, GTA mosquito & tick control · 150 five-star reviews',
         }}
         howWeRank={{
           title: 'How we build these tick gear guides',

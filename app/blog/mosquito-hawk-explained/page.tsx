@@ -166,7 +166,7 @@ export default function MosquitoHawkPage() {
               <li>In Ontario they emerge in two waves: spring (April&ndash;May) and a larger fall wave (September&ndash;October).</li>
               <li>The real mosquito-eaters are dragonflies, bats, fish, and frogs &mdash; not crane flies.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

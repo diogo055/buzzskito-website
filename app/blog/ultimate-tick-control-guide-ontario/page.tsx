@@ -78,7 +78,7 @@ export default function TickPillarPage() {
             <li>Keep people and pets off treated areas until the spray has dried, as the product label directs.</li>
             <li>Adult blacklegged ticks stay active on warm days above 4&deg;C, so activity is possible even in December and March.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
         </div>
 
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">

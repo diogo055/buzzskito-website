@@ -115,7 +115,7 @@ export default function HorseFlyDeerFlyBiteTreatmentPage() {
               <li>Horse flies reach up to 2.5 cm and bite legs and arms; smaller deer flies target the head and neck.</li>
             </ul>
             <p className="mt-3 text-sm text-gray-700">What the sources say: <a href="https://extension.psu.edu/protecting-horses-from-horse-and-deer-fly-bites" target="_blank" rel="noopener" className="underline hover:text-brand-700">Penn State Extension</a> explains that horse and deer flies have mouthparts that cut the skin to produce a pool of blood, and that adult female flies feed on blood. <a href="https://my.clevelandclinic.org/health/diseases/horsefly-bite" target="_blank" rel="noopener" className="underline hover:text-brand-700">Cleveland Clinic</a> describes a horsefly bite as a raised bump of red or discoloured skin that usually heals within days, and starts the treatment with soap and water.</p>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
 
           {/* Service arm first: the lead CTA outranks every affiliate element below it. */}

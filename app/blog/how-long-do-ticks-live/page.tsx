@@ -147,7 +147,7 @@ export default function HowLongDoTicksLivePage() {
             <li>An attached tick feeds on a dog for 3 to 10 days and on a human for 3 to 7 days before dropping off engorged.</li>
             <li>The only tick that truly infests homes is the brown dog tick, which is uncommon in Canada.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
         </div>
       </div>
 

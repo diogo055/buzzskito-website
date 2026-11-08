@@ -63,7 +63,7 @@ export default function MississaugaTickPage() {
       {/* QUICK ANSWER */}
       <QuickAnswer question="What is the best tick control company in Mississauga?">
         <p>
-          <strong>BuzzSkito provides specialist tick barrier spray across all Mississauga neighbourhoods — Port Credit, Meadowvale, Streetsville, Erin Mills, Lorne Park, Clarkson, Cooksville, Lakeview, Churchill Meadows, Mineola, Applewood, Credit Valley.</strong> Treatments are applied by an Ontario-licensed pesticide operator, according to label directions, to the specific 1–3 metre zones where blacklegged ticks concentrate — lawn-to-woods transitions, leaf litter, garden bed edges, and fence-line vegetation. Single treatments start at <strong>$99</strong>; the 5-spray tick season is $597 on its own or $497 added to any mosquito plan. With <strong>150+ five-star Google reviews</strong>, no contracts, and a <strong>rain-back guarantee on every plan</strong>, Mississauga families get targeted tick treatment for ravine, conservation-area, and wooded-edge properties. Call (289) 216-5030.
+          <strong>BuzzSkito provides specialist tick barrier spray across all Mississauga neighbourhoods — Port Credit, Meadowvale, Streetsville, Erin Mills, Lorne Park, Clarkson, Cooksville, Lakeview, Churchill Meadows, Mineola, Applewood, Credit Valley.</strong> Treatments are applied by an Ontario-licensed pesticide operator, according to label directions, to the specific 1–3 metre zones where blacklegged ticks concentrate — lawn-to-woods transitions, leaf litter, garden bed edges, and fence-line vegetation. Single treatments start at <strong>$99</strong>; the 5-spray tick season is $597 on its own or $497 added to any mosquito plan. With <strong>150+ five-star reviews</strong>, no contracts, and a <strong>rain-back guarantee on every plan</strong>, Mississauga families get targeted tick treatment for ravine, conservation-area, and wooded-edge properties. Call (289) 216-5030.
         </p>
       </QuickAnswer>
 
@@ -325,13 +325,13 @@ export default function MississaugaTickPage() {
         <div className="max-w-4xl mx-auto">
           <p className="kicker mb-3 text-center">Customer Reviews</p>
           <h2 className="h2-display text-brand-950 mb-2 text-center">What Mississauga Homeowners Say About Our Tick Control</h2>
-          <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star Google reviews</p>
+          <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star reviews</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
-              { author: 'Priya R.', location: 'Meadowvale', text: 'The technician explained exactly what product they were using. Treated the garden edges and fence line where ticks were coming from. Couldn\'t be happier with the results.' },
-              { author: 'Amanda K.', location: 'Streetsville', text: 'We live near the Credit River and found a tick on our daughter after playing in the yard. Called BuzzSkito and they were out within days. No more ticks since the treatment.' },
-              { author: 'Jason T.', location: 'Lorne Park', text: 'Our property backs onto wooded ravine and tick prevention is a must for us. BuzzSkito knows exactly where to treat and the results are consistent every season.' },
-              { author: 'Katharine M.', location: 'Mississauga', text: 'Fantastic experience with the mosquito control last summer! We\u2019re re-signing for this season once again \u2014 we can finally enjoy our yard again in Mississauga.' },
+              { author: 'Esther Shi', location: 'Mississauga · Google review', text: 'So happy with BuzzSkito. They got rid of all the mosquitoes and ticks last season! 10/10 service in Mississauga!!' },
+              { author: 'Nishant Patel', location: 'Brampton & Mississauga · Google review', text: 'Great tick and mosquito control. They did both my homes in Brampton and Mississauga. 10/10' },
+              { author: 'Ahmad Alsakka', location: 'Google review', text: 'Got the mosquito and tick control service. Definitely recommend!' },
+              { author: 'Katharine M.', location: 'Mississauga · Google review', text: 'Fantastic experience with the mosquito control last summer! We\u2019re re-signing for this season once again! We can enjoy our yard again in Mississauga.' },
             ].map(({ author, location, text }) => (
               <div key={author} className="bg-brand-50 rounded-2xl p-6 border border-brand-100">
                 <div className="flex items-center gap-1 mb-3">
@@ -340,12 +340,12 @@ export default function MississaugaTickPage() {
                   ))}
                 </div>
                 <p className="text-gray-700 text-sm mb-3 italic">&ldquo;{text}&rdquo;</p>
-                <p className="text-brand-800 font-semibold text-sm">{author} — <span className="text-gray-500 font-normal">{location}, Mississauga</span></p>
+                <p className="text-brand-800 font-semibold text-sm">{author} — <span className="text-gray-500 font-normal">{location}</span></p>
               </div>
             ))}
           </div>
           <div className="text-center mt-6">
-            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read all 150+ reviews on Google &rarr;</a>
+            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read our reviews on Google &rarr;</a>
           </div>
         </div>
       </section>

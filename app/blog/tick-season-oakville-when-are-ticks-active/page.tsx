@@ -91,7 +91,7 @@ export default function TickSeasonOakvillePage() {
             <li>Highest-risk neighbourhoods include West Oak Trails, Palermo, Bronte, Joshua Creek, and Iroquois Ridge North.</li>
             <li>BuzzSkito&rsquo;s tick season plan is five treatments, roughly monthly from May through September; each application&rsquo;s residual wears down within weeks, so monthly renewal is what closes the gap.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
         </div>
 
         <BlogPostCTA />

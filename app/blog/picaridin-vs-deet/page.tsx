@@ -130,7 +130,7 @@ export default function PicaridinVsDeetPage() {
               <li>Natrapel (PCP 34244), Sawyer (33032) and OFF! Deep Woods 9 (30155) are current 20% icaridin registrations in Canada.</li>
               <li>Skin repellent lasts hours; licensed barrier spray treats the whole yard, from $99.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
           </div>
           <TopPick tag={AMZ_TAG}
             label="Our Top Pick"

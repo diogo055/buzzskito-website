@@ -30,7 +30,7 @@ const FAQS = [
   },
   {
     question: 'How many reviews does BuzzSkito have?',
-    answer: 'BuzzSkito has 150+ five-star Google reviews from GTA homeowners across Mississauga, Toronto, Brampton, Oakville, Burlington, Vaughan, and other service areas. Reviews are publicly visible on our Google Business Profile.',
+    answer: 'BuzzSkito has 150+ five-star reviews from GTA homeowners across Mississauga, Toronto, Brampton, Oakville, Burlington, Vaughan, and other service areas. Reviews are publicly visible on our Google Business Profile.',
   },
   {
     question: 'What makes BuzzSkito different from other mosquito spray companies?',
@@ -92,7 +92,7 @@ export default function AboutPage() {
             { icon: 'file-check', title: 'Written Service Documentation', desc: 'Every visit documented with a written service log delivered by SMS after each treatment.' },
             { icon: 'refresh', title: 'Bite-Free Guarantee (Standard & Exclusive)', desc: BUSINESS.guarantee.description },
             { icon: 'cloud-rain', title: 'Rain-Back Guarantee', desc: PROMISES.rainBack },
-            { icon: 'star', title: '150+ Five-Star Google Reviews', desc: 'Publicly verified reviews from GTA homeowners across our service area.' },
+            { icon: 'star', title: '150+ Five-Star Reviews', desc: 'Publicly verified reviews from GTA homeowners across our service area.' },
           ].map(({ icon, title, desc }) => (
             <div key={title} className="bg-brand-50 rounded-xl p-5 border border-brand-100 flex gap-4">
               <IconChip name={icon} tone="brand" />

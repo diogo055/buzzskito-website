@@ -40,16 +40,16 @@ const NEIGHBOURHOODS: { name: string; href?: string; postalCodes?: string }[] = 
 ]
 
 const TESTIMONIALS = [
-  { author: 'James K.', location: 'Glen Abbey', rating: 5, text: 'We had a tick problem near our garden border in Oakville. BuzzSkito came out quickly, treated the whole yard, and gave us a detailed service log. Great experience and the kids can play outside again.' },
-  { author: 'Mark S.', location: 'Bronte', rating: 5, text: 'Our property backs onto Bronte Creek and mosquitoes were unbearable every summer. After BuzzSkito\'s first treatment, the difference was immediate. We\'ve been using them all season — highly recommend.' },
-  { author: 'Rachel D.', location: 'West Oak Trails', rating: 5, text: 'Professional, on time, and the results speak for themselves. Our backyard went from unusable in the evenings to completely enjoyable. The SMS alerts before and after service are a nice touch.' },
-  { author: 'David L.', location: 'Old Oakville', rating: 5, text: 'Tried citronella candles and store-bought sprays for years — complete waste of money. One BuzzSkito treatment did more than three summers of DIY attempts. Wish we\'d called sooner.' },
+  { author: 'Sania', location: 'Oakville · Google review', rating: 5, text: 'I got this service and they did an amazing job. The service works very well. I have no more mosquitoes!! Best mosquito spray company in Oakville!' },
+  { author: 'Sukhpreet Kaur', location: 'Oakville · Google review', rating: 5, text: 'BuzzSkito got rid of all my mosquitoes, this service is amazing! I would recommend this mosquito spray service to anyone in Oakville.' },
+  { author: 'Dylan Casimiro', location: 'Google review', rating: 5, text: 'These guys are the real deal! I love to host in my backyard and always used to get complaints about my guests being eaten alive until last summer. A friend recommended BuzzSkito and they were amazing, very responsive and professional and had my backyard done so quickly.' },
+  { author: 'Cathy Sadkowski', location: 'Google review', rating: 5, text: 'Really professional and personable. Price is very reasonable. Loved being able to enjoy my backyard for once. Saved my little one from lots of bites!' },
 ]
 
 const FAQS = [
   {
     question: 'Who is the best mosquito control company in Oakville?',
-    answer: "Several providers serve Oakville, so ask every one of them the same five questions. Is the price shown before you book? How many sprays per season? What happens if it rains after a treatment? Is an Ontario pesticide operator licence number shown? Which plans include a guarantee? BuzzSkito's answers: from $99 on a standard lot; 5, 10 or 20+ sprays per season (tick: 5); rain within 1 hour of your treatment is re-treated free on every plan; yes, Ontario Pesticide Operator Licence L-240-2436835197; and the Bite-Free Guarantee on Standard and Exclusive plans. BuzzSkito also holds a 5.0 average across 150+ Google reviews. If you want to judge on results rather than marketing, a single treatment is the cheapest way to test any provider.",
+    answer: "Several providers serve Oakville, so ask every one of them the same five questions. Is the price shown before you book? How many sprays per season? What happens if it rains after a treatment? Is an Ontario pesticide operator licence number shown? Which plans include a guarantee? BuzzSkito's answers: from $99 on a standard lot; 5, 10 or 20+ sprays per season (tick: 5); rain within 1 hour of your treatment is re-treated free on every plan; yes, Ontario Pesticide Operator Licence L-240-2436835197; and the Bite-Free Guarantee on Standard and Exclusive plans. BuzzSkito also holds a 5.0 average across 150+ reviews. If you want to judge on results rather than marketing, a single treatment is the cheapest way to test any provider.",
   },
   {
     question: 'How much does mosquito control cost in Oakville?',
@@ -137,7 +137,7 @@ export default function OakvilleMosquitoPage() {
       {/* QUICK ANSWER */}
       <QuickAnswer question="What is the best mosquito control company in Oakville?">
         <p>
-          <strong>BuzzSkito provides specialist mosquito barrier spray across all Oakville neighbourhoods — Bronte, Glen Abbey, Joshua Creek, West Oak Trails, Clearview, Palermo, River Oaks, Kerr Village, Old Oakville, and North Oakville.</strong> Treatments are applied by a licensed Ontario operator, according to label directions, to vegetation and shrub interiors where mosquitoes rest. Single treatments start at <strong>$99</strong> on a standard lot, with season plans from $549. With <strong>150+ five-star Google reviews</strong>, no contracts, a rain-back guarantee on every plan, and the <strong>Bite-Free Guarantee on Standard &amp; Exclusive plans</strong>, Oakville homeowners get reliable barrier spray for lakefront, creek-adjacent, and ravine-edge properties. Call (289) 216-5030.
+          <strong>BuzzSkito provides specialist mosquito barrier spray across all Oakville neighbourhoods — Bronte, Glen Abbey, Joshua Creek, West Oak Trails, Clearview, Palermo, River Oaks, Kerr Village, Old Oakville, and North Oakville.</strong> Treatments are applied by a licensed Ontario operator, according to label directions, to vegetation and shrub interiors where mosquitoes rest. Single treatments start at <strong>$99</strong> on a standard lot, with season plans from $549. With <strong>150+ five-star reviews</strong>, no contracts, a rain-back guarantee on every plan, and the <strong>Bite-Free Guarantee on Standard &amp; Exclusive plans</strong>, Oakville homeowners get reliable barrier spray for lakefront, creek-adjacent, and ravine-edge properties. Call (289) 216-5030.
         </p>
       </QuickAnswer>
 
@@ -440,7 +440,7 @@ export default function OakvilleMosquitoPage() {
         <div className="max-w-4xl mx-auto">
           <p className="kicker mb-3 text-center">Reviews</p>
           <h2 className="h2-display text-brand-900 mb-2 text-center">What Oakville Homeowners Say</h2>
-          <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star Google reviews</p>
+          <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star reviews</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {TESTIMONIALS.map(({ author, location, text }) => (
               <div key={author} className="bg-brand-50 rounded-2xl p-6 border border-brand-100">
@@ -450,12 +450,12 @@ export default function OakvilleMosquitoPage() {
                   ))}
                 </div>
                 <p className="text-gray-700 text-sm mb-3 italic">&ldquo;{text}&rdquo;</p>
-                <p className="text-brand-800 font-semibold text-sm">{author} — <span className="text-gray-500 font-normal">{location}, Oakville</span></p>
+                <p className="text-brand-800 font-semibold text-sm">{author} — <span className="text-gray-500 font-normal">{location}</span></p>
               </div>
             ))}
           </div>
           <div className="text-center mt-6">
-            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read all 150+ reviews on Google &rarr;</a>
+            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read our reviews on Google &rarr;</a>
           </div>
         </div>
       </section>

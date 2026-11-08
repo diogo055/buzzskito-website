@@ -106,7 +106,7 @@ export default function TickPreventionYardKidsPage() {
               <li>A 1-metre wood-chip or gravel barrier strip between lawn and wooded edges deters ticks from crossing.</li>
               <li>Picaridin (icaridin) repellent labels permit use on children as young as 6 months, as a second, skin-applied layer.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
 
           <AffiliateDisclosure />

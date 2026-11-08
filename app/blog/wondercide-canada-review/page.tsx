@@ -117,7 +117,7 @@ export default function WondercideCanadaReviewPage() {
               <li>A yard treatment needs re-spraying about weekly, while a professional barrier spray&rsquo;s residual wears down over weeks rather than days.</li>
               <li>Cats are sensitive to essential oils, so use pet products only as directed and keep them away until dry.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

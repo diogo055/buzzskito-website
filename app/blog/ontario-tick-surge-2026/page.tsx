@@ -90,7 +90,7 @@ export default function OntarioTickSurge2026Page() {
             <li>Blacklegged tick nymphs, the stage most associated with Lyme transmission, are active in Ontario from May through July.</li>
             <li>Lyme transmission typically requires 24&ndash;36 hours of tick attachment, so a daily tick-check habit dramatically reduces risk.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
         </div>
 
         <aside className="not-prose mb-6 rounded-xl bg-brand-50 border-l-4 border-brand-700 px-5 py-4">

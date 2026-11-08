@@ -70,7 +70,7 @@ export default function MosquitoMistakesOntarioHomeownersMakePage() {
               <li>Consumer foggers give 1–6 hours of relief; professional barrier spray is a residual treatment re-applied on a set schedule.</li>
               <li>Ontario mosquito season runs through mid-September — an August cold snap pauses it, it doesn&apos;t end it.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
           </div>
         </div>
       </section>

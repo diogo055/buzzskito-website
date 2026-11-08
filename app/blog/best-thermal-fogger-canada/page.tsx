@@ -130,7 +130,7 @@ export default function BestThermalFoggerCanadaPage() {
               <li>Fogging is a short-lived knockdown (hours to days), not a season-long residual &mdash; it barely touches ticks.</li>
               <li>Professional barrier spray treats the whole yard from $99, renews the residual on your plan&rsquo;s schedule, and targets ticks too.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
             <div className="mt-4">
               <BuyLink search="longray thermal fogger" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
             </div>

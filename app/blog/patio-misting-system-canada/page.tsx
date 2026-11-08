@@ -107,7 +107,7 @@ export default function PatioMistingSystemCanadaPage() {
               <li>Automated MistAway-style insecticide installs cost roughly US$2,000&ndash;$3,500 and are effectively unavailable in Canada (refills not PMRA-registered).</li>
               <li>Licensed barrier spray starts at $99 per treatment on a standard lot under 10,000 sq ft, and its residual is renewed on a schedule.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
           </div>
         </div>
       </section>

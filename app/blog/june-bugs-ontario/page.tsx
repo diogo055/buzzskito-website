@@ -106,7 +106,7 @@ export default function JuneBugsOntarioPage() {
             <li>Apply beneficial nematodes (Heterorhabditis bacteriophora) to moist soil in late summer to kill next year&rsquo;s grubs.</li>
             <li>Switching to warm-yellow &ldquo;bug light&rdquo; LEDs or motion-sensor fixtures sharply cuts how many adults show up.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
         </div>
       </section>
 

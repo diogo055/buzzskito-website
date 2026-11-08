@@ -107,7 +107,7 @@ export default function BackpackSprayerCanadaPage() {
               <li>A quality 4-gallon battery unit runs roughly $150&ndash;$350 in Canada; manual pump sprayers run about $80&ndash;$150.</li>
               <li>All four models ship in Canada via Amazon.ca.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

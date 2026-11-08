@@ -103,7 +103,7 @@ export default function MosquitoNetCanadaPage() {
               <li>An intact, tucked-in net is essentially 100% effective for the space it encloses &mdash; and 0% effective beyond it.</li>
               <li>Nets do nothing for ticks; professional barrier spray from $99 treats the whole yard; tick treatment is available as an add-on ($497/season with a mosquito plan).</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

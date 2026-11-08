@@ -103,7 +103,7 @@ export default function IsMosquitoSpraySafePage() {
             <li>Pyrethroids are toxic to bees, so BuzzSkito treats resting sites in the early morning or evening and avoids flowering plants, following label directions.</li>
             <li>Health Canada does not recommend DEET for infants under 6 months, while icaridin (picaridin) may be used from 6 months.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
         </div>
         {/* "What to do right now" — aftercare module. The BlogPostCTA quote bar renders
             above the <article>, so the service arm holds the top slot and this sits below

@@ -122,7 +122,7 @@ export default function MosquitoSeasonPage() {
             <li>Five treatments spaced 21&ndash;28 days apart, from early May to early September, provide continuous season coverage.</li>
             <li>Populations often spike 7&ndash;10 days after a wet stretch, as every puddle becomes a breeding site.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
         </div>
 
         <BlogPostCTA />

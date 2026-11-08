@@ -307,7 +307,7 @@ export default function MosquitoLarvaePage() {
               <li>BTI Mosquito Dunks kill larvae within 24&ndash;48 hours, last about 30 days, and cost $10&ndash;$20.</li>
               <li>Larvae cannot live in flowing water (creeks, rivers) or properly chlorinated pools.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
           {/* Nov 6, 2026: photo-led answer for "what do mosquito larvae look like (in water)". CDC PHIL 26029, public domain. */}
           <Photo

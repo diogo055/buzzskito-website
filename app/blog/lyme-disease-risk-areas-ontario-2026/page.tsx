@@ -103,7 +103,7 @@ export default function LymeRiskAreas2026Page() {
             <li>An area is classed &ldquo;established risk&rdquo; once blacklegged ticks are found in consecutive years and at least one tests positive for Borrelia.</li>
             <li>Professional tick barrier spray places a residual acaricide on the perimeter zones where ticks quest — a layer alongside tick checks, not a replacement for them.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews. General information, not medical advice.</p>
+          <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews. General information, not medical advice.</p>
         </div>
         {/* News citation strip — established May 17, 2026 when 6 major outlets covered the tick surge */}
         <aside className="not-prose mb-6 rounded-xl bg-brand-50 border-l-4 border-brand-700 px-5 py-4">

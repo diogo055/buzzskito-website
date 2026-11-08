@@ -102,7 +102,7 @@ export default function SmellsMosquitoesHatePage() {
               <li>A citronella candle only protects a 1&ndash;2 metre cone of still air around it.</li>
               <li>Professional barrier spray treats resting vegetation and targets the yard population where it rests, from $99.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
           </div>
         </div>
       </section>

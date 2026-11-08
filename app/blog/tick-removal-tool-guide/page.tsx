@@ -141,7 +141,7 @@ export default function TickRemovalToolGuidePage() {
               <li>Lyme transmission generally needs 24+ hours of attachment, so prompt, correct removal sharply cuts risk.</li>
               <li>Only 10&ndash;30% of Ontario blacklegged ticks carry Borrelia; submit the tick free to eTick.ca for ID within 1&ndash;3 days.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
           <p className="not-prose text-sm text-gray-600 mb-1">The two tools vets and Canadian hikers keep on hand — a fine-tipped tweezer and a tick-hook set:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">

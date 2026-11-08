@@ -95,7 +95,7 @@ export default function MosquitoControlWorthCostPage() {
               <li>A typical family already spends $200&ndash;$500 per season on DIY products (candles, foggers, zappers) that provide far less protection.</li>
               <li>It may not pay off for small condo patios, low-vegetation lots, or homeowners who rarely use their outdoor space.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

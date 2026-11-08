@@ -130,7 +130,7 @@ export default function MosquitoFactsPage() {
               <li>Backyard Aedes mosquitoes usually stay within 100 to 300 metres of where they hatched.</li>
               <li>There are more than 3,500 mosquito species worldwide; about 80 live in Canada and 60-plus in Ontario.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

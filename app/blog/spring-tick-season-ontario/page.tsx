@@ -83,7 +83,7 @@ export default function SpringTickSeasonPage() {
             <li>Schedule the first barrier spray in late May, then renew it roughly monthly &mdash; five treatments, May through September.</li>
             <li>Professional tick barrier spray leaves a residual on the treated edges that is renewed roughly monthly.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
         </div>
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           Spring tick season in Ontario starts earlier than most homeowners expect — and the timing of your first treatment can make or break your season-long treatment plan. Part of our <Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Tick Control Guide for Ontario Homeowners</Link>.

@@ -38,7 +38,7 @@ const NEIGHBOURHOODS: { name: string; href?: string }[] = [
 const FAQS = [
   {
     question: 'Who is the best mosquito control company in Brampton?',
-    answer: "It depends on what matters most to you. BuzzSkito is priced from $99 per treatment in Brampton, with no contracts and 150+ five-star Google reviews. Mosquito Man has a large review volume across the GTA and a longer track record. Mosquito.Buzz is a national franchise, so service depends on the local franchisee. LawnSavers bundles mosquito control with lawn care for existing lawn customers. Ask every company you call the same five questions before you book. Is the price shown before you book? How many sprays are in a season? What happens if it rains after a treatment? Is an Ontario pesticide operator licence number shown? Which plans include a guarantee? BuzzSkito's answers: from $99 on a standard lot; 5, 10 or 20+ sprays per season (tick: 5); free re-treatment if rain falls within 1 hour of a treatment, on every plan; Ontario Pesticide Operator Licence L-240-2436835197; and the Bite-Free Guarantee on Standard & Exclusive plans. The Brampton company that answers all five clearly, in writing, is the easiest to compare.",
+    answer: "It depends on what matters most to you. BuzzSkito is priced from $99 per treatment in Brampton, with no contracts and 150+ five-star reviews. Mosquito Man has a large review volume across the GTA and a longer track record. Mosquito.Buzz is a national franchise, so service depends on the local franchisee. LawnSavers bundles mosquito control with lawn care for existing lawn customers. Ask every company you call the same five questions before you book. Is the price shown before you book? How many sprays are in a season? What happens if it rains after a treatment? Is an Ontario pesticide operator licence number shown? Which plans include a guarantee? BuzzSkito's answers: from $99 on a standard lot; 5, 10 or 20+ sprays per season (tick: 5); free re-treatment if rain falls within 1 hour of a treatment, on every plan; Ontario Pesticide Operator Licence L-240-2436835197; and the Bite-Free Guarantee on Standard & Exclusive plans. The Brampton company that answers all five clearly, in writing, is the easiest to compare.",
   },
   {
     question: 'How much does mosquito control cost in Brampton?',
@@ -117,7 +117,7 @@ export default function BramptonMosquitoPage() {
       {/* QUICK ANSWER */}
       <QuickAnswer question="What is the best mosquito control company in Brampton?">
         <p>
-          <strong>BuzzSkito provides specialist mosquito barrier spray across all Brampton neighbourhoods — Mount Pleasant, Gore Meadows, Castlemore, Springdale, Bramalea, Creditview, and Fletcher&apos;s Meadow.</strong> Treatments are applied according to label directions to vegetation and shrub interiors where mosquitoes rest. Single treatments start at <strong>$99</strong> on a standard lot, with season plans from <strong>$549</strong>. With <strong>150+ five-star Google reviews</strong>, no contracts, a rain-back guarantee on every plan, and the <strong>Bite-Free Guarantee on Standard &amp; Exclusive plans</strong>, Brampton homeowners get barrier spray for stormwater-pond and creek-adjacent properties. Call (289) 216-5030.
+          <strong>BuzzSkito provides specialist mosquito barrier spray across all Brampton neighbourhoods — Mount Pleasant, Gore Meadows, Castlemore, Springdale, Bramalea, Creditview, and Fletcher&apos;s Meadow.</strong> Treatments are applied according to label directions to vegetation and shrub interiors where mosquitoes rest. Single treatments start at <strong>$99</strong> on a standard lot, with season plans from <strong>$549</strong>. With <strong>150+ five-star reviews</strong>, no contracts, a rain-back guarantee on every plan, and the <strong>Bite-Free Guarantee on Standard &amp; Exclusive plans</strong>, Brampton homeowners get barrier spray for stormwater-pond and creek-adjacent properties. Call (289) 216-5030.
         </p>
       </QuickAnswer>
 
@@ -426,13 +426,13 @@ export default function BramptonMosquitoPage() {
         <div className="max-w-4xl mx-auto">
           <p className="kicker mb-3 text-center">Reviews</p>
           <h2 className="h2-display text-brand-900 mb-2 text-center">What Brampton Homeowners Say</h2>
-          <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star Google reviews</p>
+          <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star reviews</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
-              { author: 'Priya R.', location: 'Castlemore', text: 'The technician explained exactly what product they were using. Couldn\'t be happier with the results.' },
-              { author: 'Raj P.', location: 'Springdale', text: 'Our house backs onto a stormwater pond and mosquitoes were unbearable. After the first BuzzSkito treatment the change was dramatic. We signed up for the full season and haven\'t looked back.' },
-              { author: 'Kevin M.', location: 'Heart Lake', text: 'Living near Heart Lake Conservation Area means mosquitoes every year. BuzzSkito is the first thing that actually worked. Professional, on time, and the SMS alerts are a nice touch.' },
-              { author: 'Tina S.', location: 'Credit Valley', text: 'Tried citronella candles and store sprays for years. One BuzzSkito treatment did more than everything else combined. Our kids can actually play in the backyard now.' },
+              { author: 'Abinaash Ratnendran', location: 'Brampton · Google review', text: 'Great mosquito control service in Brampton. These guys did my home last year and we had no mosquitoes!!' },
+              { author: 'Nishant Patel', location: 'Brampton & Mississauga · Google review', text: 'Great tick and mosquito control. They did both my homes in Brampton and Mississauga. 10/10' },
+              { author: 'Marcus Policicchio', location: 'Google review', text: 'Highly recommend BuzzSkito for mosquito control! They did an amazing job in our backyard, and we’ve been able to enjoy it without any mosquito bites. Professional, efficient, and affordable. Great service!' },
+              { author: 'Alejandro Rizzo Nervo', location: 'Google review', text: 'They did an amazing job! We didn’t see a single mosquito all summer. The service was quick, effective, and totally worth it. If you want to enjoy your yard without bugs, I highly recommend them!' },
             ].map(({ author, location, text }) => (
               <div key={author} className="bg-brand-50 rounded-2xl p-6 border border-brand-100">
                 <div className="flex items-center gap-1 mb-3">
@@ -441,12 +441,12 @@ export default function BramptonMosquitoPage() {
                   ))}
                 </div>
                 <p className="text-gray-700 text-sm mb-3 italic">&ldquo;{text}&rdquo;</p>
-                <p className="text-brand-800 font-semibold text-sm">{author} — <span className="text-gray-500 font-normal">{location}, Brampton</span></p>
+                <p className="text-brand-800 font-semibold text-sm">{author} — <span className="text-gray-500 font-normal">{location}</span></p>
               </div>
             ))}
           </div>
           <div className="text-center mt-6">
-            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read all 150+ reviews on Google &rarr;</a>
+            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read our reviews on Google &rarr;</a>
           </div>
         </div>
       </section>

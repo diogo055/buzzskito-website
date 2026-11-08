@@ -21,7 +21,7 @@ const FAQS = [
   },
   {
     question: 'Do larger mosquito companies have more reviews than BuzzSkito?',
-    answer: 'Often, yes. A company that has operated across several regions for many years will usually have more Google reviews in total. BuzzSkito has 150+ Google reviews with a 5.0 average. When comparing, read reviews from your own city and look at the rating as well as the count.',
+    answer: 'Often, yes. A company that has operated across several regions for many years will usually have more Google reviews in total. BuzzSkito has 150+ reviews with a 5.0 average. When comparing, read reviews from your own city and look at the rating as well as the count.',
   },
   {
     question: 'Does a multi-region company cover more areas than BuzzSkito?',

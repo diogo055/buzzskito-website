@@ -209,7 +209,7 @@ export default function MosquitoBitsCanadaPage() {
               <li>Buying Mosquito Dunks: look for REG. NO. 28888 on the box at hardware stores, garden centres and pond shops; stock is seasonal, so check by postal code. In a rain barrel, use a quarter dunk (the Canadian label&rsquo;s 0.1 to 3.0 m² row), and only in water that stays on your property.</li>
               <li>BTI only treats the water you apply it to; adult mosquitoes flying in still need a barrier spray.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
             <div className="mt-4">
               <BuyLink search="summit mosquito dunks" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
             </div>

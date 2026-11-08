@@ -91,7 +91,7 @@ export default function TickSeasonBurlingtonPage() {
             <li>Aldershot, Mountainside, Tyandaga, Millcroft, and any escarpment-edge property are Burlington&rsquo;s highest-pressure zones in 2026.</li>
             <li>A barrier spray&rsquo;s residual wears down within weeks, so BuzzSkito&rsquo;s tick season is five treatments spaced roughly monthly from May through September &mdash; monthly renewal is what removes the gap.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
         </div>
 
         <BlogPostCTA />

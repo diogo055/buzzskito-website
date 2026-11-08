@@ -156,7 +156,7 @@ export default function MosquitoRepellentGuidePage() {
               <li>Ultrasonic devices and repellent bracelets show no measurable effect in peer-reviewed studies — Health Canada lists both among products that do not protect well.</li>
               <li>For whole-yard control, professional barrier spray starts from $99 per treatment.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
           </div>
 
           <p className="not-prose text-sm text-gray-600 mb-1">The repellents that actually pass the research test in Ontario — picaridin or DEET on skin, Thermacell for a still patio:</p>

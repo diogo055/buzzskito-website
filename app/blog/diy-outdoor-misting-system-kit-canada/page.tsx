@@ -119,7 +119,7 @@ export default function DiyOutdoorMistingSystemKitCanadaPage() {
               <li>Drain the line every fall &mdash; frozen water splits tubing and cracks nozzles over a Canadian winter.</li>
               <li>Do not pour US insecticide misting concentrates into a hose kit &mdash; that is off-label and non-compliant in Canada.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

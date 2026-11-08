@@ -97,7 +97,7 @@ export default function HowToDoATickCheckPage() {
               <li>Remove an attached tick by pulling straight up with fine-tipped tweezers &mdash; do not twist, crush, or use petroleum jelly, nail polish, or a lit match.</li>
               <li>Watch the bite for 30 days and see a doctor if an expanding rash, fever, or joint aches appear.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

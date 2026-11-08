@@ -121,7 +121,7 @@ export default function WhatEatsTicksAndMosquitoesPage() {
               <li>Bats and purple martins eat very few mosquitoes &mdash; mosquitoes are a tiny share of their diet, contrary to marketing.</li>
               <li>Beneficial nematodes attack tick larvae and nymphs in the soil, but field results are patchy and need frequent reapplication.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

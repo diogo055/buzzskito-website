@@ -151,7 +151,7 @@ export default function MosquitoGearHubPage() {
             <><strong>Skip these:</strong> bug zappers &amp; repellent bracelets — minimal real mosquito control.</>,
             <><strong>Prefer we handle it?</strong> Barrier spray from $99 treats the whole yard and covers ticks.</>,
           ],
-          attribution: '— BuzzSkito, GTA mosquito & tick control · 150 five-star Google reviews',
+          attribution: '— BuzzSkito, GTA mosquito & tick control · 150 five-star reviews',
         }}
         howWeRank={{
           title: 'How we rank backyard mosquito gear',

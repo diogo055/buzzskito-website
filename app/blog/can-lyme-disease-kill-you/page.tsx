@@ -112,7 +112,7 @@ export default function CanLymeDiseaseKillYouPage() {
             <li>Lyme disease spreads only through the bite of an infected blacklegged tick &mdash; not person to person.</li>
             <li>As of 2026 there is no widely available human Lyme vaccine in Canada, so prevention is the frontline defence.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
         </div>
       </div>
 

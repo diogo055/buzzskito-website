@@ -117,7 +117,7 @@ export default function PergolaMosquitoCurtainsCanadaPage() {
               <li>An open-slat pergola roof still lets insects in over the beams &mdash; add a canopy or shade cloth on top.</li>
               <li>Take the panels down in October. Ontario winters kill mesh left hanging.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star reviews</p>
           </div>
         </div>
       </section>

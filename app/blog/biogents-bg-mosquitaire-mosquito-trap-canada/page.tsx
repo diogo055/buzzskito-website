@@ -121,7 +121,7 @@ export default function BiogentsBgMosquitaireCanadaPage() {
               <li>Bring it indoors for the winter. It is a multi-season machine only if you store it like one.</li>
               <li>Health Canada&rsquo;s pesticide registry lists <strong>no Biogents trap or lure</strong> (searched October 28, 2026), and Health Canada lists odour-baited mosquito traps among products that do not protect well against bites.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star reviews</p>
           </div>
         </div>
       </section>

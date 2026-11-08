@@ -116,7 +116,7 @@ export default function DoTikiTorchesRepelMosquitoesPage() {
               <li>A Thermacell creates a <strong>~4.5 m (15 ft)</strong> repellent zone — about <strong>20×</strong> the coverage of one citronella torch.</li>
               <li>Professional barrier spray reduces the adult mosquitoes resting across the whole yard, renewed at every scheduled visit; torches kill <strong>zero</strong> mosquitoes and repel <strong>zero</strong> ticks.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
           </div>
         </div>
       </section>

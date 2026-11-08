@@ -99,7 +99,7 @@ export default function LymeDiseasePage() {
             <li>Professional barrier spray leaves a residual on the treated leaf litter, garden edges and wood borders where ticks quest, renewed with five treatments across the season.</li>
             <li>Remove ticks with fine-tipped tweezers, pulling straight up — no twisting — then save the tick for free eTick.ca identification.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews. General information, not medical advice.</p>
+          <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews. General information, not medical advice.</p>
         </div>
 
         {/* Medical disclaimer */}

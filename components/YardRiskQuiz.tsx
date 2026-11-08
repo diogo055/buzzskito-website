@@ -393,7 +393,7 @@ function ScoreRevealStep(props: {
       {result.isInServiceArea && (
         <div className="rounded-xl bg-brand-50 border border-brand-100 p-4 flex items-center gap-3">
           <span className="text-2xl" aria-hidden="true">🏡</span>
-          <p className="text-sm text-brand-800"><strong>150+ five-star Google reviews</strong> · Owner-operated from Mississauga, serving 19 GTA cities.</p>
+          <p className="text-sm text-brand-800"><strong>150+ five-star reviews</strong> · Owner-operated from Mississauga, serving 19 GTA cities.</p>
         </div>
       )}
 

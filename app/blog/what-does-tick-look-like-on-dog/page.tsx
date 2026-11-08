@@ -113,7 +113,7 @@ export default function WhatDoesTickLookLikeOnDogPage() {
               <li>Only 10&ndash;30% of Ontario blacklegged ticks carry Borrelia, so most single bites do not transmit Lyme.</li>
               <li>Remove with fine-tipped tweezers gripping at skin level and pulling straight up &mdash; do not squeeze the body.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">You found a small bump on your dog and you&rsquo;re trying to figure out if it&rsquo;s a tick. The fastest test: ticks have <strong>8 legs</strong>, are <strong>oval and flat</strong> when unfed, and <strong>swell up like a balloon</strong> when full of blood. Here&rsquo;s how to identify them with confidence.</p>
 

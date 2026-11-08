@@ -181,7 +181,7 @@ export default function MosquitoMagnetCanadaPage() {
               <li>Costco Canada usually has the best Patriot pricing when in stock, at $399–$499.</li>
               <li>Professional barrier spray starts from $99 per treatment on a standard lot, with the residual renewed on a schedule through the season.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
             <div className="mt-4">
               <BuyLink search="mosquito magnet patriot plus" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
             </div>

@@ -104,7 +104,7 @@ export default function MosquitoTrapRunningCostCanadaPage() {
               <li>First-season all-in: about $700–$1,700 propane, $440–$915 lure trap, $120–$455 hybrid.</li>
               <li>For comparison, a licensed barrier spray is from $99 for a single treatment, $549 or $994 for a full season program — and it is the only option here that can also cover ticks, as an add-on ($497/season with a mosquito plan).</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150 five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150 five-star reviews</p>
           </div>
         </div>
       </section>

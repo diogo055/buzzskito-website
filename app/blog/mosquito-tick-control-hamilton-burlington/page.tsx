@@ -76,7 +76,7 @@ export default function HamiltonBurlingtonPage() {
             <li>Bronte Creek Provincial Park is documented blacklegged tick habitat affecting Bronte, West Oak Trails, and River Oaks.</li>
             <li>Mosquito pressure builds quickly once temperatures consistently exceed 10&deg;C, so the first treatment should land in early May.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
         </div>
 
         <p className="text-lg text-gray-600 not-prose border-l-4 border-brand-400 pl-5 py-2 mb-8">

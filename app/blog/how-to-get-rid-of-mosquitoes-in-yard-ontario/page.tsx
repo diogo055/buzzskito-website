@@ -73,7 +73,7 @@ export default function HowToGetRidOfMosquitoesInYardOntarioPage() {
               <li>Mosquitoes are weak fliers stopped by wind above about 1.5 m/s, so a patio fan keeps them off a seating area right away.</li>
               <li>DEET (20&ndash;30%) and picaridin/icaridin (20%) are the standard skin repellents in Canada; check for the PCP registration number on the label.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

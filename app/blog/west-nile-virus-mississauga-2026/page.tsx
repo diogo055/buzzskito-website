@@ -94,7 +94,7 @@ export default function WestNileMississaugaPage() {
             <li>Peel runs catch-basin larviciding but does not adulticide (fog) neighbourhoods, so yard standing water is the homeowner&rsquo;s responsibility.</li>
             <li>A professional barrier spray holds a residual on the shaded resting vegetation for a few weeks per treatment, then wears off.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           <p className="mt-1.5 text-xs text-gray-500">Health information for general education, not medical advice. Contact Peel Public Health or a healthcare provider about West Nile symptoms or concerns.</p>
         </div>
 

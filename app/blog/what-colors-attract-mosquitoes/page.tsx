@@ -119,7 +119,7 @@ export default function WhatColorsAttractMosquitoesPage() {
               <li>Colour ranks behind CO2, body heat, and skin odour (like lactic acid) as an attractant &mdash; clothing colour is a minor edge, not a shield.</li>
               <li>To be least visible, wear white, khaki, or pale blue; avoid red, orange, and black.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
             <p className="mt-2 text-xs text-gray-500">Source: <a href="https://doi.org/10.1038/s41467-022-28195-x" target="_blank" rel="noopener" className="text-emerald-700 underline">Alonso San Alberto et al., &ldquo;The olfactory gating of visual preferences to human skin and visible spectra in mosquitoes,&rdquo; <em>Nature Communications</em> 13, 555 (2022)</a>: yellow fever mosquitoes (<em>Aedes aegypti</em>) in a wind tunnel, about 1.3 million flight tracks, with the southern house mosquito and the malaria mosquito <em>Anopheles stephensi</em> also tested.</p>
           </div>
         </div>

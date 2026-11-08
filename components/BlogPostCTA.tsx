@@ -28,7 +28,7 @@ export default function BlogPostCTA() {
             Want this problem solved at YOUR address?
           </h3>
           <p className="text-sm text-gray-700 leading-snug">
-            Free custom quote. {PROMISES.response} No contracts · 150+ five-star Google reviews · Ontario-licensed operator
+            Free custom quote. {PROMISES.response} No contracts · 150+ five-star reviews · Ontario-licensed operator
           </p>
         </div>
 

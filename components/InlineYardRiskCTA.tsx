@@ -34,7 +34,7 @@ export default function InlineYardRiskCTA({
         Get My Free Yard Risk Score →
       </Link>
       <p className={`text-[11px] ${variant === 'navy' ? 'text-brand-300' : 'text-gray-500'} mt-3`}>
-        🔒 From the GTA team with 150+ five-star Google reviews · No credit card · Service area only
+        🔒 From the GTA team with 150+ five-star reviews · No credit card · Service area only
       </p>
     </aside>
   )

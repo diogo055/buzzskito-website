@@ -107,7 +107,7 @@ export default function CanDogsGetLymeDiseasePage() {
               <li>Lyme in dogs is treated with vet-prescribed antibiotics (commonly doxycycline) over a multi-week course.</li>
               <li>A Lyme vaccine is available for dogs in Canada; there is no Lyme vaccine for cats.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

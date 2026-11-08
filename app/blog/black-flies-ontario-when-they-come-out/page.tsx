@@ -118,7 +118,7 @@ export default function BlackFliesOntarioPage() {
             <li>Canada has more than 60 black fly species, including the aggressive human-biting <em>Simulium venustum</em> and <em>Simulium decorum</em>.</li>
             <li>Muskoka and cottage country peak about 1&ndash;2 weeks later than the GTA, running late May into early July.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
         </div>
       </div>
 

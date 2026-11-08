@@ -97,7 +97,7 @@ export default function HowToRemoveTickFromDogPage() {
               <li>In Ontario, blacklegged ticks are most active April&ndash;June and September&ndash;November, and can be active any month above 4&deg;C.</li>
               <li>Dog Lyme symptoms typically appear 2&ndash;5 months after a bite &mdash; shifting-leg lameness, fever, lethargy &mdash; so call your vet if they develop.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
 
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">You found a tick on your dog. Take a breath — you have time. Most blacklegged ticks need to be attached for 24+ hours to transmit Lyme disease, and removing the tick correctly is the single most important thing you can do right now. Here&rsquo;s how to do it safely, in 5 minutes, with what you probably already have at home.</p>

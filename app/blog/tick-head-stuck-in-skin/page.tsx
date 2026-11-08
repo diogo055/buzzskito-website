@@ -149,7 +149,7 @@ export default function TickHeadStuckInSkinPage() {
             <li>In Ontario, blacklegged-tick Lyme risk rises significantly after <strong>24–36 hours</strong> of attachment (Public Health Ontario).</li>
             <li><strong>Disinfect</strong> with rubbing alcohol; <strong>see a doctor</strong> if you get spreading redness, pus, or a rash 3–30 days later.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
         </div>
 
         <div className="not-prose bg-amber-50 border border-amber-200 rounded-xl p-5 mb-8">

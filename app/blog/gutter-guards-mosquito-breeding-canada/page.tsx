@@ -160,7 +160,7 @@ export default function GutterGuardsMosquitoBreedingPage() {
               <li><strong>Guards do not fix a sagging gutter.</strong> If it ponds when clean, re-hang it at about &frac14; in. per 10 ft first.</li>
               <li><strong>Fit them in early autumn</strong>, before leaf drop &mdash; that October blockage is what carries water into the spring thaw.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star reviews</p>
           </div>
         </div>
       </section>

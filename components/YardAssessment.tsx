@@ -26,7 +26,7 @@ export default function YardAssessment() {
         <div className="max-w-xl mx-auto">
           <h1 className="text-center text-[1.75rem] leading-tight sm:text-4xl font-extrabold text-brand-900">Get Your Free Custom Quote</h1>
           <p className="mt-2 text-center text-sm font-semibold text-brand-800">
-            <span className="text-amber-500">★ 5.0</span> · 150+ Google reviews · {PROMISES.rainBackShort}
+            <span className="text-amber-500">★ 5.0</span> · 150+ reviews · {PROMISES.rainBackShort}
           </p>
           <div className="mt-4 rounded-2xl border border-gray-200 bg-white p-5 shadow-sm sm:p-6">
             <QuoteForm formName="yard_assessment" />

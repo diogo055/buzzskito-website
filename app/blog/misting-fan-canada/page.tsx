@@ -111,7 +111,7 @@ export default function MistingFanCanadaPage() {
               <li>Brass or stainless nozzles resist GTA hard-water clogging far better than plastic ones.</li>
               <li>A misting fan only deters mosquitoes where the air reaches; a whole-yard barrier spray is still needed for population control.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

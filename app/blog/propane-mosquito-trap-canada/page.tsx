@@ -111,7 +111,7 @@ export default function PropaneMosquitoTrapCanadaPage() {
               <li>Traps draw the population down slowly over 4&ndash;8 weeks and do nothing for ticks.</li>
               <li>Licensed barrier spray treats the resting areas across the whole yard in a single visit, from $99.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
           </div>
         </div>
       </section>

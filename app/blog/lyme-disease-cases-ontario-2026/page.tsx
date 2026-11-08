@@ -127,7 +127,7 @@ export default function LymeCasesOntario2026Page() {
             <li>PHAC does not break Ontario down by public health unit in this report, so no PHU ranking appears here.</li>
             <li>Lyme transmission generally requires 24&ndash;36 hours of tick attachment, so a daily tick check is the highest-leverage habit.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews. General information, not medical advice.</p>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews. General information, not medical advice.</p>
         </div>
 
         <aside className="not-prose mb-6 rounded-xl bg-amber-50 border-l-4 border-amber-500 px-5 py-4">

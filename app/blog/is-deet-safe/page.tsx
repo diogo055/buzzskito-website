@@ -105,7 +105,7 @@ export default function IsDeetSafePage() {
               <li>DEET is not banned in Canada; it is fully registered and sold nationwide.</li>
               <li>Roughly 10% DEET protects for about 2 hours and 20–30% for about 5 to 6 hours — higher % lasts longer, not stronger.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
           </div>
         </div>
       </section>

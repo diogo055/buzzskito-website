@@ -119,7 +119,7 @@ export default function BestGazeboWithMosquitoNetCanadaPage() {
               <li>Zippers and the bottom hem are the first things to fail &mdash; look for chunky zippers, reinforced seams, and replaceable screen walls.</li>
               <li>Netting protects the table, not the yard: a barrier spray on the surrounding vegetation treats the whole property &mdash; in the GTA, BuzzSkito treats from $99.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

@@ -119,7 +119,7 @@ export default function MosquitoControlCostPage() {
               <li>BuzzSkito season plans: $549 (5 sprays, monthly), $994 (10 sprays, every 2 weeks) or $2,049 (20+ sprays, weekly) on a standard lot, plus HST.</li>
               <li>Barrier spray residual wears down with time and rain, so treatments are repeated on a schedule; BuzzSkito provides free GTA quotes.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

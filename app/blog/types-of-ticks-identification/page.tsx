@@ -132,7 +132,7 @@ export default function TypesOfTicksIdentificationPage() {
               <li>Poppy-seed-sized nymphs cause most Lyme cases because they are so easily missed.</li>
               <li>Engorged ticks swell to 10 mm or more, and you cannot tell an infected tick from a clean one by sight.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

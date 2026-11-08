@@ -107,7 +107,7 @@ export default function BugProtectiveClothingCanadaPage() {
               <li>Factory permethrin-treated garments with a Canadian PCP registration number are legal to buy in Canada.</li>
               <li>DIY permethrin clothing sprays are not legal for sale in Canada.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

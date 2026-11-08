@@ -98,7 +98,7 @@ export default function MaleVsFemaleMosquitoPage() {
               <li>Some female Culex mosquitoes overwinter for months by hibernating in sheds, garages, and basements.</li>
               <li>Because only females bite, only females can transmit disease &mdash; males are harmless to people.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

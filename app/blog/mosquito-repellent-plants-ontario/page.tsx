@@ -106,7 +106,7 @@ export default function MosquitoRepellentPlantsPage() {
               <li>The garden-centre &ldquo;citronella plant&rdquo; (Pelargonium citrosum) produces almost no airborne repellent passively — skip it.</li>
               <li>Best GTA planting time is mid-May, after the typical May 9–18 frost-free date.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
           </div>
         </div>
       </section>

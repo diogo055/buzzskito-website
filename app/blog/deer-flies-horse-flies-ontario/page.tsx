@@ -104,7 +104,7 @@ export default function DeerFliesHorseFliesOntarioPage() {
               <li>They are not significant human-disease vectors in Ontario, unlike mosquitoes (West Nile) and blacklegged ticks (Lyme).</li>
               <li>Blue sticky ball traps and a sticky hat patch each catch large numbers over a season, but neither wipes out the population.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

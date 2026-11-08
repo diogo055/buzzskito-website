@@ -80,7 +80,7 @@ export default function TickPreventionCaledonPage() {
             <li>BuzzSkito treats the 3-metre transition margin between lawn and woodlot, where ticks concentrate &mdash; not the forest interior.</li>
             <li>High-risk pockets include Glen Williams, Georgetown edges, Limehouse, Norval and Silver Creek, Bolton, Caledon East, and Palgrave.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
         </div>
 
         <p className="text-lg text-gray-600 leading-relaxed not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">

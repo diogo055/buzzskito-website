@@ -72,7 +72,7 @@ export default function MosquitoControlMiltonGeorgetownPage() {
               <li>Waiting until mosquitoes are noticeable (usually mid-June) sacrifices May &mdash; the easiest month to get ahead of the problem.</li>
               <li>Northwest Milton borders the Niagara Escarpment, confirmed blacklegged tick habitat, so combined mosquito and tick treatment is recommended there.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

@@ -105,7 +105,7 @@ export default function ThermacellRefillsRechargeCanadaPage() {
               <li>Fuel-powered mats last about 4 hours each and a butane cartridge about 12 hours.</li>
               <li>One device covers only a ~20 ft zone; barrier spray treats the whole yard from $99.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
           </div>
         </div>
       </section>

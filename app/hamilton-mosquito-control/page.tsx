@@ -61,7 +61,7 @@ const FAQS = [
   },
   {
     question: 'How does BuzzSkito compare to other mosquito control companies in Hamilton?',
-    answer: "Ask every Hamilton company the same five questions: Is the price shown before you book? How many sprays per season? What happens if it rains after a treatment? Is an Ontario pesticide operator licence number shown? Which plans include a guarantee? BuzzSkito's answers: from $99 on a standard lot; 5, 10 or 20+ sprays per season (tick: 5); a rain-back re-treat if it rains within 1 hour, on every plan; Ontario Pesticide Operator Licence L-240-2436835197; and the Bite-Free Guarantee on Standard & Exclusive plans. BuzzSkito is a mosquito and tick specialist rather than a general pest control company, with 150+ five-star Google reviews at a 5.0 average. The checklist table on this page sets the questions out side by side.",
+    answer: "Ask every Hamilton company the same five questions: Is the price shown before you book? How many sprays per season? What happens if it rains after a treatment? Is an Ontario pesticide operator licence number shown? Which plans include a guarantee? BuzzSkito's answers: from $99 on a standard lot; 5, 10 or 20+ sprays per season (tick: 5); a rain-back re-treat if it rains within 1 hour, on every plan; Ontario Pesticide Operator Licence L-240-2436835197; and the Bite-Free Guarantee on Standard & Exclusive plans. BuzzSkito is a mosquito and tick specialist rather than a general pest control company, with 150+ five-star reviews at a 5.0 average. The checklist table on this page sets the questions out side by side.",
   },
   {
     question: 'Do Hamilton mosquito control companies require a contract?',
@@ -116,7 +116,7 @@ export default function HamiltonMosquitoPage() {
       {/* QUICK ANSWER */}
       <QuickAnswer question="What is the best mosquito control company in Hamilton?">
         <p>
-          <strong>BuzzSkito provides specialist mosquito barrier spray across Hamilton — Stoney Creek, Dundas, Ancaster, Westdale, Waterdown, Rymal, Downtown Hamilton, Mount Hope, and Binbrook.</strong> Treatments are applied by an Ontario-licensed pesticide operator, according to label directions, to vegetation and shrub interiors where mosquitoes rest. Single treatments start at <strong>$99</strong> on a standard lot under 10,000 sq ft, with season plans from $549. With <strong>150+ five-star Google reviews</strong>, no contracts, a rain-back guarantee on every plan, and the <strong>Bite-Free Guarantee on Standard &amp; Exclusive plans</strong>, Hamilton homeowners get reliable barrier spray for escarpment, Cootes Paradise, and Dundas Valley properties. Call (289) 216-5030.
+          <strong>BuzzSkito provides specialist mosquito barrier spray across Hamilton — Stoney Creek, Dundas, Ancaster, Westdale, Waterdown, Rymal, Downtown Hamilton, Mount Hope, and Binbrook.</strong> Treatments are applied by an Ontario-licensed pesticide operator, according to label directions, to vegetation and shrub interiors where mosquitoes rest. Single treatments start at <strong>$99</strong> on a standard lot under 10,000 sq ft, with season plans from $549. With <strong>150+ five-star reviews</strong>, no contracts, a rain-back guarantee on every plan, and the <strong>Bite-Free Guarantee on Standard &amp; Exclusive plans</strong>, Hamilton homeowners get reliable barrier spray for escarpment, Cootes Paradise, and Dundas Valley properties. Call (289) 216-5030.
         </p>
       </QuickAnswer>
 
@@ -325,13 +325,13 @@ export default function HamiltonMosquitoPage() {
         <div className="max-w-4xl mx-auto">
           <p className="kicker mb-3 text-center">Reviews</p>
           <h2 className="h2-display text-brand-900 mb-2 text-center">What Hamilton Homeowners Say</h2>
-          <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star Google reviews</p>
+          <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star reviews</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
-              { author: 'Steve R.', location: 'Westdale', text: 'Living near Cootes Paradise means mosquitoes are a given every summer. BuzzSkito is the first thing that actually made a difference. Professional service, great communication, and our yard is usable again.' },
-              { author: 'Karen L.', location: 'Dundas', text: 'The Spencer Creek valley makes our neighbourhood a mosquito hotspot. After the first BuzzSkito treatment the change was dramatic — we can actually sit outside in the evening now.' },
-              { author: 'Paul G.', location: 'Ancaster', text: 'Tried citronella, bug zappers, everything. One BuzzSkito treatment did more than years of DIY attempts. The technician was knowledgeable about our specific area and the results speak for themselves.' },
-              { author: 'Jennifer W.', location: 'Stoney Creek', text: 'Our backyard backs onto the Escarpment and mosquitoes were terrible. BuzzSkito treated it thoroughly and the difference was immediate. Signed up for the full season package.' },
+              { author: 'Alejandro Rizzo Nervo', location: 'Google review', text: 'They did an amazing job! We didn’t see a single mosquito all summer. The service was quick, effective, and totally worth it. If you want to enjoy your yard without bugs, I highly recommend them!' },
+              { author: 'Marcus Policicchio', location: 'Google review', text: 'Highly recommend BuzzSkito for mosquito control! They did an amazing job in our backyard, and we’ve been able to enjoy it without any mosquito bites. Professional, efficient, and affordable. Great service!' },
+              { author: 'Brandon Luis', location: 'Google review', text: 'Great service! They treated our yard for mosquitoes and it made a huge difference. Super professional and effective. Highly recommend.' },
+              { author: 'Ricardo', location: 'Google review', text: 'So happy with the service. It really did work and had no mosquitos all summer. Will definitely do it again next summer. Highly recommend!!!' },
             ].map(({ author, location, text }) => (
               <div key={author} className="bg-brand-50 rounded-2xl p-6 border border-brand-100">
                 <div className="flex items-center gap-1 mb-3">
@@ -340,12 +340,12 @@ export default function HamiltonMosquitoPage() {
                   ))}
                 </div>
                 <p className="text-gray-700 text-sm mb-3 italic">&ldquo;{text}&rdquo;</p>
-                <p className="text-brand-800 font-semibold text-sm">{author} — <span className="text-gray-500 font-normal">{location}, Hamilton</span></p>
+                <p className="text-brand-800 font-semibold text-sm">{author} — <span className="text-gray-500 font-normal">{location}</span></p>
               </div>
             ))}
           </div>
           <div className="text-center mt-6">
-            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read all 150+ reviews on Google &rarr;</a>
+            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read our reviews on Google &rarr;</a>
           </div>
         </div>
       </section>

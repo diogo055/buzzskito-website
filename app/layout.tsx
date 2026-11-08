@@ -180,7 +180,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           data-lead-bar
         >
           <p className="text-center text-[10px] font-semibold text-brand-300 mb-1.5">
-            <span className="text-amber-400"><span aria-hidden="true">★</span> 5.0</span> · 150+ Google reviews · {PROMISES.rainBackShort}
+            <span className="text-amber-400"><span aria-hidden="true">★</span> 5.0</span> · 150+ reviews · {PROMISES.rainBackShort}
           </p>
           <div className="flex gap-2">
             <a

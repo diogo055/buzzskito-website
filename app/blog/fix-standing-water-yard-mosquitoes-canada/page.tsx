@@ -105,7 +105,7 @@ export default function FixStandingWaterYardPage() {
               <li>For water you genuinely cannot drain &mdash; a pond, a ditch, a rain barrel &mdash; BTI larvicide is the answer, not pipe. One dunk treats about 100 sq ft of surface for roughly 30 days.</li>
               <li>Sometimes the cheap fix is the right fix: a $12 downspout extension and ten minutes with a rake resolves a surprising share of these yards.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star reviews</p>
           </div>
         </div>
       </section>

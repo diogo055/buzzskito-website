@@ -125,7 +125,7 @@ export default function AreTicksDangerousPage() {
             <li>Removing an attached tick within 24 hours sharply lowers the risk of Lyme transmission.</li>
             <li>The American dog tick is the most commonly encountered tick in Ontario but rarely transmits disease here.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
         </div>
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           <strong>Medical disclaimer:</strong> This article provides general public health information about tick risks in Ontario. Always consult a licensed healthcare provider for medical advice. Part of our <Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Tick Control Guide for Ontario Homeowners</Link>.

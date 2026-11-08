@@ -179,7 +179,7 @@ export default function RainBarrelMosquitoProofPage() {
               <li><strong>Winter:</strong> drain fully and disconnect before the first hard freeze, usually late October in the GTA. Leave the spigot open.</li>
               <li><strong>Cheaper is often right:</strong> if your barrel already has a sound lid, a roll of screen, a few clamps and a pack of dunks fixes it for well under $50.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star reviews</p>
           </div>
         </div>
       </section>

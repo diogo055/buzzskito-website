@@ -122,7 +122,7 @@ export default function BestSolarBugZapperCanadaPage() {
               <li>They kill moths, gnats, midges, and small flies &mdash; not the mosquitoes that bite.</li>
               <li>In Canada an outdoor zapper sold without registration must be CSA-certified and labelled &ldquo;This device does not control blackflies, mosquitoes or other biting flies.&rdquo;</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
             <div className="mt-4">
               <BuyLink search="PALONE solar bug zapper 4500V USB-C" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
             </div>

@@ -33,7 +33,7 @@ const FAQS = [
   },
   {
     question: 'Do lawn care companies have more reviews than BuzzSkito?',
-    answer: 'Often, yes, because their reviews cover all their services (lawn care, irrigation, and pest add-ons). BuzzSkito has 150+ Google reviews with a 5.0 average, for mosquito and tick control specifically. Look at both the count and whether the reviews mention mosquito work.',
+    answer: 'Often, yes, because their reviews cover all their services (lawn care, irrigation, and pest add-ons). BuzzSkito has 150+ reviews with a 5.0 average, for mosquito and tick control specifically. Look at both the count and whether the reviews mention mosquito work.',
   },
   {
     question: 'Do lawn care companies and BuzzSkito use the same products?',

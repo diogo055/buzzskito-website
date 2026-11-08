@@ -98,7 +98,7 @@ export default function WhatFlowersAttractMosquitoesPage() {
             <li>Dense foliage matters for shelter by structure, not species &mdash; mosquitoes rest in cool, shaded, still air during the day.</li>
             <li>A potted plant&rsquo;s drainage saucer is one of the most overlooked breeding sites in GTA yards.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
         </div>
 
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">

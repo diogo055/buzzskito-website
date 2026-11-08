@@ -116,7 +116,7 @@ export default function WhereDoMosquitoesGoInWinterOntarioPage() {
               <li>All male mosquitoes die in fall and do not overwinter; their lifespan is only about 1&ndash;2 weeks.</li>
               <li>Because eggs and hibernating females survive, a harsh winter never wipes out the next summer&rsquo;s population.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

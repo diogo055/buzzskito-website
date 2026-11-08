@@ -98,7 +98,7 @@ export default function OffDeepWoodsDeetPage() {
               <li>DEET is toxic to dogs and cats — never apply any OFF product to pets.</li>
               <li>A single Deep Woods aerosol runs $9–$14 in 2026; Costco Canada multipacks land around $20–$28.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
           </div>
         </div>
       </section>

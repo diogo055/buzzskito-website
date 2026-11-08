@@ -71,7 +71,7 @@ export default function HowToKeepTicksOutOfYardOntarioPage() {
               <li>Blacklegged ticks generally need 24&ndash;36 hours attached to transmit Lyme disease bacteria, so daily tick checks matter.</li>
               <li>Factory permethrin-treated clothing kills ticks on contact and holds its protection for up to 70 wash cycles &mdash; consumer sprays for treating your own clothing are not registered in Canada (and permethrin never goes on skin).</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

@@ -111,7 +111,7 @@ export default function AreThereTicksInCanadaPage() {
               <li>Blacklegged (Lyme) ticks are not established in Canada&rsquo;s far north &mdash; Nunavut, most of the Northwest Territories, and most of Yukon are too cold and dry.</li>
               <li>The American dog tick (<em>Dermacentor variabilis</em>) is one of the most widespread ticks nationally, and it does not spread Lyme disease.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

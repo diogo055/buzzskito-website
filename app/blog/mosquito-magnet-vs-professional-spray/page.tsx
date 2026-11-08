@@ -97,7 +97,7 @@ export default function MosquitoMagnetPage() {
               <li>Each propane tank lasts about 21 days, so a Magnet needs monthly tank and attractant swaps; barrier spray requires no homeowner maintenance.</li>
               <li>Over 5 years, a Mosquito Magnet costs about $2,700 — within $50 of BuzzSkito&rsquo;s Basic 5-spray seasonal plan at $549/year ($2,745), which delivers far greater coverage.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
           </div>
 
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />

@@ -71,7 +71,7 @@ export default function FreeYardAssessmentPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm text-gray-600">150+ five-star Google reviews (5.0) · Serving 19 GTA cities</p>
+            <p className="mt-4 text-sm text-gray-600">150+ five-star reviews (5.0) · Serving 19 GTA cities</p>
           </div>
           <figure>
             <img

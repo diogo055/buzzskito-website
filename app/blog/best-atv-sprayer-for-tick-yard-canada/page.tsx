@@ -120,7 +120,7 @@ export default function BestAtvSprayerForTickYardCanadaPage() {
               <li>Use a UV-stabilised poly tank and agitation if your product is a wettable powder.</li>
               <li>Only spray products with a Canadian PCP registration number &mdash; US bifenthrin/permethrin yard concentrates are not registered here.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star reviews</p>
           </div>
         </div>
       </section>

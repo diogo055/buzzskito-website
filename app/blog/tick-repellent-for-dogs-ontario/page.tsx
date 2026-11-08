@@ -103,7 +103,7 @@ export default function TickRepellentForDogsPage() {
               <li>Roughly 10&ndash;30% of blacklegged ticks in southern Ontario carry the Lyme bacterium.</li>
               <li>Never put DEET or a dog permethrin product on a cat &mdash; both are toxic; treating the yard adds a layer, from $99.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
             <p className="mt-1.5 text-xs text-gray-500">General information, not veterinary advice. Confirm any product and dose with your own veterinarian.</p>
           </div>
         </div>

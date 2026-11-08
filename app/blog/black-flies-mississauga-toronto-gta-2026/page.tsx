@@ -101,7 +101,7 @@ export default function BlackFliesMississaugaTorontoGTAPage() {
             <li>2026 emergence ran roughly two weeks ahead of the typical curve after a mild April warmed streams early.</li>
             <li>Professional barrier spray is the only meaningful yard-level defence against black flies.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
         </div>
         <BlogPostCTA />
       </div>

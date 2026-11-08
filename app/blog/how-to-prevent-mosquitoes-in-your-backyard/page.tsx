@@ -69,7 +69,7 @@ export default function PreventMosquitoesPage() {
               <li>Mosquitoes are weak fliers that struggle above about 1 m/s of wind, so a patio fan keeps them off a seating area.</li>
               <li>A single professional barrier spray costs from $99 and leaves a residual on the leaves where mosquitoes rest; seasonal plans renew it every 2 weeks (Standard) or monthly (Basic).</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

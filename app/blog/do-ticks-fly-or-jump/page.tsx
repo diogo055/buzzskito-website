@@ -106,7 +106,7 @@ export default function DoTicksFlyOrJumpPage() {
               <li>Ticks are slow crawlers that wander minutes to hours before attaching, so a prompt tick check often catches them.</li>
               <li>A blacklegged tick generally needs to stay attached 24+ hours to transmit Lyme disease.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
           </div>
         </div>
       </section>

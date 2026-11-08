@@ -97,7 +97,7 @@ export default function MosquitoScreensPatioCanadaPage() {
               <li>Costco Canada&rsquo;s spring outdoor-living sale (April–May) usually has the best pricing on larger hardtop gazebos.</li>
               <li>Screens do nothing for ticks; professional barrier spray from $99 treats the whole yard and targets ticks where they wait.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star reviews</p>
           </div>
         </div>
       </section>

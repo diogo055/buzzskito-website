@@ -45,8 +45,8 @@ const FAQS = [
 // Exact words, name and place as shown on the city pages: Katharine M. (app/mississauga-mosquito-control),
 // Linda C. (app/toronto-mosquito-control, Rosedale), Anthony (app/burlington-mosquito-spray, Milton).
 const TESTIMONIALS = [
-  { author: 'Katharine M.', place: 'Mississauga', text: 'Fantastic experience with the mosquito control last summer! We’re re-signing for this season once again — we can finally enjoy our yard again in Mississauga.' },
-  { author: 'Linda C.', place: 'Rosedale, Toronto', text: 'Very impressed with the SMS alerts before and after service. Our Toronto property backs onto a ravine so mosquitoes are a real issue — after the first treatment the difference was night and day.' },
+  { author: 'Katharine M.', place: 'Mississauga', text: 'Fantastic experience with the mosquito control last summer! We’re re-signing for this season once again! We can enjoy our yard again in Mississauga.' },
+  { author: 'Maria G', place: 'Toronto', text: 'Best mosquito spray service in Toronto by FAR!!! Can’t wait to enjoy my yard again this year. If I knew about the mosquito service earlier I would have been able to enjoy so many more nights outside. Thank you BuzzSkito!!' },
   { author: 'Anthony', place: 'Milton', text: 'Highly recommend this company for mosquito control. I got my house in Milton serviced recently and loved the end result!' },
 ]
 

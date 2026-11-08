@@ -86,7 +86,7 @@ export default function MississaugaTickSeasonPage() {
             <li>Highest-risk neighbourhoods include Lorne Park, Mineola, Erindale, Streetsville, and Sherwood Forrest &mdash; all near the Credit River or Rattray Marsh.</li>
             <li>Ticks survive winter while ground temperatures stay above about -10&deg;C and resume questing within hours of a 4&ndash;7&deg;C thaw.</li>
           </ul>
-          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star reviews</p>
         </div>
 
         <BlogPostCTA />

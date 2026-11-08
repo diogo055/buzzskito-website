@@ -105,7 +105,7 @@ export default function PondAeratorMosquitoLarvaePage() {
               <li>Diaphragms are consumable. A rebuild kit is a fraction of a new compressor &mdash; buy the model that has one.</li>
               <li>Honest limit: if your pond is small, shallow and already has a waterfall turning it over, dunks and a bit of edge maintenance will do more per dollar than a compressor.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star reviews</p>
           </div>
         </div>
       </section>

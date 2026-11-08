@@ -118,7 +118,7 @@ export default function MosquitoMagnetVsDynatrapCanadaPage() {
               <li>Neither trap controls ticks &mdash; ticks do not fly to CO&#8322; or UV.</li>
               <li>On a shared-boundary suburban lot, also consider professional barrier spray: it is applied to the vegetation across the whole yard and renewed on a schedule, rather than working from one spot.</li>
             </ul>
-            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star Google reviews</p>
+            <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star reviews</p>
           </div>
         </div>
       </section>

@@ -11,7 +11,8 @@
 - **NOT served (owner, Nov 3, 2026): Durham Region (Ajax, Pickering, Whitby).** Scarborough is the eastern edge. No page or sentence may claim service there.
 - **Season:** May–September. Peak: June–July.
 - **Fleet:** 1 van (expanding to 2), 1 technician (expanding to 2)
-- **Google Reviews:** 150 five-star reviews (5.0 average), ZERO bad reviews
+- **Reviews (checked Nov 8, 2026):** Google shows 139 (137 five-star, 2 four-star, displayed 5.0), zero negative; the owner counts 150+ across platforms. Write "150+ reviews" or "5.0 on Google", never "150+ Google reviews" or "all five stars".
+- **Testimonials must be real reviews, in the reviewer's own words** (light spelling fixes only), with the name as it appears on Google and a place only when the review names it. On Nov 8, 2026, 67 invented quotes ("Priya R.", "James K.", "Linda C." and others with local-landmark stories) were replaced by real Google reviews on 26 service pages. Never write or paraphrase a testimonial.
 
 ## Pricing (CRITICAL — get this right)
 - **Single treatment:** From $99 (standard lot under 10K sq ft)
