@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06",
+ "generated": "2026-11-10",
  "summary": {
   "keywords": 100,
   "newPagesBuilt": 282,
@@ -8,8 +8,8 @@
   "broadened": 9,
   "mergedIntoExistingPages": 9,
   "mergedIntoNewPages": 9,
-  "notBuilt": 186,
-  "internalLinksInNewPages": 3806
+  "notBuilt": 194,
+  "internalLinksInNewPages": 3853
  },
  "pages": [
   {
@@ -296,7 +296,7 @@
    "wordCount": 2401,
    "faqs": 5,
    "sources": 11,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -392,7 +392,7 @@
    "wordCount": 2238,
    "faqs": 10,
    "sources": 15,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -581,11 +581,11 @@
    "kind": "spoke",
    "cluster": "cockroaches",
    "title": "Big Black Cockroach? Likely an Oriental Roach",
-   "wordCount": 2203,
+   "wordCount": 2498,
    "faqs": 10,
-   "sources": 11,
+   "sources": 14,
    "inboundFromNewPages": 15,
-   "outboundInternalLinks": 17,
+   "outboundInternalLinks": 19,
    "status": "built"
   },
   {
@@ -664,7 +664,7 @@
    "wordCount": 2084,
    "faqs": 10,
    "sources": 12,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 3,
    "outboundInternalLinks": 16,
    "status": "built"
   },
@@ -1992,7 +1992,7 @@
    "wordCount": 2406,
    "faqs": 10,
    "sources": 20,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 16,
    "status": "built"
   },
@@ -2005,11 +2005,11 @@
    "kind": "spoke",
    "cluster": "flies",
    "title": "Drain Flies: How to Get Rid of Them (Photos)",
-   "wordCount": 2313,
+   "wordCount": 2330,
    "faqs": 10,
    "sources": 8,
    "inboundFromNewPages": 11,
-   "outboundInternalLinks": 6,
+   "outboundInternalLinks": 7,
    "status": "built"
   },
   {
@@ -2021,11 +2021,11 @@
    "kind": "spoke",
    "cluster": "flies",
    "title": "Sand Fleas: What They Are and Do They Bite?",
-   "wordCount": 2146,
+   "wordCount": 2440,
    "faqs": 10,
    "sources": 17,
    "inboundFromNewPages": 4,
-   "outboundInternalLinks": 11,
+   "outboundInternalLinks": 13,
    "status": "built"
   },
   {
@@ -2053,11 +2053,11 @@
    "kind": "spoke",
    "cluster": "flies",
    "title": "Why Are There So Many Flies in My House?",
-   "wordCount": 2611,
+   "wordCount": 2637,
    "faqs": 10,
    "sources": 6,
    "inboundFromNewPages": 7,
-   "outboundInternalLinks": 14,
+   "outboundInternalLinks": 15,
    "status": "built"
   },
   {
@@ -2072,7 +2072,7 @@
    "wordCount": 2423,
    "faqs": 10,
    "sources": 11,
-   "inboundFromNewPages": 13,
+   "inboundFromNewPages": 14,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -2085,9 +2085,9 @@
    "kind": "spoke",
    "cluster": "flies",
    "title": "Maggots: Where They Come From (Photos)",
-   "wordCount": 2317,
+   "wordCount": 2580,
    "faqs": 10,
-   "sources": 17,
+   "sources": 20,
    "inboundFromNewPages": 2,
    "outboundInternalLinks": 10,
    "status": "built"
@@ -2149,11 +2149,11 @@
    "kind": "spoke",
    "cluster": "mites",
    "title": "Mite Bites: What They Look Like (Photos)",
-   "wordCount": 2675,
+   "wordCount": 2957,
    "faqs": 10,
    "sources": 20,
    "inboundFromNewPages": 4,
-   "outboundInternalLinks": 16,
+   "outboundInternalLinks": 17,
    "status": "built"
   },
   {
@@ -2168,7 +2168,7 @@
    "wordCount": 2273,
    "faqs": 9,
    "sources": 20,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 2,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -2197,11 +2197,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "What Do Fleas Look Like? Up Close (Photos)",
-   "wordCount": 2320,
-   "faqs": 5,
-   "sources": 13,
-   "inboundFromNewPages": 10,
-   "outboundInternalLinks": 11,
+   "wordCount": 2728,
+   "faqs": 7,
+   "sources": 15,
+   "inboundFromNewPages": 11,
+   "outboundInternalLinks": 14,
    "status": "built"
   },
   {
@@ -2216,7 +2216,7 @@
    "wordCount": 3235,
    "faqs": 6,
    "sources": 11,
-   "inboundFromNewPages": 12,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -2245,11 +2245,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "House Centipede: Bites, ID and Control (Photos)",
-   "wordCount": 2891,
+   "wordCount": 2910,
    "faqs": 5,
    "sources": 13,
-   "inboundFromNewPages": 8,
-   "outboundInternalLinks": 12,
+   "inboundFromNewPages": 9,
+   "outboundInternalLinks": 13,
    "status": "built"
   },
   {
@@ -2264,7 +2264,7 @@
    "wordCount": 2502,
    "faqs": 10,
    "sources": 14,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -2293,11 +2293,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "How to Get Rid of Stink Bugs in the House",
-   "wordCount": 2880,
+   "wordCount": 2908,
    "faqs": 5,
    "sources": 13,
-   "inboundFromNewPages": 4,
-   "outboundInternalLinks": 10,
+   "inboundFromNewPages": 5,
+   "outboundInternalLinks": 11,
    "status": "built"
   },
   {
@@ -2309,11 +2309,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "Millipedes in the House? Why and What to Do",
-   "wordCount": 1900,
+   "wordCount": 1919,
    "faqs": 10,
    "sources": 11,
-   "inboundFromNewPages": 9,
-   "outboundInternalLinks": 7,
+   "inboundFromNewPages": 11,
+   "outboundInternalLinks": 8,
    "status": "built"
   },
   {
@@ -2392,7 +2392,7 @@
    "wordCount": 2173,
    "faqs": 10,
    "sources": 14,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 5,
    "status": "built"
   },
@@ -2405,11 +2405,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "Bugs in Flour or Rice? Pantry Pest ID (Photos)",
-   "wordCount": 2691,
+   "wordCount": 2712,
    "faqs": 6,
    "sources": 5,
    "inboundFromNewPages": 15,
-   "outboundInternalLinks": 11,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {
@@ -2472,7 +2472,7 @@
    "wordCount": 2272,
    "faqs": 10,
    "sources": 13,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 3,
    "outboundInternalLinks": 8,
    "status": "built"
   },
@@ -2485,11 +2485,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "Tiny Black Bugs in the House? ID Them (Photos)",
-   "wordCount": 2853,
-   "faqs": 6,
-   "sources": 15,
+   "wordCount": 3120,
+   "faqs": 9,
+   "sources": 17,
    "inboundFromNewPages": 19,
-   "outboundInternalLinks": 23,
+   "outboundInternalLinks": 26,
    "status": "built"
   },
   {
@@ -2533,11 +2533,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "Bugs That Look Like Fleas: How to Tell (Photos)",
-   "wordCount": 2601,
-   "faqs": 6,
-   "sources": 17,
+   "wordCount": 3073,
+   "faqs": 9,
+   "sources": 20,
    "inboundFromNewPages": 13,
-   "outboundInternalLinks": 16,
+   "outboundInternalLinks": 25,
    "status": "built"
   },
   {
@@ -2552,7 +2552,7 @@
    "wordCount": 2270,
    "faqs": 10,
    "sources": 13,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -2581,11 +2581,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "Beetles in the House? Identify Them (Photos)",
-   "wordCount": 2603,
+   "wordCount": 2620,
    "faqs": 9,
    "sources": 17,
    "inboundFromNewPages": 15,
-   "outboundInternalLinks": 15,
+   "outboundInternalLinks": 16,
    "status": "built"
   },
   {
@@ -2613,11 +2613,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "Tiny Brown Bugs in the House? ID Them (Photos)",
-   "wordCount": 2517,
+   "wordCount": 3307,
    "faqs": 10,
-   "sources": 15,
+   "sources": 19,
    "inboundFromNewPages": 15,
-   "outboundInternalLinks": 25,
+   "outboundInternalLinks": 32,
    "status": "built"
   },
   {
@@ -2728,7 +2728,7 @@
    "wordCount": 2294,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 17,
    "status": "built"
   },
@@ -2824,7 +2824,7 @@
    "wordCount": 2320,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 2,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -2853,11 +2853,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "Tiny White Bugs in the House? ID Them (Photos)",
-   "wordCount": 2505,
+   "wordCount": 2666,
    "faqs": 10,
-   "sources": 19,
+   "sources": 20,
    "inboundFromNewPages": 7,
-   "outboundInternalLinks": 26,
+   "outboundInternalLinks": 27,
    "status": "built"
   },
   {
@@ -2869,11 +2869,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "Bugs in the Bathroom? Identify Them (Photos)",
-   "wordCount": 2498,
+   "wordCount": 2518,
    "faqs": 10,
    "sources": 19,
    "inboundFromNewPages": 6,
-   "outboundInternalLinks": 29,
+   "outboundInternalLinks": 30,
    "status": "built"
   },
   {
@@ -2904,7 +2904,7 @@
    "wordCount": 1907,
    "faqs": 10,
    "sources": 15,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 3,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -2997,11 +2997,11 @@
    "kind": "spoke",
    "cluster": "wildlife",
    "title": "Noises in Attic at Night? ID the Animal (Photos)",
-   "wordCount": 2134,
+   "wordCount": 2161,
    "faqs": 10,
    "sources": 17,
    "inboundFromNewPages": 16,
-   "outboundInternalLinks": 12,
+   "outboundInternalLinks": 13,
    "status": "built"
   },
   {
@@ -3013,11 +3013,11 @@
    "kind": "spoke",
    "cluster": "wildlife",
    "title": "Small Holes in Yard? What Dug Them (Photos)",
-   "wordCount": 1966,
+   "wordCount": 1987,
    "faqs": 10,
    "sources": 14,
    "inboundFromNewPages": 14,
-   "outboundInternalLinks": 12,
+   "outboundInternalLinks": 13,
    "status": "built"
   },
   {
@@ -3029,11 +3029,11 @@
    "kind": "spoke",
    "cluster": "wildlife",
    "title": "Animal Poop Identification Chart (Photos)",
-   "wordCount": 1800,
-   "faqs": 9,
-   "sources": 18,
+   "wordCount": 2188,
+   "faqs": 10,
+   "sources": 20,
    "inboundFromNewPages": 19,
-   "outboundInternalLinks": 20,
+   "outboundInternalLinks": 25,
    "status": "built"
   },
   {
@@ -3061,11 +3061,11 @@
    "kind": "spoke",
    "cluster": "wildlife",
    "title": "Raccoon Poop: ID Raccoon Latrines (Photos)",
-   "wordCount": 1973,
+   "wordCount": 1995,
    "faqs": 10,
    "sources": 13,
    "inboundFromNewPages": 7,
-   "outboundInternalLinks": 11,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {
@@ -3093,11 +3093,11 @@
    "kind": "spoke",
    "cluster": "wildlife",
    "title": "Squirrel Poop: What It Looks Like (Photos)",
-   "wordCount": 1986,
+   "wordCount": 2012,
    "faqs": 10,
    "sources": 19,
    "inboundFromNewPages": 9,
-   "outboundInternalLinks": 15,
+   "outboundInternalLinks": 16,
    "status": "built"
   },
   {
@@ -3109,11 +3109,11 @@
    "kind": "spoke",
    "cluster": "wildlife",
    "title": "Possum vs Opossum: Is There a Difference?",
-   "wordCount": 2076,
+   "wordCount": 2096,
    "faqs": 10,
    "sources": 17,
    "inboundFromNewPages": 1,
-   "outboundInternalLinks": 5,
+   "outboundInternalLinks": 6,
    "status": "built"
   },
   {
@@ -3125,11 +3125,11 @@
    "kind": "spoke",
    "cluster": "wildlife",
    "title": "Deer Poop: What Deer Droppings Look Like",
-   "wordCount": 1708,
+   "wordCount": 1727,
    "faqs": 10,
    "sources": 19,
    "inboundFromNewPages": 3,
-   "outboundInternalLinks": 8,
+   "outboundInternalLinks": 9,
    "status": "built"
   },
   {
@@ -4659,6 +4659,62 @@
    "status": "not built"
   },
   {
+   "rank": null,
+   "keyword": "phorid flies",
+   "url": "/blog/phorid-flies",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "stink bug eggs",
+   "url": "/blog/stink-bug-eggs",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "coyote poop",
+   "url": "/blog/coyote-poop",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "bear poop",
+   "url": "/blog/bear-poop",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "squirrel nest",
+   "url": "/blog/squirrel-nest",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "drugstore beetle",
+   "url": "/blog/drugstore-beetles",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "centipede vs millipede",
+   "url": "/blog/centipede-vs-millipede",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "animal tracks in snow",
+   "url": "/blog/animal-tracks-in-snow",
+   "action": "new",
+   "status": "not built"
+  },
+  {
    "rank": 1,
    "keyword": "how to get rid of mice",
    "us_volume": 93000,
@@ -4784,7 +4840,7 @@
    "wordCount": 2812,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 15,
+   "inboundFromNewPages": 16,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -4832,7 +4888,7 @@
    "wordCount": 2553,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 12,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -5170,7 +5226,7 @@
    "wordCount": 2398,
    "faqs": 9,
    "sources": 6,
-   "inboundFromNewPages": 17,
+   "inboundFromNewPages": 18,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -5202,7 +5258,7 @@
    "wordCount": 2323,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 45,
+   "inboundFromNewPages": 47,
    "outboundInternalLinks": 15,
    "status": "built"
   },
@@ -5231,7 +5287,7 @@
    "kind": "spoke",
    "cluster": "mice",
    "title": "Vamoose for Mice: What's in It, Does It Work?",
-   "wordCount": 2888,
+   "wordCount": 2892,
    "faqs": 6,
    "sources": 6,
    "inboundFromNewPages": 6,
@@ -5742,7 +5798,7 @@
    "wordCount": 3549,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 39,
+   "inboundFromNewPages": 40,
    "outboundInternalLinks": 15,
    "status": "built"
   },
@@ -5840,7 +5896,7 @@
    "wordCount": 2812,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 15,
+   "inboundFromNewPages": 16,
    "outboundInternalLinks": 13,
    "status": "built"
   },
