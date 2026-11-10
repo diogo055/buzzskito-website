@@ -182,7 +182,10 @@ export interface Guide {
 // 15 new pages of that day.
 // Nov 10, 2026, owner, about the 11 guides upgraded Nov 8 (and the two Nov 10 rebuilds, which carry their
 // own reviewedBy): "They were all reviewed by me." Moved to Nov 8; no new page was published Nov 7-8.
-export const OWNER_REVIEWED_THROUGH = '2026-11-08'
+// Nov 10, 2026 (afternoon), owner, about the 16 guides released Nov 10 (the 10 top-10 pages and 6 of
+// the 7 competitor gaps): "I've read them". Moved to Nov 10; no other guide was published or changed
+// Nov 9-10. bugs-that-look-like-mosquitoes (released Nov 11) is not covered until he reads it.
+export const OWNER_REVIEWED_THROUGH = '2026-11-10'
 export const OWNER_REVIEWER = 'Alex Francisco'
 
 /** Who read and approved a guide (and when, if the day is on record), or null if nobody has yet.

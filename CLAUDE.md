@@ -111,8 +111,8 @@
   - **Since Nov 10, 2026 a read covers only the version he read.** A guide whose `dateModified` is after `OWNER_REVIEWED_THROUGH` (or after its own `reviewedOn`) shows "Published by BuzzSkito" until he reads it again (`guideReviewer()` in `lib/guides.ts`).
     - It first applied to the 11 guides upgraded Nov 8 and the Nov 10 rebuilds of german-cockroaches and house-centipedes.
     - The same night the owner said "They were all reviewed by me". `OWNER_REVIEWED_THROUGH` moved to 2026-11-08 for the 11, and the two rebuilds carry their own `reviewedBy` (Nov 10).
-    - The 10 pages released Nov 10 are not covered until he says he has read them.
-    - When he confirms he has read them, move `OWNER_REVIEWED_THROUGH`. A real content change moves `dateModified`; a link added to a page does not.
+    - **Moved to 2026-11-10 on Nov 10** (owner: "I've read them"): the 16 guides released Nov 10 (the 10 top-10 pages and 6 of the 7 competitor gaps). bugs-that-look-like-mosquitoes (released Nov 11) is not covered until he says he has read it.
+    - When he confirms he has read new pages, move `OWNER_REVIEWED_THROUGH`, but never past a day whose pages he has not all read. A real content change moves `dateModified`; a link added to a page does not.
 - **After adding or removing a guide run** `node scripts/us-pages-register.mjs`. It regenerates the route files, the `NEW_BLOGS_US_GUIDES` block in `lib/constants.ts`, `lib/us-guide-routes.ts` (phone quote bar hidden), `lib/us-guide-built.ts`, `new-urls.txt`, `build-manifest.json`, the llms.txt block and the top of the `URLS` array in `scripts/index-urls.mjs`.
 - **Regional editions:** 19 guides have a Canadian twin (Nov 4, 2026); `REGIONAL_PAIRS` in `lib/guides.ts` pairs them with hreflang so each country gets its own edition. Do not merge or redirect one into the other.
   - `node scripts/us-pages-regional.mjs` wires a new pair's Canadian TSX page. It runs over EVERY pair, though, and on Nov 4 it also added a "See the US edition" line to 5 other Canadian pages. Keep only the new twin's file.

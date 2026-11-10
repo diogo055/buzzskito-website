@@ -577,4 +577,4 @@ Ranked by expected clicks x value (`research_notes/God plan 10k a day/new_pages.
   - **NEXT:**
     1. Nov 11: release bugs-that-look-like-mosquitoes by hand (`RELEASE_DATE=2026-11-11` plus `PACE_OVERRIDE`) and add its pick in the same commit.
     2. Indexing on the Nov 11 run: the 7 gaps, which are listed in the queue.
-    3. Ask the owner whether he has read the Nov 10 pages before moving `OWNER_REVIEWED_THROUGH`.
+    3. ~~Ask the owner whether he has read the Nov 10 pages before moving `OWNER_REVIEWED_THROUGH`.~~ Done the same afternoon. Owner: "I've read them". `OWNER_REVIEWED_THROUGH` moved to 2026-11-10, so all 16 Nov 10 guides show "Reviewed by Alex Francisco". The Nov 11 mosquito page is not covered until he reads it.
