@@ -5970,6 +5970,20 @@
    "sha256Original": "fd3ecd7a0715b48647f5e39826beab64e01288db58e0013d8c2b951c2156baa5"
   },
   {
+   "file": "/guides/photos/german-cockroach-baseboard-gap.webp",
+   "subject": "German cockroach, Blattella germanica, in the gap between a chipped, painted baseboard and a wooden floor, among dust and hair (Washington, DC, September 19, 2023; research grade on iNaturalist, 2 identifiers; life stage not annotated)",
+   "sourceUrl": "https://www.inaturalist.org/observations/184338306",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/321758238/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Matthew Gerke, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 78838,
+   "sourceDescription": "Blattella germanica",
+   "downloadedOn": "2026-11-10",
+   "sha256Original": "ed653e0b2f3b27e9c375edc17a502bfb0035be16477aa6d043b39fda74447fcd"
+  },
+  {
    "file": "/guides/photos/german-cockroach-egg-case-hatchlings.webp",
    "subject": "German cockroach, Blattella germanica: an adult on a sticky trap beside an egg case (ootheca), with newly hatched pale nymphs stuck around it; the observer saw them hatching (Ontario)",
    "sourceUrl": "https://www.inaturalist.org/observations/289782406",
@@ -6026,6 +6040,20 @@
    "sha256Original": "328aea7b33aead0976cf046f026a3e9f3d823a8c0f6747ac3b91fb9e8983d1ac"
   },
   {
+   "file": "/guides/photos/german-cockroach-male-textured-wall.webp",
+   "subject": "German cockroach, Blattella germanica, adult male (as annotated on iNaturalist), seen from above on a white textured wall (Deerfield Beach, Florida, September 2, 2020; research grade on iNaturalist, 2 identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/58350323",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/93151606/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Sandra H Statner, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 244642,
+   "sourceDescription": "Blattella germanica",
+   "downloadedOn": "2026-11-10",
+   "sha256Original": "456dfbfb2673a9c6e4c94cdb079fb10a34da303c8de36c3dba70465a425e9795"
+  },
+  {
    "file": "/guides/photos/german-cockroach-nymph-closeup.webp",
    "subject": "German cockroach, Blattella germanica, nymph (as annotated), close-up on a speckled surface: wingless, dark brown with a paler patch on its back (research grade on iNaturalist; no location recorded)",
    "sourceUrl": "https://www.inaturalist.org/observations/2655956",
@@ -6038,6 +6066,20 @@
    "sourceDescription": "Blattella germanica",
    "downloadedOn": "2026-11-03",
    "sha256Original": "70574575be8db1ea43d568abb40f25cad976c4e60c108b43623efc4dcc23d052"
+  },
+  {
+   "file": "/guides/photos/german-cockroach-nymph-tan-stripe.webp",
+   "subject": "German cockroach, Blattella germanica, nymph (as annotated on iNaturalist), seen from above on a white crinkled surface: wingless, dark brown to black with a pale tan stripe down the middle of the back (Warrensburg, Missouri, June 19, 2025; research grade on iNaturalist, 2 identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/291117932",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/523760673/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) florawhite, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 917,
+   "bytes": 89328,
+   "sourceDescription": "Blattella germanica",
+   "downloadedOn": "2026-11-10",
+   "sha256Original": "21a26212318973ab3abe73281adbb539df1421eccb6c02f3236abd197ad9398c"
   },
   {
    "file": "/guides/photos/german-cockroach-nymphs.webp",
@@ -6192,6 +6234,20 @@
    "sourceDescription": "Hexagenia limbata",
    "downloadedOn": "2026-10-15",
    "sha256Original": "6eb454d7a29f7fb5faf9e53eac8e8b34152b9e3ec98b8f180cbde07ef8532682"
+  },
+  {
+   "file": "/guides/photos/giant-redheaded-centipede-in-house.webp",
+   "subject": "Giant redheaded centipede (giant desert centipede), Scolopendra heros, found inside a house on a bathroom counter and photographed in a clear glass dish before being released on the property (Austin, Texas; research grade on iNaturalist, three identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/112659561",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/190306672/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 243160,
+   "sourceDescription": "Scolopendra heros",
+   "downloadedOn": "2026-11-10",
+   "sha256Original": "a0e4fcf5e5bfe44a84caa107569a13053baa59e73f68e49266fb286d7709c1e8"
   },
   {
    "file": "/guides/photos/giant-walkingstick-wall.webp",
@@ -7161,6 +7217,48 @@
    "sha256Original": "0581b32592fd049bb094fcaef3abea2d685144d37bcb77ab6380bf6710b8bab4"
   },
   {
+   "file": "/guides/photos/house-centipede-basement-wall.webp",
+   "subject": "House centipede, Scutigera coleoptrata, on a basement wall (Killingworth, Connecticut; research grade on iNaturalist, two identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/25135587",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/38904590/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Michael K. Oliver, Ph.D., some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 19754,
+   "sourceDescription": "Scutigera coleoptrata",
+   "downloadedOn": "2026-11-10",
+   "sha256Original": "3214562aa17a592883df736ba4ba4b8412ca34711ee3541a2c2d09d797fe7bc7"
+  },
+  {
+   "file": "/guides/photos/house-centipede-bathtub.webp",
+   "subject": "House centipede, Scutigera coleoptrata, seen from above on a white surface; the observer notes they turn up in the bathtub (Kentucky; research grade on iNaturalist, two identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/123267826",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/208801812/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) M. Whitson, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 24684,
+   "sourceDescription": "Scutigera coleoptrata",
+   "downloadedOn": "2026-11-10",
+   "sha256Original": "030b0700710d92420bc60fdc8c659eb28e5ad006b83e4bb69c6f5f08611d4148"
+  },
+  {
+   "file": "/guides/photos/house-centipede-block-wall.webp",
+   "subject": "House centipede, Scutigera coleoptrata, on a white-painted concrete block wall (Columbus, Ohio; research grade on iNaturalist, three identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/19589730",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/30157308/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 800,
+   "bytes": 205174,
+   "sourceDescription": "Scutigera coleoptrata",
+   "downloadedOn": "2026-11-10",
+   "sha256Original": "10a01683a4c14792b874c57d8a820532904fcec815392b595b5704b967784a39"
+  },
+  {
    "file": "/guides/photos/house-centipede-on-wall.webp",
    "subject": "House centipede, Scutigera coleoptrata, adult on a wall (Sandusky, Ohio)",
    "sourceUrl": "https://www.inaturalist.org/observations/331736980",
@@ -7173,6 +7271,48 @@
    "sourceDescription": "Scutigera coleoptrata",
    "downloadedOn": "2026-10-16",
    "sha256Original": "7456cf22dd14accaff41addf660db666e364b076c3a9f48eaa334ccff1795888"
+  },
+  {
+   "file": "/guides/photos/house-centipede-sink-drain.webp",
+   "subject": "House centipede, Scutigera coleoptrata, on the wet bottom of a stainless steel sink beside the drain strainer",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scutigera_coleoptrata_in_a_sink.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Scutigera_coleoptrata_in_a_sink.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-SA-4.0",
+   "credit": "Bpetheo, CC BY-SA 4.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 1382,
+   "bytes": 244848,
+   "sourceDescription": "Scutigera coleoptrata in a sink",
+   "downloadedOn": "2026-11-10",
+   "sha256Original": "9fdb681d12f32f67797b69ab1768098062a4a28cae0cf06990a24e11917dfa88"
+  },
+  {
+   "file": "/guides/photos/house-centipede-venom-claws-underside.webp",
+   "subject": "House centipede, Scutigera coleoptrata, seen from below through a clear container, showing the underside of the head with the venom claws (forcipules) crossing under it, and the legs along the body; the observer moved it from a bathtub to the backyard (California; research grade on iNaturalist, four identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/19251730",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/29579803/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Kyle Elshoff, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1800,
+   "bytes": 152176,
+   "sourceDescription": "Scutigera coleoptrata",
+   "downloadedOn": "2026-11-10",
+   "sha256Original": "8361571da5cc158b6352367da60aa4f6e4ff90f22ada47d8171d63afe7e27479"
+  },
+  {
+   "file": "/guides/photos/house-centipede-young-fingertip.webp",
+   "subject": "Young house centipede, Scutigera coleoptrata (annotated juvenile), on a textured wall beside a fingertip for size (Chapel Hill, North Carolina; research grade on iNaturalist, three identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/90041348",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/148757782/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Lexi Amico, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1396,
+   "bytes": 121136,
+   "sourceDescription": "Scutigera coleoptrata",
+   "downloadedOn": "2026-11-10",
+   "sha256Original": "96346b02eaef587fb3fe023fb3541d05238e533602c122c4310c7ea4a196d274"
   },
   {
    "file": "/guides/photos/house-centipede.webp",

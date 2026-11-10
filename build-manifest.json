@@ -9,7 +9,7 @@
   "mergedIntoExistingPages": 9,
   "mergedIntoNewPages": 9,
   "notBuilt": 184,
-  "internalLinksInNewPages": 3955
+  "internalLinksInNewPages": 3968
  },
  "pages": [
   {
@@ -504,7 +504,7 @@
    "wordCount": 2438,
    "faqs": 6,
    "sources": 10,
-   "inboundFromNewPages": 13,
+   "inboundFromNewPages": 14,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -536,7 +536,7 @@
    "wordCount": 1784,
    "faqs": 10,
    "sources": 19,
-   "inboundFromNewPages": 17,
+   "inboundFromNewPages": 18,
    "outboundInternalLinks": 19,
    "status": "built"
   },
@@ -552,7 +552,7 @@
    "wordCount": 3136,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 12,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 18,
    "status": "built"
   },
@@ -568,7 +568,7 @@
    "wordCount": 2371,
    "faqs": 10,
    "sources": 19,
-   "inboundFromNewPages": 13,
+   "inboundFromNewPages": 14,
    "outboundInternalLinks": 19,
    "status": "built"
   },
@@ -584,7 +584,7 @@
    "wordCount": 2498,
    "faqs": 10,
    "sources": 14,
-   "inboundFromNewPages": 15,
+   "inboundFromNewPages": 16,
    "outboundInternalLinks": 19,
    "status": "built"
   },
@@ -632,7 +632,7 @@
    "wordCount": 2245,
    "faqs": 10,
    "sources": 8,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 2,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -2277,11 +2277,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "House Centipede: Bites, ID and Control (Photos)",
-   "wordCount": 2910,
-   "faqs": 5,
-   "sources": 13,
+   "wordCount": 3580,
+   "faqs": 10,
+   "sources": 20,
    "inboundFromNewPages": 10,
-   "outboundInternalLinks": 13,
+   "outboundInternalLinks": 20,
    "status": "built"
   },
   {
@@ -2904,7 +2904,7 @@
    "wordCount": 2518,
    "faqs": 10,
    "sources": 19,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 30,
    "status": "built"
   },
@@ -2936,7 +2936,7 @@
    "wordCount": 1907,
    "faqs": 10,
    "sources": 15,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -2952,7 +2952,7 @@
    "wordCount": 2541,
    "faqs": 10,
    "sources": 20,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 35,
    "status": "built"
   },
@@ -3064,7 +3064,7 @@
    "wordCount": 4067,
    "faqs": 6,
    "sources": 20,
-   "inboundFromNewPages": 40,
+   "inboundFromNewPages": 41,
    "outboundInternalLinks": 48,
    "status": "built"
   },
@@ -5082,12 +5082,12 @@
    "action": "new",
    "kind": "spoke",
    "cluster": "cockroaches",
-   "title": "German Cockroaches: Two Stripes, Bait Not Spray",
-   "wordCount": 3206,
-   "faqs": 6,
-   "sources": 7,
+   "title": "German Cockroach: How to Identify It (Photos)",
+   "wordCount": 3551,
+   "faqs": 10,
+   "sources": 10,
    "inboundFromNewPages": 25,
-   "outboundInternalLinks": 13,
+   "outboundInternalLinks": 19,
    "status": "built"
   },
   {

@@ -183,10 +183,14 @@ export interface Guide {
 export const OWNER_REVIEWED_THROUGH = '2026-11-06'
 export const OWNER_REVIEWER = 'Alex Francisco'
 
-/** Who read and approved a guide (and when, if the day is on record), or null if nobody has yet. */
-export function guideReviewer(g: Pick<Guide, 'reviewedBy' | 'reviewedOn' | 'datePublished'>): { name: string; on?: string } | null {
-  if (g.reviewedBy && g.reviewedOn) return { name: g.reviewedBy, on: g.reviewedOn }
-  if (g.datePublished.slice(0, 10) <= OWNER_REVIEWED_THROUGH) return { name: OWNER_REVIEWER }
+/** Who read and approved a guide (and when, if the day is on record), or null if nobody has yet.
+ *  A read covers the version he read: a page rewritten after it (a later dateModified) shows
+ *  "Published by BuzzSkito" until he reads it again (Nov 10, 2026, after the Nov 8 upgrades and the
+ *  Nov 10 rebuilds of german-cockroaches and house-centipedes). */
+export function guideReviewer(g: Pick<Guide, 'reviewedBy' | 'reviewedOn' | 'datePublished' | 'dateModified'>): { name: string; on?: string } | null {
+  const lastChange = (g.dateModified || g.datePublished).slice(0, 10)
+  if (g.reviewedBy && g.reviewedOn && lastChange <= g.reviewedOn.slice(0, 10)) return { name: g.reviewedBy, on: g.reviewedOn }
+  if (g.datePublished.slice(0, 10) <= OWNER_REVIEWED_THROUGH && lastChange <= OWNER_REVIEWED_THROUGH) return { name: OWNER_REVIEWER }
   return null
 }
 

@@ -1,6 +1,6 @@
 # Photos and diagrams the new guides still need
 
-579 images across 239 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
+575 images across 238 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
 
 ## /learn/bed-bugs
 
@@ -412,9 +412,7 @@
 
 ## /blog/german-cockroaches
 
-- Top-down close-up photo of an adult German cockroach beside a US penny for scale, sharp enough to show the two dark parallel stripes on the pronotum behind the head
-- Side-view photo of a female German cockroach carrying a purse-shaped egg case at the tip of her abdomen, with two or three dark nymphs of different sizes in the same frame for comparison
-- Diagram of a kitchen in cutaway showing where to put pea-sized gel bait dots (cabinet hinges and corners, under the sink, behind the stove and refrigerator) and where to set sticky traps along floor and wall junctions
+- Photo of German cockroaches gathered in the corner of a kitchen cabinet, along a cabinet hinge or on the pipes under a kitchen sink, as a homeowner would see them with a flashlight, beside a ruler marked in inches
 
 ## /blog/what-do-baby-cockroaches-look-like
 
@@ -881,11 +879,6 @@
 ## /blog/carpet-beetle-rash
 
 - A carpet beetle dermatitis rash: scattered red, raised bumps on the thigh, arm, chest or abdomen of a patient whose rash a physician attributed to carpet beetle larvae, ideally with the identified larva beside a ruler marked in inches; public domain or CC0
-
-## /blog/house-centipedes
-
-- Close-up photo of a young house centipede with fewer than 15 pairs of legs next to an adult, on a white surface beside a ruler marked in inches, so the leg count and the size difference are both visible
-- Side-by-side photos on a white background beside a ruler marked in inches: a house centipede, a giant redheaded centipede (Scolopendra heros) and a soil centipede, showing the differences in leg length, leg count and size
 
 ## /blog/how-to-get-rid-of-silverfish
 

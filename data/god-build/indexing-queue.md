@@ -54,6 +54,11 @@ Rebuilt Nov 3, 2026 (evening) from a URL Inspection API check of all 738 sitemap
 - https://buzzskito.ca/blog/bear-poop (new; US 10K-100K; spring to fall)
 - https://buzzskito.ca/blog/stink-bug-eggs (new; US 10K-100K; May-August)
 
+Rebuilt Nov 10, 2026 in the proven template (owner's yes), both fact-checked. They are `recrawl`, on Google already; request them right after the 10 above:
+
+- https://buzzskito.ca/blog/german-cockroaches (`recrawl`; "german cockroach" US 100K-1M, our page around 15-16)
+- https://buzzskito.ca/blog/house-centipedes (`recrawl`; "house centipede" US 100K-1M, our page around 12)
+
 Released Nov 6, 2026 (afternoon; mosquito & tick build, top 10), new pages. Nov 9 check: Google had found 7 of the 10 by itself; the other 3 were requested on Nov 9:
 
 - https://buzzskito.ca/blog/what-do-mosquito-bites-look-like (new; bite photo page, "what do mosquito bites look like"); indexed (checked 2026-11-09)

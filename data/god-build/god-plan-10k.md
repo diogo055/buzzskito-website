@@ -537,3 +537,12 @@ Ranked by expected clicks x value (`research_notes/God plan 10k a day/new_pages.
     2. TSX link-in: the what-does-a-spider-bite-look-like FAQ goes to /blog/brown-recluse.
     3. Pushes the owner was offered: german-cockroaches and house-centipedes, rebuilt in the template.
     4. Cap: 15 new-page slots in the 7 days after Nov 12. Remind the owner whenever he asks for more pages this week.
+- **2026-11-10 (night of Nov 9 Toronto): the owner's "push everything".** His words: "There's no risk of speed... as long as every page actually provides value and they're not like just templated pages. So you can push everything if everything is good to go."
+  - **Release:** the 10 pages above went live by hand (`PACE_OVERRIDE`, release 2026-11-10, commit 2396051c).
+  - **amazon.com picks:** added for 8 of them; stink-bug-eggs and animal-tracks-in-snow are `_noPick`.
+  - **Fix earlier the same night (b5a51cce):** `lib/us-guide-built.ts` hadn't been regenerated after the plan entries, so the link-ins briefly rendered as real links to 404s. Re-run the register script after adding plan entries.
+  - **Rebuilt in the template, with the owner's yes:**
+    - german-cockroaches: checker found 288 claims, 16 corrected, 5 softened. The fogger study now cites the paper: gel baits gave significant declines, not elimination within the month.
+    - house-centipedes: checker found 395 claims, 12 corrected, 3 softened. The `picks` block is byte-identical.
+    - Both are drafted in scratchpad `top10/rebuild/`, moved in, and recorded.
+  - **Byline rule:** since Nov 10, `guideReviewer()` covers only the version the owner read. A guide changed after `OWNER_REVIEWED_THROUGH` shows "Published by BuzzSkito" until he re-reads it. That is 13 pages: the 11 Nov 8 upgrades and the 2 rebuilds. He was asked; this is the honest default.
