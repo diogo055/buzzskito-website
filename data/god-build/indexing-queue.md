@@ -35,11 +35,12 @@ Rebuilt Nov 3, 2026 (evening) from a URL Inspection API check of all 738 sitemap
 - **Use the inspect box:** the direct `search-console/inspect?...&id=` link returned a Google 404, so use the "Inspect any URL" box (step 2).
 
 **Next run: from about 5:15 pm Toronto on Nov 10.**
-1. `/blog/oriental-cockroaches` first.
-2. Then every line below marked **still needed (Nov 9 check)**, winter money pages before off-season ones.
+1. The 10 new pages released the night of Nov 9 (just below) FIRST: new pages before old.
+2. Then `/blog/oriental-cockroaches`.
+3. Then every line below marked **still needed (Nov 9 check)**, winter money pages before off-season ones.
 
-**Released Nov 12, 2026: the owner's Nov 9 "top 10".** These were scheduled, written from fresh research in the proven photo-ID template, and fact-checked.
-- **When:** they are new pages, so request them FIRST, on the first run after they go live. That is about 5:15 pm Toronto on Nov 12, once the Nov 11 batch has aged out.
+**Released the night of Nov 9, 2026 (release date Nov 10 UTC): the owner's "top 10".** Written from fresh research in the proven photo-ID template and fact-checked. The owner lifted the pace cap for them ("push everything if everything is good to go").
+- **When:** they are new pages, so request them FIRST, on the Nov 10 evening run.
 - **Order:** winter value first.
 
 - https://buzzskito.ca/blog/brown-recluse (new; "brown recluse" US 100K-1M)

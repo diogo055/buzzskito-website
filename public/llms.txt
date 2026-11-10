@@ -432,6 +432,7 @@ Source-cited identification and how-to guides written for readers in the United 
 - Cellar Spiders (Daddy Long Legs): Do They Bite, and How to Tell a Harvestman: https://buzzskito.ca/blog/daddy-long-legs
 - Joro Spiders: How to Identify Them, Where They've Spread, Are They Dangerous?: https://buzzskito.ca/blog/joro-spiders
 - Wolf Spiders: Identification, Bites and the Babies on Their Backs: https://buzzskito.ca/blog/wolf-spiders
+- Brown Recluse Spiders: How to Identify One and Where They Really Live: https://buzzskito.ca/blog/brown-recluse
 - Spiders That Look Like Brown Recluses: How to Tell Them Apart: https://buzzskito.ca/blog/brown-recluse-look-alikes
 - Common House Spiders: How to Identify Them and Why They Come Inside: https://buzzskito.ca/blog/house-spiders
 - Spiders in California: Common Species and the Brown Recluse Myth: https://buzzskito.ca/blog/spiders-in-california
@@ -470,6 +471,7 @@ Source-cited identification and how-to guides written for readers in the United 
 - Maggots: What They Are, Where They Come From and How to Get Rid of Them: https://buzzskito.ca/blog/maggots
 - How to Get Rid of Fruit Flies: Find the Source, Trap the Adults, Keep Them Out: https://buzzskito.ca/blog/fruit-flies
 - Best Fruit Fly Traps: What Works, What to Buy and Where to Put Them: https://buzzskito.ca/blog/best-fruit-fly-traps
+- Phorid Flies: How to Identify Them and Find Where They Breed: https://buzzskito.ca/blog/phorid-flies
 
 ### Mites and chiggers
 - Dust Mites: What They Look Like, Where They Live and How to Reduce Them: https://buzzskito.ca/blog/dust-mites
@@ -527,6 +529,9 @@ Source-cited identification and how-to guides written for readers in the United 
 - Tiny Red Bugs: What They Are, Where You Find Them and Which Ones Bite (Photos): https://buzzskito.ca/blog/tiny-red-bugs
 - Best Flea Spray for the House: Carpets, Furniture and Pet Bedding: https://buzzskito.ca/blog/best-flea-spray-for-home
 - Bugs in Your Christmas Tree: What They Are and What to Do: https://buzzskito.ca/blog/christmas-tree-bugs
+- Stink Bug Eggs: What They Look Like, Where You Find Them and What to Do: https://buzzskito.ca/blog/stink-bug-eggs
+- Drugstore Beetles: How to Identify Them and Find the Source: https://buzzskito.ca/blog/drugstore-beetles
+- Centipede vs Millipede: How to Tell Them Apart (and Which One Bites): https://buzzskito.ca/blog/centipede-vs-millipede
 
 ### Bug bites and stings
 - Bug Bite Identification: Pictures and Clues to What Bit You: https://buzzskito.ca/learn/bug-bites
@@ -539,12 +544,17 @@ Source-cited identification and how-to guides written for readers in the United 
 - Raccoon Poop: What Raccoon Droppings and Latrines Look Like: https://buzzskito.ca/blog/raccoon-poop
 - Bat Poop: What Bat Droppings (Guano) Look Like and Whether They Are Dangerous: https://buzzskito.ca/blog/bat-poop
 - Squirrel Poop: What Squirrel Droppings Look Like, Next to Rat and Mouse Poop: https://buzzskito.ca/blog/squirrel-poop
+- Possum Poop: What Opossum Droppings Look Like and Where You Find Them: https://buzzskito.ca/blog/possum-poop
 - Possum vs Opossum: Are They the Same Animal, and How Do You Tell?: https://buzzskito.ca/blog/possum-vs-opossum
 - Deer Poop: What Deer Droppings Look Like, and Is It Dangerous?: https://buzzskito.ca/blog/deer-poop
 - Rabbit Poop: What Rabbit Droppings Look Like, in the Yard and From a Pet Rabbit: https://buzzskito.ca/blog/rabbit-poop
 - Baby Snakes: How to Identify a Baby Snake and Tell If It Is Venomous: https://buzzskito.ca/blog/baby-snakes
 - Skunk Smell in the House: Causes, the Gas-Leak Check and How to Get It Out: https://buzzskito.ca/blog/skunk-smell-in-house
 - Raccoon Repellent: What Actually Keeps Raccoons Away: https://buzzskito.ca/blog/raccoon-repellent
+- Coyote Poop: What Coyote Scat Looks Like and How to Tell It From Dog Poop: https://buzzskito.ca/blog/coyote-poop
+- Bear Poop: What Bear Scat Looks Like and What It Tells You: https://buzzskito.ca/blog/bear-poop
+- Squirrel Nests: What a Squirrel Nest Looks Like, in a Tree or in Your Attic: https://buzzskito.ca/blog/squirrel-nest
+- Animal Tracks in Snow: How to Identify the Tracks in Your Yard: https://buzzskito.ca/blog/animal-tracks-in-snow
 
 ### Hiring and DIY pest control
 - How Much Is Pest Control? Typical US Prices by Visit, Plan and Pest: https://buzzskito.ca/blog/how-much-is-pest-control

@@ -2,14 +2,14 @@
  "generated": "2026-11-10",
  "summary": {
   "keywords": 100,
-  "newPagesBuilt": 282,
+  "newPagesBuilt": 292,
   "hubPages": 4,
-  "guides": 267,
+  "guides": 277,
   "broadened": 9,
   "mergedIntoExistingPages": 9,
   "mergedIntoNewPages": 9,
-  "notBuilt": 194,
-  "internalLinksInNewPages": 3853
+  "notBuilt": 184,
+  "internalLinksInNewPages": 3955
  },
  "pages": [
   {
@@ -328,7 +328,7 @@
    "wordCount": 2214,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 19,
+   "inboundFromNewPages": 20,
    "outboundInternalLinks": 17,
    "status": "built"
   },
@@ -424,7 +424,7 @@
    "wordCount": 2648,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -456,7 +456,7 @@
    "wordCount": 2142,
    "faqs": 10,
    "sources": 20,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -1480,7 +1480,7 @@
    "wordCount": 3238,
    "faqs": 6,
    "sources": 18,
-   "inboundFromNewPages": 21,
+   "inboundFromNewPages": 22,
    "outboundInternalLinks": 20,
    "status": "built"
   },
@@ -1512,7 +1512,7 @@
    "wordCount": 2575,
    "faqs": 6,
    "sources": 12,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -1528,7 +1528,7 @@
    "wordCount": 2572,
    "faqs": 10,
    "sources": 14,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 18,
    "status": "built"
   },
@@ -1582,6 +1582,22 @@
   },
   {
    "rank": null,
+   "keyword": "brown recluse",
+   "us_volume": null,
+   "url": "/blog/brown-recluse",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "spiders",
+   "title": "Brown Recluse Spider: ID and Range (Photos)",
+   "wordCount": 3077,
+   "faqs": 10,
+   "sources": 19,
+   "inboundFromNewPages": 8,
+   "outboundInternalLinks": 13,
+   "status": "built"
+  },
+  {
+   "rank": null,
    "keyword": "spiders that look like brown recluse",
    "us_volume": null,
    "url": "/blog/brown-recluse-look-alikes",
@@ -1592,7 +1608,7 @@
    "wordCount": 2760,
    "faqs": 5,
    "sources": 16,
-   "inboundFromNewPages": 14,
+   "inboundFromNewPages": 15,
    "outboundInternalLinks": 15,
    "status": "built"
   },
@@ -1624,7 +1640,7 @@
    "wordCount": 3265,
    "faqs": 6,
    "sources": 19,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 24,
    "status": "built"
   },
@@ -1656,7 +1672,7 @@
    "wordCount": 3077,
    "faqs": 6,
    "sources": 17,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 18,
    "status": "built"
   },
@@ -1736,7 +1752,7 @@
    "wordCount": 3117,
    "faqs": 5,
    "sources": 20,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 23,
    "status": "built"
   },
@@ -1800,7 +1816,7 @@
    "wordCount": 2284,
    "faqs": 5,
    "sources": 15,
-   "inboundFromNewPages": 19,
+   "inboundFromNewPages": 20,
    "outboundInternalLinks": 15,
    "status": "built"
   },
@@ -1864,7 +1880,7 @@
    "wordCount": 2546,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 20,
    "status": "built"
   },
@@ -1992,7 +2008,7 @@
    "wordCount": 2406,
    "faqs": 10,
    "sources": 20,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 16,
    "status": "built"
   },
@@ -2008,7 +2024,7 @@
    "wordCount": 2330,
    "faqs": 10,
    "sources": 8,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 7,
    "status": "built"
   },
@@ -2056,7 +2072,7 @@
    "wordCount": 2637,
    "faqs": 10,
    "sources": 6,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 15,
    "status": "built"
   },
@@ -2088,7 +2104,7 @@
    "wordCount": 2580,
    "faqs": 10,
    "sources": 20,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 3,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -2104,7 +2120,7 @@
    "wordCount": 1748,
    "faqs": 10,
    "sources": 7,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 8,
    "status": "built"
   },
@@ -2122,6 +2138,22 @@
    "sources": 11,
    "inboundFromNewPages": 2,
    "outboundInternalLinks": 4,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "phorid flies",
+   "us_volume": null,
+   "url": "/blog/phorid-flies",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "flies",
+   "title": "Phorid Flies: ID Them, Find the Source (Photos)",
+   "wordCount": 3020,
+   "faqs": 10,
+   "sources": 17,
+   "inboundFromNewPages": 3,
+   "outboundInternalLinks": 11,
    "status": "built"
   },
   {
@@ -2184,7 +2216,7 @@
    "wordCount": 1999,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -2248,7 +2280,7 @@
    "wordCount": 2910,
    "faqs": 5,
    "sources": 13,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -2280,7 +2312,7 @@
    "wordCount": 2964,
    "faqs": 6,
    "sources": 12,
-   "inboundFromNewPages": 21,
+   "inboundFromNewPages": 22,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -2296,7 +2328,7 @@
    "wordCount": 2908,
    "faqs": 5,
    "sources": 13,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -2312,7 +2344,7 @@
    "wordCount": 1919,
    "faqs": 10,
    "sources": 11,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 8,
    "status": "built"
   },
@@ -2328,7 +2360,7 @@
    "wordCount": 2384,
    "faqs": 6,
    "sources": 13,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 7,
    "status": "built"
   },
@@ -2408,7 +2440,7 @@
    "wordCount": 2712,
    "faqs": 6,
    "sources": 5,
-   "inboundFromNewPages": 15,
+   "inboundFromNewPages": 16,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -2424,7 +2456,7 @@
    "wordCount": 1743,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -2520,7 +2552,7 @@
    "wordCount": 3047,
    "faqs": 5,
    "sources": 15,
-   "inboundFromNewPages": 23,
+   "inboundFromNewPages": 24,
    "outboundInternalLinks": 27,
    "status": "built"
   },
@@ -2584,7 +2616,7 @@
    "wordCount": 2620,
    "faqs": 9,
    "sources": 17,
-   "inboundFromNewPages": 15,
+   "inboundFromNewPages": 16,
    "outboundInternalLinks": 16,
    "status": "built"
   },
@@ -2616,7 +2648,7 @@
    "wordCount": 3307,
    "faqs": 10,
    "sources": 19,
-   "inboundFromNewPages": 15,
+   "inboundFromNewPages": 16,
    "outboundInternalLinks": 32,
    "status": "built"
   },
@@ -2744,7 +2776,7 @@
    "wordCount": 2647,
    "faqs": 10,
    "sources": 16,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -2872,7 +2904,7 @@
    "wordCount": 2518,
    "faqs": 10,
    "sources": 19,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 30,
    "status": "built"
   },
@@ -2888,7 +2920,7 @@
    "wordCount": 2444,
    "faqs": 8,
    "sources": 17,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 25,
    "status": "built"
   },
@@ -2920,7 +2952,7 @@
    "wordCount": 2541,
    "faqs": 10,
    "sources": 20,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 35,
    "status": "built"
   },
@@ -2974,6 +3006,54 @@
   },
   {
    "rank": null,
+   "keyword": "stink bug eggs",
+   "us_volume": null,
+   "url": "/blog/stink-bug-eggs",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Stink Bug Eggs: What They Look Like (Photos)",
+   "wordCount": 3169,
+   "faqs": 10,
+   "sources": 20,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 10,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "drugstore beetle",
+   "us_volume": null,
+   "url": "/blog/drugstore-beetles",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Drugstore Beetles: How to ID Them (Photos)",
+   "wordCount": 3125,
+   "faqs": 10,
+   "sources": 19,
+   "inboundFromNewPages": 3,
+   "outboundInternalLinks": 12,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "centipede vs millipede",
+   "us_volume": null,
+   "url": "/blog/centipede-vs-millipede",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Centipede vs Millipede: How to Tell (Photos)",
+   "wordCount": 2891,
+   "faqs": 10,
+   "sources": 20,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 5,
+   "status": "built"
+  },
+  {
+   "rank": null,
    "keyword": "bug bite identification",
    "us_volume": null,
    "url": "/learn/bug-bites",
@@ -2984,7 +3064,7 @@
    "wordCount": 4067,
    "faqs": 6,
    "sources": 20,
-   "inboundFromNewPages": 39,
+   "inboundFromNewPages": 40,
    "outboundInternalLinks": 48,
    "status": "built"
   },
@@ -3000,7 +3080,7 @@
    "wordCount": 2161,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 16,
+   "inboundFromNewPages": 18,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -3016,7 +3096,7 @@
    "wordCount": 1987,
    "faqs": 10,
    "sources": 14,
-   "inboundFromNewPages": 14,
+   "inboundFromNewPages": 16,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -3032,7 +3112,7 @@
    "wordCount": 2188,
    "faqs": 10,
    "sources": 20,
-   "inboundFromNewPages": 19,
+   "inboundFromNewPages": 23,
    "outboundInternalLinks": 25,
    "status": "built"
   },
@@ -3064,7 +3144,7 @@
    "wordCount": 1995,
    "faqs": 10,
    "sources": 13,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -3096,8 +3176,24 @@
    "wordCount": 2012,
    "faqs": 10,
    "sources": 19,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 16,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "possum poop",
+   "us_volume": null,
+   "url": "/blog/possum-poop",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "wildlife",
+   "title": "Possum Poop: What It Looks Like (Photos)",
+   "wordCount": 3039,
+   "faqs": 10,
+   "sources": 20,
+   "inboundFromNewPages": 9,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {
@@ -3112,7 +3208,7 @@
    "wordCount": 2096,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 3,
    "outboundInternalLinks": 6,
    "status": "built"
   },
@@ -3128,7 +3224,7 @@
    "wordCount": 1727,
    "faqs": 10,
    "sources": 19,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -3144,7 +3240,7 @@
    "wordCount": 2219,
    "faqs": 10,
    "sources": 20,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -3176,7 +3272,7 @@
    "wordCount": 2565,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 2,
    "outboundInternalLinks": 5,
    "status": "built"
   },
@@ -3194,6 +3290,70 @@
    "sources": 19,
    "inboundFromNewPages": 1,
    "outboundInternalLinks": 7,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "coyote poop",
+   "us_volume": null,
+   "url": "/blog/coyote-poop",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "wildlife",
+   "title": "Coyote Poop: What It Looks Like (Photos)",
+   "wordCount": 2540,
+   "faqs": 10,
+   "sources": 19,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 10,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "bear poop",
+   "us_volume": null,
+   "url": "/blog/bear-poop",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "wildlife",
+   "title": "Bear Poop: What Bear Scat Looks Like (Photos)",
+   "wordCount": 2571,
+   "faqs": 10,
+   "sources": 20,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 6,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "squirrel nest",
+   "us_volume": null,
+   "url": "/blog/squirrel-nest",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "wildlife",
+   "title": "Squirrel Nest: What It Looks Like (Photos)",
+   "wordCount": 3114,
+   "faqs": 10,
+   "sources": 20,
+   "inboundFromNewPages": 3,
+   "outboundInternalLinks": 7,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "animal tracks in snow",
+   "us_volume": null,
+   "url": "/blog/animal-tracks-in-snow",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "wildlife",
+   "title": "Animal Tracks in Snow: Who Left Them? (Photos)",
+   "wordCount": 2855,
+   "faqs": 10,
+   "sources": 20,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 16,
    "status": "built"
   },
   {
@@ -3224,7 +3384,7 @@
    "wordCount": 5170,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -3240,7 +3400,7 @@
    "wordCount": 3663,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 17,
+   "inboundFromNewPages": 18,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -3256,7 +3416,7 @@
    "wordCount": 4836,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -3336,7 +3496,7 @@
    "wordCount": 2590,
    "faqs": 10,
    "sources": 10,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -4177,13 +4337,6 @@
   },
   {
    "rank": null,
-   "keyword": "brown recluse",
-   "url": "/blog/brown-recluse",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "bird mites",
    "url": "/blog/bird-mites",
    "action": "new",
@@ -4639,13 +4792,6 @@
   },
   {
    "rank": null,
-   "keyword": "possum poop",
-   "url": "/blog/possum-poop",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "bed bug bites",
    "url": "/blog/what-do-bed-bug-bites-look-like",
    "action": "new",
@@ -4655,62 +4801,6 @@
    "rank": null,
    "keyword": "snake poop",
    "url": "/blog/snake-poop",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "phorid flies",
-   "url": "/blog/phorid-flies",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "stink bug eggs",
-   "url": "/blog/stink-bug-eggs",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "coyote poop",
-   "url": "/blog/coyote-poop",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "bear poop",
-   "url": "/blog/bear-poop",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "squirrel nest",
-   "url": "/blog/squirrel-nest",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "drugstore beetle",
-   "url": "/blog/drugstore-beetles",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "centipede vs millipede",
-   "url": "/blog/centipede-vs-millipede",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "animal tracks in snow",
-   "url": "/blog/animal-tracks-in-snow",
    "action": "new",
    "status": "not built"
   },
@@ -4856,7 +4946,7 @@
    "wordCount": 3325,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 20,
+   "inboundFromNewPages": 21,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -4904,7 +4994,7 @@
    "wordCount": 5382,
    "faqs": 8,
    "sources": 8,
-   "inboundFromNewPages": 43,
+   "inboundFromNewPages": 44,
    "outboundInternalLinks": 42,
    "status": "built"
   },
@@ -5274,7 +5364,7 @@
    "wordCount": 2772,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 27,
+   "inboundFromNewPages": 28,
    "outboundInternalLinks": 21,
    "status": "built"
   },
@@ -5584,7 +5674,7 @@
    "wordCount": 2685,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 10,
    "status": "built"
   },

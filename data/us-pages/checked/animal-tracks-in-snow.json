@@ -2,9 +2,14 @@
  "id": "animal-tracks-in-snow",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "a69133382717ed436686c12639dc25c35b9acd0dd8e5b64956cdfcd88478bda1",
+ "sha": "0fd2174570b75dfbb5da08d847d57fe835a89995135ff4ab3604ec9adf78f450",
  "claimsChecked": 310,
  "claimsCorrected": 19,
  "claimsRemovedOrSoftened": 18,
- "checkedOn": "2026-11-09"
+ "checkedOn": "2026-11-09",
+ "released": {
+  "on": "2026-11-10",
+  "scheduledFor": "2026-11-10",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

@@ -2,9 +2,14 @@
  "id": "squirrel-nest",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "d1008bc5ddd764d4dc3b28acde41a5264042f4f25b9341e009eaf3ecb06f8361",
+ "sha": "e5f19f56732b04dc968cef44b3bc9bf0775ea68e44f2980bb9a9a989aaf86d86",
  "claimsChecked": 275,
  "claimsCorrected": 28,
  "claimsRemovedOrSoftened": 12,
- "checkedOn": "2026-11-09"
+ "checkedOn": "2026-11-09",
+ "released": {
+  "on": "2026-11-10",
+  "scheduledFor": "2026-11-10",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

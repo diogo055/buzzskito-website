@@ -69,6 +69,20 @@
    ],
    "bar": true
   },
+  "/blog/animal-tracks-in-snow": {
+   "next": "/blog/holes-in-yard",
+   "related": [
+    "/blog/possum-vs-opossum",
+    "/blog/rabbit-poop",
+    "/blog/baby-snakes"
+   ],
+   "cards": [
+    "/blog/coyote-poop",
+    "/blog/raccoon-deterrent",
+    "/blog/animals-in-attic"
+   ],
+   "bar": true
+  },
   "/blog/animals-in-attic": {
    "next": "/blog/raccoon-proof-chimney-cap-canada",
    "related": [
@@ -312,6 +326,20 @@
     "/blog/raccoon-poop",
     "/blog/best-electric-fence-for-raccoons-canada",
     "/blog/holes-in-yard"
+   ],
+   "bar": true
+  },
+  "/blog/bear-poop": {
+   "next": "/blog/coyote-poop",
+   "related": [
+    "/blog/rabbit-poop",
+    "/blog/squirrel-poop",
+    "/blog/possum-poop"
+   ],
+   "cards": [
+    "/blog/deer-poop",
+    "/blog/raccoon-poop",
+    "/blog/animals-in-attic"
    ],
    "bar": true
   },
@@ -1696,6 +1724,20 @@
    ],
    "bar": true
   },
+  "/blog/brown-recluse": {
+   "next": "/blog/southern-house-spider",
+   "related": [
+    "/blog/spiders-in-california",
+    "/blog/brown-recluse-bite",
+    "/blog/black-widow-spiders"
+   ],
+   "cards": [
+    "/blog/daddy-long-legs",
+    "/blog/pseudoscorpions",
+    "/blog/wolf-spiders"
+   ],
+   "bar": true
+  },
   "/blog/brown-recluse-bite": {
    "next": "/blog/brown-recluse-look-alikes",
    "related": [
@@ -2054,6 +2096,20 @@
    ],
    "bar": true
   },
+  "/blog/centipede-vs-millipede": {
+   "next": "/blog/millipedes",
+   "related": [
+    "/blog/tiny-red-bugs",
+    "/blog/flea-bites",
+    "/blog/carpet-beetle-rash"
+   ],
+   "cards": [
+    "/blog/stick-bugs",
+    "/blog/booklice",
+    "/blog/house-centipedes"
+   ],
+   "bar": true
+  },
   "/blog/chapin-battery-backpack-sprayer-review-canada": {
    "next": "/blog/best-battery-backpack-sprayer-canada",
    "related": [
@@ -2200,6 +2256,20 @@
     "/blog/holes-in-yard",
     "/blog/raccoon-poop",
     "/blog/baby-snakes"
+   ],
+   "bar": true
+  },
+  "/blog/coyote-poop": {
+   "next": "/blog/deer-poop",
+   "related": [
+    "/blog/bear-poop",
+    "/blog/raccoon-poop",
+    "/blog/rabbit-poop"
+   ],
+   "cards": [
+    "/blog/best-live-animal-trap-canada",
+    "/blog/possum-vs-opossum",
+    "/blog/squirrel-nest"
    ],
    "bar": true
   },
@@ -2621,6 +2691,20 @@
     "/blog/crossfire-bed-bug-concentrate-review-canada",
     "/blog/packtite-vs-zappbug-canada"
    ]
+  },
+  "/blog/drugstore-beetles": {
+   "next": "/blog/spider-beetles",
+   "related": [
+    "/blog/stink-bug-eggs",
+    "/blog/tiny-red-bugs",
+    "/blog/carpet-beetle-larvae"
+   ],
+   "cards": [
+    "/blog/beetles-in-house",
+    "/blog/flea-eggs",
+    "/blog/signs-of-carpet-beetles"
+   ],
+   "bar": true
   },
   "/blog/dupray-neat-vs-hill-injection-canada": {
    "next": "/blog/dupray-vs-mcculloch-steamer-canada",
@@ -5232,6 +5316,20 @@
    ],
    "bar": true
   },
+  "/blog/phorid-flies": {
+   "next": "/blog/how-to-get-rid-of-drain-flies",
+   "related": [
+    "/blog/fruit-flies",
+    "/blog/how-to-get-rid-of-fruit-flies",
+    "/blog/electric-fly-swatter"
+   ],
+   "cards": [
+    "/blog/lovebugs",
+    "/blog/best-fruit-fly-traps",
+    "/blog/flies-in-house"
+   ],
+   "bar": true
+  },
   "/blog/picaridin-vs-deet": {
    "next": "/blog/off-deep-woods-deet-bug-spray-canada",
    "related": [
@@ -5271,6 +5369,20 @@
     "/blog/mosquito-screened-porch-kit-canada",
     "/blog/when-to-spray-mosquitoes-mississauga-2026"
    ]
+  },
+  "/blog/possum-poop": {
+   "next": "/blog/possum-vs-opossum",
+   "related": [
+    "/blog/deer-poop",
+    "/blog/raccoon-poop",
+    "/blog/rabbit-poop"
+   ],
+   "cards": [
+    "/blog/raccoon-deterrent",
+    "/blog/animal-tracks-in-snow",
+    "/blog/best-raccoon-proof-roof-vent-covers-canada"
+   ],
+   "bar": true
   },
   "/blog/possum-vs-opossum": {
    "next": "/blog/animals-in-attic",
@@ -5820,6 +5932,20 @@
    ],
    "bar": true
   },
+  "/blog/squirrel-nest": {
+   "next": "/blog/squirrel-poop",
+   "related": [
+    "/blog/animal-tracks-in-snow",
+    "/blog/baby-snakes",
+    "/blog/bat-poop"
+   ],
+   "cards": [
+    "/blog/best-live-animal-trap-canada",
+    "/blog/possum-poop",
+    "/blog/skunk-smell-in-house"
+   ],
+   "bar": true
+  },
   "/blog/squirrel-poop": {
    "next": "/blog/raccoon-poop",
    "related": [
@@ -5872,6 +5998,20 @@
     "/blog/millipedes",
     "/blog/what-do-fleas-look-like",
     "/blog/flea-dirt"
+   ],
+   "bar": true
+  },
+  "/blog/stink-bug-eggs": {
+   "next": "/blog/how-to-get-rid-of-stink-bugs",
+   "related": [
+    "/blog/tiny-red-bugs",
+    "/blog/baby-silverfish",
+    "/blog/drugstore-beetles"
+   ],
+   "cards": [
+    "/blog/termite-damage",
+    "/blog/bugs-in-bathroom",
+    "/blog/how-to-get-rid-of-carpet-beetles"
    ],
    "bar": true
   },

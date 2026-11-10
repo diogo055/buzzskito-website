@@ -13,7 +13,9 @@
     "sweat-bees": "Nothing to buy for sweat bees: the page says to brush one off gently, never swat, and leave them be as pollinators, and that 'None of the sources cited here recommends an insect repellent for sweat bees or hover flies'; its one product step, 'Cover sweet drinks', is for yellowjackets (fallback if wanted: a reusable soda can lid). The quick answer also carries MedlinePlus's 911 sting signs.",
     "gnat-bites": "Medical page: its quick answer carries an emergency-room warning, so no product box (same rule as fire-ant-stings and kissing-bug-bites).",
     "copperhead-look-alikes": "Venomous-snake ID and bite-care page that recommends nothing to buy: leave the snake alone, call animal control, get emergency care after a bite. Its only tool-shaped steps (a water hose from a safe distance, clearing yard debris) do not belong in a product box on this page, and tongs, traps and repellents are excluded by rule.",
-    "types-of-mosquitoes": "An identification page: it recommends nothing to buy."
+    "types-of-mosquitoes": "An identification page: it recommends nothing to buy.",
+    "stink-bug-eggs": "The page's advice is to remove or crush egg masses by hand or drop them in soapy water, and to leave dark (parasitized) masses alone: nothing to buy (Nov 10, 2026).",
+    "animal-tracks-in-snow": "An identification page: it recommends nothing to buy (Nov 10, 2026)."
   },
   "picks": {
     "alaska-mosquitoes": {
@@ -1551,6 +1553,54 @@
       "name": "Cordless handheld vacuum",
       "search": "cordless handheld vacuum",
       "basis": "Penn State's advice on the page: leave insects on the tree until it goes out and \"vacuum strays off ceilings, walls and windows\"; spider webs: \"a vacuum or dusting brush clears them\". The page advises against aerosol sprays on the tree, so the pick is non-chemical. Generic type; no brand."
+    },
+    "brown-recluse": {
+      "label": "To confirm recluses",
+      "name": "Sticky glue traps",
+      "search": "sticky glue traps for spiders",
+      "basis": "Quick answer and 'How do you confirm brown recluses?': 'Flat sticky traps along baseboards and behind furniture confirm them' (Illinois DPH, Univ. of Kentucky); the meta description: 'confirm an infestation with sticky traps'. Monitoring traps only; the page says spraying rarely works."
+    },
+    "drugstore-beetles": {
+      "label": "To store dry goods",
+      "name": "Airtight food storage containers",
+      "search": "airtight food storage containers",
+      "basis": "'Store dry goods in hard, sealed containers. UF/IFAS recommends airtight glass, metal or plastic and notes that clear containers make checks easy.' UC IPM prefers containers with tight-fitting lids and calls plastic bags inadequate."
+    },
+    "squirrel-nest": {
+      "label": "To close the opening",
+      "name": "1/4-inch hardware cloth",
+      "search": "1/4 inch hardware cloth",
+      "basis": "'In an attic, the lasting fix is to let the squirrels leave, close the opening with sheet metal or 1/4-inch hardware cloth, materials UC IPM lists as suitable.' Only after the young are out (the page's removal steps)."
+    },
+    "centipede-vs-millipede": {
+      "label": "To dry out the basement",
+      "name": "Dehumidifier",
+      "search": "dehumidifier for basement",
+      "basis": "'What should you do' section: EPA recommends indoor relative humidity under 60 percent, ideally 30 to 50, with a dehumidifier when needed; the extension services cited put moisture control first for both centipedes and millipedes. Same pick as house-centipedes."
+    },
+    "phorid-flies": {
+      "label": "To find the source",
+      "name": "Sticky fly traps",
+      "search": "sticky fly traps indoor",
+      "basis": "'Map the flies. Set sticky traps in several rooms.' and 'Keep a few sticky traps out for several weeks: falling catches suggest the source is gone.' The page says traps and sprays reach only the adults; the fix is removing the breeding material."
+    },
+    "coyote-poop": {
+      "label": "For cleanup",
+      "name": "Disposable gloves",
+      "search": "disposable nitrile gloves",
+      "basis": "Cleanup steps: 'Put on disposable gloves.' and 'Use gloves and a tool, avoid touching your face, and wash your hands afterward' (Minnesota DNR, WSU, CDC)."
+    },
+    "possum-poop": {
+      "label": "For cleanup",
+      "name": "Disposable gloves",
+      "search": "disposable nitrile gloves",
+      "basis": "Cleanup steps: 'Put on disposable gloves, and rubber boots you can scrub or disposable shoe covers'; ICWDM says to wear gloves and wash thoroughly after working with or near droppings."
+    },
+    "bear-poop": {
+      "label": "For garbage",
+      "name": "Bear-resistant trash can",
+      "search": "bear resistant trash can",
+      "basis": "'Keep garbage and recycling in a bear-resistant container or a sturdy building, and put cans out the morning of pickup, never the night before' (BearWise)."
     }
   }
 }

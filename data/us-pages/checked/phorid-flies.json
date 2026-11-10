@@ -2,9 +2,14 @@
  "id": "phorid-flies",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "722946cf4c829c6138a91f7c4d58c3b6345469b8abfd01a0521eb82718723065",
+ "sha": "701828bb6691d2409b8f138efcfdeb577d5b94216172028c4afff1d59496ecdc",
  "claimsChecked": 270,
  "claimsCorrected": 18,
  "claimsRemovedOrSoftened": 8,
- "checkedOn": "2026-11-09"
+ "checkedOn": "2026-11-09",
+ "released": {
+  "on": "2026-11-10",
+  "scheduledFor": "2026-11-10",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

@@ -2,9 +2,14 @@
  "id": "drugstore-beetles",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "3c235712410ce6f104facb30083ae2c5dc8a61d5c7d7ac5762358af4614cc19a",
+ "sha": "edd2b008860795b3e8b958261c88e6a1e75eab68513469be623bba938ec7186a",
  "claimsChecked": 267,
  "claimsCorrected": 14,
  "claimsRemovedOrSoftened": 11,
- "checkedOn": "2026-11-09"
+ "checkedOn": "2026-11-09",
+ "released": {
+  "on": "2026-11-10",
+  "scheduledFor": "2026-11-10",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

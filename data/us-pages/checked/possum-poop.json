@@ -2,9 +2,14 @@
  "id": "possum-poop",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "68de145117a15822ed571073ac0942b1859755e194daa541460a9a6855f1cdf5",
+ "sha": "80a601764a572a2756d544bfb74ab6de83ddff3eeba00ec394affa5f06525af5",
  "claimsChecked": 260,
  "claimsCorrected": 18,
  "claimsRemovedOrSoftened": 7,
- "checkedOn": "2026-11-09"
+ "checkedOn": "2026-11-09",
+ "released": {
+  "on": "2026-11-10",
+  "scheduledFor": "2026-11-10",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

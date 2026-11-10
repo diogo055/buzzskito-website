@@ -36,6 +36,22 @@
   "/guides/photos/rodent-droppings-drawer.webp",
   "/guides/photos/virginia-opossum.webp"
  ],
+ "/blog/animal-tracks-in-snow": [
+  "/guides/photos/coyote-tracks-snow-boot.webp",
+  "/guides/photos/eastern-cottontail-tracks-snow.webp",
+  "/guides/photos/eastern-gray-squirrel.webp",
+  "/guides/photos/gray-squirrel-tracks-snow-ruler.webp",
+  "/guides/photos/house-cat-track-snow-ruler.webp",
+  "/guides/photos/peromyscus-mouse-tracks-snow.webp",
+  "/guides/photos/raccoon-on-chimney.webp",
+  "/guides/photos/raccoon-tracks-snow-pavement.webp",
+  "/guides/photos/red-fox-track-snow-scale.webp",
+  "/guides/photos/striped-skunk-front-lawn-house.webp",
+  "/guides/photos/striped-skunk-tracks-snow.webp",
+  "/guides/photos/virginia-opossum.webp",
+  "/guides/photos/vole-hole-snowmelt.webp",
+  "/guides/photos/white-tailed-deer-yard-ontario.webp"
+ ],
  "/blog/animals-in-attic": [
   "/guides/photos/bat-droppings-ruler.webp",
   "/guides/photos/bat-droppings-siding.webp",
@@ -178,6 +194,19 @@
   "/guides/photos/house-mouse-on-stove.webp",
   "/guides/photos/mouse-droppings-ruler.webp",
   "/guides/photos/norway-rat-droppings-cornell.webp"
+ ],
+ "/blog/bear-poop": [
+  "/guides/photos/bear-scat-grass-spring.webp",
+  "/guides/photos/bear-scat-pile-lens-cap.webp",
+  "/guides/photos/black-bear-scat-after-hummingbird-feeders.webp",
+  "/guides/photos/black-bear-scat-backyard-paver.webp",
+  "/guides/photos/black-bear-scat-berries-pen.webp",
+  "/guides/photos/black-bear-scat-hickory-nuts-hand.webp",
+  "/guides/photos/black-bear-scat-persimmon-trail.webp",
+  "/guides/photos/black-bear-scat-plastic-bags.webp",
+  "/guides/photos/coyote-scat-ruler.webp",
+  "/guides/photos/deer-droppings-snow.webp",
+  "/guides/photos/raccoon-latrine-deck.webp"
  ],
  "/blog/bed-bug-bites": [
   "/diagrams/bite-pattern-comparison.svg",
@@ -630,6 +659,20 @@
   "/guides/photos/german-cockroach-nymphs.webp",
   "/guides/photos/white-american-cockroach-shed-skin.webp"
  ],
+ "/blog/brown-recluse": [
+  "/guides/photos/barn-funnel-weaver-indoor-wall.webp",
+  "/guides/photos/brown-recluse-basement-wall.webp",
+  "/guides/photos/brown-recluse-concrete-floor.webp",
+  "/guides/photos/brown-recluse-eyes.webp",
+  "/guides/photos/brown-recluse-quarter.webp",
+  "/guides/photos/brown-recluse-shed-skin.webp",
+  "/guides/photos/brown-recluse-white-wall.webp",
+  "/guides/photos/brown-recluses-sticky-trap.webp",
+  "/guides/photos/cellar-spider-bathroom-corner.webp",
+  "/guides/photos/rabid-wolf-spider.webp",
+  "/guides/photos/southern-house-spider-male.webp",
+  "/guides/photos/woodlouse-spider-bathroom-floor.webp"
+ ],
  "/blog/brown-recluse-bite": [
   "/guides/photos/brown-recluse-bite-early.webp",
   "/guides/photos/brown-recluse-bite-necrosis.webp",
@@ -859,6 +902,21 @@
   "/guides/photos/mosquito-bites-forearm.webp",
   "/guides/photos/scabies-rash-hand.webp"
  ],
+ "/blog/centipede-vs-millipede": [
+  "/guides/photos/american-giant-millipede-coiled-kitchen-floor.webp",
+  "/guides/photos/brown-centipede-found-indoors.webp",
+  "/guides/photos/cherry-millipede-patio-inch-cube.webp",
+  "/guides/photos/european-earwig-male.webp",
+  "/guides/photos/gray-silverfish.webp",
+  "/guides/photos/greenhouse-millipede-bathroom-penny.webp",
+  "/guides/photos/greenhouse-millipede.webp",
+  "/guides/photos/house-centipede-basement-floor.webp",
+  "/guides/photos/house-centipede-on-wall.webp",
+  "/guides/photos/millipede-legs-underside-sem.webp",
+  "/guides/photos/pill-bug-rolled-kitchen-floor.webp",
+  "/guides/photos/stone-centipede-forcipules-underside.webp",
+  "/guides/photos/wireworm-beside-dime.webp"
+ ],
  "/blog/chigger-bites": [
   "/diagrams/bite-pattern-comparison.svg",
   "/guides/photos/bed-bug-bites-forearm.webp",
@@ -917,6 +975,21 @@
   "/guides/photos/eastern-hognose-snake-usfws.webp",
   "/guides/photos/juvenile-copperhead-usfws.webp",
   "/guides/photos/northern-water-snake-leaves-usfws.webp"
+ ],
+ "/blog/coyote-poop": [
+  "/guides/photos/black-bear-scat-berries-pen.webp",
+  "/guides/photos/bobcat-scat-ruler.webp",
+  "/guides/photos/cottontail-droppings.webp",
+  "/guides/photos/coyote-defecating-camera-trap.webp",
+  "/guides/photos/coyote-scat-frozen-in-ice.webp",
+  "/guides/photos/coyote-scat-fruit-pits.webp",
+  "/guides/photos/coyote-scat-hair-ruler.webp",
+  "/guides/photos/coyote-scat-on-pavement.webp",
+  "/guides/photos/deer-droppings-snow.webp",
+  "/guides/photos/dog-poop-on-grass.webp",
+  "/guides/photos/gray-fox-scat-ruler.webp",
+  "/guides/photos/opossum-scat-gravel-trail.webp",
+  "/guides/photos/raccoon-latrine-deck.webp"
  ],
  "/blog/crazy-ants": [
   "/guides/photos/argentine-ants-trail-wall.webp",
@@ -1088,6 +1161,21 @@
   "/guides/photos/bed-bugs-male-female-cdc.webp",
   "/guides/photos/german-cockroach-frass-cabinet.webp",
   "/guides/photos/yellowjacket-ground-nest.webp"
+ ],
+ "/blog/drugstore-beetles": [
+  "/guides/photos/bed-bug-adult-ruler.webp",
+  "/guides/photos/carpet-beetle.webp",
+  "/guides/photos/cigarette-beetle-indoors-top-view.webp",
+  "/guides/photos/cigarette-beetle-larva-paprika.webp",
+  "/guides/photos/drugstore-beetle-larva.webp",
+  "/guides/photos/drugstore-beetle-lined-wing-covers.webp",
+  "/guides/photos/drugstore-beetle-old-cumin.webp",
+  "/guides/photos/drugstore-beetle-on-wall.webp",
+  "/guides/photos/drugstore-beetle-pantry-crackers.webp",
+  "/guides/photos/drugstore-beetle-spice-seeds-hole.webp",
+  "/guides/photos/red-flour-beetle.webp",
+  "/guides/photos/rice-weevil.webp",
+  "/guides/photos/smooth-spider-beetle-six-legs-top-view.webp"
  ],
  "/blog/dupray-steamer-review-canada": [
   "/guides/photos/bed-bug-fecal-spots-bed-frame.webp",
@@ -2045,6 +2133,22 @@
   "/guides/photos/gallinipper-biting-through-pants.webp",
   "/guides/photos/tick-check-sock-boot.webp"
  ],
+ "/blog/phorid-flies": [
+  "/guides/photos/biting-midge-culicoides.webp",
+  "/guides/photos/black-fly.webp",
+  "/guides/photos/drain-flies-sink.webp",
+  "/guides/photos/drain-fly-bathroom-wall.webp",
+  "/guides/photos/fruit-fly-mango-peel.webp",
+  "/guides/photos/fruit-fly.webp",
+  "/guides/photos/fungus-gnat-kitchen-counter.webp",
+  "/guides/photos/fungus-gnat-penny-scale.webp",
+  "/guides/photos/phorid-fly-apartment.webp",
+  "/guides/photos/phorid-fly-bathroom-sink-side.webp",
+  "/guides/photos/phorid-fly-fingertip.webp",
+  "/guides/photos/phorid-fly-raspberry-scale-bar.webp",
+  "/guides/photos/phorid-fly.webp",
+  "/guides/photos/springtail.webp"
+ ],
  "/blog/picaridin-vs-deet": [
   "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
   "/guides/photos/culex-pipiens.webp",
@@ -2059,6 +2163,20 @@
   "/guides/photos/pill-bugs-under-flowerpot.webp",
   "/guides/photos/springtail.webp",
   "/guides/photos/woodlouse-spider.webp"
+ ],
+ "/blog/possum-poop": [
+  "/guides/photos/cottontail-droppings.webp",
+  "/guides/photos/coyote-scat-ruler.webp",
+  "/guides/photos/deer-droppings-snow.webp",
+  "/guides/photos/gray-squirrel-droppings-ledge.webp",
+  "/guides/photos/opossum-porch-pet-bowl.webp",
+  "/guides/photos/opossum-scat-gravel-trail.webp",
+  "/guides/photos/opossum-scat-leaf-litter.webp",
+  "/guides/photos/raccoon-latrine-deck.webp",
+  "/guides/photos/raccoon-latrine-log.webp",
+  "/guides/photos/raccoon-scat-branch.webp",
+  "/guides/photos/rat-droppings-thumb.webp",
+  "/guides/photos/virginia-opossum.webp"
  ],
  "/blog/possum-vs-opossum": [
   "/guides/photos/norway-rat-face.webp",
@@ -2376,6 +2494,20 @@
   "/guides/photos/springtail.webp",
   "/guides/photos/springtails-under-houseplant.webp"
  ],
+ "/blog/squirrel-nest": [
+  "/guides/photos/american-crow-twig-nest.webp",
+  "/guides/photos/bald-faced-hornet-nest-winter-tree.webp",
+  "/guides/photos/bald-faced-hornet-nest.webp",
+  "/guides/photos/flying-squirrel-attic.webp",
+  "/guides/photos/gray-squirrel-droppings-ledge.webp",
+  "/guides/photos/gray-squirrel-inside-drey.webp",
+  "/guides/photos/gray-squirrel-leaf-nest-window.webp",
+  "/guides/photos/gray-squirrel-newborns-felled-tree.webp",
+  "/guides/photos/gray-squirrel-young-tree-cavity.webp",
+  "/guides/photos/roof-rat-rafters.webp",
+  "/guides/photos/squirrel-drey-bare-winter-tree.webp",
+  "/guides/photos/squirrel-drey-dead-leaves-closeup.webp"
+ ],
  "/blog/squirrel-poop": [
   "/guides/photos/bat-droppings-bat-box-ruler.webp",
   "/guides/photos/cottontail-droppings.webp",
@@ -2403,6 +2535,20 @@
   "/guides/photos/northern-walkingsticks-tree-trunk.webp",
   "/guides/photos/thread-legged-assassin-bug.webp",
   "/guides/photos/two-striped-walkingstick-pair.webp"
+ ],
+ "/blog/stink-bug-eggs": [
+  "/guides/photos/asian-lady-beetle.webp",
+  "/guides/photos/blacklegged-tick-nymph-fingernail.webp",
+  "/guides/photos/brown-marmorated-stink-bug-egg-mass-hatched-shells.webp",
+  "/guides/photos/brown-marmorated-stink-bug-egg-mass-unhatched-leaf.webp",
+  "/guides/photos/brown-marmorated-stink-bug-laying-eggs-window-glass.webp",
+  "/guides/photos/brown-marmorated-stink-bug-nymphs-egg-mass-thumb-scale.webp",
+  "/guides/photos/brown-marmorated-stink-bug-nymphs-leaving-egg-mass.webp",
+  "/guides/photos/lady-beetle-eggs-cluster-leaf.webp",
+  "/guides/photos/leaf-footed-bug-eggs-chain-stem.webp",
+  "/guides/photos/spined-soldier-bug-eggs-first-instar-nymphs.webp",
+  "/guides/photos/squash-bug-eggs-leaf.webp",
+  "/guides/photos/wheel-bug-nymphs-hatching-wall.webp"
  ],
  "/blog/sugar-ants": [
   "/guides/photos/argentine-ants-bait-trap.webp",

@@ -1,6 +1,6 @@
 # Photos and diagrams the new guides still need
 
-572 images across 234 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
+579 images across 239 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
 
 ## /learn/bed-bugs
 
@@ -660,6 +660,10 @@
 
 - Adult wolf spider identified to species, photographed from above beside a ruler marked in inches, sharp enough to compare body length with leg span; public domain or CC0
 
+## /blog/brown-recluse
+
+- Brown recluse egg sac in a home (a round, off-white silk sac about 1/3 inch across in a box, closet or crawl space), identified by an arachnologist or extension entomologist; public domain or CC0
+
 ## /blog/brown-recluse-look-alikes
 
 - Macro photo of a brown recluse's head from the front or above, identified by an arachnologist, sharp enough to show the six eyes in three separated pairs; public domain or CC0
@@ -837,6 +841,11 @@
 ## /blog/best-fruit-fly-traps
 
 - Fruit flies caught in a liquid-lure trap or a jar of cider vinegar on a US kitchen counter, beside a ruler marked in inches, the flies identified as Drosophila; public domain or CC0
+
+## /blog/phorid-flies
+
+- Phorid fly larvae and pupal cases (Megaselia scalaris) in wet organic matter, such as drain scum or a rotting potato, beside a ruler marked in inches; public domain, CC0 or CC BY, identified by an entomologist or a university diagnostic lab
+- Clear packing tape laid across a bathroom sink or floor drain overnight, with several small phorid or drain flies stuck to it, photographed from above beside a ruler marked in inches; public domain, CC0 or CC BY
 
 ## /blog/dust-mites
 
@@ -1117,6 +1126,10 @@
 
 - Close-up of a gloved hand spraying a home flea spray along the edge of a carpet at a baseboard, with the product's active ingredient panel visible; public domain or CC0
 
+## /blog/stink-bug-eggs
+
+- Dark brown or black, parasitized brown marmorated stink bug egg mass with rough-edged wasp exit holes, next to a pale hatched mass with open lids, beside a ruler marked in inches; public domain or CC0, identified by an extension service or university
+
 ## /learn/bug-bites
 
 - Close-up photo of a blacklegged tick nymph attached to human skin, showing the small red bump around the bite, beside a ruler marked in inches
@@ -1197,6 +1210,15 @@
 - A metal chimney cap with mesh sides bolted to the top of a brick house chimney, photographed from the roof in daylight (public domain or CC0)
 - Galvanized hardware cloth fastened along the bottom of a backyard deck and running down into an open trench, with the bottom edge bent outward, before backfilling, beside a tape measure in inches (public domain or CC0)
 - A motion-activated sprinkler staked at the edge of a backyard vegetable garden or fish pond, ideally caught mid-spray, with no brand name visible (public domain or CC0)
+
+## /blog/bear-poop
+
+- Black bear scat beside a ruler marked in inches on a lawn or driveway near a house, public domain or CC0, identified by a state wildlife agency or an experienced tracker
+
+## /blog/squirrel-nest
+
+- Photo of a squirrel nest inside an attic: leaves, twigs and shredded insulation piled near a chewed soffit or vent opening, beside a ruler marked in inches (public domain, CC0 or CC BY, identified by a wildlife agency or extension specialist)
+- Photo taken from the ground of a gray squirrel's chewed entry hole at a soffit, roof vent or gable of a house, showing the size of the hole against the trim
 
 ## /blog/diy-pest-control
 

@@ -2,9 +2,14 @@
  "id": "bear-poop",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "f321349ab7559e63c9c760bcd27f551b109154c5250dfa597be8bc926b9c6bfa",
+ "sha": "dbbc95d9e18212f805192a2055a5488e90a2b605a91733705d696b1f88b6b804",
  "claimsChecked": 230,
  "claimsCorrected": 23,
  "claimsRemovedOrSoftened": 27,
- "checkedOn": "2026-11-09"
+ "checkedOn": "2026-11-09",
+ "released": {
+  "on": "2026-11-10",
+  "scheduledFor": "2026-11-10",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

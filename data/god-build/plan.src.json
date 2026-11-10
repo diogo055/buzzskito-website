@@ -7480,7 +7480,7 @@
    ],
    "family": "spider-id",
    "priority": 2,
-   "releaseOn": "2026-11-12"
+   "releaseOn": "2026-11-10"
   },
   {
    "section": "blog",
@@ -14513,7 +14513,7 @@
    ],
    "family": "droppings",
    "priority": 2,
-   "releaseOn": "2026-11-12"
+   "releaseOn": "2026-11-10"
   },
   {
    "section": "blog",
@@ -19171,7 +19171,7 @@
    ],
    "family": "household",
    "priority": 1,
-   "releaseOn": "2026-11-12"
+   "releaseOn": "2026-11-10"
   },
   {
    "section": "blog",
@@ -19220,7 +19220,7 @@
    ],
    "family": "household",
    "priority": 1,
-   "releaseOn": "2026-11-12"
+   "releaseOn": "2026-11-10"
   },
   {
    "section": "blog",
@@ -19270,7 +19270,7 @@
    ],
    "family": "droppings",
    "priority": 1,
-   "releaseOn": "2026-11-12"
+   "releaseOn": "2026-11-10"
   },
   {
    "section": "blog",
@@ -19321,7 +19321,7 @@
    ],
    "family": "droppings",
    "priority": 1,
-   "releaseOn": "2026-11-12"
+   "releaseOn": "2026-11-10"
   },
   {
    "section": "blog",
@@ -19372,7 +19372,7 @@
    ],
    "family": "household",
    "priority": 1,
-   "releaseOn": "2026-11-12"
+   "releaseOn": "2026-11-10"
   },
   {
    "section": "blog",
@@ -19427,7 +19427,7 @@
    ],
    "family": "household",
    "priority": 1,
-   "releaseOn": "2026-11-12"
+   "releaseOn": "2026-11-10"
   },
   {
    "section": "blog",
@@ -19482,7 +19482,7 @@
    ],
    "family": "look-alikes",
    "priority": 1,
-   "releaseOn": "2026-11-12"
+   "releaseOn": "2026-11-10"
   },
   {
    "section": "blog",
@@ -19537,7 +19537,7 @@
    ],
    "family": "household",
    "priority": 1,
-   "releaseOn": "2026-11-12"
+   "releaseOn": "2026-11-10"
   }
  ]
 }
