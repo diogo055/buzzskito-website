@@ -70,8 +70,7 @@ export default function AdjacentPestCTA({
       <p className="text-sm leading-relaxed text-gray-700">
         BuzzSkito is a <strong>mosquito and tick</strong> company — that is the only
         thing we spray. We publish independent research on the rest because our
-        customers keep asking, and because nobody else in Canada was testing this
-        gear properly. No brand pays for a place in these guides.
+        customers keep asking. No brand pays for a place in these guides.
       </p>
       {/* Oct 2026, owner's decision: the quote pitch and its buttons were removed from article
           pages (see the note in the equipment variant above). */}

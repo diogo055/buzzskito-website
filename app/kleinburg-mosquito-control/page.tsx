@@ -13,6 +13,11 @@ export const metadata: Metadata = buildMetadata({
   description:
     "Kleinburg specialist mosquito and tick barrier spray for ravine-adjacent estate properties. Licensed Ontario operator, from $99/treatment, no contracts, rain-back guarantee. Kleinburg Village, Copperwood. Call (289) 216-5030.",
   canonical: '/kleinburg-mosquito-control',
+  // Nov 10, 2026 (owner, after the Google update risk audit: "take all the neighborhood pages off of
+  // Google... just keep the city pages"): kept for visitors and linked from /service-areas, out of
+  // Google's index. See "Location pages out of the index" in CLAUDE.md before indexing it again.
+  noIndex: true,
+  follow: true,
 })
 
 const CITY = 'Kleinburg'

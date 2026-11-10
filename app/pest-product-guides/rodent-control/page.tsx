@@ -21,7 +21,7 @@ const SECTIONS: HubSection[] = [
     intro: 'The trap-first strategy starts here. For mice, a modern plastic-jaw snap trap or a battery-powered electronic unit beats the old wooden classic on both catch rate and safety; for rats you need a heavier snap trap or a rat-rated electronic unit with the jaw strength to deliver a clean kill.',
     guides: [
       { href: '/blog/best-mouse-trap-canada', title: 'Best Mouse Trap Canada', blurb: 'Snap, electronic, and glue traps compared — which designs actually catch mice and which waste your money.', tone: 'top' },
-      { href: '/blog/victor-electronic-mouse-trap-review-canada', title: 'Victor Electronic Mouse Trap Review', blurb: 'A hands-on look at the battery-powered high-voltage trap that kills on contact and flags each catch.' },
+      { href: '/blog/victor-electronic-mouse-trap-review-canada', title: 'Victor Electronic Mouse Trap Review', blurb: 'A close look at the battery-powered high-voltage trap that kills on contact and flags each catch.' },
       { href: '/blog/best-rat-trap-canada', title: 'Best Rat Trap Canada', blurb: 'Heavy-duty snap and electronic traps sized for Norway and roof rats — the ones with the jaw strength to work.' },
     ],
   },

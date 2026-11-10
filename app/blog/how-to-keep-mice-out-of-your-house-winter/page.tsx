@@ -47,7 +47,7 @@ const FAQS = [
   },
   {
     question: 'Does peppermint oil repel mice?',
-    answer: 'Not reliably. Controlled testing has repeatedly shown that strong scents — peppermint oil, dryer sheets, predator urine — produce at best a brief avoidance response measured in hours to days, after which mice habituate and walk past or even nest near the scented material. A cotton ball of peppermint oil cannot compete with the survival pressure of a Canadian winter. Scent products are harmless as air freshener, but every dollar and hour spent on them is a dollar and hour not spent on the two things with actual evidence behind them: sealing 6 mm gaps and running a proper trap line.',
+    answer: 'Not reliably. Controlled testing has repeatedly shown that strong scents — peppermint oil, dryer sheets, predator urine — produce at best a brief avoidance response measured in hours to days, after which mice habituate and walk past or even nest near the scented material. A cotton ball of peppermint oil cannot compete with the survival pressure of a Canadian winter. Scent products work as air freshener at best, and every dollar and hour spent on them is a dollar and hour not spent on the two things with actual evidence behind them: sealing 6 mm gaps and running a proper trap line.',
   },
   {
     question: 'How do mice get in through a garage door?',

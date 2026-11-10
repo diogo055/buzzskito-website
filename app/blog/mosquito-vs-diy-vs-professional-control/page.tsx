@@ -77,7 +77,7 @@ export default function DIYvsProfessionalPage() {
             <li>Citronella candles reduce mosquito landings by only 11–42%, and only within about 1 metre of the flame.</li>
             <li>Consumer foggers and hose-end sprays last 1–7 days; professional barrier spray is renewed on a set schedule — every 2 weeks on Standard, monthly on Basic.</li>
             <li>DEET protects the wearer's skin but does nothing to reduce the yard's mosquito population.</li>
-            <li>BTI mosquito dunks kill larvae in standing water for about 30 days and are harmless to pets, birds, and fish.</li>
+            <li>BTI mosquito dunks kill larvae in standing water for about 30 days; Health Canada says Bti does not affect fish, birds or mammals.</li>
             <li>A Thermacell creates roughly a 6-metre repellent zone around a seated area — effective for a patio table, useless for a whole yard.</li>
             <li>Professional barrier spray starts from $99 per treatment and leaves a residual on the shaded vegetation where mosquitoes rest during the day.</li>
           </ul>
@@ -108,7 +108,7 @@ export default function DIYvsProfessionalPage() {
 
         <h2>The Two DIY Tools Actually Worth Buying</h2>
         <AffiliateDisclosure />
-        <p><strong>BTi mosquito dunks.</strong> Drop one into any standing water you cannot drain — rain barrels, pond edges, French drains, plant saucers — and the naturally-occurring bacterium kills mosquito larvae for about 30 days. Harmless to pets, birds, fish, and beneficial insects. Dunks stop mosquitoes from breeding on your property, but they do nothing about the adults already flying in from elsewhere.</p>
+        <p><strong>BTi mosquito dunks.</strong> Drop one into any standing water you cannot drain — rain barrels, pond edges, French drains, plant saucers — and the naturally-occurring bacterium kills mosquito larvae for about 30 days. Health Canada says Bti does not affect fish, birds, mammals or honeybees, though some other water insects can be affected. Dunks stop mosquitoes from breeding on your property, but they do nothing about the adults already flying in from elsewhere.</p>
         <div className="not-prose my-4">
           <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Summit Mosquito Dunks on Amazon.ca →</BuyLink>
         </div>

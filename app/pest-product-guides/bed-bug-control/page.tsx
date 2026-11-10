@@ -171,7 +171,7 @@ const SECTIONS: HubSection[] = [
     ],
   },
   {
-    name: 'Steamers Tested',
+    name: 'Steamers Compared',
     icon: '💨',
     intro: 'A steamer is the single most useful tool in a DIY bed bug kit — but only if it holds a high enough temperature at the nozzle. These are the two workhorses most Canadian buyers land on.',
     guides: [

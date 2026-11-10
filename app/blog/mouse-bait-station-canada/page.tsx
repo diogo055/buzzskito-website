@@ -282,7 +282,7 @@ export default function MouseBaitStationCanadaPage() {
 
           <h2>Related Reading</h2>
           <ul>
-            <li><Link href="/blog/best-mouse-trap-canada">Best Mouse Traps in Canada — Tested Picks</Link></li>
+            <li><Link href="/blog/best-mouse-trap-canada">Best Mouse Traps in Canada — Top Picks</Link></li>
             <li><Link href="/blog/victor-electronic-mouse-trap-review-canada">Victor Electronic Mouse Trap Review (Canada)</Link></li>
             <li><Link href="/blog/rat-poison-canada-what-is-legal">Rat Poison in Canada — What&rsquo;s Actually Legal</Link></li>
             <li><Link href="/blog/best-rat-trap-canada">Best Rat Traps in Canada</Link></li>

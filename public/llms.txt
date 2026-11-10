@@ -97,8 +97,6 @@ All prices in CAD, plus HST, for a standard lot under 10,000 sq ft. Larger lots 
 - Woodbridge: https://buzzskito.ca/woodbridge-mosquito-control
 - Thornhill: https://buzzskito.ca/thornhill-mosquito-control
 - York Region: https://buzzskito.ca/york-region-mosquito-control
-- Stoney Creek: https://buzzskito.ca/stoney-creek-mosquito-control
-- Waterdown: https://buzzskito.ca/waterdown-mosquito-control
 
 ## City Pages — Tick Control
 - Mississauga Tick Spray: https://buzzskito.ca/mississauga-tick-spray
@@ -120,43 +118,6 @@ All prices in CAD, plus HST, for a standard lot under 10,000 sq ft. Larger lots 
 - King City Tick Spray: https://buzzskito.ca/king-city-tick-spray
 - Woodbridge Tick Spray: https://buzzskito.ca/woodbridge-tick-spray
 - Thornhill Tick Spray: https://buzzskito.ca/thornhill-tick-spray
-
-## Toronto Neighbourhood Pages
-- High Park: https://buzzskito.ca/high-park-mosquito-control
-- Rosedale: https://buzzskito.ca/rosedale-mosquito-control
-- The Beaches: https://buzzskito.ca/the-beaches-mosquito-control
-- Leaside: https://buzzskito.ca/leaside-mosquito-control
-- East York: https://buzzskito.ca/east-york-mosquito-control
-- Willowdale: https://buzzskito.ca/willowdale-mosquito-control
-- Danforth: https://buzzskito.ca/danforth-mosquito-control
-
-## Oakville Neighbourhood Pages
-- Joshua Creek: https://buzzskito.ca/joshua-creek-mosquito-control
-- Old Oakville: https://buzzskito.ca/old-oakville-mosquito-control
-- North Oakville: https://buzzskito.ca/north-oakville-mosquito-control
-
-## Burlington Neighbourhood Pages
-- Alton Village: https://buzzskito.ca/alton-village-mosquito-control
-- Millcroft: https://buzzskito.ca/millcroft-mosquito-control
-
-## Brampton Neighbourhood Pages
-- Springdale: https://buzzskito.ca/springdale-mosquito-control
-- Bram West: https://buzzskito.ca/bram-west-mosquito-control
-- Heart Lake: https://buzzskito.ca/heart-lake-mosquito-control
-- Snelgrove: https://buzzskito.ca/snelgrove-mosquito-control
-- Fletcher Meadows: https://buzzskito.ca/fletcher-meadows-mosquito-control
-
-## Mississauga Neighbourhood Pages
-- Credit Valley: https://buzzskito.ca/credit-valley-mosquito-control
-
-## Caledon / Vaughan / Halton Hills Areas
-- Caledon East: https://buzzskito.ca/caledon-east-mosquito-control
-- Kleinburg: https://buzzskito.ca/kleinburg-mosquito-control
-
-## Hamilton Neighbourhood Pages
-- Ancaster: https://buzzskito.ca/ancaster-mosquito-control
-- Dundas: https://buzzskito.ca/dundas-mosquito-control
-- Flamborough: https://buzzskito.ca/flamborough-mosquito-control
 
 ## Comparison Pages
 - BuzzSkito vs a GTA franchise mosquito service: https://buzzskito.ca/buzzskito-vs-mosquitoman

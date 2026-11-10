@@ -99,7 +99,7 @@ export default function FieldKingBackpackSprayerReviewCanadaPage() {
             <span className="text-white">Field King Backpack Sprayer Review</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">A hands-on Canadian look at the Field King 190515 lithium battery backpack sprayer &mdash; how its constant-pressure battery pump compares to the manual 190328, what the pro-grade, rebuildable build actually buys you, and whether the premium is worth it for your property.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">A close Canadian look at the Field King 190515 lithium battery backpack sprayer &mdash; how its constant-pressure battery pump compares to the manual 190328, what the pro-grade, rebuildable build actually buys you, and whether the premium is worth it for your property.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>

@@ -12,6 +12,11 @@ export const metadata: Metadata = buildMetadata({
   description:
     'Mosquito control in East York, Toronto. Barrier spray near Taylor Creek from $99. Licensed operator. Call (289) 216-5030.',
   canonical: '/east-york-mosquito-control',
+  // Nov 10, 2026 (owner, after the Google update risk audit: "take all the neighborhood pages off of
+  // Google... just keep the city pages"): kept for visitors and linked from /service-areas, out of
+  // Google's index. See "Location pages out of the index" in CLAUDE.md before indexing it again.
+  noIndex: true,
+  follow: true,
 })
 
 const NEIGHBOURHOOD = 'East York'

@@ -129,7 +129,7 @@ const KIT = [
   {
     part: 'Larvicide',
     what: 'Bti dunks — a quarter dunk per barrel, monthly',
-    spec: 'The backstop. About 30 days per dunk, harmless to pets, fish and pollinators.',
+    spec: 'The backstop. About 30 days per dunk; its toxin targets only mosquito, black fly and fungus gnat larvae.',
     search: 'summit mosquito dunks',
   },
   {

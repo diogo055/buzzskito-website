@@ -221,7 +221,7 @@ export default function WhyMosquitoesBiteSomeMorePage() {
         <TopPick tag={AMZ_TAG}
           label="Best Pick for the Whole Household"
           name="Summit Mosquito Dunks (Bti larvicide)"
-          blurb="Bacillus thuringiensis israelensis is lethal to mosquito larvae and harmless to fish, birds, pets, and people. One floating dunk treats roughly 9 m² of standing water for 30 days. Unlike anything you put on your skin, this lowers the number of mosquitoes in the yard — which is the only intervention that protects the mosquito magnet in your family and everyone else at the same time."
+          blurb="Bacillus thuringiensis israelensis kills mosquito larvae; its toxin targets only the larvae of mosquitoes, black flies and fungus gnats. One floating dunk treats roughly 9 m² of standing water for 30 days. Unlike anything you put on your skin, this lowers the number of mosquitoes in the yard — which is the only intervention that protects the mosquito magnet in your family and everyone else at the same time."
           search="summit mosquito dunks"
           pros={['Reduces the mosquito population instead of just shielding one person', 'Safe around fish, birds, pets, and children', 'One dunk lasts 30 days in water you cannot drain']}
           cons={['Only reaches standing water on your own property', 'No effect on adults already flying']}

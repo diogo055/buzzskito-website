@@ -62,7 +62,7 @@ const FAQS = [
   },
   {
     question: 'Do I still need to treat standing water if I have traps?',
-    answer: 'Yes — source reduction is the foundation, and it makes every trap work better. A trap removes adults, but if your acreage has ponds, ditches, old tires, clogged gutters, tarps, or containers holding water, they are hatcheries producing new mosquitoes faster than any trap can remove them. Empty or drain what you can, and treat water you cannot remove (ornamental ponds, low spots, rain barrels) with Bti larvicide — mosquito dunks or bits — which kills larvae before they become biting adults and is harmless to fish, pets, and wildlife. Larvicide plus trapping plus a barrier spray around the living areas is the complete acreage program; any one alone leaves a gap.',
+    answer: 'Yes — source reduction is the foundation, and it makes every trap work better. A trap removes adults, but if your acreage has ponds, ditches, old tires, clogged gutters, tarps, or containers holding water, they are hatcheries producing new mosquitoes faster than any trap can remove them. Empty or drain what you can, and treat water you cannot remove (ornamental ponds, low spots, rain barrels) with Bti larvicide — mosquito dunks or bits — which kills larvae before they become biting adults; Health Canada says it does not affect fish, birds or mammals. Larvicide plus trapping plus a barrier spray around the living areas is the complete acreage program; any one alone leaves a gap.',
   },
   {
     question: 'What is the best mosquito trap for a cottage or seasonal property?',
@@ -307,7 +307,7 @@ export default function BestMosquitoTrapForAcreageCanadaPage() {
           <h2>The Complete Acreage Program</h2>
           <p>No single tool clears a large property. The strategy that actually works layers four steps, and traps are only one of them:</p>
           <ol>
-            <li><strong>Source reduction first.</strong> Empty or drain every container, tire, tarp, and clogged gutter, and treat water you cannot remove &mdash; ponds, low spots, rain barrels &mdash; with Bti larvicide (mosquito dunks or bits), which kills larvae before they become biting adults and is harmless to fish, pets, and wildlife.</li>
+            <li><strong>Source reduction first.</strong> Empty or drain every container, tire, tarp, and clogged gutter, and treat water you cannot remove &mdash; ponds, low spots, rain barrels &mdash; with Bti larvicide (mosquito dunks or bits), which kills larvae before they become biting adults. Health Canada says it does not affect fish, birds or mammals.</li>
             <li><strong>CO₂ traps for whole-property pressure.</strong> One propane unit per acre, placed and maintained as above, to thin the egg-laying population over the season.</li>
             <li><strong>Barrier spray around the living areas.</strong> A residual treatment on the vegetation around the house, patio, play zone, and paths kills mosquitoes on contact where they rest, is renewed on your plan&rsquo;s schedule (every 2 weeks on Standard, monthly on Basic), and &mdash; unlike any trap &mdash; also targets the ticks that thrive on rural and wooded land. See our <Link href="/mosquito-control">mosquito control service</Link> for how the seasonal program works.</li>
             <li><strong>A Thermacell on the deck</strong> for an instant personal repellent bubble while you are actually sitting outside.</li>

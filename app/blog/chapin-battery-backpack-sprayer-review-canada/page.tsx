@@ -99,7 +99,7 @@ export default function ChapinBatteryBackpackSprayerReviewCanadaPage() {
             <span className="text-white">Chapin 63924 Battery Backpack Sprayer Review</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">A hands-on-minded look at Chapin&rsquo;s 24V wide-mouth 4-gallon battery backpack sprayer &mdash; who it&rsquo;s actually for, how its runtime and tank access compare to cheaper 20V and manual backpacks, and the PMRA-legal way to use one in Canada.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">A close look at Chapin&rsquo;s 24V wide-mouth 4-gallon battery backpack sprayer &mdash; who it&rsquo;s actually for, how its runtime and tank access compare to cheaper 20V and manual backpacks, and the PMRA-legal way to use one in Canada.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>

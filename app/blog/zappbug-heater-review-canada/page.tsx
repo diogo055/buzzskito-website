@@ -74,7 +74,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Hands-on ZappBug Heater review for Canada: setup, real cycle times, what actually fits inside, electronics caveats, and how the heat chamber compares to renting a heater or paying for professional heat treatment. Updated 2026.',
+  description: 'ZappBug Heater review for Canada: setup, typical cycle times, what actually fits inside, electronics caveats, and how the heat chamber compares to renting a heater or paying for professional heat treatment. Updated 2026.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -99,7 +99,7 @@ export default function ZappBugHeaterReviewCanadaPage() {
             <span className="text-white">ZappBug Heater Review Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">The portable heat chamber that cooks bed bugs out of luggage, bedding, books, and shoes — reviewed for Canadian buyers: real cycle times, what actually fits, the electronics rules, and when a chamber beats renting a heater or paying for a pro heat job.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">The portable heat chamber that cooks bed bugs out of luggage, bedding, books, and shoes — reviewed for Canadian buyers: typical cycle times, what actually fits, the electronics rules, and when a chamber beats renting a heater or paying for a pro heat job.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -115,7 +115,7 @@ export default function ZappBugHeaterReviewCanadaPage() {
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The ZappBug Heater is the best portable bed bug heat chamber available to Canadians in 2026 — a pop-up, one-person-setup chamber that holds a full carry-on suitcase or a queen bedding set and kills every bed bug life stage, eggs included, by sustained heat. Our verdict: the science is bulletproof and the included wireless thermometer keeps you honest, but it treats belongings, not rooms — it is a complement to a whole-home strategy, not a replacement for one.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Adults and nymphs die at a sustained 45°C; eggs need roughly 48°C for 90 minutes; everything dies within minutes at 50°C — a chamber cycle targets a 49°C+ core hold.</li>
-              <li>Real cycle times: 1–2 hours for airy loads like bedding, 4–8 hours for dense loads like a packed suitcase or a box of books.</li>
+              <li>Typical cycle times: 1–2 hours for airy loads like bedding, 4–8 hours for dense loads like a packed suitcase or a box of books.</li>
               <li>Capacity per cycle: a carry-on suitcase plus shoes, or a full queen bedding set, or 2–3 banker boxes of books — not mattresses or furniture.</li>
               <li>Most powered-off electronics survive fine (storage ratings are typically 60°C+), but aerosols, candles, medications, vinyl, and glued instruments must stay out.</li>
               <li>In stock on Amazon.ca as of July 2026, sold by ZappBug directly; the ThermalStrike Ranger is the fallback if stock lapses.</li>

@@ -29,6 +29,11 @@ const nextConfig = {
       // Mediavine hosts the full partner list and keeps it current; its onboarding asks for a 301 from
       // /ads.txt to that copy. public/ads.txt was removed: a local copy would go stale when partners change.
       { source: '/ads.txt', destination: 'https://adstxt.journeymv.com/sites/5cb2e89b-2d2f-47ba-9cbf-599f203df724/ads.txt', statusCode: 301 },
+      // ── About page, 2026-11-10 (owner: "sure, you can point about to a history page for now") ─────────────
+      // /about and /about-us answered 404 (Google update risk audit). TEMPORARY (307) on purpose: the
+      // owners' real About Us page is coming. When it ships at /about, delete these two lines.
+      { source: '/about', destination: '/buzzskito-history', permanent: false },
+      { source: '/about-us', destination: '/buzzskito-history', permanent: false },
       // ── Geo-slug A/B test, 2026-09-03 (data/exp-slug-test.json) ─────────────
       // Treatment arm: slug loses its `-canada` suffix, TITLE keeps the geo token.
       // Revert these 12 entries and `git mv` back if the 6-week stop rule fires.

@@ -13242,11 +13242,11 @@
    "priority": 3,
    "gate": null,
    "parent": {
-    "href": "/learn/chiggers-by-state",
-    "name": "Chiggers by State"
+    "href": "/learn/mites",
+    "name": "Mites"
    },
    "mustLink": [
-    "/learn/chiggers-by-state"
+    "/blog/chigger-bites"
    ],
    "scope": "Mowing and habitat, the EPA-registered yard products and when they are worth it, why chiggers do not infest houses or beds, washing and showering after exposure, and repellents.",
    "flags": [

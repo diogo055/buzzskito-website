@@ -5244,7 +5244,7 @@
    ],
    "family": "biting-flies",
    "priority": 1,
-   "releaseOn": "2026-12-07"
+   "releaseOn": "2027-04-05"
   },
   {
    "section": "blog",
@@ -5563,7 +5563,7 @@
    ],
    "family": "ticks",
    "priority": 2,
-   "releaseOn": "2026-12-07"
+   "releaseOn": "2027-04-05"
   },
   {
    "section": "learn",
@@ -5899,7 +5899,7 @@
    ],
    "family": "mosquito-borne-disease",
    "priority": 2,
-   "releaseOn": "2026-12-07"
+   "releaseOn": "2027-04-05"
   },
   {
    "section": "blog",
@@ -6040,7 +6040,7 @@
    ],
    "family": "tick-borne-disease",
    "priority": 2,
-   "releaseOn": "2026-12-07"
+   "releaseOn": "2027-04-05"
   },
   {
    "section": "blog",
@@ -6151,7 +6151,7 @@
    ],
    "family": "tick-borne-disease",
    "priority": 2,
-   "releaseOn": "2026-12-07"
+   "releaseOn": "2027-04-05"
   },
   {
    "section": "blog",
@@ -6198,7 +6198,7 @@
    ],
    "family": "tick-borne-disease",
    "priority": 2,
-   "releaseOn": "2026-12-07"
+   "releaseOn": "2027-04-05"
   },
   {
    "section": "blog",
@@ -6239,7 +6239,7 @@
    ],
    "family": "tick-borne-disease",
    "priority": 2,
-   "releaseOn": "2026-12-07"
+   "releaseOn": "2027-04-05"
   },
   {
    "section": "blog",
@@ -6585,7 +6585,7 @@
    ],
    "family": "locations",
    "priority": 2,
-   "releaseOn": "2026-12-07"
+   "releaseOn": "2027-04-05"
   },
   {
    "section": "learn",
@@ -6625,7 +6625,7 @@
    ],
    "family": "locations",
    "priority": 2,
-   "releaseOn": "2026-12-14"
+   "releaseOn": "2027-04-05"
   },
   {
    "section": "learn",
@@ -8744,7 +8744,7 @@
    ],
    "family": "tick-borne-disease",
    "priority": 3,
-   "releaseOn": "2026-12-21"
+   "releaseOn": "2027-04-05"
   },
   {
    "section": "blog",
@@ -8895,7 +8895,7 @@
    "collisions": [],
    "family": "tick-borne-disease",
    "priority": 3,
-   "releaseOn": "2026-12-21"
+   "releaseOn": "2027-04-05"
   },
   {
    "section": "blog",
@@ -8936,7 +8936,7 @@
    ],
    "family": "tick-borne-disease",
    "priority": 3,
-   "releaseOn": "2026-12-21"
+   "releaseOn": "2027-04-05"
   },
   {
    "section": "blog",
@@ -9007,7 +9007,7 @@
    "collisions": [],
    "family": "tick-borne-disease",
    "priority": 3,
-   "releaseOn": "2026-12-21"
+   "releaseOn": "2027-04-05"
   },
   {
    "section": "blog",
@@ -9161,7 +9161,7 @@
    ],
    "family": "tick-borne-disease",
    "priority": 3,
-   "releaseOn": "2026-12-21"
+   "releaseOn": "2027-04-05"
   },
   {
    "section": "blog",
@@ -9212,7 +9212,7 @@
    "role": "page",
    "minExisting": 2,
    "mustLink": [
-    "/learn/chiggers-by-state"
+    "/blog/chigger-bites"
    ],
    "neighbors": [],
    "minNeighbors": 0,
@@ -9233,8 +9233,8 @@
    ],
    "minWords": 1200,
    "parent": {
-    "href": "/learn/chiggers-by-state",
-    "name": "Chiggers by State"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "pairWith": null,
    "collisions": [
@@ -9479,7 +9479,7 @@
    ],
    "family": "locations",
    "priority": 3,
-   "releaseOn": "2026-12-21"
+   "releaseOn": "2027-04-05"
   },
   {
    "section": "blog",
@@ -9669,7 +9669,7 @@
    "collisions": [],
    "family": "locations",
    "priority": 3,
-   "releaseOn": "2026-12-21"
+   "releaseOn": "2027-04-05"
   },
   {
    "section": "blog",
@@ -10029,7 +10029,7 @@
    ],
    "family": "locations",
    "priority": 3,
-   "releaseOn": "2026-12-21"
+   "releaseOn": "2027-04-05"
   },
   {
    "section": "blog",
@@ -10062,7 +10062,7 @@
    "collisions": [],
    "family": "fleas",
    "priority": 3,
-   "releaseOn": "2026-12-21"
+   "releaseOn": "2027-04-05"
   },
   {
    "section": "blog",
@@ -12129,7 +12129,7 @@
    ],
    "family": "locations",
    "priority": 3,
-   "releaseOn": "2026-12-28"
+   "releaseOn": "2027-04-05"
   },
   {
    "section": "blog",
@@ -12171,7 +12171,7 @@
    ],
    "family": "locations",
    "priority": 3,
-   "releaseOn": "2026-12-28"
+   "releaseOn": "2027-04-05"
   },
   {
    "section": "blog",
@@ -12524,7 +12524,7 @@
    "collisions": [],
    "family": "kissing-bugs",
    "priority": 3,
-   "releaseOn": "2026-12-28"
+   "releaseOn": "2027-04-05"
   },
   {
    "section": "blog",
@@ -15716,7 +15716,7 @@
    ],
    "family": "bites-stings",
    "priority": 2,
-   "releaseOn": "2026-11-24"
+   "releaseOn": "2026-12-31"
   },
   {
    "section": "blog",
@@ -19932,7 +19932,7 @@
    ],
    "family": "look-alikes",
    "priority": 1,
-   "releaseOn": "2026-11-11"
+   "releaseOn": "2026-12-31"
   }
  ]
 }

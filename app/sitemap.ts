@@ -349,7 +349,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/mosquito-control-diy-vs-professional',
     '/best-mosquito-control-companies-gta',
     '/york-region-mosquito-control',
-    '/kleinburg-mosquito-control',
     '/golf-course-mosquito-control',
     '/restaurant-patio-mosquito-control',
     '/wedding-mosquito-control',
@@ -382,36 +381,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // ── ALL neighbourhood pages ─────────────────────────────────────────────────
   const neighbourhoods: MetadataRoute.Sitemap = [
     // Toronto
-    '/rosedale-mosquito-control',
-    '/leaside-mosquito-control',
-    '/east-york-mosquito-control',
-    '/willowdale-mosquito-control',
-    '/the-beaches-mosquito-control',
-    '/danforth-mosquito-control',
-    '/high-park-mosquito-control',
     // Brampton
-    '/heart-lake-mosquito-control',
-    '/springdale-mosquito-control',
-    '/fletcher-meadows-mosquito-control',
-    '/bram-west-mosquito-control',
-    '/snelgrove-mosquito-control',
     // Oakville
-    '/old-oakville-mosquito-control',
-    '/north-oakville-mosquito-control',
-    '/joshua-creek-mosquito-control',
     // Burlington
-    '/alton-village-mosquito-control',
-    '/millcroft-mosquito-control',
     // Hamilton
-    '/stoney-creek-mosquito-control',
-    '/dundas-mosquito-control',
-    '/ancaster-mosquito-control',
-    '/waterdown-mosquito-control',
-    '/flamborough-mosquito-control',
     // Mississauga
-    '/credit-valley-mosquito-control',
     // Other GTA
-    '/caledon-east-mosquito-control',
   ].map((slug) => ({
     url: `${SITE_URL}${slug}`,
     lastModified: LAST_CONTENT_UPDATE,

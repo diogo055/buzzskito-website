@@ -18,7 +18,7 @@ import RelatedLinks from '@/components/RelatedLinks'
 const SLUG = 'doktor-doom-sleep-tight-review-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
-const TITLE = 'Doktor Doom Sleep Tight Review Canada 2026 — The Canadian Mattress Spray With a PCP Number, Tested Against the Grey-Market'
+const TITLE = 'Doktor Doom Sleep Tight Review Canada 2026 — The Canadian Mattress Spray With a PCP Number, Compared With Grey-Market Sprays'
 const META_TITLE = 'Doktor Doom Sleep Tight Review Canada 2026'
 
 const FAQS = [

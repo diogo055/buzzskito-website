@@ -4355,11 +4355,11 @@
    "minWords": 1200,
    "minExisting": 2,
    "parent": {
-    "href": "/learn/chiggers-by-state",
-    "name": "Chiggers by State"
+    "href": "/learn/mites",
+    "name": "Mites"
    },
    "mustLink": [
-    "/learn/chiggers-by-state"
+    "/blog/chigger-bites"
    ],
    "pairWith": null,
    "collisions": [

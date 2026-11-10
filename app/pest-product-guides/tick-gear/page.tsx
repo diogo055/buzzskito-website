@@ -56,7 +56,7 @@ const SECTIONS: HubSection[] = [
     guides: [
       {
         href: '/blog/tick-removal-tool-guide',
-        title: 'Best Tick Removal Tools — Tested for Ontario 2026',
+        title: 'Best Tick Removal Tools for Ontario 2026',
         blurb: 'Tick Twister vs TickKey vs fine-tipped tweezers, plus the step-by-step removal method that pulls the whole tick without leaving mouthparts behind.',
       },
     ],

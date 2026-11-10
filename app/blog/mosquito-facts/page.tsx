@@ -197,7 +197,7 @@ export default function MosquitoFactsPage() {
           <TopPick tag={AMZ_TAG}
             label="Our Top Pick — Kill Them Before They Fly"
             name="Summit Mosquito Dunks (Bti larvicide)"
-            blurb="A floating disc of Bacillus thuringiensis israelensis — a bacterium that is lethal to mosquito larvae and harmless to fish, birds, pets, and people. One dunk treats about 9 m² of standing water for 30 days: rain barrels, birdbaths, blocked gutters, pond edges, tarps, plant saucers. Because backyard mosquitoes hatch close to where they bite, this is the one purchase that reduces the population rather than just hiding you from it."
+            blurb="A floating disc of Bacillus thuringiensis israelensis — a bacterium whose toxin targets only the larvae of mosquitoes, black flies and fungus gnats. One dunk treats about 9 m² of standing water for 30 days: rain barrels, birdbaths, blocked gutters, pond edges, tarps, plant saucers. Because backyard mosquitoes hatch close to where they bite, this is the one purchase that reduces the population rather than just hiding you from it."
             search="summit mosquito dunks"
             pros={['Attacks the larval stage — fewer adult mosquitoes, not just fewer bites on you', 'Safe around fish, birds, pets, and children', '30 days per dunk; works in any water you cannot drain']}
             cons={['Only works on standing water you can reach — not a fix for a neighbour&rsquo;s pond', 'Does nothing to adults already flying']}

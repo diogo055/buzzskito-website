@@ -36,7 +36,7 @@ const FAQS = [
   },
   {
     question: 'Does peppermint oil really repel spiders?',
-    answer: 'The honest answer: the evidence is weak. One small 2018 study in the Journal of Economic Entomology found peppermint oil repelled some spider species in a lab arena — but only some species, only at close range, and only while the scent stayed strong, which indoors means re-spraying every day or two. No field study has shown peppermint oil keeps spiders out of an actual house. If you enjoy the smell, a peppermint spray along windowsills is harmless — just treat it as air freshener with a possible minor bonus, not a control method. A door sweep outperforms it permanently for a similar one-time cost.',
+    answer: 'The honest answer: the evidence is weak. One small 2018 study in the Journal of Economic Entomology found peppermint oil repelled some spider species in a lab arena — but only some species, only at close range, and only while the scent stayed strong, which indoors means re-spraying every day or two. No field study has shown peppermint oil keeps spiders out of an actual house. If you enjoy the smell, treat a peppermint spray along windowsills as air freshener with a possible minor bonus, not a control method, and keep the concentrated oil away from cats and dogs (the ASPCA lists mint as toxic to both). A door sweep outperforms it permanently for a similar one-time cost.',
   },
   {
     question: 'Should I kill house spiders or leave them alone?',
@@ -60,7 +60,7 @@ const FAQS = [
   },
   {
     question: 'Do conkers (horse chestnuts) keep spiders away?',
-    answer: 'No — this is a beloved myth, mostly from the UK. The idea is that horse chestnuts contain a compound spiders avoid, but when it has been put to the test (including a Royal Society of Chemistry–publicized school experiment) spiders walked straight over the conkers. Same verdict for citrus peel and cedar blocks: pleasant, harmless, and no measurable effect on spider traffic. Every autumn windowsill lined with conkers is decoration, not pest control.',
+    answer: 'No — this is a beloved myth, mostly from the UK. The idea is that horse chestnuts contain a compound spiders avoid, but when it has been put to the test (including a Royal Society of Chemistry–publicized school experiment) spiders walked straight over the conkers. Same verdict for citrus peel and cedar blocks: pleasant, and no measurable effect on spider traffic. Every autumn windowsill lined with conkers is decoration, not pest control.',
   },
   {
     question: 'Are house centipedes good or bad to have around?',
@@ -328,7 +328,7 @@ export default function HowToKeepSpidersOutPage() {
           <RelatedLinks path="/blog/how-to-keep-spiders-out-of-your-house" />
           <h2>The Peppermint Oil Question, Answered Honestly</h2>
           <p>Peppermint oil is the internet&rsquo;s favourite spider remedy, so it deserves a straight answer rather than a wink. The best evidence in its favour is a small 2018 study in the <em>Journal of Economic Entomology</em> that found peppermint essential oil repelled spiders in a laboratory arena — a real result, worth taking seriously, and also worth reading closely: it worked on <em>some</em> species and not others, at close range, in a controlled chamber, while the volatile scent was fresh. Translating that to a real house means re-spraying windowsills every day or two, forever, to maybe deter a fraction of the species you host. No field study has ever demonstrated that peppermint oil keeps spiders out of an actual home.</p>
-          <p>Our verdict: if you like the smell, a peppermint spray along windowsills and door frames is a pleasant ritual with a possible marginal bonus, and it is completely harmless. Just be clear-eyed that you are buying air freshener with a hypothesis attached, and that a door sweep — a comparable one-time spend — will still be working in five years without a single re-application. The same folk-remedy shelf holds conkers, citrus peel, and cedar blocks, all of which have failed the tests they have been given, and plug-in ultrasonic repellers, which have failed every test across every pest they have been pointed at.</p>
+          <p>Our verdict: if you like the smell, a peppermint spray along windowsills and door frames is a pleasant ritual with a possible marginal bonus. If you have a cat or dog, keep the concentrated oil out of reach: the ASPCA lists mint as toxic to both. Just be clear-eyed that you are buying air freshener with a hypothesis attached, and that a door sweep — a comparable one-time spend — will still be working in five years without a single re-application. The same folk-remedy shelf holds conkers, citrus peel, and cedar blocks, all of which have failed the tests they have been given, and plug-in ultrasonic repellers, which have failed every test across every pest they have been pointed at.</p>
 
           <h2>A Word in Defence of the House Centipede</h2>
           <p>While you are patrolling the basement, you may meet the house centipede — fast, fringed with improbable legs, and responsible for more shrieks per sighting than any spider. Here is the case for letting it be: the house centipede is one of the most effective predators your home can host. It actively hunts spiders, silverfish, carpet beetle larvae, cockroach nymphs, and fly larvae, it is essentially harmless to people, it builds no webs and damages nothing, and it will never multiply beyond what the food supply supports. In a guide about reducing spiders, it is literally on your side.</p>
@@ -360,7 +360,7 @@ export default function HowToKeepSpidersOutPage() {
           <h2>Related Household Pest Guides</h2>
           <ul>
             <li><Link href="/blog/how-to-get-rid-of-fruit-flies">How to Get Rid of Fruit Flies — Full Playbook</Link></li>
-            <li><Link href="/blog/best-fruit-fly-trap-canada">Best Fruit Fly Trap Canada — Tested Picks</Link></li>
+            <li><Link href="/blog/best-fruit-fly-trap-canada">Best Fruit Fly Trap Canada — Top Picks</Link></li>
             <li><Link href="/blog/katchy-indoor-insect-trap-review-canada">Katchy Indoor Insect Trap — Honest Canadian Review</Link></li>
             <li><Link href="/blog/how-to-get-rid-of-wasps-canada">How to Get Rid of Wasps — Canadian Guide</Link></li>
             <li><Link href="/blog/raccoon-deterrent">Raccoon Deterrents That Actually Work in Canada</Link></li>

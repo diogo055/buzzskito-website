@@ -575,6 +575,27 @@ Ranked by expected clicks x value (`research_notes/God plan 10k a day/new_pages.
     - The mosquito pick (yellow bug light bulbs) is held in scratchpad `seven/pick-mosquitoes-nov11.json`, because check:amazon fails on a pick for a page that is not live yet.
   - **Count:** 16 new URLs on Nov 10 (UTC) and 43 in the 7 days to Nov 10, on the owner's lift.
   - **NEXT:**
-    1. Nov 11: release bugs-that-look-like-mosquitoes by hand (`RELEASE_DATE=2026-11-11` plus `PACE_OVERRIDE`) and add its pick in the same commit.
+    1. ~~Nov 11: release bugs-that-look-like-mosquitoes by hand (`RELEASE_DATE=2026-11-11` plus `PACE_OVERRIDE`) and add its pick in the same commit.~~ Superseded the same evening: it waits for the owner's read (see the next entry).
     2. Indexing on the Nov 11 run: the 7 gaps, which are listed in the queue.
     3. ~~Ask the owner whether he has read the Nov 10 pages before moving `OWNER_REVIEWED_THROUGH`.~~ Done the same afternoon. Owner: "I've read them". `OWNER_REVIEWED_THROUGH` moved to 2026-11-10, so all 16 Nov 10 guides show "Reviewed by Alex Francisco". The Nov 11 mosquito page is not covered until he reads it.
+
+- **2026-11-10 (evening): the owner's answers to the Google update risk audit** (`reports/Google update risk audit.md`, section "Owner's answers").
+  - **Neighbourhood pages:** the 25 still indexed are now noindex,follow ("take all the neighborhood pages off of Google... just keep the city pages"). They are out of the sitemap and `llms.txt`, still on `/service-areas`.
+  - **Claims:**
+    - The testing clause is out of the "Who wrote this" box.
+    - "Hands-on", "Tested" and "field-tested" are off 15 files.
+    - `/reviews` now says every customer gets the review link.
+    - "150+ five-star reviews" stays: true per the owner, counting all platforms.
+    - The 14 "harmless" lines are reworded with sources.
+  - **About page:** `/about` and `/about-us` 307 to `/buzzskito-history` until the real About Us page ships. The owner will send city spraying clips.
+  - **December holds:** 21 December pages are held to 2027-04-05: 9 location pages, 11 disease pages and the mosquito-borne-diseases hub. December went from 80 planned pages to 59.
+  - **Pace:** the cap is back in force (10 a day, 25 in any 7 days; no `PACE_OVERRIDE`).
+  - **Read before release:** the owner said "I already read everything".
+    - `bugs-that-look-like-mosquitoes` and `what-do-bed-bug-bites-look-like` are parked on 2026-12-31 until he says "read".
+    - Previews are in `reports/page-previews/`.
+    - The mosquito page can go out Fri Nov 13 at the earliest: the 7 days to Nov 12 already hold 31 releases.
+  - **NEXT:**
+    1. When he says "read": date each parked page for the next morning with room. For the mosquito page, release it by hand with its pick from scratchpad `seven/pick-mosquitoes-nov11.json`. Then move `OWNER_REVIEWED_THROUGH` to its release day.
+    2. Remind him about the "2026" cleanup (titles and page copy) and the About Us page.
+    3. Use his city clips on the city pages once they arrive.
+    4. Fable 5.2 trial: run the research and fact-check agents of the next page batch on Fable, then compare the fact-check fix counts with the Opus batches.

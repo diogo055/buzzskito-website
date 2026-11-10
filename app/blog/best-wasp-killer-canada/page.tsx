@@ -56,7 +56,7 @@ const FAQS = [
   },
   {
     question: 'What should I never use on a wasp nest?',
-    answer: 'Four things, all field-tested failures. Gasoline or other fuel poured into a ground nest: an environmental offence, a fire and vapour hazard beside your house, a permanent dead patch in the lawn, and not even reliable at killing the colony. Boiling water: partly effective at best, and the pot-carrier is standing over an erupting nest with no protection. A shop vac at the entrance: a viral stunt that harvests foragers for days while the queen keeps laying. And sealing the entrance of an active nest in a wall or under siding: trapped colonies chew inward, and the failure mode is wasps in the living room. Every one of these has a cheaper, safer, legal alternative in a PMRA-registered can applied at dusk — or in a professional call for the architectures a can cannot solve.',
+    answer: 'Four things, all well-known failures. Gasoline or other fuel poured into a ground nest: an environmental offence, a fire and vapour hazard beside your house, a permanent dead patch in the lawn, and not even reliable at killing the colony. Boiling water: partly effective at best, and the pot-carrier is standing over an erupting nest with no protection. A shop vac at the entrance: a viral stunt that harvests foragers for days while the queen keeps laying. And sealing the entrance of an active nest in a wall or under siding: trapped colonies chew inward, and the failure mode is wasps in the living room. Every one of these has a cheaper, safer, legal alternative in a PMRA-registered can applied at dusk — or in a professional call for the architectures a can cannot solve.',
   },
   {
     question: 'When should I call a professional for a wasp nest?',

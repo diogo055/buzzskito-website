@@ -31,7 +31,7 @@ const FAQS = [
   },
   {
     question: 'Does BuzzSkito ask customers to leave reviews?',
-    answer: 'Yes — after every treatment, customers receive a follow-up email with a link to leave a Google review if they\'re happy with the service. We never offer incentives or compensation for reviews, which would violate Google\'s policies. We simply make it easy for satisfied customers to share their experience.',
+    answer: 'Yes — after every treatment, every customer receives a follow-up email with a link to leave a Google review, not just the customers who were happy with the service. We never offer incentives or compensation for reviews, which would violate Google\'s policies. We simply make it easy for every customer to share their experience.',
   },
   {
     // Competitors are not named anywhere on the site (owner rule), including this FAQ and its FAQPage schema.

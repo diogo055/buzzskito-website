@@ -12,6 +12,11 @@ export const metadata: Metadata = buildMetadata({
   description:
     'Professional mosquito control in Dundas, Hamilton. Barrier spray near Cootes Paradise from $99. Licensed operator. Call (289) 216-5030.',
   canonical: '/dundas-mosquito-control',
+  // Nov 10, 2026 (owner, after the Google update risk audit: "take all the neighborhood pages off of
+  // Google... just keep the city pages"): kept for visitors and linked from /service-areas, out of
+  // Google's index. See "Location pages out of the index" in CLAUDE.md before indexing it again.
+  noIndex: true,
+  follow: true,
 })
 
 const NEIGHBOURHOOD = 'Dundas'

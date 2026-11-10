@@ -12,6 +12,11 @@ export const metadata: Metadata = buildMetadata({
   description:
     'Mosquito control for The Beaches. Eastern Ravine, Ashbridge\'s Bay & Lake Ontario waterfront drive intense mosquito pressure. From $99. (289) 216-5030.',
   canonical: '/the-beaches-mosquito-control',
+  // Nov 10, 2026 (owner, after the Google update risk audit: "take all the neighborhood pages off of
+  // Google... just keep the city pages"): kept for visitors and linked from /service-areas, out of
+  // Google's index. See "Location pages out of the index" in CLAUDE.md before indexing it again.
+  noIndex: true,
+  follow: true,
 })
 
 const NEIGHBOURHOOD = 'The Beaches'

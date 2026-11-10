@@ -323,7 +323,7 @@ export default function ClusterFliesCanadaPage() {
           </div>
 
           <h2>The Vacuum Protocol</h2>
-          <p>For day-to-day removal, nothing beats a vacuum &mdash; it is instant, chemical-free, and leaves no residue on the surfaces you live around. A wand attachment or a shop vac makes short work of a windowsill or a cluster on a light fixture. Two field-tested refinements make it much less unpleasant:</p>
+          <p>For day-to-day removal, nothing beats a vacuum &mdash; it is instant, chemical-free, and leaves no residue on the surfaces you live around. A wand attachment or a shop vac makes short work of a windowsill or a cluster on a light fixture. Two simple refinements make it much less unpleasant:</p>
           <ul>
             <li><strong>Use a nylon catch-bag.</strong> Drop a knee-high nylon stocking or a length of pantyhose inside the vacuum wand and fold the open end back over the tube. The flies collect inside the nylon; when you are done, lift it out, tie it off, and bin the whole thing &mdash; no flies loose in the canister.</li>
             <li><strong>Empty it outdoors, promptly.</strong> A big batch of dead flies left sitting in the machine can leave a lingering odour. Empty the vacuum outside soon after.</li>
