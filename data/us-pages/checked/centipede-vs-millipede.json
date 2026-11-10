@@ -1,0 +1,10 @@
+{
+ "id": "centipede-vs-millipede",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "8289f95cd3f20b31bd820ca8f79b9444116ab17e97ba85dbfdc1374c15d0de71",
+ "claimsChecked": 310,
+ "claimsCorrected": 20,
+ "claimsRemovedOrSoftened": 10,
+ "checkedOn": "2026-11-09"
+}

@@ -494,3 +494,46 @@ Ranked by expected clicks x value (`research_notes/God plan 10k a day/new_pages.
   - **More US buying guides:** next by US volume are mouse traps (upgrade mice-traps further), ant killer, wasp spray (spring), mosquito repellent (spring), bug zapper (spring) and Dynatrap.
   - **Verify on the GTA report page** (`/buzzskito-2026-gta-mosquito-tick-report`), flagged by the link plan: "200+ property surveys", and blacklegged ticks "established across all 19 GTA cities per Public Health Ontario".
   - **Still open from Nov 4:** plan entries for little black ants (#2), American cockroach (#5), roach vs mouse droppings (#8) and signs of termites (#10). Offer the owner the device-registration sweep.
+- **2026-11-09: the owner's "top 10".** He asked for "the top 10 most powerful pages likely to win that you can make right now" from fresh research, not the queue, with one rule: no topic the site already has. Build them "in the template that has proven to work".
+  - **Research:**
+    - 28 days of Search Console (49K web + 54K image queries) grouped into topics with no page.
+    - Keyword Planner volumes pulled Nov 9 in the owner's account: `research_notes/God plan 10k a day/keyword_volumes_2026-11-09.md`.
+    - Every candidate full-text checked against all live pages.
+    - Cut as already covered: flea bites vs bed bug bites (flea-bites-on-humans sections), wolf spider bite, flea larvae, centipede bite, cellar spider, clothes moths, tiny flying bugs in house.
+    - Dropped on numbers: signs of mice (KP 100-1K), mouse nest (1K-10K) and snake poop (summer-only; it would have been a 4th droppings page in one batch).
+  - **Built 10**, scheduled `releaseOn` 2026-11-12. Pace on Nov 12 is 14 in the 7 days, so room is 10. The dry run releases all 10.
+    - **Pages and US volumes:**
+      - brown-recluse (100K-1M)
+      - coyote-poop (10K-100K)
+      - drugstore-beetles (10K-100K)
+      - centipede-vs-millipede (10K-100K)
+      - squirrel-nest (10K-100K)
+      - phorid-flies (10K-100K)
+      - possum-poop (10K-100K)
+      - animal-tracks-in-snow (3 x 1K-10K, winter)
+      - bear-poop (10K-100K, spring-fall)
+      - stink-bug-eggs (10K-100K, May-Aug)
+    - **The template** is the structure of the three best new pages (tiny-brown-bugs 91 clicks/wk, animal-droppings 46, bugs-that-look-like-fleas 42):
+      - search-words title ending "(Photos)";
+      - a ~200-word quick answer with the bold test;
+      - a 10-12-row quick-ID table;
+      - question h2s;
+      - 6-8 real photos;
+      - a comparison table and a checklist;
+      - look-alike cards;
+      - 10 FAQs and ~20 sources.
+    - **Briefs:** scratchpad `top10/WRITER_TASK.md` and `CHECKER_TASK.md`.
+    - **Checks:** every page had an independent checker, ~2,700 claims in all, ~350 corrected or softened. Records are in `data/us-pages/checked/`.
+  - **Photos:**
+    - 70 new, every licence re-checked by the script and every image looked at on a contact sheet.
+    - Commons entries take the file name WITHOUT "File:" (the script adds it).
+    - iNaturalist credits can arrive HTML-escaped (`&amp;`): fix the ledger record after download.
+  - **Link-ins:** 18 sentences on 16 live guides; every new page has 1+ link in.
+    - alsoTargets moved: millipedes (the two "vs" searches), pantry-pests ("drugstore beetle").
+  - **Records:** 12 live guides edited Nov 8 (b6754e3b walkthrough, 5691c9c4 vamoose photos) had no matching record. They were amended Nov 9 with honest notes; the Nov 12 release run would otherwise have failed (register --checked-only).
+    - Lesson: after editing any live guide, `amend` its record in the same commit.
+  - **NEXT:**
+    1. After the Nov 12 robot release: indexing requests (queue), verify live, amazon.com picks only where a page recommends a product.
+    2. TSX link-in: the what-does-a-spider-bite-look-like FAQ goes to /blog/brown-recluse.
+    3. Pushes the owner was offered: german-cockroaches and house-centipedes, rebuilt in the template.
+    4. Cap: 15 new-page slots in the 7 days after Nov 12. Remind the owner whenever he asks for more pages this week.

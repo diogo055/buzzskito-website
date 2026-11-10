@@ -2,7 +2,7 @@
  "id": "holes-in-yard",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "843b05a163ecf3caabf25ef1b8bb31d76a6fc6af2c99739ed79b7fab59287249",
+ "sha": "ecdaf4f9e35e745be2e006421bc7351e2956a09361b26beba684b7efbe1b9033",
  "claimsChecked": 236,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 1,
@@ -32,6 +32,11 @@
    "on": "2026-11-05",
    "note": "Photo licence swap (Nov 5, 2026): one iNaturalist photographer relicensed photos CC BY-NC after we took them as CC0; each such photo on this page was replaced with an openly licensed photo of the same subject (credit and licence from the source), and its alt text and caption were rewritten to describe the new photo. No other text changed.",
    "previousSha": "622d5beaf619106662b11e527ba2ef22fd854495e63f8e184402d057847e59d5"
+  },
+  {
+   "on": "2026-11-09",
+   "note": "Nov 9: one sentence links the new animal tracks in snow guide (/blog/animal-tracks-in-snow, scheduled Nov 12) after the droppings paragraph in 'What should you do about holes in the yard?'; no fact changed",
+   "previousSha": "843b05a163ecf3caabf25ef1b8bb31d76a6fc6af2c99739ed79b7fab59287249"
   }
  ]
 }

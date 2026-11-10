@@ -2,7 +2,7 @@
  "id": "deer-poop",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "55c867187ccc4fde42d5e3f4476f41b3923c9535079302a9a14038b081c051ba",
+ "sha": "021a5acf1fe1b9def25a4f488302ba13b465cd0da882156f6e47d479797acb2b",
  "claimsChecked": 181,
  "claimsCorrected": 4,
  "claimsRemovedOrSoftened": 2,
@@ -22,6 +22,11 @@
    "on": "2026-11-05",
    "note": "Photo licence swap (Nov 5, 2026): one iNaturalist photographer relicensed photos CC BY-NC after we took them as CC0; each such photo on this page was replaced with an openly licensed photo of the same subject (credit and licence from the source), and its alt text and caption were rewritten to describe the new photo. No other text changed.",
    "previousSha": "bb4c7a6cfff54e3e51874dcca5bcfe212bbae15660d5331170f16a4047af76a6"
+  },
+  {
+   "on": "2026-11-09",
+   "note": "Nov 9: one sentence links the new coyote poop guide (/blog/coyote-poop, scheduled Nov 12) after the raccoon and coyote droppings paragraph in 'Could it be squirrel, rat or coyote droppings instead?'; no fact changed",
+   "previousSha": "55c867187ccc4fde42d5e3f4476f41b3923c9535079302a9a14038b081c051ba"
   }
  ]
 }

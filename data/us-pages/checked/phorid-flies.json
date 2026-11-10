@@ -1,0 +1,10 @@
+{
+ "id": "phorid-flies",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "722946cf4c829c6138a91f7c4d58c3b6345469b8abfd01a0521eb82718723065",
+ "claimsChecked": 270,
+ "claimsCorrected": 18,
+ "claimsRemovedOrSoftened": 8,
+ "checkedOn": "2026-11-09"
+}

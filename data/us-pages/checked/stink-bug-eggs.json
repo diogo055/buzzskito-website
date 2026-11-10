@@ -1,0 +1,10 @@
+{
+ "id": "stink-bug-eggs",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "4db9769d9e51779a949f60a825da5ae903bd6d9e7130b868f0deb2349b3b0a7d",
+ "claimsChecked": 264,
+ "claimsCorrected": 31,
+ "claimsRemovedOrSoftened": 18,
+ "checkedOn": "2026-11-10"
+}

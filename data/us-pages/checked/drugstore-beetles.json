@@ -1,0 +1,10 @@
+{
+ "id": "drugstore-beetles",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "3c235712410ce6f104facb30083ae2c5dc8a61d5c7d7ac5762358af4614cc19a",
+ "claimsChecked": 267,
+ "claimsCorrected": 14,
+ "claimsRemovedOrSoftened": 11,
+ "checkedOn": "2026-11-09"
+}

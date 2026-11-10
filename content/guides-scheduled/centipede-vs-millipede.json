@@ -1,0 +1,215 @@
+{
+  "slug": "centipede-vs-millipede",
+  "kind": "spoke",
+  "cluster": "household",
+  "keyword": "centipede vs millipede",
+  "alsoTargets": ["millipede vs centipede", "difference between centipede and millipede", "centipede or millipede", "house centipede vs millipede", "do millipedes bite"],
+  "metaTitle": "Centipede vs Millipede: How to Tell (Photos)",
+  "metaDescription": "A centipede has one pair of legs per body segment and runs; a millipede has two pairs and curls up. Real photos, a trait table, bites and what to do.",
+  "h1": "Centipede vs Millipede: How to Tell Them Apart (and Which One Bites)",
+  "dek": "One pair of legs on each body segment means a centipede; two pairs means a millipede. Real photos of both where people find them, a trait-by-trait table, which one bites, what millipede fluid does and what to do about each.",
+  "breadcrumb": "Centipede vs Millipede",
+  "excerpt": "How to tell a centipede from a millipede by legs, body shape, speed and antennae, with real photos, a side-by-side table, which one bites and what to do about each.",
+  "datePublished": "2026-11-12",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Check one segment of the body: a centipede has a single pair of legs there and a flat body, while a millipede has two pairs on most segments and a round, wormlike body.** [UC IPM](https://ipm.ucanr.edu/home-and-landscape/centipedes-and-millipedes/) adds that centipedes are fast and may bite, while millipedes are slow, often curl up and do not bite.",
+    "bullets": [
+      "[Penn State Extension](https://extension.psu.edu/house-centipedes) measures the house centipede, the kind most often found indoors, at 1 to 1 1/2 inches of body, carried on 15 pairs of long legs with light and dark bands.",
+      "Household millipedes measure about an inch, and the giant American millipede grows to about 4 inches, the [University of Kentucky](https://entomology.mgcafe.uky.edu/ef645) says.",
+      "Centipedes have 15 to 191 pairs of legs, always an odd number of pairs, says the [Missouri Department of Conservation](https://mdc.mo.gov/discover-nature/field-guide/centipedes); most millipede species have 30 to 300 legs, according to the University of Kentucky.",
+      "A centipede's venom claws are its first pair of legs, reshaped. Millipedes have none, but [MedlinePlus](https://medlineplus.gov/ency/article/002846.htm) says some release a fluid that can stain skin brown and inflame the eyes.",
+      "Centipedes are predators of insects, spiders and other small animals; millipedes feed on decaying leaves, wood and other dead plant material.",
+      "Of the centipedes, only the house centipede can live indoors for good; millipedes that get inside usually dry out and die within days."
+    ]
+  },
+  "facts": {
+    "title": "Centipede vs millipede: quick ID",
+    "head": ["Feature", "Centipede", "Millipede"],
+    "rows": [
+      ["Legs per body segment", "One pair", "Two pairs on most segments; one pair on each of the first three"],
+      ["Body shape", "Flattened top to bottom in most kinds", "Round in cross-section in most kinds; some are flat-backed"],
+      ["Legs in all", "15 to 191 pairs, always an odd number; 15 pairs on a house centipede", "Most species 30 to 300 legs; the record is 1,306"],
+      ["Size you are likely to see", "House centipede: 1 to 1 1/2 inches of body; most others 1/2 to 1 inch", "About an inch indoors; the giant American millipede grows to about 4 inches"],
+      ["Speed", "Fast in most kinds; a house centipede sprints, stops dead and sprints again", "Slow: the legs move in waves down the body"],
+      ["Antennae", "Long, thin and straight", "Short and elbowed"],
+      ["Last pair of legs", "Points backward and works like a second pair of antennae", "Does not trail behind"],
+      ["When disturbed", "Runs for a dark hiding place; can bite with venom claws under the head", "Rolls into a coil; some ooze a fluid that stains or irritates skin; does not bite"],
+      ["Food", "Insects, spiders, earthworms and other small animals", "Decaying leaves, wood and other dead plant material"],
+      ["Newly hatched young", "House centipedes hatch with 4 pairs of legs", "Hatch with 3 pairs of legs and add more at each molt"],
+      ["Indoors", "The house centipede lives and breeds in damp basements and bathrooms", "Wanders in after heavy rain or in dry spells and dies within days"],
+      ["Damage", "None; the house centipede eats other household pests", "None indoors; large numbers can harm seedlings and fruit lying on the soil outdoors"]
+    ],
+    "caption": "Compiled from the Missouri Department of Conservation, UC IPM, the University of Kentucky, Penn State Extension, Oklahoma State University, NC State Extension, Virginia Tech, Health Canada and MedlinePlus, all linked in the text below."
+  },
+  "body": [
+    { "type": "h2", "text": "How do you tell a centipede from a millipede?" },
+    { "type": "p", "text": "Look closely at the legs on any one segment of the body. Each segment of a centipede carries a single pair, and the body is usually flattened; most segments of a millipede carry two pairs, and the body is round in cross-section. The [MDC's field guide to centipedes](https://mdc.mo.gov/discover-nature/field-guide/centipedes) names millipedes as the animal people most often mistake for centipedes and tells them apart on those features plus the antennae, which are straight on a centipede and elbowed on a millipede." },
+    { "type": "figure", "src": "/guides/photos/house-centipede-basement-floor.webp", "width": 1200, "height": 900, "alt": "Top view of a house centipede on a pale gray surface in a basement, its striped body ringed by long banded legs, with two long antennae at the front", "caption": "A house centipede (*Scutigera coleoptrata*) in a house basement in Virginia. Each body segment carries a single pair of long legs, and long antennae and last legs reach out at both ends.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/163188719" },
+    { "type": "p", "text": "Then watch how it behaves. [UC IPM's side-by-side table](https://ipm.ucanr.edu/home-and-landscape/centipedes-and-millipedes/) adds three tells: a centipede is quick, its hind legs stretch out behind it and it is prone to biting, and a millipede is none of these. UC IPM also says most millipedes roll into a coil when poked or resting, something a disturbed centipede never does." },
+    { "type": "figure", "src": "/guides/photos/greenhouse-millipede-bathroom-penny.webp", "width": 1200, "height": 1600, "alt": "Small dark brown millipede with a pale line along its side, lying on gray and white terry cloth just below a US penny", "caption": "A greenhouse millipede (*Oxidus gracilis*) found in a bathroom in California, beside a US penny for scale. Look for the wormlike body made of many similar rings.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/217289953" },
+    { "type": "checklist", "title": "Which one is it? Checks to run with it in a jar", "items": [
+      "**Legs per segment.** A single pair on every segment points to a centipede; a double pair on most segments, to a millipede. Only three pairs in total means an insect, such as a silverfish or a wireworm, and seven pairs under an oval shell means a pill bug or sowbug.",
+      "**Body in cross-section.** Flat: most centipedes. Round, like a piece of wire: most millipedes. A flat-backed millipede still carries a double pair of legs on most segments.",
+      "**Both ends.** Long, straight antennae at the front and long last legs trailing behind: a centipede. Short, elbowed antennae and no trailing legs: a millipede.",
+      "**How it moves.** Sprints, stops dead and sprints again: a house centipede. Crawls slowly with its legs rippling, then coils when touched: a millipede.",
+      "**Size.** Measured with a ruler, a house centipede's body runs 1 to 1 1/2 inches and a household millipede about an inch; a body several inches long, not counting legs and antennae, points to one of the bigger kinds that live outdoors, such as a bark centipede or a giant millipede.",
+      "**Where and when.** One centipede in a damp basement or bathroom, any month, is probably a house centipede. Dozens of millipedes at once after heavy rain or a dry spell are a migration from outside."
+    ] },
+
+    { "type": "h2", "text": "Why does a millipede have two pairs of legs per segment?" },
+    { "type": "p", "text": "Because each ring of a millipede's body is really two segments joined together. [UC Berkeley's Museum of Paleontology](https://ucmp.berkeley.edu/arthropoda/uniramia/myriapoda.html) explains that millipede segments form early in development from two neighboring embryonic segments, so each adult segment carries two pairs of legs. Not every ring has two pairs: the [MDC's millipede field guide](https://mdc.mo.gov/discover-nature/field-guide/millipedes) describes a legless collar behind the head, then three segments with one pair each, then the long run of two-pair segments, and says the last few segments may have no legs." },
+    { "type": "figure", "src": "/guides/photos/millipede-legs-underside-sem.webp", "width": 1200, "height": 1035, "alt": "Black and white electron microscope image of a millipede's underside, a column of body rings with two pairs of short legs on each ring", "caption": "The underside of *Eumillipes persephone*, a millipede that lives deep underground in Western Australia (not one found in homes), seen under a scanning electron microscope in the 2021 paper that described it. Each body ring in view carries two pairs of legs, the feature that sets millipedes apart from centipedes.", "license": "CC-BY-4.0", "credit": "Aggyrolemnoixytes/Paul Marek, CC BY 4.0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Millipede,_Eumillipes_persephone,_ventral_view_of_legs.jpg" },
+    { "type": "p", "text": "A centipede is built the other way: one pair of legs on nearly every segment, and the MDC notes that the number of pairs is always odd, so no centipede has exactly 100 legs. Its first pair of legs does not walk at all. UC Berkeley's museum says that pair is modified into poison claws, covered in the section on bites below." },
+
+    { "type": "h2", "text": "Which has more legs, a centipede or a millipede?" },
+    { "type": "p", "text": "Usually the millipede, though neither lives up to its name. The house centipede, the one most people meet indoors, has 15 pairs, or 30 legs, while [Kentucky's ENTFACT-645](https://entomology.mgcafe.uky.edu/ef645) puts most millipede species at 30 to 300 legs. The ranges overlap: the MDC counts 27 to 191 pairs, or 54 to 382 legs, on soil centipedes, so a soil centipede can have more legs than a millipede at the low end of that range." },
+    { "type": "table", "head": ["Animal", "Pairs of legs", "Legs in all"], "rows": [
+      ["House centipede (adult)", "15", "30"],
+      ["Stone centipedes (adult)", "15", "30"],
+      ["Bark centipedes, such as the giant redheaded centipede", "21 or 23", "42 or 46"],
+      ["Soil centipedes", "27 to 191", "54 to 382"],
+      ["Greenhouse millipede (adult)", "30 or more", "60 or more"],
+      ["Most millipede species", "15 to 150", "30 to 300"],
+      ["Eumillipes persephone, the record holder", "653", "1,306"]
+    ], "caption": "Centipede counts from Penn State Extension and the Missouri Department of Conservation; millipede counts from NC State Extension, the University of Kentucky and Virginia Tech." },
+    { "type": "p", "text": "Until recently, no millipede was known to reach four figures. [Virginia Tech reported](https://news.vt.edu/articles/2022/02/first-true-millipede.html) in 2022 that a female *Eumillipes persephone*, found nearly 200 feet underground in Western Australia, has 1,306 legs, and that the previous record holder, the California millipede *Illacme plenipes*, has 750. The common greenhouse millipede finishes with 60 or more, according to [NC State's fact sheet on the garden millipede](https://content.ces.ncsu.edu/garden-millipede)." },
+
+    { "type": "h2", "text": "What else is different about centipedes and millipedes?" },
+    { "type": "h3", "text": "Body shape and color" },
+    { "type": "p", "text": "Most centipedes are flattened from top to bottom and most millipedes are round, but each group has exceptions. [The MDC's field guide entry for the house centipede](https://mdc.mo.gov/discover-nature/field-guide/house-centipede) points out that, unlike many centipedes, it is not flattened, and NC State says the greenhouse millipede is also known as the flat-backed millipede. A flat-backed millipede still has two pairs of legs on most segments, so the leg count settles it when the shape does not." },
+    { "type": "figure", "src": "/guides/photos/cherry-millipede-patio-inch-cube.webp", "width": 1200, "height": 1200, "alt": "Glossy black millipede with bright yellow edges on each segment and yellow legs, crawling on pebbly concrete beside a metal cube marked 1 inch", "caption": "An aromatic cherry millipede (*Apheloria corrugata*) on a patio in Virginia, beside a 1-inch cube. The MDC says brightly colored millipedes are more likely to give off foul or toxic secretions, and that the bright colors warn predators.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/279158157" },
+    { "type": "p", "text": "Color is a weaker clue. [Oklahoma State University's fact sheet on centipedes and millipedes](https://extension.okstate.edu/fact-sheets/centipedes-and-millipedes.html) describes centipedes from yellowish brown to dark brown or iridescent reddish green and millipedes from reddish brown to black, and the MDC says most Missouri millipedes are brown or blackish." },
+    { "type": "h3", "text": "Speed and behavior" },
+    { "type": "p", "text": "Centipedes are built to chase prey. [Kentucky's ENTFACT-647](https://entomology.mgcafe.uky.edu/ef647) describes the house centipede's habit of sprinting across a floor, freezing, then dashing off to hide under something, and Oklahoma State says it can hook the plates on its back together to hold its body straight as it runs. Millipedes glide slowly instead, their legs moving in a wave down the body, the MDC says, and Kentucky notes that they often curl up tightly when threatened." },
+    { "type": "h3", "text": "Antennae and eyes" },
+    { "type": "p", "text": "Kentucky contrasts the long antennae of centipedes with the shorter, elbowed antennae of millipedes. The MDC adds that a centipede's last pair of legs points backward and works as a sense organ, much like a second pair of antennae. Eyes vary more: centipedes range from blind to compound-eyed, and the house centipede has compound eyes, while millipedes have two patches of simple eyes and do most of their sensing with their antennae, the MDC says." },
+    { "type": "h3", "text": "How they grow" },
+    { "type": "p", "text": "House centipedes and millipedes both hatch with fewer legs than adults. Penn State says a newly hatched house centipede has only 4 pairs of legs and gains pairs at each molt until it has 15. Oklahoma State says millipede eggs hatch in about three weeks into tiny larvae with only three pairs of legs, which add segments and legs over seven to ten molts, and NC State says each new segment of a greenhouse millipede comes with four legs. Not every centipede grows the house centipede's way: the MDC says soil and bark centipedes hatch with all their segments and legs." },
+
+    { "type": "h2", "text": "Do centipedes or millipedes bite?" },
+    { "type": "p", "text": "Only centipedes bite, and they do it with legs, not jaws. A centipede's first pair of legs forms a pair of venom claws, called forcipules, that curve forward under the head; [Poison Control](https://www.poison.org/articles/are-centipede-stings-harmful-191) describes them as hollow, modified front legs that both catch prey and inject venom. Millipedes have no such claws." },
+    { "type": "figure", "src": "/guides/photos/stone-centipede-forcipules-underside.webp", "width": 1200, "height": 1239, "alt": "Underside of a centipede's head under magnification, two large orange curved claws reaching forward from a plate below the head, and two bristly segmented antennae above", "caption": "The venom claws of a stone centipede (*Paitobius zinus*) from Virginia, seen from below under magnification. These forcipules are the centipede's first pair of legs, reshaped to grab prey and inject venom.", "license": "CC-BY-4.0", "credit": "(c) Derek Hennen, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/288078530" },
+    { "type": "p", "text": "Indoors, the usual centipede seldom gets them through human skin. The University of Kentucky says the house centipede's forcipules are so small that they rarely pierce it, and Poison Control describes house centipedes as under 3 inches long and relatively harmless. The painful bites come mostly from *Scolopendra*, large centipedes 4 to 12 inches long, whose venom can cause burning pain that spreads up the limb and lasts from a few hours to several days; deaths are very rare. Poison Control advises medical care for signs of infection or of an allergic reaction, and [the guide to house centipedes](/blog/house-centipedes) has the bite details and first aid." },
+
+    { "type": "h2", "text": "Are millipedes poisonous to touch?" },
+    { "type": "p", "text": "They are not venomous, but some can hurt skin and eyes. [MedlinePlus's page on millipede toxin](https://medlineplus.gov/ency/article/002846.htm) says millipedes do not bite or sting; instead some release a toxin over their bodies when threatened or handled roughly. It lists chemicals found in these secretions, including hydrogen cyanide, benzoquinones, phenol and cresols, and says contact can cause brown staining, intense burning or itching and blisters, and inflammation and pain in the eyes. It adds that severe reactions are seen mainly with tropical species and that the brown discoloration may last for months." },
+    { "type": "figure", "src": "/guides/photos/american-giant-millipede-coiled-kitchen-floor.webp", "width": 1200, "height": 900, "alt": "Dark brown millipede curled into a tight, flat spiral on white painted wooden floorboards", "caption": "A millipede of the *Narceus americanus* complex, the American giant millipedes, curled into a coil in a kitchen in North Carolina after the person who found it disturbed it. Millipedes often curl up like this when disturbed; they do not bite.", "license": "CC-BY-4.0", "credit": "(c) Pierre Abbat, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/312393155" },
+    { "type": "p", "text": "Around homes the risk is smaller: UC IPM says millipedes pose a minimal health hazard. Kentucky says the smelly fluid of many millipedes can produce a burn-like skin reaction, and that the hydrogen cyanide some of them make is not produced in amounts large enough to harm people. The common greenhouse millipede is a cyanide producer, NC State notes, so take care when there are many to deal with. [Penn State's millipede fact sheet](https://extension.psu.edu/millipedes) recommends a vacuum or a broom and dustpan for the ones indoors, which keeps them off your hands." },
+    { "type": "callout", "tone": "warning", "title": "If millipede fluid gets on skin or in the eyes", "text": "MedlinePlus advises washing the exposed skin with plenty of soap and water, not alcohol, and rinsing the eyes with plenty of water for at least 20 minutes if any fluid gets in them. It then says to get medical attention right away, and to tell the health care provider if any got in the eyes. In the United States, the Poison Help line, 1-800-222-1222, reaches your local poison control center." },
+
+    { "type": "h2", "text": "What do centipedes and millipedes eat?" },
+    { "type": "p", "text": "Centipedes are hunters and millipedes are recyclers. The MDC says centipedes find prey with their antennae and subdue it with their venom claws, eating small insects, springtails, spiders, earthworms, snails and nematodes, and that the largest species can take small vertebrates. Indoors, Kentucky says the house centipede preys on cockroaches, crickets, pill bugs, sowbugs and silverfish." },
+    { "type": "p", "text": "Millipedes mostly chew through damp, dead plant material such as fallen leaves and rotting wood, work UC IPM considers generally beneficial. A few go after living plants. In large numbers, UC IPM says, they can harm germinating seeds, seedlings and ripening strawberries or other fruit lying on the soil, and NC State says greenhouse millipedes turn to roots for water when the ground dries out." },
+
+    { "type": "h2", "text": "Why are there centipedes and millipedes in my house?" },
+    { "type": "p", "text": "Both need damp places, which is what brings them into basements. The MDC explains that centipedes dry out easily because their outer skin lacks a waxy coating and their breathing holes cannot close, so they stay in damp, humid spots. Kentucky describes millipedes as losing moisture easily too, and finds them under rocks, logs, leaf litter and mulch, adding that damp mulch and plantings close to a home are thought to favor them." },
+    { "type": "h3", "text": "Centipedes: the house centipede moves in" },
+    { "type": "p", "text": "The house centipede is the one that stays. Kentucky says no other centipede species can survive inside structures, and Penn State says it breeds readily in heated buildings though it cannot last a Pennsylvania winter outside, sheltering in damp places such as untrapped floor drains, hollow block walls and crawl spaces. The MDC says house centipedes come inside especially in winter. Other centipedes stray in now and then, but Kentucky's ENTFACT-647 says most of those soon die indoors for lack of moisture." },
+    { "type": "figure", "src": "/guides/photos/brown-centipede-found-indoors.webp", "width": 1200, "height": 670, "alt": "Reddish-brown flattened centipede on a white surface, long antennae at the front and short legs along both sides", "caption": "A brown centipede (*Lithobius forficatus*), one of the stone centipedes, found indoors on Prince Edward Island. Its legs are far shorter than a house centipede's, but there is still one pair per segment.", "license": "CC-BY-4.0", "credit": "(c) Barry Cottam, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/247125933" },
+    { "type": "h3", "text": "Millipedes: migrations after rain or in dry spells" },
+    { "type": "p", "text": "Millipedes arrive in waves. UC IPM says big groups sometimes move, often uphill, when food gets scarce or their home ground turns too wet or too dry, and Penn State ties the movements that end in window wells, basements and garages to cooler weather or heavy rain. Oklahoma State adds dry spells that follow a spring buildup, migrations in late spring and early fall, and an attraction to lights that draws them to patios, driveways and lighted pools. Inside, they last only a few days, Penn State says." },
+
+    { "type": "h2", "text": "Do centipedes or millipedes damage the house or spread disease?" },
+    { "type": "p", "text": "Neither damages the house, and neither carries disease. Oklahoma State says neither centipedes nor millipedes carry any disease to humans, other animals or plants, and that millipedes do not bite, sting, cause structural damage, contaminate food or eat fibers. UC IPM adds that house centipedes leave plants and belongings alone and are beneficial, since they catch flies, cockroaches and other small pests in the house." },
+    { "type": "p", "text": "The difference is what each one tells you. A house centipede is a resident that breeds indoors, and Penn State treats frequent sightings as a hint that its prey is plentiful. Millipedes are passing through, but [Health Canada's page on centipedes, millipedes, sowbugs and pillbugs](https://www.canada.ca/en/health-canada/services/pest-control-tips/centipedes-millipedes-sowbugs-pillbugs.html) says a persistent indoor infestation of millipedes may point to a serious moisture problem and a food source such as rotting wood. Either way, damp is the common thread." },
+
+    { "type": "h2", "text": "What else looks like a centipede or a millipede?" },
+    { "type": "p", "text": "Several many-legged or wormlike animals get mistaken for one or the other, and counting legs sorts most of them." },
+    { "type": "table", "head": ["Look-alike", "How to recognize it", "Where you see it"], "rows": [
+      ["Soil centipede", "Slender, slow-moving and blind; one pair of short legs per segment, 27 to 191 pairs in all", "In soil; it can burrow nearly 30 inches deep"],
+      ["Garden symphylan, the so-called garden centipede", "White, soft and under 1/4 inch, with 12 pairs of legs as an adult; not a true centipede", "Damp soil rich in organic matter, where it can feed on roots"],
+      ["Wireworm (click beetle larva)", "Only 3 pairs of legs; dark yellow and flatter than a millipede", "Below the soil surface, feeding on grass roots"],
+      ["Silverfish", "Six legs, silvery scales and three long tail appendages", "Damp, warm rooms such as bathrooms, basements and laundry rooms"],
+      ["Earwig", "A pair of pincers at the rear; about 3/4 inch long", "Under boards, weeds and debris; it comes inside when the weather outdoors turns too dry, hot or cold"],
+      ["Pill bug or sowbug", "Seven pairs of legs and an oval, domed back; only the pill bug can roll up into a ball", "Damp crawl spaces, basements and the lowest floor of the house"]
+    ], "caption": "Compiled from the MDC, UC IPM, Penn State and University of Kentucky fact sheets linked on this page." },
+    { "type": "p", "text": "Two of these are centipedes in name or in fact. The soil centipede is the true centipede most like a millipede, so check for one pair of legs per segment before deciding, while UC IPM says the garden symphylan is not a true centipede at all and the MDC puts symphylans in a class of their own." },
+    { "type": "p", "text": "Wireworms trip people up from the other side. Penn State notes that millipedes are sometimes called wire worms because of their thin, wiry bodies, while true wireworms are click beetle larvae with six legs that feed on grass roots; UC IPM adds that wireworms keep below the surface of the soil and have a flatter body than a millipede." },
+    { "type": "figure", "src": "/guides/photos/wireworm-beside-dime.webp", "width": 1200, "height": 1600, "alt": "Shiny yellow-orange wormlike larva with a darker head end, lying on dark soil next to the edge of a US dime", "caption": "A wireworm (a click beetle larva) on soil in California beside a US dime, identified on iNaturalist as probably the pasture wireworm, *Monocrepidius exsul*. Count the legs: a wireworm has only three pairs, a millipede dozens.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/194953077" },
+    { "type": "p", "text": "Three household regulars complete the list. Silverfish run quickly on six legs and carry three tail appendages, the [MDC's silverfish page](https://mdc.mo.gov/discover-nature/field-guide/silverfish-firebrat) says, and [UC IPM's silverfish pest note](https://ipm.ucanr.edu/home-and-landscape/silverfish-and-firebrats/) finds them in damp, warm rooms. Earwigs have pincers at the rear, which [UC IPM's earwig pest note](https://ipm.ucanr.edu/home-and-landscape/earwigs/) says they use to defend themselves. Pill bugs and sowbugs are land crustaceans with seven pairs of legs, and [Kentucky's ENTFACT-439 on sowbugs and pillbugs](https://entomology.mgcafe.uky.edu/ef439) says they find it almost impossible to survive indoors without high moisture." },
+    { "type": "confused", "items": [
+      { "href": "/blog/house-centipedes", "name": "House centipede", "photo": "house-centipede-on-wall", "note": "Up to 15 pairs of long, banded legs, one pair per segment; sprints across basement floors", "alt": "House centipede resting on a pale, cracked wall with its legs spread wide" },
+      { "href": "/blog/millipedes", "name": "Millipede", "photo": "greenhouse-millipede", "note": "A double pair of short legs on most segments; slow, and coils up when touched", "alt": "Pair of greenhouse millipedes on a light-colored stone" },
+      { "href": "/blog/how-to-get-rid-of-silverfish", "name": "Silverfish", "photo": "gray-silverfish", "note": "Six legs, silvery-gray scales and three long tail appendages; likes damp, warm rooms", "alt": "Gray silverfish next to white-painted trim" },
+      { "href": "/blog/how-to-get-rid-of-earwigs", "name": "Earwig", "photo": "european-earwig-male", "note": "Pincers at the rear end; hides under boards and debris, wanders in when it is dry", "alt": "Male European earwig showing its curved rear pincers" },
+      { "href": "/blog/pill-bugs", "name": "Pill bug", "photo": "pill-bug-rolled-kitchen-floor", "note": "Seven pairs of legs and a domed, oval back; rolls into a ball, not a spiral", "alt": "Pill bug curled up tight on the floor of a kitchen" }
+    ] },
+
+    { "type": "h2", "text": "What should you do once you know which one it is?" },
+    { "type": "p", "text": "Treat the damp, not the animal. In UC IPM's view, pesticides are rarely justified against either one, and the other extension services cited here put non-chemical steps such as drying out and sealing first." },
+    { "type": "ul", "items": [
+      "**A house centipede.** Leave it or vacuum it up; it eats other household pests. If you keep seeing them, Penn State suggests sticky monitors to learn what they are eating, then drying the basement and sealing cracks and floor drains. [How to deal with house centipedes, step by step](/blog/house-centipedes) has the details, and a [Canadian guide to getting rid of centipedes](/blog/how-to-get-rid-of-centipedes-canada) covers the products registered in Canada.",
+      "**Another centipede, such as a stone centipede.** Sweep it up or put it outside. Kentucky's ENTFACT-647 says treating interior baseboards is of little use and that vacuuming or sweeping up wandering centipedes is enough.",
+      "**Millipedes.** Sweep or vacuum them up; Penn State says no treatment is needed indoors. Outside, take away what they live in: UC IPM advises clearing rotting wood, dead grass and fallen leaves away from the foundation and drying out a damp crawl space. [The guide to millipedes in the house](/blog/millipedes) has the full list, from leaky hose bibs to door sweeps.",
+      "**Both.** Lower the humidity. [EPA's guide to mold and moisture](https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home) recommends holding indoor relative humidity under 60 percent, and ideally between 30 and 50 percent, with a dehumidifier when needed; a [guide to sizing a dehumidifier for a damp basement](/blog/best-large-capacity-dehumidifier-canada) covers capacity."
+    ] },
+    { "type": "p", "text": "Not sure it is either one? [A sorter for bugs found in basements](/blog/bugs-in-basement) covers the other moisture-loving animals that turn up there, from camel crickets to springtails." },
+    { "type": "callout", "tone": "tip", "title": "Catch it without touching it", "text": "Trap it under a jar and slide a card beneath it instead of picking it up by hand. Take photos from above and from the side with a ruler beside it, and jot down the room and the weather that week. With those, a county or state extension office can help you name it." }
+  ],
+  "faqs": [
+    {
+      "question": "Which is worse, a centipede or a millipede?",
+      "answer": "In most homes neither is a serious problem, but they matter in different ways. A house centipede can bite, though the University of Kentucky says its small venom claws rarely pierce skin, and it lives and breeds indoors, where Penn State takes frequent sightings as a hint of plentiful prey. Millipedes do not bite, but some ooze a fluid that can stain or irritate skin, and they can arrive in large numbers after rain or in dry spells, then die within days. Oklahoma State says neither carries disease."
+    },
+    {
+      "question": "Do millipedes bite or sting?",
+      "answer": "No. Millipedes have no venom claws and no stinger: UC IPM's comparison marks them as not prone to biting, and MedlinePlus says that, unlike centipedes, they neither bite nor sting. Their defense is to curl into a coil, and some species release a fluid that can stain skin brown, cause burning or itching and inflame the eyes. If the fluid gets on you, MedlinePlus advises washing the skin with plenty of soap and water, rinsing the eyes with water for at least 20 minutes if any got in them, and getting medical attention right away."
+    },
+    {
+      "question": "Is a millipede a baby centipede?",
+      "answer": "No. Centipedes and millipedes are different classes of animals, and a young one of either grows into its own kind. Penn State says a house centipede starts life with just 4 pairs of legs and gains more with each molt, reaching 15. A newly hatched millipede has only three pairs of legs, according to Oklahoma State, and adds segments and legs at each molt; NC State says each new segment of a greenhouse millipede comes with four legs."
+    },
+    {
+      "question": "Are centipedes and millipedes insects?",
+      "answer": "No. Oklahoma State groups them with scorpions, ticks, spiders and sowbugs as arthropods that are not insects. Insects such as silverfish have six legs, while centipedes and millipedes have dozens or hundreds on many similar body segments. The Missouri Department of Conservation and UC Berkeley's Museum of Paleontology place both among the myriapods, the many-legged arthropods, with centipedes in the class Chilopoda and millipedes in the class Diplopoda."
+    },
+    {
+      "question": "Is a millipede a type of centipede?",
+      "answer": "No, though they are relatives. Both are myriapods, the many-legged arthropods, but centipedes form the class Chilopoda and millipedes the class Diplopoda; the Missouri Department of Conservation counts hundreds of centipede species and more than 900 millipede species in North America north of Mexico. Both are ancient: the MDC dates centipede fossils to about 430 million years ago and says millipedes have been around for about 400 million years. The quickest way to tell them apart is still the legs on one segment: one pair or two."
+    },
+    {
+      "question": "Is a house centipede a real centipede?",
+      "answer": "Yes. The house centipede, Scutigera coleoptrata, is a true centipede in its own order, which the Missouri Department of Conservation describes as fast-moving centipedes with compound eyes and relatively long legs and antennae. It looks different from the brown, short-legged centipedes found under stones outdoors, and the University of Kentucky calls it the one centipede able to live inside buildings. Adults have 15 pairs of banded legs, one pair per segment."
+    },
+    {
+      "question": "Are millipedes isopods?",
+      "answer": "No. Isopods are crustaceans: the University of Kentucky describes pill bugs and sowbugs as land-dwelling isopods with seven pairs of legs and an oval body of hardened, overlapping plates. Millipedes are myriapods in the class Diplopoda, with two pairs of legs on most of their many body segments. The two share damp places, and both a pill bug and a millipede may roll up when disturbed, but a pill bug rolls into a ball while a millipede coils into a spiral; a sowbug cannot roll into a ball."
+    },
+    {
+      "question": "Should you kill centipedes and millipedes in the house?",
+      "answer": "There is little reason to. UC IPM says centipedes rarely need control and counts house centipedes as beneficial for the flies, cockroaches and other pests they catch, and Oklahoma State calls both groups beneficial, centipedes as predators of insects and millipedes as recyclers of decaying matter. Millipedes that wander in die within days, so sweeping or vacuuming them up is enough. Health Canada advises reducing damp spots and debris around the house first."
+    },
+    {
+      "question": "How long do centipedes and millipedes live?",
+      "answer": "Longer than most people expect. UC IPM says centipedes take 2 to 3 years to mature and are known to live 6 years, and the Missouri Department of Conservation says some live more than 10. Millipedes mature in 2 to 5 years and live several years after that, according to UC IPM, and the MDC notes that some species live close to a decade. Penn State says a female house centipede can live for several years, with as many as 150 offspring."
+    },
+    {
+      "question": "What does a centipede bite look like compared with a millipede burn?",
+      "answer": "They are different injuries. Poison Control describes the bite of a large centipede as burning pain that can spread up the limb, with redness, swelling and bruising at the bite, while the Missouri Department of Conservation says a house centipede bite is generally no worse than a bee sting. Millipedes do not bite; MedlinePlus says their fluid can leave a brown stain, burning or itching and sometimes blisters, and the brown color may last for months. Poison Control says to see a doctor if a bite becomes infected or brings allergic symptoms, and MedlinePlus says to get medical attention right away after contact with millipede fluid."
+    }
+  ],
+  "sources": [
+    { "title": "Pest Notes: Centipedes and Millipedes (UC ANR Publication 7472)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/centipedes-and-millipedes/" },
+    { "title": "Centipedes and Millipedes in and Around the Home (ENTFACT-645)", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef645" },
+    { "title": "Centipedes and Pseudoscorpions (ENTFACT-647)", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef647" },
+    { "title": "Centipedes (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/centipedes" },
+    { "title": "Millipedes (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/millipedes" },
+    { "title": "House Centipede (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/house-centipede" },
+    { "title": "House Centipedes", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/house-centipedes" },
+    { "title": "Millipedes", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/millipedes" },
+    { "title": "Centipedes and Millipedes", "publisher": "Oklahoma State University Extension", "url": "https://extension.okstate.edu/fact-sheets/centipedes-and-millipedes.html" },
+    { "title": "Garden Millipede in the Landscape", "publisher": "NC State Extension", "url": "https://content.ces.ncsu.edu/garden-millipede" },
+    { "title": "Introduction to the Myriapoda", "publisher": "University of California Museum of Paleontology", "url": "https://ucmp.berkeley.edu/arthropoda/uniramia/myriapoda.html" },
+    { "title": "First-ever true millipede with 1,306 legs described by Virginia Tech entomologist", "publisher": "Virginia Tech News", "url": "https://news.vt.edu/articles/2022/02/first-true-millipede.html" },
+    { "title": "Millipede toxin", "publisher": "MedlinePlus, U.S. National Library of Medicine", "url": "https://medlineplus.gov/ency/article/002846.htm" },
+    { "title": "Centipede bites: How harmful are they?", "publisher": "Poison Control (National Capital Poison Center)", "url": "https://www.poison.org/articles/are-centipede-stings-harmful-191" },
+    { "title": "Silverfish/Firebrat (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/silverfish-firebrat" },
+    { "title": "Pest Notes: Silverfish and Firebrats (UC ANR Publication 7475)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/silverfish-and-firebrats/" },
+    { "title": "Pest Notes: Earwigs (UC ANR Publication 74102)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/earwigs/" },
+    { "title": "Sowbugs and Pillbugs (ENTFACT-439)", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef439" },
+    { "title": "Centipedes, millipedes, sowbugs and pillbugs", "publisher": "Health Canada", "url": "https://www.canada.ca/en/health-canada/services/pest-control-tips/centipedes-millipedes-sowbugs-pillbugs.html" },
+    { "title": "A Brief Guide to Mold, Moisture and Your Home", "publisher": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home" }
+  ],
+  "disclaimer": "both"
+}

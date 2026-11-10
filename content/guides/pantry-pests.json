@@ -3,7 +3,7 @@
   "kind": "spoke",
   "cluster": "household",
   "keyword": "pantry pests",
-  "alsoTargets": ["bugs in flour", "drugstore beetle", "bugs in rice", "pantry moths"],
+  "alsoTargets": ["bugs in flour", "bugs in rice", "pantry moths"],
   "metaTitle": "Bugs in Flour or Rice? Pantry Pest ID (Photos)",
   "metaDescription": "Flour beetles, Indian meal moths, sawtoothed grain beetles, weevils and drugstore beetles: photos and the checks that tell which one is in your food.",
   "h1": "Bugs in Flour and Rice: How to Identify the Pantry Pests",
@@ -93,6 +93,7 @@
     { "type": "figure", "src": "/guides/photos/cigarette-beetle.webp", "width": 1200, "height": 900, "alt": "Side view of a small, oval, hairy, light reddish-brown beetle with its head tucked down beneath the front of its body, giving it a humped outline", "caption": "Cigarette beetle (*Lasioderma serricorne*) from the side. The head is bent down under the body, the humped look it shares with the drugstore beetle.", "credit": "division, CSIRO, CC BY 3.0, via Wikimedia Commons", "license": "CC-BY-3.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_10823_Lasioderma_serricorne_Tobacco_or_Cigarette_Beetle.jpg" },
     { "type": "media", "needed": "Top-down photo of an adult drugstore beetle (Stegobium paniceum) beside a ruler marked in inches, sharp enough to show the rows of lines on its wing covers, ideally next to a cigarette beetle; public domain or CC0" },
     { "type": "p", "text": "UC IPM says cigarette beetles in the home turn up most often in pet foods, cereals, nuts and candy, and also in spices such as chili powder and paprika. Kentucky Entomology says drugstore beetles are often in bread, flour, breakfast foods and spices such as red pepper. Nebraska Extension adds that both chew through packaging easily." },
+    { "type": "p", "text": "Photos of drugstore beetles and their larvae, and how to track down the source, are in [the guide to drugstore beetles](/blog/drugstore-beetles)." },
 
     { "type": "h2", "text": "Are the bugs in your rice weevils?" },
     { "type": "p", "text": "Small dark beetles with a snout in rice or other whole grains are weevils. Minnesota Extension describes rice, granary and maize weevils as slender and dark brown, with a snout projecting forward from the head and sometimes four orange-ish spots on the wing covers, and Nebraska Extension gives adults as about 1/8 inch long." },

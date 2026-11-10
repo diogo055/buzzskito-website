@@ -2,7 +2,7 @@
  "id": "bugs-that-look-like-fleas",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "f78982d441c436ebb9bb2d733059b7356f56260f9c89d71edceb6284fa607f98",
+ "sha": "016be01fc344586126e54626c848354622f54eac59aa89bfd7b6f1a9d3a159ff",
  "claimsChecked": 440,
  "claimsCorrected": 10,
  "claimsRemovedOrSoftened": 13,
@@ -22,6 +22,11 @@
    "on": "2026-10-23",
    "note": "photos: cat-flea-on-fingertip (batch 12, Oct 23)",
    "previousSha": "630c2c308c787872249b806520dc3b6509380e708e1213ef5abdb984c36f2428"
+  },
+  {
+   "on": "2026-11-09",
+   "note": "Nov 8, 2026 top-3 upgrade (commit b6754e3b: new sourced sections, tables, FAQs and photos) was independently fact-checked that day (41 corrections across the walkthrough pages, three passes), but this record was not updated then; recorded Nov 9.",
+   "previousSha": "f78982d441c436ebb9bb2d733059b7356f56260f9c89d71edceb6284fa607f98"
   }
  ]
 }

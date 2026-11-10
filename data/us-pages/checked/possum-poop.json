@@ -1,0 +1,10 @@
+{
+ "id": "possum-poop",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "68de145117a15822ed571073ac0942b1859755e194daa541460a9a6855f1cdf5",
+ "claimsChecked": 260,
+ "claimsCorrected": 18,
+ "claimsRemovedOrSoftened": 7,
+ "checkedOn": "2026-11-09"
+}

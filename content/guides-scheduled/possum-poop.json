@@ -1,0 +1,239 @@
+{
+  "slug": "possum-poop",
+  "kind": "spoke",
+  "cluster": "wildlife",
+  "keyword": "possum poop",
+  "alsoTargets": [
+    "opossum poop",
+    "possum droppings",
+    "opossum droppings",
+    "what does possum poop look like",
+    "is possum poop dangerous",
+    "possum poop size",
+    "where do possums poop",
+    "possum poop pictures",
+    "is possum poop toxic to dogs"
+  ],
+  "metaTitle": "Possum Poop: What It Looks Like (Photos)",
+  "metaDescription": "Possum poop is about cat-sized and looks like a raccoon's, so where it lies is the tell. Real photos, a look-alike chart, health risks and safe cleanup.",
+  "h1": "Possum Poop: What Opossum Droppings Look Like and Where You Find Them",
+  "dek": "Opossum droppings are about the size of a cat's and change with what the animal ate, so where you find them says as much as their shape. Real photos, a look-alike chart, the health facts and how to clean up safely.",
+  "breadcrumb": "Possum Poop",
+  "excerpt": "What possum poop looks like, with real photos; how to tell it from raccoon, dog, cat, skunk and coyote droppings; whether it is dangerous; and how to clean it up.",
+  "datePublished": "2026-11-12",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Possum poop is about the size of a cat's and looks much like a raccoon's, full of bits of whatever the opossum ate, so the best test is where it lies: opossums usually go in sheltered, leafy spots, while a pile that keeps growing in one place points to a raccoon latrine.** Look and photograph, but do not touch.",
+    "bullets": [
+      "[UNL Extension](https://extensionpubs.unl.edu/publication/g1688/na/html/view) says raccoon and opossum feces are generally cat-sized and filled with the remains of a varied diet, and [UC IPM](https://ipm.ucanr.edu/home-and-landscape/opossum/) says the opossum's mixed diet leaves no average size, shape or texture.",
+      "Opossums typically defecate in protected, leafy areas, UC IPM says, though their droppings also turn up on garden paths, walkways and patios.",
+      "Raccoon droppings run 2 to 3 inches long and 1/2 inch wide and pile up in latrines, according to [ICWDM's droppings key](https://icwdm.org/identification/inspection/brown-or-black-droppings/).",
+      "Fox and coyote scat is typically 2 inches long and 1/2 inch thick with pointed ends and hair inside ([UF/IFAS Extension](https://ask.ifas.ufl.edu/publication/UW369)); a skunk's is 1 to 2 inches long and 1/4 to 1/2 inch thick, often with insect parts ([Montana State University Extension](https://animalrangeextension.montana.edu/wildlife/prevention_and_control/skunks.html)).",
+      "Norway rat droppings are only 3/4 to 1 inch long, says [Cornell IPM](https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior).",
+      "[CDC](https://www.cdc.gov/healthy-pets/about/wildlife.html) says to wash your hands with soap and running water after contact with wild animals or their poop."
+    ]
+  },
+  "facts": {
+    "title": "Possum poop or something else? Quick ID",
+    "head": ["Animal", "Size and shape", "Contents and the tell", "Where you find it"],
+    "rows": [
+      ["Opossum", "About cat-sized, like a raccoon's; no average size or shape, since its diet varies", "Remains of a varied diet: insects, carrion, fruit", "Usually sheltered, leafy spots; sometimes garden paths, walkways and patios"],
+      ["Raccoon", "2 to 3 inches long; 1/2 to 1 inch thick, by source; dark and tubular","Corn kernels, fruit or seeds; a pungent odor", "Latrines used again and again: tree bases, logs, woodpiles, decks, patios, roofs, attics, garages"],
+      ["Dog", "No tapered fringe of hair", "Little or no hair; full of cereal matter", "Wherever dogs go; these sources give no place"],
+      ["House cat", "No size in these sources; UNL compares opossum droppings to a cat's", "Can carry Toxoplasma, CDC says", "Garden soil and uncovered sandboxes"],
+      ["Striped skunk", "1 to 2 inches long, 1/4 to 1/2 inch thick", "Undigested insect parts", "Lawns marked by small, cone-shaped digging holes"],
+      ["Coyote or fox", "About 2 inches long and 1/2 inch thick, segmented, pointed ends; a coyote's usually under 1 inch thick", "Hair and often bits of bone", "Along trails and at crossroads, where coyotes mark territory"],
+      ["Norway rat", "3/4 to 1 inch long", "A fraction of a raccoon's 2 to 3 inches", "Near rat burrows and where food is discarded"],
+      ["Gray squirrel", "5/16 to 3/8 inch (8 to 10 mm) pellets", "Brown to reddish", "Placed at random"],
+      ["Rabbit", "Rounded, pea-sized pellets", "Rough texture", "Where rabbits feed"],
+      ["White-tailed deer", "Oval pellets, slightly larger and smoother than a rabbit's", "Plant matter", "In piles, almost anywhere"]
+    ],
+    "caption": "Opossum from UNL Extension, UC IPM and MDC; raccoon from ICWDM, UF/IFAS, MDC and CDC; dog and coyote from Iowa DNR, ICWDM and UF/IFAS; cat from CDC; skunk from Montana State; rat from Cornell; squirrel, rabbit and deer from MDC, UF/IFAS and ICWDM."
+  },
+  "body": [
+    { "type": "h2", "text": "What does possum poop look like?" },
+    { "type": "p", "text": "Possum poop is about the size of a cat's and much like a raccoon's. [UNL Extension's guide to raccoon and opossum damage](https://extensionpubs.unl.edu/publication/g1688/na/html/view) says the feces of both animals are generally cat-sized and filled with the remains of their varied diet. Past that there is no single look: [UC IPM's Pest Notes on the opossum](https://ipm.ucanr.edu/home-and-landscape/opossum/) say the droppings are hard to describe, because an animal that eats almost anything leaves no average size, shape or texture." },
+    { "type": "figure", "src": "/guides/photos/opossum-scat-leaf-litter.webp", "width": 1200, "height": 1600, "alt": "One smooth, curved, dark brown dropping lying on fallen brown maple leaves at the edge of a patch of green moss", "caption": "A dropping in leaf litter beside moss in Kirtland, Ohio, in December, identified on iNaturalist as Virginia opossum by the observer, who first suggested raccoon, and by a second user. The identification rests on the dropping alone, and the frame has no ruler.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/145445849" },
+    { "type": "p", "text": "What ends up inside depends on the menu. [The Missouri Department of Conservation's field guide](https://mdc.mo.gov/discover-nature/field-guide/virginia-opossum) says opossums prefer animal matter, including many kinds of insects and carrion, eat fruit such as grapes and persimmons in fall and early winter, and scavenge from unsecured garbage cans and pet bowls left outdoors. [University of Arizona Cooperative Extension](https://extension.arizona.edu/sites/extension.arizona.edu/files/attachment/WildlifeTrackScat.pdf) warns that a change of diet can dramatically change the color, shape and contents of any animal's feces, and that several species often eat the same ripe food, which makes droppings hard to place by look alone." },
+    { "type": "figure", "src": "/guides/photos/opossum-scat-gravel-trail.webp", "width": 1200, "height": 901, "alt": "A coil of fresh, glossy black droppings in several thick segments lying on a trail of pink and gray gravel", "caption": "Fresh droppings on a gravel trail in Marine Park, Brooklyn, New York, identified on iNaturalist as Virginia opossum by the observer and two other users, again from the droppings alone. Fresh droppings are usually moist and shiny, UF/IFAS Extension says.", "license": "CC-BY-SA-4.0", "credit": "(c) Nova Patch, some rights reserved (CC BY-SA), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/236844177" },
+    { "type": "p", "text": "Fresh or old? [UF/IFAS Extension's guide to identifying yard wildlife](https://ask.ifas.ufl.edu/publication/UW369) says fresh feces are usually moist and shiny and older ones dry, dull and grayish, so a glossy dropping suggests an animal passed recently. This page covers the Virginia opossum of North America, often simply called a possum; Australia's possums are different animals, and [possum vs opossum](/blog/possum-vs-opossum) explains the two names." },
+
+    { "type": "h2", "text": "How big is possum poop?" },
+    { "type": "p", "text": "About as big as a cat's: that is the only size the extension and agency sources behind this page give, and UC IPM says the opossum's mixed diet rules out an average size. Comparing a dropping with ones whose sizes are known works better than any single number:" },
+    { "type": "ul", "items": [
+      "**Raccoon:** 2 to 3 inches long and 1/2 inch wide, according to [ICWDM's droppings key](https://icwdm.org/identification/inspection/brown-or-black-droppings/) (UF/IFAS Extension says 1 inch thick), and about the same size as an opossum's, UNL Extension says.",
+      "**Coyote or fox:** typically 2 inches long and 1/2 inch thick, segmented, with pointed ends, says UF/IFAS Extension; [Iowa's Department of Natural Resources](https://www.iowadnr.gov/media/8734/download) adds that a coyote's is usually under 1 inch thick.",
+      "**Striped skunk:** 1 to 2 inches long and 1/4 to 1/2 inch thick, in [Montana State University Extension's skunk chapter](https://animalrangeextension.montana.edu/wildlife/prevention_and_control/skunks.html).",
+      "**Norway rat:** only 3/4 to 1 inch long, and a roof rat's about 1/2 inch, [Cornell IPM](https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior) says.",
+      "**Gray squirrel:** brown to reddish pellets 5/16 to 3/8 inch (8 to 10 mm) long, according to [the Missouri Department of Conservation's scat guide](https://mdc.mo.gov/magazines/missouri-conservationist/2021-09/scat-detective)."
+    ] },
+    { "type": "p", "text": "Much smaller droppings, or round pellets, point to other animals: UF/IFAS describes rabbit droppings as rounded, pea-sized pellets with a rough texture and deer droppings as slightly larger, smoother ovals. The [rat droppings guide](/blog/rat-droppings), [squirrel poop guide](/blog/squirrel-poop), [rabbit poop guide](/blog/rabbit-poop) and [deer poop guide](/blog/deer-poop) cover each one, and [the animal poop identification chart](/blog/animal-droppings) sets a dozen kinds side by side." },
+
+    { "type": "h2", "text": "Where do possums poop?" },
+    { "type": "p", "text": "Usually somewhere sheltered: UC IPM says opossums typically defecate in protected, leafy areas, though odd-looking droppings sometimes turn up on garden paths, walkways and patios. Around a house, look near the places where a possum sleeps and feeds." },
+    { "type": "h3", "text": "In the yard and garden" },
+    { "type": "p", "text": "UC IPM says opossums living near people may visit vegetable gardens, compost piles, garbage cans and food dishes and readily eat fallen fruit. [ICWDM's opossum damage guide](https://icwdm.org/species/other-mammals/opossums/opossum-damage-identification/) adds garden produce, fruit trees and compost piles, and UNL Extension says compost holding anything but plant and vegetable matter draws raccoons, opossums and skunks." },
+    { "type": "h3", "text": "On the deck, porch or patio" },
+    { "type": "p", "text": "UC IPM lists steps, porches and decks among the places suburban opossums den, and patios among the places their droppings turn up. A deck is also a classic raccoon latrine site: [CDC's raccoon latrine fact sheet](https://www.cdc.gov/parasites/baylisascaris/resources/raccoonlatrines.pdf) lists decks and patios, so watch whether the pile keeps growing." },
+    { "type": "figure", "src": "/guides/photos/opossum-porch-pet-bowl.webp", "width": 946, "height": 1987, "alt": "Virginia opossum with a white face and gray body crouched at night on a porch beside two metal pet bowls, a white stair railing behind it", "caption": "A Virginia opossum at bowls of food set out on a porch for a neighborhood cat, in California, identified on iNaturalist by the observer and a second user. UC IPM says pet food that disappears overnight may be one of the first clues that an opossum is visiting.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/187943847" },
+    { "type": "h3", "text": "In the garage, attic or crawl space" },
+    { "type": "p", "text": "Given a way in, UC IPM says, opossums den in attics, garages and beneath houses, where they make an untidy nest of sticks and whatever else is at hand. ICWDM says they climb into the insulation under trailer houses and come in through gaps around pipes and drains under sinks, typically through openings that already exist. Droppings indoors could be a raccoon's too, since CDC lists attics and garages among latrine sites; [the guide to noises in the attic at night](/blog/animals-in-attic) sorts the animals by sound and sign." },
+    { "type": "h3", "text": "Under the bird feeder or by the pet bowl" },
+    { "type": "p", "text": "ICWDM says opossums can be a nuisance near homes where they get into garbage, bird feeders and pet food. [Wildlife Illinois](https://wildlifeillinois.org/identify-wildlife/opossum/), a site authorized by the Illinois Department of Natural Resources, advises removing spilled bird seed and not leaving pet food outside overnight." },
+    { "type": "p", "text": "Do possums go in one spot, the way raccoons do? None of the agency or extension sources behind this page describes an opossum latrine. UNL Extension says raccoon droppings are easy to identify because raccoons defecate in the same place, called a toilette, and the Missouri Department of Conservation names otters and raccoons as animals that use the same spot and form a latrine." },
+    { "type": "table", "head": ["Where you found it", "Most likely", "Also consider"], "rows": [
+      ["Deck, porch or patio", "Opossum, which dens under decks and porches", "Raccoon, if the pile keeps growing in one spot"],
+      ["Garden path, walkway or flower bed", "Opossum: its droppings turn up on paths and walkways", "Cat: CDC links garden soil to cat feces"],
+      ["Uncovered sandbox", "Cat: CDC advises covering sandboxes", "Raccoon: [CDC says](https://www.cdc.gov/baylisascaris/prevention/index.html) raccoons sometimes use one as a latrine"],
+      ["Lawn with small, cone-shaped holes", "Skunk: look for insect parts in the droppings", "Other diggers, sorted in [the guide to holes in the yard](/blog/holes-in-yard)"],
+      ["Trail, path or crossroads", "Coyote or fox: hair and bits of bone", "Opossum, on paths and walkways"],
+      ["Under a bird feeder or by a pet bowl", "Opossum or raccoon", "Rat or squirrel, if the droppings are small pellets"],
+      ["Attic, garage or crawl space", "Raccoon latrine or a denning opossum", "Rats: droppings 1 inch long or less"]
+    ], "caption": "From UC IPM, CDC, Montana State University Extension, UF/IFAS Extension, ICWDM and Cornell IPM, each linked on this page." },
+
+    { "type": "h2", "text": "How do you tell possum poop from raccoon poop?" },
+    { "type": "p", "text": "By where it lies and how it piles up, not by size. UNL Extension describes the droppings of both as generally cat-sized and full of the remains of a varied diet, so a lone dropping can fool you; what marks a raccoon is a latrine, one spot used again and again. [The raccoon poop guide](/blog/raccoon-poop) covers raccoon droppings and latrines in detail. The short version:" },
+    { "type": "ul", "items": [
+      "**Raccoon:** droppings 2 to 3 inches long that may show corn kernels or fruit (ICWDM), dark and tubular and left in a latrine at the base of trees, on fallen logs, stumps, woodpiles or large rocks, on decks or patios, or in attics and garages (CDC). [CDC's prevention page](https://www.cdc.gov/baylisascaris/prevention/index.html) adds rooftops and describes the odor as pungent, usually worse than dog or cat feces.",
+      "**Opossum:** about the same size, usually left in a protected, leafy spot (UC IPM), with no latrine habit or particular smell described in the sources behind this page."
+    ] },
+    { "type": "figure", "src": "/guides/photos/raccoon-scat-branch.webp", "width": 1200, "height": 1200, "alt": "One long, dark, segmented raccoon dropping with blunt ends draped over a fallen branch above leaf litter", "caption": "Raccoon scat on a fallen branch in Montville, New Jersey, identified on iNaturalist by the observer and the tracker Kim Cabrera. Raccoon and opossum droppings are about the same size, so a single one like this is hard to place.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/254031120" },
+    { "type": "figure", "src": "/guides/photos/raccoon-latrine-deck.webp", "width": 1200, "height": 976, "alt": "Spread of dark droppings of different ages, some pale and broken down, on a weathered backyard deck in front of a wooden fence", "caption": "A raccoon latrine that built up over a few months on a backyard deck in Richmond, California. A pile like this, growing in one spot, points to a raccoon rather than an opossum.", "license": "CC-BY-4.0", "credit": "(c) Barbara Banfield, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/36140627" },
+    { "type": "p", "text": "The difference matters because raccoon droppings can carry raccoon roundworm. CDC's latrine fact sheet says raccoons are the primary host of *Baylisascaris procyonis*, a roundworm that can harm people, and that eggs in newly deposited feces take at least 2 to 4 weeks to become infective, so prompt cleanup lowers the risk. If you cannot tell which animal left a pile, clean it the way CDC advises for a latrine (below)." },
+
+    { "type": "h2", "text": "Is it possum, dog, cat, skunk or coyote poop?" },
+    { "type": "p", "text": "Check what is in it and where it lies; sizes overlap too much to settle it." },
+    { "type": "ul", "items": [
+      "**Dog:** Iowa's Department of Natural Resources says domestic dog scat lacks hair and a tapered fringe and is full of cereal matter, while a coyote's is often full of small mammal hair.",
+      "**Cat:** droppings in garden soil or a sandbox. [CDC's toxoplasmosis prevention page](https://www.cdc.gov/toxoplasmosis/prevention/index.html) advises gloves for gardening or for any soil or sand that may hold cat feces, says to cover outdoor sandboxes, and says the Toxoplasma parasite becomes infectious 1 to 5 days after a cat sheds it.",
+      "**Skunk:** Montana State University Extension says skunk droppings can often be identified by the undigested insect parts in them, and that skunk digging shows as small, 3- to 4-inch cone-shaped holes in lawns.",
+      "**Coyote or fox:** hair and bits of bone. UF/IFAS says fox and coyote scat usually holds hair and often bone; ICWDM says coyotes leave theirs at crossroads and along trails to mark territory, and the Missouri Department of Conservation's scat guide lists fur and bones as the coyote's content clues."
+    ] },
+    { "type": "figure", "src": "/guides/photos/coyote-scat-ruler.webp", "width": 1200, "height": 1200, "alt": "Brown, twisted coyote scat holding hair and a few seeds on dry grass beside a green ruler", "caption": "Coyote scat beside a ruler on a trail in a California open space preserve, its species confirmed by DNA in the UC Santa Cruz Conservation Scats Project. Hair inside is the tell the sources give for coyote and fox scat.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/12313482" },
+    { "type": "checklist", "title": "Checks to run on a dropping, without touching it", "items": [
+      "**Photograph it with a scale.** Put a coin, pen or pocketknife beside it, as University of Arizona Extension suggests, and never sniff it: some diseases can be caught from airborne particles.",
+      "**Check the ends and the surface.** Flat or pointed ends, smooth or segmented like rope: Arizona Extension lists both as clues, and UF/IFAS gives pointed ends for fox and coyote scat.",
+      "**Look for what is inside.** Hair and bone point to a coyote or fox, insect parts to a skunk, and corn or fruit to a raccoon, though an opossum eats many of the same foods.",
+      "**Count it and map it.** One dropping or many? Arizona Extension asks whether droppings appear in the same spot for several days; a pile that keeps growing points to a raccoon latrine.",
+      "**Find a track.** In mud, snow or dust nearby, an opossum's hind print shows a thumb sticking out at a right angle with no claw mark, the Missouri Department of Conservation says.",
+      "**Note when it appeared.** Droppings that show up overnight fit a nocturnal animal; UNL Extension says opossums and raccoons both are."
+    ] },
+
+    { "type": "h2", "text": "How can you confirm a possum is around?" },
+    { "type": "p", "text": "Look for the animal's other signs. UC IPM says barking dogs and pet food that disappears overnight may be the first clues, and describes an opossum as about the size of a house cat, with coarse grayish fur, a pointed face, hairless, rounded ears and a long, hairless tail that can grasp." },
+    { "type": "figure", "src": "/guides/photos/virginia-opossum.webp", "width": 1200, "height": 900, "alt": "Virginia opossum with a white face, pink nose, dark bare ears and grizzled gray fur walking through dry grass in daylight", "caption": "A Virginia opossum out in daylight. Look for the pointed face, the hairless, rounded ears and the long, hairless tail UC IPM describes.", "license": "CC0-1.0", "credit": "PookieFugglestein, CC0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Virginia_opossum_during_daytime.jpg" },
+    { "type": "p", "text": "Tracks are the strongest proof. The Missouri Department of Conservation describes the hind foot as handlike, with a thumb sticking out at a right angle that leaves no claw print, and notes that opossum tracks are often confused with a raccoon's; ICWDM calls a correctly identified hind-foot track definitive. To check a den opening, UC IPM suggests sprinkling a smooth layer of flour about 1/8 inch thick in front of it and looking for footprints soon after dark. [How to tell an opossum from a raccoon or a big rat](/blog/possum-vs-opossum) covers the animal itself." },
+
+    { "type": "h2", "text": "Is possum poop dangerous?" },
+    { "type": "p", "text": "It can carry germs, so handle it as you would any wild animal's droppings: never bare-handed. [CDC's guidance on wildlife](https://www.cdc.gov/healthy-pets/about/wildlife.html) says even animals that look healthy can carry germs that make people sick, and to wash your hands with soap and running water after contact with wild animals or their poop. UC IPM lists leptospirosis, tuberculosis, relapsing fever, tularemia, spotted fever, toxoplasmosis, coccidiosis, trichomoniasis and Chagas disease among the diseases opossums carry, without saying which, if any, pass through droppings." },
+    { "type": "p", "text": "What the health agencies do say about the risks people ask about:" },
+    { "type": "ul", "items": [
+      "**Leptospirosis travels in urine.** [CDC](https://www.cdc.gov/leptospirosis/about/index.html) says the bacteria spread through the urine of infected animals and can survive in water or soil for weeks to months.",
+      "**Flea-borne typhus comes from fleas.** [CDC](https://www.cdc.gov/typhus/about/murine.html) says fleas become infected by biting infected animals such as rats, cats or opossums, that infected flea droppings rubbed into a bite or other wound spread it, and that most US cases are reported in southern California, Hawaii and southern Texas. UC IPM says opossums host cat and dog fleas, especially in cities.",
+      "**Rabies does not spread through droppings.** CDC's [2008 rabies prevention recommendations](https://www.cdc.gov/mmwr/preview/mmwrhtml/rr5703a1.htm) say contact with an animal's blood, urine or feces is not a rabies exposure.",
+      "**A raccoon's droppings are the bigger worry.** CDC lists decks, patios, attics and garages among raccoon latrine sites, the same places possums turn up, so treat a pile you cannot place as a raccoon's."
+    ] },
+    { "type": "callout", "tone": "warning", "title": "When to see a healthcare provider", "text": "If you think you may have leptospirosis, CDC says to see a healthcare provider right away; illness usually starts 2 to 30 days after contact. Flea-borne typhus symptoms such as fever, headache, body aches or a rash begin 3 to 14 days after contact with infected fleas or flea dirt, and CDC says to see your provider if they appear. Wash any bite or scratch from a wild animal with warm, soapy water at once and seek medical attention, as CDC advises." },
+
+    { "type": "h2", "text": "Can possum poop make dogs or horses sick?" },
+    { "type": "p", "text": "No source behind this page calls possum poop toxic to dogs, but like any wild animal's droppings it can carry germs, so keep your dog from eating it or rolling in it. CDC's wildlife guidance says not to let pets approach or interact with wildlife and to ask your veterinarian how to protect them from diseases such as rabies, leptospirosis and Giardia infection. The possum itself can be the bigger hazard: UC IPM says opossums get into fights with dogs and cats and can inflict serious injury with their sharp teeth." },
+    { "type": "p", "text": "Horses face a specific risk. [Connecticut's Department of Energy and Environmental Protection](https://portal.ct.gov/deep/wildlife/fact-sheets/opossum) says opossums can transmit a serious horse disease, equine protozoal myeloencephalitis (EPM), through feces that contaminate feed and water: a protozoal parasite shed in an opossum's feces causes it, and infected horses can show signs of central nervous system disease. Wildlife Illinois names the parasite, *Sarcocystis neurona*, and says not every infected horse shows symptoms." },
+    { "type": "p", "text": "[ICWDM](https://icwdm.org/species/other-mammals/opossums/opossum-damage-identification/) calls opossums the parasite's definitive hosts and warns that one denning or feeding in a stable may contaminate horse feed and water. Connecticut also says most opossums probably are not shedding the parasite and very few exposed horses develop EPM. Keep opossums away from horse feed and water, as Connecticut and Wildlife Illinois advise; UNL Extension's disease table lists exclusion and opossum control as the prevention." },
+
+    { "type": "h2", "text": "How do you clean up possum poop safely?" },
+    { "type": "p", "text": "Keep the dust down, never touch it bare-handed, and remove it promptly. Because possum and raccoon droppings look alike and turn up in the same places, CDC's raccoon latrine steps are the cautious default; its fact sheet gives these for people who choose to clean up themselves:" },
+    { "type": "ol", "items": [
+      "Put on disposable gloves, and rubber boots you can scrub or disposable shoe covers, so you do not carry anything into the house. In a confined space such as an attic or crawl space, wear an N95-rated respirator.",
+      "Indoors, lightly mist the droppings with water from a spray bottle so you do not stir up dust and debris.",
+      "Lift the droppings and anything soiled by them with a shovel or an inverted plastic bag, then bag them for the trash, bury them or burn them.",
+      "Outdoors, treat soiled decks, patios and other hard surfaces with boiling water: CDC says most chemicals do not kill roundworm eggs, but heat kills them instantly. Call your local fire department before using a propane torch, and never flame anything that can melt or catch fire.",
+      "Indoors, never use a torch. Wipe the area with a damp, not wet, sponge and a bucket of hot, soapy water, flush the dirty water down the toilet, disinfect the bucket with boiling water and bag the sponge for the trash.",
+      "Wash your hands well with soap and warm running water, and launder your clothes in hot water and detergent."
+    ] },
+    { "type": "p", "text": "ICWDM's droppings key warns that droppings can carry pathogens that cause disease in people, and says to wear gloves and wash thoroughly after working with or near them. If you would rather not do the job yourself, CDC's raccoon roundworm page suggests contacting your local animal control office for help. [The animal poop identification chart](/blog/animal-droppings) gives CDC's separate steps for mouse and rat droppings, which use disinfectant rather than heat." },
+    { "type": "confused", "items": [
+      { "href": "/blog/raccoon-poop", "name": "Raccoon latrine", "photo": "raccoon-latrine-log", "note": "About the size of possum poop, but piled in one spot used again and again", "alt": "Heap of tubular raccoon droppings, some furred with white mold, on a felled tree" },
+      { "href": "/blog/rat-droppings", "name": "Rat droppings", "photo": "rat-droppings-thumb", "note": "Only 3/4 to 1 inch long for a Norway rat; a raccoon's runs 2 to 3 inches", "alt": "Thick, dark rat droppings on moss beside a person's thumb for size" },
+      { "href": "/blog/squirrel-poop", "name": "Squirrel droppings", "photo": "gray-squirrel-droppings-ledge", "note": "Brown to reddish pellets 5/16 to 3/8 inch long, placed at random", "alt": "A few dark, oval squirrel droppings on a concrete ledge beside a railing" },
+      { "href": "/blog/rabbit-poop", "name": "Rabbit pellets", "photo": "cottontail-droppings", "note": "Rounded, pea-sized pellets with a rough texture, left where rabbits feed", "alt": "Small cluster of round, brown rabbit pellets on gravel beside a US dime" },
+      { "href": "/blog/deer-poop", "name": "Deer pellets", "photo": "deer-droppings-snow", "note": "Smooth oval pellets, a little larger than a rabbit's, often in piles", "alt": "Scatter of dark oval deer pellets on clean white snow" }
+    ] },
+
+    { "type": "h2", "text": "What should you do once you know it's a possum?" },
+    { "type": "p", "text": "Clean up, then take away what drew the possum and close the place it sleeps; the droppings stop when the visits do. Opossums are not destructive or strong, ICWDM says, so they typically use openings that already exist." },
+    { "type": "ul", "items": [
+      "**Remove the food.** UC IPM advises taking outdoor pet food in by nightfall, keeping tight-fitting lids on garbage cans, leaving food scraps out of the compost bin and picking up fallen fruit. CDC's flea-borne typhus page adds: keep wild animals such as opossums away from your home, and do not feed them.",
+      "**Find the den.** Check under steps, porches, decks and sheds, and in the garage, attic and crawl space, the places UC IPM names.",
+      "**Make sure it has gone, then close the gap.** Use UC IPM's flour test after dark; UNL Extension says never to make repairs unless you are sure the opening is no longer in use, so a mother is not cut off from her young. Then cover openings under the house, shed or deck with 1/4-inch mesh hardware cloth, buried up to 6 inches where possible, as UC IPM advises.",
+      "**Think raccoon-proof.** UNL Extension says an opossum needs an opening at least 3 inches wide and that excluding raccoons keeps opossums out too. [The guide to proofing the space under a deck](/blog/raccoon-and-skunk-proofing-under-a-deck-canada) shows an L-shaped footing of hardware cloth, and [the raccoon deterrent guide](/blog/raccoon-deterrent) covers keeping raccoons out of a yard.",
+      "**Check the rules before trapping.** UC IPM notes that California Department of Fish and Wildlife regulations prohibit relocating wildlife without written permission from the department, and says to check for city or county restrictions on removing opossums first; elsewhere, ask your state wildlife agency. [Possum vs opossum](/blog/possum-vs-opossum) covers an opossum under the deck or in the garage."
+    ] },
+    { "type": "p", "text": "If you are weighing whether to live with a possum, [the guide to what eats ticks and mosquitoes](/blog/what-eats-ticks-and-mosquitoes) looks at the popular claim that opossums eat thousands of ticks." },
+    { "type": "callout", "tone": "tip", "title": "Photograph it, don't touch it", "text": "Photograph the droppings beside a coin or ruler without touching them, note where they lie and whether new ones appear, and look for tracks in mud or snow nearby. Your state's cooperative extension office or wildlife agency can use those details to help identify the animal." }
+  ],
+  "faqs": [
+    {
+      "question": "Is possum poop toxic to dogs?",
+      "answer": "No source behind this page calls it toxic, but like any wild animal's droppings it can carry germs, so keep your dog from eating it or rolling in it. CDC advises keeping pets from approaching wildlife and asking your veterinarian how to protect them from diseases such as leptospirosis, rabies and Giardia infection. UC IPM warns that opossums get into fights with dogs and cats and can inflict serious injuries with their sharp teeth. If your dog seems unwell after contact, call your veterinarian."
+    },
+    {
+      "question": "Is possum poop dangerous to horses?",
+      "answer": "It can be. Connecticut's wildlife agency says opossums can transmit equine protozoal myeloencephalitis (EPM), a serious horse disease caused by a protozoal parasite shed in opossum feces, when that feces contaminates feed or water, and that infected horses can show signs of central nervous system disease. It adds that most opossums probably are not shedding the parasite and very few exposed horses develop EPM. Keep opossums out of horse feed and water, and call a veterinarian if a horse shows nervous-system signs."
+    },
+    {
+      "question": "Can you get sick from touching possum poop?",
+      "answer": "It is possible, because CDC says wild animals can carry germs that make people sick even when they look healthy, so wash your hands with soap and running water after any contact with wild animals or their poop. UC IPM lists diseases opossums can carry, such as leptospirosis, which CDC says spreads through the urine of infected animals. Wear disposable gloves to clean droppings, and see a healthcare provider if you get sick afterward."
+    },
+    {
+      "question": "Can you get rabies from possum poop?",
+      "answer": "No. CDC's 2008 rabies prevention recommendations say that contact with an animal's blood, urine or feces is indirect contact that does not count as a rabies exposure, so rabies shots should not be given for it. Bites and scratches are different: CDC advises washing any wound from a wild animal with warm, soapy water right away, seeking medical attention, and talking with a healthcare provider about whether you need a rabies shot."
+    },
+    {
+      "question": "Do possums poop in the same place every night?",
+      "answer": "None of the agency or extension sources behind this page says so. UC IPM says opossums typically defecate in protected, leafy areas and that their droppings sometimes turn up on garden paths, walkways and patios. Going in the same spot night after night, building a latrine, is the habit UNL Extension and the Missouri Department of Conservation describe for raccoons. A pile that keeps growing in one place is therefore more likely a raccoon's, and CDC's latrine cleanup steps apply."
+    },
+    {
+      "question": "Why is there possum poop on my deck?",
+      "answer": "Most likely something under or near the deck draws the animal. UC IPM says suburban opossums den under steps, porches and decks, visit pet food dishes, garbage cans and compost, and leave droppings on patios and walkways. A deck is also on CDC's list of raccoon latrine sites, so if the pile keeps growing in one spot, treat it as a raccoon's. Clean it up with gloves, take away the food, and close the space under the deck once the animal has left."
+    },
+    {
+      "question": "Is possum poop black?",
+      "answer": "The droppings in the two photos on this page are dark brown and black, but color is a weak test. UC IPM says an opossum's varied diet leaves no average size, shape or texture, and University of Arizona Extension says a change of diet can dramatically change the color, shape and contents of any animal's feces. Age changes the look too: UF/IFAS Extension says fresh droppings are usually moist and shiny and older ones dry, dull and grayish."
+    },
+    {
+      "question": "Is possum poop good fertilizer for a garden?",
+      "answer": "None of the extension or health sources behind this page recommends using it. They treat wild animal droppings as something to remove: CDC's latrine steps bag droppings for the trash or bury or burn them, CDC advises washing your hands after contact with any wild animal's poop, and it advises gloves for garden soil that may hold cat feces. UNL Extension also advises keeping compost to plant and vegetable matter so it does not draw raccoons, opossums and skunks."
+    },
+    {
+      "question": "What is the difference between possum poop and rat poop?",
+      "answer": "Mostly size. Cornell IPM gives Norway rat droppings as 3/4 to 1 inch long and roof rat droppings as about 1/2 inch, while UNL Extension describes opossum droppings as generally cat-sized, like a raccoon's, which ICWDM puts at 2 to 3 inches long. Many small pellets an inch long or less point to rats or another small animal, not a possum. Look for burrows too: Cornell IPM says Norway rats prefer to burrow in soil, and that rat burrows mean openings into buildings need sealing."
+    },
+    {
+      "question": "Does vinegar keep possums away?",
+      "answer": "None of the agency sources behind this page recommends it, and UNL Extension's 2007 guide says no repellents were registered for opossums. What they recommend instead is removing what draws the animal, such as pet food left out overnight, open garbage, fallen fruit and food scraps in compost, and then, once the opossum has left, closing openings under decks, sheds and houses with 1/4-inch hardware cloth, as UC IPM advises."
+    }
+  ],
+  "sources": [
+    { "title": "Controlling Raccoon and Opossum Damage (NebGuide G1688, 2007), by Stephen Vantassel, Scott Hygnstrom, Dennis Ferraro and Sam Wilson", "publisher": "University of Nebraska-Lincoln Extension", "url": "https://extensionpubs.unl.edu/publication/g1688/na/html/view" },
+    { "title": "Pest Notes: Opossum (UC ANR Publication 74123), by R. A. Baldwin", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/opossum/" },
+    { "title": "Virginia Opossum", "publisher": "Wildlife Illinois (authorized by the Illinois Department of Natural Resources)", "url": "https://wildlifeillinois.org/identify-wildlife/opossum/", "kind": "government" },
+    { "title": "Virginia Opossum (field guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/virginia-opossum" },
+    { "title": "Opossum Damage Identification", "publisher": "Internet Center for Wildlife Damage Management", "url": "https://icwdm.org/species/other-mammals/opossums/opossum-damage-identification/" },
+    { "title": "Brown or Black Droppings", "publisher": "Internet Center for Wildlife Damage Management", "url": "https://icwdm.org/identification/inspection/brown-or-black-droppings/" },
+    { "title": "The Scat Detective (Tom Meister, Missouri Conservationist, September 2021)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/magazines/missouri-conservationist/2021-09/scat-detective" },
+    { "title": "How to Identify the Wildlife Species Responsible for Damage in Your Yard (WEC324/UW369)", "publisher": "University of Florida IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/UW369" },
+    { "title": "Canid Identification: Wolves, Coyotes and Dogs (adapted from Wisconsin DNR)", "publisher": "Iowa Department of Natural Resources", "url": "https://www.iowadnr.gov/media/8734/download" },
+    { "title": "Skunks (Prevention and Control of Wildlife Damage), by James E. Knight", "publisher": "Montana State University Extension, Animal and Range Sciences", "url": "https://animalrangeextension.montana.edu/wildlife/prevention_and_control/skunks.html" },
+    { "title": "Wildlife Track and Scat Identification (Backyard Gardener #131, November 2023), adapted from Jeff Schalau", "publisher": "University of Arizona Cooperative Extension, Yavapai County", "url": "https://extension.arizona.edu/sites/extension.arizona.edu/files/attachment/WildlifeTrackScat.pdf" },
+    { "title": "Mouse and Rat Biology and Behavior", "publisher": "Cornell Integrated Pest Management (Cornell IPM), Cornell University", "url": "https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior" },
+    { "title": "Raccoon Latrines: Identification and Clean-up", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/parasites/baylisascaris/resources/raccoonlatrines.pdf" },
+    { "title": "Preventing Raccoon Roundworm", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/baylisascaris/prevention/index.html" },
+    { "title": "Wildlife (Healthy Pets, Healthy People)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-pets/about/wildlife.html" },
+    { "title": "About Leptospirosis", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/leptospirosis/about/index.html" },
+    { "title": "About Flea-borne Typhus", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/typhus/about/murine.html" },
+    { "title": "Human Rabies Prevention, United States, 2008: Recommendations of the Advisory Committee on Immunization Practices", "publisher": "Centers for Disease Control and Prevention, Morbidity and Mortality Weekly Report", "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/rr5703a1.htm" },
+    { "title": "Virginia Opossum (Wildlife in Connecticut fact sheet)", "publisher": "Connecticut Department of Energy and Environmental Protection, Wildlife Division", "url": "https://portal.ct.gov/deep/wildlife/fact-sheets/opossum" },
+    { "title": "Preventing Toxoplasmosis", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/toxoplasmosis/prevention/index.html" }
+  ],
+  "disclaimer": "health"
+}

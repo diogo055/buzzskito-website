@@ -1,0 +1,248 @@
+{
+  "slug": "brown-recluse",
+  "kind": "spoke",
+  "cluster": "spiders",
+  "keyword": "brown recluse",
+  "alsoTargets": [
+    "brown recluse spider",
+    "what does a brown recluse look like",
+    "brown recluse range",
+    "brown recluse size",
+    "are there brown recluses in california",
+    "are there brown recluses in florida",
+    "brown recluse in house"
+  ],
+  "metaTitle": "Brown Recluse Spider: ID and Range (Photos)",
+  "metaDescription": "A brown recluse has six eyes in pairs, plain legs and a 3/8-inch body. Real photos, where it lives state by state, where it hides and how to confirm one.",
+  "h1": "Brown Recluse Spiders: How to Identify One and Where They Really Live",
+  "dek": "The six-eye test, the real size, the states where brown recluses live and the ones where they do not, where they hide indoors and how sticky traps confirm them, with real photos and university sources.",
+  "breadcrumb": "Brown Recluse",
+  "excerpt": "Identify a brown recluse by its six eyes, plain legs and 3/8-inch body, see where it really lives state by state, and confirm an infestation with sticky traps.",
+  "datePublished": "2026-11-12",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**A brown recluse is a slender tan to dark brown spider with a body about 3/8 inch long, six eyes in three pairs, and legs and an abdomen that are each one plain color with no spines; the violin mark alone does not prove one.** [UC IPM's Pest Note on recluse spiders](https://ipm.ucanr.edu/home-and-landscape/brown-recluse-and-other-recluse-spiders/) says a recluse must pass all five checks.",
+    "bullets": [
+      "Rick Vetter of [UC Riverside](https://spiders.ucr.edu/how-identify-and-misidentify-brown-recluse-spider) gives a body length of about 3/8 inch and rules out any spider whose body is longer than 1/2 inch; the University of Kentucky says an adult with its legs spread is about the size of a US quarter.",
+      "[CDC](https://www.cdc.gov/niosh/outdoor-workers/about/venomous-spiders.html) describes six equal-sized eyes where most spiders have eight, and Kentucky says seeing them takes a good hand lens.",
+      "[Penn State Extension](https://extension.psu.edu/brown-recluse-spiders) lists established populations in 16 states, from Nebraska, Iowa and Ohio south to Texas, Louisiana and Georgia.",
+      "Indoors they hide in boxes, closets, attics, basements, crawl spaces and stored clothes and shoes, Kentucky and CDC say, and they come out at night to hunt.",
+      "Flat sticky traps along baseboards and behind furniture confirm them; [Illinois health officials](https://dph.illinois.gov/topics-services/environmental-health-protection/structural-pest-control/brown-recluse-black-widow-spiders.html) say 50 or more in an average home is not excessive.",
+      "Penn State says about 90 percent of bites cause no reaction or only a small red bump; see a healthcare provider about any bite you suspect."
+    ]
+  },
+  "facts": {
+    "title": "Brown recluse: quick ID",
+    "head": ["Feature", "Brown recluse"],
+    "rows": [
+      ["Eyes", "Six, in three pairs: one pair in front, one on each side; most spiders have eight"],
+      ["Violin mark", "Dark violin behind the eyes, its neck pointing back toward the abdomen; not proof by itself"],
+      ["Legs", "Long and thin, one color, with fine hairs and no spines or bands"],
+      ["Abdomen", "One color, cream to dark brown, finely hairy, never striped or spotted"],
+      ["Body length", "About 3/8 inch; a body longer than 1/2 inch rules a recluse out"],
+      ["With legs spread", "About the size of a US quarter"],
+      ["Color", "Tan to dark brown overall; the abdomen's shade varies partly with what it has eaten recently"],
+      ["Web", "None for catching prey; small retreat webs behind objects, never out in the open"],
+      ["Active", "At night; males roam, females stay near their retreats"],
+      ["Hiding places", "Boxes, closets, stored clothes and shoes, attics, basements, crawl spaces, behind furniture"],
+      ["Native range", "16 states, from southeastern Nebraska and southwestern Ohio south to Texas and north Georgia"],
+      ["Telltale sign", "Shed skins lying flat with the legs spread wide"]
+    ],
+    "caption": "From UC IPM and UC Riverside (Rick Vetter), the University of Kentucky, Colorado State, the Missouri Department of Conservation, Penn State, CDC and Vetter and Hedges (2018), each linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "What does a brown recluse look like?" },
+    { "type": "p", "text": "A brown recluse is a slender, long-legged spider, tan to dark brown, with a dark violin on the front of its body, and legs and an abdomen each a single plain color. [Penn State Extension's brown recluse page](https://extension.psu.edu/brown-recluse-spiders) calls it chocolate brown and about 3/8 inch (9 millimeters) long, and [the University of Kentucky's brown recluse fact sheet](https://entomology.mgcafe.uky.edu/ef631) says the abdomen and legs carry no stripes, bands or mottling." },
+    { "type": "figure", "src": "/guides/photos/brown-recluse-concrete-floor.webp", "width": 1200, "height": 900, "alt": "Brown recluse standing on gray concrete, with long, thin legs of one tan-brown color, a darker head end and an oval, evenly colored abdomen", "caption": "A brown recluse on concrete in Missouri, identified at research grade on iNaturalist. Its legs and abdomen are each one plain color, with no bands or stripes.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/125467825" },
+    { "type": "p", "text": "Color alone is a poor guide: [UC IPM](https://ipm.ucanr.edu/home-and-landscape/brown-recluse-and-other-recluse-spiders/) says a recluse's abdomen can run from light beige to dark brown, depending partly on what it has recently eaten. The [Missouri Department of Conservation](https://mdc.mo.gov/discover-nature/field-guide/brown-recluse-violin-spider) describes an oblong abdomen covered in fine gray hairs, and Kentucky says the violin, consistent on adults, can be less obvious on younger spiders." },
+    { "type": "p", "text": "The violin's body sits near the eyes, Penn State says, and its neck points back toward the abdomen, as Rick Vetter describes it in [UC Riverside's guide to identifying and misidentifying the brown recluse](https://spiders.ucr.edu/how-identify-and-misidentify-brown-recluse-spider). He calls it unreliable for anyone who is not an arachnologist, because people see violins in the markings of many harmless spiders, and UC IPM says it is very faint to missing on several recluses of the Southwest. Use it as a reason to check the eyes." },
+    { "type": "figure", "src": "/guides/photos/brown-recluse-white-wall.webp", "width": 1200, "height": 1073, "alt": "Brown recluse seen from above on a smooth white surface, its long, plain brown legs spread around a faint violin mark and a dark oval abdomen", "caption": "A brown recluse from above on a white surface in St. Louis, Missouri, which the observer described as about quarter sized. The violin, faint at this size, runs from the eyes back toward the abdomen.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/89206511" },
+
+    { "type": "h2", "text": "How can you tell for sure that it's a brown recluse?" },
+    { "type": "p", "text": "Count the eyes: six in three pairs, one pair in front and one on each side with a space between, where most spiders have eight in two rows of four, Vetter says. [CDC's page on venomous spiders at work](https://www.cdc.gov/niosh/outdoor-workers/about/venomous-spiders.html) adds that the six are of equal size, and Kentucky says seeing them takes a good hand lens." },
+    { "type": "figure", "src": "/guides/photos/brown-recluse-eyes.webp", "width": 1200, "height": 858, "alt": "Close-up of the front of a brown recluse's head, showing six small dark eyes in three separated pairs above its reddish-brown jaws", "caption": "Six eyes in three pairs, one in front and one on each side, on a brown recluse from Austin, Texas, photographed for the University of Texas at Austin's Insects Unlocked project.", "license": "CC0-1.0", "credit": "Insects Unlocked, CC0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dorsal_view_of_Loxosceles_reclusa_(Brown_Recluse_Spider)_(22235181003).jpg" },
+    { "type": "p", "text": "Then run the rest of UC IPM's checks. A spider must have all five of these features to be a recluse, so one failure rules it out:" },
+    { "type": "ol", "items": [
+      "**Six eyes in pairs.** Eight eyes, or six bunched into one group, mean another spider.",
+      "**An abdomen of one color, with fine hairs.** It can be cream to dark brown but never shows two colors at once, Vetter says.",
+      "**Legs of one color.** Stripes, rings or bands rule it out; [Colorado State University Extension](https://extension.colostate.edu/resource/brown-recluse-spiders-in-colorado-recognition-and-spiders-of-similar-appearance/) says recluse legs are never banded.",
+      "**No spines on the legs.** Only fine hairs; conspicuous thick spines rule a recluse out.",
+      "**A body no longer than about 3/8 inch.** Vetter rules out any spider whose body is longer than 1/2 inch."
+    ] },
+    { "type": "p", "text": "A few harmless spiders pass the eye count, which is why the pairs matter: Vetter notes that spitting spiders share a similar six-eye pattern but have no violin, and Colorado State says the woodlouse spider's six eyes are packed together in the middle of the head." },
+
+    { "type": "h2", "text": "How big is a brown recluse?" },
+    { "type": "p", "text": "Smaller than most people expect: Vetter puts the body at about 3/8 inch, and Kentucky says an adult with its legs spread covers about the area of a US quarter. The Missouri Department of Conservation says a recluse in a typical pose measures about 1 inch including the legs, and [Texas A&M AgriLife's fact sheet on controlling brown recluses](https://citybugs.tamu.edu/factsheets/biting-stinging/others/ent-3003/) puts the leg span between a quarter and a half-dollar." },
+    { "type": "figure", "src": "/guides/photos/brown-recluse-quarter.webp", "width": 1200, "height": 900, "alt": "Long-legged brown spider with a violin mark and a plain oval abdomen beside the edge of a US quarter, lit by warm orange light", "caption": "A spider its photographer identified as a brown recluse, beside a US quarter for size. With its legs spread, an adult covers about the area of a quarter.", "license": "public-domain", "credit": "Br-recluse-guy, Public domain, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brown-recluse-quarter.jpg" },
+    { "type": "p", "text": "Females are the larger sex, the Missouri Department of Conservation says, but males do the wandering: UC IPM says mature males roam in search of females, and Kentucky says males and older juveniles travel farther than females, which stay near their retreats. A brown spider whose body is well past half an inch long can be ruled out on size alone." },
+
+    { "type": "h2", "text": "Where do brown recluses live?" },
+    { "type": "p", "text": "In the south-central United States. UC IPM places the native range from southeastern Nebraska to southwestern Ohio and south through Texas to north Georgia, and Penn State lists established populations in 16 states: Alabama, Arkansas, Georgia, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Mississippi, Missouri, Nebraska, Ohio, Oklahoma, Tennessee and Texas. [A 2011 study in PLOS ONE](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0017731) describes the range as running from Kansas east to Kentucky and from southern Iowa south to Louisiana." },
+    { "type": "p", "text": "It is not spread evenly, and toward the north it lives mostly indoors: Kentucky says outdoor populations are less common in the northern part of the range, and [Indiana State University's brown recluse project](https://www.indianastate.edu/academics/colleges/arts-sciences/biology/brown-recluse-project) says cold winters limit how far north recluses live in the wild, though populations carried beyond the range can persist in climate-controlled buildings." },
+    { "type": "table", "head": ["State", "Where the brown recluse lives there"], "rows": [
+      ["Missouri", "Presumed statewide indoors, after a gradual spread north (Missouri Department of Conservation)"],
+      ["Kentucky", "Infestations grow more common toward the west of the state (University of Kentucky)"],
+      ["Illinois", "Not found north of a line that cuts the state roughly in half (PLOS ONE, 2011)"],
+      ["Indiana", "Almost any county in the southern half; less common to the north (Indiana State University)"],
+      ["Ohio", "The southwest of the state; less common to the north and east (Indiana State University)"],
+      ["Iowa", "Rare; might turn up in the south, absent from the north ([Iowa State University](https://yardandgarden.extension.iastate.edu/article/2013/07-26/recluse.html))"],
+      ["Nebraska", "The southeast; UC IPM traces the range from southeastern Nebraska to southwestern Ohio"],
+      ["Georgia", "The northwest; [Vetter and Hedges (2018)](https://academic.oup.com/jipm/article/doi/10.1093/jipm/pmx031/4818303) trace the range south to northwestern Georgia"]
+    ], "caption": "The edge states, plus Missouri near the center; Penn State's other established states sit inside the range UC IPM describes." },
+    { "type": "p", "text": "Farther west, other recluses take its place. Eleven recluse species are native to the US, UC IPM says; [University of Arizona News](https://news.arizona.edu/news/5-things-you-might-not-know-about-brown-recluse) reports that the Arizona recluse is the most common in that state, and UC IPM says California's native desert recluse lives mostly in the Sonoran and Mojave deserts. The six-eye check works on every recluse." },
+
+    { "type": "h2", "text": "Are there brown recluses in my state?" },
+    { "type": "p", "text": "Outside the 16 states, rarely, and only indoors. Penn State says recluses outside the native range are restricted to buildings and almost always brought in by people, puts the risk of a bite there at virtually nonexistent, and lists only isolated finds in Arizona, California, the District of Columbia, Florida, North Carolina, New Jersey, Pennsylvania, Washington and Wyoming. For the states people ask about most:" },
+    { "type": "table", "head": ["State", "Brown recluses?", "What the source found"], "rows": [
+      ["California", "No populations", "Fewer than 20 verified specimens collected in several decades; the native desert recluse lives mostly in the southeastern deserts (UC IPM)"],
+      ["Florida", "Not established", "A 2026 survey of 220 properties with reported recluse infestations found breeding populations of the introduced Mediterranean recluse at only 19 ([Coticchio and Cassill](https://academic.oup.com/jme/article/63/1/tjag004/8466230))"],
+      ["Texas", "Yes, established", "Inside the native range (UC IPM); Texas A&M calls it one of the most dreaded household pests in the state"],
+      ["Washington", "Not established", "Lives in the South and lower Midwest, not the Northwest, a WSU entomologist said in 2013 ([Washington State University](https://entomology.wsu.edu/2013/06/18/wsu-scientist-dreaded-spider-doesnt-live-here/))"],
+      ["Wisconsin", "Not native", "Outside the native range, the [University of Wisconsin Insect Diagnostic Lab](https://insectlab.russell.wisc.edu/2018/05/22/black-widows-2017/) wrote in 2018"],
+      ["Colorado", "Extremely rare", "One museum specimen from the state, Boulder County, 1996; finds come from occasional transfers (Colorado State)"],
+      ["Arizona", "Isolated finds", "Penn State lists isolated finds; the native Arizona recluse is the state's most common recluse (University of Arizona)"],
+      ["Virginia", "Not on Penn State's lists", "A national study received three brown recluses from coastal Virginia, including a male from a shed; none turned up in nearby homes (Vetter, 2005)"]
+    ], "caption": "Each source is linked on this page. Colorado, Virginia and Wisconsin appear on neither of Penn State's lists." },
+    { "type": "p", "text": "No brown recluse has ever been found north of the 48 contiguous states, UC IPM notes, even though doctors in Alaska and Canada have blamed skin wounds on recluse bites. Guides to [spiders in Texas](/blog/spiders-in-texas), [spiders in Florida](/blog/spiders-in-florida) and [spiders in California](/blog/spiders-in-california) cover the common species there, and [venomous spiders by state](/blog/venomous-spiders) adds the widows." },
+
+    { "type": "h2", "text": "Why do people report brown recluses where none live?" },
+    { "type": "p", "text": "Because plenty of brown spiders look the part, and the name gets attached to wounds with other causes. When Rick Vetter collected suspected recluses from across the country, [324 brown recluses arrived from 15 states](https://academic.oup.com/jme/article-lookup/doi/10.1093/jmedent/42.4.512), and all but four came from inside the known range: one from a northern California home whose family had moved from Missouri, and three from coastal Virginia, including a male from a shed." },
+    { "type": "p", "text": "Bite reports stray farther still: UC IPM passes on a single toxicology physician's estimate that 60 percent of brown recluse bite diagnoses came from areas where no recluse spiders were known to live. [The brown recluse bite guide](/blog/brown-recluse-bite) covers what else causes such wounds." },
+
+    { "type": "h2", "text": "Where do brown recluses hide in a house?" },
+    { "type": "p", "text": "In dark, dry, undisturbed spots, especially in clutter and storage. Kentucky's list runs from cracks, corners and the joints of walls and floors behind clutter, through wall voids and block foundations and the joists, rafters and insulation of attics, basements and crawl spaces, to the spaces behind and under beds and furniture, closets, clothing, shoes and stored items, baseboards, ducts and registers." },
+    { "type": "p", "text": "Cardboard is a favorite. [Vetter and Hedges' 2018 review of brown recluse management](https://academic.oup.com/jipm/article/doi/10.1093/jipm/pmx031/4818303) names the folded flaps of cardboard boxes, attic insulation and door sills, and Texas A&M says the spiders are most common in cluttered closets, garages, crawl spaces and attics. UC IPM says a recluse out hunting may shelter in clothing or shoes as dawn approaches." },
+    { "type": "figure", "src": "/guides/photos/brown-recluse-basement-wall.webp", "width": 1200, "height": 1600, "alt": "Small brown recluse with long, thin legs spread out on a pale, cracked basement wall", "caption": "A brown recluse on a basement wall in Missouri, where the observer found it; the identification is research grade on iNaturalist.", "license": "CC-BY-4.0", "credit": "(c) Gemma Wyatt & Sean Riha, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/168597666" },
+    { "type": "p", "text": "They cannot climb smooth surfaces, so they are often found trapped in bathtubs and sinks, the Missouri Department of Conservation says, and Kentucky says they can survive winter in an unheated basement and summer heat in an attic." },
+    { "type": "p", "text": "Outdoors in the range they live under rocks, logs, woodpiles and debris, and in barns, sheds and behind shutters, Kentucky says, and they get inside through gaps under doors, vents and utility openings, beneath the lowest edge of siding and where eaves meet the walls. They do not drift in on silk: the Illinois Department of Public Health says they do not balloon, and that infestations usually start with spiders hitchhiking in furniture or boxes from an infested building." },
+
+    { "type": "h2", "text": "What are the signs of a brown recluse infestation?" },
+    { "type": "p", "text": "Shed skins, spiders on traps or stuck in sinks, and spiders out at night. The skins are the giveaway: Vetter and Hedges say recluses are the only house spiders in North America that leave a shed skin lying flat with its legs spread wide, and that finding one shows recluses were there at some point." },
+    { "type": "figure", "src": "/guides/photos/brown-recluse-shed-skin.webp", "width": 1200, "height": 1600, "alt": "Pale, papery shed skin of a brown recluse lying flat on a cardboard tube, with all eight thin legs spread out", "caption": "A brown recluse shed skin on a cardboard tube, found in a shed in Acworth, Georgia. Among North American house spiders, only recluses leave a skin lying flat with the legs spread wide.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/249344439" },
+    { "type": "p", "text": "One sighting usually means more. The Missouri Department of Conservation says that when you see one there are probably many more, because recluses are nocturnal and stay hidden, and Kentucky says infestations range from one or a few spiders to several hundred." },
+    { "type": "checklist", "title": "Signs of brown recluses in a home", "items": [
+      "**Shed skins** lying flat with the legs spread out, in boxes, closets, attics and along baseboards.",
+      "**Egg sacs**: round, off-white silk cases about 1/3 inch across, each holding about 40 to 50 eggs, by Kentucky's count; [the spider egg sac guide](/blog/spider-egg-sacs) compares other species' sacs.",
+      "**Spiders stuck in a bathtub or sink**, which recluses cannot climb out of.",
+      "**Spiders on sticky traps** set along walls and behind furniture.",
+      "**Small, irregular silk** behind objects; Kentucky says webs strung along walls, corners and ceilings are almost always from other spiders, such as cobweb or cellar spiders.",
+      "**Spiders moving at night**, found with the bright flashlight Kentucky says a thorough inspection needs.",
+      "**Dead spiders**, which Vetter and Hedges say show recluses were present at some point."
+    ] },
+    { "type": "media", "needed": "Brown recluse egg sac in a home (a round, off-white silk sac about 1/3 inch across in a box, closet or crawl space), identified by an arachnologist or extension entomologist; public domain or CC0" },
+
+    { "type": "h2", "text": "How do sticky traps confirm brown recluses?" },
+    { "type": "p", "text": "Put out dozens of flat glue traps where recluses travel, then identify what they catch. Kentucky recommends flat sticky cards with no raised edge in corners and along baseboards and the joints of walls and floors, especially behind furniture and clutter, and says the more traps the better. [The Illinois Department of Public Health](https://dph.illinois.gov/topics-services/environmental-health-protection/structural-pest-control/brown-recluse-black-widow-spiders.html) says 50 or more in an average home is not excessive, and that the catch pinpoints the hot spots where control should focus." },
+    { "type": "p", "text": "Set them tight against walls, because recluses follow walls, Vetter and Hedges say, and include closets and the cabinets and vanities that hold sinks. Texas A&M says sticky cards readily trap brown recluses; UC IPM says to keep them out of reach of pets and young children. Put traps out before any insecticide, Kentucky says, since some products make spiders wander." },
+    { "type": "figure", "src": "/guides/photos/brown-recluses-sticky-trap.webp", "width": 1125, "height": 1503, "alt": "Two long-legged brown recluses stuck on a white sticky trap among dozens of small black ants and other tiny insects", "caption": "Two brown recluses among ants and other small insects on a cockroach sticky trap set by a garage in Warr Acres, Oklahoma.", "license": "CC-BY-4.0", "credit": "(c) Emily Geest, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/193060902" },
+    { "type": "p", "text": "Traps confirm and monitor; on their own they often fall short of ending an infestation. Vetter and Hedges note that traps catch many wandering males but have less effect on mated females that stay hidden, and they cite a small study in which sticky traps alone did not reduce infestations in homes. Kept out over time, traps still show whether numbers are falling: UC IPM says they give an idea of population levels in a building." },
+
+    { "type": "h2", "text": "How do you get rid of brown recluses?" },
+    { "type": "p", "text": "With several methods at once rather than one spray: the Illinois Department of Public Health says a plan that relies on a single method, such as spraying baseboards, will fail. The steps these sources share:" },
+    { "type": "ol", "items": [
+      "**Confirm the spider.** Check the eyes and run traps first.",
+      "**Cut the clutter.** Reduce clutter and stored items, especially in closets, attics, basements and garages, and move firewood, building materials and debris away from the foundation (Kentucky).",
+      "**Close up storage.** Keep seldom-used clothes, shoes and gear in tightly closed plastic bags or bins (UC IPM), and tape boxes shut (Vetter and Hedges; Texas A&M).",
+      "**Vacuum** spiders, webbing and egg sacs out of hiding places; Iowa State calls this the first treatment step.",
+      "**Seal the gaps.** Caulk cracks, seal around doors and where pipes and wires come through, and screen vents (UC IPM; Vetter and Hedges).",
+      "**Protect the bed.** Move it away from the wall, remove bed skirts and ruffles, and store nothing underneath (UC IPM).",
+      "**Check before you dress.** Inspect or shake out clothing, shoes and towels before use, as CDC advises, and keep clothes off the floor (UC IPM).",
+      "**Keep trapping** to see whether the catch falls."
+    ] },
+    { "type": "p", "text": "Insecticides help only where they reach the hiding places. Texas A&M says brown recluses are difficult to kill with most insecticides and that sprays on wood and masonite controlled them for only up to seven days. Vetter and Hedges say dusts applied into cracks and voids work better than water-based surface sprays, and Kentucky and Illinois both say foggers do little against them. UC IPM notes that spraying is difficult unless you actually see the spider and can spray it, and that crushing one you can see is just as easy." },
+    { "type": "p", "text": "For a confirmed infestation, a professional is the usual advice: Texas A&M calls hiring a pest control company the best solution, and Kentucky says treatment is best performed by professionals, because recluses are hard to eradicate and because of the potential health threat. Vetter and Hedges add that, in Hedges' experience, many older or heavily infested buildings cannot be cleared without fumigating the whole structure." },
+    { "type": "callout", "tone": "warning", "title": "The label is the law", "text": "Use any insecticide, dust or trap only where and how its label directs, and keep them away from children and pets." },
+    { "type": "p", "text": "[Keeping spiders out of the house](/blog/how-to-keep-spiders-out-of-your-house) covers sealing and screening in more detail, and [the guide to getting rid of spiders](/blog/how-to-get-rid-of-spiders) covers other species." },
+
+    { "type": "h2", "text": "Are brown recluses dangerous?" },
+    { "type": "p", "text": "They can be, but bites are uncommon. CDC says a brown recluse cannot bite without counterpressure, as when it is trapped against the skin, and Kentucky says its fangs are too small to bite through clothing and that people often live in a heavily infested building without ever being bitten. In a [2026 Florida study](https://academic.oup.com/jme/article/63/1/tjag004/8466230), recluses that were pressed or pinched in experiments showed negligible bite responses (a median of 0 percent), against 80 percent for wolf spiders." },
+    { "type": "p", "text": "Most bites stay minor. Penn State says about 90 percent cause no reaction or a small red bump that heals on its own, about 10 percent cause an open wound of dying skin, and fewer than 1 percent cause illness through the body. When a bite does damage skin, CDC says the wound needs professional medical attention." },
+    { "type": "p", "text": "If you think a brown recluse bit you, CDC's first aid for spider bites is to wash the bite with soap and water, apply a cloth dampened with cold water or filled with ice, raise the area if you can, not try to remove venom, and seek professional medical attention immediately, identifying the spider if you can do so safely. [America's Poison Centers](https://www.poisonhelp.org/summer-spiders-brown-recluse/) takes calls about a suspected bite at 1-800-222-1222. [The brown recluse bite guide](/blog/brown-recluse-bite) shows how a bite can change and when to get care, and [the bug bite identification chart](/learn/bug-bites) and [what spider bites look like](/blog/what-does-a-spider-bite-look-like) cover the sores often mistaken for one." },
+    { "type": "p", "text": "Pets can be bitten too, the Missouri Department of Conservation says. The other spiders on CDC's venomous spiders page are the black widows, which [the black widow guide](/blog/black-widow-spiders) shows how to recognize." },
+
+    { "type": "h2", "text": "Which spiders get mistaken for brown recluses?" },
+    { "type": "p", "text": "Mostly harmless brown spiders with eight eyes. Colorado State says funnel weavers, the family of the barn funnel weaver and the grass spiders, and woodlouse spiders are the two groups most often mistaken for recluses there. Vetter adds the southern house spider's genus, Kukulcania, with eight eyes clumped together and black spines on the legs, and cellar spiders, whose markings people read as violins. [The brown recluse look-alikes guide](/blog/brown-recluse-look-alikes) compares each with a recluse, and the [seven-question spider identifier](/tools/spider-identifier) walks through the checks." },
+    { "type": "confused", "items": [
+      { "href": "/blog/wolf-spiders", "name": "Wolf spider", "photo": "rabid-wolf-spider", "note": "Eight eyes, the top pairs much larger than the bottom row, and a hairy body", "alt": "Rabid wolf spider seen from above on grass leaves, with a striped, hairy body" },
+      { "href": "/blog/southern-house-spider", "name": "Southern house spider (male)", "photo": "southern-house-spider-male", "note": "Eight eyes clumped together and black spines on the legs", "alt": "Adult male southern house spider seen from above on white, tan, with long legs bristling with dark spines" },
+      { "href": "/blog/daddy-long-legs", "name": "Cellar spider", "photo": "cellar-spider-bathroom-corner", "note": "Very long legs, eight eyes and nearly always sitting in a web", "alt": "Cellar spider with very long, thin legs in the corner of a bathroom" },
+      { "href": "/blog/woodlouse-spiders", "name": "Woodlouse spider", "photo": "woodlouse-spider-bathroom-floor", "note": "Six eyes packed in the middle of the head; reddish front half and legs", "alt": "Woodlouse spider from above with orange-red legs and front body and a pale abdomen" },
+      { "href": "/blog/house-spiders", "name": "Barn funnel weaver", "photo": "barn-funnel-weaver-indoor-wall", "note": "Eight eyes, a hairy body and banded legs; builds a sheet web with a funnel", "alt": "Barn funnel weaver on a white indoor wall, its legs banded light and dark" }
+    ] },
+
+    { "type": "h2", "text": "What should you do once you know what it is?" },
+    { "type": "p", "text": "Match the next step to what you found." },
+    { "type": "ul", "items": [
+      "**One brown recluse outside the native range.** It was most likely carried in with boxes or furnishings, and Kentucky says infestations seldom become established there. Set sticky traps for a few weeks to make sure it was alone.",
+      "**One brown recluse inside the range.** Expect others: set traps along walls and behind furniture, search for shed skins with a flashlight and start on the clutter.",
+      "**Several spiders, shed skins or egg sacs.** Treat it as an infestation: the steps above, plus a pest control professional for the cracks and voids.",
+      "**A look-alike.** Carry it outside in a jar or vacuum it up; [the look-alikes guide](/blog/brown-recluse-look-alikes) covers each species.",
+      "**A bite.** Wash it, apply a cold cloth and contact a healthcare provider; [the bite guide](/blog/brown-recluse-bite) explains what to watch for."
+    ] },
+    { "type": "callout", "tone": "tip", "title": "Save the spider", "text": "Trap it under a jar, slide a sheet of paper underneath and keep it whole so the eyes can be checked. Photograph it beside a ruler marked in inches, note where you found it and ask your state's cooperative extension office to confirm the species. Indiana State University's recluse project accepts specimens from Indiana and Ohio." }
+  ],
+  "faqs": [
+    {
+      "question": "How do you know if you have brown recluses in your house?",
+      "answer": "Look for the spiders, their shed skins and spiders on sticky traps. Brown recluses leave shed skins lying flat with the legs spread wide, which Vetter and Hedges say no other North American house spider does. Set dozens of flat glue traps along baseboards and behind furniture, as the University of Kentucky advises, and check the eyes of anything you catch for six eyes in three pairs. Inside the native range, the Missouri Department of Conservation says that when you see one there are probably many more."
+    },
+    {
+      "question": "What attracts brown recluses to a house?",
+      "answer": "Shelter and food. They look for dark, dry, undisturbed hiding places, and clutter supplies plenty: cardboard boxes, stored clothing, papers and unused items in closets, attics, basements and garages. They hunt insects at night, so other bugs feed them, and Texas A&M suggests shielding outdoor lights so they draw fewer of the insects spiders eat. Woodpiles, building materials and debris against the foundation also shelter them, and the University of Kentucky advises moving those away from the house."
+    },
+    {
+      "question": "Are brown recluses aggressive?",
+      "answer": "No. CDC says a brown recluse cannot bite without counterpressure, and the University of Kentucky says most bites happen when a spider is trapped against bare skin, some when a sleeper rolls onto one in bed. Kentucky adds that people often live in heavily infested buildings without ever being bitten. In a 2026 Florida study, brown recluses showed negligible bite responses when pressed or pinched in experiments, while wolf spiders usually bit."
+    },
+    {
+      "question": "Can brown recluses climb walls or get into your bed?",
+      "answer": "They climb well enough to hide along rafters and above suspended ceilings, places on the University of Kentucky's list, but the Missouri Department of Conservation says they cannot climb smooth surfaces and are often found trapped in bathtubs and sinks. To keep them out of a bed, UC IPM suggests moving it away from the wall, removing bed skirts and ruffles, and storing nothing underneath, so nothing connects the bed to the floor or the wall."
+    },
+    {
+      "question": "What time of year are brown recluses most active?",
+      "answer": "Spring through early fall. Vetter and Hedges say recluses come out of their winter hiding places around April or May and withdraw again around October, even in heated homes, apparently in response to shorter days. Texas A&M says mating season in Oklahoma, Arkansas and Texas runs from April to early July. At any time of year they are active at night, when they leave their retreats to hunt."
+    },
+    {
+      "question": "How long do brown recluses live?",
+      "answer": "Several years. The University of Kentucky says brown recluses mature in about a year and live an average of 2 to 4 years, and UC IPM says recluse spiders can survive 6 to 12 months without food. Kentucky adds that they can go many months without food or water and can withstand winter in an unheated basement and summer heat in an attic, so storage areas that are rarely opened can still hold them."
+    },
+    {
+      "question": "What does a brown recluse egg sac look like?",
+      "answer": "A round, off-white silk case about 1/3 inch across, holding about 40 to 50 eggs, according to the University of Kentucky, which says a female makes up to five in her life. Penn State Extension describes 20 to 50 eggs in a spherical case. The young molt five to eight times before they become adults, Kentucky says, and the Missouri Department of Conservation says the small, untidy webs recluses spin are associated with their egg sacs."
+    },
+    {
+      "question": "Are there brown recluses in California?",
+      "answer": "Not as an established population. UC IPM says there are no brown recluse populations in California and that spider experts have collected fewer than 20 verified specimens there over several decades, typically in facilities receiving goods from out of state or carried in by people who moved from the Midwest. California does have native recluses; the most common, the desert recluse, lives mostly in the Sonoran and Mojave deserts, and the introduced Chilean recluse is established in a few Los Angeles County cities."
+    },
+    {
+      "question": "Are there brown recluses in Florida?",
+      "answer": "Not as an established population, by the evidence so far. Penn State Extension lists Florida among the places with only isolated finds. A 2026 study in the Journal of Medical Entomology investigated 220 Florida properties where recluse infestations had been reported and found breeding populations of the introduced Mediterranean recluse at only 19 of them. The authors concluded that recluse spiders are scarce in Florida."
+    },
+    {
+      "question": "Is the brown recluse spreading north?",
+      "answer": "Within its range it has spread in places: the Missouri Department of Conservation says the spider has gradually spread north in Missouri and is now presumed to live statewide, indoors. A 2011 modeling study in PLOS ONE projected that a warming climate could let the range expand into parts of Nebraska, Minnesota, Wisconsin, Michigan, South Dakota, Ohio and Pennsylvania, while noting the uncertainty in such forecasts. Indiana State University cautions that a single find outside the range does not mean the range is widening."
+    }
+  ],
+  "sources": [
+    { "title": "Brown Recluse and Other Recluse Spiders (Pest Notes Publication 7468)", "publisher": "University of California Statewide IPM Program (R. S. Vetter, UC Riverside)", "url": "https://ipm.ucanr.edu/home-and-landscape/brown-recluse-and-other-recluse-spiders/" },
+    { "title": "How to Identify and Misidentify a Brown Recluse Spider", "publisher": "UC Riverside Department of Entomology (Rick Vetter)", "url": "https://spiders.ucr.edu/how-identify-and-misidentify-brown-recluse-spider" },
+    { "title": "Brown Recluse Spider (ENTFACT-631), by Michael F. Potter", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef631" },
+    { "title": "Brown Recluse Spiders", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/brown-recluse-spiders" },
+    { "title": "Venomous Spiders at Work", "publisher": "CDC, National Institute for Occupational Safety and Health", "url": "https://www.cdc.gov/niosh/outdoor-workers/about/venomous-spiders.html" },
+    { "title": "Brown Recluse (Violin Spider)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/brown-recluse-violin-spider" },
+    { "title": "Integrated Pest Management of the Brown Recluse Spider", "publisher": "Journal of Integrated Pest Management (Vetter and Hedges, 2018)", "url": "https://academic.oup.com/jipm/article/doi/10.1093/jipm/pmx031/4818303" },
+    { "title": "Arachnids Submitted as Suspected Brown Recluse Spiders (Araneae: Sicariidae): Loxosceles Spiders Are Virtually Restricted to Their Known Distributions but Are Perceived to Exist Throughout the United States", "publisher": "Journal of Medical Entomology (Vetter, 2005)", "url": "https://academic.oup.com/jme/article-lookup/doi/10.1093/jmedent/42.4.512" },
+    { "title": "Recluse spiders (Araneae: Sicariidae): contesting myths on distribution, bite behavior, and medical risk in Florida", "publisher": "Journal of Medical Entomology (Coticchio and Cassill, 2026)", "url": "https://academic.oup.com/jme/article/63/1/tjag004/8466230" },
+    { "title": "Tracking a Medically Important Spider: Climate Change, Ecological Niche Modeling, and the Brown Recluse (Loxosceles reclusa)", "publisher": "PLOS ONE (Saupe, Papes, Selden and Vetter, 2011)", "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0017731" },
+    { "title": "Control of Brown Recluse Spiders (ENT-3003), by Michael Merchant", "publisher": "Texas A&M AgriLife Extension Service", "url": "https://citybugs.tamu.edu/factsheets/biting-stinging/others/ent-3003/" },
+    { "title": "Brown Recluse and Black Widow Spiders", "publisher": "Illinois Department of Public Health", "url": "https://dph.illinois.gov/topics-services/environmental-health-protection/structural-pest-control/brown-recluse-black-widow-spiders.html" },
+    { "title": "Brown Recluse Spider in Iowa (Donald Lewis, July 26, 2013)", "publisher": "Iowa State University Extension and Outreach", "url": "https://yardandgarden.extension.iastate.edu/article/2013/07-26/recluse.html" },
+    { "title": "The Indiana and Ohio Brown Recluse Project", "publisher": "Indiana State University, Department of Biology", "url": "https://www.indianastate.edu/academics/colleges/arts-sciences/biology/brown-recluse-project" },
+    { "title": "Brown Recluse Spiders in Colorado: Recognition and Spiders of Similar Appearance (Fact Sheet 5.607, W. S. Cranshaw)", "publisher": "Colorado State University Extension", "url": "https://extension.colostate.edu/resource/brown-recluse-spiders-in-colorado-recognition-and-spiders-of-similar-appearance/" },
+    { "title": "WSU scientist: Dreaded spider doesn't live here (June 18, 2013)", "publisher": "Washington State University Department of Entomology", "url": "https://entomology.wsu.edu/2013/06/18/wsu-scientist-dreaded-spider-doesnt-live-here/" },
+    { "title": "Black Widows: The Hermits of Door County (PJ Liesch, May 22, 2018)", "publisher": "University of Wisconsin Insect Diagnostic Lab", "url": "https://insectlab.russell.wisc.edu/2018/05/22/black-widows-2017/" },
+    { "title": "5 things you might not know about the brown recluse (August 4, 2026)", "publisher": "University of Arizona News", "url": "https://news.arizona.edu/news/5-things-you-might-not-know-about-brown-recluse" },
+    { "title": "Summer Spiders: Brown Recluse", "publisher": "America's Poison Centers (PoisonHelp.org)", "url": "https://www.poisonhelp.org/summer-spiders-brown-recluse/" }
+  ],
+  "disclaimer": "both"
+}

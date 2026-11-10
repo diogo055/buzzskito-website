@@ -2,7 +2,7 @@
  "id": "beetles-in-house",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "1698a3c8cf3ba3d3d186c207b99a9f066b01da03c61a7b1707c67287c2f30936",
+ "sha": "f3908569a4a4a76fe9c0b6c6c6a408d62ba0b5f92c52774d06962562f5ab5f87",
  "claimsChecked": 224,
  "claimsCorrected": 4,
  "claimsRemovedOrSoftened": 5,
@@ -22,6 +22,11 @@
    "on": "2026-10-29",
    "note": "Oct 28: one link to /blog/june-bugs (new page), added beside the existing /blog/june-bugs-ontario link; no fact changed",
    "previousSha": "e858cc74fc19b37a719b8bed82c00a5768e6304f82db6207aa2d56033ede6dca"
+  },
+  {
+   "on": "2026-11-09",
+   "note": "Nov 9: one sentence links the new drugstore beetle guide (/blog/drugstore-beetles, scheduled Nov 12) after the stored-product beetle paragraph in 'What are the beetles in my kitchen and pantry?'; no fact changed",
+   "previousSha": "1698a3c8cf3ba3d3d186c207b99a9f066b01da03c61a7b1707c67287c2f30936"
   }
  ]
 }

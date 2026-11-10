@@ -1,0 +1,10 @@
+{
+ "id": "squirrel-nest",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "d1008bc5ddd764d4dc3b28acde41a5264042f4f25b9341e009eaf3ecb06f8361",
+ "claimsChecked": 275,
+ "claimsCorrected": 28,
+ "claimsRemovedOrSoftened": 12,
+ "checkedOn": "2026-11-09"
+}

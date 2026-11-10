@@ -2,7 +2,7 @@
  "id": "camel-crickets",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "6d226293eda6609cb4b5c67f45d139c250ae6c12e9fcc611d1e5a25ce2414180",
+ "sha": "8b344d9542eb245ca1e506ad063d3071b294f22bfa7b98f7f41236e1e7aadbab",
  "claimsChecked": 308,
  "claimsCorrected": 2,
  "claimsRemovedOrSoftened": 1,
@@ -22,6 +22,11 @@
    "on": "2026-11-05",
    "note": "Nov 5, 2026: link repointed from /blog/what-size-dehumidifier-do-i-need-canada to /blog/best-large-capacity-dehumidifier-canada after the merge (301 redirect; the sizing content moved there). No other text changed; no factual claim touched.",
    "previousSha": "c9b9e41572b1afa2de350ffefe7071b24f7fbea3e4886233c25720820a28dc48"
+  },
+  {
+   "on": "2026-11-09",
+   "note": "Nov 8, 2026 top-3 upgrade (commit b6754e3b: new sourced sections, tables, FAQs and photos) was independently fact-checked that day (41 corrections across the walkthrough pages, three passes), but this record was not updated then; recorded Nov 9.",
+   "previousSha": "6d226293eda6609cb4b5c67f45d139c250ae6c12e9fcc611d1e5a25ce2414180"
   }
  ]
 }

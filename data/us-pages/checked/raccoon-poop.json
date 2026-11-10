@@ -2,7 +2,7 @@
  "id": "raccoon-poop",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "a36a59126c85ca3b6a4b16448848042d25b0c5885eb14f3f84d381f90910607f",
+ "sha": "be4d43906e79f0dbf655efb3fc4384b550cecae8be0fc801d4e9069b95bbad21",
  "claimsChecked": 174,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 5,
@@ -17,6 +17,11 @@
    "on": "2026-11-05",
    "note": "Nov 4, 2026: the raccoon link now goes to the new US edition /blog/raccoon-repellent instead of the Canadian page",
    "previousSha": "b7c4ae958e6fca0e63a2e9dd4617cc5b236d4d65e474173372a04e41c8ccc048"
+  },
+  {
+   "on": "2026-11-09",
+   "note": "Nov 9: one sentence links the new coyote poop guide (/blog/coyote-poop, scheduled Nov 12) after the coyote scat paragraph in 'How do you tell raccoon poop from opossum, dog or coyote poop?'; no fact changed",
+   "previousSha": "a36a59126c85ca3b6a4b16448848042d25b0c5885eb14f3f84d381f90910607f"
   }
  ]
 }

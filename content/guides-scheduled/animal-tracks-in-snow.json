@@ -1,0 +1,214 @@
+{
+  "slug": "animal-tracks-in-snow",
+  "kind": "spoke",
+  "cluster": "wildlife",
+  "keyword": "animal tracks in snow",
+  "alsoTargets": [
+    "animal tracks in snow identification",
+    "raccoon tracks",
+    "coyote tracks",
+    "deer tracks in snow",
+    "rabbit tracks in snow",
+    "squirrel tracks in snow",
+    "skunk tracks",
+    "fox tracks in snow",
+    "mouse tracks in snow",
+    "opossum tracks"
+  ],
+  "metaTitle": "Animal Tracks in Snow: Who Left Them? (Photos)",
+  "metaDescription": "Raccoon, coyote, fox, skunk, deer, rabbit, squirrel or mouse? Identify tracks in snow by print size, toes, claws and trail pattern, with real photos.",
+  "h1": "Animal Tracks in Snow: How to Identify the Tracks in Your Yard",
+  "dek": "Where you found the tracks and four checks (toes, claws, print size and trail pattern) sort most of them. Sizes and strides from state wildlife agencies and universities, with real photos of tracks in snow.",
+  "breadcrumb": "Animal Tracks in Snow",
+  "excerpt": "Raccoon, coyote, fox, skunk, rabbit, squirrel, deer or mouse? Identify the tracks in your yard by size, toes, claws and trail pattern, with real photos.",
+  "datePublished": "2026-11-12",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Count the toes, look for claw marks, measure the print and read the pattern of the trail: together those four clues identify most animal tracks in snow.** Five long toes like a small hand point to a raccoon; four toes with claw marks to a dog, coyote or fox; four round toes without claws to a cat; and clusters of four prints to a rabbit, squirrel or mouse.",
+    "bullets": [
+      "Raccoon prints have five toes: fronts 2 1/2 to 3 inches long, hinds 3 3/4 to 4 inches ([Missouri Department of Conservation's track guide](https://mdc.mo.gov/wildlife/wildlife-facts/mammal-facts/mammal-tracks)).",
+      "A coyote's print is oval, about 2 1/2 by 2 inches; a house cat's front print is at most about 1 1/2 inches long, with no claw marks ([Maryland DNR's track key](https://dnr.maryland.gov/wildlife/Documents/Key-Common-Mammal-Tracks.pdf)).",
+      "Cottontail hind prints are about 3 1/2 inches long and land ahead of the 1-inch front prints, which is why rabbit groups look like a Y (MDC; NY DEC).",
+      "Coyote tracks tend to be more oval and compact than those of common dog breeds, with less prominent nail marks, and tend to follow a straight line more closely, says [UC IPM's coyote guide](https://ipm.ucanr.edu/home-and-landscape/coyote/).",
+      "A white-footed mouse's prints are about 1/4 to 1/2 inch long, sometimes with a tail line along them (NH Fish and Game; University of Michigan BioKIDS).",
+      "Melting snow enlarges tracks: [NMSU Extension](https://pubs.nmsu.edu/_circulars/CR561/) says warm sun enlarges and distorts a track in snow, so measure the freshest print you can find."
+    ]
+  },
+  "facts": {
+    "title": "Animal tracks in snow: quick ID",
+    "head": ["Animal", "Print size", "Toes and claws", "Pattern in snow"],
+    "rows": [
+      ["Raccoon", "Front 2 1/2 to 3 inches; hind 3 3/4 to 4 inches", "5 long, finger-like toes; the front print looks like a small hand", "Usually pairs: each hind print lands beside the opposite front print"],
+      ["Opossum", "About 2 inches, front and hind", "5 toes; the hind thumb sticks out at a right angle and leaves no claw mark", "Front print often beside the hind print; the tail may leave a wavy line"],
+      ["Striped skunk", "About 2 inches long by 1 inch wide", "5 toes; long front claws print well ahead of the toes", "A waddle; the walking pattern is often irregular"],
+      ["Coyote", "About 2 1/2 inches long by 2 inches wide, oval", "4 toes; claws usually show on at least the front two", "Often a straight line; walking stride 13 1/2 to 17 inches"],
+      ["Domestic dog", "2 1/4 to 4 inches", "4 toes; nail marks more prominent than a coyote's", "Often wanders and zigzags"],
+      ["Red fox", "1 3/4 to 2 1/2 inches long by 1 1/2 to 2 inches wide", "4 toes; hair marks often blur the print", "Hind foot lands in the front print; walking stride 8 to 12 inches"],
+      ["House cat", "Front print up to about 1 1/2 inches long", "4 round toes; no claw marks", "Hind foot lands in the front print"],
+      ["Eastern cottontail", "Front about 1 inch; hind about 3 1/2 inches", "4 toes on each foot", "Y-shaped groups of 4: long hind prints side by side, ahead of the front prints"],
+      ["Gray squirrel", "Hind about 2 inches, nearly twice as long as wide; front about 1 1/2 inches", "4 toes in front, 5 behind", "Squarish groups of 4 in a two-by-two pattern; often ends at a tree"],
+      ["White-footed mouse", "About 1/4 to 1/2 inch", "4 toes in front, 5 behind", "Tiny groups of 4; may show a tail line"],
+      ["Meadow vole", "About 1/4 inch", "4 toes in front, 5 behind", "Travels in runways under the snow that show as paths at the melt"],
+      ["White-tailed deer", "2 1/2 to 4 inches, front larger than hind", "2 hoof halves in a heart shape; dewclaws show in deep snow", "Walking stride 13 to 26 inches; hind feet tend to step in the front prints"]
+    ],
+    "caption": "Sizes from the Missouri Department of Conservation, Maryland DNR, NH Fish and Game and University of Michigan BioKIDS; walking strides from North Dakota Game and Fish; other details also from NY DEC, ICWDM, NMSU, USFWS, UC IPM, Utah State, Pennsylvania Game Commission and Iowa State, linked below."
+  },
+  "body": [
+    { "type": "h2", "text": "How do you identify animal tracks in snow?" },
+    { "type": "p", "text": "Use four clues together: how many toes show, whether there are claw marks, how big the print is and the pattern the trail makes. The [Missouri Department of Conservation's track guide](https://mdc.mo.gov/wildlife/wildlife-facts/mammal-facts/mammal-tracks) lists the same clues (track size, pad marks, claw marks and toes per foot) and adds the distance between prints and whether the animal walked, waddled or hopped. Expect a short list of suspects rather than a name from a single print: the [Internet Center for Wildlife Damage Management's track page](https://icwdm.org/identification/tracks/) notes that perfect tracks are rarely found and that tracks usually narrow down the suspects." },
+    { "type": "figure", "src": "/guides/photos/house-cat-track-snow-ruler.webp", "width": 1200, "height": 1600, "alt": "A single round paw print with four toe pads and no claw marks pressed into fresh snow beside a gray forensic ruler marked in inches and centimeters", "caption": "A house cat's print in fresh snow beside a ruler in Ham Lake, Minnesota, identified on iNaturalist by the observer, tracker Kim Cabrera and a third identifier. Four round toes and no claw marks are the cat pattern.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/37889587" },
+    { "type": "p", "text": "Snow changes how a print reads. The [New York State Department of Environmental Conservation's Winter Tracks guide](https://extapps.dec.ny.gov/docs/administration_pdf/tracks1.pdf) says wet snow captures a paw print well, while dry, powdery snow leaves a less-defined print. [Maryland DNR's track key](https://dnr.maryland.gov/wildlife/Documents/Key-Common-Mammal-Tracks.pdf) warns that snow can melt and make tracks look larger than they really are, and [NMSU Extension's tracking guide](https://pubs.nmsu.edu/_circulars/CR561/) says a track in snow changes once warm sun has enlarged and distorted it. Measure several prints along the trail and trust the crispest." },
+    { "type": "checklist", "title": "Checks to run along the trail", "items": [
+      "**Count the toes.** Deer leave 2 hoof halves; dogs, coyotes, foxes, cats and rabbits show 4 toes; squirrels and mice 4 in front and 5 behind; raccoons, opossums and skunks 5 on each foot.",
+      "**Look for claw marks.** The [U.S. Fish and Wildlife Service](https://www.fws.gov/story/snow-tracks) says dogs, coyotes and foxes leave claw marks and cats do not; a skunk's long front claws print well ahead of its toes.",
+      "**Measure the clearest print.** Lay a ruler or a coin beside it and compare its length with the quick-ID table above.",
+      "**Measure the trail.** Note the gap between prints and the straddle, which USFWS defines as the total width of the trail.",
+      "**Read the pattern.** A neat line, side-by-side pairs or clusters of four each point to a different group, as the next section shows.",
+      "**Follow it both ways.** Note where the trail starts and ends: a tree, a fence line, a gap under the deck or a hole by the foundation."
+    ] },
+    { "type": "p", "text": "Other signs back up the tracks. [The animal droppings chart](/blog/animal-droppings) compares droppings by size, shape and place, and [the guide to holes in the yard](/blog/holes-in-yard) sorts the diggers when a trail ends at a fresh hole." },
+
+    { "type": "h2", "text": "What do the four track patterns look like in snow?" },
+    { "type": "p", "text": "Most backyard tracks fall into four patterns, which [Utah State University Extension](https://extension.usu.edu/swaner/naturalist-news/winter-wildlife) calls walkers, waddlers, bounders and hoppers. Hoppers land their front feet first and swing the larger hind legs ahead of them; bounders land the front feet together and bring the hind feet in to join them; waddlers move one side of the body at a time and tend to move slowly. Maryland DNR's key sorts the same animals into diagonal walkers (cats, dogs and hoofed animals), pacers (wide-bodied animals such as raccoons, opossums and skunks), bounders (most weasels) and gallopers (most rodents and rabbits)." },
+    { "type": "table", "head": ["Pattern", "What the trail looks like", "Backyard animals"], "rows": [
+      ["Walkers", "Alternating, evenly spaced prints; many set the hind foot in or near the front print", "Deer, coyotes, foxes, dogs and cats"],
+      ["Waddlers", "Prints in pairs or an irregular, shuffling pattern", "Raccoons, opossums and skunks"],
+      ["Bounders", "Paired prints side by side, the hind feet landing on or near the front prints", "Weasels and mink"],
+      ["Hoppers", "Groups of four, the large hind prints landing ahead of the small front prints", "Rabbits, squirrels and mice"]
+    ], "caption": "Groups from Utah State University Extension and Maryland DNR's track key; trail details from those two, NY DEC, NMSU, MDC and North Dakota Game and Fish." },
+    { "type": "p", "text": "Registering is the next clue. NY DEC calls it direct registering when the hind foot lands in the same spot as the front foot and leaves a single print, and says cats and foxes walk that way. The National Park Service's tracking guide shows coyotes overstepping at a walk and registering at a trot, and [Maryland DNR's tracking article](https://news.maryland.gov/dnr/2016/12/21/animal-treks/) says pet dogs do not register and their tracks often wander as they pick up scents." },
+    { "type": "p", "text": "Stride figures differ between guides, so compare like with like. [North Dakota Game and Fish](https://gf.nd.gov/sites/default/files/publications/tracks_signs_of_nd_wildlife.pdf) gives a walking coyote's stride as 13 1/2 to 17 inches without saying how it is measured, while the [National Park Service's Mount Rainier tracking guide](https://www.nps.gov/mora/planyourvisit/upload/Carnivore-Tracks-12-20-21_508.pdf), which measures from the front of one foot to the front of the same foot's next print, gives 24 to 38 5/8 inches for a coyote's walk." },
+
+    { "type": "h2", "text": "What made the tracks under the deck, porch or shed?" },
+    { "type": "p", "text": "A waddler's trail of five-toed prints that leads under a deck, porch or shed usually belongs to a skunk, a raccoon or an opossum. [Penn State Extension's skunk guide](https://extension.psu.edu/skunks-solutions-to-common-problems) says skunks in towns may den under decks and sheds or under loose foundations, and [Minnesota DNR](https://www.dnr.state.mn.us/livingwith_wildlife/raccoons/index.html) says raccoons in towns commonly den in unused, uncapped chimneys and occasionally get into attics or outbuildings." },
+    { "type": "figure", "src": "/guides/photos/striped-skunk-tracks-snow.webp", "width": 1200, "height": 800, "alt": "A short line of small five-toed prints in thin snow, each with a row of tiny claw dots in front of the toes", "caption": "Striped skunk tracks in thin snow in Ashfield, Massachusetts, left the night a skunk set off the observer's motion light; tracker Kim Cabrera and another identifier agreed on iNaturalist. Look for the claw dots in front of the toes.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/338307804" },
+    { "type": "p", "text": "Skunk prints are small, with claws out in front. A [Missouri Conservationist tracking article](https://mdc.mo.gov/magazines/conservationist/2016-01/animal-detective) puts striped skunk tracks at about 2 inches long by 1 inch wide on average, says skunks cannot retract their claws, so each toe pad has a claw mark in front of it, and calls the long nails of the front feet the skunk's identifying feature. Penn State adds that the heels of the front feet normally do not print, and North Dakota Game and Fish notes that skunks often walk in an irregular pattern." },
+    { "type": "p", "text": "Opossum prints look like stars and little hands. The [Missouri Department of Conservation's opossum guide](https://mdc.mo.gov/discover-nature/field-guide/virginia-opossum) describes a 2-inch, star-shaped front print and a 2-inch hind print whose thumb sticks out at a right angle and leaves no claw mark. It says the front print often lands beside the hind one, that the tail commonly leaves a gently wavy line, especially in snow, and that opossums stay active in winter while raccoons are dormant or inactive. [The possum vs opossum guide](/blog/possum-vs-opossum) explains the two names." },
+    { "type": "p", "text": "Den tracks come and go with the weather. Minnesota DNR says raccoons may stay in their dens for weeks in very cold or stormy weather and come out only on warm nights, and Penn State says skunks are dormant for about a month in the coldest part of winter and begin breeding from late February through late March. So a den can sit quiet for weeks and then show fresh tracks. [The guide to proofing under a deck](/blog/raccoon-and-skunk-proofing-under-a-deck-canada) covers keeping these animals out, and [why a house smells like skunk](/blog/skunk-smell-in-house) helps if one has already moved in." },
+
+    { "type": "h2", "text": "What made the tiny tracks along the foundation?" },
+    { "type": "p", "text": "Very small prints running along a foundation, a garage door or a woodpile are usually mice. Maryland DNR's article says very small prints almost always belong to mice or voles. [The University of Michigan's BioKIDS track key](https://biokids.umich.edu/guides/tracks_and_sign/tracks_key/tracks_mammal/tracks_m_set1) puts a white-footed mouse's front and hind feet at roughly 1/2 inch and says its tracks are much more likely than a house mouse's to show a tail line, and the [New Hampshire Fish and Game pocket guide](https://wpcdn.web.wsu.edu/wp-extension/uploads/sites/2093/2020/06/track_card.pdf) gives its print as 1/4 inch. NY DEC says rodents usually show four toes in front and five behind, and that mice move in jumps, so the prints come in tiny groups of four." },
+    { "type": "figure", "src": "/guides/photos/peromyscus-mouse-tracks-snow.webp", "width": 1200, "height": 1600, "alt": "Two small groups of tiny mouse prints in thin snow at the edge of dark pavement, with a person's hand beside them for scale", "caption": "Two hopping groups left by a deer mouse or white-footed mouse (the genus Peromyscus, as four identifiers agreed on iNaturalist) in thin snow at the edge of pavement in South Burlington, Vermont, with a hand for scale.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/19216414" },
+    { "type": "p", "text": "A trail that ends at the siding or under the garage door shows where to look for a way in. [UC IPM's house mouse guide](https://ipm.ucanr.edu/home-and-landscape/house-mouse/) says tracks, droppings and fresh gnaw marks show where mice are active, that house mice frequently move into homes in autumn as nights turn colder, and that they can squeeze through openings as small as 1/4 inch. It advises sealing foundation cracks and gaps around pipes, vents and cables with metal or concrete. [Keeping mice out of the house in winter](/blog/how-to-keep-mice-out-of-your-house-winter) goes step by step, and [the deer mouse guide](/blog/deer-mice) shows how to recognize a deer mouse." },
+    { "type": "p", "text": "Voles mostly stay out of sight. The [Pennsylvania Game Commission](https://www.pa.gov/agencies/pgc/wildlife/discover-pa-wildlife/mice-and-voles) says deer mice spend most of the winter beneath the snow when it covers the ground, and that voles feed and travel in runways under it. The runways show up at the melt as narrow, winding paths in the lawn, which [Iowa State University Extension](https://yardandgarden.extension.iastate.edu/faq/what-produces-narrow-snow-pathways-my-lawn) says were likely made by meadow voles and usually recover on their own within a few weeks. [The vole guide](/blog/voles) covers runways and bark damage." },
+
+    { "type": "h2", "text": "What visited the garbage cans or the driveway?" },
+    { "type": "p", "text": "Hand-shaped prints in pairs around the garbage cans usually mean a raccoon. Minnesota DNR says raccoons raid garbage cans for food and may be drawn by dog or cat food left out overnight." },
+    { "type": "figure", "src": "/guides/photos/raccoon-tracks-snow-pavement.webp", "width": 1200, "height": 1600, "alt": "Several pairs of hand-shaped raccoon prints with long, thin toes pressed into a thin layer of snow over pebbled concrete", "caption": "Raccoon tracks in thin snow on pebbled concrete in Greater Vancouver, British Columbia, identified on iNaturalist by the observer and two others. Each hind print lands beside the opposite front print, so the tracks come in pairs.", "license": "CC-BY-4.0", "credit": "(c) Alex Reitan, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/148277837" },
+    { "type": "p", "text": "Raccoon prints are among the easiest to name. NY DEC likens the track to the hand of a human baby, and USFWS describes five long, finger-like toes that usually connect to a C-shaped palm pad. [NMSU Extension's track guide](https://pubs.nmsu.edu/_circulars/CR561/) says the left hind foot lands beside the right front foot as a raccoon walks, so the tracks usually come in pairs, and the Missouri Department of Conservation gives front prints of 2 1/2 to 3 inches and hind prints of 3 3/4 to 4 inches." },
+    { "type": "p", "text": "The look-alike is the opossum, whose tracks MDC says are often confused with a raccoon's: check the hind print for a thumb sticking out at a right angle. If droppings are piled in one spot nearby, [the raccoon poop guide](/blog/raccoon-poop) shows what a raccoon latrine looks like, and [the raccoon deterrent guide](/blog/raccoon-deterrent) covers keeping raccoons away from the house." },
+
+    { "type": "h2", "text": "What made the tracks by the bird feeder?" },
+    { "type": "p", "text": "Clusters of four prints under a bird feeder often belong to a gray squirrel. Maryland DNR's article says squirrel tracks often end at the base of a tree and make a wider, blockier group than a rabbit's, and ICWDM says squirrels land in a two-by-two pattern while rabbits leave an I-formation. Mice and rabbits come for spilled seed too: [UC IPM's coyote guide](https://ipm.ucanr.edu/home-and-landscape/coyote/) advises managing bird feeders to avoid spills that attract rodents and rabbits, which coyotes hunt." },
+    { "type": "figure", "src": "/guides/photos/gray-squirrel-tracks-snow-ruler.webp", "width": 1086, "height": 724, "alt": "Two bounding groups of four squirrel prints in snow, with a ruler laid between them", "caption": "Eastern gray squirrel tracks in snow at a bird feeder in Cheshire County, New Hampshire, with a ruler between two groups. The observer watches squirrels cross to the feeder every day; two other identifiers agreed on iNaturalist.", "license": "CC-BY-4.0", "credit": "(c) Michael Nerrie, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/150570445" },
+    { "type": "p", "text": "Size confirms it. Maryland DNR's key gives a gray squirrel's hind print as under 2 inches and almost twice as long as wide, and the New Hampshire pocket guide gives about 1 1/2 inches for the front print and 2 1/4 inches for the hind. A chipmunk's prints are smaller: BioKIDS gives roughly 1/2 inch for the front foot and at least 0.7 inch for the hind. [The squirrel droppings guide](/blog/squirrel-poop) and [the guide to squirrel nests](/blog/squirrel-nest) cover the other signs squirrels leave." },
+
+    { "type": "h2", "text": "What crossed the lawn: a rabbit, a deer or something else?" },
+    { "type": "p", "text": "A line of Y-shaped groups across the lawn is usually a cottontail's. NY DEC says rabbits leave a distinct Y-shaped pattern because the hind feet are two to four times as long as the front feet and always land ahead of them, and MDC gives about 1 inch for the front print and 3 1/2 inches for the hind. Maryland DNR's article counts rabbit and squirrel tracks among the most common after a snowfall; [what rabbit droppings look like](/blog/rabbit-poop) covers the droppings and gnawed bark that go with rabbits in winter." },
+    { "type": "figure", "src": "/guides/photos/eastern-cottontail-tracks-snow.webp", "width": 1200, "height": 1594, "alt": "One group of four rabbit prints in fresh snow: two long hind prints side by side above two smaller front prints, one behind the other", "caption": "One eastern cottontail track group in fresh snow in Lynchburg, Virginia, identified on iNaturalist by the observer, tracker Kim Cabrera and a third identifier. Look for the two long hind prints side by side ahead of the small front prints.", "license": "CC-BY-4.0", "credit": "(c) Jennifer Styrsky, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/329597672" },
+    { "type": "p", "text": "Deer leave split, heart-shaped prints. MDC gives white-tailed deer tracks as 2 1/2 to 4 inches long, front larger than hind, and NY DEC describes a heart shape with a line down the middle, with dewclaw marks at the back when a deer runs. Maryland DNR adds that dewclaws show in deep snow and that a deer's hind feet tend to step on its front tracks, and North Dakota Game and Fish gives a walking stride of 13 to 26 inches. [Deer droppings](/blog/deer-poop) are the other sign to check, and [protecting cedars from deer](/blog/how-to-stop-deer-eating-cedars-ontario) covers winter browsing on evergreens." },
+    { "type": "p", "text": "Something else? A single line of small canine or cat prints across the lawn is more likely a fox or a cat, and a larger oval print a coyote or a dog; the next two sections separate them." },
+
+    { "type": "h2", "text": "How do you tell coyote tracks from dog tracks?" },
+    { "type": "p", "text": "Check the shape, the nail marks and the trail together, because no single clue settles it. UC IPM's differences are in the table below; NMSU, which describes the same ones, warns that some dog tracks may be easily confused with a coyote's even when the prints are clear, and that off soft ground a coyote's track may not show the claws." },
+    { "type": "figure", "src": "/guides/photos/coyote-tracks-snow-boot.webp", "width": 1200, "height": 1600, "alt": "Two oval canine prints in old snow sprinkled with needles and seeds, a hiking boot at the left edge for scale", "caption": "Coyote prints in snow beside a hiking boot in Green Mountain National Forest, Vermont, identified on iNaturalist by the observer and a second identifier. Note the oval, compact shape.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/9978016" },
+    { "type": "table", "head": ["Clue", "Coyote", "Domestic dog"], "rows": [
+      ["Print size", "About 2 1/2 inches long by 2 inches wide; large coyotes up to 3 by 1 3/4 inches", "2 1/4 to 4 inches"],
+      ["Shape", "Oval and compact", "Less oval and compact in common breeds"],
+      ["Nail marks", "Less prominent; usually show on at least the front two toes", "More prominent"],
+      ["Trail", "Usually short and straight", "Tends to zigzag in play and wander after scents"]
+    ], "caption": "From Maryland DNR's track key, UC IPM, MDC, NH Fish and Game, NMSU, USFWS and Maryland DNR's tracking article." },
+    { "type": "p", "text": "The National Park Service's Mount Rainier guide adds finer points: a coyote's toes press deeper than its palm pad, its hind print is smaller than its front, and the empty space between the pads usually forms an H in a coyote's track and an X in a red fox's, so an X alone does not mark a coyote. In its wolf entry, the same guide calls nearby human footprints a telltale sign that a large canine track is a big dog's. Maryland DNR suggests starting at your own front door: if you have a dog, the first canine tracks you find are likely its own." },
+    { "type": "p", "text": "Coyote tracks near the house are a reason to watch small pets. UC IPM advises keeping cats and small dogs indoors or in an enclosed kennel, never letting them run free, bringing large dogs in after dark, feeding pets indoors and keeping garbage in containers with tight-fitting lids." },
+
+    { "type": "h2", "text": "What do fox and cat tracks look like in snow?" },
+    { "type": "p", "text": "A fox leaves small, fuzzy canine prints. Maryland DNR's key gives a red fox's track as 1 3/4 to 2 1/2 inches long by 1 1/2 to 2 inches wide, often with hair marks, and a gray fox's as smaller with no hair marks. NY DEC says foxes directly register, setting each hind foot where the front foot landed, so the trail shows single prints, and North Dakota Game and Fish gives a red fox's walking stride as 8 to 12 inches." },
+    { "type": "figure", "src": "/guides/photos/red-fox-track-snow-scale.webp", "width": 1200, "height": 900, "alt": "A single fox paw print in snow with a soft, blurred outline, above a black-and-white scale marked in inches", "caption": "A red fox print in snow beside an inch scale in Bridport, Vermont, identified on iNaturalist by the observer, tracker Kim Cabrera and a third identifier. The outline is soft; Maryland DNR's key notes that red fox tracks often show hair marks.", "license": "CC-BY-4.0", "credit": "(c) Garth Harwood, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/36966375" },
+    { "type": "p", "text": "A cat's print is round, with four toes and no claw marks. Maryland DNR's key gives a house cat's front track as no more than about 1 1/2 inches long and 1 3/8 inches wide, with two lobes on the top edge of the heel pad where a coyote's or fox's has one. NY DEC says cats walk with their claws retracted and directly register, and the National Park Service's guide, describing wild cats, notes that a cat's palm pad makes up at least half of the track. Maryland DNR's article adds that a dog's triangular heel pad is about the size of three of its toes, a cat's about the size of four." },
+
+    { "type": "confused", "title": "Each animal's own guide", "items": [
+      { "href": "/blog/raccoon-poop", "name": "Raccoon", "photo": "raccoon-on-chimney", "note": "Five long toes like a small hand; hind and front prints land in pairs", "alt": "Raccoon crouched on top of a brick house chimney at night" },
+      { "href": "/blog/possum-vs-opossum", "name": "Opossum", "photo": "virginia-opossum", "note": "Star-shaped front prints and a hind thumb at a right angle with no claw", "alt": "Virginia opossum with a pale face walking through dry grass" },
+      { "href": "/blog/skunk-smell-in-house", "name": "Striped skunk", "photo": "striped-skunk-front-lawn-house", "note": "Small five-toed prints with long front claws well ahead of the toes", "alt": "Striped skunk on a front lawn in front of a house with trash carts by the wall" },
+      { "href": "/blog/voles", "name": "Vole sign", "photo": "vole-hole-snowmelt", "note": "Runways under the snow that show as narrow paths at the melt", "alt": "Grass-lined vole hole in melting snow with tufts of dry grass" },
+      { "href": "/blog/deer-poop", "name": "White-tailed deer", "photo": "white-tailed-deer-yard-ontario", "note": "Split, heart-shaped prints 2 1/2 to 4 inches long, front larger than hind", "alt": "Young white-tailed deer standing on a residential lawn" },
+      { "href": "/blog/squirrel-poop", "name": "Gray squirrel", "photo": "eastern-gray-squirrel", "note": "Groups of four in a two-by-two pattern; trails often end at a tree", "alt": "Eastern gray squirrel sitting upright in grass" }
+    ] },
+
+    { "type": "h2", "text": "What should you do once you know what made the tracks?" },
+    { "type": "p", "text": "Most tracks need nothing done. Act when a trail shows an animal living under the house, getting inside or putting pets at risk, and leave the animals themselves to your state wildlife agency or a licensed wildlife professional. Penn State notes that skunks can carry rabies and that any skunk acting abnormally, such as being active in the daytime, may be rabid and should be treated with caution." },
+    { "type": "ul", "items": [
+      "**A skunk or raccoon under a deck or shed.** Make sure the animal is out before you close the opening. Penn State's test for a skunk is a thin layer of flour 2 feet in circumference on the ground in front of the hole, checked after dark for tracks that show it has left to feed, and it warns that sealing a burrow from early May to mid-August may trap young skunks inside. [The deck proofing guide](/blog/raccoon-and-skunk-proofing-under-a-deck-canada) covers the barrier.",
+      "**Raccoons at the garbage.** Minnesota DNR advises a stout metal or plastic can with the lid closed tightly, and no pet food left out overnight.",
+      "**Mouse trails at the foundation.** Seal foundation cracks and gaps around pipes, vents and cables with metal or concrete, as UC IPM advises, since mice can get through openings as small as 1/4 inch; [the complete guide to mice](/learn/mice) covers trapping if they are already inside.",
+      "**Coyote tracks near the house.** Keep cats and small dogs indoors or in an enclosed kennel, feed pets indoors and manage bird feeders so seed does not spill, as UC IPM advises.",
+      "**Vole runways.** Lawns usually recover on their own within a few weeks, Iowa State says.",
+      "**Anything you cannot name.** Photograph the clearest print and the trail, and ask your state wildlife agency or county extension office."
+    ] },
+    { "type": "callout", "tone": "tip", "title": "Photograph the print with a ruler", "text": "Photograph the clearest print from straight above with a ruler or a coin beside it, then take a wider shot of the whole trail and note where it started and ended. Your state wildlife agency or county extension office can use those details to help identify the animal." }
+  ],
+  "faqs": [
+    {
+      "question": "What do raccoon tracks look like in snow?",
+      "answer": "Like small human hands. NY DEC likens a raccoon's track to the hand of a human baby, and USFWS describes five long, finger-like toes that usually connect to a C-shaped palm pad. The Missouri Department of Conservation gives front prints of 2 1/2 to 3 inches and hind prints of 3 3/4 to 4 inches. NMSU Extension says the left hind foot lands beside the right front foot as a raccoon walks, so the prints usually come in pairs."
+    },
+    {
+      "question": "How can you tell coyote tracks from dog tracks?",
+      "answer": "Check the shape, the nail marks and the trail. UC IPM says coyote tracks tend to be more oval and compact than those of common dog breeds, with less prominent nail marks, and that they tend to follow a straight line more closely. USFWS adds that dogs tend to zigzag in play while coyotes are much more likely to take a short, straight route. Size overlaps: Maryland DNR puts a coyote print at about 2 1/2 by 2 inches, while NH Fish and Game gives dogs 2 1/4 to 4 inches, so no single clue settles it."
+    },
+    {
+      "question": "What animal walks in a straight line in the snow?",
+      "answer": "Coyotes are known for it. UC IPM says coyote tracks tend to follow a straight line more closely than a dog's, MDC says coyote trails are often straight-line routes, and USFWS says coyotes are much more likely to take a short, straight route. Foxes and cats leave a line of single prints: NY DEC says both directly register, setting each hind foot where the front foot landed. A pet dog's trail tends to wander, Maryland DNR says. Size helps: Maryland DNR gives a house cat's front print as no more than about 1 1/2 inches long."
+    },
+    {
+      "question": "What do skunk tracks look like in snow?",
+      "answer": "Small, five-toed prints with claw marks out in front. A Missouri Department of Conservation article says striped skunk tracks average about 2 inches long by 1 inch wide, that skunks cannot retract their claws, and that the long nails of the front feet are the identifying feature. Penn State Extension says the heels of the front feet normally do not print, and North Dakota Game and Fish notes that a skunk's walking pattern is often irregular."
+    },
+    {
+      "question": "What do opossum tracks look like?",
+      "answer": "Like stars and little hands. The Missouri Department of Conservation describes a 2-inch, star-shaped front print with five widespread toes, and a 2-inch hind print whose thumb sticks out at a right angle and leaves no claw mark. The front print often lies beside the hind print, and the tail commonly leaves a gently wavy line, especially in snow. MDC adds that opossum tracks are often confused with a raccoon's, so look for that sideways thumb."
+    },
+    {
+      "question": "What animal leaves tracks in groups of four in the snow?",
+      "answer": "Usually a rabbit, a squirrel or a mouse. Utah State University Extension calls them hoppers: the front feet land first and the larger hind feet swing ahead of them. A rabbit's group forms an I or a Y, according to ICWDM and NY DEC, while ICWDM says a squirrel lands in a two-by-two pattern. Maryland DNR adds that squirrel groups are wider and blockier than a rabbit's and that squirrel trails often end at a tree. Mouse groups are tiny."
+    },
+    {
+      "question": "What do deer tracks look like in snow?",
+      "answer": "Two hoof halves in the shape of a heart. The Missouri Department of Conservation gives white-tailed deer tracks as 2 1/2 to 4 inches long, front larger than hind, and NY DEC describes a heart shape with a line down the middle. Dewclaw marks can show behind the hooves when a deer runs, NY DEC says, and in deep snow, Maryland DNR adds. North Dakota Game and Fish gives a walking stride of 13 to 26 inches."
+    },
+    {
+      "question": "What do mouse tracks look like in snow?",
+      "answer": "Tiny groups of four prints, sometimes with a thin tail line. The New Hampshire Fish and Game pocket guide gives a white-footed mouse's print as about 1/4 inch, and the University of Michigan's BioKIDS key puts its feet at roughly 1/2 inch and says its tracks are much more likely than a house mouse's to show a tail trail. NY DEC says rodents usually have four toes in front and five behind. UC IPM says tracks show where mice are active, so follow a trail along the foundation to look for gaps."
+    },
+    {
+      "question": "How can you tell how old animal tracks in snow are?",
+      "answer": "Start with the weather: tracks on top of the newest snow were made after that snow fell. Then look at the prints. NMSU Extension says a track in snow changes once warm sun has enlarged and distorted it, and Maryland DNR warns that melting makes tracks look larger than they really are. NY DEC says wet snow records a crisp print while dry powder records a less-defined one, so compare prints made in the same snow before judging their age."
+    },
+    {
+      "question": "What do fox tracks look like in snow?",
+      "answer": "Small, fuzzy canine prints. Maryland DNR's key gives a red fox's track as 1 3/4 to 2 1/2 inches long by 1 1/2 to 2 inches wide, often with hair marks, and a gray fox's as smaller without hair marks. NY DEC says foxes directly register, setting each hind foot in the front print, and North Dakota Game and Fish gives a red fox's walking stride as 8 to 12 inches. The National Park Service says the space between a red fox's pads usually forms an X."
+    }
+  ],
+  "sources": [
+    { "title": "Mammal Tracks", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/wildlife/wildlife-facts/mammal-facts/mammal-tracks" },
+    { "title": "Animal Detective (Tom R.D. Meister, Missouri Conservationist, January 2016)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/magazines/conservationist/2016-01/animal-detective" },
+    { "title": "Virginia Opossum (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/virginia-opossum" },
+    { "title": "Guide to Common Mammal Tracks (October 2023)", "publisher": "Maryland Department of Natural Resources, Wildlife and Heritage Service", "url": "https://dnr.maryland.gov/wildlife/Documents/Key-Common-Mammal-Tracks.pdf" },
+    { "title": "Animal Treks: Identifying tracks in the snow (Dorie Coleman, December 21, 2016)", "publisher": "Maryland Department of Natural Resources", "url": "https://news.maryland.gov/dnr/2016/12/21/animal-treks/" },
+    { "title": "Winter Tracks (reprinted from the New York State Conservationist, February 2015)", "publisher": "New York State Department of Environmental Conservation", "url": "https://extapps.dec.ny.gov/docs/administration_pdf/tracks1.pdf" },
+    { "title": "Carnivore Tracking in Washington's National Parks", "publisher": "National Park Service, Mount Rainier National Park", "url": "https://www.nps.gov/mora/planyourvisit/upload/Carnivore-Tracks-12-20-21_508.pdf" },
+    { "title": "Pest Notes: Coyote (UC ANR Publication 74135, updated March 2007)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/coyote/" },
+    { "title": "Identifying and Preserving Wildlife Tracks (Circular 561, revised May 2016)", "publisher": "New Mexico State University Cooperative Extension Service", "url": "https://pubs.nmsu.edu/_circulars/CR561/" },
+    { "title": "Tracks and Signs of North Dakota Wildlife (brochure, 2023)", "publisher": "North Dakota Game and Fish Department", "url": "https://gf.nd.gov/sites/default/files/publications/tracks_signs_of_nd_wildlife.pdf" },
+    { "title": "Tracing Tracks: Winter Wildlife (Rhea Cone, December 11, 2024)", "publisher": "Utah State University Extension, Swaner Preserve and EcoCenter", "url": "https://extension.usu.edu/swaner/naturalist-news/winter-wildlife" },
+    { "title": "Snow Tracks (Susan Morse)", "publisher": "U.S. Fish and Wildlife Service", "url": "https://www.fws.gov/story/snow-tracks" },
+    { "title": "Tracks", "publisher": "Internet Center for Wildlife Damage Management", "url": "https://icwdm.org/identification/tracks/" },
+    { "title": "Pocket Guide to N.H. Animal Tracks", "publisher": "New Hampshire Fish and Game Department (copy hosted by Washington State University Extension)", "url": "https://wpcdn.web.wsu.edu/wp-extension/uploads/sites/2093/2020/06/track_card.pdf" },
+    { "title": "Tracks Key: Smaller Tracks, 4 Toes in Front and 5 in Back (BioKIDS Field Guides)", "publisher": "University of Michigan Museum of Zoology, BioKIDS", "url": "https://biokids.umich.edu/guides/tracks_and_sign/tracks_key/tracks_mammal/tracks_m_set1" },
+    { "title": "Skunks: Solutions to Common Problems (S. N. Thurston and M. C. Brittingham, updated June 23, 2006)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/skunks-solutions-to-common-problems" },
+    { "title": "Raccoons", "publisher": "Minnesota Department of Natural Resources", "url": "https://www.dnr.state.mn.us/livingwith_wildlife/raccoons/index.html", "kind": "government" },
+    { "title": "Pest Notes: House Mouse (UC ANR Publication 7483, updated July 2025)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/house-mouse/" },
+    { "title": "Mice and Voles", "publisher": "Pennsylvania Game Commission", "url": "https://www.pa.gov/agencies/pgc/wildlife/discover-pa-wildlife/mice-and-voles" },
+    { "title": "What produces narrow snow pathways in my lawn? (updated August 28, 2024)", "publisher": "Iowa State University Extension and Outreach", "url": "https://yardandgarden.extension.iastate.edu/faq/what-produces-narrow-snow-pathways-my-lawn" }
+  ]
+}

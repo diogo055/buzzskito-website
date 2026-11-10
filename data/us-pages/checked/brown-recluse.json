@@ -1,0 +1,10 @@
+{
+ "id": "brown-recluse",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "ce5d6de4bb6f122ffee0b1ba03dda8c97b503eb137451fa112eddbfcbb913436",
+ "claimsChecked": 300,
+ "claimsCorrected": 18,
+ "claimsRemovedOrSoftened": 16,
+ "checkedOn": "2026-11-09"
+}

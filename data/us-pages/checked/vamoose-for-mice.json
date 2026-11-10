@@ -2,9 +2,16 @@
  "id": "vamoose-for-mice",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "f78475894343bff5da93805c3a9925e926bfb3c51d2e9c0891c1fc0a56584ef8",
+ "sha": "f61d5143d1109e7df9db142d748263e4f89f7f23860ad1cc47da06078c0f8b05",
  "claimsChecked": 67,
  "claimsCorrected": 4,
  "claimsRemovedOrSoftened": 3,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-11-09",
+   "note": "Nov 8, 2026 (commit 5691c9c4): four credited photo figures added, captions matching their records in data/god-build/photos.json, and dateModified set; no text claim changed; the record was not updated then; recorded Nov 9.",
+   "previousSha": "f78475894343bff5da93805c3a9925e926bfb3c51d2e9c0891c1fc0a56584ef8"
+  }
+ ]
 }

@@ -563,6 +563,14 @@
 - `/blog/best-bed-bug-interceptors` — bed bug interceptors
 - `/blog/best-wasp-spray` — wasp spray
 - `/blog/best-tick-spray-for-yard` — best tick spray for yard
+- `/blog/phorid-flies` — phorid flies
+- `/blog/stink-bug-eggs` — stink bug eggs
+- `/blog/coyote-poop` — coyote poop
+- `/blog/bear-poop` — bear poop
+- `/blog/squirrel-nest` — squirrel nest
+- `/blog/drugstore-beetles` — drugstore beetle
+- `/blog/centipede-vs-millipede` — centipede vs millipede
+- `/blog/animal-tracks-in-snow` — animal tracks in snow
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

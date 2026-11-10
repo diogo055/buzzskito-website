@@ -2,7 +2,7 @@
  "id": "oriental-cockroaches",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "d2ad7ec68481925c25d5b04f2ef5520a9398f22991a2985456a8431bb015cec0",
+ "sha": "f215ad7d3179d652cc150f318a89167a7548949d6c6ac65be0cf9cf1e2999ce0",
  "claimsChecked": 300,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 5,
@@ -17,6 +17,11 @@
    "on": "2026-11-05",
    "note": "Nov 5, 2026: meta title rewritten to match the main search (Search Console title audit): \"Big Black Cockroach? Likely an Oriental Roach\"",
    "previousSha": "815395aaadb27ca222de4275bf10dfa84a7fe5ec17f0ecddc1f2d4e3b6fe2a3f"
+  },
+  {
+   "on": "2026-11-09",
+   "note": "Nov 8, 2026 top-3 upgrade (commit b6754e3b: new sourced sections, tables, FAQs and photos) was independently fact-checked that day (41 corrections across the walkthrough pages, three passes), but this record was not updated then; recorded Nov 9.",
+   "previousSha": "d2ad7ec68481925c25d5b04f2ef5520a9398f22991a2985456a8431bb015cec0"
   }
  ]
 }

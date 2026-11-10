@@ -2,7 +2,7 @@
  "id": "mite-bites",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "19ccb70bd1ccc074b88915d2760e5e751a0b05e120f1ed8360c7bb7ddc27f999",
+ "sha": "b028c5b8c760a320bf4489ad8bb6c2250845995ef93f1f46888ae0d076311e27",
  "claimsChecked": 240,
  "claimsCorrected": 18,
  "claimsRemovedOrSoftened": 17,
@@ -17,6 +17,11 @@
    "on": "2026-10-29",
    "note": "Oct 29: one link added to /blog/chigger-bites in the chiggers section (navigation only; no claims changed)",
    "previousSha": "d00278247b8ce03b57208490c68aaa6814809e8fccc1ae2fdd9b7c7b74a6f440"
+  },
+  {
+   "on": "2026-11-09",
+   "note": "Nov 8, 2026 top-3 upgrade (commit b6754e3b: new sourced sections, tables, FAQs and photos) was independently fact-checked that day (41 corrections across the walkthrough pages, three passes), but this record was not updated then; recorded Nov 9.",
+   "previousSha": "19ccb70bd1ccc074b88915d2760e5e751a0b05e120f1ed8360c7bb7ddc27f999"
   }
  ]
 }

@@ -13527,14 +13527,14 @@
     "id"
    ],
    "minWords": 1500,
-   "datePublished": "2027-02-01",
+   "datePublished": "2026-11-12",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": null,
    "state": null,
-   "releaseOn": "2027-02-01",
+   "releaseOn": "2026-11-12",
    "parent": {
     "href": "/learn",
     "name": "Learning Centre"
@@ -22727,14 +22727,14 @@
     "health"
    ],
    "minWords": 1000,
-   "datePublished": "2026-10-29",
+   "datePublished": "2026-11-12",
    "projClicks": 0,
    "batch": "god",
    "audience": "na",
    "role": "page",
    "series": null,
    "state": null,
-   "releaseOn": "2026-10-29",
+   "releaseOn": "2026-11-12",
    "parent": {
     "href": "/learn",
     "name": "Learning Centre"
@@ -28404,6 +28404,552 @@
     "minExisting": 2,
     "category": null,
     "mustLink": [],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "phorid-flies",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "flies",
+   "path": "/blog/phorid-flies",
+   "keyword": "phorid flies",
+   "alsoTargets": [
+    "phorid fly",
+    "humpbacked flies",
+    "coffin flies",
+    "phorid flies vs fruit flies",
+    "phorid flies in bathroom",
+    "how to get rid of phorid flies",
+    "scuttle flies"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1200,
+   "datePublished": "2026-11-12",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2026-11-12",
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "h1Hint": "Phorid Flies: How to Identify Them and Find Where They Breed",
+   "scope": "Phorid (humpbacked, scuttle) flies, mainly Megaselia scalaris: identification (humped thorax, size, the erratic running instead of flying, wing venation), how to tell them from fruit flies, drain flies and fungus gnats (quick-ID table and look-alike cards), where they breed (broken drain or sewer lines under a slab, garbage, rotting organic matter, pet waste, dead animals in walls), why sprays and traps alone fail (find and remove the breeding material; the plumber step), when they mean a hidden problem, and health notes (sourced, no alarmism). University extension sources (e.g. Univ. of Kentucky ENTFACT, Penn State, UF/IFAS Featured Creatures, NC State), CDC/EPA where relevant. Real photos only.",
+   "dataPacket": null,
+   "metaTitleHint": "Phorid Flies: How to ID Them and Find the Source",
+   "pageType": "entity-id",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/flies-in-house",
+     "overlap": "overview of every fly found indoors, mentions phorids",
+     "resolution": "flies-in-house keeps 'why are there so many flies in my house'; this page owns the phorid searches; link both ways"
+    },
+    {
+     "path": "/blog/how-to-get-rid-of-drain-flies",
+     "overlap": "has a drain fly / fruit fly / fungus gnat / phorid comparison section",
+     "resolution": "it keeps drain fly control; link from the look-alike card and the comparison"
+    },
+    {
+     "path": "/blog/fruit-flies and /blog/how-to-get-rid-of-fungus-gnats",
+     "overlap": "look-alikes",
+     "resolution": "look-alike cards and one link each"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/blog/flies-in-house",
+     "/blog/how-to-get-rid-of-drain-flies",
+     "/blog/fruit-flies"
+    ],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "stink-bug-eggs",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "household",
+   "path": "/blog/stink-bug-eggs",
+   "keyword": "stink bug eggs",
+   "alsoTargets": [
+    "what do stink bug eggs look like",
+    "brown marmorated stink bug eggs",
+    "stink bug eggs on leaves",
+    "stink bug nymphs",
+    "baby stink bugs",
+    "stink bug eggs vs ladybug eggs"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1000,
+   "datePublished": "2026-11-12",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2026-11-12",
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "h1Hint": "Stink Bug Eggs: What They Look Like, Where You Find Them and What to Do",
+   "scope": "Eggs and nymphs of the brown marmorated stink bug (Halyomorpha halys) and common native stink bugs: the barrel-shaped egg clusters (usually about 28 eggs, pale green to white, on the underside of leaves), when and where they are laid, the five nymph stages and how they look, how to tell them from lady beetle eggs, squash bug eggs and the beneficial spined soldier bug, whether the adults that overwinter indoors lay eggs inside (sourced answer), what to do in the garden (remove the leaf, crush, soapy water) and the samurai wasp parasitoid. Sources: Penn State Extension, StopBMSB.org (USDA SCRI project), university extension, USDA. Real photos only.",
+   "dataPacket": null,
+   "metaTitleHint": "Stink Bug Eggs: What They Look Like (Photos)",
+   "pageType": "entity-id",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/how-to-get-rid-of-stink-bugs",
+     "overlap": "stink bug control (adults indoors in fall and winter)",
+     "resolution": "it keeps control and the adult; this page owns eggs and nymphs; link both ways"
+    },
+    {
+     "path": "/blog/asian-lady-beetles",
+     "overlap": "lady beetle eggs and larvae are a look-alike",
+     "resolution": "look-alike card and one link"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/blog/how-to-get-rid-of-stink-bugs"
+    ],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "coyote-poop",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "wildlife",
+   "path": "/blog/coyote-poop",
+   "keyword": "coyote poop",
+   "alsoTargets": [
+    "coyote scat",
+    "coyote droppings",
+    "what does coyote poop look like",
+    "coyote poop vs dog poop",
+    "coyote scat vs fox scat"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1000,
+   "datePublished": "2026-11-12",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "na",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2026-11-12",
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "h1Hint": "Coyote Poop: What Coyote Scat Looks Like and How to Tell It From Dog Poop",
+   "scope": "Coyote scat identification (rope-like, tapered and twisted ends, packed with hair, bone fragments, berries or seeds; size and diameter from wildlife-agency sources), where it is left (trails, path centres, territorial marking points), a coyote vs dog vs fox vs bobcat comparison table, what finding it near a home means (pets, small dogs and cats), health facts (Echinococcus multilocularis tapeworm and other parasites, CDC; gloves and bagging), and what to do (remove attractants, secure garbage and pet food, hazing per state wildlife agencies). Sources: state wildlife agencies (e.g. MassWildlife, NY DEC, California Fish and Wildlife, Minnesota DNR), university wildlife damage extension (e.g. Penn State, Univ. of Nebraska), CDC. Real photos only.",
+   "dataPacket": null,
+   "metaTitleHint": "Coyote Poop: What It Looks Like (Photos)",
+   "pageType": "entity-id",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/animal-droppings",
+     "overlap": "the droppings hub mentions coyote scat",
+     "resolution": "the hub keeps 'animal droppings identification'; this page owns the coyote searches; link both ways"
+    },
+    {
+     "path": "/blog/raccoon-poop, /blog/deer-poop, /blog/rabbit-poop, /blog/possum-poop, /blog/bear-poop",
+     "overlap": "other wildlife droppings",
+     "resolution": "look-alike cards and one link each; no copied sections"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/blog/animal-droppings"
+    ],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "bear-poop",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "wildlife",
+   "path": "/blog/bear-poop",
+   "keyword": "bear poop",
+   "alsoTargets": [
+    "bear scat",
+    "bear droppings",
+    "what does bear poop look like",
+    "black bear poop",
+    "bear poop vs dog poop",
+    "bear scat with berries"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1000,
+   "datePublished": "2026-11-12",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "na",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2026-11-12",
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "h1Hint": "Bear Poop: What Bear Scat Looks Like and What It Tells You",
+   "scope": "Black bear scat first (it is the bear most homeowners meet; grizzly only where sources support it): shape and size, how it changes with the diet through the year (berries and seeds in late summer, grass in spring, garbage near homes), where it is found (trails, near bird feeders, garbage and fruit trees), a bear vs dog vs coyote vs deer comparison table, what a fresh pile near a house means and what to do (remove bird feeders, secure garbage, BearWise guidance), safety around bears, and health handling notes (gloves; no touching). Sources: state wildlife agencies (e.g. NC Wildlife, Pennsylvania Game Commission, NY DEC, Minnesota DNR), National Park Service, BearWise (Southeastern Association of Fish and Wildlife Agencies), university extension. Real photos only.",
+   "dataPacket": null,
+   "metaTitleHint": "Bear Poop: What Bear Scat Looks Like (Photos)",
+   "pageType": "entity-id",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/animal-droppings",
+     "overlap": "the droppings hub (does not cover bears today)",
+     "resolution": "link both ways; the hub may later gain a one-line bear card"
+    },
+    {
+     "path": "/blog/coyote-poop, /blog/raccoon-poop, /blog/deer-poop",
+     "overlap": "other wildlife droppings",
+     "resolution": "look-alike cards only"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/blog/animal-droppings"
+    ],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "squirrel-nest",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "wildlife",
+   "path": "/blog/squirrel-nest",
+   "keyword": "squirrel nest",
+   "alsoTargets": [
+    "what does a squirrel nest look like",
+    "squirrel drey",
+    "squirrel nest in attic",
+    "squirrel nest vs bird nest",
+    "baby squirrels in nest",
+    "how to remove a squirrel nest"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1000,
+   "datePublished": "2026-11-12",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "na",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2026-11-12",
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "h1Hint": "Squirrel Nests: What a Squirrel Nest Looks Like, in a Tree or in Your Attic",
+   "scope": "Tree squirrel nests: leaf nests (dreys) vs tree-cavity dens, how to tell a squirrel drey from a bird nest or a hornet nest, when squirrels build and use them, litters and baby squirrels (spring and late summer litters per sources), signs of a squirrel nest in an attic or wall (sounds at dawn and dusk, entry holes, chewed wood, droppings, nesting material), why removing a nest with young inside causes problems and what wildlife agencies advise (wait, exclusion, one-way doors after young are mobile; state rules vary), and prevention. Sources: state wildlife agencies (e.g. Mass Audubon / MassWildlife, NY DEC, Penn State Extension, Univ. of Nebraska wildlife damage, Humane World or state guidance where official). Real photos only.",
+   "dataPacket": null,
+   "metaTitleHint": "Squirrel Nest: What It Looks Like (Photos)",
+   "pageType": "entity-id",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/animals-in-attic",
+     "overlap": "which animal is in the attic, squirrels among them",
+     "resolution": "it keeps 'animals in attic'; this page owns squirrel nests; link both ways"
+    },
+    {
+     "path": "/blog/squirrel-poop",
+     "overlap": "the other squirrel sign",
+     "resolution": "link both ways"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/blog/squirrel-poop",
+     "/blog/animals-in-attic"
+    ],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "drugstore-beetles",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "household",
+   "path": "/blog/drugstore-beetles",
+   "keyword": "drugstore beetle",
+   "alsoTargets": [
+    "drugstore beetles",
+    "drugstore beetle vs cigarette beetle",
+    "cigarette beetle",
+    "drugstore beetle larvae",
+    "how to get rid of drugstore beetles",
+    "drugstore beetles in bedroom"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1000,
+   "datePublished": "2026-11-12",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2026-11-12",
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "h1Hint": "Drugstore Beetles: How to Identify Them and Find the Source",
+   "scope": "Drugstore beetle (Stegobium paniceum): identification (size, color, the hooded head, the lined wing covers, the antenna club) and how to tell it from the cigarette beetle, weevils, spider beetles and bed bugs; what the larvae look like; what it eats (dry foods, spices, pet food, dried flowers, book bindings, even some medicines per sources); why adults turn up in bedrooms and on windowsills far from the kitchen; how to find the infested item; cleanup and prevention (discard, freeze or heat per extension guidance, sealed containers); when it is not the pantry. Sources: university extension and museum pages (UC IPM, Univ. of Kentucky ENTFACT, Penn State, UF/IFAS Featured Creatures, NC State, Texas A&M). Real photos only.",
+   "dataPacket": null,
+   "metaTitleHint": "Drugstore Beetles: How to ID and Get Rid of Them",
+   "pageType": "entity-id",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/tiny-brown-bugs",
+     "overlap": "a short 'drugstore and cigarette beetles' section in the roundup",
+     "resolution": "the roundup keeps 'tiny brown bugs'; this page owns the species searches; link both ways (link-in from that section)"
+    },
+    {
+     "path": "/blog/pantry-pests and /blog/beetles-in-house",
+     "overlap": "a drugstore vs cigarette beetle note",
+     "resolution": "they keep their roundups; link both ways"
+    },
+    {
+     "path": "/blog/weevils, /blog/spider-beetles, /blog/bugs-that-look-like-bed-bugs",
+     "overlap": "look-alikes",
+     "resolution": "look-alike cards and links"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/blog/tiny-brown-bugs",
+     "/blog/pantry-pests"
+    ],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "centipede-vs-millipede",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "household",
+   "path": "/blog/centipede-vs-millipede",
+   "keyword": "centipede vs millipede",
+   "alsoTargets": [
+    "millipede vs centipede",
+    "difference between centipede and millipede",
+    "centipede or millipede",
+    "house centipede vs millipede",
+    "do millipedes bite"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1000,
+   "datePublished": "2026-11-12",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "na",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2026-11-12",
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "h1Hint": "Centipede vs Millipede: How to Tell Them Apart (and Which One Bites)",
+   "scope": "Side-by-side identification: legs per body segment (one pair vs two), flat vs round body, speed, antennae, colour; centipede venom claws and bites vs millipede defensive fluids (no bite); diet (predators vs decaying plant matter); where each lives and why both come indoors (moisture, fall migrations); which is a problem and what to do about each; a comparison table, paired photos, look-alike cards (silverfish, earwigs, wireworms or other look-alikes the sources support). Sources: UC IPM Pest Notes (Centipedes, Millipedes), Univ. of Kentucky ENTFACT-645, Penn State Extension, NC State. Real photos only.",
+   "dataPacket": null,
+   "metaTitleHint": "Centipede vs Millipede: How to Tell Them Apart",
+   "pageType": "comparison",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/house-centipedes",
+     "overlap": "house centipede identification and bites",
+     "resolution": "it keeps the house centipede and centipede bite searches; this page owns the comparison; link both ways"
+    },
+    {
+     "path": "/blog/millipedes",
+     "overlap": "millipedes indoors",
+     "resolution": "it keeps 'millipedes in house'; link both ways"
+    },
+    {
+     "path": "/blog/how-to-get-rid-of-centipedes-canada",
+     "overlap": "shows for the comparison today",
+     "resolution": "link it for control"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/blog/house-centipedes",
+     "/blog/millipedes"
+    ],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "animal-tracks-in-snow",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "wildlife",
+   "path": "/blog/animal-tracks-in-snow",
+   "keyword": "animal tracks in snow",
+   "alsoTargets": [
+    "animal tracks in snow identification",
+    "raccoon tracks",
+    "coyote tracks",
+    "deer tracks in snow",
+    "rabbit tracks in snow",
+    "squirrel tracks in snow",
+    "skunk tracks",
+    "fox tracks in snow",
+    "mouse tracks in snow",
+    "opossum tracks"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1100,
+   "datePublished": "2026-11-12",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "na",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2026-11-12",
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "h1Hint": "Animal Tracks in Snow: How to Identify the Tracks in Your Yard",
+   "scope": "Backyard mammal tracks in snow: deer, rabbit, squirrel, chipmunk, mouse and vole, raccoon, opossum, skunk, coyote vs dog, fox, cat; the four gait patterns (walkers, waddlers, bounders, hoppers), track and stride measurements, a quick-ID table, what each set of tracks means for a homeowner (raccoons or skunks denning under a deck, rodents along the foundation, coyotes and pets), and when to act. Sources: state wildlife agencies (e.g. Minnesota DNR, MassWildlife, NY DEC, Pennsylvania Game Commission), university extension, National Park Service. Real photos of tracks only (no drawings).",
+   "dataPacket": null,
+   "metaTitleHint": "Animal Tracks in Snow: ID Backyard Tracks",
+   "pageType": "entity-id",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/holes-in-yard",
+     "overlap": "which animal dug a hole",
+     "resolution": "it keeps holes; this page owns tracks; link both ways"
+    },
+    {
+     "path": "/blog/animal-droppings",
+     "overlap": "the other sign an animal leaves",
+     "resolution": "link both ways"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/blog/holes-in-yard",
+     "/blog/animal-droppings"
+    ],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []

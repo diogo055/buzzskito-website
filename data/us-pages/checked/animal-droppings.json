@@ -2,7 +2,7 @@
  "id": "animal-droppings",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "0839c1782b28e791a1d4cf6c0688a35a0c3d3dbbb7f5eb4db736241a5bb90e83",
+ "sha": "4abdedfc37586577f684fb19b3554057b33fe148b6adfa7bf72cb9565480e9b4",
  "claimsChecked": 223,
  "claimsCorrected": 2,
  "claimsRemovedOrSoftened": 6,
@@ -32,6 +32,11 @@
    "on": "2026-11-05",
    "note": "Photo licence swap (Nov 5, 2026): one iNaturalist photographer relicensed photos CC BY-NC after we took them as CC0; each such photo on this page was replaced with an openly licensed photo of the same subject (credit and licence from the source), and its alt text and caption were rewritten to describe the new photo. No other text changed.",
    "previousSha": "accffddf4a1f5fbc21243fd704b68412bdf38c281ac5bfa881ed3fb15ed592d0"
+  },
+  {
+   "on": "2026-11-09",
+   "note": "Nov 8, 2026 top-3 upgrade (commit b6754e3b: new sourced sections, tables, FAQs and photos) was independently fact-checked that day (41 corrections across the walkthrough pages, three passes), but this record was not updated then; recorded Nov 9. Nov 9: links to /blog/coyote-poop and /blog/bear-poop added in 'What animal poop is in my yard?' (no fact changed).",
+   "previousSha": "0839c1782b28e791a1d4cf6c0688a35a0c3d3dbbb7f5eb4db736241a5bb90e83"
   }
  ]
 }

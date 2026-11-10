@@ -2,7 +2,7 @@
  "id": "maggots",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "b66c999bc199bdde4792f9b77877046723d7c21eda73fb1d64fdc35a8bbdd642",
+ "sha": "45780dabc9867d866591848496a409a1a65d22596c7ffe89135e512c7d4a3842",
  "claimsChecked": 231,
  "claimsCorrected": 9,
  "claimsRemovedOrSoftened": 5,
@@ -11,5 +11,12 @@
   "on": "2026-10-28",
   "scheduledFor": "2026-10-28",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-11-09",
+   "note": "Nov 8, 2026 top-3 upgrade (commit b6754e3b: new sourced sections, tables, FAQs and photos) was independently fact-checked that day (41 corrections across the walkthrough pages, three passes), but this record was not updated then; recorded Nov 9.",
+   "previousSha": "b66c999bc199bdde4792f9b77877046723d7c21eda73fb1d64fdc35a8bbdd642"
+  }
+ ]
 }

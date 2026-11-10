@@ -2,7 +2,7 @@
  "id": "how-to-get-rid-of-stink-bugs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "76db3bb70d98e1df0995d71674dd99899eca664f5adb6347807916eed6931e36",
+ "sha": "d2deeec6f5e9789ae108bbf7201b170f837732e75fd367e03c7f9c00830d4fa1",
  "claimsChecked": 13,
  "claimsCorrected": 3,
  "claimsRemovedOrSoftened": 0,
@@ -12,6 +12,11 @@
    "on": "2026-11-05",
    "note": "Photo licence swap (Nov 5, 2026): one iNaturalist photographer relicensed photos CC BY-NC after we took them as CC0; each such photo on this page was replaced with an openly licensed photo of the same subject (credit and licence from the source), and its alt text and caption were rewritten to describe the new photo. No other text changed.",
    "previousSha": "f1005666001c9af672a451d601d6405a9a639fb9b1dab356524d8aadc38ddd77"
+  },
+  {
+   "on": "2026-11-09",
+   "note": "Nov 9: one sentence links the new stink bug eggs guide (/blog/stink-bug-eggs, scheduled Nov 12) after the nymph and egg paragraph in 'What does a brown marmorated stink bug look like?'; no fact changed",
+   "previousSha": "76db3bb70d98e1df0995d71674dd99899eca664f5adb6347807916eed6931e36"
   }
  ]
 }

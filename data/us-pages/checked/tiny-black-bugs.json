@@ -2,7 +2,7 @@
  "id": "tiny-black-bugs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "afc38b275cf4d86e54e0a14ebc26fcc28e0cbdf193e0d1f22dc7d6a5a3dadd8a",
+ "sha": "5ee9f2a45fddea46e3fbbbd93790c1abca09bfb09ecd7d33a3edae03408756e9",
  "claimsChecked": 241,
  "claimsCorrected": 7,
  "claimsRemovedOrSoftened": 6,
@@ -42,6 +42,11 @@
    "on": "2026-10-29",
    "note": "Oct 29: one internal link to /blog/tiny-red-bugs (new page) in a new paragraph after the clover mite paragraph under 'What are the tiny black bugs on windowsills?'; no fact changed",
    "previousSha": "6e52ce91f70d5adc0d82a63c2e9ca8f9e66818fc143dd7dfd039a51eb06a9dd4"
+  },
+  {
+   "on": "2026-11-09",
+   "note": "Nov 8, 2026 top-3 upgrade (commit b6754e3b: new sourced sections, tables, FAQs and photos) was independently fact-checked that day (41 corrections across the walkthrough pages, three passes), but this record was not updated then; recorded Nov 9.",
+   "previousSha": "afc38b275cf4d86e54e0a14ebc26fcc28e0cbdf193e0d1f22dc7d6a5a3dadd8a"
   }
  ]
 }

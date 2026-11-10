@@ -1,0 +1,10 @@
+{
+ "id": "animal-tracks-in-snow",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "a69133382717ed436686c12639dc25c35b9acd0dd8e5b64956cdfcd88478bda1",
+ "claimsChecked": 310,
+ "claimsCorrected": 19,
+ "claimsRemovedOrSoftened": 18,
+ "checkedOn": "2026-11-09"
+}

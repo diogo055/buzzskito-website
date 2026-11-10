@@ -1,0 +1,240 @@
+{
+  "slug": "drugstore-beetles",
+  "kind": "spoke",
+  "cluster": "household",
+  "section": "blog",
+  "keyword": "drugstore beetle",
+  "alsoTargets": [
+    "drugstore beetles",
+    "drugstore beetle vs cigarette beetle",
+    "cigarette beetle",
+    "drugstore beetle larvae",
+    "how to get rid of drugstore beetles",
+    "drugstore beetles in bedroom"
+  ],
+  "metaTitle": "Drugstore Beetles: How to ID Them (Photos)",
+  "metaDescription": "Drugstore beetles are tiny humped brown beetles with lined wing covers and clubbed antennae. Tell them from cigarette beetles and find the source.",
+  "h1": "Drugstore Beetles: How to Identify Them and Find the Source",
+  "dek": "A drugstore beetle is a tiny, humped brown beetle with lined wing covers and clubbed antennae. Photos, how to tell it from a cigarette beetle, why it turns up in bedrooms and on windowsills, and how to find the source.",
+  "breadcrumb": "Drugstore Beetles",
+  "excerpt": "Tiny humped brown beetle with lined wing covers? How to tell a drugstore beetle from a cigarette beetle, why they show up far from the kitchen, and how to find the source.",
+  "datePublished": "2026-11-12",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**A drugstore beetle is a tiny, humped brown beetle, 1/10 to 1/7 inch long, with fine lines running down its wing covers and antennae that end in three enlarged segments; its look-alike, the cigarette beetle, has smooth wing covers and antennae toothed like a saw** ([UF/IFAS Extension](https://ask.ifas.ufl.edu/publication/IN385)). The adults fly to light, so the infested item is often in another room.",
+    "bullets": [
+      "UF/IFAS gives adults as 1/10 to 1/7 inch (2.25 to 3.5 mm) long, cylindrical and uniformly brown to reddish brown, with rows of tiny pits that make the wing covers look lined.",
+      "The cigarette beetle is about 1/8 inch and rounder, with smooth, finely hairy wing covers and saw-toothed antennae that have no club, according to UF/IFAS and Virginia Tech.",
+      "The larvae do most of the damage: creamy white, C-shaped grubs up to about 3/16 inch long that tunnel through the food, as Clemson Extension and UF/IFAS describe them.",
+      "Besides spices, flour, bread and dry pet food, university sources list drugs, books, leather, dried flowers and herbarium specimens among the things drugstore beetles infest.",
+      "Adults of both beetles fly and are attracted to light (University of Kentucky), which Alabama Extension says is why drugstore beetles turn up in bedrooms, bathrooms and offices.",
+      "Neither the drugstore beetle nor the cigarette beetle bites, says Texas A&M AgriLife Extension."
+    ]
+  },
+  "facts": {
+    "title": "Drugstore beetle and look-alikes: quick ID",
+    "head": ["Bug", "Size", "The tell", "Where you find it"],
+    "rows": [
+      ["Drugstore beetle", "1/10 to 1/7 inch", "Lined wing covers; each antenna ends in three enlarged segments", "Spices, flour, bread, dry pet food, drugs, books; adults at windows and lights"],
+      ["Cigarette beetle", "About 1/8 inch", "Smooth, finely hairy wing covers; saw-toothed antennae with no club; rounder outline", "Paprika, chili powder, dry dog food, tobacco, dried flowers"],
+      ["Drugstore beetle larva", "Up to about 3/16 inch", "Creamy white, C-shaped grub with short hairs", "Inside the food or material it is eating"],
+      ["Cigarette beetle larva", "Up to about 3/16 inch", "Like the drugstore larva, but with longer, more obvious hairs", "Inside the food or material it is eating"],
+      ["Rice weevil", "1/8 to 1/4 inch", "The head is drawn out into a snout", "Inside whole kernels such as wheat and corn"],
+      ["Spider beetle", "1/16 to 3/16 inch", "Round, globe-like body on long, thin legs", "Stored food, wall voids, false ceilings, bird and rodent nests"],
+      ["Red or confused flour beetle", "About 1/7 inch", "Flat, shiny and oval, not humped", "Grain products, cereals, nuts, dried fruit, chocolate"],
+      ["Sawtoothed grain beetle", "About 1/10 inch", "Slim and flat; a row of six sawlike teeth edges each side of the thorax", "Grain products, breakfast foods, dried fruit, pet food"],
+      ["Bed bug (adult)", "3/16 to 1/4 inch", "Flat, oval and apple-seed sized; swollen and reddish after feeding", "Mattress and box spring seams, bed frames, headboards"],
+      ["Carpet beetle (adult)", "About 1/10 to 1/8 inch", "Round, short antennae; solid black or patterned in white, brown and yellow", "Windowsills; its larvae damage wool, silk, leather and similar materials"]
+    ],
+    "caption": "Sizes and features from UF/IFAS, Virginia Tech, Clemson, Texas A&M, UC IPM, the University of Kentucky, the Defense Centers for Public Health–Aberdeen and EPA, each linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "What does a drugstore beetle look like?" },
+    { "type": "p", "text": "A drugstore beetle is a tiny, hard-shelled brown beetle shaped like a short cylinder, with its head tucked out of sight under a hood-like plate. [UF/IFAS Extension's profile of the drugstore beetle](https://ask.ifas.ufl.edu/publication/IN385) gives adults as 1/10 to 1/7 inch (2.25 to 3.5 mm) long and uniformly brown to reddish brown, with lengthwise rows of fine hairs on the wing covers. [Penn State Extension's drugstore beetle page](https://extension.psu.edu/drugstore-beetle) calls them cylindrical and humpbacked, with a coat of fine, silky hairs." },
+    { "type": "figure", "src": "/guides/photos/drugstore-beetle-pantry-crackers.webp", "width": 1200, "height": 1586, "alt": "Magnified top view of a reddish-brown drugstore beetle on a pale background, its head hidden under a rounded hood and each thin antenna ending in three long, enlarged segments", "caption": "A drugstore beetle (*Stegobium paniceum*) that was infesting crackers in a pantry in Tallahassee, Florida, seen from above under magnification. The hood hides the head, and each antenna ends in three long segments.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/380424799" },
+    { "type": "p", "text": "Three features identify it under a magnifying glass, and the first two are the ones UF/IFAS uses to separate it from the cigarette beetle:" },
+    { "type": "ul", "items": [
+      "**Lined wing covers.** Rows of tiny pits run the length of the wing covers and make them look finely striped; [Clemson Cooperative Extension](https://hgic.clemson.edu/factsheet/drugstore-beetles/) describes them as rows of deep pits.",
+      "**Clubbed antennae.** The last three segments of each antenna are much longer and broader than the rest, which [Texas A&M AgriLife Extension](https://citybugs.tamu.edu/factsheets/household/food-fabric/ent-2004/) describes as three elongated, broadened segments at the tip.",
+      "**A hood over the head.** Texas A&M says a hood-like shield hides the head when the beetle is seen from above, and Clemson says this gives it a humpbacked look from the side."
+    ] },
+    { "type": "figure", "src": "/guides/photos/drugstore-beetle-lined-wing-covers.webp", "width": 1200, "height": 798, "alt": "Side view of a magnified reddish-brown drugstore beetle showing parallel rows of fine grooves along its wing covers and its head tucked under a rounded hood", "caption": "A drugstore beetle found dead on a windowsill, seen from the side under magnification. The rows of grooves along the wing covers and the head tucked under the hood are both visible.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/45108599" },
+    { "type": "p", "text": "Drugstore beetles also fly. [Kentucky's fact sheet on stored product pests](https://entomology.mgcafe.uky.edu/ef612) says adults of both the drugstore and the cigarette beetle can fly and are attracted to light, which helps explain why one so often ends up on a windowsill. If you are not yet sure your bug is a beetle at all, [the tiny brown bug sorter](/blog/tiny-brown-bugs) works by the room you found it in." },
+
+    { "type": "h2", "text": "How do you tell a drugstore beetle from a cigarette beetle?" },
+    { "type": "p", "text": "Check the antenna tips and the wing covers. [UF/IFAS Extension's cigarette beetle profile](https://ask.ifas.ufl.edu/publication/IN384) says the two look almost identical but differ in two easily seen ways: the cigarette beetle's antennae are saw-toothed rather than clubbed, and its wing covers are smooth rather than lined. They infest many of the same foods, and [UC IPM's guide to pantry pests](https://ipm.ucanr.edu/home-and-landscape/pantry-pests/) calls the cigarette beetle the more common of the two." },
+    { "type": "figure", "src": "/guides/photos/cigarette-beetle-indoors-top-view.webp", "width": 851, "height": 851, "alt": "Close-up top view of a reddish-brown cigarette beetle on a gray ridged surface, with smooth, finely hairy wing covers and thin antennae that have no club", "caption": "A cigarette beetle (*Lasioderma serricorne*) found indoors in Port Charlotte, Florida. Its wing covers are smooth and finely hairy, with no lines, and its antennae have no club at the tip.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/326009841" },
+    { "type": "table", "head": ["Feature", "Drugstore beetle", "Cigarette beetle"], "rows": [
+      ["Antennae", "End in a club of three long, enlarged segments", "Saw-toothed along their length, with no club"],
+      ["Wing covers", "Rows of pits that look like fine lines", "Smooth, covered with fine hairs"],
+      ["Outline", "Slightly larger and more elongated", "More rounded and oval"],
+      ["Head", "Hidden under a hood from above; humpbacked from the side", "Also hidden from above; bent down at nearly a right angle"],
+      ["Size", "1/10 to 1/7 inch (2.25 to 3.5 mm)", "About 1/8 inch (2 to 3 mm)"],
+      ["Larvae", "Shorter hairs", "Longer, more obvious hairs"],
+      ["Usual finds at home", "Pet food, drugs, cereals, bread, flour, spices such as red pepper", "Pet food, cereals, nuts, candy, paprika, chili powder, tobacco"]
+    ], "caption": "Sources: the UF/IFAS profiles of both beetles, Virginia Tech, Penn State, Clemson, Texas A&M, UC IPM and the University of Kentucky, linked on this page." },
+    { "type": "p", "text": "Skip the head as a test. According to [Virginia Tech's Insect Identification Lab](https://pubs.ext.vt.edu/3101/3101-1526/3101-1526.html), both beetles tuck the head down and back so far that it is not always visible from above, and both are reddish brown and about 0.1 inch long. Shape helps a little: Virginia Tech calls the drugstore beetle slightly larger and more elongated, and the cigarette beetle more rounded. [Penn State Extension's cigarette beetle page](https://extension.psu.edu/cigarette-beetle) adds that the cigarette beetle's head bends down at nearly a right angle, so it looks humped from the side." },
+    { "type": "p", "text": "Behavior can back up the check. Penn State describes adult drugstore beetles as very active, with a rapid, skittering movement, while UF/IFAS says a disturbed cigarette beetle often pulls in its legs, tucks its head and lies still, and that cigarette beetles hide in dim cracks but fly readily in bright, open areas and stay active from dusk through the night. Whichever beetle you have, UF/IFAS gives the same home steps for both, so the cleanup at the end of this page works for either." },
+    { "type": "checklist", "title": "Drugstore or cigarette beetle? Checks to run with a magnifying glass", "items": [
+      "**Antenna tips.** Three long, broad end segments mean a drugstore beetle; saw-toothed antennae with no club mean a cigarette beetle.",
+      "**Wing covers.** Fine lengthwise lines point to a drugstore beetle; smooth, finely hairy covers to a cigarette beetle.",
+      "**Outline from above.** Longer and more cylindrical suggests a drugstore beetle; rounder and more oval suggests a cigarette beetle.",
+      "**A snout?** A beetle with a snout in front of its head is a weevil, not either of these.",
+      "**Flat, oval and seed-shaped instead of humped?** That points to a bed bug; read the bed bug section below first.",
+      "**Size.** Set it next to a ruler with inch marks: Texas A&M gives 1/16 to 1/8 inch for both beetles, and UF/IFAS up to 1/7 inch for the drugstore beetle."
+    ] },
+
+    { "type": "h2", "text": "What do drugstore beetle larvae look like?" },
+    { "type": "p", "text": "Drugstore beetle larvae are small, creamy white, C-shaped grubs up to about 3/16 inch long, and they usually stay hidden inside whatever they are eating. Clemson gives that description, and Virginia Tech says the larvae of both drugstore and cigarette beetles are stout, off-white grubs with tan heads, three pairs of legs and pale hairs, and that they are often overlooked in infested products." },
+    { "type": "figure", "src": "/guides/photos/drugstore-beetle-larva.webp", "width": 1200, "height": 900, "alt": "Plump, creamy white beetle grub curled into a C shape on a wooden surface, with dark brown mouthparts and short, pale hairs", "caption": "A drugstore beetle larva from an old box of spaghetti in Ohio, where the observer found many of them inside the noodles. Note the C shape and the short hairs.", "license": "CC-BY-4.0", "credit": "(c) fuzzyspider, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/90779397" },
+    { "type": "p", "text": "The larvae do most of the damage, UF/IFAS says: a female lays up to 75 eggs in the food, the larvae tunnel through it for 4 to 20 weeks, and then they build a cocoon and pupate, which takes 12 to 18 days. Penn State says the cocoon is made of silk and bits of food. The whole cycle usually takes less than two months but can stretch to seven, depending on temperature and food. Development runs between about 60 and 93°F, with the best growth near 85°F, and UF/IFAS says the beetle is more abundant in warm regions and in heated buildings in cooler climates." },
+    { "type": "p", "text": "A cigarette beetle larva looks almost the same. UF/IFAS and Texas A&M both say its hairs are longer and more obvious than a drugstore larva's, a difference that takes a hand lens to see." },
+    { "type": "figure", "src": "/guides/photos/cigarette-beetle-larva-paprika.webp", "width": 1200, "height": 900, "alt": "Creamy white, C-shaped cigarette beetle larva on a pale background, its body edged with fine hairs, with a tan head", "caption": "A cigarette beetle larva, from an observation of cigarette beetles, adult and larva, on stored paprika powder. Note the fine hairs: UF/IFAS and Texas A&M say a cigarette beetle larva's hairs are longer than a drugstore beetle larva's.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/139508001" },
+
+    { "type": "h2", "text": "What do drugstore beetles eat?" },
+    { "type": "p", "text": "Almost any dried plant or animal material. UF/IFAS repeats an anonymous saying that the drugstore beetle eats anything but cast iron. In homes, UC IPM names pet foods, drugs and cereals as the materials it most often infests, the University of Kentucky lists bread, flour, meal and breakfast foods, plus spices such as red pepper, and Clemson says dry dog food is one item it frequently infests." },
+    { "type": "figure", "src": "/guides/photos/drugstore-beetle-old-cumin.webp", "width": 1200, "height": 1600, "alt": "A tiny reddish-brown beetle on a crumbly brown clump of old cumin riddled with round holes, on a white, marbled surface", "caption": "A drugstore beetle on a clump of old cumin riddled with holes, found in Portland, Oregon. Kentucky names spices among the drugstore beetle's usual foods.", "license": "CC-BY-4.0", "credit": "(c) David Anderson, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/46266242" },
+    { "type": "p", "text": "The list of things it eats that are not food is just as long:" },
+    { "type": "ul", "items": [
+      "**Medicines and dried herbs.** UF/IFAS says the beetle takes its name from feeding on prescription drugs, and [NC State Extension](https://content.ces.ncsu.edu/common-pantry-pests-and-their-management) says it was historically a serious pest of the herbs used as medicines in early apothecaries.",
+      "**Toxic and fiery plants.** Clemson says it will even feed on poisonous materials such as strychnine and belladonna, and the [Bohart Museum of Entomology at UC Davis](https://bohart.ucdavis.edu/sites/g/files/dgvnsk4616/files/media/documents/note_54_drugstore_beetles.pdf) lists strychnine, tobacco, dried habanero peppers and even cloves among the dried plants it feeds on.",
+      "**Books and paper.** Clemson says that in a library they may destroy books and manuscripts, and NC State says they can attack books and paper products.",
+      "**Dried flowers and crafts.** The Bohart Museum lists dried flower arrangements and papier-mâché, along with hair, leather and herbarium specimens.",
+      "**Animal materials.** UF/IFAS lists wool, hair, leather, horn and museum specimens, and says the beetle turns up in pigeon nests.",
+      "**Packaging.** Virginia Tech says the beetles tunnel through paper, fabric and foil to reach food, and UF/IFAS says they are known to bore into books and wooden objects and, in some cases, tin or aluminum foil and even lead sheets. [Utah State University Extension](https://extension.usu.edu/pests/ipm/notes_nuisance/drugstore-beetle.php) notes that the adults do not feed on food but can chew through its packaging."
+    ] },
+    { "type": "p", "text": "How does it live on such poor fare? UF/IFAS says the female passes symbiotic yeasts onto her eggs as she lays them, the newly hatched larvae eat the yeasts, and the yeasts supply B vitamins that let the beetle survive on foods of poor nutritional quality." },
+
+    { "type": "h2", "text": "Why are there drugstore beetles in my bedroom or on the windowsill?" },
+    { "type": "p", "text": "Because the adults fly and head for light, they often turn up in rooms far from the food they grew up in. [Alabama Cooperative Extension](https://www.aces.edu/blog/topics/home/what-are-the-small-brown-beetles-in-my-home-drugstore-beetles/) says that is why drugstore beetles are seen in bathrooms, living rooms, bedrooms and offices, and that adults leave the food to look for mates and new food sources. [Iowa State University Extension](https://yardandgarden.extension.iastate.edu/encyclopedia/cigarette-and-drugstore-beetles) says adults often wander away from the infested material and may be found throughout the house, and Virginia Tech says many infestations go unnoticed until large numbers of adults show up at windows or around lights." },
+    { "type": "figure", "src": "/guides/photos/drugstore-beetle-on-wall.webp", "width": 1200, "height": 1600, "alt": "Small reddish-brown beetle with faint lines on its back resting on a white, textured wall", "caption": "A drugstore beetle on a textured wall in Austin, Texas, one of several tiny beetles the observer found on the wall.", "license": "CC-BY-4.0", "credit": "(c) Natasha Haggard, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/52325480" },
+    { "type": "p", "text": "The source can also be in the room where you keep finding them. Before you blame the kitchen, check these:" },
+    { "type": "ul", "items": [
+      "**Bookshelves and old papers.** Clemson's advice includes inspecting bookcases.",
+      "**Dried flowers, potpourri and wreaths,** and craft projects made with beans, seeds or nuts. Texas A&M lists potpourri, dried plant material and old art projects with beans, nuts or seeds, and UF/IFAS names dried floral arrangements, potpourri and grapevine wreaths among the things the cigarette beetle infests.",
+      "**Medicines and herbal remedies,** since UC IPM lists drugs among the drugstore beetle's most common targets in homes.",
+      "**Pet food, treats and bird seed,** wherever they are kept; Virginia Tech mentions bird seed and dry pet food stored in the garage.",
+      "**Odd items** such as bean bags and homemade heating pads filled with rice, which NC State warns are easy to overlook.",
+      "**Forgotten nuts, cigarettes and pipe tobacco,** all on Texas A&M's list of places to look."
+    ] },
+    { "type": "p", "text": "If none of those turns up, think about the walls and attic. Clemson says infestations sometimes start from bird seed or pet food that mice have stashed in an attic or behind a wall, Virginia Tech ties the beetles to mouse nests in wall voids and attics where mice have cached food, Texas A&M says old rodent nests can be infested, and the Bohart Museum adds bird nests. For the insects that move indoors to spend the cold months, see [bugs in the house in winter](/blog/bugs-in-house-in-winter)." },
+
+    { "type": "h2", "text": "Is it a drugstore beetle or a bed bug?" },
+    { "type": "p", "text": "A drugstore beetle is hard-shelled, cylindrical and humped; an adult bed bug is a flat oval roughly as big as an apple seed. On [EPA's page on what bed bugs look like](https://www.epa.gov/bedbugs/bed-bugs-appearance-and-life-cycle), adults measure 3/16 to 1/4 inch (5 to 7 mm) and are brown and flat when unfed, turning swollen, reddish brown and longer after feeding, while the young are smaller and translucent or whitish yellow. The same page notes that bed bugs have wings they do not use for flying, so an insect that flies to the lamp is not a bed bug." },
+    { "type": "p", "text": "Two more clues help. [CDC says bed bugs](https://www.cdc.gov/bed-bugs/about/index.html) bite people and animals at night while they sleep, feeding on their blood, while drugstore beetles, Texas A&M says, do not bite at all. Bites alone prove little, though: EPA calls bites on the skin a poor indicator of a bed bug infestation. Bed bugs also hide close to where people sleep: [EPA's advice on finding bed bugs](https://www.epa.gov/bedbugs/how-find-bed-bugs) starts at the mattress and box spring, along their seams, piping and tags, then the cracks of the bed frame and headboard. Its list of signs includes rusty or reddish stains on sheets, dark spots of droppings, and pale eggs about 1 mm (about 1/25 inch) long." },
+    { "type": "p", "text": "[The side-by-side guide to bed bug look-alikes](/blog/bugs-that-look-like-bed-bugs) compares the usual mix-ups, and [the photo guide to baby bed bugs](/blog/baby-bed-bugs-nymphs) shows the young ones, which are the easiest to miss." },
+
+    { "type": "h2", "text": "How do you find where drugstore beetles are coming from?" },
+    { "type": "p", "text": "Check every dry item in the house, starting with the oldest packages. UF/IFAS calls finding the source or sources the first and most important step. Kentucky's fact sheet points to half-used boxes or bags forgotten at the back of pantry shelves as a common starting point, and notes that more insects generally mean an older infestation." },
+    { "type": "figure", "src": "/guides/photos/drugstore-beetle-spice-seeds-hole.webp", "width": 788, "height": 1051, "alt": "Dark brown beetle with finely lined wing covers resting between ribbed tan spice seeds, next to a seed with a round black hole in it", "caption": "A drugstore beetle among the seeds in a spice display in Austin, Texas, where the observer reported at least 100 beetles. The seed beside it has a round hole, the kind of damage to look for.", "license": "CC-BY-4.0", "credit": "(c) River Ahlquist, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/142843099" },
+    { "type": "ol", "items": [
+      "Empty the pantry, spice rack and cabinets and check every package, including unopened ones; Iowa State says all potentially infested materials, unopened boxes and packages included, should be examined.",
+      "Look for small round holes in packages and in the food itself, and for fine powder in the bottom of a bag or jar, which the Bohart Museum says may be the first signs.",
+      "Tip spices, flour and other suspects onto a white plate and look for adult beetles, white grubs and small cocoons of silk and food bits.",
+      "Check pet food, treats and bird seed: Texas A&M calls pet foods common sources of infestation, and the Bohart Museum says bulk materials such as dry dog food and bird seed are the likeliest way in.",
+      "Work room by room through the non-food sources in the bedroom section above: bookcases, dried flowers and potpourri, medicines and herbs, craft supplies and rice-filled heating pads.",
+      "Still nothing? NC State suggests moving outdoors to bird feeders and other caches of animal food, and the wall voids and attic come next."
+    ] },
+    { "type": "p", "text": "Do not stop at the first find. UF/IFAS speaks of the source or sources, and the Bohart Museum warns that an infestation may have spread to several separate packages or sites. While the cabinets are empty, [the kitchen bug sorter](/blog/bugs-in-kitchen) can help name any other insects you come across." },
+
+    { "type": "h2", "text": "Do drugstore beetles bite or cause any harm?" },
+    { "type": "p", "text": "No. Neither drugstore nor cigarette beetles bite, according to Texas A&M, and Alabama Extension says drugstore beetles are not harmful to people, animals or buildings. The harm is to what they infest: UF/IFAS says larval feeding does most of the damage and that even slight damage can ruin museum and herbarium specimens, and its cigarette beetle profile describes infested food contaminated with beetles, larvae, cocoons and droppings." },
+    { "type": "p", "text": "UC IPM advises throwing away any food that shows evidence of infestation. Cleaning products alone will not end the problem: Iowa State notes that household cleaners containing bleach or ammonia have no effect on these beetles." },
+
+    { "type": "h2", "text": "What else looks like a drugstore beetle?" },
+    { "type": "p", "text": "Several other small brown beetles live in stored food or wander indoors, and their shape usually gives them away." },
+    { "type": "h3", "text": "Weevils" },
+    { "type": "p", "text": "Look for a snout. Rice weevils, in the University of Kentucky's description, are reddish brown to black snout beetles 1/8 to 1/4 inch long whose larvae grow inside kernels of wheat or corn, and the adults may live for 6 to 8 months. [The weevil guide](/blog/weevils) covers the species and how to clear them out." },
+    { "type": "h3", "text": "Spider beetles" },
+    { "type": "p", "text": "A spider beetle looks like a large mite or a small spider: a round, globe-like body on long, thin legs. The [Defense Centers for Public Health–Aberdeen](https://ph.health.mil/topics/entomology/fii/Pages/Spider-Beetle.aspx) gives adults as 1/16 to 3/16 inch and reddish brown to black, hiding between walls, above false ceilings and in the nests of birds and rodents, and says they pose no medical threat. [The spider beetle guide](/blog/spider-beetles) has photos of the common kinds." },
+    { "type": "h3", "text": "Flour beetles and sawtoothed grain beetles" },
+    { "type": "p", "text": "These are flat, not humped. In UC IPM's descriptions, red and confused flour beetles are shiny reddish brown, flattened and oval and about 1/7 inch long, while the sawtoothed grain beetle is a slim, flat brown beetle about 1/10 inch long whose thorax carries six sawlike teeth down each side. [The pantry pest guide](/blog/pantry-pests) sorts them by the food they are in, and [the roundup of beetles found indoors](/blog/beetles-in-house) covers the bigger ones that wander in." },
+    { "type": "h3", "text": "Carpet beetles" },
+    { "type": "p", "text": "A round beetle with short antennae on a windowsill may be a carpet beetle. [UC IPM's carpet beetle guide](https://ipm.ucanr.edu/home-and-landscape/carpet-beetles/) puts adults at about 1/10 to 1/8 inch, either solid black or patterned in white, brown and yellow, and attracted to light. The adults live on pollen and nectar; it is their larvae that damage wool, silk, leather and other animal materials. [The carpet beetle control guide](/blog/how-to-get-rid-of-carpet-beetles) shows where those larvae hide." },
+    { "type": "confused", "items": [
+      { "href": "/blog/weevils", "name": "Rice weevil", "photo": "rice-weevil", "note": "Head drawn out into a snout; its larvae grow hidden inside whole kernels", "alt": "Rice weevil with its narrow snout pointing forward, crawling across a person's skin" },
+      { "href": "/blog/spider-beetles", "name": "Spider beetle", "photo": "smooth-spider-beetle-six-legs-top-view", "note": "A globe-shaped body on long, thin legs, more like a mite than a cylinder", "alt": "Glossy, globe-shaped spider beetle from above on white, its six long legs and two long antennae spread out" },
+      { "href": "/blog/pantry-pests", "name": "Red flour beetle", "photo": "red-flour-beetle", "note": "Flattened, glossy and oval, about 1/7 inch, with no hump", "alt": "Red flour beetle, a flat, elongated reddish-brown beetle, resting on a pale crumbly surface" },
+      { "href": "/blog/what-do-bed-bugs-look-like", "name": "Bed bug", "photo": "bed-bug-adult-ruler", "note": "A flat oval the size of an apple seed; bites at night and hides near the bed", "alt": "Top view of a brown adult bed bug next to a printed millimeter scale" },
+      { "href": "/blog/how-to-get-rid-of-carpet-beetles", "name": "Carpet beetle", "photo": "carpet-beetle", "note": "Round, short antennae and patterned scales; collects on windowsills, drawn to light", "alt": "Varied carpet beetle patterned with white, brown and yellow scales beside a small scale bar" }
+    ] },
+
+    { "type": "h2", "text": "How do you get rid of drugstore beetles?" },
+    { "type": "p", "text": "Find and remove the source first; sprays come last, if at all. UF/IFAS says insecticides should be used only as a last resort and are usually not needed, Kentucky says merely killing the adults is not the solution, and UC IPM advises against insecticides for pantry pests of every kind." },
+    { "type": "ul", "items": [
+      "**Throw out heavily infested items.** UF/IFAS advises wrapping them in heavy plastic and taking them outside to the trash.",
+      "**Freeze what is worth keeping.** For decorations and bird feed, Kentucky gives four days at 0°F in a freezer without automatic defrost. Texas A&M says six days at 0°F generally kills every stage, and two weeks in a cold freezer for small amounts of pet food. UF/IFAS suggests a plastic bag to limit condensation as items thaw.",
+      "**Or heat decorations.** For items such as dried flower arrangements and bird feed, Kentucky's alternative is an oven at 155°F for about 20 minutes, with the door propped open.",
+      "**Vacuum and clean.** Kentucky recommends vacuuming the top and bottom of every shelf and running a crevice tool along the cracks, and UF/IFAS adds cleaning up spilled flour, mixes and crumbs.",
+      "**Store dry goods in hard, sealed containers.** UF/IFAS recommends airtight glass, metal or plastic and notes that clear containers make checks easy. UC IPM rules out plastic bags as inadequate, and Texas A&M says newly hatched larvae can enter packaging through very small holes.",
+      "**Freeze ahead if it keeps coming back.** Clemson suggests freezing grain products for 3 days after purchase, and UC IPM suggests keeping rarely used flours, spices and grains in the freezer.",
+      "**Skip the bug spray.** Texas A&M says insecticides alone are rarely effective and that aerosol sprays can temporarily suppress adult cigarette beetles but do not eliminate the larvae, and Clemson says to avoid using insecticides around food.",
+      "**Use traps only to watch.** UF/IFAS says pheromone traps attract only males, so they serve mainly to detect and monitor the beetles."
+    ] },
+    { "type": "p", "text": "Expect a few stragglers. UF/IFAS says adult females live about 13 to 65 days, so some may keep appearing after the source is gone; if new ones keep turning up well beyond that, look again for another source. [The pantry pest guide](/blog/pantry-pests) covers the other insects that infest dry food, and [the library of pest identification guides](/learn) has the rest." },
+    { "type": "callout", "tone": "tip", "title": "Save a specimen", "text": "Drop one beetle into a small jar, or stick it to a strip of clear tape, and take a photo next to an inch ruler. Write down the room and the item where you found it. A cooperative extension office in your state can use the photo and notes to help confirm it, and [the five-question pest identifier](/tools/what-bug-is-this) can narrow it down first." }
+  ],
+  "faqs": [
+    {
+      "question": "Do drugstore beetles bite?",
+      "answer": "No. Texas A&M AgriLife Extension says neither drugstore beetles nor cigarette beetles bite, and Alabama Cooperative Extension says drugstore beetles are not harmful to people, animals or buildings. The harm is to the food and other materials their larvae eat. Bites that appear overnight need another explanation. Bed bugs are one to consider, since CDC says they feed on people while they sleep, though EPA says bites alone are a poor sign of bed bugs because they can look like other bites or rashes. A healthcare provider can help with any bites or rash that worry you."
+    },
+    {
+      "question": "Why do I keep finding drugstore beetles in my bedroom?",
+      "answer": "The adults fly and are drawn to light, so they turn up far from the food they came from. Alabama Cooperative Extension says that is why drugstore beetles are seen in bedrooms, bathrooms, living rooms and offices, and Iowa State University Extension says adults often wander away from the infested item. The source can also be in the bedroom itself, such as books, dried flowers, potpourri, medicines, pet treats or a forgotten snack. Clemson Extension adds that some infestations start from food mice have stashed behind a wall or in the attic."
+    },
+    {
+      "question": "Where do drugstore beetles come from?",
+      "answer": "Most come home in food or other dry goods that were already infested. Alabama Cooperative Extension says they are most often brought in with infested groceries and dry animal food, and the Bohart Museum of Entomology says bulk materials such as dry dog food and bird seed are the likeliest route, where numbers can build before anyone notices. Alabama Extension adds that adults can also fly in at night, drawn by light, and then look for stored food inside."
+    },
+    {
+      "question": "What is the difference between a drugstore beetle and a cigarette beetle?",
+      "answer": "Two features settle it, according to UF/IFAS Extension. The drugstore beetle's antennae end in a club of three enlarged segments, while the cigarette beetle's are saw-toothed with no club. The drugstore beetle's wing covers have rows of pits that look like fine lines, while the cigarette beetle's are smooth. Virginia Tech adds that the drugstore beetle is slightly larger and more elongated and the cigarette beetle more rounded. Both are reddish brown and roughly 1/8 inch long, and the cleanup is the same for both."
+    },
+    {
+      "question": "How do you get rid of drugstore beetles?",
+      "answer": "Find and throw out the infested item, then clean up and store dry food in sealed containers. UF/IFAS Extension calls finding the source the first and most important step and advises wrapping heavily infested items in heavy plastic for the outdoor trash. To save an item, freeze it: Texas A&M says six days at 0°F generally kills every stage, and the University of Kentucky gives four days at 0°F for decorations and bird feed. Vacuum the shelves and leave the bug spray in the cupboard, since UC IPM advises against insecticides for pantry pests."
+    },
+    {
+      "question": "What do drugstore beetle larvae look like?",
+      "answer": "They are small, creamy white, C-shaped grubs up to about 3/16 inch long, according to Clemson Extension, and Virginia Tech says they have tan heads, three pairs of legs and pale hairs. Because they live inside the food they eat, they are easy to miss until the adults appear. Cigarette beetle larvae look almost the same, but UF/IFAS and Texas A&M say their hairs are longer and more obvious."
+    },
+    {
+      "question": "How long do drugstore beetles live?",
+      "answer": "UF/IFAS Extension says adult females live about 13 to 65 days. Going from egg to adult usually takes less than two months but can take as long as seven, depending on temperature and food, and development happens between about 60 and 93°F, with the best growth near 85°F. UF/IFAS also says the beetle is more abundant in warm regions and in heated buildings in cooler climates."
+    },
+    {
+      "question": "Can drugstore beetles get into sealed packages?",
+      "answer": "They can. Virginia Tech says they tunnel through paper, fabric and foil to reach food, and UF/IFAS Extension says they are known to bore into books and wooden objects and, in some cases, tin or aluminum foil and lead sheets. Texas A&M adds that newly hatched larvae can enter packaging through very small holes. UC IPM says insects are less likely to invade packages that still have their original seal, considers plastic bags inadequate storage and prefers containers with tight-fitting lids, and UF/IFAS suggests airtight glass, metal or plastic containers."
+    },
+    {
+      "question": "Do drugstore beetles eat books?",
+      "answer": "They can. Clemson Extension says that in a library they may destroy books and manuscripts, NC State Extension says they can attack books and paper products, and UF/IFAS Extension says they are known to bore into books. Museum and herbarium collections are also at risk, since UF/IFAS notes that even slight damage can ruin them. At home, check bookshelves, old papers and dried plant collections when beetles keep appearing away from the kitchen."
+    },
+    {
+      "question": "Will drugstore beetles go away on their own?",
+      "answer": "Not while the infested item is still in the house. The University of Kentucky says killing the adults alone is not the solution, and UF/IFAS Extension calls finding the source the first and most important step. Once the source is gone, adult females can live about 13 to 65 days, UF/IFAS says, so a few may linger for weeks. If new ones keep appearing well after that, look again for a second source."
+    }
+  ],
+  "sources": [
+    { "title": "Drugstore Beetle, Stegobium paniceum (L.) (EENY-228)", "publisher": "UF/IFAS Extension, University of Florida", "url": "https://ask.ifas.ufl.edu/publication/IN385" },
+    { "title": "Cigarette Beetle, Lasioderma serricorne (F.) (EENY-227)", "publisher": "UF/IFAS Extension, University of Florida", "url": "https://ask.ifas.ufl.edu/publication/IN384" },
+    { "title": "Drugstore and Cigarette Beetles (ENTO-488NP)", "publisher": "Virginia Cooperative Extension, Virginia Tech", "url": "https://pubs.ext.vt.edu/3101/3101-1526/3101-1526.html" },
+    { "title": "Drugstore Beetles (HGIC 2419)", "publisher": "Clemson Cooperative Extension, Home and Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/drugstore-beetles/" },
+    { "title": "Cigarette and drugstore beetles (Insects in the City)", "publisher": "Texas A&M AgriLife Extension Service", "url": "https://citybugs.tamu.edu/factsheets/household/food-fabric/ent-2004/" },
+    { "title": "Drugstore Beetle", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/drugstore-beetle" },
+    { "title": "Cigarette Beetle", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/cigarette-beetle" },
+    { "title": "Common Pantry Pests and their Management", "publisher": "NC State Extension", "url": "https://content.ces.ncsu.edu/common-pantry-pests-and-their-management" },
+    { "title": "Pest Notes: Pantry Pests (Publication 7452)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/pantry-pests/" },
+    { "title": "Stored Product Pests in the Pantry (ENTFACT-612)", "publisher": "University of Kentucky Entomology", "url": "https://entomology.mgcafe.uky.edu/ef612" },
+    { "title": "Cigarette and Drugstore Beetles", "publisher": "Iowa State University Extension and Outreach", "url": "https://yardandgarden.extension.iastate.edu/encyclopedia/cigarette-and-drugstore-beetles" },
+    { "title": "What Are The Small Brown Beetles In My Home? Drugstore Beetles", "publisher": "Alabama Cooperative Extension System", "url": "https://www.aces.edu/blog/topics/home/what-are-the-small-brown-beetles-in-my-home-drugstore-beetles/" },
+    { "title": "Drugstore Beetles (Information Note No. 054)", "publisher": "Bohart Museum of Entomology, University of California, Davis", "url": "https://bohart.ucdavis.edu/sites/g/files/dgvnsk4616/files/media/documents/note_54_drugstore_beetles.pdf" },
+    { "title": "Drugstore Beetle (Utah Pests Urban Pest Guide)", "publisher": "Utah State University Extension", "url": "https://extension.usu.edu/pests/ipm/notes_nuisance/drugstore-beetle.php" },
+    { "title": "Bed Bugs Appearance and Life Cycle", "publisher": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/bedbugs/bed-bugs-appearance-and-life-cycle" },
+    { "title": "How to Find Bed Bugs", "publisher": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/bedbugs/how-find-bed-bugs" },
+    { "title": "About Bed Bugs", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/bed-bugs/about/index.html" },
+    { "title": "Spider Beetle (Food-Infesting Insects)", "publisher": "Defense Centers for Public Health–Aberdeen", "url": "https://ph.health.mil/topics/entomology/fii/Pages/Spider-Beetle.aspx" },
+    { "title": "Pest Notes: Carpet Beetles (Publication 7436)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/carpet-beetles/" }
+  ]
+}

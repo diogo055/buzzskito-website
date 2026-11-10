@@ -1,0 +1,10 @@
+{
+ "id": "bear-poop",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "f321349ab7559e63c9c760bcd27f551b109154c5250dfa597be8bc926b9c6bfa",
+ "claimsChecked": 230,
+ "claimsCorrected": 23,
+ "claimsRemovedOrSoftened": 27,
+ "checkedOn": "2026-11-09"
+}

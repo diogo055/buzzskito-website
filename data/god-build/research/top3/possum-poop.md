@@ -1,0 +1,34 @@
+# possum-poop: beat the top 3 (Nov 9, 2026)
+
+Target search: "possum poop" (US). Variants: opossum poop, possum droppings, what does possum poop look like, possum poop size, where do possums poop, is possum poop dangerous. Page: /blog/possum-poop (release Nov 12, 2026). Raccoon vs opossum comparison stays on /blog/raccoon-poop (one short section here, linked).
+
+## Who ranks (WebSearch, US, Nov 9)
+- "possum poop": rogue-scholar.org (an archived Simply Ecologist blog post), critterstop.com, a-z-animals.com (two pages), spam mirrors (lacocinadegisele, cyproheptadine.netlify, brainbound), Australian pages (envirobug, environment.sa.gov.au, ecopestgroup: brushtail possums, a different animal), wildlife-removal.com, connorspestpros.com, scienceinsights.org.
+- Skipped: spam mirrors, Australian possum pages, Facebook groups and Reddit (Oct 20 Ahrefs snapshot). People posting "whose poop is this?" photos is itself the finding: the searcher holds droppings, not an animal.
+- critterstop.com's "comprehensive guide to possum poop images" now resolves to an opossum trapping service page (no droppings photos, only placeholders), so the third editorial page taken is A-Z Animals.
+
+## The three taken apart
+- **Simply Ecologist (via rogue-scholar.org, Oct 2023)**: about 2,500 words, 12 headings, 5 FAQs. One uncredited stock image, no droppings photo (it links to a Google image search), no sources. Claims 1 to 3 inches; "dark brown, yellow, or white"; several bowel movements a day "like dogs and cats"; reuses the same spots; an FAQ says opossum droppings can cause "flesh-eating ulcers" (borrowed from Australian brushtail possums); camera product picks.
+- **A-Z Animals, "Opossum Poop: Everything You've Ever Wanted to Know" (2022, updated Mar 2026)**: about 600 words; stock photos (Shutterstock, iStock) plus one CC BY-SA opossum, no scat photo, no table, no FAQ, no sources, no cleanup steps. Claims 0.75 inch thick and 1 to 3 inches long, tapered, in groups of 2 to 3; calls the opossum "a latrine species"; ammonia smell; names Salmonella, Leptospira, Toxoplasma and Sarcocystis neurona (EPM).
+- **wildlife-removal.com, "Photographs of Opossum Poop"** (Ahrefs #2 for "opossum poop" on Oct 20): about 1,300 words; 2 to 3 uncredited droppings photos with no scale; 3/4 inch thick yet "as large as that of a dog"; leptospirosis, salmonellosis, an unnamed roundworm; cleanup by hand plus fogging; no sources. Critter Control's page (about 250 words) adds 1 to 2 inches long, "white or yellowish mold" and calls EPM "highly infectious".
+
+## Questions at least one answers (ours answers each)
+What it looks like and how big; smell; where possums poop (yard, deck, attic, garage); do they use one spot; possum vs dog, cat, raccoon, rat; is it dangerous to people, dogs and horses (EPM); how to clean it up; what to do about the possum.
+
+## What ours does that none of them do
+1. **Real, credited droppings photos, honestly labeled**: two iNaturalist observations identified as Virginia opossum by several users (we say they rest on the droppings alone), plus a possum at a porch pet bowl, a tracker-identified raccoon scat, a raccoon deck latrine and DNA-confirmed coyote scat. Theirs: stock opossums, uncredited shots or none.
+2. **An 11-row quick-ID table with a sourced size for every look-alike** (raccoon 2-3 x 1/2 in, ICWDM; coyote/fox 2 x 1/2 in tapered with hair, UF/IFAS; coyote under 1 in thick, dog without hair and full of cereal, Iowa DNR; skunk 1-2 in long, 1/4-1/2 in thick with insect parts, Montana State; Norway rat 3/4-1 in, Cornell; gray squirrel 8-10 mm, MDC), a "where you found it" sorter, and a no-touch checklist ending in the one confirming test: the opossum's hind-foot thumb track (MDC; ICWDM: a hind track is definitive).
+3. **Health and cleanup at the agencies' strength**: CDC's raccoon latrine steps as the default because CDC lists decks, patios, attics and garages for raccoon latrines (the same places possums turn up); feces are not a rabies exposure (CDC MMWR 2008); flea-borne typhus comes from opossum fleas' droppings, not possum poop (CDC); leptospirosis spreads in urine (CDC); EPM in horses from feed or water fouled by opossum feces, with most opossums probably not shedding the parasite (Connecticut DEEP, ICWDM, UNL); plus Illinois's wildlife agency saying opossums are not a public health concern. Health facts only from CDC, state wildlife agencies and university extension (the Merck Veterinary Manual was read but not cited, per the plan's health rule). 10 FAQs from autocomplete and People also ask.
+
+## What they get wrong (ours states it from the source)
+- "Opossums are a latrine species" (A-Z) / "repeatedly use the same spots" (Simply Ecologist): UNL Extension describes the same-place toilet habit for raccoons, not opossums; MDC names raccoons and otters as latrine users; UC IPM says opossums typically defecate in protected, leafy areas.
+- Exact sizes (3/4 in thick, 1 to 3 in long) appear in no agency or extension source: UC IPM says the omnivorous diet precludes an average size, shape or texture; UNL says cat-sized.
+- EPM "highly infectious" (Critter Control): Connecticut DEEP says horses get it through opossum feces in feed and water, that most opossums probably are not shedding the parasite and very few exposed horses develop EPM (the Merck Veterinary Manual adds that the horse is a dead-end host).
+- "Flesh-eating ulcers" from opossum droppings (Simply Ecologist FAQ): mixes up Australia's brushtail possum with the Virginia opossum; no US agency source ties opossum droppings to ulcers.
+- Health lists with no source (Salmonella, TB): CDC says leptospirosis spreads through urine, flea-borne typhus through infected flea dirt, and that contact with feces is not a rabies exposure; Wildlife Illinois (IDNR) says opossums do not pose a public health concern.
+- Cleanup by hand plus fogging (wildlife-removal.com): CDC's latrine steps use disposable gloves, a light water mist, a shovel or inverted bag, an N95 respirator in confined spaces, and hand washing.
+
+## People also ask and autocomplete
+- People also ask (Ahrefs SERP snapshot, Oct 20): What does raccoon or possum poop look like? Is possum poo toxic to dogs? Does vinegar get rid of possums? What do possum feces look like? What does a possum turd look like? Are possums beneficial? Are possums related to rats?
+- Google autocomplete (US, Nov 9): possum poop pictures; vs raccoon poop pictures; on deck pictures; vs rat poop; vs cat poop; vs fox poop; size; smell; opossum poop and horses; is possum poop dangerous (to dogs, horses, humans); toxic to dogs; is possum poop black; good fertilizer; do possums poop in the same place, where they sleep, where they eat.
+- The animal questions (are possums beneficial, related to rats, do they carry rabies) belong to /blog/possum-vs-opossum; this page links it.

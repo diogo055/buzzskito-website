@@ -2,7 +2,7 @@
  "id": "pantry-pests",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "5cc3fdda0ddf3234209bebeec08066177258fb747f4db72a66cacff75a669876",
+ "sha": "17f24a44a64444a6cb4d8957fa54724a642e8597a86c42e0d972ae907467bd78",
  "claimsChecked": 290,
  "claimsCorrected": 13,
  "claimsRemovedOrSoftened": 1,
@@ -37,6 +37,11 @@
    "on": "2026-10-29",
    "note": "Oct 28: the new /blog/bugs-in-kitchen link sentence shortened (keeps the page under the length warning); no fact changed",
    "previousSha": "fa8f01557b4dbee3cec4b3f2e1f899f412d93201408b1752d009a7133d64ed16"
+  },
+  {
+   "on": "2026-11-09",
+   "note": "Nov 9: one sentence links the new drugstore beetle guide (/blog/drugstore-beetles, scheduled Nov 12) at the end of 'Is it a drugstore beetle or a cigarette beetle?'; 'drugstore beetle' removed from alsoTargets (now that page's main search); no fact changed",
+   "previousSha": "5cc3fdda0ddf3234209bebeec08066177258fb747f4db72a66cacff75a669876"
   }
  ]
 }

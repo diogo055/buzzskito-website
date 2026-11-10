@@ -394,6 +394,20 @@
    "sha256Original": "1a15f42caf7f0e1602b5490e01e1417846b079c20828c0ae10b4b61b638c0057"
   },
   {
+   "file": "/guides/photos/american-crow-twig-nest.webp",
+   "subject": "American crows, Corvus brachyrhynchos, at their open twig nest in a budding tree, one in the nest and one perched above it; the observer recorded them as nesting (Meridian, Idaho, April 6, 2025; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/268953973",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/483509011/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Melissa, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 186810,
+   "sourceDescription": "Corvus brachyrhynchos",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "55d31018e27075aae84e1b6f29d7e412185666c519ff0353e5ead31cdbc4c057"
+  },
+  {
    "file": "/guides/photos/american-dagger-caterpillar.webp",
    "subject": "American dagger moth caterpillar, Acronicta americana, curled up on wood, showing its long black hair tufts (Woodstock, Vermont)",
    "sourceUrl": "https://www.inaturalist.org/observations/179226577",
@@ -588,6 +602,20 @@
    "sourceDescription": "We spotted these American dog ticks waiting to catch a ride on a chive plant. Remember to always check for ticks after spending time outside - even in your yard or in a park. These ticks can transmit tularemia which is an infectious disease that attacks the skin, eyes, lymph nodes and lungs as well ",
    "downloadedOn": "2026-11-03",
    "sha256Original": "e9d5e336cf489a18c3515f94f20978e3be7fe9753ec03f6f686eaffda9c0fd48"
+  },
+  {
+   "file": "/guides/photos/american-giant-millipede-coiled-kitchen-floor.webp",
+   "subject": "American giant millipede (Narceus americanus complex), alive, curled into a coil on a kitchen floor; the observer found it walking toward the oven and it curled up when touched (North Carolina; research grade on iNaturalist, four identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/312393155",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/564012350/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Pierre Abbat, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 28986,
+   "sourceDescription": "Narceus americanus",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "8e9f486310e40d3557220090ce86fcf93446ac719c863ef5bf5c99aa85ed8c86"
   },
   {
    "file": "/guides/photos/american-giant-millipede.webp",
@@ -982,6 +1010,20 @@
    "sha256Original": "a2ef1b09bfe232d8f805af12ec24fff06830266139b16ee0530a0242519b4c51"
   },
   {
+   "file": "/guides/photos/bald-faced-hornet-nest-winter-tree.webp",
+   "subject": "Bald-faced hornet, Dolichovespula maculata, nest: a gray paper ball in a bare sweet gum tree in winter, which the observer puts 30 to 40 feet up (College Park, Maryland, January 12, 2025; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/258299197",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/463395107/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 112046,
+   "sourceDescription": "Dolichovespula maculata",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "4cc1aaf39126fca57e9487441a77b93752d7407b8a5aa9d4089662f76618f2f4"
+  },
+  {
    "file": "/guides/photos/bald-faced-hornet-nest.webp",
    "subject": "Bald-faced hornet nest (grey paper football) in a shrub",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bald-faced_hornet_nest_(54699528523).jpg",
@@ -1162,6 +1204,34 @@
    "sourceDescription": "Megalorchestia californiana",
    "downloadedOn": "2026-10-15",
    "sha256Original": "0b4193eb10967f13e142095834e950b31764a48e12b6b78b6fb274672fd31faf"
+  },
+  {
+   "file": "/guides/photos/bear-scat-grass-spring.webp",
+   "subject": "Early-season bear scat made of nothing but grass: a large pile of dark green, wet lumps on gravel, Katmai National Park and Preserve, Alaska, May 20, 2015 (National Park Service photo; the source does not name the bear species)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Early_season_bear_scat,_nothing_but_grass_(17878109046).jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Early_season_bear_scat%2C_nothing_but_grass_%2817878109046%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "public-domain",
+   "credit": "Katmai National Park and Preserve, Public domain, via Wikimedia Commons",
+   "width": 1200,
+   "height": 800,
+   "bytes": 260830,
+   "sourceDescription": "early season bear scat, nothing but grass",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "5dcb61eb7cf58924a4748a0df8888e55c5d9b154e3404d4d9033099c39d7a2ca"
+  },
+  {
+   "file": "/guides/photos/bear-scat-pile-lens-cap.webp",
+   "subject": "Pile of dark, chunky bear scat on pine needles beside a camera lens cap for scale, Yellowstone National Park, June 1989; the source says possibly a black bear (National Park Service photo by Jim Peaco)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_bear_scat.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Black_bear_scat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "public-domain",
+   "credit": "Jim Peaco, Public domain, via Wikimedia Commons",
+   "width": 1200,
+   "height": 743,
+   "bytes": 215422,
+   "sourceDescription": "Photo of the scat left by a bear - possibly a black bear (Ursus americanus).",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "e1db93228ced62f0307ef039c95fc59c7ec4dbae6ec0a29b349e080315d55f0c"
   },
   {
    "file": "/guides/photos/bed-bug-adult-ruler.webp",
@@ -1613,6 +1683,90 @@
    "sha256Original": "166f1eecf729d42f0bd57f49b664e71dc27cb9cd607ec943ed35144b07eea394"
   },
   {
+   "file": "/guides/photos/black-bear-scat-after-hummingbird-feeders.webp",
+   "subject": "Thick, segmented black bear scat in grass, left by a bear that the observer says had just eaten two of their hummingbird feeders (Seal Rock, Oregon, May 2022; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/118860343",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/200869644/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) David Rankin, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 323386,
+   "sourceDescription": "Ursus americanus",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "b0490b14e6768150f5497c835fa0ba329bcb9947333833a0e969422f6fcd34fc"
+  },
+  {
+   "file": "/guides/photos/black-bear-scat-backyard-paver.webp",
+   "subject": "Black bear scat on a square patio paver in a backyard; the observer says the pavers are 16 inches square (Pittsburgh, Pennsylvania, August 2024; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/237554659",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/422792221/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Connor Sites-Bowen, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 904,
+   "bytes": 246978,
+   "sourceDescription": "Ursus americanus",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "e0f3c14e6479f00c621092cfd1dda77d8019d25c833e7bf8a321445d0199e91a"
+  },
+  {
+   "file": "/guides/photos/black-bear-scat-berries-pen.webp",
+   "subject": "Black bear scat packed with berries, in grass and pale lichen beside a pen for size, Seney National Wildlife Refuge, Michigan, early October 2014; the source says the refuge bears were eating berries to prepare for winter (U.S. Fish and Wildlife Service photo by Courtney Celley)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_Bear_Scat_(15274318020).jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Black_Bear_Scat_%2815274318020%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "public-domain",
+   "credit": "USFWSmidwest, Public domain, via Wikimedia Commons",
+   "width": 1200,
+   "height": 800,
+   "bytes": 274504,
+   "sourceDescription": "That was one full bear! The black bears at Seney National Wildlife Refuge in Michigan are getting their fill of berries as they prepare for the winter. Photo by Courtney Celley/USFWS.",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "409db2560b1ee0cdd1dbc2482b1c64b160e600ef804fa3128275c0e62f15e166"
+  },
+  {
+   "file": "/guides/photos/black-bear-scat-hickory-nuts-hand.webp",
+   "subject": "Black bear scat full of chewed hickory nut shells: one thick, curled log on fallen leaves with fingers beside it for size (Gilmer County, Georgia, November 2022; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/141466132",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/242362916/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Leila Dasher, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 227486,
+   "sourceDescription": "Ursus americanus",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "228563b1b42d10550ce7a6bc50ac1e6e6dc9afcb70804cd46fb5285d2a1e410f"
+  },
+  {
+   "file": "/guides/photos/black-bear-scat-persimmon-trail.webp",
+   "subject": "Black bear scat with persimmon seeds and other plant material, no bones or fur, left in the middle of a trail in Kentucky; the observer measured it at about 10 inches long in all and 1.3 to 1.5 inches across (September 2024; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/241747791",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/430890871/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1404,
+   "bytes": 307672,
+   "sourceDescription": "Ursus americanus americanus",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "d5707d6927034c69fca8d684162e9f9b6603f2a753189829f5230407726463f5"
+  },
+  {
+   "file": "/guides/photos/black-bear-scat-plastic-bags.webp",
+   "subject": "Black bear scat full of plastic bags in an alley in the business district of Crestone, Colorado, October 11, 2011 (the photographer identification and description)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mixedplasticbearpoo.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Mixedplasticbearpoo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-SA-3.0",
+   "credit": "Fred Bauder, CC BY-SA 3.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 900,
+   "bytes": 288692,
+   "sourceDescription": "American black bear scat in an alley in the business district in Crestone, Colorado showing consumption of plastic bags, October 11, 2011.",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "2efdfc94e4a48017619ac4f3f1b7bd1b126ada71b53592005dc1b21e94745e99"
+  },
+  {
    "file": "/guides/photos/black-carpenter-ant-dry-leaves.webp",
    "subject": "Eastern black carpenter ant, Camponotus pennsylvanicus, a wingless ant (annotated adult female) climbing over dry leaves, showing its elbowed antennae and narrow waist (Wayne, Pennsylvania; research grade on iNaturalist)",
    "sourceUrl": "https://www.inaturalist.org/observations/115568418",
@@ -2033,6 +2187,20 @@
    "sha256Original": "e26b5279cb92238c1d730585505ea1715bdf65f56c1ef3653f65c0d015926c2a"
   },
   {
+   "file": "/guides/photos/bobcat-scat-ruler.webp",
+   "subject": "Bobcat scat beside a ruler: one tightly packed, white piece with a blunt end, recorded by the observer as 2.4 inches long and found next to a trail; species confirmed by DNA analysis in the UC Santa Cruz Conservation Scats Project (Upper Wildcat Canyon, Rancho San Antonio Open Space Preserve, California, June 2014; no second identification on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/12313495",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/17783923/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 899,
+   "bytes": 125032,
+   "sourceDescription": "Lynx rufus",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "0e2bd3d6405e749e62f923d1571cc16e41c67484826f1c9631e6d4ddb8969239"
+  },
+  {
    "file": "/guides/photos/bold-jumping-spider-house-siding.webp",
    "subject": "Bold jumping spider, Phidippus audax, on white house siding (Bucks County, Pennsylvania)",
    "sourceUrl": "https://www.inaturalist.org/observations/206175475",
@@ -2243,6 +2411,20 @@
    "sha256Original": "62188bdb8d704f1ac325693b094d49e45ad06532e3733431053074f928c27df5"
   },
   {
+   "file": "/guides/photos/brown-centipede-found-indoors.webp",
+   "subject": "Brown centipede (a stone centipede), Lithobius forficatus, found indoors, on a white surface (Prince Edward Island; research grade on iNaturalist, two identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/247125933",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/441301120/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Barry Cottam, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 670,
+   "bytes": 27616,
+   "sourceDescription": "Lithobius forficatus",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "fe8d64a16906af348d3e454f8b1fe05cca76e9c21e5c37a47dd944517802e28b"
+  },
+  {
    "file": "/guides/photos/brown-dog-tick-female-leaf.webp",
    "subject": "Adult female brown dog tick, Rhipicephalus sanguineus, crawling on a leaf (CDC photograph)",
    "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28386",
@@ -2285,6 +2467,34 @@
    "sha256Original": "d74b6aadb8a56a08df28cb0f4e32316e80498258d2621317bd7bdf8378817266"
   },
   {
+   "file": "/guides/photos/brown-marmorated-stink-bug-egg-mass-hatched-shells.webp",
+   "subject": "Brown marmorated stink bug, Halyomorpha halys, hatched egg shells on a leaf, most with the dark triangular egg burster at the rim (Ithaca, New York, June 29, 2021; research grade on iNaturalist, 2 identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/84990506",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/139761180/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 64572,
+   "sourceDescription": "Halyomorpha halys",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "38408b21de5d97c2713fbef18ceedf99b1f14684b0f3288d871a52afb731f773"
+  },
+  {
+   "file": "/guides/photos/brown-marmorated-stink-bug-egg-mass-unhatched-leaf.webp",
+   "subject": "Brown marmorated stink bug, Halyomorpha halys, unhatched egg mass on a leaf; a second photo in the same observation shows nymphs on the hatched mass (Teplice, Czech Republic, August 15, 2026; research grade on iNaturalist, 2 identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/391482210",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/717336885/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 132638,
+   "sourceDescription": "Halyomorpha halys",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "b3f97bcf1c76acecbb12ca3ea748c0f7ffd950585d6885f03b04ef703a252f51"
+  },
+  {
    "file": "/guides/photos/brown-marmorated-stink-bug-eggs-nymphs.webp",
    "subject": "Brown marmorated stink bug, Halyomorpha halys: young nymphs clustered on their egg mass on a leaf (Ohio; research grade on iNaturalist, four identifiers)",
    "sourceUrl": "https://www.inaturalist.org/observations/102745434",
@@ -2297,6 +2507,20 @@
    "sourceDescription": "Halyomorpha halys",
    "downloadedOn": "2026-11-05",
    "sha256Original": "6b81117473b990b54bfbb0ded1f6349f13100c479d5aa238151724866a9356c4"
+  },
+  {
+   "file": "/guides/photos/brown-marmorated-stink-bug-laying-eggs-window-glass.webp",
+   "subject": "Brown marmorated stink bug, Halyomorpha halys, female laying eggs on a glass pane, as the uploader describes it (Laufen, Switzerland, July 27, 2021; Wikimedia Commons, photographer Keimzelle)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brown_marmorated_stink_bug_laying_eggs.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Brown_marmorated_stink_bug_laying_eggs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC0-1.0",
+   "credit": "Keimzelle, CC0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 952,
+   "bytes": 42338,
+   "sourceDescription": "Brown marmorated stink bug laying eggs on a glass pane. Photographed in 4242 Laufen, Switzerland.",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "3846e51ca46b096cd86370760e2730a6f90b0713d634401a313bf2796b30c158"
   },
   {
    "file": "/guides/photos/brown-marmorated-stink-bug-nymph.webp",
@@ -2313,6 +2537,34 @@
    "sha256Original": "e244f4eff8316d4ca46ec6bc11d3e2a1851015a7e09ced10c359987ae0748370"
   },
   {
+   "file": "/guides/photos/brown-marmorated-stink-bug-nymphs-egg-mass-thumb-scale.webp",
+   "subject": "Brown marmorated stink bug, Halyomorpha halys, nymphs crowded on their hatched egg mass on the underside of a leaf, beside a thumb for scale (Lilburn, Georgia, July 23, 2023; observer: nymphs and eggs on underside of leaf; research grade on iNaturalist, 2 identifiers; the record does not give the instar)",
+   "sourceUrl": "https://www.inaturalist.org/observations/175301162",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/304642047/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 960,
+   "bytes": 200538,
+   "sourceDescription": "Halyomorpha halys",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "589108d863e32b0ee9830ef95b5eece7150a360d60d83ddb755a51cafbcc8692"
+  },
+  {
+   "file": "/guides/photos/brown-marmorated-stink-bug-nymphs-leaving-egg-mass.webp",
+   "subject": "Brown marmorated stink bug, Halyomorpha halys, dark young nymphs with white-banded legs and antennae walking off their hatched egg mass on a leaf held between fingertips (Lilburn, Georgia, May 20, 2023; observer: nymphs and eggs on underside; research grade on iNaturalist, 2 identifiers; the record does not give the instar)",
+   "sourceUrl": "https://www.inaturalist.org/observations/164688544",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/284976457/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 92278,
+   "sourceDescription": "Halyomorpha halys",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "f0761ae80f0f2c87dcc737ffe6f1dca194edd08b8ca53325cfd1edf6caa8bea5"
+  },
+  {
    "file": "/guides/photos/brown-marmorated-stink-bug.webp",
    "subject": "Brown marmorated stink bug, Halyomorpha halys, feeding on an apple",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brown_marmorated_stink_bug_feeding_on_apple.jpg",
@@ -2325,6 +2577,20 @@
    "sourceDescription": "The brown marmorated stink bug shown here is feeding on an apple on Aug. 29, 2012. This pest is a major economic threat to fruit crops, garden vegetables, and man ornamentals. U.S. Department of Agriculture (USDA) Agricultural Research Service (ARS) scientists are fighting back by developing traps, ",
    "downloadedOn": "2026-10-15",
    "sha256Original": "7722ce9ab6f3dd71db2454173fc4346439df376289465d3af641c9de14864fa1"
+  },
+  {
+   "file": "/guides/photos/brown-recluse-basement-wall.webp",
+   "subject": "Brown recluse, Loxosceles reclusa, on a pale painted basement wall, as the observer describes it (Missouri; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/168597666",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/292210375/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Gemma Wyatt & Sean Riha, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 68094,
+   "sourceDescription": "Loxosceles reclusa",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "33a2faf905b5c851a046440a97d12ede1041fe3b75ddc9f4399429cd428a368f"
   },
   {
    "file": "/guides/photos/brown-recluse-bite-early.webp",
@@ -2353,6 +2619,20 @@
    "sourceDescription": "4-months after having been bitten by a brown recluse spider, Loxosceles reclusa, this patient displayed localized tissue necrosis, as can be seen on the skin of her medial right calf. Sometimes a bite from a brown recluse spider can go unnoticed, or feel as slight as a pinprick. However, usually, af",
    "downloadedOn": "2026-10-15",
    "sha256Original": "ec0bf02f45f0a33a99a1209eb153aa11a15e611c815bec7c978f27d1c35b2ec9"
+  },
+  {
+   "file": "/guides/photos/brown-recluse-concrete-floor.webp",
+   "subject": "Brown recluse, Loxosceles reclusa, adult on a gray concrete surface, three-quarter view showing one-color legs and abdomen (Missouri; research grade on iNaturalist, 3 identifications)",
+   "sourceUrl": "https://www.inaturalist.org/observations/125467825",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/212774699/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 230388,
+   "sourceDescription": "Loxosceles reclusa",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "74ad86e6a242ac8ea3cd1851805396122f310f9b2cbd6c7119213424b0655c59"
   },
   {
    "file": "/guides/photos/brown-recluse-eyes.webp",
@@ -2398,6 +2678,48 @@
    "sha256Original": "0629ebae0834155f2946aa0b4ef7bde75806d904cffa7079de34cb7d8b93ffad"
   },
   {
+   "file": "/guides/photos/brown-recluse-quarter.webp",
+   "subject": "Spider identified as a brown recluse by its photographer, from above beside a US quarter for size (warm orange lighting)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brown-recluse-quarter.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Brown-recluse-quarter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "public-domain",
+   "credit": "Br-recluse-guy, Public domain, via Wikimedia Commons",
+   "width": 1200,
+   "height": 900,
+   "bytes": 45560,
+   "sourceDescription": "brown recluse compared to a quarter",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "53f8113e7df1d8c3cd073a7f8d97f191d1573893da77810361b0e07492205c55"
+  },
+  {
+   "file": "/guides/photos/brown-recluse-shed-skin.webp",
+   "subject": "Brown recluse, Loxosceles reclusa, shed skin (molt) lying flat with its legs spread wide on a cardboard tube; the observer found it in a shed (Acworth, Georgia; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/249344439",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/445706817/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 240574,
+   "sourceDescription": "Loxosceles reclusa",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "bbaaee8c0b158b222dce004d00fad0440398c31a301d2b8edf168d44179dfa42"
+  },
+  {
+   "file": "/guides/photos/brown-recluse-white-wall.webp",
+   "subject": "Brown recluse, Loxosceles reclusa, from above on a smooth white surface showing the violin mark and plain legs; the observer describes it as about quarter sized (St. Louis, Missouri; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/89206511",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/147287725/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1073,
+   "bytes": 26954,
+   "sourceDescription": "Loxosceles reclusa",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "558b9fbbd9b550a011059890c6ab7e860c0ef1a954096ed8b112ed8727d00137"
+  },
+  {
    "file": "/guides/photos/brown-recluse.webp",
    "subject": "Brown recluse spider, Loxosceles reclusa",
    "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=1125",
@@ -2410,6 +2732,20 @@
    "sourceDescription": "This image depicts a dorsal view of a highly venomous brown recluse spider, Loxosceles reclusa. Note the characteristic violin-shaped marking visible on its dorsal cephalothorax.",
    "downloadedOn": "2026-10-15",
    "sha256Original": "b0bcbfe89214f5d7e46eee7610e0cbafabfa55d1c72dd4326f05891c32b3ec90"
+  },
+  {
+   "file": "/guides/photos/brown-recluses-sticky-trap.webp",
+   "subject": "Two brown recluses, Loxosceles reclusa, caught on a cockroach sticky trap by a garage, among small ants and other tiny insects (Warr Acres, Oklahoma; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/193060902",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/339069459/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Emily Geest, some rights reserved (CC BY), via iNaturalist",
+   "width": 1125,
+   "height": 1503,
+   "bytes": 175370,
+   "sourceDescription": "Loxosceles reclusa",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "ad57698d2f0aa6c1f2dd66713059a4602f0cb551ffe2196e8aacf2cb10884f5c"
   },
   {
    "file": "/guides/photos/brown-soft-scale.webp",
@@ -3140,6 +3476,20 @@
    "sha256Original": "5ed33fa0440f2cce9fb4c492dc5629e389c55f2d30c4a4b221514524d116ec5d"
   },
   {
+   "file": "/guides/photos/cherry-millipede-patio-inch-cube.webp",
+   "subject": "Aromatic cherry millipede, Apheloria corrugata, adult, a black flat-backed millipede with yellow edges and legs, crawling on an exposed-aggregate patio beside a 1-inch scale cube (Powhatan County, Virginia; research grade on iNaturalist, two identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/279158157",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/501282000/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 296234,
+   "sourceDescription": "Apheloria corrugata",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "4b912f86c5d42c50184b540ec0cd99e7390b6333975cf6a9f46573ed0c0b5fd1"
+  },
+  {
    "file": "/guides/photos/chestnut-carpenter-ant-under-stem.webp",
    "subject": "Chestnut carpenter ant, Camponotus castaneus, a wingless ant under a leaf stem (Columbia, South Carolina; research grade on iNaturalist, four identifiers)",
    "sourceUrl": "https://www.inaturalist.org/observations/32087733",
@@ -3250,6 +3600,34 @@
    "sourceDescription": "Sphecius speciosus, dorsal, erbeutet Zikade im Big Stone National Wildlife Refuge in Minnesota, Vereinigte Staaten",
    "downloadedOn": "2026-10-15",
    "sha256Original": "be55212a5f460a7e4f07c11e493ed120c2d95f3656bfd14ae47a294637f7aee1"
+  },
+  {
+   "file": "/guides/photos/cigarette-beetle-indoors-top-view.webp",
+   "subject": "Cigarette beetle, Lasioderma serricorne, adult seen from above, close up; the observer found it indoors (Port Charlotte, Florida, November 2025; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/326009841",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/590364553/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 851,
+   "height": 851,
+   "bytes": 70112,
+   "sourceDescription": "Lasioderma serricorne",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "e5c3e228fbcfa653a489b717ef9da2651d7d2716144f3180780beefe7642c07c"
+  },
+  {
+   "file": "/guides/photos/cigarette-beetle-larva-paprika.webp",
+   "subject": "Cigarette beetle, Lasioderma serricorne, larva from stored paprika powder (Noord-Brabant, Netherlands, October 2022; research grade on iNaturalist; the observation also shows the adult)",
+   "sourceUrl": "https://www.inaturalist.org/observations/139508001",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/238626276/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 14716,
+   "sourceDescription": "Lasioderma serricorne",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "5d349ff37f09c04aefc5bb47d49eb26c71a65fbd8d88ec0b21efa7f4d8f71780"
   },
   {
    "file": "/guides/photos/cigarette-beetle.webp",
@@ -3687,6 +4065,76 @@
    "sha256Original": "b81808dcce5b1de3a5761acb55c2badefc4e35c4259f3cccc64e3e8aac4a6e1a"
   },
   {
+   "file": "/guides/photos/coyote-defecating-camera-trap.webp",
+   "subject": "Coyote defecating, caught on a National Park Service camera trap in the western San Fernando Valley of Los Angeles, California (camera date stamp May 26, 2016), where NPS researchers were collecting scat to study the diets of urban coyotes",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coyote_Poops_(33040738995).jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Coyote_Poops_%2833040738995%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "public-domain",
+   "credit": "National Park Service from USA, Public domain, via Wikimedia Commons",
+   "width": 1200,
+   "height": 900,
+   "bytes": 160098,
+   "sourceDescription": "A coyote caught on a camera trap excreting waste in the western San Fernando Valley of Los Angeles. National Park Service researchers are collecting scat to study the diets of urban coyotes.",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "951f92e7b03c8c49e490966926e724e4bf217c57c739cf02a7c4b346fea67193"
+  },
+  {
+   "file": "/guides/photos/coyote-scat-frozen-in-ice.webp",
+   "subject": "Coyote scat frozen into ice and snow at Seney National Wildlife Refuge, Michigan, February 2012: a twisted, rope-like dropping with a long tapered tail (photo by Sara Hollerich, U.S. Fish and Wildlife Service, who labeled it coyote scat; shared on Flickr by the Seney Natural History Association)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Seney_National_Wildlife_Refuge_(6847525101).jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Seney_National_Wildlife_Refuge_%286847525101%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-SA-2.0",
+   "credit": "Seney Natural History Association, CC BY-SA 2.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 900,
+   "bytes": 165406,
+   "sourceDescription": "Coyote Scat - it was frozen and somewhat melted into the ice. Wild canines have hair in their scat it is one of the easiest ways to tell domestic dog scat from wolf, coyote, and fox. Credit: Sara Hollerich, USFWS.",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "ee454f2e80f5676b18338b84d35c553d915074aca4896c9f93f95774579e4fdc"
+  },
+  {
+   "file": "/guides/photos/coyote-scat-fruit-pits.webp",
+   "subject": "Coyote scat packed with what look like fruit pits, on a gravel path (Clark Lake Park, Kent, Washington, June 2025); identified as coyote on iNaturalist by three identifiers after the photographer first suggested black bear (research grade; no scale object)",
+   "sourceUrl": "https://www.inaturalist.org/observations/361075758",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/658936825/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) giantcicada, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 267224,
+   "sourceDescription": "Canis latrans",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "2c0e41031319f2d3229779adb65d09afd44d794d6b5ee526afedfc49ad4dd898"
+  },
+  {
+   "file": "/guides/photos/coyote-scat-hair-ruler.webp",
+   "subject": "Coyote scat beside a ruler on a trail: a dark gray dropping ending in a pale, twisted tail of hair, recorded by the observer as about 5 inches long and 1 inch wide; species confirmed by DNA analysis in the UC Santa Cruz Conservation Scats Project, identification agreed on iNaturalist by tracker beartracker (Hammond-Snyder Trail, Rancho San Antonio Open Space Preserve, California, January 2015)",
+   "sourceUrl": "https://www.inaturalist.org/observations/12402936",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/17877156/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 252336,
+   "sourceDescription": "Canis latrans",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "8127e2198ae3ba6b67a26dffa65f1dbb3a5b4c8e7befd8cd778de04c9776cdd5"
+  },
+  {
+   "file": "/guides/photos/coyote-scat-on-pavement.webp",
+   "subject": "Coyote scat on pavement: a twisted dropping wrapped in gray hair, ending in a long, thin, tapered tail (Dallas, Texas, December 2025; research grade on iNaturalist, observer and one other identifier; no scale object)",
+   "sourceUrl": "https://www.inaturalist.org/observations/331956454",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/602319457/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 800,
+   "bytes": 255608,
+   "sourceDescription": "Canis latrans",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "e8ef26425e43230db6b33780c1cdb6f20d2699f5c939f96b065d587440593312"
+  },
+  {
    "file": "/guides/photos/coyote-scat-ruler.webp",
    "subject": "Coyote scat, brown and twisted, with hair and seeds, beside a ruler; species confirmed by DNA analysis in the UC Santa Cruz Conservation Scats Project (Rancho San Antonio Open Space Preserve, California)",
    "sourceUrl": "https://www.inaturalist.org/observations/12313482",
@@ -3699,6 +4147,20 @@
    "sourceDescription": "Canis latrans",
    "downloadedOn": "2026-10-20",
    "sha256Original": "6cff724f267aa662bf9615f056f75c40fbed6cd259e2d148bdc01ed4b629f51d"
+  },
+  {
+   "file": "/guides/photos/coyote-tracks-snow-boot.webp",
+   "subject": "Coyote, Canis latrans, tracks: two oval prints in old snow beside a hiking boot for scale (Green Mountain National Forest, Rochester, Vermont; research grade on iNaturalist, two identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/9978016",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/13710972/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 102992,
+   "sourceDescription": "Canis latrans",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "8f6645a8d1df02f97616ab502ce66824b4667b6e1a248169a10c3f2c76b75cd0"
   },
   {
    "file": "/guides/photos/crane-fly.webp",
@@ -4233,6 +4695,20 @@
    "sha256Original": "a3c7c37b15414ac4283c42725fad16f9ccb197908d288aac4123eefdeffdd37d"
   },
   {
+   "file": "/guides/photos/dog-poop-on-grass.webp",
+   "subject": "Domestic dog droppings on grass and weeds: several smooth, evenly brown pieces (the photographer's identification, \"Feces de can\"; Galicia, Spain, July 2005)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Feces_de_can_(dog).jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Feces_de_can_%28dog%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-SA-3.0",
+   "credit": "Luis Miguel Bugallo Sánchez, CC BY-SA 3.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 900,
+   "bytes": 355752,
+   "sourceDescription": "Feces de can",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "c69cbbcfa93db2290f560299c16db411e73ae1ee83d6594651479a8ac7855161"
+  },
+  {
    "file": "/guides/photos/dragonfly-nymph.webp",
    "subject": "Dragonfly nymph (larva), suborder Anisoptera, on a white background (Gavins Point National Fish Hatchery, South Dakota; USFWS photograph)",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dragonfly_nymph_(51240282883).jpg",
@@ -4331,6 +4807,90 @@
    "sha256Original": "eb91276c61b644f8403df30741568087b01dbdbf4987f3ac99b6bc16145d7e73"
   },
   {
+   "file": "/guides/photos/drugstore-beetle-larva.webp",
+   "subject": "Drugstore beetle, Stegobium paniceum, larva curled in a C on a wooden surface; the observer found many inside the noodles of an old box of spaghetti (Ohio, August 2021; research grade on iNaturalist, life stage larva)",
+   "sourceUrl": "https://www.inaturalist.org/observations/90779397",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/150063916/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) fuzzyspider, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 61490,
+   "sourceDescription": "Stegobium paniceum",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "97950f814b4ab6f4cfb0fecc4c0e119eb6e2d4e3586cec81e002cfc7cbc98ff8"
+  },
+  {
+   "file": "/guides/photos/drugstore-beetle-lined-wing-covers.webp",
+   "subject": "Drugstore beetle, Stegobium paniceum, adult in side view, magnified, showing rows of grooves along the wing covers and the head tucked under the hood; the observer found it dead on a windowsill (Lower Saxony, Germany, April 2020; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/45108599",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/71514224/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 798,
+   "bytes": 31214,
+   "sourceDescription": "Stegobium paniceum",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "e46f0760f563069f4e1b3fe50bb00cb1e83261a52df7871e5734111c4a765e0f"
+  },
+  {
+   "file": "/guides/photos/drugstore-beetle-old-cumin.webp",
+   "subject": "Drugstore beetle, Stegobium paniceum, adult on a crumbly clump of old cumin full of round holes, on a white counter; the observer wrote only that the beetles were in old cumin (Portland, Oregon, May 2020; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/46266242",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/73380245/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) David Anderson, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 92730,
+   "sourceDescription": "Stegobium paniceum",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "77ebc79e16fe2f907b149ad49322ca9b3e87e5ac6af1d487ed444c50c7c356a0"
+  },
+  {
+   "file": "/guides/photos/drugstore-beetle-on-wall.webp",
+   "subject": "Drugstore beetle, Stegobium paniceum, adult on a textured white wall; the observer found several tiny beetles on the wall (Austin, Texas, July 2020; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/52325480",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/83173673/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Natasha Haggard, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 96656,
+   "sourceDescription": "Stegobium paniceum",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "b104cb71cceb08695297392d574a510240f9080f2733c68c74e7710b4ce2e7fa"
+  },
+  {
+   "file": "/guides/photos/drugstore-beetle-pantry-crackers.webp",
+   "subject": "Drugstore beetle, Stegobium paniceum, adult seen from above under magnification; the observer found it infesting crackers in a pantry (Tallahassee, Florida, July 2026; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/380424799",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/695978217/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1586,
+   "bytes": 41854,
+   "sourceDescription": "Stegobium paniceum",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "2f2f37708af154065f915e420d0c7d55f8205d7d3d74ae07624a7f1419885301"
+  },
+  {
+   "file": "/guides/photos/drugstore-beetle-spice-seeds-hole.webp",
+   "subject": "Drugstore beetle, Stegobium paniceum, adult among seeds inside a spice display, beside a seed with a round hole in it; the observer counted at least 100 beetles (Austin, Texas, November 2022; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/142843099",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/244963507/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) River Ahlquist, some rights reserved (CC BY), via iNaturalist",
+   "width": 788,
+   "height": 1051,
+   "bytes": 56716,
+   "sourceDescription": "Stegobium paniceum",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "7a71fde5d57074eabb293b70586c5a056bde9583ecc9918eaf553540579c45b0"
+  },
+  {
    "file": "/guides/photos/drugstore-beetle.webp",
    "subject": "Drugstore beetle, Stegobium paniceum, with a 1 mm scale bar (La Habra, California)",
    "sourceUrl": "https://www.inaturalist.org/observations/33637223",
@@ -4385,6 +4945,20 @@
    "sourceDescription": "Agkistrodon contortrix",
    "downloadedOn": "2026-10-16",
    "sha256Original": "769f6ffcbb1ec5c0770607dbda0e1ee7f890f701478ab667be0340241df6ea20"
+  },
+  {
+   "file": "/guides/photos/eastern-cottontail-tracks-snow.webp",
+   "subject": "Eastern cottontail, Sylvilagus floridanus, track group in fresh snow: two long hind prints side by side ahead of two smaller front prints (Lynchburg, Virginia; research grade on iNaturalist, three identifiers including tracker Kim Cabrera)",
+   "sourceUrl": "https://www.inaturalist.org/observations/329597672",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/597491229/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Jennifer Styrsky, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1594,
+   "bytes": 71398,
+   "sourceDescription": "Sylvilagus floridanus",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "dcdf7a1e3bc448b10d33732d872e68aff017d8e32eaac74fdf3dd995d12b6478"
   },
   {
    "file": "/guides/photos/eastern-gray-squirrel.webp",
@@ -5046,7 +5620,7 @@
   },
   {
    "file": "/guides/photos/flea-egg-and-larva.webp",
-   "subject": "Cat flea, Ctenocephalides felis, first-stage larva beside an egg (microscope)",
+   "subject": "Cat flea, Ctenocephalides felis, first-stage larva beside its egg (microscope)",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ctenocephalides_felis,_L1..JPG",
    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Ctenocephalides_felis%2C_L1..JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
    "license": "public-domain",
@@ -5746,6 +6320,20 @@
    "sha256Original": "97b996b9dbd3337a128412f0a3acf399ef62715fc97b570bc6b72dc1f476f0e0"
   },
   {
+   "file": "/guides/photos/gray-fox-scat-ruler.webp",
+   "subject": "Gray fox scat beside a ruler on a trail, recorded by the observer as 3.5 inches long and about 1/2 inch wide, with a thin twisted tip; species confirmed by DNA analysis in the UC Santa Cruz Conservation Scats Project, identification agreed on iNaturalist by tracker beartracker (PG&E Trail, Rancho San Antonio Open Space Preserve, California, March 2015)",
+   "sourceUrl": "https://www.inaturalist.org/observations/12603775",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/18220804/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 156016,
+   "sourceDescription": "Urocyon cinereoargenteus",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "6a358fe1759bba3ed007720d3d79b36b950e8867306f48f85c9d7d793f5101fe"
+  },
+  {
    "file": "/guides/photos/gray-silverfish.webp",
    "subject": "Gray silverfish (long-tailed silverfish), Ctenolepisma longicaudatum, beside white-painted trim (Austin, Texas)",
    "sourceUrl": "https://www.inaturalist.org/observations/109156875",
@@ -5772,6 +6360,76 @@
    "sourceDescription": "Sciurus carolinensis",
    "downloadedOn": "2026-10-20",
    "sha256Original": "01b1edb3f5756c6e4b563cb73cb94d2dc78699e75ed929c5026df28992f31a1c"
+  },
+  {
+   "file": "/guides/photos/gray-squirrel-inside-drey.webp",
+   "subject": "Eastern gray squirrel, Sciurus carolinensis, looking out from inside its leaf nest (drey) of twigs and dead leaves (Savannah, Georgia, January 24, 2022; research grade on iNaturalist, two identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/105520284",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/177075440/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 147396,
+   "sourceDescription": "Sciurus carolinensis",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "a459f541d85039b94adb5633eed18680a6d2a9e6bdab623dbf4cba0032bc0555"
+  },
+  {
+   "file": "/guides/photos/gray-squirrel-leaf-nest-window.webp",
+   "subject": "Gray squirrel inside a nest of dry leaves built against a window, photographed through the glass (the uploader describes it as a gray squirrel in a drey located in a window; filed on Commons under Sciurus carolinensis drey)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gray_Squirrel_Window_Drey.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Gray_Squirrel_Window_Drey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-SA-4.0",
+   "credit": "ComicsFan4, CC BY-SA 4.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 797,
+   "bytes": 119788,
+   "sourceDescription": "A gray squirrel in a drey located in a window.",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "82a4a7c40607b8a8bd5265d4fcce23bda6e772b90bef0f3b8754a81727799d7e"
+  },
+  {
+   "file": "/guides/photos/gray-squirrel-newborns-felled-tree.webp",
+   "subject": "Eastern gray squirrel, Sciurus carolinensis: newborn young, pink and hairless with eyes closed, in a worker's gloved hands after a tree that could have fallen on a house was cut down; the observer says the crew set them aside in a makeshift nest so the mother could come for them (Washington, North Carolina, July 28, 2025; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/301820901",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/543905199/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Steve Taylor, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 243112,
+   "sourceDescription": "Sciurus carolinensis",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "9da445a91c2937cab179eacb4714648e71b9e52123f256e36e57b7c492b4b798"
+  },
+  {
+   "file": "/guides/photos/gray-squirrel-tracks-snow-ruler.webp",
+   "subject": "Eastern gray squirrel, Sciurus carolinensis, tracks: two bounding groups in snow at the observer’s bird feeder, with a ruler laid between them (Cheshire County, New Hampshire; research grade on iNaturalist, three identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/150570445",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/259660590/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Michael Nerrie, some rights reserved (CC BY), via iNaturalist",
+   "width": 1086,
+   "height": 724,
+   "bytes": 90938,
+   "sourceDescription": "Sciurus carolinensis",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "06effe7042be8503ceef9c88c3d939975a782cc40a34f2fcd8f267e61965b18b"
+  },
+  {
+   "file": "/guides/photos/gray-squirrel-young-tree-cavity.webp",
+   "subject": "Eastern gray squirrel, Sciurus carolinensis: two young squirrels at the entrance of a tree-cavity den in spring; the observer reported what appeared to be three young emerging from the cavity (Assabet River National Wildlife Refuge, Stow, Massachusetts, May 11, 2021; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/80679123",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/132251301/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 797,
+   "bytes": 241866,
+   "sourceDescription": "Sciurus carolinensis",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "2b116b320919b030ac6cda549d3ccca93abef25c894ae5bf46eb99ea22c7e7d8"
   },
   {
    "file": "/guides/photos/green-bottle-fly.webp",
@@ -5857,6 +6515,20 @@
    "sourceDescription": "Greenhead - Tabanus nigrovittatus, Sapelo Island, Georgia.",
    "downloadedOn": "2026-10-15",
    "sha256Original": "795f4141987b7e26e6b03a8088a69be95596bd020e7a053936fd5087542f9d10"
+  },
+  {
+   "file": "/guides/photos/greenhouse-millipede-bathroom-penny.webp",
+   "subject": "Greenhouse millipede, Oxidus gracilis, beside a US penny on gray-and-white terry cloth; the observer found it in the bathroom (San Rafael, California; research grade on iNaturalist, two identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/217289953",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/384383639/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 100976,
+   "sourceDescription": "Oxidus gracilis",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "16930b6924a92f07781b89e0e935094635afa1fc8c1c1ecff253620a91e73fca"
   },
   {
    "file": "/guides/photos/greenhouse-millipede.webp",
@@ -6461,6 +7133,34 @@
    "sha256Original": "98c15432747fa695587fd95c4f4a46453cef4ecbe14f3d6ee15f33e9f3a23eb7"
   },
   {
+   "file": "/guides/photos/house-cat-track-snow-ruler.webp",
+   "subject": "House cat, Felis catus, track: one print in fresh snow beside a forensic ruler marked in inches and centimeters (Ham Lake, Minnesota; research grade on iNaturalist, three identifiers including tracker Kim Cabrera)",
+   "sourceUrl": "https://www.inaturalist.org/observations/37889587",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/60136777/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 211032,
+   "sourceDescription": "Felis catus",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "087148e2d8587e3689f90f08e2a9cba6b3f526e8bb5a8b41bfcac25caefae79f"
+  },
+  {
+   "file": "/guides/photos/house-centipede-basement-floor.webp",
+   "subject": "House centipede, Scutigera coleoptrata, on the floor of a house basement where the observer found it (Harrisonburg, Virginia; research grade on iNaturalist, two identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/163188719",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/282223054/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 37654,
+   "sourceDescription": "Scutigera coleoptrata",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "0581b32592fd049bb094fcaef3abea2d685144d37bcb77ab6380bf6710b8bab4"
+  },
+  {
    "file": "/guides/photos/house-centipede-on-wall.webp",
    "subject": "House centipede, Scutigera coleoptrata, adult on a wall (Sandusky, Ohio)",
    "sourceUrl": "https://www.inaturalist.org/observations/331736980",
@@ -7050,6 +7750,20 @@
    "sha256Original": "2a375ae6959edb43d56cb51175b65e98ff35df2dc89cdcef6ac8cd7f3ede2697"
   },
   {
+   "file": "/guides/photos/lady-beetle-eggs-cluster-leaf.webp",
+   "subject": "Lady beetle eggs, identified on iNaturalist as Asian lady beetle, Harmonia axyridis: yellow oblong eggs standing on end in a cluster on a leaf (Texas, April 18, 2021; research grade, 2 identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/74449002",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/121674420/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 904,
+   "height": 904,
+   "bytes": 69934,
+   "sourceDescription": "Harmonia axyridis",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "05078c1602d1ea8e9053314db3e19cd17dbdef7acf8a80a98e7511d54585a1aa"
+  },
+  {
    "file": "/guides/photos/larder-beetle.webp",
    "subject": "Larder beetle, Dermestes lardarius, dorsal view (Butler County, Pennsylvania)",
    "sourceUrl": "https://www.inaturalist.org/observations/76795736",
@@ -7090,6 +7804,20 @@
    "sourceDescription": "Lavandula angustifolia",
    "downloadedOn": "2026-10-28",
    "sha256Original": "2d2f5c6b338f2972a5622444a83a303f671b375061e91cb1f2914954b53d7c07"
+  },
+  {
+   "file": "/guides/photos/leaf-footed-bug-eggs-chain-stem.webp",
+   "subject": "Leaf-footed bug, Leptoglossus sp., hatched eggs in a short chain laid end to end along a plant stem (Montgomery County, Maryland, July 16, 2020; research grade at genus level on iNaturalist, 2 identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/53806087",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/85591213/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Katja Schulz, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 901,
+   "bytes": 46802,
+   "sourceDescription": "Leptoglossus",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "3b4679936e01aaaf70dcc1fcf0c31851f3187a2c27b55ac4c699ca5f31507dd1"
   },
   {
    "file": "/guides/photos/leaf-footed-bug-nymphs.webp",
@@ -7651,6 +8379,20 @@
    "sourceDescription": "Zelus longipes",
    "downloadedOn": "2026-10-16",
    "sha256Original": "a82ed90b8c14d783bf0b7de27a35b69655d492d29da2b748f927d96e14fe55ec"
+  },
+  {
+   "file": "/guides/photos/millipede-legs-underside-sem.webp",
+   "subject": "Underside of the millipede Eumillipes persephone (male holotype, Western Australian Museum T147101) under a scanning electron microscope, showing two pairs of legs on each body ring (Fig. 1B of Marek et al. 2021, Scientific Reports)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Millipede,_Eumillipes_persephone,_ventral_view_of_legs.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Millipede%2C_Eumillipes_persephone%2C_ventral_view_of_legs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-4.0",
+   "credit": "Aggyrolemnoixytes/Paul Marek, CC BY 4.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 1035,
+   "bytes": 107352,
+   "sourceDescription": "Ventral view of legs of male holotype specimen T147101 (Western Australian Museum). Fig1B from Marek, Buzatto, Shear, Means, Black, Harvey & Rodriguez. 2021. The first true millipede—1,306 legs long. https://www.nature.com/articles/s41598-021-02447-0",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "d169cc1e230db1e8c25c41815212881c0718549e3edad7f483454b169c07050c"
   },
   {
    "file": "/guides/photos/mining-bee-burrow-clay-aggregation.webp",
@@ -8507,6 +9249,49 @@
    "sha256Original": "b99809ef80ba7eacf9fd176e32ed0f0d756abd688f50c43d01ddd5c0328b667f"
   },
   {
+   "file": "/guides/photos/opossum-porch-pet-bowl.webp",
+   "subject": "Virginia opossum, Didelphis virginiana, at night on a porch landing beside two metal pet bowls holding food the observer had set out for a neighborhood cat (California; research grade, two identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/187943847",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/328793264/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "edited": "bottom 3% cropped (caption strip)",
+   "width": 946,
+   "height": 1987,
+   "bytes": 33862,
+   "sourceDescription": "Didelphis virginiana",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "6ba443130fb06b89209590fe4b76d45118380cafdb2994507ccc702adec2a6cc"
+  },
+  {
+   "file": "/guides/photos/opossum-scat-gravel-trail.webp",
+   "subject": "Fresh, glossy black droppings on a gravel trail, identified on iNaturalist as Virginia opossum, Didelphis virginiana, by the observer and two other users from the droppings alone (Marine Park, Brooklyn, New York, August 2024; research grade; no scale object in this frame)",
+   "sourceUrl": "https://www.inaturalist.org/observations/236844177",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/421398651/original.jpg",
+   "license": "CC-BY-SA-4.0",
+   "credit": "(c) Nova Patch, some rights reserved (CC BY-SA), via iNaturalist",
+   "width": 1200,
+   "height": 901,
+   "bytes": 228158,
+   "sourceDescription": "Didelphis virginiana virginiana",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "b1a12ca0ad0e4e616dc6fc07929466d541fa03f4045bf4be8201beddfdc2fcd7"
+  },
+  {
+   "file": "/guides/photos/opossum-scat-leaf-litter.webp",
+   "subject": "Droppings identified on iNaturalist as Virginia opossum, Didelphis virginiana, by the observer and a second user from the droppings alone: one smooth, curved, dark brown dropping on fallen maple leaves beside moss (Kirtland, Ohio, December 2022; research grade; no scale object)",
+   "sourceUrl": "https://www.inaturalist.org/observations/145445849",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/249826234/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 240496,
+   "sourceDescription": "Didelphis virginiana",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "595468adca229011bbfba3152f531282cc38c2443b6a53bca826f97e0d959438"
+  },
+  {
    "file": "/guides/photos/organ-pipe-mud-dauber-nest.webp",
    "subject": "Organ-pipe mud dauber, Trypoxylon politum, mud-tube nest (Washington, DC)",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pipe_Organ_Mud_Dauber_Nest_-_Flickr_-_treegrow.jpg",
@@ -8746,6 +9531,20 @@
    "sha256Original": "8021f7ab2d5daf8ac9c55826a29f06320ae41b5b9ce40c4a23ef7c66a06ed41b"
   },
   {
+   "file": "/guides/photos/peromyscus-mouse-tracks-snow.webp",
+   "subject": "Deer mouse or white-footed mouse (genus Peromyscus) tracks: two hopping groups in thin snow at the edge of pavement, beside a hand for scale (South Burlington, Vermont; research grade at genus level on iNaturalist, four identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/19216414",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/29518238/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 337142,
+   "sourceDescription": "Peromyscus",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "a7beed2a9adc2c5845ce6b5d388ea13bb34656c35bc354cb8cffd6cf019d1e54"
+  },
+  {
    "file": "/guides/photos/pet-mouse-two-years-old.webp",
    "subject": "Pet mouse, a small two-year-old female, drinking from a water bottle (the photographer’s description; Finland)",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pet_mouse_drinking.jpg",
@@ -8800,6 +9599,62 @@
    "sourceDescription": "Pheidole rugulosa",
    "downloadedOn": "2026-10-28",
    "sha256Original": "beb4f5ccd6f299edeb084881f6914ff9780d667327d89c8b1399774baed69823"
+  },
+  {
+   "file": "/guides/photos/phorid-fly-apartment.webp",
+   "subject": "Phorid fly (family Phoridae), side view on a white textured surface, one of the tiny flies the observer found in an apartment, mostly around the kitchen sink and in the bathroom (San Marcos, Texas; family agreed by two identifiers on iNaturalist; not research grade)",
+   "sourceUrl": "https://www.inaturalist.org/observations/205198307",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/362791384/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Joseph Aubert, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 36972,
+   "sourceDescription": "Phoridae",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "8540c5c862a0862a7f940315419575867619dfc43d0099ae9632bc047e592043"
+  },
+  {
+   "file": "/guides/photos/phorid-fly-bathroom-sink-side.webp",
+   "subject": "Phorid fly, Megaselia scalaris, side view on a white surface; the observer found it in a bathroom sink and suspected the household cat litter boxes as the source (Austin, Texas; research grade on iNaturalist, two identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/137826947",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/235461958/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Justin Williams, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1211,
+   "bytes": 37342,
+   "sourceDescription": "Megaselia scalaris",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "caaa2b5e82a7330e66db569f491f84f0daffc1ebeda8c42d732ff76a17a5be9e"
+  },
+  {
+   "file": "/guides/photos/phorid-fly-fingertip.webp",
+   "subject": "Phorid fly on a fingertip, for size; the observer found it drowned in a cup of water in a bathroom (United States, location obscured; Phoridae by the observer, Megaselia scalaris by a second identifier on iNaturalist; not research grade)",
+   "sourceUrl": "https://www.inaturalist.org/observations/95405312",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/158382600/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Carrie Seltzer, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 38862,
+   "sourceDescription": "Megaselia scalaris",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "2d03a5ade98de57cc39bb2cc288c77ca8880251ebfd7c345860ba058119f4030"
+  },
+  {
+   "file": "/guides/photos/phorid-fly-raspberry-scale-bar.webp",
+   "subject": "Phorid fly, Megaselia scalaris, on a raspberry indoors, with a 1 mm scale bar; the photographer found it crawling on fruit with fruit flies, possibly the same fly as phorid-fly (La Habra, California; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/19007478",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/29147847/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1141,
+   "bytes": 39956,
+   "sourceDescription": "Megaselia scalaris",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "07ff1fac580004b2a9e4d0ee8731e520c8945ffb7b1edce6abd60c832cc43fd4"
   },
   {
    "file": "/guides/photos/phorid-fly.webp",
@@ -9082,6 +9937,20 @@
    "sha256Original": "4417d84f77e1f2f16ef0c7aef8eb6914003fc9271359bd8d6625957260bae694"
   },
   {
+   "file": "/guides/photos/raccoon-tracks-snow-pavement.webp",
+   "subject": "Raccoon, Procyon lotor, tracks: pairs of hand-shaped prints in a thin layer of snow on pebbled concrete, a shoe tip at the lower left (Greater Vancouver, British Columbia; research grade on iNaturalist, three identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/148277837",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/255310294/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Alex Reitan, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 389028,
+   "sourceDescription": "Procyon lotor",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "3ada083986f9fa93a3ce4ed0e6c8ea0b62ae98c6abfe4532805ffb15a15f9760"
+  },
+  {
    "file": "/guides/photos/rat-droppings-table.webp",
    "subject": "Rat droppings on a tabletop beside cups, saucers and an electric burner (historic photograph)",
    "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=29215",
@@ -9207,6 +10076,20 @@
    "sourceDescription": "",
    "downloadedOn": "2026-10-15",
    "sha256Original": "39be1d325fc839a981fa85de1cc1512d81f9bb91d4c50111bc5bfbcd0714cd75"
+  },
+  {
+   "file": "/guides/photos/red-fox-track-snow-scale.webp",
+   "subject": "Red fox, Vulpes vulpes, track: one print in snow above a scale marked in inches (Bridport, Vermont, December 25; research grade on iNaturalist, three identifiers including tracker Kim Cabrera)",
+   "sourceUrl": "https://www.inaturalist.org/observations/36966375",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/58521532/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Garth Harwood, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 105138,
+   "sourceDescription": "Vulpes vulpes",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "2c2efe57dfacae4c8940743f45328e7c94a2b7f7b0dee9298ccc81025749a191"
   },
   {
    "file": "/guides/photos/red-harvester-ants-gravelly-mound.webp",
@@ -9966,6 +10849,20 @@
    "sha256Original": "ffead91f9361a737f419020b8c4710df27f437baf65c2da7a80eb6cc11fac07d"
   },
   {
+   "file": "/guides/photos/spined-soldier-bug-eggs-first-instar-nymphs.webp",
+   "subject": "Spined soldier bug, Podisus maculiventris, egg mass with ten newly hatched nymphs on the upper surface of a red maple leaf; the observer found the eggs on May 28 and the nymphs on June 8, 2017 (Bucks County, Pennsylvania; research grade on iNaturalist, 2 identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/6580572",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/8349731/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Bill Keim, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 800,
+   "bytes": 124420,
+   "sourceDescription": "Podisus maculiventris",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "7138f4c4d393763b200fe863f06c00a1ea4b47835fe96fee2f6bd714540c9875"
+  },
+  {
    "file": "/guides/photos/spinybacked-orb-weaver.webp",
    "subject": "Spinybacked orb weaver, Gasteracantha cancriformis (Florida)",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gasteracantha_cancriformis_172582232.jpg",
@@ -10064,6 +10961,20 @@
    "sha256Original": "c756f8ff65604c3f1f5df9dc6d39d76edf9886bbde484dffaecc8a02e65582dd"
   },
   {
+   "file": "/guides/photos/squash-bug-eggs-leaf.webp",
+   "subject": "Squash bug, Anasa tristis, eggs on a leaf (Accomack County, Virginia, June 18, 2021; research grade on iNaturalist, 2 identifiers; host plant not named)",
+   "sourceUrl": "https://www.inaturalist.org/observations/84456305",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/138808223/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Nathan T. Jones, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 675,
+   "bytes": 161708,
+   "sourceDescription": "Anasa tristis",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "224779e4f2c93a160d7b6b0b8b1f5cdc473e229fee36c7d461fcdae3691ab76f"
+  },
+  {
    "file": "/guides/photos/squash-bug.webp",
    "subject": "Squash bug, Anasa tristis, adult on a leaf (Hillsborough, North Carolina)",
    "sourceUrl": "https://www.inaturalist.org/observations/91567601",
@@ -10076,6 +10987,34 @@
    "sourceDescription": "Anasa tristis",
    "downloadedOn": "2026-10-16",
    "sha256Original": "32ab43213b0861c529b40178a5b0b86158204681d109cdfda65b5afd5f57efbf"
+  },
+  {
+   "file": "/guides/photos/squirrel-drey-bare-winter-tree.webp",
+   "subject": "Eastern gray squirrel, Sciurus carolinensis, leaf nest (drey) high in a bare deciduous tree in winter, against a blue sky (Ithaca, New York, January 30, 2021; research grade on iNaturalist, two identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/68840209",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/111567440/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 249592,
+   "sourceDescription": "Sciurus carolinensis",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "54003cf59f10661908e32c07c99710969215360bb7f6b4f5e219c560460aadd6"
+  },
+  {
+   "file": "/guides/photos/squirrel-drey-dead-leaves-closeup.webp",
+   "subject": "Eastern gray squirrel, Sciurus carolinensis, leaf nest (drey): a close view of a ball of dead brown leaves packed among the twigs of a small tree (near Houston, Texas, December 13, 2015; research grade on iNaturalist, two identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/2570097",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/2866255/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1027,
+   "bytes": 168348,
+   "sourceDescription": "Sciurus carolinensis",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "0d2553440542dbf61e4677a28c9c37b7268efa17dc69403ca69c61f4176fcdc3"
   },
   {
    "file": "/guides/photos/squirrel-warbles.webp",
@@ -10118,6 +11057,20 @@
    "sourceDescription": "Stomoxys calcitrans",
    "downloadedOn": "2026-10-15",
    "sha256Original": "df7d9bfa89f08ae6e0858c7cf808f6961048e0421796a4dfde5e217fdee4862e"
+  },
+  {
+   "file": "/guides/photos/stone-centipede-forcipules-underside.webp",
+   "subject": "Stone centipede Paitobius zinus (order Lithobiomorpha, family Lithobiidae), adult male seen from below under magnification, showing the venom claws (forcipules) curving forward under the head (Rockbridge County, Virginia; collected with permit; research grade on iNaturalist, two identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/288078530",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/518027767/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Derek Hennen, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1239,
+   "bytes": 72542,
+   "sourceDescription": "Paitobius zinus",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "3b958e118cd3ee9a9da9e2b9e3791f7d02e152bd5adea8a909b1d5d29e92a549"
   },
   {
    "file": "/guides/photos/straw-itch-mite-bites.webp",
@@ -10203,6 +11156,20 @@
    "sourceDescription": "Mephitis mephitis",
    "downloadedOn": "2026-10-29",
    "sha256Original": "b21cf33f668232ce669f257f10af15acec70b5c5d852664bb4e45aafce549251"
+  },
+  {
+   "file": "/guides/photos/striped-skunk-tracks-snow.webp",
+   "subject": "Striped skunk, Mephitis mephitis, tracks: four prints in thin snow, left the night a skunk tripped the observer’s motion light (Ashfield, Massachusetts; research grade on iNaturalist, three identifiers including tracker Kim Cabrera)",
+   "sourceUrl": "https://www.inaturalist.org/observations/338307804",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/615202060/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 800,
+   "bytes": 44050,
+   "sourceDescription": "Mephitis mephitis",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "a78a2e7ea27555602a6aabc5cb3ba4617b733c8e6baa01ba10477ef938b97f98"
   },
   {
    "file": "/guides/photos/swallow-bug-top-view.webp",
@@ -11157,6 +12124,20 @@
    "sourceDescription": "Dermacentor albipictus",
    "downloadedOn": "2026-10-15",
    "sha256Original": "63103dc5ae8c0b76ffcfb5ef8db50a23e8c269266f9dd52e53a592283c005a18"
+  },
+  {
+   "file": "/guides/photos/wireworm-beside-dime.webp",
+   "subject": "Wireworm: larva of the pasture wireworm, Monocrepidius exsul (a click beetle), on soil beside a US dime (San Luis Obispo, California; annotated larva; research grade on iNaturalist, two identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/194953077",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/342837517/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 217332,
+   "sourceDescription": "Monocrepidius exsul",
+   "downloadedOn": "2026-11-09",
+   "sha256Original": "486a25aeb1d0374a2b6286979dd66a77f0ab9dadd156b38e3078bd0253f52274"
   },
   {
    "file": "/guides/photos/wolf-spider-egg-sac-side.webp",

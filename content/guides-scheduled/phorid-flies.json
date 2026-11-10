@@ -1,0 +1,252 @@
+{
+  "slug": "phorid-flies",
+  "kind": "spoke",
+  "cluster": "flies",
+  "keyword": "phorid flies",
+  "alsoTargets": [
+    "phorid fly",
+    "humpbacked flies",
+    "coffin flies",
+    "phorid flies vs fruit flies",
+    "phorid flies in bathroom",
+    "how to get rid of phorid flies",
+    "scuttle flies"
+  ],
+  "metaTitle": "Phorid Flies: ID Them, Find the Source (Photos)",
+  "metaDescription": "Phorid flies are tiny humpbacked flies that run instead of flying. Tell them from fruit flies and drain flies, find where they breed and get rid of them.",
+  "h1": "Phorid Flies: How to Identify Them and Find Where They Breed",
+  "dek": "Tiny flies running across a sink, counter or wall instead of flying off are usually phorid flies. Photos, how to tell them from fruit flies and drain flies, where they breed, and how to get rid of phorid flies for good.",
+  "breadcrumb": "Phorid Flies",
+  "excerpt": "How to identify phorid flies, tell them from fruit flies, drain flies and fungus gnats, find where they breed, and why sprays alone will not get rid of them.",
+  "datePublished": "2026-11-12",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Phorid flies are tiny humpbacked flies, about 1/8 inch long or smaller, that run across sinks, counters and walls in quick, jerky bursts instead of flying off, and they keep coming because their larvae are growing in something wet and rotting nearby.** [NC State Extension](https://content.ces.ncsu.edu/phorid-flies) says finding and removing that breeding material is the key to control.",
+    "bullets": [
+      "[Texas A&M AgriLife Extension](https://agrilifeextension.tamu.edu/library/insects/indoor-flies-and-their-control/) puts phorid flies at about 1/8 inch, the size of a fruit fly, and [LSU AgCenter](https://www.lsuagcenter.com/articles/page1669662173328) gives 1/25 to 1/10 inch for *Megaselia scalaris*, a common household species.",
+      "Their eyes are dark rather than red, [Mississippi State Extension](https://extension.msstate.edu/sites/default/files/publications/P2443__web.pdf) notes, and Texas A&M says enlarged hind legs make them good runners.",
+      "The larvae live in moist, decaying matter: [Virginia Cooperative Extension](https://pubs.ext.vt.edu/ENTO/ENTO-433/ENTO-433.html) lists dirty garbage cans, clogged drains, leaking appliances, drip pans and broken sewer pipes under concrete slabs.",
+      "Clear packing tape laid across a drain shows whether flies are coming up from it: flies stuck to the tape mean that drain is a breeding site, Texas A&M says.",
+      "NC State says one female can lay over 700 eggs in her lifetime, and Texas A&M gives 14 to 37 days from egg to adult, depending on conditions.",
+      "Phorid flies do not bite, and [University of Kentucky entomologists](https://entomology.mgcafe.uky.edu/ef657) say traps, sanitation and insecticides will not solve an infestation until the breeding site is found and eliminated."
+    ]
+  },
+  "facts": {
+    "title": "Phorid fly or something else? Quick ID",
+    "head": ["Bug", "Size", "The tell", "Where it comes from"],
+    "rows": [
+      ["Phorid fly", "About 1/8 inch or smaller", "Humped back and dark eyes; runs in jerky bursts before it flies", "Wet, rotting matter: drains, garbage, pet waste, sewage leaks, dead animals"],
+      ["Fruit fly", "About 1/8 inch", "Usually red eyes and a stout body; flies to ripe fruit and open drinks", "Ripe or fermenting fruit and vegetables, juice and wine residue"],
+      ["Dark-eyed fruit fly", "Fruit fly size, about 1/8 inch", "Black eyes like a phorid, but no hump and no scuttling run", "Drains and around bathrooms"],
+      ["Drain fly (moth fly)", "1/16 to 1/5 inch", "Fuzzy, moth-like wings held like a roof; weak, short hops", "Slimy film inside sink, tub and floor drains"],
+      ["Fungus gnat", "1/16 to 1/8 inch", "Slender, with long legs and antennae, like a tiny mosquito", "Damp potting soil"],
+      ["Small dung fly", "About 1/8 inch", "First segment of each hind foot enlarged", "Manure and other moist organic matter"],
+      ["Black fly (buffalo gnat)", "Just under 1/4 inch", "Humpbacked too, but the females bite; does not scuttle", "Clear, fast-running streams, outdoors"],
+      ["No-see-um (biting midge)", "1/25 to 1/10 inch", "Females bite, mostly at dusk and dawn; slips through window screens", "Moist soil rich in organic matter, outdoors"],
+      ["Cat flea", "Up to 1/8 inch", "Wingless, reddish brown and flattened side to side; jumps", "Pets and the places they sleep"],
+      ["Springtail", "About 1/16 inch", "Wingless; jumps when disturbed", "Damp spots: sinks, tubs, floor drains, plant soil"]
+    ],
+    "caption": "Sizes, tells and breeding sites from Texas A&M, LSU, Purdue, Iowa State, Montana State, UC IPM, NC State, Virginia Tech, Kentucky and Mississippi State. Each source is linked in the sections below."
+  },
+  "body": [
+    { "type": "h2", "text": "What are phorid flies?" },
+    { "type": "p", "text": "Phorid flies are small flies of the family Phoridae, also called humpbacked flies, scuttle flies, coffin flies and sewer flies, whose larvae live in moist, decaying matter. [NC State Extension](https://content.ces.ncsu.edu/phorid-flies) names *Megaselia scalaris* and *Dohrniphora cornuta* as the two species found most often in and around homes, and [Virginia Cooperative Extension](https://pubs.ext.vt.edu/ENTO/ENTO-433/ENTO-433.html) adds sewer fly to the common names." },
+    { "type": "figure", "src": "/guides/photos/phorid-fly.webp", "width": 1036, "height": 917, "alt": "Tan phorid fly with a large black eye and a humped back, standing on pale fruit flesh beside a printed scale bar", "caption": "A phorid fly, *Megaselia scalaris*, beside a 1 mm scale bar (about 1/25 inch); the photographer found it crawling on fruit with fruit flies in La Habra, California. Note the humped back.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/19007477" },
+    { "type": "p", "text": "Most phorid species are not household pests: Virginia Tech says the vast majority of species live outdoors with little or no effect on people, and some are studied as a way to control fire ants. The ones indoors keep coming back because, as [Mississippi State Extension's newsletter](https://extension.msstate.edu/newsletters/bugs-eye-view/2022/phorid-flies-vol-8-no-6) explains, phorid flies found inside are almost surely breeding inside. Not sure yet which small fly you have? [The guide to flies in the house](/blog/flies-in-house) sorts every common indoor fly by size and where it shows up." },
+
+    { "type": "h2", "text": "What do phorid flies look like?" },
+    { "type": "p", "text": "A phorid fly is a tiny tan, brown or black fly with a humped back, a small head held low, dark eyes, long flattened hind legs and clear wings whose thick veins bunch along the front edge:" },
+    { "type": "ul", "items": [
+      "**Size.** About 1/8 inch (2 to 4 mm) in Texas A&M's guide; LSU gives 1/25 to 1/10 inch for *M. scalaris*, with females larger than males.",
+      "**Back.** Strongly arched behind a small, low-set head, Virginia Tech says; [Kentucky's fact sheet on small flies](https://entomology.mgcafe.uky.edu/ef657) describes a light brown or yellow hump.",
+      "**Eyes.** Dark, not red as in most fruit flies, per [Mississippi State's household pest guide](https://extension.msstate.edu/sites/default/files/publications/P2443__web.pdf).",
+      "**Legs.** The back legs are long and flat (NC State), with enlarged femurs that make phorids good runners (Texas A&M).",
+      "**Wings.** Clear, with heavy dark veins near the front margin, crowded toward the base, and three or four parallel veins crossing the wing from there (NC State, Virginia Tech); [Purdue's small fly guide](https://www.extension.entm.purdue.edu/publications/E-233/E-233.html) counts two thick veins at the leading edge.",
+      "**Color.** Tan to dark brown or black (Texas A&M), some with dark bands across the abdomen (Virginia Tech)."
+    ] },
+    { "type": "figure", "src": "/guides/photos/phorid-fly-apartment.webp", "width": 1200, "height": 900, "alt": "Tan phorid fly in side view on a white textured surface, wings raised, showing a humped thorax, a black eye, a broad spiny hind leg and thick dark veins along the front of each wing", "caption": "One of the tiny flies an observer found in an apartment in San Marcos, Texas, mostly around the kitchen sink and in the bathroom; two iNaturalist identifiers agree it is a phorid. Note the thick veins at the front of the wing and the broad hind leg.", "license": "CC-BY-4.0", "credit": "(c) Joseph Aubert, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/205198307" },
+    { "type": "p", "text": "Watch one move before you reach for a magnifier. Virginia Tech says phorids run a short distance, pause and abruptly change direction, and often run away rather than fly away, the habit behind the name scuttle fly. LSU adds that an infestation is often first noticed when adults land on countertops, tables or bare skin." },
+    { "type": "figure", "src": "/guides/photos/phorid-fly-fingertip.webp", "width": 1200, "height": 1200, "alt": "Small brown phorid fly with a humped back and a black eye lying on the pad of a fingertip, its folded wings over a dark-banded abdomen", "caption": "A phorid fly on a fingertip, for size. The observer found it drowned in a cup of water in a bathroom; iNaturalist identifiers place it in the phorid family.", "license": "CC-BY-4.0", "credit": "(c) Carrie Seltzer, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/95405312" },
+    { "type": "p", "text": "You will rarely see the young. NC State says the larvae, small white, yellow-white or gray maggots, are rarely seen, and describes the pupal cases as oval and slightly flattened, with short spikes and two breathing horns. For maggots you can see in a trash can or on a floor, [the guide to maggots](/blog/maggots) shows which flies leave them." },
+    { "type": "media", "needed": "Phorid fly larvae and pupal cases (Megaselia scalaris) in wet organic matter, such as drain scum or a rotting potato, beside a ruler marked in inches; public domain, CC0 or CC BY, identified by an entomologist or a university diagnostic lab" },
+
+    { "type": "h2", "text": "Why are phorid flies called coffin flies?" },
+    { "type": "p", "text": "Because some of them breed in buried bodies. NC State says the name comes from their breeding in mausoleums and corpses, buried coffins included, and Kentucky says they can find breeding sites buried well below ground. LSU calls *M. scalaris* an important species in forensic entomology, the use of insects as evidence." },
+    { "type": "p", "text": "In a house the same talent means a fly that can reach sewage-soaked soil under a cracked slab or a dead mouse inside a wall, which is why the real work is finding the source, not swatting the flies you can see." },
+
+    { "type": "h2", "text": "How do you tell phorid flies from fruit flies?" },
+    { "type": "p", "text": "Check the eyes, the back and the way it moves. Fruit flies usually have red eyes and a stout body and fly to ripe fruit; phorid flies have dark eyes and a humped back and run in bursts. Mississippi State's newsletter says the dark eyes alone separate them, but Texas A&M describes black-eyed fruit flies, called dark-eyed fruit flies, that breed in drains and around bathrooms, right where phorids turn up, so check the hump and the scuttling run too." },
+    { "type": "figure", "src": "/guides/photos/phorid-fly-raspberry-scale-bar.webp", "width": 1200, "height": 1141, "alt": "Close-up of a red raspberry with one tiny brown phorid fly on its drupelets and a printed scale bar at the lower left", "caption": "A phorid fly, *Megaselia scalaris*, on a raspberry indoors, with a 1 mm scale bar (about 1/25 inch) at lower left; the photographer found it crawling on fruit with fruit flies. On fruit, check the eyes and the back before you assume fruit flies.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/19007478" },
+    { "type": "p", "text": "The two share food: Mississippi State's household pest guide lists a tomato behind the refrigerator or a forgotten bag of potatoes or fruit as a source of either. [The University of Tennessee's guide to small flies](https://solutions.tennessee.edu/publication/W1256), citing a board-certified entomologist, adds that as the vinegar in a fruit fly trap ages and evaporates, it may start drawing phorid flies and can leave a damp layer where their larvae can grow, so check the trap often and change the vinegar regularly. [How to get rid of fruit flies](/blog/fruit-flies) covers clearing a fruit fly source." },
+    { "type": "figure", "src": "/guides/photos/fruit-fly-mango-peel.webp", "width": 1200, "height": 1200, "alt": "Tan fruit fly with a bright red eye and a smooth, rounded back, seen from the side on pale yellow mango peel", "caption": "A common fruit fly on mango peel indoors in Austin, Texas, where the observer's fruit flies were feeding and breeding: a red eye and a smoothly rounded back, with no hump.", "license": "CC-BY-4.0", "credit": "(c) Justin Williams, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/320069474" },
+
+    { "type": "h2", "text": "Is it a phorid fly, a drain fly or a fungus gnat?" },
+    { "type": "p", "text": "Watch where it sits and how it moves. Kentucky describes drain flies as hairy, with oval wings held roof-like, flying weakly in short hops, and fungus gnats as slender, long-legged weak fliers drawn to light; phorids run. Mississippi State adds that phorids are sometimes called drain flies because some breed in the scum inside drainpipes. Where you see the flies narrows it down:" },
+    { "type": "table", "head": ["Where you see small flies", "Most likely", "Also check"], "rows": [
+      ["Running on a counter, sink or table", "Phorid flies", "Dark-eyed fruit flies near a drain"],
+      ["Around ripe fruit, open drinks or the trash", "Fruit flies", "Phorid flies, which also breed in rotting produce and garbage"],
+      ["Resting on the wall beside a sink, tub or floor drain", "Drain flies", "Phorid flies, which breed in drains too"],
+      ["Around houseplants, windows and lamps", "Fungus gnats", "Phorid flies from soggy potting soil or drain saucers"],
+      ["Crowding a basement or ground floor", "Phorid flies from a broken drain or sewer line", "Drain flies from a floor drain"],
+      ["In a bathroom no one uses", "Flies from the sewer, through a drain trap that has dried out", "Drain or phorid flies breeding in that drain"],
+      ["Biting you, outdoors or at a screen", "No-see-ums or black flies", "Not phorid flies, which do not bite"]
+    ] },
+    { "type": "figure", "src": "/guides/photos/drain-flies-sink.webp", "width": 1200, "height": 1200, "alt": "Three small dark drain flies with fuzzy, moth-like wings resting on a white bathroom sink near the drain", "caption": "Drain flies in a bathroom sink in Queens, New York. Their fuzzy, moth-like wings set them apart from the clear-winged, humpbacked phorid.", "license": "CC-BY-4.0", "credit": "(c) Dilrukshan Priyantha Wijesinghe, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/28811964" },
+    { "type": "p", "text": "A drain that turns out to breed drain flies needs [the drain fly guide](/blog/how-to-get-rid-of-drain-flies), and gnats around potted plants need [the fungus gnat plan](/learn/how-to-get-rid-of-fungus-gnats)." },
+    { "type": "checklist", "title": "How to tell which small fly you have", "items": [
+      "**Runs before it flies?** Short dashes, a pause and a sudden turn point to a phorid fly.",
+      "**Humped back, seen from the side?** A phorid fly, or a black fly if it bites you outdoors.",
+      "**Eye color?** Red means a fruit fly; dark means a phorid fly or a dark-eyed fruit fly.",
+      "**Fuzzy wings held like a roof?** A drain fly.",
+      "**Slender, with long legs and antennae?** A fungus gnat.",
+      "**Thick dark veins crowding the front edge of the wing, under a magnifier?** The phorid pattern.",
+      "**Size beside a ruler marked in inches?** Phorid and fruit flies run about 1/8 inch; drain flies up to 1/5 inch.",
+      "**Coming from a drain?** Lay tape across it, sticky side down, or a clear cup upside down over it while it is not in use: flies caught mean that drain breeds them."
+    ] },
+
+    { "type": "h2", "text": "Why do I have phorid flies in my bathroom?" },
+    { "type": "p", "text": "Usually because something in or under the bathroom is wet and decaying. [Utah State University Extension](https://extension.usu.edu/planthealth/ipm/notes_nuisance/phorid-flies) calls floor drains a common breeding ground; Virginia Tech lists clogged sink, tub and floor drains, pooled water and damp rags or sponges; and Mississippi State's newsletter adds organic matter under tile floors with cracks or missing grout." },
+    { "type": "figure", "src": "/guides/photos/phorid-fly-bathroom-sink-side.webp", "width": 1200, "height": 1211, "alt": "Orange-tan phorid fly in side view on a white surface, with a strongly humped thorax, a black eye, long bristly legs and a dark-banded abdomen under clear wings", "caption": "A phorid fly, *Megaselia scalaris*, that the observer found in a bathroom sink in Austin, Texas; the observer suspected the household's cat litter boxes as the source.", "license": "CC-BY-4.0", "credit": "(c) Justin Williams, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/137826947" },
+    { "type": "p", "text": "Two causes are easy to miss. In a guest bathroom or any rarely used drain, Mississippi State's household pest guide explains, the water can evaporate from the drain trap and let flies that developed farther down the sewer fly straight up the pipe; flushing or running water to refill the trap may solve it. The same guide lists leaks in plumbing lines or shower drains under the slab." },
+    { "type": "p", "text": "Flies in a sink do not prove the sink is the source, so tape-test it before you scrub. For the other bugs of tubs and sinks, from springtails to silverfish, see [the guide to bugs in the bathroom](/blog/bugs-in-bathroom)." },
+
+    { "type": "h2", "text": "Why are there phorid flies in my kitchen?" },
+    { "type": "p", "text": "Kitchens hold plenty of the moist, rotting food phorid larvae eat, usually out of sight. NC State says to start an indoor search in the kitchen with rotting stored food. The places the extension guides name:" },
+    { "type": "ul", "items": [
+      "**Garbage disposals and sink drains** (Mississippi State, NC State, Tennessee).",
+      "**The bottoms of trash cans and recycling bins,** which Virginia Tech says to empty and clean regularly.",
+      "**Food that rolled under or behind an appliance,** such as a tomato behind the refrigerator (Mississippi State).",
+      "**Stored potatoes and onions** (NC State).",
+      "**Drip and condensation pans** under refrigerators (Virginia Tech, Mississippi State), icemaker and refrigerator condensate trays (Texas A&M) and leaks around dishwashers.",
+      "**Dirty mops, mop heads, rags and sponges** (NC State, Utah State, Virginia Tech).",
+      "**Cracks and ledges under appliances** where food collects (Virginia Tech, Purdue)."
+    ] },
+    { "type": "p", "text": "An old vinegar trap belongs on the list too. [The guide to bugs in the kitchen](/blog/bugs-in-kitchen) covers the other kitchen visitors." },
+
+    { "type": "h2", "text": "Why are there phorid flies in my basement?" },
+    { "type": "p", "text": "Think water, pipes and anything that died. NC State's list of places to check runs through plumbing, toilets, septic tanks, moist areas around drains, crawl spaces, wall voids and basements, and Purdue adds wet wall and ceiling insulation." },
+    { "type": "p", "text": "A crowd that never thins on the lowest floor points below the floor. [The University of Maryland Extension](https://extension.umd.edu/resource/phorid-fly) says extremely large numbers of phorid flies on a first floor may mean a broken drain or sewer line under the building, and Mississippi State's newsletter calls broken sewage lines under buildings the most difficult phorid problems to solve, adding that a simple source such as a lost bag of rotten potatoes is much more common." },
+    { "type": "p", "text": "A dead animal is the other hidden source: Mississippi State lists a dead rat or bird, and Texas A&M suggests looking for signs of rodents that might mean a dead animal in the structure. If bigger flies suddenly fill one room too, [why big flies appear all at once](/blog/flies-in-house) explains it, and [the guide to bugs in the basement](/blog/bugs-in-basement) covers the basement's other residents." },
+
+    { "type": "h2", "text": "Can phorid flies come from a litter box, houseplants or cut flowers?" },
+    { "type": "p", "text": "Yes, all three. Mississippi State's newsletter lists pet feces and litter boxes, pots of dead plants and vases of cut flowers left standing too long; NC State adds pet waste, potted plants and compost bins; Utah State names pet cages with moist droppings or food; and Tennessee the soiled bedding of animals." },
+    { "type": "p", "text": "In a flower pot, phorids and fungus gnats can share the blame: Mississippi State says wet organic matter in houseplant drain saucers can breed either and advises against overwatering, and Tennessee lists overwatered pots and advises throwing out decaying plants. [The houseplant fungus gnat fix](/blog/how-to-get-rid-of-fungus-gnats-houseplants) walks through drying the soil." },
+    { "type": "figure", "src": "/guides/photos/fungus-gnat-penny-scale.webp", "width": 846, "height": 844, "alt": "A tiny dark fungus gnat with long legs and clear wings on a gray surface beside a US penny", "caption": "A fungus gnat beside a US penny; the observer found them indoors in Oregon, drawn to fruit, tea bags and potted plants. It is slender and long-legged.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/330554465" },
+
+    { "type": "h2", "text": "How do you find where phorid flies are breeding?" },
+    { "type": "p", "text": "Narrow it down room by room, test the drains, then check the plumbing; NC State notes that the breeding sources are so varied that the source is hard to pin down, yet finding it is essential to control:" },
+    { "type": "ol", "items": [
+      "**Map the flies.** Set sticky traps in several rooms. Kentucky says traps show where an infestation starts by where the most flies are caught, and Tennessee suggests insect light traps for the same purpose.",
+      "**Test every drain** with clear packing tape across it, without sealing the opening completely (Texas A&M), sticky side down (Virginia Tech), or a clear jar upside down over it while the drain is not in use (Mississippi State). Flies caught mean that drain is a source.",
+      "**Refill unused drains and toilets** so each trap holds water again (Mississippi State).",
+      "**Search the kitchen, then the rest:** rotting stored food first (NC State), then the trash, the disposal, the drip pans and the spaces under appliances.",
+      "**Look for water** around dishwashers, refrigerators and washing machines and under sinks, as Virginia Tech advises.",
+      "**Check pets and plants:** litter boxes, cages, plant saucers and old cut flowers.",
+      "**Call a plumber** if the lowest floor has the most flies and nothing else turns up."
+    ] },
+    { "type": "media", "needed": "Clear packing tape laid across a bathroom sink or floor drain overnight, with several small phorid or drain flies stuck to it, photographed from above beside a ruler marked in inches; public domain, CC0 or CC BY" },
+    { "type": "p", "text": "Not every fly starts inside, though most do. Kentucky says phorids can come in through open doors and windows in autumn, Tennessee says outdoor decaying vegetation may supply many indoor flies in years of heavy rain, and NC State says the flies follow light and air currents, so the source may not even be on your property." },
+
+    { "type": "h2", "text": "Why won't sprays get rid of phorid flies?" },
+    { "type": "p", "text": "Because sprays and traps reach only the adults, and bleach does not kill the larvae, which keep growing in the breeding material. NC State says residual liquid pesticides kill adults but will not eliminate an infestation, Mississippi State's newsletter calls insecticides of little or no use in most cases, and Kentucky says traps, sanitation and insecticides will not solve it until the breeding site is found." },
+    { "type": "p", "text": "The numbers explain why: NC State says a female can lay over 700 eggs in her lifetime (Kentucky says 100 at a time), development takes 14 to 37 days from egg to adult in Texas A&M's figures, and Kentucky says adults live about 1 to 2 months. A source left in place keeps replacing the flies you kill." },
+    { "type": "p", "text": "Bleach is no shortcut. NC State says bleach and standard cleaners do not kill the larvae, and that bleach and other strong cleaners should not go down drains at all because they can react dangerously with other compounds; Purdue agrees that bleach and hot water will not clear breeding sites in drains. Mississippi State says never to use insecticides in drains and recommends a brush and a microbial drain cleaner used as its label directs." },
+    { "type": "p", "text": "Adults can still be knocked down while you search: Virginia Tech suggests a fly swatter, an aerosol spray, sticky fly tape or light traps, kept away from food and utensils, and LSU notes that traps shrink the adult population while removing what the larvae eat is what lasts." },
+    { "type": "callout", "tone": "warning", "title": "The label is the law", "text": "Using a pesticide in a way its label does not allow is a violation of federal law, [the EPA explains](https://www.epa.gov/pesticide-labels/introduction-pesticide-labels). Use any fly spray only where and how its label directs, and never pour insecticide, bleach or other strong cleaners down a drain." },
+
+    { "type": "h2", "text": "When should you call a plumber about phorid flies?" },
+    { "type": "p", "text": "Call one when the flies are thickest on the lowest floor and nothing above turns up a source, or when a drain test points to a line you cannot reach. Virginia Tech says to consult a plumber when sewer or drain pipes break and leak decaying matter into the soil under foundations or slabs, and Tennessee says to suspect a broken sewer or waste pipe when no other food for the larvae can be found." },
+    { "type": "p", "text": "NC State says a plumbing company can examine drain lines with a flexible scope or with smoke, and that the smoke usually follows the path the flies took into the building, escaping along foundation expansion cracks or similar openings; Tennessee suggests a borescope in the rooms where the most flies are caught." },
+    { "type": "p", "text": "Fixing the pipe is only half the job. NC State says the slab has to be opened, the pipe repaired and all infested soil removed, usually by a professional team; Purdue says to replace sewage-infested soil with new soil, and Texas A&M warns the excavation can be expensive. LSU adds that repairs that leave old pipes in place, still holding moisture and organic matter, can cause persistent infestations that are hard to diagnose." },
+
+    { "type": "h2", "text": "Are phorid flies dangerous?" },
+    { "type": "p", "text": "Mostly they are a nuisance, but they are filth flies, so keep them off food. Virginia Tech says adults do not bite but may carry disease organisms to fresh food, Kentucky says that because they breed on material such as leaking sewage, they can carry disease-causing microbes to food and other surfaces, and Tennessee says small indoor flies can contaminate food and food preparation surfaces." },
+    { "type": "p", "text": "The rare cases involve larvae in people. Myiasis is infection with fly larvae, in [CDC's definition](https://www.cdc.gov/dpdx/myiasis/index.html), and NC State reports phorid larvae in the eyes, wounds and intestines of people, including the wounds of hospital patients, while calling such cases fairly rare. LSU notes that reptiles appear particularly susceptible to myiasis by scuttle fly larvae. Anyone who finds larvae in a wound should see a healthcare provider." },
+    { "type": "p", "text": "If a small fly bites you, it is not a phorid: Mississippi State says the common small indoor flies do not bite. The usual biters are no-see-ums, which [Montana State University Extension](https://extension-store.montana.edu/assets/publications/montguidepdfs/mt201205ag_biology_and_impact_of_biting_midges_in_mt.pdf) says can fly through window screens and hunt mostly at dusk and dawn, and black flies, humpbacked too but biting near rivers and streams, in [Iowa State's description](https://yardandgarden.extension.iastate.edu/encyclopedia/black-fly). [What no-see-um bites look like](/blog/no-see-um-bites) and [the guide to gnat bites](/blog/gnat-bites) cover both." },
+    { "type": "p", "text": "Two wingless look-alikes jump: springtails, which [UC IPM](https://ipm.ucanr.edu/home-and-landscape/springtails/) says gather at sinks, tubs and floor drains and do not bite, and cat fleas, which [UC IPM's flea guide](https://ipm.ucanr.edu/home-and-landscape/fleas/) puts at no more than 1/8 inch, living on pets." },
+    { "type": "confused", "items": [
+      { "href": "/blog/fruit-flies", "name": "Fruit fly", "photo": "fruit-fly", "note": "Usually red eyes and a stout body with no hump; flies to ripe fruit and open drinks", "alt": "Tan fruit fly with a bright red eye, magnified beside a printed scale bar" },
+      { "href": "/blog/how-to-get-rid-of-drain-flies", "name": "Drain fly", "photo": "drain-fly-bathroom-wall", "note": "Fuzzy, moth-like wings held flat or like a roof; rests on the wall near its drain", "alt": "Fuzzy gray drain fly with moth-like wings spread flat on a textured white wall" },
+      { "href": "/learn/how-to-get-rid-of-fungus-gnats", "name": "Fungus gnat", "photo": "fungus-gnat-kitchen-counter", "note": "Slender, with long legs and antennae, like a tiny mosquito; breeds in damp potting soil", "alt": "Slender black fungus gnat with long legs and clear wings on a blue surface" },
+      { "href": "/blog/black-flies", "name": "Black fly", "photo": "black-fly", "note": "Humpbacked too and just under 1/4 inch, but the females bite near rivers and streams", "alt": "Dark black fly with a large eye, black legs and clear wings on a pale surface" },
+      { "href": "/blog/no-see-ums", "name": "No-see-um", "photo": "biting-midge-culicoides", "note": "1/25 to 1/10 inch; the females bite mostly at dusk and dawn and slip through window screens", "alt": "Brown biting midge with spotted wings, seen under a microscope" },
+      { "href": "/blog/springtails", "name": "Springtail", "photo": "springtail", "note": "Wingless and about 1/16 inch; jumps when disturbed, around sinks and tubs", "alt": "Pale springtail with dark stripes on a green leaf beside a printed scale bar" }
+    ] },
+
+    { "type": "h2", "text": "What should you do once you know they are phorid flies?" },
+    { "type": "p", "text": "Find the source, then remove it or dry it out; the flies fade only after that:" },
+    { "type": "ol", "items": [
+      "**Confirm the fly** with the checklist above.",
+      "**Map and test before you clean,** so you know which source you removed.",
+      "**Remove or dry out what the larvae eat:** rotting produce, gunk in trash and recycling bins, dirty drip pans, full litter boxes and leaks, as Virginia Tech and Mississippi State advise; the University of Maryland sums it up as removing the material or drying it out.",
+      "**Scrub breeding drains** with a brush, then use a microbial drain cleaner as its label directs; no bleach or insecticide down the drain.",
+      "**Refill dry traps** in unused drains and toilets.",
+      "**Knock down adults** with a swatter, sticky traps or a labeled aerosol kept away from food.",
+      "**Call a plumber** if the lowest floor stays the worst.",
+      "**Keep a few sticky traps out for several weeks:** falling catches suggest the source is gone; steady catches suggest another one remains."
+    ] },
+    { "type": "callout", "tone": "tip", "title": "Save a few flies", "text": "Press a few flies onto clear tape or seal them in a small jar, photograph them beside a ruler marked in inches, and note the room and the spot where you found them. Your county's cooperative extension office or a pest professional can confirm a phorid fly from a sample like that." }
+  ],
+  "faqs": [
+    {
+      "question": "Do phorid flies bite?",
+      "answer": "No. Virginia Cooperative Extension says adult phorid flies do not bite humans or animals, and NC State and the University of Kentucky agree. Mississippi State Extension notes that none of the small flies that commonly breed indoors bite. If tiny flies are biting you, they are more likely no-see-ums, which are small enough to pass through window screens and bite mostly at dusk and dawn, or black flies, humpbacked biting flies that breed in fast-running streams outdoors."
+    },
+    {
+      "question": "Can phorid flies make you sick?",
+      "answer": "They can carry germs, which is why they should be kept off food. Virginia Tech says phorid flies may transfer disease organisms to fresh food, and the University of Kentucky says that because they breed on dirty material such as leaking sewage, they can carry disease-causing microbes to food and other surfaces. NC State calls them mainly nuisance pests and says cases of their larvae infesting people are fairly rare. Cover food, clean counters and remove the breeding source."
+    },
+    {
+      "question": "Can phorid flies lay eggs in humans?",
+      "answer": "Rarely. NC State reports cases of phorid larvae infesting the eyes, wounds and intestines of people, including the wounds of hospital patients, and calls such cases fairly rare; it is one reason phorids are a concern in hospitals. CDC defines myiasis as infection with the larval stage of flies. In a home, the more ordinary concern in Virginia Tech's and Kentucky's descriptions is adults carrying germs to food. Anyone who finds larvae in a wound should contact a healthcare provider."
+    },
+    {
+      "question": "Why do I have phorid flies in my house all of a sudden?",
+      "answer": "Something wet and decaying probably started breeding them 10 days to several weeks before you noticed: NC State puts development from egg through the pupal stage at about 10 days, and Texas A&M at 14 to 37 days from egg to adult. Common triggers are a forgotten potato or onion, food that rolled under an appliance, a dirty garbage disposal or trash can, a leak, a refrigerator drip pan, a litter box, or a dead mouse or bird. A sudden swarm on the lowest floor can also mean a broken drain or sewer line under the building."
+    },
+    {
+      "question": "Can phorid flies come from outside?",
+      "answer": "Some do. The University of Kentucky says phorid flies can enter through open doors or windows in autumn, at the peak of their breeding season, and the University of Tennessee says that in years of heavy rain, decaying vegetation outdoors may supply many of the flies found indoors. NC State adds that the source may not even be on your property. Still, Mississippi State says phorid flies found inside are almost surely breeding inside, so search indoors first."
+    },
+    {
+      "question": "Do phorid flies go away in winter?",
+      "answer": "Not necessarily. Virginia Tech says phorid flies have several generations a year, limited mainly by cold temperatures and the food available, so a wet, rotting source inside a heated house can keep producing them through the winter. The University of Kentucky says adults live about 1 to 2 months, and the University of Tennessee says new adults keep coming until the larval food is removed. Flies that keep turning up in midwinter point to a source inside the house."
+    },
+    {
+      "question": "How long do phorid flies live?",
+      "answer": "The University of Kentucky says adults live about 1 to 2 months. Getting from egg to adult takes roughly 10 days to five weeks: Texas A&M gives 14 to 37 days, depending on conditions, the University of Tennessee 11 days to four weeks depending on temperature, and NC State about 10 days from egg through the pupal stage. Because a female can lay over 700 eggs in her lifetime, NC State says a few flies can quickly lead to many."
+    },
+    {
+      "question": "Why are there phorid flies in my fridge?",
+      "answer": "Look under it as well as in it. Virginia Tech and Mississippi State both list the drip or condensation pan under a refrigerator as a breeding site, Texas A&M says to check the condensate lines and trays of refrigerators and icemakers, and food that rolled under or behind the refrigerator is a classic source on Mississippi State's list. Inside, check for rotting produce, as NC State advises for any kitchen. Clean and dry the pan, and fix any leak you find."
+    },
+    {
+      "question": "Can phorid flies breed in a cat litter box?",
+      "answer": "Yes. Mississippi State Extension lists pet feces and litter boxes among phorid breeding sites, NC State lists pet waste, Utah State names pet cages where moist droppings or food sit, and the University of Tennessee lists the soiled bedding of animals. Empty the box regularly, as Mississippi State advises, clean the area around it, and test nearby drains with tape as well, since a fly seen near the box may have come from somewhere else."
+    },
+    {
+      "question": "Are phorid flies attracted to vinegar or light?",
+      "answer": "Both, in different ways. NC State says adult phorids are attracted to light, though Purdue's small fly guide says light traps attract only the males. Vinegar is a fruit fly bait, but the University of Tennessee, citing a board-certified entomologist, says that as the vinegar in a trap ages and evaporates it may attract phorid flies and leave a damp layer where their larvae can grow, so change it often. Traps of either kind reduce the adults; they do not remove the source."
+    }
+  ],
+  "sources": [
+    { "title": "Phorid Flies, by Sydney Crawley and Matt Bertone (2021)", "publisher": "NC State Extension", "url": "https://content.ces.ncsu.edu/phorid-flies" },
+    { "title": "Phorid Flies (ENTO-433NP, revised August 2026), by Patricia L.S. Wooden, Theresa A. Dellinger and Eric Day", "publisher": "Virginia Cooperative Extension, Virginia Tech", "url": "https://pubs.ext.vt.edu/ENTO/ENTO-433/ENTO-433.html" },
+    { "title": "Indoor Flies and Their Control, by Michael Merchant", "publisher": "Texas A&M AgriLife Extension Service", "url": "https://agrilifeextension.tamu.edu/library/insects/indoor-flies-and-their-control/" },
+    { "title": "Control Household Insect Pests (Publication 2443), by Blake Layton", "publisher": "Mississippi State University Extension Service", "url": "https://extension.msstate.edu/sites/default/files/publications/P2443__web.pdf" },
+    { "title": "Phorid Flies (Bug's Eye View, Vol. 8, No. 6, 2022), by Blake Layton", "publisher": "Mississippi State University Extension Service", "url": "https://extension.msstate.edu/newsletters/bugs-eye-view/2022/phorid-flies-vol-8-no-6" },
+    { "title": "Small Flies (ENTFACT-657), by Simona Principato and Zachary DeVries", "publisher": "University of Kentucky Entomology", "url": "https://entomology.mgcafe.uky.edu/ef657" },
+    { "title": "Small Fly Management in Homes and Other Structures (W1256, 2024), by Makhali Voss and Karen Vail", "publisher": "University of Tennessee Extension", "url": "https://solutions.tennessee.edu/publication/W1256" },
+    { "title": "Small Flies (E-233), by Linda J. Mason (2018)", "publisher": "Purdue University Extension Entomology", "url": "https://www.extension.entm.purdue.edu/publications/E-233/E-233.html" },
+    { "title": "Megaselia scalaris, Scuttle Fly (Diptera: Phoridae), by Rui Chen and Christopher E. Carlton", "publisher": "LSU AgCenter (Louisiana State University Agricultural Center)", "url": "https://www.lsuagcenter.com/articles/page1669662173328", "kind": "government" },
+    { "title": "Phorid Fly", "publisher": "University of Maryland Extension", "url": "https://extension.umd.edu/resource/phorid-fly" },
+    { "title": "Phorid (Humpbacked) Flies, Urban Pest Guide", "publisher": "Utah State University Extension", "url": "https://extension.usu.edu/planthealth/ipm/notes_nuisance/phorid-flies" },
+    { "title": "Black Fly (Yard and Garden)", "publisher": "Iowa State University Extension and Outreach", "url": "https://yardandgarden.extension.iastate.edu/encyclopedia/black-fly" },
+    { "title": "Biology and Impact of Biting Midges in Montana (MontGuide), by Marni Rolston and Greg Johnson", "publisher": "Montana State University Extension", "url": "https://extension-store.montana.edu/assets/publications/montguidepdfs/mt201205ag_biology_and_impact_of_biting_midges_in_mt.pdf" },
+    { "title": "Pest Notes: Springtails (UC ANR Publication 74136)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/springtails/" },
+    { "title": "Pest Notes: Fleas (UC ANR Publication 7419)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/fleas/" },
+    { "title": "Introduction to Pesticide Labels", "publisher": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/pesticide-labels/introduction-pesticide-labels" },
+    { "title": "DPDx: Myiasis", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/dpdx/myiasis/index.html" }
+  ],
+  "disclaimer": "both"
+}

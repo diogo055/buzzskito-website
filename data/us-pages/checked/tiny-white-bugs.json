@@ -2,7 +2,7 @@
  "id": "tiny-white-bugs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "1becb8a86c4d82259cf18bb72ca293c61642e2ebeda64a469f83999d54d5c1bb",
+ "sha": "5b158f6a74bf9ca0d7762aed478ae9df591a3c588098420553a1b31bf3c4b9e4",
  "claimsChecked": 330,
  "claimsCorrected": 7,
  "claimsRemovedOrSoftened": 6,
@@ -17,6 +17,11 @@
    "on": "2026-11-05",
    "note": "Photo licence swap (Nov 5, 2026): one iNaturalist photographer relicensed photos CC BY-NC after we took them as CC0; each such photo on this page was replaced with an openly licensed photo of the same subject (credit and licence from the source), and its alt text and caption were rewritten to describe the new photo. No other text changed.",
    "previousSha": "d474320d010168cc41599007b8a0696e1ba736496a79034b59b8df14e08b1444"
+  },
+  {
+   "on": "2026-11-09",
+   "note": "Nov 8, 2026 top-3 upgrade (commit b6754e3b: new sourced sections, tables, FAQs and photos) was independently fact-checked that day (41 corrections across the walkthrough pages, three passes), but this record was not updated then; recorded Nov 9.",
+   "previousSha": "1becb8a86c4d82259cf18bb72ca293c61642e2ebeda64a469f83999d54d5c1bb"
   }
  ]
 }

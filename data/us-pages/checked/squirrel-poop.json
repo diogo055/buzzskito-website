@@ -2,7 +2,7 @@
  "id": "squirrel-poop",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "617920466930b4bab89d994cb6b8eabf8e1111dea00462645881100c27b41e32",
+ "sha": "54809b0a585f163bf31a1c2b965c1dc01275553a592799268532cfcdaa66414a",
  "claimsChecked": 376,
  "claimsCorrected": 10,
  "claimsRemovedOrSoftened": 22,
@@ -27,6 +27,11 @@
    "on": "2026-11-05",
    "note": "Photo licence swap (Nov 5, 2026): one iNaturalist photographer relicensed photos CC BY-NC after we took them as CC0; each such photo on this page was replaced with an openly licensed photo of the same subject (credit and licence from the source), and its alt text and caption were rewritten to describe the new photo. No other text changed.",
    "previousSha": "418d344a7061ced610c46f41852e13e5f5a3ea0b1ac7451f2f3bb8a2e5744a1b"
+  },
+  {
+   "on": "2026-11-09",
+   "note": "Nov 9: one sentence links the new squirrel nest guide (/blog/squirrel-nest, scheduled Nov 12) in 'Where do squirrels poop?', under 'In the attic'; no fact changed",
+   "previousSha": "617920466930b4bab89d994cb6b8eabf8e1111dea00462645881100c27b41e32"
   }
  ]
 }

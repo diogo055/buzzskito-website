@@ -2,7 +2,7 @@
  "id": "how-to-get-rid-of-drain-flies",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "5d91fb1ad3c51101847bf44bdcc91ca2f7b5f9229983247a35dbe471f6c10c9f",
+ "sha": "6304985a7cc0b00a889f93f8030443452676ee8fc7eb147b5c3549ce587b9c53",
  "claimsChecked": 248,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 8,
@@ -11,5 +11,12 @@
   "on": "2026-10-31",
   "scheduledFor": "2026-10-31",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-11-09",
+   "note": "Nov 9: one sentence links the new phorid fly guide (/blog/phorid-flies, scheduled Nov 12) after the small-fly comparison paragraph in 'Is it a drain fly or another small fly?'; no fact changed",
+   "previousSha": "5d91fb1ad3c51101847bf44bdcc91ca2f7b5f9229983247a35dbe471f6c10c9f"
+  }
+ ]
 }

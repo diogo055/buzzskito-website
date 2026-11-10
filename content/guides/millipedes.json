@@ -3,7 +3,7 @@
   "kind": "spoke",
   "cluster": "household",
   "keyword": "millipedes in house",
-  "alsoTargets": ["millipede", "centipede vs millipede", "how to get rid of millipedes", "are millipedes poisonous", "millipede vs centipede", "house millipede"],
+  "alsoTargets": ["millipede", "how to get rid of millipedes", "are millipedes poisonous", "house millipede"],
   "metaTitle": "Millipedes in the House? Why and What to Do",
   "metaDescription": "Millipedes come in from damp mulch and leaf litter after rain or in dry spells. Are they poisonous, how to tell them from centipedes, and how to stop them.",
   "h1": "Millipedes in the House: Why They Come In and How to Keep Them Out",
@@ -72,6 +72,7 @@
     ], "caption": "From UC IPM's centipede and millipede comparison table and the University of Kentucky's ENTFACT-645." },
     { "type": "figure", "src": "/guides/photos/house-centipede-on-wall.webp", "width": 1200, "height": 850, "alt": "House centipede on a cracked, cream-colored painted wall, with long banded legs fanning out along both sides of its striped body and long antennae", "caption": "A house centipede on a wall in Sandusky, Ohio. One pair of long, banded legs on each body segment marks a centipede, not a millipede.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/331736980" },
     { "type": "p", "text": "The centipede you are most likely to see indoors is the house centipede, which Kentucky calls the only centipede species that can survive inside buildings. [Penn State Extension's house centipede page](https://extension.psu.edu/house-centipedes) gives its body as 1 to 1 1/2 inches long, with 15 pairs of legs banded light and dark, and says that although it is fast and long-legged, it is harmless. Its bite, its diet and how to keep it out are covered in [the guide to house centipedes](/blog/house-centipedes)." },
+    { "type": "p", "text": "[The centipede vs millipede guide](/blog/centipede-vs-millipede) compares the two in more detail, with photos of each where people find them." },
 
     { "type": "h2", "text": "Could it be a pill bug, a sowbug or a wireworm?" },
     { "type": "p", "text": "It could be, if you count seven pairs of legs or only three. Pill bugs and sowbugs are land-dwelling crustaceans that the [University of Kentucky's sowbug and pillbug fact sheet](https://entomology.mgcafe.uky.edu/ef439) describes as oval, rounded on top, rarely more than 3/4 inch long and carrying seven pairs of legs. A pill bug can roll into a ball; a sowbug cannot, and it has two tail-like appendages. Like millipedes, they move into crawl spaces and basements in search of water, they are harmless, and without high moisture Kentucky says they find it almost impossible to survive indoors. [A guide to pill bugs](/blog/pill-bugs) covers them in detail." },
