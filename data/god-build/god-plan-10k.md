@@ -546,3 +546,35 @@ Ranked by expected clicks x value (`research_notes/God plan 10k a day/new_pages.
     - house-centipedes: checker found 395 claims, 12 corrected, 3 softened. The `picks` block is byte-identical.
     - Both are drafted in scratchpad `top10/rebuild/`, moved in, and recorded.
   - **Byline rule:** since Nov 10, `guideReviewer()` covers only the version the owner read. A guide changed after `OWNER_REVIEWED_THROUGH` shows "Published by BuzzSkito" until he re-reads it. That is 13 pages: the 11 Nov 8 upgrades and the 2 rebuilds. He was asked; this is the honest default.
+- **2026-11-10 (afternoon): the 7 competitor gaps.**
+  - **The ask (owner, night of Nov 9):** "Ok we're gonna make and push those 7 pages tomorrow".
+  - **Where the list came from:** the Nov 9 competitor sweep, `reports/Competitor sweep and missing pages.md`.
+  - **Release:** 6 went live by hand with `PACE_OVERRIDE` (release 2026-11-10). bugs-that-look-like-mosquitoes waits for Nov 11, so the batch holds at most 3 look-alike pages.
+  - **Every page:** written in the proven template, with a beat-the-top-3 note and an independent checker (record on file).
+
+    | Page | Words | Sources | Checker: checked / corrected / softened |
+    |---|---|---|---|
+    | bugs-that-look-like-termites | 2,635 | 18 | 270 / 11 / 5 |
+    | black-and-yellow-bugs | 3,560 | 20 | 275 / 31 / 9 |
+    | bugs-that-look-like-silverfish | 3,846 | 18 | 350 / 24 / 12 |
+    | bugs-that-look-like-lice | 3,110 | 19 | 226 / 25 / 15 |
+    | moth-eggs | 4,119 | 20 | 310 / 29 / 14 |
+    | snake-identification | 3,804 | 20 | 312 / 21 / 9 (plus 2 sourced safety lines) |
+    | bugs-that-look-like-mosquitoes (Nov 11) | 3,165 | 20 | 330 / 10 / 2 |
+
+  - **Overlap: the planned section trims were dropped.** Search Console (Oct 13-Nov 9) showed none of our live pages ranks for these searches: a handful of impressions each, at positions 8-30. The overlapping sections also hold the sources for their pages' quick-ID tables, and trimming them would have cost the owner's reviewer label. Instead, one link sentence was added on each of 7 live guides, and their records were amended:
+    - what-do-termites-look-like, what-do-lice-look-like, baby-silverfish, moths-in-house, yellow-jackets, baby-snakes, types-of-mosquitoes.
+    - Re-check in Search Console in 4-6 weeks. If an old page and a new page split the same search, trim then.
+  - **amazon.com picks:**
+    - lice: fine-tooth lice comb;
+    - silverfish: sticky insect traps;
+    - snakes: leather gardening gloves;
+    - black-and-yellow: garden row cover;
+    - moth eggs: airtight food containers;
+    - termites: `_noPick`.
+    - The mosquito pick (yellow bug light bulbs) is held in scratchpad `seven/pick-mosquitoes-nov11.json`, because check:amazon fails on a pick for a page that is not live yet.
+  - **Count:** 16 new URLs on Nov 10 (UTC) and 43 in the 7 days to Nov 10, on the owner's lift.
+  - **NEXT:**
+    1. Nov 11: release bugs-that-look-like-mosquitoes by hand (`RELEASE_DATE=2026-11-11` plus `PACE_OVERRIDE`) and add its pick in the same commit.
+    2. Indexing on the Nov 11 run: the 7 gaps, which are listed in the queue.
+    3. Ask the owner whether he has read the Nov 10 pages before moving `OWNER_REVIEWED_THROUGH`.

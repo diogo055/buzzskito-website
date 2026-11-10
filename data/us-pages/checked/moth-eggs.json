@@ -1,0 +1,15 @@
+{
+ "id": "moth-eggs",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "0bde7ca3f0847c37c3ed689fdbf506ab2023270b0574954b577c36928a403354",
+ "claimsChecked": 310,
+ "claimsCorrected": 29,
+ "claimsRemovedOrSoftened": 14,
+ "checkedOn": "2026-11-10",
+ "released": {
+  "on": "2026-11-10",
+  "scheduledFor": "2026-11-10",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

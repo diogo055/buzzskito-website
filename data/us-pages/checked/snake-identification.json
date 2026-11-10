@@ -1,0 +1,15 @@
+{
+ "id": "snake-identification",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "91c8004e922aef5059eb6bc05b041f2adb82980cdff42c3b98476dd82660aec8",
+ "claimsChecked": 312,
+ "claimsCorrected": 23,
+ "claimsRemovedOrSoftened": 9,
+ "checkedOn": "2026-11-10",
+ "released": {
+  "on": "2026-11-10",
+  "scheduledFor": "2026-11-10",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

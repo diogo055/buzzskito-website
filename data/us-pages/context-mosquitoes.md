@@ -174,6 +174,8 @@
 
 - `/blog/mosquito-bits-vs-dunks` — **mosquito bits vs dunks** (also: mosquito bits; mosquito dunks; how to use mosquito dunks; how long do mosquito dunks last; mosquito dunks for fungus gnats). US buying guide, amazon.com picks only: EPA-registered products (25(b) products described honestly), label directions, no prices or star ratings, no testing claims. Bti and how it works; Bits vs Dunks side by side (form, label dose, coverage, how long each lasts, where to use each); label doses; safety evidence; fungus gnats only as the label allows; what Bti does not do.
 
+- `/blog/bugs-that-look-like-mosquitoes` — **bugs that look like mosquitoes** (also: giant mosquito looking bug; what looks like a mosquito but doesn't bite; mosquito look alike; midge vs mosquito; crane fly vs mosquito; gnat vs mosquito; winter crane fly). Every insect people mistake for a mosquito, each with the one test that settles it (a mosquito has scales on its wing veins and a long piercing beak): crane flies and winter crane flies (short; link mosquito-hawk-explained), non-biting midges (lake and pond swarms), biting midges or no-see-ums (short; link), fungus gnats, phantom midges, dixid midges, mayflies, and any other look-alike extension sources actually list (only if they do). Male mosquitoes (feathery antennae, do not bite) are still mosquitoes: one short note. Organise by where the reader sees it (swarming near water at dusk, on the house siding in spring, indoors on windows and houseplants, in winter on mild days). Say which bite. The larvae note (mosquito wrigglers vs midge bloodworms) stays short and links the larvae page if it is live. What to do. Sources: university extension (UC IPM, UF/IFAS Featured Creatures, Penn State, Purdue, Texas A&M, Univ. of Minnesota, Univ. of Kentucky), CDC mosquito pages, state health departments. Real photos only.
+
 ## Pillars (hub pages)
 
 - `/learn/bed-bugs` — the complete bed bugs reference
@@ -571,6 +573,12 @@
 - `/blog/drugstore-beetles` — drugstore beetle
 - `/blog/centipede-vs-millipede` — centipede vs millipede
 - `/blog/animal-tracks-in-snow` — animal tracks in snow
+- `/blog/bugs-that-look-like-termites` — bugs that look like termites
+- `/blog/black-and-yellow-bugs` — black and yellow bug
+- `/blog/bugs-that-look-like-silverfish` — bugs that look like silverfish
+- `/blog/bugs-that-look-like-lice` — bugs that look like lice
+- `/blog/moth-eggs` — moth eggs
+- `/blog/snake-identification` — snake identification
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

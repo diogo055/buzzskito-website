@@ -35103,6 +35103,466 @@
    ],
    "minWords": 1100,
    "path": "/blog/animal-tracks-in-snow"
+  },
+  {
+   "section": "blog",
+   "role": "page",
+   "resolution": "new page",
+   "priority": 1,
+   "gate": null,
+   "photos": [],
+   "dataAssets": [],
+   "wave": "nov-10",
+   "suggestedWeek": "2026-11-09",
+   "releaseOrder": 302,
+   "evidenceScore": null,
+   "notes": "Added Nov 10, 2026: one of the 7 gaps from the Nov 9 competitor sweep (reports/Competitor sweep and missing pages.md); owner: 'we're gonna make and push those 7 pages tomorrow'.",
+   "slug": "bugs-that-look-like-termites",
+   "cluster": "household",
+   "guideCluster": "pest-control",
+   "family": "look-alikes",
+   "pageType": "comparison",
+   "audience": "us",
+   "title": "Bugs That Look Like Termites: How to Tell Each One From a Real Termite",
+   "metaTitle": "Bugs That Look Like Termites (Photos)",
+   "keyword": "bugs that look like termites",
+   "alsoTargets": [
+    "termite look alikes",
+    "what looks like a termite",
+    "insects that look like termites",
+    "bugs that look like termites but aren't",
+    "white bugs that look like termites",
+    "is it a termite or an ant"
+   ],
+   "demand": {
+    "summary": "Google Keyword Planner, Nov 9, 2026 (owner's account): \"bugs that look like termites\" US 1K-10K, Canada 100-1K a month; the next search over, \"flying termites\", is US 10K-100K. Competitor sitemap sweep (Nov 9): 5 pest-control sites have this page (Better Termite, Moxie, Arrow, Hawx, Terminix); Ahrefs put Moxie's at about 670 visits and Better Termite's at about 290 a month in October. Google page 1 (Nov 9): pest companies, Reddit and Lawn Love; no Wikipedia."
+   },
+   "collisions": [
+    {
+     "path": "/blog/what-do-termites-look-like",
+     "overlap": "its section 'What bugs look like termites?' (about 520 words)",
+     "resolution": "that section is cut to a short summary that links here; it keeps 'what do termites look like' and the castes"
+    },
+    {
+     "path": "/blog/flying-ants-vs-termites",
+     "overlap": "the flying ant vs termite comparison",
+     "resolution": "it keeps the two-way comparison; this page gives winged ants one short entry with the three checks and links there"
+    },
+    {
+     "path": "/blog/flying-ants, /blog/termite-droppings, /blog/termite-damage, /blog/booklice",
+     "overlap": "flying ants, termite signs, booklice",
+     "resolution": "they keep their searches; cards and links"
+    }
+   ],
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "mustLink": [
+    "/blog/what-do-termites-look-like",
+    "/blog/flying-ants-vs-termites"
+   ],
+   "scope": "Every insect people mistake for a termite, each with the one test that settles it: winged ants and carpenter ants (short; link the two-way page), other ants the sources name, booklice and bark lice, wood-boring beetles and their larvae (powderpost and others the sources name), grubs and other pale larvae found in wood or soil, and any other look-alike that extension sources actually list (only if they do). Show the termite checks once (straight beaded antennae, thick waist, four equal wings, shed wings). Organise by where the reader finds the bug (windowsills and light fixtures in spring, firewood, damp or rotting wood, soil and mulch, books and paper). Say which ones damage wood and which don't, and what to do (collect a sample, check for mud tubes, call a licensed pest professional for termites). Sources: university extension and government pages you open (UF/IFAS, UC IPM, Texas A&M AgriLife, Penn State, Purdue, Univ. of Kentucky ENTFACT, Clemson HGIC, USDA Forest Service, EPA). Real photos only.",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1200,
+   "path": "/blog/bugs-that-look-like-termites"
+  },
+  {
+   "section": "blog",
+   "role": "page",
+   "resolution": "new page",
+   "priority": 1,
+   "gate": null,
+   "photos": [],
+   "dataAssets": [],
+   "wave": "nov-10",
+   "suggestedWeek": "2026-11-09",
+   "releaseOrder": 303,
+   "evidenceScore": null,
+   "notes": "Added Nov 10, 2026: one of the 7 gaps from the Nov 9 competitor sweep (reports/Competitor sweep and missing pages.md); owner: 'we're gonna make and push those 7 pages tomorrow'.",
+   "slug": "black-and-yellow-bugs",
+   "cluster": "stinging-insects",
+   "guideCluster": "pest-control",
+   "family": "household",
+   "pageType": "entity-id",
+   "audience": "na",
+   "title": "Black and Yellow Bugs: What They Are and Which Ones Sting",
+   "metaTitle": "Black and Yellow Bugs: What Are They? (Photos)",
+   "keyword": "black and yellow bug",
+   "alsoTargets": [
+    "black and yellow bugs",
+    "black and yellow striped bug",
+    "black and yellow flying bug",
+    "flies that look like bees",
+    "black and yellow beetle",
+    "black and yellow bug that looks like a bee"
+   ],
+   "demand": {
+    "summary": "Google Keyword Planner, Nov 9, 2026 (owner's account): \"black and yellow bug\" US 1K-10K, Canada 100-1K a month; \"flies that look like bees\" adds US 1K-10K. Competitor sitemap sweep (Nov 9): Better Termite and Orkin have the page, and Fox Pest's got about 150 visits a month in October (Ahrefs). Google page 1 (Nov 9): a pest-guide site, Washington State University, Fox Pest, Facebook; no Wikipedia. Our color sorters (tiny-black-bugs, tiny-brown-bugs) are among the site's best new pages."
+   },
+   "collisions": [
+    {
+     "path": "/blog/wasp-vs-hornet",
+     "overlap": "the stinging insects compared",
+     "resolution": "it keeps 'wasp vs hornet'; this page gives each stinging insect one short entry and links there"
+    },
+    {
+     "path": "/blog/yellow-jackets, /blog/paper-wasps, /blog/mud-daubers, /blog/ground-bees, /blog/sweat-bees",
+     "overlap": "the species themselves",
+     "resolution": "they keep their species searches; one short entry each here, with a link"
+    },
+    {
+     "path": "/blog/orb-weaver-spiders",
+     "overlap": "the yellow garden spider",
+     "resolution": "it keeps the spider; a card and a link here"
+    },
+    {
+     "path": "/blog/wasp-nest-identification",
+     "overlap": "nests",
+     "resolution": "it keeps nests; link for nest questions"
+    }
+   ],
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "mustLink": [
+    "/blog/wasp-vs-hornet",
+    "/blog/yellow-jackets"
+   ],
+   "scope": "A color sorter for the black-and-yellow insects (and the one spider) North Americans find, grouped by where they are seen: around food, trash and nests; on flowers; on the house, deck or garden plants; indoors. Include the ones extension sources describe as black and yellow: yellowjackets, paper wasps, mud daubers, cicada killers, bumble bees, carpenter bees where yellow, hover flies and other bee and wasp mimics (this page owns 'flies that look like bees': the two-wing test, short antennae, big eyes, hovering), black-and-yellow beetles the sources name (for example cucumber beetles or the locust borer), and the yellow garden spider. A 'does it sting or bite?' column in the table. Bald-faced hornets are black and white: a one-line note. Nest and sting questions link out; sting first aid only in short, from a medical or government source, with the allergy warning. Sources: university extension (Penn State, Univ. of Kentucky, UC IPM, Purdue, Clemson, NC State, Texas A&M, Univ. of Minnesota), museum and USDA pages. Real photos only.",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1200,
+   "path": "/blog/black-and-yellow-bugs"
+  },
+  {
+   "section": "blog",
+   "role": "page",
+   "resolution": "new page",
+   "priority": 1,
+   "gate": null,
+   "photos": [],
+   "dataAssets": [],
+   "wave": "nov-10",
+   "suggestedWeek": "2026-11-09",
+   "releaseOrder": 304,
+   "evidenceScore": null,
+   "notes": "Added Nov 10, 2026: one of the 7 gaps from the Nov 9 competitor sweep (reports/Competitor sweep and missing pages.md); owner: 'we're gonna make and push those 7 pages tomorrow'.",
+   "slug": "bugs-that-look-like-silverfish",
+   "cluster": "household",
+   "guideCluster": "pest-control",
+   "family": "look-alikes",
+   "pageType": "comparison",
+   "audience": "na",
+   "title": "Bugs That Look Like Silverfish: How to Tell Them Apart",
+   "metaTitle": "Bugs That Look Like Silverfish (Photos)",
+   "keyword": "bugs that look like silverfish",
+   "alsoTargets": [
+    "silverfish look alike",
+    "what looks like a silverfish",
+    "firebrat vs silverfish",
+    "jumping bristletail",
+    "bugs that look like silverfish but aren't",
+    "silverfish vs earwig"
+   ],
+   "demand": {
+    "summary": "Google Keyword Planner, Nov 9, 2026 (owner's account): \"bugs that look like silverfish\" US 1K-10K, Canada 100-1K a month. No competitor in the Nov 9 sitemap sweep has it: it follows our own look-alike format (bugs-that-look-like-fleas, 42 Google clicks a week). Indoor pest, active all winter."
+   },
+   "collisions": [
+    {
+     "path": "/blog/baby-silverfish",
+     "overlap": "its section 'What else looks like a baby silverfish?' (about 580 words) and the common/gray/firebrat comparison",
+     "resolution": "that look-alike section is cut to a short summary that links here; it keeps 'baby silverfish' and the three silverfish species, so firebrats get one short entry here with a link"
+    },
+    {
+     "path": "/blog/how-to-get-rid-of-silverfish",
+     "overlap": "control",
+     "resolution": "it keeps control; link"
+    },
+    {
+     "path": "/blog/booklice, /blog/springtails, /blog/house-centipedes, /blog/centipede-vs-millipede",
+     "overlap": "look-alikes with their own pages",
+     "resolution": "they keep their searches; cards and links"
+    }
+   ],
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "mustLink": [
+    "/blog/baby-silverfish",
+    "/blog/how-to-get-rid-of-silverfish"
+   ],
+   "scope": "Every bug people mistake for a silverfish, each with the one test that settles it: firebrats (short: baby-silverfish compares the silverfish species), jumping bristletails (the outdoor look-alike that jumps), young house centipedes, earwigs and earwig nymphs, springtails, booklice, and any other look-alike extension sources actually list (only if they do). Show the silverfish checks once (carrot or teardrop shape, silver scales, three tail bristles, no wings, wriggling run). Organise by where the reader finds it (bathtub and sink, basement, books and paper, kitchen, outdoors under rocks and mulch). Say which ones damage paper or fabric, which bite (none of the silverfish; centipedes rarely), and what to do. Sources: university extension and museum pages you open (UC IPM, Univ. of Kentucky ENTFACT, Penn State, NC State, Clemson HGIC, Texas A&M, Purdue, UF/IFAS Featured Creatures). Real photos only.",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1000,
+   "path": "/blog/bugs-that-look-like-silverfish"
+  },
+  {
+   "section": "blog",
+   "role": "page",
+   "resolution": "new page",
+   "priority": 1,
+   "gate": null,
+   "photos": [],
+   "dataAssets": [],
+   "wave": "nov-10",
+   "suggestedWeek": "2026-11-09",
+   "releaseOrder": 305,
+   "evidenceScore": null,
+   "notes": "Added Nov 10, 2026: one of the 7 gaps from the Nov 9 competitor sweep (reports/Competitor sweep and missing pages.md); owner: 'we're gonna make and push those 7 pages tomorrow'.",
+   "slug": "bugs-that-look-like-lice",
+   "cluster": "household",
+   "guideCluster": "pest-control",
+   "family": "look-alikes",
+   "pageType": "comparison",
+   "audience": "na",
+   "title": "Bugs That Look Like Lice: What Else It Could Be",
+   "metaTitle": "Bugs That Look Like Lice: How to Tell (Photos)",
+   "keyword": "bugs that look like lice",
+   "alsoTargets": [
+    "what looks like lice but isn't",
+    "things that look like lice",
+    "lice look alikes",
+    "bugs that look like lice in hair",
+    "booklice vs head lice",
+    "bed bugs vs lice"
+   ],
+   "demand": {
+    "summary": "Google Keyword Planner, Nov 9, 2026 (owner's account): \"bugs that look like lice\" US 1K-10K, Canada 100-1K a month. No competitor in the Nov 9 sitemap sweep has it: our own look-alike format. School lice season runs through the school year."
+   },
+   "collisions": [
+    {
+     "path": "/blog/what-do-lice-look-like",
+     "overlap": "its section 'What else gets mistaken for lice?' (about 640 words)",
+     "resolution": "that section is cut to a short summary that links here; it keeps 'what do lice look like' and the three kinds of lice"
+    },
+    {
+     "path": "/blog/lice-eggs",
+     "overlap": "nits vs dandruff, hair casts and other hair debris",
+     "resolution": "it keeps 'lice eggs' and nits vs dandruff; this page gives hair debris one short entry and links there"
+    },
+    {
+     "path": "/blog/booklice, /blog/bugs-that-look-like-bed-bugs, /blog/bugs-that-look-like-fleas, /blog/springtails",
+     "overlap": "look-alikes with their own pages",
+     "resolution": "they keep their searches; cards and links"
+    }
+   ],
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "mustLink": [
+    "/blog/what-do-lice-look-like",
+    "/blog/lice-eggs"
+   ],
+   "scope": "Everything people mistake for head lice, each with the one test that settles it. Bugs first: booklice, bed bug nymphs, fleas, young ticks, springtails, bird mites or other mites, and any other look-alike that CDC, AAP or extension sources actually list (only if they do). Then, short, things in the hair that are not bugs (dandruff, hair casts, product residue, scabs), linking lice-eggs for nits vs dandruff. Body lice and pubic lice vs head lice in one short section. Organise by where it is found (on the scalp, in bedding, on books or windowsills, on pets). Which ones bite. How to check properly (fine-tooth comb, wet combing, magnifier, per CDC/AAP). When to see a healthcare provider. No treatment advice beyond what CDC/AAP say; no diagnosis. Sources: CDC (head lice, body lice, pubic lice pages), AAP/healthychildren.org, university extension (UC IPM head lice, Penn State, Univ. of Kentucky, Univ. of Nebraska), state health departments. Real photos only.",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1000,
+   "path": "/blog/bugs-that-look-like-lice"
+  },
+  {
+   "section": "blog",
+   "role": "page",
+   "resolution": "new page",
+   "priority": 1,
+   "gate": null,
+   "photos": [],
+   "dataAssets": [],
+   "wave": "nov-10",
+   "suggestedWeek": "2026-11-09",
+   "releaseOrder": 306,
+   "evidenceScore": null,
+   "notes": "Added Nov 10, 2026: one of the 7 gaps from the Nov 9 competitor sweep (reports/Competitor sweep and missing pages.md); owner: 'we're gonna make and push those 7 pages tomorrow'.",
+   "slug": "moth-eggs",
+   "cluster": "household",
+   "guideCluster": "pest-control",
+   "family": "household",
+   "pageType": "entity-id",
+   "audience": "na",
+   "title": "Moth Eggs: What They Look Like and Where You Find Them",
+   "metaTitle": "What Do Moth Eggs Look Like? (Photos)",
+   "keyword": "moth eggs",
+   "alsoTargets": [
+    "what do moth eggs look like",
+    "clothes moth eggs",
+    "pantry moth eggs",
+    "moth eggs on wall",
+    "moth eggs in clothes",
+    "spongy moth egg mass"
+   ],
+   "demand": {
+    "summary": "Google Keyword Planner, Nov 9, 2026 (owner's account): \"moth eggs\" US 1K-10K, Canada 100-1K a month, strong in winter. Competitor sitemap sweep (Nov 9): Better Termite's moth eggs page got about 600 visits a month in October (Ahrefs). Google page 1 (Nov 9) is mixed: iNaturalist, a butterfly farm, Better Termite, Reddit. We already run flea-eggs, cockroach-eggs and stink-bug-eggs beside their main pages the same way."
+   },
+   "collisions": [
+    {
+     "path": "/blog/moths-in-house",
+     "overlap": "its section 'What do moth eggs look like?' (about 530 words)",
+     "resolution": "that section is cut to a short summary that links here; it keeps 'small moths in house', the pantry vs clothes moth sorting and the larvae section"
+    },
+    {
+     "path": "/blog/pantry-pests",
+     "overlap": "Indianmeal moth notes",
+     "resolution": "it keeps pantry pests; link"
+    },
+    {
+     "path": "/blog/bed-bug-eggs, /blog/flea-eggs, /blog/stink-bug-eggs, /blog/spider-egg-sacs, /blog/carpet-beetle-larvae",
+     "overlap": "other eggs and signs people confuse with moth eggs",
+     "resolution": "they keep their searches; cards and links"
+    }
+   ],
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "mustLink": [
+    "/blog/moths-in-house",
+    "/blog/pantry-pests"
+   ],
+   "scope": "What moth eggs look like and where people actually find them, by moth: clothes moths (webbing and casemaking; eggs on wool, fur, in closets and under furniture), Indianmeal and other pantry moths (eggs in or near stored food), and outdoor moths whose egg masses people find on houses, siding, trees, firewood and outdoor furniture (spongy moth egg masses, which are invasive and regulated: scrape and destroy, and the move-firewood/outdoor-household-articles rules per USDA APHIS and state guidance; eastern tent caterpillar egg bands; bagworm bags; tussock moth egg masses) where sources describe them. Sizes and colours, what hatches and how long it takes (temperatures from the source), how to tell moth eggs from bed bug eggs, flea eggs, stink bug eggs, spider egg sacs and carpet beetle signs, and how to kill eggs in clothes and food (freezing, heat, laundering, discarding, per extension). Larvae get one short paragraph that links moths-in-house. Sources: USDA APHIS and US Forest Service (spongy moth), Canadian Food Inspection Agency only as a passing note, university extension (UC IPM clothes moths and pantry pests, Univ. of Kentucky ENTFACT, Penn State, Clemson HGIC, Univ. of Minnesota). Real photos only.",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1000,
+   "path": "/blog/moth-eggs"
+  },
+  {
+   "section": "blog",
+   "role": "page",
+   "resolution": "new page",
+   "priority": 1,
+   "gate": null,
+   "photos": [],
+   "dataAssets": [],
+   "wave": "nov-10",
+   "suggestedWeek": "2026-11-09",
+   "releaseOrder": 307,
+   "evidenceScore": null,
+   "notes": "Added Nov 10, 2026: one of the 7 gaps from the Nov 9 competitor sweep (reports/Competitor sweep and missing pages.md); owner: 'we're gonna make and push those 7 pages tomorrow'.",
+   "slug": "snake-identification",
+   "cluster": "wildlife",
+   "guideCluster": "pest-control",
+   "family": "snakes",
+   "pageType": "entity-id",
+   "audience": "us",
+   "title": "Snake Identification: How to Identify the Snakes in Your Yard",
+   "metaTitle": "Snake Identification by Color and Pattern",
+   "keyword": "snake identification",
+   "alsoTargets": [
+    "what kind of snake is this",
+    "identify snake by color",
+    "common yard snakes",
+    "snake identification chart",
+    "is this snake venomous",
+    "striped snake in yard",
+    "black snake in yard"
+   ],
+   "demand": {
+    "summary": "Google Keyword Planner, Nov 9, 2026 (owner's account): \"snake identification\" US 1K-10K, Canada 10-100 a month. (\"garter snake\" alone is US 100K-1M, but its page 1 is Wikipedia and government.) Competitor sitemap sweep (Nov 9): Bug Out and Orkin Canada have the page. Google page 1 (Nov 9): herpetology societies, New Jersey's environment department, a snake ID app; no Wikipedia. Snakes are out April to October, so it is built now to be indexed by spring."
+   },
+   "collisions": [
+    {
+     "path": "/blog/baby-snakes",
+     "overlap": "its long 'How can you tell if a baby snake is venomous?' section",
+     "resolution": "it keeps baby snakes and the full venom checks; this page keeps the venom checks to a short list and links there"
+    },
+    {
+     "path": "/blog/copperhead-look-alikes",
+     "overlap": "copperhead look-alikes and water snake vs cottonmouth",
+     "resolution": "it keeps both; this page gives copperheads and cottonmouths one short entry each and links there"
+    }
+   ],
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "mustLink": [
+    "/blog/baby-snakes",
+    "/blog/copperhead-look-alikes"
+   ],
+   "scope": "The adult snakes Americans most often find in yards, gardens, garages and around houses, sorted the way people describe them: stripes; blotches or saddles; solid black; brown or gray; green; bands or rings. One entry per snake with the field marks wildlife agencies use and a range note: garter and ribbon snakes, rat snakes, racers, kingsnakes, milk snakes, corn snakes, ring-necked snakes, brown (DeKay's) snakes, rough green snakes, hognose snakes, water snakes, and the venomous ones (copperhead, cottonmouth, rattlesnakes, coral snakes) with what agencies say to look for. Say plainly that head shape and pupils alone are unreliable if the sources say so, and that the safe rule is to leave any snake alone. What to do when you meet one (keep distance, keep pets back, call a wildlife professional, never handle or kill one), and snakebite first aid in short per CDC, linking baby-snakes. Sources: state wildlife agencies and university herpetology programs you open (for example NC Wildlife, Virginia Herpetological Society, Pennsylvania Fish & Boat, Texas Parks & Wildlife, Florida Museum, UGA Savannah River Ecology Lab, Missouri Dept. of Conservation, Davidson College herpetology), CDC (venomous snakes). Real photos only.",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1200,
+   "path": "/blog/snake-identification"
+  },
+  {
+   "section": "blog",
+   "role": "page",
+   "resolution": "new page",
+   "priority": 1,
+   "gate": null,
+   "photos": [],
+   "dataAssets": [],
+   "wave": "nov-10",
+   "suggestedWeek": "2026-11-09",
+   "releaseOrder": 308,
+   "evidenceScore": null,
+   "notes": "Added Nov 10, 2026: one of the 7 gaps from the Nov 9 competitor sweep (reports/Competitor sweep and missing pages.md); owner: 'we're gonna make and push those 7 pages tomorrow'.",
+   "slug": "bugs-that-look-like-mosquitoes",
+   "cluster": "mosquitoes",
+   "guideCluster": "mosquitoes",
+   "family": "look-alikes",
+   "pageType": "comparison",
+   "audience": "na",
+   "title": "Bugs That Look Like Mosquitoes: How to Tell (and Which Ones Bite)",
+   "metaTitle": "Bugs That Look Like Mosquitoes (Photos)",
+   "keyword": "bugs that look like mosquitoes",
+   "alsoTargets": [
+    "giant mosquito looking bug",
+    "what looks like a mosquito but doesn't bite",
+    "mosquito look alike",
+    "midge vs mosquito",
+    "crane fly vs mosquito",
+    "gnat vs mosquito",
+    "winter crane fly"
+   ],
+   "demand": {
+    "summary": "Google Keyword Planner, Nov 9, 2026 (owner's account): \"bugs that look like mosquitoes\" US 1K-10K, Canada 10-100 a month. Competitor sitemap sweep (Nov 9): Orkin has the page. Spring swarms (midges, crane flies) peak March to May, so it is built now to be indexed by spring."
+   },
+   "collisions": [
+    {
+     "path": "/blog/mosquito-hawk-explained",
+     "overlap": "crane flies ('mosquito hawks')",
+     "resolution": "it keeps crane flies and 'mosquito hawk'; this page gives crane flies one short entry and links there"
+    },
+    {
+     "path": "/blog/types-of-mosquitoes, /blog/male-vs-female-mosquito",
+     "overlap": "real mosquitoes",
+     "resolution": "they keep them; links"
+    },
+    {
+     "path": "/blog/no-see-ums, /blog/how-to-get-rid-of-fungus-gnats, /blog/gnat-bites",
+     "overlap": "biting midges and gnats",
+     "resolution": "they keep their searches; short entries and links"
+    }
+   ],
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "mustLink": [
+    "/blog/mosquito-hawk-explained",
+    "/blog/types-of-mosquitoes"
+   ],
+   "scope": "Every insect people mistake for a mosquito, each with the one test that settles it (a mosquito has scales on its wing veins and a long piercing beak): crane flies and winter crane flies (short; link mosquito-hawk-explained), non-biting midges (lake and pond swarms), biting midges or no-see-ums (short; link), fungus gnats, phantom midges, dixid midges, mayflies, and any other look-alike extension sources actually list (only if they do). Male mosquitoes (feathery antennae, do not bite) are still mosquitoes: one short note. Organise by where the reader sees it (swarming near water at dusk, on the house siding in spring, indoors on windows and houseplants, in winter on mild days). Say which bite. The larvae note (mosquito wrigglers vs midge bloodworms) stays short and links the larvae page if it is live. What to do. Sources: university extension (UC IPM, UF/IFAS Featured Creatures, Penn State, Purdue, Texas A&M, Univ. of Minnesota, Univ. of Kentucky), CDC mosquito pages, state health departments. Real photos only.",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1000,
+   "path": "/blog/bugs-that-look-like-mosquitoes"
   }
  ],
  "upgrades": [

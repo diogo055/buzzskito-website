@@ -1,6 +1,6 @@
 # Photos and diagrams the new guides still need
 
-575 images across 238 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
+580 images across 241 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
 
 ## /learn/bed-bugs
 
@@ -794,6 +794,11 @@
 - A bald-faced hornet on a flower or at its nest in a US yard, identified by an expert or extension service; public domain or CC0, so it could lead a page (the photo on record is CC BY 2.0)
 - A European hornet at a porch light or lit window at night in the US, photographed from indoors or a safe distance and identified to species by an expert or extension service; public domain or CC0
 
+## /blog/black-and-yellow-bugs
+
+- Photo of a fuzzy bee fly (family Bombyliidae) hovering at a garden flower with its long, straight proboscis showing, ideally with a bee nearby for comparison
+- Close-up photo of an adult four-lined plant bug on a mint or basil leaf, showing its four black stripes and the small round dark feeding spots on the leaf, beside a ruler marked in inches
+
 ## /blog/no-see-ums
 
 - A biting midge (Culicoides) resting on human skin or on a window screen beside a ruler marked in inches, identified to genus by an entomologist or extension service; public domain or CC0 so it could replace the microscope view as the lead photo
@@ -1122,6 +1127,15 @@
 ## /blog/stink-bug-eggs
 
 - Dark brown or black, parasitized brown marmorated stink bug egg mass with rough-edged wasp exit holes, next to a pale hatched mass with open lids, beside a ruler marked in inches; public domain or CC0, identified by an extension service or university
+
+## /blog/bugs-that-look-like-silverfish
+
+- A black carpet beetle larva (genus Attagenus) seen from above beside a ruler marked in inches, showing the tapering, bristly body and the long tuft of hairs at the tail, identified by an extension service or expert; public domain or CC0
+
+## /blog/moth-eggs
+
+- Indian meal moth eggs on rolled oats or along the seam of an opened cereal bag beside a ruler marked in inches, as a homeowner would find them; public domain or CC0
+- A fresh, hard spongy moth egg mass beside a pale, ragged, spent one on the same trunk, with a coin or ruler marked in inches for scale; public domain or CC0
 
 ## /learn/bug-bites
 

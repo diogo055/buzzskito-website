@@ -1,12 +1,8 @@
-release: 10 scheduled page(s) go live (2026-11-10)
+release: 6 scheduled page(s) go live (2026-11-10)
 
-- /blog/brown-recluse
-- /blog/possum-poop
-- /blog/phorid-flies
-- /blog/stink-bug-eggs
-- /blog/coyote-poop
-- /blog/bear-poop
-- /blog/squirrel-nest
-- /blog/drugstore-beetles
-- /blog/centipede-vs-millipede
-- /blog/animal-tracks-in-snow
+- /blog/bugs-that-look-like-termites
+- /blog/black-and-yellow-bugs
+- /blog/bugs-that-look-like-silverfish
+- /blog/bugs-that-look-like-lice
+- /blog/moth-eggs
+- /blog/snake-identification

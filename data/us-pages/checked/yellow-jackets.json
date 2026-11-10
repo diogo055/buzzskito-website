@@ -2,7 +2,7 @@
  "id": "yellow-jackets",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "bb90c781088c92f49c9e0f4710e786cf6ea986df37c33389dabbcb15ba9d1f50",
+ "sha": "721bcd0d77e26aae1858f8f6689ded854d18e7271cd381a5a78c584479f46c36",
  "claimsChecked": 310,
  "claimsCorrected": 10,
  "claimsRemovedOrSoftened": 13,
@@ -17,6 +17,11 @@
    "on": "2026-11-06",
    "note": "Nov 6, 2026 release: one link swapped (a Canadian wasp removal page for the new US wasp spray guide), same sentence; no fact changed",
    "previousSha": "8f5ae70db0c93f241a0c4e3b4354d914dd40e17207e4bb3ef25a8db5cb0b5bd1"
+  },
+  {
+   "on": "2026-11-10",
+   "note": "Nov 10, 2026: one sentence added that links the new page /blog/black-and-yellow-bugs (a pointer only; no fact or claim changed)",
+   "previousSha": "bb90c781088c92f49c9e0f4710e786cf6ea986df37c33389dabbcb15ba9d1f50"
   }
  ]
 }

@@ -2,7 +2,7 @@
  "id": "what-do-termites-look-like",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "8ff2f53677753dee798cafc592c547ef2e205ab129ed8ec8435426f2f5017aaa",
+ "sha": "0927fdc7d2ccac3f558bb004ff26069a6ed918dedc3e5b59344506f6d0c5b133",
  "claimsChecked": 256,
  "claimsCorrected": 4,
  "claimsRemovedOrSoftened": 5,
@@ -17,6 +17,11 @@
    "on": "2026-11-05",
    "note": "Photo licence swap (Nov 5, 2026): one iNaturalist photographer relicensed photos CC BY-NC after we took them as CC0; each such photo on this page was replaced with an openly licensed photo of the same subject (credit and licence from the source), and its alt text and caption were rewritten to describe the new photo. No other text changed.",
    "previousSha": "db94bc2fa328b1341ec0842a2cbfd31ff2fac56836be90cd5de08ae6cb81b42e"
+  },
+  {
+   "on": "2026-11-10",
+   "note": "Nov 10, 2026: one sentence added that links the new page /blog/bugs-that-look-like-termites (a pointer only; no fact or claim changed)",
+   "previousSha": "8ff2f53677753dee798cafc592c547ef2e205ab129ed8ec8435426f2f5017aaa"
   }
  ]
 }

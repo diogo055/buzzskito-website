@@ -39,6 +39,19 @@ Rebuilt Nov 3, 2026 (evening) from a URL Inspection API check of all 738 sitemap
 2. Then `/blog/oriental-cockroaches`.
 3. Then every line below marked **still needed (Nov 9 check)**, winter money pages before off-season ones.
 
+**Released the afternoon of Nov 10, 2026: the 7 competitor gaps (6 that day; `bugs-that-look-like-mosquitoes` on Nov 11).**
+- **Source:** the Nov 9 competitor sweep (`reports/Competitor sweep and missing pages.md`).
+- **How they were made:** written in the proven template, each one independently fact-checked, owner's pace lift.
+- **When:** request them on the Nov 11 run, before anything older. The Nov 10 run is already full with the top 10 below and the two rebuilds.
+
+- https://buzzskito.ca/blog/bugs-that-look-like-termites (new; US 1K-10K, next to "flying termites" 10K-100K; 5 competitor sites have it)
+- https://buzzskito.ca/blog/moth-eggs (new; US 1K-10K; strong in winter)
+- https://buzzskito.ca/blog/bugs-that-look-like-lice (new; US 1K-10K; school year)
+- https://buzzskito.ca/blog/bugs-that-look-like-silverfish (new; US 1K-10K; indoors all winter)
+- https://buzzskito.ca/blog/black-and-yellow-bugs (new; US 1K-10K, plus "flies that look like bees" 1K-10K)
+- https://buzzskito.ca/blog/snake-identification (new; US 1K-10K; snakes are out April-October)
+- https://buzzskito.ca/blog/bugs-that-look-like-mosquitoes (new; releases Nov 11; spring swarms)
+
 **Released the night of Nov 9, 2026 (release date Nov 10 UTC): the owner's "top 10".** Written from fresh research in the proven photo-ID template and fact-checked. The owner lifted the pace cap for them ("push everything if everything is good to go").
 - **When:** they are new pages, so request them FIRST, on the Nov 10 evening run.
 - **Order:** winter value first.

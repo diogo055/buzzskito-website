@@ -2,7 +2,7 @@
  "id": "types-of-mosquitoes",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "ca36de9f6af527b75e6bcd19edb55bfb111bc2f9a87847e0711de8c653757298",
+ "sha": "bdcd2eb65d5e89ba92af39d7ab1d0e5a1d01ab7ea9e24cbf0822a32e54c29d0d",
  "claimsChecked": 275,
  "claimsCorrected": 2,
  "claimsRemovedOrSoftened": 7,
@@ -11,5 +11,12 @@
   "on": "2026-11-06",
   "scheduledFor": "2026-11-06",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-11-10",
+   "note": "Nov 10, 2026: one sentence added that links the new page /blog/bugs-that-look-like-mosquitoes (a pointer only; no fact or claim changed)",
+   "previousSha": "ca36de9f6af527b75e6bcd19edb55bfb111bc2f9a87847e0711de8c653757298"
+  }
+ ]
 }

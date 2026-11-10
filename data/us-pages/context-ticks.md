@@ -585,6 +585,13 @@
 - `/blog/drugstore-beetles` — drugstore beetle
 - `/blog/centipede-vs-millipede` — centipede vs millipede
 - `/blog/animal-tracks-in-snow` — animal tracks in snow
+- `/blog/bugs-that-look-like-termites` — bugs that look like termites
+- `/blog/black-and-yellow-bugs` — black and yellow bug
+- `/blog/bugs-that-look-like-silverfish` — bugs that look like silverfish
+- `/blog/bugs-that-look-like-lice` — bugs that look like lice
+- `/blog/moth-eggs` — moth eggs
+- `/blog/snake-identification` — snake identification
+- `/blog/bugs-that-look-like-mosquitoes` — bugs that look like mosquitoes
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

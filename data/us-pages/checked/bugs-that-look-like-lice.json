@@ -1,0 +1,15 @@
+{
+ "id": "bugs-that-look-like-lice",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "e2332439684ebccc5d12923190a0909b2d5d695f7c2fbbc068ccd9c3b8a50650",
+ "claimsChecked": 226,
+ "claimsCorrected": 25,
+ "claimsRemovedOrSoftened": 15,
+ "checkedOn": "2026-11-10",
+ "released": {
+  "on": "2026-11-10",
+  "scheduledFor": "2026-11-10",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

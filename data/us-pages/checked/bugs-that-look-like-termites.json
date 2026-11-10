@@ -1,0 +1,15 @@
+{
+ "id": "bugs-that-look-like-termites",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "fbd8e96c65d038507600aec1cff37c1ff86b3a8596d30fb17761234f75770194",
+ "claimsChecked": 270,
+ "claimsCorrected": 11,
+ "claimsRemovedOrSoftened": 5,
+ "checkedOn": "2026-11-10",
+ "released": {
+  "on": "2026-11-10",
+  "scheduledFor": "2026-11-10",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

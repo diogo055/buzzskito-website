@@ -2,14 +2,14 @@
  "generated": "2026-11-10",
  "summary": {
   "keywords": 100,
-  "newPagesBuilt": 292,
+  "newPagesBuilt": 298,
   "hubPages": 4,
-  "guides": 277,
+  "guides": 283,
   "broadened": 9,
   "mergedIntoExistingPages": 9,
   "mergedIntoNewPages": 9,
-  "notBuilt": 184,
-  "internalLinksInNewPages": 3968
+  "notBuilt": 185,
+  "internalLinksInNewPages": 4058
  },
  "pages": [
   {
@@ -120,7 +120,7 @@
    "wordCount": 2134,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 17,
    "status": "built"
   },
@@ -552,7 +552,7 @@
    "wordCount": 3136,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 13,
+   "inboundFromNewPages": 14,
    "outboundInternalLinks": 18,
    "status": "built"
   },
@@ -693,11 +693,11 @@
    "kind": "spoke",
    "cluster": "mosquitoes",
    "title": "Types of Mosquitoes: Photo ID Guide and Chart",
-   "wordCount": 2639,
+   "wordCount": 2658,
    "faqs": 10,
    "sources": 20,
    "inboundFromNewPages": 0,
-   "outboundInternalLinks": 9,
+   "outboundInternalLinks": 10,
    "status": "built"
   },
   {
@@ -1656,7 +1656,7 @@
    "wordCount": 2540,
    "faqs": 10,
    "sources": 19,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -1816,7 +1816,7 @@
    "wordCount": 2284,
    "faqs": 5,
    "sources": 15,
-   "inboundFromNewPages": 20,
+   "inboundFromNewPages": 21,
    "outboundInternalLinks": 15,
    "status": "built"
   },
@@ -1861,11 +1861,11 @@
    "kind": "spoke",
    "cluster": "wasps",
    "title": "Yellow Jackets: ID, Ground Nests, Behavior",
-   "wordCount": 2783,
+   "wordCount": 2803,
    "faqs": 10,
    "sources": 19,
-   "inboundFromNewPages": 6,
-   "outboundInternalLinks": 20,
+   "inboundFromNewPages": 7,
+   "outboundInternalLinks": 21,
    "status": "built"
   },
   {
@@ -1880,7 +1880,7 @@
    "wordCount": 2546,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 20,
    "status": "built"
   },
@@ -1896,7 +1896,7 @@
    "wordCount": 2345,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -1912,7 +1912,7 @@
    "wordCount": 2358,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 15,
    "status": "built"
   },
@@ -1928,7 +1928,7 @@
    "wordCount": 1771,
    "faqs": 10,
    "sources": 14,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -1944,7 +1944,7 @@
    "wordCount": 2239,
    "faqs": 10,
    "sources": 15,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -1960,7 +1960,7 @@
    "wordCount": 2760,
    "faqs": 10,
    "sources": 19,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 17,
    "status": "built"
   },
@@ -1978,6 +1978,22 @@
    "sources": 18,
    "inboundFromNewPages": 2,
    "outboundInternalLinks": 12,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "black and yellow bug",
+   "us_volume": null,
+   "url": "/blog/black-and-yellow-bugs",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "wasps",
+   "title": "Black and Yellow Bugs: What Are They? (Photos)",
+   "wordCount": 3241,
+   "faqs": 10,
+   "sources": 20,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 20,
    "status": "built"
   },
   {
@@ -2184,7 +2200,7 @@
    "wordCount": 2957,
    "faqs": 10,
    "sources": 20,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 17,
    "status": "built"
   },
@@ -2280,7 +2296,7 @@
    "wordCount": 3580,
    "faqs": 10,
    "sources": 20,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 20,
    "status": "built"
   },
@@ -2296,7 +2312,7 @@
    "wordCount": 2502,
    "faqs": 10,
    "sources": 14,
-   "inboundFromNewPages": 12,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -2312,7 +2328,7 @@
    "wordCount": 2964,
    "faqs": 6,
    "sources": 12,
-   "inboundFromNewPages": 22,
+   "inboundFromNewPages": 24,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -2344,7 +2360,7 @@
    "wordCount": 1919,
    "faqs": 10,
    "sources": 11,
-   "inboundFromNewPages": 12,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 8,
    "status": "built"
   },
@@ -2424,7 +2440,7 @@
    "wordCount": 2173,
    "faqs": 10,
    "sources": 14,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 5,
    "status": "built"
   },
@@ -2440,7 +2456,7 @@
    "wordCount": 2712,
    "faqs": 6,
    "sources": 5,
-   "inboundFromNewPages": 16,
+   "inboundFromNewPages": 17,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -2472,7 +2488,7 @@
    "wordCount": 1789,
    "faqs": 10,
    "sources": 12,
-   "inboundFromNewPages": 13,
+   "inboundFromNewPages": 16,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -2520,7 +2536,7 @@
    "wordCount": 3120,
    "faqs": 9,
    "sources": 17,
-   "inboundFromNewPages": 19,
+   "inboundFromNewPages": 20,
    "outboundInternalLinks": 26,
    "status": "built"
   },
@@ -2536,7 +2552,7 @@
    "wordCount": 2083,
    "faqs": 6,
    "sources": 9,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -2568,7 +2584,7 @@
    "wordCount": 3073,
    "faqs": 9,
    "sources": 20,
-   "inboundFromNewPages": 13,
+   "inboundFromNewPages": 14,
    "outboundInternalLinks": 25,
    "status": "built"
   },
@@ -2584,7 +2600,7 @@
    "wordCount": 2270,
    "faqs": 10,
    "sources": 13,
-   "inboundFromNewPages": 13,
+   "inboundFromNewPages": 14,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -2597,11 +2613,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "Small Moths in the House? Which Kind (Photos)",
-   "wordCount": 2921,
+   "wordCount": 2946,
    "faqs": 10,
    "sources": 9,
-   "inboundFromNewPages": 13,
-   "outboundInternalLinks": 10,
+   "inboundFromNewPages": 14,
+   "outboundInternalLinks": 11,
    "status": "built"
   },
   {
@@ -2616,7 +2632,7 @@
    "wordCount": 2620,
    "faqs": 9,
    "sources": 17,
-   "inboundFromNewPages": 16,
+   "inboundFromNewPages": 17,
    "outboundInternalLinks": 16,
    "status": "built"
   },
@@ -2632,7 +2648,7 @@
    "wordCount": 2220,
    "faqs": 10,
    "sources": 10,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 6,
    "status": "built"
   },
@@ -2661,11 +2677,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "What Do Termites Look Like? Photos and Swarmers",
-   "wordCount": 2360,
+   "wordCount": 2389,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 5,
-   "outboundInternalLinks": 8,
+   "inboundFromNewPages": 6,
+   "outboundInternalLinks": 9,
    "status": "built"
   },
   {
@@ -2680,7 +2696,7 @@
    "wordCount": 1788,
    "faqs": 10,
    "sources": 12,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 8,
    "status": "built"
   },
@@ -2696,7 +2712,7 @@
    "wordCount": 2184,
    "faqs": 10,
    "sources": 14,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -2760,7 +2776,7 @@
    "wordCount": 2294,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 17,
    "status": "built"
   },
@@ -2808,7 +2824,7 @@
    "wordCount": 2240,
    "faqs": 10,
    "sources": 15,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 5,
    "status": "built"
   },
@@ -2840,7 +2856,7 @@
    "wordCount": 2075,
    "faqs": 9,
    "sources": 17,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 18,
    "status": "built"
   },
@@ -2853,11 +2869,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "What Do Lice Look Like? Size and Color (Photos)",
-   "wordCount": 2320,
+   "wordCount": 2339,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 2,
-   "outboundInternalLinks": 9,
+   "inboundFromNewPages": 3,
+   "outboundInternalLinks": 10,
    "status": "built"
   },
   {
@@ -2888,7 +2904,7 @@
    "wordCount": 2666,
    "faqs": 10,
    "sources": 20,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 27,
    "status": "built"
   },
@@ -2904,7 +2920,7 @@
    "wordCount": 2518,
    "faqs": 10,
    "sources": 19,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 30,
    "status": "built"
   },
@@ -2933,11 +2949,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "Baby Silverfish: What They Look Like (Photos)",
-   "wordCount": 1907,
+   "wordCount": 1922,
    "faqs": 10,
    "sources": 15,
-   "inboundFromNewPages": 4,
-   "outboundInternalLinks": 14,
+   "inboundFromNewPages": 5,
+   "outboundInternalLinks": 15,
    "status": "built"
   },
   {
@@ -2952,7 +2968,7 @@
    "wordCount": 2541,
    "faqs": 10,
    "sources": 20,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 35,
    "status": "built"
   },
@@ -3016,7 +3032,7 @@
    "wordCount": 3169,
    "faqs": 10,
    "sources": 20,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 2,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -3048,8 +3064,72 @@
    "wordCount": 2891,
    "faqs": 10,
    "sources": 20,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 3,
    "outboundInternalLinks": 5,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "bugs that look like termites",
+   "us_volume": null,
+   "url": "/blog/bugs-that-look-like-termites",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Bugs That Look Like Termites (Photos)",
+   "wordCount": 2303,
+   "faqs": 10,
+   "sources": 18,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 11,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "bugs that look like silverfish",
+   "us_volume": null,
+   "url": "/blog/bugs-that-look-like-silverfish",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Bugs That Look Like Silverfish (Photos)",
+   "wordCount": 3586,
+   "faqs": 10,
+   "sources": 18,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 21,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "bugs that look like lice",
+   "us_volume": null,
+   "url": "/blog/bugs-that-look-like-lice",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Bugs That Look Like Lice: How to Tell (Photos)",
+   "wordCount": 2779,
+   "faqs": 9,
+   "sources": 19,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 12,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "moth eggs",
+   "us_volume": null,
+   "url": "/blog/moth-eggs",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Moth Eggs: What They Look Like (Photos)",
+   "wordCount": 3729,
+   "faqs": 10,
+   "sources": 20,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {
@@ -3064,7 +3144,7 @@
    "wordCount": 4067,
    "faqs": 6,
    "sources": 20,
-   "inboundFromNewPages": 41,
+   "inboundFromNewPages": 43,
    "outboundInternalLinks": 48,
    "status": "built"
   },
@@ -3096,7 +3176,7 @@
    "wordCount": 1987,
    "faqs": 10,
    "sources": 14,
-   "inboundFromNewPages": 16,
+   "inboundFromNewPages": 18,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -3128,7 +3208,7 @@
    "wordCount": 2569,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 2,
    "outboundInternalLinks": 5,
    "status": "built"
   },
@@ -3253,11 +3333,11 @@
    "kind": "spoke",
    "cluster": "wildlife",
    "title": "Baby Snakes: How to Identify Them (Photos)",
-   "wordCount": 2584,
+   "wordCount": 2597,
    "faqs": 10,
    "sources": 19,
-   "inboundFromNewPages": 2,
-   "outboundInternalLinks": 9,
+   "inboundFromNewPages": 3,
+   "outboundInternalLinks": 10,
    "status": "built"
   },
   {
@@ -3358,6 +3438,22 @@
   },
   {
    "rank": null,
+   "keyword": "snake identification",
+   "us_volume": null,
+   "url": "/blog/snake-identification",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "wildlife",
+   "title": "Snake Identification: What Snake Is It? (Photos)",
+   "wordCount": 3527,
+   "faqs": 10,
+   "sources": 20,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 7,
+   "status": "built"
+  },
+  {
+   "rank": null,
    "keyword": "pet safe pest control",
    "us_volume": null,
    "url": "/learn/pet-safe-pest-control",
@@ -3416,7 +3512,7 @@
    "wordCount": 4836,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 12,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -4805,6 +4901,13 @@
    "status": "not built"
   },
   {
+   "rank": null,
+   "keyword": "bugs that look like mosquitoes",
+   "url": "/blog/bugs-that-look-like-mosquitoes",
+   "action": "new",
+   "status": "not built"
+  },
+  {
    "rank": 1,
    "keyword": "how to get rid of mice",
    "us_volume": 93000,
@@ -4824,7 +4927,7 @@
    "wordCount": 3683,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 25,
+   "inboundFromNewPages": 26,
    "outboundInternalLinks": 15,
    "status": "built"
   },
@@ -4962,7 +5065,7 @@
    "wordCount": 2866,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -4994,7 +5097,7 @@
    "wordCount": 5382,
    "faqs": 8,
    "sources": 8,
-   "inboundFromNewPages": 44,
+   "inboundFromNewPages": 45,
    "outboundInternalLinks": 42,
    "status": "built"
   },
@@ -5300,7 +5403,7 @@
    "wordCount": 3683,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 25,
+   "inboundFromNewPages": 26,
    "outboundInternalLinks": 15,
    "status": "built"
   },
@@ -5364,7 +5467,7 @@
    "wordCount": 2772,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 28,
+   "inboundFromNewPages": 29,
    "outboundInternalLinks": 21,
    "status": "built"
   },
@@ -5482,7 +5585,7 @@
    "wordCount": 2323,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 12,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -5748,7 +5851,7 @@
    "wordCount": 2445,
    "faqs": 6,
    "sources": 5,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -5766,7 +5869,7 @@
    "wordCount": 2866,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -5798,7 +5901,7 @@
    "wordCount": 2953,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -6128,7 +6231,7 @@
    "wordCount": 2323,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 12,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -6260,7 +6363,7 @@
    "wordCount": 2964,
    "faqs": 9,
    "sources": 6,
-   "inboundFromNewPages": 21,
+   "inboundFromNewPages": 22,
    "outboundInternalLinks": 16,
    "status": "built"
   },

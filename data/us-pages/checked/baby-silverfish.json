@@ -2,7 +2,7 @@
  "id": "baby-silverfish",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "48aa6e6017a6eb4fd5b07b557aacf3fbd01406c2101aa4dd55f2c76c9d42769e",
+ "sha": "46c89651d95d37aa147c736f159325cae844c093b21d7a77e1805feeb138b036",
  "claimsChecked": 404,
  "claimsCorrected": 1,
  "claimsRemovedOrSoftened": 4,
@@ -11,5 +11,12 @@
   "on": "2026-10-29",
   "scheduledFor": "2026-10-29",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-11-10",
+   "note": "Nov 10, 2026: one sentence added that links the new page /blog/bugs-that-look-like-silverfish (a pointer only; no fact or claim changed)",
+   "previousSha": "48aa6e6017a6eb4fd5b07b557aacf3fbd01406c2101aa4dd55f2c76c9d42769e"
+  }
+ ]
 }

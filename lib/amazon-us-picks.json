@@ -15,7 +15,8 @@
     "copperhead-look-alikes": "Venomous-snake ID and bite-care page that recommends nothing to buy: leave the snake alone, call animal control, get emergency care after a bite. Its only tool-shaped steps (a water hose from a safe distance, clearing yard debris) do not belong in a product box on this page, and tongs, traps and repellents are excluded by rule.",
     "types-of-mosquitoes": "An identification page: it recommends nothing to buy.",
     "stink-bug-eggs": "The page's advice is to remove or crush egg masses by hand or drop them in soapy water, and to leave dark (parasitized) masses alone: nothing to buy (Nov 10, 2026).",
-    "animal-tracks-in-snow": "An identification page: it recommends nothing to buy (Nov 10, 2026)."
+    "animal-tracks-in-snow": "An identification page: it recommends nothing to buy (Nov 10, 2026).",
+    "bugs-that-look-like-termites": "No product: the page recommends nothing to buy; for termites and wood-boring beetles it sends readers to a licensed pest professional."
   },
   "picks": {
     "alaska-mosquitoes": {
@@ -1601,6 +1602,36 @@
       "name": "Bear-resistant trash can",
       "search": "bear resistant trash can",
       "basis": "'Keep garbage and recycling in a bear-resistant container or a sturdy building, and put cans out the morning of pickup, never the night before' (BearWise)."
+    },
+    "bugs-that-look-like-lice": {
+      "label": "To check the scalp for live lice",
+      "name": "Fine-tooth lice comb",
+      "search": "fine tooth lice comb",
+      "basis": "'How do you confirm it is lice?': healthychildren.org (AAP) 'suggests a fine-tooth louse or nit comb to search the scalp section by section'. Same product type as what-do-lice-look-like."
+    },
+    "bugs-that-look-like-silverfish": {
+      "label": "To find where they hide",
+      "name": "Sticky insect traps",
+      "search": "sticky insect traps indoor",
+      "basis": "'Finding where silverfish hide': 'UC IPM recommends cockroach sticky traps for spotting and tracking silverfish'. Monitoring only; the page puts drying out and physical control first."
+    },
+    "snake-identification": {
+      "label": "For gardening where snakes hide",
+      "name": "Leather gardening gloves",
+      "search": "leather gardening gloves",
+      "basis": "'Pygmy rattlesnakes turn up in brush piles, flower beds and gardens, UF/IFAS says, so it advises leather gloves for gardening.'"
+    },
+    "black-and-yellow-bugs": {
+      "label": "To shield young garden plants",
+      "name": "Garden row cover",
+      "search": "garden row cover fabric",
+      "basis": "'What should you do' list, cucumber beetles: 'The Connecticut Agricultural Experiment Station suggests starting plants indoors or covering young ones with row covers, removed at flowering so they can be pollinated.'"
+    },
+    "moth-eggs": {
+      "label": "To keep pantry moths out of food",
+      "name": "Airtight food storage containers",
+      "search": "airtight food storage containers",
+      "basis": "'What should you do' steps: 'Store clean wool sealed in snug plastic bags or bins, as Kentucky advises, and dry food in containers with tight lids, which UC IPM prefers to plastic bags'. Same product type as drugstore-beetles."
     }
   }
 }

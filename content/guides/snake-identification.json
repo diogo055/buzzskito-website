@@ -1,0 +1,726 @@
+{
+  "slug": "snake-identification",
+  "kind": "spoke",
+  "cluster": "wildlife",
+  "keyword": "snake identification",
+  "alsoTargets": [
+    "what kind of snake is this",
+    "identify snake by color",
+    "common yard snakes",
+    "snake identification chart",
+    "is this snake venomous",
+    "striped snake in yard",
+    "black snake in yard"
+  ],
+  "metaTitle": "Snake Identification: What Snake Is It? (Photos)",
+  "metaDescription": "Identify a snake by its pattern: stripes, blotches, solid black, small and brown, green, or bands. Photos, sizes, ranges and the venomous ones to rule out.",
+  "h1": "Snake Identification: How to Identify the Snakes in Your Yard",
+  "dek": "Stripes, blotches, solid black, small and plain, bright green, or bands and rings: sort the snake by its pattern, then check the field marks, sizes and ranges that wildlife agencies give and the four venomous groups to rule out.",
+  "breadcrumb": "Snake Identification",
+  "excerpt": "Name a yard snake by its pattern: stripes, blotches, solid black, small and brown, green, or bands. Agency photos, sizes, ranges and the venomous snakes to rule out.",
+  "datePublished": "2026-11-10",
+  "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+  },
+  "quickAnswer": {
+    "lead": "**Identify a snake by its pattern first, judged from a few steps away: stripes, blotches, solid black, small and plain, bright green, or bands and rings; then check its length and where you live.** [New Jersey's wildlife agency](https://www.nj.gov/dep/fgw/ensp/pdf/snake_id-avoid_confusion.pdf) says pattern is a better guide than color, which varies within a species. Leave alone any snake you cannot name.",
+    "bullets": [
+      "Garter snakes, the striped snakes of lawns and gardens, are usually 18 to 26 inches long, says the University of Georgia's [Savannah River Ecology Laboratory](https://srelherp.uga.edu/snakes/eastern-garter-snake) (SREL).",
+      "Big black snakes in eastern yards are often adult rat snakes, 3 to 5 feet long (SREL), or racers, which can grow to 4 to 5 feet ([UF/IFAS Extension](https://ask.ifas.ufl.edu/publication/UW258)); both are nonvenomous.",
+      "Some snakes stay small for life: brown snakes are 6 to 13 inches long as adults (SREL), and in Florida ring-necked snakes rarely pass 12 inches (UF/IFAS).",
+      "[CDC's National Institute for Occupational Safety and Health](https://www.cdc.gov/niosh/outdoor-workers/about/venomous-snakes.html) names four venomous groups in the US: rattlesnakes, copperheads, cottonmouths and coral snakes.",
+      "No single mark settles it: [Texas Parks and Wildlife](https://tpwd.texas.gov/education/resources/texas-junior-naturalists/be-nature-safe/venomous-snake-safety) says the venomous coral snake has round pupils and a small head."
+    ]
+  },
+  "facts": {
+    "title": "Common US yard snakes: quick ID",
+    "head": [
+      "Snake",
+      "Pattern and field marks",
+      "Adult length",
+      "Venomous?"
+    ],
+    "rows": [
+      [
+        "Garter and ribbon snakes",
+        "Three light stripes running the length of a dark body, sometimes checkered between them; ribbon snakes are slimmer",
+        "Garter 18 to 26 inches; ribbon 16 to 28 inches",
+        "No"
+      ],
+      [
+        "Rat snakes, including the corn snake",
+        "Adults often black above with a checkered belly, or yellow with four dark stripes; corn snakes have reddish-orange blotches usually edged in black; the young are blotched",
+        "3 to 5 feet",
+        "No"
+      ],
+      [
+        "Racer",
+        "Slender, smooth and solid gray-black, with a white chin and throat; fast",
+        "Can grow to 4 to 5 feet",
+        "No"
+      ],
+      [
+        "Kingsnakes and milk snakes",
+        "Kingsnakes: dark with white to yellow chain-like bands, or speckled; milk snakes: brown or reddish blotches, a light V or Y at the nape",
+        "Kingsnake about 3 1/2 feet on average; milk snake 19 to 40 inches",
+        "No"
+      ],
+      [
+        "Gopher snake",
+        "Beige or tan with large dark square blotches, a banded tail and round pupils; no rattle",
+        "Up to about 6 feet in the Northwest",
+        "No"
+      ],
+      [
+        "Hognose snakes",
+        "Upturned snout; blotched, or plain black or gray; hisses, spreads its neck and may play dead",
+        "2 to 3 feet",
+        "Mild venom; SREL says bites may occasionally cause mild swelling or irritation but are not medically significant"
+      ],
+      [
+        "Water snakes",
+        "Square blotches or crossbands on brown, tan or gray, darkening with age; in or near water",
+        "Northern water snake 24 to 55 inches",
+        "No"
+      ],
+      [
+        "Brown and ring-necked snakes",
+        "Small; brown snake has two rows of dark spots; ring-necked snake is gray-black with a yellow or orange neck ring",
+        "Brown 6 to 13 inches; ring-necked rarely over 12 inches in Florida",
+        "No"
+      ],
+      [
+        "Rough green snake",
+        "Plain bright green above, yellow or cream below; slender, in shrubs and vines",
+        "22 to 32 inches",
+        "No"
+      ],
+      [
+        "Copperhead and cottonmouth",
+        "Copperhead: hourglass bands on a reddish to golden-tan body; cottonmouth: dark tan, brown or nearly black, in or near water",
+        "Copperhead 2 to 3 feet; cottonmouth usually 2 to 4 feet in Florida (UF/IFAS)",
+        "Yes"
+      ],
+      [
+        "Rattlesnakes",
+        "Blotches, diamonds or jagged bands and a rattle or button, though rattles can break off",
+        "About 1 foot (pygmy) to 3 to 6 feet (eastern diamondback)",
+        "Yes"
+      ],
+      [
+        "Coral snakes",
+        "Red, yellow and black rings, red touching yellow, and a black snout",
+        "Usually 2 1/2 feet or shorter",
+        "Yes"
+      ]
+    ],
+    "caption": "Field marks and lengths from SREL (University of Georgia), UF/IFAS, CDC NIOSH, Texas Parks and Wildlife, WDFW, Connecticut DEEP, the Missouri Department of Conservation and UC IPM, all linked below. No single mark proves a snake is nonvenomous."
+  },
+  "body": [
+    {
+      "type": "h2",
+      "text": "What kind of snake is this?"
+    },
+    {
+      "type": "p",
+      "text": "Start with the pattern you can see from a few steps away: stripes, blotches, solid black, small and plain brown or gray, bright green, or bands and rings. Most snakes are nonvenomous, as state counts show: North Carolina's wildlife commission counts six venomous species among the state's 37 in [its guide to living with snakes](https://www.ncwildlife.gov/media/3251/download?attachment), and [UF/IFAS Extension's guide to Florida's commonly encountered snakes](https://ask.ifas.ufl.edu/publication/UW258) counts six among about 50 native species in Florida."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/black-rat-snake-porch-nps.webp",
+      "width": 1200,
+      "height": 795,
+      "alt": "Dark rat snake with faint lengthwise lines lying in loose coils on gray porch boards beside pale siding",
+      "caption": "A black rat snake, as the National Park Service identified it, on the porch of the Bodie Island Coast Guard Station at Cape Hatteras National Seashore, North Carolina. Rat snakes are nonvenomous climbers.",
+      "license": "public-domain",
+      "credit": "Cape Hatteras National Seashore, Public domain, via Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:One_black_rat_snake_taking_a_timeout_on_the_porch_of_the_Bodie_Island_Coast_Guard_Station_(50857106506).jpg"
+    },
+    {
+      "type": "p",
+      "text": "Judge the pattern before the color. [New Jersey's Division of Fish and Wildlife](https://www.nj.gov/dep/fgw/ensp/pdf/snake_id-avoid_confusion.pdf) says color is not the best way to identify a snake because it varies within and between species, and that black rat snakes and northern black racers hatch patterned and turn almost solid black. Young snakes often look unlike their parents, so a small one is easier to match in [the guide to identifying baby snakes](/blog/baby-snakes)."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Pattern you see",
+        "Snakes to check first",
+        "Where people meet them"
+      ],
+      "rows": [
+        [
+          "Stripes along the body",
+          "Garter and ribbon snakes; yellow rat snakes in Florida",
+          "Lawns, garden plants, pond and ditch edges"
+        ],
+        [
+          "Blotches or saddles",
+          "Corn, milk, gopher, hognose and water snakes, young rat snakes; venomous: rattlesnakes",
+          "Barns and garages, sandy ground, the water's edge, dry Western country"
+        ],
+        [
+          "Solid black or very dark",
+          "Adult rat snakes, racers, black kingsnakes, some hognose snakes, old water snakes; venomous: cottonmouths, dark timber rattlesnakes",
+          "Lawns, walkways, fences, trees, porches; cottonmouths in or near Southeastern water"
+        ],
+        [
+          "Small and plain brown or gray",
+          "Brown snakes and ring-necked snakes",
+          "Under boards and debris, leaf litter, mulch, walkways"
+        ],
+        [
+          "Bright green",
+          "Rough green snakes; smooth green snakes in the Northeast and the Appalachians",
+          "Shrubs and vines near water; grassland for the smooth green snake"
+        ],
+        [
+          "Bands or rings",
+          "Kingsnakes, scarlet kingsnakes, water snakes; venomous: coral snakes, copperheads, timber rattlesnakes",
+          "Leaf and brush piles, firewood, garden beds, suburban lots"
+        ]
+      ],
+      "caption": "From the sources linked in the sections below. Venomous snakes are named in each row; no single mark proves a snake is nonvenomous."
+    },
+    {
+      "type": "h2",
+      "text": "What is the striped snake in my yard?"
+    },
+    {
+      "type": "p",
+      "text": "Usually a garter snake. [SREL's garter snake account](https://srelherp.uga.edu/snakes/eastern-garter-snake), from the University of Georgia's Savannah River Ecology Laboratory, calls garter snakes common throughout the Southeast and most of North America and among the snakes met most often in suburbs with some cover. Most have three yellow stripes down a dark body, some are checkered, and adults are usually 18 to 26 inches long."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/common-garter-snake-usfws.webp",
+      "width": 1200,
+      "height": 892,
+      "alt": "Common garter snake looped over dead leaves and a stick, its dark body marked with pale lengthwise stripes and small red flecks between them",
+      "caption": "A common garter snake on dead leaves at Port Louisa National Wildlife Refuge, Iowa (U.S. Fish and Wildlife Service photo). The pale stripes running the length of the body are the mark to look for.",
+      "license": "public-domain",
+      "credit": "USFWSmidwest, Public domain, via Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Common_Garter_Snake_(33317486034).jpg"
+    },
+    {
+      "type": "p",
+      "text": "UF/IFAS says garter snakes can be gray, blue, yellow, brown or green, live among landscape plants near houses and along ditches and ponds, and may release musk and flatten the head and body when cornered. New Jersey's agency calls them common in and around residential communities."
+    },
+    {
+      "type": "p",
+      "text": "A slimmer striped snake at the water's edge is likely a ribbon snake: [SREL's ribbon snake account](https://srelherp.uga.edu/snakes/eastern-ribbon-snake/) describes slender snakes 16 to 28 inches long with three usually yellow stripes, along lakes, bogs and salt marshes throughout the eastern US except much of the Appalachians. The tell, from the garter snake account: garter snakes have vertical black lines on their lip scales, while a ribbon snake's lip scales are plain."
+    },
+    {
+      "type": "p",
+      "text": "In peninsular Florida, a big striped snake may be a yellow rat snake, golden yellow with four dark lines and 4 to 6 feet long (UF/IFAS). UF/IFAS also warns that checkered garter snakes get taken for the venomous pygmy rattlesnake, which has a much thicker body, a blocky head, large blotches and a dark stripe from the eye to the jaw."
+    },
+    {
+      "type": "h2",
+      "text": "What is the black snake in my yard?"
+    },
+    {
+      "type": "p",
+      "text": "In much of the East, the big black snakes are adult rat snakes and racers, and both are nonvenomous. Black kingsnakes, some hognose snakes and old water snakes can be dark too. Near water in the Southeast, think of the venomous cottonmouth before anything else."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/black-racer-lawn-nps.webp",
+      "width": 1200,
+      "height": 900,
+      "alt": "Black racer coiled on a sunny lawn, its smooth gray-black scales glossy and its pale chin and throat raised above the coils",
+      "caption": "A black racer coiled on grass, in a National Park Service photo from Everglades National Park, Florida. Note the smooth, glossy scales and the pale chin.",
+      "license": "public-domain",
+      "credit": "Everglades NPS from Homestead, Florida, United States, Public domain, via Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_racer,_NPSPhoto_(9257805782).jpg"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Rat snake: checkered belly, a climber.** [SREL's rat snake account](https://srelherp.uga.edu/snakes/rat-snake/) describes eastern rat snake adults, from New Jersey south through most of the Southeast except Florida, as usually black above with a checkered belly; rat snakes are typically 3 to 5 feet long, live through much of the eastern and central US and are often seen in trees, barns and other buildings; threatened, one may freeze in a kinked posture, vibrate its tail or release musk. New Jersey's agency says black rat snakes turn black at about 4 to 5 years old and have a white chin and throat.",
+        "**Racer: slim, fast, white chin.** UF/IFAS describes long, slender racers that can grow to 4 to 5 feet, with smooth gray-black scales and white chins and throats, sunning on lawns, shrubs, walkways and fences and sometimes entering houses after rain; it calls the racer the black snake found most often in Florida, while New Jersey's agency describes its own state's northern black racer, with a gray to bluish-gray belly. Racers flee fast, but a cornered one may shake its tail or release musk, and may strike if handled.",
+        "**Kingsnake: chain-like bands or speckles.** [SREL's kingsnake account](https://srelherp.uga.edu/snakes/eastern-kingsnake/) describes eastern kingsnakes, from southern New Jersey through peninsular Florida, as dark with white to yellow chain-like bands, and black kingsnakes, west of the Appalachians and east of the Mississippi River, as speckled. They average about 3 1/2 feet and eat other snakes, copperheads and rattlesnakes included.",
+        "**Hognose and water snakes.** SREL says many adult hognose snakes in its region (Georgia and South Carolina) are plain black or gray, and UF/IFAS says large water snakes can look all dark as their crossbands darken with age."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Two dark snakes are venomous. CDC's NIOSH describes adult cottonmouths as dark tan, brown or nearly black with faint crossbands, living in the Southeast in or around water (more below), and New Jersey's agency says timber rattlesnakes come in a black or dark phase as well as a yellow or light one."
+    },
+    {
+      "type": "h2",
+      "text": "Which snakes have blotches or saddles?"
+    },
+    {
+      "type": "p",
+      "text": "Blotches on a paler body mark several nonvenomous snakes: corn snakes, young rat snakes, milk snakes, hognose snakes, water snakes and, in the West, gopher snakes. New Jersey's agency names milk snakes and water snakes as the two snakes there often misidentified as copperheads. Hourglass bands or diamonds call for the venomous section below."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/gopher-snake-mulch-nps.webp",
+      "width": 1200,
+      "height": 900,
+      "alt": "Gopher snake gliding over wood-chip mulch, cream with dark brown-black blotches, its narrow head and round pupil close to the camera",
+      "caption": "A gopher snake on wood-chip mulch (National Park Service photo). Nonvenomous: WDFW says it has no rattle and no facial pits, though it hisses and vibrates its tail like a rattlesnake.",
+      "license": "public-domain",
+      "credit": "National Park Service from USA, Public domain, via Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gopher_Snake_(9096387429).jpg"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Gopher snake (the West).** [Washington's wildlife agency](https://wdfw.wa.gov/species-habitats/species/pituophis-catenifer) (WDFW) describes a beige or tan snake with large dark square blotches, a banded tail, round pupils and a dark mark under each eye, up to about 6 feet in the Northwest. Threatened, it hisses, coils, flattens its head and vibrates its tail like a rattlesnake, but it has no rattle and no facial pits; [UC IPM's rattlesnake guide](https://ipm.ucanr.edu/home-and-landscape/rattlesnakes/) says it can make its head look triangular.",
+        "**Corn snake.** UF/IFAS describes reddish-orange blotches, usually outlined in black, on tan, gray or yellow-orange, with a checkered black-and-white belly, 3 to 5 feet long; corn snakes are frequent in towns throughout Florida and climb shrubs and fences.",
+        "**Young rat snakes and racers.** New Jersey's agency says their blotches run all the way to a pointed tail tip, unlike a rattlesnake's.",
+        "**Milk snake.** [Connecticut DEEP's milksnake fact sheet](https://portal.ct.gov/deep/wildlife/fact-sheets/eastern-milksnake) describes a gray to tan snake 19 to 40 inches long with rows of brown or reddish-brown blotches, a light V or Y at the nape and a checkered belly, found from southeastern Maine to central Minnesota and south to Tennessee and western North Carolina, commonly around houses and outbuildings. It is often mistaken for a copperhead and killed, the agency says.",
+        "**Hognose snake.** [SREL's hognose account](https://srelherp.uga.edu/snakes/eastern-hognose-snake/) gives 2 to 3 feet, an upturned snout and blotched young, across the eastern and central US, especially where the soil is sandy. Threatened, it flattens its neck like a cobra, hisses and bluff-strikes, then may roll over and play dead; SREL says it has mild venom and that bites may occasionally cause mild swelling or irritation in people but are not medically significant.",
+        "**Water snakes.** [SREL's northern water snake account](https://srelherp.uga.edu/snakes/northern-watersnake/) describes square blotches that may merge into bands on a brown, tan or grayish body, 24 to 55 inches, at lakes, ponds and streams throughout eastern and central North America, and says it is often confused with the cottonmouth; UF/IFAS calls Florida's southern water snakes perhaps the most often misidentified nonvenomous snakes."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "What are the small brown or gray snakes?"
+    },
+    {
+      "type": "p",
+      "text": "Usually brown snakes or ring-necked snakes, which stay small as adults. [SREL's brown snake account](https://srelherp.uga.edu/snakes/brown-snake/) describes a snake 6 to 13 inches long, usually brown, with two rows of dark spots down the back; the young wear a yellowish collar. It lives throughout the eastern US, is often the most common snake in towns, hides under leaf litter and logs, eats mostly slugs and earthworms, and in many suburbs is killed by people who take it for a copperhead."
+    },
+    {
+      "type": "p",
+      "text": "UF/IFAS describes ring-necked snakes as grayish-black, rarely over 12 inches, with an orange or yellow neck ring and a bright, black-spotted belly, and counts them among the most common snakes in Florida's towns, in leaf litter, mulch and walkways and sometimes indoors. Alarmed, one coils its tail like a corkscrew but rarely tries to bite. Size alone does not rule out a venomous snake: UF/IFAS says the pygmy rattlesnake averages about a foot long and is gray with dark blotches, and SREL says newborn copperheads are 8 to 10 inches long. Worm, red-bellied and other small adults are covered in [how to tell a baby snake from a small adult](/blog/baby-snakes)."
+    },
+    {
+      "type": "h2",
+      "text": "What is the green snake in my garden?"
+    },
+    {
+      "type": "p",
+      "text": "In the South and Mid-Atlantic, a plain bright green snake is most likely a rough green snake; [SREL's rough green snake account](https://srelherp.uga.edu/snakes/rough-green-snake/) says its bright green color easily sets it apart from all other snakes in Georgia and South Carolina. SREL describes a slender snake up to 32 inches, bright green above and yellow or whitish below, from the New Jersey Pine Barrens west to central Texas and south through Florida; the smooth green snake replaces it in the Appalachians and the Northeast."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/rough-green-snake-usfws.webp",
+      "width": 1126,
+      "height": 1054,
+      "alt": "Slender bright green snake stretched across pale sand between sprigs of grass, its head raised at the upper left",
+      "caption": "A rough green snake crossing sand between grasses on Blackbeard Island, Georgia (U.S. Fish and Wildlife Service photo). The agency notes that these snakes usually stay up in vegetation, hunting insects.",
+      "license": "public-domain",
+      "credit": "U.S. Fish and Wildlife Service Southeast Region, Public domain, via Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Can_You_See_Me%3F_(7609575172).jpg"
+    },
+    {
+      "type": "p",
+      "text": "It spends much of its time climbing in vegetation, sleeps coiled in shrubs and vine tangles at night, and often freezes when found, SREL says. [The Missouri Department of Conservation's field guide](https://mdc.mo.gov/discover-nature/field-guide/rough-greensnake) lists it among the nonvenomous snakes and says most will not try to bite. The smooth green snake's scales feel smooth, and MDC calls it a grassland snake. A dead green snake can look blue or black: SREL says the green fades after death."
+    },
+    {
+      "type": "h2",
+      "text": "Which snakes have bands or rings?"
+    },
+    {
+      "type": "p",
+      "text": "Bands or rings mark nonvenomous kingsnakes, scarlet kingsnakes and water snakes, and three venomous snakes: the coral snake, the copperhead and the timber rattlesnake. With red, yellow and black rings, look at which colors touch and at the snout, then think about where you are."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/eastern-coral-snake-nps.webp",
+      "width": 1200,
+      "height": 900,
+      "alt": "Coral snake crossing gray pavement at night, wide red and black bands separated by narrow yellow rings, its black snout followed by a yellow band",
+      "caption": "A coral snake on pavement at night, in a National Park Service photo from Everglades National Park, Florida. Venomous: the red bands touch yellow ones and the snout is black. Keep your distance.",
+      "license": "public-domain",
+      "credit": "Everglades NPS from Homestead, Florida, United States, Public domain, via Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coral_Snake,_NPSPhoto_(9257805708).jpg"
+    },
+    {
+      "type": "p",
+      "text": "On the venomous coral snake, wide red and black rings are separated by narrow yellow ones and the blunt snout is black, UF/IFAS says; on the nonvenomous scarlet kingsnake and scarlet snake, red touches black and the snout is red. Texas Parks and Wildlife says the Texas coral snake's red rings are always bordered by yellow, that its nonvenomous look-alikes never have red touching yellow, and that the coral snake has round pupils and a small head."
+    },
+    {
+      "type": "p",
+      "text": "Do not go by color alone: [SREL's coral snake account](https://srelherp.uga.edu/snakes/eastern-coral-snake/) says colors vary, fade with age and can look altered by lighting and dirt, and CDC's NIOSH says coral snakes are sometimes confused with nonvenomous king snakes. Copperheads and timber rattlesnakes are covered below."
+    },
+    {
+      "type": "h2",
+      "text": "Which venomous snakes live near you?"
+    },
+    {
+      "type": "p",
+      "text": "Four groups, and where you live rules some out. CDC's NIOSH lists rattlesnakes, copperheads, cottonmouths (water moccasins) and coral snakes as the venomous snakes of the US, and UF/IFAS counts about 20 venomous species in the country."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Group",
+        "Where CDC places it",
+        "What to look for"
+      ],
+      "rows": [
+        [
+          "Rattlesnakes",
+          "Across the US: mountains, prairies, deserts, beaches",
+          "A rattle or button, though rattles break off and are not always shaken"
+        ],
+        [
+          "Copperheads",
+          "Eastern states as far west as Texas",
+          "Hourglass bands on a reddish to golden-tan body"
+        ],
+        [
+          "Cottonmouths",
+          "The Southeast, in or around water",
+          "Adults dark with faint crossbands; young boldly banded with a yellow tail"
+        ],
+        [
+          "Coral snakes",
+          "The southern US: wooded, sandy or marshy places",
+          "Red, yellow and black rings, red touching yellow, black snout"
+        ]
+      ],
+      "caption": "Ranges and most marks from CDC NIOSH; rattles from UC IPM and the coral snake's rings and snout from UF/IFAS, all linked on this page."
+    },
+    {
+      "type": "table",
+      "head": [
+        "State",
+        "Snake species",
+        "Venomous",
+        "Which ones"
+      ],
+      "rows": [
+        [
+          "New Jersey",
+          "22",
+          "2",
+          "Timber rattlesnake, northern copperhead"
+        ],
+        [
+          "North Carolina",
+          "37",
+          "6",
+          "Copperhead, cottonmouth, timber, eastern diamondback and pigmy rattlesnakes, eastern coral snake"
+        ],
+        [
+          "Florida",
+          "About 50 native",
+          "6",
+          "Five pit vipers and the coral snake"
+        ],
+        [
+          "Texas",
+          "Over 105 species and subspecies",
+          "15 potentially dangerous",
+          "Copperheads, cottonmouths, rattlesnakes and the Texas coral snake"
+        ],
+        [
+          "Washington",
+          "About a dozen",
+          "1",
+          "Western rattlesnake"
+        ]
+      ],
+      "caption": "From New Jersey's Division of Fish and Wildlife, the NC Wildlife Resources Commission, UF/IFAS, Texas Parks and Wildlife and WDFW. UC IPM counts nine rattlesnake species in California."
+    },
+    {
+      "type": "h3",
+      "text": "Copperhead"
+    },
+    {
+      "type": "p",
+      "text": "[SREL's copperhead account](https://srelherp.uga.edu/snakes/copperhead/) gives adults 2 to 3 feet and says copperheads are sometimes common in urban parks and suburban lots. The test, from New Jersey's agency: hourglass bands wide on the sides and narrow across the back, a pattern no other New Jersey snake has. Milk snakes, water snakes and brown snakes are often taken for copperheads; [the guide to baby copperheads and their look-alikes](/blog/copperhead-look-alikes) compares them."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/copperhead-leaf-litter-usfws.webp",
+      "width": 1200,
+      "height": 896,
+      "alt": "Copperhead coiled in brown fallen leaves, its tan body crossed by darker hourglass-shaped bands that blend into the leaf litter",
+      "caption": "A copperhead blending into dead leaves (U.S. Fish and Wildlife Service photo). Venomous: keep your distance. SREL says bites often happen when a copperhead is stepped on by accident.",
+      "license": "public-domain",
+      "credit": "USFWSmidwest, Public domain, via Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Copperhead_(27657571350).jpg"
+    },
+    {
+      "type": "h3",
+      "text": "Cottonmouth"
+    },
+    {
+      "type": "p",
+      "text": "UF/IFAS says a threatened cottonmouth, also called a water moccasin, may coil and gape to show the white lining of its mouth, and that nonvenomous water snakes, which share its ditches and ponds, are often mistaken for it. Its test is a rule: leave alone any large, dark snake near water that you cannot identify with confidence. [Water snake vs cottonmouth](/blog/copperhead-look-alikes) has its own section in the copperhead look-alike guide."
+    },
+    {
+      "type": "h3",
+      "text": "Rattlesnakes"
+    },
+    {
+      "type": "p",
+      "text": "CDC's NIOSH says rattlesnakes can be found sunning near logs, boulders and open areas, and UC IPM counts nine species in California alone. UC IPM says rattles can break off, so a missing one proves nothing, and CDC says rattlesnakes do not always rattle before biting. UF/IFAS describes the eastern diamondback, North America's largest venomous snake at 3 to 6 feet, with dark diamonds edged in beige, and the pygmy rattlesnake, about a foot long, with a barely audible rattle."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/timber-rattlesnake-usfws.webp",
+      "width": 1200,
+      "height": 800,
+      "alt": "Timber rattlesnake stretched across pale gravel, its tan body crossed by dark jagged bands that run into a black tail tipped with a rattle",
+      "caption": "A timber rattlesnake on gravel (U.S. Fish and Wildlife Service photo by William Powell). Venomous: note the dark jagged bands and the black tail, and keep your distance.",
+      "license": "public-domain",
+      "credit": "USFWS Headquarters, Public domain, via Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Timber_rattlesnake_(Crotalus_horridus)_by_William_Powell,_USFWS_(52459087793).jpg"
+    },
+    {
+      "type": "p",
+      "text": "New Jersey's agency describes the timber rattlesnake's blotches near the head turning to thick, jagged bands and a solid black, velvety tail; Texas Parks and Wildlife says its tail is entirely black, while western diamondbacks have black and white rings on the tail. Pygmy rattlesnakes turn up in brush piles, flower beds and gardens, UF/IFAS says, so it advises leather gloves for gardening."
+    },
+    {
+      "type": "h3",
+      "text": "Coral snakes"
+    },
+    {
+      "type": "p",
+      "text": "SREL places the eastern coral snake from southeastern North Carolina through Florida and west into southeastern Louisiana, mostly underground or under logs and leaf litter, surfacing mainly in spring and fall after heavy rain; UF/IFAS says people may meet one while digging in a yard. Coral snakes are generally reluctant to bite unless handled or stepped on, SREL says, but early symptoms may be delayed, so treat even a minor-looking bite as a medical emergency."
+    },
+    {
+      "type": "h2",
+      "text": "Can you tell a venomous snake by its head or eyes?"
+    },
+    {
+      "type": "p",
+      "text": "Not reliably, and not from a safe distance. Each rule of thumb fails on its own:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**A triangular head.** UF/IFAS says many nonvenomous snakes have triangular heads and that garter and water snakes flatten theirs when threatened; WDFW says a gopher snake's head looks more triangular when it is agitated. The venomous coral snake's head is small and rounded (SREL).",
+        "**Cat-eye pupils.** Texas Parks and Wildlife says the coral snake has round pupils, and checking pupils or a pit viper's heat-sensing pits means getting close; NC Wildlife advises a respectful distance from every snake.",
+        "**A rattle, or none.** CDC says rattlesnakes do not always rattle and UC IPM that rattles break off, while New Jersey's agency says many of that state's snakes shake their tails in leaves to sound like one.",
+        "**Color alone.** New Jersey's agency and SREL say color varies too much; go by pattern, build and place together."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "[The full venom checks for small snakes](/blog/baby-snakes), including the yellow tail tips of young copperheads and cottonmouths and a newborn rattlesnake's button, are in the baby snake guide. For any snake, UF/IFAS's rule applies: if you are not sure, give it its space."
+    },
+    {
+      "type": "h2",
+      "text": "How do you identify a snake without getting close?"
+    },
+    {
+      "type": "checklist",
+      "title": "Checks to make from a few steps away",
+      "items": [
+        "**Pattern.** Stripes, blotches, solid black, small and plain, green, or bands and rings; New Jersey's agency says pattern is more reliable than color.",
+        "**Build.** Pit vipers are thick and heavy for their length (UF/IFAS); racers and green snakes are long and slender.",
+        "**Length.** Compare it with a step, a brick or a board, then find the match in the quick-ID table at the top of the page.",
+        "**Tail.** A rattle or button means a rattlesnake; a solid black tail fits a timber rattlesnake; a yellow tail tip fits a young copperhead (SREL), cottonmouth (CDC) or pygmy rattlesnake (UF/IFAS).",
+        "**Place.** Near water in the Southeast, think cottonmouth as well as water snakes; CDC places coral snakes in the southern US.",
+        "**Behavior.** A snake that races off may be a racer (UF/IFAS); one that flattens its neck like a cobra and hisses, then may roll over and play dead, is likely a hognose (SREL).",
+        "**Doubt.** If any check is unclear, treat the snake as venomous and leave it alone."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "What should you do if a snake bites you or your pet?"
+    },
+    {
+      "type": "p",
+      "text": "Get help at once, whatever the snake. [MedlinePlus, from the National Library of Medicine](https://medlineplus.gov/ency/article/000031.htm), says to call 911 or the local emergency number if someone has been bitten and notes that even a nonvenomous bite can sometimes cause significant injury, particularly to children; Poison Help, 1-800-222-1222, answers questions any time. CDC's NIOSH estimates 7,000 to 8,000 venomous snakebites and about 5 deaths a year in the US."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "First aid after a snakebite (CDC and MedlinePlus)",
+      "text": "MedlinePlus: call 911 or the local emergency number. CDC: get emergency medical care as soon as possible and do not drive yourself, because the bite can make you dizzy or pass out; if it is safe, photograph the snake from a distance; stay calm and keep the bite in a comfortable, neutral position; take off rings and watches before swelling starts; wash the bite with soap and water and cover it with a clean, dry dressing; and mark the leading edge of the tenderness or swelling on the skin and write the time beside it."
+    },
+    {
+      "type": "p",
+      "text": "CDC's list of what not to do: do not pick up or trap the snake, and never handle a venomous one, even dead; do not wait for symptoms; do not use a tourniquet, electric shock or folk remedies, cut the wound or try to suck out venom; do not apply ice or soak the bite; and do not drink alcohol or take aspirin, ibuprofen or naproxen. For bites from young snakes, see [the baby snake guide's first-aid section](/blog/baby-snakes). A dog bitten by a rattlesnake needs a veterinarian right away, UC IPM says."
+    },
+    {
+      "type": "confused",
+      "title": "Small snakes that are easy to misidentify",
+      "items": [
+        {
+          "href": "/blog/copperhead-look-alikes",
+          "name": "Young copperhead",
+          "photo": "juvenile-copperhead-usfws",
+          "note": "Hourglass bands like an adult's, plus a yellow or greenish-yellow tail tip",
+          "alt": "Young copperhead coiled on moss, its hourglass bands and pale yellow-green tail tip showing"
+        },
+        {
+          "href": "/blog/baby-snakes",
+          "name": "Brown snake",
+          "photo": "dekays-brownsnake-nps",
+          "note": "Grown at 6 to 13 inches, with two rows of dark spots; often taken for a copperhead",
+          "alt": "Small, slender brown snake crossing gray stone steps"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "What should you do once you know what snake it is?"
+    },
+    {
+      "type": "p",
+      "text": "Leave it where it is and give it room. In most cases, given time, a snake moves off on its own, NC Wildlife says, though on a cool day one basking in the sun may need to warm up before it can leave. Then:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Keep people and pets back.** NC Wildlife advises a respectful distance and teaching children to look but not touch; Texas Parks and Wildlife says the danger comes when a snake is surprised or cornered.",
+        "**Do not kill or catch it.** Texas Parks and Wildlife asks people not to kill snakes, even venomous ones, and warns that dead snakes have bitten; in New Jersey it is illegal to kill, harm, handle or collect any native snake.",
+        "**Indoors, call a professional.** NC Wildlife does not remove snakes and points residents to certified wildlife damage control agents, who charge for the work; in California, UC IPM says county agricultural commissioners and UC Cooperative Extension offices may be able to point you to one.",
+        "**Make the yard less inviting.** Trim plants, clear rock, wood and debris piles and seal gaps under doors and around pipes (NC Wildlife); control rodents and seal openings over 1/4 inch, including gaps under garage doors (UC IPM), which says no repellent has been proven to work well enough to recommend.",
+        "**Deal with the rodents.** Rat snakes feed mainly on rodents and will likely move on once the rodents are gone (UF/IFAS); [the guide to mice in US homes](/learn/mice) and [the steps for sealing the gaps mice use](/blog/how-to-keep-mice-out-of-your-house-winter) cover that side.",
+        "**Read the signs.** A shed skin can help identify the species (NC Wildlife); [what snake droppings look like](/blog/snake-poop), [which animal dug a hole in the yard](/blog/holes-in-yard) and [more wildlife identification guides](/learn) cover other clues."
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Photograph it, do not catch it",
+      "text": "Take photos from a safe distance, from above and from the side, with something of known size in the frame such as a step or a brick, and note where you saw it. Your state wildlife agency or county extension office can help identify it; NC Wildlife, for one, takes photos by email."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How do I identify a snake in my yard?",
+      "answer": "Start with the pattern you can see from a few steps away: stripes, blotches, solid black, small and plain brown or gray, bright green, or bands and rings. New Jersey's Division of Fish and Wildlife says pattern is a better guide than color, which varies within a species. Then compare the snake's length with something nearby, note whether you are near water, and check which venomous groups CDC places in your region. Photograph it from a distance; a state wildlife agency or county extension office can help name it."
+    },
+    {
+      "question": "What snake is black with a white belly?",
+      "answer": "In the East, the likely answers are an adult black rat snake or a racer, both nonvenomous. New Jersey's wildlife agency says adult black rat snakes have a white chin and throat and a white or pale yellow belly, and adult northern black racers a white chin and throat with a gray to bluish-gray belly. SREL adds that rat snake bellies are checkerboard-patterned. Racers are slimmer and fast. Near water in the Southeast, CDC says the venomous cottonmouth can be nearly black, so leave a dark snake there alone."
+    },
+    {
+      "question": "What does a garden snake look like?",
+      "answer": "Usually a garter snake, the striped snake SREL counts among those met most often in suburbs. SREL says most garter snakes have three yellow stripes running down a dark body, some with a checkered pattern between paler stripes, and are usually 18 to 26 inches long. UF/IFAS says their colors range from gray and blue to yellow, brown and green, and that they are often found among landscape plants near houses. They are nonvenomous, but a cornered one may release musk and flatten its head and body."
+    },
+    {
+      "question": "What is the most common snake in yards?",
+      "answer": "It depends on where you live. SREL counts garter snakes among the snakes met most often in suburbs, and says brown snakes, found throughout the eastern US, are often the most abundant snake in built-up areas. In Florida, UF/IFAS calls ring-necked snakes one of the most common snakes in urban areas and the racer the black snake found there most often. In Washington, WDFW calls the gopher snake common and widespread in the eastern part of the state."
+    },
+    {
+      "question": "Is a red, yellow and black snake always a coral snake?",
+      "answer": "No. UF/IFAS says the nonvenomous scarlet kingsnake and scarlet snake share those colors, but their red bands touch black and their snouts are red, while the venomous coral snake has red touching yellow and a black snout. Texas Parks and Wildlife says the nonvenomous Texas snakes marked like it never have red touching yellow. SREL warns that colors vary, fade with age and can look altered by lighting and dirt, so color should never be the only test, and CDC places coral snakes in the southern US. Keep your distance either way."
+    },
+    {
+      "question": "What snake looks like a rattlesnake but isn't one?",
+      "answer": "In the West, the gopher snake. Washington's wildlife agency says it hisses, puffs up, coils, flattens its head and vibrates its tail, mimicking a rattlesnake, but has no rattle and no facial pits, and UC IPM says it can even shape its head to look triangular. In the East, New Jersey's agency says many of that state's snakes shake their tails against leaves to sound like a rattle. UC IPM also warns that rattles break off, so a missing rattle does not rule out a rattlesnake."
+    },
+    {
+      "question": "When are snakes most active?",
+      "answer": "CDC's NIOSH says snakes tend to be most active at dawn and dusk and in warm weather. Some are out at other times: SREL says garter snakes may be active on warm winter days, and that eastern coral snakes surface mostly in spring and fall, especially after heavy rain. In summer, UC IPM says, rattlesnakes may be drawn to cool or damp places such as the space beneath buildings and basements. Watch where you put your hands and feet at those times, especially around woodpiles, brush and leaf litter."
+    },
+    {
+      "question": "Do black snakes keep copperheads away?",
+      "answer": "Kingsnakes are the black snakes known for eating them: SREL says eastern kingsnakes are well known for eating venomous pit vipers such as copperheads and rattlesnakes. The black rat snake is a different snake, and SREL says adults eat mostly rodents, squirrels, birds and bird eggs. No agency source here suggests counting on another snake to keep copperheads out; NC Wildlife and UC IPM advise removing cover, controlling rodents and sealing gaps instead."
+    },
+    {
+      "question": "Should I kill a snake in my yard?",
+      "answer": "No. Texas Parks and Wildlife asks people not to kill snakes, even venomous ones, and warns that dead snakes have bitten and envenomated people. In New Jersey it is illegal to kill, harm, handle or collect any native snake. NC Wildlife says snakes do not regard people as prey, usually move off on their own, and that removing one snake will not stop another from taking its place. If a snake is inside the house or might be venomous, call a wildlife control professional."
+    },
+    {
+      "question": "Do nonvenomous snakes bite?",
+      "answer": "Yes, when cornered or handled. MedlinePlus says all snakes will bite as a last resort when threatened or surprised, and that even a nonvenomous bite can sometimes cause significant injury, particularly to children. WDFW says gopher snakes bite if threatened, SREL says kingsnakes may bite readily when cornered, and UF/IFAS says racers may strike if handled. NC Wildlife says snakes left alone pose little threat, so the simplest prevention is to leave them be."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Venomous Snakes at Work (last reviewed September 23, 2026)",
+      "publisher": "CDC, National Institute for Occupational Safety and Health",
+      "url": "https://www.cdc.gov/niosh/outdoor-workers/about/venomous-snakes.html"
+    },
+    {
+      "title": "Snake bites (medical encyclopedia; reviewed October 14, 2025)",
+      "publisher": "MedlinePlus, U.S. National Library of Medicine",
+      "url": "https://medlineplus.gov/ency/article/000031.htm"
+    },
+    {
+      "title": "Snake Identification: Avoid Being Confused! (rev. April 2019)",
+      "publisher": "New Jersey Division of Fish and Wildlife, Endangered and Nongame Species Program",
+      "url": "https://www.nj.gov/dep/fgw/ensp/pdf/snake_id-avoid_confusion.pdf"
+    },
+    {
+      "title": "Dealing with Snakes in Florida's Residential Areas: Identifying Commonly Encountered Snakes (WEC220/UW258; S. A. Johnson and M. E. McGarrity)",
+      "publisher": "University of Florida IFAS Extension",
+      "url": "https://ask.ifas.ufl.edu/publication/UW258"
+    },
+    {
+      "title": "Venomous Snake Safety (Texas Junior Naturalists)",
+      "publisher": "Texas Parks and Wildlife Department",
+      "url": "https://tpwd.texas.gov/education/resources/texas-junior-naturalists/be-nature-safe/venomous-snake-safety"
+    },
+    {
+      "title": "Pest Notes: Rattlesnakes (UC ANR Publication 74119; B. D. Todd, updated December 2014)",
+      "publisher": "University of California Statewide IPM Program",
+      "url": "https://ipm.ucanr.edu/home-and-landscape/rattlesnakes/"
+    },
+    {
+      "title": "Gopher snake (Pituophis catenifer)",
+      "publisher": "Washington Department of Fish and Wildlife",
+      "url": "https://wdfw.wa.gov/species-habitats/species/pituophis-catenifer"
+    },
+    {
+      "title": "Coexist with Snakes",
+      "publisher": "North Carolina Wildlife Resources Commission",
+      "url": "https://www.ncwildlife.gov/media/3251/download?attachment"
+    },
+    {
+      "title": "Eastern Milksnake (fact sheet, updated March 8, 2018)",
+      "publisher": "Connecticut Department of Energy and Environmental Protection",
+      "url": "https://portal.ct.gov/deep/wildlife/fact-sheets/eastern-milksnake"
+    },
+    {
+      "title": "Rough Greensnake (Field Guide)",
+      "publisher": "Missouri Department of Conservation",
+      "url": "https://mdc.mo.gov/discover-nature/field-guide/rough-greensnake"
+    },
+    {
+      "title": "Eastern Garter Snake (Thamnophis sirtalis) (A. Gleaton, edited by J. D. Willson)",
+      "publisher": "Savannah River Ecology Laboratory, University of Georgia",
+      "url": "https://srelherp.uga.edu/snakes/eastern-garter-snake"
+    },
+    {
+      "title": "Eastern Ribbon Snake (Thamnophis sauritus) (C. Baker, edited by J. D. Willson)",
+      "publisher": "Savannah River Ecology Laboratory, University of Georgia",
+      "url": "https://srelherp.uga.edu/snakes/eastern-ribbon-snake/"
+    },
+    {
+      "title": "Rat Snake (Pantherophis obsoletus alleghaniensis)",
+      "publisher": "Savannah River Ecology Laboratory, University of Georgia",
+      "url": "https://srelherp.uga.edu/snakes/rat-snake/"
+    },
+    {
+      "title": "Eastern Kingsnake (Lampropeltis getula)",
+      "publisher": "Savannah River Ecology Laboratory, University of Georgia",
+      "url": "https://srelherp.uga.edu/snakes/eastern-kingsnake/"
+    },
+    {
+      "title": "Eastern Hognose Snake (Heterodon platirhinos)",
+      "publisher": "Savannah River Ecology Laboratory, University of Georgia",
+      "url": "https://srelherp.uga.edu/snakes/eastern-hognose-snake/"
+    },
+    {
+      "title": "Northern Watersnake (Nerodia sipedon)",
+      "publisher": "Savannah River Ecology Laboratory, University of Georgia",
+      "url": "https://srelherp.uga.edu/snakes/northern-watersnake/"
+    },
+    {
+      "title": "Brown Snake (Storeria dekayi)",
+      "publisher": "Savannah River Ecology Laboratory, University of Georgia",
+      "url": "https://srelherp.uga.edu/snakes/brown-snake/"
+    },
+    {
+      "title": "Rough Green Snake (Opheodrys aestivus)",
+      "publisher": "Savannah River Ecology Laboratory, University of Georgia",
+      "url": "https://srelherp.uga.edu/snakes/rough-green-snake/"
+    },
+    {
+      "title": "Eastern Coral Snake (Micrurus fulvius)",
+      "publisher": "Savannah River Ecology Laboratory, University of Georgia",
+      "url": "https://srelherp.uga.edu/snakes/eastern-coral-snake/"
+    },
+    {
+      "title": "Eastern Copperhead (Agkistrodon contortrix)",
+      "publisher": "Savannah River Ecology Laboratory, University of Georgia",
+      "url": "https://srelherp.uga.edu/snakes/copperhead/"
+    }
+  ],
+  "disclaimer": "health"
+}

@@ -206,6 +206,7 @@ https://buzzskito.ca/blog/mud-daubers
 https://buzzskito.ca/blog/sweat-bees
 https://buzzskito.ca/blog/wasp-vs-hornet
 https://buzzskito.ca/blog/best-wasp-spray
+https://buzzskito.ca/blog/black-and-yellow-bugs
 https://buzzskito.ca/blog/no-see-ums
 https://buzzskito.ca/blog/gnat-bites
 https://buzzskito.ca/blog/how-to-get-rid-of-drain-flies
@@ -273,6 +274,10 @@ https://buzzskito.ca/blog/christmas-tree-bugs
 https://buzzskito.ca/blog/stink-bug-eggs
 https://buzzskito.ca/blog/drugstore-beetles
 https://buzzskito.ca/blog/centipede-vs-millipede
+https://buzzskito.ca/blog/bugs-that-look-like-termites
+https://buzzskito.ca/blog/bugs-that-look-like-silverfish
+https://buzzskito.ca/blog/bugs-that-look-like-lice
+https://buzzskito.ca/blog/moth-eggs
 https://buzzskito.ca/blog/animals-in-attic
 https://buzzskito.ca/blog/holes-in-yard
 https://buzzskito.ca/blog/animal-droppings
@@ -291,6 +296,7 @@ https://buzzskito.ca/blog/coyote-poop
 https://buzzskito.ca/blog/bear-poop
 https://buzzskito.ca/blog/squirrel-nest
 https://buzzskito.ca/blog/animal-tracks-in-snow
+https://buzzskito.ca/blog/snake-identification
 https://buzzskito.ca/blog/japanese-beetles
 https://buzzskito.ca/blog/spider-mites
 https://buzzskito.ca/blog/houseplant-bugs

@@ -572,6 +572,22 @@
   "/guides/photos/culex-pipiens.webp",
   "/guides/photos/mosquito-on-jeans.webp"
  ],
+ "/blog/black-and-yellow-bugs": [
+  "/guides/photos/bald-faced-hornet.webp",
+  "/guides/photos/carpenter-bee-on-flower.webp",
+  "/guides/photos/carpet-beetle.webp",
+  "/guides/photos/cicada-killer.webp",
+  "/guides/photos/drone-fly-beside-bumble-bee.webp",
+  "/guides/photos/eastern-hornet-fly-goldenrod.webp",
+  "/guides/photos/european-paper-wasp.webp",
+  "/guides/photos/german-yellowjacket-soda-cup.webp",
+  "/guides/photos/locust-borer-goldenrod.webp",
+  "/guides/photos/mining-bee-burrow-clay-aggregation.webp",
+  "/guides/photos/mud-dauber-nest-house-overhang.webp",
+  "/guides/photos/striped-cucumber-beetle-garden-leaf.webp",
+  "/guides/photos/sweat-bee-on-fingertip.webp",
+  "/guides/photos/yellow-garden-spider.webp"
+ ],
  "/blog/black-ants": [
   "/guides/photos/carpenter-ant-on-fingers.webp",
   "/guides/photos/carpenter-ant-side-view.webp",
@@ -803,6 +819,52 @@
   "/guides/photos/cat-flea.webp",
   "/guides/photos/northern-fowl-mites.webp",
   "/guides/photos/western-bat-bug.webp"
+ ],
+ "/blog/bugs-that-look-like-lice": [
+  "/guides/photos/bed-bug-nymph-scale-bar-cdc.webp",
+  "/guides/photos/bed-bug-nymph.webp",
+  "/guides/photos/booklouse-notebook-pen-tip.webp",
+  "/guides/photos/booklouse-printed-paper.webp",
+  "/guides/photos/cat-flea-on-fingertip.webp",
+  "/guides/photos/crab-louse-cdc.webp",
+  "/guides/photos/flea-on-comb.webp",
+  "/guides/photos/hair-cast.webp",
+  "/guides/photos/head-louse-on-lice-comb.webp",
+  "/guides/photos/melon-aphid-colony.webp",
+  "/guides/photos/northern-fowl-mites.webp",
+  "/guides/photos/oleander-aphid-on-arm.webp",
+  "/guides/photos/poultry-red-mite.webp",
+  "/guides/photos/tick-trefoil-seeds-fabric-ruler.webp"
+ ],
+ "/blog/bugs-that-look-like-silverfish": [
+  "/guides/photos/booklouse-cereal-package.webp",
+  "/guides/photos/carpet-beetle-larva-bedroom.webp",
+  "/guides/photos/carpet-beetle-larva-wood-floor.webp",
+  "/guides/photos/european-earwig-male.webp",
+  "/guides/photos/european-earwig-nymph-pincers.webp",
+  "/guides/photos/firebrat-textured-surface.webp",
+  "/guides/photos/gray-silverfish-in-sink.webp",
+  "/guides/photos/greenhouse-millipede-bathroom-penny.webp",
+  "/guides/photos/house-centipede-sink-drain.webp",
+  "/guides/photos/house-centipede-young-fingertip.webp",
+  "/guides/photos/jumping-bristletail-eyes-close-up.webp",
+  "/guides/photos/jumping-bristletail-white-textured-surface.webp",
+  "/guides/photos/springtail.webp"
+ ],
+ "/blog/bugs-that-look-like-termites": [
+  "/guides/photos/booklouse-notebook-pen-tip.webp",
+  "/guides/photos/booklouse.webp",
+  "/guides/photos/carpenter-ant-beside-ruler.webp",
+  "/guides/photos/carpenter-ant-frass.webp",
+  "/guides/photos/citronella-ant-swarm-winged-leaf.webp",
+  "/guides/photos/larger-yellow-ant-winged-female.webp",
+  "/guides/photos/lyctus-beetle-split-wood.webp",
+  "/guides/photos/lyctus-powderpost-beetle-new-mexico.webp",
+  "/guides/photos/odorous-house-ants-winged-window-frame.webp",
+  "/guides/photos/old-house-borer-larva-pine-tunnel.webp",
+  "/guides/photos/termite-swarmers-metal-wall.webp",
+  "/guides/photos/termites-in-decaying-wood.webp",
+  "/guides/photos/woodworm-holes-floorboard.webp"
  ],
  "/blog/bugs-that-look-like-ticks": [
   "/diagrams/bugs-that-look-like-ticks.svg",
@@ -1977,6 +2039,22 @@
   "/guides/photos/aedes-vexans.webp",
   "/guides/photos/culex-pipiens.webp"
  ],
+ "/blog/moth-eggs": [
+  "/guides/photos/bagworm-female-bag-eggs.webp",
+  "/guides/photos/bed-bugs-eggs-mattress-seam.webp",
+  "/guides/photos/brown-marmorated-stink-bug-egg-mass-unhatched-leaf.webp",
+  "/guides/photos/carpet-beetle-larva-knit-fabric.webp",
+  "/guides/photos/clothes-moth-eggs-wool.webp",
+  "/guides/photos/common-house-spider-egg-sac.webp",
+  "/guides/photos/eastern-tent-caterpillar-egg-mass-twig.webp",
+  "/guides/photos/flea-egg-and-larva.webp",
+  "/guides/photos/household-casebearer-cases-wall-fingertip.webp",
+  "/guides/photos/indian-meal-moth-eggs.webp",
+  "/guides/photos/spongy-moth-egg-mass-thumb-bark.webp",
+  "/guides/photos/spongy-moth-egg-masses-pupae-wall.webp",
+  "/guides/photos/spotted-lanternfly-egg-masses.webp",
+  "/guides/photos/white-marked-tussock-moth-egg-mass-siding.webp"
+ ],
  "/blog/moths-in-house": [
   "/guides/photos/carpet-beetle-larva.webp",
   "/guides/photos/casemaking-clothes-moth-larva.webp",
@@ -2424,6 +2502,18 @@
   "/guides/photos/lemon-eucalyptus-leaves.webp",
   "/guides/photos/lemongrass-plant.webp",
   "/guides/photos/peppermint-flowering.webp"
+ ],
+ "/blog/snake-identification": [
+  "/guides/photos/black-racer-lawn-nps.webp",
+  "/guides/photos/black-rat-snake-porch-nps.webp",
+  "/guides/photos/common-garter-snake-usfws.webp",
+  "/guides/photos/copperhead-leaf-litter-usfws.webp",
+  "/guides/photos/dekays-brownsnake-nps.webp",
+  "/guides/photos/eastern-coral-snake-nps.webp",
+  "/guides/photos/gopher-snake-mulch-nps.webp",
+  "/guides/photos/juvenile-copperhead-usfws.webp",
+  "/guides/photos/rough-green-snake-usfws.webp",
+  "/guides/photos/timber-rattlesnake-usfws.webp"
  ],
  "/blog/southern-house-spider": [
   "/guides/photos/brown-recluse-eyes.webp",

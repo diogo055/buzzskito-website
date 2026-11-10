@@ -2,7 +2,7 @@
  "id": "moths-in-house",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "57157ef9ba887a3f680b6c555a9b8ac5a1d82167870b4f032cbbb41fc0dd796d",
+ "sha": "99435613d05630c0e8860a37e2cc169382dff6c499bcaa1994654def72a89c5d",
  "claimsChecked": 201,
  "claimsCorrected": 3,
  "claimsRemovedOrSoftened": 1,
@@ -21,6 +21,11 @@
   {
    "on": "2026-10-23",
    "note": "checker: verified the moth-egg figure (alt and caption match the photo and the ledger record; CSIRO's own description names no fabric, so 'wool' rests on the ledger subject), every table cell (UF IN153: 0.3-0.5 mm = under 1/50 in, so the page is right and UF's own '0.12 to 0.15 in' is UF's conversion error; up to 400 eggs; 7-8 days at 68F, 3-4 at 86F; discard, freeze or heat; Kentucky ef609: pinhead-sized, 40-50; UC IPM 7435: glued to threads with an adhesive, 4-10 days warm, brushing destroys eggs; Kentucky: hot laundering or dry cleaning; Penn State: 3+ weeks in winter) and the h3 paragraph (UC IPM 7452: discard, seal, remove at once, wash shelves, scrub or vacuum crevices for eggs and pupae; UF: discard or treat; UC IPM 7435: brush seams, folds, pockets; steps below do cover washing, dry cleaning, freezing). No changes.",
+   "previousSha": "57157ef9ba887a3f680b6c555a9b8ac5a1d82167870b4f032cbbb41fc0dd796d"
+  },
+  {
+   "on": "2026-11-10",
+   "note": "Nov 10, 2026: one sentence added that links the new page /blog/moth-eggs (a pointer only; no fact or claim changed)",
    "previousSha": "57157ef9ba887a3f680b6c555a9b8ac5a1d82167870b4f032cbbb41fc0dd796d"
   }
  ]

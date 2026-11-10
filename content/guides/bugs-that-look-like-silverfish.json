@@ -1,0 +1,253 @@
+{
+  "slug": "bugs-that-look-like-silverfish",
+  "kind": "spoke",
+  "cluster": "household",
+  "keyword": "bugs that look like silverfish",
+  "alsoTargets": [
+    "silverfish look alike",
+    "what looks like a silverfish",
+    "firebrat vs silverfish",
+    "jumping bristletail",
+    "bugs that look like silverfish but aren't",
+    "silverfish vs earwig",
+    "what looks like a silverfish but jumps",
+    "silverfish vs house centipede"
+  ],
+  "metaTitle": "Bugs That Look Like Silverfish (Photos)",
+  "metaDescription": "Firebrats, jumping bristletails, earwigs, young house centipedes, springtails and booklice pass for silverfish. The tail end and the eyes sort them.",
+  "h1": "Bugs That Look Like Silverfish: How to Tell Them Apart",
+  "dek": "Firebrats, jumping bristletails, earwigs, young house centipedes, springtails, booklice and carpet beetle larvae all pass for silverfish. Real photos, a tail-end key and a room-by-room sorter, from extension sources.",
+  "breadcrumb": "Bugs That Look Like Silverfish",
+  "excerpt": "Firebrat, jumping bristletail, earwig, house centipede, springtail or booklouse? Tell each from a silverfish by its tail end, its eyes and where you found it.",
+  "datePublished": "2026-11-10",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**A silverfish is a wingless, carrot-shaped insect covered in silvery scales, with a pair of long antennae and three long tail threads of about the same length** ([UF/IFAS](https://ask.ifas.ufl.edu/publication/IG094)). A bug that breaks the pattern is something else: mottled and living by the furnace, a firebrat, the silverfish's heat-loving relative; humped, big-eyed and jumping, a jumping bristletail; pincers at the tail, an earwig; long legs all around, a young house centipede.",
+    "bullets": [
+      "Adult silverfish and firebrats are about 1/3 to 1/2 inch (8 to 13 mm) long, and each tail thread is almost as long as the body, UF/IFAS says; [UC IPM](https://ipm.ucanr.edu/home-and-landscape/silverfish-and-firebrats/) adds that a silverfish can reach 3/4 inch.",
+      "Firebrats are mottled gray or brown and thrive above 90°F, best at 98 to 102°F, so UC IPM finds them around ovens, furnaces, fireplaces and hot water pipes.",
+      "Jumping bristletails live outdoors and are generally under 1/2 inch long, says UW-Milwaukee's field station, which puts their jump at six inches and more; [NC State's entomology course](https://genent.cals.ncsu.edu/insect-identification/order-archeognatha/) says some can jump up to 4 inches (10 cm) by snapping the abdomen against the ground.",
+      "A house centipede hatches with 4 pairs of legs and has 15 pairs as an adult, says [Penn State Extension](https://extension.psu.edu/house-centipedes), while a silverfish has six legs.",
+      "A springtail, at about 1/16 inch, flips into the air on a spring it keeps tucked under its abdomen, and [UC IPM](https://ipm.ucanr.edu/home-and-landscape/springtails/) notes how often they end up stranded in sinks and tubs.",
+      "Booklice, the tiny pale insects of damp bookshelves, are usually under 1/16 inch and feed on mold and the starch sizing of book bindings, UF/IFAS says."
+    ]
+  },
+  "facts": {
+    "title": "Bugs that look like silverfish: quick ID",
+    "head": ["Bug", "Size", "The tell", "Where you find it"],
+    "rows": [
+      ["Silverfish", "About 1/2 inch, up to 3/4 inch", "Silver or pearl gray scales; three tail threads of about equal length; runs fast", "Damp rooms: bathrooms, basements, laundry rooms; books and boxes"],
+      ["Young silverfish", "About 1/16 inch at hatching", "White and scaleless, shaped like a small adult", "With the adults; often trapped in tubs and sinks"],
+      ["Firebrat", "About 1/2 inch", "Mottled gray or brown; shorter and stouter than a silverfish", "Hot spots above 90°F: furnaces, water heaters, ovens"],
+      ["Jumping bristletail", "Generally under 1/2 inch", "Humped back, big eyes that touch, longest middle tail; jumps", "Outdoors under bark and stones, in leaf litter"],
+      ["Earwig", "About 1/2 to 3/4 inch; nymphs smaller", "Pincers at the tail; nymphs light brown and wingless", "Under mulch; wanders in when it is too dry, hot or cold"],
+      ["Young house centipede", "Smaller than the 1-inch adult", "Long legs: 4 pairs at hatching, rising to 15", "Damp basements, bathrooms, floor drains"],
+      ["Springtail", "About 1/16 inch", "Hops with a spring tucked under the body", "Sinks, tubs, floor drains, houseplant soil"],
+      ["Booklouse", "Usually under 1/16 inch", "Soft and pale, with thread-like antennae and a bulging face", "Damp books, papers and stored food"],
+      ["Carpet beetle larva", "1/4 inch or less; black carpet beetle larvae to 5/16 inch", "Carrot-shaped and furry; some end in a tuft of long hairs", "Closets and dark corners near wool, fur, feathers or pet hair"],
+      ["Cockroach nymph", "Smaller than the 1/2-inch German cockroach adult", "Wingless; white just after a molt, darkening within hours", "Kitchens and bathrooms"],
+      ["Bed bug nymph", "About 1/16 to 3/16 inch (1.5 to 4.5 mm)", "Translucent or whitish-yellow; feeds on people", "Mattress and box spring seams, bed frame cracks"]
+    ],
+    "caption": "Sizes and features from UF/IFAS, UC IPM, the Missouri Department of Conservation, University of Missouri Extension, NC State, UW-Milwaukee, Penn State, the University of Kentucky, the University of Maryland and EPA, all linked below."
+  },
+  "body": [
+    { "type": "h2", "text": "What bugs look like silverfish?" },
+    { "type": "p", "text": "Firebrats come closest, followed by jumping bristletails, earwigs and young house centipedes. Smaller, paler bugs, mainly springtails, booklice and carpet beetle larvae, plus freshly molted cockroach nymphs and young bed bugs, get taken for baby silverfish. In its [silverfish field guide](https://mdc.mo.gov/discover-nature/field-guide/silverfish-firebrat), the Missouri Department of Conservation (MDC) lists bristletails as the similar species to rule out, and its description of a silverfish works as a checklist: a flattened body, usually covered with scales, long antennae, small eyes on opposite sides of the head, three tail-like appendages and six legs that run quickly." },
+    { "type": "figure", "src": "/guides/photos/gray-silverfish-in-sink.webp", "width": 1200, "height": 1600, "alt": "Gray silverfish seen from above in a white sink: a dark, tapering, scaly body with two long antennae in front and three long tail threads behind", "caption": "A gray silverfish (*Ctenolepisma longicaudatum*) in a white sink in Winter Park, Florida, where its finder spotted it. Look for the three long tail threads trailing from the tapered end.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/109984321" },
+    { "type": "p", "text": "Apart from the firebrat, which the MDC counts as a kind of silverfish, none of the look-alikes passes every one of those checks. The back end of the bug gives most of them away, so the sections below start there, then sort the suspects by where they turn up. Many of them favor damp rooms, so [bathroom bugs, sorted by where they show up](/blog/bugs-in-bathroom), and [the basement bug sorter](/blog/bugs-in-basement) cover the other insects found there." },
+
+    { "type": "h2", "text": "What does a true silverfish look like up close?" },
+    { "type": "p", "text": "Look for six features together. [UF/IFAS Extension's booklice and silverfish fact sheet](https://ask.ifas.ufl.edu/publication/IG094) describes silverfish and firebrats as wingless, with slender, carrot-shaped bodies coated in scales, a pair of long, slender antennae in front and three long tail appendages behind, each nearly the length of the body; adults measure 1/3 to 1/2 inch (8 to 13 mm). Silverfish are shiny silver or pearl gray. They hide by day, and when whatever covers them is moved, they dart off to find a new hiding place." },
+    { "type": "ul", "items": [
+      "**A carrot shape.** [Virginia Tech's silverfish fact sheet](https://www.pubs.ext.vt.edu/ENTO/ENTO-24/ENTO-24.html) says the body is broader at the head and tapers toward the tip of the abdomen, and [NC State's General Entomology course](https://genent.cals.ncsu.edu/insect-identification/order-zygentoma/) calls it relatively flat.",
+      "**Silvery scales.** [UC IPM's silverfish and firebrat guide](https://ipm.ucanr.edu/home-and-landscape/silverfish-and-firebrats/) describes them as delicate and dustlike, slightly shiny in the light and quick to stick to surfaces, and says scales around damaged items are a good sign that silverfish fed there.",
+      "**Three even tails.** NC State says the two outer tail filaments are nearly as long as the middle one, a detail that separates a silverfish from a jumping bristletail.",
+      "**Small eyes on the sides.** The MDC places a silverfish's small compound eyes on opposite sides of the head.",
+      "**Six legs and no wings.** Virginia Tech says neither silverfish nor firebrats have wings, and the MDC says the hatchlings look like small, whitish adults and never grow any.",
+      "**A stop-and-go run.** [University of Missouri Extension](https://extension.missouri.edu/publications/g7376) describes silverfish moving quickly, stopping briefly and darting on, and [Penn State Extension's page on silverfish and firebrats](https://extension.psu.edu/bristletails-silverfish-and-firebrats) says they can move sideways too. The MDC contrasts that run with the jumping of bristletails."
+    ] },
+
+    { "type": "h2", "text": "What does the tail end tell you?" },
+    { "type": "p", "text": "Usually enough to name the bug. Trap it under a clear jar or take a sharp photo, look at what sticks out behind it, and match it below; the last column is the check that confirms each one." },
+    { "type": "table", "head": ["At the tail end", "What it probably is", "Check next"], "rows": [
+      ["Three long threads of about equal length", "Silverfish, or a firebrat if it is mottled", "Small eyes on the sides of the head; usually indoors"],
+      ["Three threads, the middle one clearly longest", "Jumping bristletail", "Big eyes that meet on top of the head; it jumps"],
+      ["A pair of curved pincers", "Earwig; a nymph if it is pale and wingless", "Adults of most kinds have short wing covers on the back"],
+      ["A long pair of legs trailing behind", "House centipede", "Many legs: 4 pairs on a hatchling, 15 on an adult"],
+      ["A tuft of long hairs", "Black carpet beetle larva", "A furry body covered in short, stiff hairs"],
+      ["A spring folded under the body", "Springtail", "About 1/16 inch; flips into the air when touched"]
+    ], "caption": "Tail features from NC State's entomology course, UC IPM and Penn State Extension, each covered in the sections below." },
+    { "type": "p", "text": "When the tails are broken or hard to judge, check the eyes. The MDC describes a bristletail's eyes as large and touching, not set on opposite sides of the head like a silverfish's, and NC State's course page on the bristletail order calls them large and often touching. Under a hand lens or a phone's zoom, a bristletail shows two big dark eyes joined across the top of its head." },
+    { "type": "figure", "src": "/guides/photos/jumping-bristletail-eyes-close-up.webp", "width": 1200, "height": 898, "alt": "Close-up of a jumping bristletail's head: two large, dark eyes meeting across the top of the head, with a shimmering green and gold body behind them and banded legs and antennae", "caption": "The head of a jumping bristletail (*Trigoniophthalmus alternatus*) from Dryden, New York, magnified. Its two large eyes meet on top of the head, where a silverfish's small eyes sit far apart on the sides.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/57944848" },
+    { "type": "checklist", "title": "Checks to run with the bug in a jar", "items": [
+      "**What is at the tail end?** Three even threads, three with a longer middle one, pincers, trailing legs, a hair tuft or a spring tucked underneath: match it in the table above.",
+      "**Where are the eyes?** Small and on the sides of the head points to a silverfish or firebrat; big and touching on top, to a jumping bristletail.",
+      "**How many legs?** Six on a silverfish, firebrat or jumping bristletail; at least 8 on even the youngest house centipede.",
+      "**Does it jump?** A jump points to a jumping bristletail or, on a tiny pale bug, a springtail. Silverfish run.",
+      "**How long is it?** Laid beside a ruler, an adult silverfish measures about 1/2 inch; springtails and booklice, about 1/16 inch or less.",
+      "**Where was it?** A tub, a bookshelf, the furnace room, a closet, the kitchen or the yard: the next section lists who lives where."
+    ] },
+
+    { "type": "h2", "text": "Which look-alikes live where you found yours?" },
+    { "type": "p", "text": "Most of these bugs keep to their own kind of place, so the spot where the bug turned up narrows the list before you look at it closely." },
+    { "type": "table", "head": ["Where you found it", "Most likely", "Also check"], "rows": [
+      ["Bathtub or sink", "A silverfish that fell in and cannot climb out", "Springtails if it is tiny and hops; a house centipede if it has long legs all around"],
+      ["Basement, laundry room or crawl space", "Silverfish; young house centipedes", "Earwigs that came in from outside; springtails near floor drains"],
+      ["Beside the furnace, water heater, oven or hot pipes", "Firebrat", "Silverfish in damp spots nearby"],
+      ["Books, papers, boxes or closet shelves", "Silverfish or booklice", "Carpet beetle larvae where wool or fur is stored"],
+      ["Kitchen or pantry", "Silverfish in cereal, flour, pasta or pet food", "Booklice in damp stored food; cockroach nymphs"],
+      ["Bed, mattress or headboard", "Bed bug nymphs", "Carpet beetle larvae in wool blankets or feather pillows"],
+      ["Outdoors under bark, stones, leaf litter or mulch", "Jumping bristletail", "Earwigs under mulch; outdoor kinds of silverfish"]
+    ], "caption": "From UC IPM, UF/IFAS, the Missouri Department of Conservation, Missouri and Penn State Extension, Virginia Tech, NC State and EPA, linked in the sections below." },
+
+    { "type": "h2", "text": "Is it a silverfish or a firebrat?" },
+    { "type": "p", "text": "Two clues settle most cases: color and heat. A firebrat is mottled gray or brown rather than evenly silver, and UC IPM says it thrives in hot, fairly dry spots, above 90°F and ideally 98 to 102°F, with humidity as low as 30 percent. Silverfish settle where it is damp and cooler, 71 to 90°F in places like laundry rooms, and in warm conditions they need humidity above 75 percent. So a mottled insect beside the water heater, furnace or oven is most likely a firebrat, and a silver one in a damp bathroom or basement a silverfish." },
+    { "type": "figure", "src": "/guides/photos/firebrat-textured-surface.webp", "width": 1200, "height": 1600, "alt": "Mottled firebrat with dark brown blotches across its back, resting on a pale, rough surface, with long antennae in front and long tail threads behind", "caption": "A firebrat (*Thermobia domestica*) on a white textured surface in Hermosillo, Sonora, Mexico. The dark mottling across the back sets it apart from a plain silver or gray silverfish.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/35413318" },
+    { "type": "p", "text": "The MDC adds that the firebrat is shorter and stouter than the common silverfish, less tapered at the tail end and more yellowish, with brown bands and spots on top. Penn State traces the mottling to tufts of brown scales and says a firebrat's antennae are longer than its body, where a silverfish's are about as long as its body. UC IPM finds firebrats around ovens, heating units, fireplaces and hot water pipes, in attics in summer and near the furnace in winter. [The baby silverfish guide](/blog/baby-silverfish) sets the common silverfish, the gray silverfish and the firebrat side by side, eggs and young included." },
+
+    { "type": "h2", "text": "What looks like a silverfish but jumps?" },
+    { "type": "p", "text": "Usually a jumping bristletail, an outdoor insect in a separate order, Archaeognatha, also called Microcoryphia. [UW-Milwaukee's field station](https://uwm.edu/field-station/jumping-bristletail/) notes that jumping bristletails were once grouped with silverfish, and Missouri Extension still says silverfish and firebrats are also called bristletails, so the shared name feeds the mix-up. A far smaller, paler jumper indoors is a springtail, covered further down." },
+    { "type": "figure", "src": "/guides/photos/jumping-bristletail-white-textured-surface.webp", "width": 1028, "height": 1571, "alt": "Jumping bristletail seen from above on a white textured surface: a mottled brown and bronze body, long antennae, and three tail filaments with the middle one far longer than the two beside it", "caption": "The same jumping bristletail from Dryden, New York, on a white textured surface. Its middle tail runs well past the two side tails, unlike the even three of a silverfish.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/57944848" },
+    { "type": "p", "text": "Four features give a bristletail away, by the MDC's description and [NC State's course page on the bristletail order](https://genent.cals.ncsu.edu/insect-identification/order-archeognatha/):" },
+    { "type": "ul", "items": [
+      "**A humped, rounded body.** The MDC calls it cylindrical rather than flattened, with an arched or humped thorax, and usually darker and mottled.",
+      "**Big eyes that touch** on top of the head, as in the close-up above.",
+      "**A longer middle tail.** NC State says the middle filament is longer than the short cerci on either side of it.",
+      "**A jump.** NC State says some can jump up to 4 inches (10 cm) by snapping the abdomen against the ground, UW-Milwaukee says six inches and more, and the MDC says bristletails get around by jumping."
+    ] },
+    { "type": "p", "text": "Size does not help much: UW-Milwaukee puts most jumping bristletails at under 1/2 inch, close to a silverfish's length. Where it was helps more. The MDC says they live outdoors under bark or stones and in leaf litter, never in houses, and NC State adds grassy and wooded ground and the upper tide line on coasts. UW-Milwaukee describes them sheltering by day, moving about at night and being drawn to light." },
+    { "type": "p", "text": "They feed on algae, mosses, lichens and decaying organic matter, and NC State says none are considered pests, so one that strays indoors can be carried back out. Silverfish can live outdoors too: Virginia Tech says they turn up under rocks and bark and in leaf litter, and the MDC adds garden mulch and the foundations of buildings, so check the eyes and tails of any silverfish-like insect found under a stone." },
+
+    { "type": "h2", "text": "What looks like a silverfish but has pincers?" },
+    { "type": "p", "text": "An earwig, or a young one. The giveaway is the rear end: two hard pincers where a silverfish trails three soft threads. [UC IPM's earwig Pest Notes](https://ipm.ucanr.edu/home-and-landscape/earwigs/) says earwigs use the pincers to defend themselves and that they curve more on males than on females. Adults are reddish brown and about 3/4 inch long by UC IPM's measure, or brown and about 1/2 inch by [the University of Maryland Extension's insect key](https://extension.umd.edu/resource/identifying-common-household-insect-pests). Most kinds carry wings under short, hard covers yet seldom fly, UC IPM adds; a silverfish never has wings." },
+    { "type": "figure", "src": "/guides/photos/european-earwig-nymph-pincers.webp", "width": 1200, "height": 1200, "alt": "Pale brown earwig nymph seen from above on a rough gray surface, with a dark head, no wings and a pair of long, curved pincers at the tail", "caption": "A European earwig nymph (*Forficula auricularia*) on a rough, gritty surface in Urbana, Illinois. Even a young earwig has pincers at the tail, and it has no wings.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/221452381" },
+    { "type": "p", "text": "Young earwigs are smaller and paler than the adults. UC IPM says the eggs hatch into small, light brown nymphs that look like adults apart from their size and their lack of wings, and that third- and fourth-stage nymphs are darker. A small, pale, wingless bug with pincers at the tail is most likely a young earwig, not a baby silverfish." },
+    { "type": "p", "text": "By day earwigs hole up somewhere dark, cool and moist, and UC IPM singles out mulch as a common shelter; they forage at night. Hot, cold or dry spells outdoors can push them inside. One trapped in clothing or sat on may bite, yet UC IPM considers earwigs harmless to people. The MDC even names earwigs, along with house centipedes and spiders, as predators of silverfish. [Earwig control, inside and out](/blog/how-to-get-rid-of-earwigs) covers traps and sealing them out." },
+
+    { "type": "h2", "text": "What looks like a silverfish with too many legs?" },
+    { "type": "p", "text": "A young house centipede. An adult carries 15 pairs of long, banded legs, but the young start out with far fewer. [Penn State Extension's account of how house centipedes grow](https://extension.psu.edu/house-centipedes) gives a newly hatched larva just 4 pairs; each of the next five molts adds more, to 5, 7, 9, 11 and then 13 pairs, before the full 15 arrive. Even at its smallest, then, a house centipede has 8 legs, two more than a silverfish." },
+    { "type": "figure", "src": "/guides/photos/house-centipede-young-fingertip.webp", "width": 1200, "height": 1396, "alt": "Small house centipede with long, banded legs spread around a slim, striped body, on a bumpy painted wall near a fingertip", "caption": "A young house centipede (*Scutigera coleoptrata*) photographed in Chapel Hill, North Carolina, with a fingertip held near it for scale. Count the legs: a silverfish has six.", "license": "CC-BY-4.0", "credit": "(c) Lexi Amico, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/90041348" },
+    { "type": "p", "text": "A grown house centipede's body measures 1 to 1 1/2 inches, dirty yellow with three dark stripes, Penn State says, and on adult females the hindmost legs stretch to nearly twice the body's length. They spend the day in dark, damp hideouts, crawl spaces and floor drains with no water trap among them, and they prey on cockroaches, spiders, carpet beetle larvae and other small arthropods, silverfish and firebrats included." },
+    { "type": "p", "text": "No other centipede can live indoors for long, says [Kentucky's ENTFACT on centipedes and millipedes in the home](https://entomology.mgcafe.uky.edu/ef645), and the house centipede's venom claws, called forcipules, are too small to break human skin easily, so its bite is a minimal hazard. [The house centipede guide](/blog/house-centipedes) covers the adults, from bites to keeping them out." },
+    { "type": "p", "text": "A long, skinny bug with many short legs is a millipede: the University of Maryland's key describes millipedes as dark brown and 1 inch or longer, and says they curl up and die indoors. [Centipede vs millipede](/blog/centipede-vs-millipede) sorts the two by the legs on each body segment, and [the millipede guide](/blog/millipedes) explains why they come inside." },
+
+    { "type": "h2", "text": "What tiny bugs in the sink or tub look like baby silverfish?" },
+    { "type": "p", "text": "A young silverfish or a springtail, and a gentle touch tells them apart: a springtail jumps. Young silverfish already have the adult's outline. UC IPM describes hatchlings as plump, white and only about 1/16 inch long, and says they stay bare of scales until they pass 1/8 inch. [Photos of baby silverfish at several sizes](/blog/baby-silverfish) show how small they start." },
+    { "type": "p", "text": "Springtails are the jumpers. [UC IPM's guide to springtails](https://ipm.ucanr.edu/home-and-landscape/springtails/) describes them as wingless, roughly 1/16 inch long and colored anywhere from whitish or bluish to dark gray or black; a spring folded beneath the abdomen snaps them up to several inches into the air. Kitchen sinks, bathtubs, floor drains, damp basements and wet houseplant soil all draw them, and the ones that crawl into a sink or tub after moisture are often stuck there. They neither bite people or pets nor harm furnishings, UC IPM says. [The springtail guide](/blog/springtails) covers drying out their favorite spots." },
+    { "type": "p", "text": "A bigger silverfish in a dry tub did not come up the drain. UC IPM explains that silverfish are unable to come up through a drain, but once one tumbles into a tub or basin, the slick sides keep it there. Virginia Tech adds that a household may not know it has silverfish until one turns up trapped there." },
+
+    { "type": "h2", "text": "What tiny bugs on books and papers look like silverfish?" },
+    { "type": "p", "text": "Booklice, which share the bookshelf with silverfish but are a fraction of their size. By UF/IFAS's description they are soft, pale insects, see-through white, gray or light brown and usually less than 1/16 inch (1.5 mm) long, with long, threadlike antennae and a swollen-looking face between the eyes; most kinds found indoors are wingless. An adult silverfish, at 1/3 to 1/2 inch, is roughly five to eight times the length of a 1/16-inch booklouse." },
+    { "type": "p", "text": "UF/IFAS says booklice eat fungi, cereals, pollen and fragments of dead insects, and nibble the starchy sizing of bookbindings and page edges; warm, humid rooms suit them best. They are not parasites, whatever the name suggests, and bringing indoor humidity under 50 percent slows the mold they feed on. [The full booklice guide](/blog/booklice) goes through the places they turn up, from bookshelves to pantries." },
+    { "type": "p", "text": "Silverfish feed on the same shelves. Their menu, per UF/IFAS, includes glued or pasted paper, sizing in paper and bookbindings, starched clothing and rayon. UC IPM says their mouthparts are too weak to bite through paper, so they graze the surface, and the damage spreads from one spot as scattered, irregular holes." },
+
+    { "type": "h2", "text": "Could a pale bug in the kitchen or bed be a young cockroach or bed bug?" },
+    { "type": "p", "text": "It could, and both deserve a closer look. Every cockroach is white for a short time: [UC IPM's guide to cockroaches](https://ipm.ucanr.edu/home-and-landscape/cockroaches/) says the new outer covering darkens as it hardens after a molt, usually within hours, so a nymph caught at that moment can look as pale as a baby silverfish. Nymphs have no fully developed wings. German cockroaches prefer kitchens, food preparation areas and bathrooms kept warm, around 70 to 75°F; grown ones are light brown, about 1/2 inch long, and marked with two dark stripes on the pronotum, the plate just behind the head. [The baby cockroach guide](/blog/what-do-baby-cockroaches-look-like) explains why some nymphs look white, with photos of nymphs at several stages." },
+    { "type": "p", "text": "Young bed bugs are the other. [EPA's page on bed bug life stages](https://www.epa.gov/bedbugs/bed-bugs-appearance-and-life-cycle) says they are smaller and paler than adults, translucent or whitish-yellow, and so hard to see before a meal that they can be nearly invisible; they measure about 1.5 mm (1/16 inch) when they hatch and 4.5 mm (3/16 inch) by the fifth and last nymph stage. An unfed adult is flat, oval and roughly apple-seed size. [EPA's checklist for finding bed bugs](https://www.epa.gov/bedbugs/how-find-bed-bugs) notes that they seem to prefer people as hosts and points to mattress and box spring seams, piping and tags, and to cracks in bed frames and headboards. [The guide to baby bed bugs](/blog/baby-bed-bugs-nymphs) describes each stage, with photos." },
+
+    { "type": "h2", "text": "What furry bug looks like a silverfish?" },
+    { "type": "p", "text": "A carpet beetle larva. The University of Maryland's key calls these larvae carrot-shaped and furry, no more than 1/4 inch long, and lists closets, bathrooms and kitchens among the places they turn up. The black carpet beetle's larva even has a tail-like tuft: [UC IPM's guide to carpet beetles](https://ipm.ucanr.edu/home-and-landscape/carpet-beetles/) describes it growing to 5/16 inch, light brown to nearly black and bristling with short, stiff hairs, its body narrowing toward the rear and finishing in a tuft of long hairs." },
+    { "type": "figure", "src": "/guides/photos/carpet-beetle-larva-bedroom.webp", "width": 1200, "height": 675, "alt": "Plump, bristly carpet beetle larva striped in cream and dark brown, crawling on a white surface below a pale wall", "caption": "A varied carpet beetle larva (*Anthrenus verbasci*) that its finder came across in an upstairs bedroom in Pennsylvania. Bands of long bristles cover the whole body.", "license": "CC-BY-4.0", "credit": "(c) Nelson Chu Pavlosky, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/254670894" },
+    { "type": "p", "text": "The varied carpet beetle larva in the photo is the striped kind: UC IPM describes it as banded light and dark brown, wider at the back than the front, and covered with dense tufts of hair. Whatever the species, the larvae feed out of sight on animal materials such as fur, feathers, wool, silk, leather and pet hair, and on natural-bristle brushes, leaving brown, bristly shed skins as they grow; synthetic fibers do not interest them. Penn State says silverfish and firebrats do not feed on wool, and Missouri Extension says they usually avoid woolens, so holes in a wool sweater point away from silverfish. [Photos of carpet beetle larvae and where they hide](/blog/carpet-beetle-larvae) are in their own guide." },
+    { "type": "media", "needed": "A black carpet beetle larva (genus Attagenus) seen from above beside a ruler marked in inches, showing the tapering, bristly body and the long tuft of hairs at the tail, identified by an extension service or expert; public domain or CC0" },
+
+    { "type": "h2", "text": "Which silverfish look-alikes bite or damage things?" },
+    { "type": "p", "text": "Of the bugs on this page, only bed bugs feed on people. The others damage belongings, defend themselves now and then, or do neither:" },
+    { "type": "ul", "items": [
+      "**Silverfish and firebrats** damage glued or pasted paper, bookbindings, starched fabric, rayon and dry foods like cereal and flour, but Virginia Tech says they neither bite nor sting and transmit no disease.",
+      "**Booklice** nibble the starch sizing in bindings and page edges and can spoil stored food, though UF/IFAS says none are parasites.",
+      "**Carpet beetle larvae** chew wool, silk, leather, fur and feathers, by UC IPM's account.",
+      "**Earwigs** may bite when trapped in clothing or sat on, and UC IPM rates even a crowd of them an annoyance, not a health hazard.",
+      "**House centipedes** pose a minimal bite hazard, the University of Kentucky says, and Penn State calls them harmless.",
+      "**Springtails** leave people, pets and furnishings alone, with no bites, no disease and no damage, according to UC IPM.",
+      "**Jumping bristletails** are not considered pests, NC State says.",
+      "**Bed bugs** do feed on people: EPA says they appear to prefer human hosts but will also feed on other mammals and birds."
+    ] },
+    { "type": "p", "text": "Bites by themselves are weak evidence: EPA says marks on the skin say little about whether bed bugs are present. A bug in a jar settles far more than a bite does, though [a chart of bug bites by pattern and body location](/learn/bug-bites) can help narrow the field." },
+    { "type": "confused", "items": [
+      { "href": "/blog/booklice", "name": "Booklouse", "photo": "booklouse-cereal-package", "note": "Usually under 1/16 inch, soft and pale, with thread-like antennae; lives among damp books, papers and stored food", "alt": "Magnified tan booklouse with a round head and a soft, segmented body, found in a cereal package" },
+      { "href": "/blog/springtails", "name": "Springtail", "photo": "springtail", "note": "A 1/16-inch jumper that springs away when touched; common in sinks, tubs and damp plant pots", "alt": "Pale springtail with dark bands and long antennae on a green leaf beside a printed scale bar" },
+      { "href": "/blog/house-centipedes", "name": "House centipede", "photo": "house-centipede-sink-drain", "note": "Up to 15 pairs of long, banded legs; hunts silverfish in damp basements and bathrooms", "alt": "House centipede with long, banded legs on the wet bottom of a steel sink beside the drain" },
+      { "href": "/blog/millipedes", "name": "Millipede", "photo": "greenhouse-millipede-bathroom-penny", "note": "Dark, with many short legs on a long body; curls up and soon dies indoors", "alt": "Small dark brown millipede on gray and white terry cloth below a US penny" },
+      { "href": "/blog/how-to-get-rid-of-earwigs", "name": "Earwig", "photo": "european-earwig-male", "note": "Pincers at the tail instead of three threads; hides in mulch and wanders in", "alt": "Male European earwig on gray fabric, with long antennae and strongly curved pincers" },
+      { "href": "/blog/carpet-beetle-larvae", "name": "Carpet beetle larva", "photo": "carpet-beetle-larva-wood-floor", "note": "Carrot-shaped and furry, with a tuft of hair at the tail; eats wool, fur and feathers", "alt": "Banded white and brown carpet beetle larva with short bristles on a wooden floor" }
+    ] },
+    { "type": "p", "text": "Still unsure? [The five-question pest identifier](/tools/what-bug-is-this) narrows down a bug you have in hand, and [the tiny white bug sorter](/blog/tiny-white-bugs) works room by room for the palest ones." },
+
+    { "type": "h2", "text": "What should you do about each look-alike?" },
+    { "type": "p", "text": "Treat the real problem. Most of these bugs point to damp air, a food source or a gap to the outdoors, and only silverfish and firebrats call for the silverfish plan." },
+    { "type": "ul", "items": [
+      "**Silverfish or firebrats.** Follow [the silverfish control plan](/blog/how-to-get-rid-of-silverfish). UC IPM says light infestations can be managed by cutting off water sources and by physical control, and that dehumidifiers in closed spaces help discourage silverfish; [a guide to sizing a basement dehumidifier](/blog/best-large-capacity-dehumidifier-canada), written for Canadian readers, covers capacity.",
+      "**Finding where silverfish hide.** UC IPM recommends cockroach sticky traps for spotting and tracking silverfish, or small glass jars with masking tape on the outside; [a Canadian guide to silverfish traps](/blog/best-silverfish-traps) explains where each type goes.",
+      "**Jumping bristletails.** Carry a stray one back outside; NC State says none are considered pests.",
+      "**Earwigs.** UC IPM suggests sweeping or vacuuming up the ones indoors and sealing cracks and other entry points.",
+      "**House centipedes.** They hunt silverfish and other small pests; [the house centipede guide](/blog/house-centipedes) covers drying out the damp spots where they hide.",
+      "**Springtails and booklice.** Dry things out: UF/IFAS advises bringing indoor humidity below 50 percent for booklice, and [the springtail guide](/blog/springtails) covers the moisture fixes for springtails.",
+      "**Carpet beetle larvae.** Track down and clean out whatever wool, fur or feathers they are feeding on; [the carpet beetle control guide](/blog/how-to-get-rid-of-carpet-beetles) lays out each step.",
+      "**Cockroach or bed bug nymphs.** Confirm the identification first, then see [how to get rid of cockroaches](/blog/how-to-get-rid-of-cockroaches) or [how to get rid of bed bugs](/blog/how-to-get-rid-of-bed-bugs)."
+    ] },
+    { "type": "callout", "tone": "tip", "title": "Catch one for a positive ID", "text": "Trap the bug under a clear glass or on a strip of clear tape and take a sharp photo straight down, with a ruler showing inches alongside, close enough that the tail end and the eyes are visible. Jot down the room and whether it ran or hopped. With those details, your county or state cooperative extension office can help put a name to it." }
+  ],
+  "faqs": [
+    {
+      "question": "What bug looks like a silverfish but is black or brown?",
+      "answer": "Usually a firebrat, a jumping bristletail or an earwig. UC IPM describes the firebrat as mottled gray or brown and says it lives in hot spots such as around ovens, furnaces and hot water pipes. The Missouri Department of Conservation says jumping bristletails are usually darker and mottled, with a humped back and large eyes that touch, and live outdoors. Earwigs are reddish brown with pincers at the tail. A plain gray bug with three even tails can still be a silverfish: University of Missouri Extension describes the gray silverfish as uniformly gray."
+    },
+    {
+      "question": "What bug looks like a silverfish but has pincers?",
+      "answer": "An earwig. Its rear end carries two hard pincers instead of a silverfish's three soft threads, and UC IPM says it uses them for defense, with a stronger curve on males than on females. Young earwigs are light brown and wingless yet already shaped like the adults. By day earwigs hide somewhere dark, cool and moist, mulch included, and they may wander indoors during hot, cold or dry weather. They can bite when trapped in clothing or sat on, though UC IPM considers them harmless to people."
+    },
+    {
+      "question": "What looks like a silverfish but jumps?",
+      "answer": "Outdoors, a jumping bristletail. It has three tails like a silverfish, but the middle one is longer than the other two, its large eyes touch on top of the head, and its body is humped rather than flat, according to NC State University and the Missouri Department of Conservation. NC State says some can jump up to 4 inches by snapping the abdomen against the ground, and UW-Milwaukee says six inches and more. Indoors, a tiny pale jumper in a sink, tub or plant pot points to a springtail, about 1/16 inch long by UC IPM's measure. Silverfish run instead."
+    },
+    {
+      "question": "What is the difference between a silverfish and a firebrat?",
+      "answer": "Mainly color and heat. UC IPM describes silverfish as shiny silver or pearl gray and firebrats as mottled gray or brown, both about 1/2 inch long. Silverfish live in damp places of 71 to 90°F, while firebrats thrive above 90°F, best at 98 to 102°F, around ovens, furnaces, fireplaces and hot water pipes. The Missouri Department of Conservation says firebrats are also shorter and stouter, and Penn State Extension says their antennae are longer than their bodies. Both eat paper and starchy foods."
+    },
+    {
+      "question": "Are jumping bristletails harmful?",
+      "answer": "No. NC State University's entomology course says none of the bristletail order are considered pests; they feed outdoors on algae, mosses, lichens and decaying organic matter in leaf litter, under bark and among stones. The Missouri Department of Conservation says they live outdoors and not in houses, so one found inside has wandered in and can simply be carried back out. Before you do, check that it really is a bristletail: large eyes that touch and a middle tail longer than the other two."
+    },
+    {
+      "question": "Are earwigs and silverfish the same thing?",
+      "answer": "No. They are different insects that both like damp, dark places. A silverfish is wingless and scaly, with three soft tail threads, while an earwig has a pair of pincers at the tail and, as an adult of most kinds, wings folded under short wing covers, which UC IPM says it seldom uses. Virginia Tech says silverfish have no wings at all. The Missouri Department of Conservation even lists earwigs among the animals that eat silverfish, along with house centipedes and spiders."
+    },
+    {
+      "question": "Is a silverfish a baby centipede?",
+      "answer": "No. Silverfish are six-legged insects whose hatchlings already look like small, whitish versions of the adults, the Missouri Department of Conservation says. A house centipede is a different animal entirely: Penn State Extension counts four pairs of legs on a newly hatched one, adding more with each molt up to 15 pairs, so even the tiniest has more legs than any silverfish. The two do meet, though. Both like damp basements and bathrooms, and house centipedes hunt silverfish."
+    },
+    {
+      "question": "Do silverfish or the bugs that look like them bite?",
+      "answer": "Silverfish and firebrats don't; Virginia Tech's fact sheet clears them of biting, stinging and transmitting disease. Of the look-alikes, only bed bugs feed on people, and EPA says they seem to prefer human hosts. An earwig may nip if it gets caught in clothing or someone sits on it, yet UC IPM considers earwigs harmless to people. House centipedes pose a minimal bite hazard; entomologists at the University of Kentucky say their venom claws struggle to pierce skin. Springtails don't bite people or pets, according to UC IPM, and UF/IFAS says booklice are not parasites."
+    },
+    {
+      "question": "What tiny white bugs look like silverfish?",
+      "answer": "Usually young silverfish, springtails or booklice. Hatchling silverfish are white, scaleless and only about 1/16 inch long, says UC IPM, and the Missouri Department of Conservation describes them as small, whitish copies of the adults. Springtails are similar in size but jump, and they collect in sinks, tubs and houseplant soil. Booklice are soft and pale, usually under 1/16 inch, and live among damp books and papers, according to UF/IFAS. Two others to rule out: cockroaches are white just after each molt and darken, usually within hours, UC IPM says, and EPA describes young bed bugs as translucent or whitish-yellow."
+    },
+    {
+      "question": "Do silverfish come up through the drain?",
+      "answer": "No. UC IPM says silverfish are unable to climb up through drains; one found in a tub or sink fell in and could not get back up the slick sides. Virginia Tech notes that a silverfish trapped in the tub or sink can be a household's first sign of them. Tiny pale bugs hopping around a tub are more likely springtails, which UC IPM says wander into sinks and bathtubs in search of moisture and end up stuck there."
+    }
+  ],
+  "sources": [
+    { "title": "Pest Notes: Silverfish and Firebrats (UC ANR Publication 7475)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/silverfish-and-firebrats/" },
+    { "title": "Booklice and Silverfish (ENY-225/IG094)", "publisher": "UF/IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IG094" },
+    { "title": "Silverfish/Firebrat (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/silverfish-firebrat" },
+    { "title": "Silverfish and Firebrats (G7376)", "publisher": "University of Missouri Extension", "url": "https://extension.missouri.edu/publications/g7376" },
+    { "title": "Bristletails (Silverfish and Firebrats)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/bristletails-silverfish-and-firebrats" },
+    { "title": "Order Zygentoma (ENT 425 General Entomology)", "publisher": "NC State University", "url": "https://genent.cals.ncsu.edu/insect-identification/order-zygentoma/" },
+    { "title": "Order Archeognatha (ENT 425 General Entomology)", "publisher": "NC State University", "url": "https://genent.cals.ncsu.edu/insect-identification/order-archeognatha/" },
+    { "title": "Jumping Bristletails (Family Machilidae), Bug of the Week", "publisher": "University of Wisconsin-Milwaukee Field Station", "url": "https://uwm.edu/field-station/jumping-bristletail/" },
+    { "title": "Silverfish and Firebrats (ENTO-24NP, 2023)", "publisher": "Virginia Cooperative Extension, Virginia Tech", "url": "https://www.pubs.ext.vt.edu/ENTO/ENTO-24/ENTO-24.html" },
+    { "title": "Pest Notes: Earwigs (UC ANR Publication 74102)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/earwigs/" },
+    { "title": "House Centipedes", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/house-centipedes" },
+    { "title": "Centipedes and Millipedes in and Around the Home (ENTFACT-645)", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef645" },
+    { "title": "Pest Notes: Springtails (UC ANR Publication 74136)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/springtails/" },
+    { "title": "Identifying Common Household Insect Pests (updated October 17, 2024)", "publisher": "University of Maryland Extension", "url": "https://extension.umd.edu/resource/identifying-common-household-insect-pests" },
+    { "title": "Pest Notes: Carpet Beetles (UC ANR Publication 7436)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/carpet-beetles/" },
+    { "title": "Pest Notes: Cockroaches (UC ANR Publication 7467)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/cockroaches/" },
+    { "title": "Bed Bugs Appearance and Life Cycle", "publisher": "US Environmental Protection Agency", "url": "https://www.epa.gov/bedbugs/bed-bugs-appearance-and-life-cycle" },
+    { "title": "How to Find Bed Bugs", "publisher": "US Environmental Protection Agency", "url": "https://www.epa.gov/bedbugs/how-find-bed-bugs" }
+  ]
+}

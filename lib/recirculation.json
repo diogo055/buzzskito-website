@@ -1573,6 +1573,20 @@
     "/blog/how-to-get-rid-of-mosquitoes"
    ]
   },
+  "/blog/black-and-yellow-bugs": {
+   "next": "/blog/ground-bees",
+   "related": [
+    "/blog/mud-daubers",
+    "/blog/paper-wasps",
+    "/blog/yellow-jackets"
+   ],
+   "cards": [
+    "/blog/how-to-get-rid-of-carpenter-bees-canada",
+    "/blog/rescue-why-trap-review-canada",
+    "/blog/best-wasp-killer-canada"
+   ],
+   "bar": true
+  },
   "/blog/black-ants": {
    "next": "/blog/flying-ants",
    "related": [
@@ -1914,6 +1928,48 @@
     "/blog/bugs-in-house-in-winter",
     "/blog/house-centipedes",
     "/blog/how-to-get-rid-of-carpet-beetles"
+   ],
+   "bar": true
+  },
+  "/blog/bugs-that-look-like-lice": {
+   "next": "/blog/bugs-that-look-like-termites",
+   "related": [
+    "/blog/termite-droppings",
+    "/blog/what-do-lice-look-like",
+    "/blog/lice-eggs"
+   ],
+   "cards": [
+    "/blog/bugs-in-basement",
+    "/blog/fleas-on-humans",
+    "/blog/spider-beetles"
+   ],
+   "bar": true
+  },
+  "/blog/bugs-that-look-like-silverfish": {
+   "next": "/blog/baby-silverfish",
+   "related": [
+    "/blog/how-to-get-rid-of-silverfish",
+    "/blog/centipede-vs-millipede",
+    "/blog/bugs-in-bathroom"
+   ],
+   "cards": [
+    "/blog/best-flea-spray-for-home",
+    "/blog/flea-dirt",
+    "/blog/pill-bugs"
+   ],
+   "bar": true
+  },
+  "/blog/bugs-that-look-like-termites": {
+   "next": "/blog/termite-droppings",
+   "related": [
+    "/blog/bugs-that-look-like-lice",
+    "/blog/tiny-white-bugs",
+    "/blog/what-do-termites-look-like"
+   ],
+   "cards": [
+    "/blog/drugstore-beetles",
+    "/blog/moths-in-house",
+    "/blog/wheel-bugs"
    ],
    "bar": true
   },
@@ -4873,6 +4929,20 @@
     "/blog/natural-eco-friendly-mosquito-control-ontario"
    ]
   },
+  "/blog/moth-eggs": {
+   "next": "/blog/stink-bug-eggs",
+   "related": [
+    "/blog/moths-in-house",
+    "/blog/tiny-red-bugs",
+    "/blog/drugstore-beetles"
+   ],
+   "cards": [
+    "/blog/pill-bugs",
+    "/blog/baby-silverfish",
+    "/blog/crickets-in-house"
+   ],
+   "bar": true
+  },
   "/blog/moths-in-house": {
    "next": "/blog/pantry-pests",
    "related": [
@@ -5805,6 +5875,20 @@
     "/blog/when-to-schedule-first-mosquito-treatment-ontario",
     "/blog/dynatrap-canada-review"
    ]
+  },
+  "/blog/snake-identification": {
+   "next": "/blog/baby-snakes",
+   "related": [
+    "/blog/copperhead-look-alikes",
+    "/blog/animal-tracks-in-snow",
+    "/blog/holes-in-yard"
+   ],
+   "cards": [
+    "/blog/best-raccoon-proof-roof-vent-covers-canada",
+    "/blog/rabbit-poop",
+    "/blog/squirrel-poop"
+   ],
+   "bar": true
   },
   "/blog/southern-house-spider": {
    "next": "/blog/spiders-in-california",
