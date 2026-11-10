@@ -110,6 +110,8 @@
   - A page published after that date shows "Published by BuzzSkito" until he has read it. Then add `"reviewedBy"` and `"reviewedOn"` to its JSON, or move the date when he confirms a batch. Only when true.
   - **Since Nov 10, 2026 a read covers only the version he read.** A guide whose `dateModified` is after `OWNER_REVIEWED_THROUGH` (or after its own `reviewedOn`) shows "Published by BuzzSkito" until he reads it again (`guideReviewer()` in `lib/guides.ts`).
     - It first applied to the 11 guides upgraded Nov 8 and the Nov 10 rebuilds of german-cockroaches and house-centipedes.
+    - The same night the owner said "They were all reviewed by me". `OWNER_REVIEWED_THROUGH` moved to 2026-11-08 for the 11, and the two rebuilds carry their own `reviewedBy` (Nov 10).
+    - The 10 pages released Nov 10 are not covered until he says he has read them.
     - When he confirms he has read them, move `OWNER_REVIEWED_THROUGH`. A real content change moves `dateModified`; a link added to a page does not.
 - **After adding or removing a guide run** `node scripts/us-pages-register.mjs`. It regenerates the route files, the `NEW_BLOGS_US_GUIDES` block in `lib/constants.ts`, `lib/us-guide-routes.ts` (phone quote bar hidden), `lib/us-guide-built.ts`, `new-urls.txt`, `build-manifest.json`, the llms.txt block and the top of the `URLS` array in `scripts/index-urls.mjs`.
 - **Regional editions:** 19 guides have a Canadian twin (Nov 4, 2026); `REGIONAL_PAIRS` in `lib/guides.ts` pairs them with hreflang so each country gets its own edition. Do not merge or redirect one into the other.

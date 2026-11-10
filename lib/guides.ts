@@ -180,7 +180,9 @@ export interface Guide {
 // Nov 6, 2026 (evening), owner: "I've checked manually all the new pages that you've made, so please put
 // like checked by a human on the pages." That covers everything released through Nov 6, including the
 // 15 new pages of that day.
-export const OWNER_REVIEWED_THROUGH = '2026-11-06'
+// Nov 10, 2026, owner, about the 11 guides upgraded Nov 8 (and the two Nov 10 rebuilds, which carry their
+// own reviewedBy): "They were all reviewed by me." Moved to Nov 8; no new page was published Nov 7-8.
+export const OWNER_REVIEWED_THROUGH = '2026-11-08'
 export const OWNER_REVIEWER = 'Alex Francisco'
 
 /** Who read and approved a guide (and when, if the day is on record), or null if nobody has yet.

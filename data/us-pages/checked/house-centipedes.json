@@ -2,9 +2,16 @@
  "id": "house-centipedes",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "5fc3330886ed9933c13e64aa59414713fc347b932b5865c5222d6def6c2f4c40",
+ "sha": "202dd893217165747aa25cb544db6471fcf09a5139780cf7ee72b2b13e6b03a2",
  "claimsChecked": 395,
  "claimsCorrected": 12,
  "claimsRemovedOrSoftened": 3,
- "checkedOn": "2026-11-10"
+ "checkedOn": "2026-11-10",
+ "amendments": [
+  {
+   "on": "2026-11-10",
+   "note": "Nov 10, 2026: the owner confirmed he read the rebuilt page (\"They were all reviewed by me\"): reviewedBy Alex Francisco, reviewedOn 2026-11-10 added; no claim changed.",
+   "previousSha": "5fc3330886ed9933c13e64aa59414713fc347b932b5865c5222d6def6c2f4c40"
+  }
+ ]
 }

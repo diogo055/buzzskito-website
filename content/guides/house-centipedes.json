@@ -3,7 +3,16 @@
   "kind": "spoke",
   "cluster": "household",
   "keyword": "house centipede",
-  "alsoTargets": ["how to get rid of house centipedes", "house centipede bite", "centipedes in house", "house centipedes", "baby house centipede", "house centipede vs silverfish", "are house centipedes dangerous", "house centipede in bathtub"],
+  "alsoTargets": [
+    "how to get rid of house centipedes",
+    "house centipede bite",
+    "centipedes in house",
+    "house centipedes",
+    "baby house centipede",
+    "house centipede vs silverfish",
+    "are house centipedes dangerous",
+    "house centipede in bathtub"
+  ],
   "metaTitle": "House Centipede: Bites, ID and Control (Photos)",
   "metaDescription": "A house centipede has 15 pairs of long, banded legs and three dark stripes. Real photos, look-alikes, what its bite is like and how to get rid of it.",
   "h1": "House Centipede: ID Photos, Bites and How to Get Rid of Them",
@@ -12,7 +21,12 @@
   "excerpt": "Real photos of house centipedes on walls, a basement floor and by a sink drain, a quick-ID table of look-alikes, what a bite is like and how to get rid of them, moisture first.",
   "datePublished": "2026-10-16",
   "dateModified": "2026-11-10",
-  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "reviewedBy": "Alex Francisco",
+  "reviewedOn": "2026-11-10",
+  "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+  },
   "quickAnswer": {
     "lead": "**A house centipede is the fast, grayish-yellow runner with 15 pairs of long, banded legs, one pair to each body segment, and three dark stripes down its back, the one centipede that lives and breeds indoors.** It can bite if handled, but [Penn State Extension](https://extension.psu.edu/house-centipedes) calls it harmless, and extension services put drying out damp spots and sealing cracks ahead of any spray.",
     "bullets": [
@@ -26,139 +40,537 @@
   },
   "facts": {
     "title": "House centipede and look-alikes: quick ID",
-    "head": ["Bug", "Size", "Legs", "The tell"],
+    "head": [
+      "Bug",
+      "Size",
+      "Legs",
+      "The tell"
+    ],
     "rows": [
-      ["House centipede", "Body 1 to 1 1/2 inches; looks 3 to 4 inches with legs and antennae", "15 pairs, long and banded", "Three dark stripes; sprints, stops dead, sprints again"],
-      ["Young house centipede", "Smaller than an adult", "4 pairs at hatching, more after each molt", "A house centipede with fewer than 15 pairs of legs"],
-      ["Stone centipede", "Most centipedes are 1/2 to 1 inch", "15 pairs, shorter", "Brownish and flat; strays in from outdoors and soon dies"],
-      ["Giant redheaded centipede", "Usually up to 6 1/2 inches; may reach 8", "21 pairs", "In Missouri: black body, yellow legs, rusty-red head"],
-      ["Soil centipede", "Varies; narrow body", "27 to 191 pairs", "Tan or pale, no eyes, slow and wormlike"],
-      ["Millipede", "1/2 to 6 1/2 inches", "Two (sometimes four) tiny pairs per segment", "Slow; most curl up when prodded"],
-      ["Silverfish", "About 1/2 inch; up to 3/4 inch", "Six", "Silvery scales; three long tail appendages"],
-      ["Firebrat", "About 1/2 inch", "Six", "Mottled gray or brown; near ovens, heaters and hot pipes"],
-      ["Earwig", "About 3/4 inch", "Six", "Pincers at the tail end"],
-      ["Pill bug", "Rarely over 3/4 inch", "Seven pairs", "Oval, rounded back; rolls into a ball"],
-      ["Sowbug", "Rarely over 3/4 inch", "Seven pairs", "Two tail-like appendages; cannot roll into a ball"]
+      [
+        "House centipede",
+        "Body 1 to 1 1/2 inches; looks 3 to 4 inches with legs and antennae",
+        "15 pairs, long and banded",
+        "Three dark stripes; sprints, stops dead, sprints again"
+      ],
+      [
+        "Young house centipede",
+        "Smaller than an adult",
+        "4 pairs at hatching, more after each molt",
+        "A house centipede with fewer than 15 pairs of legs"
+      ],
+      [
+        "Stone centipede",
+        "Most centipedes are 1/2 to 1 inch",
+        "15 pairs, shorter",
+        "Brownish and flat; strays in from outdoors and soon dies"
+      ],
+      [
+        "Giant redheaded centipede",
+        "Usually up to 6 1/2 inches; may reach 8",
+        "21 pairs",
+        "In Missouri: black body, yellow legs, rusty-red head"
+      ],
+      [
+        "Soil centipede",
+        "Varies; narrow body",
+        "27 to 191 pairs",
+        "Tan or pale, no eyes, slow and wormlike"
+      ],
+      [
+        "Millipede",
+        "1/2 to 6 1/2 inches",
+        "Two (sometimes four) tiny pairs per segment",
+        "Slow; most curl up when prodded"
+      ],
+      [
+        "Silverfish",
+        "About 1/2 inch; up to 3/4 inch",
+        "Six",
+        "Silvery scales; three long tail appendages"
+      ],
+      [
+        "Firebrat",
+        "About 1/2 inch",
+        "Six",
+        "Mottled gray or brown; near ovens, heaters and hot pipes"
+      ],
+      [
+        "Earwig",
+        "About 3/4 inch",
+        "Six",
+        "Pincers at the tail end"
+      ],
+      [
+        "Pill bug",
+        "Rarely over 3/4 inch",
+        "Seven pairs",
+        "Oval, rounded back; rolls into a ball"
+      ],
+      [
+        "Sowbug",
+        "Rarely over 3/4 inch",
+        "Seven pairs",
+        "Two tail-like appendages; cannot roll into a ball"
+      ]
     ],
     "caption": "Sizes and leg counts from Penn State Extension, the Missouri Department of Conservation, UC IPM and the University of Kentucky, each linked in the sections below."
   },
   "body": [
-    { "type": "h2", "text": "What does a house centipede look like?" },
-    { "type": "p", "text": "A house centipede is a grayish-yellow centipede with 15 pairs of very long legs banded light and dark and three dark stripes running down its back. [Penn State Extension's house centipede fact sheet](https://extension.psu.edu/house-centipedes) describes the body as a dirty yellow, 1 to 1 1/2 inches long, with the legs and antennae doing most of the work of making it look big." },
-    { "type": "figure", "src": "/guides/photos/house-centipede-block-wall.webp", "width": 1200, "height": 800, "alt": "House centipede seen from above on a rough, white-painted concrete block wall, its striped body ringed by long legs banded light and dark", "caption": "A house centipede (*Scutigera coleoptrata*) on a painted concrete block wall in Columbus, Ohio. Look for the dark stripes down the back and the long legs banded light and dark.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/19589730" },
-    { "type": "p", "text": "Both ends trail long appendages. [Washington State University's PestSense fact sheet](https://pestsense.cahnrs.wsu.edu/fact-sheet/house-centipede/) says the antennae and the last pair of legs are both longer than the body, and Penn State says the last legs of adult females are nearly twice the body's length. The [Missouri Department of Conservation's guide to centipedes](https://mdc.mo.gov/discover-nature/field-guide/centipedes) notes that a centipede's last legs point backward, so they look like a second pair of antennae, and that house centipedes have compound eyes. Each leg-bearing segment carries one pair of legs, barbed to help hold prey, says [MDC's house centipede page](https://mdc.mo.gov/discover-nature/field-guide/house-centipede); unlike many centipedes, it is not flattened." },
-    { "type": "p", "text": "It hunts at night. Penn State says house centipedes spend the day in dark, damp places, and [the University of Kentucky's fact sheet on centipedes](https://entomology.mgcafe.uky.edu/ef647) describes the run that startles people: fast across the floor, a sudden stop, then off again toward something to crawl under. [Texas A&M AgriLife Extension](https://extensionentomology.tamu.edu/wp-content/uploads/2025/03/centipedes-and-millipedes.pdf) says the back legs catch prey with a lassoing motion, and [Ohio State University Extension](https://ohioline.osu.edu/factsheet/ENT-50) notes that the legs come off easily when one is struck and can keep wiggling for several minutes." },
-    { "type": "h3", "text": "How big do house centipedes get?" },
-    { "type": "p", "text": "About 1 to 1 1/2 inches of body, not counting the legs. Penn State gives 1 to 1 1/2 inches, [Iowa State University Extension](https://yardandgarden.extension.iastate.edu/encyclopedia/house-centipede) up to 1 1/2 and Texas A&M about 1 1/2, while MDC gives up to about 1 inch and Ohio State about 1 to 2. Legs and antennae stretch that to 3 to 4 inches overall, Penn State says. A centipede with a body several inches long on shorter legs is a different animal, covered under bigger centipedes below." },
-    { "type": "h3", "text": "What does a baby house centipede look like?" },
-    { "type": "p", "text": "A smaller copy of the adult with fewer legs. Penn State says newly hatched larvae, which are rarely seen, have four pairs of legs, then 5, 7, 9, 11 and 13 pairs over the next five molts, and 15 pairs through four more molts before adulthood. MDC says a female lays 35 to 100 eggs and does not guard them. So a small centipede with 9 pairs of long, banded legs can still be a young house centipede." },
-    { "type": "figure", "src": "/guides/photos/house-centipede-young-fingertip.webp", "width": 1200, "height": 1396, "alt": "Small young house centipede on a textured beige wall, with a fingertip and fingernail in the lower corner of the frame for size", "caption": "A young house centipede on a textured wall in Chapel Hill, North Carolina, beside a fingertip for size. Penn State says house centipedes hatch with 4 pairs of legs and add more as they molt.", "license": "CC-BY-4.0", "credit": "(c) Lexi Amico, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/90041348" },
-
-    { "type": "h2", "text": "Do house centipedes bite?" },
-    { "type": "p", "text": "They can, but rarely, and the sources treat a bite as minor. Kentucky says their small mouthparts cannot penetrate skin very well, and [the University of Kentucky's guide to centipedes and millipedes in the home](https://entomology.mgcafe.uky.edu/ef645) rates house centipedes a minimal bite hazard. MDC says a bite is generally no worse than a bee sting. Iowa State calls them harmless to people, though one could technically bite, and Washington State University warns of a painful bite if one is handled." },
-    { "type": "figure", "src": "/guides/photos/house-centipede-venom-claws-underside.webp", "width": 1200, "height": 1800, "alt": "Underside of a house centipede seen through a clear container, with a pair of curved amber claws crossing beneath the head between two long antennae and legs lining the pale body", "caption": "The underside of a house centipede that had turned up in a bathtub in California, seen through a clear container. The curved claws crossing under the head appear to be its forcipules, the modified front legs that deliver venom.", "license": "CC-BY-4.0", "credit": "(c) Kyle Elshoff, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/19251730" },
-    { "type": "p", "text": "Centipedes do not bite with jaws. [Poison Control's article on centipede bites](https://www.poison.org/articles/are-centipede-stings-harmful-191) explains that they inject venom through a pair of hollow, modified front legs called forcipules, which Kentucky describes as pincer- or fang-like and used to subdue prey. Poison Control describes house centipedes (genus *Scutigera*) as less than 3 inches long and relatively harmless, and traces the centipede's frightening reputation to *Scolopendra*, a genus of much larger centipedes 4 to 12 inches long whose bite can cause burning pain that spreads up a limb." },
-    { "type": "h3", "text": "What does a house centipede bite look like?" },
-    { "type": "p", "text": "Usually a red, sore spot. In one Poison Control case report, a man bitten on the neck by a small house centipede had a red, painful bite and recovered rapidly. [MedlinePlus's page on centipede bites](https://medlineplus.gov/ency/article/002842.htm) lists pain, swelling and redness, with swollen lymph nodes and numbness as rare symptoms, and says symptoms most often last under 48 hours, though swelling and tenderness can last up to 3 weeks. Many red bumps are not bites, so compare the mark with [the bug bite identification chart](/learn/bug-bites) or try [the bug bite identifier](/tools/bug-bite-identifier)." },
-    { "type": "callout", "tone": "warning", "title": "If a centipede bites you", "text": "Poison Control's first aid: wash the skin with soap and water, take an over-the-counter pain reliever, and try warm water or an ice pack for the pain; MedlinePlus says not to wash it with alcohol. Check that your last tetanus shot was within 10 years. See a healthcare provider if the bite shows signs of infection: spreading redness and swelling, fever or pus. For hives, dizziness, mouth or throat swelling or trouble breathing, use an epinephrine auto-injector if you have one and seek medical care. Poison Help: 1-800-222-1222." },
-    { "type": "h3", "text": "Are house centipedes dangerous?" },
-    { "type": "p", "text": "Not to people, pets or the house, by these sources' account. Penn State calls house centipedes harmless, [an Iowa State Extension article](https://yardandgarden.extension.iastate.edu/article/2008/3-26/Housecentipede.html) says centipedes are harmless to people, pets and property, [UC IPM's pest note on centipedes and millipedes](https://ipm.ucanr.edu/home-and-landscape/centipedes-and-millipedes/) says house centipedes never damage plants or household items, and Texas A&M says centipedes do not transmit diseases to plants, animals or humans. The exception is a large centipede, covered below." },
-
-    { "type": "h2", "text": "Why are there house centipedes in my house?" },
-    { "type": "p", "text": "Because a house gives them damp, dark hiding places and small prey, and they are built to stay. Kentucky says the house centipede is the only centipede species that can survive inside buildings, and Ohio State says it can spend its entire life indoors. Centipedes need damp shelter because their outer skin lacks a waxy coating that holds in water and their breathing holes cannot close, MDC explains. Kentucky adds that centipedes get in under doors or through almost any small opening." },
-    { "type": "p", "text": "Penn State lists where they hide in and around a house: beneath concrete slabs, which they leave through expansion cracks and sump pump openings; inside cement block walls, through uncapped blocks, missing mortar and gaps around pipes; in floor drains without water traps, especially those connected to dry sumps; under and inside cardboard boxes stored on slabs; and in damp, cool crawl spaces. Iowa State adds damp parts of basements, closets and bathrooms and the bark of firewood stored indoors." },
-    { "type": "figure", "src": "/guides/photos/house-centipede-basement-wall.webp", "width": 1200, "height": 900, "alt": "House centipede resting on a smooth, pale basement wall, its slim striped body ringed by banded legs, with long antennae and hind legs trailing", "caption": "A house centipede on a basement wall in Killingworth, Connecticut. Basements, crawl spaces and block walls are among the damp places extension sources list as its hiding spots.", "license": "CC-BY-4.0", "credit": "(c) Michael K. Oliver, Ph.D., some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/25135587" },
-    { "type": "p", "text": "Food explains the rest. Penn State says house centipedes feed on silverfish, firebrats, carpet beetle larvae, cockroaches, spiders and other small arthropods, MDC adds crickets, bed bugs, flies, moths and earwigs, and Kentucky adds pill bugs and sowbugs. Penn State reads frequent sightings as a sign that some prey animal is plentiful, which may be a bigger problem than the centipedes. So check for [the cockroach species that live in homes](/learn/cockroaches), [carpet beetle larvae in rugs and closets](/blog/how-to-get-rid-of-carpet-beetles) and [the spiders most often found indoors](/blog/house-spiders), as well as silverfish and earwigs." },
-    { "type": "p", "text": "Climate decides whether you also meet them outdoors: Washington State University says they live throughout the United States, outdoors too in warmer areas but mainly indoors in colder ones, and MDC says they move indoors especially in winter. [The guide to bugs in the house in winter](/blog/bugs-in-house-in-winter) counts them among the year-round residents, and [the basement bug sorter](/blog/bugs-in-basement) covers the other moisture lovers they share a basement with." },
-    { "type": "h3", "text": "Why is there a house centipede in my bathtub or sink?" },
-    { "type": "p", "text": "It was most likely trapped there, not coming up the drain. Iowa State says the house centipedes that worry people most are the occasional one on a bathroom or bedroom wall and the one accidentally trapped in a bathtub, sink or lavatory, and that they do not come up through drain pipes. Basement floor drains are different: Penn State lists floor drains without water traps, especially those connected to dry sumps, among their hiding places and suggests window screen over them. [The guide to bugs in the bathroom](/blog/bugs-in-bathroom) sorts the other moisture lovers found around tubs and drains." },
-    { "type": "figure", "src": "/guides/photos/house-centipede-sink-drain.webp", "width": 1200, "height": 1382, "alt": "House centipede on the wet bottom of a stainless steel sink, its banded legs reaching the rim of the round metal drain strainer", "caption": "A house centipede beside a sink drain. Iowa State says house centipedes do not come up through drain pipes; one found in a sink or tub has been accidentally trapped there.", "license": "CC-BY-SA-4.0", "credit": "Bpetheo, CC BY-SA 4.0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scutigera_coleoptrata_in_a_sink.jpg" },
-
-    { "type": "h2", "text": "How do you tell a house centipede from look-alikes?" },
-    { "type": "p", "text": "Count the legs on one segment, then in total: one pair per segment means a centipede, two pairs a millipede, six legs an insect such as a silverfish or earwig, and seven pairs a pill bug or sowbug, land crustaceans that [the University of Kentucky's sowbug and pillbug fact sheet](https://entomology.mgcafe.uky.edu/ef439) says rarely exceed 3/4 inch and find it almost impossible to survive indoors without high moisture. Size, speed and where you found it settle the rest." },
-    { "type": "figure", "src": "/guides/photos/house-centipede-bathtub.webp", "width": 1200, "height": 900, "alt": "House centipede seen from above on a plain white surface, long antennae and very long hind legs pointing in opposite directions from its striped body", "caption": "A house centipede photographed in Kentucky by an observer who notes that they turn up in the bathtub. Look for one pair of long, banded legs on each segment, long antennae at one end and long hind legs at the other.", "license": "CC-BY-4.0", "credit": "(c) M. Whitson, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/123267826" },
-    { "type": "table", "head": ["Animal", "Where it usually turns up", "Bites people?"], "rows": [
-      ["House centipede", "Damp basements, bathrooms, closets and crawl spaces, at night", "Rarely; generally no worse than a bee sting"],
-      ["Stone and other small centipedes", "Under rocks, leaf litter and mulch; most die soon after getting inside", "If handled; unlikely to cause serious harm"],
-      ["Giant redheaded centipede", "Rocky woodlands, mostly south and west of Missouri", "Yes; usually no worse than a wasp or scorpion sting"],
-      ["Millipede", "Wanders in after heavy rain or in drought, then soon dies", "No; some ooze a liquid that can irritate skin or burn the eyes"],
-      ["Silverfish or firebrat", "Basements, closets and kitchens; firebrats near ovens and hot pipes", "No bite described; does not transmit disease"],
-      ["Earwig", "Dark, damp hiding spots; comes in when it is too dry, hot or cold outside", "If trapped in clothing; not harmful to people"],
-      ["Pill bug or sowbug", "Crawl spaces, basements and ground floors, looking for water", "No; harmless"]
-    ], "caption": "Compiled from Iowa State, MDC, the University of Kentucky, UC IPM and Texas A&M AgriLife Extension, each linked on this page." },
-    { "type": "checklist", "title": "Checks to run with the bug in a jar", "items": [
-      "**Legs per segment.** One pair on each segment: a centipede. Two pairs on most segments: a millipede.",
-      "**Leg count.** Six: an insect such as a silverfish or earwig. Seven pairs: a pill bug or sowbug. Up to 15 long, banded pairs: a house centipede; a young one may have as few as four.",
-      "**Tail end.** Three long tail appendages: a silverfish or firebrat. Pincers: an earwig. Long legs pointing backward like a second pair of antennae: a centipede.",
-      "**Size against a ruler.** A house centipede's body is about 1 to 1 1/2 inches. Several inches of body on 21 pairs of shorter legs points to a giant redheaded centipede.",
-      "**Behavior.** Curls up when prodded: a millipede. Rolls into a ball: a pill bug. Runs, stops dead, then runs again: a house centipede.",
-      "**Where you found it.** A damp basement, bathroom or closet at night: probably a house centipede. Millipedes, pill bugs and sowbugs wander in from damp ground outside and soon die indoors once it is dry."
-    ] },
-    { "type": "p", "text": "Earwigs, which hide in dark, damp places, are about 3/4 inch and reddish brown with pincers at the tail end, and [UC IPM's earwig pest note](https://ipm.ucanr.edu/home-and-landscape/earwigs/) says they are not harmful to people. Camel crickets, the humpbacked jumpers also called spider crickets, are another basement regular; see [the camel cricket guide](/blog/camel-crickets). Still unsure? [The bug identification quiz](/tools/what-bug-is-this) can help narrow it down." },
-
-    { "type": "h2", "text": "Is it a house centipede or a silverfish?" },
-    { "type": "p", "text": "Count the legs and check the tail: a silverfish has six legs and three long tail appendages, a house centipede up to 15 pairs of long legs. The [MDC's silverfish page](https://mdc.mo.gov/discover-nature/field-guide/silverfish-firebrat) describes the common silverfish as wingless, silvery, usually scaly and tapered toward the tail, about 1/2 inch long not counting the tails, and [UC IPM's silverfish pest note](https://ipm.ucanr.edu/home-and-landscape/silverfish-and-firebrats/) says silverfish can reach 3/4 inch. Firebrats look similar but are a mottled gray or brown and favor hot spots near ovens, heaters and hot water pipes." },
-    { "type": "p", "text": "The two get confused because they keep the same hours in the same rooms: both hide by day and come out at night, and MDC says silverfish need moist or humid places and turn up in basements, attics, closets, kitchens and garages. Silverfish and firebrats are also house centipede prey, Penn State says, so finding both is no coincidence. Unlike house centipedes, silverfish damage paper, books, wallpaper, fabrics and food, MDC says; [how to get rid of silverfish](/blog/how-to-get-rid-of-silverfish) covers drying them out, and [the guide to baby silverfish](/blog/baby-silverfish) shows the young ones." },
-
-    { "type": "h2", "text": "Is it a house centipede or a millipede?" },
-    { "type": "p", "text": "Look at the legs on one segment: one pair on a centipede, two pairs on most segments of a millipede. MDC adds that millipedes have rounder bodies and elbowed antennae, and UC IPM that centipedes move rapidly while millipedes do not, and that most millipedes curl up when prodded, which centipedes never do. Millipedes eat moist, decaying plant matter and do not bite, though UC IPM says some ooze a defensive liquid that can irritate skin or burn the eyes; Texas A&M says those that come indoors after heavy rain or in drought soon die. [Centipede vs millipede](/blog/centipede-vs-millipede) compares the two trait by trait, and [the guide to millipedes in the house](/blog/millipedes) covers keeping them out." },
-
-    { "type": "h2", "text": "Could it be a bigger, more dangerous centipede?" },
-    { "type": "p", "text": "Possibly, if its body is several inches long on shorter legs. Most centipedes are small: MDC says most of Missouri's are about 1/2 to 1 inch long and, except for the very large species, harmless to people. The one to know is the giant redheaded centipede (*Scolopendra heros*), also called the giant desert centipede, which [MDC's giant redheaded centipede page](https://mdc.mo.gov/discover-nature/field-guide/giant-redheaded-centipede) calls the largest centipede in North America: usually up to 6 1/2 inches long and sometimes 8, with 21 pairs of legs and, in Missouri, a black body, bright yellow legs and a rusty-red head. It lives mostly south and west of Missouri, and Texas A&M says it can grow to over 9 inches." },
-    { "type": "figure", "src": "/guides/photos/giant-redheaded-centipede-in-house.webp", "width": 1200, "height": 900, "alt": "Giant redheaded centipede curled in a clear glass dish on pebbled concrete, its glossy black segments edged with yellow legs and a rusty-red head", "caption": "A giant redheaded centipede (*Scolopendra heros*) in a glass dish in Austin, Texas; the observer found it on a bathroom counter inside the house and notes it would be released outdoors. MDC describes the same black body, yellow legs and rusty-red head in Missouri.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/112659561" },
-    { "type": "p", "text": "Its bite is the one to avoid. MDC says the bites are not fatal but may cause severe swelling and irritation for hours, with pain usually no worse than a wasp or scorpion sting; infants, older people and people in poor health could be harmed, and anyone who has difficulty breathing after a bite should seek medical treatment immediately. Kentucky describes large centipedes such as *Scolopendra* as shorter-legged than the house centipede, with very stout, sharp fangs, and Texas A&M says *Scolopendra* can also cut skin with the claws on its walking legs and advises never handling centipedes." },
-    { "type": "p", "text": "Two other groups stray in now and then. Soil centipedes, MDC says, are narrow, tan or pale, eyeless and rather slow, with 27 to 191 pairs of legs. Stone centipedes have 15 pairs of legs as adults, like the house centipede, and UC IPM notes that the centipedes more common in gardens may have somewhat shorter legs. Kentucky says most centipedes that get inside die soon afterward for lack of moisture; the house centipede is the exception." },
-
-    { "type": "confused", "items": [
-      { "href": "/blog/how-to-get-rid-of-silverfish", "name": "Silverfish", "photo": "silverfish", "note": "Six legs, silvery scales and three long tail appendages; about 1/2 inch", "alt": "Common silverfish on a pale surface, seen from the side" },
-      { "href": "/blog/millipedes", "name": "Millipede", "photo": "greenhouse-millipede-bathroom-penny", "note": "Two pairs of short legs on most segments; slow, and curls up when prodded", "alt": "Small dark greenhouse millipede on a towel below a US penny" },
-      { "href": "/blog/how-to-get-rid-of-earwigs", "name": "Earwig", "photo": "european-earwig-male", "note": "Six legs and pincers at the tail end; about 3/4 inch and reddish brown", "alt": "Male European earwig seen from above with curved pincers at its tail" },
-      { "href": "/blog/pill-bugs", "name": "Pill bug", "photo": "pill-bug-rolled-kitchen-floor", "note": "Seven pairs of legs under an oval, rounded back; rolls into a ball", "alt": "Pill bug rolled into a tight ball on a kitchen floor" },
-      { "href": "/blog/centipede-vs-millipede", "name": "Stone and other centipedes", "photo": "brown-centipede-found-indoors", "note": "Usually brownish, flat and shorter-legged; most that wander indoors soon die", "alt": "Reddish-brown stone centipede with short legs on a white surface" }
-    ] },
-
-    { "type": "h2", "text": "What should you do once you know it's a house centipede?" },
-    { "type": "p", "text": "Decide whether it needs to go at all, then fix what drew it in. The extension sources treat a house centipede as a harmless hunter and put moisture and prey ahead of any spray." },
-    { "type": "ul", "items": [
-      "**One now and then.** Leave it, or vacuum or sweep it up, which Kentucky says is all that indoor centipedes need.",
-      "**Several a week.** Read it as a sign of damp and plentiful prey: set sticky monitors to see what they are eating, then dry and seal the basement as below.",
-      "**Several inches long, on short legs.** Do not handle it; see the giant redheaded centipede above.",
-      "**Not a centipede after all.** Use the look-alike's own guide: [silverfish](/blog/how-to-get-rid-of-silverfish), [millipedes](/blog/millipedes), [earwigs](/blog/how-to-get-rid-of-earwigs) or [pill bugs and sowbugs](/blog/pill-bugs)."
-    ] },
-    { "type": "h3", "text": "Should you kill house centipedes?" },
-    { "type": "p", "text": "Usually there is no need to. UC IPM says centipedes seldom need to be controlled unless they become a nuisance in the home, Iowa State considers house centipedes beneficial and says centipedes found outdoors should not be controlled, and its 2008 article suggests living and letting live, or capturing and discarding the occasional nuisance. What matters more is what they signal: plenty of house centipedes means plenty of the small pests they eat, in a place damp enough to suit both." },
-
-    { "type": "h2", "text": "How do you get rid of house centipedes?" },
-    { "type": "p", "text": "Dry out the places they hide, take away their food and seal the gaps they use, then vacuum up the ones you see; the extension sources cited here put those steps ahead of any insecticide." },
-    { "type": "figure", "src": "/guides/photos/house-centipede-basement-floor.webp", "width": 1200, "height": 900, "alt": "House centipede on a pale gray basement floor with a few dark specks of debris, its striped body ringed by long legs and two long antennae", "caption": "A house centipede on a basement floor in Harrisonburg, Virginia, where the observer found it. Drying out and sealing a basement takes away both its shelter and its prey.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/163188719" },
-    { "type": "ol", "items": [
-      "**Lower the humidity.** Penn State recommends dehumidifiers and grading the soil so water drains away from the foundation, and Ohio State says to ventilate basements and crawl spaces properly. Kentucky adds working gutters, downspouts and splash blocks and fixing leaky faucets, pipes and air conditioners. None of these centipede sources gives a humidity target, but [EPA's guide to mold and moisture](https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home) says to keep indoor relative humidity below 60 percent if possible, ideally 30 to 50 percent. For the equipment, see [how to size a dehumidifier for a damp basement](/blog/best-large-capacity-dehumidifier-canada).",
-      "**Dry the crawl space.** Kentucky recommends ventilation, sump pumps and polyethylene soil covers for damp crawl spaces and basements, and Washington State University also calls for crawl space ventilation.",
-      "**Remove hiding places.** Kentucky says to clear leaves, grass clippings, heavy mulch, boards, stones and boxes from beside the foundation and to raise what cannot be moved, and Texas A&M to move compost piles and firewood away from the house. Indoors, lift cardboard boxes off bare concrete, one of Penn State's listed hiding places, and clear debris from houseplant pots and trays, as Washington State University suggests.",
-      "**Seal the gaps.** Penn State says to seal cracks in concrete slabs and block walls, seal sump pump covers with screen and caulk, and put window screen in basement floor drains so centipedes cannot come up from dry sumps. Kentucky adds tight door sweeps or thresholds and sealing interior gaps along basement walls, Ohio State says to maintain foundation expansion joints and seal around lower windows and doors, and Texas A&M suggests copper mesh in the weep holes of brick or stone walls. [A guide to keeping spiders out of the house](/blog/how-to-keep-spiders-out-of-your-house) covers sealing in more detail.",
-      "**Find out what they are eating.** Penn State suggests sticky insect traps, also called monitors, set around the house to show which other pests are feeding them, and Ohio State says the traps also show whether you have a centipede problem at all. Then deal with that pest directly.",
-      "**Remove the ones you see.** Kentucky says a vacuum or broom is all that indoor centipedes need, and adds that glue traps can catch house centipedes."
-    ] },
-    { "type": "p", "text": "Give it time. Kentucky notes that centipede problems often coincide with excessively wet weather and that patience and drier conditions often correct them." },
-    { "type": "picks", "title": "Sealing, drying and monitoring gear", "items": [
-      { "label": "For exterior doors", "name": "Door sweep", "search": "door sweep", "why": "Kentucky adds tight-fitting door sweeps or thresholds on exterior doors to the sealing work, and the same work keeps out the insects house centipedes hunt." },
-      { "label": "To see what they are eating", "name": "Sticky insect monitors", "search": "sticky insect monitor traps", "why": "Penn State suggests sticky insect traps, also called monitors, set around the house to show which other pests are feeding the centipedes. Then treat that pest directly." },
-      { "label": "For a damp crawl space", "name": "Polyethylene crawl space vapor barrier", "search": "crawl space vapor barrier", "why": "Kentucky recommends ventilation, sump pumps and polyethylene soil covers for damp crawl spaces and basements, and Penn State lists damp, cool crawl spaces among the places house centipedes hide." },
-      { "label": "For basement floor drains", "name": "Window screen mesh", "search": "window screen mesh roll", "why": "Penn State says to put window screen in basement floor drains so centipedes cannot come up from dry sumps, and to seal sump pump covers with screen and caulk." },
-      { "label": "For slab and wall cracks", "name": "Concrete crack sealant", "search": "concrete crack sealant", "why": "Penn State says to fill or seal cracks and crevices in concrete slabs and block walls with appropriate fillers, and Kentucky adds expansion joints and gaps along the bottom of basement walls; house centipedes reach the house from under slabs through expansion cracks." }
-    ] },
-
-    { "type": "h2", "text": "Do you need an insecticide for house centipedes?" },
-    { "type": "p", "text": "Usually not. UC IPM says using the pesticides labeled for centipedes is rarely justified, Washington State University recommends no chemical treatment for house centipedes, and Ohio State says indoor spot treatments are generally not required or recommended. Iowa State's 2008 article calls the effect of residual sprays and dusts in hiding places very limited, and no spray removes the damp and the prey that drew them in." },
-    { "type": "p", "text": "Skip the bug bomb. Ohio State says total-release aerosols are ineffective against centipedes, because they leave no active residue and rarely reach the cracks and crevices where centipedes hide." },
-    { "type": "p", "text": "If you use one, put it where they hide, not across open floors. Penn State's home-use options are dusts (boric acid or diatomaceous earth) or sprays of synthetic pyrethroids such as cyfluthrin, deltamethrin, lambda-cyhalothrin, cypermethrin, permethrin and tralomethrin, mixed from emulsifiable concentrates or wettable powders and applied to cracks and crevices in slabs and block walls. Iowa State adds crawl spaces, dark basement corners, baseboard cracks, openings in concrete slabs, the space under shelves and the area around stored boxes." },
-    { "type": "p", "text": "Kentucky leans outdoors and differs on baseboards: it calls insecticide along baseboards and in other living areas of little use against centipedes, and favors treating around outside doors, crawl space entrances, vents, utility openings and foundation plant beds, plus damp crawl space or basement walls, with silica gel or diatomaceous earth dusts in cracks and weep holes. Ohio State likewise describes a band 18 to 36 inches wide around the foundation, repeated only if the label allows." },
-    { "type": "p", "text": "Whatever you choose, the label decides how you may use it. [EPA's introduction to pesticide labels](https://www.epa.gov/pesticide-labels/introduction-pesticide-labels) explains that labels are legally enforceable, so the label is the law: it sets who may use a product and where, how, how much and how often, and using one in a way its labeling does not allow violates federal law. Check that the label lists centipedes and the place you plan to treat, and, as Penn State advises, keep products in their original labeled containers, out of the reach of children, pets and livestock." },
-    { "type": "p", "text": "A [buying-order guide to centipede products](/blog/best-centipede-killer-canada) reaches the same order as this page, dehumidifier first and spray last, but it was written for shoppers in Canada, so the products and registrations it names are not US ones; readers there can use [the Canadian edition of this guide](/blog/how-to-get-rid-of-centipedes-canada)." },
-
-    { "type": "h2", "text": "When should you call a professional about house centipedes?" },
-    { "type": "p", "text": "When sightings continue after the damp spots are dry and the gaps sealed, or when you cannot tell what is feeding them. MDC suggests sealing small cracks and entryways or consulting a licensed pest controller, and Penn State notes that a pest control company can supply sticky monitors and identify the specimens they catch." },
-    { "type": "callout", "tone": "tip", "title": "Save the specimen", "text": "Cover it with a jar, slide a stiff card underneath and keep it sealed, then photograph it beside a ruler marked in inches, count the legs on one side and note where and when you found it. Your state's cooperative extension office or a pest professional can use those details to identify it." }
+    {
+      "type": "h2",
+      "text": "What does a house centipede look like?"
+    },
+    {
+      "type": "p",
+      "text": "A house centipede is a grayish-yellow centipede with 15 pairs of very long legs banded light and dark and three dark stripes running down its back. [Penn State Extension's house centipede fact sheet](https://extension.psu.edu/house-centipedes) describes the body as a dirty yellow, 1 to 1 1/2 inches long, with the legs and antennae doing most of the work of making it look big."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/house-centipede-block-wall.webp",
+      "width": 1200,
+      "height": 800,
+      "alt": "House centipede seen from above on a rough, white-painted concrete block wall, its striped body ringed by long legs banded light and dark",
+      "caption": "A house centipede (*Scutigera coleoptrata*) on a painted concrete block wall in Columbus, Ohio. Look for the dark stripes down the back and the long legs banded light and dark.",
+      "license": "CC0-1.0",
+      "credit": "no rights reserved, via iNaturalist",
+      "sourceUrl": "https://www.inaturalist.org/observations/19589730"
+    },
+    {
+      "type": "p",
+      "text": "Both ends trail long appendages. [Washington State University's PestSense fact sheet](https://pestsense.cahnrs.wsu.edu/fact-sheet/house-centipede/) says the antennae and the last pair of legs are both longer than the body, and Penn State says the last legs of adult females are nearly twice the body's length. The [Missouri Department of Conservation's guide to centipedes](https://mdc.mo.gov/discover-nature/field-guide/centipedes) notes that a centipede's last legs point backward, so they look like a second pair of antennae, and that house centipedes have compound eyes. Each leg-bearing segment carries one pair of legs, barbed to help hold prey, says [MDC's house centipede page](https://mdc.mo.gov/discover-nature/field-guide/house-centipede); unlike many centipedes, it is not flattened."
+    },
+    {
+      "type": "p",
+      "text": "It hunts at night. Penn State says house centipedes spend the day in dark, damp places, and [the University of Kentucky's fact sheet on centipedes](https://entomology.mgcafe.uky.edu/ef647) describes the run that startles people: fast across the floor, a sudden stop, then off again toward something to crawl under. [Texas A&M AgriLife Extension](https://extensionentomology.tamu.edu/wp-content/uploads/2025/03/centipedes-and-millipedes.pdf) says the back legs catch prey with a lassoing motion, and [Ohio State University Extension](https://ohioline.osu.edu/factsheet/ENT-50) notes that the legs come off easily when one is struck and can keep wiggling for several minutes."
+    },
+    {
+      "type": "h3",
+      "text": "How big do house centipedes get?"
+    },
+    {
+      "type": "p",
+      "text": "About 1 to 1 1/2 inches of body, not counting the legs. Penn State gives 1 to 1 1/2 inches, [Iowa State University Extension](https://yardandgarden.extension.iastate.edu/encyclopedia/house-centipede) up to 1 1/2 and Texas A&M about 1 1/2, while MDC gives up to about 1 inch and Ohio State about 1 to 2. Legs and antennae stretch that to 3 to 4 inches overall, Penn State says. A centipede with a body several inches long on shorter legs is a different animal, covered under bigger centipedes below."
+    },
+    {
+      "type": "h3",
+      "text": "What does a baby house centipede look like?"
+    },
+    {
+      "type": "p",
+      "text": "A smaller copy of the adult with fewer legs. Penn State says newly hatched larvae, which are rarely seen, have four pairs of legs, then 5, 7, 9, 11 and 13 pairs over the next five molts, and 15 pairs through four more molts before adulthood. MDC says a female lays 35 to 100 eggs and does not guard them. So a small centipede with 9 pairs of long, banded legs can still be a young house centipede."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/house-centipede-young-fingertip.webp",
+      "width": 1200,
+      "height": 1396,
+      "alt": "Small young house centipede on a textured beige wall, with a fingertip and fingernail in the lower corner of the frame for size",
+      "caption": "A young house centipede on a textured wall in Chapel Hill, North Carolina, beside a fingertip for size. Penn State says house centipedes hatch with 4 pairs of legs and add more as they molt.",
+      "license": "CC-BY-4.0",
+      "credit": "(c) Lexi Amico, some rights reserved (CC BY), via iNaturalist",
+      "sourceUrl": "https://www.inaturalist.org/observations/90041348"
+    },
+    {
+      "type": "h2",
+      "text": "Do house centipedes bite?"
+    },
+    {
+      "type": "p",
+      "text": "They can, but rarely, and the sources treat a bite as minor. Kentucky says their small mouthparts cannot penetrate skin very well, and [the University of Kentucky's guide to centipedes and millipedes in the home](https://entomology.mgcafe.uky.edu/ef645) rates house centipedes a minimal bite hazard. MDC says a bite is generally no worse than a bee sting. Iowa State calls them harmless to people, though one could technically bite, and Washington State University warns of a painful bite if one is handled."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/house-centipede-venom-claws-underside.webp",
+      "width": 1200,
+      "height": 1800,
+      "alt": "Underside of a house centipede seen through a clear container, with a pair of curved amber claws crossing beneath the head between two long antennae and legs lining the pale body",
+      "caption": "The underside of a house centipede that had turned up in a bathtub in California, seen through a clear container. The curved claws crossing under the head appear to be its forcipules, the modified front legs that deliver venom.",
+      "license": "CC-BY-4.0",
+      "credit": "(c) Kyle Elshoff, some rights reserved (CC BY), via iNaturalist",
+      "sourceUrl": "https://www.inaturalist.org/observations/19251730"
+    },
+    {
+      "type": "p",
+      "text": "Centipedes do not bite with jaws. [Poison Control's article on centipede bites](https://www.poison.org/articles/are-centipede-stings-harmful-191) explains that they inject venom through a pair of hollow, modified front legs called forcipules, which Kentucky describes as pincer- or fang-like and used to subdue prey. Poison Control describes house centipedes (genus *Scutigera*) as less than 3 inches long and relatively harmless, and traces the centipede's frightening reputation to *Scolopendra*, a genus of much larger centipedes 4 to 12 inches long whose bite can cause burning pain that spreads up a limb."
+    },
+    {
+      "type": "h3",
+      "text": "What does a house centipede bite look like?"
+    },
+    {
+      "type": "p",
+      "text": "Usually a red, sore spot. In one Poison Control case report, a man bitten on the neck by a small house centipede had a red, painful bite and recovered rapidly. [MedlinePlus's page on centipede bites](https://medlineplus.gov/ency/article/002842.htm) lists pain, swelling and redness, with swollen lymph nodes and numbness as rare symptoms, and says symptoms most often last under 48 hours, though swelling and tenderness can last up to 3 weeks. Many red bumps are not bites, so compare the mark with [the bug bite identification chart](/learn/bug-bites) or try [the bug bite identifier](/tools/bug-bite-identifier)."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "If a centipede bites you",
+      "text": "Poison Control's first aid: wash the skin with soap and water, take an over-the-counter pain reliever, and try warm water or an ice pack for the pain; MedlinePlus says not to wash it with alcohol. Check that your last tetanus shot was within 10 years. See a healthcare provider if the bite shows signs of infection: spreading redness and swelling, fever or pus. For hives, dizziness, mouth or throat swelling or trouble breathing, use an epinephrine auto-injector if you have one and seek medical care. Poison Help: 1-800-222-1222."
+    },
+    {
+      "type": "h3",
+      "text": "Are house centipedes dangerous?"
+    },
+    {
+      "type": "p",
+      "text": "Not to people, pets or the house, by these sources' account. Penn State calls house centipedes harmless, [an Iowa State Extension article](https://yardandgarden.extension.iastate.edu/article/2008/3-26/Housecentipede.html) says centipedes are harmless to people, pets and property, [UC IPM's pest note on centipedes and millipedes](https://ipm.ucanr.edu/home-and-landscape/centipedes-and-millipedes/) says house centipedes never damage plants or household items, and Texas A&M says centipedes do not transmit diseases to plants, animals or humans. The exception is a large centipede, covered below."
+    },
+    {
+      "type": "h2",
+      "text": "Why are there house centipedes in my house?"
+    },
+    {
+      "type": "p",
+      "text": "Because a house gives them damp, dark hiding places and small prey, and they are built to stay. Kentucky says the house centipede is the only centipede species that can survive inside buildings, and Ohio State says it can spend its entire life indoors. Centipedes need damp shelter because their outer skin lacks a waxy coating that holds in water and their breathing holes cannot close, MDC explains. Kentucky adds that centipedes get in under doors or through almost any small opening."
+    },
+    {
+      "type": "p",
+      "text": "Penn State lists where they hide in and around a house: beneath concrete slabs, which they leave through expansion cracks and sump pump openings; inside cement block walls, through uncapped blocks, missing mortar and gaps around pipes; in floor drains without water traps, especially those connected to dry sumps; under and inside cardboard boxes stored on slabs; and in damp, cool crawl spaces. Iowa State adds damp parts of basements, closets and bathrooms and the bark of firewood stored indoors."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/house-centipede-basement-wall.webp",
+      "width": 1200,
+      "height": 900,
+      "alt": "House centipede resting on a smooth, pale basement wall, its slim striped body ringed by banded legs, with long antennae and hind legs trailing",
+      "caption": "A house centipede on a basement wall in Killingworth, Connecticut. Basements, crawl spaces and block walls are among the damp places extension sources list as its hiding spots.",
+      "license": "CC-BY-4.0",
+      "credit": "(c) Michael K. Oliver, Ph.D., some rights reserved (CC BY), via iNaturalist",
+      "sourceUrl": "https://www.inaturalist.org/observations/25135587"
+    },
+    {
+      "type": "p",
+      "text": "Food explains the rest. Penn State says house centipedes feed on silverfish, firebrats, carpet beetle larvae, cockroaches, spiders and other small arthropods, MDC adds crickets, bed bugs, flies, moths and earwigs, and Kentucky adds pill bugs and sowbugs. Penn State reads frequent sightings as a sign that some prey animal is plentiful, which may be a bigger problem than the centipedes. So check for [the cockroach species that live in homes](/learn/cockroaches), [carpet beetle larvae in rugs and closets](/blog/how-to-get-rid-of-carpet-beetles) and [the spiders most often found indoors](/blog/house-spiders), as well as silverfish and earwigs."
+    },
+    {
+      "type": "p",
+      "text": "Climate decides whether you also meet them outdoors: Washington State University says they live throughout the United States, outdoors too in warmer areas but mainly indoors in colder ones, and MDC says they move indoors especially in winter. [The guide to bugs in the house in winter](/blog/bugs-in-house-in-winter) counts them among the year-round residents, and [the basement bug sorter](/blog/bugs-in-basement) covers the other moisture lovers they share a basement with."
+    },
+    {
+      "type": "h3",
+      "text": "Why is there a house centipede in my bathtub or sink?"
+    },
+    {
+      "type": "p",
+      "text": "It was most likely trapped there, not coming up the drain. Iowa State says the house centipedes that worry people most are the occasional one on a bathroom or bedroom wall and the one accidentally trapped in a bathtub, sink or lavatory, and that they do not come up through drain pipes. Basement floor drains are different: Penn State lists floor drains without water traps, especially those connected to dry sumps, among their hiding places and suggests window screen over them. [The guide to bugs in the bathroom](/blog/bugs-in-bathroom) sorts the other moisture lovers found around tubs and drains."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/house-centipede-sink-drain.webp",
+      "width": 1200,
+      "height": 1382,
+      "alt": "House centipede on the wet bottom of a stainless steel sink, its banded legs reaching the rim of the round metal drain strainer",
+      "caption": "A house centipede beside a sink drain. Iowa State says house centipedes do not come up through drain pipes; one found in a sink or tub has been accidentally trapped there.",
+      "license": "CC-BY-SA-4.0",
+      "credit": "Bpetheo, CC BY-SA 4.0, via Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scutigera_coleoptrata_in_a_sink.jpg"
+    },
+    {
+      "type": "h2",
+      "text": "How do you tell a house centipede from look-alikes?"
+    },
+    {
+      "type": "p",
+      "text": "Count the legs on one segment, then in total: one pair per segment means a centipede, two pairs a millipede, six legs an insect such as a silverfish or earwig, and seven pairs a pill bug or sowbug, land crustaceans that [the University of Kentucky's sowbug and pillbug fact sheet](https://entomology.mgcafe.uky.edu/ef439) says rarely exceed 3/4 inch and find it almost impossible to survive indoors without high moisture. Size, speed and where you found it settle the rest."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/house-centipede-bathtub.webp",
+      "width": 1200,
+      "height": 900,
+      "alt": "House centipede seen from above on a plain white surface, long antennae and very long hind legs pointing in opposite directions from its striped body",
+      "caption": "A house centipede photographed in Kentucky by an observer who notes that they turn up in the bathtub. Look for one pair of long, banded legs on each segment, long antennae at one end and long hind legs at the other.",
+      "license": "CC-BY-4.0",
+      "credit": "(c) M. Whitson, some rights reserved (CC BY), via iNaturalist",
+      "sourceUrl": "https://www.inaturalist.org/observations/123267826"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Animal",
+        "Where it usually turns up",
+        "Bites people?"
+      ],
+      "rows": [
+        [
+          "House centipede",
+          "Damp basements, bathrooms, closets and crawl spaces, at night",
+          "Rarely; generally no worse than a bee sting"
+        ],
+        [
+          "Stone and other small centipedes",
+          "Under rocks, leaf litter and mulch; most die soon after getting inside",
+          "If handled; unlikely to cause serious harm"
+        ],
+        [
+          "Giant redheaded centipede",
+          "Rocky woodlands, mostly south and west of Missouri",
+          "Yes; usually no worse than a wasp or scorpion sting"
+        ],
+        [
+          "Millipede",
+          "Wanders in after heavy rain or in drought, then soon dies",
+          "No; some ooze a liquid that can irritate skin or burn the eyes"
+        ],
+        [
+          "Silverfish or firebrat",
+          "Basements, closets and kitchens; firebrats near ovens and hot pipes",
+          "No bite described; does not transmit disease"
+        ],
+        [
+          "Earwig",
+          "Dark, damp hiding spots; comes in when it is too dry, hot or cold outside",
+          "If trapped in clothing; not harmful to people"
+        ],
+        [
+          "Pill bug or sowbug",
+          "Crawl spaces, basements and ground floors, looking for water",
+          "No; harmless"
+        ]
+      ],
+      "caption": "Compiled from Iowa State, MDC, the University of Kentucky, UC IPM and Texas A&M AgriLife Extension, each linked on this page."
+    },
+    {
+      "type": "checklist",
+      "title": "Checks to run with the bug in a jar",
+      "items": [
+        "**Legs per segment.** One pair on each segment: a centipede. Two pairs on most segments: a millipede.",
+        "**Leg count.** Six: an insect such as a silverfish or earwig. Seven pairs: a pill bug or sowbug. Up to 15 long, banded pairs: a house centipede; a young one may have as few as four.",
+        "**Tail end.** Three long tail appendages: a silverfish or firebrat. Pincers: an earwig. Long legs pointing backward like a second pair of antennae: a centipede.",
+        "**Size against a ruler.** A house centipede's body is about 1 to 1 1/2 inches. Several inches of body on 21 pairs of shorter legs points to a giant redheaded centipede.",
+        "**Behavior.** Curls up when prodded: a millipede. Rolls into a ball: a pill bug. Runs, stops dead, then runs again: a house centipede.",
+        "**Where you found it.** A damp basement, bathroom or closet at night: probably a house centipede. Millipedes, pill bugs and sowbugs wander in from damp ground outside and soon die indoors once it is dry."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Earwigs, which hide in dark, damp places, are about 3/4 inch and reddish brown with pincers at the tail end, and [UC IPM's earwig pest note](https://ipm.ucanr.edu/home-and-landscape/earwigs/) says they are not harmful to people. Camel crickets, the humpbacked jumpers also called spider crickets, are another basement regular; see [the camel cricket guide](/blog/camel-crickets). Still unsure? [The bug identification quiz](/tools/what-bug-is-this) can help narrow it down."
+    },
+    {
+      "type": "h2",
+      "text": "Is it a house centipede or a silverfish?"
+    },
+    {
+      "type": "p",
+      "text": "Count the legs and check the tail: a silverfish has six legs and three long tail appendages, a house centipede up to 15 pairs of long legs. The [MDC's silverfish page](https://mdc.mo.gov/discover-nature/field-guide/silverfish-firebrat) describes the common silverfish as wingless, silvery, usually scaly and tapered toward the tail, about 1/2 inch long not counting the tails, and [UC IPM's silverfish pest note](https://ipm.ucanr.edu/home-and-landscape/silverfish-and-firebrats/) says silverfish can reach 3/4 inch. Firebrats look similar but are a mottled gray or brown and favor hot spots near ovens, heaters and hot water pipes."
+    },
+    {
+      "type": "p",
+      "text": "The two get confused because they keep the same hours in the same rooms: both hide by day and come out at night, and MDC says silverfish need moist or humid places and turn up in basements, attics, closets, kitchens and garages. Silverfish and firebrats are also house centipede prey, Penn State says, so finding both is no coincidence. Unlike house centipedes, silverfish damage paper, books, wallpaper, fabrics and food, MDC says; [how to get rid of silverfish](/blog/how-to-get-rid-of-silverfish) covers drying them out, and [the guide to baby silverfish](/blog/baby-silverfish) shows the young ones."
+    },
+    {
+      "type": "h2",
+      "text": "Is it a house centipede or a millipede?"
+    },
+    {
+      "type": "p",
+      "text": "Look at the legs on one segment: one pair on a centipede, two pairs on most segments of a millipede. MDC adds that millipedes have rounder bodies and elbowed antennae, and UC IPM that centipedes move rapidly while millipedes do not, and that most millipedes curl up when prodded, which centipedes never do. Millipedes eat moist, decaying plant matter and do not bite, though UC IPM says some ooze a defensive liquid that can irritate skin or burn the eyes; Texas A&M says those that come indoors after heavy rain or in drought soon die. [Centipede vs millipede](/blog/centipede-vs-millipede) compares the two trait by trait, and [the guide to millipedes in the house](/blog/millipedes) covers keeping them out."
+    },
+    {
+      "type": "h2",
+      "text": "Could it be a bigger, more dangerous centipede?"
+    },
+    {
+      "type": "p",
+      "text": "Possibly, if its body is several inches long on shorter legs. Most centipedes are small: MDC says most of Missouri's are about 1/2 to 1 inch long and, except for the very large species, harmless to people. The one to know is the giant redheaded centipede (*Scolopendra heros*), also called the giant desert centipede, which [MDC's giant redheaded centipede page](https://mdc.mo.gov/discover-nature/field-guide/giant-redheaded-centipede) calls the largest centipede in North America: usually up to 6 1/2 inches long and sometimes 8, with 21 pairs of legs and, in Missouri, a black body, bright yellow legs and a rusty-red head. It lives mostly south and west of Missouri, and Texas A&M says it can grow to over 9 inches."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/giant-redheaded-centipede-in-house.webp",
+      "width": 1200,
+      "height": 900,
+      "alt": "Giant redheaded centipede curled in a clear glass dish on pebbled concrete, its glossy black segments edged with yellow legs and a rusty-red head",
+      "caption": "A giant redheaded centipede (*Scolopendra heros*) in a glass dish in Austin, Texas; the observer found it on a bathroom counter inside the house and notes it would be released outdoors. MDC describes the same black body, yellow legs and rusty-red head in Missouri.",
+      "license": "CC0-1.0",
+      "credit": "no rights reserved, via iNaturalist",
+      "sourceUrl": "https://www.inaturalist.org/observations/112659561"
+    },
+    {
+      "type": "p",
+      "text": "Its bite is the one to avoid. MDC says the bites are not fatal but may cause severe swelling and irritation for hours, with pain usually no worse than a wasp or scorpion sting; infants, older people and people in poor health could be harmed, and anyone who has difficulty breathing after a bite should seek medical treatment immediately. Kentucky describes large centipedes such as *Scolopendra* as shorter-legged than the house centipede, with very stout, sharp fangs, and Texas A&M says *Scolopendra* can also cut skin with the claws on its walking legs and advises never handling centipedes."
+    },
+    {
+      "type": "p",
+      "text": "Two other groups stray in now and then. Soil centipedes, MDC says, are narrow, tan or pale, eyeless and rather slow, with 27 to 191 pairs of legs. Stone centipedes have 15 pairs of legs as adults, like the house centipede, and UC IPM notes that the centipedes more common in gardens may have somewhat shorter legs. Kentucky says most centipedes that get inside die soon afterward for lack of moisture; the house centipede is the exception."
+    },
+    {
+      "type": "confused",
+      "items": [
+        {
+          "href": "/blog/how-to-get-rid-of-silverfish",
+          "name": "Silverfish",
+          "photo": "silverfish",
+          "note": "Six legs, silvery scales and three long tail appendages; about 1/2 inch",
+          "alt": "Common silverfish on a pale surface, seen from the side"
+        },
+        {
+          "href": "/blog/millipedes",
+          "name": "Millipede",
+          "photo": "greenhouse-millipede-bathroom-penny",
+          "note": "Two pairs of short legs on most segments; slow, and curls up when prodded",
+          "alt": "Small dark greenhouse millipede on a towel below a US penny"
+        },
+        {
+          "href": "/blog/how-to-get-rid-of-earwigs",
+          "name": "Earwig",
+          "photo": "european-earwig-male",
+          "note": "Six legs and pincers at the tail end; about 3/4 inch and reddish brown",
+          "alt": "Male European earwig seen from above with curved pincers at its tail"
+        },
+        {
+          "href": "/blog/pill-bugs",
+          "name": "Pill bug",
+          "photo": "pill-bug-rolled-kitchen-floor",
+          "note": "Seven pairs of legs under an oval, rounded back; rolls into a ball",
+          "alt": "Pill bug rolled into a tight ball on a kitchen floor"
+        },
+        {
+          "href": "/blog/centipede-vs-millipede",
+          "name": "Stone and other centipedes",
+          "photo": "brown-centipede-found-indoors",
+          "note": "Usually brownish, flat and shorter-legged; most that wander indoors soon die",
+          "alt": "Reddish-brown stone centipede with short legs on a white surface"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "What should you do once you know it's a house centipede?"
+    },
+    {
+      "type": "p",
+      "text": "Decide whether it needs to go at all, then fix what drew it in. The extension sources treat a house centipede as a harmless hunter and put moisture and prey ahead of any spray."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**One now and then.** Leave it, or vacuum or sweep it up, which Kentucky says is all that indoor centipedes need.",
+        "**Several a week.** Read it as a sign of damp and plentiful prey: set sticky monitors to see what they are eating, then dry and seal the basement as below.",
+        "**Several inches long, on short legs.** Do not handle it; see the giant redheaded centipede above.",
+        "**Not a centipede after all.** Use the look-alike's own guide: [silverfish](/blog/how-to-get-rid-of-silverfish), [millipedes](/blog/millipedes), [earwigs](/blog/how-to-get-rid-of-earwigs) or [pill bugs and sowbugs](/blog/pill-bugs)."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Should you kill house centipedes?"
+    },
+    {
+      "type": "p",
+      "text": "Usually there is no need to. UC IPM says centipedes seldom need to be controlled unless they become a nuisance in the home, Iowa State considers house centipedes beneficial and says centipedes found outdoors should not be controlled, and its 2008 article suggests living and letting live, or capturing and discarding the occasional nuisance. What matters more is what they signal: plenty of house centipedes means plenty of the small pests they eat, in a place damp enough to suit both."
+    },
+    {
+      "type": "h2",
+      "text": "How do you get rid of house centipedes?"
+    },
+    {
+      "type": "p",
+      "text": "Dry out the places they hide, take away their food and seal the gaps they use, then vacuum up the ones you see; the extension sources cited here put those steps ahead of any insecticide."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/house-centipede-basement-floor.webp",
+      "width": 1200,
+      "height": 900,
+      "alt": "House centipede on a pale gray basement floor with a few dark specks of debris, its striped body ringed by long legs and two long antennae",
+      "caption": "A house centipede on a basement floor in Harrisonburg, Virginia, where the observer found it. Drying out and sealing a basement takes away both its shelter and its prey.",
+      "license": "CC0-1.0",
+      "credit": "no rights reserved, via iNaturalist",
+      "sourceUrl": "https://www.inaturalist.org/observations/163188719"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "**Lower the humidity.** Penn State recommends dehumidifiers and grading the soil so water drains away from the foundation, and Ohio State says to ventilate basements and crawl spaces properly. Kentucky adds working gutters, downspouts and splash blocks and fixing leaky faucets, pipes and air conditioners. None of these centipede sources gives a humidity target, but [EPA's guide to mold and moisture](https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home) says to keep indoor relative humidity below 60 percent if possible, ideally 30 to 50 percent. For the equipment, see [how to size a dehumidifier for a damp basement](/blog/best-large-capacity-dehumidifier-canada).",
+        "**Dry the crawl space.** Kentucky recommends ventilation, sump pumps and polyethylene soil covers for damp crawl spaces and basements, and Washington State University also calls for crawl space ventilation.",
+        "**Remove hiding places.** Kentucky says to clear leaves, grass clippings, heavy mulch, boards, stones and boxes from beside the foundation and to raise what cannot be moved, and Texas A&M to move compost piles and firewood away from the house. Indoors, lift cardboard boxes off bare concrete, one of Penn State's listed hiding places, and clear debris from houseplant pots and trays, as Washington State University suggests.",
+        "**Seal the gaps.** Penn State says to seal cracks in concrete slabs and block walls, seal sump pump covers with screen and caulk, and put window screen in basement floor drains so centipedes cannot come up from dry sumps. Kentucky adds tight door sweeps or thresholds and sealing interior gaps along basement walls, Ohio State says to maintain foundation expansion joints and seal around lower windows and doors, and Texas A&M suggests copper mesh in the weep holes of brick or stone walls. [A guide to keeping spiders out of the house](/blog/how-to-keep-spiders-out-of-your-house) covers sealing in more detail.",
+        "**Find out what they are eating.** Penn State suggests sticky insect traps, also called monitors, set around the house to show which other pests are feeding them, and Ohio State says the traps also show whether you have a centipede problem at all. Then deal with that pest directly.",
+        "**Remove the ones you see.** Kentucky says a vacuum or broom is all that indoor centipedes need, and adds that glue traps can catch house centipedes."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Give it time. Kentucky notes that centipede problems often coincide with excessively wet weather and that patience and drier conditions often correct them."
+    },
+    {
+      "type": "picks",
+      "title": "Sealing, drying and monitoring gear",
+      "items": [
+        {
+          "label": "For exterior doors",
+          "name": "Door sweep",
+          "search": "door sweep",
+          "why": "Kentucky adds tight-fitting door sweeps or thresholds on exterior doors to the sealing work, and the same work keeps out the insects house centipedes hunt."
+        },
+        {
+          "label": "To see what they are eating",
+          "name": "Sticky insect monitors",
+          "search": "sticky insect monitor traps",
+          "why": "Penn State suggests sticky insect traps, also called monitors, set around the house to show which other pests are feeding the centipedes. Then treat that pest directly."
+        },
+        {
+          "label": "For a damp crawl space",
+          "name": "Polyethylene crawl space vapor barrier",
+          "search": "crawl space vapor barrier",
+          "why": "Kentucky recommends ventilation, sump pumps and polyethylene soil covers for damp crawl spaces and basements, and Penn State lists damp, cool crawl spaces among the places house centipedes hide."
+        },
+        {
+          "label": "For basement floor drains",
+          "name": "Window screen mesh",
+          "search": "window screen mesh roll",
+          "why": "Penn State says to put window screen in basement floor drains so centipedes cannot come up from dry sumps, and to seal sump pump covers with screen and caulk."
+        },
+        {
+          "label": "For slab and wall cracks",
+          "name": "Concrete crack sealant",
+          "search": "concrete crack sealant",
+          "why": "Penn State says to fill or seal cracks and crevices in concrete slabs and block walls with appropriate fillers, and Kentucky adds expansion joints and gaps along the bottom of basement walls; house centipedes reach the house from under slabs through expansion cracks."
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Do you need an insecticide for house centipedes?"
+    },
+    {
+      "type": "p",
+      "text": "Usually not. UC IPM says using the pesticides labeled for centipedes is rarely justified, Washington State University recommends no chemical treatment for house centipedes, and Ohio State says indoor spot treatments are generally not required or recommended. Iowa State's 2008 article calls the effect of residual sprays and dusts in hiding places very limited, and no spray removes the damp and the prey that drew them in."
+    },
+    {
+      "type": "p",
+      "text": "Skip the bug bomb. Ohio State says total-release aerosols are ineffective against centipedes, because they leave no active residue and rarely reach the cracks and crevices where centipedes hide."
+    },
+    {
+      "type": "p",
+      "text": "If you use one, put it where they hide, not across open floors. Penn State's home-use options are dusts (boric acid or diatomaceous earth) or sprays of synthetic pyrethroids such as cyfluthrin, deltamethrin, lambda-cyhalothrin, cypermethrin, permethrin and tralomethrin, mixed from emulsifiable concentrates or wettable powders and applied to cracks and crevices in slabs and block walls. Iowa State adds crawl spaces, dark basement corners, baseboard cracks, openings in concrete slabs, the space under shelves and the area around stored boxes."
+    },
+    {
+      "type": "p",
+      "text": "Kentucky leans outdoors and differs on baseboards: it calls insecticide along baseboards and in other living areas of little use against centipedes, and favors treating around outside doors, crawl space entrances, vents, utility openings and foundation plant beds, plus damp crawl space or basement walls, with silica gel or diatomaceous earth dusts in cracks and weep holes. Ohio State likewise describes a band 18 to 36 inches wide around the foundation, repeated only if the label allows."
+    },
+    {
+      "type": "p",
+      "text": "Whatever you choose, the label decides how you may use it. [EPA's introduction to pesticide labels](https://www.epa.gov/pesticide-labels/introduction-pesticide-labels) explains that labels are legally enforceable, so the label is the law: it sets who may use a product and where, how, how much and how often, and using one in a way its labeling does not allow violates federal law. Check that the label lists centipedes and the place you plan to treat, and, as Penn State advises, keep products in their original labeled containers, out of the reach of children, pets and livestock."
+    },
+    {
+      "type": "p",
+      "text": "A [buying-order guide to centipede products](/blog/best-centipede-killer-canada) reaches the same order as this page, dehumidifier first and spray last, but it was written for shoppers in Canada, so the products and registrations it names are not US ones; readers there can use [the Canadian edition of this guide](/blog/how-to-get-rid-of-centipedes-canada)."
+    },
+    {
+      "type": "h2",
+      "text": "When should you call a professional about house centipedes?"
+    },
+    {
+      "type": "p",
+      "text": "When sightings continue after the damp spots are dry and the gaps sealed, or when you cannot tell what is feeding them. MDC suggests sealing small cracks and entryways or consulting a licensed pest controller, and Penn State notes that a pest control company can supply sticky monitors and identify the specimens they catch."
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Save the specimen",
+      "text": "Cover it with a jar, slide a stiff card underneath and keep it sealed, then photograph it beside a ruler marked in inches, count the legs on one side and note where and when you found it. Your state's cooperative extension office or a pest professional can use those details to identify it."
+    }
   ],
   "faqs": [
     {
@@ -203,26 +615,106 @@
     }
   ],
   "sources": [
-    { "title": "House Centipedes", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/house-centipedes" },
-    { "title": "House centipede (PestSense)", "publisher": "Washington State University", "url": "https://pestsense.cahnrs.wsu.edu/fact-sheet/house-centipede/" },
-    { "title": "House Centipede (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/house-centipede" },
-    { "title": "Centipedes (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/centipedes" },
-    { "title": "Giant Redheaded Centipede (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/giant-redheaded-centipede" },
-    { "title": "Silverfish/Firebrat (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/silverfish-firebrat" },
-    { "title": "Centipedes and Pseudoscorpions (ENTFACT-647)", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef647" },
-    { "title": "Centipedes and Millipedes in and Around the Home (ENTFACT-645)", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef645" },
-    { "title": "Sowbugs and Pillbugs (ENTFACT-439)", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef439" },
-    { "title": "House Centipede (Yard and Garden)", "publisher": "Iowa State University Extension and Outreach", "url": "https://yardandgarden.extension.iastate.edu/encyclopedia/house-centipede" },
-    { "title": "House Centipedes: Beneficial Predators or Nuisance? (Donald Lewis, March 26, 2008)", "publisher": "Iowa State University Extension and Outreach", "url": "https://yardandgarden.extension.iastate.edu/article/2008/3-26/Housecentipede.html" },
-    { "title": "Pest Notes: Centipedes and Millipedes (UC ANR Publication 7472)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/centipedes-and-millipedes/" },
-    { "title": "Pest Notes: Silverfish and Firebrats (UC ANR Publication 7475)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/silverfish-and-firebrats/" },
-    { "title": "Pest Notes: Earwigs (UC ANR Publication 74102)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/earwigs/" },
-    { "title": "Centipedes (ENT-50, David J. Shetlar and Jennifer E. Andon, 2015)", "publisher": "Ohio State University Extension", "url": "https://ohioline.osu.edu/factsheet/ENT-50" },
-    { "title": "Centipedes and Millipedes (ENTO-PU-020, Wizzie Brown, December 2009)", "publisher": "Texas A&M AgriLife Extension", "url": "https://extensionentomology.tamu.edu/wp-content/uploads/2025/03/centipedes-and-millipedes.pdf" },
-    { "title": "Centipede bites: How harmful are they?", "publisher": "Poison Control (National Capital Poison Center)", "url": "https://www.poison.org/articles/are-centipede-stings-harmful-191" },
-    { "title": "Centipede (Medical Encyclopedia, reviewed July 1, 2025)", "publisher": "MedlinePlus, U.S. National Library of Medicine", "url": "https://medlineplus.gov/ency/article/002842.htm" },
-    { "title": "Introduction to Pesticide Labels", "publisher": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/pesticide-labels/introduction-pesticide-labels" },
-    { "title": "A Brief Guide to Mold, Moisture and Your Home", "publisher": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home" }
+    {
+      "title": "House Centipedes",
+      "publisher": "Penn State Extension",
+      "url": "https://extension.psu.edu/house-centipedes"
+    },
+    {
+      "title": "House centipede (PestSense)",
+      "publisher": "Washington State University",
+      "url": "https://pestsense.cahnrs.wsu.edu/fact-sheet/house-centipede/"
+    },
+    {
+      "title": "House Centipede (Field Guide)",
+      "publisher": "Missouri Department of Conservation",
+      "url": "https://mdc.mo.gov/discover-nature/field-guide/house-centipede"
+    },
+    {
+      "title": "Centipedes (Field Guide)",
+      "publisher": "Missouri Department of Conservation",
+      "url": "https://mdc.mo.gov/discover-nature/field-guide/centipedes"
+    },
+    {
+      "title": "Giant Redheaded Centipede (Field Guide)",
+      "publisher": "Missouri Department of Conservation",
+      "url": "https://mdc.mo.gov/discover-nature/field-guide/giant-redheaded-centipede"
+    },
+    {
+      "title": "Silverfish/Firebrat (Field Guide)",
+      "publisher": "Missouri Department of Conservation",
+      "url": "https://mdc.mo.gov/discover-nature/field-guide/silverfish-firebrat"
+    },
+    {
+      "title": "Centipedes and Pseudoscorpions (ENTFACT-647)",
+      "publisher": "University of Kentucky Department of Entomology",
+      "url": "https://entomology.mgcafe.uky.edu/ef647"
+    },
+    {
+      "title": "Centipedes and Millipedes in and Around the Home (ENTFACT-645)",
+      "publisher": "University of Kentucky Department of Entomology",
+      "url": "https://entomology.mgcafe.uky.edu/ef645"
+    },
+    {
+      "title": "Sowbugs and Pillbugs (ENTFACT-439)",
+      "publisher": "University of Kentucky Department of Entomology",
+      "url": "https://entomology.mgcafe.uky.edu/ef439"
+    },
+    {
+      "title": "House Centipede (Yard and Garden)",
+      "publisher": "Iowa State University Extension and Outreach",
+      "url": "https://yardandgarden.extension.iastate.edu/encyclopedia/house-centipede"
+    },
+    {
+      "title": "House Centipedes: Beneficial Predators or Nuisance? (Donald Lewis, March 26, 2008)",
+      "publisher": "Iowa State University Extension and Outreach",
+      "url": "https://yardandgarden.extension.iastate.edu/article/2008/3-26/Housecentipede.html"
+    },
+    {
+      "title": "Pest Notes: Centipedes and Millipedes (UC ANR Publication 7472)",
+      "publisher": "University of California Statewide IPM Program",
+      "url": "https://ipm.ucanr.edu/home-and-landscape/centipedes-and-millipedes/"
+    },
+    {
+      "title": "Pest Notes: Silverfish and Firebrats (UC ANR Publication 7475)",
+      "publisher": "University of California Statewide IPM Program",
+      "url": "https://ipm.ucanr.edu/home-and-landscape/silverfish-and-firebrats/"
+    },
+    {
+      "title": "Pest Notes: Earwigs (UC ANR Publication 74102)",
+      "publisher": "University of California Statewide IPM Program",
+      "url": "https://ipm.ucanr.edu/home-and-landscape/earwigs/"
+    },
+    {
+      "title": "Centipedes (ENT-50, David J. Shetlar and Jennifer E. Andon, 2015)",
+      "publisher": "Ohio State University Extension",
+      "url": "https://ohioline.osu.edu/factsheet/ENT-50"
+    },
+    {
+      "title": "Centipedes and Millipedes (ENTO-PU-020, Wizzie Brown, December 2009)",
+      "publisher": "Texas A&M AgriLife Extension",
+      "url": "https://extensionentomology.tamu.edu/wp-content/uploads/2025/03/centipedes-and-millipedes.pdf"
+    },
+    {
+      "title": "Centipede bites: How harmful are they?",
+      "publisher": "Poison Control (National Capital Poison Center)",
+      "url": "https://www.poison.org/articles/are-centipede-stings-harmful-191"
+    },
+    {
+      "title": "Centipede (Medical Encyclopedia, reviewed July 1, 2025)",
+      "publisher": "MedlinePlus, U.S. National Library of Medicine",
+      "url": "https://medlineplus.gov/ency/article/002842.htm"
+    },
+    {
+      "title": "Introduction to Pesticide Labels",
+      "publisher": "U.S. Environmental Protection Agency",
+      "url": "https://www.epa.gov/pesticide-labels/introduction-pesticide-labels"
+    },
+    {
+      "title": "A Brief Guide to Mold, Moisture and Your Home",
+      "publisher": "U.S. Environmental Protection Agency",
+      "url": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"
+    }
   ],
   "disclaimer": "both"
 }
