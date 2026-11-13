@@ -48,6 +48,7 @@
 - **Payments:** Stripe (dynamic Payment Links API — auto-creates checkout for each customer's price)
 - **Email:** Resend (domain verified: buzzskito.ca, sends from info@buzzskito.ca)
 - **Notifications:** Slack webhook for new leads
+- **Fonts are self-hosted** (`app/fonts/*.woff2` through `next/font/local` in `app/layout.tsx`) since Nov 13, 2026. On Vercel, next/font/google produced different generated names for the page HTML and the font stylesheet, so every page showed Times New Roman. Never switch back to next/font/google.
 - **Analytics:** Google Analytics (G-X7RV1EQWD8), Microsoft Clarity, Ahrefs Web Analytics. **Facebook Pixel removed Nov 13, 2026** (owner: not running Facebook ads); restore steps are in a comment at the end of `app/layout.tsx`, and add it back a few weeks before any Facebook campaign so it can learn
 
 ## Critical Rules

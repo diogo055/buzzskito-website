@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next'
-import { Inter, Bricolage_Grotesque, Fraunces } from 'next/font/google'
+import localFont from 'next/font/local'
 import Script from 'next/script'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import './globals.css'
@@ -21,30 +21,45 @@ import { BUSINESS, PROMISES, SITE_URL } from '@/lib/constants'
 import { websiteSchema, organizationSchema, personSchema } from '@/lib/seo'
 import { PAGE_KEEPER_JS } from '@/lib/page-keeper'
 
-const inter = Inter({
-  subsets: ['latin'],
+// FONTS ARE SELF-HOSTED (Nov 13, 2026). Until then they came from next/font/google, which downloads them
+// from Google during every build. On Vercel the page HTML and the font stylesheet came out of one build with
+// DIFFERENT generated names (HTML: __variable_d8ebd1 / _2e8889 / _bcc7d8; stylesheet: _f367f3 / _abeb20 /
+// _09ba7e), so --font-inter, --font-display and --font-accent were never defined and every page fell back
+// to Times New Roman. Local files make the names depend only on these files, the same in every build.
+// The files are Google's own Latin subsets of the same three families (Inter, Bricolage Grotesque, Fraunces,
+// all SIL Open Font License), copied from what next/font/google had downloaded. Same variables, weights,
+// styles and swap behaviour; fallback metrics are computed from the files (adjustFontFallback).
+
+const inter = localFont({
+  src: './fonts/inter-latin-var.woff2',
+  weight: '100 900',
+  style: 'normal',
   display: 'swap',
   variable: '--font-inter',
+  adjustFontFallback: 'Arial',
 })
 
 // Display face for headlines only (700/800 weights) — one small woff2,
 // swap-loaded so there's zero CLS. Body text stays Inter.
-const bricolage = Bricolage_Grotesque({
-  subsets: ['latin'],
-  weight: ['700', '800'],
+const bricolage = localFont({
+  src: './fonts/bricolage-grotesque-latin-700-800.woff2',
+  weight: '700 800',
+  style: 'normal',
   display: 'swap',
   variable: '--font-display',
+  adjustFontFallback: 'Arial',
 })
 
 // Editorial italic serif — used ONLY for single accent lines/words inside
 // display headings (the research-backed "one serif accent" premium cue).
 // One italic weight, latin subset, swap-loaded: tiny and CLS-free.
-const fraunces = Fraunces({
-  subsets: ['latin'],
-  weight: ['600'],
-  style: ['italic'],
+const fraunces = localFont({
+  src: './fonts/fraunces-latin-600-italic.woff2',
+  weight: '600',
+  style: 'italic',
   display: 'swap',
   variable: '--font-accent',
+  adjustFontFallback: 'Times New Roman',
 })
 
 export const metadata: Metadata = {
