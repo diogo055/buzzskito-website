@@ -1,4 +1,6 @@
 import type { Metadata } from 'next'
+import CrewVideo from '@/components/CrewVideo'
+import { CREW_CLIPS } from '@/lib/crew-videos'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema } from '@/lib/seo'
@@ -121,6 +123,18 @@ export default function MosquitoSafetyPage() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="pb-14 px-4 bg-white" aria-label="Our crew at work">
+        <div className="max-w-3xl mx-auto">
+          <CrewVideo
+            clip={CREW_CLIPS.underDeck}
+            afterLoad
+            sizes="(max-width: 768px) 100vw, 768px"
+            className="rounded-2xl ring-1 ring-brand-200"
+            caption="Filmed on one of our jobs: our technician, in a respirator and gloves, mists the shaded space under a deck."
+          />
         </div>
       </section>
 

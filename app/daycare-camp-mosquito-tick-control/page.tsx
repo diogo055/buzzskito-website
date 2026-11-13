@@ -1,4 +1,6 @@
 import type { Metadata } from 'next'
+import CrewVideo from '@/components/CrewVideo'
+import { CREW_CLIPS } from '@/lib/crew-videos'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
@@ -82,6 +84,18 @@ export default function DaycareCampMosquitoTickControlPage() {
           <span>✓ Parent Notification Templates</span>
           <span>✓ {PROMISES.labelLine}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
+        </div>
+      </section>
+
+      <section className="pt-8 pb-4 px-4 bg-white" aria-label="Our crew at work">
+        <div className="max-w-3xl mx-auto">
+          <CrewVideo
+            clip={CREW_CLIPS.woodlandEdge}
+            afterLoad
+            sizes="(max-width: 768px) 100vw, 768px"
+            className="rounded-2xl ring-1 ring-brand-200"
+            caption="Filmed on one of our jobs: misting the shrubs where a lawn meets the woods, the shaded edge where mosquitoes rest and ticks wait."
+          />
         </div>
       </section>
 

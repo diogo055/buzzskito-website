@@ -175,6 +175,14 @@
     - Mosquito pages show `underDeck` (0.5 MB); tick pages show `woodlandEdge`.
     - These top clips use `afterLoad`: they wait for the page's load event and an idle moment, so they never download while the page is still loading.
   - Captions say "Filmed on one of our jobs".
+  - **After the trust bar on 15 more service pages (Nov 13, owner: "put on mosquito and tick related pages... especially in areas where we're trying to funnel them into getting a quote request"):**
+    - The segment pages: estate, commercial, HOA/condo, wedding, restaurant patio, golf course, daycare/camp, property manager and pool-backyard.
+    - Also `/mosquito-control-pricing`, `/mosquito-control-ontario`, `/tick-control-ontario` and `/mosquito-control-diy-vs-professional`.
+    - `/mosquito-control-cost` (after its answer capsule) and `/mosquito-spray-safety` (after the 30-second summary).
+    - The pool page's caption adds "never the water" (the page's own promise).
+    - The clips are mixed across pages so a visitor sees different ones.
+  - **`/free-yard-assessment`:** the `drivewayShrubs` clip replaced the job photo in the trust block below the form.
+  - **Not yet:** the 13 best-companies pages, the 3 comparison pages and the 18 ad-free local posts. Never on ad pages without the owner's OK.
 - **Hero video (built Nov 13, 2026; research in `reports/Hero video for service pages.md`):**
   - **Build: photo first.** The hero photo stays the LCP element and the indexed image. `components/HeroVideo.tsx` attaches the clip only after the photo has decoded, the page has loaded (or 4 s later) and the browser is idle, then fades it in on its first frame. It pauses off screen and in hidden tabs.
   - **Accessibility:** a 44 px pause button, portalled outside the photo box, whose choice holds for the visit.

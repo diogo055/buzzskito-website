@@ -1,4 +1,6 @@
 import type { Metadata } from 'next'
+import CrewVideo from '@/components/CrewVideo'
+import { CREW_CLIPS } from '@/lib/crew-videos'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
@@ -81,6 +83,18 @@ export default function PropertyManagerMosquitoTickControlPage() {
           <span>✓ Direct Tenant Coordination</span>
           <span>✓ Compliance Documentation</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
+        </div>
+      </section>
+
+      <section className="pt-8 pb-4 px-4 bg-white" aria-label="Our crew at work">
+        <div className="max-w-3xl mx-auto">
+          <CrewVideo
+            clip={CREW_CLIPS.drivewayShrubs}
+            afterLoad
+            sizes="(max-width: 768px) 100vw, 768px"
+            className="rounded-2xl ring-1 ring-brand-200"
+            caption="Filmed on one of our jobs: misting the shrubs and garden beds along a driveway, where mosquitoes rest during the day."
+          />
         </div>
       </section>
 

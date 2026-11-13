@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import { buildMetadata, breadcrumbSchema, speakableSchema, faqSchema } from '@/lib/seo'
 import { PRICING, PROMISES } from '@/lib/constants'
 import YardAssessment from '@/components/YardAssessment'
+import CrewVideo from '@/components/CrewVideo'
+import { CREW_CLIPS } from '@/lib/crew-videos'
 import ReviewQuotes from '@/components/ReviewQuotes'
 
 export const metadata: Metadata = buildMetadata({
@@ -54,7 +56,7 @@ export default function FreeYardAssessmentPage() {
       {/* H1 + proof line + form (first screen on a phone), then typical prices */}
       <YardAssessment />
 
-      {/* Trust block + one real job photo (not stock) */}
+      {/* Trust block + one real job clip (its first frame shows until it plays; never stock) */}
       <section className="py-10 px-4 bg-gray-50" aria-labelledby="quote-trust-heading">
         <div className="max-w-3xl mx-auto grid grid-cols-1 gap-8 md:grid-cols-2 md:items-center">
           <div>
@@ -73,18 +75,13 @@ export default function FreeYardAssessmentPage() {
             </ul>
             <p className="mt-4 text-sm text-gray-600">150+ five-star reviews (5.0) · Serving 19 GTA cities</p>
           </div>
-          <figure>
-            <img
-              src="/spray-front.webp"
-              alt="BuzzSkito technician with a backpack sprayer treating a front garden bed"
-              width={800}
-              height={600}
-              loading="lazy"
-              decoding="async"
-              className="w-full h-auto rounded-2xl border border-gray-200"
-            />
-            <figcaption className="mt-2 text-xs text-gray-500">On the job: treating the garden beds along the front of a home.</figcaption>
-          </figure>
+          <CrewVideo
+            clip={CREW_CLIPS.drivewayShrubs}
+            afterLoad
+            sizes="(max-width: 768px) 100vw, 384px"
+            className="rounded-2xl border border-gray-200"
+            caption="On the job: misting the shrubs and garden beds along a driveway."
+          />
         </div>
       </section>
 

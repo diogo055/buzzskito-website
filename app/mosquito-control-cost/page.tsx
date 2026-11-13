@@ -1,4 +1,6 @@
 import type { Metadata } from 'next'
+import CrewVideo from '@/components/CrewVideo'
+import { CREW_CLIPS } from '@/lib/crew-videos'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
@@ -94,6 +96,18 @@ export default function MosquitoControlCostPage() {
           <p className="speakable text-lg text-gray-800 leading-relaxed bg-brand-50 border-l-4 border-brand-500 rounded-r-xl px-5 py-4">
             <strong>How much does mosquito control cost in Ontario?</strong> A single professional mosquito spray treatment starts from <strong>$99</strong> for a standard residential lot, while full-season programs run <strong>$549 for 5 sprays (Basic)</strong>, <strong>$994 for 10 sprays (Standard — most popular)</strong>, or <strong>$2,049 for 20+ sprays (Exclusive)</strong>, all plus HST. Final pricing scales with your lot size (10,000–100,000+ sq ft) &mdash; there are no contracts and every quote is free.
           </p>
+        </div>
+      </section>
+
+      <section className="pt-8 pb-4 px-4 bg-white" aria-label="Our crew at work">
+        <div className="max-w-3xl mx-auto">
+          <CrewVideo
+            clip={CREW_CLIPS.lawnEdge}
+            afterLoad
+            sizes="(max-width: 768px) 100vw, 768px"
+            className="rounded-2xl ring-1 ring-brand-200"
+            caption="Filmed on one of our jobs: misting the shrub and grass border at the edge of a lawn, where mosquitoes shelter during the day."
+          />
         </div>
       </section>
 
