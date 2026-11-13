@@ -26,6 +26,11 @@ interface CrewVideoProps {
   caption?: ReactNode
   tone?: 'light' | 'dark'
   className?: string
+  /**
+   * For a clip in the first two phone screens: also wait for the page's load event (or 4 s) and an idle
+   * moment before attaching the file, so it never downloads while the page itself is still loading.
+   */
+  afterLoad?: boolean
 }
 
 type VideoWithFrameCallback = HTMLVideoElement & {
@@ -58,6 +63,7 @@ export default function CrewVideo({
   caption,
   tone = 'light',
   className = '',
+  afterLoad = false,
 }: CrewVideoProps) {
   const boxRef = useRef<HTMLDivElement>(null)
   const videoRef = useRef<HTMLVideoElement>(null)
@@ -70,6 +76,7 @@ export default function CrewVideo({
   const [playing, setPlaying] = useState(false)
   const [shown, setShown] = useState(false)
   const [blocked, setBlocked] = useState(false)
+  const [pageReady, setPageReady] = useState(!afterLoad)
 
   const once = (event: Parameters<typeof trackVideo>[0], reason?: string) => {
     if (sent.current.has(event)) return
@@ -80,6 +87,28 @@ export default function CrewVideo({
   useEffect(() => {
     setOffReason(autoplayOff())
   }, [])
+
+  // afterLoad: the page's load event (or 4 s), then an idle moment
+  useEffect(() => {
+    if (!afterLoad) return
+    let cancelled = false
+    const timers: number[] = []
+    const idle = () => {
+      const w = window as Window & { requestIdleCallback?: (cb: () => void, o?: { timeout: number }) => number }
+      if (typeof w.requestIdleCallback === 'function') w.requestIdleCallback(() => !cancelled && setPageReady(true), { timeout: 1500 })
+      else timers.push(window.setTimeout(() => !cancelled && setPageReady(true), 1000))
+    }
+    if (document.readyState === 'complete') idle()
+    else {
+      window.addEventListener('load', idle, { once: true })
+      timers.push(window.setTimeout(idle, 4000))
+    }
+    return () => {
+      cancelled = true
+      timers.forEach((t) => window.clearTimeout(t))
+      window.removeEventListener('load', idle)
+    }
+  }, [afterLoad])
   const auto = offReason === null
 
   useEffect(() => {
@@ -117,8 +146,8 @@ export default function CrewVideo({
       setArmed(true)
       return
     }
-    if (near && auto) return whenScrollIdle(() => setArmed(true))
-  }, [near, auto, manual, armed])
+    if (near && auto && pageReady) return whenScrollIdle(() => setArmed(true))
+  }, [near, auto, manual, armed, pageReady])
 
   // The <source> children render only once armed, so the element has to re-read them.
   useEffect(() => {

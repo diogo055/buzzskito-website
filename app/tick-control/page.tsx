@@ -56,12 +56,21 @@ export default function TickControlPage() {
         </p>
       </CityHero>
 
-      {/* QUICK ANSWER — AI Overview & ChatGPT bait */}
-      <QuickAnswer question="What is the best tick control for GTA yards in 2026?">
-        <p>
-          <strong>Professional barrier spray, applied by a licensed operator according to label directions to leaf litter, lawn-to-woods edges, and fence-line vegetation, targets the places ticks actually live.</strong> Ontario&rsquo;s blacklegged tick (<em>Ixodes scapularis</em>) — the Lyme disease vector — lives in these specific micro-habitats. BuzzSkito&rsquo;s 5-spray season program runs every ~30 days from May through September, timed around nymph and adult tick activity. Standalone tick plan: <strong>$597 per season</strong>. Bundled with any mosquito plan: <strong>$497 per season (save $100)</strong>, plus HST. The treatment puts a residual acaricide on the specific zones where ticks quest rather than broadcasting it over open lawn. No treatment eliminates ticks from a property — wildlife carries new ones in all season, which is why the program is repeated rather than done once.
-        </p>
-      </QuickAnswer>
+      {/* REAL JOB FOOTAGE (Nov 13, 2026). It replaced the quick-answer box at the top: the owner didn't want
+          visitors greeted by "What is the best tick control company in ...?" and asked for one of the crew's clips
+          instead. The clip waits for the page to finish loading (afterLoad). The quick answer moved down
+          above the closing section, where Google's AI still reads it. */}
+      <section className="pt-8 pb-4 px-4 bg-white" aria-label="Our crew at work">
+        <div className="max-w-3xl mx-auto">
+          <CrewVideo
+            clip={CREW_CLIPS.woodlandEdge}
+            afterLoad
+            sizes="(max-width: 768px) 100vw, 768px"
+            className="rounded-2xl ring-1 ring-brand-200"
+            caption="Filmed on one of our jobs: misting the shrubs where a lawn meets the woods, the kind of shaded edge where ticks wait."
+          />
+        </div>
+      </section>
 
       <TypicalPrices service="tick" city="GTA" />
 
@@ -111,13 +120,6 @@ export default function TickControlPage() {
             <p>
               Professional barrier spray is a practical way to reduce tick encounters in your yard. Unlike DIY products, BuzzSkito's treatment targets the specific micro-habitats where ticks concentrate: leaf litter, lawn edges, fence lines, and shaded garden borders.
             </p>
-            <div className="not-prose my-8">
-              <CrewVideo
-                clip={CREW_CLIPS.woodlandEdge}
-                className="rounded-2xl ring-1 ring-brand-100"
-                caption="Filmed on one of our jobs: misting the shrubs where a lawn meets the woods, the kind of shaded edge where ticks wait."
-              />
-            </div>
             <p>
               Learn more in our <Link href="/blog/ultimate-tick-control-guide-ontario" className="text-brand-700 underline hover:text-brand-500">Ultimate Tick Control Guide for Ontario Homeowners</Link> or read about{' '}
               <Link href="/blog/lyme-disease-tick-prevention-ontario" className="text-brand-700 underline hover:text-brand-500">Lyme disease prevention in Ontario</Link>.
@@ -271,6 +273,13 @@ export default function TickControlPage() {
           </p>
         </div>
       </section>
+
+      {/* QUICK ANSWER (moved down from the top on Nov 13, 2026; kept for Google's AI answers) */}
+      <QuickAnswer question="What is the best tick control for GTA yards in 2026?">
+        <p>
+          <strong>Professional barrier spray, applied by a licensed operator according to label directions to leaf litter, lawn-to-woods edges, and fence-line vegetation, targets the places ticks actually live.</strong> Ontario&rsquo;s blacklegged tick (<em>Ixodes scapularis</em>) — the Lyme disease vector — lives in these specific micro-habitats. BuzzSkito&rsquo;s 5-spray season program runs every ~30 days from May through September, timed around nymph and adult tick activity. Standalone tick plan: <strong>$597 per season</strong>. Bundled with any mosquito plan: <strong>$497 per season (save $100)</strong>, plus HST. The treatment puts a residual acaricide on the specific zones where ticks quest rather than broadcasting it over open lawn. No treatment eliminates ticks from a property — wildlife carries new ones in all season, which is why the program is repeated rather than done once.
+        </p>
+      </QuickAnswer>
 
       <CTASection heading="Protect Your Family from Ticks This Season" subtext="Get a free tick control quote for your GTA property. No contracts — just results." variant="dark" />
     </>

@@ -169,7 +169,11 @@
 - **Where the clips run:**
   - Behind the photographic `CTASection` on every service page that uses it: about 190 pages, with the montage over its first frame and the same zoom.
   - On the homepage: the "Why BuzzSkito" clip and step 2 of the How It Works story.
-  - One captioned clip each on `/mosquito-control`, `/tick-control` and `/how-it-works`.
+  - One captioned clip each on `/mosquito-control` and `/how-it-works`.
+  - **Right after the hero on 41 pages: all 39 indexed city pages (19 cities, mosquito and tick, plus York Region) plus `/mosquito-control` and `/tick-control` (owner, Nov 13, 2026: "instead of it, it should be one of these clips of us spraying", then "on tick pages too").** On the other 12 cities' pages and York Region it sits right after the blue trust bar (Woodbridge mosquito: right after the hero). On the 16 pages that had the box: the 14 big-city mosquito/tick pages (Toronto, Mississauga, Brampton, Oakville, Vaughan, Burlington, Hamilton) plus `/mosquito-control` and `/tick-control`.
+    - The clip replaced the "What is the best mosquito/tick control company in <city>?" quick-answer box, which now sits just above the closing CTASection: same text, still read by AI answers.
+    - Mosquito pages show `underDeck` (0.5 MB); tick pages show `woodlandEdge`.
+    - These top clips use `afterLoad`: they wait for the page's load event and an idle moment, so they never download while the page is still loading.
   - Captions say "Filmed on one of our jobs".
 - **Hero video (built Nov 13, 2026; research in `reports/Hero video for service pages.md`):**
   - **Build: photo first.** The hero photo stays the LCP element and the indexed image. `components/HeroVideo.tsx` attaches the clip only after the photo has decoded, the page has loaded (or 4 s later) and the browser is idle, then fades it in on its first frame. It pauses off screen and in hidden tabs.

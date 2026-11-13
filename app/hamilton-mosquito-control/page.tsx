@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import CrewVideo from '@/components/CrewVideo'
+import { CREW_CLIPS } from '@/lib/crew-videos'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
 import QuickAnswer from '@/components/QuickAnswer'
@@ -113,12 +115,21 @@ export default function HamiltonMosquitoPage() {
         </div>
       </section>
 
-      {/* QUICK ANSWER */}
-      <QuickAnswer question="What is the best mosquito control company in Hamilton?">
-        <p>
-          <strong>BuzzSkito provides specialist mosquito barrier spray across Hamilton — Stoney Creek, Dundas, Ancaster, Westdale, Waterdown, Rymal, Downtown Hamilton, Mount Hope, and Binbrook.</strong> Treatments are applied by an Ontario-licensed pesticide operator, according to label directions, to vegetation and shrub interiors where mosquitoes rest. Single treatments start at <strong>$99</strong> on a standard lot under 10,000 sq ft, with season plans from $549. With <strong>150+ five-star reviews</strong>, no contracts, a rain-back guarantee on every plan, and the <strong>Bite-Free Guarantee on Standard &amp; Exclusive plans</strong>, Hamilton homeowners get reliable barrier spray for escarpment, Cootes Paradise, and Dundas Valley properties. Call (289) 216-5030.
-        </p>
-      </QuickAnswer>
+      {/* REAL JOB FOOTAGE (Nov 13, 2026). It replaced the quick-answer box at the top: the owner didn't want
+          visitors greeted by "What is the best mosquito control company in ...?" and asked for one of the crew's clips
+          instead. The clip waits for the page to finish loading (afterLoad). The quick answer moved down
+          above the closing section, where Google's AI still reads it. */}
+      <section className="pt-8 pb-4 px-4 bg-white" aria-label="Our crew at work">
+        <div className="max-w-3xl mx-auto">
+          <CrewVideo
+            clip={CREW_CLIPS.underDeck}
+            afterLoad
+            sizes="(max-width: 768px) 100vw, 768px"
+            className="rounded-2xl ring-1 ring-brand-200"
+            caption="Filmed on one of our jobs: misting the shaded space under a deck, one of the places mosquitoes rest during the day."
+          />
+        </div>
+      </section>
 
       {/* KEY FACTS */}
       <section className="py-10 px-4 bg-white">
@@ -373,6 +384,13 @@ export default function HamiltonMosquitoPage() {
           </p>
         </div>
       </section>
+
+      {/* QUICK ANSWER (moved down from the top on Nov 13, 2026; kept for Google's AI answers) */}
+      <QuickAnswer question="What is the best mosquito control company in Hamilton?">
+        <p>
+          <strong>BuzzSkito provides specialist mosquito barrier spray across Hamilton — Stoney Creek, Dundas, Ancaster, Westdale, Waterdown, Rymal, Downtown Hamilton, Mount Hope, and Binbrook.</strong> Treatments are applied by an Ontario-licensed pesticide operator, according to label directions, to vegetation and shrub interiors where mosquitoes rest. Single treatments start at <strong>$99</strong> on a standard lot under 10,000 sq ft, with season plans from $549. With <strong>150+ five-star reviews</strong>, no contracts, a rain-back guarantee on every plan, and the <strong>Bite-Free Guarantee on Standard &amp; Exclusive plans</strong>, Hamilton homeowners get reliable barrier spray for escarpment, Cootes Paradise, and Dundas Valley properties. Call (289) 216-5030.
+        </p>
+      </QuickAnswer>
 
       <CTASection heading={`Get a Free Mosquito Control Quote in ${CITY}`} subtext="Serving all Hamilton neighbourhoods from Flamborough to Stoney Creek. No contracts, rain-back guarantee on every plan." />
     </>

@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import CrewVideo from '@/components/CrewVideo'
+import { CREW_CLIPS } from '@/lib/crew-videos'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
 import QuickAnswer from '@/components/QuickAnswer'
@@ -85,12 +87,21 @@ export default function OakvilleTickSprayPage() {
         </div>
       </section>
 
-      {/* QUICK ANSWER */}
-      <QuickAnswer question="What is the best tick control company in Oakville?">
-        <p>
-          <strong>BuzzSkito provides specialist tick barrier spray across all Oakville neighbourhoods — Bronte, Glen Abbey, Joshua Creek, West Oak Trails, Clearview, Palermo, River Oaks, Kerr Village, Old Oakville, North Oakville, Eastlake, Falgarwood.</strong> Treatments are applied by a licensed Ontario operator, according to label directions, to the specific 1–3 metre zones where blacklegged ticks concentrate — lawn-to-woods transitions, leaf litter, garden bed edges, and fence-line vegetation. Single treatments start at <strong>$99</strong>; tick add-on bundled with mosquito plan from $497. With <strong>150+ five-star reviews</strong>, no contracts, a <strong>rain-back guarantee on every plan</strong>, and 5 tick sprays per season, Oakville families get professional tick treatment for ravine, conservation-area, and wooded-edge properties. Call (289) 216-5030.
-        </p>
-      </QuickAnswer>
+      {/* REAL JOB FOOTAGE (Nov 13, 2026). It replaced the quick-answer box at the top: the owner didn't want
+          visitors greeted by "What is the best tick control company in ...?" and asked for one of the crew's clips
+          instead. The clip waits for the page to finish loading (afterLoad). The quick answer moved down
+          above the closing section, where Google's AI still reads it. */}
+      <section className="pt-8 pb-4 px-4 bg-white" aria-label="Our crew at work">
+        <div className="max-w-3xl mx-auto">
+          <CrewVideo
+            clip={CREW_CLIPS.woodlandEdge}
+            afterLoad
+            sizes="(max-width: 768px) 100vw, 768px"
+            className="rounded-2xl ring-1 ring-brand-200"
+            caption="Filmed on one of our jobs: misting the shrubs where a lawn meets the woods, the kind of shaded edge where ticks wait."
+          />
+        </div>
+      </section>
 
       {/* KEY FACTS */}
       <section className="py-10 px-4 bg-white">
@@ -333,6 +344,13 @@ export default function OakvilleTickSprayPage() {
           </div>
         </div>
       </section>
+
+      {/* QUICK ANSWER (moved down from the top on Nov 13, 2026; kept for Google's AI answers) */}
+      <QuickAnswer question="What is the best tick control company in Oakville?">
+        <p>
+          <strong>BuzzSkito provides specialist tick barrier spray across all Oakville neighbourhoods — Bronte, Glen Abbey, Joshua Creek, West Oak Trails, Clearview, Palermo, River Oaks, Kerr Village, Old Oakville, North Oakville, Eastlake, Falgarwood.</strong> Treatments are applied by a licensed Ontario operator, according to label directions, to the specific 1–3 metre zones where blacklegged ticks concentrate — lawn-to-woods transitions, leaf litter, garden bed edges, and fence-line vegetation. Single treatments start at <strong>$99</strong>; tick add-on bundled with mosquito plan from $497. With <strong>150+ five-star reviews</strong>, no contracts, a <strong>rain-back guarantee on every plan</strong>, and 5 tick sprays per season, Oakville families get professional tick treatment for ravine, conservation-area, and wooded-edge properties. Call (289) 216-5030.
+        </p>
+      </QuickAnswer>
 
       <CTASection heading={`Get a Free Tick Spray Quote in ${CITY}`} subtext="Tick treatment for Oakville's creek and ravine-edge yards. No contracts." variant="dark" />
     </>

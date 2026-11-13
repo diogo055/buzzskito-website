@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import CrewVideo from '@/components/CrewVideo'
+import { CREW_CLIPS } from '@/lib/crew-videos'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
 import TypicalPrices from '@/components/TypicalPrices'
@@ -59,12 +61,21 @@ export default function BurlingtonTickPage() {
         </div>
       </section>
 
-      {/* QUICK ANSWER */}
-      <QuickAnswer question="What is the best tick control company in Burlington?">
-        <p>
-          <strong>BuzzSkito provides specialist tick barrier spray across all Burlington neighbourhoods — Alton Village, Millcroft, The Orchard, Roseland, Downtown Burlington, Shoreacres, Headon Forest, North Burlington, Palmer, Tyandaga, Aldershot.</strong> Treatments are applied according to label directions to the specific 1–3 metre zones where blacklegged ticks concentrate — lawn-to-woods transitions, leaf litter, garden bed edges, and fence-line vegetation. Single treatments start at <strong>$99</strong>; the 5-spray tick season is <strong>$597</strong> on its own or <strong>$497</strong> with any mosquito plan. With <strong>150+ five-star reviews</strong>, no contracts, and a rain-back guarantee on every plan, Burlington families get targeted tick-zone treatment for ravine, conservation-area, and wooded-edge properties. Call (289) 216-5030.
-        </p>
-      </QuickAnswer>
+      {/* REAL JOB FOOTAGE (Nov 13, 2026). It replaced the quick-answer box at the top: the owner didn't want
+          visitors greeted by "What is the best tick control company in ...?" and asked for one of the crew's clips
+          instead. The clip waits for the page to finish loading (afterLoad). The quick answer moved down
+          above the closing section, where Google's AI still reads it. */}
+      <section className="pt-8 pb-4 px-4 bg-white" aria-label="Our crew at work">
+        <div className="max-w-3xl mx-auto">
+          <CrewVideo
+            clip={CREW_CLIPS.woodlandEdge}
+            afterLoad
+            sizes="(max-width: 768px) 100vw, 768px"
+            className="rounded-2xl ring-1 ring-brand-200"
+            caption="Filmed on one of our jobs: misting the shrubs where a lawn meets the woods, the kind of shaded edge where ticks wait."
+          />
+        </div>
+      </section>
 
       {/* KEY FACTS */}
       <section className="py-10 px-4 bg-white">
@@ -286,6 +297,13 @@ export default function BurlingtonTickPage() {
           </div>
         </div>
       </section>
+      {/* QUICK ANSWER (moved down from the top on Nov 13, 2026; kept for Google's AI answers) */}
+      <QuickAnswer question="What is the best tick control company in Burlington?">
+        <p>
+          <strong>BuzzSkito provides specialist tick barrier spray across all Burlington neighbourhoods — Alton Village, Millcroft, The Orchard, Roseland, Downtown Burlington, Shoreacres, Headon Forest, North Burlington, Palmer, Tyandaga, Aldershot.</strong> Treatments are applied according to label directions to the specific 1–3 metre zones where blacklegged ticks concentrate — lawn-to-woods transitions, leaf litter, garden bed edges, and fence-line vegetation. Single treatments start at <strong>$99</strong>; the 5-spray tick season is <strong>$597</strong> on its own or <strong>$497</strong> with any mosquito plan. With <strong>150+ five-star reviews</strong>, no contracts, and a rain-back guarantee on every plan, Burlington families get targeted tick-zone treatment for ravine, conservation-area, and wooded-edge properties. Call (289) 216-5030.
+        </p>
+      </QuickAnswer>
+
       <CTASection heading={`Get a Free Tick Spray Quote in ${CITY}`} subtext="Tick-zone treatment for Burlington properties. No contracts required." variant="dark" />
     </>
   )

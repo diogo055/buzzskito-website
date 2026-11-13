@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import CrewVideo from '@/components/CrewVideo'
+import { CREW_CLIPS } from '@/lib/crew-videos'
 import CityHero from '@/components/CityHero'
 import CTASection from '@/components/CTASection'
 import TypicalPrices from '@/components/TypicalPrices'
@@ -67,6 +69,21 @@ export default function WoodbridgeMosquitoPage() {
         subtitle={<>Licensed Ontario pesticide operator treating every Woodbridge neighbourhood, from Islington Woods backing onto Boyd Conservation Area to Pine Valley&apos;s Black Creek corridor. Treatments applied according to label directions.</>}
         image="/spray-backyard.webp"
       />
+
+      {/* REAL JOB FOOTAGE right after the top of the page (owner, Nov 13, 2026: every city page should open with
+          one of the crew's clips). No place is claimed for the footage. It waits for the page to finish loading
+          (afterLoad), so it never slows the page. */}
+      <section className="pt-8 pb-4 px-4 bg-white" aria-label="Our crew at work">
+        <div className="max-w-3xl mx-auto">
+          <CrewVideo
+            clip={CREW_CLIPS.underDeck}
+            afterLoad
+            sizes="(max-width: 768px) 100vw, 768px"
+            className="rounded-2xl ring-1 ring-brand-200"
+            caption="Filmed on one of our jobs: misting the shaded space under a deck, one of the places mosquitoes rest during the day."
+          />
+        </div>
+      </section>
 
       
       <TypicalPrices service="mosquito" city={CITY} />
