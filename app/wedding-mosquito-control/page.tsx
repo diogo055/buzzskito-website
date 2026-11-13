@@ -55,8 +55,9 @@ export default function WeddingMosquitoControlPage() {
         ]}
         title={<>Wedding &amp; Outdoor Event Mosquito Control in the GTA</>}
         subtitle={<>Licensed Ontario pesticide operator treating your venue 24&ndash;48 hours before your wedding, garden party, or corporate event. Treatments applied according to label directions.</>}
-        image="/spray-pool.webp"
-        imageAlt="BuzzSkito technician applying barrier spray beside a backyard pool"
+        image="/hero/crew-play-set.jpg"
+        imageAlt="BuzzSkito technician misting the shrubs beside a backyard play set"
+        imagePosition="object-[64%_50%]"
       />
 
       {/* Trust bar */}

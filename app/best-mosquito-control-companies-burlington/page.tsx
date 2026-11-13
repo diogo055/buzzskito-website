@@ -57,8 +57,9 @@ export default function BestMosquitoControlBurlingtonPage() {
         ]}
         title={<>Best Mosquito Control Companies in Burlington — 2026</>}
         subtitle={<>Honest 2026 comparison of mosquito control providers serving Burlington — Alton Village, Tyandaga, Aldershot, Roseland, Headon Forest, North Burlington. Pricing, reviews, contracts. Licensed Ontario pesticide operator, with treatments applied according to label directions.</>}
-        image="/spray-pool.webp"
-        imageAlt="BuzzSkito technician applying barrier spray beside a backyard pool"
+        image="/hero/crew-play-set.jpg"
+        imageAlt="BuzzSkito technician misting the shrubs beside a backyard play set"
+        imagePosition="object-[64%_50%]"
       />
 
       <section className="bg-brand-900 text-white py-4 px-4">

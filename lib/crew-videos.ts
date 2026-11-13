@@ -13,9 +13,14 @@
  *   customer's yard to within a few metres.
  *
  * Originals: Documents/BuzzSkito media/Crew clips 2026/Originals (not in git).
- * Encoding: 960x540 H.264, CRF 27-29, 30 fps, no audio, faststart; posters are the first frame
- * (WebP). The background montage is 1280x720 + 854x480 at CRF 33, 24 fps, lightly denoised,
- * because it always sits under a dark scrim.
+ * Encoding (v2, Nov 13, 2026): every file is made from the iPhone original, converted from HDR (HLG,
+ * BT.2020) to standard colour and tagged BT.709, 960x540 H.264 (x264 veryslow, CRF 28-29), 30 fps, a
+ * keyframe every 2 s, no audio, faststart. The still is frame 0 of the finished file (PNG; next/image
+ * serves AVIF/WebP), so still and video match. v1 files were tagged HDR while their stills were not,
+ * which made the picture jump when the video started. The background montage is 1280x720 + 854x480,
+ * both from the originals, at CRF 33, 24 fps, lightly denoised, because it always sits under a dark
+ * scrim. Recipe: scratchpad clips_nov13/encode_v2.sh, also in reports/Hero video for service pages.md.
+ * A new cut always gets a new file name: mp4 and images are cached for a year.
  */
 
 export interface CrewClip {
@@ -36,9 +41,9 @@ export const CREW_CLIPS = {
   /** Three calm clips with dissolves: an estate driveway, trees beside a stone house, a fern-covered woodland edge. */
   montage: {
     id: 'crew-montage',
-    src: '/videos/crew/crew-montage-720.mp4',
-    srcSmall: '/videos/crew/crew-montage-480.mp4',
-    poster: '/videos/crew/crew-montage.webp',
+    src: '/videos/crew/crew-montage-v2-720.mp4',
+    srcSmall: '/videos/crew/crew-montage-v2-480.mp4',
+    poster: '/videos/crew/crew-montage-v2.png',
     width: 1280,
     height: 720,
     label: 'A BuzzSkito technician misting hedges, trees and a shaded woodland edge on real jobs',
@@ -46,8 +51,8 @@ export const CREW_CLIPS = {
   /** IMG_1344: kneeling, misting the shaded space under a backyard deck. */
   underDeck: {
     id: 'under-deck',
-    src: '/videos/crew/under-deck.mp4',
-    poster: '/videos/crew/under-deck.webp',
+    src: '/videos/crew/under-deck-v2.mp4',
+    poster: '/videos/crew/under-deck-v2.png',
     width: 960,
     height: 540,
     label: 'A BuzzSkito technician in a respirator and gloves kneels to mist under a backyard deck',
@@ -55,8 +60,8 @@ export const CREW_CLIPS = {
   /** IMG_1357: walking a driveway, misting the shrubs and beds beside it. */
   drivewayShrubs: {
     id: 'driveway-shrubs',
-    src: '/videos/crew/driveway-shrubs.mp4',
-    poster: '/videos/crew/driveway-shrubs.webp',
+    src: '/videos/crew/driveway-shrubs-v2.mp4',
+    poster: '/videos/crew/driveway-shrubs-v2.png',
     width: 960,
     height: 540,
     label: 'A BuzzSkito technician walks a driveway, misting the shrubs and garden beds beside it',
@@ -64,8 +69,8 @@ export const CREW_CLIPS = {
   /** IMG_1363: misting the shrub and grass border at the edge of a lawn. */
   lawnEdge: {
     id: 'lawn-edge',
-    src: '/videos/crew/lawn-edge.mp4',
-    poster: '/videos/crew/lawn-edge.webp',
+    src: '/videos/crew/lawn-edge-v2.mp4',
+    poster: '/videos/crew/lawn-edge-v2.png',
     width: 960,
     height: 540,
     label: 'A BuzzSkito technician mists the shrub and grass border at the edge of a backyard lawn',
@@ -73,8 +78,8 @@ export const CREW_CLIPS = {
   /** IMG_1353: misting the shrubs where a lawn meets the woods. */
   woodlandEdge: {
     id: 'woodland-edge',
-    src: '/videos/crew/woodland-edge.mp4',
-    poster: '/videos/crew/woodland-edge.webp',
+    src: '/videos/crew/woodland-edge-v2.mp4',
+    poster: '/videos/crew/woodland-edge-v2.png',
     width: 960,
     height: 540,
     label: 'A BuzzSkito technician mists the shrubs where a backyard lawn meets the woods',

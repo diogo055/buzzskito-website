@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import { useEffect, useRef, useState, type ReactNode } from 'react'
 import type { CrewClip } from '@/lib/crew-videos'
+import { autoplayOff, trackVideo } from '@/lib/video-track'
 
 interface CrewVideoProps {
   clip: CrewClip
@@ -11,10 +12,10 @@ interface CrewVideoProps {
    * 'background': fills its positioned parent behind other content. Decorative (aria-hidden).
    */
   mode?: 'inline' | 'background'
-  /** next/image `sizes` for the poster frame */
+  /** next/image `sizes` for the still */
   sizes?: string
   quality?: number
-  /** Paint the clip's own poster frame. Set false when the parent already paints a still behind it. */
+  /** Paint the clip's own still. Set false when the parent already paints a still behind it. */
   poster?: boolean
   /** Pause / play button. Turn off only inside an aria-hidden duplicate (the story's desktop panel). */
   controls?: boolean
@@ -26,16 +27,24 @@ interface CrewVideoProps {
   className?: string
 }
 
+type VideoWithFrameCallback = HTMLVideoElement & {
+  requestVideoFrameCallback?: (cb: () => void) => number
+}
+
 /**
- * Real crew footage that costs nothing until the reader scrolls to it.
+ * Real crew footage that costs nothing until the reader scrolls to it. Not for the hero: the hero uses
+ * HeroVideo, which waits for the page's load event instead of a scroll trigger.
  *
- * - Server HTML is the poster frame (lazy next/image) and an empty <video preload="none">: no video
- *   bytes, no layout shift (fixed aspect box), nothing for the LCP.
- * - About one screen before the clip comes into view, the <source>s attach; it plays muted, looped
- *   and inline while at least 20% of it is on screen, and pauses when it leaves.
- * - Reduced motion or Save-Data: no autoplay. Inline clips show a play button instead; background
- *   clips stay a still.
- * - Auto-playing motion over 5 s needs a way to stop it (WCAG 2.2.2), hence the pause button.
+ * - Server HTML is the still (lazy next/image) and an empty <video preload="none">: no video bytes, no
+ *   layout shift (fixed aspect box), nothing for the LCP.
+ * - About one screen before the clip comes into view the <source>s attach; it plays muted, looped and
+ *   inline while at least 20% of it is on screen, and pauses when it leaves.
+ * - The fade starts on the first frame actually shown (requestVideoFrameCallback). The still is frame 0 of
+ *   the same file (lib/crew-videos.ts), so the change is invisible.
+ * - Reduced motion or Save-Data: no autoplay. A refused autoplay (iPhone Low Power Mode) keeps the still and
+ *   is recorded, never retried. Inline clips then offer a play button; background clips stay a still.
+ * - Auto-playing motion over 5 s needs a way to stop it (WCAG 2.2.2): a 44 px pause button.
+ * - GA4: crew_video_played / _blocked / _skipped / _paused (lib/video-track.ts), once per clip per page view.
  */
 export default function CrewVideo({
   clip,
@@ -51,19 +60,26 @@ export default function CrewVideo({
 }: CrewVideoProps) {
   const boxRef = useRef<HTMLDivElement>(null)
   const videoRef = useRef<HTMLVideoElement>(null)
-  const [auto, setAuto] = useState(true)
+  const sent = useRef<Set<string>>(new Set())
+  const [offReason, setOffReason] = useState<string | null>(null)
   const [near, setNear] = useState(false)
   const [inView, setInView] = useState(false)
   const [armed, setArmed] = useState(false)
   const [manual, setManual] = useState<'none' | 'play' | 'pause'>('none')
   const [playing, setPlaying] = useState(false)
   const [shown, setShown] = useState(false)
+  const [blocked, setBlocked] = useState(false)
+
+  const once = (event: Parameters<typeof trackVideo>[0], reason?: string) => {
+    if (sent.current.has(event)) return
+    sent.current.add(event)
+    trackVideo(event, { clip: clip.id, reason })
+  }
 
   useEffect(() => {
-    const reduce = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches
-    const saveData = (navigator as Navigator & { connection?: { saveData?: boolean } }).connection?.saveData === true
-    if (reduce || saveData) setAuto(false)
+    setOffReason(autoplayOff())
   }, [])
+  const auto = offReason === null
 
   useEffect(() => {
     const el = boxRef.current
@@ -86,6 +102,12 @@ export default function CrewVideo({
     }
   }, [])
 
+  // A visitor who gets no autoplay is counted once, when the clip is actually in view.
+  useEffect(() => {
+    if (inView && offReason && offReason !== 'server' && manual === 'none') once('crew_video_skipped', offReason)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [inView, offReason, manual])
+
   useEffect(() => {
     if (near && (auto || manual === 'play')) setArmed(true)
   }, [near, auto, manual])
@@ -96,36 +118,68 @@ export default function CrewVideo({
   }, [armed])
 
   useEffect(() => {
-    const v = videoRef.current
+    const v = videoRef.current as VideoWithFrameCallback | null
     if (!v || !armed) return
-    const shouldPlay = inView && (manual === 'play' || (manual === 'none' && auto))
+    const shouldPlay = inView && (manual === 'play' || (manual === 'none' && auto && !blocked))
     if (shouldPlay) {
       v.muted = true
-      v.play().catch(() => {})
+      v.defaultMuted = true
+      if (typeof v.requestVideoFrameCallback === 'function') v.requestVideoFrameCallback(() => setShown(true))
+      v.play().then(
+        () => setBlocked(false),
+        (err: unknown) => {
+          if ((err as { name?: string })?.name === 'NotAllowedError') {
+            setBlocked(true)
+            once('crew_video_blocked', 'not_allowed')
+          }
+        }
+      )
     } else if (!v.paused) {
       v.pause()
     }
-  }, [armed, inView, manual, auto])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [armed, inView, manual, auto, blocked])
+
+  const onPlaying = () => {
+    setPlaying(true)
+    const v = videoRef.current as VideoWithFrameCallback | null
+    // No frame callback (old Safari / Firefox): fade shortly after playback starts
+    if (v && typeof v.requestVideoFrameCallback !== 'function') window.setTimeout(() => setShown(true), 150)
+    once('crew_video_played')
+  }
 
   const toggle = () => {
     if (playing) {
       setManual('pause')
       videoRef.current?.pause()
+      once('crew_video_paused')
     } else {
+      setBlocked(false)
       setManual('play')
+      // Call play() inside the tap itself when the file is already attached: iOS honours a user gesture
+      // only within the event that carries it.
+      const v = videoRef.current
+      if (v && armed) {
+        v.muted = true
+        if (typeof (v as VideoWithFrameCallback).requestVideoFrameCallback === 'function') {
+          ;(v as VideoWithFrameCallback).requestVideoFrameCallback!(() => setShown(true))
+        }
+        v.play().catch(() => {})
+      }
     }
   }
 
   const background = mode === 'background'
-  const showButton = controls && (background ? auto && armed : true)
-  const bigPlay = !background && !auto && !playing && manual !== 'pause'
+  // Background clips never show a play button: a blocked or skipped clip simply stays a still.
+  const showButton = controls && (background ? auto && armed && !blocked : true)
+  const bigPlay = !background && (!auto || blocked) && !playing && manual !== 'pause'
 
   const button = showButton ? (
     <button
       type="button"
       onClick={toggle}
-      aria-label={playing ? 'Pause video' : 'Play video'}
-      className={`${background ? 'absolute bottom-4 right-4 z-10' : 'absolute bottom-3 right-3 z-10'} flex h-9 w-9 items-center justify-center rounded-full bg-black/45 text-white ring-1 ring-white/25 backdrop-blur-sm transition-colors hover:bg-black/65 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white ${bigPlay ? 'hidden' : ''}`}
+      aria-label={playing ? (background ? 'Pause background video' : 'Pause video') : background ? 'Play background video' : 'Play video'}
+      className={`${background ? 'absolute bottom-4 right-4 z-10' : 'absolute bottom-3 right-3 z-10'} flex h-11 w-11 items-center justify-center rounded-full bg-black/45 text-white ring-1 ring-white/25 backdrop-blur-sm transition-colors hover:bg-black/65 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white ${bigPlay ? 'hidden' : ''}`}
     >
       {playing ? (
         <svg className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1" /><rect x="14" y="5" width="4" height="14" rx="1" /></svg>
@@ -159,17 +213,15 @@ export default function CrewVideo({
       )}
       <video
         ref={videoRef}
-        className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-700 ${shown ? 'opacity-100' : 'opacity-0'}`}
+        className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-500 ${shown ? 'opacity-100' : 'opacity-0'}`}
         muted
         loop
         playsInline
         preload="none"
         aria-hidden={background ? true : undefined}
         aria-label={background ? undefined : clip.label}
-        onPlaying={() => {
-          setShown(true)
-          setPlaying(true)
-        }}
+        tabIndex={-1}
+        onPlaying={onPlaying}
         onPause={() => setPlaying(false)}
       >
         {armed && clip.srcSmall && <source src={clip.srcSmall} type="video/mp4" media="(max-width: 767px)" />}

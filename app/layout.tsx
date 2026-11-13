@@ -142,7 +142,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="preconnect" href="https://www.amazon.ca" />
         <link rel="dns-prefetch" href="//www.amazon.ca" />
         <link rel="dns-prefetch" href="//www.google-analytics.com" />
-        <link rel="dns-prefetch" href="//connect.facebook.net" />
         <link rel="dns-prefetch" href="//d3ey4dbjkt2f6s.cloudfront.net" />
         {/* Mediavine display ads: informational pages only, never service pages.
             Renders nothing unless lib/ads.ts allows the path. Keep last in <head>. */}
@@ -249,21 +248,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           async
         />
 
-        {/* ── Facebook Pixel ───────────────────────────────────────────── */}
-        <Script id="fb-pixel" strategy="afterInteractive">
-          {`
-            !function(f,b,e,v,n,t,s)
-            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-            n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t,s)}(window, document,'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '${BUSINESS.fbPixelId}');
-            fbq('track', 'PageView');
-          `}
-        </Script>
+        {/* Facebook Pixel REMOVED Nov 13, 2026 (owner: "I'm not using Facebook ads right now"). It cost about
+            0.15-0.3 s of the hero photo's paint and 150-480 ms of main-thread blocking on every page (Lighthouse,
+            Nov 13 and Oct 12). To bring it back a few weeks before any Facebook ad campaign, restore the
+            standard fbq snippet here with BUSINESS.fbPixelId (still in lib/constants.ts), the
+            connect.facebook.net dns-prefetch above, and the two privacy-policy mentions. */}
       </body>
     </html>
   )

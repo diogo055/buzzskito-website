@@ -1,7 +1,9 @@
-import Image from 'next/image'
+import Image, { getImageProps } from 'next/image'
 import Link from 'next/link'
 import { BUSINESS, PROMISES } from '@/lib/constants'
 import QuoteLink from '@/components/QuoteLink'
+import HeroVideo from '@/components/HeroVideo'
+import { HERO_VIDEO, type HeroClip } from '@/lib/hero-video'
 
 /**
  * CityHero — the photographic hero for city / service / neighbourhood pages.
@@ -16,7 +18,13 @@ import QuoteLink from '@/components/QuoteLink'
  * `service` preselects Mosquito or Tick on the quote form (tick pages pass
  * service="tick"). Taps are counted by LeadClickTracker via data-lead-location.
  *
- * Images: /spray-backyard.webp (default), /spray-front.webp, /spray-pool.webp.
+ * Images: /spray-backyard.webp (default), /spray-front.webp, /hero/crew-play-set.jpg (real crew footage
+ * frame, Nov 13, 2026; it replaced /spray-pool.webp, which showed misting beside flowers by a pool).
+ * `imagePosition` keeps the subject in view where a phone crops the photo (e.g. "object-[64%_50%]").
+ *
+ * `heroVideo` (built Nov 13, 2026, OFF): when a page passes a clip AND HERO_VIDEO.city is true, the hero
+ * shows that clip's art-directed stills and plays the clip over them after load (components/HeroVideo.tsx,
+ * photo first, same rules as the homepage). Owner's plan: city pages stay off until the May-June 2027 check.
  */
 export default function CityHero({
   breadcrumbs,
@@ -25,6 +33,8 @@ export default function CityHero({
   subtitle,
   image = '/spray-backyard.webp',
   imageAlt = 'BuzzSkito technician applying mosquito barrier spray to a GTA backyard',
+  imagePosition = 'object-center',
+  heroVideo,
   service = 'mosquito',
   children,
 }: {
@@ -34,21 +44,58 @@ export default function CityHero({
   subtitle?: React.ReactNode
   image?: string
   imageAlt?: string
+  imagePosition?: string
+  heroVideo?: HeroClip
   service?: 'mosquito' | 'tick'
   children?: React.ReactNode
 }) {
+  let video: null | {
+    clip: HeroClip
+    desktopSet: string | undefined
+    phoneSet: string | undefined
+    imgStyle: React.CSSProperties | undefined
+    img: Omit<ReturnType<typeof getImageProps>['props'], 'srcSet' | 'style'>
+  } = null
+  if (heroVideo && HERO_VIDEO.city) {
+    const common = { alt: heroVideo.alt, sizes: '100vw', priority: true, quality: 70 }
+    const {
+      props: { srcSet: desktopSet },
+    } = getImageProps({ ...common, src: heroVideo.stillLandscape.src, width: heroVideo.stillLandscape.width, height: heroVideo.stillLandscape.height })
+    const {
+      props: { srcSet: phoneSet, style: imgStyle, ...img },
+    } = getImageProps({ ...common, src: heroVideo.stillPortrait.src, width: heroVideo.stillPortrait.width, height: heroVideo.stillPortrait.height })
+    video = { clip: heroVideo, desktopSet, phoneSet, imgStyle, img }
+  }
+
   return (
     <section className="relative isolate w-full overflow-hidden bg-ink-950 min-h-[56vh] flex items-center py-16 sm:py-20">
-      {/* Full-bleed photo */}
-      <div className="absolute inset-0 -z-10">
-        <Image
-          src={image}
-          alt={imageAlt}
-          fill
-          sizes="100vw"
-          priority
-          className="object-cover object-center"
-        />
+      {/* Full-bleed photo (the LCP element); with a hero video switched on, the clip's own stills + the clip */}
+      <div className="absolute inset-0 -z-10" data-hero-box="">
+        {video ? (
+          <>
+            <picture>
+              <source media="(min-width: 768px)" srcSet={video.desktopSet} sizes="100vw" />
+              {/* eslint-disable-next-line jsx-a11y/alt-text -- alt comes from getImageProps */}
+              <img
+                {...video.img}
+                srcSet={video.phoneSet}
+                style={{ ...video.imgStyle, position: 'absolute', inset: 0, width: '100%', height: '100%' }}
+                className="object-cover object-center"
+                data-hero-still=""
+              />
+            </picture>
+            <HeroVideo clip={video.clip} controlSlotId="city-hero-video-control" />
+          </>
+        ) : (
+          <Image
+            src={image}
+            alt={imageAlt}
+            fill
+            sizes="100vw"
+            priority
+            className={`object-cover ${imagePosition}`}
+          />
+        )}
       </div>
 
       {/* Left-dark scrim — same language as the homepage hero */}
@@ -147,6 +194,7 @@ export default function CityHero({
           {children}
         </div>
       </div>
+      {video && <div id="city-hero-video-control" className="absolute right-4 top-4 z-20 sm:right-6 sm:top-6" />}
     </section>
   )
 }

@@ -58,8 +58,9 @@ export default function BestMosquitoControlCompaniesMississaugaPage() {
         ]}
         title={<>Best Mosquito Control Companies in Mississauga — 2026</>}
         subtitle={<>Honest 2026 comparison of mosquito control providers serving Mississauga — Port Credit, Meadowvale, Streetsville, Erin Mills, Clarkson, Lorne Park. Pricing, reviews, contracts. Licensed Ontario pesticide operator, with treatments applied according to label directions.</>}
-        image="/spray-pool.webp"
-        imageAlt="BuzzSkito technician applying barrier spray beside a backyard pool"
+        image="/hero/crew-play-set.jpg"
+        imageAlt="BuzzSkito technician misting the shrubs beside a backyard play set"
+        imagePosition="object-[64%_50%]"
       />
 
       <section className="bg-brand-900 text-white py-4 px-4">

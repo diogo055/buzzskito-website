@@ -61,8 +61,9 @@ export default function BestMosquitoControlCompaniesGTAPage() {
         ]}
         title={<>Best Mosquito Control Companies in the GTA</>}
         subtitle={<>BuzzSkito wrote this comparison, and we&rsquo;re one of the four companies in it. It sets out each company&rsquo;s pricing, reviews, contracts and service area, from what each one publishes. BuzzSkito is a licensed Ontario pesticide operator, with treatments applied according to label directions.</>}
-        image="/spray-pool.webp"
-        imageAlt="BuzzSkito technician applying barrier spray beside a backyard pool"
+        image="/hero/crew-play-set.jpg"
+        imageAlt="BuzzSkito technician misting the shrubs beside a backyard play set"
+        imagePosition="object-[64%_50%]"
       />
 
       {/* Trust bar */}

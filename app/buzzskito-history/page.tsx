@@ -57,8 +57,9 @@ export default function AboutPage() {
         ]}
         title={<>About BuzzSkito</>}
         subtitle={<>GTA's specialized mosquito and tick control company. Licensed Ontario pesticide operator, treatments applied according to label directions, 150+ five-star reviews, no contracts.</>}
-        image="/spray-pool.webp"
-        imageAlt="BuzzSkito technician applying barrier spray beside a backyard pool"
+        image="/hero/crew-play-set.jpg"
+        imageAlt="BuzzSkito technician misting the shrubs beside a backyard play set"
+        imagePosition="object-[64%_50%]"
       />
 
       <article className="max-w-4xl mx-auto px-4 py-14 prose-brand">

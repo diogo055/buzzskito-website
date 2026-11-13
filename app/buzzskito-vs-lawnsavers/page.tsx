@@ -55,8 +55,9 @@ export default function BuzzSkitoVsLawnSaversPage() {
         ]}
         title={<>BuzzSkito vs Lawn Care Mosquito Add-Ons</>}
         subtitle={<>Specialist vs lawn-care add-on. Honest 2026 comparison for GTA homeowners deciding where to get their mosquito and tick control.</>}
-        image="/spray-pool.webp"
-        imageAlt="BuzzSkito technician applying barrier spray beside a backyard pool"
+        image="/hero/crew-play-set.jpg"
+        imageAlt="BuzzSkito technician misting the shrubs beside a backyard play set"
+        imagePosition="object-[64%_50%]"
       />
 
       <section className="py-14 px-4 bg-white">

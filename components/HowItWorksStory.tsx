@@ -50,8 +50,9 @@ const STEPS = [
     title: 'Enjoy the Outdoors',
     icon: 'shield-check',
     desc: `You're back outside once the spray has dried, as the product label directs. ${PROMISES.rainBack} We send a full service log after every visit.`,
-    img: '/spray-pool.webp',
-    alt: 'Protected landscaped GTA backyard with a pool, ready to enjoy after treatment',
+    // Was /spray-pool.webp until Nov 13, 2026 (misting beside flowers by a pool; the alt didn't match it)
+    img: '/hero/crew-play-set.jpg',
+    alt: 'BuzzSkito technician misting the shrubs beside a backyard play set',
   },
 ] as const satisfies readonly { n: string; title: string; icon: string; desc: string; img: string; alt: string; video?: CrewClip }[]
 

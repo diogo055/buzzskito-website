@@ -122,8 +122,9 @@ export default function ServiceAreasPage() {
         ]}
         title={<>Mosquito &amp; Tick Control Across the GTA</>}
         subtitle={<>BuzzSkito provides professional mosquito and tick barrier spray for residential homeowners across 19 cities within 50km of Mississauga. If you're in the GTA, we service your neighbourhood.</>}
-        image="/spray-pool.webp"
-        imageAlt="BuzzSkito technician applying barrier spray beside a backyard pool"
+        image="/hero/crew-play-set.jpg"
+        imageAlt="BuzzSkito technician misting the shrubs beside a backyard play set"
+        imagePosition="object-[64%_50%]"
       />
 
       {/* Primary cities */}

@@ -55,8 +55,9 @@ export default function BuzzSkitoVsMosquitoBuzzPage() {
         ]}
         title={<>BuzzSkito vs National Mosquito Franchises</>}
         subtitle={<>Local owner-operated vs national franchise. Honest 2026 comparison for GTA homeowners.</>}
-        image="/spray-pool.webp"
-        imageAlt="BuzzSkito technician applying barrier spray beside a backyard pool"
+        image="/hero/crew-play-set.jpg"
+        imageAlt="BuzzSkito technician misting the shrubs beside a backyard play set"
+        imagePosition="object-[64%_50%]"
       />
 
       <section className="py-14 px-4 bg-white">

@@ -1,6 +1,8 @@
-import Image from 'next/image';
+import { getImageProps } from 'next/image';
 import Link from 'next/link';
+import HeroVideo from '@/components/HeroVideo';
 import { BUSINESS, PRICING, PROMISES } from '@/lib/constants';
+import { HERO_CLIPS, HERO_VIDEO } from '@/lib/hero-video';
 
 /**
  * Cinematic full-bleed photographic hero.
@@ -14,22 +16,41 @@ import { BUSINESS, PRICING, PROMISES } from '@/lib/constants';
  * compositor-only (transform/opacity) and fully gated behind
  * prefers-reduced-motion — slow Ken Burns zoom, single amber "barrier" arc,
  * pulsing status dot, copy fade-up.
+ *
+ * Nov 13, 2026: the photo is now real crew footage (owner's pick, lib/hero-video.ts), art-directed: a
+ * 608x1080 crop on phones, 1920x1080 from 768 px. It replaced spray-pool.jpg, which showed misting beside
+ * a planter of flowers by a pool, against the "we do not spray open blooms" promise. With HERO_VIDEO.home
+ * on, HeroVideo plays the same footage over the photo once the page has loaded; the photo stays the LCP.
  */
 
+const HERO = HERO_CLIPS.playSet;
+
 export default function PhotoHero() {
+  const common = { alt: HERO.alt, sizes: '100vw', priority: true, quality: 70 };
+  const {
+    props: { srcSet: desktopSet },
+  } = getImageProps({ ...common, src: HERO.stillLandscape.src, width: HERO.stillLandscape.width, height: HERO.stillLandscape.height });
+  const {
+    props: { srcSet: phoneSet, style: imgStyle, ...img },
+  } = getImageProps({ ...common, src: HERO.stillPortrait.src, width: HERO.stillPortrait.width, height: HERO.stillPortrait.height });
+
   return (
     <div className="hp-pin-wrap">
     <section className="hpa-root hp-pin relative isolate w-full overflow-hidden bg-brand-950 min-h-[88vh] flex items-center">
-      {/* Full-bleed photo */}
-      <div className="hpa-photo absolute inset-0 -z-10">
-        <Image
-          src="/spray-pool.jpg"
-          alt="BuzzSkito technician applying mosquito barrier spray in a landscaped backyard with a pool"
-          fill
-          sizes="100vw"
-          priority
-          className="object-cover object-center"
-        />
+      {/* Full-bleed photo (the LCP element), with the background video island in the same box */}
+      <div className="hpa-photo absolute inset-0 -z-10" data-hero-box="">
+        <picture>
+          <source media="(min-width: 768px)" srcSet={desktopSet} sizes="100vw" />
+          {/* eslint-disable-next-line jsx-a11y/alt-text -- alt comes from getImageProps */}
+          <img
+            {...img}
+            srcSet={phoneSet}
+            style={{ ...imgStyle, position: 'absolute', inset: 0, width: '100%', height: '100%' }}
+            className="object-cover object-center"
+            data-hero-still=""
+          />
+        </picture>
+        {HERO_VIDEO.home && <HeroVideo clip={HERO} controlSlotId="hero-video-control" />}
       </div>
 
       {/* Left-dark gradient scrim for text legibility */}
@@ -180,6 +201,11 @@ export default function PhotoHero() {
           </div>
         </div>
       </div>
+
+      {/* Pause / play for the background video (WCAG 2.2.2). HeroVideo renders the button here once the
+          clip is playing: outside the aria-hidden photo box, after the hero copy in reading order, and at the
+          top so the phone's sticky Call / Text / Get price bar never covers it. */}
+      {HERO_VIDEO.home && <div id="hero-video-control" className="absolute right-4 top-4 z-20 sm:right-6 sm:top-6" />}
 
       {/* Scroll cue */}
       <div className="scroll-cue pointer-events-none absolute bottom-5 left-1/2 hidden -translate-x-1/2 sm:block" aria-hidden="true">

@@ -48,7 +48,7 @@
 - **Payments:** Stripe (dynamic Payment Links API — auto-creates checkout for each customer's price)
 - **Email:** Resend (domain verified: buzzskito.ca, sends from info@buzzskito.ca)
 - **Notifications:** Slack webhook for new leads
-- **Analytics:** Google Analytics (G-X7RV1EQWD8), Ahrefs Web Analytics, Facebook Pixel
+- **Analytics:** Google Analytics (G-X7RV1EQWD8), Microsoft Clarity, Ahrefs Web Analytics. **Facebook Pixel removed Nov 13, 2026** (owner: not running Facebook ads); restore steps are in a comment at the end of `app/layout.tsx`, and add it back a few weeks before any Facebook campaign so it can learn
 
 ## Critical Rules
 1. **NEVER auto-send emails to customers.** All quote emails are sent manually from the dashboard.
@@ -155,21 +155,36 @@
 - **Never publish the mist at or beside open blooms or a pool.** `/mosquito-control`, `/how-it-works` and `/mosquito-spray-safety` promise "we do not spray open blooms" and list open water as untreated.
   - Left out for that reason: the stone-house clip's first 12 s, and IMG_1346, 1348, 1351, 1352, 1359 and 1364.
   - The same rule took two photos off the homepage on Nov 13. `van-peony-spray.webp` ("Why BuzzSkito") and `van-frontyard-spray.webp` (How It Works story, step 1) both show misting over peonies in bloom; step 1 now uses `van-service.webp`.
-- **Files and encoding:**
-  - Published files are re-encoded with `-map_metadata -1`, because the originals carry the customer's yard to within metres.
-  - The clip list and encode recipe are in `lib/crew-videos.ts`. Files live in `public/videos/crew/`: 960x540 clips of 2 MB or less, the montage at 1280x720 + 854x480, and WebP first-frame posters.
+- **Files and encoding (v2, Nov 13, 2026):**
+  - Every published file is made from the iPhone original: HDR (HLG, BT.2020) converted to standard colour and tagged BT.709, `-map_metadata -1` (the originals carry the customer's yard to within metres), a keyframe every 2 s, no audio.
+  - Each still is frame 0 of the finished file (PNG; next/image serves AVIF/WebP), so still and video match. The v1 files were tagged HDR while their stills were not, and the picture jumped when the video started.
+  - Clip list and recipe: `lib/crew-videos.ts` (in-page and closing-section clips) and `lib/hero-video.ts` (hero). Files: `public/videos/crew/*-v2.*`, `public/videos/hero/`, `public/hero/`.
   - mp4 is cached for a year (`next.config.mjs`), so a new cut gets a new file name.
-- **`components/CrewVideo.tsx`:**
-  - The server sends the poster only.
-  - Sources attach about a screen before the clip comes into view. It plays muted and looped while at least 20% is visible.
-  - It has a pause button (WCAG 2.2.2). There is no autoplay for reduced motion or Save-Data.
-  - No LCP or CLS cost.
-- **Where it runs:**
+- **`components/CrewVideo.tsx`** (in-page and closing-section clips, never the hero):
+  - The server sends the still only. Sources attach about a screen before the clip comes into view; it plays muted and looped while at least 20% is visible.
+  - The fade starts on the first frame shown.
+  - Reduce Motion or Save-Data: no autoplay. A refused autoplay (iPhone Low Power Mode) is recorded, never retried.
+  - 44 px pause button (WCAG 2.2.2). No LCP or CLS cost.
+- **Where the clips run:**
   - Behind the photographic `CTASection` on every service page that uses it: about 190 pages, with the montage over its first frame and the same zoom.
   - On the homepage: the "Why BuzzSkito" clip and step 2 of the How It Works story.
   - One captioned clip each on `/mosquito-control`, `/tick-control` and `/how-it-works`.
   - Captions say "Filmed on one of our jobs".
-- **Not changed, worth a look:** `spray-pool.jpg/.webp` shows misting next to a planter of white flowers by a pool. It is the homepage hero (`PhotoHero`), step 3 of the How It Works story and the hero image on 20 pages: the 13 "best companies" pages, the three comparison pages, `/buzzskito-history`, `/service-areas`, `/pool-backyard-mosquito-control` and `/wedding-mosquito-control`.
+- **Hero video (built Nov 13, 2026; research in `reports/Hero video for service pages.md`):**
+  - **Build: photo first.** The hero photo stays the LCP element and the indexed image. `components/HeroVideo.tsx` attaches the clip only after the photo has decoded, the page has loaded (or 4 s later) and the browser is idle, then fades it in on its first frame. It pauses off screen and in hidden tabs.
+  - **Accessibility:** a 44 px pause button, portalled outside the photo box, whose choice holds for the visit.
+  - **Clip:** the owner's pick, option B (IMG_1362, shrubs beside a backyard play set). It loops from the frame he picked. Phones get a 432x768 crop (0.53 MB), screens from 768 px get 1280x720 (1.37 MB), both H.264; AV1 saved nothing on this clip.
+  - **Switches:** `HERO_VIDEO` in `lib/hero-video.ts`. `home` is ON. `city` is OFF until the May-June 2027 coin-flip check; `CityHero` takes `heroVideo={HERO_CLIPS.playSet}` when it is turned on.
+  - **Guard:** `npm run check:hero-video` (in the build) fails a deploy if a hero `<video>` carries autoplay, poster, src or a `<source>` in the server HTML, if a crew clip ships a source, if the hero still isn't fetchpriority high, or if any page carries VideoObject markup.
+  - **GA4:** `hero_video_played` / `_blocked` / `_skipped` / `_paused` and `crew_video_*` (`lib/video-track.ts`), one event name per outcome, so no GA4 setting is needed.
+  - **Expectations:** no ranking gain and no proven call lift; the May-June check is a "no harm" read.
+- **The pool photo is gone (Nov 13):** `spray-pool.jpg/.webp` showed misting next to a planter of white flowers by a pool. The homepage hero, step 3 of the How It Works story and the hero image on 20 pages now use `/hero/crew-play-set.jpg`, the hero clip's own frame, with `imagePosition="object-[64%_50%]"` so phones keep the technician in view. The 20 pages are the 13 "best companies" pages, the three comparison pages, `/buzzskito-history`, `/service-areas`, `/pool-backyard-mosquito-control` and `/wedding-mosquito-control`.
+- **Paint delay (step 4, measured Nov 13 on `/mississauga-mosquito-control`, Lighthouse 12):**
+  - The 4.7-6.4 s "render delay" in simulated runs is mostly the simulator's estimate. With real throttling (slow 4G, 4x slower CPU) the hero photo shows at about 3.5 s, and real Chrome visitors see about 1.2 s (CrUX via Treo, Oct 2026).
+  - The controllable cost is outside scripts: blocking all of them took real-throttled LCP from about 3.5 s to 2.8-3.0 s and blocking time from about 2 s to 0.4 s.
+  - Facebook Pixel + Clarity alone are about 0.3 s of that; the Google tag is about the rest. Next.js's own main chunk is the biggest single script, at 0.6-1 s of scripting under throttling.
+  - **Facebook Pixel removed Nov 13** (owner: no Facebook ads running). Delaying Clarity is still open.
+  - Scripts: scratchpad `clips_nov13/paint_delay*.mjs`.
 
 ## Sitemap and robots (audited Oct 11, 2026)
 - **`npm run check:sitemap`** (in `npm run build`) fails the deploy if a listed address is not a built, indexable page, if its canonical / og:url / structured data names a different or redirected address, if an indexable page is missing from the sitemap, or if a lastmod is missing or in the future. It exists because two pages renamed in the September slug test (`/blog/best-ant-killer`, `/blog/advion-cockroach-gel-bait`) kept a canonical pointing at their old address for five weeks.
@@ -277,7 +292,7 @@
 ## Speed of the article template (measured Oct 12, 2026)
 - **Live, simulated mid-range phone on slow 4G, median of 3:** LCP 3.17 to 3.19 s, first paint 1.72 to 1.79 s, blocking time 442 to 616 ms, CLS 0.000, score 77 to 81. The LCP element is the H1 (text, no image). With real throttling LCP is about 2.5 to 2.8 s; unthrottled 0.3 to 0.5 s.
 - **Nothing was changed, on evidence:** blocking every third-party script leaves LCP at 3.22 s (and takes blocking time to about 5 ms); the two display fonts cost 0.14 s; with all site JavaScript removed LCP is still 2.4 to 2.7 s; Google Analytics as a low-priority async tag gave no LCP gain in 12 throttled runs and was reverted. Do not retry that one.
-- **Third-party scripts are all of the main-thread blocking** (Facebook Pixel 230 to 480 ms, Google tag 200 to 380 ms, Clarity 45 to 200 ms). Removing or delaying Facebook Pixel or Clarity is the owner's decision.
+- **Third-party scripts are all of the main-thread blocking** (Facebook Pixel 230 to 480 ms, Google tag 200 to 380 ms, Clarity 45 to 200 ms). Facebook Pixel was removed on Nov 13, 2026 at the owner's word; delaying Clarity is still his decision.
 - **Measure with `node scripts/measure-speed.mjs <label> <runs> <url...>`** (`THROTTLE=devtools` for real throttling). It carries four Chrome flags that matter: without them headless Chrome on this machine draws its hidden window about once a second and Lighthouse reported an LCP of 9 s. PageSpeed Insights' API without a key answers "quota exceeded".
 - Field data (real LCP and INP) is in Vercel > Speed Insights, which only the owner can open. Re-measure the week Mediavine ads start: ads change everything here.
 - Full write-up: `reports/retention_program_report.md`.

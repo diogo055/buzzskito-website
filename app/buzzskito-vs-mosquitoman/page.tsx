@@ -55,8 +55,9 @@ export default function BuzzSkitoVsMosquitomanPage() {
         ]}
         title={<>BuzzSkito vs Multi-Region Mosquito Companies</>}
         subtitle={<>An honest 2026 comparison for GTA homeowners deciding between a local owner-operated company and a larger multi-region one. Pricing, contracts, reviews, service areas.</>}
-        image="/spray-pool.webp"
-        imageAlt="BuzzSkito technician applying barrier spray beside a backyard pool"
+        image="/hero/crew-play-set.jpg"
+        imageAlt="BuzzSkito technician misting the shrubs beside a backyard play set"
+        imagePosition="object-[64%_50%]"
       />
 
       <section className="py-14 px-4 bg-white">

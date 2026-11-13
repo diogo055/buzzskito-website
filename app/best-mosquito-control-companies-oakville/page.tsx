@@ -54,8 +54,9 @@ export default function BestMosquitoControlCompaniesOakvillePage() {
         ]}
         title={<>Best Mosquito Control Companies in Oakville — 2026</>}
         subtitle={<>Honest 2026 comparison of Oakville mosquito control providers — Glen Abbey, Bronte, Old Oakville, Joshua Creek, West Oak Trails. Pricing, reviews, and what each company actually delivers. Licensed Ontario pesticide operator, with treatments applied according to label directions.</>}
-        image="/spray-pool.webp"
-        imageAlt="BuzzSkito technician applying barrier spray beside a backyard pool"
+        image="/hero/crew-play-set.jpg"
+        imageAlt="BuzzSkito technician misting the shrubs beside a backyard play set"
+        imagePosition="object-[64%_50%]"
       />
 
       <section className="bg-brand-900 text-white py-4 px-4">

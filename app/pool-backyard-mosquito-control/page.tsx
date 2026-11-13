@@ -62,8 +62,9 @@ export default function PoolBackyardMosquitoControlPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(SLUG, '2026-07-01')) }} />
 
       <CityHero
-        image="/spray-pool.webp"
-        imageAlt="BuzzSkito technician applying barrier spray beside a backyard pool"
+        image="/hero/crew-play-set.jpg"
+        imageAlt="BuzzSkito technician misting the shrubs beside a backyard play set"
+        imagePosition="object-[64%_50%]"
         breadcrumbs={[
           { label: 'Home', href: '/' },
           { label: 'Mosquito Control', href: '/mosquito-control' },
