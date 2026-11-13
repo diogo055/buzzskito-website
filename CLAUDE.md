@@ -179,6 +179,13 @@
   - **Guard:** `npm run check:hero-video` (in the build) fails a deploy if a hero `<video>` carries autoplay, poster, src or a `<source>` in the server HTML, if a crew clip ships a source, if the hero still isn't fetchpriority high, or if any page carries VideoObject markup.
   - **GA4:** `hero_video_played` / `_blocked` / `_skipped` / `_paused` and `crew_video_*` (`lib/video-track.ts`), one event name per outcome, so no GA4 setting is needed.
   - **Expectations:** no ranking gain and no proven call lift; the May-June check is a "no harm" read.
+- **Touch-screen performance (Nov 13, 2026; owner: the first homepage scroll lagged on his iPhone):**
+  - On `(hover: none) and (pointer: coarse)`, `app/globals.css` (end) hides `.grain`, `.dusk-grain` and `.hpa-grade` (the blend layers) and turns `.glass-chip` into a solid translucent fill (no backdrop blur). Computers keep the full look.
+  - The stats card, the scrolled header and the video buttons lost their backdrop blur everywhere; they were 85-95% opaque, so it was invisible.
+  - The project map builds only once scrolling settles; on touch screens dragging is off, so a swipe scrolls the page. The Leaflet code loads in an idle moment after page load.
+  - `StatCounter` writes the number straight into the DOM (no React re-render per frame).
+  - Clips and the hero attach their video only once the scroll has settled (`lib/scroll-idle.ts`).
+  - **Rule:** never put blend-mode or backdrop-filter layers over playing video on phones.
 - **The pool photo is gone (Nov 13):** `spray-pool.jpg/.webp` showed misting next to a planter of white flowers by a pool. The homepage hero, step 3 of the How It Works story and the hero image on 20 pages now use `/hero/crew-play-set.jpg`, the hero clip's own frame, with `imagePosition="object-[64%_50%]"` so phones keep the technician in view. The 20 pages are the 13 "best companies" pages, the three comparison pages, `/buzzskito-history`, `/service-areas`, `/pool-backyard-mosquito-control` and `/wedding-mosquito-control`.
 - **Paint delay (step 4, measured Nov 13 on `/mississauga-mosquito-control`, Lighthouse 12):**
   - The 4.7-6.4 s "render delay" in simulated runs is mostly the simulator's estimate. With real throttling (slow 4G, 4x slower CPU) the hero photo shows at about 3.5 s, and real Chrome visitors see about 1.2 s (CrUX via Treo, Oct 2026).

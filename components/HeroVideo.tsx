@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 import type { HeroClip } from '@/lib/hero-video'
 import { autoplayOff, trackVideo } from '@/lib/video-track'
+import { whenScrollIdle } from '@/lib/scroll-idle'
 
 type VideoWithFrameCallback = HTMLVideoElement & {
   requestVideoFrameCallback?: (cb: () => void) => number
@@ -86,6 +87,7 @@ export default function HeroVideo({ clip, controlSlotId }: { clip: HeroClip; con
     const still = v?.closest('[data-hero-box]')?.querySelector<HTMLImageElement>('img[data-hero-still]')
     let cancelled = false
     const timers: number[] = []
+    const cancels: (() => void)[] = []
     const whenIdle = (cb: () => void) => {
       const w = window as IdleWindow
       if (typeof w.requestIdleCallback === 'function') w.requestIdleCallback(cb, { timeout: 1000 })
@@ -108,12 +110,14 @@ export default function HeroVideo({ clip, controlSlotId }: { clip: HeroClip; con
         timers.push(window.setTimeout(resolve, 4000))
       })
       loaded.then(() => {
-        if (!cancelled) whenIdle(() => !cancelled && setGateOpen(true))
+        // ...and not while the visitor is mid-scroll (a decoder starting mid-fling stutters on phones)
+        if (!cancelled) whenIdle(() => !cancelled && cancels.push(whenScrollIdle(() => !cancelled && setGateOpen(true))))
       })
     })
     return () => {
       cancelled = true
       timers.forEach((t) => window.clearTimeout(t))
+      cancels.forEach((c) => c())
     }
   }, [skipped])
 
@@ -202,7 +206,7 @@ export default function HeroVideo({ clip, controlSlotId }: { clip: HeroClip; con
             type="button"
             onClick={toggle}
             aria-label={playing ? 'Pause background video' : 'Play background video'}
-            className="flex h-11 w-11 items-center justify-center rounded-full bg-black/45 text-white ring-1 ring-white/30 backdrop-blur-sm transition-colors hover:bg-black/65 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+            className="flex h-11 w-11 items-center justify-center rounded-full bg-black/55 text-white ring-1 ring-white/30 transition-colors hover:bg-black/65 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
           >
             {playing ? (
               <svg className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1" /><rect x="14" y="5" width="4" height="14" rx="1" /></svg>

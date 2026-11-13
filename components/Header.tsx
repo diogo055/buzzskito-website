@@ -87,7 +87,7 @@ export default function Header() {
   return (
     <header
       className={`sticky top-0 z-50 text-white transition-[background-color,box-shadow] duration-300 ${
-        scrolled ? 'bg-ink-950/95 backdrop-blur-md shadow-2xl' : 'bg-ink-950 shadow-lg'
+        scrolled ? 'bg-ink-950/95 shadow-2xl' : 'bg-ink-950 shadow-lg'
       }`}
       role="banner"
     >

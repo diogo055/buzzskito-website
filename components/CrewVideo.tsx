@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { useEffect, useRef, useState, type ReactNode } from 'react'
 import type { CrewClip } from '@/lib/crew-videos'
 import { autoplayOff, trackVideo } from '@/lib/video-track'
+import { whenScrollIdle } from '@/lib/scroll-idle'
 
 interface CrewVideoProps {
   clip: CrewClip
@@ -108,9 +109,16 @@ export default function CrewVideo({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [inView, offReason, manual])
 
+  // Attach the file (and so start the decoder) only once the visitor's scroll has settled: a decoder
+  // starting mid-fling is what makes a phone stutter. A tap on play attaches it at once.
   useEffect(() => {
-    if (near && (auto || manual === 'play')) setArmed(true)
-  }, [near, auto, manual])
+    if (armed) return
+    if (manual === 'play' && near) {
+      setArmed(true)
+      return
+    }
+    if (near && auto) return whenScrollIdle(() => setArmed(true))
+  }, [near, auto, manual, armed])
 
   // The <source> children render only once armed, so the element has to re-read them.
   useEffect(() => {
@@ -179,7 +187,7 @@ export default function CrewVideo({
       type="button"
       onClick={toggle}
       aria-label={playing ? (background ? 'Pause background video' : 'Pause video') : background ? 'Play background video' : 'Play video'}
-      className={`${background ? 'absolute bottom-4 right-4 z-10' : 'absolute bottom-3 right-3 z-10'} flex h-11 w-11 items-center justify-center rounded-full bg-black/45 text-white ring-1 ring-white/25 backdrop-blur-sm transition-colors hover:bg-black/65 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white ${bigPlay ? 'hidden' : ''}`}
+      className={`${background ? 'absolute bottom-4 right-4 z-10' : 'absolute bottom-3 right-3 z-10'} flex h-11 w-11 items-center justify-center rounded-full bg-black/55 text-white ring-1 ring-white/25 transition-colors hover:bg-black/65 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white ${bigPlay ? 'hidden' : ''}`}
     >
       {playing ? (
         <svg className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1" /><rect x="14" y="5" width="4" height="14" rx="1" /></svg>
@@ -228,7 +236,7 @@ export default function CrewVideo({
         {armed && <source src={clip.src} type="video/mp4" />}
       </video>
       {!background && badge && (
-        <span className="pointer-events-none absolute left-3 top-3 z-10 inline-flex items-center gap-1.5 rounded-full bg-black/45 px-2.5 py-1 text-[11px] font-bold uppercase tracking-wider text-white ring-1 ring-white/20 backdrop-blur-sm">
+        <span className="pointer-events-none absolute left-3 top-3 z-10 inline-flex items-center gap-1.5 rounded-full bg-black/55 px-2.5 py-1 text-[11px] font-bold uppercase tracking-wider text-white ring-1 ring-white/20">
           <span className="h-1.5 w-1.5 rounded-full bg-amber-400" aria-hidden="true" />
           Real job footage
         </span>
@@ -238,7 +246,7 @@ export default function CrewVideo({
           type="button"
           onClick={toggle}
           aria-label="Play video"
-          className="absolute left-1/2 top-1/2 z-10 flex h-16 w-16 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-black/50 text-white ring-1 ring-white/30 backdrop-blur-sm transition-colors hover:bg-black/70 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+          className="absolute left-1/2 top-1/2 z-10 flex h-16 w-16 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-black/55 text-white ring-1 ring-white/30 transition-colors hover:bg-black/70 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
         >
           <svg className="h-7 w-7 translate-x-0.5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z" /></svg>
         </button>

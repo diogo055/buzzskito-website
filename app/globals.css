@@ -819,3 +819,20 @@ body:is(.adhesion, .gumgumAdhesion, .mediavine-video__has-sticky) [data-site-dia
     display: none !important;
   }
 }
+
+/* ── Touch-screen performance (Nov 13, 2026) ─────────────────────────────────
+   The owner felt the first homepage scroll lag on his iPhone. Blend-mode grain
+   and frosted (backdrop) blur make a phone's GPU re-composite big layers on
+   every frame, worse with the hero video now playing under them. Touch screens
+   get no grain overlays, no hero colour-grade blend, and a solid translucent
+   fill instead of frosted blur; computers keep the full look. */
+@media (hover: none) and (pointer: coarse) {
+  .grain,
+  .dusk-grain,
+  .hpa-grade { display: none !important; }
+  .glass-chip {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+    background: rgba(10, 19, 34, 0.6);
+  }
+}

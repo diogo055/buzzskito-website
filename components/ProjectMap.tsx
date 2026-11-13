@@ -16,6 +16,7 @@
 import { useEffect, useRef, useState } from 'react'
 import dynamic from 'next/dynamic'
 import { PROJECT_PIN_CITIES } from '@/lib/project-map-pins'
+import { whenScrollIdle } from '@/lib/scroll-idle'
 
 const ProjectMapCanvas = dynamic(() => import('./ProjectMapCanvas'), {
   ssr: false,
@@ -41,21 +42,46 @@ export default function ProjectMap() {
   const [visible, setVisible] = useState(false)
   const section = useRef<HTMLElement>(null)
 
+  // Nov 13, 2026 (owner: the first homepage scroll lagged on his iPhone): the Leaflet code is fetched and
+  // parsed in an idle moment after the page has loaded, and the map itself is built only once the visitor's
+  // scroll has settled, never in the middle of a fling.
+  useEffect(() => {
+    let cancelled = false
+    const preload = () => {
+      if (!cancelled) void import('./ProjectMapCanvas')
+    }
+    const start = () => {
+      const w = window as Window & { requestIdleCallback?: (cb: () => void, o?: { timeout: number }) => number }
+      if (typeof w.requestIdleCallback === 'function') w.requestIdleCallback(preload, { timeout: 3000 })
+      else window.setTimeout(preload, 1500)
+    }
+    if (document.readyState === 'complete') start()
+    else window.addEventListener('load', start, { once: true })
+    return () => {
+      cancelled = true
+      window.removeEventListener('load', start)
+    }
+  }, [])
+
   useEffect(() => {
     const el = section.current
     if (!el) return
     if (typeof IntersectionObserver === 'undefined') { setVisible(true); return }
+    let cancelIdle: (() => void) | undefined
     const io = new IntersectionObserver(
       (entries) => {
         if (entries.some((e) => e.isIntersecting)) {
-          setVisible(true)
           io.disconnect()
+          cancelIdle = whenScrollIdle(() => setVisible(true))
         }
       },
-      { rootMargin: '300px' }, // start loading just before it scrolls into view
+      { rootMargin: '600px' }, // start just before it scrolls into view
     )
     io.observe(el)
-    return () => io.disconnect()
+    return () => {
+      io.disconnect()
+      cancelIdle?.()
+    }
   }, [])
 
   return (
@@ -93,7 +119,8 @@ export default function ProjectMap() {
               {l.label}
             </span>
           ))}
-          <span className="text-xs text-[#6b7d99]">Drag to move the map</span>
+          {/* Only mouse users can drag (touch swipes scroll the page) */}
+          <span className="hidden text-xs text-[#6b7d99] [@media(pointer:fine)]:inline">Drag to move the map</span>
         </div>
       </div>
     </section>

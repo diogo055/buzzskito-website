@@ -66,7 +66,7 @@ export default function PhotoHero() {
       {/* Cinematic grade — cool navy in the shadows, warm amber in the
           highlights (teal-and-orange, in brand hues). Static, zero cost. */}
       <div
-        className="absolute inset-0 -z-10"
+        className="hpa-grade absolute inset-0 -z-10"
         style={{
           background:
             'linear-gradient(155deg, rgba(29,78,216,0.20) 0%, rgba(11,22,40,0) 45%, rgba(245,158,11,0.14) 100%)',

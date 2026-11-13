@@ -52,6 +52,10 @@ export default function ProjectMapCanvas() {
   useEffect(() => {
     if (!holder.current || mapRef.current) return
 
+    // Touch screens (Nov 13, 2026): a swipe that starts on the map must scroll the PAGE. With dragging on,
+    // Leaflet set touch-action:none and took the finger, so scrolling down the homepage on a phone stuck
+    // on the map (owner: "when I scroll down, it's laggy"). Mouse users can still drag.
+    const touch = window.matchMedia('(pointer: coarse)').matches
     const map = L.map(holder.current, {
       // Zoom is fully locked — see the note at the top of this file.
       zoomControl: false,
@@ -60,7 +64,7 @@ export default function ProjectMapCanvas() {
       boxZoom: false,
       touchZoom: false,
       keyboard: false,
-      dragging: true,
+      dragging: !touch,
       maxBounds: GTA_BOUNDS,
       maxBoundsViscosity: 1,
       attributionControl: true,

@@ -82,7 +82,7 @@ export default function HomePage() {
 
       {/* ── Floating stat card — breaks the hero's bottom edge ───────────── */}
       <section aria-label="Trust statistics" className="relative z-10 px-4">
-        <Reveal className="reveal-far max-w-5xl mx-auto -mt-16 sm:-mt-14 rounded-2xl border border-white/10 bg-[#0a1322]/85 backdrop-blur-md [box-shadow:inset_0_1px_0_rgba(255,255,255,0.07)] px-6 sm:px-8 py-7 grid grid-cols-2 sm:grid-cols-4 gap-y-6 sm:divide-x sm:divide-white/10 text-center">
+        <Reveal className="reveal-far max-w-5xl mx-auto -mt-16 sm:-mt-14 rounded-2xl border border-white/10 bg-[#0a1322]/85 [box-shadow:inset_0_1px_0_rgba(255,255,255,0.07)] px-6 sm:px-8 py-7 grid grid-cols-2 sm:grid-cols-4 gap-y-6 sm:divide-x sm:divide-white/10 text-center">
           <Reveal className="rd-1">
             <div className="font-display text-4xl sm:text-5xl font-extrabold text-white tracking-tight"><StatCounter value={150} suffix="+" /></div>
             <div className="text-xs font-semibold uppercase tracking-wider text-[#8fa0bd] mt-1.5">Five-Star Reviews</div>
