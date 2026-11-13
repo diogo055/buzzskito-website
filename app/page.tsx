@@ -12,6 +12,8 @@ import HowItWorksStory from '@/components/HowItWorksStory'
 import ServicesStory from '@/components/ServicesStory'
 import DuskScene from '@/components/DuskScene'
 import ProjectMap from '@/components/ProjectMap'
+import CrewVideo from '@/components/CrewVideo'
+import { CREW_CLIPS } from '@/lib/crew-videos'
 import { Icon, IconChip } from '@/components/Icon'
 import { buildMetadata, localBusinessSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { BUSINESS, CITIES, MOSQUITO_BLOGS, TICK_BLOGS, PRICING, PROMISES } from '@/lib/constants'
@@ -182,17 +184,12 @@ export default function HomePage() {
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 items-start">
             <div className="lg:col-span-2">
+              {/* Real job footage (Nov 13, 2026). It replaced a photo of the crew misting peonies in
+                  bloom, which contradicted the "we don't spray open blooms" promise on the service pages. */}
               <div className="relative rounded-2xl overflow-hidden ring-1 ring-white/15">
-                <Image
-                  src="/van-peony-spray.webp"
-                  alt="BuzzSkito technician misting peony beds and foundation plantings at a GTA front entrance, branded BuzzSkito service van parked in the driveway"
-                  width={600}
-                  height={450}
-                  sizes="(max-width: 1024px) 100vw, 40vw"
-                  className="sd-parallax w-full h-auto object-cover"
-                />
+                <CrewVideo clip={CREW_CLIPS.drivewayShrubs} sizes="(max-width: 1024px) 100vw, 40vw" tone="dark" />
               </div>
-              <p className="text-xs text-[#7688a8] text-center mt-2">Our own van, our own licensed crew — on-site across the GTA</p>
+              <p className="text-xs text-[#7688a8] text-center mt-2">Our own licensed crew, filmed on a real treatment</p>
             </div>
             {/* Bento: one dominant guarantee cell + two supporting row shapes —
                 same copy, art-directed hierarchy instead of six equal cells. */}

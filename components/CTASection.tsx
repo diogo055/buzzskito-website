@@ -3,6 +3,8 @@ import { BUSINESS, PROMISES, SERVICE_SEASON } from '@/lib/constants'
 import GoogleReviews from '@/components/GoogleReviews'
 import QuoteLink from '@/components/QuoteLink'
 import Reveal from '@/components/Reveal'
+import CrewVideo from '@/components/CrewVideo'
+import { CREW_CLIPS } from '@/lib/crew-videos'
 
 interface CTASectionProps {
   heading?: string
@@ -75,13 +77,16 @@ export default function CTASection({
 
   return (
     <section className="relative isolate overflow-hidden section-major px-4 text-white" style={{ backgroundColor: '#060a14' }} aria-label="Call to action">
-      {/* Photographic finale layers — same world as the hero */}
+      {/* Photographic finale layers — same world as the hero. Since Nov 13, 2026 the still is the
+          first frame of the crew's real job footage, and that footage plays over it (same zoom)
+          once the reader scrolls near: lib/crew-videos.ts, components/CrewVideo.tsx. */}
       <div className="cta-zoom absolute inset-0 -z-10" aria-hidden="true">
-        <Image src="/spray-pool.webp" alt="" fill sizes="100vw" quality={60} className="object-cover" />
+        <Image src={CREW_CLIPS.montage.poster} alt="" fill sizes="100vw" quality={60} className="object-cover" />
       </div>
+      <CrewVideo clip={CREW_CLIPS.montage} mode="background" poster={false} className="cta-zoom -z-10" />
       <div
         className="absolute inset-0 -z-10"
-        style={{ background: 'linear-gradient(180deg, rgba(11,22,40,0.93) 0%, rgba(11,22,40,0.82) 45%, rgba(11,22,40,0.92) 100%)' }}
+        style={{ background: 'linear-gradient(180deg, rgba(11,22,40,0.92) 0%, rgba(11,22,40,0.74) 45%, rgba(11,22,40,0.9) 100%)' }}
         aria-hidden="true"
       />
       <div

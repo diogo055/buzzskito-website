@@ -16,7 +16,9 @@ const nextConfig = {
         ],
       },
       {
-        source: '/(.*)\\.(ico|png|jpg|jpeg|svg|webp|avif|woff2)',
+        // mp4/webm since Nov 13, 2026 (crew footage in /videos/crew): a new cut gets a new file name,
+        // never the same name, because browsers keep these for a year.
+        source: '/(.*)\\.(ico|png|jpg|jpeg|svg|webp|avif|woff2|mp4|webm)',
         headers: [
           { key: 'Cache-Control', value: 'public, max-age=31536000, immutable' },
         ],

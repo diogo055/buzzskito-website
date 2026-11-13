@@ -6,8 +6,10 @@ import CityHero from '@/components/CityHero'
 import QuickAnswer from '@/components/QuickAnswer'
 import TypicalPrices from '@/components/TypicalPrices'
 import CityPriceCard from '@/components/CityPriceCard'
+import CrewVideo from '@/components/CrewVideo'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { BUSINESS, CITIES, TICK_BLOGS, PROMISES } from '@/lib/constants'
+import { CREW_CLIPS } from '@/lib/crew-videos'
 
 export const metadata: Metadata = buildMetadata({
   // TITLE NOTE (Nov 5, 2026, owner's OK on the Search Console title audit): was 'GTA Tick Control 2026 · From $99 · 150+ Five-Star Reviews · Licensed'; was 80 rendered with "2026"; "tick spray" is a Business Profile buyer term; price stays in the description.
@@ -109,6 +111,13 @@ export default function TickControlPage() {
             <p>
               Professional barrier spray is a practical way to reduce tick encounters in your yard. Unlike DIY products, BuzzSkito's treatment targets the specific micro-habitats where ticks concentrate: leaf litter, lawn edges, fence lines, and shaded garden borders.
             </p>
+            <div className="not-prose my-8">
+              <CrewVideo
+                clip={CREW_CLIPS.woodlandEdge}
+                className="rounded-2xl ring-1 ring-brand-100"
+                caption="Filmed on one of our jobs: misting the shrubs where a lawn meets the woods, the kind of shaded edge where ticks wait."
+              />
+            </div>
             <p>
               Learn more in our <Link href="/blog/ultimate-tick-control-guide-ontario" className="text-brand-700 underline hover:text-brand-500">Ultimate Tick Control Guide for Ontario Homeowners</Link> or read about{' '}
               <Link href="/blog/lyme-disease-tick-prevention-ontario" className="text-brand-700 underline hover:text-brand-500">Lyme disease prevention in Ontario</Link>.

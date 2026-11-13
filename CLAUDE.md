@@ -149,6 +149,28 @@
 - **`/about` and `/about-us` redirect TEMPORARILY (307) to `/buzzskito-history`** (`next.config.mjs`) until the owners' About Us page ships at `/about`; then delete the two lines. The About Us page is coming (owner, Nov 10). He will also send short clips of the crew spraying in Mississauga, Brampton, Oakville and the other cities: real local proof for the city pages, the About page and YouTube.
 - **Reminders the owner asked for (Nov 10):** take "2026" out of titles and page copy so pages don't look dated (later; remind him). Leave the 3 off-topic pages (sump pump, two dehumidifiers) alone for now.
 
+## Crew job footage on the service pages (Nov 13, 2026)
+- **What it is:** 17 real job clips from the owner (iPhone, Sep 10-11, 2026), showing a technician misting yards with a STIHL backpack mist blower in the BuzzSkito shirt and full gear. The originals are on his PC in `Documents/BuzzSkito media/Crew clips 2026/Originals`, not in git.
+- **Location tags:** the owner said "ignore the tags": the phone's location tags are not reliable. **No clip or caption names a city.**
+- **Never publish the mist at or beside open blooms or a pool.** `/mosquito-control`, `/how-it-works` and `/mosquito-spray-safety` promise "we do not spray open blooms" and list open water as untreated.
+  - Left out for that reason: the stone-house clip's first 12 s, and IMG_1346, 1348, 1351, 1352, 1359 and 1364.
+  - The same rule took two photos off the homepage on Nov 13. `van-peony-spray.webp` ("Why BuzzSkito") and `van-frontyard-spray.webp` (How It Works story, step 1) both show misting over peonies in bloom; step 1 now uses `van-service.webp`.
+- **Files and encoding:**
+  - Published files are re-encoded with `-map_metadata -1`, because the originals carry the customer's yard to within metres.
+  - The clip list and encode recipe are in `lib/crew-videos.ts`. Files live in `public/videos/crew/`: 960x540 clips of 2 MB or less, the montage at 1280x720 + 854x480, and WebP first-frame posters.
+  - mp4 is cached for a year (`next.config.mjs`), so a new cut gets a new file name.
+- **`components/CrewVideo.tsx`:**
+  - The server sends the poster only.
+  - Sources attach about a screen before the clip comes into view. It plays muted and looped while at least 20% is visible.
+  - It has a pause button (WCAG 2.2.2). There is no autoplay for reduced motion or Save-Data.
+  - No LCP or CLS cost.
+- **Where it runs:**
+  - Behind the photographic `CTASection` on every service page that uses it: about 190 pages, with the montage over its first frame and the same zoom.
+  - On the homepage: the "Why BuzzSkito" clip and step 2 of the How It Works story.
+  - One captioned clip each on `/mosquito-control`, `/tick-control` and `/how-it-works`.
+  - Captions say "Filmed on one of our jobs".
+- **Not changed, worth a look:** `spray-pool.jpg/.webp` shows misting next to a planter of white flowers by a pool. It is the homepage hero (`PhotoHero`), step 3 of the How It Works story and the hero image on 20 pages: the 13 "best companies" pages, the three comparison pages, `/buzzskito-history`, `/service-areas`, `/pool-backyard-mosquito-control` and `/wedding-mosquito-control`.
+
 ## Sitemap and robots (audited Oct 11, 2026)
 - **`npm run check:sitemap`** (in `npm run build`) fails the deploy if a listed address is not a built, indexable page, if its canonical / og:url / structured data names a different or redirected address, if an indexable page is missing from the sitemap, or if a lastmod is missing or in the future. It exists because two pages renamed in the September slug test (`/blog/best-ant-killer`, `/blog/advion-cockroach-gel-bait`) kept a canonical pointing at their old address for five weeks.
 - **When a page is renamed**, change its `SLUG` constant to the new address and keep the Amazon tag keyed on the ORIGINAL slug (`tagForSlug('<old-slug>')`), as the renamed pages do.

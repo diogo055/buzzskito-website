@@ -4,8 +4,10 @@ import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
 import TypicalPrices from '@/components/TypicalPrices'
 import CityPriceCard from '@/components/CityPriceCard'
+import CrewVideo from '@/components/CrewVideo'
 import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { BUSINESS, PROMISES } from '@/lib/constants'
+import { CREW_CLIPS } from '@/lib/crew-videos'
 
 export const metadata: Metadata = buildMetadata({
   title: 'How Mosquito & Tick Control Works',
@@ -101,6 +103,13 @@ export default function HowItWorksPage() {
               <div>
                 <h3 className="text-xl font-bold text-brand-900 mb-2">Your Property Is Treated</h3>
                 <p className="text-gray-600">Our technician applies a fine residual mist to all vegetation on your property — shrubs, garden borders, fence lines, the underside of tree canopy where accessible, and any areas of dense ground cover. We target the surfaces mosquitoes and ticks use as resting habitat, not open lawn or bare soil. Treatment typically takes 20–40 minutes depending on property size.</p>
+                <div className="mt-5 max-w-xl">
+                  <CrewVideo
+                    clip={CREW_CLIPS.underDeck}
+                    className="rounded-2xl ring-1 ring-brand-100"
+                    caption="Filmed on one of our jobs: misting the shaded space under a deck, one of the spots on the list below."
+                  />
+                </div>
               </div>
             </div>
 

@@ -7,6 +7,8 @@ import QuickAnswer from '@/components/QuickAnswer'
 import TypicalPrices from '@/components/TypicalPrices'
 import CityPriceCard from '@/components/CityPriceCard'
 import QuoteLink from '@/components/QuoteLink'
+import CrewVideo from '@/components/CrewVideo'
+import { CREW_CLIPS } from '@/lib/crew-videos'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { BUSINESS, CITIES, MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
@@ -202,6 +204,13 @@ export default function MosquitoControlPage() {
           <p className="text-center text-gray-600 mb-10 max-w-2xl mx-auto leading-relaxed">
             Adult mosquitoes spend most of the day resting in shaded vegetation rather than flying, so that is where the spray goes: the leaves, shrubs and fence lines around your backyard, not the open lawn or the air. Here is a BuzzSkito visit from the first call to the last spray of the season.
           </p>
+          <div className="max-w-3xl mx-auto mb-10">
+            <CrewVideo
+              clip={CREW_CLIPS.lawnEdge}
+              className="rounded-2xl ring-1 ring-brand-200"
+              caption="Filmed on one of our jobs: misting the shrub and grass border at the edge of a lawn, the kind of shaded planting adult mosquitoes rest in during the day."
+            />
+          </div>
           <ol data-lead-location="how_it_works" className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
               { title: 'Get your price', body: <>Call <a href={BUSINESS.phoneHref} className="text-brand-700 font-semibold underline">{BUSINESS.phone}</a>, text us, or request a quote online. We confirm your address, property size and anything specific, such as ravine exposure, water features or tick habitat. No home visit is needed to get started. {PROMISES.response}</> },

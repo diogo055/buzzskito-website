@@ -1,7 +1,9 @@
 import Image from 'next/image'
 import { Icon } from '@/components/Icon'
 import StoryHydrator from '@/components/StoryHydrator'
+import CrewVideo from '@/components/CrewVideo'
 import { PROMISES } from '@/lib/constants'
+import { CREW_CLIPS, type CrewClip } from '@/lib/crew-videos'
 
 /**
  * Sticky scroll-story version of "How BuzzSkito Works" (desktop lg+):
@@ -28,7 +30,9 @@ const STEPS = [
     title: 'Book a Free Quote',
     icon: 'message',
     desc: 'Call (289) 216-5030 or fill out our online form. We\'ll provide a no-obligation quote for your property size and treatment needs.',
-    img: '/van-frontyard-spray.webp',
+    // Was /van-frontyard-spray.webp until Nov 13, 2026: that photo shows misting over peonies in
+    // bloom (and did not match this alt). This one is the van and a technician preparing equipment.
+    img: '/van-service.webp',
     alt: 'Branded BuzzSkito service van parked in a GTA driveway while a technician prepares equipment',
   },
   {
@@ -38,6 +42,8 @@ const STEPS = [
     desc: 'A licensed technician applies a thorough barrier spray to your lawn, shrubs, garden edges, and tree lines. You\'ll receive an SMS alert before we arrive.',
     img: '/spray-backyard.webp',
     alt: 'BuzzSkito technician applying mosquito barrier spray to backyard vegetation',
+    // Real job footage plays over the still once the step is near (Nov 13, 2026)
+    video: CREW_CLIPS.underDeck,
   },
   {
     n: '3',
@@ -47,7 +53,9 @@ const STEPS = [
     img: '/spray-pool.webp',
     alt: 'Protected landscaped GTA backyard with a pool, ready to enjoy after treatment',
   },
-] as const
+] as const satisfies readonly { n: string; title: string; icon: string; desc: string; img: string; alt: string; video?: CrewClip }[]
+
+const stepVideo = (step: (typeof STEPS)[number]): CrewClip | undefined => ('video' in step ? step.video : undefined)
 
 export default function HowItWorksStory() {
   return (
@@ -66,7 +74,10 @@ export default function HowItWorksStory() {
           <ol className="relative space-y-10 lg:space-y-0">
             <span className="absolute left-7 top-10 bottom-10 hidden w-px bg-white/10 lg:block" aria-hidden="true" />
             <span className="story-fill absolute left-7 top-10 hidden w-px bg-amber-400 shadow-[0_0_8px_rgba(251,191,36,0.6)] lg:block" aria-hidden="true" />
-            {STEPS.map(({ n, title, icon, desc, img, alt }) => (
+            {STEPS.map((step) => {
+              const { n, title, icon, desc, img, alt } = step
+              const video = stepVideo(step)
+              return (
               <li
                 key={n}
                 data-step={n}
@@ -88,21 +99,28 @@ export default function HowItWorksStory() {
                 <div className="mt-5 overflow-hidden rounded-2xl ring-1 ring-white/10 lg:hidden">
                   <div className="relative aspect-[16/9]">
                     <Image src={img} alt={alt} fill sizes="(max-width: 1024px) 100vw, 0px" className="sd-parallax object-cover" />
+                    {video && <CrewVideo clip={video} mode="background" poster={false} />}
                   </div>
                 </div>
               </li>
-            ))}
+              )
+            })}
           </ol>
 
           {/* Sticky crossfade panel — desktop only */}
           <div className="hidden lg:block" aria-hidden="true">
             <div className="sticky top-[max(6rem,calc(50vh-14.5rem))]">
               <div className="relative aspect-[4/3] overflow-hidden rounded-3xl ring-1 ring-white/10 shadow-2xl shadow-black/40">
-                {STEPS.map(({ n, img }) => (
-                  <div key={n} className={`story-img story-img-${n} absolute inset-0`}>
-                    <Image src={img} alt="" fill sizes="(min-width: 1024px) 45vw, 0px" className="object-cover" />
-                  </div>
-                ))}
+                {STEPS.map((step) => {
+                  const video = stepVideo(step)
+                  return (
+                    <div key={step.n} className={`story-img story-img-${step.n} absolute inset-0`}>
+                      <Image src={step.img} alt="" fill sizes="(min-width: 1024px) 45vw, 0px" className="object-cover" />
+                      {/* This panel is an aria-hidden duplicate of the steps, so no button in it */}
+                      {video && <CrewVideo clip={video} mode="background" poster={false} controls={false} />}
+                    </div>
+                  )
+                })}
                 {/* grade + grain to match the hero's photographic treatment */}
                 <div className="absolute inset-0 bg-gradient-to-t from-ink-950/50 via-transparent to-transparent" />
                 <div className="grain" />

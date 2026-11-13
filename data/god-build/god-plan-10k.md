@@ -599,3 +599,5 @@ Ranked by expected clicks x value (`research_notes/God plan 10k a day/new_pages.
     2. Remind him about the "2026" cleanup (titles and page copy) and the About Us page.
     3. Use his city clips on the city pages once they arrive.
     4. Fable 5.2 trial: run the research and fact-check agents of the next page batch on Fable, then compare the fact-check fix counts with the Opus batches.
+  - **Indexing, Nov 10 run (5:14-5:30 pm Toronto, owner's Chrome):** 11 requests went through: the 10 top-10 pages and the german-cockroaches recrawl. house-centipedes had already been re-read by Google. oriental-cockroaches hit "Quota Exceeded".
+    - **Next run:** from about 5:30 pm Toronto on Nov 11: the 6 competitor gaps, then oriental-cockroaches, hamilton and oakville (`indexing-queue.md`).
