@@ -1632,6 +1632,78 @@
       "name": "Airtight food storage containers",
       "search": "airtight food storage containers",
       "basis": "'What should you do' steps: 'Store clean wool sealed in snug plastic bags or bins, as Kentucky advises, and dry food in containers with tight lids, which UC IPM prefers to plastic bags'. Same product type as drugstore-beetles."
+    },
+    "chigger-bites-vs-flea-bites": {
+      "label": "For the itch from either bite",
+      "name": "1% hydrocortisone anti-itch cream",
+      "search": "hydrocortisone 1 percent anti itch cream",
+      "basis": "'What should you do once you know which one bit you?', item 'For the itch from either bite': 'MedlinePlus names an over-the-counter 1% hydrocortisone cream and oral antihistamines for flea bites, and antihistamines and corticosteroid creams or lotions for chigger bites. Use them as the package directs, and try not to scratch.' FAQ 'Does nail polish kill chiggers?': 'For the itch, MedlinePlus says antihistamines and corticosteroid creams or lotions may help.' A medical-source item on a bite page, same product as what-do-mosquito-bites-look-like. The quick answer carries no emergency line (the emergency-room advice sits in the body under 'When should you see a doctor for chigger or flea bites?'), so it is treated like mite-bites. Nothing for the yard: 'University of Maryland Extension says pesticides are not recommended or effective against chiggers', and no nail polish or bleach. Alternatives with page support: DEET or picaridin insect repellent for the next outing ('Missouri Extension says any insect repellent containing DEET or picaridin will be effective against chiggers; use it as the label directs'), or white socks for UC IPM's flea check ('wearing white socks pulled up to the knee')."
+    },
+    "insect-eggs": {
+      "label": "To see tiny eggs up close",
+      "name": "Magnifying glass",
+      "search": "magnifying glass",
+      "basis": "'How do you tell which eggs you have?': 'Look closely, with a magnifying glass, before you wipe anything away, then match what you see to the quick-ID table at the top.' FAQ 'Can you see bug eggs with the naked eye?': 'A magnifying glass and a ruler help with the rest.' FAQ 'Can you see flea eggs on a dog?': look where the dog sleeps 'ideally with a magnifying glass'. A neutral identification aid from the page's own method (same pick as flea-eggs and termite-droppings); the page's own next steps are links to the guide for each kind of egg. No insecticide: for lady beetle and lacewing eggs UC IPM 'advises avoiding broad-spectrum, persistent insecticides to protect them'. Note: stink-bug-eggs (Nov 10) was left without a pick despite a similar magnifying-glass line; if the owner wants that stricter reading here, move this page to _noPick (\"An identification page: its only purchase-shaped advice is a magnifying glass to look at the eggs\"). Alternatives with page support: a ruler marked in inches (checklist 'How big?'), or a garbage can with a tight lid for fly eggs ('keep garbage bagged in a can with a tight-sealing lid, as Virginia Cooperative Extension advises')."
+    },
+    "mouse-nest": {
+      "label": "For nest cleanup",
+      "name": "Disposable gloves",
+      "search": "disposable gloves",
+      "basis": "'What should you do once you know it is a mouse nest?', step 'Clean it up wet.' 'CDC's method is to air the space for 30 minutes, wear rubber or plastic gloves, soak the nest and the area around it with disinfectant, and seal it in two plastic bags.' FAQ 'Can you touch a mouse nest with bare hands?': 'No. CDC's cleanup steps call for rubber or plastic gloves, and UC IPM's deer mouse guide says to wear nonfabric gloves when handling mouse nests, dead mice or traps.' FAQ 'Can mice build a nest in a car's air filter?': 'Wear gloves and soak it with disinfectant before you take it out.' Same pick as rat-nest and baby-mice. No vacuum: the quick answer says 'Never sweep or vacuum a nest'. Alternatives with page support: mouse snap traps ('CDC recommends snap traps with the baited end against the wall, not glue or live traps'), or a ruler marked in inches (tip 'Photograph it before you touch it')."
+    },
+    "raccoon-tracks": {
+      "label": "To close an empty den opening",
+      "name": "1/4-inch hardware cloth",
+      "search": "1/4 inch hardware cloth",
+      "basis": "'How can you tell if a raccoon is still under the deck or in the attic?', last step: 'Close the opening only once it is empty; WDFW suggests hardware cloth with 1/4-inch mesh, boards or metal flashing.' The label carries the page's condition: the steps before it test the opening with flour or a loose plug of newspaper (UW-Madison: 'if the plug stays undisturbed for two or more days, the entrance can probably be sealed permanently') and warn 'In late spring and early summer, assume young may be inside'; Nebraska Extension 'warns against any repair until you are certain nothing still uses the opening'. Exclusion material only, as on possum-vs-opossum and squirrel-nest: no trap, repellent or handling tool (the page says to 'check your state's rules with its wildlife agency before trapping'). Alternatives with page support: bungee cords for trash can lids ('WDFW suggests securing lids with rope, chain, bungee cords or weights'), or plaster of Paris for the page's track-casting steps (NMSU: 'Mix plaster of Paris with water to the consistency of cream or pancake batter')."
+    },
+    "fox-poop": {
+      "label": "For droppings cleanup",
+      "name": "Disposable gloves",
+      "search": "disposable nitrile gloves",
+      "basis": "'How do you clean up fox poop safely?': 'Wear gloves, use a tool, keep it out of the air and wash up.' Step 2: 'Put on disposable gloves, as Kentucky advises hunters and trappers who may touch wild canid feces.' FAQ 'Can you get sick from fox poop?': 'Wear disposable gloves to clean up, wash your hands with soap and water, and wash or cook wild-picked food.' Same pick as coyote-poop and possum-poop. Nothing aimed at the fox: 'CT DEEP says live-trapping and relocating foxes is not recommended', and 'Wildlife Illinois says frightening devices are typically ineffective against foxes', so no motion-activated sprinkler. Alternative with page support: hardware cloth around a porch or deck, buried 12 inches deep (Minnesota DNR; the page gives no mesh size)."
+    },
+    "skunk-poop": {
+      "label": "For droppings cleanup",
+      "name": "Disposable gloves",
+      "search": "disposable gloves",
+      "basis": "'How do you clean up skunk poop safely?': 'Wear gloves, never touch it bare-handed, and wash up afterward.' Step 1: 'Put on disposable gloves, and wear an N95-rated respirator if you are working in a confined space such as a crawl space or attic, as CDC advises.' Checklist, first check: ICWDM 'advises gloves and a thorough wash after any work near them'. Same pick as raccoon-poop (the page applies CDC's raccoon-feces steps because the two droppings are hard to tell apart). No trap, repellent, mothballs or ammonia ('Skip mothballs and ammonia.'). Alternatives with page support: an N95-rated respirator, for crawl spaces and attics only (same CDC step), or 1/4-inch hardware cloth to close an empty den ('WDFW lists 1/4-inch hardware cloth, boards or metal flashing for the closing')."
+    },
+    "cockroach-nest": {
+      "label": "To bait at the hiding place",
+      "name": "Cockroach gel bait",
+      "search": "cockroach gel bait",
+      "basis": "'What should you do once you find a roach nest?': 'Work on the nest itself: bait right at it, clean out the droppings, take away the shelter, and choose bait over sprays.' First step, 'Bait at the hiding place.' 'Texas A&M advises at least one bait station within 1 to 2 feet of every suspected hiding place and many pea-size dabs of gel rather than a few large ones; Kentucky says to bait behind or beneath infested appliances and wherever you see fecal spotting. Follow the label directions.' FAQ 'Should you spray a roach nest?': 'Bait placed close to the hiding place, used as the label directs, works better.' The pesticide is the exact type the page names (same product as what-do-baby-cockroaches-look-like); never a spray or fogger ('Choose bait over sprays, and skip foggers.'). Alternatives with page support: cockroach sticky traps ('Set sticky traps where floors meet walls.') or an LED flashlight ('Purdue calls a flashlight check of hiding places the simplest way to monitor cockroaches.')."
+    },
+    "baby-spiders": {
+      "label": "To vacuum spiderlings and webs",
+      "name": "Cordless handheld vacuum",
+      "search": "cordless handheld vacuum",
+      "basis": "'What should you do about baby spiders in the house?': 'Vacuum them up, find the sac or web they came from, and expect a few stragglers'; step 2: 'Vacuum the spiderlings, web and sac. UC IPM says spiders' soft bodies usually do not survive the hose.' FAQ 'Should you kill baby spiders in the house?': 'Indoors, vacuuming is the simplest answer.' FAQ 'Why do I suddenly have lots of tiny spiders in my house?' ends 'vacuum the spiderlings, the web and the sac.' Handheld is our narrowing of the page's \"vacuum\" for wall corners and windows (as on false-widow-spiders and christmas-tree-bugs). No spray: 'Do not count on a spray. UC IPM says spraying is only temporary without housekeeping'. Alternatives with page support: leather work gloves near widows ('Kansas State advises leather gloves, long sleeves and a long-handled tool or vacuum to remove widows, webbing and all egg sacs.'), or a clear jar to save one spiderling for identification (tip 'Save one for an ID')."
+    },
+    "types-of-spider-webs": {
+      "label": "To see where spiders are active",
+      "name": "Spider sticky traps",
+      "search": "spider glue traps",
+      "basis": "'What should you do once you know which spider made the web?', 'Keeping spiders out.' 'MDC suggests caulking cracks and crevices on the outside of the house and setting sticky traps along walls and under furniture to monitor spiders'; FAQ 'How do you get rid of cobweb spiders?': 'using sticky traps along walls to see where spiders are active.' Monitoring only; same product as house-spiders. No spray: 'UC IPM says insecticides will not give long-term control of spiders'. Alternative with page support: a cordless handheld vacuum for indoor cobwebs ('Vacuum up the spider and its web, as UC IPM advises'; FAQ: 'Vacuum them up with their webs, as UC IPM advises, and keep clearing new webs.'), handheld being our narrowing; it is the baby-spiders pick, so the traps keep the two spider pages released together from offering the same product."
+    },
+    "signs-of-silverfish": {
+      "label": "To confirm silverfish are there",
+      "name": "Cockroach-type sticky traps",
+      "search": "cockroach sticky traps",
+      "basis": "'How can you confirm silverfish are there?': 'Catch one.' Step 1: 'Set cockroach sticky traps, or small glass jars wrapped outside with masking tape, in corners and along edges near the damage, as UC IPM suggests'; FAQ 'How do I know if I have a silverfish infestation?': 'UC IPM suggests cockroach sticky traps or small jars wrapped in masking tape, set in corners and along edges.' Table: one silverfish in a tub or sink means 'set traps to see how many'. The page names the trap type itself (same pick as baby-silverfish). No insecticide: the page says to 'confirm where they live before treating anything'. Alternatives with page support: a dehumidifier ('the NPS module suggests dehumidifiers or air conditioners where books are stored'; the how-to-get-rid-of-silverfish pick, though this page notes 'Gray silverfish and firebrats tolerate drier air'), or tightly sealed containers for valuable papers (NPS)."
+    },
+    "bugs-that-look-like-mosquitoes": {
+      "label": "To draw fewer midges to the porch",
+      "name": "Yellow bug light bulbs",
+      "search": "yellow bug light bulb",
+      "basis": "'What should you do once you know which one it is?': 'Usually nothing more than dimming the lights.' First item, 'Midges and other look-alikes at the porch light.' 'Use less outdoor light. Kentucky's advice for midges and gnats is motion-activated lights that switch off after a set time, sodium-vapor or halogen bulbs with a yellow, pink or orange tint, and decoy lights that draw insects away from the house'. Name and search keep to the yellow tint the page names (same product type as orb-weaver-spiders); Kentucky names sodium-vapor or halogen bulbs, so a halogen bug bulb is the closest match if the owner wants the exact type. No insecticide: 'Lake County says insecticides are not recommended for midges'. Alternatives with page support: a magnifying glass for the page's wing-scale check ('A magnifying glass, or a phone camera zoomed in on a bug trapped in a clear jar, is enough to see them.'), or a motion-activated outdoor light (same Kentucky sentence)."
+    },
+    "what-do-bed-bug-bites-look-like": {
+      "label": "To catch bed bugs at the bed legs",
+      "name": "Bed bug interceptor cups",
+      "search": "bed bug interceptor cups",
+      "basis": "'How do you confirm the bites are from bed bugs?': 'Find the bugs or their signs; the bites cannot do it.' Same section: 'Kentucky's fact sheet describes interceptors, small plastic dishes set under bed and furniture legs that wandering bed bugs fall into, and says a trap under each bed leg also forms a barrier that can help reduce bites.' Same product as bed-bug-bites-but-no-bed-bugs. A monitoring aid, not a medicine or a pesticide: the page says 'you should not use bug spray or a fogger, which have little effect on bed bugs' and sends readers to a pest-control company. Medical-page check: the quick answer says serious reactions 'need immediate medical care' (AAD). gnat-bites, fire-ant-stings and kissing-bug-bites (Oct 28-29) got no box for an emergency line in the quick answer, while what-do-mosquito-bites-look-like and skeeter-syndrome (Nov 6) kept one with the same kind of line. If the owner wants the stricter rule, move this page to _noPick: \"Medical page: its quick answer carries the AAD's immediate-medical-care warning, so no product box (same rule as gnat-bites).\" Alternative with page support: 1% hydrocortisone cream (AAD: 'apply a corticosteroid cream if they itch. A weak form is sold without a prescription'; Mayo Clinic 'lists a hydrocortisone skin cream or an oral antihistamine to ease symptoms')."
     }
   }
 }
