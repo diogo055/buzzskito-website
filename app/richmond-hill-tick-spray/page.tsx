@@ -13,7 +13,7 @@ export const metadata: Metadata = buildMetadata({
   // TITLE NOTE (Nov 7, 2026, owner: "if you find that having 2026 on these titles is bad, then obviously strip it"): was 'Richmond Hill Tick Control 2026 · From $99 · 150+ Five-Star Reviews'; dropped "2026" (stale from Jan 1); no city searches on record yet; default word order; fits 60 rendered; price is in this title.
   title: 'Tick Control Richmond Hill: Yard Spray From $99',
   description:
-    "Richmond Hill tick spray for Oak Ridges Moraine — one of Ontario's highest blacklegged tick zones. Ontario-licensed barrier spray, from $99/treatment, rain-back guarantee on every plan. Oak Ridges, Jefferson, Bayview Hill, Mill Pond. Call (289) 216-5030.",
+    "Richmond Hill tick spray for Oak Ridges Moraine and ravine properties. Ontario-licensed barrier spray, from $99/treatment, rain-back guarantee on every plan. Oak Ridges, Jefferson, Bayview Hill, Mill Pond. Call (289) 216-5030.",
   canonical: '/richmond-hill-tick-spray',
 })
 
@@ -26,15 +26,15 @@ const FAQS = [
   },
   {
     question: 'Why is Richmond Hill considered high-risk for ticks?',
-    answer: 'The Oak Ridges Moraine runs directly through Richmond Hill, and it is one of Ontario\'s most concentrated blacklegged tick habitats. Lake Wilcox shoreline, the Rouge River headwaters near Oak Ridges, and Mill Pond\'s surrounding wooded areas are all documented tick zones. York Region Public Health consistently flags Richmond Hill in its annual tick risk communications.',
+    answer: 'Because York Region Public Health counts the whole region, Richmond Hill included, as an estimated Lyme disease risk area, and says more than 20 percent of blacklegged ticks in York Region carry the Lyme bacteria. The Oak Ridges Moraine also runs directly through Richmond Hill, and the wooded edges around Lake Wilcox, the Rouge River headwaters near Oak Ridges, and Mill Pond give ticks the shade and leaf litter they need.',
   },
   {
     question: 'Are Lyme disease cases actually rising in Richmond Hill?',
-    answer: 'Yes. York Region Public Health data shows a steady increase in confirmed Lyme disease cases across York Region, including Richmond Hill. The primary driver is the expanding blacklegged tick population on and near the Oak Ridges Moraine. The Public Health Agency of Canada advises checking yourself, your children and your pets for ticks after time outdoors near wooded or grassy areas.',
+    answer: 'Across York Region, yes. York Region Public Health counted 85 Lyme disease cases among residents in 2025, up from 68 in 2024 and 11 in 2020; its Lyme disease page does not give a separate Richmond Hill count. The primary driver is the expanding blacklegged tick population on and near the Oak Ridges Moraine. York Region Public Health advises checking yourself, your family and your pets for ticks after time outdoors.',
   },
   {
     question: 'When should I schedule tick spray for my Richmond Hill property?',
-    answer: 'Start in May and stay covered through September. BuzzSkito recommends five treatments per season — roughly one a month — because the treated edge zones need renewing through the season, and monthly visits keep them renewed from spring to fall. Monthly visits keep treatments on schedule through the May–July nymph peak, and the later visits continue treatments into the autumn, when adult ticks re-emerge and stay active into November in mild years. Public Health Ontario notes nymphs are poppy-seed sized and easy to miss, so do a tick check after time outdoors. Properties near the Oak Ridges Moraine or Lake Wilcox should get on the schedule early, because deer, mice, and birds keep reintroducing ticks from the Moraine woodland all season. The seasonal tick program is $597 standalone, or $497 when added to any mosquito plan.',
+    answer: 'Start in May and stay covered through September. BuzzSkito recommends five treatments per season — roughly one a month — because the treated edge zones need renewing through the season, and monthly visits keep them renewed from spring to fall. Monthly visits keep treatments on schedule through the May–July nymph peak, and the later visits continue treatments into the autumn, when adult ticks re-emerge and stay active into November in mild years. Nymphs are hard to spot (York Region Public Health says they are no bigger than a poppy seed), so do a tick check after time outdoors. Properties near the Oak Ridges Moraine or Lake Wilcox should get on the schedule early, because deer, mice, and birds keep reintroducing ticks from the Moraine woodland all season. The seasonal tick program is $597 standalone, or $497 when added to any mosquito plan.',
   },
 ]
 
@@ -51,7 +51,7 @@ export default function RichmondHillTickPage() {
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Tick Control', href: '/tick-control' }, { label: CITY }]}
         title={<>{CITY} Tick Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>The Oak Ridges Moraine running through Richmond Hill is one of Ontario's highest-density blacklegged tick zones. Licensed Ontario pesticide operator; tick treatments applied according to label directions.</>}
+        subtitle={<>All of York Region, Richmond Hill included, is an estimated Lyme disease risk area, and more than 20 percent of its blacklegged ticks carry the Lyme bacteria. Licensed Ontario pesticide operator; tick treatments applied according to label directions.</>}
         image="/spray-front.webp"
         service="tick"
         imageAlt="BuzzSkito technician treating lawn edges and garden borders for ticks"
@@ -122,12 +122,16 @@ export default function RichmondHillTickPage() {
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why Tick Spray Is Crucial in Richmond Hill</h2>
-          <p>Richmond Hill is situated directly on the Oak Ridges Moraine — a glacially formed ridge of porous soils and dense forest that spans from the Niagara Escarpment to Northumberland County. For blacklegged ticks, this Moraine is ideal habitat: cool, moist leaf litter, abundant white-tailed deer hosts, and protected forest corridors. York Region Public Health has identified the Oak Ridges community in Richmond Hill as a persistently high-risk area for tick exposure, reporting rising Lyme disease case counts in the region year over year.</p>
+          <p>Richmond Hill is situated directly on the Oak Ridges Moraine — a glacially formed ridge of porous soils and dense forest that spans from the Niagara Escarpment to Northumberland County. For blacklegged ticks, this Moraine is ideal habitat: cool, moist leaf litter, abundant white-tailed deer hosts, and protected forest corridors.</p>
           <p>Lake Wilcox in Oak Ridges is surrounded by shoreline vegetation that creates classic tick questing habitat. Mill Pond's wooded perimeter and the Rouge River headwaters area provide additional exposure corridors that extend right to the edges of residential properties. Unlike urban centres where ticks are confined to isolated ravines, Richmond Hill properties near the Moraine can have ticks active throughout the backyard during the full April-through-October season.</p>
+
+          <h2>Tick Facts for Richmond Hill From York Region</h2>
+          <p>York Region Public Health says all of York Region is now an estimated Lyme disease risk area, so every Richmond Hill neighbourhood, Oak Ridges included, falls inside it. The City of Richmond Hill points residents to the Region for Lyme disease information and tells them that infected blacklegged ticks have been found in York Region. If you find a tick, York Region says tick testing is no longer required for surveillance and points you to etick.ca, where you can submit a photo for free identification.</p>
+          <p className="text-sm text-gray-500">Sources: <a href="https://www.york.ca/health/infectious-diseases-and-prevention/lyme-disease" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">York Region, Lyme disease</a> · <a href="https://www.richmondhill.ca/en/learn-more/West-Nile-Virus-and-Lyme-Disease.aspx" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">City of Richmond Hill, West Nile Virus and Lyme Disease</a></p>
 
           <h2>Tick Hotspots in Richmond Hill</h2>
           <ul>
-            <li>Oak Ridges Moraine corridor — high-density blacklegged tick zone confirmed by York Region</li>
+            <li>Oak Ridges Moraine woodland corridor across northern Richmond Hill</li>
             <li>Lake Wilcox shoreline and surrounding natural areas (Oak Ridges)</li>
             <li>Rouge River headwaters — wooded tributary areas near Oak Ridges</li>
             <li>Mill Pond wooded perimeter (Richmond Hill town core)</li>

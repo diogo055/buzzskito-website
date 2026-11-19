@@ -26,7 +26,7 @@ const FAQS = [
   },
   {
     question: 'Is Rouge National Urban Park really a high-risk tick area?',
-    answer: 'Yes — it is one of the highest-risk areas in the entire GTA. Rouge National Urban Park is a federally protected national park with thousands of hectares of forest, meadow, wetland, and river valley habitat. Toronto Public Health conducts annual tick surveillance in Rouge and consistently confirms high blacklegged tick populations, particularly in the forest and meadow transition zones that border residential Scarborough neighbourhoods.',
+    answer: 'Yes. Rouge National Urban Park is a federally protected national park with thousands of hectares of forest, meadow, wetland, and river valley habitat, and its sites have produced some of the highest tick counts in Toronto Public Health surveillance year after year. In fall 2025 the dragging found 31 adult blacklegged ticks on the Glen Eagle Vista Trail (17 carrying the Lyme bacterium) and 27 at Morningside Heights (9 carrying it). In fall 2024 the Upper Rouge Trail Park site produced 41, and 20 of those carried it.',
   },
   {
     question: 'Which Scarborough neighbourhoods are most at risk for ticks?',
@@ -51,7 +51,7 @@ export default function ScarboroughTickPage() {
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Tick Control', href: '/tick-control' }, { label: CITY }]}
         title={<>{CITY} Tick Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>Scarborough borders Rouge National Urban Park, one of the GTA's highest-risk tick areas, and Highland Creek valley and Morningside Park also harbour documented blacklegged tick populations. Licensed Ontario pesticide operator; tick treatments applied according to label directions.</>}
+        subtitle={<>In Toronto Public Health's fall 2025 tick survey, every tick that carried the Lyme bacterium came from Scarborough sites in the Rouge and Highland Creek valleys. Licensed Ontario pesticide operator; tick treatments applied according to label directions.</>}
         image="/spray-front.webp"
         service="tick"
         imageAlt="BuzzSkito technician treating lawn edges and garden borders for ticks"
@@ -122,12 +122,16 @@ export default function ScarboroughTickPage() {
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why Tick Spray Is Crucial in Scarborough</h2>
-          <p>Scarborough is home to the largest federally protected natural area within a Canadian city — Rouge National Urban Park. This isn't a small conservation reserve. It's a national park with extensive forest, meadow, and wetland ecosystems that support well-established blacklegged tick populations. Toronto Public Health monitors tick activity in Rouge annually and has documented consistent, high tick presence in the forest-meadow edge zones that border Scarborough's residential areas in Rouge, West Hill, and Highland Creek.</p>
+          <p>Scarborough is home to the largest federally protected natural area within a Canadian city — Rouge National Urban Park. This isn't a small conservation reserve. It's a national park with extensive forest, meadow, and wetland ecosystems that support well-established blacklegged tick populations. Toronto Public Health has found ticks in Rouge Park again and again since 2015, often in the highest numbers in the city.</p>
           <p>Highland Creek valley runs through the heart of Scarborough from Markham all the way to Lake Ontario, creating a long continuous tick corridor through Morningside, West Hill, and Highland Creek neighbourhoods. Morningside Park's naturalized sections have also had documented tick activity. Any Scarborough property within a few hundred metres of these systems — not just the immediate ravine edge — faces real seasonal exposure risk from ticks.</p>
+
+          <h2>What Toronto Public Health Found in Scarborough Parks</h2>
+          <p>Of the 133 blacklegged ticks Toronto Public Health collected in its fall 2025 tick dragging, 115 came from Scarborough sites, and so did all 41 that carried the bacterium that causes Lyme disease. In those results, Highland Creek topped the city with 34 adult ticks, 11 of them carrying the Lyme bacterium, while Grey Abbey Park had 15 (3 carrying it) and Guild Park and Gardens had 2 (1 carrying it). Toronto Public Health has also found ticks at Morningside Park in several years, including 9 in fall 2023, 3 of which carried the Lyme bacterium. For yards beside these ravines, it suggests moving swing sets and sandboxes away from the woodland edge and checking children and pets for ticks.</p>
+          <p className="text-sm text-gray-500">Sources: <a href="https://www.toronto.ca/community-people/health-wellness-care/health-programs-advice/lyme-disease/blacklegged-tick-surveillance-results/" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Toronto Public Health, blacklegged tick surveillance results</a> · <a href="https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/vbd-tool" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Public Health Ontario, Vector-Borne Disease Tool</a> · <a href="https://www.toronto.ca/community-people/health-wellness-care/health-programs-advice/lyme-disease/" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Toronto Public Health, Lyme disease</a></p>
 
           <h2>Tick Hotspots in Scarborough</h2>
           <ul>
-            <li>Rouge National Urban Park — federally protected, highest-risk tick area in the GTA</li>
+            <li>Rouge National Urban Park — federally protected, with some of the highest tick counts in Toronto Public Health&apos;s dragging</li>
             <li>Highland Creek valley corridor from Morningside to the waterfront</li>
             <li>Morningside Park naturalized sections</li>
             <li>Rouge River valley wooded edges (Rouge neighbourhood)</li>

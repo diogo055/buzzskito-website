@@ -26,7 +26,7 @@ const FAQS = [
   },
   {
     question: 'Are the Niagara Escarpment parks near Milton real tick risks?',
-    answer: 'Yes — Rattlesnake Point, Crawford Lake, and Mount Nemo are all well-documented blacklegged tick habitats confirmed by Halton Region Public Health. These parks feature the cool, moist, leafy forest floor conditions that blacklegged ticks require. The escarpment trail system connects these parks in a continuous corridor, creating tick habitat that extends toward residential Milton properties in neighbouring communities.',
+    answer: 'Yes — Halton Region Public Health has collected blacklegged ticks carrying the Lyme bacteria at Rattlesnake Point and Crawford Lake in Milton, and at Mount Nemo, which Halton lists under Burlington. These parks feature the cool, moist, leafy forest floor conditions that blacklegged ticks require. The escarpment trail system connects these parks in a continuous corridor, creating tick habitat that extends toward residential Milton properties in neighbouring communities.',
   },
   {
     question: 'My Milton home is in a newer neighbourhood — do I still need tick spray?',
@@ -34,7 +34,7 @@ const FAQS = [
   },
   {
     question: 'When is tick season in Milton?',
-    answer: 'Ticks in Milton are active from early April through November — they do not go dormant in mild fall and spring weather. The peak danger window for nymph ticks (the stage most responsible for Lyme disease transmission) is May through July. Adult ticks are most active in the fall. Halton Region Public Health advises tick checks and other personal precautions for anyone spending time near the Escarpment corridor.',
+    answer: 'Ticks in Milton are active from early April through November — they do not go dormant in mild fall and spring weather. The peak danger window for nymph ticks (the stage most responsible for Lyme disease transmission) is May through July. Adult ticks are most active in the fall. Halton Region Public Health advises everyone to check for ticks after being outdoors, along with other personal precautions.',
   },
 ]
 
@@ -122,8 +122,12 @@ export default function MiltonTickPage() {
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why Tick Spray Is Crucial in Milton</h2>
-          <p>Milton sits at the foot of the Niagara Escarpment, one of Ontario's most biodiverse UNESCO Biosphere Reserve landscapes — and one of its most documented blacklegged tick corridors. Rattlesnake Point Conservation Area, Crawford Lake Conservation Area, and Mount Nemo are all confirmed tick habitat. Halton Region Public Health recommends tick bite prevention for residents and visitors at all three sites. The forested escarpment face and its approach trails create a continuous zone of tick habitat that pushes toward Milton's residential communities.</p>
+          <p>Milton sits at the foot of the Niagara Escarpment, one of Ontario's most biodiverse UNESCO Biosphere Reserve landscapes. Rattlesnake Point Conservation Area, Crawford Lake Conservation Area, and Mount Nemo are all confirmed tick habitat, and Conservation Halton, which runs all three, warns visitors that ticks are common in its parks. The forested escarpment face and its approach trails create a continuous zone of tick habitat that pushes toward Milton's residential communities.</p>
           <p>Sixteen Mile Creek valley cuts through Milton and provides a natural wildlife corridor that carries ticks from the escarpment toward neighbourhood edges. Kelso Conservation Area also hosts documented tick activity in its wooded and meadow sections. As Milton has grown rapidly, new subdivisions have been established adjacent to these natural corridors, placing thousands of families in close proximity to tick habitat without necessarily knowing it. Professional barrier spray applied through the season targets the yard edges where those ticks end up.</p>
+
+          <h2>Kelso, Crawford Lake and Rattlesnake Point: Halton&apos;s Tick Results</h2>
+          <p>Kelso Conservation Area produced more blacklegged ticks than any other Halton Region Public Health drag site in 2026: 36 collected, 13 of them carrying the Lyme bacteria. At Crawford Lake, 2 of the 19 ticks Halton tested in 2026 were positive, and at Rattlesnake Point, 3 of 8 were in 2025. Across the Region, the share of tested ticks carrying the Lyme bacteria rose from 4% in 2019 to 27% in 2024, and Halton treats the whole Region as an established blacklegged tick risk area.</p>
+          <p className="text-sm text-gray-500">Sources: <a href="https://www.halton.ca/For-Residents/Immunizations-Preventable-Disease/Diseases-Infections/Lyme-Disease" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Halton Region, Lyme disease</a> · <a href={'https://edmweb.halton.ca/OnBaseAgendaOnline/Documents/ViewDocument/MO-08-25-Vector%20Borne%20Disease%20%20Program%20Update.docx.pdf?meetingId=4550&documentType=Minutes&itemId=129876&publishId=83663&isSection=false'} target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Halton Regional Council report MO-08-25 (July 2025)</a> · <a href="https://www.conservationhalton.ca/park-fees-membership-rates/safety-risk-awareness/" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Conservation Halton, safety and risk awareness</a></p>
 
           <h2>Tick Hotspots in Milton</h2>
           <ul>

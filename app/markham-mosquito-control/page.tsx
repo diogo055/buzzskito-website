@@ -57,7 +57,7 @@ const FAQS = [
   },
   {
     question: 'Can I bundle tick control with mosquito spray in Markham?',
-    answer: 'Yes, and it is the usual choice for homes near the Rouge National Urban Park or any forest edge in Cornell and Cathedraltown, where blacklegged (Lyme-carrying) ticks are established. Tick control runs five treatments across the May to September season: $597 on its own, or $497 when added to any mosquito plan, a $100 saving over booking it separately. See our Markham tick spray page for the full treatment schedule.',
+    answer: 'Yes, and it is the usual choice for homes near the Rouge National Urban Park or any forest edge in Cornell and Cathedraltown. Parks Canada says blacklegged (Lyme-carrying) ticks are most active throughout the Rouge from April to November, and York Region Public Health says all of York Region is an estimated Lyme disease risk area. Tick control runs five treatments across the May to September season: $597 on its own, or $497 when added to any mosquito plan, a $100 saving over booking it separately. See our Markham tick spray page for the full treatment schedule.',
   },
 ]
 
@@ -152,6 +152,10 @@ export default function MarkhamMosquitoPage() {
           <p>Markham&apos;s geography makes it one of the GTA&apos;s most active mosquito municipalities. The city straddles the Rouge River system — one of Canada&apos;s largest urban river ecosystems — with wetland pockets and forested floodplain running from Cathedraltown in the north down through Cornell to the Rouge National Urban Park boundary. Milner Creek bisects central Markham, winding through Berczy Village and Wismer communities where maturing subdivision landscaping traps moisture along fence lines and garden borders.</p>
           <p>In historic Markham Village, the Don River headwater tributaries and Swan Lake sustain mosquito populations from early May, while Toogood Pond in Unionville draws mosquitoes into the creek valley park system throughout the peak season. For Markham homeowners, the combination of a broad river system, multiple pond features, and a dense mature tree canopy creates conditions that reward early, consistent barrier spray treatment.</p>
 
+          <h2>What York Region Reports for Markham</h2>
+          <p>York Region&apos;s first West Nile-positive mosquito traps of 2026 were both in Markham, at Warden Avenue and Highway 7 East and at Kennedy Road and 16th Avenue, reported on July 16. By September 3, 2026, York Region Public Health counted 4 positive traps in Markham and 14 across the region. The Region larvicides catch basins along Regional and municipal roads, but it does not treat private yards, apart from a catch basin on your own property that it will treat free on request. Markham&apos;s Standing Water By-law (2003-122) also requires owners to keep their property drained, with fines of up to $5,000.</p>
+          <p className="text-sm text-gray-500">Sources: <a href="https://www.york.ca/newsroom/media-release/mosquitoes-york-region-test-positive-west-nile-virus-8" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">York Region release, July 16, 2026</a> · <a href="https://www.york.ca/health/infectious-diseases-and-prevention/west-nile-virus" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">York Region, West Nile virus</a> · <a href="https://www.markham.ca/about-city-markham/city-hall/bylaw/water-use" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">City of Markham, Water Use by-law</a></p>
+
           <h2>Markham Neighbourhoods We Serve</h2>
           <p>BuzzSkito provides mosquito control across all Markham communities, including:</p>
           <div className="not-prose flex flex-wrap gap-2 mb-6">
@@ -171,7 +175,7 @@ export default function MarkhamMosquitoPage() {
           </ul>
 
           <h2>Also Providing Tick Control in Markham</h2>
-          <p>Markham&apos;s proximity to the Rouge National Urban Park and extensive forest edges along the Rouge River corridor create significant blacklegged tick exposure for homeowners in Cornell and Cathedraltown. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">Markham tick spray service</Link> — combining both treatments covers mosquitoes and ticks on the same visit, and the tick season is $497 when added to any mosquito plan.</p>
+          <p>Parks Canada says blacklegged ticks are active throughout Rouge National Urban Park, and Markham&apos;s forest edges along the Rouge River corridor bring that habitat close to homes in Cornell and Cathedraltown. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">Markham tick spray service</Link> — combining both treatments covers mosquitoes and ticks on the same visit, and the tick season is $497 when added to any mosquito plan.</p>
 
           <CityPriceCard city="Markham" service="mosquito" />
 

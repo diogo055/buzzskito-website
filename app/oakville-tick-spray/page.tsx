@@ -29,19 +29,19 @@ const FAQS = [
   },
   {
     question: 'Is Bronte Creek Provincial Park a tick risk for Oakville homeowners?',
-    answer: "Yes. Bronte Creek Provincial Park is established blacklegged tick habitat and one of the most significant tick risk sites in Halton Region. The creek valley itself extends north through West Oak Trails and River Oaks, creating a tick dispersal corridor into residential properties. Homes adjacent to the park or creek system — particularly in Bronte, West Oak Trails, and River Oaks — have the highest exposure in Oakville.",
+    answer: "Yes. Ontario Parks warns visitors that ticks are found in Bronte Creek Provincial Park, and Halton Region Public Health's tick dragging at Bronte Creek in Oakville has found ticks carrying the Lyme bacteria. The creek valley runs north past West Oak Trails, carrying tick habitat close to residential properties. Homes next to the park or the creek, particularly in Bronte and West Oak Trails, have the most exposure.",
   },
   {
     question: 'What tick species are found in Oakville?',
-    answer: "The blacklegged tick (deer tick, Ixodes scapularis) is the primary species of concern in Oakville and is the only species that transmits Lyme disease. American dog ticks are also present throughout the area but rarely transmit Lyme. Both species favour the humid, wooded environments common along Oakville's creeks and ravine systems.",
+    answer: "The blacklegged tick (deer tick, Ixodes scapularis) is the primary species of concern in Oakville and is the only species that transmits Lyme disease. American dog ticks are also found in the area, but they do not transmit Lyme disease. Both species favour the humid, wooded environments common along Oakville's creeks and ravine systems.",
   },
   {
     question: 'Which Oakville neighbourhoods have the highest tick risk?',
-    answer: "Bronte, West Oak Trails, and River Oaks face the highest risk due to direct adjacency to Bronte Creek Provincial Park. Glen Abbey properties backing onto the golf course ravines and 16 Mile Creek also have elevated tick exposure. North Oakville new-build developments near conservation corridors should treat as a precaution given proximity to Bronte Creek and Sixteen Mile Creek headwaters.",
+    answer: "Bronte and West Oak Trails sit closest to Bronte Creek, where Halton Region's tick dragging has found ticks carrying the Lyme bacteria. Glen Abbey properties backing onto the golf course ravines and 16 Mile Creek also have elevated tick exposure. North Oakville new-build developments near conservation corridors should treat as a precaution given proximity to Bronte Creek and Sixteen Mile Creek headwaters.",
   },
   {
     question: 'How many tick treatments does my Oakville property need per season?',
-    answer: "We recommend five treatments per season, spread roughly monthly from May through September. Monthly visits keep treatments on schedule through the May–July nymph peak, and the August and September visits continue treatments into the later season, when adult ticks re-emerge and stay active into November in mild years. Public Health Ontario notes nymphs are poppy-seed sized and easy to miss, so do a tick check after time outdoors. Properties directly adjacent to Bronte Creek Provincial Park or wooded ravines also have ticks carried back in between visits by deer, mice, and birds, which is why the barrier is renewed monthly rather than left to a single application. The seasonal tick program is $597 standalone, or $497 added to any mosquito plan.",
+    answer: "We recommend five treatments per season, spread roughly monthly from May through September. Monthly visits keep treatments on schedule through the May–July nymph peak, and the August and September visits continue treatments into the later season, when adult ticks re-emerge and stay active into November in mild years. Nymphs are poppy-seed sized and easy to miss, and Halton Region Public Health advises a tick check after time outdoors. Properties directly adjacent to Bronte Creek Provincial Park or wooded ravines also have ticks carried back in between visits by deer, mice, and birds, which is why the barrier is renewed monthly rather than left to a single application. The seasonal tick program is $597 standalone, or $497 added to any mosquito plan.",
   },
   {
     question: "How is tick spray applied near Oakville's creeks and wetlands?",
@@ -118,8 +118,8 @@ export default function OakvilleTickSprayPage() {
                   ['Application', PROMISES.labelLine],
                   ['Re-entry', 'Stay off treated areas until the spray has dried, as the label directs'],
                   ['Recommended schedule', '5 treatments per season for ravine- or conservation-area-adjacent properties'],
-                  ['Highest tick zones', 'Bronte Creek · 16 Mile Creek · Lions Valley Park · wooded ravine edges'],
-                  ['Lyme disease vector', 'Yes — blacklegged tick populations confirmed by Public Health Ontario'],
+                  ['Tick zones', 'Bronte Creek · Sedgewick Forest · Langtry Park · Lions Valley Park · 16 Mile Creek · wooded ravine edges'],
+                  ['Lyme disease vector', 'Yes — Halton Region Public Health lists all of Halton, Oakville included, as an established blacklegged tick risk area'],
                   ['Application zones', 'Lawn-to-woods edge · leaf litter · garden bed perimeters · fence-line vegetation · woodpiles'],
                   ['Booking lead time', 'Same-week service typical'],
                   ['Contract required', 'No — single treatments and seasonal programs both available'],
@@ -176,15 +176,19 @@ export default function OakvilleTickSprayPage() {
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Tick Risk in Oakville</h2>
-          <p>Oakville's picturesque wooded landscape — Bronte Creek Provincial Park, the 16 Mile Creek corridor, and the many ravines woven through Glen Abbey, Joshua Creek, and West Oak Trails — creates significant blacklegged tick habitat. Halton Region Public Health conducts annual tick surveillance and has documented established blacklegged tick populations in Bronte Creek Provincial Park and adjacent areas. Oakville's proximity to the Niagara Escarpment means tick populations from the escarpment spread into adjacent residential neighbourhoods through deer movement along creek corridors.</p>
+          <p>Oakville's picturesque wooded landscape — Bronte Creek Provincial Park, the 16 Mile Creek corridor, and the many ravines woven through Glen Abbey, Joshua Creek, and West Oak Trails — creates significant blacklegged tick habitat. Halton Region Public Health drags for ticks at sites across the Region every spring and fall, and Bronte Creek is one of its Oakville sites. Oakville's proximity to the Niagara Escarpment means tick populations from the escarpment spread into adjacent residential neighbourhoods through deer movement along creek corridors.</p>
           <p>The critical point for Oakville homeowners: you don't need a forest to have ticks. A property backing onto any ravine, creek, or green space — even a thin strip — can have tick activity at its edges. A professional barrier treatment at your property's transition zones targets the places ticks actually wait.</p>
+
+          <h2>What Halton&apos;s Tick Dragging Found in Oakville</h2>
+          <p>All of Halton, Oakville included, is an established blacklegged tick risk area, according to Halton Region Public Health. Of the 16 blacklegged ticks Halton collected at Bronte Creek in 2026, 10 carried the Lyme bacteria, as did 1 of the 4 from Lions Valley Park. In Halton&apos;s 2025 dragging, 13 of 23 ticks from Sedgewick Forest and 7 of 25 from Langtry Park tested positive. Halton said in July 2025 that the risk of catching Lyme disease in the Region remains low, but that locally acquired cases are trending upwards.</p>
+          <p className="text-sm text-gray-500">Sources: <a href="https://www.halton.ca/For-Residents/Immunizations-Preventable-Disease/Diseases-Infections/Lyme-Disease" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Halton Region, Lyme disease</a> · <a href={'https://edmweb.halton.ca/OnBaseAgendaOnline/Documents/ViewDocument/MO-08-25-Vector%20Borne%20Disease%20%20Program%20Update.docx.pdf?meetingId=4550&documentType=Minutes&itemId=129876&publishId=83663&isSection=false'} target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Halton Regional Council report MO-08-25 (July 2025)</a></p>
 
           <h2>High-Risk Zones by Oakville Neighbourhood</h2>
           <ul>
             <li><strong>Bronte</strong> — directly adjacent to Bronte Creek Provincial Park and Lake Ontario shoreline</li>
-            <li><strong>West Oak Trails</strong> — borders Bronte Creek corridor; documented deer movement through the area</li>
+            <li><strong>West Oak Trails</strong> — borders the Bronte Creek corridor; Halton found a tick carrying the Lyme bacteria at West Oak Trails Park in 2024</li>
             <li><strong>Glen Abbey</strong> — ravines and creek features through the golf course create tick habitat alongside residential lots</li>
-            <li><strong>River Oaks</strong> — Bronte Creek runs through the neighbourhood, creating consistent exposure</li>
+            <li><strong>River Oaks</strong> — the Sixteen Mile Creek valley runs along the neighbourhood's west side</li>
             <li><strong>North Oakville</strong> — newer developments near Sixteen Mile Creek headwaters and Bronte Creek conservation buffer</li>
           </ul>
           <p>We rank these neighbourhoods into four pressure bands, alongside the Burlington side of Halton, in our <Link href="/blog/tick-hot-spots-oakville-burlington-2026" className="text-brand-700 hover:underline">Halton tick hot spot report</Link> — useful if you want to know whether your street warrants a seasonal plan or a single May treatment.</p>
@@ -198,7 +202,7 @@ export default function OakvilleTickSprayPage() {
 
           <h2>Types of Ticks Found in Oakville</h2>
           <ul>
-            <li><strong>Blacklegged tick (deer tick)</strong> — The Lyme disease vector. Adults are reddish-brown with black legs (~3mm unfed). Nymphs are poppy-seed-sized and responsible for most Lyme transmissions because they&apos;re nearly invisible. Established populations documented in Bronte Creek Provincial Park by Halton Region Public Health.</li>
+            <li><strong>Blacklegged tick (deer tick)</strong> — The Lyme disease vector. Adults are reddish-brown with black legs (~3mm unfed). Nymphs are poppy-seed-sized and responsible for most Lyme transmissions because they&apos;re nearly invisible. Halton Region Public Health&apos;s tick dragging has found them at Bronte Creek and in Oakville parks such as Sedgewick Forest and Langtry Park.</li>
             <li><strong>American dog tick</strong> — Larger, brown with white markings. Common but does not carry Lyme disease. Found in similar habitats along Oakville&apos;s creek corridors.</li>
           </ul>
 
@@ -230,7 +234,7 @@ export default function OakvilleTickSprayPage() {
             </table>
           </div>
 
-          <p>That timing follows the local activity curve rather than a generic calendar. Oakville ticks reactivate above 4&deg;C — reliably by the third week of March — and stay active into November, as we set out in <Link href="/blog/tick-season-oakville-when-are-ticks-active" className="text-brand-700 hover:underline">our guide to when ticks are active in Oakville</Link>.</p>
+          <p>That timing follows the local activity curve rather than a generic calendar. Ticks are active whenever the temperature is above freezing (0&deg;C); in Oakville they are reliably out by the third week of March and stay active into November, as we set out in <Link href="/blog/tick-season-oakville-when-are-ticks-active" className="text-brand-700 hover:underline">our guide to when ticks are active in Oakville</Link>.</p>
 
           <CityPriceCard city={CITY} service="tick" location="price_card_mid" />
 

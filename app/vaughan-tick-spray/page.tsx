@@ -31,11 +31,11 @@ const FAQS = [
   },
   {
     question: 'Has York Region issued tick warnings for Vaughan?',
-    answer: 'Yes. York Region Public Health issues tick advisories covering Vaughan\'s conservation lands, including Boyd and Kortright. They recommend avoiding tall grass and brush, checking for ticks after outdoor activity, and using insect repellent, particularly for people living next to forested or naturalized areas.',
+    answer: 'Yes, as part of the whole region. York Region Public Health says all of York Region, Vaughan included, is now an estimated Lyme disease risk area, and in 2018 it identified a risk area in the Humber Valley near the Boyd and Kortright conservation areas. Its advice is to use a repellent with DEET or icaridin, cover up, and search your body for ticks after spending time outdoors.',
   },
   {
     question: 'How many tick treatments does a Vaughan property need per year?',
-    answer: 'BuzzSkito recommends five treatments per season for most Vaughan properties — one roughly every month from May through September. The residual on treated vegetation wears down over a few weeks, so monthly visits keep the treated zones renewed through the May–July nymph peak and continue into the autumn, when adult ticks re-emerge and stay active into November in mild years. Public Health Ontario notes nymphs are poppy-seed sized and easy to miss, so do a tick check after time outdoors. Repeat applications matter because the acaricide residual is temporary and deer, mice, and birds continuously reintroduce ticks from the adjacent conservation woodland — an occasional one-off visit cannot hold that barrier. The seasonal tick program is $597 standalone, or $497 added to any mosquito plan, plus HST.',
+    answer: 'BuzzSkito recommends five treatments per season for most Vaughan properties — one roughly every month from May through September. The residual on treated vegetation wears down over a few weeks, so monthly visits keep the treated zones renewed through the May–July nymph peak and continue into the autumn, when adult ticks re-emerge and stay active into November in mild years. Nymphs are easy to miss: York Region Public Health says they are no bigger than a poppy seed, so do a tick check after time outdoors. Repeat applications matter because the acaricide residual is temporary and deer, mice, and birds continuously reintroduce ticks from the adjacent conservation woodland — an occasional one-off visit cannot hold that barrier. The seasonal tick program is $597 standalone, or $497 added to any mosquito plan, plus HST.',
   },
   {
     question: 'What should my family and pets do after a tick treatment in Vaughan?',
@@ -47,7 +47,7 @@ const FAQS = [
   },
   {
     question: 'Do ticks in Vaughan carry Lyme disease?',
-    answer: 'Yes. Blacklegged ticks (deer ticks) in Vaughan and across York Region are known to carry Borrelia burgdorferi, the bacterium that causes Lyme disease. York Region Public Health conducts passive tick surveillance and has confirmed Lyme-carrying ticks in the Boyd Conservation Area and surrounding corridors. Ontario Lyme disease case numbers have increased annually, with York Region reporting cases every year. The risk is real and present in residential Vaughan neighbourhoods, not just remote trails.',
+    answer: 'Yes. Blacklegged ticks (deer ticks) in Vaughan and across York Region are known to carry Borrelia burgdorferi, the bacterium that causes Lyme disease. York Region Public Health says more than 20 percent of blacklegged ticks in York Region are infected with it. Its figures show Lyme disease cases among York Region residents every year from 2019 to 2025, rising sharply since 2020. The risk is real and present in residential Vaughan neighbourhoods, not just remote trails.',
   },
   {
     question: 'Should Kleinburg homeowners be especially concerned about ticks?',
@@ -68,7 +68,7 @@ export default function VaughanTickPage() {
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Tick Control', href: '/tick-control' }, { label: CITY }]}
         title={<>Vaughan Tick Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>Licensed Ontario pesticide operator treating Vaughan yards near Boyd Conservation Area and the Kortright Centre, established blacklegged tick habitat. Treatments applied according to label directions.</>}
+        subtitle={<>Licensed Ontario pesticide operator treating Vaughan yards near Boyd Conservation Area and the Kortright Centre, where York Region identified a Lyme disease risk area in 2018. Treatments applied according to label directions.</>}
         service="tick"
         image="/spray-front.webp"
         imageAlt="BuzzSkito technician treating lawn edges and garden borders for ticks"
@@ -118,7 +118,7 @@ export default function VaughanTickPage() {
                   ['Re-entry', 'Stay off treated areas until the spray has dried, as the product label directs'],
                   ['Recommended schedule', '5 treatments per season for ravine- or conservation-area-adjacent properties'],
                   ['Highest tick zones', 'Boyd Conservation Area · Kortright Centre · Humber River valley · Oak Ridges Moraine edge'],
-                  ['Lyme disease vector', 'Yes — blacklegged tick populations confirmed by Public Health Ontario'],
+                  ['Lyme disease vector', 'Yes — York Region Public Health says more than 20% of blacklegged ticks in York Region carry the Lyme bacteria'],
                   ['Application zones', 'Lawn-to-woods edge · leaf litter · garden bed perimeters · fence-line vegetation · woodpiles'],
                   ['Booking lead time', 'Same-week service typical'],
                   ['Contract required', 'No — single treatments and seasonal programs both available'],
@@ -175,13 +175,17 @@ export default function VaughanTickPage() {
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why Tick Spray Is Crucial in Vaughan</h2>
-          <p>Vaughan residents living near Boyd Conservation Area or the Kortright Centre for Conservation are in close proximity to two of York Region's most well-documented blacklegged tick (Ixodes scapularis) habitats. These aren't distant wilderness areas — they are woven into the urban fabric of Woodbridge and Kleinburg, with residential lots backing directly onto forested conservation land. York Region Public Health has issued tick advisories specifically covering these areas, noting increasing Lyme disease case counts across the region.</p>
+          <p>Vaughan residents living near Boyd Conservation Area or the Kortright Centre for Conservation are in close proximity to blacklegged tick (Ixodes scapularis) habitat. These aren't distant wilderness areas — they are woven into the urban fabric of Woodbridge and Kleinburg, with residential lots backing directly onto forested conservation land.</p>
           <p>The Humber River corridor that threads through Vaughan creates a continuous green corridor where ticks can move from deep forest to suburban backyards. Estate lots in Kleinburg and Woodbridge with mature oak and maple canopy are particularly high-risk environments. Ticks quest from low vegetation at the lawn's edge — which means your yard, not the trail, is the primary exposure zone. Professional barrier spray applied before and during peak season is a practical way to reduce tick encounters where they start.</p>
+
+          <h2>Vaughan Tick Facts From York Region Public Health</h2>
+          <p>In 2018 York Region Public Health identified a Lyme disease risk area in the Humber Valley near the Boyd and Kortright conservation areas. Its tick dragging that season also found 4 blacklegged ticks at Bindertwine Park in Kleinburg. The Region now counts all of York Region as an estimated Lyme disease risk area, and it recorded 85 Lyme disease cases among York Region residents in 2025, up from 68 in 2024.</p>
+          <p className="text-sm text-gray-500">Sources: <a href="https://www.york.ca/media/113746/download" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">York Region, Vector-Borne Diseases key findings (PDF)</a> · <a href="https://www.york.ca/media/75181/download" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">York Region, Vector Borne Disease Statistics, 2019 (PDF)</a> · <a href="https://www.york.ca/health/infectious-diseases-and-prevention/lyme-disease" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">York Region, Lyme disease</a></p>
 
           <h2>Tick Hotspots in Vaughan</h2>
           <ul>
-            <li>Boyd Conservation Area (Woodbridge) — confirmed blacklegged tick habitat</li>
-            <li>Kortright Centre for Conservation — tick monitoring site for York Region</li>
+            <li>Boyd Conservation Area (Woodbridge), near the 2018 Humber Valley risk area</li>
+            <li>Kortright Centre for Conservation, near the same 2018 risk area</li>
             <li>Humber River valley corridor through Woodbridge and Kleinburg</li>
             <li>Wooded estate lots in Kleinburg village edges</li>
             <li>Islington Woods naturalized areas and ravine edges</li>

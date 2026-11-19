@@ -52,11 +52,11 @@ const FAQS = [
   },
   {
     question: 'Why does Brampton have so many mosquitoes?',
-    answer: "Brampton's rapid residential development has created abundant mosquito breeding habitat. Stormwater management ponds are built into virtually every new development and serve as ideal breeding sites — shallow, still water with minimal predator populations. The Etobicoke Creek corridor, Heart Lake Conservation Area, and Humber River tributaries in northern Brampton add significant natural mosquito pressure on top of the stormwater pond baseline.",
+    answer: "Brampton's rapid residential development has created abundant mosquito breeding habitat. Stormwater management ponds are built into virtually every new development, and they can breed mosquitoes where water sits shallow and still. The Etobicoke Creek corridor, Heart Lake Conservation Area, and Humber River tributaries in northern Brampton add significant natural mosquito pressure on top of the stormwater pond baseline.",
   },
   {
     question: 'Which Brampton neighbourhoods have the worst mosquito problems?',
-    answer: "Properties near stormwater ponds in Mount Pleasant, Springdale, and Vales of Castlemore consistently have high mosquito activity due to the density of retention ponds in these developments. Gore Meadows and Heart Lake neighbourhoods face both pond pressure and natural creek corridor exposure from Etobicoke Creek and Heart Lake Conservation Area. Credit Valley properties near the Etobicoke Creek also experience elevated season-long pressure.",
+    answer: "Properties near stormwater ponds in Mount Pleasant, Springdale, and Vales of Castlemore consistently have high mosquito activity due to the density of retention ponds in these developments. Heart Lake neighbourhoods face both pond pressure and natural creek corridor exposure from Etobicoke Creek and Heart Lake Conservation Area. Credit Valley properties near the Etobicoke Creek also experience elevated season-long pressure.",
   },
   {
     question: 'When does mosquito season start in Brampton?',
@@ -202,15 +202,19 @@ export default function BramptonMosquitoPage() {
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Mosquito Pressure in Brampton</h2>
-          <p>Brampton is one of Canada's fastest-growing cities, and that growth has created a mosquito problem that gets worse with each new development phase. Every subdivision built in Brampton includes stormwater management ponds engineered to capture runoff — but these ponds are perfect mosquito breeding habitat: shallow, still, warm in summer, and largely unshaded in newer areas. Neighbourhoods like <strong>Mount Pleasant, Springdale, Vales of Castlemore, and Credit Valley</strong> have dozens of these ponds within walking distance of residential streets.</p>
+          <p>Brampton is one of Canada's fastest-growing cities, and that growth has created a mosquito problem that gets worse with each new development phase. Every subdivision built in Brampton includes stormwater management ponds engineered to capture runoff, and where their water sits shallow, still and warm, mosquitoes can breed. Neighbourhoods like <strong>Mount Pleasant, Springdale, Vales of Castlemore, and Credit Valley</strong> have dozens of these ponds within walking distance of residential streets.</p>
           <p>Natural water features compound the stormwater issue. The <strong>Etobicoke Creek corridor</strong> runs north-south through central Brampton, and <strong>Heart Lake Conservation Area</strong> in the city's northwest creates a significant natural mosquito source for adjacent neighbourhoods. <strong>Humber River tributaries</strong> in northern Brampton (Castlemore, Countryside Drive area) add further pressure for properties near undeveloped greenbelt.</p>
+
+          <h2>What Peel Public Health Found in Brampton</h2>
+          <p>Brampton had 18 of the 25 West Nile-positive mosquito batches Peel Public Health found in 2026, more than Mississauga and Caledon combined, according to Peel&apos;s table last updated November 11, 2026. The first positive mosquitoes of the year in Peel were trapped near Queen Street East and Kennedy Road North, as Peel announced on July 27, 2026. Peel&apos;s larviciding in road catch basins runs from early June to the end of September, and the City of Brampton inspects and maintains 180 stormwater ponds. City rules require stagnant water that collects on children&apos;s toys, buckets, tires, wading pools and pool covers to be removed.</p>
+          <p className="text-sm text-gray-500">Sources: <a href="https://peelregion.ca/health/protecting-your-health/mosquitoes-ticks-bed-bugs" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Peel Region, Mosquitoes, ticks and bed bugs</a> · <a href="https://peelregion.ca/press-releases/peel-public-health-confirms-first-west-nile-virus-positive-mosquitoes-2026" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Peel Region, first positive mosquitoes of 2026</a> · <a href="https://www.brampton.ca/EN/residents/Stormwater/pages/stormwater-ponds.aspx" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">City of Brampton, Stormwater ponds</a> · <a href="https://www.brampton.ca/EN/residents/By-Law-Enforcement/pages/garbageanddebris.aspx" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">City of Brampton, Garbage and debris</a></p>
 
           <h2>Mosquito Pressure Zones by Brampton Neighbourhood</h2>
           <h3>Mount Pleasant, Vales of Castlemore, Springdale</h3>
-          <p>Northern Brampton's newest developments sit adjacent to the highest concentration of stormwater management ponds in the city. Many properties in these areas have direct pond views — and those ponds sustain mosquito activity from early May through September without natural predator populations to control them.</p>
+          <p>Northern Brampton's newest developments sit adjacent to the highest concentration of stormwater management ponds in the city. Many properties in these areas have direct pond views, and any shallow, still water at a pond&apos;s edge can breed mosquitoes from early May through September.</p>
 
-          <h3>Heart Lake and Gore Meadows</h3>
-          <p>Heart Lake Conservation Area borders these north-west Brampton neighbourhoods and generates substantial natural mosquito populations each season. The combination of conservation area exposure and nearby stormwater ponds gives Heart Lake and Gore Meadows some of the city's most persistent mosquito pressure.</p>
+          <h3>Heart Lake</h3>
+          <p>Heart Lake Conservation Area borders the Heart Lake neighbourhood in north Brampton and generates substantial natural mosquito populations each season. The combination of conservation area exposure and nearby stormwater ponds gives Heart Lake some of the city's most persistent mosquito pressure.</p>
 
           <h3>Creditview, Credit Valley, Bramalea</h3>
           <p>These neighbourhoods along the Etobicoke Creek corridor experience elevated mosquito activity from the creek's floodplain and seasonal side channels. Summer rain events regularly re-activate breeding in low-lying areas adjacent to the creek system.</p>
@@ -381,16 +385,16 @@ export default function BramptonMosquitoPage() {
           <h2>Everything Brampton Homeowners Ask About Mosquito Control</h2>
 
           <h3>How do Brampton stormwater ponds affect mosquito populations?</h3>
-          <p>Stormwater management ponds &mdash; built into virtually every new Brampton development since the 2000s &mdash; are engineered to hold rainwater for filtration. They also produce thousands of mosquitoes per pond per season. New subdivisions in Mount Pleasant, Springdale, Vales of Castlemore, and Sandalwood have especially high pond density. Properties within 500 metres of a stormwater pond experience consistent pressure. Barrier spray on your own property is the practical response, since the pond itself is municipal land.</p>
+          <p>Stormwater management ponds &mdash; built into virtually every new Brampton development since the 2000s &mdash; are engineered to hold rainwater for filtration. The City of Brampton says its ponds are designed and maintained to prevent mosquito breeding, and that it works with Peel Public Health to identify, monitor and address breeding sites. New subdivisions in Mount Pleasant, Springdale, Vales of Castlemore, and Sandalwood have especially high pond density. Properties within 500 metres of a stormwater pond experience consistent pressure. Barrier spray on your own property is the practical response, since the pond itself is municipal land.</p>
 
           <h3>Does Peel Region or the City of Brampton spray for mosquitoes?</h3>
-          <p>No &mdash; neither treats residential properties. Peel Region Public Health does targeted larviciding (treating standing water in storm sewers) for West Nile surveillance, and the City of Brampton maintains catch basins. Neither program treats private yards. Yard-level mosquito control is the homeowner&apos;s responsibility.</p>
+          <p>Not on your lawn or shrubs. Peel Public Health&apos;s mosquito control is larviciding: larvicide goes into storm-drain catch basins along municipal and regional roads, and into ditches and ponds only where testing turns up mosquito larvae. If your own residential property has a catch basin, Peel will treat that as well, free of charge, on request. Neither Peel nor the City of Brampton offers to spray private yards, so the shrubs and shade where adult mosquitoes rest are the homeowner&apos;s responsibility.</p>
 
           <h3>How much does Brampton mosquito control cost for a typical lot?</h3>
           <p>For a standard Brampton residential lot under 10,000 sq ft: from $99 per single treatment, with season plans from $549 (plus HST). Larger Castlemore or Heart Lake estate properties require a custom quote. No contracts &mdash; book one treatment and decide whether to continue.</p>
 
           <h3>Why are Heart Lake and Castlemore especially affected?</h3>
-          <p>Heart Lake is adjacent to Heart Lake Conservation Area &mdash; 121 hectares of forest, meadow, and Heart Lake itself. The conservation area sustains large mosquito populations that disperse into adjacent neighbourhoods. Castlemore, in northeast Brampton, borders the Humber River tributary system and rural agricultural land that holds standing water through spring. Both communities face combined creek/conservation and tree-canopy mosquito pressure.</p>
+          <p>Heart Lake is adjacent to Heart Lake Conservation Area &mdash; forest, meadow, and Heart Lake itself. The conservation area sustains large mosquito populations that disperse into adjacent neighbourhoods. Castlemore, in northeast Brampton, borders the Humber River tributary system and rural agricultural land that holds standing water through spring. Both communities face combined creek/conservation and tree-canopy mosquito pressure.</p>
 
           <h3>When should I book my first Brampton mosquito treatment?</h3>
           <p>Mid-May for most properties. Stormwater pond microhabitats can produce mosquito activity earlier &mdash; sometimes by late April in warm springs. Booking before peak season (late May–July) ensures the barrier is established before mosquito numbers climb.</p>
@@ -414,7 +418,7 @@ export default function BramptonMosquitoPage() {
           <p>{PROMISES.rainBack} That rain-back guarantee is separate from the Bite-Free Guarantee, which applies to Standard &amp; Exclusive plans.</p>
 
           <h3>Does mosquito spray work against ticks in Brampton too?</h3>
-          <p>Barrier spray is also used against blacklegged ticks, but tick control requires different application zones &mdash; the 1–3 ft transition zone where lawn meets woods. Heart Lake Conservation Area and Humber River tributaries in Brampton are confirmed blacklegged tick habitat. Many Brampton homeowners bundle our Brampton tick spray with mosquito control.</p>
+          <p>Barrier spray is also used against blacklegged ticks, but tick control requires different application zones &mdash; the 1–3 ft transition zone where lawn meets woods. Brampton lies inside Public Health Ontario&apos;s 2026 blacklegged tick risk areas, Heart Lake and Castlemore included, even though no tick-collection site sits in the city itself. Many Brampton homeowners bundle our Brampton tick spray with mosquito control.</p>
 
           {/* Related Guides */}
 

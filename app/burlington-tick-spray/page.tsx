@@ -22,12 +22,12 @@ const CITY = 'Burlington'
 const NEIGHBOURHOODS = ['Alton Village','Millcroft','The Orchard','Roseland','Downtown Burlington','Shoreacres','Headon Forest','North Burlington','Palmer','Tyandaga','Brant Hills']
 const FAQS = [
   { question: 'How much does tick spray cost in Burlington?', answer: 'Tick spray in Burlington starts from $99 per application. Properties near Bronte Creek Provincial Park, the Royal Botanical Gardens, or any conservation land boundary are best covered by the full seasonal program — five treatments spaced roughly monthly from May through September, because monthly spacing keeps the treated zones renewed through the season. The season program is $597 standalone, or $497 when added to a mosquito plan. No contracts. Call (289) 216-5030.' },
-  { question: 'Does the Niagara Escarpment increase tick risk in Burlington?', answer: 'Yes. The Niagara Escarpment and the greenbelt corridors that run through Burlington — including Spencer Creek Valley, Bronte Creek, and the Royal Botanical Gardens — are all established tick habitat. Properties near these areas, particularly in Headon Forest, Tyandaga, and Waterdown, have elevated tick risk.' },
+  { question: 'Does the Niagara Escarpment increase tick risk in Burlington?', answer: 'Yes. Halton Region Public Health has collected blacklegged ticks carrying the Lyme bacteria on the Escarpment at Mount Nemo Conservation Area and in the Royal Botanical Gardens. Properties near the Escarpment and the Gardens, particularly in Headon Forest, Tyandaga, and Waterdown, have elevated tick risk.' },
   { question: 'Is tick control worth it in Burlington for families without pets?', answer: 'Absolutely. While pets are a common vector for bringing ticks onto your property, people are equally at risk. Children playing in the backyard, adults gardening, and anyone who spends time in a yard adjacent to naturalized areas is at risk for tick bites and Lyme disease exposure.' },
-  { question: 'What tick species are found in Burlington?', answer: 'The blacklegged tick (deer tick) is the primary concern — it transmits Lyme disease and is established along the Escarpment, Bronte Creek, and Royal Botanical Gardens. American dog ticks are also common but rarely carry Lyme. Blacklegged tick nymphs are poppy-seed-sized and responsible for most Lyme transmissions.' },
+  { question: 'What tick species are found in Burlington?', answer: 'The blacklegged tick (deer tick) is the primary concern — it transmits Lyme disease, and Halton Region Public Health has collected it along the Escarpment, at City View Park and in the Royal Botanical Gardens. American dog ticks are also common but rarely carry Lyme. Blacklegged tick nymphs are poppy-seed-sized and responsible for most Lyme transmissions.' },
   { question: 'How does professional tick spray work?', answer: 'We apply a residual barrier to specific micro-habitats where ticks concentrate: the 1-3 metre transition zone between lawn and natural vegetation, garden bed edges, leaf litter, woodpiles, fence lines, and under decks. Treatments are applied according to the product label and repeated roughly monthly, 5 sprays per season.' },
   { question: 'What should my family and pets do after a tick treatment?', answer: 'We apply according to the product label directions, to the vegetation and edges where ticks wait rather than open grass or play areas. The label directs people and pets to stay off treated areas until the spray has dried, and we remind you of that on the day.' },
-  { question: 'When should Burlington homeowners schedule tick treatment?', answer: 'Start in May and keep treating roughly monthly through September — five treatments across the season. The May, June, and July applications cover peak blacklegged nymph activity. The August and September applications cover adults, which re-emerge and stay active through the autumn. Monthly spacing matters because a spring-and-fall pair would leave a multi-month hole straight through peak nymph season — precisely the wrong time to be uncovered. Deer, mice, and birds moving off the Niagara Escarpment, Bronte Creek, and the Royal Botanical Gardens keep reintroducing ticks, so the barrier has to be renewed rather than applied once or twice. Public Health Ontario notes nymphs are poppy-seed sized and easy to miss, so do a tick check after time outdoors.' },
+  { question: 'When should Burlington homeowners schedule tick treatment?', answer: 'Start in May and keep treating roughly monthly through September — five treatments across the season. The May, June, and July applications cover peak blacklegged nymph activity. The August and September applications cover adults, which re-emerge and stay active through the autumn. Monthly spacing matters because a spring-and-fall pair would leave a multi-month hole straight through peak nymph season — precisely the wrong time to be uncovered. Deer, mice, and birds moving off the Niagara Escarpment, Bronte Creek, and the Royal Botanical Gardens keep reintroducing ticks, so the barrier has to be renewed rather than applied once or twice. Nymphs are poppy-seed sized and easy to miss, so Halton Region Public Health recommends a tick check after being outdoors.' },
   { question: 'Does BuzzSkito also do mosquito control in Burlington?', answer: 'Yes. Most Burlington homeowners bundle tick and mosquito control — same visit, same vegetation surfaces. See our Burlington mosquito spray service for details.' },
 ]
 
@@ -94,7 +94,7 @@ export default function BurlingtonTickPage() {
                   ['Re-entry', 'Stay off treated areas until the spray has dried, as the label directs'],
                   ['Recommended schedule', '5 treatments per season for ravine- or conservation-area-adjacent properties'],
                   ['Highest tick zones', 'Bronte Creek · Tyandaga ravines · Niagara Escarpment edge · Burlington greenbelt'],
-                  ['Lyme disease vector', 'Yes — blacklegged tick populations confirmed by Public Health Ontario'],
+                  ['Lyme disease vector', 'Yes — Burlington is part of an established blacklegged tick risk area that covers all of Halton (Halton Region Public Health)'],
                   ['Application zones', 'Lawn-to-woods edge · leaf litter · garden bed perimeters · fence-line vegetation · woodpiles'],
                   ['Booking lead time', 'Same-week service typical'],
                   ['Contract required', 'No — single treatments and seasonal programs both available'],
@@ -150,8 +150,12 @@ export default function BurlingtonTickPage() {
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Tick Control Is No Longer Optional in Burlington</h2>
-          <p>Burlington sits at the base of the Niagara Escarpment — one of Ontario's most significant tick habitat corridors. The Royal Botanical Gardens, Cootes Paradise, Spencer Creek valley, and Bronte Creek all serve as reservoirs for blacklegged ticks that spill into adjacent residential properties throughout the season.</p>
+          <p>Burlington sits at the base of the Niagara Escarpment. The Royal Botanical Gardens, the Escarpment woods around Mount Nemo, and the Bronte Creek valley in neighbouring Oakville all hold blacklegged ticks that spill into adjacent residential properties throughout the season.</p>
           <p>BuzzSkito's tick treatment is specifically designed for the Burlington environment, targeting the lawn edges, shaded garden areas, and wood-edge transition zones where ticks concentrate on residential properties.</p>
+
+          <h2>Tick Facts From Halton Region for Burlington</h2>
+          <p>Halton Region Public Health counts all of Halton, Burlington included, as an established blacklegged tick risk area. When it dragged for ticks in 2026, it collected 14 blacklegged ticks at Mount Nemo Conservation Area, 6 of them carrying the Lyme bacteria, and 9 at City View Park, 5 of them carrying it. At the Royal Botanical Gardens, 10 of the 40 ticks Halton collected in fall 2024 tested positive, and the Gardens itself tells trail users that ticks are active at temperatures above 0&deg;C.</p>
+          <p className="text-sm text-gray-500">Sources: <a href="https://www.halton.ca/For-Residents/Immunizations-Preventable-Disease/Diseases-Infections/Lyme-Disease" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Halton Region, Lyme disease</a> · <a href="https://www.rbg.ca/visit/gardens-and-trails/nature-trails/" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Royal Botanical Gardens, nature trails</a></p>
 
           <h2>Burlington Neighbourhoods We Serve for Tick Control</h2>
           <div className="not-prose flex flex-wrap gap-2 mb-6">
@@ -162,8 +166,8 @@ export default function BurlingtonTickPage() {
           <ul>
             <li><strong>Headon Forest &amp; Tyandaga</strong> — directly adjacent to Escarpment trails with high deer movement</li>
             <li><strong>North Burlington / Waterdown</strong> — near Royal Botanical Gardens and Cootes Paradise</li>
-            <li><strong>Bronte Creek area</strong> — Bronte Creek Provincial Park is established tick habitat</li>
-            <li><strong>Palmer &amp; Brant Hills</strong> — near Spencer Creek valley and wooded ravines</li>
+            <li><strong>Bronte Creek area</strong> — Ontario Parks warns that ticks are found in Bronte Creek Provincial Park, just over the Oakville line</li>
+            <li><strong>Palmer &amp; Brant Hills</strong> — near wooded ravines</li>
             <li><strong>Any property backing onto greenbelt, trails, or conservation land</strong></li>
           </ul>
           <p>Aldershot and escarpment-edge Mountainside sit at the very top of that list once you account for the Royal Botanical Gardens and Mt. Nemo corridors. See <Link href="/blog/tick-hot-spots-oakville-burlington-2026" className="text-brand-700 hover:underline">which Burlington and Oakville neighbourhoods rank highest for ticks</Link>.</p>
@@ -197,7 +201,7 @@ export default function BurlingtonTickPage() {
             </table>
           </div>
 
-          <p>Burlington runs ahead of the regional average at both ends of the year, with adults active any day above 4&deg;C from roughly mid-March into November. <Link href="/blog/tick-season-burlington-when-are-ticks-active" className="text-brand-700 hover:underline">Our month-by-month Burlington tick calendar</Link> explains why the escarpment slope and the lake buffer stretch the window.</p>
+          <p>Burlington runs ahead of the regional average at both ends of the year, with adults active any day above freezing (0&deg;C), from roughly mid-March into November. <Link href="/blog/tick-season-burlington-when-are-ticks-active" className="text-brand-700 hover:underline">Our month-by-month Burlington tick calendar</Link> explains why the escarpment slope and the lake buffer stretch the window.</p>
 
           <CityPriceCard city={CITY} service="tick" location="price_card_mid" />
 

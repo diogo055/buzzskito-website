@@ -44,7 +44,7 @@ const FAQS = [
   },
   {
     question: 'Can I add tick control to my Richmond Hill mosquito treatment?',
-    answer: 'Yes — and along the Oak Ridges Moraine it is worth doing. Blacklegged ticks, the Lyme disease vector, are established through the Moraine trail corridor that runs across Oak Ridges and Jefferson. Our tick program is five sprays per season: $597 on its own, or $497 when bundled with any mosquito plan. Most Richmond Hill homeowners near the trails book both together.',
+    answer: 'Yes — and along the Oak Ridges Moraine it is worth doing. Blacklegged ticks, the Lyme disease vector, have been found throughout York Region, and York Region Public Health says more than 20 percent of them carry the Lyme bacteria. Our tick program is five sprays per season: $597 on its own, or $497 when bundled with any mosquito plan. Most Richmond Hill homeowners near the trails book both together.',
   },
 ]
 
@@ -139,6 +139,10 @@ export default function RichmondHillMosquitoPage() {
           <p>Richmond Hill sits at a uniquely challenging intersection of natural systems. The southern edge of the Oak Ridges Moraine runs directly through the northern part of the city, feeding countless springs, vernal pools, and stream headwaters — including the Rouge River headwaters in Jefferson and Phyllis Rawlinson Park. These moraine-fed water bodies warm up quickly in spring, triggering early mosquito emergence well before lower-elevation communities in the GTA see significant activity.</p>
           <p>Closer to the urban core, Lake Wilcox in Oak Ridges and Richmond Hill&apos;s Mill Pond are two of York Region&apos;s most prominent recreational water bodies — and both sustain active mosquito populations along their shorelines. The trail network connecting these features, including the Oak Ridges Moraine trail corridor, creates a continuous strip of shaded, moist habitat that keeps mosquitoes well-fed and well-hidden throughout the season.</p>
 
+          <h2>West Nile Virus in Richmond Hill: York Region&apos;s Numbers</h2>
+          <p>As of September 3, 2026, York Region Public Health had found West Nile virus in mosquitoes from 1 trap in Richmond Hill and from 14 traps across the region. The Region collects mosquitoes from 34 traps once a week, from mid-June to the end of September, to watch for the virus. To control breeding it larvicides catch basins and other standing water on public property; it does not treat private yards, though it will treat a catch basin on your own property for free, once a season, if you ask. For the rest of your lot, its advice is to tip out standing water within 7 days.</p>
+          <p className="text-sm text-gray-500">Sources: <a href="https://www.york.ca/health/infectious-diseases-and-prevention/west-nile-virus" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">York Region, West Nile virus</a></p>
+
           <h2>Richmond Hill Neighbourhoods We Serve</h2>
           <p>BuzzSkito provides mosquito control across all Richmond Hill communities, including:</p>
           <div className="not-prose flex flex-wrap gap-2 mb-6">
@@ -154,7 +158,7 @@ export default function RichmondHillMosquitoPage() {
           </ul>
 
           <h2>Also Providing Tick Control in Richmond Hill</h2>
-          <p>The Oak Ridges Moraine is one of Ontario&apos;s highest-density zones for blacklegged tick activity, and that risk extends directly into Richmond Hill&apos;s Oak Ridges and Jefferson neighbourhoods. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">Richmond Hill tick spray service</Link> — most homeowners near the Moraine trails bundle both treatments into the same visit.</p>
+          <p>York Region Public Health says all of York Region is now an estimated Lyme disease risk area, and that takes in Richmond Hill&apos;s Oak Ridges and Jefferson neighbourhoods along the Moraine trails. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">Richmond Hill tick spray service</Link> — most homeowners near the Moraine trails bundle both treatments into the same visit.</p>
 
 
           <CityPriceCard city={CITY} service="mosquito" />

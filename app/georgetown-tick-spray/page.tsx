@@ -26,7 +26,7 @@ const FAQS = [
   },
   {
     question: 'Is the Credit River valley near Georgetown a tick risk?',
-    answer: 'Yes — the Credit River valley through Georgetown and Glen Williams is confirmed blacklegged tick habitat throughout the season. The valley provides cool, moist, forested conditions that ticks require, and the Credit River corridor connects Georgetown\'s tick habitat to a much larger regional system. Halton Region includes Georgetown in its tick monitoring program, and residents along the Credit River are encouraged to take tick precautions.',
+    answer: 'Yes — Halton Region Public Health has collected blacklegged ticks at Glen Williams Park, and the Credit River valley through Georgetown and Glen Williams is blacklegged tick habitat. The valley provides cool, moist, forested conditions that ticks require, and the Credit River corridor connects Georgetown\'s tick habitat to a much larger regional system. Halton Region includes Georgetown in its tick monitoring program and advises all residents, Credit River households included, to take tick precautions such as a tick check after time outdoors.',
   },
   {
     question: 'What is Silver Creek Conservation Area\'s role in Georgetown tick risk?',
@@ -122,8 +122,12 @@ export default function GeorgetownTickPage() {
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why Tick Spray Is Crucial in Georgetown</h2>
-          <p>Georgetown is surrounded by some of the richest natural habitats in Halton Region — and that makes it one of the higher-risk communities in the western GTA for blacklegged tick exposure. The Credit River valley runs directly through Georgetown and into Glen Williams, creating a continuous forested and riparian corridor that is confirmed blacklegged tick habitat. Halton Region includes Georgetown in its formal tick monitoring program, recognizing the risk this landscape poses to local residents.</p>
+          <p>Georgetown is surrounded by some of the richest natural habitats in Halton Region. The Credit River valley runs directly through Georgetown and into Glen Williams, creating a continuous forested and riparian corridor of blacklegged tick habitat. Halton Region includes Georgetown in its formal tick monitoring program.</p>
           <p>Silver Creek Conservation Area is another significant local risk zone. Its mixture of forest, meadow, and wetland edges create the kind of varied habitat where tick populations establish and persist. The Niagara Escarpment trail corridor through Halton Hills — including the Limehouse area — provides additional forested movement routes for deer (the primary adult tick host), extending tick exposure beyond the immediate river valley to a broader swath of the community. For Georgetown homeowners, we recommend the full program — five treatments spaced roughly monthly from May through September. Monthly spacing keeps the yard on a treatment schedule through peak nymph season in May, June, and July, and into the autumn, when adult ticks re-emerge and stay active.</p>
+
+          <h2>Tick Facts From Halton Region for Georgetown</h2>
+          <p>Halton Region Public Health dragged for ticks at Halton Hills sites in 2024, 2025 and 2026. In 2026 it collected 6 blacklegged ticks at Glen Williams Park, with lab results still pending as of November 19, 2026, plus 5 at Silver Creek Conservation Area, one of them carrying the Lyme bacteria, and 1 on the Hungry Hollow Trail, which did not. Georgetown sits inside an established blacklegged tick risk area, which Halton says covers the whole Region, and Halton&apos;s yard advice is to mow the lawn regularly and clear leaf litter, brush and weeds from the lawn edge.</p>
+          <p className="text-sm text-gray-500">Sources: <a href="https://www.halton.ca/For-Residents/Immunizations-Preventable-Disease/Diseases-Infections/Lyme-Disease" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Halton Region, Lyme disease</a></p>
 
           <h2>Tick Hotspots in Georgetown</h2>
           <ul>

@@ -26,11 +26,11 @@ const FAQS = [
   },
   {
     question: 'Which Thornhill neighbourhoods have the highest tick risk?',
-    answer: 'Royal Orchard and Aileen-Willowbrook properties backing onto the Don River tributary ravines — including German Mills Creek — have meaningful annual tick exposure. Pomona Mills Park area backs onto naturalized ravine sections that are active tick habitat. Both the Vaughan and Markham portions of Thornhill fall within York Region\'s tick monitoring area, and both have documented tick activity in their ravine corridors.',
+    answer: 'Royal Orchard and Aileen-Willowbrook properties backing onto the Don River tributary ravines — including German Mills Creek — have meaningful annual tick exposure. Pomona Mills Park area backs onto naturalized ravine sections that are active tick habitat. Both the Vaughan and Markham portions of Thornhill lie inside York Region, all of which York Region Public Health now counts as an estimated Lyme disease risk area.',
   },
   {
     question: 'Is Thornhill\'s tick risk on the Vaughan side, the Markham side, or both?',
-    answer: 'Both. The ravine network in Thornhill doesn\'t respect municipal boundaries — German Mills Creek and its tributaries run through the Markham portion while other Don River tributary ravines affect the Vaughan portion. York Region Public Health\'s tick awareness advisories cover the entire Thornhill community regardless of which municipality a specific street falls in.',
+    answer: 'Both. The ravine network in Thornhill doesn\'t respect municipal boundaries — German Mills Creek and its tributaries run through the Markham portion while other Don River tributary ravines affect the Vaughan portion. York Region Public Health gives the same tick advice across the region, whichever city a street falls in: check yourself, your family and your pets for ticks after time outdoors.',
   },
   {
     question: 'How do ticks get from Thornhill\'s ravines into backyards?',
@@ -51,7 +51,7 @@ export default function ThornhillTickPage() {
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Tick Control', href: '/tick-control' }, { label: CITY }]}
         title={<>{CITY} Tick Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>Thornhill's Don River tributary ravines, including German Mills Creek and Pomona Mills Park, provide year-round blacklegged tick habitat on both the Vaughan and Markham sides. Licensed Ontario pesticide operator; tick treatments applied according to label directions.</>}
+        subtitle={<>All of York Region, Thornhill included, is an estimated Lyme disease risk area, and ravines such as German Mills Creek and Pomona Mills Park run right behind many Thornhill backyards. Licensed Ontario pesticide operator; tick treatments applied according to label directions.</>}
         image="/spray-front.webp"
         service="tick"
         imageAlt="BuzzSkito technician treating lawn edges and garden borders for ticks"
@@ -122,8 +122,12 @@ export default function ThornhillTickPage() {
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why Tick Spray Is Crucial in Thornhill</h2>
-          <p>Thornhill straddles the municipal boundary between Vaughan and Markham, but its ravine network doesn't follow administrative lines. German Mills Creek and its tributary ravines run through the Markham side of Thornhill, creating a continuous forested corridor that is documented blacklegged tick habitat. Pomona Mills Park and the naturalized ravine sections adjacent to Royal Orchard and Aileen-Willowbrook represent the highest-risk areas on the Vaughan side. York Region Public Health's annual tick monitoring covers both portions of Thornhill.</p>
+          <p>Thornhill straddles the municipal boundary between Vaughan and Markham, but its ravine network doesn't follow administrative lines. German Mills Creek and its tributary ravines run through the Markham side of Thornhill, creating a continuous forested corridor that is blacklegged tick habitat. Pomona Mills Park and the naturalized ravine sections adjacent to Royal Orchard and Aileen-Willowbrook add more of that habitat.</p>
           <p>What makes Thornhill's tick risk particularly worth addressing is the proximity of affected ravines to densely developed residential streets. Homes in Royal Orchard and Aileen-Willowbrook with rear lots backing onto ravine sections face the most direct exposure. Ticks don't need a large forested area to establish — even a narrow ravine corridor or a naturalized buffer strip between properties is sufficient habitat for questing nymphs in May and June. That yard-ravine edge is where we focus the barrier spray.</p>
+
+          <h2>Thornhill Tick Facts From York Region Public Health</h2>
+          <p>Thornhill lies in two cities, Vaughan and Markham, but in one region, and York Region Public Health says all of York Region is now an estimated Lyme disease risk area. According to the Region, more than 20 percent of blacklegged ticks in York Region carry the Lyme bacteria. Its Fight the Bite fact sheet adds that nymphs (adolescent ticks) are no bigger than a poppy seed, which is why a careful check after time outdoors matters.</p>
+          <p className="text-sm text-gray-500">Sources: <a href="https://www.york.ca/health/infectious-diseases-and-prevention/lyme-disease" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">York Region, Lyme disease</a> · <a href="https://www.york.ca/media/51666/download" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">York Region, Fight the Bite fact sheet (PDF)</a></p>
 
           <h2>Tick Hotspots in Thornhill</h2>
           <ul>

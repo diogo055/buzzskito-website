@@ -35,8 +35,8 @@ const FAQS = [
     answer: "Fairy Lake — the central water feature in Acton — is a warm, shallow reservoir with extensive marshy edges that sustain active mosquito breeding through the summer. Homes around Acton that are within a few blocks of the lake or the Black Creek system feeding it consistently experience heavy mosquito pressure from late May onward. The Acton Memorial Park and recreation areas around the lake add further shaded resting habitat. Properties near Fairy Lake benefit from an early May first treatment before peak emergence.",
   },
   {
-    question: 'Why does Halton Hills have such high tick and mosquito risk compared to other GTA municipalities?',
-    answer: "Halton Hills sits at the intersection of three ecological systems that independently drive pest pressure: the Credit River watershed, the Niagara Escarpment corridor, and the Silver Creek conservation area network. Each of these systems provides standing water, shaded forest habitat, and continuous movement of pest populations from natural areas into residential communities. The municipality has among the highest Conservation Halton land coverage of any GTA municipality, which means there are relatively few properties that are far from a natural pest source area.",
+    question: 'What drives tick and mosquito pressure in Halton Hills?',
+    answer: "Halton Hills sits at the intersection of three ecological systems that independently drive pest pressure: the Credit River watershed, the Niagara Escarpment corridor, and the Silver Creek conservation area network. Each of these systems provides standing water, shaded forest habitat, and continuous movement of pest populations from natural areas into residential communities, so relatively few properties are far from a natural pest source area. Silver Creek and Limehouse Conservation Areas are run by Credit Valley Conservation, and Halton Region Public Health counts all of Halton, Halton Hills included, as an established blacklegged tick risk area.",
   },
   {
     question: 'What is the mosquito season length in Halton Hills?',
@@ -120,7 +120,11 @@ export default function HaltonHillsMosquitoPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why Mosquito Pressure Is High in Halton Hills</h2>
           <p>Halton Hills encompasses Georgetown and Acton as well as the surrounding rural townships of Esquesing and Ballinafad — a broad municipality where conservation lands make up a higher percentage of total area than almost any other in the GTA. The Credit River runs through Georgetown and south toward Milton, while Silver Creek and its conservation area network drain through the northern parts of the municipality. In Acton, Fairy Lake and Black Creek create a focal point of water-associated mosquito activity in the heart of the community.</p>
-          <p>The Niagara Escarpment trail system runs along the western boundary of Halton Hills, and the network of pond and wetland features within Conservation Halton lands sustains mosquito populations that move freely into residential areas throughout the season. Properties on Halton Hills&apos; many rural roads and semi-rural residential streets face some of the highest sustained mosquito pressure in the western GTA — matched only by Caledon and the Credit River communities to the north.</p>
+          <p>The Niagara Escarpment trail system runs along the western boundary of Halton Hills, and the network of pond and wetland features within the municipality&apos;s conservation areas, including Credit Valley Conservation&apos;s Silver Creek and Limehouse, sustains mosquito populations that move freely into residential areas throughout the season. Properties on Halton Hills&apos; many rural roads and semi-rural residential streets face steady mosquito pressure through the season.</p>
+
+          <h2>What Halton Region Reports for Halton Hills</h2>
+          <p>Halton Region Public Health found West Nile virus in one mosquito pool trapped in Halton Hills in 2026 and has reported no human cases among Halton Hills residents in 2024, 2025 or 2026. The Region made 159 larvicide applications to standing water in Halton Hills in 2026, all on public land. Halton directs reports of standing water on private property to the Town&apos;s by-law office, and it asks residents to empty water-filled containers and keep eaves and gutters clean.</p>
+          <p className="text-sm text-gray-500">Sources: <a href="https://www.halton.ca/For-Residents/Immunizations-Preventable-Disease/Diseases-Infections/West-Nile-Virus" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Halton Region, West Nile virus</a> · <a href="https://www.halton.ca/news/media-releases/2026/notice-of-pesticide-use-may-2026" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Halton Region, notice of pesticide use (May 2026)</a></p>
 
           <h2>Halton Hills Communities We Serve</h2>
           <p>BuzzSkito provides mosquito control across all Halton Hills communities, including:</p>
@@ -141,7 +145,7 @@ export default function HaltonHillsMosquitoPage() {
           </ul>
 
           <h2>Also Providing Tick Control in Halton Hills</h2>
-          <p>Halton Hills has among the highest tick risk in the western GTA, with Niagara Escarpment trail systems and Conservation Halton lands throughout the municipality providing extensive blacklegged tick habitat. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">Halton Hills tick spray service</Link> — tick control is $497 per season (5 sprays) when added to any mosquito plan.</p>
+          <p>Halton Hills is part of an established blacklegged tick risk area that takes in all of Halton, and Niagara Escarpment trail systems and conservation lands throughout the municipality provide extensive blacklegged tick habitat. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">Halton Hills tick spray service</Link> — tick control is $497 per season (5 sprays) when added to any mosquito plan.</p>
 
 
           <CityPriceCard city={CITY} service="mosquito" location="price_card_mid" />

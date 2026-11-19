@@ -13,7 +13,7 @@ export const metadata: Metadata = buildMetadata({
   // TITLE NOTE (Nov 7, 2026, owner: "if you find that having 2026 on these titles is bad, then obviously strip it"): was 'Halton Hills Tick Control 2026 · From $99 · 150+ Five-Star Reviews'; dropped "2026" (stale from Jan 1); no city searches on record yet; default word order; fits 60 rendered; price is in this title.
   title: 'Tick Control Halton Hills: Yard Spray From $99',
   description:
-    "Halton Hills tick spray for Niagara Escarpment, Bruce Trail, and Hilton Falls Conservation properties. Licensed operator, from $99/treatment, rain-back guarantee. Georgetown, Acton, Glen Williams, Limehouse. Call (289) 216-5030.",
+    "Halton Hills tick spray for Niagara Escarpment, Bruce Trail, and Silver Creek properties. Licensed operator, from $99/treatment, rain-back guarantee. Georgetown, Acton, Glen Williams, Limehouse. Call (289) 216-5030.",
   canonical: '/halton-hills-tick-spray',
 })
 
@@ -22,15 +22,15 @@ const NEIGHBOURHOODS = ['Georgetown','Acton','Glen Williams','Norval','Limehouse
 const FAQS = [
   {
     question: 'How much does tick spray cost in Halton Hills?',
-    answer: 'Tick spray in Halton Hills starts from $99 per application. Given the high tick activity near the Credit River, Niagara Escarpment, and Hilton Falls Conservation Area, most Halton Hills properties are better served by the full seasonal program — five treatments spread roughly monthly from May through September — at $597 standalone, or $497 when added to any mosquito plan. No contracts. Call (289) 216-5030.',
+    answer: 'Tick spray in Halton Hills starts from $99 per application. Because all of Halton Region is an established blacklegged tick risk area, most Halton Hills properties are better served by the full seasonal program — five treatments spread roughly monthly from May through September — at $597 standalone, or $497 when added to any mosquito plan. No contracts. Call (289) 216-5030.',
   },
   {
-    question: 'Why does Halton Hills have such high tick risk compared to other GTA communities?',
-    answer: 'Halton Hills sits at the convergence of three significant natural systems: the Credit River watershed, Silver Creek, and the Niagara Escarpment. All three host well-established blacklegged tick populations confirmed by Halton Region Public Health. Unlike communities where ticks are limited to one ravine or creek, Halton Hills has multiple overlapping tick corridors covering both Georgetown and Acton, making it one of the consistently highest-risk areas in the western GTA.',
+    question: 'Why is tick risk a concern across Halton Hills?',
+    answer: 'Halton Hills sits at the convergence of three significant natural systems: the Credit River watershed, Silver Creek, and the Niagara Escarpment. Halton Region Public Health has collected blacklegged ticks in all three, at Glen Williams Park, Silver Creek Conservation Area and Limehouse Conservation Area. Unlike communities where ticks are limited to one ravine or creek, Halton Hills has multiple overlapping tick corridors covering both Georgetown and Acton.',
   },
   {
     question: 'Is Acton as high-risk for ticks as Georgetown?',
-    answer: 'Yes. Acton sits near natural areas in the northern part of Halton Hills, with agricultural and forested land edges that support tick populations. While Georgetown\'s risk is tied to the Credit River and Silver Creek, Acton\'s risk comes from its rural fringe, farm field edges, and proximity to natural corridors. Both communities fall within Halton Region\'s tick awareness zone, and residents of both areas should consider professional tick control for their properties.',
+    answer: 'Yes. Acton sits near natural areas in the northern part of Halton Hills, with agricultural and forested land edges that support tick populations. While Georgetown\'s risk is tied to the Credit River and Silver Creek, Acton\'s risk comes from its rural fringe, farm field edges, and proximity to natural corridors. Both communities are part of an established blacklegged tick risk area, which Halton Region Public Health says covers all of Halton, and in 2025 Halton found a tick carrying the Lyme bacteria at Acton Rotary Park. Residents of both areas should consider professional tick control for their properties.',
   },
   {
     question: 'How does professional tick spray work differently from store-bought tick repellent?',
@@ -52,7 +52,7 @@ export default function HaltonHillsTickPage() {
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Tick Control', href: '/tick-control' }, { label: CITY }]}
         title={<>{CITY} Tick Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>Licensed Ontario pesticide operator, with tick treatments applied according to label directions. Halton Hills has among the highest tick risk in the western GTA, with established blacklegged tick populations along the Credit River, Silver Creek, and the Niagara Escarpment trail system.</>}
+        subtitle={<>Licensed Ontario pesticide operator, with tick treatments applied according to label directions. Halton Hills sits in an established blacklegged tick risk area that covers all of Halton, with tick habitat along the Credit River, Silver Creek, and the Niagara Escarpment trail system.</>}
         image="/spray-front.webp"
         imageAlt="BuzzSkito technician treating lawn edges and garden borders for ticks"
       />
@@ -122,8 +122,12 @@ export default function HaltonHillsTickPage() {
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why Tick Spray Is Crucial in Halton Hills</h2>
-          <p>Halton Hills is one of the most tick-exposed municipalities in the western GTA, and Halton Region Public Health consistently flags it as a high-risk area. The reason is geography: Halton Hills is crossed by the Credit River from north to south, intersected by Silver Creek, and bordered on the west by the Niagara Escarpment — three separate natural systems that all independently host established blacklegged tick populations. The convergence of these habitats means tick exposure isn't limited to one corner of the municipality. It's region-wide.</p>
-          <p>For Georgetown residents near the Credit River or Silver Creek, and for Acton residents near rural field edges, the risk is not hypothetical. Halton Region's tick surveillance program documents blacklegged tick activity across these areas every season. Ticks in Halton Hills are active from early April through late November — a full eight months of exposure if untreated. For families with children or pets who use the backyard regularly, we recommend a full seasonal barrier program — five treatments spread roughly monthly from May through September. Each application leaves a temporary residual, and deer, mice, and birds keep reintroducing ticks from the escarpment woodlots and river corridors next door, so the barrier has to be renewed rather than set once. Monthly visits keep treatments on schedule through the May–July nymph peak and into autumn, when adult ticks re-emerge and stay active into November in mild years. Public Health Ontario notes nymphs are poppy-seed sized and easy to miss, so do a tick check after time outdoors.</p>
+          <p>Like all of Halton, Halton Hills is an established blacklegged tick risk area, and geography explains why ticks reach yards across the municipality. Halton Hills is crossed by the Credit River from north to south, intersected by Silver Creek, and bordered on the west by the Niagara Escarpment — three separate natural systems that each offer blacklegged tick habitat. The convergence of these habitats means tick exposure isn&apos;t limited to one corner of the municipality. It&apos;s region-wide.</p>
+          <p>For Georgetown residents near the Credit River or Silver Creek, and for Acton residents near rural field edges, the risk is not hypothetical. Halton Region's tick surveillance program documents blacklegged tick activity across these areas every season. Ticks in Halton Hills are active from early April through late November — a full eight months of exposure if untreated. For families with children or pets who use the backyard regularly, we recommend a full seasonal barrier program — five treatments spread roughly monthly from May through September. Each application leaves a temporary residual, and deer, mice, and birds keep reintroducing ticks from the escarpment woodlots and river corridors next door, so the barrier has to be renewed rather than set once. Monthly visits keep treatments on schedule through the May–July nymph peak and into autumn, when adult ticks re-emerge and stay active into November in mild years. Nymphs are poppy-seed sized and easy to miss; Halton Region Public Health tells residents to check for ticks after time outdoors.</p>
+
+          <h2>Tick Facts From Halton Region for Halton Hills</h2>
+          <p>Halton Region Public Health&apos;s tick dragging has found blacklegged ticks carrying the Lyme bacteria at Silver Creek Conservation Area in 2024 (1 of 10 collected) and again in 2026 (1 of 5). In Acton, 1 of the 3 ticks Halton collected at Acton Rotary Park in 2025 tested positive. Some Halton Hills sites, such as Limehouse Conservation Area and Cedarvale Park in 2026, turned up no ticks at all, but Halton warns that an empty drag does not confirm an area is tick-free or without risk.</p>
+          <p className="text-sm text-gray-500">Sources: <a href="https://www.halton.ca/For-Residents/Immunizations-Preventable-Disease/Diseases-Infections/Lyme-Disease" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Halton Region, Lyme disease</a> · <a href={'https://edmweb.halton.ca/OnBaseAgendaOnline/Documents/ViewDocument/MO-08-25-Vector%20Borne%20Disease%20%20Program%20Update.docx.pdf?meetingId=4550&documentType=Minutes&itemId=129876&publishId=83663&isSection=false'} target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Halton Regional Council report MO-08-25 (July 2025)</a></p>
 
           <h2>Tick Hotspots in Halton Hills</h2>
           <ul>

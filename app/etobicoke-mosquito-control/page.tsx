@@ -153,6 +153,10 @@ export default function EtobicokeMosquitoPage() {
           <p>Etobicoke is defined by water. The Humber River — one of Toronto&apos;s widest and most ecologically significant river corridors — runs along its eastern boundary, with a vast floodplain forest and ravine system that stretches from Rexdale in the north through the Kingsway and Humber Valley to the lake. The Etobicoke Creek runs through the west side, and Mimico Creek drains through the south, both feeding into Lake Ontario across a low-lying, wetland-influenced shoreline. These three creek systems, combined with Centennial Park&apos;s forest blocks and the Lake Ontario shoreline parks, make Etobicoke one of Toronto&apos;s most mosquito-active districts.</p>
           <p>For Etobicoke homeowners, the challenge is that many of these natural systems are beloved green amenities — and they&apos;re not going away. The practical solution is professional barrier spray on your own property: treating all vegetation, shrubs, and fence-line plantings creates a treated zone where mosquitoes rest, and the treatment is repeated on a schedule through the season.</p>
 
+          <h2>West Nile Facts for Etobicoke From Toronto Public Health</h2>
+          <p>Positive West Nile batches turned up at traps in every part of Toronto in 2026: 33 in all, at 15 different trap sites, according to Public Health Ontario data to November 15, 2026. The count changes from summer to summer, with 42 positive batches in 2024 and 55 in 2025. To cut mosquito breeding, the City treats its catch basins with methoprene and <em>Bacillus sphaericus</em> and uses Bti in other areas. Toronto Public Health also asks homeowners to remove standing water from their property, where mosquitoes can breed.</p>
+          <p className="text-sm text-gray-500">Sources: <a href="https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/vbd-tool" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Public Health Ontario, Vector-Borne Disease Tool</a> · <a href="https://www.toronto.ca/community-people/health-wellness-care/health-programs-advice/west-nile-virus/city-of-toronto-larviciding-program/" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">City of Toronto, larviciding program</a> · <a href="https://www.toronto.ca/community-people/health-wellness-care/health-programs-advice/west-nile-virus/reducing-the-risk-of-west-nile-virus/" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Toronto Public Health, reducing the risk of West Nile virus</a></p>
+
           <h2>Etobicoke Neighbourhoods We Serve</h2>
           <p>BuzzSkito provides mosquito control across all Etobicoke communities, including:</p>
           <div className="not-prose flex flex-wrap gap-2 mb-6">
@@ -173,7 +177,7 @@ export default function EtobicokeMosquitoPage() {
           </ul>
 
           <h2>Also Providing Tick Control in Etobicoke</h2>
-          <p>The Humber River valley and Centennial Park forest areas in Etobicoke harbour blacklegged tick populations that have expanded in recent years. If your property backs onto the ravine or is near parkland, tick risk is real alongside mosquito pressure. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">Etobicoke tick spray service</Link> — tick control is $497 per season (5 sprays) when added to any mosquito plan.</p>
+          <p>Blacklegged ticks are less common in Etobicoke than in the east end of the city, but Toronto Public Health has found them in Etobicoke parks along the Humber River, including one carrying the Lyme bacterium at Humberwood Park in spring 2022, and it considers the whole city an estimated Lyme risk area. If your property backs onto the ravine or is near parkland, tick risk is real alongside mosquito pressure. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">Etobicoke tick spray service</Link> — tick control is $497 per season (5 sprays) when added to any mosquito plan.</p>
 
 
           <CityPriceCard city={CITY} service="mosquito" location="price_card_mid" />
@@ -229,7 +233,7 @@ export default function EtobicokeMosquitoPage() {
             <li><strong>Confirm the guarantee in writing.</strong> If rain arrives within an hour of spraying, the product has not cured. A reputable company re-treats at no charge; anyone who will not put that in writing is a risk.</li>
             <li><strong>Compare single-treatment pricing, not just season totals.</strong> The per-visit number is what reveals real value once you divide a package by its visit count.</li>
             <li><strong>Ask about Etobicoke specifically.</strong> A technician who can talk about the Humber River valley ravines, Mimico and Etobicoke Creek margins, and Centennial Park&apos;s forest blocks is treating your property, not reading a script.</li>
-            <li><strong>Check for a tick add-on.</strong> Etobicoke has established blacklegged tick populations near ravine and parkland vegetation. Bundling both on one visit costs less than booking them separately.</li>
+            <li><strong>Check for a tick add-on.</strong> Blacklegged ticks have been found in Etobicoke parks along the Humber. Bundling both on one visit costs less than booking them separately.</li>
           </ol>
 
           <h2>Why Professional Treatment Outperforms DIY</h2>

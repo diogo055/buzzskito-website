@@ -22,11 +22,11 @@ const NEIGHBOURHOODS = ['Don Mills','Willowdale','Lawrence Park','York Mills','B
 const FAQS = [
   {
     question: 'How much does tick spray cost in North York?',
-    answer: 'Tick spray in North York starts from $99 for a single application. Properties near the Don Valley, Serena Gundy Park, or Earl Bales Park benefit most from the full season programme: five treatments spread roughly monthly from May through September, $597 on its own or $497 when added to a mosquito plan. Ravine wildlife keeps carrying new ticks into backyards all season, so the barrier has to be renewed monthly rather than applied once or twice. No contracts. Call (289) 216-5030.',
+    answer: 'Tick spray in North York starts from $99 for a single application. Properties that back onto the Don Valley or another wooded ravine benefit most from the full season programme: five treatments spread roughly monthly from May through September, $597 on its own or $497 when added to a mosquito plan. Ravine wildlife keeps carrying new ticks into backyards all season, so the barrier has to be renewed monthly rather than applied once or twice. No contracts. Call (289) 216-5030.',
   },
   {
-    question: 'Which North York parks and ravines have confirmed tick populations?',
-    answer: 'Toronto Public Health\'s tick surveillance program has documented blacklegged ticks throughout the Don Valley ravine system in North York. Serena Gundy Park, Sunnybrook Park, Wilket Creek Park, and Burke Brook ravine are all confirmed tick habitat areas. Homeowners in Don Mills, Lawrence Park, and York Mills who back onto these ravines face annual tick exposure from spring through late fall.',
+    question: 'Where has Toronto Public Health found ticks in North York?',
+    answer: 'Its dragging has found blacklegged ticks at Charles Sauriol Conservation Area in the East Don valley: one in 2018, one in 2023 and two in fall 2025, none of them carrying the Lyme bacterium. It found no ticks at Sunnybrook Park, Wilket Creek Park or Earl Bales Park in the years it checked them. Because all of Toronto is an estimated risk area and ticks could be present outside the areas it has identified, yards in Don Mills, Lawrence Park and York Mills that back onto a wooded ravine are still worth treating at the edge.',
   },
   {
     question: 'Can I get ticks in a North York neighbourhood that feels urban?',
@@ -52,7 +52,7 @@ export default function NorthYorkTickPage() {
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Tick Control', href: '/tick-control' }, { label: CITY }]}
         title={<>{CITY} Tick Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>Licensed Ontario pesticide operator treating North York yards where the Don Valley ravine system — Serena Gundy Park, Sunnybrook Park, and Wilket Creek — brings blacklegged tick habitat into the heart of Toronto. Treatments applied according to label directions.</>}
+        subtitle={<>Licensed Ontario pesticide operator treating North York yards along the Don Valley ravines, in a city Toronto Public Health counts as an estimated Lyme disease risk area. Treatments applied according to label directions.</>}
         image="/spray-front.webp"
         imageAlt="BuzzSkito technician treating lawn edges and garden borders for ticks"
       />
@@ -121,16 +121,19 @@ export default function NorthYorkTickPage() {
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why Tick Spray Is Crucial in North York</h2>
-          <p>North York is home to Toronto's most extensive ravine network. The Don Valley ravine system threads through Willowdale, Don Mills, Lawrence Park, and York Mills, connecting Serena Gundy Park, Sunnybrook Park, and Wilket Creek Park in a continuous green corridor. Toronto Public Health includes these ravines in its tick surveillance program, and blacklegged tick populations are well documented throughout. Homeowners whose properties back onto these ravines face real annual tick exposure — not a theoretical risk, but a documented one.</p>
-          <p>The Don Valley ravines attract abundant wildlife that serve as tick hosts: white-tailed deer, raccoons, and red foxes are common, and each carries ticks that can drop off in ravine-adjacent backyards. Burke Brook ravine in Lawrence Park is particularly notable — it runs through one of Toronto's most sought-after residential neighbourhoods, and tick activity there is confirmed. Because that wildlife keeps reintroducing ticks from the ravine all season, the barrier has to be renewed rather than applied once or twice. Professional barrier spray on a monthly cadence from May through September — five treatments across the season — is how BuzzSkito treats the yard zones where North York ticks wait.</p>
+          <p>North York is home to Toronto's most extensive ravine network. The Don Valley ravine system threads through Willowdale, Don Mills, Lawrence Park, and York Mills, connecting Serena Gundy Park, Sunnybrook Park, and Wilket Creek Park in a continuous green corridor. Toronto Public Health includes several of these ravines in its tick surveillance program, and its finds in North York have been few so far. Even so, homeowners whose properties back onto these ravines have the kind of wooded, leafy edge where blacklegged ticks live.</p>
+          <p>The Don Valley ravines attract abundant wildlife that serve as tick hosts: white-tailed deer, raccoons, and red foxes are common, and each carries ticks that can drop off in ravine-adjacent backyards. Because that wildlife keeps reintroducing ticks from the ravine all season, the barrier has to be renewed rather than applied once or twice. Professional barrier spray on a monthly cadence from May through September — five treatments across the season — is how BuzzSkito treats the yard zones where North York ticks wait.</p>
 
-          <h2>Tick Hotspots in North York</h2>
+          <h2>What Toronto Public Health Has Found in North York</h2>
+          <p>In its fall 2025 tick dragging, Toronto Public Health found two blacklegged ticks at Charles Sauriol Conservation Area in the East Don valley, and both tested negative for the Lyme bacterium. That is far fewer than the 115 ticks it collected at Scarborough sites the same fall, but Toronto Public Health still lists the whole city as an estimated risk area for Lyme disease and rates that risk as low but increasing. On ravine walks it advises long pants and sleeves, insect repellent and staying in the centre of the trail, followed by a shower and a full-body tick check.</p>
+          <p className="text-sm text-gray-500">Sources: <a href="https://www.toronto.ca/community-people/health-wellness-care/health-programs-advice/lyme-disease/blacklegged-tick-surveillance-results/" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Toronto Public Health, blacklegged tick surveillance results</a> · <a href="https://www.toronto.ca/community-people/health-wellness-care/health-programs-advice/lyme-disease/" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Toronto Public Health, Lyme disease</a></p>
+
+          <h2>Where to Watch for Ticks in North York</h2>
           <ul>
-            <li>Serena Gundy Park and Wilket Creek (Don Mills and Bayview Village)</li>
-            <li>Sunnybrook Park ravine sections (York Mills and Lawrence Park)</li>
-            <li>Burke Brook ravine corridor (Lawrence Park)</li>
+            <li>East Don valley around Charles Sauriol Conservation Area</li>
             <li>Don Valley wooded lot edges throughout North York</li>
             <li>Parkwoods and Don Mills forested margins</li>
+            <li>Leaf litter, brush and tall grass where a backyard meets a ravine</li>
           </ul>
 
           <h2>North York Neighbourhoods We Serve for Tick Control</h2>
@@ -152,7 +155,7 @@ export default function NorthYorkTickPage() {
 
 
           <h2>Compare North York Pest Control Options</h2>
-          <p>North York has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-north-york" className="text-brand-700 hover:underline font-semibold">Pest Control in North York</Link> for why a mosquito and tick specialist is a better fit than a general pest company for ravine-edge yards. See our full mosquito programme for the same property: <Link href="/north-york-mosquito-control" className="text-brand-700 hover:underline font-semibold">Mosquito Control in North York</Link>.</p>
+          <p>Toronto Public Health has found blacklegged ticks in North York&apos;s East Don valley — see our specialist pest control guide: <Link href="/pest-control-north-york" className="text-brand-700 hover:underline font-semibold">Pest Control in North York</Link> for why a mosquito and tick specialist is a better fit than a general pest company for ravine-edge yards. See our full mosquito programme for the same property: <Link href="/north-york-mosquito-control" className="text-brand-700 hover:underline font-semibold">Mosquito Control in North York</Link>.</p>
           <h2>Related Tick Control Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>

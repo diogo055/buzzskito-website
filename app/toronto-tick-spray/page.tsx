@@ -14,7 +14,7 @@ export const metadata: Metadata = buildMetadata({
   // TITLE NOTE (Nov 5, 2026, owner's OK on the Search Console title audit): was 'Toronto Tick Control 2026 · From $99 · Licensed Operator'; searchers type "tick control toronto"; dropped "2026"; price kept here because the description has none.
   title: 'Tick Control Toronto: Yard Tick Spray From $99',
   description:
-    'Toronto tick spray · 150+ five-star reviews. Targets blacklegged ticks in ravine yards — High Park, Don Valley, Rosedale. Rain-back guarantee. (289) 216-5030.',
+    'Toronto tick spray · 150+ five-star reviews. Targets blacklegged ticks in ravine yards, from the Don Valley to the Rouge. Rain-back guarantee. (289) 216-5030.',
   canonical: '/toronto-tick-spray',
 })
 
@@ -32,27 +32,27 @@ const NEIGHBOURHOOD_LINKS: Record<string, string> = {
 const FAQS = [
   {
     question: 'How much does tick spray cost in Toronto?',
-    answer: 'Tick spray in Toronto starts from $99 per application. A full season is $597 standalone — five treatments spread across May through September — or $497 when added to any BuzzSkito mosquito plan, a $100 saving. Properties near the Don Valley, Humber River, or High Park benefit most from the full five-visit season, because ravine wildlife keeps carrying ticks back onto the property all summer. No contracts. Call (289) 216-5030 for a free Toronto tick spray quote.',
+    answer: 'Tick spray in Toronto starts from $99 per application. A full season is $597 standalone — five treatments spread across May through September — or $497 when added to any BuzzSkito mosquito plan, a $100 saving. Properties that back onto Highland Creek, Rouge Park or another wooded ravine benefit most from the full five-visit season, because ravine wildlife keeps carrying ticks back onto the property all summer. No contracts. Call (289) 216-5030 for a free Toronto tick spray quote.',
   },
   {
     question: 'Are there really ticks in Toronto?',
-    answer: "Yes. Blacklegged ticks are established in Toronto's ravine system, High Park, and many other green spaces. Toronto Public Health conducts annual tick surveillance and has confirmed positive blacklegged tick populations in High Park, the Don Valley, Humber Valley, and Scarborough's Highland Creek and Rouge River areas. Lyme disease is a reportable illness in Ontario and confirmed Toronto cases have increased each year.",
+    answer: "Yes. Toronto Public Health says blacklegged ticks are established in Toronto and counts the whole city as an estimated risk area for Lyme disease. Its highest counts in fall 2025 came from Scarborough's Highland Creek and Rouge Park. Lyme disease is a reportable illness in Ontario, and Toronto's reported cases more than doubled between 2022 and 2025 (from 122 to 259, per Public Health Ontario data), though some of those people may have been bitten outside the city.",
   },
   {
     question: 'Which Toronto neighbourhoods have the highest tick risk?',
-    answer: "Properties adjacent to Toronto's ravine system carry the highest tick exposure risk. This includes areas near the Don Valley (Leaside, East York, Don Mills), Humber Valley (Etobicoke, Islington), High Park (Roncesvalles, Parkdale), Highland Creek and Scarborough Bluffs (Cliffside, Guildwood), and any neighbourhood backing onto wooded or naturalized green space. Even a thin strip of ravine vegetation between a backyard fence and a trail can host tick populations.",
+    answer: "In Toronto Public Health's fall 2025 tick dragging, Scarborough sites such as Highland Creek and Rouge Park produced 115 of the 133 blacklegged ticks collected, including every tick that carried the Lyme bacterium, so the east-end neighbourhoods beside those ravines, such as Highland Creek, Guildwood and Rouge, carry the most risk. A few ticks have also turned up along the Don and Humber valleys. All of Toronto is an estimated risk area, and blacklegged ticks live in wooded or bushy areas with leaf litter or tall grass, so any neighbourhood backing onto wooded or naturalized green space carries some risk. Even a thin strip of ravine vegetation between a backyard fence and a trail can host tick populations.",
   },
   {
     question: 'What tick species are found in Toronto?',
-    answer: "The blacklegged tick (Ixodes scapularis) is the species of primary concern in Toronto — it's the only species that transmits Lyme disease, and it's the species Toronto Public Health monitors. American dog ticks are also present in Toronto's parks and green spaces but rarely transmit Lyme disease to humans.",
+    answer: "The blacklegged tick (Ixodes scapularis) is the species of primary concern in Toronto — it's the only species that transmits Lyme disease, and it's the species Toronto Public Health monitors. American dog ticks are also present in Toronto's parks and green spaces, but they do not transmit Lyme disease: Toronto Public Health says the blacklegged tick is the only type of tick that can.",
   },
   {
     question: 'When is tick season in Toronto?',
-    answer: "Blacklegged tick nymphs — the life stage responsible for most Lyme disease transmissions in Ontario — are most active from May through July. Adult ticks are active from October through November and again in early spring (March–April) when temperatures rise above 4°C. Nymphs are the most dangerous stage because they're tiny (poppy-seed sized) and often go undetected during tick checks. Our seasonal program treats monthly from May through September, so the peak nymph window is covered from start to finish rather than sampled once.",
+    answer: "Blacklegged tick nymphs — the life stage responsible for most Lyme disease transmissions in Ontario — are most active from May through July. Adult ticks are active from October through November and again in early spring (March–April). Ticks can be active whenever the temperature stays above freezing and the ground is free of snow. Nymphs are the most dangerous stage because they're tiny (poppy-seed sized) and often go undetected during tick checks. Our seasonal program treats monthly from May through September, so the peak nymph window is covered from start to finish rather than sampled once.",
   },
   {
     question: 'How many tick treatments does my Toronto property need?',
-    answer: "Five treatments per season — roughly one a month from May through September. The residual on treated vegetation wears down over a few weeks, so monthly visits keep the treated zones renewed instead of leaving a multi-month gap through peak nymph season in May–July. The later visits continue treatments into the adult tick surge, which runs through autumn and into November in mild years. Public Health Ontario notes nymphs are poppy-seed sized and easy to miss, so do a tick check after time outdoors. Repeat applications matter most in Don Valley, Humber Valley, and Scarborough ravine zones, where deer, mice, and birds continually reintroduce ticks from the adjacent woodland. A full season is $597 standalone, or $497 added to any mosquito plan, plus HST; single treatments start from $99 on a standard lot.",
+    answer: "Five treatments per season — roughly one a month from May through September. The residual on treated vegetation wears down over a few weeks, so monthly visits keep the treated zones renewed instead of leaving a multi-month gap through peak nymph season in May–July. The later visits continue treatments into the adult tick surge, which runs through autumn and into November in mild years. Toronto Public Health notes that nymphs are smaller than 2 mm, small enough that people often don't notice them, so do a tick check after time outdoors. Repeat applications matter most on ravine-edge lots, where deer, mice, and birds continually reintroduce ticks from the adjacent woodland. A full season is $597 standalone, or $497 added to any mosquito plan, plus HST; single treatments start from $99 on a standard lot.",
   },
   {
     question: 'How is tick spray applied in Toronto near ravines and parks?',
@@ -85,7 +85,7 @@ export default function TorontoTickSprayPage() {
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Tick Control', href: '/tick-control' }, { label: CITY }]}
         title={<>Toronto Tick Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>Licensed Ontario pesticide operator treating the ravine-edge yards where blacklegged ticks are established, from High Park to the Don Valley. Treatments applied according to label directions.</>}
+        subtitle={<>Licensed Ontario pesticide operator treating ravine-edge yards across Toronto, all of which Toronto Public Health counts as an estimated Lyme disease risk area. Treatments applied according to label directions.</>}
         service="tick"
         image="/spray-front.webp"
         imageAlt="BuzzSkito technician treating lawn edges and garden borders for ticks"
@@ -133,7 +133,7 @@ export default function TorontoTickSprayPage() {
                   ['Licence', PROMISES.licence],
                   ['Re-entry', 'Stay off treated areas until the spray has dried, as the product label directs'],
                   ['Recommended schedule', '5 treatments per season for ravine- or conservation-area-adjacent properties'],
-                  ['Highest tick zones', 'Don Valley · Humber River · High Park · Rouge National Urban Park · Highland Creek'],
+                  ['Highest tick zones', 'Highland Creek · Rouge Park · Grey Abbey Park, all in Scarborough (Toronto Public Health tick dragging, fall 2025)'],
                   ['Lyme disease vector', 'Yes — blacklegged tick populations confirmed by Public Health Ontario'],
                   ['Application zones', 'Lawn-to-woods edge · leaf litter · garden bed perimeters · fence-line vegetation · woodpiles'],
                   ['Booking lead time', 'Same-week service typical'],
@@ -190,11 +190,15 @@ export default function TorontoTickSprayPage() {
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Ticks in Toronto: The Real Risk</h2>
-          <p>Toronto Public Health conducts annual tick surveillance and has confirmed established blacklegged tick populations in High Park, the Don Valley, and other ravine-adjacent areas. Lyme disease is a reportable illness in Ontario, and confirmed case numbers have increased steadily as tick populations expand across Southern Ontario.</p>
+          <p>Public Health Ontario data show Lyme disease cases reported for Toronto rose from 122 in 2022 to 259 in 2025. Some of those people may have been bitten outside the city, but blacklegged ticks are established here as well, and Toronto Public Health rates the risk of Lyme disease in Toronto as low but increasing.</p>
           <p>The key insight for Toronto homeowners: ticks don't need a forest. They're found at the edge of any lawn that backs onto naturalized green space — including the thin strip of vegetation between a backyard fence and a ravine trail. If your property has any wooded edge, ravine view, or backs onto a park, seasonal tick treatment is a reasonable precaution.</p>
 
+          <h2>Tick Facts From Toronto Public Health</h2>
+          <p>Toronto Public Health counts all of Toronto as an estimated risk area for Lyme disease, and it checks city parks for ticks by dragging in the fall, when adult ticks are active. In fall 2025 it collected 133 blacklegged ticks, and 41 of them carried the bacterium that causes Lyme disease. Most of them came from Scarborough sites such as Highland Creek, Rouge Park and Grey Abbey Park, according to its results. Its advice is to check yourself, your children and your pets for ticks after time in wooded or brushy areas, and to remove any tick you find as soon as possible.</p>
+          <p className="text-sm text-gray-500">Sources: <a href="https://www.toronto.ca/community-people/health-wellness-care/health-programs-advice/lyme-disease/" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Toronto Public Health, Lyme disease</a> · <a href="https://www.toronto.ca/community-people/health-wellness-care/health-programs-advice/lyme-disease/blacklegged-tick-surveillance-results/" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Toronto Public Health, blacklegged tick surveillance results</a> · <a href="https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/vbd-tool" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Public Health Ontario, Vector-Borne Disease Tool</a></p>
+
           <h2>Toronto Tick Season: When Is the Risk Highest?</h2>
-          <p>Ticks don't disappear in winter — they go dormant and become active again whenever temperatures rise above 4°C. In Toronto's climate, that means tick pressure runs from the first spring thaw right through to late autumn — here is how the risk shifts across the season:</p>
+          <p>Ticks don't disappear in winter — they go dormant and can become active again whenever the temperature stays above freezing and the ground is free of snow. In Toronto's climate, that means tick pressure runs from the first spring thaw right through to late autumn — here is how the risk shifts across the season:</p>
           <div className="not-prose overflow-x-auto my-6">
             <table className="w-full text-sm border-collapse">
               <thead>
@@ -260,12 +264,11 @@ export default function TorontoTickSprayPage() {
           </div>
           <p>The acaricide residual is temporary — deer, mice, and birds moving in from the ravines reintroduce ticks continuously, which is why the barrier has to be renewed rather than set once. The full five-visit season is $597 standalone, or $497 added to any BuzzSkito mosquito plan, plus HST. Many Toronto homeowners bundle tick and mosquito treatments — both can be done on the same visit, though ticks and mosquitoes are treated in different zones of the yard. See our <Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">Toronto mosquito control service</Link> for bundle pricing details.</p>
 
-          <h2>Where Tick Risk Is Highest in Toronto</h2>
+          <h2>Where Ticks Turn Up in Toronto</h2>
           <ul>
-            <li><strong>High Park and surroundings</strong> — Roncesvalles, Parkdale, Bloor West Village</li>
-            <li><strong>Don Valley corridor</strong> — Leaside, East York, Don Mills, Thorncliffe Park</li>
-            <li><strong>Humber Valley</strong> — Etobicoke, Islington, Old Mill area</li>
-            <li><strong>Scarborough ravines</strong> — Highland Creek, Guildwood, Rouge River, Cliffside</li>
+            <li><strong>Scarborough ravines</strong> — Highland Creek, Guildwood, Rouge River: the highest counts in Toronto Public Health&apos;s fall 2025 tick dragging</li>
+            <li><strong>Don Valley corridor</strong> — Leaside, East York, Don Mills, Thorncliffe Park: a few ticks found along the Don</li>
+            <li><strong>Humber Valley</strong> — Etobicoke, Islington, Old Mill area: a few ticks found along the Humber</li>
             <li><strong>Any property backing onto ravine or naturalized green space</strong></li>
           </ul>
 
@@ -314,7 +317,7 @@ export default function TorontoTickSprayPage() {
             <li><strong>Store-bought repellents protect people, not yards.</strong> DEET applied to clothing protects during a walk. Professional yard spray treats the zones where ticks wait for a passing host.</li>
             <li><strong>Tick tubes target one pathway, not the whole problem.</strong> Permethrin-treated cotton tubes work via mice — useful as a supplement but don&apos;t address ticks already on your property or arriving via deer.</li>
             <li><strong>Precision targeting is what makes it work.</strong> Ticks live in specific micro-habitats — the lawn-to-ravine transition, leaf litter, garden edges. Professional treatment targets these zones. Consumer products miss them.</li>
-            <li><strong>Toronto&apos;s ravine system is beyond your control.</strong> The Don Valley, Humber River, and Highland Creek will produce ticks every year. A treated barrier on your property is one layer of residential defence, alongside tick checks after time outdoors.</li>
+            <li><strong>Toronto&apos;s ravine system is beyond your control.</strong> Toronto Public Health keeps finding ticks in Rouge Park and along Highland Creek, and says blacklegged ticks could be present outside the areas it has identified. A treated barrier on your property is one layer of residential defence, alongside tick checks after time outdoors.</li>
           </ul>
 
           <h2>What to Expect on Tick Treatment Day</h2>

@@ -36,7 +36,7 @@ const FAQS = [
   },
   {
     question: 'What about the Silver Creek and Limehouse conservation areas?',
-    answer: "Silver Creek Conservation Area and Limehouse Conservation Area, both managed by Conservation Halton, contain stream corridors, ponds, and karst topography that creates unique standing water features — including water that pools in the limestone crevice landscape near Limehouse. Silver Creek itself runs through residential portions of Georgetown before reaching the conservation area, and properties along the Silver Creek corridor see elevated mosquito pressure particularly in June and July. Homeowners near these areas benefit from an early-May first treatment.",
+    answer: "Silver Creek Conservation Area and Limehouse Conservation Area, both run by Credit Valley Conservation, contain stream corridors, ponds, and karst topography that creates unique standing water features — including water that pools in the limestone crevice landscape near Limehouse. Silver Creek itself runs through residential portions of Georgetown before reaching the conservation area, and properties along the Silver Creek corridor see elevated mosquito pressure particularly in June and July. Homeowners near these areas benefit from an early-May first treatment.",
   },
   {
     question: 'Is there a difference in mosquito pressure between older Georgetown and newer developments?',
@@ -119,8 +119,12 @@ export default function GeorgetownMosquitoPage() {
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why Mosquito Pressure Is High in Georgetown</h2>
-          <p>Georgetown&apos;s location on the Credit River makes it one of the most naturally picturesque communities in Halton Hills — and one of the most active mosquito communities in the western GTA. The Credit River cuts directly through the centre of town, with a floodplain valley that widens as it approaches Norval and Stewarttown. The riparian forest along the river banks, combined with the karst limestone landscape of the Niagara Escarpment foothills nearby, creates a diverse mosaic of standing water, seeps, and shaded creek margins that are highly productive mosquito habitat.</p>
+          <p>Georgetown&apos;s location on the Credit River makes it one of the most naturally picturesque communities in Halton Hills, and the river valley shapes its mosquito season. The Credit River cuts directly through the centre of town, with a floodplain valley that widens as it approaches Norval and Stewarttown. The riparian forest along the river banks, combined with the karst limestone landscape of the Niagara Escarpment foothills nearby, creates a diverse mosaic of standing water, seeps, and shaded creek margins that are highly productive mosquito habitat.</p>
           <p>Silver Creek Conservation Area adds another dimension north of town, and the Limehouse Conservation Area, with its unique limestone quarry and pond features, creates additional breeding habitat upstream. The combination of the Credit River corridor and the Silver Creek system means Georgetown homeowners face pressure from multiple source areas throughout the season — typically running from early May through mid-September.</p>
+
+          <h2>West Nile Facts From Halton Region for Georgetown</h2>
+          <p>Georgetown is part of Halton Hills, where Halton Region Public Health found West Nile virus in just one mosquito pool in 2026, the lowest count of Halton&apos;s four municipalities, and reported no human cases that year. The Region&apos;s larviciding covers catch basins and standing water on public land, and it made 159 applications in Halton Hills between May 11 and October 31, 2026. For private yards, Halton&apos;s advice is to tip out anything that holds water and change bird-bath water weekly.</p>
+          <p className="text-sm text-gray-500">Sources: <a href="https://www.halton.ca/For-Residents/Immunizations-Preventable-Disease/Diseases-Infections/West-Nile-Virus" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Halton Region, West Nile virus</a> · <a href="https://www.halton.ca/news/media-releases/2026/notice-of-pesticide-use-may-2026" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Halton Region, notice of pesticide use (May 2026)</a></p>
 
           <h2>Georgetown Neighbourhoods We Serve</h2>
           <p>BuzzSkito provides mosquito control across all Georgetown communities, including:</p>
@@ -141,7 +145,7 @@ export default function GeorgetownMosquitoPage() {
           </ul>
 
           <h2>Also Providing Tick Control in Georgetown</h2>
-          <p>Georgetown backs onto Credit River valley and Niagara Escarpment trail systems — confirmed tick habitat areas throughout Halton Hills. Properties near Glen Williams, Limehouse, and the conservation area trails are particularly at risk. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">Georgetown tick spray service</Link> — tick control is $497 per season (5 sprays) when added to any mosquito plan.</p>
+          <p>Georgetown backs onto the Credit River valley and Niagara Escarpment trail systems, and Halton Region Public Health has collected blacklegged ticks at Halton Hills sites including Glen Williams Park, Silver Creek Conservation Area and the Hungry Hollow Trail. Properties near Glen Williams, Silver Creek, and the conservation area trails are particularly at risk. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">Georgetown tick spray service</Link> — tick control is $497 per season (5 sprays) when added to any mosquito plan.</p>
 
 
           <CityPriceCard city={CITY} service="mosquito" location="price_card_mid" />

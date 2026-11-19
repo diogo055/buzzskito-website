@@ -29,15 +29,15 @@ const FAQS = [
   },
   {
     question: 'Are ticks a real problem in Brampton?',
-    answer: "Yes. Brampton's ravines, creeks, and conservation lands are confirmed blacklegged tick habitat. Heart Lake Conservation Area, the Etobicoke Creek valley, and the Humber River tributaries running through Castlemore and Credit Valley support established tick populations. Properties adjacent to these natural corridors — particularly those with wooded edges or backing onto green space — face meaningful annual tick exposure risk.",
+    answer: "Yes. Peel Public Health says blacklegged ticks are established in Peel, and Brampton lies inside Public Health Ontario's 2026 blacklegged tick risk areas. Brampton's ravines, creeks and conservation lands, such as Heart Lake Conservation Area, the Etobicoke Creek valley, and the Humber River tributaries running through Castlemore and Credit Valley, are the wooded, brushy ground ticks need. Properties adjacent to these natural corridors — particularly those with wooded edges or backing onto green space — face meaningful annual tick exposure risk.",
   },
   {
     question: 'Which Brampton neighbourhoods have the highest tick risk?',
-    answer: "Heart Lake and Castlemore face the highest exposure due to proximity to Heart Lake Conservation Area. Credit Valley and Springdale properties that back onto Etobicoke Creek also have elevated risk. Gore Meadows and northern Brampton properties near Humber River tributaries should prioritize annual tick treatment.",
+    answer: "Heart Lake properties face the most exposure because they sit next to Heart Lake Conservation Area. Credit Valley and Springdale properties that back onto Etobicoke Creek also have elevated risk. Gore Meadows and northern Brampton properties near Humber River tributaries should prioritize annual tick treatment.",
   },
   {
     question: 'When should Brampton homeowners schedule tick treatment?',
-    answer: "Start in May and keep treating roughly monthly through September — five treatments across the season. The May, June, and July applications cover peak blacklegged nymph activity. The August and September applications cover adults, which re-emerge and stay active through the autumn. Monthly spacing matters because a spring-and-fall pair would leave a multi-month hole straight through peak nymph season — precisely the wrong time to be uncovered. Deer, mice, and birds moving off Heart Lake Conservation Area and the ravine corridors keep reintroducing ticks, so the barrier has to be renewed rather than applied once or twice. Public Health Ontario notes nymphs are poppy-seed sized and easy to miss, so do a tick check after time outdoors.",
+    answer: "Start in May and keep treating roughly monthly through September — five treatments across the season. The May, June, and July applications cover peak blacklegged nymph activity. The August and September applications cover adults, which re-emerge and stay active through the autumn. Monthly spacing matters because a spring-and-fall pair would leave a multi-month hole straight through peak nymph season — precisely the wrong time to be uncovered. Deer, mice, and birds moving off Heart Lake Conservation Area and the ravine corridors keep reintroducing ticks, so the barrier has to be renewed rather than applied once or twice. A nymph is no bigger than a poppy seed, so check for ticks after time outdoors.",
   },
   {
     question: 'How does BuzzSkito treat for ticks in Brampton?',
@@ -53,7 +53,7 @@ const FAQS = [
   },
   {
     question: 'What is Lyme disease and how real is the risk in Brampton?',
-    answer: "Lyme disease is a bacterial infection transmitted by blacklegged tick bites. Ontario has seen steadily increasing case numbers each year as tick populations expand. Heart Lake Conservation Area and the Humber River corridor in Brampton are both documented tick surveillance areas. Early Lyme symptoms include a bulls-eye rash, fever, fatigue, and joint pain — but up to 30% of cases present without the classic rash, which is why checking yourself, your children and your pets for ticks after time outdoors matters.",
+    answer: "Lyme disease is a bacterial infection transmitted by blacklegged tick bites. Public Health Ontario says the incidence of Lyme disease in Ontario continues to increase, and Peel Public Health reported that locally acquired cases in Peel rose from 6 in 2021 to 13 in 2022 and 17 in 2023. Early Lyme symptoms include a bulls-eye rash, fever, fatigue, and joint pain — but up to 30% of cases present without the classic rash, which is why checking yourself, your children and your pets for ticks after time outdoors matters.",
   },
 ]
 
@@ -120,7 +120,7 @@ export default function BramptonTickSprayPage() {
                   ['Re-entry', 'Stay off treated areas until the spray has dried, as the label directs'],
                   ['Recommended schedule', '5 treatments per season for ravine- or conservation-area-adjacent properties'],
                   ['Highest tick zones', 'Heart Lake Conservation Area · Etobicoke Creek · Professor’s Lake · ravine corridors'],
-                  ['Lyme disease vector', 'Yes — blacklegged tick populations confirmed by Public Health Ontario'],
+                  ['Lyme disease vector', 'Yes — Brampton lies inside Public Health Ontario’s 2026 blacklegged tick risk areas'],
                   ['Application zones', 'Lawn-to-woods edge · leaf litter · garden bed perimeters · fence-line vegetation · woodpiles'],
                   ['Booking lead time', 'Same-week service typical'],
                   ['Contract required', 'No — single treatments and seasonal programs both available'],
@@ -176,12 +176,16 @@ export default function BramptonTickSprayPage() {
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Tick Risk in Brampton</h2>
-          <p>Brampton's rapid residential expansion has pushed subdivisions right up against conservation lands, ravines, and creek corridors — all of which are prime blacklegged tick habitat. <strong>Heart Lake Conservation Area</strong> is the most significant tick-risk site in the city, with documented surveillance populations and deer movement patterns that distribute ticks throughout adjacent neighbourhoods. The <strong>Etobicoke Creek valley</strong> and Humber River tributaries running through Castlemore, Credit Valley, and northern Brampton create additional corridors where tick exposure is consistently elevated.</p>
+          <p>Brampton's rapid residential expansion has pushed subdivisions right up against conservation lands, ravines, and creek corridors — all of which are prime blacklegged tick habitat. <strong>Heart Lake Conservation Area</strong> sits right next to homes, and deer moving out of it carry ticks into adjacent neighbourhoods. The <strong>Etobicoke Creek valley</strong> and Humber River tributaries running through Castlemore, Credit Valley, and northern Brampton create additional corridors where tick exposure is consistently elevated.</p>
           <p>The key risk period in Brampton is May through July for tick nymphs (the most dangerous stage — tiny, hard to see, and responsible for the majority of Lyme disease transmissions) and October through November for adult ticks. Treating the edges where ticks wait on your own lot is one layer, alongside tick checks after time outdoors.</p>
+
+          <h2>What Peel and Public Health Ontario Say About Ticks in Brampton</h2>
+          <p>Every Brampton location checked, from the city centre to Heart Lake and Castlemore, falls inside Public Health Ontario&apos;s 2026 blacklegged tick risk areas (data dated June 9, 2026). Each risk area is a 20 km circle around a place where blacklegged ticks were found by drag sampling; Brampton has no such site of its own, so it is covered by circles around sites in Mississauga, Caledon, Halton and York. Peel Public Health&apos;s October 2024 update for doctors says the tick most often reported to eTick from Brampton is the American dog tick, which cannot transmit Lyme disease. Peel&apos;s own advice is that a yard&apos;s risk comes down to how close the home sits to dense vegetation such as forests and marshes.</p>
+          <p className="text-sm text-gray-500">Sources: <a href="https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/vbd-tool" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Public Health Ontario, Ontario Vector-Borne Disease Tool</a> · <a href="https://peelregion.ca/sites/default/files/2024-10/2024-10-09-tick-borne-diseases-no.17-vol.31.pdf" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Peel Public Health, Health Professionals Update (Oct 9, 2024)</a> · <a href="https://peelregion.ca/health/protecting-your-health/mosquitoes-ticks-bed-bugs" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Peel Region, Mosquitoes, ticks and bed bugs</a></p>
 
           <h2>High-Risk Brampton Areas</h2>
           <ul>
-            <li><strong>Heart Lake area</strong> — directly adjacent to Heart Lake Conservation Area; highest confirmed risk zone in Brampton</li>
+            <li><strong>Heart Lake area</strong> — directly adjacent to Heart Lake Conservation Area</li>
             <li><strong>Castlemore / Countryside Drive corridor</strong> — near Humber River tributaries and undeveloped greenbelt</li>
             <li><strong>Credit Valley</strong> — backs onto Etobicoke Creek system with consistent deer movement</li>
             <li><strong>Springdale</strong> — open space corridors and conservation areas along northern Brampton</li>
@@ -282,7 +286,7 @@ export default function BramptonTickSprayPage() {
 
 
           <h2>Compare Brampton Pest Control Options</h2>
-          <p>Brampton has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-brampton" className="text-brand-700 hover:underline font-semibold">Pest Control in Brampton</Link> for why a mosquito and tick specialist is a better fit for tick-zone treatment than a general pest company. See our full mosquito programme for the same property: <Link href="/brampton-mosquito-control" className="text-brand-700 hover:underline font-semibold">Mosquito Control in Brampton</Link>.</p>
+          <p>Brampton lies inside Public Health Ontario&apos;s blacklegged tick risk areas — see our specialist pest control guide: <Link href="/pest-control-brampton" className="text-brand-700 hover:underline font-semibold">Pest Control in Brampton</Link> for why a mosquito and tick specialist is a better fit for tick-zone treatment than a general pest company. See our full mosquito programme for the same property: <Link href="/brampton-mosquito-control" className="text-brand-700 hover:underline font-semibold">Mosquito Control in Brampton</Link>.</p>
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>

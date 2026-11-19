@@ -22,7 +22,7 @@ const NEIGHBOURHOODS = ['Unionville','Cornell','Milliken Mills','Berczy Village'
 const FAQS = [
   {
     question: 'How much does tick spray cost in Markham?',
-    answer: 'Tick spray in Markham starts from $99 for a single application. Properties near Rouge National Urban Park or any ravine corridor in Markham typically take the full season programme: five treatments spread roughly monthly from May through September, $597 on its own or $497 when added to a mosquito plan. Monthly visits keep treatments on schedule through the May–July nymph peak instead of leaving a gap in those months. Public Health Ontario notes nymphs are poppy-seed sized and easy to miss, so do a tick check after time outdoors. No contracts. Call (289) 216-5030.',
+    answer: 'Tick spray in Markham starts from $99 for a single application. Properties near Rouge National Urban Park or any ravine corridor in Markham typically take the full season programme: five treatments spread roughly monthly from May through September, $597 on its own or $497 when added to a mosquito plan. Monthly visits keep treatments on schedule through the May–July nymph peak instead of leaving a gap in those months. The York Region Public Health tick fact sheet says nymphs are no bigger than a poppy seed, so do a tick check after time outdoors. No contracts. Call (289) 216-5030.',
   },
   {
     question: 'Which Markham neighbourhoods have the highest tick risk?',
@@ -30,7 +30,7 @@ const FAQS = [
   },
   {
     question: 'What makes Rouge National Urban Park different from other tick habitats?',
-    answer: 'Rouge National Urban Park is a federally protected national park with vast forest, meadow, and river valley ecosystems — it is among the largest and most ecologically intact tick habitats in the entire GTA. Unlike small ravines or conservation reserves, Rouge provides deep forest habitat where blacklegged tick populations can thrive with minimal human disturbance. Properties adjacent to its boundaries sit right next to that habitat, and York Region Public Health advises residents to check themselves, children and pets for ticks after time outdoors.',
+    answer: 'Rouge National Urban Park is a federally protected national park with vast forest, meadow, and river valley ecosystems, and Parks Canada says blacklegged ticks are active throughout the park. Unlike small ravines or conservation reserves, Rouge provides deep forest habitat where blacklegged tick populations can thrive with minimal human disturbance. Properties adjacent to its boundaries sit right next to that habitat, and York Region Public Health advises residents to check themselves, children and pets for ticks after time outdoors.',
   },
   {
     question: 'Does BuzzSkito treat commercial properties in Markham?',
@@ -122,8 +122,12 @@ export default function MarkhamTickPage() {
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why Tick Spray Is Crucial in Markham</h2>
-          <p>Markham is unique in the GTA in that it borders a federally protected national park. Rouge National Urban Park stretches from Scarborough into Markham's eastern boundary, creating one of the most significant blacklegged tick habitats in the region. Unlike fragmented urban conservation areas, Rouge provides continuous forest, meadow, and valley ecosystems where tick populations are well established and expanding. York Region Public Health tracks tick activity across the region and advises residents to check for ticks after spending time outdoors.</p>
-          <p>The Rouge River valley itself acts as a tick corridor that carries populations from the park's interior toward residential neighbourhoods. Toogood Pond in Unionville and its surrounding trail system sit in a lower-lying wooded area that creates classic nymph tick habitat in May and June — precisely when children and pets spend the most time outdoors. Cornell and Cathedraltown properties on the park boundary have some of the highest tick exposure rates of any suburban neighbourhood in York Region.</p>
+          <p>Markham is unique in the GTA in that it borders a federally protected national park. Rouge National Urban Park stretches from Scarborough into Markham's eastern boundary, creating a large block of blacklegged tick habitat right next to the city. Unlike fragmented urban conservation areas, Rouge provides continuous forest, meadow, and valley ecosystems where tick populations are well established. York Region Public Health tracks tick activity across the region and advises residents to check for ticks after spending time outdoors.</p>
+          <p>The Rouge River valley itself acts as a tick corridor that carries populations from the park's interior toward residential neighbourhoods. Toogood Pond in Unionville and its surrounding trail system sit in a lower-lying wooded area that creates classic nymph tick habitat in May and June — precisely when children and pets spend the most time outdoors. Cornell and Cathedraltown properties on the park boundary sit right beside that habitat.</p>
+
+          <h2>Tick Facts for Markham From Parks Canada and York Region</h2>
+          <p>Parks Canada says blacklegged ticks are most active throughout Rouge National Urban Park from April to November. York Region Public Health says all of York Region, Markham included, is now an estimated Lyme disease risk area, and that more than 20 percent of the region&apos;s blacklegged ticks carry the Lyme bacteria. The Region recorded 85 Lyme disease cases among its residents in 2025.</p>
+          <p className="text-sm text-gray-500">Sources: <a href="https://parks.canada.ca/pn-np/on/rouge/securite-safety/terrestre-land/tiques-ticks" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Parks Canada, ticks in Rouge National Urban Park</a> · <a href="https://www.york.ca/health/infectious-diseases-and-prevention/lyme-disease" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">York Region, Lyme disease</a></p>
 
           <h2>Tick Hotspots in Markham</h2>
           <ul>

@@ -114,6 +114,10 @@ export default function KingCityMosquitoPage() {
           <p>King Township occupies a uniquely challenging position in the York Region landscape. The southern portions of the municipality sit on the Oak Ridges Moraine, where groundwater recharge creates persistent seeps, spring-fed ponds, and slow-draining depressions that hold water through dry periods when other breeding sites have evaporated. The northern portions border the Holland Marsh, one of Ontario&apos;s most productive mosquito source areas, where agricultural drainage infrastructure maintains standing water in an intensively managed wetland system throughout the growing season.</p>
           <p>Between the moraine ponds and the marsh influence, King Township estate properties — with their mature woodlots, private ponds, rural road ditches, and extensive natural landscaping — face a mosquito season that regularly extends from late April through late September. The Eaton Hall property area and surrounding estate lots on the King City village perimeter are among the most consistently active zones for early-season mosquito pressure in York Region.</p>
 
+          <h2>West Nile Virus Facts for King Township</h2>
+          <p>As of September 3, 2026, York Region Public Health had found West Nile virus in mosquitoes from 14 traps across the region, and none of the positive traps it listed was in King. The Region samples mosquitoes weekly at 34 traps from mid-June to the end of September, and it larvicides catch basins and roadside ditches on public land. Private property is not part of that work, apart from a catch basin the Region will treat free on request, so ponds, wet hollows and containers on an estate lot are the owner&apos;s to manage.</p>
+          <p className="text-sm text-gray-500">Sources: <a href="https://www.york.ca/health/infectious-diseases-and-prevention/west-nile-virus" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">York Region, West Nile virus</a> · <a href="https://www.york.ca/newsroom/media-release/mosquitoes-york-region-test-positive-west-nile-virus-8" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">York Region release, July 16, 2026</a></p>
+
           <h2>King Township Communities We Serve</h2>
           <p>BuzzSkito provides mosquito control across King Township, including:</p>
           <div className="not-prose flex flex-wrap gap-2 mb-6">
@@ -129,7 +133,7 @@ export default function KingCityMosquitoPage() {
           </ul>
 
           <h2>Also Providing Tick Control in King City</h2>
-          <p>King Township consistently reports among the highest blacklegged tick activity rates in York Region. Forest edges, agricultural hedgerows, and the Oak Ridges Moraine location make tick exposure a serious concern for homeowners and anyone using the property. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">King City tick spray service</Link> — for estate properties, combining both treatments is strongly recommended.</p>
+          <p>Ticks are a real concern here too: York Region Public Health identified a Lyme disease risk area near Joker&apos;s Hill in King Township in 2017, and its 2018 tick dragging found blacklegged ticks at three King sites. Forest edges, agricultural hedgerows, and the Oak Ridges Moraine location make tick exposure a serious concern for homeowners and anyone using the property. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">King City tick spray service</Link> — for estate properties, combining both treatments is strongly recommended.</p>
 
           <CityPriceCard city="King City" service="mosquito" />
 

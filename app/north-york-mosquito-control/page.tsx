@@ -59,7 +59,7 @@ const FAQS = [
   },
   {
     question: 'Can I bundle tick control with mosquito spray in North York?',
-    answer: "Yes, and most ravine-adjacent North York homeowners do. The Don Valley, Burke Brook, and Sunnybrook Park corridors are blacklegged tick habitat, and the blacklegged tick is the Lyme disease vector in Ontario. Tick control is $597 for the season on its own, or $497 when added to any mosquito plan, and includes five tick treatments timed across the May–September season. Mosquito and tick treatments run on the same visit schedule.",
+    answer: "Yes, and most ravine-adjacent North York homeowners do. Toronto Public Health counts all of Toronto as an estimated risk area for Lyme disease, and it has found blacklegged ticks, the Lyme disease vector in Ontario, in the East Don valley. Tick control is $597 for the season on its own, or $497 when added to any mosquito plan, and includes five tick treatments timed across the May–September season. Mosquito and tick treatments run on the same visit schedule.",
   },
 ]
 
@@ -152,6 +152,10 @@ export default function NorthYorkMosquitoPage() {
           <p>North York is threaded by one of Toronto&apos;s most extensive ravine networks. The Don River valley runs along the eastern side of the district, with Wilket Creek and the East Don River feeding through Serena Gundy Park and the Lower Don. Sunnybrook Park — one of the city&apos;s largest ravine parks — extends the valley corridor west through Bayview Village and York Mills, while Burke Brook ravine cuts through the heart of Lawrence Park. The West Don Lands and its tributaries add further standing water habitat in the northwest reaches of the district near Parkwoods and Don Mills.</p>
           <p>This ravine network is one of North York&apos;s defining assets — but for homeowners, it means a dependable and often intense mosquito season. Adults emerging from ravine-bottom floodplains drift upslope into adjacent neighbourhoods throughout the summer, resting on yard vegetation and feeding at dusk. Professional barrier spray applied to your property&apos;s shrubs, hedges, and garden borders is the practical way to manage this influx without impacting the ravine ecosystem itself.</p>
 
+          <h2>What Toronto Public Health Tracks Each Summer</h2>
+          <p>Toronto Public Health has counted West Nile-positive mosquito batches since 2002, and its 2023 total of 83 was the second highest in that time. The City&apos;s larviciding of its catch basins runs from June to the end of August, and storm water ponds and other stagnant water are monitored to decide whether they need treatment too. Toronto Public Health rates the risk of catching West Nile virus in Toronto as low, but still asks residents to take precautions, such as removing standing water from their property.</p>
+          <p className="text-sm text-gray-500">Sources: <a href="https://www.toronto.ca/community-people/health-wellness-care/health-programs-advice/west-nile-virus/west-nile-virus-surveillance-and-reporting/" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Toronto Public Health, West Nile virus surveillance</a> · <a href="https://www.toronto.ca/community-people/health-wellness-care/health-programs-advice/west-nile-virus/city-of-toronto-larviciding-program/" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">City of Toronto, larviciding program</a> · <a href="https://www.toronto.ca/news/toronto-public-health-confirms-first-mosquitoes-to-test-positive-for-west-nile-virus-in-2026/" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Toronto Public Health news release, July 17, 2026</a> · <a href="https://www.toronto.ca/community-people/health-wellness-care/health-programs-advice/west-nile-virus/reducing-the-risk-of-west-nile-virus/" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Toronto Public Health, reducing the risk of West Nile virus</a></p>
+
           <h2>North York Neighbourhoods We Serve</h2>
           <p>BuzzSkito provides mosquito control across all North York communities, including:</p>
           <div className="not-prose flex flex-wrap gap-2 mb-6">
@@ -171,7 +175,7 @@ export default function NorthYorkMosquitoPage() {
           </ul>
 
           <h2>Also Providing Tick Control in North York</h2>
-          <p>North York&apos;s ravine network — Don Valley, Serena Gundy Park, and Lawrence Park — provides extensive blacklegged tick habitat in the heart of Toronto. Tick populations have been confirmed along these corridors in recent years. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">North York tick spray service</Link> — bundling both treatments puts mosquito and tick visits on the same schedule, with tick control at $497 per season (5 sprays) when added to any mosquito plan.</p>
+          <p>Blacklegged ticks are rarer in North York than in Scarborough, but Toronto Public Health has found a few in the East Don valley, at Charles Sauriol Conservation Area, and the whole city is an estimated risk area for Lyme disease. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">North York tick spray service</Link> — bundling both treatments puts mosquito and tick visits on the same schedule, with tick control at $497 per season (5 sprays) when added to any mosquito plan.</p>
 
 
           <CityPriceCard city={CITY} service="mosquito" location="price_card_mid" />
@@ -232,7 +236,7 @@ export default function NorthYorkMosquitoPage() {
             <li><strong>Published pricing.</strong> Companies that require an in-home estimate before naming any number are usually leaving room to price you by your house rather than by your lot.</li>
             <li><strong>Single-treatment price, not just the seasonal total.</strong> Per-visit cost is the only honest way to compare programs that include different numbers of visits.</li>
             <li><strong>Local knowledge.</strong> A technician who can tell you which ravine your yard drains toward — Burke Brook, Wilket Creek, the East Don — knows where the adults are actually resting during the day.</li>
-            <li><strong>Tick coverage available.</strong> North York&apos;s ravine corridors carry blacklegged ticks. A mosquito-only provider leaves half the ravine-edge problem untreated.</li>
+            <li><strong>Tick coverage available.</strong> Blacklegged ticks have turned up in the East Don valley. A mosquito-only provider leaves half the ravine-edge problem untreated.</li>
           </ol>
 
           <h2>When to Start Treatment</h2>

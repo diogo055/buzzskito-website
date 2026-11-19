@@ -32,7 +32,7 @@ const FAQS = [
   },
   {
     question: 'How does Thornhill\'s position straddling Vaughan and Markham affect mosquito service?',
-    answer: "Thornhill spans the municipal boundary between Vaughan and Markham — it’s the only GTA community that straddles two separate regional municipalities (York Region to the north and south). From a mosquito control standpoint, this doesn’t create any service complexity: BuzzSkito treats all Thornhill properties regardless of which municipality your address falls in. What it does mean is that Thornhill sits between two sets of ravine and creek systems — German Mills Creek to the east and the Don River tributaries to the west — giving the community pressure from both directions.",
+    answer: "Thornhill spans the boundary between two cities, Vaughan and Markham, and both are in York Region. From a mosquito control standpoint, this doesn’t create any service complexity: BuzzSkito treats all Thornhill properties regardless of which municipality your address falls in. What it does mean is that Thornhill sits between two sets of ravine and creek systems — German Mills Creek to the east and the Don River tributaries to the west — giving the community pressure from both directions.",
   },
 ]
 
@@ -111,8 +111,12 @@ export default function ThornhillMosquitoPage() {
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why Mosquito Pressure Is High in Thornhill</h2>
-          <p>Thornhill is one of the GTA&apos;s most desirable mature communities — and one of its more active mosquito areas. The community is defined by its ravine corridors: German Mills Creek cuts through Thornhill from east to west, with Pomona Mills Park sitting at the heart of a wide, forested ravine valley. Don River tributary ravines enter from the west, bringing pressure from the broader Don watershed system through the Aileen-Willowbrook and Royal Orchard neighbourhoods. The Thornhill Community Centre area and its associated green spaces add further moist, shaded habitat throughout the community.</p>
+          <p>Thornhill is one of the GTA&apos;s most desirable mature communities — and one of its more active mosquito areas. The community is defined by its ravine corridors: German Mills Creek cuts through Thornhill from east to west, with Pomona Mills Park sitting at the heart of a wide, forested ravine valley. Don River tributary ravines bring pressure from the broader Don watershed system through the Aileen-Willowbrook and Royal Orchard neighbourhoods. The Thornhill Community Centre area and its associated green spaces add further moist, shaded habitat throughout the community.</p>
           <p>The mature tree canopy that gives Thornhill its character — established oaks, maples, and Norway spruces on lots developed primarily in the 1960s through 1980s — creates the cool, humid resting conditions that adult mosquitoes require to survive between feedings. For Thornhill homeowners, this means that mosquitoes emerging from ravine-bottom breeding habitat can easily establish themselves in adjacent residential backyards throughout the season. Professional barrier spray disrupts this pattern by treating all leaf surfaces where mosquitoes rest.</p>
+
+          <h2>What York Region Reports for Thornhill</h2>
+          <p>Thornhill is split between two York Region cities, Vaughan and Markham, and York Region Public Health reports West Nile results by city, not by community. As of September 3, 2026, the Region had found West Nile virus in mosquitoes from 4 traps in each of those two cities. It places larvicide by hand, not by spraying, in public catch basins; it does not treat private yards, though it will treat a catch basin on your own property, free, if you ask. Its guidance for homeowners: remove standing water within 7 days.</p>
+          <p className="text-sm text-gray-500">Sources: <a href="https://www.york.ca/health/infectious-diseases-and-prevention/west-nile-virus" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">York Region, West Nile virus</a></p>
 
           <h2>Thornhill Neighbourhoods We Serve</h2>
           <p>BuzzSkito provides mosquito control across all Thornhill communities, including:</p>

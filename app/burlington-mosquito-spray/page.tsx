@@ -56,7 +56,7 @@ const FAQS = [
   },
   {
     question: 'Why are mosquitoes so bad in Burlington?',
-    answer: "Burlington's geography creates mosquito pressure from multiple directions. Burlington Bay and the Lake Ontario shoreline generate waterfront mosquito activity that affects lakeshore and Aldershot properties. Bronte Creek runs north-south through the city's west end, creating a continuous breeding and dispersal corridor through West Oak Trails, Bronte, and River Oaks. The Royal Botanical Gardens — 1,100+ hectares of naturalized land on Burlington's northwest border — sustains large mosquito populations that disperse into adjacent North Burlington and Waterdown neighbourhoods. Newer developments in Alton Village and The Orchard contain stormwater ponds that become active breeding sites each season.",
+    answer: "Burlington's geography creates mosquito pressure from multiple directions. Burlington Bay and the Lake Ontario shoreline generate waterfront mosquito activity that affects lakeshore and Aldershot properties. On the east side, Bronte Creek Provincial Park sits just over the Oakville line beside The Orchard, and its creek valley feeds mosquitoes into Burlington's east-end streets. The Royal Botanical Gardens' naturalized lands, on Burlington's northwest border near Aldershot and Tyandaga, sustain large mosquito populations that disperse into adjacent North Burlington and Waterdown neighbourhoods. Newer developments in Alton Village and The Orchard contain stormwater ponds that become active breeding sites each season.",
   },
   {
     question: "Does Burlington's waterfront increase mosquito activity?",
@@ -64,7 +64,7 @@ const FAQS = [
   },
   {
     question: 'Which Burlington neighbourhoods have the most mosquito activity?',
-    answer: "Properties near Bronte Creek face the highest consistent pressure — particularly Bronte, West Oak Trails, and River Oaks. Shoreacres and Roseland lakeshore properties experience activity from the waterfront and mature tree canopy. Alton Village and Millcroft homeowners encounter pond-driven pressure from stormwater infrastructure in their developments. North Burlington properties near the Royal Botanical Gardens boundary have elevated mosquito activity from the naturalized RBG lands.",
+    answer: "Properties near Bronte Creek Provincial Park face the highest consistent pressure — particularly The Orchard, on Burlington's east end beside the park. Shoreacres and Roseland lakeshore properties experience activity from the waterfront and mature tree canopy. Alton Village and Millcroft homeowners encounter pond-driven pressure from stormwater infrastructure in their developments. North Burlington properties near the Royal Botanical Gardens boundary have elevated mosquito activity from the naturalized RBG lands.",
   },
   {
     question: 'How many treatments does a Burlington home need per season?',
@@ -80,7 +80,7 @@ const FAQS = [
   },
   {
     question: 'Does BuzzSkito also provide tick control in Burlington?',
-    answer: "Yes. Burlington's wooded greenbelt corridors, Bronte Creek Provincial Park, and Royal Botanical Gardens are significant blacklegged tick habitat. Many Burlington homeowners bundle mosquito and tick treatments so one visit covers both pests. See our Burlington tick control service or ask about bundle pricing when you call.",
+    answer: "Yes. Halton Region Public Health's tick dragging has found blacklegged ticks carrying the Lyme bacteria at Mount Nemo, City View Park and the Royal Botanical Gardens, and Ontario Parks warns that ticks are found in Bronte Creek Provincial Park, just over the Oakville line. Many Burlington homeowners bundle mosquito and tick treatments so one visit covers both pests. See our Burlington tick control service or ask about bundle pricing when you call.",
   },
 ]
 
@@ -202,12 +202,16 @@ export default function BurlingtonMosquitoPage() {
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Take Back Your Burlington Backyard</h2>
-          <p>Burlington's combination of waterfront access, mature tree canopy in established neighbourhoods like Roseland and Shoreacres, and newer developments with stormwater ponds creates one of the GTA's more complex mosquito environments. <strong>Bronte Creek Provincial Park</strong> borders Burlington's west end and generates significant natural mosquito pressure that disperses into Bronte, West Oak Trails, and River Oaks. <strong>Burlington Bay</strong> and the Lake Ontario waterfront create early-season pressure along the lakeshore. The <strong>Royal Botanical Gardens</strong> — 1,100+ hectares of naturalized land on Burlington's northwest boundary — sustains active mosquito populations that affect North Burlington and Waterdown neighbourhoods throughout the season.</p>
+          <p>Burlington's combination of waterfront access, mature tree canopy in established neighbourhoods like Roseland and Shoreacres, and newer developments with stormwater ponds creates one of the GTA's more complex mosquito environments. <strong>Bronte Creek Provincial Park</strong> — 682 hectares just over the Oakville line — borders The Orchard on Burlington&apos;s east end and generates significant natural mosquito pressure that disperses into the east-end streets nearest the park. <strong>Burlington Bay</strong> and the Lake Ontario waterfront create early-season pressure along the lakeshore. The <strong>Royal Botanical Gardens</strong>, whose naturalized lands spread between Hamilton, Burlington and Dundas, lies near Aldershot and Tyandaga and sustains active mosquito populations that affect North Burlington and Waterdown neighbourhoods throughout the season.</p>
           <p>BuzzSkito treats Burlington properties of all sizes — from compact Alton Village townhomes to larger estate lots in Shoreacres and Roseland. Our no-contract approach means you can book individual treatments or a full season program based on your property's needs and exposure level.</p>
 
+          <h2>West Nile Virus in Burlington: Halton Region&apos;s Figures</h2>
+          <p>Burlington&apos;s West Nile numbers jumped in 2026: Halton Region Public Health found the virus in 16 mosquito pools trapped in the city, up from 7 in 2025 and 1 in 2024. The Region also reported one confirmed and three probable human cases among Burlington residents in 2026. During its May 11 to October 31, 2026 larviciding program, Halton made 346 larvicide applications to standing water in Burlington, all on public property; in a private yard, its advice is to empty water-filled containers, clean eaves and gutters, and change bird-bath water weekly.</p>
+          <p className="text-sm text-gray-500">Sources: <a href="https://www.halton.ca/For-Residents/Immunizations-Preventable-Disease/Diseases-Infections/West-Nile-Virus" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Halton Region, West Nile virus</a> · <a href="https://www.halton.ca/news/media-releases/2026/notice-of-pesticide-use-may-2026" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Halton Region, notice of pesticide use (May 2026)</a></p>
+
           <h2>Mosquito Pressure Zones by Burlington Neighbourhood</h2>
-          <h3>Bronte, West Oak Trails &amp; River Oaks</h3>
-          <p>These west Burlington neighbourhoods face the highest mosquito activity due to proximity to Bronte Creek Provincial Park and the Bronte Creek valley. Properties within 500 metres of the creek experience consistent season-long pressure.</p>
+          <h3>The Orchard &amp; the East End</h3>
+          <p>The Orchard, on Burlington&apos;s east end, borders Bronte Creek Provincial Park, which lies just over the city line in Oakville. The east-end streets nearest the park see heavy mosquito activity, and properties within 500 metres of the park and the Bronte Creek valley experience consistent season-long pressure.</p>
 
           <h3>Roseland, Shoreacres &amp; Lakeshore</h3>
           <p>Mature lakeshore neighbourhoods benefit from lake breezes but the dense tree canopy, established gardens, and proximity to Burlington Bay create significant daytime resting habitat. Evening mosquito activity is elevated near the waterfront throughout the season.</p>
@@ -322,10 +326,10 @@ export default function BurlingtonMosquitoPage() {
           <h2>Everything Burlington Homeowners Ask About Mosquito Control</h2>
 
           <h3>How does the Niagara Escarpment affect mosquitoes in my Burlington yard?</h3>
-          <p>The Niagara Escarpment rises directly behind Burlington&apos;s northern neighbourhoods (Tyandaga, North Burlington, Aldershot) and creates sheltered microclimates where humidity stays high and mosquito populations persist later into the evening. Combined with Bronte Creek to the west and Lake Ontario to the south, Burlington has mosquito pressure from three directions. Properties closest to the Escarpment face or to Bronte Creek experience the most intense activity.</p>
+          <p>The Niagara Escarpment rises directly behind Burlington&apos;s northern neighbourhoods (Tyandaga, North Burlington, Aldershot) and creates sheltered microclimates where humidity stays high and mosquito populations persist later into the evening. Combined with Bronte Creek to the east and Lake Ontario to the south, Burlington has mosquito pressure from three directions. Properties closest to the Escarpment face or to Bronte Creek experience the most intense activity.</p>
 
           <h3>Does Halton Region or the City of Burlington spray for mosquitoes?</h3>
-          <p>No &mdash; not on residential properties. Halton Region Public Health does targeted larviciding of catch basins for West Nile virus monitoring, and the City of Burlington maintains storm infrastructure. Neither program treats private yards. Yard-level mosquito control is the homeowner&apos;s responsibility.</p>
+          <p>No &mdash; not on residential properties. Halton Region Public Health larvicides catch basins and standing water on public property to control West Nile virus, and it refers standing water on private property to the municipal by-law office. Neither the Region nor the City treats private yards. Yard-level mosquito control is the homeowner&apos;s responsibility.</p>
 
           <h3>How much does Burlington mosquito control cost for a typical lot?</h3>
           <p>For a standard Burlington residential lot under 10,000 sq ft: from $99 per single treatment, with season plans from $549 (plus HST). Larger lakefront, Tyandaga, or Aldershot estate properties require a custom quote based on coverage area. No contracts &mdash; book one treatment and decide whether to continue based on results.</p>
@@ -336,8 +340,8 @@ export default function BurlingtonMosquitoPage() {
           <h3>Are there mosquitoes near Burlington Bay and the lakefront?</h3>
           <p>Yes &mdash; Burlington Bay&apos;s shoreline vegetation and high lakefront humidity support active mosquito populations through the evening. Spencer Smith Park, LaSalle Park, and Aldershot lakeshore properties experience the most lakefront activity. Wind off the lake helps during the day, but calm evenings create heavy feeding windows.</p>
 
-          <h3>How does Bronte Creek affect Burlington west-end mosquitoes?</h3>
-          <p>Bronte Creek forms the western border between Burlington and Oakville and is a continuous mosquito breeding corridor. Burlington properties in the west end (off Walker&apos;s Line, Cumberland Avenue, and along the creek) experience some of the highest mosquito pressure in the city. Barrier spray treats your property &mdash; it doesn&apos;t fix the creek source, but it treats the surfaces where mosquitoes rest once they arrive.</p>
+          <h3>How does Bronte Creek affect mosquitoes in Burlington&apos;s east end?</h3>
+          <p>Bronte Creek Provincial Park lies just over the city line in Oakville, beside The Orchard, and the Bronte Creek valley is a continuous mosquito breeding corridor. Burlington properties in the east end closest to the park experience some of the highest mosquito pressure in the city. Barrier spray treats your property &mdash; it doesn&apos;t fix the creek source, but it treats the surfaces where mosquitoes rest once they arrive.</p>
 
           <h3>How do mosquito treatments work around a Burlington flower garden?</h3>
           <p>The product is applied to mosquito resting surfaces (undersides of leaves, shrub interiors) rather than flower blooms, according to its label directions. We avoid direct application to actively flowering plants and maintain buffer zones around vegetable gardens. Point out any beds you want left untreated before the visit.</p>
@@ -355,7 +359,7 @@ export default function BurlingtonMosquitoPage() {
           <p>{PROMISES.rainBack} That rain-back guarantee is separate from the Bite-Free Guarantee, which applies to Standard &amp; Exclusive plans.</p>
 
           <h3>Does mosquito spray work against Burlington ticks too?</h3>
-          <p>Barrier spray is also used against blacklegged ticks, but tick control requires different application zones &mdash; the 1–3 ft transition zone where lawn meets woods and garden bed edges. We offer separate Burlington tick treatment for properties near Bronte Creek, Tyandaga ravines, or the Royal Botanical Gardens &mdash; all confirmed tick habitat. Many Burlington homeowners bundle both.</p>
+          <p>Barrier spray is also used against blacklegged ticks, but tick control requires different application zones &mdash; the 1–3 ft transition zone where lawn meets woods and garden bed edges. We offer separate Burlington tick treatment for properties near Bronte Creek, the Tyandaga ravines, or the Royal Botanical Gardens. Halton Region Public Health has found ticks carrying the Lyme bacteria at the Royal Botanical Gardens and at Bronte Creek in Oakville. Many Burlington homeowners bundle both.</p>
 
           {/* Related Guides */}
 

@@ -13,7 +13,7 @@ export const metadata: Metadata = buildMetadata({
   // TITLE NOTE (Nov 7, 2026, owner: "if you find that having 2026 on these titles is bad, then obviously strip it"): was 'King City Tick Control 2026 · From $99 · 150+ Five-Star Reviews'; dropped "2026" (stale from Jan 1); no city searches on record yet; default word order; fits 60 rendered; price is in this title.
   title: 'Tick Control King City: Yard Tick Spray From $99',
   description:
-    "King City tick spray for Oak Ridges Moraine forest properties — high blacklegged tick density. Licensed Ontario operator, from $99, rain-back guarantee. King City village, Nobleton, Schomberg, Kettleby. Call (289) 216-5030.",
+    "King City tick spray for Oak Ridges Moraine forest properties, inside York Region's Lyme disease risk area. Licensed Ontario operator, from $99, rain-back guarantee. King City village, Nobleton, Schomberg, Kettleby. Call (289) 216-5030.",
   canonical: '/king-city-tick-spray',
 })
 
@@ -25,8 +25,8 @@ const FAQS = [
     answer: 'Tick spray in King City starts from $99 for a single application. Given King Township\'s exceptionally high tick activity near the Oak Ridges Moraine, Humber River headwaters, and extensive horse property corridors, most properties take the full season programme instead: five treatments spread roughly monthly from May through September, $597 on its own or $497 when added to a mosquito plan. A monthly cadence keeps the barrier renewed straight through peak nymph season rather than leaving a multi-month gap. No contracts. Call (289) 216-5030.',
   },
   {
-    question: 'Why is King Township considered one of the highest-risk tick areas in York Region?',
-    answer: 'King Township sits directly on the Oak Ridges Moraine, which is one of Ontario\'s most significant blacklegged tick habitats. Beyond the Moraine, the township has abundant rural land with agricultural-to-forest edge transitions, Humber River tributaries, and the Schomberg River area — all of which provide ideal tick habitat. The combination of large white-tailed deer populations and these varied natural habitats drives consistently high tick activity throughout King Township, which York Region Public Health regularly flags in its advisories.',
+    question: 'Why is King Township a high-risk area for ticks?',
+    answer: 'King Township has an official risk area of its own: York Region Public Health identified one near Joker\'s Hill in 2017, and it now says all of York Region is an estimated Lyme disease risk area. King Township also sits directly on the Oak Ridges Moraine, and beyond the Moraine the township has abundant rural land with agricultural-to-forest edge transitions, Humber River tributaries, and the Schomberg River area — all of which provide ideal tick habitat. The combination of large white-tailed deer populations and these varied natural habitats drives consistently high tick activity throughout King Township.',
   },
   {
     question: 'I have a large property in King City — does that increase my tick risk?',
@@ -34,7 +34,7 @@ const FAQS = [
   },
   {
     question: 'Are ticks active year-round in King City?',
-    answer: 'Ticks are active in King City from early April through November or even into December during mild years. The nymph stage (May through July) is the most dangerous for Lyme disease transmission — nymphs are tiny and easy to miss. Adult ticks are active in spring and again in the fall. York Region Public Health advises residents across King Township to conduct regular tick checks from spring through late fall.',
+    answer: 'Ticks are active in King City from early April through November or even into December during mild years. The nymph stage (May through July) is the most dangerous for Lyme disease transmission — nymphs are tiny and easy to miss. Adult ticks are active in spring and again in the fall. York Region Public Health advises everyone in the region to search their body for ticks after spending time outdoors.',
   },
 ]
 
@@ -51,7 +51,7 @@ export default function KingCityTickPage() {
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Tick Control', href: '/tick-control' }, { label: CITY }]}
         title={<>{CITY} Tick Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>Licensed Ontario pesticide operator. Treatments applied according to label directions, for King City, Nobleton, and Schomberg properties on the Oak Ridges Moraine, where blacklegged tick activity runs high.</>}
+        subtitle={<>Licensed Ontario pesticide operator. Treatments applied according to label directions, for King City, Nobleton, and Schomberg properties on the Oak Ridges Moraine, where York Region identified a Lyme disease risk area near Joker's Hill in 2017.</>}
         service="tick"
         image="/spray-front.webp"
         imageAlt="BuzzSkito technician treating lawn edges and garden borders for ticks"
@@ -123,7 +123,11 @@ export default function KingCityTickPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why Tick Spray Is Crucial in King City</h2>
           <p>King Township has a tick problem that is both larger in scale and more consistent than most GTA communities. The township sits squarely on the Oak Ridges Moraine, the same glacially formed ridge that drives high tick activity throughout York and Durham Regions. But King's situation is amplified by the nature of its landscape: vast agricultural properties with wooded margins, forest fragments, Humber River tributaries, and the Schomberg River corridor all create a patchwork of ideal blacklegged tick habitats across hundreds of square kilometres.</p>
-          <p>York Region Public Health issues regular tick advisories for King Township and its communities — King City village, Nobleton, Schomberg, and Kettleby. The deer population across King is substantial, providing the primary adult tick host that spreads ticks across the landscape. Estate and rural properties with multiple forest edges, woodlots, or creek frontage can have very high tick pressure throughout the full questing season. Professional barrier spray targets the lawn-forest interface, where ticks wait for a host.</p>
+          <p>The deer population across King is substantial, providing the primary adult tick host that spreads ticks across the landscape. Estate and rural properties with multiple forest edges, woodlots, or creek frontage can have very high tick pressure throughout the full questing season. Professional barrier spray targets the lawn-forest interface, where ticks wait for a host.</p>
+
+          <h2>What York Region Has Found in King Township</h2>
+          <p>In 2017 York Region Public Health identified a Lyme disease risk area near Joker&apos;s Hill in King Township. Its 2018 tick dragging then found blacklegged ticks at three King sites: Happy Valley Forest (5 ticks), King Trails at Centennial (2) and Cold Creek Conservation Area (1). York Region now counts King, like the rest of the region, as an estimated Lyme disease risk area; it says more than 20 percent of the region&apos;s blacklegged ticks carry the Lyme bacteria.</p>
+          <p className="text-sm text-gray-500">Sources: <a href="https://www.york.ca/media/113746/download" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">York Region, Vector-Borne Diseases key findings (PDF)</a> · <a href="https://www.york.ca/media/75181/download" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">York Region, Vector Borne Disease Statistics, 2019 (PDF)</a> · <a href="https://www.york.ca/health/infectious-diseases-and-prevention/lyme-disease" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">York Region, Lyme disease</a></p>
 
           <h2>Tick Hotspots in King City</h2>
           <ul>

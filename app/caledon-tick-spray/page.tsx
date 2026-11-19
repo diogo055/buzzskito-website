@@ -13,7 +13,7 @@ export const metadata: Metadata = buildMetadata({
   // TITLE NOTE (Nov 7, 2026, owner: "if you find that having 2026 on these titles is bad, then obviously strip it"): was 'Caledon Tick Control 2026 · From $99 · 150+ Five-Star Reviews'; dropped "2026" (stale from Jan 1); no city searches on record yet; default word order; fits 60 rendered; price is in this title.
   title: 'Tick Control Caledon: Yard Tick Spray From $99',
   description:
-    "Caledon tick spray for Oak Ridges Moraine and Forks of the Credit — among Ontario's highest blacklegged tick zones. Licensed Ontario operator, from $99, 5 sprays per season. Bolton, Palgrave, Caledon East, Inglewood, Belfountain. Call (289) 216-5030.",
+    "Caledon tick spray for Oak Ridges Moraine and Forks of the Credit properties, inside Ontario's mapped tick risk areas. Licensed Ontario operator, from $99, 5 sprays per season. Bolton, Palgrave, Caledon East, Inglewood, Belfountain. Call (289) 216-5030.",
   canonical: '/caledon-tick-spray',
 })
 
@@ -25,8 +25,8 @@ const FAQS = [
     answer: 'Tick spray in Caledon starts from $99 per application. Given Caledon\'s high tick activity near Forks of the Credit Provincial Park, the Bruce Trail, and the Niagara Escarpment, most properties are best covered by the full seasonal program — five treatments spaced roughly monthly from May through September, because monthly spacing keeps the treated zones renewed through the season. The season program is $597 standalone, or $497 when added to a mosquito plan. No contracts. Call (289) 216-5030.',
   },
   {
-    question: 'Why does Caledon have some of the highest tick activity in the GTA?',
-    answer: 'Caledon sits at the intersection of two major natural systems: the Oak Ridges Moraine and the Credit River watershed, with the Humber River headwaters also running through the township. These aren\'t isolated pockets — they are large, continuous forested and agricultural edge habitats that support very high deer populations. More deer means more tick hosts, which means more ticks. Peel Region Public Health issues annual tick advisories specifically calling out Caledon as a high-risk area.',
+    question: 'Why are blacklegged ticks common in Caledon?',
+    answer: 'Peel Public Health reports that blacklegged ticks top the list of ticks reported to eTick from Caledon, while American dog ticks top it in Mississauga and Brampton. Caledon sits at the intersection of two major natural systems: the Oak Ridges Moraine and the Credit River watershed, with the Humber River headwaters also running through the township. These aren\'t isolated pockets — they are large, continuous forested and agricultural edge habitats that support very high deer populations. More deer means more tick hosts, which means more ticks.',
   },
   {
     question: 'Do I need tick spray even on a rural Caledon property with few neighbours?',
@@ -34,7 +34,7 @@ const FAQS = [
   },
   {
     question: 'Is Forks of the Credit Provincial Park near my Caledon property a tick risk?',
-    answer: 'Yes. Forks of the Credit Provincial Park is documented tick habitat — any property within several kilometres of the park, particularly those with deer-accessible yard space, faces annual tick pressure. The Caledon Trailway also passes through tick-active areas. BuzzSkito recommends properties near the park and trailway run the full seasonal program — five treatments spaced roughly monthly from May through September. Monthly spacing keeps the treated zones renewed through peak nymph season in May, June, and July, and through the adults that stay active into the autumn. Deer moving off the park and trailway reintroduce ticks all season, so the barrier has to be renewed rather than applied once or twice.',
+    answer: 'Yes. Forks of the Credit Provincial Park lies inside Public Health Ontario\'s 2026 blacklegged tick risk area, a few kilometres from Ken Whillans Resource Management Area, one of the sites where Peel collected blacklegged ticks. Any property within several kilometres of the park, particularly those with deer-accessible yard space, faces annual tick pressure. The Caledon Trailway also passes through tick-active areas. BuzzSkito recommends properties near the park and trailway run the full seasonal program — five treatments spaced roughly monthly from May through September. Monthly spacing keeps the treated zones renewed through peak nymph season in May, June, and July, and through the adults that stay active into the autumn. Deer moving off the park and trailway reintroduce ticks all season, so the barrier has to be renewed rather than applied once or twice.',
   },
 ]
 
@@ -51,7 +51,7 @@ export default function CaledonTickPage() {
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Tick Control', href: '/tick-control' }, { label: CITY }]}
         title={<>{CITY} Tick Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>Caledon sits at the heart of the Oak Ridges Moraine, with among the highest confirmed blacklegged tick activity rates in the GTA. Licensed Ontario pesticide operator, with tick treatments applied according to label directions.</>}
+        subtitle={<>Caledon sits at the heart of the Oak Ridges Moraine, inside Public Health Ontario&apos;s 2026 blacklegged tick risk areas. Licensed Ontario pesticide operator, with tick treatments applied according to label directions.</>}
         image="/spray-front.webp"
         service="tick"
         imageAlt="BuzzSkito technician treating lawn edges and garden borders for ticks"
@@ -122,8 +122,12 @@ export default function CaledonTickPage() {
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why Tick Spray Is Crucial in Caledon</h2>
-          <p>Caledon has a tick problem that most GTA communities don't: it sits directly on the Oak Ridges Moraine, one of Ontario's premier blacklegged tick habitats, while simultaneously hosting the Humber River headwaters and the upper Credit River watershed. This combination of moraine topography, mixed forest, agricultural edges, and high deer density creates conditions where blacklegged tick activity is not just present — it is among the highest recorded anywhere in the GTA region. Peel Region Public Health issues dedicated tick advisories for Caledon every single year.</p>
+          <p>Caledon&apos;s tick picture is different from the rest of Peel. It sits directly on the Oak Ridges Moraine while also hosting the Humber River headwaters and the upper Credit River watershed, and that combination of moraine topography, mixed forest, agricultural edges, and high deer density gives blacklegged ticks the wooded, brushy ground they need, right beside village and rural homes.</p>
           <p>Forks of the Credit Provincial Park, the Caledon Trailway, and the Humber River headwaters corridors all run through or adjacent to rural and village properties throughout the township. Unlike more urbanized areas where tick habitat is confined to ravines, in Caledon the entire landscape can be tick habitat. Field edges, woodlot borders, and creek banks that run alongside residential properties in Bolton, Palgrave, and Caledon East are all active tick zones from April through November.</p>
+
+          <h2>Tick Facts for Caledon From Peel and Public Health Ontario</h2>
+          <p>Public Health Ontario&apos;s risk-area data (dated June 9, 2026) name four sites where Peel collected blacklegged ticks by drag sampling, including two in Caledon: the Humber Valley Heritage Trail and the Ken Whillans Resource Management Area near Caledon Village. In 2025, 52 of the blacklegged ticks collected in Peel tested positive for the bacteria that cause Lyme disease, about one in three. Peel Public Health&apos;s October 2024 update for doctors names the blacklegged tick as the species reported to eTick most often from Caledon. Public Health Ontario&apos;s 2026 risk areas cover every Caledon community checked, including Bolton, Caledon East, Palgrave, Inglewood, Belfountain and Alton.</p>
+          <p className="text-sm text-gray-500">Sources: <a href="https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/vbd-tool" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Public Health Ontario, Ontario Vector-Borne Disease Tool</a> · <a href="https://peelregion.ca/sites/default/files/2024-10/2024-10-09-tick-borne-diseases-no.17-vol.31.pdf" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Peel Public Health, Health Professionals Update (Oct 9, 2024)</a></p>
 
           <h2>Tick Hotspots in Caledon</h2>
           <ul>

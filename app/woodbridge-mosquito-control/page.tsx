@@ -44,7 +44,7 @@ const FAQS = [
   },
   {
     question: 'Does BuzzSkito provide tick control in Woodbridge as well?',
-    answer: 'Yes. Boyd Conservation Area and the Humber River valley in Woodbridge are established blacklegged tick habitat. Properties in Islington Woods that back onto the Boyd Conservation Area boundary carry meaningful tick risk throughout the active season (May through October). Many Woodbridge homeowners bundle mosquito and tick treatments — both can be done on the same visit, so both pests are covered.',
+    answer: 'Yes. In 2018 York Region Public Health identified a Lyme disease risk area in the Humber Valley near Boyd Conservation Area, and today it says all of York Region is an estimated Lyme disease risk area. Properties in Islington Woods that back onto the Boyd Conservation Area boundary carry meaningful tick risk throughout the active season (May through October). Many Woodbridge homeowners bundle mosquito and tick treatments — both can be done on the same visit, so both pests are covered.',
   },
 ]
 
@@ -115,6 +115,10 @@ export default function WoodbridgeMosquitoPage() {
           <p>Woodbridge occupies one of the most mosquito-active positions in Vaughan. The community is wrapped on its western and northern sides by Boyd Conservation Area — the Humber River&apos;s largest conservation park — with the Humber River floodplain running directly adjacent to Islington Woods and Weston Downs. Black Creek, which originates in Maple and flows south through Woodbridge, joins the Humber in this area, adding its own contribution of standing water habitat along the confluence zone near Pine Valley.</p>
           <p>The mature residential tree canopy that characterizes much of Woodbridge — particularly in Islington Woods and Weston Downs, where homes are often shaded by large oaks, maples, and spruce — amplifies the mosquito problem by providing ideal daytime resting conditions. Adult mosquitoes emerging from the Humber River floodplain drift into these shaded neighbourhoods and spend the day resting on leaf surfaces, fence lines, and hedges until they feed at dusk. Professional barrier spray targets these resting surfaces, and repeat visits keep the treated zone renewed as new mosquitoes drift in from the valley.</p>
 
+          <h2>West Nile Virus Facts for Woodbridge</h2>
+          <p>York Region Public Health reports West Nile virus results by city, and Woodbridge is part of Vaughan, where mosquitoes from 4 traps had tested positive as of September 3, 2026. The Region&apos;s two human cases of the year to that date, one confirmed and one probable, were in Vaughan too. The Region larvicides catch basins along public roads but does not treat private yards; the one exception is a catch basin on your own property, which it will treat free, once a season, on request. Vaughan, like every York Region municipality, also has a standing water by-law, and the Region says standing water should be removed within 7 days.</p>
+          <p className="text-sm text-gray-500">Sources: <a href="https://www.york.ca/health/infectious-diseases-and-prevention/west-nile-virus" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">York Region, West Nile virus</a> · <a href="https://www.york.ca/newsroom/media-release/york-region-reports-first-human-case-west-nile-virus-2026" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">York Region release, Sept 2, 2026</a> · <a href="https://www.york.ca/newsroom/media-release/mosquitoes-york-region-test-positive-west-nile-virus-8" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">York Region release, July 16, 2026</a></p>
+
           <h2>Woodbridge Neighbourhoods We Serve</h2>
           <p>BuzzSkito provides mosquito control across all Woodbridge communities, including:</p>
           <div className="not-prose flex flex-wrap gap-2 mb-6">
@@ -130,7 +134,7 @@ export default function WoodbridgeMosquitoPage() {
           </ul>
 
           <h2>Also Providing Tick Control in Woodbridge</h2>
-          <p>Boyd Conservation Area and the Humber River valley in Woodbridge are established blacklegged tick habitat — risk is high for properties adjacent to the conservation boundary, particularly in Islington Woods. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">Woodbridge tick spray service</Link> — many homeowners bundle both treatments so both pests are covered through the season.</p>
+          <p>York Region Public Health identified a Lyme disease risk area in this part of the Humber Valley, near the Boyd and Kortright conservation areas, in 2018. Tick risk is high for properties adjacent to the conservation boundary, particularly in Islington Woods. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">Woodbridge tick spray service</Link> — many homeowners bundle both treatments so both pests are covered through the season.</p>
 
 
           <CityPriceCard city={CITY} service="mosquito" />

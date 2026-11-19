@@ -22,15 +22,15 @@ const NEIGHBOURHOODS = ['Mimico','Long Branch','New Toronto','The Kingsway','Hum
 const FAQS = [
   {
     question: 'How much does tick spray cost in Etobicoke?',
-    answer: 'Tick spray in Etobicoke starts from $99 per application. Properties near the Humber River valley, Etobicoke Creek, or Centennial Park are best covered by the full seasonal program — five treatments spaced roughly monthly from May through September, so the yard is re-treated through the whole tick season. The season program is $597 standalone, or $497 when added to a mosquito plan. No contracts. Call (289) 216-5030.',
+    answer: 'Tick spray in Etobicoke starts from $99 per application. Properties that back onto the Humber River valley, Etobicoke Creek or another wooded ravine are best covered by the full seasonal program — five treatments spaced roughly monthly from May through September, so the yard is re-treated through the whole tick season. The season program is $597 standalone, or $497 when added to a mosquito plan. No contracts. Call (289) 216-5030.',
   },
   {
     question: 'Where are ticks most active in Etobicoke?',
-    answer: 'The Humber River valley corridor through Etobicoke is the primary blacklegged tick habitat. Properties in Humber Valley and The Kingsway that back onto the ravine are at highest risk. Centennial Park\'s forested sections, the Mimico Creek valley, and the James Gardens ravine are additional areas flagged in Toronto Public Health\'s western Toronto tick monitoring program.',
+    answer: 'Fewer ticks turn up in Etobicoke than in the east end of Toronto. When Toronto Public Health dragged Etobicoke parks along the Humber River and Mimico Creek, it found single blacklegged ticks at Humberwood Park (2018, spring 2022 and fall 2023), West Deane Park (fall 2022) and Pine Point Park (fall 2025); the Humberwood tick from spring 2022 carried the Lyme bacterium. Ticks live in wooded or bushy areas with leaf litter or tall grass, so the Etobicoke yards most worth treating are those that back onto the Humber valley or another wooded ravine.',
   },
   {
     question: 'Does Toronto Public Health monitor for ticks in Etobicoke?',
-    answer: 'Yes. Toronto Public Health includes the Humber River valley and several western Etobicoke ravines in its annual tick surveillance and dragging program. Their data confirms established blacklegged tick populations in these areas. They recommend tick checks after any time spent in or near Etobicoke\'s green corridors.',
+    answer: 'Yes. Toronto Public Health includes the Humber River valley and several western Etobicoke ravines in its annual tick surveillance and dragging program. Its results so far show single ticks at Etobicoke sites, not large numbers, but it considers all of Toronto an estimated risk area for Lyme disease and says blacklegged ticks could be present outside the areas it has identified. Its general advice is to do a full-body tick check after time in wooded or brushy areas, and to check children and pets too.',
   },
   {
     question: 'My Etobicoke yard doesn\'t back onto the ravine — do I still need tick spray?',
@@ -52,7 +52,7 @@ export default function EtobicokeTickPage() {
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Tick Control', href: '/tick-control' }, { label: CITY }]}
         title={<>{CITY} Tick Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>The Humber River valley through Etobicoke is confirmed blacklegged tick habitat along Toronto's western ravine corridors. Licensed Ontario pesticide operator, with tick treatments applied according to label directions.</>}
+        subtitle={<>Toronto Public Health checks Etobicoke parks along the Humber River and Mimico Creek for ticks and counts all of Toronto as an estimated Lyme disease risk area. Licensed Ontario pesticide operator, with tick treatments applied according to label directions.</>}
         image="/spray-front.webp"
         imageAlt="BuzzSkito technician treating lawn edges and garden borders for ticks"
       />
@@ -122,16 +122,19 @@ export default function EtobicokeTickPage() {
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why Tick Spray Is Crucial in Etobicoke</h2>
-          <p>Etobicoke's ravine and river valley network isn't just scenic — it's a confirmed blacklegged tick corridor that runs from Vaughan's Humber River headwaters straight through residential Toronto. Toronto Public Health includes the western ravines, including the Humber River valley and Mimico Creek valley, in its formal tick monitoring zones. Centennial Park's mature forest sections and the James Gardens ravine have both been identified as active tick habitat in recent years.</p>
+          <p>Etobicoke&apos;s ravine and river valley network isn&apos;t just scenic — it&apos;s a wooded wildlife corridor that runs from Vaughan&apos;s Humber River headwaters straight through residential Toronto, and blacklegged ticks live in exactly that kind of wooded, leafy habitat.</p>
           <p>Many Etobicoke homeowners are surprised to learn that their manicured lawns can have ticks — but the risk zone isn't just the ravine edge. Ticks are transported by deer, rabbits, and squirrels throughout the neighbourhood well beyond the visible ravine boundary. The lawn's edge where grass meets garden beds, leaf litter, or shrub borders is exactly where blacklegged ticks quest for hosts. That is why professional barrier spray is aimed at these transition zones rather than broadcast across the whole lawn.</p>
 
-          <h2>Tick Hotspots in Etobicoke</h2>
+          <h2>Toronto Public Health&apos;s Tick Checks in Etobicoke</h2>
+          <p>Toronto Public Health drags Etobicoke parks along the Humber River and Mimico Creek for ticks, and its finds here have been single ticks: one at Pine Point Park in fall 2025, which tested negative, and one carrying the Lyme bacterium at Humberwood Park in spring 2022. Scarborough, by comparison, produced most of the ticks Toronto Public Health collected in fall 2025. Even so, every part of Toronto, Etobicoke included, is an estimated risk area for Lyme disease, and for your own lot Toronto Public Health suggests mowing regularly and clearing leaf litter, brush and weeds from the edge of the lawn.</p>
+          <p className="text-sm text-gray-500">Sources: <a href="https://www.toronto.ca/community-people/health-wellness-care/health-programs-advice/lyme-disease/blacklegged-tick-surveillance-results/" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Toronto Public Health, blacklegged tick surveillance results</a> · <a href="https://www.toronto.ca/community-people/health-wellness-care/health-programs-advice/lyme-disease/" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Toronto Public Health, Lyme disease</a></p>
+
+          <h2>Where to Watch for Ticks in Etobicoke</h2>
           <ul>
             <li>Humber River valley trail corridor (Humber Valley and Kingsway area)</li>
-            <li>Centennial Park forested sections (Rexdale area)</li>
             <li>Mimico Creek valley green corridor</li>
-            <li>James Gardens ravine (Islington Village)</li>
             <li>Etobicoke Creek valley and adjacent residential lot edges</li>
+            <li>Any lawn edge with leaf litter, brush or tall grass that backs onto a wooded ravine or park</li>
           </ul>
 
           <h2>Etobicoke Neighbourhoods We Serve for Tick Control</h2>
@@ -155,7 +158,7 @@ export default function EtobicokeTickPage() {
 
 
           <h2>Compare Etobicoke Pest Control Options</h2>
-          <p>Etobicoke has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-etobicoke" className="text-brand-700 hover:underline font-semibold">Pest Control in Etobicoke</Link> for how a mosquito and tick specialist compares with a general pest company. See our full mosquito programme for the same property: <Link href="/etobicoke-mosquito-control" className="text-brand-700 hover:underline font-semibold">Mosquito Control in Etobicoke</Link>.</p>
+          <p>Toronto Public Health has found blacklegged ticks in Etobicoke parks — see our specialist pest control guide: <Link href="/pest-control-etobicoke" className="text-brand-700 hover:underline font-semibold">Pest Control in Etobicoke</Link> for how a mosquito and tick specialist compares with a general pest company. See our full mosquito programme for the same property: <Link href="/etobicoke-mosquito-control" className="text-brand-700 hover:underline font-semibold">Mosquito Control in Etobicoke</Link>.</p>
           <h2>Related Tick Control Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>

@@ -26,11 +26,11 @@ const FAQS = [
   },
   {
     question: 'Which Woodbridge areas have the highest tick risk?',
-    answer: 'Properties in Islington Woods and Pine Valley that back onto Boyd Conservation Area or the Humber River valley have the highest tick exposure risk in Woodbridge. York Region confirms tick presence throughout the Boyd-Humber corridor annually. East Woodbridge and Weston Downs also face risk from Humber valley wildlife corridors that carry ticks beyond the immediate conservation area boundaries.',
+    answer: 'Properties in Islington Woods and Pine Valley that back onto Boyd Conservation Area or the Humber River valley have the highest tick exposure risk in Woodbridge. East Woodbridge and Weston Downs also face risk from Humber valley wildlife corridors that carry ticks beyond the immediate conservation area boundaries.',
   },
   {
     question: 'Is Boyd Conservation Area a confirmed tick habitat?',
-    answer: 'Yes. Boyd Conservation Area is well-documented blacklegged tick habitat, and it sits directly within Woodbridge\'s residential boundaries. Properties that have rear yards adjacent to Boyd\'s forested edges, meadow margins, or the Humber River banks face direct annual tick exposure. York Region Public Health\'s tick monitoring program covers this area.',
+    answer: 'Yes. In 2018 York Region Public Health identified a Lyme disease risk area in the Humber Valley near the Boyd and Kortright conservation areas, and Boyd sits directly within Woodbridge\'s residential boundaries. Properties that have rear yards adjacent to Boyd\'s forested edges, meadow margins, or the Humber River banks face direct annual tick exposure. Today the Region says all of York Region is an estimated Lyme disease risk area.',
   },
   {
     question: 'Can ticks from Boyd Conservation Area reach properties that don\'t directly back onto it?',
@@ -122,12 +122,16 @@ export default function WoodbridgeTickPage() {
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why Tick Spray Is Crucial in Woodbridge</h2>
-          <p>Woodbridge has a unique tick challenge: Boyd Conservation Area sits embedded within the community, not on its fringes. This means large areas of established residential Woodbridge are directly adjacent to confirmed blacklegged tick habitat. York Region Public Health confirms tick presence throughout the Boyd Conservation Area and Humber River valley corridor every season, and properties that back onto either of these natural areas face the most direct annual exposure.</p>
+          <p>Woodbridge has a unique tick challenge: Boyd Conservation Area sits embedded within the community, not on its fringes. This means large areas of established residential Woodbridge are directly adjacent to blacklegged tick habitat. Properties that back onto Boyd or the Humber River valley corridor face the most direct annual exposure.</p>
           <p>The Humber River valley is a continuous wildlife corridor that carries ticks from rural areas north of Vaughan all the way through Woodbridge and into Etobicoke. Islington Woods and Pine Valley neighbourhoods have mature forest canopy and natural lot edges that provide ideal tick habitat right in the backyard. Weston Downs and Sonoma Heights also see wildlife movement from the Humber valley. Professional barrier spray applied to your property's lawn edges, garden borders, and naturalized zones is a practical way to reduce tick encounters in your own yard.</p>
+
+          <h2>What York Region Says About Ticks Near Woodbridge</h2>
+          <p>For Woodbridge, the key local finding dates from 2018, when York Region Public Health identified a Lyme disease risk area in the Humber Valley near the Boyd and Kortright conservation areas. Today the Region says all of York Region is an estimated Lyme disease risk area, and that more than 20 percent of its blacklegged ticks carry the Lyme bacteria. It also warns that dogs and cats can bring infected ticks into your home, so check pets as well as people after time outdoors.</p>
+          <p className="text-sm text-gray-500">Sources: <a href="https://www.york.ca/media/113746/download" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">York Region, Vector-Borne Diseases key findings (PDF)</a> · <a href="https://www.york.ca/health/infectious-diseases-and-prevention/lyme-disease" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">York Region, Lyme disease</a></p>
 
           <h2>Tick Hotspots in Woodbridge</h2>
           <ul>
-            <li>Boyd Conservation Area — confirmed blacklegged tick habitat directly within Woodbridge</li>
+            <li>Boyd Conservation Area, directly within Woodbridge and near the 2018 Humber Valley risk area</li>
             <li>Humber River valley corridor through Islington Woods and Weston Downs</li>
             <li>Pine Valley forested lot edges and ravine margins</li>
             <li>East Woodbridge Humber valley tributary areas</li>
