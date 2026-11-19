@@ -2,7 +2,7 @@
  "id": "animal-droppings",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "4abdedfc37586577f684fb19b3554057b33fe148b6adfa7bf72cb9565480e9b4",
+ "sha": "ff16ff3da4ca4218a5d64ca73e8703471659cbbfc20e684e6ddad0cb1e2dac0a",
  "claimsChecked": 223,
  "claimsCorrected": 2,
  "claimsRemovedOrSoftened": 6,
@@ -37,6 +37,16 @@
    "on": "2026-11-09",
    "note": "Nov 8, 2026 top-3 upgrade (commit b6754e3b: new sourced sections, tables, FAQs and photos) was independently fact-checked that day (41 corrections across the walkthrough pages, three passes), but this record was not updated then; recorded Nov 9. Nov 9: links to /blog/coyote-poop and /blog/bear-poop added in 'What animal poop is in my yard?' (no fact changed).",
    "previousSha": "0839c1782b28e791a1d4cf6c0688a35a0c3d3dbbb7f5eb4db736241a5bb90e83"
+  },
+  {
+   "on": "2026-11-19",
+   "note": "Nov 19, 2026: added one original BuzzSkito diagram (/diagrams/animal-droppings-size-chart.svg, CC BY 4.0) after the first paragraph of an existing section; sizes from EPA/CDC/university extension sources listed in the diagram itself. No text changed.",
+   "previousSha": "4abdedfc37586577f684fb19b3554057b33fe148b6adfa7bf72cb9565480e9b4"
+  },
+  {
+   "on": "2026-11-19",
+   "note": "Nov 19, 2026: one internal link (pointer sentence or card href) added to a new page written Nov 19 (planned; shows as text until released). No facts changed.",
+   "previousSha": "e5f5ad814e8ab68d86ff09eba8b668e373063c858dec495b25c7e473a72fa6e2"
   }
  ]
 }

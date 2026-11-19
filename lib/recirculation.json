@@ -275,6 +275,20 @@
    ],
    "bar": true
   },
+  "/blog/baby-spiders": {
+   "next": "/blog/wolf-spiders",
+   "related": [
+    "/blog/yellow-sac-spiders",
+    "/blog/types-of-spider-webs",
+    "/blog/brown-recluse"
+   ],
+   "cards": [
+    "/blog/daddy-long-legs",
+    "/blog/southern-house-spider",
+    "/blog/woodlouse-spiders"
+   ],
+   "bar": true
+  },
   "/blog/baby-ticks-nymphs-seed-ticks-ontario": {
    "next": "/blog/types-of-ticks-identification",
    "related": [
@@ -1945,6 +1959,20 @@
    ],
    "bar": true
   },
+  "/blog/bugs-that-look-like-mosquitoes": {
+   "next": "/blog/mosquito-bite-vs-spider-bite",
+   "related": [
+    "/blog/best-bug-zapper",
+    "/blog/types-of-mosquitoes",
+    "/blog/skeeter-syndrome"
+   ],
+   "cards": [
+    "/blog/smells-mosquitoes-hate",
+    "/blog/best-mosquito-repellent",
+    "/blog/laser-mosquito-killer-photon-matrix-review"
+   ],
+   "bar": true
+  },
   "/blog/bugs-that-look-like-silverfish": {
    "next": "/blog/baby-silverfish",
    "related": [
@@ -2192,6 +2220,20 @@
     "/blog/cluster-flies-in-house-canada"
    ]
   },
+  "/blog/chigger-bites-vs-flea-bites": {
+   "next": "/blog/bugs-that-look-like-silverfish",
+   "related": [
+    "/blog/centipede-vs-millipede",
+    "/blog/flea-bites",
+    "/blog/insect-eggs"
+   ],
+   "cards": [
+    "/blog/moths-in-house",
+    "/blog/wheel-bugs",
+    "/blog/christmas-tree-bugs"
+   ],
+   "bar": true
+  },
   "/blog/christmas-tree-bugs": {
    "next": "/blog/bugs-in-bathroom",
    "related": [
@@ -2284,6 +2326,20 @@
     "/blog/do-cockroaches-bite",
     "/blog/water-bugs-vs-cockroaches",
     "/blog/advion-cockroach-gel-bait"
+   ],
+   "bar": true
+  },
+  "/blog/cockroach-nest": {
+   "next": "/blog/german-cockroaches",
+   "related": [
+    "/blog/cockroach-droppings",
+    "/blog/white-cockroach",
+    "/blog/wood-roaches"
+   ],
+   "cards": [
+    "/blog/best-cockroach-gel-bait",
+    "/blog/cockroach-eggs",
+    "/blog/roach-droppings-vs-mouse-droppings"
    ],
    "bar": true
   },
@@ -3084,6 +3140,20 @@
     "/learn/ant-killer-recipes",
     "/blog/honeypot-ants",
     "/blog/tiny-ants"
+   ],
+   "bar": true
+  },
+  "/blog/fox-poop": {
+   "next": "/blog/bear-poop",
+   "related": [
+    "/blog/raccoon-poop",
+    "/blog/skunk-poop",
+    "/blog/deer-poop"
+   ],
+   "cards": [
+    "/blog/raccoon-repellent",
+    "/blog/animals-in-attic",
+    "/blog/coyote-poop"
    ],
    "bar": true
   },
@@ -4135,6 +4205,20 @@
     "/blog/can-ticks-fly-jump-swim"
    ]
   },
+  "/blog/insect-eggs": {
+   "next": "/blog/chigger-bites-vs-flea-bites",
+   "related": [
+    "/blog/moth-eggs",
+    "/blog/stink-bug-eggs",
+    "/blog/lice-eggs"
+   ],
+   "cards": [
+    "/blog/pill-bugs",
+    "/blog/baby-silverfish",
+    "/blog/crickets-in-house"
+   ],
+   "bar": true
+  },
   "/blog/is-deet-safe": {
    "next": "/blog/picaridin-vs-deet",
    "related": [
@@ -4983,6 +5067,20 @@
     "/blog/do-mothballs-keep-mice-away"
    ]
   },
+  "/blog/mouse-nest": {
+   "next": "/blog/rat-nest",
+   "related": [
+    "/blog/baby-mice",
+    "/blog/shrews",
+    "/blog/rat-droppings"
+   ],
+   "cards": [
+    "/blog/fall-mouse-proofing-checklist",
+    "/blog/field-mice",
+    "/blog/mouse-bait-station-canada"
+   ],
+   "bar": true
+  },
   "/blog/mouse-poop": {
    "next": "/blog/rat-droppings",
    "related": [
@@ -5589,6 +5687,20 @@
    ],
    "bar": true
   },
+  "/blog/raccoon-tracks": {
+   "next": "/blog/animal-tracks-in-snow",
+   "related": [
+    "/blog/raccoon-repellent",
+    "/blog/raccoon-poop",
+    "/blog/skunk-poop"
+   ],
+   "cards": [
+    "/blog/bat-poop",
+    "/blog/fox-poop",
+    "/blog/raccoon-proof-chimney-cap-canada"
+   ],
+   "bar": true
+  },
   "/blog/rain-barrel-mosquito-proof-canada": {
    "next": "/blog/mosquito-bits-canada-vs-dunks",
    "related": [
@@ -5835,6 +5947,20 @@
    ],
    "bar": true
   },
+  "/blog/signs-of-silverfish": {
+   "next": "/blog/bugs-that-look-like-silverfish",
+   "related": [
+    "/blog/signs-of-carpet-beetles",
+    "/blog/baby-silverfish",
+    "/blog/how-to-get-rid-of-silverfish"
+   ],
+   "cards": [
+    "/blog/what-do-lice-look-like",
+    "/blog/carpet-beetle-rash",
+    "/blog/kissing-bug-bites"
+   ],
+   "bar": true
+  },
   "/blog/skeeter-syndrome": {
    "next": "/blog/when-to-worry-about-a-mosquito-bite",
    "related": [
@@ -5846,6 +5972,20 @@
     "/blog/citronella-candles-canada-do-they-work",
     "/blog/mosquito-magnet-vs-dynatrap-canada",
     "/blog/what-attracts-mosquitoes-to-you"
+   ],
+   "bar": true
+  },
+  "/blog/skunk-poop": {
+   "next": "/blog/raccoon-poop",
+   "related": [
+    "/blog/deer-poop",
+    "/blog/fox-poop",
+    "/blog/rabbit-poop"
+   ],
+   "cards": [
+    "/blog/raccoon-and-skunk-proofing-under-a-deck-canada",
+    "/blog/squirrel-poop",
+    "/blog/best-raccoon-live-trap-canada"
    ],
    "bar": true
   },
@@ -7046,6 +7186,20 @@
    ],
    "bar": true
   },
+  "/blog/types-of-spider-webs": {
+   "next": "/blog/orb-weaver-spiders",
+   "related": [
+    "/blog/brown-recluse",
+    "/blog/black-widow-spiders",
+    "/blog/jumping-spiders"
+   ],
+   "cards": [
+    "/blog/false-widow-spiders",
+    "/blog/spider-egg-sacs",
+    "/blog/baby-spiders"
+   ],
+   "bar": true
+  },
   "/blog/types-of-ticks-identification": {
    "next": "/blog/baby-ticks-nymphs-seed-ticks-ontario",
    "related": [
@@ -7330,6 +7484,20 @@
     "/blog/best-roach-traps-canada",
     "/blog/german-cockroaches",
     "/learn/cockroaches"
+   ],
+   "bar": true
+  },
+  "/blog/what-do-bed-bug-bites-look-like": {
+   "next": "/blog/bed-bug-bites",
+   "related": [
+    "/blog/bed-bug-bites-but-no-bed-bugs",
+    "/blog/bat-bugs",
+    "/blog/bed-bug-eggs"
+   ],
+   "cards": [
+    "/blog/signs-of-bed-bugs-checklist",
+    "/blog/bed-bug-poop",
+    "/blog/crossfire-bed-bug-concentrate-review-canada"
    ],
    "bar": true
   },

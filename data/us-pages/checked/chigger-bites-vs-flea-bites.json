@@ -1,0 +1,15 @@
+{
+ "id": "chigger-bites-vs-flea-bites",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "2e871fa91881d596e6d5b05b5721529e8ae6dc1bdf692f63bf31271d07b1c490",
+ "claimsChecked": 245,
+ "claimsCorrected": 28,
+ "claimsRemovedOrSoftened": 13,
+ "checkedOn": "2026-11-19",
+ "released": {
+  "on": "2026-11-19",
+  "scheduledFor": "2026-11-19",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

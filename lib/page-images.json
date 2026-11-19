@@ -21,6 +21,7 @@
   "/guides/photos/blacklegged-tick-female-leg-hair.webp"
  ],
  "/blog/animal-droppings": [
+  "/diagrams/animal-droppings-size-chart.svg",
   "/guides/photos/bat-droppings-bat-box-ruler.webp",
   "/guides/photos/bat-droppings-siding.webp",
   "/guides/photos/cottontail-droppings.webp",
@@ -121,6 +122,7 @@
   "/guides/photos/mosquito-bite-welt-quarter.webp"
  ],
  "/blog/baby-bed-bugs-nymphs": [
+  "/diagrams/bed-bug-life-stages-size-chart.svg",
   "/guides/photos/bed-bug-adult-ruler.webp",
   "/guides/photos/bed-bug-cast-skin-fabric.webp",
   "/guides/photos/bed-bug-nymph.webp",
@@ -166,6 +168,20 @@
   "/guides/photos/eastern-hognose-snake-usfws.webp",
   "/guides/photos/juvenile-copperhead-usfws.webp",
   "/guides/photos/northern-water-snake-young-noaa.webp"
+ ],
+ "/blog/baby-spiders": [
+  "/guides/photos/ballooning-spider-silk-lawn.webp",
+  "/guides/photos/brown-recluse-shed-skin.webp",
+  "/guides/photos/clover-mite.webp",
+  "/guides/photos/common-house-spider-spiderlings-egg-sac.webp",
+  "/guides/photos/cross-orbweaver-spiderlings-cluster.webp",
+  "/guides/photos/harvestman.webp",
+  "/guides/photos/nursery-web-spider-spiderlings-nursery.webp",
+  "/guides/photos/seed-tick-larvae-fingertip.webp",
+  "/guides/photos/southern-black-widow-juvenile-top-view.webp",
+  "/guides/photos/southern-black-widow-spiderling.webp",
+  "/guides/photos/twospotted-spider-mite.webp",
+  "/guides/photos/wolf-spider.webp"
  ],
  "/blog/baby-ticks-nymphs-seed-ticks-ontario": [
   "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
@@ -244,6 +260,13 @@
   "/guides/photos/flea-egg-and-larva.webp",
   "/guides/photos/head-lice-nits-on-hair.webp"
  ],
+ "/blog/bed-bug-heat-treatment-diy-canada": [
+  "/guides/photos/bed-bug-heat-treatment-heater-setup-navy.webp",
+  "/guides/photos/bed-bug-heat-treatment-laptop-monitoring-navy.webp",
+  "/guides/photos/bed-bug-hotel-bedding.webp",
+  "/guides/photos/bed-bugs-eggs-under-bag-strap.webp",
+  "/guides/photos/bed-bugs-mating-eggs-fabric-fold.webp"
+ ],
  "/blog/bed-bug-heater-canada": [
   "/guides/photos/bed-bug-fecal-spots-bed-frame.webp",
   "/guides/photos/bed-bugs-eggs-under-bag-strap.webp",
@@ -303,12 +326,20 @@
   "/guides/photos/german-cockroach-nymphs.webp",
   "/guides/photos/western-bat-bug.webp"
  ],
+ "/blog/bed-bugs-on-mattress": [
+  "/guides/photos/bed-bug-cast-skin-fabric.webp",
+  "/guides/photos/bed-bug-feces-bed-corner.webp",
+  "/guides/photos/bed-bug-mattress-curb-nysipm.webp",
+  "/guides/photos/bed-bug-mattress-edge-eggs-nysipm.webp",
+  "/guides/photos/bed-bugs-male-female-cdc.webp"
+ ],
  "/blog/bed-bugs-on-the-ttc-toronto": [
   "/guides/photos/asian-lady-beetle.webp",
   "/guides/photos/bed-bug-adult-ruler.webp",
   "/guides/photos/carpet-beetle.webp"
  ],
  "/blog/beetles-in-house": [
+  "/diagrams/tiny-brown-bugs-size-chart.svg",
   "/guides/photos/asian-lady-beetle-aggregation.webp",
   "/guides/photos/bed-bug-adult-ruler.webp",
   "/guides/photos/black-carpet-beetle.webp",
@@ -604,6 +635,8 @@
   "/guides/photos/black-carpet-beetle.webp"
  ],
  "/blog/black-flies-ontario-when-they-come-out": [
+  "/guides/photos/black-fly-larvae-st-mary-river-nps.webp",
+  "/guides/photos/black-fly-swarm-dubawnt-river-nunavut.webp",
   "/guides/photos/black-fly.webp"
  ],
  "/blog/black-spiders": [
@@ -628,6 +661,7 @@
   "/guides/photos/western-black-widow.webp"
  ],
  "/blog/black-widow-spiders": [
+  "/diagrams/spider-identification-black-widow-brown-recluse-wolf-spider.svg",
   "/guides/photos/black-widow.webp",
   "/guides/photos/bold-jumping-spider.webp",
   "/guides/photos/brown-widow-hourglass.webp",
@@ -676,6 +710,7 @@
   "/guides/photos/white-american-cockroach-shed-skin.webp"
  ],
  "/blog/brown-recluse": [
+  "/diagrams/spider-identification-black-widow-brown-recluse-wolf-spider.svg",
   "/guides/photos/barn-funnel-weaver-indoor-wall.webp",
   "/guides/photos/brown-recluse-basement-wall.webp",
   "/guides/photos/brown-recluse-concrete-floor.webp",
@@ -785,6 +820,7 @@
   "/guides/photos/thief-ants-counter-pen-tip.webp"
  ],
  "/blog/bugs-that-look-like-bed-bugs": [
+  "/diagrams/flea-vs-bed-bug-vs-tick-vs-louse.svg",
   "/guides/photos/bed-bug-on-hand-bpca.webp",
   "/guides/photos/carpet-beetle-larva-bedroom.webp",
   "/guides/photos/dog-flea.webp",
@@ -794,6 +830,7 @@
  ],
  "/blog/bugs-that-look-like-bed-bugs-canada": [
   "/diagrams/bed-bug-evidence-chart.svg",
+  "/diagrams/tiny-brown-bugs-size-chart.svg",
   "/guides/photos/bed-bug-adult-ruler.webp",
   "/guides/photos/bed-bug-nymph.webp",
   "/guides/photos/booklouse.webp",
@@ -802,6 +839,7 @@
   "/guides/photos/spider-beetle.webp"
  ],
  "/blog/bugs-that-look-like-cockroaches": [
+  "/diagrams/types-of-cockroaches-size-chart.svg",
   "/guides/photos/american-cockroach.webp",
   "/guides/photos/bed-bug-adult-ruler.webp",
   "/guides/photos/european-earwig.webp",
@@ -811,6 +849,7 @@
   "/guides/photos/smokybrown-cockroach.webp"
  ],
  "/blog/bugs-that-look-like-fleas": [
+  "/diagrams/flea-vs-bed-bug-vs-tick-vs-louse.svg",
   "/guides/photos/bed-bug-nymph.webp",
   "/guides/photos/booklouse.webp",
   "/guides/photos/carpet-beetle-larva.webp",
@@ -835,6 +874,21 @@
   "/guides/photos/oleander-aphid-on-arm.webp",
   "/guides/photos/poultry-red-mite.webp",
   "/guides/photos/tick-trefoil-seeds-fabric-ruler.webp"
+ ],
+ "/blog/bugs-that-look-like-mosquitoes": [
+  "/guides/photos/biting-midge-on-skin.webp",
+  "/guides/photos/crane-fly.webp",
+  "/guides/photos/culex-quinquefasciatus-male.webp",
+  "/guides/photos/culex-tarsalis-kitchen-wall.webp",
+  "/guides/photos/drain-fly-bathroom-wall.webp",
+  "/guides/photos/fungus-gnat-penny-scale.webp",
+  "/guides/photos/giant-mayfly-window-screen.webp",
+  "/guides/photos/midge-swarm-wetland-evening.webp",
+  "/guides/photos/mosquito-wing-scales-culex.webp",
+  "/guides/photos/non-biting-midge-male-indoors.webp",
+  "/guides/photos/phantom-midge-scale-bar.webp",
+  "/guides/photos/psorophora-ciliata.webp",
+  "/guides/photos/winter-crane-fly-on-snow.webp"
  ],
  "/blog/bugs-that-look-like-silverfish": [
   "/guides/photos/booklouse-cereal-package.webp",
@@ -883,6 +937,7 @@
   "/guides/photos/bullet-ants-on-branch.webp"
  ],
  "/blog/camel-crickets": [
+  "/diagrams/camel-cricket-vs-house-cricket.svg",
   "/guides/photos/camel-cricket-baseboard.webp",
   "/guides/photos/camel-cricket-basement-floor.webp",
   "/guides/photos/camel-cricket.webp",
@@ -987,6 +1042,20 @@
   "/guides/photos/flea-bites-lower-leg.webp",
   "/guides/photos/mosquito-bite-welts.webp"
  ],
+ "/blog/chigger-bites-vs-flea-bites": [
+  "/guides/photos/bed-bug-bites-forearm.webp",
+  "/guides/photos/biting-midge-bites-ankles.webp",
+  "/guides/photos/cat-flea-from-dog.webp",
+  "/guides/photos/chigger-bites-sock-line.webp",
+  "/guides/photos/chigger-bites-waistline-cdc.webp",
+  "/guides/photos/chigger-larva-on-skin.webp",
+  "/guides/photos/chigger-larva-on-tweezers.webp",
+  "/guides/photos/flea-bites-ankles-cdc.webp",
+  "/guides/photos/flea-bites-lower-leg-close-up.webp",
+  "/guides/photos/flea-eggs-larvae-and-flea-dirt.webp",
+  "/guides/photos/mosquito-bite-welt-quarter.webp",
+  "/guides/photos/scabies-rash-hand.webp"
+ ],
  "/blog/christmas-tree-bugs": [
   "/guides/photos/adelgid-wool-christmas-tree-indoors.webp",
   "/guides/photos/blacklegged-tick-female.webp",
@@ -1028,6 +1097,26 @@
   "/guides/photos/german-cockroach-nymphs.webp",
   "/guides/photos/oriental-cockroach-female-ootheca.webp"
  ],
+ "/blog/cockroach-nest": [
+  "/guides/photos/american-cockroach-nymphs-pipe-opening.webp",
+  "/guides/photos/american-cockroaches-cluster-all-sizes.webp",
+  "/guides/photos/american-cockroaches-night-floor-pipe.webp",
+  "/guides/photos/bed-bug-fecal-marks-ceiling-corner-nysipm.webp",
+  "/guides/photos/carpet-beetle-skins-frass.webp",
+  "/guides/photos/german-cockroach-frass-cabinet.webp",
+  "/guides/photos/german-cockroach-stained-gap.webp",
+  "/guides/photos/german-cockroaches-all-sizes-glue-board.webp",
+  "/guides/photos/german-cockroaches-plug-in-adapter.webp",
+  "/guides/photos/mouse-nest-desk-drawer.webp",
+  "/guides/photos/rover-ant-queens-with-eggs.webp"
+ ],
+ "/blog/commercial-pest-control": [
+  "/guides/photos/bait-station-block-bait-loading.webp",
+  "/guides/photos/bed-bug-hotel-bedding.webp",
+  "/guides/photos/german-cockroach-on-kitchen-trap.webp",
+  "/guides/photos/rodent-bait-station-wall.webp",
+  "/guides/photos/snap-traps-set-against-wall.webp"
+ ],
  "/blog/copperhead-look-alikes": [
   "/guides/photos/black-rat-snake-juvenile-nbii.webp",
   "/guides/photos/copperhead-leaf-litter-usfws.webp",
@@ -1065,6 +1154,7 @@
   "/guides/photos/tawny-crazy-ant.webp"
  ],
  "/blog/crickets-in-house": [
+  "/diagrams/camel-cricket-vs-house-cricket.svg",
   "/guides/photos/camel-cricket-baseboard.webp",
   "/guides/photos/camel-cricket.webp",
   "/guides/photos/fall-field-cricket.webp",
@@ -1171,6 +1261,13 @@
   "/guides/photos/thuja-hedge-residential-lane.webp",
   "/guides/photos/white-cedar-tree-in-lawn.webp"
  ],
+ "/blog/do-chickens-eat-ticks": [
+  "/guides/photos/blacklegged-tick-questing-grass.webp",
+  "/guides/photos/chicken-pasture-tuckahoe-virginia-usda.webp",
+  "/guides/photos/helmeted-guineafowl-flock-lawn-vermont.webp",
+  "/guides/photos/virginia-opossum-backyard-lawn-houston.webp",
+  "/guides/photos/wild-turkeys-foraging-backyard-massachusetts.webp"
+ ],
  "/blog/do-cockroaches-bite": [
   "/guides/photos/american-cockroach.webp",
   "/guides/photos/bed-bug-adult-ruler.webp",
@@ -1209,6 +1306,13 @@
   "/guides/photos/bed-bugs-eggs-under-bag-strap.webp",
   "/guides/photos/bed-bugs-mating-eggs-fabric-fold.webp",
   "/guides/photos/lysol-all-purpose-cleaner-bottle.webp"
+ ],
+ "/blog/does-standing-water-attract-mosquitoes": [
+  "/guides/photos/aedes-aegypti-pupae-adult-emerging.webp",
+  "/guides/photos/aedes-albopictus-eggs.webp",
+  "/guides/photos/culex-egg-raft.webp",
+  "/guides/photos/mosquito-larvae-clay-pot-saucer.webp",
+  "/guides/photos/mosquito-larvae-discarded-bottle-cap.webp"
  ],
  "/blog/does-vinegar-kill-ants": [
   "/guides/photos/argentine-ants-gel-bait.webp",
@@ -1339,6 +1443,7 @@
  "/blog/flea-bites-on-humans": [
   "/diagrams/bed-bug-evidence-chart.svg",
   "/diagrams/bite-pattern-comparison.svg",
+  "/diagrams/flea-vs-bed-bug-vs-tick-vs-louse.svg",
   "/guides/photos/bed-bug-bites-forearm.webp",
   "/guides/photos/cat-flea-scale-bar.webp",
   "/guides/photos/flea-bites-lower-leg.webp",
@@ -1390,6 +1495,28 @@
   "/guides/photos/termite-swarmers-pine-straw-house.webp",
   "/guides/photos/winged-black-carpenter-ant-side-view.webp",
   "/guides/photos/winged-black-harvester-ant-bathroom-rug.webp"
+ ],
+ "/blog/flying-ants-vs-termites": [
+  "/guides/photos/carpenter-ant-frass.webp",
+  "/guides/photos/termite-mud-tubes.webp",
+  "/guides/photos/termite-swarmers-ceiling-light.webp",
+  "/guides/photos/termite-swarmers-metal-wall.webp",
+  "/guides/photos/termite-workers-soldier.webp",
+  "/guides/photos/winged-black-carpenter-ant-side-view.webp"
+ ],
+ "/blog/fox-poop": [
+  "/guides/photos/coyote-scat-hair-ruler.webp",
+  "/guides/photos/gray-fox-scat-fresh-inch-ruler.webp",
+  "/guides/photos/gray-fox-scat-vs-coyote-scat-ruler.webp",
+  "/guides/photos/gray-fox-scats-on-rock.webp",
+  "/guides/photos/opossum-scat-gravel-trail.webp",
+  "/guides/photos/raccoon-latrine-deck.webp",
+  "/guides/photos/raccoon-scat-branch.webp",
+  "/guides/photos/red-fox-scat-active-den.webp",
+  "/guides/photos/red-fox-scat-berries-street-tape.webp",
+  "/guides/photos/red-fox-scat-hair-bridge-beam.webp",
+  "/guides/photos/red-fox-scat-snow-hair-twist.webp",
+  "/guides/photos/striped-skunk-lawn-foraging.webp"
  ],
  "/blog/fruit-flies": [
   "/guides/photos/drain-fly.webp",
@@ -1587,9 +1714,17 @@
   "/guides/photos/bed-bug-fecal-stains-mattress.webp",
   "/guides/photos/bed-bugs-eggs-mattress-seam.webp"
  ],
+ "/blog/how-to-get-rid-of-bed-bugs-in-apartment-canada": [
+  "/guides/photos/bed-bug-heat-treatment-unit-pearl-harbor.webp",
+  "/guides/photos/bed-bug-mattress-curb-nysipm.webp",
+  "/guides/photos/bed-bug-on-skin-macro.webp",
+  "/guides/photos/bed-bugs-mating-eggs-fabric-fold.webp"
+ ],
  "/blog/how-to-get-rid-of-bed-bugs-in-couch-canada": [
   "/guides/photos/bed-bug-cast-skin-fabric.webp",
-  "/guides/photos/bed-bug-nymph.webp"
+  "/guides/photos/bed-bug-feces-bed-corner.webp",
+  "/guides/photos/bed-bug-nymph.webp",
+  "/guides/photos/bed-bugs-mating-eggs-fabric-fold.webp"
  ],
  "/blog/how-to-get-rid-of-bed-bugs-yourself-diy-canada": [
   "/guides/photos/bed-bug-cast-skin-fabric.webp",
@@ -1648,6 +1783,7 @@
   "/guides/photos/smokybrown-cockroach.webp"
  ],
  "/blog/how-to-get-rid-of-cockroaches-canada": [
+  "/diagrams/types-of-cockroaches-size-chart.svg",
   "/guides/photos/american-cockroach.webp",
   "/guides/photos/german-cockroach-adult.webp",
   "/guides/photos/german-cockroach-egg-case-hatchlings.webp",
@@ -1683,6 +1819,13 @@
   "/guides/photos/house-centipede-on-wall.webp",
   "/guides/photos/silverfish.webp"
  ],
+ "/blog/how-to-get-rid-of-earwigs-canada": [
+  "/guides/photos/earwig-dog-rose-blossom.webp",
+  "/guides/photos/earwig-shelter-flowerpot-tree.webp",
+  "/guides/photos/european-earwig-female-eggs-nest-chester.webp",
+  "/guides/photos/european-earwig-female-guelph-ontario.webp",
+  "/guides/photos/european-earwig-male.webp"
+ ],
  "/blog/how-to-get-rid-of-fleas": [
   "/guides/photos/cat-flea-on-fingertip.webp",
   "/guides/photos/cat-flea-scale-bar.webp",
@@ -1717,6 +1860,14 @@
   "/guides/photos/yellowjacket-ground-nest.webp",
   "/guides/photos/yellowjacket-paper-nest.webp"
  ],
+ "/blog/how-to-get-rid-of-mice-humanely": [
+  "/guides/photos/cage-trap-two-mice.webp",
+  "/guides/photos/copper-wool-wire-gaps.webp",
+  "/guides/photos/deer-mouse-front-view-cdc.webp",
+  "/guides/photos/house-mouse-droppings-wall-corner.webp",
+  "/guides/photos/house-mouse-white-tray-side-view.webp",
+  "/guides/photos/snap-traps-set-against-wall.webp"
+ ],
  "/blog/how-to-get-rid-of-mosquitoes-in-the-house": [
   "/guides/photos/aedes-aegypti-female.webp",
   "/guides/photos/anopheles-punctipennis-window-ontario.webp",
@@ -1725,6 +1876,14 @@
   "/guides/photos/culex-tarsalis-kitchen-wall.webp",
   "/guides/photos/mosquito-larvae-clay-pot-saucer.webp"
  ],
+ "/blog/how-to-get-rid-of-rats-canada": [
+  "/guides/photos/norway-rat-burrows.webp",
+  "/guides/photos/norway-rat-droppings-cornell.webp",
+  "/guides/photos/norway-rat-mississauga-shrubs.webp",
+  "/guides/photos/norway-rat-under-bird-feeders-spilt-seed.webp",
+  "/guides/photos/rat-trap-vs-mouse-trap-size.webp",
+  "/guides/photos/tamper-resistant-bait-station.webp"
+ ],
  "/blog/how-to-get-rid-of-silverfish": [
   "/guides/photos/booklouse.webp",
   "/guides/photos/european-earwig-male.webp",
@@ -1732,6 +1891,19 @@
   "/guides/photos/house-centipede.webp",
   "/guides/photos/silverfish.webp",
   "/guides/photos/springtail.webp"
+ ],
+ "/blog/how-to-get-rid-of-silverfish-canada": [
+  "/guides/photos/diatomaceous-earth-microscope.webp",
+  "/guides/photos/firebrat-textured-surface.webp",
+  "/guides/photos/silverfish-lepisma-sault-ste-marie.webp",
+  "/guides/photos/silverfish-on-book-board-shed.webp"
+ ],
+ "/blog/how-to-get-rid-of-spiders-in-house-canada": [
+  "/guides/photos/barn-funnel-weaver-indoor-wall.webp",
+  "/guides/photos/carolina-wolf-spider.webp",
+  "/guides/photos/cellar-spider-carrying-eggs.webp",
+  "/guides/photos/common-house-spider-egg-sac.webp",
+  "/guides/photos/woodlouse-spider-bathroom-floor.webp"
  ],
  "/blog/how-to-get-rid-of-stink-bugs": [
   "/guides/photos/asian-lady-beetle-aggregation.webp",
@@ -1742,6 +1914,14 @@
   "/guides/photos/eastern-kissing-bug.webp",
   "/guides/photos/three-texas-kissing-bugs.webp",
   "/guides/photos/western-conifer-seed-bug.webp"
+ ],
+ "/blog/how-to-get-rid-of-voles-canada": [
+  "/guides/photos/meadow-vole-beside-ruler.webp",
+  "/guides/photos/meadow-vole-in-grass.webp",
+  "/guides/photos/meadow-vole-runways.webp",
+  "/guides/photos/vole-gnawed-apple-tree-snow-line-finland.webp",
+  "/guides/photos/vole-hole-snowmelt.webp",
+  "/guides/photos/vole-runways-lawn-snowmelt-illinois.webp"
  ],
  "/blog/how-to-get-rid-of-wasps-canada": [
   "/guides/photos/bald-faced-hornet-nest.webp",
@@ -1755,6 +1935,41 @@
   "/guides/photos/mouse-tracks-car-engine-cover.webp",
   "/guides/photos/snap-traps-set-against-wall.webp"
  ],
+ "/blog/how-to-keep-spiders-out-of-your-house": [
+  "/guides/photos/cellar-spider-bathroom-corner.webp",
+  "/guides/photos/hobo-spider-door-corner.webp",
+  "/guides/photos/house-centipede-basement-floor.webp",
+  "/guides/photos/wolf-spider.webp",
+  "/guides/photos/zebra-jumping-spider-house-wall.webp"
+ ],
+ "/blog/how-to-stop-deer-eating-cedars-ontario": [
+  "/guides/photos/cedar-hedge-foliage-london-ontario.webp",
+  "/guides/photos/eastern-white-cedar-deer-browse-line-vermont.webp",
+  "/guides/photos/white-tailed-deer-snowy-backyard-kitchener.webp",
+  "/guides/photos/white-tailed-deer-yard-ontario.webp"
+ ],
+ "/blog/insect-eggs": [
+  "/guides/photos/bed-bugs-eggs-mattress-seam.webp",
+  "/guides/photos/bed-bugs-mating-eggs-fabric-fold.webp",
+  "/guides/photos/brown-banded-cockroach-egg-cases.webp",
+  "/guides/photos/brown-marmorated-stink-bug-egg-mass-unhatched-leaf.webp",
+  "/guides/photos/carolina-mantis-egg-case-brick-mortar.webp",
+  "/guides/photos/clothes-moth-eggs-wool.webp",
+  "/guides/photos/flea-egg-and-larva.webp",
+  "/guides/photos/head-lice-nits-on-hair.webp",
+  "/guides/photos/house-fly-eggs.webp",
+  "/guides/photos/insect-eggs-porch-screen.webp",
+  "/guides/photos/katydid-eggs-sycamore-twig.webp",
+  "/guides/photos/lacewing-eggs-window-penny.webp",
+  "/guides/photos/slime-mold-leocarpus-grass.webp",
+  "/guides/photos/spotted-lanternfly-egg-masses.webp"
+ ],
+ "/blog/is-deet-safe": [
+  "/guides/photos/insect-repellent-adult-applying-child-cdc.webp",
+  "/guides/photos/insect-repellent-reading-label-cdc.webp",
+  "/guides/photos/insect-repellent-spray-hand-first-cdc.webp",
+  "/guides/photos/insect-repellent-teen-spraying-forearm-cdc.webp"
+ ],
  "/blog/japanese-beetles": [
   "/guides/photos/asian-lady-beetle.webp",
   "/guides/photos/green-june-beetle.webp",
@@ -1764,6 +1979,7 @@
   "/guides/photos/may-june-beetle.webp"
  ],
  "/blog/jerusalem-crickets": [
+  "/diagrams/camel-cricket-vs-house-cricket.svg",
   "/guides/photos/house-cricket.webp",
   "/guides/photos/jerusalem-cricket-garden-soil.webp",
   "/guides/photos/jerusalem-cricket-house-floor.webp",
@@ -1999,6 +2215,19 @@
   "/guides/photos/mosquito-larvae-clay-pot-saucer.webp",
   "/guides/photos/mosquito-larvae-water-trough.webp"
  ],
+ "/blog/mosquito-control-worth-the-cost": [
+  "/guides/photos/culex-pipiens-wall-kingston-ontario.webp",
+  "/guides/photos/culex-quinquefasciatus-female-blood-meal.webp",
+  "/guides/photos/mosquito-larvae-pupae-bottle-cap.webp",
+  "/guides/photos/skeeter-syndrome-leg.webp"
+ ],
+ "/blog/mosquito-facts": [
+  "/guides/photos/aedes-aegypti-female-feeding.webp",
+  "/guides/photos/aedes-aegypti-male-on-flower.webp",
+  "/guides/photos/aedes-aegypti-pupae-adult-emerging.webp",
+  "/guides/photos/aedes-albopictus-goldenrod.webp",
+  "/guides/photos/mosquito-larvae-discarded-bottle-cap.webp"
+ ],
  "/blog/mosquito-hawk-explained": [
   "/diagrams/crane-fly-vs-mosquito.svg",
   "/guides/photos/crane-fly.webp",
@@ -2037,7 +2266,10 @@
  ],
  "/blog/mosquito-season-gta-when-does-it-start": [
   "/guides/photos/aedes-vexans.webp",
-  "/guides/photos/culex-pipiens.webp"
+  "/guides/photos/anopheles-punctipennis-window-ontario.webp",
+  "/guides/photos/culex-pipiens.webp",
+  "/guides/photos/culex-territans-unheated-shed-march.webp",
+  "/guides/photos/mosquito-larvae-clay-pot-saucer.webp"
  ],
  "/blog/moth-eggs": [
   "/guides/photos/bagworm-female-bag-eggs.webp",
@@ -2075,6 +2307,21 @@
   "/guides/photos/rodent-bait-station-wall.webp",
   "/guides/photos/snap-trap-by-mouse-hole.webp",
   "/guides/photos/spotted-owl-with-mouse.webp"
+ ],
+ "/blog/mouse-nest": [
+  "/guides/photos/deer-mouse-nest.webp",
+  "/guides/photos/deer-mouse-white-belly-cdc.webp",
+  "/guides/photos/house-mouse-nest-leaves-young.webp",
+  "/guides/photos/house-mouse-nest-shed-corner.webp",
+  "/guides/photos/mouse-nest-desk-drawer.webp",
+  "/guides/photos/mouse-nest-grill-ruler.webp",
+  "/guides/photos/mouse-nest-pink-insulation.webp",
+  "/guides/photos/mouse-nest-shredded-paper-shelf.webp",
+  "/guides/photos/mouse-nest-under-car-hood.webp",
+  "/guides/photos/norway-rat-burrows.webp",
+  "/guides/photos/squirrel-drey-dead-leaves-closeup.webp",
+  "/guides/photos/vole-hole-snowmelt.webp",
+  "/guides/photos/yellowjacket-ground-nest.webp"
  ],
  "/blog/mouse-poop": [
   "/guides/photos/american-cockroach-droppings-trap.webp",
@@ -2209,6 +2456,13 @@
   "/guides/photos/paper-wasp-nest-house-siding.webp",
   "/guides/photos/paper-wasp-nest.webp"
  ],
+ "/blog/peppermint-oil-for-mice": [
+  "/guides/photos/copper-wool-wire-gaps.webp",
+  "/guides/photos/house-mouse-droppings-wall-corner.webp",
+  "/guides/photos/house-mouse-got-into-house-bucket.webp",
+  "/guides/photos/mouse-nest-under-car-hood.webp",
+  "/guides/photos/peppermint-flowering.webp"
+ ],
  "/blog/pergola-mosquito-curtains-canada": [
   "/guides/photos/biting-midge-bites-ankles.webp",
   "/guides/photos/biting-midge-on-skin.webp",
@@ -2327,6 +2581,21 @@
   "/guides/photos/raccoon-latrine-deck.webp",
   "/guides/photos/raccoon-on-chimney.webp",
   "/guides/photos/skunk-dug-hole-lawn.webp"
+ ],
+ "/blog/raccoon-tracks": [
+  "/guides/photos/house-cat-track-mud.webp",
+  "/guides/photos/house-cat-track-snow-ruler.webp",
+  "/guides/photos/opossum-porch-pet-bowl.webp",
+  "/guides/photos/opossum-tracks-mud-ruler.webp",
+  "/guides/photos/raccoon-latrine-deck.webp",
+  "/guides/photos/raccoon-on-chimney.webp",
+  "/guides/photos/raccoon-track-deck-tape-measure.webp",
+  "/guides/photos/raccoon-tracks-car-hood.webp",
+  "/guides/photos/raccoon-tracks-mud-car-key.webp",
+  "/guides/photos/raccoon-tracks-wet-sand-pair.webp",
+  "/guides/photos/raccoon-trail-snow-driveway.webp",
+  "/guides/photos/striped-skunk-track-mud-dime.webp",
+  "/guides/photos/striped-skunk-tracks-snow.webp"
  ],
  "/blog/rat-droppings": [
   "/guides/photos/american-cockroach.webp",
@@ -2481,6 +2750,22 @@
   "/guides/photos/oriental-cockroach-garage-floor.webp",
   "/guides/photos/white-american-cockroach-shed-skin.webp"
  ],
+ "/blog/signs-of-silverfish": [
+  "/guides/photos/booklouse-printed-paper.webp",
+  "/guides/photos/carpet-beetle-skins-frass.webp",
+  "/guides/photos/casemaking-clothes-moth-larva.webp",
+  "/guides/photos/cockroach-damaged-book.webp",
+  "/guides/photos/drugstore-beetle.webp",
+  "/guides/photos/firebrat-textured-surface.webp",
+  "/guides/photos/german-cockroach-frass-cabinet.webp",
+  "/guides/photos/gray-silverfish-in-sink.webp",
+  "/guides/photos/gray-silverfish-paper-damage-plate.webp",
+  "/guides/photos/mouse-droppings-wood.webp",
+  "/guides/photos/silverfish-damage-book-spine.webp",
+  "/guides/photos/silverfish-damage-paperback-cover.webp",
+  "/guides/photos/silverfish-glue-trap-ruler.webp",
+  "/guides/photos/silverfish-on-book-board-shed.webp"
+ ],
  "/blog/skeeter-syndrome": [
   "/guides/photos/brown-recluse-bite-early.webp",
   "/guides/photos/erythema-migrans-rash.webp",
@@ -2488,6 +2773,20 @@
   "/guides/photos/mosquito-bites-forearm.webp",
   "/guides/photos/severe-mosquito-bite-reaction-leg.webp",
   "/guides/photos/skeeter-syndrome-leg.webp"
+ ],
+ "/blog/skunk-poop": [
+  "/guides/photos/coyote-scat-hair-ruler.webp",
+  "/guides/photos/gray-fox-scat-ruler.webp",
+  "/guides/photos/opossum-scat-leaf-litter.webp",
+  "/guides/photos/raccoon-latrine-deck.webp",
+  "/guides/photos/raccoon-scat-branch.webp",
+  "/guides/photos/rat-droppings-thumb.webp",
+  "/guides/photos/skunk-dug-hole-lawn.webp",
+  "/guides/photos/skunk-scat-beetle-parts-closeup.webp",
+  "/guides/photos/skunk-scat-lip-balm-scale.webp",
+  "/guides/photos/skunk-scat-wood-chips.webp",
+  "/guides/photos/striped-skunk-front-lawn-house.webp",
+  "/guides/photos/striped-skunk-tracks-snow.webp"
  ],
  "/blog/skunk-smell-in-house": [
   "/guides/photos/raccoon-on-chimney.webp",
@@ -2715,7 +3014,11 @@
  ],
  "/blog/tick-bites-that-wont-heal-when-to-worry": [
   "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
-  "/guides/photos/erythema-migrans-rash.webp"
+  "/guides/photos/blacklegged-tick-removal-behind-ear.webp",
+  "/guides/photos/erythema-migrans-rash-trunk.webp",
+  "/guides/photos/erythema-migrans-rash.webp",
+  "/guides/photos/lone-star-tick-removal-tweezers-elbow.webp",
+  "/guides/photos/lyme-arthritis-knee-swelling-child.webp"
  ],
  "/blog/tick-head-stuck-in-skin": [
   "/guides/photos/american-dog-tick-mouthparts-sem.webp",
@@ -2735,8 +3038,12 @@
   "/guides/photos/tick-removal-tweezers-forearm.webp"
  ],
  "/blog/tick-season-ontario-when-are-ticks-active": [
+  "/guides/photos/american-dog-tick-found-on-head-mississauga.webp",
   "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
-  "/guides/photos/blacklegged-tick-nymph-fingernail.webp"
+  "/guides/photos/blacklegged-tick-nymph-fingernail.webp",
+  "/guides/photos/blacklegged-tick-palm-pelham-december.webp",
+  "/guides/photos/blacklegged-tick-questing-grass.webp",
+  "/guides/photos/blacklegged-tick-toronto-port-lands-february.webp"
  ],
  "/blog/tick-vs-bed-bug": [
   "/diagrams/tick-vs-bed-bug-size.svg",
@@ -3058,6 +3365,7 @@
   "/guides/photos/spider-beetle.webp"
  ],
  "/blog/tiny-brown-bugs": [
+  "/diagrams/tiny-brown-bugs-size-chart.svg",
   "/guides/photos/bed-bug-adult-ruler.webp",
   "/guides/photos/bed-bug-nymph.webp",
   "/guides/photos/black-carpet-beetle.webp",
@@ -3135,6 +3443,20 @@
   "/guides/photos/fungus-gnat.webp",
   "/guides/photos/gallinipper-biting-through-pants.webp"
  ],
+ "/blog/types-of-spider-webs": [
+  "/guides/photos/bowl-and-doily-spider-web-dew.webp",
+  "/guides/photos/cellar-spider-in-web.webp",
+  "/guides/photos/common-house-spider-cobweb-window.webp",
+  "/guides/photos/eastern-tent-caterpillar-tent.webp",
+  "/guides/photos/funnel-weaver-web-leaf.webp",
+  "/guides/photos/indian-meal-moth-webbing.webp",
+  "/guides/photos/orb-web-dew-forest-edge.webp",
+  "/guides/photos/southern-house-spider-web-brick-wall.webp",
+  "/guides/photos/spider-mite-webbing.webp",
+  "/guides/photos/webbing-clothes-moth.webp",
+  "/guides/photos/yellow-garden-spider-egg-sac.webp",
+  "/guides/photos/yellow-sac-spider-retreat-flowerpot.webp"
+ ],
  "/blog/types-of-ticks-identification": [
   "/diagrams/tick-species-ontario.svg",
   "/guides/photos/american-dog-tick-female.webp",
@@ -3143,6 +3465,13 @@
   "/guides/photos/brown-dog-tick-male.webp",
   "/guides/photos/lone-star-tick-female.webp",
   "/guides/photos/rocky-mountain-wood-tick-female.webp"
+ ],
+ "/blog/ultimate-backyard-mosquito-control-guide": [
+  "/guides/photos/aedes-aegypti-pupae-adult-emerging.webp",
+  "/guides/photos/aedes-japonicus-under-log-toronto.webp",
+  "/guides/photos/culex-quinquefasciatus-female-on-skin-front.webp",
+  "/guides/photos/mosquito-larvae-clay-pot-saucer.webp",
+  "/guides/photos/mosquitoes-resting-under-leaf.webp"
  ],
  "/blog/ultrasonic-pest-repellers-do-they-work": [
   "/guides/photos/house-cricket.webp",
@@ -3269,6 +3598,7 @@
   "/guides/photos/thief-ants-dirty-plate.webp"
  ],
  "/blog/what-do-baby-cockroaches-look-like": [
+  "/diagrams/baby-cockroach-size-chart.svg",
   "/guides/photos/bed-bug-adult-ruler.webp",
   "/guides/photos/bed-bug-nymph.webp",
   "/guides/photos/brown-banded-cockroach-nymph-wall.webp",
@@ -3278,7 +3608,21 @@
   "/guides/photos/german-cockroach-nymphs.webp",
   "/guides/photos/ground-beetle.webp"
  ],
+ "/blog/what-do-bed-bug-bites-look-like": [
+  "/guides/photos/bed-bug-bites-back-physician.webp",
+  "/guides/photos/bed-bug-bites-wrist-row.webp",
+  "/guides/photos/bed-bug-cast-skin-fabric.webp",
+  "/guides/photos/bed-bug-fecal-spots-bed-frame.webp",
+  "/guides/photos/bed-bug-on-skin-cdc.webp",
+  "/guides/photos/bed-bugs-eggs-mattress-seam.webp",
+  "/guides/photos/carpet-beetle-larva.webp",
+  "/guides/photos/chigger-bites-ruler.webp",
+  "/guides/photos/flea-bites-lower-leg.webp",
+  "/guides/photos/mosquito-bites-forearm.webp",
+  "/guides/photos/scabies-rash-hand.webp"
+ ],
  "/blog/what-do-bed-bugs-look-like": [
+  "/diagrams/bed-bug-life-stages-size-chart.svg",
   "/guides/photos/bed-bug-adult-ruler.webp",
   "/guides/photos/bed-bug-bites-forearm.webp",
   "/guides/photos/bed-bug-fecal-spots-bed-frame.webp",
@@ -3291,6 +3635,7 @@
   "/guides/photos/western-bat-bug.webp"
  ],
  "/blog/what-do-fleas-look-like": [
+  "/diagrams/flea-vs-bed-bug-vs-tick-vs-louse.svg",
   "/guides/photos/cat-flea-on-fingertip.webp",
   "/guides/photos/cat-flea-scale-bar.webp",
   "/guides/photos/cat-flea.webp",
@@ -3354,6 +3699,7 @@
   "/guides/photos/lone-star-tick-female-grass-blade.webp"
  ],
  "/blog/what-does-a-spider-bite-look-like": [
+  "/diagrams/spider-identification-black-widow-brown-recluse-wolf-spider.svg",
   "/guides/photos/bed-bug-bites-forearm.webp",
   "/guides/photos/black-widow.webp",
   "/guides/photos/brown-recluse-bite-necrosis.webp",
@@ -3368,6 +3714,7 @@
   "/guides/photos/tick-unfed-vs-engorged.webp"
  ],
  "/blog/what-does-mouse-poop-look-like-canada": [
+  "/diagrams/animal-droppings-size-chart.svg",
   "/diagrams/mouse-vs-rat-droppings.svg",
   "/guides/photos/house-mouse.webp",
   "/guides/photos/mouse-droppings-ruler.webp",
@@ -3401,6 +3748,20 @@
   "/guides/photos/bed-bug-nymph.webp",
   "/guides/photos/bed-bugs-eggs-mattress-seam.webp",
   "/guides/photos/bed-bugs-eggs-under-bag-strap.webp"
+ ],
+ "/blog/what-kills-ticks-on-dogs-instantly": [
+  "/guides/photos/american-dog-ticks-chive-plant.webp",
+  "/guides/photos/blacklegged-tick-forceps-dog-hair.webp",
+  "/guides/photos/gulf-coast-tick-in-dog-fur.webp",
+  "/guides/photos/tick-dropped-into-bottle.webp",
+  "/guides/photos/tick-removal-tweezers-forearm.webp"
+ ],
+ "/blog/what-percentage-of-ticks-carry-lyme-ontario": [
+  "/guides/photos/american-dog-tick-male-hamilton.webp",
+  "/guides/photos/blacklegged-tick-female-point-pelee.webp",
+  "/guides/photos/blacklegged-tick-nymph-macro.webp",
+  "/guides/photos/blacklegged-tick-removal-behind-ear.webp",
+  "/guides/photos/tick-check-sock-ankle.webp"
  ],
  "/blog/what-smells-do-mice-hate": [
   "/guides/photos/house-mouse-live-trap.webp",
@@ -3449,6 +3810,13 @@
   "/guides/photos/mosquito-bites-three-bumps-forearm.webp",
   "/guides/photos/skeeter-syndrome-leg.webp"
  ],
+ "/blog/where-do-bed-bugs-hide": [
+  "/guides/photos/bed-bug-fecal-marks-ceiling-corner-nysipm.webp",
+  "/guides/photos/bed-bug-mattress-edge-eggs-nysipm.webp",
+  "/guides/photos/bed-bug-pillowcase-ishikawa-inat.webp",
+  "/guides/photos/bed-bugs-eggs-dresser-joint.webp",
+  "/guides/photos/bed-bugs-eggs-under-bag-strap.webp"
+ ],
  "/blog/where-do-cockroaches-come-from": [
   "/guides/photos/american-cockroach-bathroom-sink.webp",
   "/guides/photos/cockroach-potato-sack-cdc.webp",
@@ -3456,6 +3824,13 @@
   "/guides/photos/field-cockroach-porch-light.webp",
   "/guides/photos/oriental-cockroaches-manhole.webp",
   "/guides/photos/turkestan-cockroach-moving-box.webp"
+ ],
+ "/blog/where-do-mosquitoes-go-in-winter-ontario": [
+  "/guides/photos/aedes-albopictus-eggs.webp",
+  "/guides/photos/anopheles-punctipennis-window-ontario.webp",
+  "/guides/photos/culex-quinquefasciatus-female-on-skin-side.webp",
+  "/guides/photos/culex-tarsalis-kitchen-wall.webp",
+  "/guides/photos/snow-mosquito-closeup.webp"
  ],
  "/blog/white-cockroach": [
   "/guides/photos/american-cockroach-molting-wall.webp",
@@ -3496,6 +3871,7 @@
   "/guides/photos/mosquito-larvae-discarded-bottle-cap.webp"
  ],
  "/blog/wolf-spiders": [
+  "/diagrams/spider-identification-black-widow-brown-recluse-wolf-spider.svg",
   "/guides/photos/carolina-wolf-spider.webp",
   "/guides/photos/dark-fishing-spider.webp",
   "/guides/photos/grass-spider.webp",
@@ -3611,6 +3987,12 @@
   "/guides/photos/turkestan-cockroaches-male-female-brick.webp",
   "/guides/photos/wood-cockroach-cdc.webp"
  ],
+ "/learn/how-to-combat-mosquitoes": [
+  "/guides/photos/aedes-aegypti-larvae-at-surface.webp",
+  "/guides/photos/aedes-resting-under-leaf.webp",
+  "/guides/photos/culex-quinquefasciatus-female-on-skin-side.webp",
+  "/guides/photos/culex-quinquefasciatus-pupae.webp"
+ ],
  "/learn/how-to-get-rid-of-fungus-gnats": [
   "/guides/bz-guide-07-fungus-gnats.webp",
   "/guides/photos/drain-fly-bathroom-wall.webp",
@@ -3688,7 +4070,11 @@
   "/guides/photos/western-blacklegged-tick-female.webp"
  ],
  "/learn/whitefly-identification-control": [
-  "/guides/bz-guide-06-whitefly.webp"
+  "/guides/bz-guide-06-whitefly.webp",
+  "/guides/photos/greenhouse-whitefly-adult-hollyhock-leaf.webp",
+  "/guides/photos/greenhouse-whitefly-puparia-tomato-leaf.webp",
+  "/guides/photos/silverleaf-whitefly-adults-leaf-usda.webp",
+  "/guides/photos/sooty-mold-schefflera-leaves.webp"
  ],
  "/tools/bug-bite-identifier": [
   "/guides/photos/bed-bug-bites-forearm.webp",

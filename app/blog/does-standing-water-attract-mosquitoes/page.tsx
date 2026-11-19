@@ -10,6 +10,8 @@ import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'does-standing-water-attract-mosquitoes'
 const DATE = '2026-07-16'
@@ -75,6 +77,7 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  image: shareImage('mosquito-larvae-clay-pot-saucer'),
 })
 
 const AMZ_TAG = tagForSlug('does-standing-water-attract-mosquitoes')
@@ -82,7 +85,7 @@ const AMZ_TAG = tagForSlug('does-standing-water-attract-mosquitoes')
 export default function StandingWaterMosquitoesPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'How fast standing water breeds mosquitoes, how little water they need, what counts as standing water, and how to stop it — a Canadian GTA guide.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'How fast standing water breeds mosquitoes, how little water they need, what counts as standing water, and how to stop it — a Canadian GTA guide.', slug: SLUG, datePublished: DATE, image: shareImage('mosquito-larvae-clay-pot-saucer') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Does Standing Water Attract Mosquitoes?', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -155,7 +158,9 @@ export default function StandingWaterMosquitoesPage() {
 
           <h2>Does standing water attract mosquitoes?</h2>
           <p>Yes — standing water is the single biggest reason mosquitoes show up in a yard. Female mosquitoes need still water to lay their eggs, and they actively seek it out using scent cues from organic matter, algae, and carbon dioxide. Remove the water and you remove the nursery.</p>
+          <Photo id="mosquito-larvae-clay-pot-saucer" alt="Mosquito larvae in standing water in a clay plant-pot saucer" caption="Yellow fever mosquito larvae (Aedes aegypti) in the water of a clay pot saucer (CDC photograph). A saucer under a potted plant is one of the small, easily missed spots where mosquitoes breed." />
           <p>Here is the mechanism. A female mosquito takes a blood meal (that is the bite), then goes looking for stagnant water to deposit 100–300 eggs. Some species lay their eggs directly on the water surface in tiny rafts; others, like the aggressive <em>Aedes</em> daytime biters, lay eggs just above the waterline in containers, where they wait — sometimes for months — until rain raises the water level and triggers them to hatch. Either way, standing water is the trigger. A yard with no standing water gives females nowhere to breed, which is why every public health agency starts its mosquito advice with the same instruction: get rid of standing water.</p>
+          <Photo id="culex-egg-raft" alt="Culex mosquito egg raft floating on the surface of water" caption="A Culex mosquito egg raft floating on water (CDC photograph). Some mosquitoes lay their eggs directly on the water surface in rafts like this one." />
           <p>One honest caveat: removing your own standing water reduces the mosquitoes your property <em>produces</em>, but adult mosquitoes still fly in from neighbouring yards, storm drains, ravines, and creeks. Source reduction is the foundation of control, not the whole building — more on the complete strategy below.</p>
 
           <h2>How long does standing water take to breed mosquitoes?</h2>
@@ -173,9 +178,11 @@ export default function StandingWaterMosquitoesPage() {
             </tbody>
           </table>
           <p>Because the larva and pupa stages both live in the water, they are the vulnerable window — this is exactly when a larvicide like BTI, or simply dumping the container, ends the cycle before any adults escape. If you can spot the wrigglers, you can stop the generation. Not sure what you are looking at in a bucket or rain barrel? Our <Link href="/blog/mosquito-larvae-identification">mosquito larvae identification guide</Link> walks through what larvae, pupae, and their look-alikes actually look like.</p>
+          <Photo id="aedes-aegypti-pupae-adult-emerging" alt="Mosquito pupae hanging below the surface of standing water with an adult mosquito emerging above them" caption="Yellow fever mosquito pupae (Aedes aegypti) hanging below the surface of standing water, with an adult emerging above them (CDC photograph). The larva and pupa stages both live in the water, so dumping it ends the cycle before adults escape." />
 
           <h2>How much water do mosquitoes need to breed?</h2>
           <p>Almost none. Mosquitoes can breed in as little as <strong>one bottle cap of water — roughly a teaspoon, about 5 millilitres</strong>. You do not need a pond, a ditch, or even a bucket. Container-breeding species are specialists at exploiting the smallest, most overlooked pockets of water in a yard.</p>
+          <Photo id="mosquito-larvae-discarded-bottle-cap" alt="Mosquito larvae in the water held by a discarded plastic bottle cap on dry ground" caption="Yellow fever mosquito larvae (Aedes aegypti) in the water of a plastic bottle cap lying beside a crushed bottle (CDC photograph). Mosquitoes can breed in as little as one bottle cap of water." />
           <p>That is what makes standing water so easy to miss. The classic culprits are not the obvious ones — they are the small, forgotten ones:</p>
           <ul>
             <li>A plant saucer under a potted flower</li>
@@ -218,6 +225,7 @@ export default function StandingWaterMosquitoesPage() {
             <li><strong>Store containers upside down.</strong> Buckets, wheelbarrows, kiddie pools, and toys collect rain the moment your back is turned.</li>
             <li><strong>Refresh bird baths and pet bowls every 2–3 days.</strong> High-use water needs to stay too fresh for larvae to mature.</li>
           </ol>
+          <Photo id="aedes-albopictus-eggs" alt="Asian tiger mosquito eggs laid on paper" caption="Asian tiger mosquito eggs (Aedes albopictus) laid on paper (CDC photograph). Mosquito eggs stick to container walls and can survive drying, so scrub containers when you empty them." />
 
           <h3>For water you cannot dump: BTI mosquito dunks</h3>
           <p>Some standing water cannot be emptied — rain barrels you rely on, ornamental ponds with fish, drainage ditches, low areas that stay wet, or a neglected pool waiting to be drained. For these, the standard solution is a <strong>BTI dunk</strong>. BTI (<em>Bacillus thuringiensis israelensis</em>) is a naturally occurring soil bacterium that acts specifically on mosquito larvae, which eat it and die within 24–48 hours. One dunk treats up to 100 square feet of water surface for about 30 days; look for a Canadian PCP registration number on the pack and follow its label directions.</p>

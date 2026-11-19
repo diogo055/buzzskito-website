@@ -235,6 +235,7 @@ export default function BlackFliesOntarioPage() {
         <NextUp path="/blog/black-flies-ontario-when-they-come-out" />
         <h2>Where Do Black Flies Breed?</h2>
         <p>This is the single most important fact about black flies, because it determines who is at risk: <strong>black flies breed exclusively in clean, flowing water.</strong> Larvae attach themselves to submerged rocks, branches, and vegetation in streams and rivers, where they filter-feed on organic particles in the current. They cannot develop in standing water — which is the opposite of mosquitoes.</p>
+        <Photo id="black-fly-larvae-st-mary-river-nps" alt="Black fly larvae massed on rocks underwater in a clear, flowing river" caption="Black fly larvae clinging to rocks underwater in the St. Mary River (National Park Service photo). The larvae attach themselves to rocks in clean, flowing water, which is why black flies come from rivers and streams and not from standing water." />
         <p>That means properties near the following waterways see the worst black fly pressure each spring:</p>
         <ul>
           <li><strong>Credit River and tributaries</strong> — affecting much of Mississauga, Oakville, Brampton, Caledon, Halton Hills, and Georgetown</li>
@@ -324,6 +325,7 @@ export default function BlackFliesOntarioPage() {
           <li><strong>Eliminate yard rest sites.</strong> Trim back overgrown shrubs and dense vegetation along the property edge.</li>
           <li><strong>Schedule a barrier spray.</strong> A professional treatment in mid-May provides the strongest coverage during the worst three weeks.</li>
         </ul>
+        <Photo id="black-fly-swarm-dubawnt-river-nunavut" alt="Swarm of black flies over the tundra beside a river in Nunavut, covering a person in a hooded jacket" caption="A cloud of flies over the tundra beside the Dubawnt River in Nunavut in July 2015, covering a person in a hooded jacket; Wikimedia Commons describes it as a black fly attack in the Canadian Arctic. Black flies crawl into hairlines and behind ears, which is why covering the head matters." />
 
         <h2>How to Get Rid of Black Flies</h2>
         <p>Getting rid of black flies works differently than getting rid of mosquitoes, and understanding why comes down to one thing: <strong>where they breed.</strong> Mosquitoes lay eggs in standing water, so you can knock their numbers down by dumping saucers, cleaning gutters, and draining anything that holds water. Black flies do the opposite — their larvae attach to rocks and vegetation in <strong>clean, fast-flowing rivers and streams</strong>, feeding on particles in the current. You cannot drain a river, and there is no yard chore that removes their breeding site. That means &ldquo;getting rid of black flies&rdquo; is really about protecting yourself and making your yard an unwelcome place for them to rest and feed.</p>

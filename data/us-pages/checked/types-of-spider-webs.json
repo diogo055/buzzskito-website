@@ -1,0 +1,15 @@
+{
+ "id": "types-of-spider-webs",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "9094d8889098eec7c891459f48974dfa844d4e828ecd5c90dfc0281965ff2220",
+ "claimsChecked": 276,
+ "claimsCorrected": 17,
+ "claimsRemovedOrSoftened": 13,
+ "checkedOn": "2026-11-19",
+ "released": {
+  "on": "2026-11-19",
+  "scheduledFor": "2026-11-19",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

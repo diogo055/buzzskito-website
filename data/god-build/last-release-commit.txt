@@ -1,8 +1,14 @@
-release: 6 scheduled page(s) go live (2026-11-10)
+release: 12 scheduled page(s) go live (2026-11-19)
 
-- /blog/bugs-that-look-like-termites
-- /blog/black-and-yellow-bugs
-- /blog/bugs-that-look-like-silverfish
-- /blog/bugs-that-look-like-lice
-- /blog/moth-eggs
-- /blog/snake-identification
+- /blog/mouse-nest
+- /blog/what-do-bed-bug-bites-look-like
+- /blog/bugs-that-look-like-mosquitoes
+- /blog/chigger-bites-vs-flea-bites
+- /blog/insect-eggs
+- /blog/raccoon-tracks
+- /blog/fox-poop
+- /blog/skunk-poop
+- /blog/cockroach-nest
+- /blog/baby-spiders
+- /blog/types-of-spider-webs
+- /blog/signs-of-silverfish

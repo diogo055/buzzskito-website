@@ -14,6 +14,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'how-to-get-rid-of-rats-canada'
 const DATE = '2026-07-21'
@@ -83,6 +85,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('norway-rat-mississauga-shrubs'),
 })
 
 const AMZ_TAG = tagForSlug('how-to-get-rid-of-rats-canada')
@@ -90,7 +93,7 @@ const AMZ_TAG = tagForSlug('how-to-get-rid-of-rats-canada')
 export default function HowToGetRidOfRatsCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to getting rid of rats: species ID, sign reading, pre-baited trapping, the Goodnature A24, exclusion materials, and Canadian rodenticide law.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to getting rid of rats: species ID, sign reading, pre-baited trapping, the Goodnature A24, exclusion materials, and Canadian rodenticide law.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('norway-rat-mississauga-shrubs') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'How to Get Rid of Rats in Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -269,6 +272,7 @@ export default function HowToGetRidOfRatsCanadaPage() {
           <NextUp path="/blog/how-to-get-rid-of-rats-canada" />
           <h2>Norway Rat vs Roof Rat: Which One Is in Your Yard?</h2>
           <p>Canada effectively has one urban rat east of the Rockies. The <strong>Norway rat</strong> (also called the brown rat or sewer rat) is a heavy-bodied burrower — blunt snout, small ears, a tail shorter than its body — that lives at or below ground level. In a GTA or Montreal backyard, that means burrows under the deck, under the shed slab, along the foundation, beside the compost, and connections to the sanitary sewer network that most homeowners never suspect. It is an outstanding digger and swimmer and a mediocre climber, which is why Norway rat problems present as burrows, ground-floor gnawing, and basement sightings rather than attic noise.</p>
+          <Photo id="norway-rat-mississauga-shrubs" alt="Norway rat, a heavy-bodied brown rat, on the ground among shrub stems beside a concrete wall in Mississauga" caption="A Norway rat on the ground among shrub stems beside a concrete wall in Mississauga, Ontario. Heavy-bodied with a blunt snout and small ears, it lives at or below ground level." />
           <p>The <strong>roof rat</strong> — slimmer, bigger-eared, with a tail longer than its body — is the climber that nests in attics, trees, and ivy. In Canada it is essentially a <strong>coastal British Columbia</strong> problem (Vancouver, the Island, the Fraser Valley); it is rare to absent across Ontario, Quebec, and the Prairies. And in a uniquely Canadian footnote, <strong>Alberta</strong> has run an aggressive border control program since the 1950s and remains functionally rat-free — if you think you have rats in Alberta, the province literally wants you to report it.</p>
           <p>Why the ID matters: it decides trap altitude. Norway rats are trapped at ground level along walls and burrow lines. Roof rats are trapped on elevated runs — rafters, fence tops, branches. Everything below assumes the Norway rat, because if you are reading this from most of Canada, that is your animal.</p>
           <p>Photos of both rats, with the tail, ear, snout and droppings checks that tell them apart, are in our <Link href="/blog/roof-rat-vs-norway-rat">roof rat vs Norway rat guide</Link>; it is written for US readers, so its range notes cover the United States.</p>
@@ -282,6 +286,8 @@ export default function HowToGetRidOfRatsCanadaPage() {
             <li><strong>Gnawing.</strong> Paired incisor grooves roughly 4 mm wide in wood, plastic bins, even soft mortar and aluminum. Rats must gnaw continuously to wear down teeth that never stop growing.</li>
             <li><strong>Sound and sightings.</strong> Heavy scratching or scampering in walls, ceilings, or under floors at night; a rat seen in daylight often signals a large population competing for food.</li>
           </ul>
+          <Photo id="norway-rat-burrows" alt="Norway rat burrow entrances in mossy soil at the base of a tree next to a building" caption="Burrow entrances identified on iNaturalist as Norway rat burrows, in mossy soil at the base of a street tree beside a building (Seattle). Look for clean round openings like these under deck skirting, shed slabs, woodpiles and dense shrubs." />
+          <Photo id="norway-rat-droppings-cornell" alt="Norway rat droppings, dark capsule-shaped pellets, on a white background" caption="Norway rat droppings, photographed and identified by the New York State IPM Program at Cornell University. Rat droppings are capsule-shaped and 1–2 cm long; mouse droppings are 3–6 mm rice grains." />
           <p>Map every sign before you deploy hardware. The map is the plan: traps go on the highways, not where the box looks tidy.</p>
           <p>If the signs could belong to either animal, our US guide to <Link href="/blog/rat-vs-mouse">telling a rat from a mouse</Link> compares the two by size, tail, ears, droppings and gnaw marks, with photos.</p>
 
@@ -306,6 +312,7 @@ export default function HowToGetRidOfRatsCanadaPage() {
             <li><strong>Placement rules.</strong> Trigger end touching the wall, traps every 3&ndash;5 m along active runs, doubled up at corners and burrow mouths. Outdoors, place traps inside a wooden box, milk crate, or tunnel so you catch rats instead of squirrels, birds, or a neighbour&rsquo;s cat — and wear gloves throughout, both for scent and hygiene.</li>
             <li><strong>Maintain the line.</strong> Clear and rebait daily. When catches stop, do not celebrate yet — run 7&ndash;10 quiet nights with fresh droppings absent before declaring victory, then move to exclusion.</li>
           </ul>
+          <Photo id="rat-trap-vs-mouse-trap-size" alt="Rat-size wooden snap trap above a smaller mouse snap trap for size comparison" caption="A Victor rat snap trap (top) beside a Victor mouse snap trap (bottom), showing the difference in size. Use rat-rated traps: a mouse trap does not carry enough striking force to kill a Norway rat." />
           <p>Trap selection is simple: modern press-to-set rat traps (Tomcat and Victor both make them) have the spring power a 300&ndash;500 g rat requires and set without risking fingers. We compare the specific models — including when the old-school wooden Victor still earns its place — in the <Link href="/blog/best-rat-trap-canada">best rat trap guide</Link>.</p>
           <p>The methods table above flags one option that sits outside the snap-trap category entirely: a CO2-powered auto-resetting trap that clears the carcass after each strike and re-arms itself, so it keeps hunting for weeks without a daily visit. That changes the maths on a shed, cottage, or fence line you cannot walk every morning &mdash; we cover it in detail in our <Link href="/blog/goodnature-a24-review-canada">review of the self-resetting Goodnature A24</Link>.</p>
           <div className="not-prose my-4">
@@ -323,6 +330,7 @@ export default function HowToGetRidOfRatsCanadaPage() {
           <RelatedLinks path="/blog/how-to-get-rid-of-rats-canada" />
           <h2>Bait Stations: Monitor First, Poison Last</h2>
           <p>Tamper-resistant bait stations — the black lockable boxes you see behind restaurants — have two jobs for a Canadian homeowner, and the less obvious one is more useful. Loaded with <strong>rodenticide-free monitoring blocks</strong>, a station is an intelligence tool: place a few along fence lines, beside sheds, and near suspected burrows, and gnawed blocks tell you exactly where rats are travelling before you commit traps. That feeding map is worth more than any single kill.</p>
+          <Photo id="tamper-resistant-bait-station" alt="Grey tamper-resistant rodent bait station on pavement against a building wall" caption="A tamper-resistant rodent bait station set on pavement against a wall. Loaded with rodenticide-free monitoring blocks, a station like this maps where rats are travelling." />
           <p>The second job — housing actual rodenticide — comes with rules. Any legal consumer bait in Canada must be deployed in a tamper-resistant station if children, pets, or wildlife could reach it, and the station is the easy part: the hard part is that the bait itself is tightly restricted, which is the next section. Our <Link href="/blog/mouse-bait-station-canada">bait station guide</Link> covers station selection and placement in depth; the short version is buy a station with a key lock and internal rods, anchor it so it cannot be flipped, and treat baiting as the last tool you reach for, not the first.</p>
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="rat bait station tamper resistant">Check tamper-resistant stations on Amazon.ca →</BuyLink>
@@ -351,6 +359,7 @@ export default function HowToGetRidOfRatsCanadaPage() {
           <p>Here is the part no product page tells you: a Norway rat colony works a territory of roughly 25 to 50 metres from the burrow, and in Canadian cities that radius almost never fits inside one property line. You can run a flawless program and be re-invaded monthly from an untouched burrow under a neighbour&rsquo;s shed, an overflowing feeder two doors down, or a derelict garage across the fence. Rats are a block-level problem wearing a single-house disguise.</p>
           <p>Two tools help. The first is diplomacy: most neighbours have no idea their bird feeder is a rat feeder, and a friendly heads-up plus a shared trapping window beats years of silent re-invasion. The second is the bylaw layer: most Canadian municipalities — Toronto, Mississauga, Vancouver, and others — have property-standards or pest-related bylaws requiring owners to eliminate rodent harbourage, and cities investigate complaints, inspect, and can issue orders against properties that farm rats onto the block. Document what you see (burrows, sightings, attractants), report persistent off-property sources through 311 or your municipal portal, and keep your own yard defensible: feeders on baffled poles with seed trays, enclosed compost with no cooked food, garbage in bins with latched lids, pet food indoors, woodpiles up on racks, and ivy cut back from foundations.</p>
           <p>If you feed birds yourself, look at the ground, not the feeder. A growing carpet of discarded hulls and dropped seed under the feeder is a nightly food source for mice, rats, raccoons, and skunks, and it is one of the most common reasons a tidy suburban yard suddenly has a rodent issue. Fit a seed-catcher tray under the feeder, rake or vacuum the shell litter regularly, and consider hulled sunflower chips: no shells means no shell litter. They cost more per kilogram and spoil faster in wet weather, but in a small city garden where ground mess matters, they can be the smarter buy. If raccoons are working your street, bring the feeder in at night.</p>
+          <Photo id="norway-rat-under-bird-feeders-spilt-seed" alt="Norway rat in short grass under bird feeders, where it fed on spilt sunflower hearts" caption="A Norway rat in short grass where, its photographer notes, it was feeding on spilt sunflower hearts under bird feeders (Herefordshire, England). Dropped seed under a feeder is a nightly food source for rats." />
 
           <h2>When to Call a Professional</h2>
           <p>DIY wins most backyard and garage rat problems. Escalate to a licensed pro when the pattern says structural or block-level: catches continuing beyond 2&ndash;3 weeks with no taper, rats inside living space or audible in walls, burrows that reopen immediately after collapse, sudden indoor rats in an older home (sewer lateral until proven otherwise — pros can smoke-test the line), or a neighbouring source that bylaw complaints have not yet moved. Professionals bring the commercial-class rodenticides consumers cannot buy, drain testing, and exclusion crews with sheet-metal skills. Expect a program of visits rather than a single treatment, and sanity-check any quote against our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> before signing.</p>

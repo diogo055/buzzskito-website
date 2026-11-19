@@ -130,7 +130,7 @@
     { "type": "p", "text": "Leave dark masses on the plant. Utah State says that when parasitoid wasps are on an egg mass, leaving the eggs and the wasps on the plant is the preferred choice, since that may mean more wasps and fewer stink bugs, and that parasitoid wasps are very sensitive to insecticides. Penn State cautions that appearance alone does not always confirm parasitism: predators, disease, weather or failed development can also darken eggs, and a mass that is merely pink or gray may be another species developing normally." },
 
     { "type": "h2", "text": "How can you tell which eggs you found?" },
-    { "type": "p", "text": "Check the shape, color, top and layout with a magnifying glass, then note where and when you found the eggs." },
+    { "type": "p", "text": "Check the shape, color, top and layout with a magnifying glass, then note where and when you found the eggs. If they match nothing on this page, our [insect eggs identification guide](/blog/insect-eggs) sorts bug eggs by where you found them." },
     { "type": "checklist", "title": "Checks to run on an egg cluster", "items": [
       "**Shape.** Barrels standing on end point to a stink bug; small yellow ovals on end to a lady beetle; brown bottles with white tops to a wheel bug; brown cylinders lying end to end to a leaf-footed bug.",
       "**Color.** Pale green, white or light yellow fits a brown marmorated stink bug; copper to maroon, a squash bug; bold black-and-white bands, a harlequin bug; dark brown or black, often a parasitized mass.",

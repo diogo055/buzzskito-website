@@ -90,6 +90,7 @@
 
     { "type": "h2", "text": "How big are baby cockroaches, and how long do they take to grow up?" },
     { "type": "p", "text": "German nymphs measure 1/8 to 9/16 inch (3 to 14 mm) and need about 50 to 60 days to become adults, while the large species take more than a year and a half. The size range comes from Rutgers and is the only nymph measurement in the sources reviewed. For the other species the useful benchmark is adult length, which nymphs approach with each molt: about 1/2 inch for brownbanded, 1 1/4 inches for Oriental and 1 1/2 to 2 inches for American cockroaches." },
+    { "type": "diagram", "src": "/diagrams/baby-cockroach-size-chart.svg", "width": 720, "height": 500, "alt": "German cockroach size chart drawn to one scale: an egg case about 8 mm long, a newly hatched 3 mm nymph, a half-grown nymph, a large wingless nymph up to 14 mm and a winged adult of 13 to 16 mm", "caption": "A German cockroach from egg case to adult, drawn to one scale. Nymphs run from 1/8 to 9/16 inch (3 to 14 mm) and have no wings; the adult is 1/2 to 5/8 inch (13 to 16 mm)." },
     { "type": "table", "head": ["Species", "Egg case", "Young per case", "Time to adulthood"], "rows": [
       ["German", "About 1/4 inch", "About 30 (UC IPM); 30 to 40 (Texas A&M)", "Nymph stage about 50 to 60 days at indoor temperatures; whole life cycle about 100 days"],
       ["Brownbanded", "About 1/4 inch", "13 eggs per capsule on average", "Nymph stage 8 to 31 weeks"],

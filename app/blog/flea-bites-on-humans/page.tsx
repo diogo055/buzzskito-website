@@ -268,6 +268,13 @@ export default function FleaBitesOnHumansPage() {
 
         <h2 id="bite-from-a-flea">How do you tell if a bite is from a flea?</h2>
         <p><strong>Four features together, never one alone:</strong> a small firm bump about 1&ndash;3 mm across; a pale red halo around a tiny central puncture point; grouping in clusters or short lines of two to three; and placement on the ankles, shins, and calves. Add an itch that starts within minutes and an animal in the household, and fleas are the strong favourite.</p>
+        <Figure
+          src="/diagrams/flea-vs-bed-bug-vs-tick-vs-louse.svg"
+          alt="Flea, bed bug, tick and head louse drawn to the same millimetre scale, with a table comparing size, legs, how each moves, body shape and where each is found"
+          caption="If you catch the insect: a flea, a bed bug, a tick and a head louse on the same scale. A flea is thin from side to side and jumps; a bed bug is flat and oval and crawls; a tick has eight legs; a louse stays in hair."
+          width={720}
+          height={560}
+        />
         <p>Everything after that is confirmation work in the environment rather than on your arm. The three tests that actually settle it &mdash; the flea comb over white paper, the wet-paper test that turns flea dirt reddish-brown, and the white-sock walk through carpeted rooms &mdash; take about five minutes and are laid out in full in the <a href="#home-flea-check">home flea check below</a>. A single plug-in light trap left running overnight turns &ldquo;I think it is fleas&rdquo; into a countable number by morning.</p>
         <p>If the insect you catch does not quite match a flea, our guide to <Link href="/blog/bugs-that-look-like-fleas">bugs that look like fleas</Link> shows what a real flea looks like and the clues that set springtails, young bed bugs, carpet beetle larvae and the other usual look-alikes apart.</p>
         <p>Two false positives are worth knowing. Ankle-clustered bites picked up after time in long grass, leaf litter, or brush &mdash; and never repeated indoors &mdash; are usually <Link href="/blog/chigger-bites">chigger bites</Link>, which cluster at sock lines and waistbands but do not infest homes. Ankle bites acquired outdoors at dusk near water or damp soil, burning out of proportion to their size, point to <Link href="/blog/no-see-um-bites">no-see-ums</Link>. Neither breeds in your carpet, so neither produces the daily drip of fresh bites that defines a flea infestation.</p>

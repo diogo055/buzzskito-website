@@ -14,6 +14,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'how-to-get-rid-of-voles-canada'
 const DATE = '2026-07-30'
@@ -82,6 +84,7 @@ export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('meadow-vole-in-grass'),
 }), '/blog/how-to-get-rid-of-voles-canada')
 
 const AMZ_TAG = tagForSlug(SLUG)
@@ -89,7 +92,7 @@ const AMZ_TAG = tagForSlug(SLUG)
 export default function HowToGetRidOfVolesCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to voles: telling a vole from a house mouse, a mole and a shrew, reading surface runways and girdled bark, why winter damage under snow only appears at snowmelt, habitat and mowing work, hardware-cloth trunk guards, snap-trap technique, the honest limits of castor-oil repellents, and why rodenticide is the wrong outdoor tool.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to voles: telling a vole from a house mouse, a mole and a shrew, reading surface runways and girdled bark, why winter damage under snow only appears at snowmelt, habitat and mowing work, hardware-cloth trunk guards, snap-trap technique, the honest limits of castor-oil repellents, and why rodenticide is the wrong outdoor tool.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('meadow-vole-in-grass') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'How to Get Rid of Voles in Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -347,7 +350,17 @@ export default function HowToGetRidOfVolesCanadaPage() {
 
           <h2>What a Vole Actually Is, and Why That Changes the Plan</h2>
           <p>A vole is a small, stocky, plant-eating rodent that lives its whole life outdoors in grass, meadow, mulch, and garden beds. The meadow vole is the one most Canadians meet, and its everyday nicknames &mdash; field mouse, meadow mouse &mdash; are exactly what make the problem so easy to misdiagnose. It is not a mouse. It is built differently and it behaves differently, and almost every wasted dollar in vole control traces back to treating it like one.</p>
+          <Photo
+            id="meadow-vole-in-grass"
+            alt="Eastern meadow vole in grass and dead leaves, side view, showing a blunt face, a small ear almost hidden in its fur and a grey-brown coat"
+            caption="An eastern meadow vole (Microtus pennsylvanicus) in grass and dead leaves in Cuyahoga Falls, Ohio (research grade on iNaturalist). The meadow vole is the one most Canadians meet."
+          />
           <p>The build is the tell. A vole is chunky and compact with a blunt, rounded snout, small eyes, and ears so short they are largely buried in fur, and its tail is short &mdash; nearer the length of its hind foot than the length of its body. A house mouse is the opposite in every one of those features: slender, sharply pointed nose, big ears standing clear of the head, and a long scaly tail as long as the rest of it. The behaviour follows the anatomy. Voles are adapted for pushing through grass at ground level and tunnelling shallowly in soil, not for climbing into a pantry, and they are near-permanently outdoors.</p>
+          <Photo
+            id="meadow-vole-beside-ruler"
+            alt="Meadow vole lying on its side beside a steel ruler, showing its stocky body, blunt head, small ear and short tail"
+            caption="An eastern meadow vole on its side beside a steel ruler, in Pennsylvania (research grade on iNaturalist). Note the blunt head, the small ear almost hidden in fur and the short tail; a house mouse has a pointed nose, big ears and a long tail."
+          />
           <p>What they eat matters just as much. Voles are herbivores: grasses, roots, seeds, bulbs, hosta, and &mdash; the expensive one &mdash; the inner bark of young trees and shrubs, particularly in winter when nothing green is available. And because they are near the bottom of the food chain, they live under constant predation pressure from hawks, owls, foxes, coyotes, weasels, and cats, which is the single most useful fact in this entire guide. <strong>Voles need cover.</strong> An open, short-mown lawn is dangerous ground for them. Tall grass, a weedy fence line, thick ground cover, a heap of mulch against a trunk, or a snowpack are what make a yard survivable. Take that away and you have done more than any product does.</p>
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the short list:</p>
@@ -361,12 +374,27 @@ export default function HowToGetRidOfVolesCanadaPage() {
           <h2>Reading the Damage: Runways, Bark, and Bulbs</h2>
           <p>Voles leave three distinctive signatures, and being able to name which one you have decides where the money goes.</p>
           <p><strong>Surface runways.</strong> The classic snowmelt discovery: winding trails through the turf where the grass has been clipped down to the soil, roughly two to five centimetres wide, connecting small burrow openings. They look like someone has drawn a maze across the lawn with a narrow mower. These are travel corridors that voles use repeatedly, which is exactly why trapping works &mdash; the animal has committed to a route.</p>
+          <Photo
+            id="vole-runways-lawn-snowmelt-illinois"
+            alt="Lawn crossed by narrow, winding trails of flattened brown grass, with patches of melting snow at the back"
+            caption="Winding runways worn into a lawn as the snow melted in March, which the observer recorded as meadow vole sign (Glen Ellyn, Illinois; iNaturalist). Runway lines like these usually green over once the lawn starts growing."
+          />
           <p><strong>Gnawed bark.</strong> The damage that actually costs you something. Voles strip the bark from the base of young trees and shrubs, leaving irregular patches of small tooth marks running in various directions, concentrated at ground level or just above where the old snow line sat. If the bark is removed all the way around the trunk, the tree has been girdled, and it may leaf out that spring on stored energy and then fail. Fruit trees, young maples, birches, and newly planted ornamentals are the usual casualties.</p>
+          <Photo
+            id="vole-gnawed-apple-tree-snow-line-finland"
+            alt="Black-and-white photo of a young apple tree trunk standing in snow, with a band of bark gnawed away just above the snow surface"
+            caption="A young apple tree with its bark gnawed away just above the snow, damage the source attributes to voles, in an orchard in Lohja, Finland, in April 1962 (Finnish Heritage Agency photograph). Bark chewed all the way around a trunk girdles the tree, which may leaf out and then fail."
+          />
           <p><strong>Missing bulbs and eaten crowns.</strong> Tulips that never come up, crocus that vanish, hosta crowns hollowed out from below. This is the attack no surface treatment reaches, because it happens underground.</p>
           <p>Note what is <em>not</em> on that list: pushed-up soil. Ridges of heaved earth and conical mounds are mole work, and a mole is an insectivore hunting worms and grubs. It is not eating a single plant of yours. If that is what your lawn looks like, everything on this page is aimed at the wrong animal.</p>
 
           <h2>Why It All Appears at Snowmelt &mdash; and Why That Means Acting in October</h2>
           <p>Voles do not hibernate. Once snow covers the ground it forms an insulated layer over the soil, and voles spend the entire Canadian winter living and feeding in that hidden space: travelling in tunnels through the base of the snowpack, out of the wind, at a temperature that barely moves, and invisible to every predator that hunts by sight. Four months of feeding happen in there, including the bark chewing, and none of it is visible from a kitchen window.</p>
+          <Photo
+            id="vole-hole-snowmelt"
+            alt="Grass-lined hole opening in melting snow, with flattened dead grass around it"
+            caption="A grass-lined hole in melting snow, identified on iNaturalist as vole sign, in Missoula, Montana. Voles travel and feed in the space between the snowpack and the soil all winter."
+          />
           <p>Then the snow goes, usually over a week or two in March or April, and it all appears at once. Homeowners describe this as a sudden infestation. It is a reveal, not an event.</p>
           <p>The practical consequence is the calendar. The work that decides how bad next April looks is done in <strong>October and November</strong>: mow the lawn short and keep it short into late fall so there is no tall grass to over-winter in, clear the weedy strip along fences and ravine edges, pull mulch back from every trunk, and get the hardware cloth guards on before the first lasting snow. Spring is for trapping the survivors and repairing the turf. If you are reading this in April, do the repair now and put a note in your calendar for October &mdash; that note is worth more than anything you can buy today.</p>
 
@@ -379,6 +407,11 @@ export default function HowToGetRidOfVolesCanadaPage() {
             <li><strong>Thin dense ground cover</strong> around young trees and against foundations. Thick periwinkle, ivy, and low junipers are excellent vole housing.</li>
             <li><strong>Do not pile shovelled snow against trunks,</strong> and keep firewood, brush piles, and stored lumber off the ground and away from the plantings you care about.</li>
           </ul>
+          <Photo
+            id="meadow-vole-runways"
+            alt="Meadow vole peering out of its runway in matted dead grass, where a sheet of plywood had been lying"
+            caption="A meadow vole in its runways under a sheet of plywood that had been lying on the ground, in New Brunswick (iNaturalist). Boards, firewood and stored lumber left on the ground give voles cover."
+          />
           <p>There is a bonus here that matters more in Ontario than most homeowners realise. The same unmown grass, leaf litter, and dense shaded edge that shelters voles is prime habitat for blacklegged ticks, and the same mowing and edge work reduces both at once. If that boundary strip is a regular part of your yard, our guide to <Link href="/blog/how-to-keep-ticks-out-of-yard-ontario">keeping ticks out of an Ontario yard</Link> covers the same edge in more detail &mdash; and that one is squarely in our own lane.</p>
           <p>The overlap is not only habitat. Small ground rodents are the hosts that immature blacklegged ticks feed on, which is how the Lyme bacterium is kept circulating in a neighbourhood at all &mdash; so clearing that boundary strip is working on two problems at once. <Link href="/blog/lyme-disease-cases-ontario-2026" className="text-brand-700 underline">Lyme disease cases in Ontario</Link> gives the published provincial numbers if you want a sense of the scale.</p>
 

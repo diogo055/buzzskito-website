@@ -2,7 +2,7 @@
  "id": "brown-recluse",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "12727767a39c62222f99c9e8776b8571368927376f4470a37b2d4cfd5533511c",
+ "sha": "d73e574bed24c140f819c4bb222c43f0edcda7d93b8553808b1c995e7811f7c0",
  "claimsChecked": 300,
  "claimsCorrected": 18,
  "claimsRemovedOrSoftened": 16,
@@ -11,5 +11,12 @@
   "on": "2026-11-10",
   "scheduledFor": "2026-11-10",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-11-19",
+   "note": "Nov 19, 2026: added one original BuzzSkito diagram (/diagrams/spider-identification-black-widow-brown-recluse-wolf-spider.svg, CC BY 4.0) after the first paragraph of an existing section; sizes from EPA/CDC/university extension sources listed in the diagram itself. No text changed.",
+   "previousSha": "12727767a39c62222f99c9e8776b8571368927376f4470a37b2d4cfd5533511c"
+  }
+ ]
 }

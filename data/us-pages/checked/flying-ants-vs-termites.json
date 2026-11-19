@@ -2,7 +2,7 @@
  "id": "flying-ants-vs-termites",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "bef27893afee8e4ee86a08301faf0581b8269eabb33483f91d555d61bdcdd17b",
+ "sha": "8c79f1e9a71cd418c6050415962d7d7c3449bf1d48775f07d35aade1156ebacb",
  "claimsChecked": 62,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 4,
@@ -17,6 +17,11 @@
    "on": "2026-10-23",
    "note": "link-in: /blog/what-do-termites-look-like (volume-20, Oct 23)",
    "previousSha": "4c42275c5de9bca997ac874c6ec1556e6af6f08c7458ddfd93c16fc069635d3f"
+  },
+  {
+   "on": "2026-11-19",
+   "note": "Nov 19, 2026: real photos added (figure blocks only, ledger-recorded and licence-checked: public domain, CC0, CC BY or CC BY-SA); no text or dates changed.",
+   "previousSha": "bef27893afee8e4ee86a08301faf0581b8269eabb33483f91d555d61bdcdd17b"
   }
  ]
 }

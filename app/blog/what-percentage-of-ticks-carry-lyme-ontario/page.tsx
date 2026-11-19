@@ -9,6 +9,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'what-percentage-of-ticks-carry-lyme-ontario'
 const DATE = '2026-07-16'
@@ -74,12 +76,13 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  image: shareImage('blacklegged-tick-female-point-pelee'),
 })
 
 export default function TicksCarryLymeOntarioPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Data-backed 2026 answer to what percentage of ticks carry Lyme disease in Ontario, citing Public Health Ontario and PHAC surveillance.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Data-backed 2026 answer to what percentage of ticks carry Lyme disease in Ontario, citing Public Health Ontario and PHAC surveillance.', slug: SLUG, datePublished: DATE, image: shareImage('blacklegged-tick-female-point-pelee') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'What Percentage of Ticks Carry Lyme in Ontario', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, DATE)) }} />
@@ -136,7 +139,9 @@ export default function TicksCarryLymeOntarioPage() {
 
           <h2>What percentage of ticks carry Lyme disease in Ontario?</h2>
           <p><strong>About 20% of blacklegged ticks in established Ontario risk areas carry the Lyme bacterium, Borrelia burgdorferi, according to Public Health Ontario (PHO).</strong> That is a province-wide average for the one species that can actually transmit Lyme — the blacklegged tick, also called the deer tick (<em>Ixodes scapularis</em>). It is not a figure for every tick you might find, because Ontario&rsquo;s other common tick, the American dog tick, cannot carry Lyme at all.</p>
+          <Photo id="blacklegged-tick-female-point-pelee" alt="Adult female blacklegged deer tick, the tick that carries Lyme disease in Ontario, on a gray surface" caption="An adult female blacklegged (deer) tick, the one Ontario species that transmits Lyme disease, which its photographer found on their leg after a walk in Point Pelee National Park." />
           <p>The 20% headline hides real variation. In the most endemic pockets of southern and northwestern Ontario, roughly <strong>20-40% of adult blacklegged ticks</strong> test positive for <em>B. burgdorferi</em>, while immature nymphs generally carry lower infection rates, in the range of 10-25%. Local public health units in the highest-risk zones — including parts of Toronto and Northwestern Ontario — have reported infection rates above 20%.</p>
+          <Photo id="blacklegged-tick-nymph-macro" alt="Magnified blacklegged tick nymph, a young deer tick about 1 mm long, on a white background" caption="A young blacklegged tick that its photographer identifies as a nymph, about 1 mm long by their estimate. Nymphs generally carry lower infection rates than adults, around 10-25%." />
           <p>The trend matters as much as the number. PHO passive surveillance found the infected share of blacklegged ticks rising from <strong>8.4% in 2008 to 19.1% in 2012</strong>, and past 20% in established areas by 2023. As blacklegged ticks spread northward with milder winters, both the infection rate and the size of the at-risk area have grown. For the current local surveillance picture, see our <Link href="/ontario-lyme-disease-tracker-2026">Ontario Lyme disease tracker for 2026</Link> and the full data set on our <Link href="/ticks-in-ontario-statistics">ticks in Ontario statistics page</Link>.</p>
 
           <NextUp path="/blog/what-percentage-of-ticks-carry-lyme-ontario" />
@@ -184,11 +189,14 @@ export default function TicksCarryLymeOntarioPage() {
           <RelatedLinks path="/blog/what-percentage-of-ticks-carry-lyme-ontario" />
           <h2>Are all ticks infected with Lyme disease?</h2>
           <p><strong>No — most ticks are not infected, and most tick species cannot carry Lyme at all.</strong> In Ontario, only the blacklegged tick transmits <em>B. burgdorferi</em>, and only about 20% of blacklegged ticks in established risk areas are actually infected. The American dog tick (<em>Dermacentor variabilis</em>), the second most commonly submitted tick in the province, does not carry Lyme disease.</p>
+          <Photo id="american-dog-tick-male-hamilton" alt="Adult male American dog tick with a white-marbled shield on a person's hairy skin in Hamilton, Ontario" caption="An adult male American dog tick on a person's skin in Hamilton, Ontario. The American dog tick, Ontario's other common tick, does not carry Lyme disease." />
           <p>This is why correct identification matters so much. A dog tick bite carries no Lyme risk, while a blacklegged tick bite carries a possible — but far from certain — risk. If you find a tick, you can photograph it and submit it to the free <em>eTick.ca</em> public identification service, or contact your local public health unit. Knowing which species bit you, and how long it was attached, tells you far more about your real risk than the raw infection percentage alone. Our guide on whether <Link href="/blog/are-ticks-dangerous-ontario">ticks are dangerous in Ontario</Link> walks through the species and the diseases they can and cannot spread.</p>
 
           <h2>What is the blacklegged tick infection rate, and why does attachment time matter?</h2>
           <p><strong>The blacklegged tick infection rate in Ontario is approximately 20% for Lyme in established risk areas, but the bacterium still needs 24-36 hours of feeding to reach you.</strong> The Lyme bacterium lives in the tick&rsquo;s gut. During a blood meal it slowly migrates to the tick&rsquo;s salivary glands, and only then can it pass into a host. That biological delay is the reason prompt removal is so protective: even an infected tick is unlikely to transmit Lyme if you pull it off within the first day.</p>
+          <Photo id="tick-check-sock-ankle" alt="Sock folded down during a tick check, showing a blacklegged tick attached at the ankle" caption="A tick check: folding a sock down reveals an adult female blacklegged tick attached at the ankle. A blacklegged tick generally must stay attached 24-36 hours or longer to transmit Lyme." />
           <p>Infection rates also differ by pathogen. A smaller share of Ontario blacklegged ticks carry Anaplasma, Babesia, or Powassan virus — all monitored separately by public health, and some (notably Powassan) able to transmit far faster than Lyme. That is one more reason not to ignore any attached tick, regardless of how long you think it has been there. For a full prevention routine — repellents, tick checks, clothing, and yard steps — see our <Link href="/blog/lyme-disease-tick-prevention-ontario">Lyme disease and tick prevention guide for Ontario</Link>.</p>
+          <Photo id="blacklegged-tick-removal-behind-ear" alt="Fine-tipped tweezers gripping a blacklegged tick at the skin behind a person's ear" caption="Fine-tipped tweezers removing an adult female blacklegged tick from behind a person's ear. Removing a tick within 24 hours makes Lyme transmission unlikely." />
           <p>Prompt removal is only as good as the tool: a fine-tipped remover grips the head against the skin, where flat tweezers squeeze the body. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>How this compares to human Lyme case counts</h2>

@@ -1,0 +1,15 @@
+{
+ "id": "cockroach-nest",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "e4d347721f7a9dfb547a2babd19ea1058a85092db1d41f1db30e92fe7f68abd9",
+ "claimsChecked": 262,
+ "claimsCorrected": 16,
+ "claimsRemovedOrSoftened": 19,
+ "checkedOn": "2026-11-19",
+ "released": {
+  "on": "2026-11-19",
+  "scheduledFor": "2026-11-19",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

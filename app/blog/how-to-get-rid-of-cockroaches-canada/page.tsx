@@ -18,6 +18,7 @@ import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
 import { withRegionalAlternates } from '@/lib/guides'
+import Figure from '@/components/Figure'
 
 const SLUG = 'how-to-get-rid-of-cockroaches-canada'
 const DATE = '2026-07-21'
@@ -331,6 +332,13 @@ export default function HowToGetRidOfCockroachesCanadaPage() {
           />
           <h2>First, Know Your Enemy: German vs American vs Oriental</h2>
           <p>Three cockroach species account for essentially all Canadian household encounters, and they demand different responses.</p>
+          <Figure
+            src="/diagrams/types-of-cockroaches-size-chart.svg"
+            alt="Four adult cockroaches drawn to one scale: German cockroach about half an inch with two dark stripes, brown-banded cockroach about half an inch with light bands, Oriental cockroach about 1.25 inches and almost black, American cockroach about 2 inches and reddish brown"
+            caption="The common house cockroaches at the same scale, with the mark that identifies each: German (about 1/2 inch, or 13 mm, two dark stripes), brown-banded (about 1/2 inch, light bands), Oriental (about 1 1/4 inches, or 32 mm, almost black) and American (about 2 inches, or 50 mm, reddish brown)."
+            width={720}
+            height={530}
+          />
           <p><strong>German cockroach &mdash; the one that matters.</strong> Small (12&ndash;16 mm), tan to light brown, with two dark parallel stripes on the shield behind the head. This is the indoor-breeding species behind virtually every kitchen and apartment infestation in Canada; it cannot survive a Canadian winter outdoors and lives its entire life within a few metres of warmth, moisture, and food. It also breeds faster than any other pest roach &mdash; a female produces an egg case (ootheca) of 30&ndash;48 eggs every few weeks and carries it protected until just before hatching, which is why populations explode and why no product touches the eggs. If you see small striped roaches in the kitchen or bathroom, everything in this guide applies at full intensity.</p>
           <Photo
             id="german-cockroach-adult"

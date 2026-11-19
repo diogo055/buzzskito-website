@@ -2,7 +2,7 @@
  "id": "crickets-in-house",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "084b737da5d9ea4c9de9667e51f1e23d57b1360f798b073ad06467745445d560",
+ "sha": "781384461266a241576435c088d5bb7088377cfaec9ce16529b02fa03a00ba94",
  "claimsChecked": 296,
  "claimsCorrected": 7,
  "claimsRemovedOrSoftened": 8,
@@ -11,5 +11,12 @@
   "on": "2026-10-28",
   "scheduledFor": "2026-10-28",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-11-19",
+   "note": "Nov 19, 2026: added one original BuzzSkito diagram (/diagrams/camel-cricket-vs-house-cricket.svg, CC BY 4.0) after the first paragraph of an existing section; sizes from EPA/CDC/university extension sources listed in the diagram itself. No text changed.",
+   "previousSha": "084b737da5d9ea4c9de9667e51f1e23d57b1360f798b073ad06467745445d560"
+  }
+ ]
 }

@@ -81,6 +81,7 @@
 
     { "type": "h2", "text": "How do you tell which tiny brown bug you have?" },
     { "type": "p", "text": "Catch one in a clear jar or press it onto clear tape, then look at it with a magnifying glass, because many of these are 1/8 inch long or less. Run through the checks below, then find the match in the table at the top of the page." },
+    { "type": "diagram", "src": "/diagrams/tiny-brown-bugs-size-chart.svg", "width": 720, "height": 600, "alt": "Size chart of eight tiny brown house bugs drawn to one millimeter scale: drugstore beetle, flour beetle, sawtoothed grain beetle, spider beetle, carpet beetle larva, German cockroach nymph, adult bed bug and cat flea", "caption": "Eight small brown insects found indoors, drawn to the same scale, each with its size." },
     { "type": "checklist", "title": "Checks to run with the bug in a jar", "items": [
       "**Hard, shiny shell?** It is a beetle: a pantry beetle if it came from food, a weevil if it has a snout, a carpet beetle if it is round and patterned.",
       "**Fuzzy and worm-like?** It is probably a carpet beetle larva. A smooth whitish caterpillar in food is a moth larva instead.",

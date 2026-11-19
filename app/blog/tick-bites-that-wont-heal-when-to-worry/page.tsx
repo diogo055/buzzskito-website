@@ -10,6 +10,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import ReadNext from '@/components/ReadNext'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 import QuickIdTable from '@/components/QuickIdTable'
 import ConfusedWith from '@/components/ConfusedWith'
 import UsAmazonLine from '@/components/UsAmazonLine'
@@ -42,12 +43,13 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('erythema-migrans-rash'),
 })
 
 export default function TickBitesThatWontHealWhenToWorryPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: `A tick bite that doesn't heal could signal Lyme disease, alpha-gal syndrome, or secondary infection. Ontario guide to symptoms, when to see a doctor, and what to do next.`, slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: `A tick bite that doesn't heal could signal Lyme disease, alpha-gal syndrome, or secondary infection. Ontario guide to symptoms, when to see a doctor, and what to do next.`, slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('erythema-migrans-rash') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: TITLE, url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -126,6 +128,11 @@ export default function TickBitesThatWontHealWhenToWorryPage() {
 
         <h3>2. Bite That Expands or Spreads After 3–4 Days</h3>
         <p>A normal tick bite reaction is a small red bump (similar to a mosquito bite) that, <a href="https://www.cdc.gov/lyme/signs-symptoms/index.html" target="_blank" rel="noopener noreferrer">according to the CDC</a>, generally goes away in 1&ndash;2 days. A bite that gets larger after 3–4 days — even without the classic bull&apos;s-eye pattern — could signal early Lyme disease or another tick-borne infection. Photograph the bite daily for documentation.</p>
+        <Photo
+          id="erythema-migrans-rash-trunk"
+          alt="A large, oval red rash with a darker red outer edge on the side of a young woman's trunk"
+          caption="Erythema migrans, the expanding rash of Lyme disease, on the side of a young woman's trunk, as the photographer describes it. Unlike a healing bite, this rash keeps growing outward over days."
+        />
 
         <h3>3. Bite Site That Feels Hot, Hard, or Painful Beyond 1 Week</h3>
         <p>A tick bite that becomes increasingly painful, develops surrounding heat, or forms a hard lump beyond the first week may be infected. Secondary bacterial infection at the bite site is uncommon but happens when tick mouthparts are left behind during removal. May require antibiotic treatment.</p>
@@ -141,9 +148,19 @@ export default function TickBitesThatWontHealWhenToWorryPage() {
 
         <h3>7. Joint Pain or Swelling, Especially Knees</h3>
         <p>Lyme disease commonly causes "Lyme arthritis" — typically affecting one or both knees with significant swelling. Appears weeks to months after untreated infection. Distinguishable from regular arthritis by sudden onset, often unilateral, and history of outdoor activity in tick zones.</p>
+        <Photo
+          id="lyme-arthritis-knee-swelling-child"
+          alt="A young child's knees seen from the front, the right knee visibly swollen, with a black arrow pointing to it"
+          caption="Swelling of the right knee (arrow) caused by Lyme arthritis in a 3-year-old girl, from a published case report. Lyme arthritis typically affects one or both knees, weeks to months after an untreated infection."
+        />
 
         <h3>8. Itchy or Painful Reaction to Red Meat (Alpha-Gal Syndrome)</h3>
         <p>Alpha-gal syndrome — a delayed allergic reaction to red meat (beef, pork, lamb) developing 3–8 hours after eating — can be triggered by lone star tick bites. Lone star ticks are uncommon in Ontario but increasingly reported. Symptoms include hives, GI distress, and in severe cases anaphylaxis. Allergist evaluation needed.</p>
+        <Photo
+          id="lone-star-tick-removal-tweezers-elbow"
+          alt="Fine-tipped tweezers gripping an adult female lone star tick, with a white spot on its back, at the skin of a person's elbow"
+          caption="An adult female lone star tick on a person's elbow being removed with fine-tipped tweezers (CDC photograph). Lone star tick bites can trigger alpha-gal syndrome, a delayed allergy to red meat."
+        />
 
         <h3>9. Heart Symptoms (Lyme Carditis)</h3>
         <p>Rare but serious. Untreated Lyme disease can cause heart-rhythm problems weeks to months post-infection. Symptoms: chest pain, palpitations, shortness of breath, fainting. Emergency department visit immediately if these occur after a known or suspected tick bite.</p>
@@ -167,6 +184,11 @@ export default function TickBitesThatWontHealWhenToWorryPage() {
         <h2>Getting the Next One Out Cleanly</h2>
         <p>Two of the problems on this page &mdash; the persistent granuloma at number 4, and the hot, hard bite site at number 3 &mdash; trace back to the same moment, and it is not the bite. It is the removal. Blunt household tweezers are too wide at the tip to grip a tick at the head, so they take hold of the body instead, squeeze it, and tear the mouthparts off in the skin. That retained fragment is what the immune system then walls off into a nodule, or what a secondary infection gets going around.</p>
         <p>If the mouthparts do break off in the skin, the <a href="https://www.cdc.gov/ticks/after-a-tick-bite/index.html" target="_blank" rel="noopener noreferrer">CDC</a> advises removing them with tweezers if that is easy, and otherwise leaving them alone: the body usually pushes them out as the skin heals. It also advises cleaning the bite and your hands with soap and water, rubbing alcohol or hand sanitizer after removing a tick. Our guide to a <Link href="/blog/tick-head-stuck-in-skin">tick head stuck in the skin</Link> covers this step by step.</p>
+        <Photo
+          id="blacklegged-tick-removal-behind-ear"
+          alt="Fine-tipped tweezers gripping a small blacklegged tick at the skin line behind a person's ear"
+          caption="Fine-tipped tweezers removing an adult female blacklegged tick from behind a person's ear (CDC photograph). Grip the tick at the skin line, as close to the head as you can reach, and pull straight up."
+        />
         <p>A fine-tipped tick tool or pointed tweezers gets in at the skin line and lifts the whole tick straight out, which also leaves you with an intact specimen &mdash; the thing etick.ca needs to identify the species from a photo. A crushed tick is much harder to identify and no use for testing. It is worth having one in the house before the evening you need it.</p>
         <AffiliateDisclosure />
         <p className="not-prose"><BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca &rarr;</BuyLink></p>

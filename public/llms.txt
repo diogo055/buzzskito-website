@@ -232,6 +232,7 @@ Source-cited identification and how-to guides written for readers in the United 
 - Bed Bug Poop: What Bed Bug Droppings and Stains Look Like: https://buzzskito.ca/blog/bed-bug-poop
 - No Signs of Bed Bugs but You Have Bites? What Else Bites at Night: https://buzzskito.ca/blog/bed-bug-bites-but-no-bed-bugs
 - Bed Bugs in Hotels: How to Check Your Room and Avoid Bringing Them Home: https://buzzskito.ca/blog/bed-bugs-in-hotels
+- What Do Bed Bug Bites Look Like? Pictures, Patterns and How to Tell for Sure: https://buzzskito.ca/blog/what-do-bed-bug-bites-look-like
 - Bed Bug Eggs: What They Look Like, Where They Are Laid and When They Hatch: https://buzzskito.ca/blog/bed-bug-eggs
 - Best Bed Bug Spray: What Kills Bed Bugs and What Is a Waste of Money: https://buzzskito.ca/blog/best-bed-bug-spray
 - Best Bed Bug Mattress Cover: What a Real Encasement Needs: https://buzzskito.ca/blog/best-bed-bug-mattress-cover
@@ -288,6 +289,7 @@ Source-cited identification and how-to guides written for readers in the United 
 - Rat vs Mouse: How to Tell Them Apart by Size, Tail, Ears and Droppings: https://buzzskito.ca/blog/rat-vs-mouse
 - Roof Rat vs Norway Rat: Tail, Ears, Droppings and Where Each Lives: https://buzzskito.ca/blog/roof-rat-vs-norway-rat
 - Rat Droppings: What Rat Poop Looks Like, Next to Mouse and Squirrel: https://buzzskito.ca/blog/rat-droppings
+- What Does a Mouse Nest Look Like? Materials, Size and Where to Look: https://buzzskito.ca/blog/mouse-nest
 - Mouse Poop: What Mouse Droppings Look Like, Next to Rat, Bat and Roach Droppings: https://buzzskito.ca/blog/mouse-poop
 - Mouse Urine: What Mouse Pee Looks and Smells Like, and How to Find It: https://buzzskito.ca/blog/mouse-urine
 - Mice in Walls: Scratching Sounds, Signs and How to Get Them Out: https://buzzskito.ca/blog/mice-in-walls
@@ -317,6 +319,7 @@ Source-cited identification and how-to guides written for readers in the United 
 - Wood Roaches: How to Tell a Wood Cockroach From Roaches That Infest Homes: https://buzzskito.ca/blog/wood-roaches
 - Best Cockroach Gel Bait: How Roach Gel Works and Which to Buy: https://buzzskito.ca/blog/best-cockroach-gel-bait
 - Roach Droppings vs Mouse Droppings: How to Tell Them Apart: https://buzzskito.ca/blog/roach-droppings-vs-mouse-droppings
+- What Does a Roach Nest Look Like? Where Cockroaches Hide (Photos): https://buzzskito.ca/blog/cockroach-nest
 
 ### Mosquitoes
 - How to Get Rid of Mosquitoes in Your Yard: What CDC and EPA Guidance Says: https://buzzskito.ca/blog/how-to-get-rid-of-mosquitoes
@@ -332,6 +335,7 @@ Source-cited identification and how-to guides written for readers in the United 
 - What Do Mosquito Bites Look Like? Photos by Body Part and Skin Tone: https://buzzskito.ca/blog/what-do-mosquito-bites-look-like
 - Best Mosquito Spray for Yard: Barrier Sprays, Foggers and What Lasts: https://buzzskito.ca/blog/best-mosquito-spray-for-yard
 - Mosquito Bits vs Dunks: How Each Bti Larvicide Works and Where to Use It: https://buzzskito.ca/blog/mosquito-bits-vs-dunks
+- Bugs That Look Like Mosquitoes: How to Tell (and Which Ones Bite): https://buzzskito.ca/blog/bugs-that-look-like-mosquitoes
 
 ### Ticks
 - What Do Ticks Look Like? Size, Color and Markings of the Common US Ticks: https://buzzskito.ca/blog/what-do-ticks-look-like
@@ -410,6 +414,8 @@ Source-cited identification and how-to guides written for readers in the United 
 - Spider Egg Sacs: Which Spider Made It, and What to Do About It: https://buzzskito.ca/blog/spider-egg-sacs
 - Black Spider With White Spots? How to Identify Black Spiders by Markings: https://buzzskito.ca/blog/black-spiders
 - Southern House Spider: The Crevice Spider Mistaken for a Brown Recluse: https://buzzskito.ca/blog/southern-house-spider
+- Baby Spiders: What They Look Like and Why They Are in Your House: https://buzzskito.ca/blog/baby-spiders
+- Types of Spider Webs: How to Identify the Spider by Its Web: https://buzzskito.ca/blog/types-of-spider-webs
 
 ### Wasps, hornets and bees
 - Yellow Jackets: Identification, Ground Nests and Why They Get Aggressive in Fall: https://buzzskito.ca/blog/yellow-jackets
@@ -498,6 +504,9 @@ Source-cited identification and how-to guides written for readers in the United 
 - Bugs That Look Like Silverfish: How to Tell Them Apart: https://buzzskito.ca/blog/bugs-that-look-like-silverfish
 - Bugs That Look Like Lice: What Else It Could Be, and How to Tell: https://buzzskito.ca/blog/bugs-that-look-like-lice
 - Moth Eggs: What They Look Like and Where You Find Them: https://buzzskito.ca/blog/moth-eggs
+- Chigger Bites vs Flea Bites: How to Tell Them Apart (Pictures): https://buzzskito.ca/blog/chigger-bites-vs-flea-bites
+- Insect Eggs Identification: Whose Eggs Are These? (Pictures): https://buzzskito.ca/blog/insect-eggs
+- Signs of Silverfish: Damage, Droppings, Yellow Stains and Where to Look: https://buzzskito.ca/blog/signs-of-silverfish
 
 ### Bug bites and stings
 - Bug Bite Identification: Pictures and Clues to What Bit You: https://buzzskito.ca/learn/bug-bites
@@ -522,6 +531,9 @@ Source-cited identification and how-to guides written for readers in the United 
 - Squirrel Nests: What a Squirrel Nest Looks Like, in a Tree or in Your Attic: https://buzzskito.ca/blog/squirrel-nest
 - Animal Tracks in Snow: How to Identify the Tracks in Your Yard: https://buzzskito.ca/blog/animal-tracks-in-snow
 - Snake Identification: How to Identify the Snakes in Your Yard: https://buzzskito.ca/blog/snake-identification
+- Raccoon Tracks: What They Look Like in Mud, Snow and Sand: https://buzzskito.ca/blog/raccoon-tracks
+- Fox Poop: What Fox Scat Looks Like, and Fox vs Raccoon Poop: https://buzzskito.ca/blog/fox-poop
+- Skunk Poop: What Skunk Droppings Look Like and How They Differ From Raccoon Poop: https://buzzskito.ca/blog/skunk-poop
 
 ### Hiring and DIY pest control
 - How Much Is Pest Control? Typical US Prices by Visit, Plan and Pest: https://buzzskito.ca/blog/how-much-is-pest-control

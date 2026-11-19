@@ -2,7 +2,7 @@
  "id": "what-do-fleas-look-like",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "c360c6855b71e4a684d6113cd32461ff798141f08785f032ec5c003ef9c51391",
+ "sha": "7ffc2f438eb2d8a8c9b10b468316e7b811e5e28ce08922c069541c250ae486ba",
  "claimsChecked": 116,
  "claimsCorrected": 2,
  "claimsRemovedOrSoftened": 4,
@@ -32,6 +32,11 @@
    "on": "2026-11-09",
    "note": "Nov 8, 2026 top-3 upgrade (commit b6754e3b: new sourced sections, tables, FAQs and photos) was independently fact-checked that day (41 corrections across the walkthrough pages, three passes), but this record was not updated then; recorded Nov 9.",
    "previousSha": "4c8f46347a810b089255c85f7a5b7b879b33c5f8e89eb3e3551c31a29a7f87a9"
+  },
+  {
+   "on": "2026-11-19",
+   "note": "Nov 19, 2026: added one original BuzzSkito diagram (/diagrams/flea-vs-bed-bug-vs-tick-vs-louse.svg, CC BY 4.0) after the first paragraph of an existing section; sizes from EPA/CDC/university extension sources listed in the diagram itself. No text changed.",
+   "previousSha": "c360c6855b71e4a684d6113cd32461ff798141f08785f032ec5c003ef9c51391"
   }
  ]
 }

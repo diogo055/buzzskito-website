@@ -7,6 +7,7 @@ import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
 import Photo from '@/components/Photo'
 import { shareImage } from '@/lib/photos'
+import Figure from '@/components/Figure'
 
 const SLUG = 'what-does-a-spider-bite-look-like'
 const DATE = '2026-07-19'
@@ -360,6 +361,13 @@ export default function WhatDoesASpiderBiteLookLikePage() {
 
         <h2>Which spiders actually bite in the United States?</h2>
         <p>Only two groups are medically significant in the United States under CDC guidance: <strong>widow spiders</strong> and the <strong>brown recluse</strong>. Americans are far more likely to be bitten by a wolf spider, yellow sac spider, jumping spider, hobo spider or a tarantula &mdash; all of which cause a painful but self-limited local reaction, not a dangerous one.</p>
+        <Figure
+          src="/diagrams/spider-identification-black-widow-brown-recluse-wolf-spider.svg"
+          alt="Identification marks of three spiders: a black widow from underneath with a red hourglass, a brown recluse with a violin mark and six eyes in three pairs, and a wolf spider with eight eyes, two of them large"
+          caption="The mark to look for on each: the red hourglass under a black widow, the six eyes in three pairs (and the violin) on a brown recluse, and the two big eyes of a wolf spider. The spiders are not drawn to scale; body lengths are printed under each."
+          width={720}
+          height={610}
+        />
         <p>Our photo guide to <Link href="/blog/wolf-spiders">wolf spiders</Link> shows how to recognize one by its eyes, the egg sac and the spiderlings a female carries, how to tell it from a brown recluse and what its bite does.</p>
         <Photo
           id="wolf-spider"

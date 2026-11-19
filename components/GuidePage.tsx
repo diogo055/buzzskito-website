@@ -8,6 +8,7 @@ import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
 import GuideChart from '@/components/GuideChart'
 import GuideMap from '@/components/GuideMap'
+import Figure from '@/components/Figure'
 // shared with hand-written articles, so a guide and an article render them identically
 import ConfusedWith, { notLiveYet } from '@/components/ConfusedWith'
 import { QuickIdBox } from '@/components/QuickIdTable'
@@ -194,6 +195,10 @@ function Block({ block, us = false }: { block: GuideBlock; us?: boolean }) {
         </figure>
       )
     }
+    case 'diagram':
+      // One of our own diagrams: Figure with no `credit` prints "Diagram: BuzzSkito · free to reuse with credit
+      // (CC BY 4.0)" and the ImageObject schema with `license` and `acquireLicensePage`.
+      return <Figure src={block.src} alt={block.alt} caption={plain(block.caption)} width={block.width} height={block.height} />
     case 'chart':
       return <GuideChart chart={block} caption={block.caption ? <Inline text={block.caption} /> : undefined} source={<Inline text={block.source} />} />
     case 'map':

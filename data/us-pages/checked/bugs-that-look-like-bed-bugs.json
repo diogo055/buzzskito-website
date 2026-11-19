@@ -2,7 +2,7 @@
  "id": "bugs-that-look-like-bed-bugs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "656650992a0653790f0f8015887813482405cee12dd7a0157e544e05402abe13",
+ "sha": "292134736a00758a4d5175ac9ab5126f490d2b6e4b3ad537035c1827cadfed73",
  "claimsChecked": 62,
  "claimsCorrected": 4,
  "claimsRemovedOrSoftened": 2,
@@ -42,6 +42,11 @@
    "on": "2026-11-03",
    "note": "Nov 3, 2026: added 6 real photos (western-bat-bug, bed-bug-on-hand-bpca, swallow-bug-top-view, carpet-beetle-larva-bedroom, hairy-spider-beetle, dog-flea); captions from each photo's source description; no other text changed.",
    "previousSha": "bdb658a9d05f89105939e20ef209764862cb6cd30b90935e5f62a84d7058e66b"
+  },
+  {
+   "on": "2026-11-19",
+   "note": "Nov 19, 2026: added one original BuzzSkito diagram (/diagrams/flea-vs-bed-bug-vs-tick-vs-louse.svg, CC BY 4.0) after the first paragraph of an existing section; sizes from EPA/CDC/university extension sources listed in the diagram itself. No text changed.",
+   "previousSha": "656650992a0653790f0f8015887813482405cee12dd7a0157e544e05402abe13"
   }
  ]
 }

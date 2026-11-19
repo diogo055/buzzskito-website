@@ -21008,14 +21008,14 @@
     "health"
    ],
    "minWords": 1000,
-   "datePublished": "2027-01-04",
+   "datePublished": "2026-11-19",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": null,
    "state": null,
-   "releaseOn": "2027-01-04",
+   "releaseOn": "2026-11-19",
    "parent": {
     "href": "/learn/mice",
     "name": "Mice"
@@ -24124,14 +24124,14 @@
     "health"
    ],
    "minWords": 1400,
-   "datePublished": "2026-12-31",
+   "datePublished": "2026-11-19",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": null,
    "state": null,
-   "releaseOn": "2026-12-31",
+   "releaseOn": "2026-11-19",
    "parent": {
     "href": "/learn/bed-bugs",
     "name": "Bed Bugs"
@@ -29407,14 +29407,14 @@
     "id"
    ],
    "minWords": 1000,
-   "datePublished": "2026-12-31",
+   "datePublished": "2026-11-19",
    "projClicks": 0,
    "batch": "god",
    "audience": "na",
    "role": "page",
    "series": null,
    "state": null,
-   "releaseOn": "2026-12-31",
+   "releaseOn": "2026-11-19",
    "parent": {
     "href": "/learn",
     "name": "Learning Centre"
@@ -29451,6 +29451,648 @@
     "mustLink": [
      "/blog/mosquito-hawk-explained",
      "/blog/types-of-mosquitoes"
+    ],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "chigger-bites-vs-flea-bites",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "household",
+   "path": "/blog/chigger-bites-vs-flea-bites",
+   "keyword": "chigger bites vs flea bites",
+   "alsoTargets": [
+    "flea bites vs chigger bites",
+    "chigger bites vs bed bug bites pictures",
+    "flea bite or chigger bite",
+    "chigger or flea bites"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1200,
+   "datePublished": "2026-11-19",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2026-11-19",
+   "parent": {
+    "href": "/learn/bug-bites",
+    "name": "Bug Bites"
+   },
+   "h1Hint": "Chigger Bites vs Flea Bites: How to Tell Them Apart (Pictures)",
+   "scope": "Side-by-side: where on the body each bites (chiggers where clothing is tight, waist, ankles, behind knees; fleas lower legs and ankles), pattern (clusters vs lines and groups), timing (chiggers after outdoor time in grass, itch peaks 1-2 days later; fleas at home with pets, any season indoors), what each bug looks like (larval mite invisible to the eye vs a jumping flea), the myth that chiggers burrow, how long each lasts, look-alikes (bed bug, mosquito, scabies), when to see a doctor. Photos of both bites and both biters. Sources: CDC, university extension (Missouri, Ohio State, Texas A&M, UC IPM), AAD.",
+   "dataPacket": null,
+   "metaTitleHint": "Chigger Bites vs Flea Bites (Pictures)",
+   "pageType": "bite-sting",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/chigger-bites",
+     "overlap": "chigger bites vs mosquito and bed bug bites",
+     "resolution": "it keeps chigger bite identification and treatment; this page owns the chigger-vs-flea comparison; link both ways"
+    },
+    {
+     "path": "/blog/flea-bites-on-humans",
+     "overlap": "flea bites on people",
+     "resolution": "it keeps flea bite identification; link both ways"
+    },
+    {
+     "path": "/blog/flea-bites",
+     "overlap": "one-line chigger look-alike card",
+     "resolution": "keep its card; point the card here"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/blog/chigger-bites",
+     "/blog/flea-bites-on-humans",
+     "/learn/bug-bites"
+    ],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "insect-eggs",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "household",
+   "path": "/blog/insect-eggs",
+   "keyword": "insect eggs identification",
+   "alsoTargets": [
+    "bug eggs",
+    "bug eggs that look like seeds",
+    "insect eggs on window screen",
+    "tiny white eggs in house",
+    "what bug eggs look like"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1300,
+   "datePublished": "2026-11-19",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "na",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2026-11-19",
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "h1Hint": "Insect Eggs Identification: Whose Eggs Are These? (Pictures)",
+   "scope": "A sorter for 'whose eggs are these?': by where they were found (bed and mattress seams, kitchen and pantry, carpet and pet bedding, clothes and closets, window screens and siding, leaves and plants, car) and by what they look like (white rice-like grains, sesame-seed-like, barrel-shaped clusters, purse-shaped capsules, silk sacs). For each: size, colour, the species it points to, one photo, and the link to our page on that species when one exists (cockroach, bed bug, flea, lice, stink bug, moth, spider egg sacs). Also: things mistaken for eggs (droppings, frass, seeds, slime mould). Sources: university extension (UC IPM, Penn State, Kentucky, Texas A&M), CDC, EPA. Real photos only.",
+   "dataPacket": null,
+   "metaTitleHint": "Insect Eggs Identification (Pictures)",
+   "pageType": "entity-id",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/cockroach-eggs",
+     "overlap": "cockroach egg cases",
+     "resolution": "it keeps cockroach eggs; this page sorts and hands off"
+    },
+    {
+     "path": "/blog/bed-bug-eggs",
+     "overlap": "bed bug eggs",
+     "resolution": "hand off"
+    },
+    {
+     "path": "/blog/flea-eggs",
+     "overlap": "flea eggs",
+     "resolution": "hand off"
+    },
+    {
+     "path": "/blog/stink-bug-eggs",
+     "overlap": "stink bug eggs",
+     "resolution": "hand off"
+    },
+    {
+     "path": "/blog/spider-egg-sacs",
+     "overlap": "spider egg sacs",
+     "resolution": "hand off"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/blog/cockroach-eggs",
+     "/blog/bed-bug-eggs",
+     "/blog/flea-eggs",
+     "/blog/stink-bug-eggs",
+     "/blog/spider-egg-sacs"
+    ],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "raccoon-tracks",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "wildlife",
+   "path": "/blog/raccoon-tracks",
+   "keyword": "raccoon tracks",
+   "alsoTargets": [
+    "raccoon tracks in mud",
+    "raccoon tracks in snow",
+    "raccoon tracks vs opossum tracks",
+    "raccoon footprints",
+    "raccoon tracks vs cat tracks"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1000,
+   "datePublished": "2026-11-19",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "na",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2026-11-19",
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "h1Hint": "Raccoon Tracks: What They Look Like in Snow, Mud and Sand (Photos)",
+   "scope": "What raccoon tracks look like (five long fingers like a small human hand, front 2-3 in, hind up to 4 in, the walking pattern of paired front and hind prints), in snow, mud and sand, raccoon vs opossum (thumb), skunk, cat, dog and fox tracks, where you find them around a house (decks, attics, garbage, ponds), what tracks plus other signs mean, what to do. Sources: state wildlife agencies, university extension, field guides from agencies. Real photos with scale objects where possible.",
+   "dataPacket": null,
+   "metaTitleHint": "Raccoon Tracks: How to Identify Them (Photos)",
+   "pageType": "entity-id",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/animal-tracks-in-snow",
+     "overlap": "lists raccoon tracks among its targets; one FAQ and one card",
+     "resolution": "it keeps snow tracks of many animals and links here for raccoons; this page owns 'raccoon tracks'"
+    },
+    {
+     "path": "/blog/raccoon-poop",
+     "overlap": "other raccoon signs",
+     "resolution": "link both ways"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/blog/animal-tracks-in-snow",
+     "/blog/raccoon-poop"
+    ],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "fox-poop",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "wildlife",
+   "path": "/blog/fox-poop",
+   "keyword": "fox poop",
+   "alsoTargets": [
+    "what does fox poop look like",
+    "fox poop vs raccoon poop",
+    "fox scat",
+    "fox poop vs dog poop",
+    "fox droppings"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1000,
+   "datePublished": "2026-11-19",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "na",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2026-11-19",
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "h1Hint": "Fox Poop: What Fox Droppings Look Like (Photos)",
+   "scope": "What fox droppings look like (size, twisted tapered ends, hair, seeds, berries), red vs gray fox, where foxes leave them (on raised spots, trails, near dens), fox vs coyote, dog, raccoon and cat poop, the smell, health cautions (do not handle; CDC and state agency guidance on roundworm/tapeworm only as sources say), cleanup, what to do. Sources: state wildlife agencies, university extension, CDC.",
+   "dataPacket": null,
+   "metaTitleHint": "Fox Poop: What It Looks Like (Photos)",
+   "pageType": "entity-id",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/coyote-poop",
+     "overlap": "an H3 on fox vs coyote poop",
+     "resolution": "it keeps coyote poop; link both ways"
+    },
+    {
+     "path": "/blog/animal-droppings",
+     "overlap": "mentions fox once",
+     "resolution": "the hub links here"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/blog/animal-droppings",
+     "/blog/coyote-poop",
+     "/blog/raccoon-poop"
+    ],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "skunk-poop",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "wildlife",
+   "path": "/blog/skunk-poop",
+   "keyword": "skunk poop",
+   "alsoTargets": [
+    "what does skunk poop look like",
+    "skunk poop vs raccoon poop",
+    "skunk droppings",
+    "skunk scat"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1000,
+   "datePublished": "2026-11-19",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "na",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2026-11-19",
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "h1Hint": "Skunk Poop: What Skunk Droppings Look Like (Photos)",
+   "scope": "What skunk droppings look like (size, blunt ends, insect parts and seeds), where skunks leave them (under decks and sheds, along fences, lawn digging nearby), skunk vs raccoon, cat, opossum and fox poop, the other signs of a skunk (smell, holes in the lawn, tracks), health cautions only as CDC and state agencies say them, what to do. Sources: state wildlife agencies, university extension, CDC. If fewer than 4 good, credibly identified skunk scat photos exist, report it before writing.",
+   "dataPacket": null,
+   "metaTitleHint": "Skunk Poop: What It Looks Like (Photos)",
+   "pageType": "entity-id",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/raccoon-poop",
+     "overlap": "raccoon poop vs skunk poop",
+     "resolution": "link both ways"
+    },
+    {
+     "path": "/blog/skunk-smell-in-house",
+     "overlap": "other skunk signs",
+     "resolution": "it keeps the smell; link both ways"
+    },
+    {
+     "path": "/blog/animal-droppings",
+     "overlap": "the hub",
+     "resolution": "the hub links here"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/blog/animal-droppings",
+     "/blog/raccoon-poop",
+     "/blog/skunk-smell-in-house"
+    ],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "cockroach-nest",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "cockroaches",
+   "path": "/blog/cockroach-nest",
+   "keyword": "what does a roach nest look like",
+   "alsoTargets": [
+    "cockroach nest",
+    "roach nest in wall",
+    "roach nest behind fridge",
+    "cockroach nest pictures",
+    "where do cockroaches nest"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1100,
+   "datePublished": "2026-11-19",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "na",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2026-11-19",
+   "parent": {
+    "href": "/learn/cockroaches",
+    "name": "Cockroaches"
+   },
+   "h1Hint": "What Does a Roach Nest Look Like? Where Cockroaches Hide (Photos)",
+   "scope": "Cockroaches do not build nests: they gather in harbourages. What a roach 'nest' looks like (clusters of roaches of all sizes, droppings like pepper or coffee grounds, smear marks, shed skins, egg cases, a musty smell), where each species hides (German: kitchens and bathrooms, behind fridges, under sinks, in cabinet hinges and appliances; American and Oriental: basements, drains, crawl spaces), how to find one with a flashlight, what it tells you about the size of the problem, and what to do. Sources: university extension (UC IPM, Purdue, Texas A&M, NC State), EPA. Real photos only.",
+   "dataPacket": null,
+   "metaTitleHint": "What Does a Roach Nest Look Like? (Photos)",
+   "pageType": "entity-id",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/signs-of-cockroaches",
+     "overlap": "the same evidence (droppings, egg cases, shed skins, smell)",
+     "resolution": "it keeps 'signs of cockroaches'; this page owns 'roach nest' (what a harbourage looks like and where to find it); link both ways"
+    },
+    {
+     "path": "/blog/cockroach-eggs",
+     "overlap": "egg cases",
+     "resolution": "link"
+    },
+    {
+     "path": "/blog/cockroach-droppings",
+     "overlap": "droppings",
+     "resolution": "link"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/cockroaches",
+     "/blog/signs-of-cockroaches",
+     "/blog/cockroach-eggs"
+    ],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "baby-spiders",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "spiders",
+   "path": "/blog/baby-spiders",
+   "keyword": "baby spiders",
+   "alsoTargets": [
+    "what do baby spiders look like",
+    "baby spiders in house",
+    "tiny spiders in house",
+    "baby wolf spiders",
+    "baby black widow"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1100,
+   "datePublished": "2026-11-19",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "na",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2026-11-19",
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "h1Hint": "Baby Spiders: What They Look Like and Why They Are in Your House (Photos)",
+   "scope": "What spiderlings look like (tiny copies of adults, pale at first; many hatch from one sac), why a cluster of baby spiders appears in a house or car (an egg sac hatched), ballooning, the common ones (garden orb weaver balls, wolf spider young on the mother's back, house spider young near webs), baby black widows and brown recluses (how they differ from adults; only as sources say), whether they bite, what to do (vacuum, find the sac). Sources: university extension (Penn State, UC IPM, Kentucky, Missouri), museums. Real photos only.",
+   "dataPacket": null,
+   "metaTitleHint": "Baby Spiders: What They Look Like (Photos)",
+   "pageType": "entity-id",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/spider-egg-sacs",
+     "overlap": "two FAQs on hatchlings",
+     "resolution": "it keeps egg sacs; link both ways"
+    },
+    {
+     "path": "/blog/wolf-spiders",
+     "overlap": "a photo of a mother with spiderlings",
+     "resolution": "link"
+    },
+    {
+     "path": "/blog/house-spiders",
+     "overlap": "house spiders",
+     "resolution": "link"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/blog/spider-egg-sacs",
+     "/blog/wolf-spiders",
+     "/blog/house-spiders"
+    ],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "types-of-spider-webs",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "spiders",
+   "path": "/blog/types-of-spider-webs",
+   "keyword": "types of spider webs",
+   "alsoTargets": [
+    "what kind of spider web is this",
+    "spider web identification",
+    "types of spider webs in house",
+    "funnel web",
+    "cobweb spider"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1100,
+   "datePublished": "2026-11-19",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "na",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2026-11-19",
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "h1Hint": "Types of Spider Webs: Identify the Spider by Its Web (Photos)",
+   "scope": "Identify the spider from its web: orb webs (orb weavers), funnel webs (grass spiders and funnel weavers), cobwebs / tangle webs (house spiders, widows), sheet webs (sheet weavers), irregular messy webs in corners (cellar spiders), lacy webs, no web at all (wolf, jumping, recluse hunters). Where each is found in and around a house, what the web says about whether the spider is a concern, cobwebs vs active webs, and look-alikes (webworm tents, tent caterpillars, mites). Sources: university extension and museums. Real photos only.",
+   "dataPacket": null,
+   "metaTitleHint": "Types of Spider Webs (With Photos)",
+   "pageType": "entity-id",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/house-spiders",
+     "overlap": "house spider webs in captions",
+     "resolution": "link both ways"
+    },
+    {
+     "path": "/blog/orb-weaver-spiders",
+     "overlap": "orb webs",
+     "resolution": "link both ways"
+    },
+    {
+     "path": "/blog/daddy-long-legs",
+     "overlap": "cellar spider webs",
+     "resolution": "link"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/blog/house-spiders",
+     "/blog/orb-weaver-spiders",
+     "/tools/spider-identifier"
+    ],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "signs-of-silverfish",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "household",
+   "path": "/blog/signs-of-silverfish",
+   "keyword": "signs of silverfish",
+   "alsoTargets": [
+    "silverfish droppings",
+    "silverfish damage",
+    "silverfish poop",
+    "signs of silverfish infestation",
+    "silverfish damage to books"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1100,
+   "datePublished": "2026-11-19",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "na",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2026-11-19",
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "h1Hint": "Signs of Silverfish: Droppings, Damage and Yellow Stains (Photos)",
+   "scope": "The signs of silverfish: the insects themselves (adults, nymphs), droppings (tiny black pepper-like pellets), feeding damage (irregular holes and surface grazing on paper, book bindings, wallpaper, photos, cotton, linen, rayon, cereal boxes), yellow stains, shed scales and skins, where to look (bathrooms, basements, attics, bookshelves, closets), silverfish vs firebrats, damage that looks similar (carpet beetles, clothes moths, booklice), what the signs mean and what to do. Sources: university extension (UC IPM, Penn State, Kentucky, NC State, Texas A&M). If fewer than 4 good photos of the signs exist, report it before writing.",
+   "dataPacket": null,
+   "metaTitleHint": "Signs of Silverfish (Photos)",
+   "pageType": "entity-id",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/how-to-get-rid-of-silverfish",
+     "overlap": "one damage H2",
+     "resolution": "it keeps control; this page owns the signs; link both ways"
+    },
+    {
+     "path": "/blog/baby-silverfish",
+     "overlap": "nymphs",
+     "resolution": "link"
+    },
+    {
+     "path": "/blog/bugs-that-look-like-silverfish",
+     "overlap": "look-alikes",
+     "resolution": "link"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/blog/how-to-get-rid-of-silverfish",
+     "/blog/baby-silverfish",
+     "/blog/bugs-that-look-like-silverfish"
     ],
     "neighbors": [],
     "minNeighbors": 0,

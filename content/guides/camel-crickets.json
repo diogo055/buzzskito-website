@@ -71,6 +71,7 @@
 
     { "type": "h2", "text": "How is a camel cricket different from a house or field cricket?" },
     { "type": "p", "text": "Look for the hump and the wings, and listen. [University of Maryland Extension's cricket page](https://extension.umd.edu/resource/crickets) says that of the three crickets that commonly get into homes, only house and field crickets sing, the males rubbing an edge at the base of one front wing along a file-like ridge under the other. NC State says indoor chirping most likely comes from field crickets; a camel cricket has no wings and no sound-producing organs." },
+    { "type": "diagram", "src": "/diagrams/camel-cricket-vs-house-cricket.svg", "width": 720, "height": 690, "alt": "Side views of a camel cricket, a house cricket, a field cricket and a Jerusalem cricket drawn to the same inch scale, with the size and the identifying features of each", "caption": "Four crickets at the same scale. The camel cricket is humped and wingless and never chirps; house and field crickets have wings and chirp; the Jerusalem cricket is the big one with the round, bald head." },
     { "type": "ul", "items": [
       "**House cricket:** 3/4 to 7/8 inch, light yellowish brown with three dark bands on the head; especially fond of warmth but found in any part of the home, Maryland says.",
       "**Field cricket:** robust and black, 1/2 to 1 1/4 inches, usually on lower floors and in the basement.",

@@ -10,6 +10,8 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'mosquito-facts'
 const DATE = '2026-07-12'
@@ -91,6 +93,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('aedes-aegypti-pupae-adult-emerging'),
 })
 
 const AMZ_TAG = tagForSlug('mosquito-facts')
@@ -98,7 +101,7 @@ const AMZ_TAG = tagForSlug('mosquito-facts')
 export default function MosquitoFactsPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Fast, sourced answers to common mosquito questions — lifespan, sleep, biting, diet, and light attraction.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Fast, sourced answers to common mosquito questions — lifespan, sleep, biting, diet, and light attraction.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('aedes-aegypti-pupae-adult-emerging') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Mosquito Facts', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -174,19 +177,23 @@ export default function MosquitoFactsPage() {
 
           <h2>How Long Do Mosquitoes Live?</h2>
           <p>A mosquito&rsquo;s life has four stages — egg, larva, pupa, and adult — and the whole cycle from egg to biting adult can take as little as 8 to 10 days in warm weather. As adults, most mosquitoes live <strong>2 to 4 weeks</strong>. Females generally outlive males, who often survive only about a week after mating. The big exception in Ontario is <em>Culex pipiens</em>: fertilized females can hibernate through winter in sheds, culverts, and basements, effectively living for many months and re-emerging in spring to start the season&rsquo;s first generation.</p>
+          <Photo id="aedes-aegypti-pupae-adult-emerging" alt="Mosquito pupae hanging below the water surface with an adult mosquito emerging above them" caption="Four yellow fever mosquito pupae suspended below the surface of standing water, with an adult mosquito emerging above them (CDC photograph). Egg, larva, pupa, adult: the whole cycle can take as little as 8 to 10 days in warm weather." />
 
           <h2>Do Mosquitoes Sleep?</h2>
           <p>Not in the human sense — mosquitoes have no eyelids and do not enter true sleep. But they absolutely <strong>rest</strong>. In the middle of a hot, dry day, most mosquitoes tuck into cool, humid hideouts: tall grass, dense shrubs, leaf litter, and the shaded sides of buildings. Activity peaks depend on species. <strong>Aedes</strong> mosquitoes are daytime biters that surge at dawn and dusk, while <strong>Culex</strong> mosquitoes come out to feed after dark. Between those windows they idle in a low-energy resting state.</p>
 
           <h2>Do Male Mosquitoes Bite?</h2>
           <p>No — and this is one of the most useful facts to know. <strong>Only female mosquitoes bite.</strong> Males lack the needle-like mouthparts (the fascicle) required to pierce skin and draw blood. Instead, males spend their short lives feeding on nectar and looking for females to mate with. When people talk about mosquito bites, itching, and disease risk, they are always talking about females. For a deeper comparison of how the two differ in size, behaviour, and biting, see our guide on the <Link href="/blog/male-vs-female-mosquito">difference between male and female mosquitoes</Link>.</p>
+          <Photo id="aedes-aegypti-male-on-flower" alt="Male mosquito with feathery antennae resting on a pink flower petal" caption="A male yellow fever mosquito resting on a pink flower (CDC photograph). Only females bite; males feed on nectar." />
 
           <h2>Why Do Mosquitoes Need Blood?</h2>
           <p>Here is the key misconception, corrected: female mosquitoes do not drink blood for nourishment. They drink it to <strong>reproduce</strong>. A blood meal delivers the concentrated protein, amino acids, and iron a female needs to build a batch of 100 to 300 eggs. Nectar keeps her alive and flying; blood turns into offspring. After a bite she rests for a couple of days while the eggs develop, then seeks out standing water to lay them — and often repeats the cycle several times.</p>
+          <Photo id="aedes-aegypti-female-feeding" alt="Female mosquito biting human skin, her abdomen starting to fill with blood" caption="A female yellow fever mosquito taking a blood meal from a person, her abdomen beginning to turn red (CDC photograph). Females take blood to develop eggs, not as food." />
           <p>Two follow-on questions fall out of that cycle, and both have a counter-intuitive answer. A mosquito does not die after biting you &mdash; that is the honeybee, whose barbed stinger tears out &mdash; and one interrupted female can leave several welts in a single evening rather than a single tidy bump. We settle both in our explainer on <Link href="/blog/how-many-times-can-a-mosquito-bite-you">whether a mosquito dies after it bites you</Link>.</p>
 
           <h2>What Do Mosquitoes Eat?</h2>
           <p>The everyday mosquito diet is <strong>plant sugar</strong>. Both males and females sip flower nectar, tree sap, and honeydew — sugar is the fuel for their whirring flight. Their larvae, which live in water, filter-feed on algae, bacteria, and organic debris. Blood is not food and it is not the diet; it is a reproductive supplement that only females take, and only when they are ready to make eggs. That distinction — nectar for living, blood for eggs — explains almost everything mosquitoes do.</p>
+          <Photo id="aedes-albopictus-goldenrod" alt="Asian tiger mosquito with black and white striped legs on yellow goldenrod flowers" caption="A female Asian tiger mosquito on sweet goldenrod flowers; the photographer says it appeared to be feeding on nectar (The Plains, Ohio). Both males and females feed on plant sugar." />
 
           <h2>Are Mosquitoes Attracted to Light?</h2>
           <p>Only mildly. Mosquitoes react to light, but they are far more powerfully drawn to the signals that mean &ldquo;host nearby&rdquo;: the <strong>carbon dioxide (CO2)</strong> in your breath, radiant body heat, humidity, and skin chemicals such as <strong>lactic acid</strong> and octenol. This is why UV bug zappers are poor mosquito control — they mostly electrocute harmless moths and beetles — while CO2-baited traps and repellents that mask your scent (DEET, picaridin/icaridin, oil of lemon eucalyptus) actually work. It also explains why some people get bitten more than others: it comes down to the chemistry and CO2 you emit, not the porch light.</p>
@@ -217,6 +224,7 @@ export default function MosquitoFactsPage() {
           <NextUp path="/blog/mosquito-facts" />
           <h2>The One Fact That Matters Most</h2>
           <p>Of every fact on this page, one is worth acting on: mosquitoes cannot complete their life cycle without <strong>standing water</strong>, and container-breeding Aedes need barely a bottle cap&rsquo;s worth. Empty and scrub anything that holds water weekly — plant saucers, clogged gutters, tarps, toys, birdbaths — and you break the cycle before adults ever take flight. Pair that with a barrier treatment of the shaded areas where adults rest, and you address both ends of the mosquito&rsquo;s life at once.</p>
+          <Photo id="mosquito-larvae-discarded-bottle-cap" alt="Mosquito larvae in rainwater inside a discarded plastic bottle cap beside a crushed bottle" caption="Yellow fever mosquito larvae in the water of a discarded plastic bottle cap (CDC photograph). Container-breeding Aedes need barely a bottle cap's worth of standing water." />
 
           <h2>Mosquitoes in the United States: Species, Season and Who Tracks Them</h2>
           <p>More than 200 types of mosquitoes live in the continental United States and US territories, and about 12 of them spread germs that can make people sick, according to the <a href="https://www.cdc.gov/mosquitoes/about/about-mosquitoes-in-the-united-states.html" target="_blank" rel="noopener noreferrer">CDC&rsquo;s overview of mosquitoes in the United States</a>. It names three groups as the most common germ spreaders:</p>

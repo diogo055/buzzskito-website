@@ -5,6 +5,8 @@ import { buildMetadata, breadcrumbSchema, speakableSchema, faqSchema } from '@/l
 import { SITE_URL, PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'how-to-combat-mosquitoes'
 const TITLE = 'How to Combat Mosquitoes in Ontario — 10-Step Backyard Guide'
@@ -63,6 +65,7 @@ export const metadata: Metadata = buildMetadata({
   description: 'A practical 10-step guide to combating mosquitoes in your Ontario backyard: eliminate standing water, larvicide treatment, habitat reduction, repellent, barrier spray, and season-long maintenance.',
   canonical: `/learn/${SLUG}`,
   type: 'article',
+  image: shareImage('aedes-aegypti-larvae-at-surface'),
 })
 
 export default function HowToCombatMosquitoesPage() {
@@ -94,6 +97,8 @@ export default function HowToCombatMosquitoesPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <p>Mosquitoes are relentless in the Greater Toronto Area because their life cycle is so fast — a single warm, rainy week can rebuild a population from scratch. Winning back your yard is not about one silver bullet; it is about layering the ten steps below so you hit mosquitoes at every stage: the eggs and larvae in standing water, and the biting adults resting on your vegetation. Work through them in order for the biggest impact. For the science behind why this works, see the <Link href="/learn/mosquito-life-cycle">mosquito life cycle</Link>.</p>
+          <Photo id="aedes-aegypti-larvae-at-surface" alt="Three mosquito larvae hanging at the surface of standing water" caption="Three yellow fever mosquito larvae (Aedes aegypti) hanging at the surface of standing water (CDC photograph). Larvae need standing water to develop, and as little as a bottle cap of water is enough." />
+          <Photo id="aedes-resting-under-leaf" alt="Female mosquito resting on the underside of a leaf, backlit" caption="A female mosquito, identified on iNaturalist as an Aedes, resting on the underside of a leaf, photographed in New South Wales, Australia. Adult mosquitoes rest in shaded vegetation, which is where a barrier spray is applied." />
 
           <h2>The 10-Step Mosquito Combat Plan</h2>
           <ol className="not-prose space-y-5 my-6">
@@ -111,6 +116,7 @@ export default function HowToCombatMosquitoesPage() {
           <NextUp path="/learn/how-to-combat-mosquitoes" />
           <h2>Why This Order Matters</h2>
           <p>Steps 1 through 5 are <strong>source reduction</strong> — they stop mosquitoes from being born on your property in the first place. This is the foundation, and it is free. Steps 6 through 8 are <strong>personal and area protection</strong> for the spaces where your family actually gathers. Step 9, professional <Link href="/mosquito-control">barrier spray</Link>, is the force multiplier: it treats the vegetation where adult mosquitoes rest, leaving a residue on those surfaces between your weekly water checks. Step 10 ties it together — because nothing you do holds unless it is repeated across the full May-to-September season.</p>
+          <Photo id="culex-quinquefasciatus-pupae" alt="Two mosquito pupae floating in standing water" caption="Two southern house mosquito pupae (Culex quinquefasciatus) floating in standing water (CDC photograph). Emptying standing water once a week removes entire future generations." />
           <p>Homeowners who try only one tactic — just spraying, or just dumping water — usually see the problem creep back within two weeks. The layered approach is what produces a yard you can genuinely enjoy at dusk. Go deeper in our <Link href="/blog/how-to-get-rid-of-mosquitoes-in-yard-ontario">how to get rid of mosquitoes in your yard</Link> guide and the comprehensive <Link href="/blog/ultimate-backyard-mosquito-control-guide">ultimate backyard mosquito control guide</Link>.</p>
 
           <h2>Common Mistakes to Avoid</h2>
@@ -120,6 +126,7 @@ export default function HowToCombatMosquitoesPage() {
             <li><strong>Treating once and stopping.</strong> The 8-14 day cycle means one-and-done never lasts. Consistency beats intensity.</li>
             <li><strong>Ignoring dawn and dusk.</strong> Mosquitoes are most active at these hours — read <Link href="/blog/when-are-mosquitoes-most-active">when mosquitoes are most active</Link> and plan protection accordingly.</li>
           </ul>
+          <Photo id="culex-quinquefasciatus-female-on-skin-side" alt="Female southern house mosquito resting on a person's skin, side view" caption="A female southern house mosquito (Culex quinquefasciatus) resting on a person's skin before taking her blood meal (CDC photograph). Mosquitoes are most active at dawn and dusk." />
 
           <h2>Keep Learning</h2>
           <ul>

@@ -2,7 +2,7 @@
  "id": "what-do-bed-bugs-look-like",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "ce4a52998590b9dff6121f37b64abdf7abcdaa01dd15a9bff316e767ff4575f0",
+ "sha": "5c81c539bc507ffe80dce34d56d7af0a6ffe15a9abae69107410e833343ddd02",
  "claimsChecked": 74,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 8,
@@ -36,6 +36,11 @@
    "on": "2026-10-29",
    "note": "Oct 28: one link to /blog/bed-bug-eggs (new page); no fact changed",
    "previousSha": "8640b192a71ac62d3501c140cd4256f006f8105eac8cf59a227f724a9bc20448"
+  },
+  {
+   "on": "2026-11-19",
+   "note": "Nov 19, 2026: added one original BuzzSkito diagram (/diagrams/bed-bug-life-stages-size-chart.svg, CC BY 4.0) after the first paragraph of an existing section; sizes from EPA/CDC/university extension sources listed in the diagram itself. No text changed.",
+   "previousSha": "ce4a52998590b9dff6121f37b64abdf7abcdaa01dd15a9bff316e767ff4575f0"
   }
  ]
 }

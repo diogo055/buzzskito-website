@@ -29,7 +29,7 @@ for (const f of readdirSync(join(ROOT, 'content', 'guides')).filter((n) => n.end
   const path = `/${g.section || (g.kind === 'pillar' ? 'learn' : 'blog')}/${g.slug}`
   if (heroes[path]) add(path, heroes[path].src)
   for (const b of g.body || []) {
-    if (b.type === 'figure') add(path, b.src)
+    if (b.type === 'figure' || b.type === 'diagram') add(path, b.src)
     if (b.type === 'confused') for (const c of b.items || b.cards || []) if (c.photo && byId.has(c.photo)) add(path, byId.get(c.photo))
   }
 }

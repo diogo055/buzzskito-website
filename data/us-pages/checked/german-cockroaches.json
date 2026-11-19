@@ -2,7 +2,7 @@
  "id": "german-cockroaches",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "77d93cb059d7a43d02e8787a896e47de5a94813b9da8ffc17678e651b24f9c42",
+ "sha": "b0e5acc101651f74e57823ddfc4f512f054d219db341890a4558359612588243",
  "claimsChecked": 288,
  "claimsCorrected": 16,
  "claimsRemovedOrSoftened": 5,
@@ -12,6 +12,11 @@
    "on": "2026-11-10",
    "note": "Nov 10, 2026: the owner confirmed he read the rebuilt page (\"They were all reviewed by me\"): reviewedBy Alex Francisco, reviewedOn 2026-11-10 added; no claim changed.",
    "previousSha": "7cbb04d6a671d3d49752b76982b77eb55ff35698b6822c65a2f8235da5f7e6d8"
+  },
+  {
+   "on": "2026-11-19",
+   "note": "Nov 19, 2026: one internal link (pointer sentence or card href) added to a new page written Nov 19 (planned; shows as text until released). No facts changed.",
+   "previousSha": "77d93cb059d7a43d02e8787a896e47de5a94813b9da8ffc17678e651b24f9c42"
   }
  ]
 }

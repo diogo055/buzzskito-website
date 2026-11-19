@@ -2,7 +2,7 @@
  "id": "what-kills-ticks-on-dogs-instantly",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "dabb6d671744fb4dc4c599697c476f3c2165d5e6095cbe815456ebc500b44b4a",
+ "sha": "a6d7ce5051e9ac99fa6cc79dcd2eda1b64b266315a81a1337d65f6bce4884ea6",
  "claimsChecked": 96,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 8,
@@ -10,5 +10,12 @@
  "linksAddedOn": "2026-10-11",
  "linksAdded": [
   "/learn/pet-safe-pest-control"
+ ],
+ "amendments": [
+  {
+   "on": "2026-11-19",
+   "note": "Nov 19, 2026: first real photos added (figure blocks only, ledger-recorded and licence-checked: public domain, CC0 or CC BY); no text or dates changed.",
+   "previousSha": "dabb6d671744fb4dc4c599697c476f3c2165d5e6095cbe815456ebc500b44b4a"
+  }
  ]
 }

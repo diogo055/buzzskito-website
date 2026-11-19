@@ -1,0 +1,224 @@
+{
+  "slug": "types-of-spider-webs",
+  "kind": "spoke",
+  "cluster": "spiders",
+  "keyword": "types of spider webs",
+  "alsoTargets": [
+    "what kind of spider web is this",
+    "spider web identification",
+    "types of spider webs in house",
+    "funnel web",
+    "cobweb spider"
+  ],
+  "metaTitle": "Types of Spider Webs: ID the Spider (Photos)",
+  "metaDescription": "Orb, funnel, cobweb, sheet or no web at all: match a web's shape and where it hangs to the spider that built it, with real photos and the look-alikes.",
+  "h1": "Types of Spider Webs: How to Identify the Spider by Its Web",
+  "dek": "Wheel, funnel, tangle, sheet or woolly patch: a web's shape and where it hangs point to the spider that built it. Real photos of each web where you find it, indoors and out, plus the silk that is not a spider's.",
+  "breadcrumb": "Types of Spider Webs",
+  "excerpt": "Orb, funnel, cobweb, sheet or no web at all: identify the spider by its web, with photos of each type and the caterpillar tents and mite webbing mistaken for webs.",
+  "datePublished": "2026-11-19",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Read the shape first: a flat wheel of spokes and spirals is an orb weaver's, a sheet narrowing into a tunnel is a funnel weaver's, a messy three-dimensional tangle is a cobweb or cellar spider's, and a sheet or dome without a tunnel is a sheetweb weaver's.** Where it hangs narrows it further; [the Missouri Department of Conservation](https://mdc.mo.gov/sites/default/files/2026-08/A%20Guide%20to%20Missouri%27s%20Common%20Spiders_508.pdf) calls the web a helpful first step in identifying the spider.",
+    "bullets": [
+      "Orb web: a black-and-yellow garden spider's can reach about 2 feet across, with a zigzag band of silk down the middle, MDC says.",
+      "Funnel web: a grass spider's sheet is usually smaller but can be up to 3 feet wide, with a funnel more than a foot long, according to [MDC's grass spider guide](https://mdc.mo.gov/discover-nature/field-guide/grass-spiders).",
+      "Cobweb: [UC IPM](https://ipm.ucanr.edu/home-and-landscape/widow-spiders-and-their-relatives/) says black widow webs are usually within 3 feet of the ground and that black and brown widows are almost never found in homes.",
+      "Cellar spider web: [Clemson Extension](https://hgic.clemson.edu/factsheet/cellar-spiders/) says cellar spiders do not eat their old webs, as many spiders do, but keep adding silk, so the webbing piles up.",
+      "Dusty web: indoors, a web coated in dust is an old one that no spider is using, according to [UC IPM's guide to spiders](https://ipm.ucanr.edu/home-and-landscape/spiders/).",
+      "No web: only about one-third of Missouri's spider species build webs to catch prey, MDC says; wolf, jumping and recluse spiders hunt instead."
+    ]
+  },
+  "facts": {
+    "title": "Spider webs: quick ID",
+    "head": ["Web", "What it looks like", "Who built it", "Where you see it"],
+    "rows": [
+      ["Orb web", "A flat wheel: spokes from a central hub, crossed by a spiral", "Orb weavers, such as garden spiders", "Gardens, porches, sheds and doorways, often near lights"],
+      ["Funnel web", "A broad, nonsticky sheet that narrows into a tunnel at one side", "Grass spiders and other funnel weavers", "Lawns, ground covers, shrubs, crevices against buildings"],
+      ["Indoor funnel web", "A sheet with a funnel retreat tucked into a recess", "Barn funnel weaver", "Dark corners near the floor"],
+      ["Cobweb (tangle web)", "A messy, three-dimensional tangle of sticky threads", "Cobweb spiders, such as the common house spider", "Room corners, windows, garages, cabins"],
+      ["Black widow web", "An irregular, untidy tangle of very strong silk", "Black widows", "Usually within 3 feet of the ground: woodpiles, rock piles, garages, sheds"],
+      ["Cellar spider web", "A loose, haphazard web that keeps growing", "Cellar spiders", "Basements and garages, near the ceiling"],
+      ["Bowl and doily web", "A bowl of tangled silk above a flat sheet", "Bowl and doily spider", "Tops of plant stems and bare branches"],
+      ["Filmy dome web", "A delicate dome over a flat sheet, sometimes over 12 inches across", "Filmy dome spider", "Woodland shrubs, fallen logs, shaded rocks"],
+      ["Woolly crevice web", "Flat, tangled, woolly silk spread around a crack", "Southern house spider (female)", "Windowsills, shutters and masonry in the South"],
+      ["Silk sac or tube, no catching web", "A small pouch or tube of silk", "Sac spiders; recluses spin silk retreats too", "Wall and ceiling corners, under objects, boxes"],
+      ["No web at all", "Nothing: the spider hunts", "Wolf, jumping and crab spiders", "Floors, outside walls, flowers"],
+      ["Dusty cobweb", "Gray strands coated in dust", "An old web no spider is using", "Between walls and objects indoors"]
+    ],
+    "caption": "From MDC's spider guide and grass spider field guide, UC IPM, the University of Kentucky, Penn State, Clemson, the University of Florida, Colorado State and Oregon State, each linked in the sections below."
+  },
+  "body": [
+    { "type": "h2", "text": "What kind of spider web is this?" },
+    { "type": "p", "text": "Start with the shape, then note where the web hangs and where the spider sits in it. [The Missouri Department of Conservation's (MDC) guide to Missouri's common spiders](https://mdc.mo.gov/sites/default/files/2026-08/A%20Guide%20to%20Missouri%27s%20Common%20Spiders_508.pdf) says a web is often the first sign a spider is present, that its shape and structure give important clues to the kind of spider that made it, and that noting where a spider is, whether it is in a web and what kind of web can help narrow down the species." },
+    { "type": "figure", "src": "/guides/photos/orb-web-dew-forest-edge.webp", "width": 1200, "height": 800, "alt": "Dew-covered orb spider web strung between bare twigs at a foggy forest edge, showing the central hub, straight spokes and tight spiral of silk", "caption": "An orb web picked out by heavy morning dew at a forest edge in St. Louis County, Minnesota (USFWS photo). Look for the spokes running out from a central hub and the spiral laid across them.", "license": "public-domain", "credit": "U.S. Fish and Wildlife Service - Midwest Region, Public domain, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spider_web_(54778634575).jpg" },
+    { "type": "p", "text": "A web usually narrows the list to a family or group, not always to a species. MDC splits spiders into web builders and hunters and sorts the builders by web: the wheel-shaped orb webs of orb weavers, the messy, tangled cobwebs of cobweb spiders, and the sheetlike webs of funnel weavers and sheet weavers. Only about one-third of Missouri's spider species build webs to catch prey; the rest hunt, so many spiders you meet will have no web at all." },
+    { "type": "checklist", "title": "Checks to run at the web", "items": [
+      "**Shape.** A flat wheel of spokes and spirals, a sheet that narrows into a tunnel, a messy tangle, a bowl or dome over a flat sheet, a woolly patch around a crack, or just a small silk pouch.",
+      "**Height and setting.** Texas A&M AgriLife says orb weavers often build in insect flight paths; MDC says grass spiders build their funnel webs close to the ground; UC IPM says black widow webs are usually within 3 feet of the ground.",
+      "**Where the spider sits.** At the hub or in a shelter at the edge of an orb web, in the mouth of a funnel, upside down in a cobweb or cellar spider web, or upside down beneath a sheet, bowl or dome.",
+      "**No web.** A spider running across the floor or pouncing on a wall is a hunter; run it through the [spider identifier](/tools/spider-identifier) instead."
+    ] },
+
+    { "type": "h2", "text": "What spider makes a round web with spokes?" },
+    { "type": "p", "text": "An orb weaver. MDC describes the orb web as spokelike strands radiating from a central hub, joined by spiral threads that run out toward the edges, and [the University of Kentucky's urban spider chart](https://entomology.mgcafe.uky.edu/spider-chart) says no other common Kentucky spider makes an organized, circular, grid-like web. [UC IPM's guide to spiders](https://ipm.ucanr.edu/home-and-landscape/spiders/) counts about 200 orb weaver species in North America and says the spider rests at the center of its web or hides in a shelter near the edge, waiting for prey to become entangled." },
+    { "type": "p", "text": "Kentucky's chart finds orb weavers commonly on porches and in gardens, especially in late summer, and almost always in their webs; now and then one wanders indoors and builds in a doorway or windowsill. Two details help with the species. MDC says the black-and-yellow garden spider's web can reach 2 feet across, with the spider head-down at the center and a zigzag band of silk, the stabilimentum, running down the middle, and that the furrow orbweaver's spiral circles are more widely spaced than those of many other orb weavers." },
+    { "type": "p", "text": "Many orb weavers build at night, so their webs can seem to appear overnight. MDC says the arboreal orbweaver builds its web after dusk, eats most of it at dawn to recycle the silk, and often rests by day under a leaf or other shelter at the end of a strong bridge line it leaves in place. It turns up on porches and sheds, especially near lights, and is most noticeable in late summer and early fall. Not every orb web is upright, either: MDC says longjawed orbweavers build horizontal orb webs on low plants and docks over water, and featherlegged orbweavers build theirs horizontally close to the ground. The [orb weaver guide](/blog/orb-weaver-spiders) shows the garden spiders, the banana spider and the other species found around houses." },
+
+    { "type": "h2", "text": "What spider makes a funnel web?" },
+    { "type": "p", "text": "A funnel weaver, most often a grass spider outdoors. [Penn State Extension's grass spider page](https://extension.psu.edu/grass-spiders) describes a large, somewhat concave, mostly horizontal sheet with a funnel or tunnel off to one side, which serves both as a platform for catching prey and as a retreat where the spider hides. The sheet is not sticky: [MDC's grass spider guide](https://mdc.mo.gov/discover-nature/field-guide/grass-spiders) says insects' feet get caught in its meshlike strands, and that a frightened spider dashes into the funnel." },
+    { "type": "figure", "src": "/guides/photos/funnel-weaver-web-leaf.webp", "width": 1200, "height": 888, "alt": "Funnel spider web on a green leaf: a sheet of fine silk narrowing into a white silk tube, with a brown spider waiting inside the tube", "caption": "A funnel web on a leaf, with the spider waiting inside its silk tube (USFWS photo; the source does not name the species). The sheet in front is where prey lands; the tube is the spider's retreat.", "license": "public-domain", "credit": "U.S. Fish and Wildlife Service - Midwest Region, Public domain, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Funnel_Web_Spider_(14465564710).jpg" },
+    { "type": "p", "text": "Penn State finds grass spider webs on lawns, weeds and ground covers such as ivy, pachysandra and periwinkle, and on fencerows, bushes and brush piles; MDC adds that grass spiders often build along crevices against buildings. MDC says the sheet is typically smaller but may be up to 3 feet wide, with the funnel more than a foot long, that many webs are often found together in one area, like a colony, and that they are especially conspicuous in the morning when covered with dew." },
+    { "type": "p", "text": "Indoors, a funnel web in a dark corner near the floor may be a barn funnel weaver's. [Colorado State University's barn funnel weaver fact sheet](https://webdoc.agsci.colostate.edu/bspm/InsectInformation/FactSheets/BarnFunnel.pdf) calls it an extremely common resident of homes that usually builds in dark corners near the floor, describes a horizontal sheet with a narrow funnel retreat in one corner, often running back into a recess, and says this species breeds in buildings, while grass spiders and their relatives move indoors in late summer and fall but do not breed there." },
+    { "type": "p", "text": "These are not the funnel-web spiders of Australia, a distinction [Texas A&M AgriLife](https://agrilifetoday.tamu.edu/2026/09/22/the-6-different-kinds-of-spider-webs-and-what-they-mean/) draws for the funnel weavers found in the US. Penn State says grass spider bites have been reported to cause pain, swelling, redness and itching, but that very few people are bitten. The [grass spider guide](/blog/grass-spiders) covers the spiders themselves." },
+
+    { "type": "h2", "text": "What spider makes a messy cobweb?" },
+    { "type": "p", "text": "A cobweb spider. MDC describes a cobweb as messy and tangled: an irregular, three-dimensional web of sticky threads crisscrossing in many directions. UC IPM says cobweb spiders are almost always found hanging upside down in these irregular, sticky webs, waiting for prey. MDC places both the common house spider and the black widows in this family, and UC IPM says the false black widow shares the widows' web-making traits." },
+    { "type": "figure", "src": "/guides/photos/common-house-spider-cobweb-window.webp", "width": 1200, "height": 1200, "alt": "Common house spider eating a pale green insect in a tangled cobweb on a window, with two gray, teardrop-shaped egg sacs hanging in the silk", "caption": "A common house spider (Parasteatoda tepidariorum) eating a lacewing in her cobweb at a window in Seattle, with two egg sacs hanging in the web, as the observer describes it. The threads run in every direction, with no hub or spiral.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/15400038" },
+    { "type": "p", "text": "The common house spider's is the cobweb most people meet. [Penn State Extension's common house spider page](https://extension.psu.edu/common-house-spider) says it builds webs in the corners of walls, on floor joists and in windows of houses and barns. MDC finds it at windows of houses, garages and cabins, with grayish-tan, pear-shaped egg sacs in the web, and Kentucky's chart says it is almost never found outside its compact, messy cobweb. Penn State says it is not regarded as medically important. [The guide to common house spiders](/blog/house-spiders) covers the other spiders found indoors." },
+    { "type": "h3", "text": "How do you recognize a black widow's web?" },
+    { "type": "p", "text": "By its setting and strength more than its shape. [UC IPM's guide to widow spiders](https://ipm.ucanr.edu/home-and-landscape/widow-spiders-and-their-relatives/) says a black widow's web has no very recognizable pattern: an irregular, untidy tangle of very strong silk running from a retreat hole, usually within 3 feet of the ground, with the spider in the middle, underside up. In garages, it says, the webs are usually by doors, near vents and in other places insects pass. MDC lists woodpiles, animal burrows, hollow stumps, sheds, garages and crawl spaces, and Kentucky's chart adds piles of rocks and firewood." },
+    { "type": "p", "text": "A cobweb is much more likely to hold a common house spider than a black widow, AgriLife's entomologist says, and UC IPM says black and brown widows are almost never found in homes, though black widows are common in garages. The false black widow is the relative that thrives indoors, UC IPM adds. [The black widow guide](/blog/black-widow-spiders) shows how to check the spider itself." },
+    { "type": "media", "needed": "Photo of a black widow's web in a garage corner or woodpile, low to the ground, with the tangle of strong silk visible as a whole and the spider hanging in it underside up, beside a ruler marked in inches" },
+
+    { "type": "h2", "text": "What makes the loose webs on basement ceilings?" },
+    { "type": "p", "text": "Cellar spiders. [Clemson Extension's cellar spider fact sheet](https://hgic.clemson.edu/factsheet/cellar-spiders/) says they build loose, haphazard webs, often in corners, and hang upside down in them until prey gets tangled, then shake the web hard to entangle it further. MDC finds them in basements, garages and other undisturbed spots, sitting upside down in their cobwebs, often close to the ceiling." },
+    { "type": "figure", "src": "/guides/photos/cellar-spider-in-web.webp", "width": 1200, "height": 904, "alt": "Long-bodied cellar spider with a small tan body and very long, thin legs hanging upside down in a loose web of fine threads", "caption": "A longbodied cellar spider (Pholcus phalangioides) hanging upside down in its loose, irregular web, photographed in England. The threads cross at random, with no hub, sheet or funnel.", "license": "CC-BY-2.0", "credit": "Jon Bunting from UK, CC BY 2.0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Skull_Spider_in_its_web_(9271696030).jpg" },
+    { "type": "p", "text": "Their webbing is what makes them pests. Clemson says many spiders eat their old web before spinning a new one but cellar spiders do not: they keep adding to it, creating large amounts of webbing, and UC IPM says messy cobwebs are the main trouble they cause. [The cellar spider guide](/blog/daddy-long-legs) explains how they differ from harvestmen, the other daddy longlegs, which MDC says produce no silk and build no webs." },
+
+    { "type": "h2", "text": "What spiders make sheet webs and dome webs?" },
+    { "type": "p", "text": "Sheetweb weavers, small spiders that MDC describes resting upside down beneath their silk. Their sheets have no funnel, which sets them apart from a grass spider's. MDC describes three: the scarlet sheetweaver of lawns and fields spins a nonsticky sheet beneath a loose tangle of threads that knock flying insects down onto it; the bowl and doily spider builds a bowl-shaped web above a second flat sheet, the doily, near the tops of loose clusters of leafless plant stems and on bare branches; and the filmy dome spider builds a delicate dome over a flat sheet in woodland shrubs, around fallen logs and on shaded rocks." },
+    { "type": "figure", "src": "/guides/photos/bowl-and-doily-spider-web-dew.webp", "width": 1200, "height": 1600, "alt": "Bowl and doily spider web covered in dew among meadow plants: a white, bowl-shaped tangle of silk hanging above a flatter sheet", "caption": "A bowl-and-doily spider web picked out by dew in a meadow (USFWS photo). Look for the bowl of tangled silk above the flat doily; MDC says the spider rests upside down at the bottom of the bowl.", "license": "public-domain", "credit": "U. S. Fish and Wildlife Service - Northeast Region, Public domain, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bowl-and-Doily_Spider_Web_(51584639382).jpg" },
+    { "type": "p", "text": "MDC says the filmy dome spider's webs can grow to more than 12 inches high and wide, and that a spider may maintain and add to one over several days. UC IPM adds that dwarf spiders, part of the same family, make sheetlike webs on the surface of plants or soil." },
+
+    { "type": "h2", "text": "What is the woolly web around a crack in the wall?" },
+    { "type": "p", "text": "In the South, most likely a female southern house spider's. [The University of Florida's southern house spider profile](https://ask.ifas.ufl.edu/publication/IN301) describes a distinctive flat, tangled web spread over the surface around a sheltered crevice, on windowsills, shutters and overhangs and in the masonry of houses, barns and bridges; under magnification its silk looks woolly. The female hides in the crevice by day and comes out at night to sit on the web; males build no webs and wander in search of females. UF says the species is common throughout Florida and much of the southern US in populated areas, and is not known to have a dangerous bite." },
+    { "type": "figure", "src": "/guides/photos/southern-house-spider-web-brick-wall.webp", "width": 1200, "height": 1600, "alt": "Woolly, cottony spider web radiating over red bricks from a small hole in the mortar, with a southern house spider sitting at the hole", "caption": "A southern house spider (Kukulcania hibernalis), annotated on iNaturalist as an adult female, at a hole in the mortar of a brick wall in Chapel Hill, North Carolina, with her woolly web spread over the bricks around it. Look for cottony threads radiating from one crack.", "license": "CC-BY-4.0", "credit": "(c) Lexi Amico, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/93093791" },
+    { "type": "p", "text": "Smaller woolly webs turn up outdoors too. MDC says the truncated web meshweaver, a small spider of prairies and fields, sits in a delicate web at the tips of twigs and plant stems, and that because it spins from a platelike organ called a cribellum as well as its spinnerets, its web has a woolly, hackled look reminiscent of cotton candy. [The southern house spider guide](/blog/southern-house-spider) has photos of the female at her web and of the wandering male." },
+
+    { "type": "h2", "text": "Which spiders don't build webs?" },
+    { "type": "p", "text": "The hunters. MDC says ghost, jumping and wolf spiders rely on speed and eyesight to stalk and pounce on prey, while crab spiders wait in ambush, and Kentucky's chart says wolf, jumping and crab spiders and woodlouse hunters are not web builders. It adds that wolf and jumping spiders often wander into homes, so a spider running across the floor with no web nearby is probably one of the hunters." },
+    { "type": "p", "text": "Two hunters leave silk you may find. Sac spiders hide by day in silk tubes or sacs and hunt at night: [Penn State Extension's sac spider page](https://extension.psu.edu/agrarian-sac-spider-and-longlegged-sac-spider) finds the retreats outdoors under objects and indoors in the corners of walls and ceilings, and Kentucky's chart says the yellow sac spider builds no web. Recluses, MDC says, do not rely on webs to catch prey but spin silk retreats and round coverings for their eggs, and [UC IPM's recluse guide](https://ipm.ucanr.edu/home-and-landscape/brown-recluse-and-other-recluse-spiders/) says they build webs as trigger systems that signal prey walking nearby." },
+    { "type": "figure", "src": "/guides/photos/yellow-sac-spider-retreat-flowerpot.webp", "width": 1200, "height": 1200, "alt": "White silk retreat of a yellow sac spider stuck to the bottom of an orange plastic flowerpot held in a hand", "caption": "A yellow sac spider's silk retreat (genus Cheiracanthium) on the bottom of a flowerpot kept on an indoor porch over the winter; the observer says the spider crawled out when the pot was picked up. A pouch like this is a hiding place, not a trap.", "license": "CC-BY-4.0", "credit": "(c) E. H. B. Forget, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/70160027" },
+    { "type": "p", "text": "UC IPM says the brown recluse lives from southeastern Nebraska to southwestern Ohio and south through Texas to north Georgia, and that around homes recluses turn up under trash cans, plywood, tarps and tires and in storage boxes; MDC lists houses, cabins, garages, sheds and cardboard boxes. Because a recluse does not rely on a web to catch prey, check the spider itself: [the brown recluse guide](/blog/brown-recluse) shows its six eyes in three pairs and the violin mark." },
+
+    { "type": "h2", "text": "Which spider webs do you find inside a house?" },
+    { "type": "p", "text": "Mostly cobwebs, cellar spider webs and funnel webs, plus silk retreats and old, dusty strands. Match the spot to the web:" },
+    { "type": "table", "head": ["Where in the house", "What you see", "Likely maker"], "rows": [
+      ["Window and wall corners, floor joists", "A messy tangle, often with egg sacs hanging in it", "Common house spider"],
+      ["Basement and garage ceilings", "Loose, irregular webbing that keeps spreading", "Cellar spiders"],
+      ["Dark corners near the floor", "A flat sheet running into a funnel", "Barn funnel weaver"],
+      ["Wall and ceiling corners", "A small silk pouch or tube, no catching web", "Sac spiders"],
+      ["Garage doors and vents, woodpiles, sheds", "A low, strong, untidy tangle", "Black widow: look before you reach"],
+      ["Boxes, sheds and clutter in recluse states", "Silk retreats but no catching web; the spider hunts at night", "Brown recluse"],
+      ["Between walls, ceilings and objects", "Gray strands thick with dust", "An old, abandoned web"]
+    ], "caption": "From Penn State, MDC, Clemson, Colorado State, UC IPM and Oregon State University Extension, linked in the sections above and below." },
+
+    { "type": "h2", "text": "Why do cobwebs keep appearing in the house?" },
+    { "type": "p", "text": "Because one spider can leave many webs, and old silk holds dust. [Oregon State University Extension](https://extension.oregonstate.edu/node/245341) calls the dusty strands cobwebs or dustwebs: inactive spider silk that gathers dust because the silk is sticky. It says dust may gather on webs more in winter, when doors and windows stay closed and people spend more time indoors, and names the common house spider as one of the most common makers. A dusty web tells you a spider was there, not that one is there now: UC IPM says a web indoors that has gathered dust is an old web no longer used by a spider." },
+    { "type": "p", "text": "Many webs need not mean many spiders, either. Penn State says a common house spider often abandons its web for a new one nearby, and Clemson says cellar spiders keep adding silk instead of eating old webs, so their webbing piles up. Clemson adds that clearing the webbing makes new activity easy to spot." },
+
+    { "type": "h2", "text": "Is it a spider web, a caterpillar tent or something else?" },
+    { "type": "p", "text": "Caterpillars, mites, moth larvae and even a lawn fungus leave threads that can pass for a spider web. Each has a tell:" },
+    { "type": "ul", "items": [
+      "**Eastern tent caterpillars.** [University of New Hampshire Extension](https://extension.unh.edu/resource/fall-webworm-eastern-tent-caterpillar-fact-sheet) says their thick tents sit in the forks and crotches of trees in spring, and that the caterpillars feed away from the tent but gather in it at night and in rainy weather.",
+      "**Fall webworms.** A dirty, loosely woven web enclosing branches in summer and fall, with the caterpillars feeding inside it, UNH says.",
+      "**Spider mites.** [UC IPM's spider mite guide](https://ipm.ucanr.edu/home-and-landscape/spider-mites/) says dense webbing can cover leaves, twigs and fruit when mites are numerous; the mites are under 1/20 inch and look like tiny moving dots, easier to see when shaken onto white paper. See [spider mites](/blog/spider-mites).",
+      "**Pantry moths.** Silk threads and droppings in a bag or box of dry food can be the work of Indian meal moth larvae, which [UC IPM's pantry pest guide](https://ipm.ucanr.edu/home-and-landscape/pantry-pests/) says leave silk wherever they crawl.",
+      "**Clothes moths.** Patches of silk mixed with droppings and fibers on wool, fur or rugs are left by webbing clothes moth larvae, according to [UC IPM's clothes moth guide](https://ipm.ucanr.edu/home-and-landscape/clothes-moths/).",
+      "**Dollar spot.** White, cobweb-like threads on dewy grass in the morning can be this lawn fungus: [Iowa State University Extension](https://yardandgarden.extension.iastate.edu/encyclopedia/dollar-spot) says to look for straw-colored spots with reddish edges on the blades, in patches up to 6 inches across.",
+      "**Ballooning silk.** Shiny strands draped over branches and fields in spring and fall are gossamer, left by spiderlings that float away on silk threads, MDC says.",
+      "**Nursery webs.** MDC says a female nursery web spider builds a large web in low plants that resembles a tent caterpillar's, and guards it until her spiderlings disperse."
+    ] },
+    { "type": "figure", "src": "/guides/photos/eastern-tent-caterpillar-tent.webp", "width": 1200, "height": 900, "alt": "Dozens of hairy, striped eastern tent caterpillars massed on a white silk tent built in the fork of a tree branch in spring woods", "caption": "Eastern tent caterpillars (Malacosoma americanum) massed on their silk tent in the fork of a tree. A dense tent in a branch fork in spring, with caterpillars on it, is a tent caterpillar nest, not a spider web.", "license": "public-domain", "credit": "J.R. Carmichael, Public domain, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eastern_Tent_Caterpillar_(tent_far).JPG" },
+    { "type": "media", "needed": "Photo of white, cobweb-like dollar spot fungus on dew-covered lawn grass early in the morning, with the straw-colored spots visible and a ruler marked in inches for scale" },
+    { "type": "confused", "items": [
+      { "href": "/blog/spider-mites", "name": "Spider mite webbing", "photo": "spider-mite-webbing", "note": "Fine silk over leaves and shoots, with tiny moving dots under it", "alt": "Dense, shiny silk webbing wrapped like a sleeve around the spiny shoots of a shrub" },
+      { "href": "/blog/pantry-pests", "name": "Pantry moth silk", "photo": "indian-meal-moth-webbing", "note": "Silk threads and droppings inside a bag or box of dry food", "alt": "Silk webbing strung across sunflower seeds in an opened bag of seed" },
+      { "href": "/blog/moths-in-house", "name": "Webbing clothes moth", "photo": "webbing-clothes-moth", "note": "Larvae leave patches of silk, droppings and fibers on wool and fur", "alt": "Small golden buff webbing clothes moth resting on a white surface" },
+      { "href": "/blog/spider-egg-sacs", "name": "Spider egg sac", "photo": "yellow-garden-spider-egg-sac", "note": "A silk sac of eggs hung in a web or on plants, not a web itself", "alt": "Brown, papery yellow garden spider egg sac hanging among white wildflowers" }
+    ] },
+
+    { "type": "h2", "text": "Can a spider web tell you if the spider is dangerous?" },
+    { "type": "p", "text": "Only in part. MDC says only two kinds of Missouri spiders have venom that can harm people, the widows and the brown recluse, and the web points to one of them in just a few cases. A low, very strong, untidy tangle in a woodpile, garage corner or shed may be a black widow's; Kentucky's chart says the spider is timid and unlikely to bite unless handled, but that its bites are very serious and need immediate medical attention. A recluse does not rely on a web to catch prey. Kentucky's chart lists the bites of orb weavers, grass spiders, house spiders and cellar spiders as a medical concern only for people who are allergic." },
+    { "type": "p", "text": "If a black widow bites, UC IPM says to seek medical attention immediately; if a brown recluse bite is suspected, MDC says to seek medical attention promptly. MDC's first aid for spider bites starts with calling a poison center or getting other medical care, then washing the bite with soap and water and saving the spider for identification if possible. In the US, calling 1-800-222-1222 reaches the poison center serving your area, the [National Capital Poison Center](https://www.poison.org/how-to-get-help-from-poison-control) says. A sore alone does not prove a spider bite: MDC says a bite can be medically confirmed only if the spider is seen and correctly identified, and [the guide to what spider bites look like](/blog/what-does-a-spider-bite-look-like) covers the look-alikes." },
+
+    { "type": "h2", "text": "What should you do once you know which spider made the web?" },
+    { "type": "p", "text": "Match the response to the spider; for most webs, removal and prevention work better than spraying." },
+    { "type": "ul", "items": [
+      "**Webs on the outside of the house.** UC IPM suggests a broom or high-pressure hose to remove them.",
+      "**Cobwebs and cellar spider webs indoors.** Vacuum up the spider and its web, as UC IPM advises, and keep clearing webbing so new activity shows, as Clemson suggests.",
+      "**Possible black widow webs.** Look carefully before reaching into boxes, lumber piles or window wells or under rocks, and watch for widow webs around outbuildings, storage units and cabins that are not used often, as MDC advises.",
+      "**Fewer hiding places.** MDC advises keeping cellars, rooms and closets vacuumed and free of clutter, and shaking out clothing, blankets and towels stored where spiders may be.",
+      "**Keeping spiders out.** MDC suggests caulking cracks and crevices on the outside of the house and setting sticky traps along walls and under furniture to monitor spiders; [the guide to keeping spiders out of the house](/blog/how-to-keep-spiders-out-of-your-house) goes further.",
+      "**Sprays.** UC IPM says insecticides will not give long-term control of spiders and should not generally be used against them outdoors, and MDC says pest control sprays are often expensive and need repeated applications. [The step-by-step plan for clearing spiders from a house](/blog/how-to-get-rid-of-spiders-in-house-canada) covers vacuuming, sealing and monitoring.",
+      "**Caterpillar tents.** UNH advises destroying the nests by pruning or removing them by hand."
+    ] },
+    { "type": "callout", "tone": "tip", "title": "Photograph the web, then the spider", "text": "Take one photo of the whole web straight on, easiest after a dewy night or with the light behind it, and one of the spider beside a ruler marked in inches. Note where the web hung and how high. The [spider identifier](/tools/spider-identifier), your state's cooperative extension office or a pest professional can work from those details." }
+  ],
+  "faqs": [
+    {
+      "question": "What are the 7 types of spider webs?",
+      "answer": "There is no official list, and guides count them differently. One way to count gives seven: orb webs, a wheel of spokes and spirals; funnel webs, a sheet narrowing into a tunnel; cobwebs or tangle webs, a messy three-dimensional mesh; sheet webs, including bowl and dome webs; woolly webs of cribellate silk, such as the southern house spider's; purse webs, silk tubes at the base of trees; and the nets that ogre-faced spiders hold and throw. Many spiders build no web at all and hunt instead."
+    },
+    {
+      "question": "Can you identify a spider by its web?",
+      "answer": "Often to its family, not always to its species. The Missouri Department of Conservation says a web's shape and structure give important clues to the type of spider that made it and are a helpful first step, along with where the spider is and whether it is in a web. A wheel-shaped web points to an orb weaver and a sheet with a funnel to a funnel weaver, but naming the species usually means looking at the spider itself, and MDC says telling grass spider species apart usually takes a microscope."
+    },
+    {
+      "question": "What's the difference between cobwebs and spider webs?",
+      "answer": "The word cobweb has two meanings. Spider guides use it for the active, tangled web of the cobweb spider family, which includes the common house spider and the widows. In everyday speech, cobwebs are old, dusty strands. Oregon State University Extension calls them cobwebs or dustwebs, inactive spider silk that gathers dust because it is sticky, and UC IPM says a dusty web indoors is an old one that no spider is using anymore."
+    },
+    {
+      "question": "What looks like a spider web but isn't?",
+      "answer": "Silk from other animals, and one lawn fungus. University of New Hampshire Extension says eastern tent caterpillars build thick tents in tree forks in spring, while fall webworms enclose branches in loose, dirty webs in summer and fall. UC IPM says spider mites leave fine webbing on leaves, Indian meal moth larvae leave silk in dry food and webbing clothes moth larvae leave silk patches on wool. Iowa State says dollar spot fungus looks like white cobwebs on dewy grass in the morning."
+    },
+    {
+      "question": "What does it mean when you have spider webs in your grass?",
+      "answer": "Usually that grass spiders, which the Missouri Department of Conservation calls common in lawns, are living there. Penn State Extension says they build large, mostly horizontal sheets with a funnel at one side on grass and ground covers, and MDC says the webs are especially conspicuous in the morning when covered with dew and are often found in groups. If white, cobweb-like threads cover dewy blades that have straw-colored spots with reddish edges, it may be dollar spot, a lawn fungus Iowa State describes."
+    },
+    {
+      "question": "Is a grass spider harmful?",
+      "answer": "Grass spiders seldom bite. Penn State Extension says very few people are bitten, though bites have been reported to cause pain, swelling, redness and itching, and the University of Kentucky's urban spider chart lists grass spider bites as a medical concern only for people who are allergic. They are not the funnel-web spiders of Australia: Texas A&M AgriLife distinguishes that highly venomous spider from the funnel weavers common in the US. Contact a healthcare provider about any bite that worries you."
+    },
+    {
+      "question": "Is the cobweb spider poisonous?",
+      "answer": "Most cobweb spiders are not considered dangerous, but the family includes the widows. Penn State Extension says the common house spider is not regarded as medically important and does not often bite people. Black widows are cobweb spiders too, and the Missouri Department of Conservation names the widows and the brown recluse as the only Missouri spiders whose venom can harm people. If a black widow bites, UC IPM says to seek medical attention immediately."
+    },
+    {
+      "question": "Do spiders reuse their webs?",
+      "answer": "Some do and some rebuild. The Missouri Department of Conservation says the arboreal orbweaver eats most of its web at dawn and builds a new one after dusk, while the filmy dome spider may maintain and add to its web over several days. Clemson Extension says cellar spiders do not eat their old webs but keep adding to them, and Penn State says the common house spider often abandons a web to build a new one nearby, which is why one spider can leave many webs."
+    },
+    {
+      "question": "Why do spider webs appear overnight?",
+      "answer": "Many orb weavers build at night. The Missouri Department of Conservation says the arboreal orbweaver builds its web after dusk, eats most of it at dawn to recycle the silk and builds again the next night, often leaving one strong bridge line in place. Dew also reveals webs that were there all along: MDC says grass spider webs are especially conspicuous in the morning when covered with dew, and UC IPM says funnel weaver webs on low plants stand out in morning light after collecting dew."
+    },
+    {
+      "question": "How do you get rid of cobweb spiders?",
+      "answer": "Vacuum them up with their webs, as UC IPM advises, and keep clearing new webs. The Missouri Department of Conservation suggests caulking cracks and crevices on the outside of the house, keeping rooms vacuumed and free of clutter, and using sticky traps along walls to see where spiders are active. UC IPM says insecticides will not give long-term control of spiders. Look carefully before reaching into boxes, lumber piles or window wells, as MDC advises."
+    }
+  ],
+  "sources": [
+    { "title": "A Guide to Missouri's Common Spiders (David J. Bruns, 2026)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/sites/default/files/2026-08/A%20Guide%20to%20Missouri%27s%20Common%20Spiders_508.pdf" },
+    { "title": "Spiders (Pest Notes Publication 7442)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/spiders/" },
+    { "title": "Urban Spider Chart (Blake Newton and Lee Townsend)", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/spider-chart" },
+    { "title": "Grass Spiders (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/grass-spiders" },
+    { "title": "Grass Spiders", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/grass-spiders" },
+    { "title": "Barn Funnel Weaver (Colorado Arthropod of Interest)", "publisher": "Colorado State University, Department of Agricultural Biology", "url": "https://webdoc.agsci.colostate.edu/bspm/InsectInformation/FactSheets/BarnFunnel.pdf" },
+    { "title": "The 6 different kinds of spider webs — and what they mean (Adam Russell, September 22, 2026)", "publisher": "Texas A&M AgriLife Today", "url": "https://agrilifetoday.tamu.edu/2026/09/22/the-6-different-kinds-of-spider-webs-and-what-they-mean/" },
+    { "title": "Common House Spider", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/common-house-spider" },
+    { "title": "Widow Spiders and Their Relatives (Pest Notes Publication 74149)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/widow-spiders-and-their-relatives/" },
+    { "title": "Cellar Spiders (HGIC 2408, published May 2004)", "publisher": "Clemson Cooperative Extension Home & Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/cellar-spiders/" },
+    { "title": "Southern House Spider, Kukulcania hibernalis (EENY144)", "publisher": "University of Florida IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IN301" },
+    { "title": "Agrarian Sac Spider and Longlegged Sac Spider", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/agrarian-sac-spider-and-longlegged-sac-spider" },
+    { "title": "Brown Recluse and Other Recluse Spiders (Pest Notes Publication 7468)", "publisher": "University of California Statewide IPM Program (R. S. Vetter, UC Riverside)", "url": "https://ipm.ucanr.edu/home-and-landscape/brown-recluse-and-other-recluse-spiders/" },
+    { "title": "What are all these webs that are showing up inside my house? (Nik Wiman, January 2025)", "publisher": "Oregon State University Extension Service", "url": "https://extension.oregonstate.edu/node/245341" },
+    { "title": "Fall Webworm & Eastern Tent Caterpillar (fact sheet)", "publisher": "University of New Hampshire Cooperative Extension", "url": "https://extension.unh.edu/resource/fall-webworm-eastern-tent-caterpillar-fact-sheet" },
+    { "title": "Spider Mites (Pest Notes, Publication 7405)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/spider-mites/" },
+    { "title": "Pantry Pests (Pest Notes, Publication 7452)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/pantry-pests/" },
+    { "title": "Pest Notes: Clothes Moths (UC ANR Publication 7435)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/clothes-moths/" },
+    { "title": "Dollar Spot", "publisher": "Iowa State University Extension and Outreach", "url": "https://yardandgarden.extension.iastate.edu/encyclopedia/dollar-spot" },
+    { "title": "Get help online or by phone", "publisher": "National Capital Poison Center (Poison Control)", "url": "https://www.poison.org/how-to-get-help-from-poison-control" }
+  ],
+  "disclaimer": "both"
+}

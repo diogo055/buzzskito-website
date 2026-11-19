@@ -182,6 +182,115 @@
       "depicts": "Relative mosquito biting activity across a 24-hour cycle for three species groups: Culex peaking in the 1-2 hours after local sunset, Aedes biting through daylight with a midday heat dip and a late-afternoon peak, and Anopheles holding a broad overnight plateau. Biting falls to its nightly floor between about 2 and 4 a.m.",
       "factBasis": "Crepuscular/nocturnal Culex and Anopheles behaviour and diurnal Aedes behaviour are standard CDC and American Mosquito Control Association descriptions. Curves are schematic representations of relative biting pressure, not measured trap counts, and the chart is anchored to local sunrise/sunset rather than clock times.",
       "notes": "Generated from a script; axis is anchored to local sun position because clock times are meaningless across latitudes. Do not relabel the x-axis with fixed city times."
+    },
+    {
+      "file": "/diagrams/bed-bug-life-stages-size-chart.svg",
+      "licence": "original",
+      "author": "BuzzSkito",
+      "created": "2026-11-19",
+      "attributionRequired": false,
+      "usedOn": [
+        "/blog/baby-bed-bugs-nymphs",
+        "/blog/what-do-bed-bugs-look-like"
+      ],
+      "depicts": "egg (1 mm), nymph stages 1 to 5 (1.5, 2, 2.5, 3, 4.5 mm), an adult not fed lately (5 to 7 mm, flat, oval, brown) and an adult just fed (swollen, reddish-brown), with a 0-15 mm ruler carrying 1/8, 1/4 and 1/2 inch marks.",
+      "factBasis": "US EPA, Bed Bugs Appearance and Life Cycle, https://www.epa.gov/bedbugs/bed-bugs-appearance-and-life-cycle (every size, the egg and nymph colours, apple-seed size, fed vs unfed shape)."
+    },
+    {
+      "file": "/diagrams/baby-cockroach-size-chart.svg",
+      "licence": "original",
+      "author": "BuzzSkito",
+      "created": "2026-11-19",
+      "attributionRequired": false,
+      "usedOn": [
+        "/blog/what-do-baby-cockroaches-look-like"
+      ],
+      "depicts": "the German cockroach from egg case (about 8 mm, 30 to 40 eggs) through a newly hatched nymph (3 mm), a half-grown nymph and a large nymph (up to 14 mm, still no wings) to the adult (13 to 16 mm, wings, two dark stripes), on a 0-20 mm ruler with inch marks.",
+      "factBasis": "- Rutgers NJAES FS1322, https://extension.rutgers.edu/fs1322/ (egg case 8 x 3 x 2 mm, nymphs wingless and 3 to 14 mm, 5 to 6 molts, adults 13 to 16 mm with two dark stripes)"
+    },
+    {
+      "file": "/diagrams/tiny-brown-bugs-size-chart.svg",
+      "licence": "original",
+      "author": "BuzzSkito",
+      "created": "2026-11-19",
+      "attributionRequired": false,
+      "usedOn": [
+        "/blog/beetles-in-house",
+        "/blog/bugs-that-look-like-bed-bugs-canada",
+        "/blog/tiny-brown-bugs"
+      ],
+      "depicts": "eight insects on one millimetre scale: drugstore beetle (about 1/8 in), flour beetle (about 1/7 in), sawtoothed grain beetle (about 1/10 in), spider beetle (1/16 to 3/16 in), carpet beetle larva, German cockroach nymph (1/8 in, grows to 9/16 in), adult bed bug (3/16 to 1/4 in) and cat flea (up to 1/8 in).",
+      "factBasis": "- UC IPM pantry pests, https://ipm.ucanr.edu/home-and-landscape/pantry-pests/ (the three pantry beetles: sizes, colours, grooved wing covers, saw teeth)"
+    },
+    {
+      "file": "/diagrams/flea-vs-bed-bug-vs-tick-vs-louse.svg",
+      "licence": "original",
+      "author": "BuzzSkito",
+      "created": "2026-11-19",
+      "attributionRequired": false,
+      "usedOn": [
+        "/blog/bugs-that-look-like-bed-bugs",
+        "/blog/bugs-that-look-like-fleas",
+        "/blog/flea-bites-on-humans",
+        "/blog/what-do-fleas-look-like"
+      ],
+      "depicts": "a cat flea (side view), an adult bed bug, an adult blacklegged tick and a head louse on one millimetre scale, over a five-row table: size, legs, how it moves, shape, where it is found.",
+      "factBasis": "- UC IPM fleas (as above) and Ohio State HYG-2081-11, https://ohioline.osu.edu/factsheet/HYG-2081-11 (flea about 1/8 in, flattened side to side, enlarged hind legs for jumping)"
+    },
+    {
+      "file": "/diagrams/camel-cricket-vs-house-cricket.svg",
+      "licence": "original",
+      "author": "BuzzSkito",
+      "created": "2026-11-19",
+      "attributionRequired": false,
+      "usedOn": [
+        "/blog/camel-crickets",
+        "/blog/crickets-in-house",
+        "/blog/jerusalem-crickets"
+      ],
+      "depicts": "side views on one inch scale (with centimetres): camel cricket (1/2 to 1 1/2 in, humped, wingless, very long antennae, never chirps), house cricket (3/4 to 7/8 in, yellowish-brown, three dark bands on the head, chirps), field cricket (1/2 to 1 1/4 in, robust, mostly black, chirps) and Jerusalem cricket (up to about 2 in, round bald head, black-ringed abdomen, no wings).",
+      "factBasis": "- Clemson HGIC camel crickets, https://hgic.clemson.edu/factsheet/camel-crickets/ (size, colour, hump, no wings, antennae longer than the body, no chirp, damp basements and crawl spaces)"
+    },
+    {
+      "file": "/diagrams/animal-droppings-size-chart.svg",
+      "licence": "original",
+      "author": "BuzzSkito",
+      "created": "2026-11-19",
+      "attributionRequired": false,
+      "usedOn": [
+        "/blog/animal-droppings",
+        "/blog/what-does-mouse-poop-look-like-canada"
+      ],
+      "depicts": "on one inch scale (with centimetres): coyote (3 to 4 in long, about 1 in thick, often with hair), raccoon (2 to 3 in long, about 1/2 in thick, flat ends, seeds, piled in one spot), Norway rat (3/4 to 1 in) and roof rat (about 1/2 in), deer pellets (1/2 to 1 in), rabbit pellets (about 3/8 in across), squirrel (1/4 to 1/2 in) and house mouse (1/8 to 1/4 in).",
+      "factBasis": "- Washington Department of Fish and Wildlife species pages: coyote, https://wdfw.wa.gov/species-habitats/species/canis-latrans ; raccoon, https://wdfw.wa.gov/species-habitats/species/procyon-lotor (flat-ended) ; rabbits, https://wdfw.wa.gov/species-habitats/living/species-facts/rabbits ; tree squirrels, https://wdfw.wa.gov/species-habitats/living/species-facts/tree-squirrels"
+    },
+    {
+      "file": "/diagrams/spider-identification-black-widow-brown-recluse-wolf-spider.svg",
+      "licence": "original",
+      "author": "BuzzSkito",
+      "created": "2026-11-19",
+      "attributionRequired": false,
+      "usedOn": [
+        "/blog/black-widow-spiders",
+        "/blog/brown-recluse",
+        "/blog/what-does-a-spider-bite-look-like",
+        "/blog/wolf-spiders"
+      ],
+      "depicts": "three panels, each with one mark to look for and a close-up box:",
+      "factBasis": "- UC IPM widow spiders, https://ipm.ucanr.edu/home-and-landscape/widow-spiders-and-their-relatives/ (female about 1/2 in, shiny black, red hourglass underneath, shape varies and is occasionally absent)"
+    },
+    {
+      "file": "/diagrams/types-of-cockroaches-size-chart.svg",
+      "licence": "original",
+      "author": "BuzzSkito",
+      "created": "2026-11-19",
+      "attributionRequired": false,
+      "usedOn": [
+        "/blog/bugs-that-look-like-cockroaches",
+        "/blog/how-to-get-rid-of-cockroaches-canada"
+      ],
+      "depicts": "adults on one inch scale (with centimetres): German (about 1/2 in, light brown, two dark stripes behind the head), brown-banded (about 1/2 in, golden tan to dark brown, light bands across the wings), Oriental (about 1 1/4 in, almost black, wings shorter than the body) and American (about 2 in, reddish brown, pale edge behind the head).",
+      "factBasis": "UC Statewide IPM Program cockroaches, https://ipm.ucanr.edu/home-and-landscape/cockroaches/ (every size and marking)."
     }
   ]
 }

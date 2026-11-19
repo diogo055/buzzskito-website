@@ -2,7 +2,7 @@
  "id": "what-do-baby-cockroaches-look-like",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "d0f73ff4cfe06133d77526c40912f79bb0aab944169008487eb6c1efe2a96545",
+ "sha": "353d6c7eaaad9f263cc9e9fd14e3f15da58aa510320df9812ee3269f99d2e44f",
  "claimsChecked": 68,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 6,
@@ -26,6 +26,11 @@
   {
    "on": "2026-10-23",
    "note": "checker (Oct 23 retrofit, independent pass): no change. Verified new figures/captions (CDC PHIL 26933; Texas A&M E-359 wing pads + two dark stripes; UC IPM white after molting, sticky traps checked daily), look-alike cards (UC IPM bed bugs: about 1/5 inch, rusty red, blood meal before each molt; UC IPM membranous wings vs beetles; Texas A&M German wings to abdomen tip) and the 4 new FAQs (Rutgers 1/8-9/16 inch and 5-6 molts, UF dark brown to black, Texas A&M three-stage life cycle and nymph colours).",
+   "previousSha": "d0f73ff4cfe06133d77526c40912f79bb0aab944169008487eb6c1efe2a96545"
+  },
+  {
+   "on": "2026-11-19",
+   "note": "Nov 19, 2026: added one original BuzzSkito diagram (/diagrams/baby-cockroach-size-chart.svg, CC BY 4.0) after the first paragraph of an existing section; sizes from EPA/CDC/university extension sources listed in the diagram itself. No text changed.",
    "previousSha": "d0f73ff4cfe06133d77526c40912f79bb0aab944169008487eb6c1efe2a96545"
   }
  ]

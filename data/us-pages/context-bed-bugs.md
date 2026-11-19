@@ -512,6 +512,15 @@
 - `/blog/moth-eggs` — moth eggs
 - `/blog/snake-identification` — snake identification
 - `/blog/bugs-that-look-like-mosquitoes` — bugs that look like mosquitoes
+- `/blog/chigger-bites-vs-flea-bites` — chigger bites vs flea bites
+- `/blog/insect-eggs` — insect eggs identification
+- `/blog/raccoon-tracks` — raccoon tracks
+- `/blog/fox-poop` — fox poop
+- `/blog/skunk-poop` — skunk poop
+- `/blog/cockroach-nest` — what does a roach nest look like
+- `/blog/baby-spiders` — baby spiders
+- `/blog/types-of-spider-webs` — types of spider webs
+- `/blog/signs-of-silverfish` — signs of silverfish
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

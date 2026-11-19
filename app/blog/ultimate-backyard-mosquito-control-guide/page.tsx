@@ -12,6 +12,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const POST = MOSQUITO_BLOGS.pillar
 const UPDATED = POST.date
@@ -24,6 +26,7 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,
+  image: shareImage('mosquito-larvae-clay-pot-saucer'),
 })
 
 const FAQS = [
@@ -40,7 +43,7 @@ const AMZ_TAG = tagForSlug('ultimate-backyard-mosquito-control-guide')
 export default function MosquitoPillarPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: POST.title, description: POST.excerpt, slug: POST.slug, datePublished: POST.date })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: POST.title, description: POST.excerpt, slug: POST.slug, datePublished: POST.date, image: shareImage('mosquito-larvae-clay-pot-saucer') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Ultimate Mosquito Control Guide', url: `/blog/${POST.slug}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${POST.slug}`)) }} />
@@ -93,11 +96,26 @@ export default function MosquitoPillarPage() {
         <h2>Why GTA Backyards Have a Mosquito Problem</h2>
         <p>The Greater Toronto Area's climate — warm, humid summers with abundant rainfall — combined with its extensive waterway system makes it one of Canada's most challenging regions for residential mosquito control. The Credit River, Humber River, Don River, and dozens of smaller watercourses create natural mosquito breeding corridors that flow directly into suburban and urban neighbourhoods.</p>
         <p>What many homeowners don't realize is that mosquitoes don't need a pond or stream to breed. A tablespoon of standing water in a clogged gutter, a forgotten plant saucer, or a tarp with puddles can produce hundreds of mosquitoes within a week. The combination of natural water sources and the many unintentional standing water sites on a typical suburban lot means GTA properties face continuous mosquito pressure from late April through September.</p>
+        <Photo
+          id="mosquito-larvae-clay-pot-saucer"
+          alt="Mosquito larvae in the shallow water of a clay flowerpot saucer"
+          caption="Mosquito larvae (yellow fever mosquito, Aedes aegypti) in the water held by a clay pot saucer (CDC photograph). A forgotten plant saucer is one of the small standing-water sites that keep a yard producing mosquitoes."
+        />
 
         <h2>The Mosquito Lifecycle: Why This Matters for Control</h2>
         <p>Understanding the mosquito lifecycle is essential for effective control. Mosquitoes go through four stages: egg, larva, pupa, and adult. The first three stages all occur in standing water. Only the adult stage is the biting, flying mosquito you encounter in your backyard.</p>
+        <Photo
+          id="aedes-aegypti-pupae-adult-emerging"
+          alt="Four comma-shaped mosquito pupae hanging below the water surface, with an adult mosquito emerging from its pupal case above them"
+          caption="Mosquito pupae in standing water, with an adult emerging at the surface above them (CDC photograph of the yellow fever mosquito). Egg, larva and pupa all live in the water; only the adult flies and bites."
+        />
         <p>The critical implication: <strong>effective mosquito control must address both the aquatic breeding stage and the adult stage</strong>. Elimination of standing water reduces breeding, while barrier spray targets adult mosquitoes hiding in vegetation. Neither alone is as effective as both together.</p>
         <p>Adult female mosquitoes (the ones that bite) spend most of the day resting in shaded, humid vegetation — under leaves, in shrubs, and in ground cover. This resting behaviour is precisely why barrier spray is aimed where it is: we apply residual insecticide, according to label directions, directly to those resting surfaces.</p>
+        <Photo
+          id="mosquitoes-resting-under-leaf"
+          alt="Several mosquitoes hanging from the underside of a small green leaf"
+          caption="Mosquitoes (Armigeres subalbatus, photographed in Hong Kong) resting on the underside of a leaf. Shaded leaf undersides like this are the resting surfaces barrier spray is applied to."
+        />
 
         <h2>GTA Mosquito Season: When to Start Treatment</h2>
         <p>Mosquitoes become active when temperatures consistently exceed 10°C (50°F). In the GTA, this typically means:</p>
@@ -108,6 +126,11 @@ export default function MosquitoPillarPage() {
           <li><strong>August:</strong> Activity remains high, particularly after rain events</li>
           <li><strong>September:</strong> Populations decline but mosquitoes remain active through most of the month</li>
         </ul>
+        <Photo
+          id="aedes-japonicus-under-log-toronto"
+          alt="Mosquito with a golden thorax and banded legs resting on dark, rotting wood in the shade under a log"
+          caption="An Asian bush mosquito (Aedes japonicus) resting on rotting wood under a log in Toronto on October 2, 2024 (research grade on iNaturalist)."
+        />
         <p>See our detailed guide: <Link href="/blog/mosquito-season-gta-when-does-it-start" className="text-brand-700 underline hover:text-brand-500">When Does Mosquito Season Start in the GTA?</Link></p>
 
         <h2>How Professional Barrier Spray Works</h2>
@@ -180,6 +203,11 @@ export default function MosquitoPillarPage() {
 
         <h2>Health Risks: West Nile Virus in the GTA</h2>
         <p>Mosquitoes in Ontario can carry West Nile Virus (WNV), a potentially serious illness transmitted through mosquito bites. Ontario public health agencies monitor WNV-positive mosquito pools throughout the GTA each season. While most people infected with WNV experience no symptoms or a mild illness, a small percentage develop severe neurological disease.</p>
+        <Photo
+          id="culex-quinquefasciatus-female-on-skin-front"
+          alt="Female mosquito standing on a person's skin, seen from the front, before biting"
+          caption="A female southern house mosquito (Culex quinquefasciatus) resting on a person's skin before taking a blood meal (CDC photograph). Public health agencies advise avoiding bites, especially from dusk to dawn."
+        />
         <p>Public health agencies advise removing standing water and avoiding bites, especially from dusk to dawn. Barrier spray treats the vegetation where mosquitoes rest around your yard; it works alongside repellent and those personal precautions, not in place of them. Learn more: <Link href="/blog/west-nile-virus-mosquito-risk-ontario" className="text-brand-700 underline hover:text-brand-500">West Nile Virus Risk in Ontario</Link></p>
 
         <RelatedLinks path="/blog/ultimate-backyard-mosquito-control-guide" />

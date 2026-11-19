@@ -2,9 +2,16 @@
  "id": "commercial-pest-control",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "ec65db4e4c98e2052d23c6cb757d5e24cee76bb63296fe859ec281db09a747f3",
+ "sha": "3537627b82dcba70bd2c5140ca7c0b4ad83b51163ed8ac9d08a619dbddad585c",
  "claimsChecked": 150,
  "claimsCorrected": 11,
  "claimsRemovedOrSoftened": 14,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-11-19",
+   "note": "Nov 19, 2026: real photos added (figure blocks only, ledger-recorded and licence-checked: public domain, CC0, CC BY or CC BY-SA); no text or dates changed.",
+   "previousSha": "ec65db4e4c98e2052d23c6cb757d5e24cee76bb63296fe859ec281db09a747f3"
+  }
+ ]
 }

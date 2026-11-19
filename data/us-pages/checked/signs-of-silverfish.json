@@ -1,0 +1,15 @@
+{
+ "id": "signs-of-silverfish",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "803bc6be8e2f8f363164ab1d822442a9da21e667fccc32fc666a68e76eaaedd0",
+ "claimsChecked": 212,
+ "claimsCorrected": 19,
+ "claimsRemovedOrSoftened": 12,
+ "checkedOn": "2026-11-19",
+ "released": {
+  "on": "2026-11-19",
+  "scheduledFor": "2026-11-19",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

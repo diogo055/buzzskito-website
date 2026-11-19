@@ -1,0 +1,210 @@
+{
+  "slug": "mouse-nest",
+  "kind": "spoke",
+  "cluster": "mice",
+  "keyword": "what does a mouse nest look like",
+  "alsoTargets": [
+    "mouse nest",
+    "mouse nest in car",
+    "rat nest vs mouse nest",
+    "mouse nest in wall",
+    "mouse nest in attic",
+    "mouse nest in house",
+    "mouse nest in grill",
+    "mouse nest in engine",
+    "mouse nesting material",
+    "deer mouse nest",
+    "what does a mouse nest smell like"
+  ],
+  "metaTitle": "What Does a Mouse Nest Look Like? (Photos)",
+  "metaDescription": "A mouse nest is a loose ball of shredded paper, cloth or insulation, usually 4 to 6 inches across. Photos of real nests, hiding spots and rat look-alikes.",
+  "h1": "What Does a Mouse Nest Look Like? Materials, Size and Where to Look",
+  "dek": "Most mouse nests are a loose ball of shredded paper, cloth, insulation or grass, 4 to 6 inches across. Photos of real nests in drawers, sheds, bookcases, cars and grills, how to tell one from a rat nest, and whether it is in use.",
+  "breadcrumb": "Mouse Nest",
+  "excerpt": "What a mouse nest looks like, with photos of real nests in drawers, sheds, cars and grills, how to tell it from a rat or squirrel nest, and whether it is still in use.",
+  "datePublished": "2026-11-19",
+  "parent": { "href": "/learn/mice", "name": "Mice" },
+  "quickAnswer": {
+    "lead": "**A mouse nest is a loose ball of finely shredded paper, cloth, insulation or grass, usually 4 to 6 inches across, hidden in a sheltered spot near food, with dark droppings 1/8 to 1/4 inch long scattered around it.** Droppings 1/2 inch or longer point to rats. Never sweep or vacuum a nest: [CDC](https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html) says to soak it with disinfectant first.",
+    "bullets": [
+      "[Arkansas Extension](https://uaex.uada.edu/publications/pdf/MP546.pdf) describes a ball of loosely woven shredded paper or burlap, usually 4 to 6 inches across, which may turn up when people clean garages, closets, attics, basements and outbuildings.",
+      "[Nebraska Extension](https://extensionpubs.unl.edu/publication/g1105/html/view) finds house mouse nests in sheltered spots near heat, such as water heaters, ovens and refrigerators, and gives droppings as 1/8 to 1/4 inch long and usually scattered, not piled.",
+      "[Cornell IPM](https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior) puts roof rat droppings at about 1/2 inch and Norway rat droppings at 3/4 to 1 inch, so bigger droppings beside a nest mean rats.",
+      "Fresh droppings are dark and soft and old ones hard, or gray and brittle, says [CDC's rodent survey manual](https://stacks.cdc.gov/view/cdc/6865/cdc_6865_DS1.pdf), so the droppings also show whether the nest is in use.",
+      "Rodents also nest in cars, trucks and campers, and CDC says to inspect the air intakes and filters before starting the engine of a vehicle with rodent signs."
+    ]
+  },
+  "facts": {
+    "title": "Mouse nest or something else? Quick ID",
+    "head": ["Nest", "What you see", "Where you find it", "The tell"],
+    "rows": [
+      ["House mouse nest", "A loose ball of finely shredded paper, cloth, burlap or other fiber, usually 4 to 6 inches across", "Drawers, behind boxes, near water heaters, ovens and refrigerators; garages, closets, attics, basements", "Droppings 1/8 to 1/4 inch, scattered; a musky odor where mice have lived a long time"],
+      ["Mouse nest in a wall or attic", "Insulation, paper or cloth chewed and pulled into a wad", "Wall and ceiling voids, attics; mice leave walls along pipes", "Scratching and squeaking in walls and ceilings"],
+      ["Mouse nest in a car", "A wad of nest material in the engine bay or air intake", "Between the battery and frame, by the wiper motors, in or under the air filter and intake ducting", "Gnawed wires; nest material in hoses and ducts to the cabin"],
+      ["Deer or white-footed mouse nest", "Grass stems, twigs, leaves and roots, sometimes lined with fur, feathers or shredded cloth", "Cabins, sheds and empty homes; outdoors in stumps, under logs and rocks, in old bird and squirrel nests", "Seeds, nuts or acorns stored nearby; otherwise much like a house mouse nest"],
+      ["Norway rat nest", "Leaves, shredded paper, cloth or other fiber, often inside a burrow", "Burrows along foundations, under trash and woodpiles; basements and ground floors", "Droppings 3/4 to 1 inch; holes 2 inches or larger"],
+      ["Roof rat nest", "Shredded insulation or other soft material, off the ground", "Attics, wall and ceiling voids, cabinets; trees, shrubs and ivy", "Droppings about 1/2 inch; tooth marks about 1/6 inch wide"],
+      ["Squirrel leaf nest", "A ball of leaves on a twig frame, 12 to 20 inches across", "High in a tree, about 40 feet up on average; squirrels can also get into attics", "Squirrels are active by day"],
+      ["Vole nest", "Grass, stems and leaves, underground", "Lawns and gardens, with runways leading to holes 1 1/2 to 2 inches across", "Voles are poor climbers and usually stay out of homes"],
+      ["Bumble bee nest", "Bees using an abandoned rodent den lined with grass, stems and fur", "Underground or under tufts of grass", "Bees, not mice, coming and going"],
+      ["Yellowjacket nest", "Paper the wasps make from wood fibers", "Often a rodent burrow; sometimes wall and ceiling voids", "Wasps, not mice, coming and going"]
+    ],
+    "caption": "Mouse nests from Arkansas Extension, UC IPM, Nebraska Extension, Cornell IPM, NPS and Public Health – Seattle & King County; rats from UC IPM, Cornell IPM and Arkansas; squirrels from Missouri Conservation and UC IPM; voles, bees and wasps from UC IPM and the University of Minnesota."
+  },
+  "body": [
+    { "type": "h2", "text": "What does a mouse nest look like?" },
+    { "type": "p", "text": "A mouse nest is a loose, rounded wad of finely shredded material in a hidden corner, usually 4 to 6 inches across. [Arkansas Extension's guide to controlling mice and rats](https://uaex.uada.edu/publications/pdf/MP546.pdf) calls it a ball of loosely woven shredded paper or burlap, [UC IPM's house mouse guide](https://ipm.ucanr.edu/home-and-landscape/house-mouse/) says house mice build theirs in sheltered places, and [Animal Diversity Web](https://animaldiversity.org/accounts/Mus_musculus/) says mice line the nest with finer shreds." },
+    { "type": "figure", "src": "/guides/photos/mouse-nest-desk-drawer.webp", "width": 800, "height": 948, "alt": "Mouse nest in a desk drawer: a brown mouse peering out of a bed of shredded white padding in the corner of an old wooden drawer", "caption": "A mouse in its nest of shredded padding in a desk drawer in a historic house; the National Park Service photo does not name the species. Look for torn, fluffed-up material in a little-used corner.", "license": "public-domain", "credit": "NPS Photo (U.S. National Park Service, nps.gov)", "sourceUrl": "https://www.nps.gov/articles/000/conserve-o-gram-3-12-identifying-mouse-and-rat-damage-in-museum-collections.htm" },
+    { "type": "p", "text": "The shape varies: the shed nest below is a dome in an open corner, while the drawer nest above fills its corner. What lies around it shows who made it. [Nebraska Extension's house mouse guide](https://extensionpubs.unl.edu/publication/g1105/html/view) describes droppings 1/8 to 1/4 inch long, usually black, pointed at one or both ends and scattered rather than piled, and UC IPM notes a musky odor in long-term infestations. See [what mouse droppings look like](/blog/mouse-poop)." },
+    { "type": "figure", "src": "/guides/photos/house-mouse-nest-shed-corner.webp", "width": 1050, "height": 1153, "alt": "Mouse nest in a shed: a dome of shredded dry grass in the corner of plywood walls, with small dark mouse droppings on the floor in front", "caption": "A dome of shredded dry grass in a shed corner in Clarksville, Maryland, droppings in front; the observer identified it on iNaturalist as a house mouse nest. Small droppings beside a ball of shreds point to mice.", "license": "CC-BY-4.0", "credit": "(c) froggymum, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/326362706" },
+
+    { "type": "h2", "text": "What are mouse nests made of?" },
+    { "type": "p", "text": "Whatever soft material is close by, chewed small. The [National Park Service's guide to mouse and rat damage](https://www.nps.gov/articles/000/conserve-o-gram-3-12-identifying-mouse-and-rat-damage-in-museum-collections.htm) lists shredded paper, textiles and insulation, and [UC IPM's deer mouse guide](https://ipm.ucanr.edu/home-and-landscape/deer-mouse/) adds grass stems, twigs, leaves and roots, sometimes lined with fur, feathers or shredded cloth. The ones you are most likely to find indoors:" },
+    { "type": "ul", "items": [
+      "**Paper and cardboard.** Torn into confetti; Nebraska Extension says mice gnaw clean-cut holes about 1 1/2 inches across in cardboard.",
+      "**Fabric and stuffing.** UC IPM says deer mice damage upholstered furniture, mattresses and clothing for nest material.",
+      "**Insulation.** Arkansas Extension counts chewed insulation as a sign of an active infestation."
+    ] },
+    { "type": "figure", "src": "/guides/photos/mouse-nest-shredded-paper-shelf.webp", "width": 1200, "height": 928, "alt": "Mouse nest of shredded paper: a heap of white paper confetti in the back corner of a wooden bookcase shelf beside a stack of magazines", "caption": "An old nest of finely shredded paper at the back of a bookcase shelf in Amherst, New York; the observer identified the maker as an eastern deer mouse.", "license": "CC-BY-4.0", "credit": "(c) Julie, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/328440671" },
+
+    { "type": "h2", "text": "Where do mice build nests in a house?" },
+    { "type": "p", "text": "Somewhere hidden, warm and close to food. UC IPM suggests looking behind boxes, in drawers, in garages and around woodpiles, and says house mice seldom go more than 30 feet from nest and food. Nebraska Extension names refrigerators, water heaters and furnaces as favorite den sites, and [Cornell IPM's guide to mouse and rat behavior](https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior) adds the inside of walls and equipment." },
+    { "type": "h3", "text": "Kitchen, cabinets and drawers" },
+    { "type": "p", "text": "Check behind the stove and refrigerator and at the back of cabinets and drawers, the same spots [CDC's trapping guide](https://www.cdc.gov/healthy-pets/rodent-control/trap-up.html) names for setting traps." },
+    { "type": "h3", "text": "Closets, stored boxes and basements" },
+    { "type": "p", "text": "Anything stored and left alone will do. Arkansas Extension says nests may be found when people clean closets, basements and outbuildings, and Animal Diversity Web lists storage areas and the space behind rafters." },
+    { "type": "h3", "text": "Walls, ceilings and attics" },
+    { "type": "p", "text": "Inside walls and ceilings, mice chew insulation into a wad like the one below. Nebraska Extension says mice in wall spaces come out along pipes and that scratching and squeaking in ceilings and walls can mean mice; [the guide to mice in walls](/blog/mice-in-walls) sorts those sounds. In an attic, small droppings fit mice and droppings 1/2 inch or longer fit rats, while twigs and leaves fit a squirrel, which [UC IPM's tree squirrel guide](https://ipm.ucanr.edu/home-and-landscape/tree-squirrels/) says can enter attics through gaps or broken vent screens." },
+    { "type": "figure", "src": "/guides/photos/mouse-nest-pink-insulation.webp", "width": 1200, "height": 900, "alt": "Mouse nest of pink insulation on a panel scattered with droppings and debris, held up by a person wearing a rubber glove", "caption": "A nest of pink insulation on a panel scattered with droppings, held up by a person in a rubber glove; the photographer's title calls it a mouse nest. Look for insulation pulled into a wad with droppings around it.", "license": "CC-BY-2.0", "credit": "bay_dragon, CC BY 2.0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_mother_of_all_mouse_nests.jpg" },
+
+    { "type": "h2", "text": "What does a mouse nest look like in a car?" },
+    { "type": "p", "text": "A wad of nest material tucked into a sheltered spot under the hood, like the one below. [CDC's cleanup guide](https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html) says rodents may nest in cars, trucks, campers and other vehicles, and [Public Health – Seattle & King County](https://kingcounty.gov/depts/health/communicable-diseases/disease-control/hantavirus/cleaning.aspx) says nest material is commonly found between the battery and the frame, near the wiper motors, under the air intake ducting or in the air filter, and sometimes in hoses and ducting leading to the passenger compartment." },
+    { "type": "figure", "src": "/guides/photos/mouse-nest-under-car-hood.webp", "width": 1200, "height": 713, "alt": "Mouse nest in a car engine: a wad of reddish-brown fibers packed in against a black plastic housing beside the engine under the hood", "caption": "A nest packed in beside the engine of a car in San Diego, California, which the observer said had not been driven for a few weeks; two iNaturalist identifiers named deer mice (genus Peromyscus).", "license": "CC-BY-4.0", "credit": "(c) Millie Basden, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/24446964" },
+    { "type": "p", "text": "For a vehicle with signs of mice, CDC's steps are to open the hood, doors and trunk for 20 minutes, inspect the air intakes and filters before starting the engine, and take the cables off the battery before you look in the engine compartment. Soak any nest material with disinfectant for 5 minutes before picking it up; if it is in the air intake, remove it and the air filter. For a smell from the vents, see [mouse urine in a car](/blog/mouse-urine); for prevention, [keeping mice out of a parked car](/blog/how-to-keep-mice-out-of-your-car)." },
+    { "type": "media", "needed": "A mouse nest found in a car's cabin air filter or heater air intake, photographed in place before removal beside a ruler marked in inches (public domain, CC0, CC BY or CC BY-SA, with the identification on record)" },
+
+    { "type": "h2", "text": "What does a mouse nest look like outside or in a grill?" },
+    { "type": "p", "text": "Outdoors, mice often build with plants. UC IPM says deer mice nest in tree hollows, stumps and roots, under rocks and logs, in old bird and squirrel nests and inside buildings, and Animal Diversity Web says wild house mice dig burrows with chambers for nesting. Around a house that can mean a shed, a woodpile, a rarely used grill or anything left on the ground. UC IPM adds that deer mice store food near their nests, especially in autumn, so a pile of opened seeds or pits is a clue." },
+    { "type": "figure", "src": "/guides/photos/mouse-nest-grill-ruler.webp", "width": 1200, "height": 900, "alt": "Mouse nest in a grill: a round ball of pink fluff with an entrance hole beside an inch ruler and cherry pits gnawed open by mice", "caption": "A round nest of pink fibers with its entrance hole, beside a ruler marked in inches, in a rarely used barbecue in San Mateo County, California; two iNaturalist identifiers named deer mice (genus Peromyscus). The mice had opened the cherry pits beside it.", "license": "CC-BY-4.0", "credit": "(c) Garth Harwood, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/51979633" },
+    { "type": "figure", "src": "/guides/photos/house-mouse-nest-leaves-young.webp", "width": 1200, "height": 1600, "alt": "House mouse nest outside: a loose mound of dead leaves and dry grass on bare ground, opened to show young mice curled up inside", "caption": "A house mouse nest of dead leaves and dry grass with young inside, under a grain barrel in a driveway in Zebulon, North Carolina; two iNaturalist identifiers agree on house mouse. Outdoors, the ball is often made of plants.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/66167138" },
+    { "type": "p", "text": "Not every grass nest in a yard is a mouse's. [UC IPM's vole guide](https://ipm.ucanr.edu/home-and-landscape/voles/) says voles build underground nests of grass, stems and leaves, linked by runways to burrow openings 1 1/2 to 2 inches across, and usually stay out of homes; see [how to recognize vole runways and holes](/blog/voles). Old nests also get new tenants: [the University of Minnesota's Bumble Bee Nest Quest](https://nestquest.umn.edu/about/bumble-bee-nesting-101) says bumble bees often nest in abandoned rodent dens, and [UC IPM's yellowjacket guide](https://ipm.ucanr.edu/home-and-landscape/yellowjackets-and-other-social-wasps/) says yellowjackets commonly nest in rodent burrows. If insects fly in and out, step back and see [how to identify a wasp nest](/blog/wasp-nest-identification)." },
+
+    { "type": "h2", "text": "Is it a house mouse nest or a deer mouse nest?" },
+    { "type": "p", "text": "Usually not from the nest alone: UC IPM says the nests, droppings and other signs of deer mice are similar to those of house mice. The setting helps. UC IPM says deer mice often move into vacated homes, cabins and other buildings, nest in family groups through winter and cache seeds, nuts and acorns far more than house mice, while a musky odor is typical of house mice. The mice themselves differ more: see [how to tell a deer mouse from a house mouse](/blog/deer-mice)." },
+    { "type": "figure", "src": "/guides/photos/deer-mouse-nest.webp", "width": 1200, "height": 796, "alt": "Deer mouse nest: a deer mouse peeking out from torn cream-colored fabric, woven green cloth and fluffy white feathers", "caption": "A North American deer mouse in the nest it made among deteriorating fabric and bird feathers, in a CDC photo. Cloth and feathers fit UC IPM's description of deer mouse nest linings.", "license": "public-domain", "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=13216" },
+    { "type": "p", "text": "The difference matters: Nebraska Extension says house mice are not known to carry hantavirus but deer mice and white-footed mice are. It also notes that few people can identify the rodents in their home and advises caution during all cleanup." },
+
+    { "type": "h2", "text": "How do you tell a mouse nest from a rat nest?" },
+    { "type": "p", "text": "By what surrounds it, because the nests look alike. [UC IPM's rat guide](https://ipm.ucanr.edu/home-and-landscape/rats/pest-notes/) says rat nests may be lined with leaves, shredded paper, cloth or other fiber, and that rats shred wall and ceiling insulation for nests, as mice do. Droppings, holes and tooth marks settle it:" },
+    { "type": "table", "head": ["Clue", "Mouse nest", "Rat nest"], "rows": [
+      ["Droppings", "1/8 to 1/4 inch, pointed, scattered", "About 1/2 inch (roof rat) or 3/4 to 1 inch (Norway rat)"],
+      ["Holes", "Often 1 1/2 inches or less", "2 inches or larger"],
+      ["Tooth marks", "Scratchy marks about 1/12 inch wide", "About 1/6 inch wide"],
+      ["The nest", "A loose ball of fine shreds, usually 4 to 6 inches", "Shredded paper, cloth, leaves or insulation, often in a burrow or void"]
+    ], "caption": "Droppings: Nebraska Extension, Cornell IPM. Holes and mouse nest size: Arkansas Extension. Tooth marks and rat nests: UC IPM." },
+    { "type": "p", "text": "Arkansas Extension adds that Norway rats may nest in burrows under buildings and slabs, while roof rats prefer to nest off the ground. See [what a rat nest looks like](/blog/rat-nest) and [rat vs mouse](/blog/rat-vs-mouse)." },
+    { "type": "checklist", "title": "Is it a mouse nest? Check these", "items": [
+      "**Material.** Fine shreds of paper, cloth, insulation or grass in a loose ball.",
+      "**Size.** Usually 4 to 6 inches; a leafy ball on a twig frame 12 to 20 inches across, high in a tree, is a squirrel's, says the [Missouri Department of Conservation](https://mdc.mo.gov/species/eastern-gray-squirrel-and-eastern-fox-squirrel).",
+      "**Droppings.** 1/8 to 1/4 inch and scattered; 1/2 inch or longer means rats.",
+      "**Holes.** Often 1 1/2 inches or less; 2 inches or larger points to rats.",
+      "**Place.** Hidden, sheltered, near food or warmth and rarely disturbed."
+    ] },
+    { "type": "confused", "items": [
+      { "href": "/blog/rat-nest", "name": "Norway rat burrow", "photo": "norway-rat-burrows", "note": "Norway rats often nest in burrows; holes 2 inches or wider, droppings 3/4 to 1 inch long", "alt": "Several dark burrow openings in mossy soil at the base of a street tree next to a building" },
+      { "href": "/blog/squirrel-nest", "name": "Squirrel leaf nest", "photo": "squirrel-drey-dead-leaves-closeup", "note": "A ball of leaves on twigs, 12 to 20 inches across, usually high in a tree", "alt": "Ball of dead brown leaves packed among the thin twigs of a small tree" },
+      { "href": "/blog/voles", "name": "Vole hole", "photo": "vole-hole-snowmelt", "note": "Grass nests underground, runways to holes 1 1/2 to 2 inches; rarely indoors", "alt": "Grass-lined hole in melting snow with a tuft of dry nest grass beside it" },
+      { "href": "/blog/wasp-nest-identification", "name": "Yellowjacket ground nest", "photo": "yellowjacket-ground-nest", "note": "Wasps going in and out of a ground hole, often a rodent burrow", "alt": "Black-and-yellow wasps at a dark hole among gray rocks and dry grass" },
+      { "href": "/blog/deer-mice", "name": "Deer mouse", "photo": "deer-mouse-white-belly-cdc", "note": "Its nest looks like a house mouse's, but deer mice can carry hantavirus", "alt": "Deer mouse with a brown back, white belly and white feet on a pale surface" }
+    ] },
+
+    { "type": "h2", "text": "Is the mouse nest active or old?" },
+    { "type": "p", "text": "Fresh signs mean mice are using it now. [CDC's manual for rodent surveys](https://stacks.cdc.gov/view/cdc/6865/cdc_6865_DS1.pdf) says fresh droppings are dark and soft and old ones hard, or gray and brittle; urine may be wet, glossy or sticky, or a dried stain that a black light helps show; a freshly gnawed surface is usually light in color; and fresh tracks count too." },
+    { "type": "p", "text": "Arkansas Extension also suggests spreading flour on the floor overnight and checking for tracks. Smell and sound help: the National Park Service says nests may be smelled where urine and droppings build up, and Animal Diversity Web says house mice often squeak to each other in the nest. Young in the nest mean it is in use; see [what a nest of baby mice means](/blog/baby-mice)." },
+    { "type": "p", "text": "Old, hard, gray droppings and no fresh signs suggest an old nest, but CDC's trapping guide counts rodents as gone only after a week with no rodents caught and no new signs." },
+
+    { "type": "h2", "text": "Is a mouse nest dangerous?" },
+    { "type": "p", "text": "It can be, mostly through the air. [CDC's hantavirus prevention page](https://www.cdc.gov/hantavirus/prevention/index.html) says the virus can get into the air when an infected rodent's fresh urine, droppings or nesting materials are stirred up, and UC IPM says people can be exposed by breathing dust after disturbing nests. The risks CDC names:" },
+    { "type": "ul", "items": [
+      "**Hantavirus.** [CDC's hantavirus overview](https://www.cdc.gov/hantavirus/about/index.html) says the most common US hantavirus behind hantavirus pulmonary syndrome is spread by the deer mouse, and that symptoms usually start 1 to 8 weeks after contact with an infected rodent.",
+      "**Lymphocytic choriomeningitis (LCM).** Spread by the house mouse through fresh urine, droppings, saliva or nesting materials; [CDC's LCM page](https://www.cdc.gov/lymphocytic-choriomeningitis/about/index.html) says it can cause serious illness in pregnant women and people with weakened immune systems.",
+      "**Fleas.** CDC suggests insect repellent on clothing, shoes and hands when cleaning up nesting materials."
+    ] },
+    { "type": "callout", "tone": "warning", "title": "When to see a healthcare provider", "text": "If you suspect hantavirus disease, CDC says to see a physician immediately and mention the possible rodent exposure; its cleanup guide says to talk to a healthcare provider if a recent illness may be due to a rodent-borne disease. For LCM, CDC's advice is to avoid contact with wild mice." },
+
+    { "type": "h2", "text": "What should you do once you know it is a mouse nest?" },
+    { "type": "p", "text": "Leave it until you can clean it up wet, then find how the mice got in. [The complete guide to mice](/learn/mice) covers CDC's seal up, trap up, clean up method. For the nest:" },
+    { "type": "ol", "items": [
+      "**Do not sweep, vacuum or pull it out dry.** CDC says sweeping or vacuuming nesting material can put tiny droplets containing viruses into the air.",
+      "**Clean it up wet.** CDC's method is to air the space for 30 minutes, wear rubber or plastic gloves, soak the nest and the area around it with disinfectant, and seal it in two plastic bags. [The guide to mice removal](/blog/mice-removal) has every step, including insulation and cars.",
+      "**Find the way in.** UC IPM says house mice can squeeze under gaps 1/4 inch tall and through openings 3/8 inch wide; [sealing the gaps mice use to get into a house](/blog/how-to-keep-mice-out-of-your-house-winter) shows where to look.",
+      "**Trap the mice that are left.** CDC recommends snap traps with the baited end against the wall, not glue or live traps, which can frighten rodents into urinating."
+    ] },
+    { "type": "callout", "tone": "tip", "title": "Photograph it before you touch it", "text": "Photograph the nest where it sits and the droppings beside a ruler marked in inches, and note where you found them and any sounds. Your state's cooperative extension office can use those details to help tell a mouse nest from a rat's, a squirrel's or a vole's." }
+  ],
+  "faqs": [
+    {
+      "question": "How big is a mouse nest?",
+      "answer": "Usually about 4 to 6 inches across. Arkansas Extension describes a mouse nest as a ball of loosely woven shredded paper, burlap or other fibrous material, usually 4 to 6 inches in diameter. Anything much larger needs a second look: the Missouri Department of Conservation puts a squirrel's leaf nest at 12 to 20 inches across, and none of the extension sources cited here gives a standard size for a rat nest."
+    },
+    {
+      "question": "What does a mouse nest smell like?",
+      "answer": "Musky. UC IPM says a characteristic musky odor is common in large or long-term house mouse infestations, and Nebraska Extension says a musky odor can build up where house mice have lived a long time. The National Park Service notes that nests can sometimes be smelled because urine and droppings concentrate there. Do not disturb a nest to check: CDC says hantavirus can get into the air when fresh nesting material from an infected rodent is stirred up."
+    },
+    {
+      "question": "What does a mouse nest sound like?",
+      "answer": "You hear the mice rather than the nest. Nebraska Extension says scratching and squeaking from ceilings and walls can mean mice are there, Arkansas Extension adds gnawing, climbing in walls and running above ceilings, and Animal Diversity Web says house mice often squeak to each other in the nest. Nebraska describes mice as moving about mostly at night, so daytime noise in an attic fits tree squirrels better, which UC IPM says are active during the day."
+    },
+    {
+      "question": "How many mice live in one nest?",
+      "answer": "None of the extension or health sources cited here gives a fixed number. A nest with young holds a mother and her litter: Animal Diversity Web says house mouse litters run 3 to 12, usually 5 or 6, and that the young are cared for in the mother's nest until they are about 21 days old. UC IPM says deer mice nest in family groups through the winter, so one nest in a cabin or shed can hold several mice."
+    },
+    {
+      "question": "Does finding a mouse nest mean you have an infestation?",
+      "answer": "It means mice have lived there; whether they still do depends on fresh signs. CDC's rodent survey manual counts a property as infested only when active signs are found, such as droppings, gnaw marks, tracks or sightings, and describes fresh droppings as dark and soft and old ones as hard, or gray and brittle. Because UC IPM says house mice seldom travel more than 30 feet from their nest and food, search that radius for other signs."
+    },
+    {
+      "question": "Will mice come back if you remove the nest?",
+      "answer": "They can, if the way in and the food are still there. UC IPM says house mice can squeeze under gaps 1/4 inch tall and through openings 3/8 inch wide, and that mice with few places to hide, rest, build nests or rear their young cannot survive in large numbers, so seal gaps and clear clutter as well as removing the nest. CDC considers rodents gone only when none are caught for a week and no new signs appear."
+    },
+    {
+      "question": "Can mice build a nest in a car's air filter?",
+      "answer": "Yes. Public Health – Seattle & King County says rodents commonly leave nest material under the air intake ducting or in the air filter, sometimes on top of accordion-style filters or in hoses and ducting that lead to the passenger compartment. CDC says to inspect the air intakes and filters before starting the engine, and if nesting material is in the air intake, to remove both the material and the filter. Wear gloves and soak it with disinfectant before you take it out."
+    },
+    {
+      "question": "When do mice build nests inside houses?",
+      "answer": "Mostly from fall on. UC IPM says house mice frequently enter homes in autumn when nighttime temperatures turn colder, and Cornell IPM says deer mice and white-footed mice enter buildings from fall through spring. UC IPM adds that deer mice nest in family groups through the winter and store food near their nests, especially in autumn, when seeds and nuts are most plentiful."
+    },
+    {
+      "question": "What does a mouse nest look like in an attic?",
+      "answer": "Usually a wad of shredded insulation, paper or cloth hidden in the insulation or a corner, with droppings 1/8 to 1/4 inch long around it. Arkansas Extension says mouse nests may turn up when people clean attics, and the National Park Service lists insulation among nest materials. Droppings 1/2 inch or longer point to roof rats, which UC IPM says nest in attics, while a nest of twigs and leaves fits a tree squirrel."
+    },
+    {
+      "question": "Can you touch a mouse nest with bare hands?",
+      "answer": "No. CDC's cleanup steps call for rubber or plastic gloves, and UC IPM's deer mouse guide says to wear nonfabric gloves when handling mouse nests, dead mice or traps. CDC says to soak the nest and the area around it with disinfectant, or a fresh mix of 1.5 cups of household bleach in 1 gallon of water, for 5 minutes or as the label directs before bagging it, and to wash your hands with soap and warm water after removing the gloves."
+    }
+  ],
+  "sources": [
+    { "title": "Pest Notes: House Mouse (UC ANR Publication 7483, updated July 2025)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/house-mouse/" },
+    { "title": "Pest Notes: Deer Mouse (UC ANR Publication 74161)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/deer-mouse/" },
+    { "title": "Controlling Mice and Rats (MP546), by Rebecca McPeake", "publisher": "University of Arkansas System Division of Agriculture Cooperative Extension Service", "url": "https://uaex.uada.edu/publications/pdf/MP546.pdf" },
+    { "title": "Controlling House Mice (NebGuide G1105, revised March 2012)", "publisher": "University of Nebraska-Lincoln Extension", "url": "https://extensionpubs.unl.edu/publication/g1105/html/view" },
+    { "title": "Mus musculus (house mouse)", "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology", "url": "https://animaldiversity.org/accounts/Mus_musculus/" },
+    { "title": "Mouse and Rat Biology and Behavior", "publisher": "Cornell Integrated Pest Management (Cornell IPM), Cornell University", "url": "https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior" },
+    { "title": "Conserve O Gram 3/12: Identifying Mouse and Rat Damage in Museum Collections", "publisher": "U.S. National Park Service", "url": "https://www.nps.gov/articles/000/conserve-o-gram-3-12-identifying-mouse-and-rat-damage-in-museum-collections.htm" },
+    { "title": "How to Clean Up After Rodents", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html" },
+    { "title": "How to Trap Up to Remove Rodents", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-pets/rodent-control/trap-up.html" },
+    { "title": "Integrated Pest Management: Conducting Urban Rodent Surveys (2006)", "publisher": "Centers for Disease Control and Prevention", "url": "https://stacks.cdc.gov/view/cdc/6865/cdc_6865_DS1.pdf" },
+    { "title": "About Hantavirus", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/hantavirus/about/index.html" },
+    { "title": "Hantavirus Prevention", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/hantavirus/prevention/index.html" },
+    { "title": "About Lymphocytic Choriomeningitis", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/lymphocytic-choriomeningitis/about/index.html" },
+    { "title": "Cleaning rodent-infested vehicles", "publisher": "Public Health – Seattle & King County", "url": "https://kingcounty.gov/depts/health/communicable-diseases/disease-control/hantavirus/cleaning.aspx" },
+    { "title": "Pest Notes: Rats (UC ANR Publication 74106, updated June 2025)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/rats/pest-notes/" },
+    { "title": "Pest Notes: Voles (Meadow Mice) (UC ANR Publication 7439, updated April 2023)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/voles/" },
+    { "title": "Pest Notes: Tree Squirrels (UC ANR Publication 74122)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/tree-squirrels/" },
+    { "title": "Eastern Gray Squirrel and Eastern Fox Squirrel (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/species/eastern-gray-squirrel-and-eastern-fox-squirrel" },
+    { "title": "Pest Notes: Yellowjackets and Other Social Wasps (UC ANR Publication 7450)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/yellowjackets-and-other-social-wasps/" },
+    { "title": "Bumble bee nesting 101 (Bumble Bee Nest Quest)", "publisher": "University of Minnesota", "url": "https://nestquest.umn.edu/about/bumble-bee-nesting-101" }
+  ],
+  "disclaimer": "health"
+}

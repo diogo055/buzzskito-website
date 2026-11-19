@@ -268,6 +268,20 @@
    "sha256Original": "1cdca3d26c798377a6345dce474115a07ece81e0ff1401f171eecfc50f3c31c9"
   },
   {
+   "file": "/guides/photos/aedes-japonicus-under-log-toronto.webp",
+   "subject": "Asian bush mosquito, Aedes japonicus, resting on rotting wood under a log, in the observer’s words just chilling under a log (Toronto, Ontario, October 2, 2024; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/248955835",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/444937756/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 119842,
+   "sourceDescription": "Aedes japonicus",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "b872b5931088249ed6d68578d6ad5af7091b0484118c4942b98cb16493c2a392"
+  },
+  {
    "file": "/guides/photos/aedes-resting-under-leaf.webp",
    "subject": "Mosquito identified on iNaturalist as Aedes (annotated female), resting on the underside of a leaf, backlit (Woonona, New South Wales, Australia)",
    "sourceUrl": "https://www.inaturalist.org/observations/254781725",
@@ -352,6 +366,20 @@
    "sha256Original": "301d78e6a116c891388fb000f405b9e6676cf47d827d13232a459a6f7bd895ba"
   },
   {
+   "file": "/guides/photos/american-cockroach-nymphs-pipe-opening.webp",
+   "subject": "American cockroaches, Periplaneta americana: wingless nymphs of several sizes inside a round pipe opening set in concrete, photographed just after midnight (Felanitx, Mallorca, Spain; research grade on iNaturalist, three identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/393617508",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/721493336/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 120404,
+   "sourceDescription": "Periplaneta americana",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "89cba124b90601ccddea5e2ebd49d0854f2a360bd37117587d3ed296d28d2fba"
+  },
+  {
    "file": "/guides/photos/american-cockroach-ootheca.webp",
    "subject": "American cockroach, Periplaneta americana, egg case (ootheca) on white paper (Sabaneta, Dominican Republic)",
    "sourceUrl": "https://www.inaturalist.org/observations/306466708",
@@ -392,6 +420,34 @@
    "sourceDescription": "American cockroach - Periplaneta americana USA, TX, Travis Co. Austin 30.33ºN -97.75ºW 210m 17.iii.2016, indoors, A.L.Wild, coll.",
    "downloadedOn": "2026-10-15",
    "sha256Original": "1a15f42caf7f0e1602b5490e01e1417846b079c20828c0ae10b4b61b638c0057"
+  },
+  {
+   "file": "/guides/photos/american-cockroaches-cluster-all-sizes.webp",
+   "subject": "American cockroaches, Periplaneta americana: a dense cluster of winged adults and wingless nymphs of many sizes on a rough gray surface, photographed at night (Kinabatangan, Sabah, Malaysia; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/67779018",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/109597116/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 800,
+   "bytes": 139548,
+   "sourceDescription": "Periplaneta americana",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "77e75a15920c536945af12a4fd3cbd99c18eed08b81e0b6fa34d47baeb7e09a1"
+  },
+  {
+   "file": "/guides/photos/american-cockroaches-night-floor-pipe.webp",
+   "subject": "American cockroaches, Periplaneta americana: dozens of adults and nymphs out at night on a concrete floor beside a rusty pipe where it enters the floor (Tijuana, Baja California, Mexico; research grade on iNaturalist, two identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/176061552",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/306047813/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 845,
+   "height": 916,
+   "bytes": 173500,
+   "sourceDescription": "Periplaneta americana",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "835613d469d14e6ac6d335129d9b3695c522904bc78ce3e6202847e33d434fe3"
   },
   {
    "file": "/guides/photos/american-crow-twig-nest.webp",
@@ -1066,6 +1122,20 @@
    "sha256Original": "d5dc061679cc0e1e555af3397be084b3784bd5c3a2078504849ca3bb2b30366f"
   },
   {
+   "file": "/guides/photos/ballooning-spider-silk-lawn.webp",
+   "subject": "Sheets of fine spider silk draped over a grass lawn, which the photo title describes as threads of silk following a mass spider ballooning (Flickr photo by Stephen Michael Barnett, taken with a Canon EOS 350D; place not recorded; no individual spider is visible)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Threads_of_silk_following_a_mass_spider_ballooning.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Threads_of_silk_following_a_mass_spider_ballooning.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-2.0",
+   "credit": "Stephen Michael Barnett, CC BY 2.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 800,
+   "bytes": 251208,
+   "sourceDescription": "Spider web ballooning",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "28e97b0cd2dbd1572add131b377df8eb4b4a08a5a70257d6d179fb962c1a7591"
+  },
+  {
    "file": "/guides/photos/banded-sugar-ant-australia.webp",
    "subject": "Banded sugar ant, Camponotus consobrinus, a large worker with an orange band across its middle, on bare soil (Angaston, South Australia; research grade on iNaturalist, three identifiers)",
    "sourceUrl": "https://www.inaturalist.org/observations/268552833",
@@ -1360,6 +1430,20 @@
    "sha256Original": "49497ca56799a5687a160ac918442ac603d8c810e4fbecb418ed754d314ceca0"
   },
   {
+   "file": "/guides/photos/bed-bug-fecal-marks-ceiling-corner-nysipm.webp",
+   "subject": "Black bed bug fecal marks in clusters along the junction of a wall and a textured ceiling; the New York State IPM Program at Cornell University says that in large infestations the bugs hide in corners after feeding (IPM logo watermarked on the wall below)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bed_Bug_Evidence_(11555820626).jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Bed_Bug_Evidence_%2811555820626%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-2.0",
+   "credit": "NY State IPM Program at Cornell University from New York, USA, CC BY 2.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 900,
+   "bytes": 22812,
+   "sourceDescription": ".mw-parser-output .messagebox{margin:4px 0;width:auto;border-collapse:collapse;border:2px solid var(--border-color-progressive,#6485d1);background-color:var(--background-color-neutral-subtle,#fbfcff);color:var(--color-base,#202122);box-sizing:border-box;border-inline-start-width:8px}.mw-parser-outpu",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "604817da2e2d9efeed7ef6becde460baf2a64eac3e17a7c6051ea4bbc6a29cd3"
+  },
+  {
    "file": "/guides/photos/bed-bug-fecal-spots-bed-frame.webp",
    "subject": "Bed bug fecal spots: black stains on a wooden bed frame near where bed bugs hid, photographed and described by the New York State IPM Program at Cornell University",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bed_Bug_Evidence.jpg",
@@ -1402,6 +1486,48 @@
    "sha256Original": "b59a7c2d9bef704c9533efad882190968db7a913d5a6da3752bd2f7506b11b3a"
   },
   {
+   "file": "/guides/photos/bed-bug-heat-treatment-heater-setup-navy.webp",
+   "subject": "Pest management technician setting up one of three heating units of a bed bug thermal remediation system during a training session, a hand on the unit’s control panel and red power cords plugged in (Joint Base Pearl Harbor-Hickam, Hawaii, March 17, 2017; U.S. Navy photo by Denise Emsley, NAVFAC Hawaii)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:NAVFAC_Hawaii_Uses_Heat_to_Kill_Bed_Bugs_Pearl_Harbor_(33580182981).jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/NAVFAC_Hawaii_Uses_Heat_to_Kill_Bed_Bugs_Pearl_Harbor_%2833580182981%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "public-domain",
+   "credit": "NAVFAC, Public domain, via Wikimedia Commons",
+   "width": 1200,
+   "height": 1800,
+   "bytes": 227114,
+   "sourceDescription": "170317-N-OF713-010 (March 17, 2017) Technical Sergeant Douglas Howerton, pest management craftsman, sets up one of three heating units of the new Bed Bug Thermal Remediation System in a training work space on Joint Base Pearl Harbor-Hickam to show other pest control personnel how to properly connect",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "5d9b6f12dcae4f4b3a367d25675fa268c2416b17b6051d21bf2c6541dfee11c0"
+  },
+  {
+   "file": "/guides/photos/bed-bug-heat-treatment-laptop-monitoring-navy.webp",
+   "subject": "Pest management specialist at a laptop, monitoring a bed bug heat treatment from a room next to the one being treated, beside the system’s open equipment case (Joint Base Pearl Harbor-Hickam, Hawaii, March 17, 2017; U.S. Navy photo by Denise Emsley, NAVFAC Hawaii)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:NAVFAC_Hawaii_Uses_Heat_to_Kill_Bed_Bugs_at_Pearl_Harbor_(33580180961).jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/NAVFAC_Hawaii_Uses_Heat_to_Kill_Bed_Bugs_at_Pearl_Harbor_%2833580180961%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "public-domain",
+   "credit": "NAVFAC, Public domain, via Wikimedia Commons",
+   "width": 1200,
+   "height": 800,
+   "bytes": 74012,
+   "sourceDescription": "170317-N-OF713-004 (March 17, 2017) Once the Bed Bug Thermal Remediation System has been setup in an infested room on Joint Base Pearl Harbor-Hickam, Airman First Class Alexis Quinteros, pest management journeyman, will boot up the system’s lap top computer in an adjacent space in order to monitor a",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "850770253dde93b99d4076535655e66ce6c7c479078721345add5a5ad8ad729b"
+  },
+  {
+   "file": "/guides/photos/bed-bug-heat-treatment-unit-pearl-harbor.webp",
+   "subject": "Pest management technician connecting the power cords to one of three heating units of a bed bug heat treatment system, in a training workspace at Joint Base Pearl Harbor-Hickam, Hawaii, March 2017 (U.S. Navy photo by Denise Emsley, NAVFAC Hawaii)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:NAVFAC_Hawaii_Uses_Heat_to_Kill_Bed_Bugs_Pearl_Harbor_(33553199002).jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/NAVFAC_Hawaii_Uses_Heat_to_Kill_Bed_Bugs_Pearl_Harbor_%2833553199002%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "public-domain",
+   "credit": "NAVFAC, Public domain, via Wikimedia Commons",
+   "width": 1200,
+   "height": 1799,
+   "bytes": 223376,
+   "sourceDescription": "170317-N-OF713-017 (March 17, 2017) Technical Sergeant Douglas Howerton, pest management craftsman, sets up one of three heating units of the new Bed Bug Thermal Remediation System in a training work space on Joint Base Pearl Harbor-Hickam to show other pest control personnel how to properly connect",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "f7dc84045dc4ed465c1a8f327c25aa5f896480e02e34a95ce69c63e79fc98176"
+  },
+  {
    "file": "/guides/photos/bed-bug-hotel-bedding.webp",
    "subject": "Bed bug, Cimex lectularius, on white woven fabric (bedding by our reading) that the observer photographed at a hotel (Tacoma area, Washington)",
    "sourceUrl": "https://www.inaturalist.org/observations/27817210",
@@ -1414,6 +1540,34 @@
    "sourceDescription": "Cimex lectularius",
    "downloadedOn": "2026-10-23",
    "sha256Original": "d4a12ca59509daf2c38a9d446dd7f143e43380358d23a5e35bddaf170bce3f51"
+  },
+  {
+   "file": "/guides/photos/bed-bug-mattress-curb-nysipm.webp",
+   "subject": "Discarded mattress from a large bed bug infestation, standing at the curb beside other old furniture, its edge streaked with thick black fecal stains (New York State IPM Program at Cornell University photograph and description; IPM logo on the pavement)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Infested_Mattress_(11555683455).jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Infested_Mattress_%2811555683455%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-2.0",
+   "credit": "NY State IPM Program at Cornell University from New York, USA, CC BY 2.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 209870,
+   "sourceDescription": ".mw-parser-output .messagebox{margin:4px 0;width:auto;border-collapse:collapse;border:2px solid var(--border-color-progressive,#6485d1);background-color:var(--background-color-neutral-subtle,#fbfcff);color:var(--color-base,#202122);box-sizing:border-box;border-inline-start-width:8px}.mw-parser-outpu",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "ce01fd1d3352377ab260a938cee3d45d258274e531086cfccd5a9c8cd8e5a491"
+  },
+  {
+   "file": "/guides/photos/bed-bug-mattress-edge-eggs-nysipm.webp",
+   "subject": "Mattress from a large bed bug infestation, close view of its edge: thick black fecal stains and white bed bug eggs, as described by the New York State IPM Program at Cornell University (its IPM logo is watermarked on the photo)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Infested_Mattress_(11555718324).jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Infested_Mattress_%2811555718324%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-2.0",
+   "credit": "NY State IPM Program at Cornell University from New York, USA, CC BY 2.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 900,
+   "bytes": 210458,
+   "sourceDescription": ".mw-parser-output .messagebox{margin:4px 0;width:auto;border-collapse:collapse;border:2px solid var(--border-color-progressive,#6485d1);background-color:var(--background-color-neutral-subtle,#fbfcff);color:var(--color-base,#202122);box-sizing:border-box;border-inline-start-width:8px}.mw-parser-outpu",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "8637ca06f5c7ffa617ed8c717513fd947ecdc2b248852f191bfdddba2fa04430"
   },
   {
    "file": "/guides/photos/bed-bug-nymph-after-blood-meal.webp",
@@ -1500,6 +1654,20 @@
    "sha256Original": "0c157beef23684d0e26aaaed8480b10cc44d1eae828d4afc17b3b60bacb75ff8"
   },
   {
+   "file": "/guides/photos/bed-bug-pillowcase-ishikawa-inat.webp",
+   "subject": "Bed bug, Cimex lectularius, a small dark bug on a white pillowcase that a hand holds up from the bed, in the observer’s accommodation (Ishikawa, Japan, May 28, 2025; research grade on iNaturalist, two identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/284816530",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/512217191/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1594,
+   "bytes": 98914,
+   "sourceDescription": "Cimex lectularius",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "7abc7cbda529b97232aaa67278a2a04f76a058d16311bba6153f0eb5c0b091a2"
+  },
+  {
    "file": "/guides/photos/bed-bug-signs.webp",
    "subject": "Bed bugs, Cimex lectularius, in an infestation, on fabric (the source does not identify cast skins or fecal spots)",
    "sourceUrl": "https://www.inaturalist.org/observations/9978781",
@@ -1526,6 +1694,20 @@
    "sourceDescription": "Cimex lectularius",
    "downloadedOn": "2026-11-03",
    "sha256Original": "b755f5464449502b9ac14fae45df28e2352867b433dcac3ffd17748499ad072b"
+  },
+  {
+   "file": "/guides/photos/bed-bugs-eggs-dresser-joint.webp",
+   "subject": "Two adult bed bugs and scattered white eggs in the wooden joints inside a dresser that had been standing next to a bed (the photographer’s description)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bedbugs1.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Bedbugs1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-SA-3.0",
+   "credit": "KDS444, CC BY-SA 3.0, via Wikimedia Commons",
+   "width": 548,
+   "height": 517,
+   "bytes": 78382,
+   "sourceDescription": "A cluster of bed bug eggs and two adult bed bugs, from inside a dresser that had been standing next to a bed.",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "82255cb0ea53d5edc48db4ed698d5289aed81fc575a4af279d4586be5b1a0bb0"
   },
   {
    "file": "/guides/photos/bed-bugs-eggs-mattress-seam.webp",
@@ -1821,6 +2003,48 @@
    "sourceDescription": "My cat Zen with a mouse.",
    "downloadedOn": "2026-10-28",
    "sha256Original": "d9f70739ae99879c9d288ee920464d8e211d49bdb348d57d8773aefc2bb75044"
+  },
+  {
+   "file": "/guides/photos/black-fly-feeding-hand-newfoundland.webp",
+   "subject": "Black fly feeding on the photographer’s left hand, side view showing the humped thorax, short antennae and clear wings, the skin reddened around its mouthparts; the photographer says dozens were biting while they trimmed grass and that its abdomen filled with blood over a couple of minutes (Logy Bay, Newfoundland, June 5, 2020; identified by the photographer as genus Prosimulium, needs ID on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/48635194",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/77181493/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 129978,
+   "sourceDescription": "Prosimulium",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "440fa7ed345dc1dfd1d7fa588a7d07150c8c20a98bb7f33286a41d4df628837c"
+  },
+  {
+   "file": "/guides/photos/black-fly-larvae-st-mary-river-nps.webp",
+   "subject": "Black fly larvae (family Simuliidae) massed on rocks underwater in running water, shot at the waterline; the National Park Service caption says black flies lay their eggs in clean running water and the larvae attach themselves to rocks (St. Mary River, August 25, 2018; National Park Service photo from the Glacier National Park Flickr stream)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_Fly_Larvae_in_the_St_Mary_River_(42501180000).jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Black_Fly_Larvae_in_the_St_Mary_River_%2842501180000%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "public-domain",
+   "credit": "GlacierNPS, Public domain, via Wikimedia Commons",
+   "width": 1200,
+   "height": 800,
+   "bytes": 82070,
+   "sourceDescription": "Black flies are sometimes called a buffalo gnat, turkey gnat, or white socks, and are members of the family Simuliidae. Black fly lay their eggs in clean running water, as seen here. The larvae attach themselves to rocks. They use tiny hooks at the ends of their abdomens to hold on to the substrate,",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "440aefa6c4532265db761f54c92263391b5a96c9c598119830ba172903dc8124"
+  },
+  {
+   "file": "/guides/photos/black-fly-swarm-dubawnt-river-nunavut.webp",
+   "subject": "A cloud of small flies over tundra and a person in a hooded jacket covered by them beside the Dubawnt River, Nunavut, July 2015; described on Wikimedia Commons as a black fly attack in the Canadian Arctic (uploaded under CC0 by NicolasPerrault at his father’s request; EXIF author Nicolas Perrault)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_Fly_Attack_on_theDubawnt_River_Nunavut.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Black_Fly_Attack_on_theDubawnt_River_Nunavut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC0-1.0",
+   "credit": "en:user:NicolasPerrault, CC0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 897,
+   "bytes": 252818,
+   "sourceDescription": "Black flies attack in the Canadian arctic, Dubawnt River Nunavut",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "ed77dd509d80cffc9c953193681b3e63adae64d7e27fd0029d674f66a2de28f3"
   },
   {
    "file": "/guides/photos/black-fly.webp",
@@ -2159,6 +2383,20 @@
    "sha256Original": "783e74ebabb3f8721b971615fbb47edb7a6d5ad03af604d72076b67211ee8c36"
   },
   {
+   "file": "/guides/photos/blacklegged-tick-palm-pelham-december.webp",
+   "subject": "Blacklegged tick, Ixodes scapularis, on a person’s open palm outdoors, with leaf litter behind the hand (Pelham, Ontario, December 5, 2022; research grade on iNaturalist, two identifiers; the record states no life stage or sex)",
+   "sourceUrl": "https://www.inaturalist.org/observations/143747676",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/246580962/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 73870,
+   "sourceDescription": "Ixodes scapularis",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "7b87acc301cf36b9f5dc6cce7777bc303c2460473d708ea29db438e45c1c1a55"
+  },
+  {
    "file": "/guides/photos/blacklegged-tick-questing-grass.webp",
    "subject": "Blacklegged (deer) tick, Ixodes scapularis, questing on a blade of grass, side view (CDC photograph)",
    "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=14473",
@@ -2199,6 +2437,20 @@
    "sourceDescription": "This image depicts an adult female blacklegged tick, Ixodes scapularis, that was behind a person’s right ear, being removed with fine-tipped tweezers.",
    "downloadedOn": "2026-11-03",
    "sha256Original": "e5e58592dc1020c39dcae7f4b800def99f59ec6598d203297d11051722b72f42"
+  },
+  {
+   "file": "/guides/photos/blacklegged-tick-toronto-port-lands-february.webp",
+   "subject": "Blacklegged tick, Ixodes scapularis, seen from above and magnified on a pale, crinkled surface (Port Lands, Toronto, Ontario, February 27, 2020; research grade on iNaturalist, three identifiers; the record states no life stage or sex)",
+   "sourceUrl": "https://www.inaturalist.org/observations/41082179",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/65138207/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Paul Prior, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 675,
+   "bytes": 41774,
+   "sourceDescription": "Ixodes scapularis",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "dafcc024ea06a09512e75408935a02477cc822945c1e174a4ce70c779bf77104"
   },
   {
    "file": "/guides/photos/blue-mud-dauber-on-nest.webp",
@@ -2353,6 +2605,20 @@
    "sourceDescription": "This 10-yr study provides a landscape-scale overview of patterns in the vegetation of Alaska's interior. NPS photo",
    "downloadedOn": "2026-11-03",
    "sha256Original": "f33224d9cb62d97b35d726a5f142f703ac4ea6b27257a3c99875db065324a9b9"
+  },
+  {
+   "file": "/guides/photos/bowl-and-doily-spider-web-dew.webp",
+   "subject": "Bowl-and-doily spider web covered in dew on meadow plants (USFWS Northeast Region photograph by Michael Schramm, October 13, 2021; the source identifies the web, and no spider is visible)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bowl-and-Doily_Spider_Web_(51584639382).jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Bowl-and-Doily_Spider_Web_%2851584639382%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "public-domain",
+   "credit": "U. S. Fish and Wildlife Service - Northeast Region, Public domain, via Wikimedia Commons",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 269226,
+   "sourceDescription": "It can be a little alarming to look out over a meadow at morning and see all the spider webs, made visible by droplets of dew. Right now, hardly a bush nor clump of wild grass isn't crowned by the bizarre, double layered web of the Bowl-and-Doily Spider (an insect is knocked out of the air by the ta",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "9a93ece36311b33d873dd1ba13a78a2e38bcb45bdd79521547c8b97dc60d1287"
   },
   {
    "file": "/guides/photos/boxelder-bug-nymph.webp",
@@ -3070,6 +3336,20 @@
    "sha256Original": "ae471e9e9ba6022cec67e0a165b51b23848e429f41fafead144fe3874771bd90"
   },
   {
+   "file": "/guides/photos/carolina-mantis-egg-case-brick-mortar.webp",
+   "subject": "Carolina mantis, Stagmomantis carolina, egg case (ootheca) stuck lengthwise in the mortar joint between red bricks on a wall (Hamilton, Ohio, May 3, 2015; research grade on iNaturalist; the observer first described it as some sort of cocoon attached to brick mortar)",
+   "sourceUrl": "https://www.inaturalist.org/observations/7428543",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/9654132/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Mary Spilman, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 182774,
+   "sourceDescription": "Stagmomantis carolina",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "d544fff8109bc72ce211d50a9b2a83178e0c492dca3f2a6ac7d66d8f994c11d1"
+  },
+  {
    "file": "/guides/photos/carolina-wolf-spider.webp",
    "subject": "Carolina wolf spider, Hogna carolinensis, dorsal view (Oglala Lakota County, South Dakota)",
    "sourceUrl": "https://www.inaturalist.org/observations/201595180",
@@ -3392,6 +3672,20 @@
    "sha256Original": "21c0f2c622df67a749e8f0473d98b0691e26ac91842d611fecf423af1665e917"
   },
   {
+   "file": "/guides/photos/cat-flea-from-dog.webp",
+   "subject": "Cat flea, Ctenocephalides felis, side view, magnified on a white surface, taken off a dog (Athens, Georgia, June 2024; research grade on iNaturalist, three identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/224420331",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/397749624/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1026,
+   "bytes": 39270,
+   "sourceDescription": "Ctenocephalides felis",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "4a1615b394d6eb97939e1830982dbea65e74cfdefa81d06c84034c8a80fca1ab"
+  },
+  {
    "file": "/guides/photos/cat-flea-on-fingertip.webp",
    "subject": "Cat flea, Ctenocephalides felis, on a fingertip, one of the fleas the observer found on his cats (Fort Worth, Texas)",
    "sourceUrl": "https://www.inaturalist.org/observations/371364750",
@@ -3504,6 +3798,20 @@
    "sha256Original": "be4ebfdedb4eb5a138d5f35896ad4186c1991c497c35e0bc16ddab3200770cd5"
   },
   {
+   "file": "/guides/photos/cellar-spider-in-web.webp",
+   "subject": "Longbodied cellar spider, Pholcus phalangioides, hanging upside down in its web (England, July 2013)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Skull_Spider_in_its_web_(9271696030).jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Skull_Spider_in_its_web_%289271696030%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-2.0",
+   "credit": "Jon Bunting from UK, CC BY 2.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 904,
+   "bytes": 40128,
+   "sourceDescription": "Pholcus phalangioides The same spider as the previous shot from a different angle...",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "b0e90136875529782932b0b6e4a4796cae91d85c13862a7d3870c4ac4e959fc6"
+  },
+  {
    "file": "/guides/photos/cellar-spider.webp",
    "subject": "Long-bodied cellar spider, Pholcus phalangioides (Foster City, California)",
    "sourceUrl": "https://www.inaturalist.org/observations/296194035",
@@ -3546,6 +3854,20 @@
    "sha256Original": "a0f3dc707d2e89c2c82d072acf1a9cc58fc4d0f29e3adc7e1d0377b386499e88"
   },
   {
+   "file": "/guides/photos/chicken-pasture-tuckahoe-virginia-usda.webp",
+   "subject": "Chicken walking through a grass pasture with yellow wildflowers at Tuckahoe Plantation, Goochland County, Virginia, May 5, 2011; the USDA caption says the farm’s chickens roam its lawns and pastures (USDA photo by Lance Cheung)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:20110505-USDA-OC-PSD-0008_Agriculture_in_the_United_States.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/20110505-USDA-OC-PSD-0008_Agriculture_in_the_United_States.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "public-domain",
+   "credit": "USDAgov, Public domain, via Wikimedia Commons",
+   "width": 1200,
+   "height": 797,
+   "bytes": 135990,
+   "sourceDescription": "Chicken freely walkabout the lawns and pastures at the Tuckahoe Plantation, in Goochland County, VA area on May 5, 2011. Where they graze on the grass they also leave nutrient rich manure to revitalize the soil, enhancing regrowth. The plantation was the boyhood home of President Thomas Jefferson fr",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "aa34b4cbe814202ce83db7a02e6f67c68b5c56852db2f20f5eb2a47e786b3254"
+  },
+  {
    "file": "/guides/photos/chigger-and-pinhead.webp",
    "subject": "Chigger larva and adult mite on the head of a pin, for size",
    "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=14763",
@@ -3572,6 +3894,63 @@
    "sourceDescription": "After approximately 10-days, this image depicts three erythematous chigger bites, on a patient’s arm. Note the red welts, or blister-like appearance at each of the three bites. Each welt measured approximately 3-4mm in diameter. Chiggers are actually the larval-staged organism in the life cycle of r",
    "downloadedOn": "2026-10-15",
    "sha256Original": "b106cc3ab7b99b84917582deca109967fcd859a2d6999fa403042510e9bf1401"
+  },
+  {
+   "file": "/guides/photos/chigger-bites-sock-line.webp",
+   "subject": "Bites the photographer attributes to chiggers (Trombiculidae): small red bumps, some with a tiny dark center, on the top of a foot and ankle just above a dark sock (Goochland County, Virginia, August 2026; the observer’s identification, annotated Evidence of Feeding on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/394267290",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/722776340/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) stephen, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 84176,
+   "sourceDescription": "Trombiculidae",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "bfd3ac75d296491edc78ac882c71e1d57a7aa8c7f283934a27d78561d110e019"
+  },
+  {
+   "file": "/guides/photos/chigger-bites-waistline-cdc.webp",
+   "subject": "Chigger bites: red welts in a band along the beltline on a patient’s right flank, which CDC attributes to the chigger Eutrombicula lipovskyana (CDC photograph, 1966; the bottom 30% is cropped off so the groin at the lower edge is out of frame)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=20200",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/20200/20200.tif",
+   "license": "public-domain",
+   "credit": "CDC/ P. Parsons (CDC Public Health Image Library, phil.cdc.gov)",
+   "edited": "bottom 30% cropped (caption strip)",
+   "width": 1200,
+   "height": 1276,
+   "bytes": 42194,
+   "sourceDescription": "These red cutaneous lesions, which appeared on this patient’s right flank, represented chigger bite marks, made by the arachnid, Eutrombicula lipovskyana. These chigger bites can cause intense itching, and reddish welts on the skin. E. lipovskyana are not known to transmit infectious diseases in the",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "67c99867f341daa0c456159466be511868cb12f61e6df2a0b3a305f52e43cd15"
+  },
+  {
+   "file": "/guides/photos/chigger-larva-on-skin.webp",
+   "subject": "Chigger larva (Trombiculidae), orange, legs visible, on the photographer’s skin after time in woodland undergrowth (Huntingdon County, Pennsylvania, July 2025; the observer’s identification)",
+   "sourceUrl": "https://www.inaturalist.org/observations/305255840",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/550363980/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Cecil Smith, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 802,
+   "bytes": 44132,
+   "sourceDescription": "Trombiculidae",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "0d65fa11de3610178781c8e952edee3519bfa11b17302bb39e1dcb783623602a"
+  },
+  {
+   "file": "/guides/photos/chigger-larva-on-tweezers.webp",
+   "subject": "Chigger larva (Trombiculidae), orange, on the rounded tip of a pair of metal tweezers, picked off the photographer’s skin (same observation as chigger-larva-on-skin; Huntingdon County, Pennsylvania)",
+   "sourceUrl": "https://www.inaturalist.org/observations/305255840",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/550364511/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Cecil Smith, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 802,
+   "bytes": 20016,
+   "sourceDescription": "Trombiculidae",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "9ec4c05a75ac74f3e03e3b14b4d22f145d4aab3af005b98cc9d19335f11e7453"
   },
   {
    "file": "/guides/photos/chinese-mantis-egg-case-arborvitae.webp",
@@ -3939,6 +4318,20 @@
    "sha256Original": "a682a23ed54a1549144667b578dd0ff0b462ecef42056865150ad2808a8abcee"
   },
   {
+   "file": "/guides/photos/common-house-spider-cobweb-window.webp",
+   "subject": "Common house spider, Parasteatoda tepidariorum, adult female (as annotated) eating a lacewing in her cobweb at a window, with two egg sacs in the web, as the observer describes it (Seattle, Washington, August 13, 2018; research grade on iNaturalist, two identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/15400038",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/23083803/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 74648,
+   "sourceDescription": "Parasteatoda tepidariorum",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "736fae699988c52522bb55e42b7ce723c758fe7a02d0d1b7e81152247f9abc7f"
+  },
+  {
    "file": "/guides/photos/common-house-spider-egg-sac.webp",
    "subject": "Common house spider, Parasteatoda tepidariorum, adult female beside an egg sac in her web (Logan, Ohio)",
    "sourceUrl": "https://www.inaturalist.org/observations/291856092",
@@ -3951,6 +4344,20 @@
    "sourceDescription": "Parasteatoda tepidariorum",
    "downloadedOn": "2026-10-16",
    "sha256Original": "1fe50290ff3c5a36260cb55e47c6fea4daf3914e73c13c7105ef3fa8c34be17c"
+  },
+  {
+   "file": "/guides/photos/common-house-spider-spiderlings-egg-sac.webp",
+   "subject": "Common house spider, Parasteatoda tepidariorum: dozens of tiny spiderlings clustered around a brown, papery egg sac in a cobweb against a pale surface, from an observation the observer titles Female house spider and her spiderlings (Urbana, Illinois, July 15, 2024; research grade on iNaturalist, 2 identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/229533845",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/407446017/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 45386,
+   "sourceDescription": "Parasteatoda tepidariorum",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "2bf13b6583e607c7d8ced296ffbf95dcbc4fd6fd81e3af5e474f7b8a194b01fb"
   },
   {
    "file": "/guides/photos/common-house-spider.webp",
@@ -4275,6 +4682,20 @@
    "sha256Original": "cc60c023cbd1a7f432afcc606cbb28ddaba874ae0ca48ad4b9132043cc1d2b05"
   },
   {
+   "file": "/guides/photos/cross-orbweaver-spiderlings-cluster.webp",
+   "subject": "Cross orbweaver, Araneus diadematus, spiderlings (life stage annotated juvenile) packed together on silk: yellow abdomens with black markings; the observer describes them as spiderlings on the side of the garage (Logy Bay, Newfoundland, Canada, July 7, 2023; research grade on iNaturalist, 2 identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/171761427",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/298086135/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 907,
+   "bytes": 133222,
+   "sourceDescription": "Araneus diadematus",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "d1d2dd418d5ced9a1b5069c94f0d05bfff244a6cf7f1bda6b94f17221552dd29"
+  },
+  {
    "file": "/guides/photos/crow-peeling-turf-for-grubs.webp",
    "subject": "American crow, Corvus brachyrhynchos, pulling at a lifted chunk of turf at a lawn’s edge beside a sidewalk; the observer says it was peeling back turf to get at grubs (Vancouver, British Columbia; research grade on iNaturalist)",
    "sourceUrl": "https://www.inaturalist.org/observations/188219345",
@@ -4315,6 +4736,20 @@
    "sourceDescription": "This is a photograph depicting 4-larvae of the Culex quinquefasciatus mosquito, also known as the southern house mosquito. These 4-larvae represent the four stages of larval development. Larvae shed their skin several times, a process known as molting, during these stages, also referred to as instar",
    "downloadedOn": "2026-10-15",
    "sha256Original": "9b39a0bc2f5cff8b551015c38d66cf65f9733c5b1285d9ac9a41acf09c25d8de"
+  },
+  {
+   "file": "/guides/photos/culex-pipiens-wall-kingston-ontario.webp",
+   "subject": "Northern house mosquito, Culex pipiens, resting on a white surface, side view (Kingston, Ontario, September 21, 2020; research grade on iNaturalist, three identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/60366559",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/96521935/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Owen Strickland, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 800,
+   "bytes": 25572,
+   "sourceDescription": "Culex pipiens",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "baa9f887dd0f2c4c582c4841207eff448ad2ced1a6a5394edb6f40e5359c9472"
   },
   {
    "file": "/guides/photos/culex-pipiens.webp",
@@ -4441,6 +4876,20 @@
    "sourceDescription": "Culex tarsalis",
    "downloadedOn": "2026-11-03",
    "sha256Original": "17caadfb3f5901149e1ac362e43c7abe6abbe63e8095d5b212cfeecadd6bc48c"
+  },
+  {
+   "file": "/guides/photos/culex-territans-unheated-shed-march.webp",
+   "subject": "Mosquito, Culex territans, resting at a window in an unheated shed, as the observer describes the place (Ontario, March 20, 2025; research grade on iNaturalist, two identifiers to species, the observer at subfamily)",
+   "sourceUrl": "https://www.inaturalist.org/observations/266152978",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/478176230/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 15202,
+   "sourceDescription": "Culex territans",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "7c5990744afe66c4db3b21b286942b1db24f618e61a6107fbbaa3f122db5f3b3"
   },
   {
    "file": "/guides/photos/dandruff-flakes.webp",
@@ -5017,6 +5466,34 @@
    "sha256Original": "b4049b9e3e07fb5dbc154fb021e21a84f7062407d4c88c51d4e83984c09f53a7"
   },
   {
+   "file": "/guides/photos/earwig-dog-rose-blossom.webp",
+   "subject": "A small earwig feeding in the centre of a pink dog rose blossom beside the Danube near Reibersdorf (the photographer’s description, translated from German)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ohrwurm_in_Hundsrosenbl%C3%BCte.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Ohrwurm_in_Hundsrosenbl%C3%BCte.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-SA-4.0",
+   "credit": "Rosa-Maria Rinkl, CC BY-SA 4.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 900,
+   "bytes": 58560,
+   "sourceDescription": "Ein kleiner Ohrwurm labt sich in einer Hundsrosen-Blüte. Die Aufnahme entstand entlang der Donau bei Reibersdorf.",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "91e37c95b93a8a3c0ef922559f72c66914c75da76baf8e207a6362b5d1b17db7"
+  },
+  {
+   "file": "/guides/photos/earwig-shelter-flowerpot-tree.webp",
+   "subject": "Earwig shelter: a clay flowerpot stuffed with wood wool, held in wire mesh and hung upside down in a blossoming tree, its rim touching the trunk so earwigs can climb in (the photographer’s description, translated from German)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ohrwurmquartier.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Ohrwurmquartier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-3.0",
+   "credit": "Velotopist, CC BY 3.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 900,
+   "bytes": 106572,
+   "sourceDescription": "Ohrwurmquartier: Blumentopf mit Holzwolle gefüllt, kopfüber in einen Baum gehängt, Topfrand mit Stammberührung zum Überstieg der Ohrwürmer",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "0a360d3952fe01d337359055121c1017f1a4223f98bebb2e6539ee4b9bef5927"
+  },
+  {
    "file": "/guides/photos/eastern-copperhead.webp",
    "subject": "Eastern copperhead, Agkistrodon contortrix, coiled in leaf litter (Houston, Texas)",
    "sourceUrl": "https://www.inaturalist.org/observations/5969441",
@@ -5169,6 +5646,34 @@
    "sourceDescription": "Malacosoma americana",
    "downloadedOn": "2026-11-10",
    "sha256Original": "c4d71149fc2839878f2bf2a57252bd90ad5fb46d9672164d7210d656a3ff67a3"
+  },
+  {
+   "file": "/guides/photos/eastern-tent-caterpillar-tent.webp",
+   "subject": "Eastern tent caterpillars, Malacosoma americanum, massed on their silk tent in the fork of a tree (2005)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eastern_Tent_Caterpillar_(tent_far).JPG",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Eastern_Tent_Caterpillar_%28tent_far%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "public-domain",
+   "credit": "J.R. Carmichael, Public domain, via Wikimedia Commons",
+   "width": 1200,
+   "height": 900,
+   "bytes": 166846,
+   "sourceDescription": "An Eastern Tent Caterpillar tent, showing many caterpillars bundled together (presumably for heat conservation).",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "e7fecfc9111afe737980dee732f51b1d58fc0eeaad93c961128f2907a8e5a89e"
+  },
+  {
+   "file": "/guides/photos/eastern-white-cedar-deer-browse-line-vermont.webp",
+   "subject": "Eastern white cedars, Thuja occidentalis (the observer’s identification; needs ID on iNaturalist), at a field edge with bare trunks below an even line, which the observer describes as a deer browse line (Milton, Vermont, April 30, 2023)",
+   "sourceUrl": "https://www.inaturalist.org/observations/158406972",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/273771202/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) naturalist charlie, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 163020,
+   "sourceDescription": "Thuja occidentalis",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "d5414277c8b242f215b06af2033827dc295c43c393993cabe4d64206d52b8bec"
   },
   {
    "file": "/guides/photos/eastern-yellowjacket-live.webp",
@@ -5379,6 +5884,34 @@
    "sourceDescription": "Amphimallon majale",
    "downloadedOn": "2026-11-03",
    "sha256Original": "f393ae7c3d8acb45194e9e6fc9464690ef3dedc38c00097ba9f9e57d5a373bec"
+  },
+  {
+   "file": "/guides/photos/european-earwig-female-eggs-nest-chester.webp",
+   "subject": "Female European earwig, Forficula auricularia, in her nest chamber in the soil with a clutch of pale eggs, under a house brick in a garden, which was put back afterwards (Chester, UK; photo by Tom Oates, 2010; the photographer’s description)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nesting_Earwig_Chester_UK_1.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Nesting_Earwig_Chester_UK_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-SA-3.0",
+   "credit": "Photo by Tom Oates, 2010",
+   "width": 1200,
+   "height": 941,
+   "bytes": 186862,
+   "sourceDescription": "Female earwig Forficula auricularia in its nest with eggs. The nest is underneath a house-brick in the garden. The brick was carefully replaced after the photo was taken. Photographed in Chester, UK.",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "42de683de9cf84ef5a68a077c4824fbcf762a614adbb1daf8e3fd502a8119008"
+  },
+  {
+   "file": "/guides/photos/european-earwig-female-guelph-ontario.webp",
+   "subject": "Female European earwig, Forficula auricularia, with straight, nearly parallel forceps, on lichen-covered bark, seen from above (Guelph, Ontario; the photographer’s identification)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:European_Earwig_(Forficula_auricularia),_Female_-_Guelph,_Ontario.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/European_Earwig_%28Forficula_auricularia%29%2C_Female_-_Guelph%2C_Ontario.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-SA-4.0",
+   "credit": "Ryan Hodnett, CC BY-SA 4.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 675,
+   "bytes": 133580,
+   "sourceDescription": "Female European Earwig (Forficula auricularia) in Guelph, Ontario, Canada.",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "7c0ae15164a258600ca1b5019fdce15480bbe7f2501d12fef5cec2a472da3f19"
   },
   {
    "file": "/guides/photos/european-earwig-male.webp",
@@ -5717,6 +6250,20 @@
    "sha256Original": "542932ebb8deb62910753826f372939c652308e7cccd70f7ca5edc9d574d037a"
   },
   {
+   "file": "/guides/photos/flea-bites-lower-leg-close-up.webp",
+   "subject": "Flea bites on the lower leg of a person, enlarged: small, separate red spots among the hairs (the uploader’s description; same uploader and leg as flea-bites-lower-leg)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flea_Bites_on_the_Lower_Leg_02.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Flea_Bites_on_the_Lower_Leg_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-4.0",
+   "credit": "Maslesha, CC BY 4.0, via Wikimedia Commons",
+   "width": 1159,
+   "height": 1036,
+   "bytes": 81680,
+   "sourceDescription": "An enlarged photo of the flea bites on the lower leg of a human subject.",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "f5a068570f66b66f875403cba90a414bda42edf4a508e234ef20d073f1be744c"
+  },
+  {
    "file": "/guides/photos/flea-bites-lower-leg.webp",
    "subject": "Flea bites on the lower leg",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flea_Bites_to_the_Lower_Leg_of_a_Human_Subject_01.jpg",
@@ -5771,6 +6318,20 @@
    "sourceDescription": "Larve du premier stade (L1) de la puce du chat et du chien (Ctenocephalides felis)",
    "downloadedOn": "2026-10-15",
    "sha256Original": "93d787ef253ddb5ab639dd300c5fba69857a8cce53743d06bd8bc38639e7c50b"
+  },
+  {
+   "file": "/guides/photos/flea-eggs-larvae-and-flea-dirt.webp",
+   "subject": "Cat flea, Ctenocephalides felis: eggs (white ovals), larvae and flea dirt (reddish-black specks and curls) found breeding under a jigsaw puzzle on a table where one of the observer’s cats likes to sleep (Austin, Texas, July 2024; research grade on iNaturalist, three identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/232149666",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/412399508/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Justin Williams, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 253042,
+   "sourceDescription": "Ctenocephalides felis",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "71e71e00941b512d90511e6e98872f314d418459052ada38f682d7cbeac71aae"
   },
   {
    "file": "/guides/photos/flea-larva-and-adult.webp",
@@ -6054,6 +6615,20 @@
    "sha256Original": "6f9008943a5fa27fc089c59f6c5c4da078f00da9c4c0d1860f6f3c4d419e4a7e"
   },
   {
+   "file": "/guides/photos/funnel-weaver-web-leaf.webp",
+   "subject": "Funnel web spider (the source names no species) inside the silk tube of its sheet-and-funnel web on a green leaf (USFWS Midwest Region photograph by Courtney Celley, July 12, 2014)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Funnel_Web_Spider_(14465564710).jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Funnel_Web_Spider_%2814465564710%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "public-domain",
+   "credit": "U.S. Fish and Wildlife Service - Midwest Region, Public domain, via Wikimedia Commons",
+   "width": 1200,
+   "height": 888,
+   "bytes": 117078,
+   "sourceDescription": "Photo by Courtney Celley/USFWS.",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "8e50f6731d3f5ea60424a8dd5c109034d0f5d6f5f91519045dc991186544edd1"
+  },
+  {
    "file": "/guides/photos/furrow-orb-weaver-back-door.webp",
    "subject": "Furrow orbweaver, Larinioides cornutus, in the web it rebuilt across a back door every night for two months, with the room inside the house behind it (Hamilton, Ohio)",
    "sourceUrl": "https://www.inaturalist.org/observations/243698225",
@@ -6250,6 +6825,20 @@
    "sha256Original": "18cf5cea1776f1385cc8f451ea42c9966b16f10f3f22cc8ea6cea62afe6c3f0d"
   },
   {
+   "file": "/guides/photos/german-cockroach-stained-gap.webp",
+   "subject": "German cockroach, Blattella germanica, entering a dark gap where two white-painted surfaces meet, with brown-black staining spread around the gap (Jakarta, Indonesia; research grade on iNaturalist, two identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/375366965",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/686199055/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) abidanimallover, some rights reserved (CC BY), via iNaturalist",
+   "width": 1152,
+   "height": 2048,
+   "bytes": 131520,
+   "sourceDescription": "Blattella germanica",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "47d6cf7e15cc21e09422265e2017bb3ddd887cde688dd66dc17227845a264907"
+  },
+  {
    "file": "/guides/photos/german-cockroach-white-surface.webp",
    "subject": "German cockroach, Blattella germanica, adult (as annotated) on a white surface (Vincennes, Indiana; research grade on iNaturalist, three identifiers)",
    "sourceUrl": "https://www.inaturalist.org/observations/328181867",
@@ -6276,6 +6865,34 @@
    "sourceDescription": "This photograph depicted the dorsal view of the female German cockroach, Blattella germanica.",
    "downloadedOn": "2026-10-16",
    "sha256Original": "4ee7fa25ad2ad95bc86bc40d8c3a9bb68c0fdda01fac49179b70c836d358bedd"
+  },
+  {
+   "file": "/guides/photos/german-cockroaches-all-sizes-glue-board.webp",
+   "subject": "German cockroaches, Blattella germanica: winged adults with two dark stripes behind the head and nymphs of several sizes, down to tiny ones, stuck together on a printed glue board with scattered droppings (Honolulu, Hawaii; research grade on iNaturalist, two identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/161051718",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/278351606/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Kevin Faccenda, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 246004,
+   "sourceDescription": "Blattella germanica",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "7f0d44811805eb77469e5ae67ae1a207ccc5ac9ba96d2bf0cad93ceb9599e953"
+  },
+  {
+   "file": "/guides/photos/german-cockroaches-plug-in-adapter.webp",
+   "subject": "German cockroaches, Blattella germanica (the observer's identification; needs ID on iNaturalist): dark nymphs at the seam between a white plug-in adapter and the wall plate behind it, the adapter spattered with dark droppings and brown smear marks (Fort Mill, South Carolina)",
+   "sourceUrl": "https://www.inaturalist.org/observations/322449649",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/583325019/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Zach Johnson, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 38384,
+   "sourceDescription": "Blattella germanica",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "0dc6853e1aa8b82b57ec386bc8df75831c79a3ee0c8ea4e044ac9a0db24ef459"
   },
   {
    "file": "/guides/photos/german-yellowjacket-soda-cup.webp",
@@ -6558,6 +7175,20 @@
    "sha256Original": "97b996b9dbd3337a128412f0a3acf399ef62715fc97b570bc6b72dc1f476f0e0"
   },
   {
+   "file": "/guides/photos/gray-fox-scat-fresh-inch-ruler.webp",
+   "subject": "Gray fox, Urocyon cinereoargenteus, scat beside an inch ruler on a gravel trail: one fresh, dark, rope-like dropping with a tapered, twisted end, recorded by the observer as 2 inches long and under 1/2 inch wide; species confirmed by DNA analysis in the UC Santa Cruz Conservation Scats Project, identification agreed on iNaturalist by tracker Kim Cabrera (Coyote Trail, Rancho San Antonio Open Space Preserve, California, June 8, 2014)",
+   "sourceUrl": "https://www.inaturalist.org/observations/12313484",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/17782747/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 117750,
+   "sourceDescription": "Urocyon cinereoargenteus",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "04c1d00f531c2273d9801f71062598d3d2295a80fb4d5119a55435252ead56cc"
+  },
+  {
    "file": "/guides/photos/gray-fox-scat-ruler.webp",
    "subject": "Gray fox scat beside a ruler on a trail, recorded by the observer as 3.5 inches long and about 1/2 inch wide, with a thin twisted tip; species confirmed by DNA analysis in the UC Santa Cruz Conservation Scats Project, identification agreed on iNaturalist by tracker beartracker (PG&E Trail, Rancho San Antonio Open Space Preserve, California, March 2015)",
    "sourceUrl": "https://www.inaturalist.org/observations/12603775",
@@ -6572,6 +7203,34 @@
    "sha256Original": "6a358fe1759bba3ed007720d3d79b36b950e8867306f48f85c9d7d793f5101fe"
   },
   {
+   "file": "/guides/photos/gray-fox-scat-vs-coyote-scat-ruler.webp",
+   "subject": "Gray fox, Urocyon cinereoargenteus, scat beside a 6-inch ruler, slim and dark, with older, thicker, gray coyote scats nearby in what the observer, tracker Garth Harwood, calls a latrine area; he notes the fox scat is noticeably smaller in diameter than the coyote scats (San Mateo County, California, March 5, 2026; research grade on iNaturalist, observer and tracker Kim Cabrera; the coyote identification is the observer’s)",
+   "sourceUrl": "https://www.inaturalist.org/observations/343732090",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/626199616/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Garth Harwood, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 322314,
+   "sourceDescription": "Urocyon cinereoargenteus",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "62dd9ceb4f73bef5734a2c78b97cabeb5fec4a5b1271bdbad238877e4ec71032"
+  },
+  {
+   "file": "/guides/photos/gray-fox-scats-on-rock.webp",
+   "subject": "Gray fox, Urocyon cinereoargenteus, scats old and new piled on top of a lichen-covered rock beside a trail; the observer found droppings on many exposed rocks along the trail (Olompali State Historic Park, Novato, California, January 7, 2021; research grade on iNaturalist, observer and tracker Kim Cabrera)",
+   "sourceUrl": "https://www.inaturalist.org/observations/67872552",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/109770139/original.jpg",
+   "license": "CC-BY-SA-4.0",
+   "credit": "(c) Arvel Hernandez, some rights reserved (CC BY-SA), via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 460680,
+   "sourceDescription": "Urocyon cinereoargenteus",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "8eff4dbd65ee3d4baae64a998762a50650283838116a8ca7d88096f2b273752d"
+  },
+  {
    "file": "/guides/photos/gray-silverfish-in-sink.webp",
    "subject": "Gray silverfish (long-tailed silverfish), Ctenolepisma longicaudatum, seen from above in a white sink where the observer found it (Winter Park, Florida, March 31, 2022; research grade on iNaturalist, species confirmed by Nikola Szucsich, the top identifier of silverfish there)",
    "sourceUrl": "https://www.inaturalist.org/observations/109984321",
@@ -6584,6 +7243,20 @@
    "sourceDescription": "Ctenolepisma longicaudatum",
    "downloadedOn": "2026-11-10",
    "sha256Original": "54943b40c0d69a51b3c8cf0310143e1ea3483252e5521631c16213c3ddc451aa"
+  },
+  {
+   "file": "/guides/photos/gray-silverfish-paper-damage-plate.webp",
+   "subject": "Gray silverfish, Ctenolepisma longicaudatum: figure plate from Sammet et al. 2021 (Biodiversity Data Journal 9: e61848, Estonia) showing an adult in dorsal view beside a 5 mm scale bar (A), close-ups of the head, abdomen and head setae (B-D), and a comparison of damaged (E) and undamaged (F) paper beside 5 mm scale bars, which the authors cite for the species being a substantial pest of paper",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ctenolepisma_longicaudatum_(10.3897-BDJ.9.e61848)_Figure_1.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Ctenolepisma_longicaudatum_%2810.3897-BDJ.9.e61848%29_Figure_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-4.0",
+   "credit": "Sammet K, Martin M, Kesküla T, Kurina O (2021) An update to the distribution of invasive Ctenolepisma longicaudatum Escherich in northern Europe, with an overview of other records of Estonian synanthropic bristletails (Insecta: Zygentoma). Biodiversity Data Journal 9: e61848., CC BY 4.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 1392,
+   "bytes": 166942,
+   "sourceDescription": "Figure 1; Ctenolepisma longicaudatum Escherich, 1905 (A–D) and a comparison of damaged (E) and undamaged (F) paper. A. General facies, dorsal view; part of dorsal scales are detached; B. Closer view of the head, dorsal view; C. Posterior part of the abdomen, dorsal view; red arrows show three bristl",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "f98642e5fec5531769b474d605460d1523c8b67537adeba6a8d2d4f43c14fa8b"
   },
   {
    "file": "/guides/photos/gray-silverfish.webp",
@@ -6795,6 +7468,34 @@
    "sourceDescription": "Oxidus gracilis",
    "downloadedOn": "2026-10-15",
    "sha256Original": "da7bd3937474a46abfb4ffaa7691f817b4aed700cd1569d7a38e2e6cc2e43174"
+  },
+  {
+   "file": "/guides/photos/greenhouse-whitefly-adult-hollyhock-leaf.webp",
+   "subject": "Greenhouse whitefly, Trialeurodes vaporariorum, an adult on the hairy underside of a hollyhock (Alcea rosea) leaf, where the observer found it (Belgrade, Serbia, October 30, 2019; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/35081733",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/55297570/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Mihajlo Tomić, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 705,
+   "bytes": 75780,
+   "sourceDescription": "Trialeurodes vaporariorum",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "b1ad5ab8be5c153980de1d8dd7e3454081aa848c4568e4448bda65220830429a"
+  },
+  {
+   "file": "/guides/photos/greenhouse-whitefly-puparia-tomato-leaf.webp",
+   "subject": "Greenhouse whitefly, Trialeurodes vaporariorum, two puparia among the hairs of a tomato leaf in a glasshouse, greatly magnified (Gembloux, Belgium, September 15, 2022; research grade on iNaturalist; photographer Gilles San Martin)",
+   "sourceUrl": "https://www.inaturalist.org/observations/135450403",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/231019857/original.jpg",
+   "license": "CC-BY-SA-4.0",
+   "credit": "(c) Gilles San Martin, some rights reserved (CC BY-SA), via iNaturalist",
+   "width": 1200,
+   "height": 899,
+   "bytes": 170132,
+   "sourceDescription": "Trialeurodes vaporariorum",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "e5c356803e4b3281a7148be94e40dc4c1666f75453167951b56e39c359e08b1a"
   },
   {
    "file": "/guides/photos/greenhouse-whitefly.webp",
@@ -7105,6 +7806,20 @@
    "sha256Original": "ccf1199a2913871202c151aa990f88f5bfe0aec91bac3c284d1af2e14d3260b0"
   },
   {
+   "file": "/guides/photos/helmeted-guineafowl-flock-lawn-vermont.webp",
+   "subject": "Helmeted guineafowl, Numida meleagris, five birds on a grass lawn in winter (New Haven, Vermont, January 26, 2012; recorded on iNaturalist as captive or cultivated)",
+   "sourceUrl": "https://www.inaturalist.org/observations/21041620",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/32473386/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 225732,
+   "sourceDescription": "Numida meleagris domesticus",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "e43969688a225c94bd86773e0418cd6b56f993c12ee63c63dcef060e43a5e843"
+  },
+  {
    "file": "/guides/photos/hickory-tussock-caterpillar.webp",
    "subject": "Hickory tussock moth caterpillar, Lophocampa caryae, on a leaf (Washington County, Vermont)",
    "sourceUrl": "https://www.inaturalist.org/observations/94044130",
@@ -7383,6 +8098,20 @@
    "sourceDescription": "This image depicts a dorsal view of a female horse-fly, Tabanus stygius, which had been collected at White Pond, in Sudbury, Massachusetts. T. stygius are very large, dark flies found in mid-summer, biting during the day. Their thorax is whitish, displaying several dark longitudinal lines, while the",
    "downloadedOn": "2026-10-15",
    "sha256Original": "98c15432747fa695587fd95c4f4a46453cef4ecbe14f3d6ee15f33e9f3a23eb7"
+  },
+  {
+   "file": "/guides/photos/house-cat-track-mud.webp",
+   "subject": "House cat, Felis catus, track: one print in soft mud showing four round toes and a broad heel pad with no claw marks (Capon Bridge, West Virginia, April 2022; research grade on iNaturalist, five identifiers including tracker Kim Cabrera)",
+   "sourceUrl": "https://www.inaturalist.org/observations/111203925",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/187699122/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Matthew Gerke, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 340188,
+   "sourceDescription": "Felis catus",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "17c91328b73335658d5c68322ef8b4dd6e118599e8d28aa4b7fd17df9f769e11"
   },
   {
    "file": "/guides/photos/house-cat-track-snow-ruler.webp",
@@ -7707,6 +8436,34 @@
    "sha256Original": "abb016578d1ed53a72415e61c5f84f6c4c6046e605ceae13e458115d60204534"
   },
   {
+   "file": "/guides/photos/house-mouse-nest-leaves-young.webp",
+   "subject": "House mouse, Mus musculus, nest of dead leaves and dry grass with several furred young in the middle, uncovered under a grain barrel in a driveway, spilled seed around it (Zebulon, North Carolina, December 2020; research grade on iNaturalist, two identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/66167138",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/106607789/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 517654,
+   "sourceDescription": "Mus musculus",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "6ef7ffa846e466f5957694880dbf16170ca1f78b03081dfed7cd05dab8f68e15"
+  },
+  {
+   "file": "/guides/photos/house-mouse-nest-shed-corner.webp",
+   "subject": "Mouse nest: a dome of shredded dry grass in the corner of a shed, on plywood scattered with droppings; the observer identified it as a house mouse nest, Mus musculus (Clarksville, Maryland, November 2025; no second identification on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/326362706",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/591065077/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) froggymum, some rights reserved (CC BY), via iNaturalist",
+   "width": 1050,
+   "height": 1153,
+   "bytes": 128020,
+   "sourceDescription": "Mus musculus",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "107047ab9cb98711078d2253df4f744e4b8f2bf5c5317005ccd5bc17a581dfe2"
+  },
+  {
    "file": "/guides/photos/house-mouse-on-stove.webp",
    "subject": "House mouse, Mus musculus, on a kitchen stovetop burner (Washington, DC)",
    "sourceUrl": "https://www.inaturalist.org/observations/300314476",
@@ -7887,6 +8644,76 @@
    "sourceDescription": "An indianmeal moth (Plodia interpunctella).",
    "downloadedOn": "2026-10-15",
    "sha256Original": "35dfd5cec5cb48de0f795beba63f96df033df6b12dbca75a0e505eec54f0ecf9"
+  },
+  {
+   "file": "/guides/photos/insect-eggs-porch-screen.webp",
+   "subject": "Insect eggs whose maker is not identified: hundreds of small, round, white eggs laid in a loose cluster on a porch window screen (New London, New Hampshire, August 29, 2023; the leading iNaturalist identification is only Insecta, so no species, order or family is claimed)",
+   "sourceUrl": "https://www.inaturalist.org/observations/180774090",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/314975925/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 192106,
+   "sourceDescription": "Insecta",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "ebe960acf68073ff95b33c2bee5f4f7b5ebb757fd3467ce0288afb3aa54e8dff"
+  },
+  {
+   "file": "/guides/photos/insect-repellent-adult-applying-child-cdc.webp",
+   "subject": "Adult kneeling on grass beside a playground and applying insect repellent to a child (CDC photograph, 2022; the product is not named)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=27873",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/27873/27873.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Amy E. Lockwood, MS; Division of Vector-Borne Diseases; photo: Patrick Edmiston-Photography Protagonist (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 1801,
+   "bytes": 257378,
+   "sourceDescription": "This image depicts an adult applying insect repellent to a child.",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "65c88db1fe32c77024788ab7e01d28035e9645208f5552c3d2f087ec70e80791"
+  },
+  {
+   "file": "/guides/photos/insect-repellent-reading-label-cdc.webp",
+   "subject": "Hands holding a spray bottle of insect repellent and reading its label instructions before applying the product (CDC photograph, 2022; the CDC caption adds: always follow label instructions; the product is not named)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=27878",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/27878/27878.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Amy E. Lockwood, MS; Division of Vector-Borne Diseases; photo: Patrick Edmiston-Photography Protagonist (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 800,
+   "bytes": 52658,
+   "sourceDescription": "This image depicts a person reading insect repellent label instructions before applying the product. Always follow label instructions.",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "9f93cfc1beba514b9cde202dda2cbf0b4e17cfac0b0b02b1d39cf364af0a8341"
+  },
+  {
+   "file": "/guides/photos/insect-repellent-spray-hand-first-cdc.webp",
+   "subject": "Person spraying mosquito repellent from an aerosol can into the palm of her own hand first, the way the CDC caption says to apply it to the face instead of spraying the face directly (CDC photograph, 2014)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=17795",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/17795/17795.tif",
+   "license": "public-domain",
+   "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 880,
+   "bytes": 68146,
+   "sourceDescription": "This image depicts a consumer in the process of correctly applying mosquito repellant spray first to her hand, which she will then apply to her face. Do not spray mosquito repellant directly to your face. In 2014, the first locally acquired case of chikungunya, a mosquito-borne disease, was reported",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "b05e022587da03c023bfdcf55c6cc0702611ccca9f9e5d6ab0de2ae6e576926b"
+  },
+  {
+   "file": "/guides/photos/insect-repellent-teen-spraying-forearm-cdc.webp",
+   "subject": "Teenager spraying insect repellent onto a bare forearm outdoors, close view of the hands, can and arm (CDC photograph, 2022; the CDC caption: a teenager applying insect repellent to protect from mosquito bites; the product is not named)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=27877",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/27877/27877.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Amy E. Lockwood, MS; Division of Vector-Borne Diseases; photo: Patrick Edmiston-Photography Protagonist (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 800,
+   "bytes": 30894,
+   "sourceDescription": "This image depicts a teenager applying insect repellent to protect from mosquito bites.",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "5ac0c97b893a5fa77c274f706f3e1ceafe7be24989b96a863842ad3410968a3c"
   },
   {
    "file": "/guides/photos/io-caterpillar-sting-swelling.webp",
@@ -8140,6 +8967,34 @@
    "sourceDescription": "Note: Some of the following information may have arrived from the agency cut off or incomplete. Alternative Title: Juvenile Copperhead, Agkistrodon contortrix. Creator: Pattavina, Pete. Descriptive Note: Juvenile copperhead, Georgia. Subjects: Copperhead; Agkistrodon contortix; juvenile; snake; Rept",
    "downloadedOn": "2026-10-29",
    "sha256Original": "2a375ae6959edb43d56cb51175b65e98ff35df2dc89cdcef6ac8cd7f3ede2697"
+  },
+  {
+   "file": "/guides/photos/katydid-eggs-sycamore-twig.webp",
+   "subject": "Angle-winged katydid eggs (genus Microcentrum, research grade on iNaturalist, two identifiers): flat, gray, oval eggs overlapping in a double row along a sycamore twig, about 4 by 3 mm each by the observer's estimate (Highland Heights, Kentucky, September 2, 2022)",
+   "sourceUrl": "https://www.inaturalist.org/observations/133383428",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/227187117/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) M. Whitson, some rights reserved (CC BY), via iNaturalist",
+   "width": 1000,
+   "height": 1000,
+   "bytes": 85506,
+   "sourceDescription": "Microcentrum",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "cc91108d0deec63b6c30a761bc5663666cb3def05583ca6d63fd4666029f5964"
+  },
+  {
+   "file": "/guides/photos/lacewing-eggs-window-penny.webp",
+   "subject": "Lacewing eggs (family Chrysopidae, the identification on iNaturalist): a bunch of white, oval eggs hanging on hair-thin silk stalks from window glass, above a U.S. penny held for scale (Oak Bluffs, Massachusetts, September 10, 2025; the observer described them as hanging from filaments attached to window glass)",
+   "sourceUrl": "https://www.inaturalist.org/observations/312978229",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/565166182/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Chris Baer, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1800,
+   "bytes": 246950,
+   "sourceDescription": "Chrysopidae",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "73fd2377e15522f889790914b6503f0981bfa21e5cd1f835144ffcd0e5aa3086"
   },
   {
    "file": "/guides/photos/lady-beetle-eggs-cluster-leaf.webp",
@@ -8673,6 +9528,20 @@
    "sourceDescription": "Lyctus",
    "downloadedOn": "2026-11-10",
    "sha256Original": "70263ce3bcd9aa4c930bdd04165b187393a70f764a3820663455a08b73a16fb8"
+  },
+  {
+   "file": "/guides/photos/lyme-arthritis-knee-swelling-child.webp",
+   "subject": "Swelling of the right knee (arrow) caused by Lyme arthritis in a 3-year-old girl treated in Pennsylvania, from a published case report (Katherine E. Guardado and Shane Sergent, Journal of Osteopathic Medicine)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Right_knee_swelling_caused_by_Lyme_arthritis_in_a_3-year-old_girl.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Right_knee_swelling_caused_by_Lyme_arthritis_in_a_3-year-old_girl.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-4.0",
+   "credit": "Katherine E. Guardado and Shane Sergent, CC BY 4.0, via Wikimedia Commons",
+   "width": 1148,
+   "height": 1197,
+   "bytes": 53372,
+   "sourceDescription": "This is a photo of right knee swelling caused by Lyme arthritis in a 3-year-old girl who presented to hospital in Pennsylvania, United States. She contracted the Borrelia burgdorferi bacterial infection from the bite of a tick.",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "dcd143c6e476531cf357aeb82d12bcdec495efc0e95249c36a15084643724dbf"
   },
   {
    "file": "/guides/photos/lysol-all-purpose-cleaner-bottle.webp",
@@ -9291,6 +10160,76 @@
    "sha256Original": "338a9b3b283fb069e9326230db2a7ee020562dfd1e69cea037af5d73543c5b68"
   },
   {
+   "file": "/guides/photos/mouse-nest-grill-ruler.webp",
+   "subject": "Mouse nest: a round ball of pink fluffy fibers with an entrance hole, beside a ruler marked in inches and centimeters and cherry pits the mice had opened, hidden in a rarely used barbecue under a cherry tree (the observer’s description); identified on iNaturalist as deer mice, genus Peromyscus, by the observer and a second identifier (San Mateo County, California, July 2020)",
+   "sourceUrl": "https://www.inaturalist.org/observations/51979633",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/82609705/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Garth Harwood, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 237218,
+   "sourceDescription": "Peromyscus",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "0b7b35aa8a67c2a852eeaee2bebef8bbb5fe881a57a609e9b4cd8ee015bb75b2"
+  },
+  {
+   "file": "/guides/photos/mouse-nest-pink-insulation.webp",
+   "subject": "Mouse nest of pink insulation fluff on a panel scattered with droppings and debris, held up by a person in a rubber work glove (the photographer’s title: The mother of all mouse nests; the species is not given)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_mother_of_all_mouse_nests.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/The_mother_of_all_mouse_nests.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-2.0",
+   "credit": "bay_dragon, CC BY 2.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 900,
+   "bytes": 116994,
+   "sourceDescription": "Mouse nest",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "e2b2566495e4a119aef12f7ab7aeb26acd7d72fdddea736e89c186213971779b"
+  },
+  {
+   "file": "/guides/photos/mouse-nest-shredded-paper-shelf.webp",
+   "subject": "Old mouse nest: a heap of finely shredded paper in the back corner of the bottom shelf of a wooden bookcase, beside a stack of magazines; the observer identified the maker as an eastern deer mouse, Peromyscus maniculatus (Amherst, New York, November 2025; no second identification on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/328440671",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/595156749/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Julie, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 928,
+   "bytes": 104060,
+   "sourceDescription": "Peromyscus maniculatus",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "65fc1af8db4620dd57e5efa6b652e12be33a3cb24ecee894ca3acbfb5f3538f9"
+  },
+  {
+   "file": "/guides/photos/mouse-nest-shredded-wrapping-paper-drawer.webp",
+   "subject": "Mouse nest of shredded wrapping paper and scraps in an old wooden drawer, taken outside onto grass (the photographer’s title: mouse nest; species not given)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mouse_nest.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Mouse_nest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-2.0",
+   "credit": "Justin Leonard, CC BY 2.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 900,
+   "bytes": 244698,
+   "sourceDescription": "Mouse nest",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "3c2c10479e455983d8b125a0dea675534b07df86630a235060170a956a64c3f0"
+  },
+  {
+   "file": "/guides/photos/mouse-nest-stagecoach-nps.webp",
+   "subject": "Mouse nest in a historic stagecoach: pink fluff and a thick layer of droppings on a wooden seat under a quilted pad (National Park Service photograph)",
+   "sourceUrl": "https://www.nps.gov/articles/000/conserve-o-gram-3-12-identifying-mouse-and-rat-damage-in-museum-collections.htm",
+   "originalUrl": "https://www.nps.gov/articles/images/Mouse-nest-in-stage-coach-Curtis-Sullivan-NPS_resized.JPG",
+   "license": "public-domain",
+   "credit": "NPS Photo (U.S. National Park Service, nps.gov)",
+   "width": 800,
+   "height": 533,
+   "bytes": 42926,
+   "sourceDescription": "Figure 10: Mouse nest in a stagecoach. (NPS Photo)",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "a97e528c2ee9fcea819ba4406fc1fb43922ca598a1695b9111e2c554415eb5aa"
+  },
+  {
    "file": "/guides/photos/mouse-nest-under-car-hood.webp",
    "subject": "Nest of fibrous material packed in beside the engine under the hood of a car that had not been driven for a few weeks (the observer’s description); identified on iNaturalist as deer mice, genus Peromyscus, by two identifiers, not research grade (San Diego, California)",
    "sourceUrl": "https://www.inaturalist.org/observations/24446964",
@@ -9669,6 +10608,34 @@
    "sha256Original": "4fc9f4d2b5417a725d376ede2ac3bda48ae77cc715257fdd14399b4f1097fb0a"
   },
   {
+   "file": "/guides/photos/norway-rat-mississauga-shrubs.webp",
+   "subject": "Norway rat, Rattus norvegicus, on the ground among shrub stems beside a concrete wall, with a pine shrub in front (Mississauga, Ontario, November 29, 2018; research grade on iNaturalist, two identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/18742073",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/28698285/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 223466,
+   "sourceDescription": "Rattus norvegicus",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "d0745ea7c3d4f0cac81c6e397f852177230dd8bd78173d894e0451db447da331"
+  },
+  {
+   "file": "/guides/photos/norway-rat-under-bird-feeders-spilt-seed.webp",
+   "subject": "Norway rat, Rattus norvegicus, in short grass where, as the observer notes, it was feeding on spilt sunflower hearts under bird feeders (Bredwardine, Herefordshire, England, April 8, 2022; research grade on iNaturalist, four identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/110752493",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/186884498/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Mike Bailey, some rights reserved (CC BY), via iNaturalist",
+   "width": 864,
+   "height": 576,
+   "bytes": 108320,
+   "sourceDescription": "Rattus norvegicus",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "4c96a453bd40ec1ed94275126cf1e3a0fb630cf8816a65306d17c1cb22a3278c"
+  },
+  {
    "file": "/guides/photos/norway-rat.webp",
    "subject": "Norway (brown) rat, Rattus norvegicus, side view (King County, Washington)",
    "sourceUrl": "https://www.inaturalist.org/observations/379572541",
@@ -9681,6 +10648,20 @@
    "sourceDescription": "Rattus norvegicus",
    "downloadedOn": "2026-10-16",
    "sha256Original": "23ecabc4ae18b48b5c28c4df9f1f930b00ab379eb611d645f0c46cbe639c7975"
+  },
+  {
+   "file": "/guides/photos/nursery-web-spider-spiderlings-nursery.webp",
+   "subject": "Nursery web spider, Pisaurina mira: spiderlings massed in the silk nursery web below the opened egg sac, among green leaves; the observer photographed the mother at the same nursery (Minneapolis, Minnesota, August 2, 2026; research grade on iNaturalist, 2 identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/387743547",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/710053216/original.jpg",
+   "license": "CC-BY-SA-4.0",
+   "credit": "(c) Meghan Cassidy, some rights reserved (CC BY-SA), via iNaturalist",
+   "width": 1200,
+   "height": 1500,
+   "bytes": 115194,
+   "sourceDescription": "Pisaurina mira",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "51bc1b1663619a53903cffdae0a9bfc0faeddd3c2d65b27b1b081b1e876d37db"
   },
   {
    "file": "/guides/photos/odorous-house-ant-kitchen-counter.webp",
@@ -9808,6 +10789,34 @@
    "sourceDescription": "Didelphis virginiana",
    "downloadedOn": "2026-11-09",
    "sha256Original": "595468adca229011bbfba3152f531282cc38c2443b6a53bca826f97e0d959438"
+  },
+  {
+   "file": "/guides/photos/opossum-tracks-mud-ruler.webp",
+   "subject": "Virginia opossum, Didelphis virginiana, tracks: widely spread five-toed prints in mud beside a ruler marked in inches (Santa Clara County, California, January 2026; research grade on iNaturalist, three identifiers including tracker Kim Cabrera)",
+   "sourceUrl": "https://www.inaturalist.org/observations/336641896",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/611794092/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Garth Harwood, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 256136,
+   "sourceDescription": "Didelphis virginiana",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "220dd9e25cdd3573680d4a3da97fc77a8aeb3c0625855983449b2de7a592e443"
+  },
+  {
+   "file": "/guides/photos/orb-web-dew-forest-edge.webp",
+   "subject": "Orb web covered in heavy morning dew at a forest edge, hung between bare twigs (USFWS photograph by Courtney Celley, St. Louis County, Minnesota, September 10, 2025; the source names no spider)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spider_web_(54778634575).jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Spider_web_%2854778634575%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "public-domain",
+   "credit": "U.S. Fish and Wildlife Service - Midwest Region, Public domain, via Wikimedia Commons",
+   "width": 1200,
+   "height": 800,
+   "bytes": 56276,
+   "sourceDescription": "Heavy morning fog in St. Louis County, Minnesota highlighted spider webs with heavy dew, making them pop along the forest edge. Photo by Courtney Celley/USFWS.",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "db18cae0e1afbb3e4674161d8b18460ffe1da5c10a6e0f006698ad84d72126c3"
   },
   {
    "file": "/guides/photos/organ-pipe-mud-dauber-nest.webp",
@@ -10469,6 +11478,48 @@
    "sha256Original": "4417d84f77e1f2f16ef0c7aef8eb6914003fc9271359bd8d6625957260bae694"
   },
   {
+   "file": "/guides/photos/raccoon-track-deck-tape-measure.webp",
+   "subject": "Raccoon, Procyon lotor, track: one print left in pale dried mud on dark deck boards beside a tape measure marked in inches and centimeters (Miami-Dade County, Florida, June 2025; research grade on iNaturalist, two identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/286026756",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/514132114/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) David Garza, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 127446,
+   "sourceDescription": "Procyon lotor",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "a0a7a6dd61ad50e5b1f211d5827cb5908a7832f85d12415681e820e39479ac29"
+  },
+  {
+   "file": "/guides/photos/raccoon-tracks-car-hood.webp",
+   "subject": "Raccoon, Procyon lotor, tracks: dusty hand-shaped prints in pairs across the hood of a green car below the windshield (Point Reyes National Seashore, California, June 2019; research grade on iNaturalist, four identifiers including tracker Kim Cabrera)",
+   "sourceUrl": "https://www.inaturalist.org/observations/26870427",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/41749617/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 99294,
+   "sourceDescription": "Procyon lotor",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "47ab64c5d165a5f8318912301553f300ab9122f30cfd2b6eec48a960c40b57c5"
+  },
+  {
+   "file": "/guides/photos/raccoon-tracks-mud-car-key.webp",
+   "subject": "Raccoon, Procyon lotor, tracks: a front and a hind print in pale mud beside a car key fob for scale (Monroe County, Florida, March 2021; research grade on iNaturalist, three identifiers to species)",
+   "sourceUrl": "https://www.inaturalist.org/observations/71250559",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/115971177/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 89122,
+   "sourceDescription": "Procyon lotor",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "278cafa09a0021535192140f75caa4df32ac85e6f95a05745ce9603a9ca5ea22"
+  },
+  {
    "file": "/guides/photos/raccoon-tracks-snow-pavement.webp",
    "subject": "Raccoon, Procyon lotor, tracks: pairs of hand-shaped prints in a thin layer of snow on pebbled concrete, a shoe tip at the lower left (Greater Vancouver, British Columbia; research grade on iNaturalist, three identifiers)",
    "sourceUrl": "https://www.inaturalist.org/observations/148277837",
@@ -10481,6 +11532,34 @@
    "sourceDescription": "Procyon lotor",
    "downloadedOn": "2026-11-09",
    "sha256Original": "3ada083986f9fa93a3ce4ed0e6c8ea0b62ae98c6abfe4532805ffb15a15f9760"
+  },
+  {
+   "file": "/guides/photos/raccoon-tracks-wet-sand-pair.webp",
+   "subject": "Raccoon, Procyon lotor, tracks: a front and a hind print side by side in wet beach sand dotted with small holes (Cape May Court House, New Jersey, December 2023; research grade on iNaturalist, two identifiers including tracker Kim Cabrera)",
+   "sourceUrl": "https://www.inaturalist.org/observations/194244581",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/341387283/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 253978,
+   "sourceDescription": "Procyon lotor",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "4fab763c8d24fc8713955007195e003696b072521155d26f9c076c8812591f12"
+  },
+  {
+   "file": "/guides/photos/raccoon-trail-snow-driveway.webp",
+   "subject": "Raccoon, Procyon lotor, trail: paired prints running down a snowy driveway from the woods above the observer’s house (Thetford Center, Vermont, February 2022; research grade on iNaturalist, three identifiers including tracker Kim Cabrera)",
+   "sourceUrl": "https://www.inaturalist.org/observations/107670369",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/181136470/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Tom Norton, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 262066,
+   "sourceDescription": "Procyon lotor",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "e007302d0111c431bbe60f94d431f2a800e35ba8c60a9248e42dc6119b834a29"
   },
   {
    "file": "/guides/photos/rat-droppings-table.webp",
@@ -10608,6 +11687,62 @@
    "sourceDescription": "",
    "downloadedOn": "2026-10-15",
    "sha256Original": "39be1d325fc839a981fa85de1cc1512d81f9bb91d4c50111bc5bfbcd0714cd75"
+  },
+  {
+   "file": "/guides/photos/red-fox-scat-active-den.webp",
+   "subject": "Red fox, Vulpes vulpes, scat at an active den: one glossy black, twisted dropping with a long tapered tail on bare sandy soil; the observer also photographed prey remains and the young foxes there (Indiana, April 25, 2024; research grade on iNaturalist, two identifiers; no scale object)",
+   "sourceUrl": "https://www.inaturalist.org/observations/209384842",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/370545553/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Ghostomelon, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 155188,
+   "sourceDescription": "Vulpes vulpes",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "f53bc6653fbe49d032deb014c01106625a07da00173ae5744719f95eedfb833d"
+  },
+  {
+   "file": "/guides/photos/red-fox-scat-berries-street-tape.webp",
+   "subject": "Red fox, Vulpes vulpes, scat on a street beside a tape measure: a lumpy mass full of berries and seeds, laced with hair (Merrill Street, Roseville, Minnesota, September 9, 2019; research grade on iNaturalist, four identifiers including tracker Kim Cabrera; the observation also shows a red fox on the same street)",
+   "sourceUrl": "https://www.inaturalist.org/observations/32416268",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/50839928/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 384258,
+   "sourceDescription": "Vulpes vulpes",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "68c64ef31cdb022827b7b01384d134af40426073bccfeefb3d9424f235917837"
+  },
+  {
+   "file": "/guides/photos/red-fox-scat-hair-bridge-beam.webp",
+   "subject": "Red fox, Vulpes vulpes, scat on top of a wooden bridge beam, found exactly as pictured: rope-like, twisted, wrapped in hair and tapering to a point, beside two metal disc markers (Kankakee Sands Preserve, Will County, Illinois, April 27, 2024; research grade on iNaturalist, two identifiers at red fox, the observer first leaning toward coyote)",
+   "sourceUrl": "https://www.inaturalist.org/observations/211985903",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/374584504/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Lexi Destria, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 258772,
+   "sourceDescription": "Vulpes vulpes",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "b630dc3c0d1b62126c9a8a2940db4a63675fe140bc0b75d2703bd6cd61d2165a"
+  },
+  {
+   "file": "/guides/photos/red-fox-scat-snow-hair-twist.webp",
+   "subject": "Red fox, Vulpes vulpes, scat on snow: a twisted, hair-wrapped dropping tapering to a thin tip, beside faint tracks the observer also recorded (Wheaton, Maryland, January 9, 2025; research grade on iNaturalist, observer and tracker Kim Cabrera; no scale object)",
+   "sourceUrl": "https://www.inaturalist.org/observations/257937916",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/462734199/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 134408,
+   "sourceDescription": "Vulpes vulpes",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "690531b823cb161fdea6dba14355e8205b0c6dc677f4d4506fbfa35cadf8da05"
   },
   {
    "file": "/guides/photos/red-fox-track-snow-scale.webp",
@@ -11073,6 +12208,76 @@
    "sha256Original": "2a9c7e7f6265f502b9e17466c77790cdb26b9c4e545407b393a903bf3e1d18f0"
   },
   {
+   "file": "/guides/photos/silverfish-damage-book-spine.webp",
+   "subject": "Paperback book whose spine and cover edge have patches of the gray surface grazed away to white; the uploader titled the photo as a book eaten by papiervisjes (gray silverfish), and the description says only example of damaged book (July 23, 2011; Wikimedia Commons, Niccienic; category Unidentified Zygentoma)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boek_aangevreten_door_papiervisjes.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Boek_aangevreten_door_papiervisjes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC0-1.0",
+   "credit": "Niccienic, CC0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 900,
+   "bytes": 49134,
+   "sourceDescription": "example of damaged book",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "5912b858ecdfffbd208a3df0ed95718da98bb342edbfb2d67f1a78a5bcf00441"
+  },
+  {
+   "file": "/guides/photos/silverfish-damage-paperback-cover.webp",
+   "subject": "Paperback proof cover with many irregular patches where the red surface has been grazed away to white, which the photographer describes as silverfish damage (near Kardamyli, Greece, August 2009; photo by R. de Salis, uploaded by Rodolph)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bruce_Chatwin%27s_Songlines_1987.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Bruce_Chatwin%27s_Songlines_1987.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-SA-3.0",
+   "credit": "Rodolph at English Wikipedia, CC BY-SA 3.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 198558,
+   "sourceDescription": "photo near Kardamyli, Mani, Greece, by R. de Salis, August 2009, of a Silverfish patina-ted un-edited proof copy of Bruce Chatwin's The Songlines, 1987 Rodolph (talk) 23:30, 19 October 2009 (UTC)",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "fbc55380709b553df82908fd23c8926e22b8d87715bed623cdf9afbbbf3d9612"
+  },
+  {
+   "file": "/guides/photos/silverfish-glue-trap-ruler.webp",
+   "subject": "Silverfish, identified by the uploader as Lepisma saccharina: dozens of adults and smaller young stuck on a glue trap, with a ruler marked in centimeters along the top edge (October 19, 2013; Wikimedia Commons, Wesn; category Animals with rulers indicating scale)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Silberfischchen_in_Klebefalle_(K%C3%B6der).jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Silberfischchen_in_Klebefalle_%28K%C3%B6der%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-SA-3.0",
+   "credit": "Wesn, CC BY-SA 3.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 722,
+   "bytes": 68986,
+   "sourceDescription": "Silverfish (Lepisma saccharina) in a glue trap",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "b2280ab5a3283bb47848db01eb037ca1dfd67f61cb2664440d44f08a5c4f9259"
+  },
+  {
+   "file": "/guides/photos/silverfish-lepisma-sault-ste-marie.webp",
+   "subject": "Common silverfish, Lepisma saccharinum, side view on a pale surface (Sault Ste. Marie, Ontario, July 13, 2024; research grade on iNaturalist, species confirmed by Nikola Szucsich, the top identifier of silverfish there)",
+   "sourceUrl": "https://www.inaturalist.org/observations/230840925",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/409916327/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 33518,
+   "sourceDescription": "Lepisma saccharinum",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "ab386a0222954865f120f33f37cb2235a6b89bbb2ada4697945895889857bfa9"
+  },
+  {
+   "file": "/guides/photos/silverfish-on-book-board-shed.webp",
+   "subject": "Common silverfish, Lepisma saccharinum, on the cloth-covered board of a book; the observer found many in a shed filled with boxes of books (Ithaca, New York, September 19, 2020; research grade on iNaturalist, species confirmed by Nikola Szucsich)",
+   "sourceUrl": "https://www.inaturalist.org/observations/60133697",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/96129920/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 111984,
+   "sourceDescription": "Lepisma saccharinum",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "d9e0e992e0aebaa1c80e0d8023801a5870df64acab18a1b0555424a39affc8dd"
+  },
+  {
    "file": "/guides/photos/silverfish.webp",
    "subject": "Common silverfish, Lepisma saccharinum (London, Ontario)",
    "sourceUrl": "https://www.inaturalist.org/observations/154408715",
@@ -11085,6 +12290,20 @@
    "sourceDescription": "Lepisma saccharinum",
    "downloadedOn": "2026-10-15",
    "sha256Original": "7472fc851dd567aa30614fd3e604db2f0db13b637367cfac7d7a24db5cf09397"
+  },
+  {
+   "file": "/guides/photos/silverleaf-whitefly-adults-leaf-usda.webp",
+   "subject": "Silverleaf whitefly, Bemisia argentifolii, adults on a leaf (USDA Agricultural Research Service photo by Scott Bauer, Insect Images 1316008; the record names adults only)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bemisia_argentifolii_1316008.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Bemisia_argentifolii_1316008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "public-domain",
+   "credit": "Scott Bauer, USDA Agricultural Research Service, Public domain, via Wikimedia Commons",
+   "width": 1200,
+   "height": 1800,
+   "bytes": 226390,
+   "sourceDescription": "Bemisia argentifolii Common Name: silverleaf whitefly Photographer: Scott Bauer, USDA Agricultural Research Service, United States Contact: USDA ARS Photo Unit, USDA Agricultural Research Service Descriptor: Adult(s) Image taken in: United States",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "9eae2aa72145cb54ea4a24d248505044a5397f125c007507c616042f280d484b"
   },
   {
    "file": "/guides/photos/skeeter-syndrome-leg.webp",
@@ -11113,6 +12332,76 @@
    "sourceDescription": "Mephitis mephitis",
    "downloadedOn": "2026-10-29",
    "sha256Original": "c2c89d5d6f0b03275b0a6aec45088ec9f3a1ba1cfae7bf5d1a16860745317695"
+  },
+  {
+   "file": "/guides/photos/skunk-scat-beetle-parts-closeup.webp",
+   "subject": "Close-up of the same striped skunk scat (iNaturalist observation 106460880): a dropping made largely of broken, glossy insect fragments, including ridged pieces that look like beetle wing covers, on ashy spike-moss (Mission Trails Regional Park, San Diego, California; research grade, from the dropping alone)",
+   "sourceUrl": "https://www.inaturalist.org/observations/106460880",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/178841145/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Millie Basden, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 685,
+   "bytes": 147588,
+   "sourceDescription": "Mephitis mephitis",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "7d3d49bb144449d1414d9d9988d93aeba0771e1ff67c5c55cb68924e60a7fee0"
+  },
+  {
+   "file": "/guides/photos/skunk-scat-lip-balm-scale.webp",
+   "subject": "Striped skunk, Mephitis mephitis, scat full of insect and beetle parts on ashy spike-moss at the edge of a trail, beside a lip balm tube for scale; the observer gives it as about 4 cm long and 1 cm across (Mission Trails Regional Park, San Diego, California, February 9, 2022; research grade on iNaturalist, the observer and one other identifier, from the dropping alone)",
+   "sourceUrl": "https://www.inaturalist.org/observations/106460880",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/178840361/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Millie Basden, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 800,
+   "bytes": 263692,
+   "sourceDescription": "Mephitis mephitis",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "33d92f378aea5908e0112cdfce58f151f158cbcc47402766acbcba20144c6281"
+  },
+  {
+   "file": "/guides/photos/skunk-scat-seeds-lawn-edge.webp",
+   "subject": "Striped skunk, Mephitis mephitis, scat: one lumpy, blue-black dropping dotted with small pale seeds, among grass blades, dandelion leaves and dead leaves (Cleveland, Ohio, June 20, 2018; research grade on iNaturalist, the observer and one other identifier, from the dropping alone; no scale object)",
+   "sourceUrl": "https://www.inaturalist.org/observations/18731274",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/28681366/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1152,
+   "height": 2048,
+   "bytes": 261024,
+   "sourceDescription": "Mephitis mephitis",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "3961090708017d00ad051babd55df36dd2753dc6e73357515aa25374ca1f9904"
+  },
+  {
+   "file": "/guides/photos/skunk-scat-wood-chips.webp",
+   "subject": "Striped skunk, Mephitis mephitis, scat: a black, lumpy dropping folded into two thick pieces, lying on pale wood chips and bark (Point Arena, California, September 25, 2018; research grade on iNaturalist, the observer and one other identifier, from the dropping alone; no scale object)",
+   "sourceUrl": "https://www.inaturalist.org/observations/16918878",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/25562808/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Jeff Young, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 249442,
+   "sourceDescription": "Mephitis mephitis",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "e937b10a9cbb0b72fd5be33aaf9664d4a2e8fed0b9cd3b47684c36f952ac1aa3"
+  },
+  {
+   "file": "/guides/photos/slime-mold-leocarpus-grass.webp",
+   "subject": "Leocarpus fragilis, a slime mold that iNaturalist lists under the common name insect-egg slime: clusters of shiny yellow-orange, egg-shaped spore cases lined up along grass blades (UCSC Campus Natural Reserve, Santa Cruz, California, December 5, 2021; research grade on iNaturalist, two identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/103437872",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/173118093/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 242550,
+   "sourceDescription": "Leocarpus fragilis",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "ea6509e00c0d304005a966bf031a0e2666d7bf10575b628db3cf6245b8659a44"
   },
   {
    "file": "/guides/photos/small-milkweed-bug.webp",
@@ -11311,6 +12600,48 @@
    "sha256Original": "5b045b3b85f35e5d33c419c7a6cb044e4abff4b2908efb7b1a21eb48393e49ca"
   },
   {
+   "file": "/guides/photos/sooty-mold-schefflera-leaves.webp",
+   "subject": "Sooty mold: black spots and film on the leaves of a dwarf umbrella tree, Schefflera arboricola (the photographer’s description: Schefflera arboricola leaves with sooty mold; the source does not name the insect that left the honeydew)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sooty_mold_Schefflera_1.JPG",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Sooty_mold_Schefflera_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-SA-3.0",
+   "credit": "Amnon Shavit, CC BY-SA 3.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 900,
+   "bytes": 62118,
+   "sourceDescription": "Schefflera arboricola leaves with Sooty mold",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "d4a490f13473c37d064435567a9910c0ba3809fa5650ba8fc16b7732303c148b"
+  },
+  {
+   "file": "/guides/photos/southern-black-widow-juvenile-top-view.webp",
+   "subject": "Southern black widow, Latrodectus mactans, juvenile (life stage annotated by the observer), from above on gray stone or concrete beside dry plant debris: glossy black abdomen with a row of orange spots ringed in white down the middle and short white streaks along the sides, legs banded tan and black (Middleton, Tennessee, March 6, 2026; research grade on iNaturalist, 2 identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/341562457",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/621824173/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Lexie, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1304,
+   "bytes": 174292,
+   "sourceDescription": "Latrodectus mactans",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "237734c3b6788a9b2f52e19e8dd8ed1891d3eb638b5d5e60570b0b41794276d0"
+  },
+  {
+   "file": "/guides/photos/southern-black-widow-spiderling.webp",
+   "subject": "Southern black widow, Latrodectus mactans, spiderling (the life stage as given in the Wikimedia Commons title and description; the iNaturalist original, observation 181642429, photo 316553396, is research grade with 2 identifiers to species and 2 more to the genus): pale legs banded dark and a round orange-tan abdomen with white bands, on pale gritty rock (Comal River, New Braunfels, Texas, September 3, 2023)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Latrodectus_mactans_spiderling.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Latrodectus_mactans_spiderling.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-SA-4.0",
+   "credit": "acjci, CC BY-SA 4.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 900,
+   "bytes": 33752,
+   "sourceDescription": "Latrodectus mactans spiderling",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "29bb9ab531e8c2c06b4429d75f74729cbb1a305e476aa9fb1b2e0f3dbf24e552"
+  },
+  {
    "file": "/guides/photos/southern-fire-ants-bait-card.webp",
    "subject": "Southern fire ants, Solenopsis xyloni, swarming the bait on a baited card; identified in the field by the entomology curator of the Natural History Museum of Los Angeles County (Los Angeles County, California)",
    "sourceUrl": "https://www.inaturalist.org/observations/135300522",
@@ -11351,6 +12682,20 @@
    "sourceDescription": "Kukulcania hibernalis",
    "downloadedOn": "2026-10-16",
    "sha256Original": "0eaf7bf819194d49f18131d8931a4b8c2af0583e25ab121a26adc49b3704eb90"
+  },
+  {
+   "file": "/guides/photos/southern-house-spider-web-brick-wall.webp",
+   "subject": "Southern house spider, Kukulcania hibernalis, adult female (as annotated) at a hole in the mortar of a brick wall, with her woolly web radiating over the bricks around it (University of North Carolina at Chapel Hill, North Carolina, August 30, 2021; research grade on iNaturalist, two identifiers to species)",
+   "sourceUrl": "https://www.inaturalist.org/observations/93093791",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/154241648/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Lexi Amico, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 453132,
+   "sourceDescription": "Kukulcania hibernalis",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "25e4e0da2158c5ff8723daa3776bfb91c8b017787d6a002ad909be5c5618a952"
   },
   {
    "file": "/guides/photos/southern-mole-cricket.webp",
@@ -11744,6 +13089,20 @@
    "sourceDescription": "Mephitis mephitis",
    "downloadedOn": "2026-10-29",
    "sha256Original": "b21cf33f668232ce669f257f10af15acec70b5c5d852664bb4e45aafce549251"
+  },
+  {
+   "file": "/guides/photos/striped-skunk-track-mud-dime.webp",
+   "subject": "Striped skunk, Mephitis mephitis, tracks in mud beside a US dime for scale; tracker Kim Cabrera notes the left front track with the longer claws (El Chorro Regional Park, San Luis Obispo, California, November 2023; research grade on iNaturalist, four identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/191905962",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/336776798/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 366548,
+   "sourceDescription": "Mephitis mephitis",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "0f92bf13d23cea3cefbc275cf0fab202827317927a6eb15fd16e10dfe91992b2"
   },
   {
    "file": "/guides/photos/striped-skunk-tracks-snow.webp",
@@ -12377,6 +13736,20 @@
    "sha256Original": "e02bf7182878ea5bf780c36da75c4156e485a53f6627d7cb92466ae0acf9c560"
   },
   {
+   "file": "/guides/photos/virginia-opossum-backyard-lawn-houston.webp",
+   "subject": "Virginia opossum, Didelphis virginiana, walking across a backyard lawn beside dark shrubs, which the observer describes as a mother with babies on board looking for food after a night of heavy rain and storms (Houston, Texas, April 29, 2024; research grade on iNaturalist, two identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/211596560",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/374057992/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 104852,
+   "sourceDescription": "Didelphis virginiana",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "ae8d88547dd0d25a5e6e237c08c5e05067dbd401e06ae5defca11fe11358d59d"
+  },
+  {
    "file": "/guides/photos/virginia-opossum.webp",
    "subject": "Virginia opossum, Didelphis virginiana",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Virginia_opossum_during_daytime.jpg",
@@ -12391,6 +13764,20 @@
    "sha256Original": "01ff99ca483128e658cacd6d3fdd2ee7481175c8ae10b3c85477a4f17cd2be4e"
   },
   {
+   "file": "/guides/photos/vole-gnawed-apple-tree-snow-line-finland.webp",
+   "subject": "Young apple tree standing in snow, a band of bark gnawed off the trunk just above the snow surface, damage the source attributes to voles; black-and-white photo, April 1962 (Vohloinen manor, Lohja, Finland; Erkki Voutilainen, Finnish Heritage Agency)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vole_damage_on_an_appletree_1960_(JOKAMT2Pu12-1).tif",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Vole_damage_on_an_appletree_1960_%28JOKAMT2Pu12-1%29.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-4.0",
+   "credit": "Erkki Voutilainen, CC BY 4.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 1632,
+   "bytes": 80990,
+   "sourceDescription": "An appletree damaged by vole at Vohloinen manor, in estate owner Yrjö Sillman's apple garden in Lohja, April 1962.",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "684f9bd0f3838fb363d8eccfd22be9d5f2454089aaddb6f49970935bf23fca50"
+  },
+  {
    "file": "/guides/photos/vole-hole-snowmelt.webp",
    "subject": "Grass-lined hole in melting snow, identified on iNaturalist as vole (Microtus) sign (Missoula, Montana)",
    "sourceUrl": "https://www.inaturalist.org/observations/66408064",
@@ -12403,6 +13790,20 @@
    "sourceDescription": "Microtus",
    "downloadedOn": "2026-10-16",
    "sha256Original": "48b485d0f64ec5bb5f77a9f221fe1d56c0d3c033515f21a59843f13873ff96d5"
+  },
+  {
+   "file": "/guides/photos/vole-runways-lawn-snowmelt-illinois.webp",
+   "subject": "Winding vole runways worn into a lawn as the snow melted, patches of snow still on the grass, which the observer recorded as meadow vole (genus Microtus) sign (College of DuPage, Glen Ellyn, Illinois, March 10, 2015; needs ID on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/42725349",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/67851216/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Peter Chen 2.0, some rights reserved (CC BY), via iNaturalist",
+   "width": 960,
+   "height": 600,
+   "bytes": 185338,
+   "sourceDescription": "Microtus",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "ad9780eec91ce2c34790fae3dae675c790497a18720b26962a5065672dc1a272"
   },
   {
    "file": "/guides/photos/webbing-clothes-moth.webp",
@@ -12686,6 +14087,20 @@
    "sha256Original": "1abc3f3433c4f61a55e1592204e09ce090f0a1a45757dc73584b95d7681a93c1"
   },
   {
+   "file": "/guides/photos/white-footed-mouse-nest-mailbox.webp",
+   "subject": "White-footed mouse, Peromyscus leucopus: two mice at their nest of dry grass at the back of a rural mailbox (Hanna City, Illinois, August 2024; research grade on iNaturalist, four identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/233343392",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/414681908/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Bryant Brumbill-Corral, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 206222,
+   "sourceDescription": "Peromyscus leucopus",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "94fb1fdc32591fe13a03db413e10cc907269e28cf62f2aafc40014967b0c5fb0"
+  },
+  {
    "file": "/guides/photos/white-footed-mouse.webp",
    "subject": "White-footed mouse, Peromyscus leucopus (Broad Brook, Connecticut)",
    "sourceUrl": "https://www.inaturalist.org/observations/273401871",
@@ -12728,6 +14143,20 @@
    "sha256Original": "e08f3d4a642d8fdc0697c6019915cbc024551569ccc83a2a2ee3a2510381ab8d"
   },
   {
+   "file": "/guides/photos/white-tailed-deer-snowy-backyard-kitchener.webp",
+   "subject": "White-tailed deer, Odocoileus virginianus, standing in deep snow in a wooded backyard, seen past a deck railing post, with Adirondack chairs behind (Bridgeport North, Kitchener, Ontario, February 21, 2026; research grade on iNaturalist, five identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/345714181",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/630078315/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1594,
+   "bytes": 116250,
+   "sourceDescription": "Odocoileus virginianus",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "bd4ebc3967cb152ad12e8af0bdb41cc42b495382a8233cec0179a1dc31b3b84e"
+  },
+  {
    "file": "/guides/photos/white-tailed-deer-yard-ontario.webp",
    "subject": "Young white-tailed deer, Odocoileus virginianus, on the lawn of a neighbour’s yard in Ontario, as the observer describes it (research grade on iNaturalist)",
    "sourceUrl": "https://www.inaturalist.org/observations/163374675",
@@ -12740,6 +14169,20 @@
    "sourceDescription": "Odocoileus virginianus",
    "downloadedOn": "2026-10-28",
    "sha256Original": "b3e5de0fb184696b04907e84bbf357b05dc9228e6de99154727a56b15757fa55"
+  },
+  {
+   "file": "/guides/photos/wild-turkeys-foraging-backyard-massachusetts.webp",
+   "subject": "Wild turkeys, Meleagris gallopavo, three of the eight the observer saw foraging in a fenced backyard that morning, heads down in the grass (South Yarmouth, Massachusetts, September 30, 2019; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/33643788",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/52862380/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 260308,
+   "sourceDescription": "Meleagris gallopavo",
+   "downloadedOn": "2026-11-19",
+   "sha256Original": "c7d63aec0719a7ae6831c39539f6105c92ba9c7430ede09cf980fa0dd525c280"
   },
   {
    "file": "/guides/photos/winged-black-carpenter-ant-side-view.webp",

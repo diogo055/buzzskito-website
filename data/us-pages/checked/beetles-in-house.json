@@ -2,7 +2,7 @@
  "id": "beetles-in-house",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "f3908569a4a4a76fe9c0b6c6c6a408d62ba0b5f92c52774d06962562f5ab5f87",
+ "sha": "1ffe2a14878d0207a41ba75a7000556e1e6f212c08c7384ce8600fda4f205dc0",
  "claimsChecked": 224,
  "claimsCorrected": 4,
  "claimsRemovedOrSoftened": 5,
@@ -27,6 +27,11 @@
    "on": "2026-11-09",
    "note": "Nov 9: one sentence links the new drugstore beetle guide (/blog/drugstore-beetles, scheduled Nov 12) after the stored-product beetle paragraph in 'What are the beetles in my kitchen and pantry?'; no fact changed",
    "previousSha": "1698a3c8cf3ba3d3d186c207b99a9f066b01da03c61a7b1707c67287c2f30936"
+  },
+  {
+   "on": "2026-11-19",
+   "note": "Nov 19, 2026: added one original BuzzSkito diagram (/diagrams/tiny-brown-bugs-size-chart.svg, CC BY 4.0) after the first paragraph of an existing section; sizes from EPA/CDC/university extension sources listed in the diagram itself. No text changed.",
+   "previousSha": "f3908569a4a4a76fe9c0b6c6c6a408d62ba0b5f92c52774d06962562f5ab5f87"
   }
  ]
 }

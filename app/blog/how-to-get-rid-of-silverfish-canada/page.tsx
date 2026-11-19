@@ -15,6 +15,8 @@ import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
 import { withRegionalAlternates } from '@/lib/guides'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'how-to-get-rid-of-silverfish-canada'
 const DATE = '2026-07-21'
@@ -80,6 +82,7 @@ export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('silverfish-lepisma-sault-ste-marie'),
 }), '/blog/how-to-get-rid-of-silverfish-canada')
 
 const AMZ_TAG = tagForSlug('how-to-get-rid-of-silverfish-canada')
@@ -87,7 +90,7 @@ const AMZ_TAG = tagForSlug('how-to-get-rid-of-silverfish-canada')
 export default function HowToGetRidOfSilverfishCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to eliminating silverfish: species ID, the basement humidity mechanism, dehumidifier-first strategy, sticky-trap monitoring, diatomaceous earth application, and Canadian PMRA context for imported products like Dekko packs.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to eliminating silverfish: species ID, the basement humidity mechanism, dehumidifier-first strategy, sticky-trap monitoring, diatomaceous earth application, and Canadian PMRA context for imported products like Dekko packs.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('silverfish-lepisma-sault-ste-marie') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'How to Get Rid of Silverfish in Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -272,6 +275,7 @@ export default function HowToGetRidOfSilverfishCanadaPage() {
 
           <h2>How Do You Actually Get Rid of Silverfish in Canada?</h2>
           <p>By removing the one thing they cannot live without: humid air. That sounds too simple to be the answer, so here is the biology that makes it true. Silverfish are among the most ancient insects on Earth &mdash; they predate flight itself &mdash; and they never evolved the water-tight cuticle that lets beetles or ants cross dry ground. A silverfish is, functionally, an animal that must live inside a humid microclimate at all times: reproduction requires roughly 75&ndash;95% relative humidity, and eggs and nymphs simply desiccate in sustained dry air. Hold a room at 45&ndash;50% RH and you have not made it unpleasant for silverfish; you have made it uninhabitable.</p>
+          <Photo id="silverfish-lepisma-sault-ste-marie" alt="Common silverfish with a silver-grey teardrop body and long antennae, photographed in Ontario" caption="A common silverfish, Lepisma saccharinum, photographed in Sault Ste. Marie, Ontario. The teardrop body and the bristles at the tail are the marks to look for." />
           <p>That is why this guide is structured around a dehumidifier rather than a spray. Insecticides kill the silverfish that walk across them, but the breeding population lives deep in wall voids, under sill plates, and behind built-ins where no consumer treatment reaches &mdash; and with adults living 2&ndash;8 years and surviving months without food, a population you merely trim will refill. Change the air, and every hidden individual is fighting the same losing battle no matter where it hides. Traps become your scoreboard, diatomaceous earth your crack-and-crevice cleanup crew, and sealing your relapse prevention.</p>
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the kit:</p>
@@ -284,6 +288,7 @@ export default function HowToGetRidOfSilverfishCanadaPage() {
           <NextUp path="/blog/how-to-get-rid-of-silverfish-canada" />
           <h2>Why Canadian Basements Are Silverfish Factories</h2>
           <p>A below-grade Canadian basement offers silverfish all three things they need, in one room, year-round. First, moisture: foundation walls stay cool even in July, and when warm humid summer air meets them, relative humidity in the basement air climbs into the 60&ndash;80% range &mdash; you can smell it as mustiness long before you see a silverfish. Second, food: basements are where Canadians store precisely what silverfish eat. Their diet is starch and cellulose &mdash; paper, cardboard, the glue in book bindings, the gelatin coating on old photographs, wallpaper paste, dry pet food, and the starch sizing in stored linens. A wall of cardboard boxes is a warehouse of food that is also housing. Third, harbourage: unfinished ceilings, sill-plate gaps, and the dark undisturbed space behind storage shelves give a nocturnal, light-averse insect everything it wants.</p>
+          <Photo id="silverfish-on-book-board-shed" alt="Silverfish on the cloth-covered board of a book stored in a shed full of book boxes" caption="A common silverfish on the cloth-covered board of a book; its photographer found many in a shed filled with boxes of books (Ithaca, New York). Book bindings and cardboard are food as well as shelter." />
           <p>The seasonal rhythm matters for timing your response. The late-summer humidity spike (right about now, if you are reading this in July or August) powers the year&rsquo;s strongest breeding. Through fall, activity concentrates indoors, and most Canadians discover the problem between October and February &mdash; usually by opening a stored box and finding scraped, notched pages, irregular holes, and pepper-like droppings. The damage pattern is distinctive: silverfish graze surfaces rather than chewing tunnels, so book damage looks like someone sanded the page edges and scraped the cover glue.</p>
 
           <h2>Step 1 — The Dehumidifier: The Only Purchase That Ends It</h2>
@@ -297,6 +302,7 @@ export default function HowToGetRidOfSilverfishCanadaPage() {
 
           <h2>Step 2 — Sticky Traps: Your Scoreboard, Not Your Strategy</h2>
           <p>Glue boards catch silverfish well &mdash; silverfish run wall edges at night like little commuters, and a flat board tight against the baseboard sits directly in traffic. But their real job is intelligence. Lay a numbered line of boards: basement storage corners, under the laundry sink, behind the toilet, along the furnace-room wall (checking for firebrats), and inside any closet where you have seen one. Check weekly and keep a tally.</p>
+          <Photo id="firebrat-textured-surface" alt="Firebrat, a mottled grey-brown silverfish relative with long antennae, on a white textured wall" caption="A firebrat, Thermobia domestica, on a white textured surface (Hermosillo, Mexico). Mottled grey-brown rather than silver, it turns up in the hot spots of a house, which is why one trap goes on the furnace-room wall." />
           <p>Which board to buy barely matters, and that is worth knowing before you overspend: there is no validated consumer silverfish lure, so you are buying glue area rather than a mechanism, and a &ldquo;silverfish&rdquo; label on the box is a costume. Our <Link href="/blog/best-silverfish-traps">silverfish trap comparison</Link> covers flat boards vs covered stations vs the free tape-wrapped jar trap, and why adhesive dies fastest in exactly the damp, dusty rooms silverfish prefer.</p>
           <p>That tally answers the three questions that actually matter. <em>Where is the population?</em> The hot boards tell you which room gets the DE treatment and the storage overhaul. <em>Is the plan working?</em> The catch curve should bend down within a month of the dehumidifier holding target &mdash; if it does not, find the humid pocket you missed. <em>Are you done?</em> Four consecutive weeks of empty boards is a defensible all-clear. What traps will not do is eliminate the infestation alone: the breeding core lives in voids the boards cannot reach, and a trap line without moisture control is a subscription, not a solution.</p>
           <p>One thing the boards often reveal is a second resident. If your catch includes fast, long-legged arthropods rather than silverfish, you have a predator following the food &mdash; and the fix is the same dehumidifier, not a different can. Our guide to <Link href="/blog/best-centipede-killer-canada">centipede control products in Canada</Link> explains why killing the predator while leaving the silverfish in place makes the room worse, not better.</p>
@@ -306,6 +312,7 @@ export default function HowToGetRidOfSilverfishCanadaPage() {
 
           <h2>Step 3 — Diatomaceous Earth: The Crack-and-Crevice Kill</h2>
           <p>Diatomaceous earth is almost poetically suited to silverfish. DE kills by abrading and absorbing the waxy layer that keeps an insect&rsquo;s moisture in &mdash; and silverfish, as we established, are already living on a moisture knife-edge. A silverfish that walks through a DE film dehydrates and dies; no bait acceptance, no resistance mechanism, no expiry while the dust stays dry.</p>
+          <Photo id="diatomaceous-earth-microscope" alt="Diatomaceous earth magnified under a microscope, showing broken round and elongated diatom shells" caption="Diatomaceous earth under a light microscope: the broken silica shells of single-celled diatoms. A silverfish that walks through a thin film of it dehydrates and dies." />
           <p>Application technique decides everything. Use a hand duster to lay a <em>thin, barely visible film</em> &mdash; insects detect and walk around visible piles &mdash; along baseboard cracks, into the gap under the sill plate, behind and under appliances, inside the voids where plumbing enters walls, and across the shelf-to-wall gaps in storage rooms. The catch in a silverfish context is obvious once said aloud: DE only works dry, and silverfish live in damp places. The sequencing fix: let the dehumidifier dry the room first, then dust; and in the meantime, apply only in sheltered dry spots (inside wall voids, under cabinet kick plates) rather than open damp floor.</p>
           <p>One Canadian compliance note before you buy. When DE is sold as an insecticide in Canada, it is a registered pesticide &mdash; the label should carry a PCP (Pest Control Products) registration number, and that label&rsquo;s directions are what govern indoor use. &ldquo;Food-grade&rdquo; DE sold as a feed additive is a different product category without pest-use directions. Check the label for a PCP number rather than taking a listing&rsquo;s word for it. We cover the product-picking details, the food-grade vs pool-grade distinction (pool-grade is genuinely hazardous to breathe &mdash; never use it), and full room-by-room technique in our dedicated <Link href="/blog/diatomaceous-earth-canada-buyers-guide">diatomaceous earth buyer&rsquo;s guide for Canada</Link>.</p>
           <div className="not-prose my-4">

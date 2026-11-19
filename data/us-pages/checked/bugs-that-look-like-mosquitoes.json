@@ -2,7 +2,7 @@
  "id": "bugs-that-look-like-mosquitoes",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "7ef144863939ee9e26d6f07a14122fbffca61b6994f0f0ad6893a36066163c87",
+ "sha": "8fe62c2e66bc4b88b00fbbdf62de803615f918ec1ee30c85e450c7f62cb879a3",
  "claimsChecked": 330,
  "claimsCorrected": 10,
  "claimsRemovedOrSoftened": 2,
@@ -13,5 +13,10 @@
    "note": "Nov 10, 2026: callout wording 'Your state's cooperative extension office' made audience-neutral ('A local cooperative extension office (in the US)'), per the fact-checker's note that the page also serves Canadian readers; no fact changed",
    "previousSha": "4f85299e9b1dd6fe8bb2921f5aa9e92c516a9e55e064de2c1a40c8c9c1c3cbcf"
   }
- ]
+ ],
+ "released": {
+  "on": "2026-11-19",
+  "scheduledFor": "2026-11-19",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

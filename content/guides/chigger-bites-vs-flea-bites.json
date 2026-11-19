@@ -1,0 +1,216 @@
+{
+  "slug": "chigger-bites-vs-flea-bites",
+  "kind": "spoke",
+  "cluster": "household",
+  "keyword": "chigger bites vs flea bites",
+  "alsoTargets": [
+    "flea bites vs chigger bites",
+    "chigger bites vs bed bug bites pictures",
+    "flea bite or chigger bite",
+    "chigger or flea bites"
+  ],
+  "metaTitle": "Chigger Bites vs Flea Bites: 3 Clues (Pictures)",
+  "metaDescription": "Chigger bites follow time in grass and bunch at sock tops and waistbands; flea bites come from fleas at home and stay low on the legs. Photos of both.",
+  "h1": "Chigger Bites vs Flea Bites: How to Tell Them Apart (Pictures)",
+  "dek": "Where you picked them up, where they sit on your body and whether new ones keep appearing usually settle it. Real photos of both bites and both biters, with sizes and timing from extension and medical sources.",
+  "breadcrumb": "Chigger Bites vs Flea Bites",
+  "excerpt": "Chigger bite or flea bite? Compare where each shows up on the body, when it itches, how long it lasts and what each biter looks like, with real photos.",
+  "datePublished": "2026-11-19",
+  "parent": { "href": "/learn/bug-bites", "name": "Bug Bites" },
+  "quickAnswer": {
+    "lead": "**Where you were and where the bites sit usually settle it: chigger bites follow time in grass, weeds or brush and bunch up where clothing fits tight, while flea bites come from fleas at home, often on a pet, and stay low on the feet, ankles and calves.** One bump on its own can look like either, so use the clues below.",
+    "bullets": [
+      "Chiggers settle where clothing fits tightly: the tops of socks, under waistbands and bra bands, the backs of the knees, the crotch and the armpits, says [University of Missouri Extension](https://extension.missouri.edu/publications/g7398).",
+      "Flea bites are most common on the feet, calves and ankles and rarely appear above the knee unless you spend a lot of time sitting or lying down, according to [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/21718-flea-bites).",
+      "A chigger larva measures about 1/150 inch and is typically too small to see without magnification ([Ohio State University Extension](https://cfaes.osu.edu/fact-sheet/chiggers)); an adult cat flea is about 1/8 inch long ([Texas A&M AgriLife Extension](https://extensionentomology.tamu.edu/wp-content/uploads/2025/03/managing-fleas.pdf)).",
+      "Chigger itching usually starts several hours after the larvae attach (3 to 6 hours, says [University of Maryland Extension](https://extension.umd.edu/resource/chiggers); 4 to 8, says University of Florida) and can last up to 2 weeks; Cleveland Clinic says flea bites typically last a few days.",
+      "Once brushed off, chiggers usually die within hours, says [NYC Health](https://www.nyc.gov/site/doh/health/health-topics/chiggers.page). To stop flea bites, Cleveland Clinic says, you have to get rid of the fleas."
+    ]
+  },
+  "facts": {
+    "title": "Chigger bites vs flea bites: quick ID",
+    "head": ["Clue", "Chigger bites", "Flea bites"],
+    "rows": [
+      ["The biter", "Larva of a mite, about 1/150 inch, orange-yellow to light red, six legs", "Wingless insect about 1/8 inch, reddish brown, flattened side to side"],
+      ["Can you see it?", "Rarely: typically too small to see without magnification", "Yes: a dark speck that jumps, for example onto white socks"],
+      ["Where you pick it up", "Outdoors: tall grass, weeds, berry patches, woodland edges, lawns", "Indoors, most of all where dogs or cats sleep"],
+      ["Where on the body", "Sock tops, waistband, bra band, backs of the knees, crotch, armpits", "Feet, ankles and calves; rarely above the knee unless you sit or lie a lot"],
+      ["One bite up close", "Small reddish welt or pimple-like bump", "Small red spot inside a red halo, usually with little swelling"],
+      ["Pattern", "Bunched where clothing is tight, sometimes a speckled line along a seam", "Often three together, in a straight line or a cluster"],
+      ["When the itch starts", "Usually several hours after the larvae attach (3 to 6 or 4 to 8 hours, by source)", "A bump forms after the bite; allergic reactions usually in 12 to 24 hours"],
+      ["How long it lasts", "Itch worst for 24 to 48 hours; can last up to 2 weeks", "Usually a few days; longer in people allergic to flea bites"],
+      ["Do new bites keep coming?", "Not once the chiggers are gone: a brushed-off chigger usually dies within hours", "They can, while fleas live on a pet or in the home"],
+      ["Season", "Late spring to fall; in Ohio, June through August", "Any month: fleas can be found on pets all year"],
+      ["How it feeds", "Dissolves skin tissue through a feeding tube; no burrowing, no blood", "Feeds on blood"],
+      ["Disease in the US", "Not known to transmit any infectious disease", "Can spread flea-borne typhus, plague, cat scratch disease and tapeworms"]
+    ],
+    "caption": "From the Missouri, Maryland, Ohio State and Florida extension services, Texas A&M AgriLife, UC IPM, Cleveland Clinic, MedlinePlus, NYC Health and CDC, each linked on this page. The same bite can look different on different people."
+  },
+  "body": [
+    { "type": "h2", "text": "How do you tell chigger bites from flea bites?" },
+    { "type": "p", "text": "Ask three questions: where were you in the day before the itching started, where on your body are the bites, and are new ones still appearing? Chigger bites follow time outdoors in grass, weeds or brush, bunch up where clothing is tight and stop once the chiggers are gone. Flea bites come from fleas living on a pet or in the house, stay mostly on the feet, ankles and calves, and can keep appearing until the fleas are dealt with." },
+    { "type": "figure", "src": "/guides/photos/chigger-bites-waistline-cdc.webp", "width": 1200, "height": 1276, "alt": "Chigger bites along the waistline: small red welts in a band across the side of a patient's torso, in a CDC clinical photo", "caption": "Chigger bites along the beltline on a patient's right flank, which CDC attributes to the chigger Eutrombicula lipovskyana (CDC photograph, 1966, cropped). Look for bites bunched where a waistband presses on the skin.", "license": "public-domain", "credit": "CDC/ P. Parsons (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=20200" },
+    { "type": "figure", "src": "/guides/photos/flea-bites-ankles-cdc.webp", "width": 1200, "height": 1763, "alt": "Flea bites around the ankles: dozens of small dark spots on a woman's lower legs and feet in a black-and-white CDC photo", "caption": "Bites that CDC attributes to the cat flea, around a woman's ankles and shins (Decatur, Georgia, 1963). The photo is black and white, so each red bite shows as a dark dot.", "license": "public-domain", "credit": "CDC/ Dr. H.G. Scott (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=25258" },
+    { "type": "p", "text": "The look of a single bump rarely settles it. Both bites can be small, very itchy red bumps in lines or clusters, and [UC IPM's guide to unexplained itching](https://ipm.ucanr.edu/home-and-landscape/itching-and-infestation-whats-attacking-me/) says a conclusive answer takes a specimen of the biter identified by a trained entomologist. The sections below take the clues one at a time, and the [bug bite identification chart](/learn/bug-bites) sets other common bites side by side." },
+
+    { "type": "h2", "text": "What do chigger bites and flea bites look like?" },
+    { "type": "p", "text": "Chigger bites are small reddish welts or pimple-like bumps; a flea bite is a small red spot inside a red halo. University of Maryland Extension describes chigger bites as small reddish welts that itch intensely, and [MedlinePlus's chigger article](https://medlineplus.gov/ency/article/001333.htm) describes red, pimple-like bumps or hives. NYC Health says a bite site can erupt into a red welt with a hard, white center, and University of Missouri Extension says fluid that oozes from a scratched bite hardens into a hard cap, which it calls a distinct feature of chigger bites, not associated with the bites of other arthropods such as mosquitoes." },
+    { "type": "figure", "src": "/guides/photos/chigger-bites-sock-line.webp", "width": 1200, "height": 900, "alt": "Bites the photographer attributes to chiggers, above the sock line: small red bumps on the top of a foot and ankle beside a dark sock", "caption": "Bites on the top of a foot just above a dark sock, which the photographer attributes to chiggers (Goochland County, Virginia, August). A photo alone cannot confirm what bit.", "license": "CC-BY-4.0", "credit": "(c) stephen, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/394267290" },
+    { "type": "p", "text": "Flea bites tend to be flatter. [UC IPM's Pest Note on fleas](https://ipm.ucanr.edu/home-and-landscape/fleas/) describes a small central red spot surrounded by a red halo, usually without much swelling, and Cleveland Clinic says flea bites don't swell to the size of mosquito bites. [MedlinePlus's flea article](https://medlineplus.gov/ency/article/001329.htm) calls them small, very itchy red bumps, often three together, and says people allergic to flea bites may develop blisters." },
+    { "type": "figure", "src": "/guides/photos/flea-bites-lower-leg-close-up.webp", "width": 1159, "height": 1036, "alt": "Bites the photographer labels as flea bites, on a lower leg up close: small, separate red spots among the hairs of the skin", "caption": "A close-up of flea bites on a person's lower leg, as labeled by the photographer: small, separate red spots among the hairs.", "license": "CC-BY-4.0", "credit": "Maslesha, CC BY 4.0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flea_Bites_on_the_Lower_Leg_02.jpg" },
+    { "type": "p", "text": "Patterns overlap too. [Cleveland Clinic's chigger page](https://my.clevelandclinic.org/health/diseases/23267-chigger-bites) describes a speckled line of red spots or pimples where tight clothing sits, while its flea page says flea bites often appear in a straight line or a cluster. A line of bites is therefore not a test on its own; where the line sits tells you more." },
+
+    { "type": "h2", "text": "Where on the body do chiggers and fleas bite?" },
+    { "type": "p", "text": "Chiggers bite where clothing is tight or skin is thin, and fleas bite low on the legs. Missouri Extension says chiggers crawl upward, under or through clothing, until a snug spot stops them, so they settle at the tops of shoes and socks, under waistbands and bra bands, behind the knees and in the crotch and armpits. Fleas wait and jump onto a passing host, Texas A&M says, and Cleveland Clinic says their bites are most common on the feet, calves and ankles." },
+    { "type": "table", "head": ["Part of the body", "Chigger bites", "Flea bites"], "rows": [
+      ["Feet and ankles", "Yes, especially at the tops of socks and shoes", "Yes, the most common place"],
+      ["Calves and shins", "Yes", "Yes"],
+      ["Backs of the knees", "Yes", "Rarely, unless you sit or lie a lot"],
+      ["Waistband, hips and crotch", "Yes, under waistbands and in the crotch", "Sometimes, where clothes fit close to the body"],
+      ["Armpits and bra band", "Yes", "Not typical in these sources"],
+      ["Arms, neck and face", "Rarely; bites on uncovered skin may be mosquitoes or biting flies", "Rarely, since flea bites seldom reach above the knee"]
+    ], "caption": "From University of Missouri Extension, Ohio State University Extension, Cleveland Clinic and MedlinePlus." },
+    { "type": "p", "text": "The waist is where the two overlap. MedlinePlus says flea bites can also land where clothes fit close to the body, such as the waist, buttocks, thighs and lower abdomen, so a few bites at a waistband do not rule fleas out. [Ohio State University Extension's chigger fact sheet](https://cfaes.osu.edu/fact-sheet/chiggers) adds that chigger bites rarely occur on open, uncovered skin, and MedlinePlus says a rash that stops where the underwear meets the legs is often a clue that it is from chigger bites." },
+
+    { "type": "h2", "text": "When do the bites show up, and how long do they itch?" },
+    { "type": "p", "text": "Chigger bites itch hours after you were outdoors and can last up to two weeks, while flea bites usually fade within a few days. [University of Maryland Extension's chigger page](https://extension.umd.edu/resource/chiggers) says the itching is usually not felt for 3 to 6 hours after the larvae attach and may persist for up to 2 weeks. Sources differ on the delay: University of Florida IFAS Extension says itching is usually noticed 4 to 8 hours after the chiggers attach or are brushed off, while Cleveland Clinic says symptoms can take up to three hours to appear. Cleveland Clinic adds that the itch is most intense in the first 24 to 48 hours. Because of that delay, the itch can start well after you are back indoors." },
+    { "type": "p", "text": "Flea bites run shorter. Cleveland Clinic says they typically last a few days. Allergic reactions are the exception: UC IPM says a single bite can set off an allergic reaction, with itching that can persist up to 5 days, and [Texas A&M AgriLife Extension's guide to managing fleas](https://extensionentomology.tamu.edu/wp-content/uploads/2025/03/managing-fleas.pdf) says people allergic to flea bites can get hives, rashes or itching all over, usually 12 to 24 hours after a bite, and that the reaction may last a week or more." },
+
+    { "type": "h2", "text": "Did the bites come from outdoors or from your home?" },
+    { "type": "p", "text": "Chiggers come from outdoors and fleas usually come from inside the home, so think back over the last day or two. MedlinePlus says chiggers live in tall grass, weeds, berry patches and woodland edges, and University of Maryland Extension adds home lawns and golf courses. [University of Missouri Extension](https://extension.missouri.edu/publications/g7398) says their distribution is patchy, so one spot can be heavily infested while another a few yards away has almost none, and that people are only accidental hosts. The larvae do not last once they are off you: [NYC Health's chigger page](https://www.nyc.gov/site/doh/health/health-topics/chiggers.page) says that once you brush chiggers off, they usually die within hours." },
+    { "type": "p", "text": "Fleas live with their hosts. UC IPM says the cat flea is the most common flea on both cats and dogs, that it also bites people, and that flea numbers are highest where pets sleep; Texas A&M says cat fleas do not normally live on people. Having no pet does not rule fleas out: Texas A&M says a building can become infested from a previous occupant's pets or from wildlife living under or around it. [Whether fleas can live on people](/blog/fleas-on-humans) has its own guide." },
+    { "type": "p", "text": "The calendar helps too. NYC Health says chiggers are most active in late spring and summer, Missouri Extension puts the risk in Missouri from May until the first killing frost, and Ohio State says the greatest numbers in Ohio are present June through August. Fleas bite in any month: UC IPM says flea numbers climb sharply in spring and early summer, but fleas can be found on pets all year, and fully formed fleas can wait in their cocoons for up to 12 months at cool temperatures." },
+
+    { "type": "h2", "text": "What do chiggers and fleas look like?" },
+    { "type": "p", "text": "A chigger is a tiny orange speck you will rarely notice, while a flea is a dark, flat insect big enough to see, and it jumps. Chiggers are the larvae of mites: [University of Florida IFAS Extension](https://ask.ifas.ufl.edu/publication/IG085) describes the larvae as orange-yellow or light red with six legs, Missouri Extension puts them at about 1/150 inch (University of Maryland Extension says 1/150 to 1/120 inch), and Ohio State says they are typically too small to see without magnification." },
+    { "type": "figure", "src": "/guides/photos/chigger-larva-on-skin.webp", "width": 1200, "height": 802, "alt": "Chigger on skin, magnified, as identified by the photographer: a tiny orange mite larva with its legs spread on the fine lines of human skin", "caption": "A chigger larva, as the photographer identified it, on their skin after time in woodland undergrowth in Huntingdon County, Pennsylvania (July). Without magnification it is at most a tiny orange dot.", "license": "CC-BY-4.0", "credit": "(c) Cecil Smith, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/305255840" },
+    { "type": "figure", "src": "/guides/photos/chigger-larva-on-tweezers.webp", "width": 1200, "height": 802, "alt": "Chigger larva on the tip of tweezers: a tiny orange mite clinging to the rounded metal tip, shown for scale", "caption": "One of the same photographer's chiggers (their identification) on the tip of a pair of tweezers, for scale. The larva is the only stage that bites people.", "license": "CC-BY-4.0", "credit": "(c) Cecil Smith, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/305255840" },
+    { "type": "p", "text": "Only the larva feeds on people. Ohio State says chigger nymphs and adults prey on insect eggs and small arthropods such as springtails, and that the larger red mites often seen on patios and lawn furniture are not chiggers and do not bite people; it lists red velvet mites, concrete mites and clover mites among the mites mistaken for chiggers. [The guide to red ticks and clover mites](/blog/red-ticks-and-clover-mites) shows those red mites." },
+    { "type": "p", "text": "Fleas are far bigger. Texas A&M describes adult cat fleas as about 1/8 inch long (1 to 3 mm), reddish brown and wingless, with a body flattened from side to side, backward-pointing bristles and long hind legs adapted for jumping. At about 1/8 inch, a flea is many times the length of a chigger larva and big enough to spot on a white sock or in a pet's fur." },
+    { "type": "figure", "src": "/guides/photos/cat-flea-from-dog.webp", "width": 1200, "height": 1026, "alt": "Cat flea up close, side view: a shiny, dark reddish-brown flattened body and long, spiny hind legs", "caption": "A cat flea (Ctenocephalides felis), identified on iNaturalist, taken off a dog in Athens, Georgia. The flattened body and long, bristly hind legs mark a flea.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/224420331" },
+    { "type": "p", "text": "[What fleas look like](/blog/what-do-fleas-look-like) has close-ups of adult fleas, eggs and larvae, and [bugs that look like fleas](/blog/bugs-that-look-like-fleas) sorts out the look-alikes." },
+
+    { "type": "h2", "text": "Do chiggers burrow into your skin?" },
+    { "type": "p", "text": "No. The Missouri, Maryland and Ohio State extension services all say chiggers do not burrow into the skin or suck blood, and Ohio State calls the burrowing idea a myth. Missouri Extension explains how they feed instead: the larva pierces the skin, injects a digestive enzyme, and within hours the tissue around the spot hardens into a feeding tube called a stylostome, through which it takes up dissolved tissue. Left alone it feeds for three or four days, but Ohio State says most chiggers are knocked off by movement, scratching or bathing long before they finish." },
+    { "type": "p", "text": "That matters for treatment, because nothing is living under the skin to smother. A Texas A&M AgriLife Extension entomologist told [AgriLife Today](https://agrilifetoday.tamu.edu/2024/05/24/chigger-season-tips-to-beat-the-itch/) that nail polish or bleach will only potentially add to the skin irritation, because chiggers do not burrow and typically leave soon after feeding. [The chigger bite guide](/blog/chigger-bites) follows a chigger bite from the first itch to healed skin." },
+
+    { "type": "h2", "text": "How can you confirm whether it was chiggers or fleas?" },
+    { "type": "p", "text": "Find the biter, or the place it comes from. Run through these checks, then use the two tests below to catch fleas indoors and chiggers in the yard." },
+    { "type": "checklist", "title": "Chiggers or fleas? Check these", "items": [
+      "**Were you in tall grass, weeds, brush or a berry patch in the day before the itch started?** That fits chiggers.",
+      "**Are the bites bunched at the sock tops, the waistband, the backs of the knees or the armpits?** That fits chiggers.",
+      "**Are the bites mostly on the feet, ankles and calves, with none where clothing was tight?** That fits fleas.",
+      "**Do new bites keep appearing at home, days after any time outdoors?** That fits fleas, or another biter that lives indoors, better than chiggers.",
+      "**Does a pet scratch, or do dark specks show up in its fur or bedding?** Look for fleas and flea dirt.",
+      "**Did dark specks jump onto white socks in the room where the pet sleeps?** Those are fleas.",
+      "**Did tiny yellow or pinkish dots climb a piece of black cardboard set in the grass?** Those are chiggers."
+    ] },
+    { "type": "p", "text": "For fleas, UC IPM suggests walking through the places your pet rests wearing white socks pulled up to the knee: any fleas jump onto the socks, where they are easy to see. Texas A&M describes flea dirt, the feces of adult fleas, as a fine, reddish-black dust in pet fur and bedding, and says flea larvae are most likely to be found in infested pet bedding. [The flea dirt guide](/blog/flea-dirt) shows how to check the specks." },
+    { "type": "figure", "src": "/guides/photos/flea-eggs-larvae-and-flea-dirt.webp", "width": 1200, "height": 1200, "alt": "Flea eggs, larvae and flea dirt: white oval eggs, pale bristly larvae and reddish-black specks on a gray surface where a cat sleeps", "caption": "Flea eggs (white ovals), larvae and flea dirt (reddish-black specks), as identified on iNaturalist, found under a jigsaw puzzle on a table where a cat liked to sleep, in Austin, Texas. Signs like these where a pet rests point to fleas breeding in the home.", "license": "CC-BY-4.0", "credit": "(c) Justin Williams, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/232149666" },
+    { "type": "p", "text": "For chiggers, UF/IFAS and NYC Health describe the same check: set a piece of black cardboard on edge in the grass, and any chiggers climb it and show up as tiny yellow or pinkish dots. Ohio State suggests waiting about 10 minutes before you look. A healthcare provider can usually diagnose chigger bites by examining the rash and asking about time outdoors, MedlinePlus says, and may use a magnifying scope to find chiggers on the skin." },
+
+    { "type": "h2", "text": "What else looks like chigger bites or flea bites?" },
+    { "type": "p", "text": "Bed bug bites, mosquito bites, biting-fly bites and the scabies rash are the usual mix-ups, and each has its own tell." },
+    { "type": "ul", "items": [
+      "**Bed bug bites.** The [American Academy of Dermatology's bed bug page](https://www.aad.org/public/diseases/a-z/bed-bugs-symptoms) describes several welts, often in a zigzag line, says the first bites can take as long as 14 days to itch, and lists specks of blood on the bedding as a sign. See [bed bug bites](/blog/bed-bug-bites); the chigger bite guide compares chigger and bed bug bites.",
+      "**Mosquito bites.** [CDC's page on mosquito bites](https://www.cdc.gov/mosquitoes/about/about-mosquito-bites.html) describes a puffy, reddish bump a few minutes after the bite and a hard, itchy, reddish-brown bump a day or so later. See [what mosquito bites look like](/blog/what-do-mosquito-bites-look-like).",
+      "**Scabies.** [CDC's scabies symptoms page](https://www.cdc.gov/scabies/signs-symptoms/index.html) describes intense itching, especially at night, and a pimple-like rash between the fingers, in the folds of the wrist, elbow, knee and armpit, and on the waist and buttocks. It can take as long as three to six weeks to appear the first time; CDC advises contacting a healthcare provider if you suspect it.",
+      "**Biting flies and no-see-ums.** Ohio State says bites on open, uncovered skin may be from mosquitoes or biting flies rather than chiggers; [no-see-um bites](/blog/no-see-um-bites) shows what the tiny biting midges leave."
+    ] },
+    { "type": "p", "text": "Some itching is not from a bite at all. Ohio State lists poison ivy and skin allergies among other causes of itching, and notes that grass itself can raise tiny red welts on bare skin that touched the blades. UC IPM's itching guide says the first person to contact about itching with no obvious cause is your family physician or primary health care provider. To narrow down other biters from your own answers, the [bug bite identifier](/tools/bug-bite-identifier) asks six questions." },
+    { "type": "confused", "items": [
+      { "href": "/blog/bed-bug-bites", "name": "Bed bug bites", "photo": "bed-bug-bites-forearm", "note": "Welts often in a zigzag line; first bites can take up to 14 days to itch; blood specks on the bedding", "alt": "Raised red bed bug bites in small groups along a forearm" },
+      { "href": "/blog/what-do-mosquito-bites-look-like", "name": "Mosquito bites", "photo": "mosquito-bite-welt-quarter", "note": "A puffy, reddish bump within minutes, then a hard, itchy bump a day or so later", "alt": "Raised red mosquito bite welt on a forearm beside a US quarter" },
+      { "href": "/blog/scabies-vs-bed-bugs", "name": "Scabies rash", "photo": "scabies-rash-hand", "note": "A pimple-like rash between the fingers and in skin folds that itches most at night", "alt": "Pimple-like scabies rash in the webbing between two fingers" },
+      { "href": "/blog/no-see-um-bites", "name": "No-see-um bites", "photo": "biting-midge-bites-ankles", "note": "Bites on bare, uncovered skin, where chigger bites rarely occur", "alt": "A man's ankles with rolled-down white socks and small red bites above them" }
+    ] },
+
+    { "type": "h2", "text": "Are chigger bites or flea bites dangerous?" },
+    { "type": "p", "text": "Usually not, though both can become infected if scratched, and fleas can carry disease. University of Maryland Extension says chiggers are not known to transmit any infectious diseases in the United States. Fleas can: [CDC's page on fleas](https://www.cdc.gov/fleas/about/index.html) says they can spread plague, usually through ground squirrel fleas in rural areas of the western US; flea-borne (murine) typhus, through infected cat fleas or Oriental rat fleas, with most US cases reported from California, Texas and Hawaii; cat scratch disease; and tapeworms, if someone swallows an infected flea." },
+    { "type": "p", "text": "Scratching is the common risk. MedlinePlus says scratching can lead to a skin infection after either bite, and some people react strongly: UF/IFAS Extension says some people have an allergic reaction to chigger bites that may bring severe swelling, itching and fever." },
+
+    { "type": "h2", "text": "When should you see a doctor for chigger or flea bites?" },
+    { "type": "p", "text": "Get emergency care for signs of a severe allergic reaction, and see a healthcare provider for bites that look infected or do not improve. The [American Academy of Dermatology](https://www.aad.org/public/everyday-care/injured-skin/bites/bug-bites-see-dermatologist) says to go to the emergency room immediately for difficulty breathing, a feeling that your throat is closing, swollen lips, tongue or face, chest pain, a racing heartbeat that lasts more than a few minutes, dizziness, vomiting or a headache after a bite or sting." },
+    { "type": "ul", "items": [
+      "**Chigger bites.** Cleveland Clinic advises seeing a provider if the itching causes extreme discomfort, the bites turn into open wounds, the itching does not go away after two weeks, or the skin around a bite swells or leaks pus. MedlinePlus adds a rash that itches very badly, or symptoms that get worse or do not improve with treatment.",
+      "**Flea bites.** Cleveland Clinic advises seeing a provider for an allergic reaction, which it lists as hives, rash, shortness of breath and swelling, for bite symptoms that last longer than a few days, and for signs of a flea-borne illness such as fever, headache and body aches.",
+      "**Any bite.** CDC's mosquito-bite page says an infected bite may look red, feel warm or have a red streak spreading outward from it, and to see a healthcare provider if symptoms worsen. The American Academy of Dermatology says a headache, fever or body aches, or a rash after a bug bite, calls for a board-certified dermatologist right away."
+    ] },
+    { "type": "p", "text": "Tell the provider where you were and about any pets. MedlinePlus says chigger bites are usually diagnosed by examining the rash and asking about outdoor activity, and flea bites by examining the skin, with questions about contact with cats and dogs." },
+
+    { "type": "h2", "text": "What should you do once you know which one bit you?" },
+    { "type": "p", "text": "Treat the itch the same way for both, then deal with the source, which is different: wash off chiggers and the clothes they rode in on, or treat the pet and the house for fleas." },
+    { "type": "ul", "items": [
+      "**After time in chigger habitat.** Shower as soon as you can: University of Maryland Extension says lathering and rinsing several times in a hot shower is the best way to remove any remaining chiggers, and Missouri Extension says a warm shower with a vigorous skin massage within an hour or two of exposure substantially reduces the number of bites. NYC Health says to wash the clothes in hot water for at least 30 minutes.",
+      "**For the itch from either bite.** MedlinePlus names an over-the-counter 1% hydrocortisone cream and oral antihistamines for flea bites, and antihistamines and corticosteroid creams or lotions for chigger bites. Use them as the package directs, and try not to scratch.",
+      "**For fleas.** Treat the pet and the home together: UC IPM advises veterinarian-recommended products for pets, frequent vacuuming of floors, carpets and upholstery, and laundering pet bedding in hot, soapy water at least once a week. [How to get rid of fleas](/blog/how-to-get-rid-of-fleas) goes step by step.",
+      "**For chiggers in the yard.** Missouri Extension calls mowing and removing unneeded shrubs and weeds the most effective form of area control, and University of Maryland Extension says pesticides are not recommended or effective against chiggers. See [how to get rid of chiggers](/blog/how-to-get-rid-of-chiggers).",
+      "**Next time outdoors.** Missouri Extension says any insect repellent containing DEET or picaridin will be effective against chiggers; use it as the label directs, and tuck pant legs into boots."
+    ] },
+    { "type": "p", "text": "[The flea bite photo guide](/blog/flea-bites) shows more flea bites and how to treat them, and [flea bites on people](/blog/flea-bites-on-humans) covers the indoor checks in depth." },
+    { "type": "callout", "tone": "tip", "title": "Catch the biter for a closer look", "text": "Press a suspect flea or mite onto clear tape, photograph it beside a ruler marked in inches, and photograph the bites the same day. Your state's cooperative extension office can identify the insect or mite, and a healthcare provider can look at the bites." }
+  ],
+  "faqs": [
+    {
+      "question": "Do chigger bites look like flea bites?",
+      "answer": "They can. Both can be small, very itchy red bumps in lines or clusters, and UC IPM says a conclusive answer takes a specimen of the biter, identified by a trained entomologist. The clues are elsewhere: chigger bites follow time in grass or brush and bunch where clothing is tight, such as sock tops and the waistband, while flea bites come from fleas at home and stay mostly on the feet, ankles and calves. Chigger itching usually starts several hours after the larvae attach: 3 to 6 hours, according to University of Maryland Extension."
+    },
+    {
+      "question": "Can chiggers live in your house or bed?",
+      "answer": "Not usually. Chiggers live outdoors in tall grass, weeds, brush and lawns, and they do not last long on people: University of Florida IFAS Extension says chiggers that attach to people are usually dislodged or die within hours, though it notes that chiggers sometimes invade buildings. Bites that keep appearing at home with no recent time outdoors are more likely from a biter that lives indoors, such as fleas or bed bugs. After time in chigger habitat, Ohio State University Extension advises washing your clothes on the hot setting to kill any mites left on them, and NYC Health advises a hot bath or shower, washing with soap repeatedly."
+    },
+    {
+      "question": "Can you get flea bites if you don't have pets?",
+      "answer": "Yes. Texas A&M AgriLife Extension says buildings can sometimes become infested with fleas even when there are no pets, either from a previous occupant's pets or from wildlife such as bats, rats, squirrels, raccoons and feral cats and dogs living under or around the building. Long-vacant homes can come alive with fleas when new tenants move in, because adult fleas can wait in their cocoons for a host; UC IPM says fully formed fleas can wait up to 12 months at cool temperatures."
+    },
+    {
+      "question": "How long do chigger bites last compared with flea bites?",
+      "answer": "Chigger bites usually last longer. University of Maryland Extension says chigger itching may persist for up to 2 weeks, and Cleveland Clinic says it is most intense in the first 24 to 48 hours. Cleveland Clinic says flea bites typically last a few days. Allergic reactions last longer: UC IPM says a single flea bite can set off an allergic reaction with itching that persists up to 5 days, and Texas A&M AgriLife Extension says the reaction may last a week or more."
+    },
+    {
+      "question": "Why do chigger bites seem to spread?",
+      "answer": "Mostly because they show up late and in several places. University of Maryland Extension says itching is usually not felt until 3 to 6 hours after a chigger attaches, and Ohio State University Extension says the welts can take several hours to develop, so bites from one outing can surface after you are home. University of Missouri Extension says chiggers crawl upward under clothing until something snug stops them, so one outing can leave bites from the sock tops to the waistband. NYC Health says brushed-off chiggers usually die within hours, so bites that keep coming for days with no new time outdoors suggest a different biter, such as fleas or bed bugs."
+    },
+    {
+      "question": "How do you get chiggers off your skin?",
+      "answer": "Wash them off as soon as you can. University of Maryland Extension says lathering and rinsing several times in a hot shower is the best way to remove any remaining chiggers, and University of Missouri Extension says a warm shower with a vigorous skin massage within an hour or two of exposure greatly reduces the number of bites. Ohio State University Extension says wiping exposed skin with a washcloth also helps dislodge them, and that clothes should be washed on the hot setting to kill any mites left in them."
+    },
+    {
+      "question": "Do fleas bite above the knee?",
+      "answer": "They can, though sources differ on how often. Cleveland Clinic says flea bites are most common on the feet, calves and ankles and rarely appear above the knee unless you spend a lot of time sitting or lying down. MedlinePlus says flea bites often occur on the legs and where clothing fits close to the body, such as the waist, buttocks, thighs and lower abdomen. Texas A&M AgriLife Extension says cat fleas can bite people who handle or sleep with infested animals."
+    },
+    {
+      "question": "Can you see chiggers on your skin?",
+      "answer": "Rarely without help. Ohio State University Extension says chiggers are yellow to reddish but typically too small to see without magnification, and University of Missouri Extension puts the larva at about 1/150 inch. MedlinePlus says a healthcare provider may use a magnifying scope to find chiggers on the skin. Fleas are different: an adult cat flea is about 1/8 inch long, according to Texas A&M AgriLife Extension, big enough to see on a white sock or in a pet's fur."
+    },
+    {
+      "question": "What time of year do chiggers bite?",
+      "answer": "Mostly from late spring into fall. NYC Health says chiggers are most active in late spring and summer, MedlinePlus says bites commonly occur in summer and fall, and University of Missouri Extension puts the risk in Missouri from May until the first killing frost. Ohio State says the greatest numbers in Ohio are present June through August, and University of Florida IFAS Extension says adult chiggers may be active all year in South Florida. Fleas, by contrast, can be found on pets all year, says UC IPM."
+    },
+    {
+      "question": "Does nail polish kill chiggers?",
+      "answer": "Not in any useful way. Cleveland Clinic says the rash usually starts after the chiggers have already detached, and chiggers do not burrow, so there is nothing under the skin to smother; Ohio State University Extension calls the burrowing idea a myth and advises avoiding folk remedies. A Texas A&M AgriLife Extension entomologist says nail polish or bleach will only potentially add to the skin irritation. For the itch, MedlinePlus says antihistamines and corticosteroid creams or lotions may help."
+    }
+  ],
+  "sources": [
+    { "title": "Chiggers (G7398; revised by Richard M. Houseman, September 2017)", "publisher": "University of Missouri Extension", "url": "https://extension.missouri.edu/publications/g7398" },
+    { "title": "Chiggers (updated April 16, 2026)", "publisher": "University of Maryland Extension", "url": "https://extension.umd.edu/resource/chiggers" },
+    { "title": "Chiggers (ANR-0182; Ashley Kulhanek, June 13, 2025)", "publisher": "Ohio State University Extension (CFAES)", "url": "https://cfaes.osu.edu/fact-sheet/chiggers" },
+    { "title": "Chiggers (ENY-212; P. G. Koehler, F. M. Oi and A. Chaskopoulou)", "publisher": "University of Florida IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IG085" },
+    { "title": "Chigger season tips to beat the itch (Adam Russell, May 24, 2024)", "publisher": "Texas A&M AgriLife Today", "url": "https://agrilifetoday.tamu.edu/2024/05/24/chigger-season-tips-to-beat-the-itch/" },
+    { "title": "Chiggers (Medical Encyclopedia, reviewed October 9, 2024)", "publisher": "MedlinePlus, U.S. National Library of Medicine", "url": "https://medlineplus.gov/ency/article/001333.htm" },
+    { "title": "Chigger Bites (last updated June 7, 2022)", "publisher": "Cleveland Clinic", "url": "https://my.clevelandclinic.org/health/diseases/23267-chigger-bites" },
+    { "title": "Chiggers", "publisher": "NYC Health (New York City Department of Health and Mental Hygiene)", "url": "https://www.nyc.gov/site/doh/health/health-topics/chiggers.page" },
+    { "title": "Pest Notes: Fleas (UC ANR Publication 7419; M. K. Rust)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/fleas/" },
+    { "title": "Managing Fleas (ENTO-PU-046; Wizzie Brown and Molly Keck, January 2025)", "publisher": "Texas A&M AgriLife Extension Service", "url": "https://extensionentomology.tamu.edu/wp-content/uploads/2025/03/managing-fleas.pdf" },
+    { "title": "Fleas (Medical Encyclopedia, reviewed October 13, 2024)", "publisher": "MedlinePlus, U.S. National Library of Medicine", "url": "https://medlineplus.gov/ency/article/001329.htm" },
+    { "title": "Flea Bites (medically reviewed August 31, 2021)", "publisher": "Cleveland Clinic", "url": "https://my.clevelandclinic.org/health/diseases/21718-flea-bites" },
+    { "title": "About Fleas (May 15, 2024; reviewed November 2, 2026)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/fleas/about/index.html" },
+    { "title": "Pest Notes: Itching and Infestation: What's Attacking Me? (UC ANR Publication 7443, updated September 2020)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/itching-and-infestation-whats-attacking-me/" },
+    { "title": "Bug Bites and Stings: When to See a Dermatologist", "publisher": "American Academy of Dermatology", "url": "https://www.aad.org/public/everyday-care/injured-skin/bites/bug-bites-see-dermatologist" },
+    { "title": "Bedbugs: Signs and Symptoms", "publisher": "American Academy of Dermatology", "url": "https://www.aad.org/public/diseases/a-z/bed-bugs-symptoms" },
+    { "title": "Symptoms of Scabies (January 12, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/scabies/signs-symptoms/index.html" },
+    { "title": "About Mosquito Bites (June 21, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/mosquitoes/about/about-mosquito-bites.html" }
+  ],
+  "disclaimer": "both"
+}

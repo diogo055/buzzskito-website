@@ -2,7 +2,7 @@
  "id": "camel-crickets",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "8b344d9542eb245ca1e506ad063d3071b294f22bfa7b98f7f41236e1e7aadbab",
+ "sha": "8c4b1b5bca2c7bceef806d3b6633452b85a26b039684cd55d39a37956b14aac2",
  "claimsChecked": 308,
  "claimsCorrected": 2,
  "claimsRemovedOrSoftened": 1,
@@ -27,6 +27,11 @@
    "on": "2026-11-09",
    "note": "Nov 8, 2026 top-3 upgrade (commit b6754e3b: new sourced sections, tables, FAQs and photos) was independently fact-checked that day (41 corrections across the walkthrough pages, three passes), but this record was not updated then; recorded Nov 9.",
    "previousSha": "6d226293eda6609cb4b5c67f45d139c250ae6c12e9fcc611d1e5a25ce2414180"
+  },
+  {
+   "on": "2026-11-19",
+   "note": "Nov 19, 2026: added one original BuzzSkito diagram (/diagrams/camel-cricket-vs-house-cricket.svg, CC BY 4.0) after the first paragraph of an existing section; sizes from EPA/CDC/university extension sources listed in the diagram itself. No text changed.",
+   "previousSha": "8b344d9542eb245ca1e506ad063d3071b294f22bfa7b98f7f41236e1e7aadbab"
   }
  ]
 }

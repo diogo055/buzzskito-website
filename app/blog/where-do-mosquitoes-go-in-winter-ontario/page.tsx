@@ -5,6 +5,8 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'where-do-mosquitoes-go-in-winter-ontario'
 const DATE = '2026-07-12'
@@ -78,12 +80,13 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('anopheles-punctipennis-window-ontario'),
 })
 
 export default function WhereDoMosquitoesGoInWinterOntarioPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'How mosquitoes overwinter in Ontario and why they return in spring.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'How mosquitoes overwinter in Ontario and why they return in spring.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('anopheles-punctipennis-window-ontario') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Where Do Mosquitoes Go in Winter?', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -164,7 +167,17 @@ export default function WhereDoMosquitoesGoInWinterOntarioPage() {
           <h2>Three Ways Mosquitoes Beat the Cold</h2>
           <p>People assume the first hard frost ends the mosquito problem for good. It doesn&rsquo;t. The individual mosquitoes biting you in July are gone by October, but the species has three separate survival strategies that carry it through an Ontario winter and straight into next spring.</p>
           <p><strong>1. Hibernating adult females (diapause).</strong> This is the strategy of <em>Culex</em> mosquitoes — including <em>Culex pipiens</em>, the main West Nile virus carrier in Ontario &mdash; and <em>Anopheles</em>. In late summer, mated females stop laying eggs, gorge on plant sugars to build fat, and slip into a protected shelter. Only mated females do this; every male dies in the fall. These females don&rsquo;t breed over winter — they simply survive, then lay the first eggs of the year in spring.</p>
+          <Photo
+            id="anopheles-punctipennis-window-ontario"
+            alt="Woodland malaria mosquito with dark-spotted wings resting on window glass above a white sill"
+            caption="A woodland malaria mosquito (Anopheles punctipennis) on a window, found indoors in a cold room in Ontario in late October (research grade on iNaturalist). Anopheles mosquitoes spend the winter as mated adult females in sheltered spots."
+          />
           <p><strong>2. Cold-hardy eggs.</strong> <em>Aedes</em> mosquitoes (including the aggressive daytime-biting floodwater species) take a completely different approach. The female glues her eggs to the dry sides of tree holes, containers, tires, clogged gutters, and low spots in the yard. Those eggs are frost-tolerant — they can survive freezing and months of cold, then hatch the moment spring meltwater or rain floods them. The eggs, not the adults, are what carry the population through winter.</p>
+          <Photo
+            id="aedes-albopictus-eggs"
+            alt="Magnified black, cigar-shaped Asian tiger mosquito eggs lying on paper"
+            caption="Asian tiger mosquito (Aedes albopictus) eggs laid on paper (CDC photograph). In the northern part of its US range, this species survives winter almost entirely as dormant eggs."
+          />
           <NextUp path="/blog/where-do-mosquitoes-go-in-winter-ontario" />
           <p><strong>3. Overwintering larvae.</strong> A few species ride out winter as larvae, dormant at the bottom of ponds and marshes or attached to plant roots in water that never fully freezes. They resume development once the water warms in late spring.</p>
 
@@ -172,6 +185,11 @@ export default function WhereDoMosquitoesGoInWinterOntarioPage() {
           <p>Diapause is not just &ldquo;getting sleepy in the cold.&rdquo; It is a programmed dormancy triggered mainly by <strong>shortening daylight</strong> in late summer and early fall, reinforced by dropping temperatures. Once a female mosquito reads those cues, her body changes: she stops seeking blood, her ovaries pause, her metabolism slows to a crawl, and she stockpiles fat to live on for months.</p>
           <p>Crucially, diapausing mosquitoes also produce <strong>cryoprotectants</strong> — compounds such as glycerol that behave like a natural antifreeze, lowering the temperature at which their tissues would freeze and rupture. This is why a cold snap that would kill an active summer mosquito doesn&rsquo;t reliably kill a hibernating one. The female is chemically and behaviourally built to survive subfreezing conditions in her sheltered spot.</p>
           <p>It also explains the mosquito that turns up indoors out of season. A diapausing <em>Culex</em> female sheltering in a heated basement, crawl space, or attached garage sits in far warmer conditions than the shed she was aiming for, and a warm stretch can rouse her into flying around the house in the middle of winter. If one is circling your bedroom in February, our guide to <Link href="/blog/how-to-get-rid-of-mosquitoes-in-the-house">getting rid of mosquitoes inside the house</Link> covers where to look for her and what actually works indoors.</p>
+          <Photo
+            id="culex-tarsalis-kitchen-wall"
+            alt="Brown Culex mosquito resting on a pale kitchen wall indoors, side view"
+            caption="A western encephalitis mosquito (Culex tarsalis) resting on a kitchen wall indoors in December, in Idaho (research grade on iNaturalist). A warm spell can rouse a sheltering Culex female into flying around the house in winter."
+          />
 
           <h2>What Temperature Stops — and Wakes — Mosquitoes</h2>
           <p>Mosquito activity is governed by temperature more than by the calendar. Here are the practical thresholds for the GTA:</p>
@@ -276,6 +294,11 @@ export default function WhereDoMosquitoesGoInWinterOntarioPage() {
             </table>
           </div>
           <p className="text-xs text-gray-500">Indiana rows: Purdue University medical entomology (linked above). Alaska row: <a href="https://www.gi.alaska.edu/alaska-science-forum/how-mosquitoes-overwinter-alaska" target="_blank" rel="noopener noreferrer">University of Alaska Fairbanks Geophysical Institute</a>.</p>
+          <Photo
+            id="snow-mosquito-closeup"
+            alt="Hairy brown snow mosquito with a banded abdomen resting on blue denim, close view"
+            caption="A snow mosquito (Culiseta alaskaensis) resting on denim in Yukon. In Alaska it spends the winter as an adult and is the first species out each spring, usually from mid- to late April."
+          />
           <p>Cold is part of the mechanism, not only an obstacle. Purdue explains that an extended period of cold, equivalent to the passage of winter, is required before delayed-hatching eggs that have dried can hatch, and that the same is true before overwintering females are able to develop eggs. In the cold states, in other words, dormancy is built to outlast the whole winter instead of ending at the first mild spell.</p>
           <p>For the northern house mosquito, <em>Culex pipiens</em>, <a href="https://vectorbio.rutgers.edu/outreach/species/cxpip.htm" target="_blank" rel="noopener noreferrer">Rutgers University&rsquo;s Center for Vector Biology</a> lays out the sequence. The last generation of adult females each year mates and builds up fat by feeding on carbohydrates. Those mated females then take refuge in culverts, basements and other protected places that stay above freezing, where their metabolism slows considerably and they spend the winter in a state of torpor. The ones that survive take a blood meal in spring and lay the eggs that produce the summer population.</p>
           <p>Those hibernating females matter for disease as well as for nuisance. In January and February 2000, after the 1999 West Nile outbreak in New York, researchers collected 2,383 overwintering adult mosquitoes in Queens and the Bronx and tested them in 91 pools. Three pools carried West Nile viral RNA and live virus was isolated from one of them, according to <a href="https://wwwnc.cdc.gov/eid/article/7/4/01-7426" target="_blank" rel="noopener noreferrer">a study in the CDC journal Emerging Infectious Diseases</a>, which concluded that the virus had persisted in mosquitoes at least through midwinter.</p>
@@ -291,6 +314,11 @@ export default function WhereDoMosquitoesGoInWinterOntarioPage() {
           <p><strong>South Florida.</strong> Florida has more than 80 mosquito species, according to the UF/IFAS guide cited above. In the southwest corner of the state, the <a href="https://cmcd.org/when-is-mosquito-season-in-southwest-florida/" target="_blank" rel="noopener noreferrer">Collier Mosquito Control District</a>, an independent special district of the State of Florida, counts 42 biting species in its area and says they can be found 12 months of the year; when temperatures drop below 55&deg;F, breeding decreases and the insects shelter until it warms up again. Statewide, the main season is long instead of endless: the <a href="https://epi.ufl.edu/2024/05/01/floridas-mosquitoes-can-make-you-sick-heres-how-to-protect-yourself/" target="_blank" rel="noopener noreferrer">University of Florida Emerging Pathogens Institute</a> describes mosquito season as running from March to October, with the most activity when temperatures are in the upper 70s to 90s.</p>
           <p>Farther north, around Gainesville, University of Florida researchers trapped more than 28,000 mosquitoes of 18 species at more than 70 sites and tested about 1,000 of them in the laboratory. <a href="https://blogs.ifas.ufl.edu/news/2021/06/10/as-climates-change-prepare-for-more-mosquitoes-in-winter-new-study-shows/" target="_blank" rel="noopener noreferrer">UF/IFAS reports</a> that the range of temperatures the insects tolerate stretches and contracts with the time of year, and that the team concluded mosquitoes in temperate regions are well prepared to be active in fall and winter as those seasons warm.</p>
           <p><strong>The Gulf Coast.</strong> The southern house mosquito, <em>Culex quinquefasciatus</em>, does not enter a true diapause the way its northern counterpart <em>Culex pipiens</em> does. In a <a href="https://wwwnc.cdc.gov/eid/article/10/9/04-0203_article" target="_blank" rel="noopener noreferrer">study published in Emerging Infectious Diseases</a>, researchers working in Harris County, Texas (the Houston metropolitan area) observed that adults become relatively inactive during cold periods, resting under buildings and in storm drains and sewers, and then become active again during warm periods in the winter months. During the winter of 2003 to 2004 they detected West Nile virus in 11 dead birds and two pools of mosquitoes from east Texas and southern Louisiana, and took that as evidence that the virus is active year-round in Harris County. Texas as a whole has 85 identified mosquito species, according to the Texas A&amp;M AgriLife article cited above.</p>
+          <Photo
+            id="culex-quinquefasciatus-female-on-skin-side"
+            alt="Female southern house mosquito standing on a person's skin, side view"
+            caption="A female southern house mosquito (Culex quinquefasciatus) resting on a person's skin before taking a blood meal (CDC photograph). On the Gulf Coast this species rests during cold periods and flies again on warm winter days."
+          />
           <p><strong>Hawaii.</strong> In Hawaii mosquito control does not pause for winter: the <a href="https://health.hawaii.gov/vcb/mosquitoes/" target="_blank" rel="noopener noreferrer">Hawaii Department of Health</a> calls it a year-round task because of the tropical climate and the steady flow of visitors. Mosquitoes are not native to the islands. The <a href="https://www.nlm.nih.gov/nativevoices/timeline/694.html" target="_blank" rel="noopener noreferrer">National Library of Medicine&rsquo;s Native Voices timeline</a> dates the first arrival to 1826, when European and American ships carried the first mosquitoes to islands that until then had no blood-sucking insects, and the <a href="https://www.nps.gov/articles/mosquitoes-on-maui.htm" target="_blank" rel="noopener noreferrer">National Park Service</a> describes the eight mosquito species now found in the state as invasive.</p>
           <p><strong>The transition zone.</strong> Between the year-round regions and the cold states, winter is a partial shutdown. <a href="https://site.extension.uga.edu/colquitthomeowners/2023/02/wet-winter-weather-points-to-active-mosquito-season-ahead/" target="_blank" rel="noopener noreferrer">University of Georgia Cooperative Extension</a> reports that most mosquitoes there still overwinter as eggs that will not hatch until warmer temperatures, longer days and the right wetting conditions arrive, and that some overwinter as adults hiding in protected places such as catch basins, storm drains, culverts, barns and sheds. Even so, some mosquito activity can occur nearly year-round in the southern and coastal parts of Georgia, a state with at least 63 species. Mississippi State University Extension, cited above, similarly describes mosquitoes as being around in Mississippi for a large part of the year.</p>
 

@@ -17,6 +17,7 @@ import ConfusedWith from '@/components/ConfusedWith'
 import Photo from '@/components/Photo'
 import { shareImage } from '@/lib/photos'
 import UsAmazonLine from '@/components/UsAmazonLine'
+import Figure from '@/components/Figure'
 
 const SLUG = 'baby-bed-bugs-nymphs'
 const DATE = '2026-07-30'
@@ -438,6 +439,13 @@ export default function BabyBedBugsNymphsCanadaPage() {
           <h2>What a Baby Bed Bug Actually Looks Like</h2>
           <p>Start with shape, because shape is the part that does not change. At every stage a bed bug is a <strong>flat, broadly oval insect with six legs and short antennae</strong>, wingless, with no bristles or hairs you can see without magnification. Flat is the operative word: an unfed bed bug is built like a seed that has been stepped on, which is what lets it live inside a seam.</p>
           <p>Then size. A first-stage nymph is around a millimetre, which people invariably describe as a speck or a piece of dirt that moved. By the fifth stage it is around four and a half millimetres and reads as an apple seed &mdash; at which point most people stop calling it a baby.</p>
+          <Figure
+            src="/diagrams/bed-bug-life-stages-size-chart.svg"
+            alt="Bed bug size chart drawn to one millimetre scale: a 1 mm egg, the five nymph stages at 1.5, 2, 2.5, 3 and 4.5 mm, an unfed adult and a just-fed adult"
+            caption="Every bed bug stage on one scale: the egg (1 mm), the five nymph stages (1.5 to 4.5 mm) and the adult (5 to 7 mm), using the sizes the US Environmental Protection Agency gives. A fed bug is longer, swollen and reddish."
+            width={720}
+            height={570}
+          />
           <p>Then colour, which is the part that trips everyone up because it is not fixed. A hatchling is essentially <strong>translucent</strong>: on a white sheet it can be almost invisible, and it is the reason so many searches are for &ldquo;tiny white bugs in my bed&rdquo; or &ldquo;clear bugs on mattress&rdquo;. With each moult it takes on more tan and then brown. But the useful colour signal is not the shell &mdash; it is the contents. <strong>After a meal, a nymph shows a bright red centre that darkens to a rusty brown-red as it digests</strong>, because you are looking at blood through a semi-transparent body. Nothing else that turns up in a Canadian bed does that. A carpet beetle larva does not fill with red. Neither does a booklouse. If you have a small flat oval insect with a dark red core, you have your answer without a microscope.</p>
           <p>One practical note on searching: overhead light is the enemy. A ceiling fixture flattens everything. A narrow-beam flashlight held almost parallel to the mattress surface makes a 1 mm insect cast a shadow several times its own length, and it is genuinely the difference between finding nymphs and concluding there are none. Our <Link href="/blog/how-to-check-for-bed-bugs-canada">bed bug inspection routine</Link> covers the full search order &mdash; seam, piping, tag, box spring, frame, headboard, baseboard &mdash; and the card-drag trick for flushing them out of piping.</p>
 

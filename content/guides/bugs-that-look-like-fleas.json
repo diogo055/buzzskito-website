@@ -84,6 +84,7 @@
 
     { "type": "h2", "text": "How do the flea look-alikes compare?" },
     { "type": "p", "text": "Set the bug against a real flea on size, jumping or flying, biting and where it turns up. The rows follow the order of the sections below." },
+    { "type": "diagram", "src": "/diagrams/flea-vs-bed-bug-vs-tick-vs-louse.svg", "width": 720, "height": 560, "alt": "A flea, a bed bug, a tick and a head louse drawn to the same millimeter scale, with a table comparing size, legs, how each moves, shape and where each is found", "caption": "A flea, a bed bug, a tick and a head louse at the same scale. The flea is thin from side to side and jumps; the bed bug is flat and oval; the tick has eight legs; the louse stays in hair." },
     { "type": "table", "head": ["Bug", "Typical size", "Jumps or flies?", "Bites people?", "Where it turns up"], "rows": [
       ["Cat flea (adult)", "About 1/25 to 1/8 inch", "Jumps; no wings", "Yes", "On pets and where they sleep"],
       ["Springtail", "Mustard seed or smaller; most indoor ones about 1/25 to 1/12 inch", "Jumps with a forked tail", "No", "Bathrooms, drains, sinks, basements, damp potting soil"],

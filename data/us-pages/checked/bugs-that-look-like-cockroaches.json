@@ -2,7 +2,7 @@
  "id": "bugs-that-look-like-cockroaches",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "9e95e572005da5ea44446dad8038d54ff7e0678dc275bdbe6cb5af6a08d11fe6",
+ "sha": "cb0bcbfc1d74b17011c3bf460af372bc03144146f5b8a4e3eab3c7760f73f4f4",
  "claimsChecked": 75,
  "claimsCorrected": 3,
  "claimsRemovedOrSoftened": 4,
@@ -27,6 +27,11 @@
    "on": "2026-10-21",
    "note": "Oct 21, 2026 link-in (cockroaches): one sentence added after the Oriental cockroach photo in 'How do you tell a cockroach from a look-alike?' linking /blog/oriental-cockroaches; no fact changed.",
    "previousSha": "779b1ee4e59a84a4f339b24e7720eb318b74b0fbfd3f1e0b015324cf597057f4"
+  },
+  {
+   "on": "2026-11-19",
+   "note": "Nov 19, 2026: added one original BuzzSkito diagram (/diagrams/types-of-cockroaches-size-chart.svg, CC BY 4.0) after the first paragraph of an existing section; sizes from EPA/CDC/university extension sources listed in the diagram itself. No text changed.",
+   "previousSha": "9e95e572005da5ea44446dad8038d54ff7e0678dc275bdbe6cb5af6a08d11fe6"
   }
  ]
 }

@@ -1,0 +1,15 @@
+{
+ "id": "skunk-poop",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "31a44961f904e224d96f7ecc33c11513e692643c94e39229eeb261fbd3872060",
+ "claimsChecked": 300,
+ "claimsCorrected": 11,
+ "claimsRemovedOrSoftened": 8,
+ "checkedOn": "2026-11-19",
+ "released": {
+  "on": "2026-11-19",
+  "scheduledFor": "2026-11-19",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

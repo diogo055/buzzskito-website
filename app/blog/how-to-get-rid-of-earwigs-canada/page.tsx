@@ -13,6 +13,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 import { withRegionalAlternates } from '@/lib/guides'
 
 const SLUG = 'how-to-get-rid-of-earwigs-canada'
@@ -79,6 +81,7 @@ export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('european-earwig-male'),
 }), '/blog/how-to-get-rid-of-earwigs-canada')
 
 const AMZ_TAG = tagForSlug('how-to-get-rid-of-earwigs-canada')
@@ -86,7 +89,7 @@ const AMZ_TAG = tagForSlug('how-to-get-rid-of-earwigs-canada')
 export default function HowToGetRidOfEarwigsCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian earwig guide: the ear myth, European earwig life cycle and Ontario timing, the moisture and harbourage root cause, free rolled-newspaper and oil traps, diatomaceous earth technique and its dry-only limit, perimeter timing under Canadian pesticide rules, garden damage vs household nuisance, and exclusion.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian earwig guide: the ear myth, European earwig life cycle and Ontario timing, the moisture and harbourage root cause, free rolled-newspaper and oil traps, diatomaceous earth technique and its dry-only limit, perimeter timing under Canadian pesticide rules, garden damage vs household nuisance, and exclusion.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('european-earwig-male') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'How to Get Rid of Earwigs in Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -280,6 +283,11 @@ export default function HowToGetRidOfEarwigsCanadaPage() {
 
           <h2>How Do You Actually Get Rid of Earwigs?</h2>
           <p>You take away the damp, tight places they live in, and you trap what is left. That is the whole strategy, and it is unusually satisfying because &mdash; unlike cockroaches or bed bugs &mdash; earwigs cannot hide from it. An earwig has no water-tight armour and no ability to establish inside a dry heated house. It is an outdoor insect that spends the daylight hours wedged into something damp and narrow, comes out after dark to feed, and dies fast if it cannot find its way back to moisture before the sun comes up. Remove the damp narrow places along your foundation and you have removed the population, not annoyed it.</p>
+          <Photo
+            id="european-earwig-male"
+            alt="Dark brown male European earwig seen from above on grey fabric, with yellowish legs, long antennae and strongly curved pincers at the tail end"
+            caption="A male European earwig (Forficula auricularia), photographed in Urbana, Illinois (research grade on iNaturalist). The forceps at the back end are the tell, and males carry strongly curved ones."
+          />
           <p>That is also why this guide recommends so little to buy. The two most reliable earwig traps are a tin of cooking oil and a rolled-up newspaper, and the highest-value change you can make to a property is dragging mulch away from the siding with a rake. The only purchase that reliably earns its money is a door sweep &mdash; because the last mile of the problem is a 3 mm gap under a door, and no spray, trap, or powder solves a gap.</p>
           <p>The order matters: clear the harbourage first (trapping into a yard that is still producing earwigs is a treadmill), trap hard for two to three weeks during the peak, then seal the building so the survivors stay outside.</p>
           <p>If you have already decided you want to buy something and just need to know <em>what</em>, our companion <Link href="/blog/best-earwig-killer-canada">guide to the best earwig killer in Canada</Link> ranks every method by what it physically does &mdash; including why no earwig bait exists, which perimeter products are actually PMRA-registered here, and which shelf items to skip.</p>
@@ -296,10 +304,20 @@ export default function HowToGetRidOfEarwigsCanadaPage() {
           <p>The ear story is the first thing most people bring up about this insect, usually with a nervous laugh. So: no. Earwigs do not crawl into human ears, do not burrow into brains, and do not lay eggs in heads. There is no venom, no disease transmission, and no documented behaviour that draws them toward ear canals. The name is old &mdash; Old English <em>ēarwicga</em>, roughly &ldquo;ear insect&rdquo; &mdash; and the most plausible explanation has nothing to do with people at all: an earwig&rsquo;s hind wing, when you unfold it, is a delicate fan shaped remarkably like a human ear. A thousand years of folklore grew out of a shape.</p>
           <p>The honest caveat, which is the same for every insect on Earth: any small crawling thing can end up in an ear canal if you sleep on the ground, on a basement floor, or in a tent. Physicians remove all sorts of insects from ears. There is nothing about an earwig that makes it more likely than an ant, a small beetle, or a moth &mdash; and if it ever happens, it is an inconvenient trip to a clinic, not the horror-movie scenario.</p>
           <p>What earwigs actually do to you is pinch. The forceps (properly, cerci) on the tail end are a genuine tool: they are used to grab prey, to fend off rivals and predators, in courtship, and to help fold those fan-shaped hind wings back under the stubby wing covers. Males have strongly curved forceps; females&rsquo; are straighter and closer to parallel. A big male can deliver a pinch you will feel and, rarely, one that breaks skin. There is nothing in it &mdash; wash it and move on. Earwigs also do no structural damage: they do not chew wood, wiring, or insulation, and they do not infest stored food the way pantry moths and beetles do.</p>
+          <Photo
+            id="european-earwig-female-guelph-ontario"
+            alt="Brown female European earwig seen from above on lichen-covered bark, its tail forceps nearly straight"
+            caption="A female European earwig on lichen-covered bark in Guelph, Ontario, as the photographer identified it. Females' forceps are straighter and closer to parallel than the male's curved pair."
+          />
 
           <h2>Why Earwigs Explode in Ontario in Late July and August</h2>
           <p>The earwig in a Canadian yard is normally the European earwig, <em>Forficula auricularia</em> &mdash; an introduced species that has been established across southern Canada for the better part of a century. Its life cycle is what makes late summer feel like an invasion.</p>
           <p>Adults overwinter in the soil, typically in a small chamber a few centimetres down, often as a pair. In late winter or early spring the female lays a clutch of several dozen eggs in that chamber &mdash; and then does something almost unheard of among insects: she stays. She guards the eggs, moves them, and cleans fungus off them, and she continues to tend the first-stage nymphs after they hatch. Maternal care of this kind is rare enough in the insect world that entomologists have studied earwigs specifically for it. The nymphs then moult through four stages over spring and early summer, feeding on decaying plant material, algae, fungi, and small insects, and by midsummer the new adults are out. In most of Canada that is one generation a year, all maturing at roughly the same time.</p>
+          <Photo
+            id="european-earwig-female-eggs-nest-chester"
+            alt="Female earwig curled in a hollow in damp soil beside a pile of round, cream-coloured eggs"
+            caption="A female European earwig in her nest chamber in the soil with her eggs, under a brick in a garden in Chester, UK, as the photographer describes it. The female stays with the clutch, cleans fungus off the eggs and tends the young nymphs after they hatch."
+          />
           <p>So the population curve is not gradual. It is flat through spring, then it steps up sharply in July as the new adults emerge, and it stays high until frost. Overlay Ontario weather on that and you get the two patterns homeowners actually experience:</p>
           <ul>
             <li><strong>A wet spring and early summer sets up a big August.</strong> Rain keeps the soil, mulch, and leaf litter damp, which is exactly what nymphs need to survive, and it grows the decaying-matter and aphid food supply at the same time. More nymphs surviving through June means more adults foraging in August &mdash; the whole schedule is driven by temperature and moisture rather than by anything you did or failed to do. This is why the surge feels weather-driven &mdash; because it is.</li>
@@ -375,8 +393,18 @@ export default function HowToGetRidOfEarwigsCanadaPage() {
           <p>Earwigs generate two completely separate complaints, and confusing them wastes effort.</p>
           <p><strong>The household complaint</strong> is that they turn up in the bathtub, under the doormat, in the basement, or scattering when you move a recycling bin. This is a nuisance problem with a purely mechanical solution &mdash; harbourage plus exclusion &mdash; and it is genuinely reassuring how limited the stakes are. Earwigs cannot establish indoors: a heated Canadian house runs far too dry, and there is no food base indoors comparable to the decaying matter, algae, and small insects they eat outside. The ones inside are incidental invaders that will die or leave within days. You are not fighting an infestation; you are closing a door.</p>
           <p><strong>The garden complaint</strong> is real damage: ragged, irregular holes chewed in soft leaves and flower petals. Dahlias, marigolds, zinnias, and other soft-petalled ornamentals take the most visible hits, along with lettuce, basil, tender seedlings, corn silk, and soft fruit like strawberries (usually after a bird or another pest opened it first). The classic mistake here is misdiagnosis: <strong>slugs produce almost identical ragged holes</strong>, and the two need different responses. The tell is the slime trail &mdash; slugs leave one, earwigs do not &mdash; but the only genuinely reliable diagnosis is to go out at 10 or 11 at night with a flashlight and look at the plant. Whatever is on the leaf is your answer. Do that once and you will save yourself a season of treating the wrong thing.</p>
+          <Photo
+            id="earwig-dog-rose-blossom"
+            alt="Small earwig among the yellow stamens in the centre of a pale pink wild rose"
+            caption="A small earwig feeding in a dog rose blossom, as the photographer describes it. Soft petals are where earwig feeding shows up as ragged, irregular holes."
+          />
           <p>If it is earwigs, the response is targeted, not total: a ring of oil tins and newspaper tubes around the affected plants for two to three weeks, mulch pulled back from plant stems, morning watering instead of evening, and collars around vulnerable seedlings.</p>
           <p>And here is the part that separates a real garden guide from a product page: <strong>you may not want to eliminate them.</strong> European earwigs are meaningful predators of aphids, mites, and insect eggs. In commercial pear and apple production they are actively conserved because they help suppress pests like pear psylla and woolly apple aphid, and growers deliberately provide them with shelters. A blanket war on earwigs in a home garden with aphid pressure can leave you worse off than you started. Trap hard where they are chewing your dahlias; leave the ones living in the shrub border to do their job.</p>
+          <Photo
+            id="earwig-shelter-flowerpot-tree"
+            alt="Upturned clay flowerpot stuffed with wood wool, held in green wire mesh and hung in the fork of a tree in blossom"
+            caption="An earwig shelter: a flowerpot stuffed with wood wool and hung upside down in a tree, its rim touching the trunk so earwigs can climb in (the photographer's description). Fruit growers provide shelters like this because earwigs eat aphids, mites and insect eggs."
+          />
 
           <h2>Exclusion: The Part That Ends Indoor Sightings for Good</h2>
           <p>Once the yard is producing fewer earwigs, close the building. This is a weekend, most of it with a caulk gun, and it is the only work on this page that keeps paying every year.</p>

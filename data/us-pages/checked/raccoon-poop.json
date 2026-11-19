@@ -2,7 +2,7 @@
  "id": "raccoon-poop",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "be4d43906e79f0dbf655efb3fc4384b550cecae8be0fc801d4e9069b95bbad21",
+ "sha": "d1aaeba99f1849ea524ebbda8c7dd07575503f496ec130d18c314cdbc205e13a",
  "claimsChecked": 174,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 5,
@@ -22,6 +22,11 @@
    "on": "2026-11-09",
    "note": "Nov 9: one sentence links the new coyote poop guide (/blog/coyote-poop, scheduled Nov 12) after the coyote scat paragraph in 'How do you tell raccoon poop from opossum, dog or coyote poop?'; no fact changed",
    "previousSha": "a36a59126c85ca3b6a4b16448848042d25b0c5885eb14f3f84d381f90910607f"
+  },
+  {
+   "on": "2026-11-19",
+   "note": "Nov 19, 2026: one internal link (pointer sentence or card href) added to a new page written Nov 19 (planned; shows as text until released). No facts changed.",
+   "previousSha": "be4d43906e79f0dbf655efb3fc4384b550cecae8be0fc801d4e9069b95bbad21"
   }
  ]
 }

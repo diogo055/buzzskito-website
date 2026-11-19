@@ -1,0 +1,15 @@
+{
+ "id": "raccoon-tracks",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "5164320cca90ea7f33fa8e11b1c233e4fa33b991a87c923cf15061c3d52c096b",
+ "claimsChecked": 250,
+ "claimsCorrected": 22,
+ "claimsRemovedOrSoftened": 15,
+ "checkedOn": "2026-11-19",
+ "released": {
+  "on": "2026-11-19",
+  "scheduledFor": "2026-11-19",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

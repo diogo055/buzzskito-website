@@ -14,6 +14,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'how-to-stop-deer-eating-cedars-ontario'
 const DATE = '2026-08-22'
@@ -63,6 +65,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('white-tailed-deer-snowy-backyard-kitchener'),
 })
 
 const AMZ_TAG = tagForSlug(SLUG)
@@ -70,7 +73,7 @@ const AMZ_TAG = tagForSlug(SLUG)
 export default function HowToStopDeerEatingCedarsOntarioPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Ontario guide to protecting cedar hedges from winter deer browsing — burlap on stakes, deer netting, egg-solids repellents, snow-lift sizing, and the pre-freeze install deadline.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Ontario guide to protecting cedar hedges from winter deer browsing — burlap on stakes, deer netting, egg-solids repellents, snow-lift sizing, and the pre-freeze install deadline.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('white-tailed-deer-snowy-backyard-kitchener') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Stop Deer Eating Your Cedars in Ontario', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -166,10 +169,12 @@ export default function HowToStopDeerEatingCedarsOntarioPage() {
           <h2>How Do You Stop Deer Eating Cedars in Ontario?</h2>
           <p>You put something physical between the deer and the foliage, and you do it in autumn. The method that holds through an Ontario winter is burlap on a stake frame &mdash; stakes outside the drip line, breathable jute wrapped around the outside, top left open, protecting to roughly six feet above where the snow will be rather than six feet above where the ground is today. Everything else on this page is either a lighter version of that for smaller plants, or a supporting layer that makes it work better.</p>
           <p>The reason to be blunt about barriers up front is that cedar damage is not like other garden damage. A browsed hosta comes back in June. A browsed cedar largely does not. That asymmetry is what should drive the budget, and it is what most homeowners in the GTA discover in April rather than in October.</p>
+          <Photo id="white-tailed-deer-snowy-backyard-kitchener" alt="White-tailed deer standing in deep snow in a wooded Ontario backyard behind a deck railing in February" caption="A white-tailed deer in a snowy backyard in Kitchener, Ontario, on February 21. The worst cedar browsing lands in January and February, when the snowpack is deepest." />
 
           <NextUp path="/blog/how-to-stop-deer-eating-cedars-ontario" />
           <h2>Why Cedar, and Why Only in Winter</h2>
           <p>Eastern white cedar &mdash; and the cultivated arborvitae varieties that make up most Ontario hedges, including the ubiquitous emerald cedar &mdash; is a recognised winter browse for white-tailed deer in this province. Deer congregate in cedar stands through the coldest months for exactly this reason: the foliage is green, it stands above the snow, and it holds usable nutrition at the point in the year when almost nothing else does.</p>
+          <Photo id="cedar-hedge-foliage-london-ontario" alt="Close view of the green foliage of an eastern white cedar hedge in London, Ontario" caption="Close view of a cedar hedge that its photographer identified as eastern white cedar (London, Ontario). Green foliage standing above the snow is what makes cedar winter food for deer." />
           <p>That is also why a hedge can look perfect for three growing seasons and be destroyed in one February. From May to October a deer walking your property line has far better options: garden growth, field edges, acorns, the neighbour&rsquo;s hostas. Your cedars are not being spared because they are unappealing &mdash; they are being spared because they rank fourth. Come November the first three are finished or buried, and the ranking changes. The worst of it lands in January and February, when the snowpack is deepest and every green thing above snow level is on the menu.</p>
           <p>The practical read: a hedge protected in late October costs you an afternoon. The same hedge in January cannot be protected at all, because you cannot drive a stake into frozen ground.</p>
 
@@ -184,6 +189,7 @@ export default function HowToStopDeerEatingCedarsOntarioPage() {
           <h2>The Fact That Should Decide Your Budget: Cedars Barely Regrow</h2>
           <p>This is the piece of the picture most articles skip, and it changes the maths entirely. Arborvitae and eastern white cedar regenerate very poorly from bare brown wood. Cut or browse a deciduous shrub back hard and it pushes new shoots from dormant buds along the old stems. Strip a cedar back past its green growth and that section stays brown &mdash; the hedge fills the gap only slowly and only sideways, from whatever live foliage is adjacent, and often it never really closes.</p>
           <p>So a deer browse line across a hedge is not a seasonal wound; it is closer to permanent disfigurement, and it always sits at the height everybody looks at. On a mature emerald cedar hedge along a driveway, the difference between the burlap you did not buy and the cedars you replace the following spring is not close &mdash; and the replacements will take years to match the height of the ones beside them. That is the entire argument for treating this as a protect-first job rather than a wait-and-see one.</p>
+          <Photo id="eastern-white-cedar-deer-browse-line-vermont" alt="Row of eastern white cedars at a field edge with a deer browse line, lower branches gone below an even height" caption="Cedars at a field edge in Milton, Vermont, bare below an even line that the photographer describes as a deer browse line (the cedars are the photographer's identification). A browse line at deer height is close to permanent." />
 
           <h2>Sizing for Snow: Six Feet Is the Wrong Number</h2>
           <p>Deer browse to roughly six feet from where they are standing, and the mistake is in that last clause. In November they are standing on grass. By February they are standing on packed snow, and every centimetre of snowpack raises the browse line by the same amount. A hedge dutifully protected to five feet in autumn can have its top eighteen inches exposed by mid-winter, which is exactly where the damage shows worst.</p>
@@ -226,6 +232,7 @@ export default function HowToStopDeerEatingCedarsOntarioPage() {
 
           <h2>The Tick Connection Nobody Mentions</h2>
           <p>There is a second reason to care about a resident deer herd on your property, and it is the part of this that sits closest to our own work. White-tailed deer are the principal reproductive host for adult blacklegged ticks &mdash; the species that carries Lyme disease in Ontario. Deer do not infect ticks, but they are how adult ticks feed, mate, and drop engorged females into the leaf litter to lay eggs. A deer trail that runs through your yard all winter to browse the hedge is also a delivery route for the following spring&rsquo;s tick population.</p>
+          <Photo id="white-tailed-deer-yard-ontario" alt="Young white-tailed deer walking across a green lawn at the edge of a yard in Ontario" caption="A young white-tailed deer on the lawn of a yard in Ontario. Deer are the principal reproductive host for adult blacklegged ticks, the species that carries Lyme disease in Ontario." />
           <p>That does not make burlap a tick control measure, and we would not sell it as one. But if you are already managing deer traffic, read the tick side of the same picture: our guides to the <Link href="/blog/blacklegged-deer-tick-ontario">blacklegged deer tick in Ontario</Link> and <Link href="/blog/how-to-keep-ticks-out-of-yard-ontario">keeping ticks out of an Ontario yard</Link> cover the habitat edges that matter, and the <Link href="/blog/deer-tick-vs-dog-tick-canada">deer tick versus dog tick comparison</Link> covers identification. Where BuzzSkito does treat &mdash; genuinely what we do rather than what we review &mdash; a full tick program is <strong>five sprays across the season</strong>, targeted at the wood edges, leaf litter, and long-grass margins where ticks actually live, at $597 standalone or $497 bundled with a mosquito plan.</p>
           <p>Two related notes on cedar hedges. They are frequently blamed for mosquitoes, which is a separate misunderstanding &mdash; see <Link href="/blog/do-cedar-trees-attract-mosquitoes">do cedar trees attract mosquitoes</Link>. And if you find gnawed bark at the base of young cedars at snowmelt rather than browsed foliage at head height, that is voles, not deer: our <Link href="/blog/how-to-get-rid-of-voles-canada">vole guide for Canada</Link> covers the trunk guards that stop them.</p>
 

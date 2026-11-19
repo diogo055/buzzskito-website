@@ -199,7 +199,7 @@ function validate(file) {
   }
 
   // ── body ──────────────────────────────────────────────────────────────────────
-  const TYPES = new Set(['h2', 'h3', 'p', 'ul', 'ol', 'table', 'callout', 'media', 'recipe', 'checklist', 'card', 'figure', 'chart', 'map', 'confused', 'picks'])
+  const TYPES = new Set(['h2', 'h3', 'p', 'ul', 'ol', 'table', 'callout', 'media', 'recipe', 'checklist', 'card', 'figure', 'diagram', 'chart', 'map', 'confused', 'picks'])
   const visual = p.batch === 'visual'
   if (!Array.isArray(g.body) || !g.body.length) { err('"body" is missing'); return { errors, warnings, stats: {} } }
   g.body.forEach((b, i) => {
@@ -238,6 +238,15 @@ function validate(file) {
       if (typeof b.sourceUrl !== 'string' || !/^https:\/\//.test(b.sourceUrl)) err(`${where}: "sourceUrl" must be the https page the photo came from`)
       if (typeof b.alt !== 'string' || b.alt.length < 15 || b.alt.length > 220) err(`${where}: "alt" must describe the photo in 15 to 220 characters`)
       if (/\b(ai|a\.i\.)[- ]generated|illustration|rendering\b/i.test(`${b.alt} ${b.caption || ''}`)) err(`${where}: figures are photographs; generated or drawn images are not allowed`)
+    }
+    if (b.type === 'diagram') {
+      // one of our own diagrams (CC BY 4.0), drawn by BuzzSkito: an SVG in public/diagrams/
+      const where = `body[${i}] (diagram ${b.src})`
+      if (typeof b.src !== 'string' || !/^\/diagrams\/[a-z0-9-]+\.svg$/.test(b.src)) err(`${where}: "src" must be an SVG under /diagrams/`)
+      else if (!existsSync(join(ROOT, 'public', b.src))) err(`${where}: the file public${b.src} does not exist`)
+      if (typeof b.width !== 'number' || typeof b.height !== 'number') err(`${where}: "width" and "height" must be numbers`)
+      if (typeof b.alt !== 'string' || b.alt.length < 40 || b.alt.length > 300) err(`${where}: "alt" must describe the diagram in 40 to 300 characters`)
+      if (typeof b.caption !== 'string' || b.caption.length < 20) err(`${where}: "caption" is required (20+ characters)`)
     }
     if (b.type === 'chart') {
       const where = `body[${i}] (chart)`

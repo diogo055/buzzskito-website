@@ -1,6 +1,6 @@
 # Photos and diagrams the new guides still need
 
-580 images across 241 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
+591 images across 247 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
 
 ## /learn/bed-bugs
 
@@ -82,6 +82,11 @@
 
 - A hotel bed checked at the pillow end: pillows, blanket and sheet folded back at one corner, a flashlight beam on the mattress seam, piping and tag, in a US hotel room; public domain or CC0, from CDC PHIL, EPA or an extension service
 - A suitcase standing on a metal hotel luggage rack, the rack's straps lifted to show the frame underneath, with the bed in the background; public domain or CC0, from CDC PHIL, EPA or an extension service
+
+## /blog/what-do-bed-bug-bites-look-like
+
+- Bed bug bites in a zigzag line or cluster on darker skin, from a medical or public-health source that confirmed bed bugs, beside a ruler marked in inches; public domain or CC0
+- Bed bug bites on the face or neck a few days old, photographed for a medical or public-health source that confirmed bed bugs, with the date and a ruler marked in inches; public domain or CC0
 
 ## /blog/bed-bug-eggs
 
@@ -353,6 +358,10 @@
 - Norway rat, roof rat and house mouse droppings photographed side by side on a white card beside one ruler marked in inches, in a US home, so all three can be compared at the same scale
 - Gray squirrel droppings found in a US attic, photographed beside a ruler marked in inches next to Norway rat droppings, so the two can be compared at the same scale
 - Fresh and old rat droppings side by side beside a ruler marked in inches: the fresh ones dark and moist-looking, the old ones dry, gray and crumbling
+
+## /blog/mouse-nest
+
+- A mouse nest found in a car's cabin air filter or heater air intake, photographed in place before removal beside a ruler marked in inches (public domain, CC0, CC BY or CC BY-SA, with the identification on record)
 
 ## /blog/mouse-poop
 
@@ -755,6 +764,15 @@
 - Close-up of a male southern house spider's head from the front or above, sharp enough to show the eight eyes clumped on a raised turret and the spines on the legs, identified to species; public domain or CC0
 - Adult male southern house spider on an indoor floor or wall, ideally beside a ruler marked in inches, identified to species (research grade or by an expert); public domain or CC0, so it can count as a where-found photo
 
+## /blog/baby-spiders
+
+- Juvenile brown recluse identified by an arachnologist or extension entomologist, from above beside a ruler marked in inches, showing the faint violin mark and the six eyes in three pairs; public domain or CC0
+
+## /blog/types-of-spider-webs
+
+- Photo of a black widow's web in a garage corner or woodpile, low to the ground, with the tangle of strong silk visible as a whole and the spider hanging in it underside up, beside a ruler marked in inches
+- Photo of white, cobweb-like dollar spot fungus on dew-covered lawn grass early in the morning, with the straw-colored spots visible and a ruler marked in inches for scale
+
 ## /blog/yellow-jackets
 
 - A southern yellowjacket queen (burnt orange) beside a yellow-and-black worker, or each photographed on its own in the eastern US, identified by an extension service or expert; public domain or CC0
@@ -1137,6 +1155,12 @@
 - Indian meal moth eggs on rolled oats or along the seam of an opened cereal bag beside a ruler marked in inches, as a homeowner would find them; public domain or CC0
 - A fresh, hard spongy moth egg mass beside a pale, ragged, spent one on the same trunk, with a coin or ruler marked in inches for scale; public domain or CC0
 
+## /blog/signs-of-silverfish
+
+- Wallpaper grazed or holed by silverfish, or lifting from a damp wall where they ate the paste, photographed beside a ruler marked in inches, with the insects or their scales identified by an extension service or museum entomologist; public domain or CC0
+- Silverfish droppings and scales on a page or bookshelf beside fresh grazing damage, photographed beside a ruler marked in inches, identified by an extension service or museum entomologist; public domain or CC0
+- Yellowish stains on linen or cotton next to silverfish feeding marks and scales, close up beside a ruler marked in inches, identified by an extension service or museum entomologist; public domain or CC0
+
 ## /learn/bug-bites
 
 - Close-up photo of a blacklegged tick nymph attached to human skin, showing the small red bump around the bite, beside a ruler marked in inches
@@ -1226,6 +1250,11 @@
 
 - Photo of a squirrel nest inside an attic: leaves, twigs and shredded insulation piled near a chewed soffit or vent opening, beside a ruler marked in inches (public domain, CC0 or CC BY, identified by a wildlife agency or extension specialist)
 - Photo taken from the ground of a gray squirrel's chewed entry hole at a soffit, roof vent or gable of a house, showing the size of the hole against the trim
+
+## /blog/skunk-poop
+
+- A skunk dropping and a raccoon dropping laid out next to the same inch ruler, each confirmed by a wildlife agency, a university or an experienced tracker, to compare the two at one scale
+- An occupied skunk den under a deck, porch or shed, showing the bare half-moon entrance about 3 to 5 inches across and fresh droppings beside it, with an inch ruler in the frame; public domain or CC0, identified by a wildlife agency or university expert
 
 ## /blog/diy-pest-control
 

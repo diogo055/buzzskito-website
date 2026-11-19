@@ -2,7 +2,7 @@
  "id": "coyote-poop",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "f0bdaca494d40e5a8d3964328f78098a4c76bd9eb685343bb9556a1d54c14c74",
+ "sha": "964b2e9bc38c8a7bd23a0f8606b43fd9b699083424f878d88f6b1ae8c1dc024c",
  "claimsChecked": 185,
  "claimsCorrected": 22,
  "claimsRemovedOrSoftened": 12,
@@ -12,6 +12,11 @@
    "on": "2026-11-09",
    "note": "Nov 9: opossum look-alike card photo swapped from the animal (virginia-opossum) to its droppings (opossum-scat-gravel-trail, an iNaturalist community identification; the alt text says so), as the fact-checker suggested; no claim changed.",
    "previousSha": "487fd2a4ce763aa3a3c8740ef0455f7b74f77b817793c513d6fca1f8055edce0"
+  },
+  {
+   "on": "2026-11-19",
+   "note": "Nov 19, 2026: one internal link (pointer sentence or card href) added to a new page written Nov 19 (planned; shows as text until released). No facts changed.",
+   "previousSha": "f0bdaca494d40e5a8d3964328f78098a4c76bd9eb685343bb9556a1d54c14c74"
   }
  ],
  "released": {

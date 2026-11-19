@@ -2,7 +2,7 @@
  "id": "skunk-smell-in-house",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "e0fd8d37e455b2e81587edf71ebb50cb16ae29ff93d7c612695c13ed476b832a",
+ "sha": "8a7f5d673ba641e727e46a60e6cf85b1f1f49e8686e264873aa006448b82635f",
  "claimsChecked": 140,
  "claimsCorrected": 9,
  "claimsRemovedOrSoftened": 6,
@@ -11,5 +11,12 @@
   "on": "2026-10-29",
   "scheduledFor": "2026-10-29",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-11-19",
+   "note": "Nov 19, 2026: one internal link (pointer sentence or card href) added to a new page written Nov 19 (planned; shows as text until released). No facts changed.",
+   "previousSha": "e0fd8d37e455b2e81587edf71ebb50cb16ae29ff93d7c612695c13ed476b832a"
+  }
+ ]
 }

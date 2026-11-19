@@ -53,6 +53,12 @@ export type GuideBlock =
    */
   | { type: 'figure'; src: string; width: number; height: number; alt: string; caption?: string; credit: string; license: GuideLicense; sourceUrl: string }
   /**
+   * One of our own diagrams from public/diagrams/ (drawn by BuzzSkito, free to reuse with credit,
+   * CC BY 4.0; terms at /image-use). Never a photograph: photos use `figure`. Added Nov 19, 2026 so
+   * the identification guides, where most Google Images clicks land, can carry our diagrams.
+   */
+  | { type: 'diagram'; src: string; width: number; height: number; alt: string; caption: string }
+  /**
    * A bar chart of published numbers (e.g. reported cases by year), drawn on the server as
    * plain HTML so the text stays sharp on a phone. Two or three series are stacked.
    */
@@ -185,7 +191,10 @@ export interface Guide {
 // Nov 10, 2026 (afternoon), owner, about the 16 guides released Nov 10 (the 10 top-10 pages and 6 of
 // the 7 competitor gaps): "I've read them". Moved to Nov 10; no other guide was published or changed
 // Nov 9-10. bugs-that-look-like-mosquitoes (released Nov 11) is not covered until he reads it.
-export const OWNER_REVIEWED_THROUGH = '2026-11-10'
+// Nov 19, 2026, owner, after reading the 12 pages released that day (the 10 Google Images push pages plus
+// bugs-that-look-like-mosquitoes and what-do-bed-bug-bites-look-like): "Ok I read everything push everything
+// and index". Moved to Nov 19; no other guide was published or had its dateModified moved Nov 11-19.
+export const OWNER_REVIEWED_THROUGH = '2026-11-19'
 export const OWNER_REVIEWER = 'Alex Francisco'
 
 /** Who read and approved a guide (and when, if the day is on record), or null if nobody has yet.

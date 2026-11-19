@@ -1,0 +1,15 @@
+{
+ "id": "mouse-nest",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "b62c970453fbe8346a51f9d9240776dd36014042a148bee5d2cf49229e3493d1",
+ "claimsChecked": 248,
+ "claimsCorrected": 17,
+ "claimsRemovedOrSoftened": 12,
+ "checkedOn": "2026-11-19",
+ "released": {
+  "on": "2026-11-19",
+  "scheduledFor": "2026-11-19",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

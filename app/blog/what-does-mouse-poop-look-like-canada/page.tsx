@@ -562,6 +562,13 @@ export default function WhatDoesMousePoopLookLikeCanadaPage() {
           <p><strong>Ordinary debris is the most common answer of all</strong>, and it is worth ruling out before you buy anything. Coffee grounds under a machine, chia or poppy seeds in a pantry, mouse-sized crumbs of dried potting soil near a plant pot, dried mud tracked in by a back door and the little rubber crumb shed by some floor mats have all sent people looking for an infestation they do not have. The discriminator is uniformity: a mouse produces pellets that are consistently the same size and shape, because they come from the same animal. Debris varies.</p>
           <p>If all you found is droppings and you still cannot tell whether a mouse or an insect left them, our <Link href="/tools/what-bug-is-this">pest identifier quiz</Link> asks five quick questions, with answers for when you saw only droppings or damage, then shows the most likely culprit, how to confirm it and the guides to read next.</p>
           <p>Droppings that match none of these, on a deck, in the yard or in the attic, are compared by size, shape and place in our North American <Link href="/blog/animal-droppings">photo chart of animal droppings</Link>, from raccoon and opossum to rabbit and deer.</p>
+          <Figure
+            src="/diagrams/animal-droppings-size-chart.svg"
+            alt="Animal droppings drawn to one inch scale: coyote, raccoon, Norway rat and roof rat on the left; deer, rabbit, squirrel and house mouse pellets on the right, each with its length"
+            caption="Larger droppings at one scale, for when what you found is too big for a mouse: coyote (3 to 4 inches, 8 to 10 cm), raccoon (2 to 3 inches, 5 to 8 cm), rat, deer, rabbit and squirrel, beside house mouse droppings (1/8 to 1/4 inch, 3 to 6 mm)."
+            width={720}
+            height={700}
+          />
 
           <RelatedLinks path="/blog/what-does-mouse-poop-look-like-canada" />
           <h2>What Is the Difference Between Mouse Droppings and Lizard Droppings?</h2>

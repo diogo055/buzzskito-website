@@ -12,6 +12,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { MOSQUITO_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const POST = MOSQUITO_BLOGS.supporting[0]
 const DATE = POST.date
@@ -82,6 +83,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: POST.date,
   modifiedTime: UPDATED,
+  image: shareImage('anopheles-punctipennis-window-ontario'),
 })
 
 const AMZ_TAG = tagForSlug('mosquito-season-gta-when-does-it-start')
@@ -89,7 +91,7 @@ const AMZ_TAG = tagForSlug('mosquito-season-gta-when-does-it-start')
 export default function MosquitoSeasonPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: POST.title, description: POST.excerpt, slug: POST.slug, datePublished: POST.date, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: POST.title, description: POST.excerpt, slug: POST.slug, datePublished: POST.date, dateModified: UPDATED, image: shareImage('anopheles-punctipennis-window-ontario') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Mosquito Season GTA', url: `/blog/${POST.slug}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${POST.slug}`, UPDATED)) }} />
@@ -184,7 +186,9 @@ export default function MosquitoSeasonPage() {
 
         <h3>October and November: When Mosquitoes Go Away</h3>
         <p>Mosquitoes fade out rather than stopping on a date. <a href="https://blog.ontarioparks.ca/camping-comfortably-with-bugs/" target="_blank" rel="noopener noreferrer" className="text-brand-700 underline">Ontario Parks</a> tells campers to expect them from June all the way through September, and numbers fall quickly once nights turn cold, but a mild October evening can still bring bites: Ontario&rsquo;s mosquito surveillance traps collect mosquitoes from June through October, according to <a href="https://www.publichealthontario.ca/en/About/News/2017/Monitor-Mosquitoes" target="_blank" rel="noopener noreferrer" className="text-brand-700 underline">Public Health Ontario</a>, and <a href="https://extension.psu.edu/fall-mosquitoes-and-mosquito-borne-diseases" target="_blank" rel="noopener noreferrer" className="text-brand-700 underline">Penn State Extension</a> notes that mosquitoes remain a threat well into the autumn months if it stays warm enough. The first hard frost ends the biting for the year: the <a href="https://www.canada.ca/en/public-health/services/diseases/west-nile-virus/risks-west-nile-virus.html" target="_blank" rel="noopener noreferrer" className="text-brand-700 underline">Public Health Agency of Canada</a> says the risk of West Nile virus in most of Canada goes to the first hard frost, in late September or October.</p>
+        <Photo id="anopheles-punctipennis-window-ontario" alt="Mosquito resting on window glass indoors in late October in Ontario, a woodland malaria mosquito" caption="A woodland malaria mosquito, Anopheles punctipennis, on the glass of a window, which its photographer found indoors in a cold room in late October in Ontario. Mosquitoes fade out rather than stopping on a date." />
         <p>They do not all die, though. Most mosquitoes spend the winter as eggs that wait for warmer temperatures, longer days and the right wetting before they hatch, and some spend it as adults hiding in protected places like catch basins, storm drains, culverts, barns and sheds, according to <a href="https://site.extension.uga.edu/colquitthomeowners/2023/02/wet-winter-weather-points-to-active-mosquito-season-ahead/" target="_blank" rel="noopener noreferrer" className="text-brand-700 underline">University of Georgia Extension</a>. That is why the season starts over every spring.</p>
+        <Photo id="culex-territans-unheated-shed-march" alt="Culex mosquito resting at a window inside an unheated shed in March in Ontario" caption="A Culex territans mosquito at a window in an unheated shed in Ontario, recorded on March 20. Some mosquitoes spend the winter as adults hiding in protected places such as sheds." />
         <div className="not-prose overflow-x-auto my-6">
           <table className="w-full text-sm border-collapse">
             <thead>
@@ -261,6 +265,7 @@ export default function MosquitoSeasonPage() {
         <h2>The Case for Starting Treatment Early</h2>
         <p>The most common mistake GTA homeowners make is waiting too long to start mosquito treatment. By the time mosquitoes become noticeably bothersome (typically mid-June), populations have already been building for weeks. Starting treatment in the first week of May catches populations before they peak, giving barrier spray the best chance to reduce activity through the entire season.</p>
         <p>The same timing logic applies to the standing water on your property. A BTI larvicide such as <Link href="/blog/mosquito-bits-canada-vs-dunks" className="text-brand-700 hover:underline">Mosquito Bits</Link> kills mosquito larvae in rain barrels, birdbaths, and clogged gutters before that first generation ever matures into biting adults — far easier than chasing those same mosquitoes around the yard in July.</p>
+        <Photo id="mosquito-larvae-clay-pot-saucer" alt="Mosquito larvae in standing water in a clay plant pot saucer" caption="Yellow fever mosquito larvae in the water of a clay plant pot saucer (CDC photograph). Larvae in standing water like this become biting adults within about a week." />
         <p>It is also the rare mosquito job whose window opens before the biting does: walking the rain barrels, the birdbath, and the blocked catch basin in late April means dealing with larvae in water you can see rather than adults in a yard you cannot. Bits are the granular format and suit water you top up often; dunks are the slow-release tablet for a barrel or pond you leave alone for a month. Follow the label for the water types each is cleared for. In Canada, Mosquito Bits have no registration; use the dunks (Reg. No. 28888), only in water that stays on your property (<Link href="/blog/mosquito-bits-canada-vs-dunks" className="text-brand-700 hover:underline">details</Link>). <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Mosquito Dunks (Reg. No. 28888) on Amazon.ca &rarr;</BuyLink></p>
         <p>The layer that covers you before the first treatment of the year &mdash; and in the gap between every treatment after it &mdash; is what goes on your skin at dawn and dusk. In Canada that means a repellent carrying a PCP registration number on the label: DEET or icaridin (picaridin) for the conventional actives, or a registered oil of lemon eucalyptus product for the plant-based route. The label sets the concentration, the reapplication interval, and which products suit children, so choose from the label rather than the front of the bottle. <BuyLink tag={AMZ_TAG} search="picaridin insect repellent">Check DEET and picaridin repellents on Amazon.ca &rarr;</BuyLink></p>
 

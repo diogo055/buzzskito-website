@@ -1,0 +1,15 @@
+{
+ "id": "fox-poop",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "f262801b9b6e655af7240d178bead06014019986570305d9b8af98275e11b7d1",
+ "claimsChecked": 265,
+ "claimsCorrected": 18,
+ "claimsRemovedOrSoftened": 9,
+ "checkedOn": "2026-11-19",
+ "released": {
+  "on": "2026-11-19",
+  "scheduledFor": "2026-11-19",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

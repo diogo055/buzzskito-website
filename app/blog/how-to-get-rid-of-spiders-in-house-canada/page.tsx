@@ -14,6 +14,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'how-to-get-rid-of-spiders-in-house-canada'
 const DATE = '2026-08-31'
@@ -71,6 +73,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('barn-funnel-weaver-indoor-wall'),
 })
 
 const AMZ_TAG = tagForSlug(SLUG)
@@ -78,7 +81,7 @@ const AMZ_TAG = tagForSlug(SLUG)
 export default function HowToGetRidOfSpidersInHouseCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'The Canadian plan for getting rid of house spiders — why the September spike is mating season rather than an invasion, the vacuum and web-removal protocol, door sweeps and weep-vent sealing, basement dehumidifying that collapses the prey base, and the honest limits of contact and residual sprays.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'The Canadian plan for getting rid of house spiders — why the September spike is mating season rather than an invasion, the vacuum and web-removal protocol, door sweeps and weep-vent sealing, basement dehumidifying that collapses the prey base, and the honest limits of contact and residual sprays.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('barn-funnel-weaver-indoor-wall') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Get Rid of Spiders in the House', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -173,6 +176,7 @@ export default function HowToGetRidOfSpidersInHouseCanadaPage() {
 
           <h2>September Is Spider Season — But Not for the Reason You Think</h2>
           <p>The Canadian fall spider surge is real; the story people tell about it is not. Spiders are not fleeing the cold into your warm house &mdash; most of the species you find indoors live indoors year-round, and the spiders on your foundation are built to overwinter outside. What actually happens from late August through October is <strong>mating season</strong>: mature males abandon their webs and hiding spots and wander, at night, across open floors, looking for females. Add the fact that a summer of feeding has grown every resident spider to its most noticeable size, and you get the annual illusion of an invasion &mdash; when what you are really seeing is the house&rsquo;s existing population at its most mobile and most visible.</p>
+          <Photo id="barn-funnel-weaver-indoor-wall" alt="Barn funnel weaver house spider on a white wall indoors, its legs banded light and dark" caption="A barn funnel weaver (Tegenaria domestica) on a white wall indoors, photographed in Virginia; its legs are banded light and dark. Most of the spider species found indoors live there year-round." />
           <p>This reframing is not pedantry; it changes the plan. You are not defending a wall against an inbound tide, so a moat of repellent spray is solving the wrong problem. You are managing a resident population at exactly the moment it is easiest to find, easiest to catch on the move, and &mdash; because females are laying egg sacs for the next generation &mdash; the moment when removal counts double for next year. September is not when the spider problem starts. It is when the fix works best.</p>
 
           <NextUp path="/blog/how-to-get-rid-of-spiders-in-house-canada" />
@@ -206,11 +210,14 @@ export default function HowToGetRidOfSpidersInHouseCanadaPage() {
           </div>
           <p>Our photo guide to <Link href="/blog/house-spiders">common house spiders</Link> shows all three, along with the other spiders that turn up indoors, and the clue that identifies each.</p>
           <p>The wolf spider deserves one reassurance: it is the one that makes people scream &mdash; big, hairy, fast &mdash; and it is harmless, webless, and actively useful, eating more insects than the other two combined. It is also the easiest to exclude, because it enters at floor level under doors. None of the three is dangerous; if a bite is what brought you to this page, our <Link href="/blog/what-does-a-spider-bite-look-like">spider bite identification guide</Link> covers what real bites look like and the surprisingly short list of Canadian spiders that matter medically.</p>
+          <Photo id="carolina-wolf-spider" alt="Carolina wolf spider seen from above" caption="A Carolina wolf spider (Hogna carolinensis) seen from above, photographed in South Dakota. Wolf spiders build no web and hunt on foot, so they turn up at floor level." />
           <p>If the spider you found does not match any of the three, or you cannot tell which one it is, our <Link href="/tools/spider-identifier">interactive spider identifier</Link> asks seven quick questions, from where you found it and its web to its size, colour and markings, its eyes and legs, what it did and where you live, then shows the most likely spiders with a real photo of each and how to confirm it.</p>
           <p>If it is red-orange with a pale abdomen and big jaws that point forward, and it turned up in a damp basement, compare it with our <Link href="/blog/woodlouse-spiders">photo guide to the woodlouse spider</Link>, which shows how to tell it from look-alikes, what its bite does and how to deal with one in the house.</p>
+          <Photo id="woodlouse-spider-bathroom-floor" alt="Woodlouse spider with orange-red legs and front body, a pale abdomen and large jaws, seen from above" caption="A woodlouse spider (Dysdera crocata) that the observer found on a bathroom floor in Idaho: orange-red legs and front body, a pale abdomen and large jaws." />
 
           <h2>Step 1: The Vacuum Protocol — Where the Real Population Cut Happens</h2>
           <p>Nothing else in this guide removes as many spiders per hour as a vacuum with a hose attachment, because nothing else removes <strong>egg sacs</strong>. Every female house spider produces multiple papery, pea-sized sacs, each holding on the order of a hundred eggs or more. Kill the spider and leave the sacs, and you have changed nothing about next spring. The vacuum takes the spider, the web, and the future generations in one motion.</p>
+          <Photo id="common-house-spider-egg-sac" alt="Common house spider beside an egg sac in her web" caption="A common house spider (Parasteatoda tepidariorum), an adult female, beside an egg sac in her web, photographed in Ohio. The tan, papery sacs are the part of the web the vacuum most needs to take." />
           <p>The protocol, once a week through September and October, then monthly: work the basement first &mdash; ceiling corners, window wells, under the stairs, behind the furnace and stored boxes. Then the garage, the closet ceilings, behind the headboards, and the porch light and eaves outside the main doors. Look specifically for the tan spheres in and near webs, and take the web itself every time: <strong>web removal is population control, not housekeeping</strong>. Silk is metabolically expensive, a spider that must rebuild repeatedly is a spider burning its reserves, and a corner that keeps getting cleared gets abandoned. If the bag-and-crevice work turns up heavy insect debris under the webs &mdash; silverfish scales, gnat carcasses &mdash; note it: that is your evidence for Step 3.</p>
           <p>To work out whose sac you have found, our photo guide to <Link href="/blog/spider-egg-sacs">spider egg sacs</Link> sorts the ones found in and around homes by shape, surface and place, and covers how long they take to hatch.</p>
 
@@ -231,6 +238,7 @@ export default function HowToGetRidOfSpidersInHouseCanadaPage() {
 
           <h2>Step 3: Dry the Basement — Starve the Economy Under the Spiders</h2>
           <p>Here is the insight that separates houses that stay spider-light from houses that fight the same battle every fall: <strong>a spider population is a food economy, and in Canadian houses that economy runs on basement moisture</strong>. Silverfish, sowbugs, fungus gnats, booklice &mdash; the staple prey of cellar and house spiders &mdash; all need high humidity, and a basement sitting at 65% relative humidity in a GTA summer is a farm for them. The spiders upstairs are simply the visible end of that supply chain.</p>
+          <Photo id="cellar-spider-carrying-eggs" alt="Long-legged cellar spider holding a cluster of eggs in her jaws" caption="An adult female Manuel's cellar spider (Pholcus manueli) holding her eggs in her jaws, photographed in Ohio. Cellar spiders live in basements, crawl spaces and cold rooms, where damp conditions feed their prey." />
           <p>Hold the basement at <strong>45&ndash;50% RH</strong> and the prey populations sag over a few weeks; the spider population follows its food down with a short lag, and &mdash; this is the durable part &mdash; the house stops recruiting replacements, because empty webs in a dry basement do not pay. A properly sized dehumidifier on a humidistat is the tool; our <Link href="/blog/best-large-capacity-dehumidifier-canada">basement dehumidifier guide</Link> covers which units hold a setpoint in a cool Canadian basement and does the litres-per-day sizing maths &mdash; undersizing is the standard mistake and the reason people conclude dehumidifiers do not work. While you are down there, get cardboard off the floor and into lidded plastic bins: corrugated cardboard in a damp room is silverfish housing, and clutter at floor level is the quiet, undisturbed space spiders profit in.</p>
 
           <RelatedLinks path="/blog/how-to-get-rid-of-spiders-in-house-canada" />

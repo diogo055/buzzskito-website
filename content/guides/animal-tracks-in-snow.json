@@ -5,7 +5,6 @@
   "keyword": "animal tracks in snow",
   "alsoTargets": [
     "animal tracks in snow identification",
-    "raccoon tracks",
     "coyote tracks",
     "deer tracks in snow",
     "rabbit tracks in snow",
@@ -95,7 +94,7 @@
     { "type": "h2", "text": "What visited the garbage cans or the driveway?" },
     { "type": "p", "text": "Hand-shaped prints in pairs around the garbage cans usually mean a raccoon. Minnesota DNR says raccoons raid garbage cans for food and may be drawn by dog or cat food left out overnight." },
     { "type": "figure", "src": "/guides/photos/raccoon-tracks-snow-pavement.webp", "width": 1200, "height": 1600, "alt": "Several pairs of hand-shaped raccoon prints with long, thin toes pressed into a thin layer of snow over pebbled concrete", "caption": "Raccoon tracks in thin snow on pebbled concrete in Greater Vancouver, British Columbia, identified on iNaturalist by the observer and two others. Each hind print lands beside the opposite front print, so the tracks come in pairs.", "license": "CC-BY-4.0", "credit": "(c) Alex Reitan, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/148277837" },
-    { "type": "p", "text": "Raccoon prints are among the easiest to name. NY DEC likens the track to the hand of a human baby, and USFWS describes five long, finger-like toes that usually connect to a C-shaped palm pad. [NMSU Extension's track guide](https://pubs.nmsu.edu/_circulars/CR561/) says the left hind foot lands beside the right front foot as a raccoon walks, so the tracks usually come in pairs, and the Missouri Department of Conservation gives front prints of 2 1/2 to 3 inches and hind prints of 3 3/4 to 4 inches." },
+    { "type": "p", "text": "Raccoon prints are among the easiest to name. NY DEC likens the track to the hand of a human baby, and USFWS describes five long, finger-like toes that usually connect to a C-shaped palm pad. [NMSU Extension's track guide](https://pubs.nmsu.edu/_circulars/CR561/) says the left hind foot lands beside the right front foot as a raccoon walks, so the tracks usually come in pairs, and the Missouri Department of Conservation gives front prints of 2 1/2 to 3 inches and hind prints of 3 3/4 to 4 inches. The [raccoon tracks guide](/blog/raccoon-tracks) shows what they look like in mud, snow and sand." },
     { "type": "p", "text": "The look-alike is the opossum, whose tracks MDC says are often confused with a raccoon's: check the hind print for a thumb sticking out at a right angle. If droppings are piled in one spot nearby, [the raccoon poop guide](/blog/raccoon-poop) shows what a raccoon latrine looks like, and [the raccoon deterrent guide](/blog/raccoon-deterrent) covers keeping raccoons away from the house." },
 
     { "type": "h2", "text": "What made the tracks by the bird feeder?" },

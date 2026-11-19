@@ -96,6 +96,7 @@ https://buzzskito.ca/blog/bat-bugs
 https://buzzskito.ca/blog/bed-bug-poop
 https://buzzskito.ca/blog/bed-bug-bites-but-no-bed-bugs
 https://buzzskito.ca/blog/bed-bugs-in-hotels
+https://buzzskito.ca/blog/what-do-bed-bug-bites-look-like
 https://buzzskito.ca/blog/bed-bug-eggs
 https://buzzskito.ca/blog/best-bed-bug-spray
 https://buzzskito.ca/blog/best-bed-bug-mattress-cover
@@ -107,6 +108,7 @@ https://buzzskito.ca/blog/little-black-ants
 https://buzzskito.ca/blog/rat-vs-mouse
 https://buzzskito.ca/blog/roof-rat-vs-norway-rat
 https://buzzskito.ca/blog/rat-droppings
+https://buzzskito.ca/blog/mouse-nest
 https://buzzskito.ca/blog/mouse-poop
 https://buzzskito.ca/blog/mouse-urine
 https://buzzskito.ca/blog/mice-in-walls
@@ -127,6 +129,7 @@ https://buzzskito.ca/blog/brown-banded-cockroaches
 https://buzzskito.ca/blog/wood-roaches
 https://buzzskito.ca/blog/best-cockroach-gel-bait
 https://buzzskito.ca/blog/roach-droppings-vs-mouse-droppings
+https://buzzskito.ca/blog/cockroach-nest
 https://buzzskito.ca/blog/skeeter-syndrome
 https://buzzskito.ca/blog/types-of-mosquitoes
 https://buzzskito.ca/blog/asian-tiger-mosquito
@@ -135,6 +138,7 @@ https://buzzskito.ca/blog/best-bug-zapper
 https://buzzskito.ca/blog/what-do-mosquito-bites-look-like
 https://buzzskito.ca/blog/best-mosquito-spray-for-yard
 https://buzzskito.ca/blog/mosquito-bits-vs-dunks
+https://buzzskito.ca/blog/bugs-that-look-like-mosquitoes
 https://buzzskito.ca/blog/ticks-in-nova-scotia
 https://buzzskito.ca/blog/ticks-in-manitoba
 https://buzzskito.ca/blog/ticks-in-alberta
@@ -198,6 +202,8 @@ https://buzzskito.ca/blog/pseudoscorpions
 https://buzzskito.ca/blog/spider-egg-sacs
 https://buzzskito.ca/blog/black-spiders
 https://buzzskito.ca/blog/southern-house-spider
+https://buzzskito.ca/blog/baby-spiders
+https://buzzskito.ca/blog/types-of-spider-webs
 https://buzzskito.ca/blog/yellow-jackets
 https://buzzskito.ca/blog/wasp-nest-identification
 https://buzzskito.ca/blog/paper-wasps
@@ -278,6 +284,9 @@ https://buzzskito.ca/blog/bugs-that-look-like-termites
 https://buzzskito.ca/blog/bugs-that-look-like-silverfish
 https://buzzskito.ca/blog/bugs-that-look-like-lice
 https://buzzskito.ca/blog/moth-eggs
+https://buzzskito.ca/blog/chigger-bites-vs-flea-bites
+https://buzzskito.ca/blog/insect-eggs
+https://buzzskito.ca/blog/signs-of-silverfish
 https://buzzskito.ca/blog/animals-in-attic
 https://buzzskito.ca/blog/holes-in-yard
 https://buzzskito.ca/blog/animal-droppings
@@ -297,6 +306,9 @@ https://buzzskito.ca/blog/bear-poop
 https://buzzskito.ca/blog/squirrel-nest
 https://buzzskito.ca/blog/animal-tracks-in-snow
 https://buzzskito.ca/blog/snake-identification
+https://buzzskito.ca/blog/raccoon-tracks
+https://buzzskito.ca/blog/fox-poop
+https://buzzskito.ca/blog/skunk-poop
 https://buzzskito.ca/blog/japanese-beetles
 https://buzzskito.ca/blog/spider-mites
 https://buzzskito.ca/blog/houseplant-bugs

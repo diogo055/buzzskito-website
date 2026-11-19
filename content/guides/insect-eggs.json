@@ -1,0 +1,242 @@
+{
+  "slug": "insect-eggs",
+  "kind": "spoke",
+  "cluster": "household",
+  "keyword": "insect eggs identification",
+  "alsoTargets": [
+    "bug eggs",
+    "bug eggs that look like seeds",
+    "insect eggs on window screen",
+    "tiny white eggs in house",
+    "what bug eggs look like",
+    "insect eggs identification guide pictures",
+    "bug eggs that look like rice",
+    "bug eggs that look like sesame seeds",
+    "bug eggs on car",
+    "insect eggs on leaves",
+    "whose eggs are these"
+  ],
+  "metaTitle": "Insect Eggs Identification Guide (Pictures)",
+  "metaDescription": "Sort bug eggs by where you found them: mattress seams, pet beds, hair, screens, siding, leaves or a car. Real photos, sizes in inches and what laid them.",
+  "h1": "Insect Eggs Identification: Whose Eggs Are These? (Pictures)",
+  "dek": "Mattress seam, pet bed, closet, window screen, leaf, siding or car: where you found the eggs and how they are laid narrow them to a few suspects. Real photos, sizes in inches and the full guide for each.",
+  "breadcrumb": "Insect Eggs Identification",
+  "excerpt": "Bed bug, flea, lice, moth, stink bug, lady beetle, lacewing, katydid or mantis? Sort bug eggs by where you found them, with real photos and sizes in inches.",
+  "datePublished": "2026-11-19",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Sort insect eggs by where you found them and how they are laid: tiny white eggs in a mattress seam point to bed bugs, loose ones in a pet bed to fleas, eggs cemented to single hairs are lice nits, a purse-shaped brown capsule is a cockroach egg case, and a papery ball in a web is a spider egg sac.** Outdoors, the cluster's shape sorts stink bug, lady beetle, lacewing, katydid and mantis eggs.",
+    "bullets": [
+      "[EPA](https://www.epa.gov/bedbugs/bed-bugs-appearance-and-life-cycle) describes bed bug eggs as pearl-white and about 1 mm (1/25 inch) long, the size of a pinhead, with an eye spot once they are more than five days old.",
+      "Cat flea eggs are pearly white, smooth ovals about 1/32 inch long that readily fall off the pet onto bedding and carpet, says [UC IPM](https://ipm.ucanr.edu/home-and-landscape/fleas/).",
+      "Head lice nits measure 0.8 by 0.3 mm (about 1/32 inch long), are usually yellow to white and are cemented near the scalp, according to [CDC](https://www.cdc.gov/dpdx/pediculosis/index.html).",
+      "UC IPM puts cockroach egg cases at about 1/4 inch for German and brown-banded cockroaches and about 3/8 inch for American, Oriental and smokybrown cockroaches.",
+      "Convergent lady beetle eggs are yellow, oblong and about 1/25 inch, standing on end in clusters of about 10 to 30, while each green lacewing egg, 1/16 inch or less, sits on its own silk stalk (UC IPM).",
+      "A spotted lanternfly egg mass is about 1 inch long, holds 30 to 50 eggs and looks like wet gray putty, then cracked mud, on trees, stone, grills, outdoor furniture or vehicles, says [USDA APHIS](https://www.aphis.usda.gov/plant-pests-diseases/slf)."
+    ]
+  },
+  "facts": {
+    "title": "Insect eggs: quick ID",
+    "head": ["Eggs of", "Size and look", "Where you find them", "The tell"],
+    "rows": [
+      ["Bed bug", "About 1 mm (1/25 inch); pearl-white", "Seams, piping and tags of mattresses and box springs; bed frame cracks", "Eye spot after five days; bugs, eggshells and pale yellow shed skins nearby"],
+      ["Cat flea", "About 1/32 inch; pearly white, smooth ovals", "Pet bedding and carpet", "Loose: they fall off the pet"],
+      ["Head louse (nit)", "0.8 by 0.3 mm (about 1/32 inch); oval, yellow to white", "Base of single hairs, nearest the scalp", "Cemented in place; often mistaken for dandruff"],
+      ["House fly", "About 1 mm (0.04 inch); elongated, yellowish-white", "Garbage, spoiled food and other food sources", "Clusters of up to 100; hatch quickly into maggots"],
+      ["Cockroach", "Egg case 1/4 to 3/8 inch; light beige to black", "Ceilings, under furniture, closets, sheltered debris; German females carry theirs", "One purse-shaped case holding about 12 to 45 young"],
+      ["Common house spider", "Sac 6 to 9 mm (about 1/4 to 3/8 inch); brown, papery", "With its cobwebs in wall corners, floor joists and windows", "A sac of 140 to 380 eggs, not loose eggs"],
+      ["Brown marmorated stink bug", "About 1/16 inch (1.6 mm); white or pale green barrels", "Undersides of leaves", "Clusters of 20 to 30 pale barrels"],
+      ["Convergent lady beetle", "About 1/25 inch; yellow, oblong", "Leaves and green stems near aphids", "Stand on end in clusters of about 10 to 30"],
+      ["Green lacewing", "1/16 inch or less; pale green or white, graying before hatching", "On plants", "Each egg on the tip of a silk stalk"],
+      ["Katydid", "About 1/5 inch; flat, gray disks", "Twigs; one species inserts its eggs in leaf edges", "Single or double overlapping rows, like seeds"],
+      ["Praying mantis", "Egg case 1/2 to 1 1/4 inches; tan, foam-like", "Branches, stems, walls, fences, posts, siding and eaves, November to April", "Hardened froth around 200 to 300 eggs"],
+      ["Spotted lanternfly", "Mass about 1 inch long; 30 to 50 eggs", "Trees, stone, grills, outdoor furniture and vehicles, fall to spring", "Wet gray putty when new, then like cracked mud"]
+    ],
+    "caption": "Sizes and places from EPA, CDC, UC IPM, Virginia Tech, Penn State, Colorado State, Kansas State and USDA APHIS, each linked in the sections below."
+  },
+  "body": [
+    { "type": "h2", "text": "What do bug eggs look like?" },
+    { "type": "p", "text": "Insect eggs are small ovals, spheres, barrels or flat disks, often white, yellowish, green or gray, and a single one is easy to miss: of the single eggs measured on this page, only the katydid's, at about 1/5 inch, are longer than about 1/16 inch. What people notice is the group, and how the eggs are grouped is the best clue to what laid them." },
+    { "type": "figure", "src": "/guides/photos/insect-eggs-porch-screen.webp", "width": 1200, "height": 1600, "alt": "Hundreds of tiny round white insect eggs scattered in a loose cluster across a dark porch window screen", "caption": "Hundreds of small, round, white eggs on a porch window screen in New Hampshire. Their maker is unknown: the iNaturalist record identifies them only as insect eggs.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/180774090" },
+
+    { "type": "h2", "text": "Whose eggs are these, by where you found them?" },
+    { "type": "p", "text": "Where you found the eggs narrows the list faster than color does, because many insects lay beside their young's food: clothes moths on wool, house flies on garbage, lady beetles by aphids." },
+    { "type": "table", "head": ["Where you found them", "Check first", "Also check"], "rows": [
+      ["Mattress seams, box spring, bed frame", "Bed bugs", "Their eggshells and shed skins"],
+      ["Pet bed, rug or carpet", "Fleas", "Flea dirt (dried droppings)"],
+      ["Hair, close to the scalp", "Lice nits", "Dandruff or hair spray droplets"],
+      ["Wool clothes, rugs, closets", "Clothes moths", "Carpet beetles"],
+      ["Trash can, pet food, spoiled food", "House flies", "Maggots, if the eggs have hatched"],
+      ["Flour, grain or stored pet food", "Pantry moths and beetles", "Carpet beetles"],
+      ["Ceilings, under furniture, closets", "Cockroach egg cases", "Spider egg sacs"],
+      ["Cobwebs in corners and windows", "Spider egg sacs", "Cockroach egg cases"],
+      ["Window screens and glass", "Stink bugs, lacewings", "Predatory bugs' egg clusters"],
+      ["Siding, brick, fences, eaves", "Praying mantis egg cases", "Spider sacs; spotted lanternfly masses"],
+      ["Leaves and stems", "Stink bugs, lady beetles, lacewings", "Slime molds (not eggs)"],
+      ["Twigs and bark", "Katydids, mantises, spotted lanternflies", "Moth egg masses"],
+      ["Car, grill, trailer, patio furniture", "Spotted lanternflies", "Spongy moth egg masses"],
+      ["Bucket, birdbath, flowerpot saucer, vase", "Mosquitoes", "Mosquito larvae"]
+    ], "caption": "From the EPA, CDC, extension and USDA sources linked in the sections below." },
+    { "type": "p", "text": "A white speck that moves is not an egg: [the guide to tiny white bugs](/blog/tiny-white-bugs) sorts those." },
+
+    { "type": "h2", "text": "What are the tiny white eggs in my house?" },
+    { "type": "p", "text": "These five insects leave tiny white eggs indoors, each in its own kind of place: bed bugs, fleas, lice, clothes moths and flies." },
+    { "type": "h3", "text": "In the bed" },
+    { "type": "p", "text": "Bed bug eggs are pearl-white and about 1 mm (1/25 inch) long, the size of a pinhead, and show an eye spot once they are more than five days old, according to [EPA's page on bed bug appearance](https://www.epa.gov/bedbugs/bed-bugs-appearance-and-life-cycle). [EPA's guide to finding bed bugs](https://www.epa.gov/bedbugs/how-find-bed-bugs) says to look near the piping, seams and tags of the mattress and box spring and in cracks of the bed frame and headboard. [Bed bug eggs](/blog/bed-bug-eggs) covers live eggs and empty shells, and [baby bed bugs](/blog/baby-bed-bugs-nymphs) shows what hatches." },
+    { "type": "figure", "src": "/guides/photos/bed-bugs-eggs-mattress-seam.webp", "width": 1200, "height": 900, "alt": "Bed bugs of several sizes crowded along a bed seam among many tiny white eggs and pale shed skins", "caption": "Bed bugs of several sizes and their white eggs along a seam of a bed, as the photographer describes it.", "license": "public-domain", "credit": "Charlysays, Public domain, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bedbugs.jpg" },
+    { "type": "h3", "text": "On a pet's bed, a rug or the carpet" },
+    { "type": "p", "text": "Smooth white specks in a pet's bedding are likely flea eggs. [UC IPM's flea guide](https://ipm.ucanr.edu/home-and-landscape/fleas/) says adult cat fleas stay on the pet, and that their eggs are pearly white, oval and about 1/32 inch long, readily fall onto bedding and carpet, and hatch in about 2 to 5 days. [What flea eggs look like](/blog/flea-eggs) compares them with flea dirt and dandruff." },
+    { "type": "h3", "text": "On hair" },
+    { "type": "p", "text": "Tiny ovals glued to single hairs are lice eggs, called nits. [CDC's parasite reference on head lice](https://www.cdc.gov/dpdx/pediculosis/index.html) gives their size as 0.8 by 0.3 mm (about 1/32 inch long), usually yellow to white, cemented at the base of the hair shaft nearest the scalp, and often confused with dandruff or hair spray droplets. [Lice eggs](/blog/lice-eggs) explains how to tell live nits from hatched ones." },
+    { "type": "h3", "text": "On wool clothes, rugs and in closets" },
+    { "type": "p", "text": "Pinhead-sized white eggs on wool are a sign of clothes moths. [Clemson Extension's fabric pest fact sheet](https://hgic.clemson.edu/factsheet/controlling-fabric-pests/) says a female lays 100 to 150 small, pinhead-sized, white eggs on or near the fabric she infests, and that they usually hatch in about five days. [Moth eggs](/blog/moth-eggs) covers clothes and pantry moths, [carpet beetle larvae](/blog/carpet-beetle-larvae) covers another fabric pest on Clemson's sheet, and eggs in flour or grain belong in [the pantry pest guide](/blog/pantry-pests)." },
+    { "type": "h3", "text": "On garbage, pet food or spoiled food" },
+    { "type": "figure", "src": "/guides/photos/house-fly-eggs.webp", "width": 1200, "height": 801, "alt": "Sepia close-up of a heap of white, elongated house fly eggs that look like grains of rice", "caption": "A heap of house fly eggs in a CDC close-up. Elongated and heaped together, they look like a pinch of rice, though each is about 0.04 inch (1 mm) long.", "license": "public-domain", "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=25571" },
+    { "type": "p", "text": "A heap of white, rice-shaped eggs on garbage or spoiled food is a fly clutch. [Virginia Cooperative Extension's house fly fact sheet](https://aaec.vt.edu/content/dam/pubs_ext_vt_edu/ENTO/ENTO-137/ENTO-416.pdf) describes house fly eggs as elongated, yellowish-white ovals about 1 mm (0.04 inch) long, laid up to 100 in a cluster on a food source, that hatch quickly into maggots. [Where maggots come from](/blog/maggots) and [why there are flies in the house](/blog/flies-in-house) cover the rest." },
+
+    { "type": "h2", "text": "What are the brown capsules and papery sacs in corners and closets?" },
+    { "type": "p", "text": "A purse-shaped brown capsule about 1/4 to 3/8 inch long is a cockroach egg case, not a single egg. [UC IPM's cockroach guide](https://ipm.ucanr.edu/home-and-landscape/cockroaches/) says German cockroach females carry their light beige, 1/4-inch case until a day or two before it hatches; brown-banded cockroaches glue light brown cases of the same size to ceilings, beneath furniture and in closets; American cockroach cases are about 3/8 inch and turn from brown to black within a day or two; and Oriental cockroaches leave dark red-brown 3/8-inch cases in sheltered debris or food. [What cockroach eggs look like](/blog/cockroach-eggs) compares them, and [baby cockroaches](/blog/what-do-baby-cockroaches-look-like) shows what hatches." },
+    { "type": "p", "text": "A brown, papery ball in a cobweb is a spider egg sac. [Penn State Extension's common house spider page](https://extension.psu.edu/common-house-spider) says this spider builds its webs in the corners of walls, floor joists and windows, and that its egg sacs are brown and ovoid with tough, papery covers, 6 to 9 mm (about 1/4 to 3/8 inch) across, each holding 140 to 380 eggs. [Spider egg sacs](/blog/spider-egg-sacs) shows which spider made which sac, and [baby spiders](/blog/baby-spiders) shows the spiderlings." },
+
+    { "type": "h2", "text": "What bug eggs look like rice, seeds or sesame seeds?" },
+    { "type": "p", "text": "Rice-shaped eggs heaped on garbage are fly eggs (above). The seed-like eggs, and look-alikes that are not eggs at all:" },
+    { "type": "ul", "items": [
+      "**Like flat seeds in a neat row:** katydid eggs. [UC IPM's katydid guide](https://ipm.ucanr.edu/home-and-landscape/katydids/) says angularwinged, broadwinged and some other katydids line up their eggs on twigs in single or double overlapping rows, each disklike, gray and about 1/5 inch long; the forktailed bush katydid inserts its eggs into leaf edges instead. They overwinter as eggs and, in California, hatch from late March to May, depending on the species.",
+      "**Like seeds in columns on bark, stone or a car:** an old spotted lanternfly egg mass. [Virginia Cooperative Extension](https://www.pubs.ext.vt.edu/ENTO/ENTO-180/ENTO-180.html) says each mass holds 30 to 50 grayish-brown eggs laid in four to seven vertical columns, and that older masses can lose their waxy coating, exposing the seed-like eggs.",
+      "**Like rice, near a pet's rear end:** tapeworm segments, not eggs. [CDC's page on dog and cat tapeworm](https://www.cdc.gov/dipylidium/about/index.html) says fresh segments may be seen crawling near the animal's anus, and dried ones look like grains of rice, about 2 mm (1/12 inch), hard and yellowish, sometimes stuck to the fur there; pets catch this tapeworm by swallowing an infected flea. If your pet may have tapeworms, talk to your veterinarian.",
+      "**Like tiny, six-sided grains below a small hole in wood:** drywood termite droppings. [UC IPM's drywood termite guide](https://ipm.ucanr.edu/home-and-landscape/drywood-termites/) says the pellets have six sides, are diagnostic for drywood termites and are pushed out through holes less than 2 mm (about 1/12 inch) across; [the termite droppings guide](/blog/termite-droppings) has photos.",
+      "**Sesame-seed size and moving:** an insect, not an egg. CDC compares an adult head louse to a sesame seed, and EPA compares an adult bed bug to an apple seed, 3/16 to 1/4 inch long."
+    ] },
+    { "type": "figure", "src": "/guides/photos/katydid-eggs-sycamore-twig.webp", "width": 1000, "height": 1000, "alt": "Double row of flat gray oval katydid eggs overlapping like seeds along a thin twig in front of a green leaf", "caption": "Angle-winged katydid eggs (genus Microcentrum, research grade on iNaturalist) overlapping in a double row on a sycamore twig in Kentucky.", "license": "CC-BY-4.0", "credit": "(c) M. Whitson, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/133383428" },
+
+    { "type": "h2", "text": "What are the eggs on my window screen, glass or siding?" },
+    { "type": "p", "text": "On a screen, a window or the outside of a house, the shape of the group sorts the eggs: a raft, stalks, a foam-like case or a papery sac. Papery sacs in webs at window corners are spider egg sacs (above); for froth on a cocoon or a fuzzy patch on a wall, see [moth eggs](/blog/moth-eggs), and for the egg clusters of predatory wheel bugs, [the wheel bug guide](/blog/wheel-bugs)." },
+    { "type": "h3", "text": "A raft of short, pale eggs" },
+    { "type": "p", "text": "[Colorado State University's brown marmorated stink bug page](https://agsci.colostate.edu/agbio/ipm-pests/brown-marmorated-stink-bug) describes the eggs as barrel shaped, white or pale green and 1.6 mm (1/16 inch) long, laid on the underside of leaves in clusters of 20 to 30. Predatory bugs lay clusters too, so check [the stink bug egg guide](/blog/stink-bug-eggs), which shows eggs on glass, before you scrape one off." },
+    { "type": "h3", "text": "Eggs on hair-thin stalks" },
+    { "type": "p", "text": "[UC IPM's green lacewing page](https://ipm.ucanr.edu/natural-enemies/green-lacewings/) says lacewing eggs are oblong and 1/16 inch (1.5 mm) or less, each laid on the end of a silken stalk attached to plants; they are pale yellowish-green or white when laid, turn bluish-green and then gray before hatching. The larvae eat aphids, mites, mealybugs and other soft-bodied pests, so leave the eggs alone. The cluster below hung from window glass." },
+    { "type": "figure", "src": "/guides/photos/lacewing-eggs-window-penny.webp", "width": 1200, "height": 1800, "alt": "Cluster of small white oval lacewing eggs hanging on hair-thin silk stalks above a copper penny", "caption": "Lacewing eggs, placed in the green lacewing family by one iNaturalist identifier, hanging on silk stalks from window glass in Massachusetts, above a penny for scale.", "license": "CC-BY-4.0", "credit": "(c) Chris Baer, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/312978229" },
+    { "type": "h3", "text": "A tan, foam-like case" },
+    { "type": "p", "text": "[Kansas State University's praying mantid fact sheet](https://bookstore.ksre.ksu.edu/pubs/MF3593.pdf) says a female lays 200 to 300 eggs in a frothy material that hardens into a foam-like case, found on branches, plant stems, walls, fences, posts, the sides of houses and eaves from November through April. The Carolina mantid's case is tan to light brown, 1/2 to 3/4 inch long, with a white to gray band down the center; the Chinese mantid's is light brown and 1 to 1 1/4 inches long. The young hatch in spring, 50 to 200 from one case." },
+    { "type": "figure", "src": "/guides/photos/carolina-mantis-egg-case-brick-mortar.webp", "width": 1200, "height": 900, "alt": "Tan, ridged praying mantis egg case stuck lengthwise in the mortar between two red bricks", "caption": "A Carolina mantis egg case in the mortar of a brick wall in Ohio (research grade on iNaturalist). Look for the ridged, foam-like surface.", "license": "CC-BY-4.0", "credit": "(c) Mary Spilman, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/7428543" },
+
+    { "type": "h2", "text": "What are the eggs on leaves and garden plants?" },
+    { "type": "p", "text": "Egg clusters on leaves come from plant feeders such as stink bugs and from predators such as lady beetles and lacewings, so tell them apart before squashing anything. [UC IPM's convergent lady beetle page](https://ipm.ucanr.edu/natural-enemies/convergent-lady-beetle/) describes lady beetle eggs as oblong, yellow and about 1/25 inch (1 mm) long, laid on end in clusters of about 10 to 30 on leaves and green stems near aphids or other prey, and says the adults and larvae eat soft-bodied insects, insect eggs and especially aphids." },
+    { "type": "p", "text": "[The stink bug egg guide](/blog/stink-bug-eggs) puts lady beetle, squash bug, leaf-footed bug and predator bug eggs side by side, and [the Asian lady beetle guide](/blog/asian-lady-beetles) covers that species." },
+
+    { "type": "h2", "text": "What are the egg masses on my car, grill or patio furniture?" },
+    { "type": "p", "text": "A flat smear about an inch long that looks like wet gray putty or dried, cracked mud is a spotted lanternfly egg mass. [USDA APHIS](https://www.aphis.usda.gov/plant-pests-diseases/slf) says newly laid masses hold 30 to 50 eggs and look like wet, gray putty before turning dull and brown, that the insect lays them on any hard surface, including grills, vehicles, trailers, firewood, outdoor furniture, bikes and toys, and that the masses can be seen in fall, winter and spring. Virginia Cooperative Extension says laying starts in September and the eggs hatch in late April and early May." },
+    { "type": "figure", "src": "/guides/photos/spotted-lanternfly-egg-masses.webp", "width": 1200, "height": 1519, "alt": "Rows of brown seed-like spotted lanternfly eggs in columns on tree bark, partly covered by a gray mud-like coating", "caption": "Spotted lanternfly egg masses on bark in Pennsylvania (USDA Agricultural Research Service, July 2018). Older masses like these show their seed-like eggs in columns.", "license": "public-domain", "credit": "USDAgov, Public domain, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spotted_Lanternfly_(20180716-ARS-SRA-d4021-02).jpg" },
+    { "type": "p", "text": "APHIS asks people to inspect vehicles for eggs or insects before leaving a parking lot or work site, to check outdoor items for egg masses, including anything brought indoors, and to smash the masses or scrape them into a zippered plastic bag holding rubbing alcohol or hand sanitizer before throwing it away. [The spotted lanternfly guide](/blog/spotted-lanternfly) covers the insect itself." },
+    { "type": "p", "text": "A fuzzy, buff or yellowish patch about 1 1/2 inches long and 3/4 inch wide is a spongy moth egg mass instead. [APHIS's spongy moth page](https://www.aphis.usda.gov/plant-pests-diseases/spongy-moth) says each holds up to 1,000 eggs, that females attach them to trees, stones, walls, logs and household items such as patio furniture, and that people spread the pest by moving vehicles and outdoor items with egg masses on them." },
+
+    { "type": "h2", "text": "What are the eggs in a bucket, birdbath or flowerpot saucer?" },
+    { "type": "p", "text": "Eggs in or beside standing water point to mosquitoes. [CDC's guide to mosquito control at home](https://www.cdc.gov/mosquitoes/mosquito-control/mosquito-control-at-home.html) says mosquitoes lay their eggs near water, and that mosquitoes that get into the house can lay eggs there too. Its advice, indoors and out, is to empty and scrub, turn over, cover or throw out anything that holds water once a week, such as buckets, birdbaths, flowerpot saucers and vases, to remove the eggs and larvae." },
+    { "type": "p", "text": "[What mosquito eggs and larvae look like](/blog/mosquito-larvae-identification) describes the floating egg rafts and the eggs some species leave on container walls, [the mosquito life cycle](/learn/mosquito-life-cycle) explains how fast they develop, and [how to combat mosquitoes](/learn/how-to-combat-mosquitoes) covers the yard." },
+
+    { "type": "h2", "text": "What looks like bug eggs but isn't?" },
+    { "type": "p", "text": "Slime molds and droppings get taken for eggs too; termite pellets and tapeworm segments are covered above." },
+    { "type": "ul", "items": [
+      "**Yellow to purple-brown beads on grass and other plants:** possibly a slime mold. [Washington State University's Hortsense fact sheet](https://hortsense.cahnrs.wsu.edu/fact-sheet/slime-molds/) says slime molds climb grass blades and other plants as a whitish to yellow slime, then form rounded, yellow to purple-brown spore masses that are often mistaken for insect eggs; they feed only on decaying organic matter, do not cause disease in turfgrass and usually disappear in 1 to 2 weeks if left alone.",
+      "**Dark specks along walls, in drawers or on bedding:** compare them with [mouse droppings](/blog/mouse-poop), [cockroach droppings](/blog/cockroach-droppings) and [bed bug stains](/blog/bed-bug-poop) before you assume they are eggs.",
+      "**Gray, seed-shaped cases on an indoor wall:** not eggs; [the moth egg guide](/blog/moth-eggs) shows the household casebearer case."
+    ] },
+    { "type": "figure", "src": "/guides/photos/slime-mold-leocarpus-grass.webp", "width": 1200, "height": 1600, "alt": "Clusters of shiny yellow-orange egg-shaped slime mold spore cases lined up along blades of grass", "caption": "Leocarpus fragilis, a slime mold that iNaturalist lists as insect-egg slime, on grass blades in Santa Cruz, California (research grade).", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/103437872" },
+
+    { "type": "h2", "text": "How do you tell which eggs you have?" },
+    { "type": "p", "text": "Look closely, with a magnifying glass, before you wipe anything away, then match what you see to the quick-ID table at the top." },
+    { "type": "checklist", "title": "Checks to run on eggs you find", "items": [
+      "**Attached how?** Glued in a seam, cemented to a hair, loose, on a silk stalk, or inside a case or sac.",
+      "**Grouped how?** Singly, side by side, on end, in an overlapping row, in a heap, or in columns under a crust.",
+      "**How big?** Lay a ruler marked in inches beside them and compare with the table.",
+      "**Has the color changed?** UC IPM says lacewing eggs turn gray before they hatch, and EPA says bed bug eggs more than five days old show an eye spot.",
+      "**Already hatched?** Empty shells or open tops mean the young are out, so look nearby for nymphs, larvae or spiderlings."
+    ] },
+
+    { "type": "confused", "title": "The egg guides, one kind at a time", "items": [
+      { "href": "/blog/bed-bug-eggs", "name": "Bed bug eggs", "photo": "bed-bugs-mating-eggs-fabric-fold", "note": "Pinhead-sized and pearl-white; in mattress seams, piping and bed frame cracks", "alt": "Two bed bugs in a fold of dark fabric with tiny white eggs just above them" },
+      { "href": "/blog/flea-eggs", "name": "Flea eggs", "photo": "flea-egg-and-larva", "note": "Pearly white ovals about 1/32 inch that fall off the pet into bedding and carpet", "alt": "Magnified smooth white flea egg beside a newly hatched flea larva" },
+      { "href": "/blog/lice-eggs", "name": "Lice nits", "photo": "head-lice-nits-on-hair", "note": "Oval, yellow to white, about 1/32 inch, cemented to single hairs near the scalp", "alt": "Three head louse eggs glued to human hair shafts, magnified" },
+      { "href": "/blog/moth-eggs", "name": "Clothes moth eggs", "photo": "clothes-moth-eggs-wool", "note": "Pinhead-sized white eggs laid on or near the wool or fabric they infest", "alt": "Tiny white clothes moth eggs among the loops of knitted wool" },
+      { "href": "/blog/stink-bug-eggs", "name": "Stink bug eggs", "photo": "brown-marmorated-stink-bug-egg-mass-unhatched-leaf", "note": "White or pale green barrels about 1/16 inch, in clusters of 20 to 30 under leaves", "alt": "Tight cluster of pale stink bug eggs glued side by side on a leaf" },
+      { "href": "/blog/cockroach-eggs", "name": "Cockroach egg case", "photo": "brown-banded-cockroach-egg-cases", "note": "One purse-shaped brown case, 1/4 to 3/8 inch long, holding about 12 to 45 young", "alt": "Four small brown cockroach egg capsules stuck to a wooden surface" }
+    ] },
+
+    { "type": "h2", "text": "What should you do once you know whose eggs they are?" },
+    { "type": "p", "text": "Match what you do to who laid the eggs: some mean a pest is breeding indoors, some belong to predators worth keeping." },
+    { "type": "ul", "items": [
+      "**Bed bugs, fleas and lice.** Live eggs mean the insect is breeding. See [how to get rid of bed bugs](/blog/how-to-get-rid-of-bed-bugs), [the flea control plan](/blog/how-to-get-rid-of-fleas) (the eggs fall where the pet rests) and [lice eggs](/blog/lice-eggs).",
+      "**Clothes moths, pantry pests and flies.** Take away what the young feed on, and keep garbage bagged in a can with a tight-sealing lid, as Virginia Cooperative Extension advises; see [moth eggs](/blog/moth-eggs), [pantry pests](/blog/pantry-pests) and [maggots](/blog/maggots).",
+      "**Cockroaches and spiders.** [Cockroach eggs](/blog/cockroach-eggs) and [spider egg sacs](/blog/spider-egg-sacs) each end with what to do with the cases and sacs you find.",
+      "**Lady beetles and lacewings.** Leave the eggs. UC IPM lists both as natural enemies of aphids and other soft-bodied pests and advises avoiding broad-spectrum, persistent insecticides to protect them.",
+      "**Praying mantises.** Leave the case outdoors: Kansas State says a case brought into a warm home (70°F) hatches in four to six weeks, so look over branches, cut evergreens included, before you bring them inside.",
+      "**Spotted lanternflies and spongy moths.** Smash spotted lanternfly masses or scrape them into rubbing alcohol, and check vehicles and outdoor items for both kinds of egg mass before you travel or move, as APHIS advises.",
+      "**Mosquitoes.** Empty and scrub anything that holds water once a week (CDC)."
+    ] },
+    { "type": "callout", "tone": "tip", "title": "Save a sample", "text": "Lift a few eggs onto clear tape, or seal the leaf, twig or fabric in a jar, and photograph them beside a ruler marked in inches. Note where and when you found them. Your county's cooperative extension office can often identify eggs from a sample like that." }
+  ],
+  "faqs": [
+    {
+      "question": "Can you see bug eggs with the naked eye?",
+      "answer": "Many, but only just. EPA compares a bed bug egg to a pinhead, about 1 mm or 1/25 inch long, UC IPM puts a cat flea egg at about 1/32 inch, and CDC says lice eggs are hard to see and often mistaken for dandruff. Groups are easier to spot: UC IPM puts a cockroach egg case at 1/4 to 3/8 inch, and USDA APHIS puts a spotted lanternfly egg mass at about an inch. A magnifying glass and a ruler help with the rest."
+    },
+    {
+      "question": "What bug lays yellow eggs?",
+      "answer": "Several do. UC IPM describes convergent lady beetle eggs as yellow and oblong, about 1/25 inch, standing on end in clusters of about 10 to 30 near aphids. Head lice nits are usually yellow to white, according to CDC, and green lacewing eggs start out pale yellowish-green, each on its own silk stalk, UC IPM says. Where you found them sorts these quickly: a leaf, a hair or a silk stalk."
+    },
+    {
+      "question": "What do spider eggs look like?",
+      "answer": "You rarely see the eggs themselves, because spiders wrap them in a sac. Penn State Extension describes the common house spider's sacs as brown and ovoid with tough, papery covers, about 1/4 to 3/8 inch (6 to 9 mm) across, each holding 140 to 380 eggs, and says one female may make twelve or more. Sacs differ from one spider to the next, so compare the shape and the place you found it with a spider egg sac guide."
+    },
+    {
+      "question": "What do cockroach eggs look like?",
+      "answer": "What you find is the egg case, not loose eggs. UC IPM describes German cockroach cases as light beige and about 1/4 inch, carried by the female until a day or two before they hatch; brown-banded cases as light brown, about 1/4 inch and glued to ceilings, under furniture or in closets; and American cockroach cases as about 3/8 inch, brown when laid and black within a day or two. Each case holds about 12 to 45 young, depending on the species."
+    },
+    {
+      "question": "How long do insect eggs take to hatch?",
+      "answer": "It depends on the insect and the temperature. House fly eggs hatch quickly, Virginia Cooperative Extension says; UC IPM gives about 2 to 5 days for cat flea eggs, and Clemson about five days for clothes moth eggs. UC IPM gives about 30 days for a German cockroach's egg case. Praying mantis, katydid and spotted lanternfly eggs wait out the winter and hatch in spring, according to Kansas State, UC IPM and Virginia Tech."
+    },
+    {
+      "question": "Can insect eggs survive the winter?",
+      "answer": "Many outdoor eggs are made for it. Kansas State says praying mantids spend the winter as eggs inside their cases, which can be found from November through April. UC IPM says angularwinged and broadwinged katydids overwinter as eggs, and Virginia Tech says spotted lanternfly egg masses survive temperatures below 0°F. USDA APHIS says spongy moth egg masses can be seen in late summer, winter and spring, and that they spread on firewood, trailers and outdoor items people move."
+    },
+    {
+      "question": "Should you destroy insect eggs you find?",
+      "answer": "Not always. Leave lady beetle and lacewing eggs, because UC IPM lists both insects as natural enemies of aphids and other soft-bodied pests, and leave mantis egg cases outdoors. Destroy spotted lanternfly egg masses: USDA APHIS says to smash them or scrape them into rubbing alcohol or hand sanitizer. Eggs from bed bugs, fleas, cockroaches or clothes moths mean the pest has been breeding indoors, so deal with the infestation, not only the eggs you can see."
+    },
+    {
+      "question": "What are the egg masses on my car?",
+      "answer": "Where these pests occur, check for spotted lanternfly and spongy moth eggs. USDA APHIS says the spotted lanternfly lays on any hard surface, vehicles and trailers included, in masses of 30 to 50 eggs about an inch long that look like gray putty and later like cracked mud, and asks people to inspect vehicles before leaving a parking lot or work site. A fuzzy, buff patch about 1 1/2 inches long is a spongy moth egg mass; APHIS says people spread these by moving vehicles and other outdoor items, and to check for egg masses before traveling out of an infested area."
+    },
+    {
+      "question": "What happens if you bring a praying mantis egg case inside?",
+      "answer": "It may hatch within weeks. Kansas State University says a case kept in a warm home, at about 70°F, releases its young in four to six weeks, that 50 to 200 nymphs can come out of one case, and that nymphs not released promptly or given food will eat each other. It says storing a collected case in a jar in the refrigerator delays hatching, and that cases can go out in the garden once the temperature is above 50°F."
+    },
+    {
+      "question": "Can you see flea eggs on a dog?",
+      "answer": "Sometimes, but many fall off the dog. UC IPM says adult cat fleas stay on the pet to feed, mate and lay eggs, but the eggs are smooth and readily fall onto bedding and carpet. They are pearly white ovals about 1/32 inch long, so look where the dog sleeps as well as in its fur, ideally with a magnifying glass. A flea egg guide can help you tell them from flea dirt and dandruff."
+    }
+  ],
+  "sources": [
+    { "title": "Bed Bugs Appearance and Life Cycle", "publisher": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/bedbugs/bed-bugs-appearance-and-life-cycle" },
+    { "title": "How to Find Bed Bugs", "publisher": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/bedbugs/how-find-bed-bugs" },
+    { "title": "Fleas (Pest Notes, UC ANR Publication 7419)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/fleas/" },
+    { "title": "DPDx: Pediculosis", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/dpdx/pediculosis/index.html" },
+    { "title": "Fabric Pest Control (HGIC 2416, updated April 2020)", "publisher": "Clemson Cooperative Extension, Home and Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/controlling-fabric-pests/" },
+    { "title": "House Fly (ENTO-137NP, revised January 2021)", "publisher": "Virginia Cooperative Extension, Virginia Tech", "url": "https://aaec.vt.edu/content/dam/pubs_ext_vt_edu/ENTO/ENTO-137/ENTO-416.pdf" },
+    { "title": "About Dog or Cat Tapeworm Infection", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/dipylidium/about/index.html" },
+    { "title": "Cockroaches (Pest Notes, UC ANR Publication 7467)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/cockroaches/" },
+    { "title": "Common House Spider (Steve Jacobs, updated January 2026)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/common-house-spider" },
+    { "title": "Brown marmorated stink bug (IPM pests)", "publisher": "Colorado State University, Department of Agricultural Biology", "url": "https://agsci.colostate.edu/agbio/ipm-pests/brown-marmorated-stink-bug" },
+    { "title": "Convergent Lady Beetle (Natural Enemies Gallery)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/natural-enemies/convergent-lady-beetle/" },
+    { "title": "Green Lacewings (Natural Enemies Gallery)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/natural-enemies/green-lacewings/" },
+    { "title": "Katydids (Home and Landscape)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/katydids/" },
+    { "title": "Praying Mantids (MF3593, Raymond A. Cloyd, December 2021)", "publisher": "Kansas State University Research and Extension", "url": "https://bookstore.ksre.ksu.edu/pubs/MF3593.pdf" },
+    { "title": "Spotted Lanternfly", "publisher": "USDA Animal and Plant Health Inspection Service", "url": "https://www.aphis.usda.gov/plant-pests-diseases/slf" },
+    { "title": "Spotted Lanternfly (ENTO-180NP; Pfeiffer, Day and Dellinger, August 2025)", "publisher": "Virginia Cooperative Extension, Virginia Tech", "url": "https://www.pubs.ext.vt.edu/ENTO/ENTO-180/ENTO-180.html" },
+    { "title": "Spongy Moth", "publisher": "USDA Animal and Plant Health Inspection Service", "url": "https://www.aphis.usda.gov/plant-pests-diseases/spongy-moth" },
+    { "title": "Mosquito Control at Home", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/mosquitoes/mosquito-control/mosquito-control-at-home.html" },
+    { "title": "Lawn and Turf: Slime molds (Hortsense)", "publisher": "Washington State University Extension", "url": "https://hortsense.cahnrs.wsu.edu/fact-sheet/slime-molds/" },
+    { "title": "Drywood Termites (Pest Notes, UC ANR Publication 7440)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/drywood-termites/" }
+  ]
+}

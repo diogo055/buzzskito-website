@@ -1,0 +1,313 @@
+{
+  "slug": "signs-of-silverfish",
+  "kind": "spoke",
+  "cluster": "household",
+  "keyword": "signs of silverfish",
+  "alsoTargets": [
+    "silverfish droppings",
+    "silverfish damage",
+    "silverfish poop",
+    "signs of silverfish infestation",
+    "silverfish damage to books"
+  ],
+  "metaTitle": "Signs of Silverfish: Damage to Look For (Photos)",
+  "metaDescription": "Silverfish signs: scraped patches, notched edges, ragged holes in paper, small dark droppings, scales and yellow stains. Photos, look-alikes, what to do.",
+  "h1": "Signs of Silverfish: Damage, Droppings, Yellow Stains and Where to Look",
+  "dek": "Real photos of silverfish damage on books and paper and of silverfish where people find them, plus what their droppings, scales, shed skins and yellow stains look like, what the signs mean and which pests leave similar damage.",
+  "breadcrumb": "Signs of Silverfish",
+  "excerpt": "What silverfish damage, droppings, scales and yellow stains look like, where to look, how to confirm silverfish and how to tell their damage from other pests.",
+  "datePublished": "2026-11-19",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Silverfish signs are surface damage on paper, book covers and wallpaper (scraped patches, notched edges and ragged holes) with small dark droppings, silvery scales and sometimes small yellow stains nearby; silk webbing, round tunnels and holes in wool point to other pests.** Silverfish are seldom seen, so damage is the best way to find them, as the [National Park Service's silverfish module](https://webarchive.library.unt.edu/eot2008/20090506164534mp_/http://www.nature.nps.gov/biology/ipm/manual/silverfi.cfm) explains.",
+    "bullets": [
+      "Most damage is grazing: book bindings show minute scrapings, sizing is stripped unevenly and page edges look notched; in high populations, irregular holes go right through the paper, the NPS module says.",
+      "Droppings are small, dark specks visible to the eye and scales show under a hand lens (NPS); [UC IPM](https://ipm.ucanr.edu/home-and-landscape/silverfish-and-firebrats/) calls scales around or beneath damaged items a good sign silverfish or firebrats did it.",
+      "Fabric they feed on shows droppings, scales, irregular feeding marks on single fibers and, on linens, yellowish stains, says [University of Maryland Extension](https://extension.umd.edu/resource/silverfish-and-firebrats).",
+      "The insects are about 1/2 inch long (up to 3/4 inch), silver or pearl gray, with three long, thin tail appendages, and they come out at night (UC IPM).",
+      "They seldom eat wool or newsprint (NPS), so holes in a wool sweater point to carpet beetles or clothes moths.",
+      "They do not bite, sting or transmit disease, says [Virginia Tech](https://www.pubs.ext.vt.edu/ENTO/ENTO-24/ENTO-24.html), but they can contaminate food and damage paper and textiles."
+    ]
+  },
+  "facts": {
+    "title": "Silverfish signs and look-alikes: quick ID",
+    "head": ["What you found", "What it looks like", "Where it turns up", "Points to"],
+    "rows": [
+      ["Grazed patches", "Scraped, roughened areas; minute scrapings on bindings; gray areas and missing letters on print", "Book covers and bindings, glossy and sized paper, photographs", "Silverfish or firebrats feeding"],
+      ["Notched edges and ragged holes", "Unconnected, irregular holes spreading from one spot; notched page edges", "Paper, wallpaper, linen, cotton, rayon", "Longer feeding or a larger population"],
+      ["Droppings", "Small, dark specks visible without a magnifier; in a UC IPM photo of firebrat damage, droppings and scales show as lighter brown spots", "With the damage they fed on", "Active silverfish"],
+      ["Scales", "Fine, silvery, dustlike flecks that cling to surfaces; clearest under a hand lens", "Around or beneath damaged items", "Silverfish or firebrats fed there"],
+      ["Yellow stains", "Small yellowish stains", "Linens and other fabric they fed on; paper", "Silverfish or firebrat feeding"],
+      ["Shed skins", "Empty skins; silverfish keep molting as adults and have been seen to shed more than 30 times a year", "With the other signs, often before any insect is seen", "Silverfish living nearby"],
+      ["Silverfish in a tub, sink or trap", "About 1/2 inch (up to 3/4), silvery, tapering, three long tail appendages", "Bathrooms, basements, laundry rooms; corners and edges", "Silverfish; a trapped one may be the first clue"],
+      ["Mottled insect by a heat source", "About 1/2 inch, mottled gray or brown", "Furnaces, water heaters, ovens, hot pipes; attics in summer", "Firebrats, which eat the same things"],
+      ["Holes in wool, fur or feathers", "Bristly brown skins and salt-grain pellets, or silk webbing and cases", "Wool clothing, rugs, furs, stored woolens", "Carpet beetles or clothes moths"],
+      ["Dark spots, smears and egg cases", "Pepper-like specks; small, brown, bean-shaped egg cases", "Kitchen counters, drawers and cabinets", "Cockroaches, which can also graze book covers"],
+      ["Tiny, soft, pale insects on books", "Usually under 1/16 inch; white, gray or light brown", "Books and papers in humid rooms", "Booklice, a sign of dampness"],
+      ["Round holes and fine dust", "Round exit holes with fine dust or powdery frass", "Books, stored dry goods, wooden items", "Drugstore, cigarette or powderpost beetles"]
+    ],
+    "caption": "Silverfish signs: the National Park Service, UC IPM, UF/IFAS, Ohio State, Iowa State and the Maryland, Missouri and Virginia Tech extensions. Look-alikes: UC IPM, the University of Kentucky, UF/IFAS, CDC and the National Park Service. All are linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "What are the signs of silverfish?" },
+    { "type": "p", "text": "The signs of silverfish are feeding damage on paper and other starchy things, small dark droppings, scales, shed skins, small yellow stains and the insects themselves, usually seen at night or trapped in a tub. The National Park Service's silverfish module says they are seldom seen, so damage is the best way to find them, and the Park Service's guide to [identifying museum insect pest damage](https://www.nps.gov/subjects/museums/upload/03-11_508.pdf) notes that insect damage, cast skins or fecal spots are often found before the pest." },
+    {
+      "type": "figure",
+      "src": "/guides/photos/silverfish-damage-book-spine.webp",
+      "width": 1200,
+      "height": 900,
+      "alt": "Gray paperback lying on dark fabric, its spine and cover edge scraped into irregular white patches where the surface has been grazed away",
+      "caption": "A paperback spine grazed in irregular patches; its photographer titled the picture as a book eaten by papiervisjes, Dutch for gray silverfish. The Park Service lists minute scrapings on bindings first.",
+      "credit": "Niccienic, CC0, via Wikimedia Commons",
+      "license": "CC0-1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boek_aangevreten_door_papiervisjes.jpg"
+    },
+    { "type": "p", "text": "They eat starch, glue and sizing, so the signs gather on books, papers, wallpaper and plant-fiber fabric. [UC IPM's silverfish and firebrat guide](https://ipm.ucanr.edu/home-and-landscape/silverfish-and-firebrats/) lists cereals, flour, pasta and pet food; paper with glue or paste; sizing in paper, including wallpaper; book bindings; and starch in clothing. Firebrats eat the same foods, and silverfish hatch white and about 1/16 inch long, UC IPM says; [baby silverfish](/blog/baby-silverfish) has photos of the young." },
+
+    { "type": "h2", "text": "What does silverfish damage look like?" },
+    { "type": "p", "text": "Silverfish damage looks scraped rather than chewed: roughened patches, notched edges and, where many feed, ragged holes. UC IPM says their weak jaws scrape the surface of paper instead of biting it, and that feeding usually starts in one area and spreads as unconnected, irregular holes. The NPS module lists what to look for: minute scrapings on book bindings, sizing removed unevenly, notched paper edges and, where populations are high, irregular holes eaten right through the paper." },
+    {
+      "type": "figure",
+      "src": "/guides/photos/silverfish-damage-paperback-cover.webp",
+      "width": 1200,
+      "height": 1600,
+      "alt": "Red paperback cover on gray stone with dozens of ragged white patches where the colored surface layer has been grazed away, most of them along the edges and lower half",
+      "caption": "A paperback cover grazed in dozens of places, which its photographer describes as silverfish damage. Look for bare patches with ragged edges where only the surface layer is gone.",
+      "credit": "Rodolph at English Wikipedia, CC BY-SA 3.0, via Wikimedia Commons",
+      "license": "CC-BY-SA-3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bruce_Chatwin%27s_Songlines_1987.jpg"
+    },
+    { "type": "p", "text": "Books and coated paper are especially at risk. The NPS module says they feed on bound volumes for the paper, the starch and sizing in bindings and the linen in some covers. [UF/IFAS Extension's silverfish profile](https://edis.ifas.ufl.edu/publication/IN1211) reports their strongest recorded preference is for glazed paper with a starch-rich coating, and [Ohio State University Extension](https://ohioline.osu.edu/factsheet/ENT-64) lists photographs among their foods. In UC IPM's photo of firebrat damage, grazing shows as gray areas and missing letters." },
+    { "type": "p", "text": "Newsprint, brown wrapping paper and most cardboard are seldom eaten, the NPS module and UMD Extension say, though Virginia Tech says silverfish readily feed on cardboard and paper products. Either way, the NPS module lists empty cardboard boxes and waste paper among the food and harborage to clear out." },
+    {
+      "type": "figure",
+      "src": "/guides/photos/gray-silverfish-paper-damage-plate.webp",
+      "width": 1200,
+      "height": 1392,
+      "alt": "Scientific plate of a gray silverfish: the whole insect beside a 5 mm (about 1/5 inch) scale bar, close-ups of its head and tail end, a piece of roughened, holed paper and a piece of clean paper",
+      "caption": "A gray silverfish (A to D) with damaged (E) and undamaged (F) paper, from a 2021 study in Estonia that cites panels E and F for the species being a substantial pest of paper.",
+      "credit": "Sammet K, Martin M, Kesküla T, Kurina O (2021) An update to the distribution of invasive Ctenolepisma longicaudatum Escherich in northern Europe, with an overview of other records of Estonian synanthropic bristletails (Insecta: Zygentoma). Biodiversity Data Journal 9: e61848., CC BY 4.0, via Wikimedia Commons",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ctenolepisma_longicaudatum_(10.3897-BDJ.9.e61848)_Figure_1.jpg"
+    },
+    { "type": "p", "text": "[A 2021 study of gray silverfish in Estonia](https://pmc.ncbi.nlm.nih.gov/articles/PMC7858561/) calls it a substantial pest, especially of paper, with a much lower moisture demand than other indoor silverfish and firebrats, so it has a good chance of surviving in archives, libraries and museums, which the authors say need to monitor for it. [University of Missouri Extension](https://extension.missouri.edu/publications/g7376) finds it from basement to attic." },
+    { "type": "h3", "text": "Damage to wallpaper" },
+    { "type": "p", "text": "Silverfish eat the paste as well as the paper. The NPS module says feeding on wallpaper or the paste behind it can make the paper come loose from the wall, and [University of Maryland Extension](https://extension.umd.edu/resource/silverfish-and-firebrats) says silverfish may eat holes in wallpaper or the paste from under it." },
+    { "type": "media", "needed": "Wallpaper grazed or holed by silverfish, or lifting from a damp wall where they ate the paste, photographed beside a ruler marked in inches, with the insects or their scales identified by an extension service or museum entomologist; public domain or CC0" },
+    { "type": "h3", "text": "Damage to clothes, linens and other fabric" },
+    { "type": "p", "text": "Silverfish go mostly for plant fibers and starch, seldom wool. UMD Extension says they occasionally attack fabrics: linen is their preferred fabric, though they may also feed on silks, rayon and cotton, and damaged fabric shows droppings, scales, irregular feeding marks on single fibers and, on linens, yellowish stains. The NPS module says they seldom feed on wool and other animal-based textiles, so holes in wool, fur or feathers point to carpet beetles or clothes moths." },
+
+    { "type": "h2", "text": "What do silverfish droppings look like?" },
+    { "type": "p", "text": "Silverfish droppings are small, dark specks you can see without a magnifier, lying on and around what the insects have eaten. The NPS module lists droppings, scales and small yellow stains as feeding signs, and says those small, dark droppings, with scales seen through a hand lens, reveal an active infestation. Firebrat droppings can look paler: in UC IPM's photo of firebrat damage to paper, the scales and fecal debris show as lighter brown spots." },
+    { "type": "p", "text": "Small dark specks alone do not settle it, because cockroaches leave them too. The University of Kentucky's [cockroach fact sheet](https://entomology.mgcafe.uky.edu/ef614) describes roach droppings as pepper-like specks, and [UC IPM's cockroach guide](https://ipm.ucanr.edu/home-and-landscape/cockroaches/) adds dark spots and smears under kitchen counters, behind drawers and in cabinets. Specks with smears or egg cases in a kitchen point to cockroaches; specks on a book or stored linen, with scales and grazing, point to silverfish. Compare photos of [cockroach droppings](/blog/cockroach-droppings) and [mouse droppings](/blog/mouse-poop)." },
+    { "type": "media", "needed": "Silverfish droppings and scales on a page or bookshelf beside fresh grazing damage, photographed beside a ruler marked in inches, identified by an extension service or museum entomologist; public domain or CC0" },
+
+    { "type": "h2", "text": "Do silverfish leave yellow stains?" },
+    { "type": "p", "text": "Yes, sometimes, on fabric and paper. The NPS module lists small yellow stains among the signs of feeding, UMD Extension says linens they feed on can show yellowish stains, and [Iowa State University's Yard and Garden](https://yardandgarden.extension.iastate.edu/encyclopedia/silverfish-and-firebrats) says silverfish and firebrats may consume or stain food, fabric, paper, books or wallpaper. [University of Maine Cooperative Extension](https://extension.umaine.edu/home-and-garden-ipm/fact-sheets/common-name-listing/silverfish-and-firebrats/) says firebrats can stain clothing with their feces." },
+    { "type": "p", "text": "A stain alone proves little: UC IPM says fungi linked to their feeding often discolor pages, so count a stain only when grazing, scales or droppings sit beside it." },
+    { "type": "media", "needed": "Yellowish stains on linen or cotton next to silverfish feeding marks and scales, close up beside a ruler marked in inches, identified by an extension service or museum entomologist; public domain or CC0" },
+
+    { "type": "h2", "text": "What do silverfish scales and shed skins look like?" },
+    { "type": "p", "text": "Silverfish scales look like fine, silvery dust that catches the light and clings to surfaces. UC IPM describes them as delicate, dustlike and slightly shiny, says they stick to most surfaces, and calls scales around or beneath damaged items a good indication that silverfish or firebrats did the damage. They show best under a hand lens (NPS), and young silverfish under 1/8 inch have none yet (UC IPM)." },
+    { "type": "p", "text": "Shed skins are another sign, because silverfish keep molting all their lives: UC IPM counts 45 to 60 stages, and Missouri Extension says they have been seen to shed their skins more than 30 times a year. The Park Service's damage guide counts cast skins among the evidence of insects that is often found before the pest itself." },
+
+    { "type": "h2", "text": "Where should you look for silverfish signs?" },
+    { "type": "p", "text": "Look where it is damp, dark and stocked with paper or starch, and look again at night. Iowa State says silverfish turn up almost anywhere in a house but most often in moist, warm spots such as around sinks and plumbing fixtures, and UMD Extension says people often find them when opening a cupboard or moving an object. Guides to [bathroom bugs](/blog/bugs-in-bathroom) and [basement bugs](/blog/bugs-in-basement) sort the other insects there." },
+    {
+      "type": "checklist",
+      "title": "Where to check for silverfish signs",
+      "items": [
+        "**Tubs, sinks and basins.** Missouri Extension says silverfish fall in while seeking moisture and get trapped, and Virginia Tech says homeowners may not know they have silverfish until one turns up there.",
+        "**Basements, laundry rooms and under sinks.** UMD Extension names these damp, cool spots; UC IPM puts the silverfish's preferred range at 71 to 90°F.",
+        "**Bookshelves and stored papers.** The NPS module says stored books and papers are especially at risk, and silverfish stay near food once they find it.",
+        "**Boxes and furniture from storage.** Missouri says eggs, young or adults can arrive on cardboard boxes, cartons or furniture.",
+        "**Closets and pantry shelves.** Check seldom-used linens and starched clothes, and cereal, flour, pasta and pet food.",
+        "**Bathroom carpet.** Ohio State says infestations occasionally build up where cornstarch-based cosmetics fall into it.",
+        "**Attics and crawl spaces.** The NPS module says gray silverfish prefer these drier spots, and four-lined silverfish often infest attics, particularly under wooden-shingle roofs; Missouri Extension says houses with wooden shingles seem particularly attractive to silverfish and firebrats.",
+        "**Furnaces and water heaters.** Firebrats favor hot spots like these ([Penn State Extension](https://extension.psu.edu/bristletails-silverfish-and-firebrats), Missouri)."
+      ]
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/silverfish-on-book-board-shed.webp",
+      "width": 1200,
+      "height": 1200,
+      "alt": "Silvery common silverfish with long antennae and tail appendages resting on the board of a cloth-bound book, beside its frayed cloth edge and printed letters",
+      "caption": "A common silverfish on the board of a cloth-bound book, one of many its finder saw in a shed full of boxed books in Ithaca, New York.",
+      "credit": "no rights reserved, via iNaturalist",
+      "license": "CC0-1.0",
+      "sourceUrl": "https://www.inaturalist.org/observations/60133697"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/gray-silverfish-in-sink.webp",
+      "width": 1200,
+      "height": 1600,
+      "alt": "Gray silverfish seen from above in a white sink, its tapering body trailing three tail appendages, with long antennae in front",
+      "caption": "A gray silverfish in a sink in Winter Park, Florida. Missouri Extension says silverfish found in sinks and tubs fell in while seeking moisture and became trapped.",
+      "credit": "no rights reserved, via iNaturalist",
+      "license": "CC0-1.0",
+      "sourceUrl": "https://www.inaturalist.org/observations/109984321"
+    },
+
+    { "type": "h2", "text": "How can you confirm silverfish are there?" },
+    { "type": "p", "text": "Catch one. Silverfish come out at night for food and water (UC IPM), so traps and an after-dark check show what a daytime search misses." },
+    {
+      "type": "ol",
+      "items": [
+        "Set cockroach sticky traps, or small glass jars wrapped outside with masking tape, in corners and along edges near the damage, as UC IPM suggests; the insects climb into the jars and cannot get out.",
+        "Lay out a flour-paste card: paper coated thinly with flour paste shows small feeding marks if silverfish are present, the NPS module says.",
+        "Check the traps and the card regularly, and note where catches and new marks turn up.",
+        "Look with a flashlight after dark; Ohio State describes silverfish as nocturnal and fast-moving."
+      ]
+    },
+    { "type": "p", "text": "The busiest trap may point toward the hiding place: UC IPM says silverfish crowd into a central hiding place by day, drawn together by pheromones, and females often lay eggs there, though it warns that they travel long distances for food, so the source can be hard to pinpoint. A [guide to silverfish trap types](/blog/best-silverfish-traps), written for Canadian readers, shows where each goes." },
+    {
+      "type": "figure",
+      "src": "/guides/photos/silverfish-glue-trap-ruler.webp",
+      "width": 1200,
+      "height": 722,
+      "alt": "Dozens of silverfish of many sizes stuck on a clear glue trap, with a ruler marked in centimeters along the top edge",
+      "caption": "Dozens of silverfish, from small young to adults, on one glue trap beside a ruler marked in centimeters; the uploader identified them as common silverfish.",
+      "credit": "Wesn, CC BY-SA 3.0, via Wikimedia Commons",
+      "license": "CC-BY-SA-3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Silberfischchen_in_Klebefalle_(K%C3%B6der).jpg"
+    },
+
+    { "type": "h2", "text": "Is it a silverfish or a firebrat?" },
+    { "type": "p", "text": "Check the color and the spot. UC IPM describes the common silverfish as silver or pearl gray and the firebrat as mottled gray or brown, both about 1/2 inch long; silverfish prefer damp places at 71 to 90°F, while firebrats thrive in hot, dry spots above 90°F. UMD Extension finds firebrats around ovens, heating units, fireplaces and hot water pipes, in attics in summer and near the furnace in winter." },
+    {
+      "type": "figure",
+      "src": "/guides/photos/firebrat-textured-surface.webp",
+      "width": 1200,
+      "height": 1600,
+      "alt": "Firebrat with a mottled brown and tan back, very long antennae and long tail appendages on a white textured surface",
+      "caption": "A firebrat, whose mottled back sets it apart from the silver or pearl-gray common silverfish. UC IPM says it prefers the same dry, starchy foods.",
+      "credit": "no rights reserved, via iNaturalist",
+      "license": "CC0-1.0",
+      "sourceUrl": "https://www.inaturalist.org/observations/35413318"
+    },
+    { "type": "p", "text": "Both leave the same kinds of signs, so the difference mostly changes where you search. [Bugs that look like silverfish](/blog/bugs-that-look-like-silverfish) compares the silverfish species, the firebrat and other look-alikes side by side." },
+
+    { "type": "h2", "text": "What else damages books, paper and fabric like silverfish?" },
+    { "type": "p", "text": "Cockroaches, carpet beetles, clothes moths, booklice, book-boring beetles and mice can all leave damage that passes for silverfish work; what lies beside the damage tells them apart. Cockroaches are a close match on a bookshelf: they graze book covers too, as the CDC photo below shows, but leave pepper-like specks, smears and egg cases." },
+    {
+      "type": "figure",
+      "src": "/guides/photos/cockroach-damaged-book.webp",
+      "width": 1200,
+      "height": 669,
+      "alt": "Dark blue textbook whose spine and cover are grazed into pale, irregular patches by feeding cockroaches, resting on another worn book",
+      "caption": "A textbook whose cover cockroaches grazed while feeding, photographed in a home by CDC. Damage like this can pass for silverfish work, so look for pepper-like specks, smears and egg cases nearby.",
+      "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26945"
+    },
+    { "type": "p", "text": "Booklice are usually under 1/16 inch long, says [UF/IFAS Extension's booklice guide](https://ask.ifas.ufl.edu/publication/IG094), and the Park Service's damage guide says they signal a moisture problem. The same guide ties round holes with fine dust to cigarette and [drugstore beetles](/blog/drugstore-beetles), and to powderpost beetles, whose larvae tunnel unseen, even in books. Mice leave gnawed, irregular edges, shredded paper and dark droppings 1/8 to 1/4 inch long, like small grains of rice, per the Park Service's guide to [mouse and rat damage](https://www.nps.gov/articles/000/conserve-o-gram-3-12-identifying-mouse-and-rat-damage-in-museum-collections.htm)." },
+    { "type": "p", "text": "Holes in wool point away from silverfish: [UC IPM's carpet beetle guide](https://ipm.ucanr.edu/home-and-landscape/carpet-beetles/) describes bristly cast skins and salt-grain pellets, and [UC IPM's clothes moth guide](https://ipm.ucanr.edu/home-and-landscape/clothes-moths/) silken tubes, mats or cases. [The signs of carpet beetles](/blog/signs-of-carpet-beetles), [small moths in the house](/blog/moths-in-house) and [booklice](/blog/booklice) each have photo guides." },
+    {
+      "type": "confused",
+      "items": [
+        { "href": "/blog/signs-of-carpet-beetles", "name": "Carpet beetle signs", "photo": "carpet-beetle-skins-frass", "note": "Bristly shed skins and salt-grain droppings beside holes in wool, fur or feathers", "alt": "Dozens of pale, banded carpet beetle larval skins and heaps of powdery droppings on white paper, left by larvae that ate a dried lizard" },
+        { "href": "/blog/moths-in-house", "name": "Clothes moth larva", "photo": "casemaking-clothes-moth-larva", "note": "Leaves silk webbing or carries a silk case; feeds on wool, often under collars and cuffs", "alt": "Casemaking clothes moth larva reaching out of its case of colored fibers" },
+        { "href": "/blog/booklice", "name": "Booklouse", "photo": "booklouse-printed-paper", "note": "Usually under 1/16 inch, soft and pale; found among books and papers in humid rooms", "alt": "Pale booklouse on printed paper beside a printed letter, for scale" },
+        { "href": "/blog/cockroach-droppings", "name": "Cockroach droppings", "photo": "german-cockroach-frass-cabinet", "note": "Pepper-like specks and dark smears, with egg cases, around kitchen cabinets and drawers", "alt": "Hole in the back wall of a kitchen cabinet with dead cockroaches and specks of droppings around it" },
+        { "href": "/blog/drugstore-beetles", "name": "Drugstore beetle", "photo": "drugstore-beetle", "note": "Round exit holes with fine dust in books and dry goods, not surface grazing", "alt": "Small reddish-brown drugstore beetle, magnified beside a scale bar" },
+        { "href": "/blog/mouse-poop", "name": "Mouse droppings", "photo": "mouse-droppings-wood", "note": "Dark pellets 1/8 to 1/4 inch, like rice grains, with gnawed, irregular paper edges", "alt": "Mouse droppings scattered on a wooden surface" }
+      ]
+    },
+
+    { "type": "h2", "text": "What do the signs mean: a few silverfish or an infestation?" },
+    { "type": "p", "text": "A few silverfish and no damage may need no action; fresh damage with droppings and scales, plus steady trap catches, means a settled population. Iowa State says control may not be needed when only a few are present and no damage is noticed, and that damage becomes significant only in very large infestations over long periods." },
+    {
+      "type": "table",
+      "head": ["What you found", "What it suggests"],
+      "rows": [
+        ["One silverfish in a tub or sink", "Silverfish nearby; set traps to see how many (Virginia Tech, UC IPM)"],
+        ["Several caught in one area", "Their shared daytime hiding place may be close, though they travel far for food (UC IPM)"],
+        ["Fresh scrapings, droppings and scales", "An active infestation (NPS)"],
+        ["Holes eaten through paper", "A high population (NPS)"],
+        ["Young, pale silverfish", "Eggs laid nearby, often in the shared hiding place (UC IPM)"],
+        ["Damage but no insects", "Old damage, or silverfish hiding by day; traps or a flour-paste card show whether they are active (NPS)"]
+      ],
+      "caption": "From Virginia Tech, UC IPM and the National Park Service's silverfish module, each linked on this page."
+    },
+    { "type": "p", "text": "Big numbers take time. The NPS module says silverfish are long-lived with a moderate reproduction rate, so populations grow slowly, and Virginia Tech and Ohio State say a large infestation usually means a building has been infested for a while. The Park Service's damage guide adds that silverfish favor moist spots at 70 to 80°F and can be an indicator of moisture problems." },
+
+    { "type": "h2", "text": "What should you do once you find silverfish signs?" },
+    { "type": "p", "text": "Protect what they eat, dry the air and confirm where they live before treating anything; the NPS module bases the decision to act on the amount of damage and proof of an active infestation. [How to get rid of silverfish](/blog/how-to-get-rid-of-silverfish) covers the full plan, and readers in Canada can use [the Canadian silverfish control guide](/blog/how-to-get-rid-of-silverfish-canada)." },
+    {
+      "type": "ul",
+      "items": [
+        "**Seal up valuables.** The NPS module advises tightly sealed containers and cabinets for valuable papers and books, and clearing out empty boxes and waste paper.",
+        "**Dry the air.** The [EPA's guide to mold and moisture](https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home) recommends indoor humidity below 60 percent, ideally 30 to 50 percent, and the NPS module suggests dehumidifiers or air conditioners where books are stored; [this dehumidifier guide](/blog/best-large-capacity-dehumidifier-canada) compares sizes.",
+        "**Seal or vacuum cracks.** The NPS module says sealing the cracks where silverfish hide reduces their habitat, and vacuuming cracks around bookcases removes them where sealing is not possible.",
+        "**Check what comes in.** Missouri Extension suggests inspecting boxes, furniture and cartons from infested areas.",
+        "**Keep checking.** The NPS module recommends regular checks for damage, droppings, scales or insects, using flour-paste cards or trap jars."
+      ]
+    },
+    { "type": "callout", "tone": "tip", "title": "Not sure what you found?", "text": "Seal the insect in a small jar or on clear tape, photograph it and the damage beside a ruler marked in inches, and note the room. Your state's cooperative extension office can help identify it; [the five-question pest identifier](/tools/what-bug-is-this) can narrow it down first." }
+  ],
+  "faqs": [
+    {
+      "question": "How do I know if I have a silverfish infestation?",
+      "answer": "Look for their feeding signs, then catch some. The National Park Service's silverfish module lists minute scrapings on book bindings, unevenly stripped sizing, notched paper edges, small dark droppings, scales and small yellow stains, and says an active infestation can be confirmed by the droppings and scales. UC IPM suggests cockroach sticky traps or small jars wrapped in masking tape, set in corners and along edges. Many catches in one area, together with fresh damage, point to an established population rather than a stray."
+    },
+    {
+      "question": "Can you see silverfish droppings with the naked eye?",
+      "answer": "Yes. The National Park Service's silverfish module describes silverfish droppings as small and dark and says they are visible to the eye, while their scales usually need a hand lens. Firebrat droppings can look paler: in a UC IPM photo of firebrat damage to paper, the scales and fecal debris show as lighter brown spots. Pepper-like specks with smears and egg cases in a kitchen are more typical of cockroaches, which is how the University of Kentucky describes their droppings."
+    },
+    {
+      "question": "Can silverfish damage clothes?",
+      "answer": "Yes, occasionally, mainly linen, cotton, rayon and silk, and starched fabric. University of Maryland Extension says linen is their preferred fabric and that damaged fabric shows droppings, scales, irregular feeding marks on individual fibers and, on linens, yellowish stains. UC IPM lists starch in clothing among their foods. The National Park Service says they seldom feed on wool and other animal-based textiles, so holes in a wool sweater point to carpet beetles or clothes moths instead."
+    },
+    {
+      "question": "Do silverfish eat photographs?",
+      "answer": "They can. Ohio State University Extension lists photographs among the things silverfish and firebrats have been observed eating, along with glue, wallpaper paste, book bindings and paper, and UF/IFAS reports that their strongest recorded preference is for glazed paper with a starch-rich coating. The National Park Service recommends keeping valuable papers, books and documents in tightly sealed containers or cabinets, and lowering humidity in rooms where they are stored."
+    },
+    {
+      "question": "Are silverfish a sign of moisture problems or mold?",
+      "answer": "Often of moisture. The National Park Service's guide to museum pest damage says silverfish prefer moist spots at 70 to 80°F and can be an indicator of moisture problems, and UC IPM says that at higher temperatures they need relative humidity above 75 percent. Virginia Tech lists molds in a damp bathroom among the things they eat, and UC IPM names certain fungi as food. Gray silverfish and firebrats tolerate drier air, so a silverfish does not always mean a damp house."
+    },
+    {
+      "question": "Are silverfish a sign of a dirty house?",
+      "answer": "Not necessarily. Silverfish often arrive in things people carry in: Missouri Extension says infestations can start with eggs, young or adults on cardboard boxes, cartons or furniture, and UC IPM says large numbers can move into new homes from surrounding wild areas as those dry out in summer. Dust does feed them, though: UC IPM counts household dust and debris among their important foods and says routine cleaning helps control them, along with keeping basements, laundry rooms and bathrooms dry."
+    },
+    {
+      "question": "How much damage can silverfish do?",
+      "answer": "Usually little, unless there are many for a long time. Iowa State University says damage becomes significant only in very large infestations present over long periods, and Virginia Tech calls silverfish and firebrats nuisance pests that can contaminate food and damage paper items and textiles. The National Park Service's silverfish module warns that large populations can cause severe damage to paper and paper products, and the Park Service treats silverfish mainly as archival pests."
+    },
+    {
+      "question": "When are silverfish most active?",
+      "answer": "At night. UC IPM says silverfish and firebrats are nocturnal, hiding during the day and coming out at night to look for food and water, and Ohio State describes them as nocturnal and fast-moving. That is why their damage, droppings and scales are often found before the insects, and why a flashlight check after dark, sticky traps or a jar trap left overnight show more than a daytime search."
+    },
+    {
+      "question": "Where do silverfish hide during the day?",
+      "answer": "In cracks and crevices close to their food. UC IPM says silverfish and firebrats crowd into a central hiding place during the day, drawn together by pheromones, and that females often lay their eggs there. Penn State Extension says they reach hiding places through cracks under and behind baseboards, around windows and door trim, and holes where pipes pass through walls and floors. University of Maryland Extension adds that people often find them when opening a cupboard or moving an object."
+    },
+    {
+      "question": "Is silverfish damage the same as bookworm damage?",
+      "answer": "No. Round holes and tunnels through a book, the damage often blamed on bookworms, usually point to boring beetles: the National Park Service names drugstore beetles, which can leave shot holes, and powderpost beetles, whose larvae tunnel unseen and leave exit holes with powdery frass. Silverfish scrape the surface instead, leaving roughened patches, notched edges and irregular holes, with small dark droppings and scales nearby, as the Park Service's silverfish module describes."
+    }
+  ],
+  "sources": [
+    { "title": "Integrated Pest Management Manual: Silverfish (updated 2003; archived copy, 2009)", "publisher": "National Park Service, via the End of Term Web Archive (University of North Texas Libraries)", "url": "https://webarchive.library.unt.edu/eot2008/20090506164534mp_/http://www.nature.nps.gov/biology/ipm/manual/silverfi.cfm" },
+    { "title": "Pest Notes: Silverfish and Firebrats (UC ANR Publication 7475)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/silverfish-and-firebrats/" },
+    { "title": "Identifying Museum Insect Pest Damage (Conserve O Gram 3/11, 2008)", "publisher": "National Park Service", "url": "https://www.nps.gov/subjects/museums/upload/03-11_508.pdf" },
+    { "title": "Silverfish and Firebrats", "publisher": "University of Maryland Extension", "url": "https://extension.umd.edu/resource/silverfish-and-firebrats" },
+    { "title": "Bristletails (Silverfish and Firebrats)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/bristletails-silverfish-and-firebrats" },
+    { "title": "Silverfish and Firebrats (G7376)", "publisher": "University of Missouri Extension", "url": "https://extension.missouri.edu/publications/g7376" },
+    { "title": "Silverfish and Firebrats (ENTO-24NP)", "publisher": "Virginia Cooperative Extension, Virginia Tech", "url": "https://www.pubs.ext.vt.edu/ENTO/ENTO-24/ENTO-24.html" },
+    { "title": "Silverfish and Firebrats (ENT-64)", "publisher": "Ohio State University Extension", "url": "https://ohioline.osu.edu/factsheet/ENT-64" },
+    { "title": "Silverfish and Firebrats", "publisher": "Iowa State University Extension and Outreach, Yard and Garden", "url": "https://yardandgarden.extension.iastate.edu/encyclopedia/silverfish-and-firebrats" },
+    { "title": "Silverfish and Firebrats", "publisher": "University of Maine Cooperative Extension", "url": "https://extension.umaine.edu/home-and-garden-ipm/fact-sheets/common-name-listing/silverfish-and-firebrats/" },
+    { "title": "Silverfish, Lepisma saccharina (EENY-705)", "publisher": "UF/IFAS Extension", "url": "https://edis.ifas.ufl.edu/publication/IN1211" },
+    { "title": "An update to the distribution of invasive Ctenolepisma longicaudatum Escherich in northern Europe (Sammet et al., 2021)", "publisher": "Biodiversity Data Journal, via PubMed Central", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7858561/" },
+    { "title": "Cockroach Elimination in Homes and Apartments (ENTFACT-614)", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef614" },
+    { "title": "Pest Notes: Cockroaches (UC ANR Publication 7467)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/cockroaches/" },
+    { "title": "Booklice and Silverfish (ENY-225/IG094)", "publisher": "UF/IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IG094" },
+    { "title": "Identifying Mouse and Rat Damage in Museum Collections (Conserve O Gram 3/12)", "publisher": "National Park Service", "url": "https://www.nps.gov/articles/000/conserve-o-gram-3-12-identifying-mouse-and-rat-damage-in-museum-collections.htm" },
+    { "title": "Pest Notes: Carpet Beetles (UC ANR Publication 7436)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/carpet-beetles/" },
+    { "title": "Pest Notes: Clothes Moths (UC ANR Publication 7435)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/clothes-moths/" },
+    { "title": "A Brief Guide to Mold, Moisture and Your Home", "publisher": "US Environmental Protection Agency", "url": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home" }
+  ]
+}

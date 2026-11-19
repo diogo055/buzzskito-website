@@ -16,6 +16,7 @@ import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
 import QuickIdTable from '@/components/QuickIdTable'
 import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'how-to-get-rid-of-bed-bugs-in-couch-canada'
 const DATE = '2026-07-21'
@@ -90,6 +91,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('bed-bug-nymph'),
 })
 
 const AMZ_TAG = tagForSlug('how-to-get-rid-of-bed-bugs-in-couch-canada')
@@ -97,7 +99,7 @@ const AMZ_TAG = tagForSlug('how-to-get-rid-of-bed-bugs-in-couch-canada')
 export default function BedBugsInCouchCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'A step-by-step Canadian guide to clearing bed bugs from an upholstered couch: vacuum, dry-vapour steam, a spray whose Canadian label allows upholstered furniture, and zippered encasement — with a weekly repeat cycle and honest save-vs-replace advice.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'A step-by-step Canadian guide to clearing bed bugs from an upholstered couch: vacuum, dry-vapour steam, a spray whose Canadian label allows upholstered furniture, and zippered encasement — with a weekly repeat cycle and honest save-vs-replace advice.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('bed-bug-nymph') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'How to Get Rid of Bed Bugs in a Couch Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -278,6 +280,7 @@ export default function BedBugsInCouchCanadaPage() {
           <h2>Step 1 — Confirm and Contain Before You Touch Anything</h2>
           <p>Before you treat, verify you are actually dealing with bed bugs and then stop the couch from seeding the rest of the house. Work in good light with a flashlight and a magnifier: remove every cushion, inspect both faces, and run a stiff card along the seams and piping to flush bugs into the open. You are looking for live bugs (flat, reddish-brown, apple-seed sized), pinhead-pale eggs, dark ink-like fecal dots, shed amber skins, and rusty smear stains. Check the arm folds, the underside where fabric meets frame, the staple lines, and any recliner or sofa-bed mechanism. Our <Link href="/blog/how-to-check-for-bed-bugs-canada">how to check for bed bugs</Link> guide walks the full inspection.</p>
           <Photo id="bed-bug-cast-skin-fabric" alt="The cast skin of a bed bug nymph on fabric" caption="The cast skin (molt) of a bed bug nymph on fabric, photographed in France. Shed skins like this along a couch seam are one of the signs this inspection looks for." />
+          <Photo id="bed-bug-feces-bed-corner" alt="Dark bed bug fecal stains on the corner of a bed" caption="Bed bug fecal stains on the corner of a bed (the photographer's description). On a couch, look for the same dark, ink-like spots along the seams, piping and staple lines." />
           <p>Containment comes next and it matters as much as any spray: stop moving the couch or its cushions between rooms, don&rsquo;t sleep on it and then climb into a clean bed, and set <Link href="/blog/bed-bug-interceptor-traps-canada">interceptor monitors</Link> under the couch legs and the nearest bed legs so you can see whether bugs are travelling. Bag and hot-wash then high-heat-dry every throw, blanket, and removable cover. Vacuum a wide perimeter and seal the vacuum contents in a bag in an outdoor bin immediately.</p>
 
           <h2>Step 2 — Vacuum Every Seam and Crevice</h2>
@@ -293,6 +296,7 @@ export default function BedBugsInCouchCanadaPage() {
             <li><strong>Overlap your passes.</strong> Missed strips are missed eggs; treat the whole couch as a grid you cover completely.</li>
             <li><strong>Measure, and test a hidden spot first.</strong> The University of Minnesota says the fabric surface must reach 160&ndash;180&deg;F after the wand passes, checked with an infrared thermometer (move slower if it reads low), and that you should test an unseen area before you start.</li>
           </ul>
+          <Photo id="bed-bugs-mating-eggs-fabric-fold" alt="Two bed bugs in a fold of dark fabric with bed bug eggs just above them" caption="Two bed bugs mating in a fold of dark fabric, with their eggs just above them (the photographer's description). Eggs tucked into folds and seams are what the slow steam pass is for, because a vacuum will not lift them." />
           <p>If you are choosing a machine, our <Link href="/blog/dupray-steamer-review-canada">Dupray steamer review</Link> and the broader <Link href="/blog/best-bed-bug-steamer-canada">best bed-bug steamer guide</Link> cover which units actually sustain the temperature and dwell time an upholstered couch demands. If you would rather understand the trade-off against a heat chamber, <Link href="/blog/steamer-vs-heater-for-bed-bugs-canada">steamer vs heater for bed bugs</Link> lays it out &mdash; for a couch you cannot fit in a box, the steamer wins by default.</p>
 
           <h2>Step 4 — Spray Only Where the Label Allows Upholstered Furniture</h2>

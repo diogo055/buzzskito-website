@@ -2,7 +2,7 @@
  "id": "jerusalem-crickets",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "53364ccd9689896bcef39fe8608a5ca7034fcf45dad4327bc86f9dc08e62e969",
+ "sha": "9987aab8ed9cf94a0d460d58fb064bc3c1a0d690b514f83a853bdd9273bfe870",
  "claimsChecked": 240,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 3,
@@ -11,5 +11,12 @@
   "on": "2026-10-23",
   "scheduledFor": "2026-10-23",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-11-19",
+   "note": "Nov 19, 2026: added one original BuzzSkito diagram (/diagrams/camel-cricket-vs-house-cricket.svg, CC BY 4.0) after the first paragraph of an existing section; sizes from EPA/CDC/university extension sources listed in the diagram itself. No text changed.",
+   "previousSha": "53364ccd9689896bcef39fe8608a5ca7034fcf45dad4327bc86f9dc08e62e969"
+  }
+ ]
 }

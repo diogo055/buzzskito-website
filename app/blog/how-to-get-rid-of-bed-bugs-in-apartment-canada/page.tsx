@@ -14,6 +14,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'how-to-get-rid-of-bed-bugs-in-apartment-canada'
 const DATE = '2026-07-21'
@@ -79,6 +81,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('bed-bug-on-skin-macro'),
 })
 
 const AMZ_TAG = tagForSlug('how-to-get-rid-of-bed-bugs-in-apartment-canada')
@@ -86,7 +89,7 @@ const AMZ_TAG = tagForSlug('how-to-get-rid-of-bed-bugs-in-apartment-canada')
 export default function GetRidOfBedBugsApartmentCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'An independent Canadian renter’s guide to eliminating bed bugs in an apartment — landlord vs tenant responsibility, the containment-first product kit, stopping spread between units, and exterminator prep.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'An independent Canadian renter’s guide to eliminating bed bugs in an apartment — landlord vs tenant responsibility, the containment-first product kit, stopping spread between units, and exterminator prep.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('bed-bug-on-skin-macro') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Get Rid of Bed Bugs in an Apartment (Canada)', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -242,6 +245,11 @@ export default function GetRidOfBedBugsApartmentCanadaPage() {
 
           <h2>Why an Apartment Is a Different Fight</h2>
           <p>Getting rid of bed bugs in an apartment is not the same problem as getting rid of them in a house, and the guides that treat it as the same set you up to fail. Three things change the moment you are a renter. First, you share walls, and bed bugs travel through wall voids, outlet boxes, plumbing runs, and baseboard gaps &mdash; so even a perfectly cleared unit can be re-seeded by an untreated neighbour. Second, you cannot do the single most reliable eradication method, whole-room heat treatment, because it needs commercial equipment and access you do not have. Third, and most importantly, in most Canadian provinces the professional extermination is not your bill to pay &mdash; it is your landlord&rsquo;s legal responsibility. Renters also tend to blame the wrong vector: for Toronto tenants who commute, <Link href="/blog/bed-bugs-on-the-ttc-toronto" className="text-brand-700 underline">how much risk transit really carries</Link> is worth reading before replacing a mattress that did not need replacing.</p>
+          <Photo
+            id="bed-bug-on-skin-macro"
+            alt="Adult bed bug on human skin, seen close up from above: flat, oval and reddish-brown"
+            caption="An adult bed bug on human skin, seen from above (Minsk, Belarus; research grade on iNaturalist). In an apartment, bugs like this travel between units through wall voids, outlet boxes, plumbing runs and baseboard gaps."
+          />
           <p>That reality shapes the whole plan. Your job as a tenant is not to eradicate the building &mdash; it is to <strong>contain your unit, monitor honestly, and force the process forward</strong> with the landlord. The products below do exactly that: they stop the bites tonight, tell you whether the problem is shrinking or being refilled from next door, and prepare your unit so any professional treatment actually lands. For the general (non-apartment) walkthrough, see our <Link href="/blog/how-to-get-rid-of-bed-bugs-canada">full guide to getting rid of bed bugs in Canada</Link>; if you own your place and want the room-by-room DIY protocol, our <Link href="/blog/how-to-get-rid-of-bed-bugs-yourself-diy-canada">DIY bed-bug guide</Link> goes deeper on self-treatment.</p>
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four kit layers:</p>
@@ -271,6 +279,11 @@ export default function GetRidOfBedBugsApartmentCanadaPage() {
 
           <h2>Step 5 — Cut the Traffic Between Units</h2>
           <p>In a house you fight one population; in an apartment you fight one population <em>plus</em> a steady trickle of reinforcements from adjoining units. You cannot legally treat next door, but you can make your unit a harder place to enter and leave. Seal the obvious highways: dust and, where appropriate, caulk the gaps around outlet and switch boxes, around pipe and radiator penetrations, along loose baseboards, and under the door. Be cautious around shared laundry &mdash; transport clothes in sealed bags, wash hot, dry hot, and fold at home, not on a shared table. And never bring secondhand furniture in from a curb or a building common area during an infestation; that is how a cleared unit gets re-seeded overnight.</p>
+          <Photo
+            id="bed-bug-mattress-curb-nysipm"
+            alt="A stained mattress standing on end at the curb beside discarded upholstered furniture on a residential street"
+            caption="A discarded mattress from a large bed bug infestation, its edge streaked with thick black fecal stains, left at the curb beside other old furniture (New York State IPM Program at Cornell University photograph). Never bring curbside furniture into your unit during an infestation."
+          />
           <p>This is also the argument for pushing your landlord to treat neighbouring units, not just yours. A treatment that clears your apartment while the unit next door stays infested is a treatment with a countdown timer on it. The written report and the tenant-board escalation route from Step 1 exist precisely to get the <em>building</em> treated, which is the only thing that permanently stops the reintroduction pressure.</p>
           <p>If you are the landlord or property manager, our <Link href="/blog/bed-bug-equipment-kit-for-landlords-canada">bed bug equipment kit for landlords</Link> covers what scales per unit, what to buy once for the whole building and the multi-unit mistakes to avoid.</p>
 
@@ -288,10 +301,20 @@ export default function GetRidOfBedBugsApartmentCanadaPage() {
 
           <h2>Preparing for the Exterminator (and What Not to Do)</h2>
           <p>When the landlord&rsquo;s professional treatment is booked, how well you prep your unit largely decides whether it works. Follow the technician&rsquo;s prep sheet exactly, but the essentials are consistent: launder all bedding, clothing, and soft items hot and dry on high, then keep them sealed in bags until after treatment; <strong>declutter aggressively</strong>, because clutter is the number-one obstacle to a successful treatment and every hiding spot you remove is one the technician does not have to chase; pull furniture slightly off the walls; vacuum thoroughly with a sealed-HEPA machine and bin the bag outside immediately; and leave your encasements on.</p>
+          <Photo
+            id="bed-bug-heat-treatment-unit-pearl-harbor"
+            alt="Pest management technician crouching beside a tall stainless-steel heater on wheels, plugging red power cords into its control panel"
+            caption="A pest management technician connecting the power cords on one of three heating units for a bed bug heat treatment system at Joint Base Pearl Harbor-Hickam, Hawaii (U.S. Navy photograph). Whole-room heat treatment needs commercial equipment like this, which a renter does not have."
+          />
           <p>Two things <em>not</em> to do. Do not blast the unit with your own chemical spray right before the professional arrives &mdash; it can scatter bugs into new hiding spots and interfere with the method they planned. And do not throw out furniture or your mattress on your own initiative; ask the technician first, because sealing usually beats discarding and a piece dragged through the hallways can seed the whole building. When in doubt, ask what they want moved and what they want left exactly where it is. If you are weighing what professional treatment costs in Canada &mdash; useful context even when the landlord is paying &mdash; our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> breaks it down.</p>
 
           <h2>Don&rsquo;t Stop Too Early — Read the Interceptors</h2>
           <p>The most common reason an apartment infestation comes back is that the tenant declares victory the moment the bites ease. Bed-bug eggs keep hatching for a couple of weeks after the adults are gone, which is why even a good professional treatment usually schedules a follow-up two to three weeks later, and why the reintroduction risk from neighbours can stretch the timeline into a couple of months. Your interceptor traps are the scoreboard that keeps you honest: leave them under every leg, check them weekly, and only consider the problem beaten after several consecutive weeks of <em>zero</em> new activity past the last treatment. Until that streak is real, keep the encasements on, keep the dust in place, and keep the pressure on the building.</p>
+          <Photo
+            id="bed-bugs-mating-eggs-fabric-fold"
+            alt="Two reddish-brown bed bugs in a fold of dark fabric, with a small cluster of white eggs just above them"
+            caption="Two bed bugs mating in a fold of dark fabric, with their eggs just above them (the photographer's description). Eggs keep hatching after the adults are gone, which is why a follow-up treatment is usually scheduled two to three weeks later."
+          />
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">

@@ -40,6 +40,8 @@
 
 - `/blog/roach-droppings-vs-mouse-droppings` — **roach droppings vs mouse droppings** (also: mouse droppings vs cockroach droppings; cockroach poop vs mouse poop; what do roach droppings look like; mouse droppings or roach droppings). Side by side, with real photos: size (roach specks and smears vs rice-grain mouse pellets), shape and ends, where each turns up (hinges and corners vs along walls and in drawers), smell, how many, what else to look for (shed skins and egg cases vs gnaw marks and nests), why it matters (hantavirus cleanup rules for mouse droppings; allergens for roach droppings), and safe cleanup for each (CDC: wet, do not sweep or vacuum mouse droppings).
 
+- `/blog/cockroach-nest` — **what does a roach nest look like** (also: cockroach nest; roach nest in wall; roach nest behind fridge; cockroach nest pictures; where do cockroaches nest). Cockroaches do not build nests: they gather in harbourages. What a roach 'nest' looks like (clusters of roaches of all sizes, droppings like pepper or coffee grounds, smear marks, shed skins, egg cases, a musty smell), where each species hides (German: kitchens and bathrooms, behind fridges, under sinks, in cabinet hinges and appliances; American and Oriental: basements, drains, crawl spaces), how to find one with a flashlight, what it tells you about the size of the problem, and what to do. Sources: university extension (UC IPM, Purdue, Texas A&M, NC State), EPA. Real photos only.
+
 ## Pillars (hub pages)
 
 - `/learn/bed-bugs` — the complete bed bugs reference
@@ -512,6 +514,14 @@
 - `/blog/moth-eggs` — moth eggs
 - `/blog/snake-identification` — snake identification
 - `/blog/bugs-that-look-like-mosquitoes` — bugs that look like mosquitoes
+- `/blog/chigger-bites-vs-flea-bites` — chigger bites vs flea bites
+- `/blog/insect-eggs` — insect eggs identification
+- `/blog/raccoon-tracks` — raccoon tracks
+- `/blog/fox-poop` — fox poop
+- `/blog/skunk-poop` — skunk poop
+- `/blog/baby-spiders` — baby spiders
+- `/blog/types-of-spider-webs` — types of spider webs
+- `/blog/signs-of-silverfish` — signs of silverfish
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

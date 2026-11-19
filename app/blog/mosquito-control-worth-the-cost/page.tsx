@@ -7,6 +7,8 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -28,6 +30,7 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,
+  image: shareImage('culex-quinquefasciatus-female-blood-meal'),
 })
 
 const FAQS = [
@@ -63,7 +66,7 @@ const AMZ_TAG = tagForSlug('mosquito-control-worth-the-cost')
 export default function MosquitoControlWorthCostPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: POST.title, description: POST.excerpt, slug: POST.slug, datePublished: POST.date })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: POST.title, description: POST.excerpt, slug: POST.slug, datePublished: POST.date, image: shareImage('culex-quinquefasciatus-female-blood-meal') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Is Mosquito Control Worth the Cost', url: `/blog/${POST.slug}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${POST.slug}`)) }} />
@@ -120,6 +123,11 @@ export default function MosquitoControlWorthCostPage() {
 
         <h3>1. Reclaimed Outdoor Living Space</h3>
         <p>This is the biggest return on investment for most families, and it is often undervalued until you experience the difference. GTA homeowners spend hundreds of thousands of dollars on their homes and backyards — patios, decks, pools, landscaping, outdoor kitchens — yet many retreat indoors from June through August because mosquitoes make their outdoor space unusable after 5 PM.</p>
+        <Photo
+          id="culex-quinquefasciatus-female-blood-meal"
+          alt="Female mosquito with a swollen red abdomen feeding on a person's skin, seen from the side"
+          caption="A female southern house mosquito (Culex quinquefasciatus) taking a blood meal, her red abdomen showing she is feeding (CDC photograph). Bites like this are why many families retreat indoors on summer evenings."
+        />
         <p>Professional barrier spray is aimed at making that outdoor space usable again through the season. Evening dinners on the patio, kids playing until dusk, backyard parties without everyone retreating inside — this is what the investment actually buys.</p>
         <p>Consider the math: if a treated backyard provides even 2-3 additional hours of comfortable outdoor use per week over a 20-week season, that is 40-60 hours of reclaimed outdoor time. At $500-$900 for the season, you are paying roughly $10-$22 per hour of usable outdoor time — less than a movie ticket.</p>
 
@@ -131,6 +139,11 @@ export default function MosquitoControlWorthCostPage() {
           <li>Adults over 60 and immunocompromised individuals face the highest risk of severe outcomes</li>
           <li>There is no vaccine and no specific treatment for West Nile Virus</li>
         </ul>
+        <Photo
+          id="culex-pipiens-wall-kingston-ontario"
+          alt="Brown northern house mosquito with a banded abdomen standing on a white surface, side view"
+          caption="A northern house mosquito (Culex pipiens) photographed in Kingston, Ontario (research grade on iNaturalist). West Nile virus has been detected in GTA mosquito populations every year since 2001."
+        />
         <p>Professional mosquito control does not eliminate mosquitoes — adults disperse onto a property from off-site sources up to 3 km away, which is why the treatment is repeated rather than one-and-done. What it does is hold a residual on the resting surfaces adults use on your own lot, so fewer of them are around the space your family actually uses. It is a comfort measure, not a medical one: Public Health Ontario&rsquo;s West Nile advice on repellent, clothing, and standing water applies whether or not your yard is treated.</p>
         <p>See: <Link href="/blog/west-nile-virus-ontario-2026" className="text-brand-700 hover:underline">West Nile Virus Risk Ontario 2026</Link></p>
 
@@ -143,6 +156,11 @@ export default function MosquitoControlWorthCostPage() {
           <li>Sleep disruption from nighttime biting (bedroom-invading Culex mosquitoes)</li>
         </ul>
         <p>For families with children who are sensitive to mosquito bites, the reduction in scratching, welts, and discomfort alone can justify the cost.</p>
+        <Photo
+          id="skeeter-syndrome-leg"
+          alt="Large, red, swollen patch of skin on a lower leg from mosquito bites"
+          caption="A large local reaction to mosquito bites on a leg, which the photographer describes as skeeter syndrome. Large welts like this are particularly common in children."
+        />
 
         <h3>4. Event and Entertaining Value</h3>
         <p>GTA summers are short and precious. If you host even one or two outdoor gatherings per summer — a birthday party, Canada Day barbecue, neighbourhood get-together, or backyard wedding — the value of mosquito control for those events alone approaches the cost of a full-season program. One-time event sprays are available (typically $150-$250), but a seasonal program keeps treatments on schedule through every weekend of the season, not just the big events.</p>
@@ -203,6 +221,12 @@ export default function MosquitoControlWorthCostPage() {
           search="summit mosquito dunks"
           pros={['Targets larvae before they hatch', 'Acts on mosquito larvae, per the label', 'Works on water you cannot drain']}
           cons={['Not a standalone solution for biting adults', 'Needs reapplication through the season']}
+        />
+
+        <Photo
+          id="mosquito-larvae-pupae-bottle-cap"
+          alt="Mosquito larvae and pupae floating in the water held by an upturned plastic bottle cap"
+          caption="Mosquito larvae and pupae (yellow fever mosquito, Aedes aegypti) in the water held by a plastic bottle cap (CDC photograph). No amount of spray can overcome a breeding source like this in your own yard."
         />
 
         <h2>BuzzSkito Pricing</h2>

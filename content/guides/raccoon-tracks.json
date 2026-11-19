@@ -1,0 +1,238 @@
+{
+  "slug": "raccoon-tracks",
+  "kind": "spoke",
+  "cluster": "wildlife",
+  "keyword": "raccoon tracks",
+  "alsoTargets": [
+    "raccoon tracks in mud",
+    "raccoon tracks in snow",
+    "raccoon tracks vs opossum tracks",
+    "raccoon footprints",
+    "raccoon tracks vs cat tracks",
+    "raccoon tracks in sand",
+    "raccoon tracks vs skunk tracks",
+    "raccoon paw prints"
+  ],
+  "metaTitle": "Raccoon Tracks: How to Identify Them (Photos)",
+  "metaDescription": "Raccoon tracks look like small hands: five long toes in side-by-side pairs. Real photos in mud, snow and sand, plus opossum, skunk and cat look-alikes.",
+  "h1": "Raccoon Tracks: What They Look Like in Mud, Snow and Sand",
+  "dek": "Five long, finger-like toes on every foot, a hind print like a tiny human foot, and a trail of side-by-side pairs. Real photos in mud, sand, snow and on a car hood, and how to rule out an opossum, skunk or cat.",
+  "breadcrumb": "Raccoon Tracks",
+  "excerpt": "What raccoon tracks look like in mud, snow and sand, how big they are and the pattern they make, with real photos and how to tell them from opossum, skunk, cat and dog tracks.",
+  "datePublished": "2026-11-19",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Raccoon tracks look like small human hands: five long, separate toes on every foot, often with claw marks at the tips, and a walking trail of side-by-side pairs, each hind print next to the opposite front print.** The front print is about as wide as it is long; the hind print is longer, with a heel like a tiny human foot.",
+    "bullets": [
+      "The [Missouri Department of Conservation's raccoon guide](https://mdc.mo.gov/discover-nature/field-guide/raccoon) gives front tracks of 2 1/2 to 3 inches and hind tracks of 3 3/4 to 4 inches; [University of Missouri Extension](https://extension.missouri.edu/publications/g9453) gives hind prints of 3 1/4 to 4 1/2 inches.",
+      "MDC puts a walking raccoon's strides about 12 inches apart, and MU Extension gives 14 inches as the average distance between its prints.",
+      "An opossum's hind print has a thumb set at a right angle to the other toes, with no claw mark ([MDC's opossum guide](https://mdc.mo.gov/discover-nature/field-guide/virginia-opossum)).",
+      "Skunk prints are smaller, the hind print 1 1/4 to 2 inches by MU Extension's figures and 2 3/4 inches by MDC's, with long front claws printed well ahead of the toes ([Maryland DNR's track key](https://dnr.maryland.gov/wildlife/Documents/Key-Common-Mammal-Tracks.pdf)).",
+      "House cats, dogs, coyotes and foxes leave four toes, not five ([NY DEC's Winter Tracks guide](https://extapps.dec.ny.gov/docs/administration_pdf/tracks1.pdf)).",
+      "Look in mud along streams and ponds and on deck railings; climbing raccoons leave smudges on downspouts and siding ([Washington Department of Fish and Wildlife](https://wdfw.wa.gov/sites/default/files/publications/00630/wdfw00630.pdf))."
+    ]
+  },
+  "facts": {
+    "title": "Raccoon tracks: quick ID",
+    "head": ["Clue", "Raccoon", "How a look-alike differs"],
+    "rows": [
+      ["Toes", "5 on every foot, long and separate, all pointing forward", "Cats, dogs, coyotes and foxes show 4"],
+      ["Front print", "2 1/2 to 3 inches long, about as wide as long; a small hand", "Opossum: about 2 inches, toes spread like a star"],
+      ["Hind print", "3 1/4 to 4 1/2 inches long, much longer than wide", "Skunk: hind print 1 1/4 to 2 3/4 inches long"],
+      ["Hind print shape", "Like a small human footprint with long toes; the heel shows in soft mud or sand", "Opossum: handlike, the thumb jutting out at a right angle"],
+      ["Toes up close", "Slender, with bulbous tips and no webbing", "River otter: webbed hind print over 2 1/2 inches wide"],
+      ["Claws", "Often print as small marks at the toe tips", "Cat: no claw marks. Skunk: long front claws printed well ahead of the toes"],
+      ["Walking pattern", "Pairs: each hind print beside the opposite front print", "Opossum: each hind foot comes up beside the front foot on the same side"],
+      ["Spacing at a walk", "About 12 inches between strides", "Opossum: about 7 inches between strides"],
+      ["Winter", "Dens up during snowfall or below 20°F; out again near freezing", "Opossum stays active in winter"],
+      ["Around a house", "Deck railings, trash cans, pond edges; smudges on downspouts", "Cat: a line of small, round single prints"]
+    ],
+    "caption": "Sizes from the Missouri Department of Conservation and University of Missouri Extension; other details from Maryland DNR, NY DEC, Mississippi State, University of Michigan BioKIDS, ICWDM, UW-Madison Extension and WDFW, each linked below."
+  },
+  "body": [
+    { "type": "h2", "text": "What do raccoon tracks look like?" },
+    { "type": "p", "text": "Raccoon tracks look like the prints of small, bare human hands and feet: five long, separate toes on every foot, often with a small claw mark at the tip of each toe. The [Missouri Department of Conservation's raccoon guide](https://mdc.mo.gov/discover-nature/field-guide/raccoon) describes them as small bare hands, and the [New York State Department of Environmental Conservation's Winter Tracks guide](https://extapps.dec.ny.gov/docs/administration_pdf/tracks1.pdf) compares a raccoon's track to a human baby's hand." },
+    { "type": "figure", "src": "/guides/photos/raccoon-tracks-wet-sand-pair.webp", "width": 1200, "height": 900, "alt": "Two raccoon prints in wet beach sand: a longer print shaped like a tiny human foot beside a shorter, hand-shaped print with five spread toes", "caption": "A pair of raccoon tracks in wet beach sand at Cape May Court House, New Jersey; the observer and tracker Kim Cabrera agree on raccoon on iNaturalist. The longer print, left, has the outline of a tiny human foot, as a hind print does, though its heel is faint; the shorter one, right, looks like a small hand, as a front print does.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/194244581" },
+    { "type": "p", "text": "The front and hind prints differ, and seeing both together is a good check. MDC gives the front track as 2 1/2 to 3 inches long and about as wide as it is long, and the hind track as 3 3/4 to 4 inches long, shaped like a small human footprint apart from its long toes. Raccoons walk flat-footed, heels touching the ground like people and bears, MDC says, and [Mississippi State University Extension](https://extension.msstate.edu/blogs/extension-for-real-life/how-identify-raccoon-and-opossum-tracks) notes that they point all their toes forward." },
+    { "type": "p", "text": "Up close, the toes are slender with bulbous ends and no webbing, the feature [Maryland DNR's key to mammal tracks](https://dnr.maryland.gov/wildlife/Documents/Key-Common-Mammal-Tracks.pdf) uses to single out a raccoon among five-toed animals. Don't expect a full heel on every hind print, though: the [Internet Center for Wildlife Damage Management's raccoon page](https://icwdm.org/species/carnivores/raccoons/) says the heel of the hind foot seldom shows except in soft mud or sand." },
+
+    { "type": "h2", "text": "How big are raccoon tracks?" },
+    { "type": "p", "text": "In most guides a raccoon's front print is about 2 to 3 inches long and its hind print about 3 to 4 1/2 inches, and in every guide the hind print is the longer of the two. The exact figures depend on the guide, as the table shows: compare the [MDC mammal tracks chart](https://mdc.mo.gov/wildlife/wildlife-facts/mammal-facts/mammal-tracks), [WDFW's Living with Wildlife: Raccoons](https://wdfw.wa.gov/sites/default/files/publications/00630/wdfw00630.pdf), the [University of Michigan's BioKIDS track key](https://biokids.umich.edu/guides/tracks_and_sign/tracks_key/tracks_mammal/tracks_m_set5/) and [North Dakota Game and Fish's raccoon page](https://gf.nd.gov/wildlife/id/carnivores/raccoon). [New Mexico State University Extension](https://pubs.nmsu.edu/_circulars/CR561/) explains part of the spread: track size varies with an animal's age, sex and the individual." },
+    { "type": "table", "head": ["Guide", "Front print", "Hind print"], "rows": [
+      ["Missouri Department of Conservation", "2 1/2 to 3 inches long", "3 3/4 to 4 inches long"],
+      ["University of Missouri Extension", "About 3 inches long, about as wide", "3 1/4 to 4 1/2 inches long"],
+      ["Washington Dept. of Fish and Wildlife", "2 to 3 inches long", "3 to 4 inches long"],
+      ["New Mexico State University Extension", "About 2 1/4 inches long", "About 3 1/8 inches long"],
+      ["University of Michigan BioKIDS", "1 to 2 1/2 inches long and wide", "Up to 4 inches long"],
+      ["North Dakota Game and Fish", "1 1/2 inches long, 2 inches wide", "3 inches long, 1 1/2 inches wide"]
+    ], "caption": "Figures as each guide gives them; all six put the hind print longer than the front." },
+    { "type": "figure", "src": "/guides/photos/raccoon-track-deck-tape-measure.webp", "width": 1200, "height": 900, "alt": "Pale, hand-shaped raccoon print with five long toes on the dark boards of a wooden walkway, a yellow tape measure marked in inches above it", "caption": "A raccoon print in pale dried mud on the dark boards of a wooden walkway in Miami-Dade County, Florida; the observer and one other iNaturalist user agree on raccoon. Read its size against the tape measure, which is marked in inches.", "license": "CC-BY-4.0", "credit": "(c) David Garza, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/286026756" },
+
+    { "type": "h2", "text": "What pattern do raccoon tracks make?" },
+    { "type": "p", "text": "A walking raccoon leaves its tracks in pairs: each hind foot lands beside the front foot on the opposite side of the body, so the trail is a string of side-by-side prints. MDC describes the left front track beside the right hind and the right front beside the left hind, and puts the distance between strides at about 12 inches, varying with the raccoon's size and speed; MU Extension gives 14 inches as the average distance between prints of a walking raccoon." },
+    { "type": "figure", "src": "/guides/photos/raccoon-trail-snow-driveway.webp", "width": 1200, "height": 1600, "alt": "A raccoon trail of side-by-side print pairs in fresh snow running down a driveway toward the camera", "caption": "A raccoon trail coming down a snowy driveway in Thetford Center, Vermont, from the woods above the observer's house, identified on iNaturalist by tracker Kim Cabrera and two others. Each mark is a pair: a hind print beside the opposite front print.", "license": "CC-BY-4.0", "credit": "(c) Tom Norton, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/107670369" },
+    { "type": "p", "text": "The pairs come from the way a raccoon moves. The [University of Wisconsin-Madison Extension's raccoon guide](https://hort.extension.wisc.edu/files/2023/12/G3997-005-Raccoon-Ecology-and-Damage-Management-Scott-Craven-and-David-Drake.pdf) says flat feet, short legs and a robust body give the raccoon a shuffling gait. Maryland DNR groups raccoons with opossums, skunks and other wide-bodied pacers that shuffle along and switch to bounding as they speed up; in a bound, NY DEC explains, the hind feet often land in front of and beside the front feet. MDC adds that raccoons often walk in a meandering line, overturning leaf litter as they hunt for worms." },
+
+    { "type": "h2", "text": "What do raccoon tracks look like in mud?" },
+    { "type": "p", "text": "Mud holds some of the sharpest raccoon tracks, and the soft edge of a stream, pond or lake is the classic place to find them. MDC says raccoon tracks are especially common in mud along streams, ponds and other shorelines, and WDFW notes that raccoons are particularly fond of food found in water, such as clams, crayfish, frogs, fish and snails, and use trails beside creeks and ponds." },
+    { "type": "figure", "src": "/guides/photos/raccoon-tracks-mud-car-key.webp", "width": 1200, "height": 900, "alt": "Raccoon front and hind prints pressed into pale gray mud beside a black car key fob, the toes long and finger-like", "caption": "Raccoon tracks in pale mud beside a car key fob in Monroe County, Florida, identified to species on iNaturalist by three people. Soft mud records the long, finger-like toes.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/71250559" },
+    { "type": "p", "text": "In soft mud you can see everything at once: five finger-like toes, claw marks and the hind heel that ICWDM says rarely shows on firmer ground. WDFW suggests checking the sand, mud or soft soil at both ends of a culvert, since raccoons use culverts to cross safely under roads. NMSU Extension cautions that a track in mud may look different from one in dust or snow, even when the same animal made them, so compare a muddy print with muddy examples." },
+
+    { "type": "h2", "text": "What do raccoon tracks look like in snow?" },
+    { "type": "p", "text": "In snow, raccoon tracks keep their side-by-side pairs, as the driveway trail above shows, but in dry, powdery snow, which NY DEC says records a less-defined print than wet snow, the toes may blur into rounded hand shapes. How well snow holds a print depends on the snow itself, which [the guide to animal tracks in snow](/blog/animal-tracks-in-snow) explains along with the deer, rabbit, squirrel and coyote prints you may find beside a raccoon's." },
+    { "type": "p", "text": "Timing matters as much as the print. The UW-Madison Extension guide says a snowfall or temperatures below 20°F (about -7°C) send raccoons into winter dens until warmer weather returns, and that they venture out to feed as temperatures approach freezing; their winter dormancy is not true hibernation. So look for fresh raccoon trails once the temperature climbs back toward freezing. Opossums stay active in winter, MDC says, while raccoons are dormant or inactive, so check any five-toed winter trail for an opossum's thumb." },
+
+    { "type": "h2", "text": "What do raccoon tracks look like in sand?" },
+    { "type": "p", "text": "Wet sand can hold a raccoon print as crisply as mud, as the pair at the top of this page shows. Maryland DNR counts sand with mud and soft soil among the best surfaces for tracks, and the [National Park Service's Everglades sea turtle page](https://www.nps.gov/ever/learn/nature/seaturtles.htm), on reading a predator's tracks at a dug-up turtle nest, notes that the ground must be neither too hard nor too soft." },
+    { "type": "p", "text": "On the coast, WDFW says raccoons forage on shellfish at low tide, even by day, so sand and mud bared at low tide are worth checking. Where sea turtles nest, raccoons are common predators of their eggs: the NPS page explains that a raccoon or fox will dig up a nest and eat the eggs, leaving the shells scattered around the edge of the hole, sometimes with the culprit's own tracks nearby." },
+
+    { "type": "h2", "text": "Where do you find raccoon tracks around a house?" },
+    { "type": "p", "text": "Around a house, raccoon tracks show up wherever there is food, water or a way to climb. WDFW lists sand, mud and soft soil, deck railings, fire escapes and other surfaces raccoons use to get into buildings, and says that in developed areas raccoons travel along fences, next to buildings and near food." },
+    { "type": "figure", "src": "/guides/photos/raccoon-tracks-car-hood.webp", "width": 1200, "height": 900, "alt": "Dusty raccoon paw prints in pairs crossing the hood of a green car just below the windshield wipers", "caption": "Dusty raccoon prints across a car hood at Point Reyes National Seashore, California. The owner asked iNaturalist what had walked there, and four people including tracker Kim Cabrera identified a raccoon; the hand shape and the pairs give it away.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/26870427" },
+    { "type": "ul", "items": [
+      "**Car hoods, decks and steps.** A raccoon crossing a dusty or wet surface leaves prints like the ones above; the hand shape and the pairs are the clues.",
+      "**Downspouts, siding and corners.** [Nebraska Extension's raccoon and opossum damage guide](https://extensionpubs.unl.edu/publication/g1688/na/html/view) calls brown smudge marks and fine scratches on a vertical surface key signs of raccoon use, and ICWDM says tracks often turn to smudges where raccoons climb downspouts.",
+      "**Garbage cans and pet food.** MU Extension lists tipped-over trash cans and scattered trash among the signs of raccoon activity, and WDFW says raccoons living near people often eat garbage and pet food.",
+      "**Ponds and water gardens.** WDFW says raccoons are drawn to ponds because they associate them with food, so check the muddy edges and any pond plants that have been disturbed.",
+      "**Den openings.** WDFW says a den entrance is usually at least 4 inches high and 6 inches wide, with wear marks, body oil and hairs around its edges."
+    ] },
+
+    { "type": "h2", "text": "How do you tell raccoon tracks from opossum tracks?" },
+    { "type": "p", "text": "Check the hind print for a thumb. The [Missouri Department of Conservation's opossum guide](https://mdc.mo.gov/discover-nature/field-guide/virginia-opossum) says an opossum's hind foot is handlike, its thumb jutting out at a right angle without leaving a claw print; a raccoon's toes all point forward. MDC describes the opossum's front print as star-shaped, about 2 inches long with five fairly evenly spread toes, and notes that the two species' tracks are often confused." },
+    { "type": "figure", "src": "/guides/photos/opossum-tracks-mud-ruler.webp", "width": 1200, "height": 900, "alt": "Opossum tracks in gray mud: a print with five long, widely spread toes above a wooden ruler marked in inches", "caption": "Virginia opossum tracks in mud beside a ruler marked in inches, in Santa Clara County, California; tracker Kim Cabrera, the observer and one other iNaturalist user agree on the species. The toes spread wide instead of pointing forward like a raccoon's.", "license": "CC-BY-4.0", "credit": "(c) Garth Harwood, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/336641896" },
+    { "type": "p", "text": "When the thumb does not show, a few more checks help. BioKIDS says an opossum's front foot is wider than it is long and that each hind foot comes up beside the front foot on the same side, while a raccoon, by MDC's description, pairs each hind foot with the opposite front foot. MDC says an opossum's tail often leaves its own undulating mark, most often seen in snow, and gives about 7 inches between an opossum's strides against about 12 for a raccoon. Maryland DNR's key opens its five-toed group with the same test: a hind print whose inner toe sticks out sideways belongs to an opossum. For the animal itself, see [possum vs opossum](/blog/possum-vs-opossum); for its droppings, [the possum poop guide](/blog/possum-poop)." },
+
+    { "type": "h2", "text": "How do you tell raccoon tracks from skunk, cat and dog tracks?" },
+    { "type": "p", "text": "Count the toes first. NY DEC says cats and the dog family, which includes coyotes and foxes, show four toes on both front and hind feet, while raccoons, opossums and skunks show five. Size and claws settle the rest." },
+    { "type": "h3", "text": "Skunk tracks" },
+    { "type": "p", "text": "Skunk tracks are smaller five-toed prints with long claws out front. MU Extension gives a skunk's hind print as 1 1/4 to 2 inches long and the front as 1 to 1 3/4 inches (MDC's track chart gives a striped skunk's hind and front tracks as 2 3/4 and 1 3/4 inches), Maryland DNR says the nails on the front track are long and well ahead of the toes, and BioKIDS warns that a skunk print may show only four toes because the fifth is much smaller. [The skunk smell guide](/blog/skunk-smell-in-house) helps if one has moved in under the house." },
+    { "type": "figure", "src": "/guides/photos/striped-skunk-track-mud-dime.webp", "width": 1200, "height": 1600, "alt": "Small striped skunk track in wet mud with claw marks in front of the toes and a US dime lying beside it for scale", "caption": "Striped skunk tracks in mud beside a dime at El Chorro Regional Park, San Luis Obispo, California, identified on iNaturalist by four people including tracker Kim Cabrera. Note the claw marks set well ahead of the toes.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/191905962" },
+    { "type": "h3", "text": "Cat tracks" },
+    { "type": "p", "text": "A house cat's print is round and much smaller, with four toes and no claw marks. Cats keep their claws pulled in as they walk, NY DEC says, and the heel pad has three lobes along its bottom edge; Maryland DNR's key caps a house cat's front print at about 1 1/2 inches long by 1 3/8 inches wide. A cat also places each hind foot in the front print, so its trail is a line of single prints rather than pairs." },
+    { "type": "figure", "src": "/guides/photos/house-cat-track-mud.webp", "width": 1200, "height": 1600, "alt": "House cat paw print in soft gray mud showing four round toe pads, a broad heel pad and no claw marks", "caption": "A house cat's print in mud at Capon Bridge, West Virginia; the observer, tracker Kim Cabrera and three other iNaturalist users agree on house cat. Four round toes and no claw marks look nothing like a raccoon's five fingers.", "license": "CC-BY-4.0", "credit": "(c) Matthew Gerke, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/111203925" },
+    { "type": "h3", "text": "Dog, coyote and fox tracks" },
+    { "type": "p", "text": "Dog-family prints can be as large as a raccoon's: [New Hampshire Fish and Game's pocket track guide](https://wpcdn.web.wsu.edu/wp-extension/uploads/sites/2093/2020/06/track_card.pdf) gives dog prints as 2 1/4 to 4 inches. But NY DEC says they show four toes, one lobe on the heel pad and usually claw marks. [The guide to tracks in snow](/blog/animal-tracks-in-snow) tells dog, coyote and fox prints apart." },
+    { "type": "h3", "text": "Squirrel tracks" },
+    { "type": "p", "text": "Squirrels have four toes on the front feet and five on the hind, and their tracks come in groups of four rather than pairs. In Maryland DNR's key, a gray squirrel's hind print is under 2 inches long and almost twice as long as it is wide, and NY DEC says squirrels move in jumps, the hind feet often landing in front of and beside the front feet." },
+    { "type": "checklist", "title": "Five toes on every foot? Maryland DNR's key, in order", "items": [
+      "**Inner toe of the hind print sticks out sideways:** opossum.",
+      "**Front print over 4 inches long:** black bear.",
+      "**Hind print over 4 1/2 inches long and webbed:** beaver.",
+      "**Toes slender, with bulbous tips and no webbing:** raccoon.",
+      "**Hind print over 2 1/2 inches wide, with webbing:** river otter.",
+      "**Front claws long and printed well ahead of the toes:** striped skunk.",
+      "**Front and hind prints over 1 1/2 inches long:** mink; smaller still, a weasel."
+    ] },
+    { "type": "confused", "title": "Look-alike tracks and other raccoon signs", "items": [
+      { "href": "/blog/possum-vs-opossum", "name": "Opossum", "photo": "opossum-porch-pet-bowl", "note": "Hind print has a thumb sticking out sideways with no claw mark; the front print looks like a star", "alt": "Virginia opossum at night on a porch landing beside two metal pet food bowls" },
+      { "href": "/blog/skunk-smell-in-house", "name": "Skunk tracks", "photo": "striped-skunk-tracks-snow", "note": "Smaller prints, the hind 1 1/4 to 2 3/4 inches long, with long front claws printed well ahead of the toes", "alt": "Four small striped skunk prints in thin snow with claw marks in front of the toes" },
+      { "href": "/blog/animal-tracks-in-snow", "name": "House cat tracks", "photo": "house-cat-track-snow-ruler", "note": "Four round toes and no claw marks; the front print is about 1 1/2 inches long or less", "alt": "Single round house cat print in fresh snow beside a ruler marked in inches" },
+      { "href": "/blog/raccoon-poop", "name": "Raccoon latrine", "photo": "raccoon-latrine-deck", "note": "Droppings piled in one spot near the tracks mean a raccoon keeps coming back", "alt": "Raccoon latrine: a spread of old and fresh droppings on a backyard deck" },
+      { "href": "/blog/animals-in-attic", "name": "Raccoon on the roof", "photo": "raccoon-on-chimney", "note": "Smudged prints up a downspout plus thumps at night can mean a den in the attic or chimney", "alt": "A raccoon perched on a house chimney after dark" }
+    ] },
+
+    { "type": "h2", "text": "What do raccoon tracks near your house mean?" },
+    { "type": "p", "text": "Tracks show where a raccoon travels and feeds; the signs around them tell you whether it is passing through or settling in. WDFW says raccoons usually move to a different den or resting site every few days, and that only a female with young, or an animal holed up in a cold spell, uses one den for any length of time. Raccoons are mostly out at night, though WDFW says they are occasionally seen by day eating, napping in a tree or looking for food." },
+    { "type": "ul", "items": [
+      "**Droppings piled in one spot.** Raccoons defecate in the same place again and again, Nebraska Extension says, and ICWDM says these latrines tend to be open to the sky, on roofs, in sandboxes and on fallen trees. [The raccoon poop guide](/blog/raccoon-poop) shows what a latrine looks like and gives CDC's cleanup steps.",
+      "**Smudges on a downspout, torn shingles or noises at night.** MU Extension lists shingles or fascia boards torn up to reach an attic and chimneys plugged with nest material, and says raccoons in a chimney or attic may whine or growl; [the attic noises guide](/blog/animals-in-attic) helps confirm which animal is up there.",
+      "**Small prints beside large ones from early summer.** MDC says most raccoon litters arrive in April or early May, and WDFW says the young start going out with their mother at 8 to 10 weeks old, so a family's trail can mix small and large prints.",
+      "**Rolled-back sod or holes in the lawn.** The UW-Madison guide says raccoons may roll up newly laid sod to look for grubs and other insects, and Nebraska Extension says raccoons, and rarely opossums, damage lawns hunting worms and grubs. [The holes in the yard guide](/blog/holes-in-yard) tells the diggers apart."
+    ] },
+    { "type": "callout", "tone": "warning", "title": "A raccoon that seems sick, or a bite", "text": "WDFW says a raccoon that circles, staggers as if disoriented or seems unnaturally tame may be sick or injured, and to call a wildlife rehabilitator or your local wildlife office; the UW-Madison guide says to avoid any raccoon that is out by day, has lost its fear of people and seems uncoordinated, confused or listless. After any raccoon bite or scratch, WDFW says to scrub the wound with soap and water and contact a physician and your local health department right away." },
+
+    { "type": "h2", "text": "How can you tell if a raccoon is still under the deck or in the attic?" },
+    { "type": "p", "text": "Let the tracks answer before you close anything, because sealing in an animal, or cutting a mother off from her young, makes the problem worse. Nebraska Extension warns against any repair until you are certain nothing still uses the opening." },
+    { "type": "ol", "items": [
+      "Sprinkle a thin layer of flour across the opening late in the day; MU Extension says flour spread at a damage site reveals tracks from activity during the night.",
+      "Check it the next morning: fresh prints mean the opening is still in use.",
+      "Or stuff the entrance loosely with newspaper or rags. The UW-Madison guide says that if the plug stays undisturbed for two or more days, the entrance can probably be sealed permanently.",
+      "In late spring and early summer, assume young may be inside, as the UW-Madison guide warns. Nebraska Extension says young in a chimney are typically old enough to leave in 6 to 8 weeks, and WDFW says a chimney family leaves on its own after 8 to 10 weeks.",
+      "Close the opening only once it is empty; WDFW suggests hardware cloth with 1/4-inch mesh, boards or metal flashing."
+    ] },
+    { "type": "p", "text": "Once the space is empty, [raccoon-proofing under a deck](/blog/raccoon-and-skunk-proofing-under-a-deck-canada) walks through the barrier, and [raccoon-proof chimney caps](/blog/raccoon-proof-chimney-cap-canada) shows how the top of a chimney is closed." },
+
+    { "type": "h2", "text": "How do you make a plaster cast of a raccoon track?" },
+    { "type": "p", "text": "A plaster cast preserves a track you want to keep, and NMSU Extension's tracking circular gives the method:" },
+    { "type": "ol", "items": [
+      "Pick a print deep and clear enough to copy, and lift out loose sticks and debris.",
+      "Ring it with a strip of waxed cardboard about 2 1/2 inches wide, such as one cut from a milk carton, press it about 1/2 inch into the ground and fasten the ends with paper clips.",
+      "Mix plaster of Paris with water to the consistency of cream or pancake batter and pour it to about 1 inch below the top of the ring.",
+      "Wait 10 minutes or more for it to set hard, cut around it, lift it from well underneath, and let it harden a day or more before brushing off the soil."
+    ] },
+    { "type": "p", "text": "NMSU warns that dry, dusty ground and sand need extra care, and that even a cold plaster mix tends to melt the bottom of a track in snow, so it suggests stirring snow into the mix." },
+
+    { "type": "h2", "text": "What should you do once you know a raccoon made the tracks?" },
+    { "type": "p", "text": "Most raccoon tracks need nothing done. Act when they lead to garbage, pet food, a pond or an opening in the house, and check your state's rules with its wildlife agency before trapping, as WDFW and the UW-Madison guide both advise." },
+    { "type": "ul", "items": [
+      "**Garbage.** WDFW suggests securing lids with rope, chain, bungee cords or weights, staking the handles so cans cannot tip, and putting cans out on the morning of pickup.",
+      "**Pet food.** Feed pets indoors, WDFW says, or pick up bowls and spilled food well before dark.",
+      "**Ponds.** Give fish hiding places on the bottom, such as cinder blocks or drain tile, and cover small ponds at night, since raccoons are most active after dark, WDFW says.",
+      "**Roofs.** Trim tree limbs away from the house, WDFW says, and close den openings only after the checks above.",
+      "**Repellents and deterrents.** [The raccoon repellent guide](/blog/raccoon-repellent) and [the raccoon deterrent guide](/blog/raccoon-deterrent) compare what works and what does not.",
+      "**Never feed raccoons.** WDFW says raccoons fed by people can lose their fear of humans and become aggressive when the food stops."
+    ] },
+    { "type": "callout", "tone": "tip", "title": "Save the evidence", "text": "Before rain or a thaw erases it, photograph one front and one hind print from straight above with a ruler, a coin or a key in the frame, then step back and photograph the trail. Send them to your state's wildlife agency or a county extension office if you want the animal confirmed." }
+  ],
+  "faqs": [
+    {
+      "question": "What animal has tracks that look like a baby's hand?",
+      "answer": "A raccoon. NY DEC compares a raccoon's track to a human baby's hand, and the Missouri Department of Conservation says the tracks look like small bare hands, with five long toes on every foot. An opossum's tracks can look handlike too, but its hind foot has a thumb set at a right angle to the other toes, with no claw mark, while all of a raccoon's toes point forward."
+    },
+    {
+      "question": "How big is a raccoon footprint?",
+      "answer": "The Missouri Department of Conservation gives the front track as 2 1/2 to 3 inches long, about as wide as it is long, and the hind track as 3 3/4 to 4 inches long. University of Missouri Extension gives hind prints of 3 1/4 to 4 1/2 inches. Other guides give smaller figures, and NMSU Extension notes that track size varies with an animal's age, sex and the individual, so compare the shape as well as the size."
+    },
+    {
+      "question": "Do raccoon tracks show claws?",
+      "answer": "Usually. University of Missouri Extension says five toes and claws are visible on all feet, the Missouri Department of Conservation says the claws often leave marks, and UW-Madison Extension says each toe bears a short, curved claw. The claw marks are small dots at the tip of each long toe. A house cat's print, by contrast, shows no claw marks, because cats walk with their claws retracted."
+    },
+    {
+      "question": "How far apart are raccoon tracks?",
+      "answer": "At a walk, roughly a foot. The Missouri Department of Conservation puts the distance between strides at about 12 inches, varying with the raccoon's size and speed, and University of Missouri Extension gives 14 inches as the average distance between prints of a walking raccoon. The prints come in side-by-side pairs, each hind foot beside the opposite front foot. Maryland DNR notes that a raccoon switches from this shuffling walk to bounding as it speeds up."
+    },
+    {
+      "question": "How can you tell raccoon tracks from opossum tracks?",
+      "answer": "Look for a thumb on the hind print. The Missouri Department of Conservation says an opossum's hind thumb is angled out sideways, at a right angle to the other toes, with no claw print, and that its front print is star-shaped. All five of a raccoon's toes point forward. BioKIDS adds that an opossum pairs each hind foot with the front foot on the same side, and MDC says its tail often leaves a wavy line in snow."
+    },
+    {
+      "question": "What is the difference between raccoon and skunk tracks?",
+      "answer": "Size and claws. University of Missouri Extension gives a skunk's hind print as 1 1/4 to 2 inches long, against 3 1/4 to 4 1/2 inches for a raccoon; the Missouri Department of Conservation's figures, 2 3/4 inches against 3 3/4 to 4, point the same way. Maryland DNR says a striped skunk's front claws are long and print well ahead of the toes, and BioKIDS notes that a skunk track may show only four toes because the fifth is much smaller. Raccoon toes are long, slender and finger-like."
+    },
+    {
+      "question": "How do you tell raccoon tracks from cat tracks?",
+      "answer": "Count the toes. A house cat shows four round toes and no claw marks, NY DEC says, while a raccoon shows five long toes, usually with claw marks. Maryland DNR's key tops a house cat's front print out at about 1 1/2 inches long, much smaller than a raccoon's hind print. Cats also set each hind foot in the front print, leaving a single line of prints instead of pairs."
+    },
+    {
+      "question": "Do raccoons leave tracks in the winter?",
+      "answer": "Yes, but less often. UW-Madison Extension says a snowfall or temperatures below 20 degrees F send raccoons into winter dens until warmer weather returns, and that they come out to feed as temperatures approach freezing; they do not truly hibernate. The Missouri Department of Conservation says raccoons are dormant or inactive in winter while opossums stay active, so fresh raccoon trails are most likely once temperatures climb back toward freezing."
+    },
+    {
+      "question": "What do baby raccoon tracks look like?",
+      "answer": "Like an adult's, only smaller: the same five long toes and the same hand and foot shapes. NMSU Extension notes that track size varies with an animal's age. The Missouri Department of Conservation says most litters arrive in April or early May, and WDFW says the young begin going out with their mother at 8 to 10 weeks old, so from early summer a family's trail can mix small and large prints."
+    },
+    {
+      "question": "Why are there raccoon footprints on my car?",
+      "answer": "Because a raccoon walked across it. WDFW says raccoons in towns travel along fences, next to buildings and near food, that sharp claws and long toes make them good climbers, and that their tracks turn up on deck railings and other surfaces they use to get into buildings. Dusty or muddy prints with five long toes, in side-by-side pairs, point to a raccoon unless a hind print shows an opossum's sideways thumb; small round prints in a single line point to a cat."
+    }
+  ],
+  "sources": [
+    { "title": "Raccoon (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/raccoon" },
+    { "title": "Mammal Tracks", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/wildlife/wildlife-facts/mammal-facts/mammal-tracks" },
+    { "title": "Virginia Opossum (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/virginia-opossum" },
+    { "title": "Managing Raccoon Problems in Missouri (G9453, Robert A. Pierce and Ron McNeely, reviewed October 2022)", "publisher": "University of Missouri Extension", "url": "https://extension.missouri.edu/publications/g9453" },
+    { "title": "How to Identify Raccoon and Opossum Tracks (Michaela Parker)", "publisher": "Mississippi State University Extension Service", "url": "https://extension.msstate.edu/blogs/extension-for-real-life/how-identify-raccoon-and-opossum-tracks" },
+    { "title": "Guide to Common Mammal Tracks (October 2023)", "publisher": "Maryland Department of Natural Resources, Wildlife and Heritage Service", "url": "https://dnr.maryland.gov/wildlife/Documents/Key-Common-Mammal-Tracks.pdf" },
+    { "title": "Winter Tracks (reprinted from the New York State Conservationist, February 2015)", "publisher": "New York State Department of Environmental Conservation", "url": "https://extapps.dec.ny.gov/docs/administration_pdf/tracks1.pdf" },
+    { "title": "Identifying and Preserving Wildlife Tracks (Circular 561, revised May 2016)", "publisher": "New Mexico State University Cooperative Extension Service", "url": "https://pubs.nmsu.edu/_circulars/CR561/" },
+    { "title": "Tracks Key: Larger Tracks, 5 Toes in Front and 5 in Back (BioKIDS Field Guides)", "publisher": "University of Michigan Museum of Zoology, BioKIDS", "url": "https://biokids.umich.edu/guides/tracks_and_sign/tracks_key/tracks_mammal/tracks_m_set5/" },
+    { "title": "Raccoons", "publisher": "Internet Center for Wildlife Damage Management", "url": "https://icwdm.org/species/carnivores/raccoons/" },
+    { "title": "Living with Wildlife: Raccoons (Russell Link, 2004)", "publisher": "Washington Department of Fish and Wildlife", "url": "https://wdfw.wa.gov/sites/default/files/publications/00630/wdfw00630.pdf" },
+    { "title": "Raccoon Ecology and Damage Management (G3997-005, Scott Craven and David Drake, 2012)", "publisher": "University of Wisconsin-Extension", "url": "https://hort.extension.wisc.edu/files/2023/12/G3997-005-Raccoon-Ecology-and-Damage-Management-Scott-Craven-and-David-Drake.pdf" },
+    { "title": "Controlling Raccoon and Opossum Damage (NebGuide G1688, January 2007)", "publisher": "University of Nebraska-Lincoln Extension", "url": "https://extensionpubs.unl.edu/publication/g1688/na/html/view" },
+    { "title": "Sea Turtles (Everglades National Park)", "publisher": "National Park Service", "url": "https://www.nps.gov/ever/learn/nature/seaturtles.htm" },
+    { "title": "Pocket Guide to N.H. Animal Tracks", "publisher": "New Hampshire Fish and Game Department (copy hosted by Washington State University Extension)", "url": "https://wpcdn.web.wsu.edu/wp-extension/uploads/sites/2093/2020/06/track_card.pdf" },
+    { "title": "Raccoon", "publisher": "North Dakota Game and Fish Department", "url": "https://gf.nd.gov/wildlife/id/carnivores/raccoon" }
+  ],
+  "disclaimer": "health"
+}

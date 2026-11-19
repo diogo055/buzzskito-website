@@ -2,9 +2,16 @@
  "id": "how-to-get-rid-of-mice-humanely",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "b4ee88d480a038cb7514bab1a825dcbc67ac4243fef902ee8b78a45ba4f793c7",
+ "sha": "62d3b3e255d6323500570a6ff67ab9b22114336c6b409142b4417822922f4727",
  "claimsChecked": 62,
  "claimsCorrected": 4,
  "claimsRemovedOrSoftened": 5,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-11-19",
+   "note": "Nov 19, 2026: first real photos added (figure blocks only, ledger-recorded and licence-checked: public domain, CC0 or CC BY); no text or dates changed.",
+   "previousSha": "b4ee88d480a038cb7514bab1a825dcbc67ac4243fef902ee8b78a45ba4f793c7"
+  }
+ ]
 }

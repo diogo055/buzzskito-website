@@ -5,6 +5,8 @@ import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'is-deet-safe'
 const DATE = '2026-07-15'
@@ -68,12 +70,13 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  image: shareImage('insect-repellent-teen-spraying-forearm-cdc'),
 })
 
 export default function IsDeetSafePage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: 'Is DEET Safe? What It Is, Cancer Myths & Health Canada Limits (2026)', description: 'A hedged, authority-attributed safety explainer on DEET for Canadian readers — what it is, whether it is bad for you, cancer myths, Health Canada limits, pregnancy and pet safety.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: 'Is DEET Safe? What It Is, Cancer Myths & Health Canada Limits (2026)', description: 'A hedged, authority-attributed safety explainer on DEET for Canadian readers — what it is, whether it is bad for you, cancer myths, Health Canada limits, pregnancy and pet safety.', slug: SLUG, datePublished: DATE, image: shareImage('insect-repellent-teen-spraying-forearm-cdc') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Is DEET Safe?', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -152,6 +155,7 @@ export default function IsDeetSafePage() {
 
           <h2>What is DEET?</h2>
           <p>DEET is the active ingredient in most conventional insect repellents — a synthetic compound that keeps mosquitoes, ticks, and biting flies from landing on and biting you. It has been the benchmark repellent for more than 60 years, and both Health Canada and the U.S. Centers for Disease Control and Prevention (CDC) list it among the ingredients proven to work. Importantly, DEET does not kill insects. It confuses the sensors mosquitoes and ticks use to detect the carbon dioxide, heat, and skin compounds that reveal a nearby host, so they effectively cannot find you.</p>
+          <Photo id="insect-repellent-teen-spraying-forearm-cdc" alt="Person spraying insect repellent onto a bare forearm outdoors" caption="A teenager spraying insect repellent onto a bare forearm (CDC photograph, 2022). Repellent goes on exposed skin and the outside of clothing, never under clothes." />
           <p>In Canada, DEET is one of a small handful of repellent actives that Health Canada has reviewed and registered for use as directed on the label. The others include picaridin (icaridin) and oil of lemon eucalyptus. If you want a side-by-side of the two most popular options, our <Link href="/blog/picaridin-vs-deet">picaridin vs DEET comparison</Link> breaks down which one wins for different Canadian activities.</p>
 
           <NextUp path="/blog/is-deet-safe" />
@@ -163,6 +167,7 @@ export default function IsDeetSafePage() {
 
           <h2>Is DEET bad for you?</h2>
           <p>For nearly everyone, DEET is not bad for you when you follow the label. Decades of use by hundreds of millions of people, plus repeated safety reviews by Health Canada and the U.S. EPA, have not turned up evidence that ordinary repellent use causes lasting harm. The problems that do get reported are overwhelmingly linked to misuse: swallowing it, getting it in the eyes, applying heavy amounts under clothing, or using adult-strength product on babies. A small number of people experience skin irritation, which is a reason to patch-test and to choose a lower concentration.</p>
+          <Photo id="insect-repellent-reading-label-cdc" alt="Hands holding a spray bottle of insect repellent while reading its label" caption="Reading an insect repellent label before applying the product (CDC photograph, 2022). Follow the directions on the label of the product you buy." />
           <p>It is also worth weighing the other side of the ledger. In Ontario, the realistic day-to-day danger is the bite DEET prevents. Mosquitoes here can carry West Nile virus, and blacklegged ticks can transmit Lyme disease — both tracked by Public Health Ontario and the Public Health Agency of Canada (PHAC). Used sensibly, a proven repellent lowers a real risk.</p>
 
           <h2>Does DEET cause cancer?</h2>
@@ -170,6 +175,7 @@ export default function IsDeetSafePage() {
 
           <h2>Why is DEET banned?</h2>
           <p>DEET is <strong>not</strong> banned in Canada — this is one of the most persistent myths about it. It is fully registered for sale in Canada and sold across the country in pharmacies, hardware stores, grocery chains, and outdoor retailers. What can look like a &ldquo;ban&rdquo; is actually a concentration cap: Health Canada limits consumer DEET to 30% for adults and 10% for children aged 2 to 12, and it phased out the old ultra-high-concentration products (once sold at up to 95–100%) because they added exposure without adding meaningful protection. A handful of individual parks or specialty products elsewhere restrict DEET, but as a rule it remains legal and recommended throughout Canada and the United States.</p>
+          <Photo id="insect-repellent-adult-applying-child-cdc" alt="Adult kneeling on grass beside a playground and applying insect repellent to a child" caption="An adult applying insect repellent to a child beside a playground (CDC photograph, 2022). Health Canada limits DEET for children aged 2 to 12 to 10%, and an adult should apply it." />
 
           <h2>Is DEET safe for dogs and pets?</h2>
           <p>No — do not put DEET, or any human bug spray, on your dog, cat, or other pets. These products are formulated and labelled for human skin only. A pet will lick treated fur and swallow the repellent, which can cause drooling, vomiting, tremors, or more serious effects depending on the amount. If your animal needs protection from mosquitoes, fleas, or ticks, use a product designed for pets and cleared by your veterinarian. It is also good practice to let repellent dry on your own skin before letting a pet nuzzle you.</p>
@@ -210,6 +216,7 @@ export default function IsDeetSafePage() {
             <li>Wash treated skin with soap and water once you are back indoors, and wash treated clothing before wearing it again.</li>
             <li>For infants under 6 months, skip DEET entirely and use a mosquito net over the stroller or crib. Our guide to the <Link href="/blog/best-bug-spray-for-kids-canada">best bug spray for kids in Canada</Link> covers age-appropriate choices.</li>
           </ul>
+          <Photo id="insect-repellent-spray-hand-first-cdc" alt="Person spraying mosquito repellent into the palm of her hand" caption="Spraying repellent into the palm first, to pat it onto the face (CDC photograph, 2014). Do not spray it directly on the face, and keep it away from the eyes and mouth." />
 
           <p>Curious how DEET performs in an actual product? Our <Link href="/blog/off-deep-woods-deet-bug-spray-canada">OFF! Deep Woods DEET review for Canada</Link> looks at concentration, duration, and where it fits.</p>
 

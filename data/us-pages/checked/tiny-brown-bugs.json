@@ -2,7 +2,7 @@
  "id": "tiny-brown-bugs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "33ab6fe3785242805fc27dc2e50d8200d3ff23eb919b82366a472c21335bd960",
+ "sha": "b331a68193a0d00369e497ee4b623accce0dee757d6eeb94a66592032e696080",
  "claimsChecked": 240,
  "claimsCorrected": 5,
  "claimsRemovedOrSoftened": 4,
@@ -22,6 +22,11 @@
    "on": "2026-11-09",
    "note": "Nov 8, 2026 top-3 upgrade (commit b6754e3b: new sourced sections, tables, FAQs and photos) was independently fact-checked that day (41 corrections across the walkthrough pages, three passes), but this record was not updated then; recorded Nov 9. Nov 9: link to /blog/drugstore-beetles added under 'Drugstore and cigarette beetles' (no fact changed).",
    "previousSha": "a23fb966c9bb2b888f9bae660c09171e5716e8fa6e0e3b22bb0da57fbbdfccff"
+  },
+  {
+   "on": "2026-11-19",
+   "note": "Nov 19, 2026: added one original BuzzSkito diagram (/diagrams/tiny-brown-bugs-size-chart.svg, CC BY 4.0) after the first paragraph of an existing section; sizes from EPA/CDC/university extension sources listed in the diagram itself. No text changed.",
+   "previousSha": "33ab6fe3785242805fc27dc2e50d8200d3ff23eb919b82366a472c21335bd960"
   }
  ]
 }

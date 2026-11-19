@@ -14,6 +14,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'how-to-keep-spiders-out-of-your-house'
 const DATE = '2026-07-21'
@@ -79,6 +81,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('cellar-spider-bathroom-corner'),
 })
 
 const AMZ_TAG = tagForSlug('how-to-keep-spiders-out-of-your-house')
@@ -86,7 +89,7 @@ const AMZ_TAG = tagForSlug('how-to-keep-spiders-out-of-your-house')
 export default function HowToKeepSpidersOutPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Evidence-based guide to keeping spiders out of your house: fall mating-season myth-bust, entry-point sealing, sticky-trap monitoring, PMRA-registered perimeter sprays, and the honest science on peppermint oil.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Evidence-based guide to keeping spiders out of your house: fall mating-season myth-bust, entry-point sealing, sticky-trap monitoring, PMRA-registered perimeter sprays, and the honest science on peppermint oil.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('cellar-spider-bathroom-corner') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'How to Keep Spiders Out of Your House', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -213,11 +216,13 @@ export default function HowToKeepSpidersOutPage() {
           <h2>Why Do Spiders Come Inside in Late August? (It&rsquo;s Not the Cold)</h2>
           <p>Every year, right on schedule, the last week of August turns quiet houses into spider theatres — one crossing the living-room floor at 10 p.m., another in the bathtub by morning. The near-universal explanation is that spiders are &ldquo;coming in to escape the cold.&rdquo; It is a tidy story, and it is wrong.</p>
           <p>What actually happens is mating season. From late August through October, mature male house spiders reach adulthood, abandon their webs and hiding spots, and start wandering in search of females. A male on a mission covers a lot of floor, and floors are where you notice him. Crucially, most of these spiders did not just arrive from the garden — arachnologists who have studied indoor spider populations consistently find that the species you meet in fall are <em>house</em> spiders that have been living in your basement, wall voids, closets, and window frames all along. The population did not spike; its visibility did.</p>
+          <Photo id="cellar-spider-bathroom-corner" alt="Long-legged cellar spider in the corner of a bathroom where a white surface meets wood trim" caption="A Manuel's cellar spider (Pholcus manueli) in a corner of an upstairs bathroom, photographed in Virginia. Most spiders seen indoors in the fall have been living in the house all along." />
           <p>This reframing matters for two practical reasons. First, it tells you the fall surge is self-limiting — the wandering males mate and die, and by November the theatre closes on its own. Second, it tells you where to aim your effort: if the spiders are already resident, then squishing the ones you see is trimming leaves, while sealing entry points and cutting off their food supply is pulling roots. That is the plan this guide lays out.</p>
 
           <NextUp path="/blog/how-to-keep-spiders-out-of-your-house" />
           <h2>First, the Reassuring Part: House Spiders Are Effectively Harmless</h2>
           <p>Before spending a dollar on control, calibrate the threat, because it is smaller than nearly anyone believes. There are <strong>no medically significant spiders established in most of Canada</strong>. The cast you actually meet indoors — cellar spiders (the spindly &ldquo;daddy long-legs&rdquo; type), common house spiders, the occasional wolf spider that hitchhiked in, and charismatic little jumping spiders — either cannot pierce human skin at all or can manage, at absolute worst, something like a mild bee sting. Genuinely dangerous encounters are so rare that Canadian emergency medicine treats &ldquo;spider bite&rdquo; diagnoses with heavy skepticism; most turn out to be infected scratches or other insect bites.</p>
+          <Photo id="zebra-jumping-spider-house-wall" alt="Black-and-white striped zebra jumping spider on the white outside wall of a house" caption="A zebra jumping spider (Salticus scenicus) on the white outside wall of a house in Newfoundland. Little jumping spiders like this are among the spiders people meet indoors." />
           <p>Each of these is pictured in our photo guide to <Link href="/blog/house-spiders">the spiders you find indoors</Link>, with the clue that identifies it.</p>
           <p>Not sure which one you have? Our <Link href="/tools/spider-identifier">seven-question spider identifier</Link> asks where you found it, what its web looks like, its size, colour and markings, its eyes and legs, what it did and where you live, then shows the most likely spiders with a real photo of each, how to confirm it and how to tell the few dangerous ones from the rest.</p>
           <p>The two famous villains deserve a sentence each. Black widows exist in Canada only in small pockets of the southern edge of the country, are extremely shy, and live in undisturbed outdoor clutter — woodpiles, sheds, rarely a living room. Brown recluses are <em>not established in Canada at all</em>, decades of misattributed &ldquo;recluse bites&rdquo; notwithstanding. If you are reading this from the southern United States, both species are real where you live, but the same behavioural truth applies: they are reclusive by nature and are found in undisturbed storage and clutter, not patrolling your ceiling.</p>
@@ -294,6 +299,7 @@ export default function HowToKeepSpidersOutPage() {
             <li><strong>Utility penetrations.</strong> Where cable, gas, AC lines, and dryer vents pass through the wall, the hole is nearly always bigger than the pipe. Stuff larger gaps with copper mesh or backer rod, then seal with exterior caulk. Cover vent openings with fine insect mesh where the vent design allows it.</li>
             <li><strong>Foundation cracks and basement windows.</strong> Walk the foundation with a caulk gun on a dry day. Basement window wells are classic spider real estate — clear the leaf litter that accumulates in them and screen the wells if spiders are a recurring theme.</li>
           </ul>
+          <Photo id="hobo-spider-door-corner" alt="Brown funnel weaver spider at the bottom corner of a white door" caption="A hobo spider (Eratigena agrestis) at the bottom corner of a white door in Missoula County, Montana, with no web in sight, according to the observer. Spiders walk in through openings that already exist, and the gap under an exterior door is the biggest route in." />
           <p>One honest caveat: sealing keeps new spiders out; it does nothing about the residents already inside. That is what the next two steps are for — and it is why the glue traps matter, because they will tell you whether your interior sightings are fading as the resident population winds down.</p>
 
           <h2>Step 2: Vacuum, Don&rsquo;t Squish</h2>
@@ -303,6 +309,7 @@ export default function HowToKeepSpidersOutPage() {
             <li><strong>It avoids the wolf-spider surprise.</strong> Female wolf spiders carry their spiderlings on their abdomen. Crush one with young aboard and the survivors scatter — dozens of them, in every direction. The vacuum avoids the memory entirely.</li>
             <li><strong>It doubles as prevention.</strong> Regular vacuuming of the corners, baseboards, and undisturbed zones spiders prefer removes not just spiders but the web anchor points and the debris that shelters their prey.</li>
           </ul>
+          <Photo id="wolf-spider" alt="Wolf spider carrying its spiderlings on its abdomen" caption="A wolf spider (Tigrosa helluo) carrying its spiderlings on its abdomen. Female wolf spiders carry their young this way, so crushing one can scatter dozens of them." />
           <p>Photos of the egg sacs found in and around homes, sorted by shape, surface and place, are in our guide to <Link href="/blog/spider-egg-sacs">which spider made an egg sac</Link>.</p>
           <p>Empty the canister or bag into an outdoor bin. And if the spider is large, magnificent, and you would rather it lived — this is what the long-handled spider catcher in our picks is for. Catch it at arm&rsquo;s length, walk it outside, release. Children find the demonstration formative; the spider is indifferent but alive.</p>
           <div className="not-prose my-4">
@@ -332,6 +339,7 @@ export default function HowToKeepSpidersOutPage() {
 
           <h2>A Word in Defence of the House Centipede</h2>
           <p>While you are patrolling the basement, you may meet the house centipede — fast, fringed with improbable legs, and responsible for more shrieks per sighting than any spider. Here is the case for letting it be: the house centipede is one of the most effective predators your home can host. It actively hunts spiders, silverfish, carpet beetle larvae, cockroach nymphs, and fly larvae, it is essentially harmless to people, it builds no webs and damages nothing, and it will never multiply beyond what the food supply supports. In a guide about reducing spiders, it is literally on your side.</p>
+          <Photo id="house-centipede-basement-floor" alt="House centipede on the floor of a house basement" caption="A house centipede (Scutigera coleoptrata) on the floor of a house basement where the observer found it, in Virginia. It hunts spiders, silverfish and other small insects." />
           <p>Its real value is as a messenger. A house with many centipedes is a house with plenty of prey — and usually a moisture source keeping that prey happy. Fix the damp (a dehumidifier in the basement, a fixed leak, cleared window wells) and both the prey and the predators taper off on their own. That is the pattern worth internalizing, and it is the last piece of the plan &mdash; we take it apart in full in <Link href="/blog/how-to-get-rid-of-centipedes-canada">the house centipede guide</Link>.</p>
 
           <h2>The Root Cause: Spiders Follow Food</h2>
