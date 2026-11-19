@@ -137,7 +137,7 @@ export default function VaughanMosquitoPage() {
                   ['Booking lead time', 'Same-week service typical'],
                   ['Contract required', 'No — single treatments and seasonal programs both available'],
                   ['Guarantee', 'Rain-back on every plan; Bite-Free on Standard & Exclusive'],
-                  ['Google reviews', '150+ reviews · 5.0 average · 0 negative'],
+                  ['Reviews', '5.0 on Google · 150+ five-star reviews across platforms'],
                   ['Phone', BUSINESS.phone],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
@@ -370,7 +370,7 @@ export default function VaughanMosquitoPage() {
             ))}
           </div>
           <div className="text-center mt-6">
-            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read our reviews on Google &rarr;</a>
+            <a href="https://search.google.com/local/reviews?placeid=ChIJEWpIO48APoQRjK1rDkvG5x0" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read our reviews on Google &rarr;</a>
           </div>
         </div>
       </section>

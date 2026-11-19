@@ -179,7 +179,7 @@ export default function BramaleaMosquitoPage() {
             ))}
           </div>
           <div className="text-center mt-6">
-            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read our reviews on Google &rarr;</a>
+            <a href="https://search.google.com/local/reviews?placeid=ChIJEWpIO48APoQRjK1rDkvG5x0" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read our reviews on Google &rarr;</a>
           </div>
         </div>
       </section>

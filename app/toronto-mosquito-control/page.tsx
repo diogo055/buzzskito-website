@@ -7,7 +7,7 @@ import CityHero from '@/components/CityHero'
 import QuickAnswer from '@/components/QuickAnswer'
 import TypicalPrices from '@/components/TypicalPrices'
 import CityPriceCard from '@/components/CityPriceCard'
-import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, itemListSchema } from '@/lib/seo'
+import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema } from '@/lib/seo'
 import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
@@ -87,7 +87,7 @@ const FAQS = [
   },
   {
     question: 'How much does mosquito control cost in Toronto?',
-    answer: "BuzzSkito mosquito treatments in Toronto start from $99 per treatment on a standard lot under 10,000 sq ft, plus HST. Pricing depends on your property size and the depth of coverage your lot requires. Ravine-adjacent properties may need more frequent or thorough application than sheltered urban lots. Call (289) 216-5030 for a free quote, or see our 2026 Ontario pricing guide for a full breakdown.",
+    answer: "BuzzSkito mosquito treatments in Toronto start from $99 per treatment on a standard lot under 10,000 sq ft, plus HST. Pricing depends on your property size and the depth of coverage your lot requires. Ravine-adjacent properties may need more frequent or thorough application than sheltered urban lots. Call (289) 216-5030 for a free quote, or see our Ontario pricing guide for a full breakdown.",
   },
   {
     question: 'Are no-contract mosquito control plans available in Toronto?',
@@ -107,7 +107,6 @@ export default function TorontoMosquitoPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Mosquito Control', url: '/mosquito-control' }, { name: CITY, url: SLUG }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(SLUG, '2026-07-12')) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema({ name: 'Mosquito Control Companies Serving Toronto — Compared', description: 'Toronto mosquito control providers compared on pricing, Google reviews, contract terms, and neighbourhood coverage.', slug: SLUG, items: [{ name: 'BuzzSkito' }, { name: 'Mosquito Man' }, { name: 'Mosquito.Buzz' }, { name: 'LawnSavers' }] })) }} />
 
       <CityHero
         breadcrumbs={[
@@ -167,7 +166,7 @@ export default function TorontoMosquitoPage() {
                   ['Booking lead time', 'Same-week service typical'],
                   ['Contract required', 'No — single treatments and seasonal programs both available'],
                   ['Guarantee', 'Rain-back on every plan; Bite-Free on Standard & Exclusive'],
-                  ['Google reviews', '150+ reviews · 5.0 average · 0 negative'],
+                  ['Reviews', '5.0 on Google · 150+ five-star reviews across platforms'],
                   ['Phone', BUSINESS.phone],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
@@ -275,7 +274,7 @@ export default function TorontoMosquitoPage() {
               </tbody>
             </table>
           </div>
-          <p>Each treatment covers all vegetation on your property up to 10 feet high, with targeted coverage along ravine edges and fence lines. Visits repeat through the season because the residual wears down and new mosquitoes keep dispersing in from the ravines. See our <Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">2026 mosquito control pricing guide</Link> for typical costs in the GTA.</p>
+          <p>Each treatment covers all vegetation on your property up to 10 feet high, with targeted coverage along ravine edges and fence lines. Visits repeat through the season because the residual wears down and new mosquitoes keep dispersing in from the ravines. See our <Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">mosquito control pricing guide</Link> for typical costs in the GTA.</p>
 
           <h2>What's Included in Our Toronto Mosquito Treatment</h2>
           <ul>
@@ -314,7 +313,7 @@ export default function TorontoMosquitoPage() {
               </tbody>
             </table>
           </div>
-          <p>See our <Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">2026 mosquito control pricing guide</Link> for a full Ontario breakdown. Call <a href={BUSINESS.phoneHref} className="text-brand-700 font-semibold hover:underline">{BUSINESS.phone}</a> for a free quote.</p>
+          <p>See our <Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">mosquito control pricing guide</Link> for a full Ontario breakdown. Call <a href={BUSINESS.phoneHref} className="text-brand-700 font-semibold hover:underline">{BUSINESS.phone}</a> for a free quote.</p>
 
           <h3>Toronto Season-Long Mosquito Plans</h3>
           <p>Most Toronto homeowners choose a season-long plan for hands-off treatment from May&ndash;September. All plans are billed per season, cover the standard lot size, and scale with larger lots &mdash; prices below are +HST:</p>
@@ -449,7 +448,7 @@ export default function TorontoMosquitoPage() {
           </ol>
 
           <h2>Mosquito Spraying &amp; Tick Control in Toronto</h2>
-          <p>Searching for &quot;mosquito spraying Toronto,&quot; a &quot;mosquito exterminator,&quot; or &quot;tick control Toronto&quot;? That&apos;s exactly what BuzzSkito does &mdash; and it&apos;s all we do. Rather than a general exterminator that also handles ants, wasps, and rodents, we are a dedicated <strong>mosquito and tick specialist</strong>: every spray, every technician, and every product is optimized for the two pests that actually ruin Toronto backyards. Our licensed technician sprays the resting surfaces where adult mosquitoes shelter &mdash; leaf undersides, shrub interiors, fence lines, and ravine-edge vegetation &mdash; then treats the low, shaded transition zones where blacklegged ticks wait. Want to weigh your options first? We compare every provider serving the city — pricing, reviews, and contract terms — in the <a href="#toronto-provider-comparison" className="text-brand-700 hover:underline">Toronto provider comparison above</a>.</p>
+          <p>Mosquitoes and ticks are all BuzzSkito does. Rather than a general exterminator that also handles ants, wasps, and rodents, we are a dedicated <strong>mosquito and tick specialist</strong>: every spray, every technician, and every product is optimized for the two pests that actually ruin Toronto backyards. Our licensed technician sprays the resting surfaces where adult mosquitoes shelter &mdash; leaf undersides, shrub interiors, fence lines, and ravine-edge vegetation &mdash; then treats the low, shaded transition zones where blacklegged ticks wait. Want to weigh your options first? We compare every provider serving the city — pricing, reviews, and contract terms — in the <a href="#toronto-provider-comparison" className="text-brand-700 hover:underline">Toronto provider comparison above</a>.</p>
 
           <h2>Also Providing Tick Control in Toronto</h2>
           <p>Toronto's ravine system also harbours blacklegged ticks, which carry Lyme disease. Ask about our <Link href="/toronto-tick-spray" className="text-brand-700 hover:underline">Toronto tick control service</Link>.</p>
@@ -536,7 +535,7 @@ export default function TorontoMosquitoPage() {
       <section className="py-14 px-4 bg-white border-t border-gray-100">
         <div className="max-w-4xl mx-auto">
           <p className="kicker mb-3 text-center">Reviews</p>
-          <h2 className="h2-display text-brand-900 mb-2 text-center">What Toronto Homeowners Say</h2>
+          <h2 className="h2-display text-brand-900 mb-2 text-center">What GTA Homeowners Say</h2>
           <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star reviews</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
@@ -557,7 +556,7 @@ export default function TorontoMosquitoPage() {
             ))}
           </div>
           <div className="text-center mt-6">
-            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read our reviews on Google &rarr;</a>
+            <a href="https://search.google.com/local/reviews?placeid=ChIJEWpIO48APoQRjK1rDkvG5x0" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read our reviews on Google &rarr;</a>
           </div>
         </div>
       </section>

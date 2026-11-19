@@ -7,7 +7,7 @@ import CityHero from '@/components/CityHero'
 import QuickAnswer from '@/components/QuickAnswer'
 import TypicalPrices from '@/components/TypicalPrices'
 import CityPriceCard from '@/components/CityPriceCard'
-import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, itemListSchema } from '@/lib/seo'
+import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema } from '@/lib/seo'
 import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
@@ -92,7 +92,6 @@ export default function BramptonMosquitoPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Mosquito Control', url: '/mosquito-control' }, { name: CITY, url: SLUG }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/brampton-mosquito-control', '2026-07-01')) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema({ name: 'Mosquito Control Companies Serving Brampton — 2026', description: 'Mosquito control companies serving Brampton compared on price, reviews, contracts, and coverage — BuzzSkito, Mosquito Man, Mosquito.Buzz, LawnSavers.', slug: SLUG, items: [{ name: 'BuzzSkito' }, { name: 'Mosquito Man' }, { name: 'Mosquito.Buzz' }, { name: 'LawnSavers' }] })) }} />
 
       <CityHero
         breadcrumbs={[
@@ -152,7 +151,7 @@ export default function BramptonMosquitoPage() {
                   ['Booking lead time', 'Same-week service typical'],
                   ['Contract required', 'No — single treatments and seasonal programs both available'],
                   ['Guarantee', 'Rain-back guarantee on every plan · Bite-Free Guarantee on Standard & Exclusive plans'],
-                  ['Google reviews', '150+ reviews · 5.0 average · 0 negative'],
+                  ['Reviews', '5.0 on Google · 150+ five-star reviews across platforms'],
                   ['Phone', BUSINESS.phone],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
@@ -282,7 +281,7 @@ export default function BramptonMosquitoPage() {
             </table>
           </div>
           <p>Season plans are $549 (5 sprays), $994 (10 sprays) or $2,049 (20+ sprays). Prices are plus HST.</p>
-          <p>No contracts and no cancellation fees. Call <a href={BUSINESS.phoneHref} className="text-brand-700 font-semibold hover:underline">{BUSINESS.phone}</a> for a free quote. See our <Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">2026 mosquito control pricing guide</Link> for a full Ontario breakdown.</p>
+          <p>No contracts and no cancellation fees. Call <a href={BUSINESS.phoneHref} className="text-brand-700 font-semibold hover:underline">{BUSINESS.phone}</a> for a free quote. See our <Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">mosquito control pricing guide</Link> for a full Ontario breakdown.</p>
 
           <h2>Professional Mosquito Control vs. DIY in Brampton</h2>
           <p>Hardware stores sell foggers, citronella candles, and consumer sprays. Here&apos;s why they fall short for Brampton&apos;s specific mosquito problem:</p>
@@ -436,7 +435,7 @@ export default function BramptonMosquitoPage() {
       <section className="py-14 px-4 bg-white border-t border-gray-100">
         <div className="max-w-4xl mx-auto">
           <p className="kicker mb-3 text-center">Reviews</p>
-          <h2 className="h2-display text-brand-900 mb-2 text-center">What Brampton Homeowners Say</h2>
+          <h2 className="h2-display text-brand-900 mb-2 text-center">What GTA Homeowners Say</h2>
           <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star reviews</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
@@ -457,7 +456,7 @@ export default function BramptonMosquitoPage() {
             ))}
           </div>
           <div className="text-center mt-6">
-            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read our reviews on Google &rarr;</a>
+            <a href="https://search.google.com/local/reviews?placeid=ChIJEWpIO48APoQRjK1rDkvG5x0" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read our reviews on Google &rarr;</a>
           </div>
         </div>
       </section>
@@ -483,7 +482,7 @@ export default function BramptonMosquitoPage() {
             ))}
           </div>
           <p className="text-center mt-8 text-sm text-gray-500">
-            Comparing options? Our <a href="#compare" className="text-brand-700 underline hover:text-brand-500">2026 Brampton mosquito control comparison</a> puts pricing, reviews, and contracts side by side — or see the <Link href="/best-mosquito-control-companies-gta" className="text-brand-700 underline hover:text-brand-500">GTA-wide comparison</Link>.
+            Comparing options? Our <a href="#compare" className="text-brand-700 underline hover:text-brand-500">Brampton mosquito control comparison</a> puts pricing, reviews, and contracts side by side — or see the <Link href="/best-mosquito-control-companies-gta" className="text-brand-700 underline hover:text-brand-500">GTA-wide comparison</Link>.
           </p>
         </div>
       </section>

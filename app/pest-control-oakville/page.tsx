@@ -116,7 +116,7 @@ export default function PestControlOakvillePage() {
                   ['Contract required', 'No — single treatments and seasonal programs both available'],
                   ['Guarantee', `${PROMISES.rainBackShort} · ${PROMISES.biteFreeScope}`],
                   ['Licence', PROMISES.licence],
-                  ['Google reviews', '150+ reviews · 5.0 average · 0 negative'],
+                  ['Reviews', '5.0 on Google · 150+ five-star reviews across platforms'],
                   ['Pests we DO treat', 'Mosquitoes, blacklegged ticks, American dog ticks'],
                   ['Pests we DO NOT treat', 'Ants, rodents, bed bugs, cockroaches, wasps, spiders, wildlife'],
                   ['Phone', BUSINESS.phone],

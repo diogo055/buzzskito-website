@@ -178,7 +178,30 @@ export default function CityHero({
             </div>
           </div>
 
-          <div className="mt-5 flex flex-wrap items-center gap-x-4 gap-y-3 text-sm text-white/85 sm:mt-7">
+          {/* Phones, on pages whose H1 already carries the price and review count (titleAccent): the line under
+              the buttons shows the phone number and the guarantee, on one line that stays above the fixed bottom bar
+              at 390x844. Until Nov 19, 2026 it repeated the price and reviews, the guarantee wrapped under the bar,
+              and the number's digits first appeared 1.6 screens down; 21 of 30 rival city pages print the number up
+              top (reports/City landing page format.md). Larger screens and pages without titleAccent keep the row. */}
+          {titleAccent && (
+            <div data-lead-location="hero_trust" className="mt-5 flex flex-wrap items-center gap-x-3 gap-y-2 text-sm text-white/85 sm:hidden">
+              <a
+                href={BUSINESS.phoneHref}
+                className="inline-flex items-center gap-1.5 font-semibold text-white"
+                aria-label={`Call BuzzSkito at ${BUSINESS.phone}`}
+              >
+                <svg className="h-4 w-4 shrink-0 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z" />
+                </svg>
+                {BUSINESS.phone}
+              </a>
+              <span className="text-white/30" aria-hidden="true">·</span>
+              <span className="inline-flex items-center gap-1 font-semibold text-emerald-200">
+                <span aria-hidden="true">✓</span> Rain-back guarantee
+              </span>
+            </div>
+          )}
+          <div className={`mt-5 flex-wrap items-center gap-x-4 gap-y-3 text-sm text-white/85 sm:mt-7 ${titleAccent ? 'hidden sm:flex' : 'flex'}`}>
             <span className="inline-flex items-center gap-2">
               <span className="text-amber-400" aria-hidden="true">★★★★★</span>
               <span className="font-medium">150+ five-star reviews</span>

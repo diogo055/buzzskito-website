@@ -42,7 +42,7 @@ const FAQS = [
   },
   {
     question: 'How is BuzzSkito different from other GTA pest control companies?',
-    answer: 'Three differences: (1) We specialize only in mosquitoes and ticks — not a general pest catalogue. (2) We are Mississauga-based and owner-operated, not a franchise — Alex Francisco answers the phone and rides along on accounts. (3) We offer no-contract single treatments from $99 on a standard lot. Our reviews average 5.0 stars on Google — every customer rated us perfectly. Whoever you compare, ask the same five questions: Is the price shown before you book? (Ours: from $99 on a standard lot.) How many sprays per season? (5, 10 or 20+; tick: 5.) What happens if it rains after a treatment? (Rain within 1 hour and we come back and re-treat free, on every plan.) Is an Ontario pesticide operator licence number shown? (Yes: L-240-2436835197.) Which plans include a guarantee? (Rain-back on every plan; Bite-Free on Standard & Exclusive.)',
+    answer: 'Three differences: (1) We specialize only in mosquitoes and ticks — not a general pest catalogue. (2) We are Mississauga-based and owner-operated, not a franchise — Alex Francisco answers the phone and rides along on accounts. (3) We offer no-contract single treatments from $99 on a standard lot. Our reviews average 5.0 stars on Google, with zero negative reviews. Whoever you compare, ask the same five questions: Is the price shown before you book? (Ours: from $99 on a standard lot.) How many sprays per season? (5, 10 or 20+; tick: 5.) What happens if it rains after a treatment? (Rain within 1 hour and we come back and re-treat free, on every plan.) Is an Ontario pesticide operator licence number shown? (Yes: L-240-2436835197.) Which plans include a guarantee? (Rain-back on every plan; Bite-Free on Standard & Exclusive.)',
   },
   {
     question: 'Does BuzzSkito offer commercial pest control in the GTA?',
@@ -101,7 +101,7 @@ export default function PestControlGTAPage() {
                   ['Licence', PROMISES.licence],
                   ['Re-entry', 'Stay off treated areas until the spray has dried, as the product label directs'],
                   ['Visit schedule', 'Monthly (Basic), every 2 weeks (Standard) or weekly (Exclusive)'],
-                  ['Google reviews', '150+ reviews · 5.0 average · 0 negative reviews'],
+                  ['Reviews', '5.0 on Google · 150+ five-star reviews across platforms'],
                   ['Contract required', 'No — single treatments and seasonal both available'],
                   ['Guarantees', `${PROMISES.rainBackShort} · ${PROMISES.biteFreeScope}`],
                   ['Phone', BUSINESS.phone],

@@ -172,7 +172,7 @@ export default function OakvilleMosquitoPage() {
                   ['Contract required', 'No — single treatments and seasonal programs both available'],
                   ['Guarantee', 'Rain-back on every plan; Bite-Free on Standard & Exclusive'],
                   ['Licence', PROMISES.licence],
-                  ['Google reviews', '150+ reviews · 5.0 average · 0 negative'],
+                  ['Reviews', '5.0 on Google · 150+ five-star reviews across platforms'],
                   ['Phone', BUSINESS.phone],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
@@ -311,7 +311,7 @@ export default function OakvilleMosquitoPage() {
               </tbody>
             </table>
           </div>
-          <p>There are no contracts and no cancellation fees. Call <a href={BUSINESS.phoneHref} className="text-brand-700 font-semibold hover:underline">{BUSINESS.phone}</a> or use our <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">contact form</Link> for a free quote specific to your address. See our <Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">2026 mosquito control pricing guide</Link> for a full Ontario breakdown.</p>
+          <p>There are no contracts and no cancellation fees. Call <a href={BUSINESS.phoneHref} className="text-brand-700 font-semibold hover:underline">{BUSINESS.phone}</a> or use our <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">contact form</Link> for a free quote specific to your address. See our <Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">mosquito control pricing guide</Link> for a full Ontario breakdown.</p>
 
           {/* DIY vs Professional */}
           <h2>Professional Mosquito Control vs. DIY in Oakville</h2>
@@ -337,7 +337,7 @@ export default function OakvilleMosquitoPage() {
 
           {/* Provider comparison */}
           <h2 id="compare-oakville-companies">What to Ask Any Mosquito Control Company in Oakville</h2>
-          <p>Several providers serve Oakville. Ask each one the same five questions and compare the answers side by side. Here is how BuzzSkito answers them for the 2026 season.</p>
+          <p>Several providers serve Oakville. Ask each one the same five questions and compare the answers side by side. Here is how BuzzSkito answers them.</p>
           <div className="not-prose overflow-x-auto my-4">
             <table className="w-full text-sm border-collapse">
               <thead>
@@ -440,7 +440,7 @@ export default function OakvilleMosquitoPage() {
             <li><Link href="/blog/how-to-prevent-mosquitoes-in-your-backyard" className="text-brand-700 hover:underline">12 Ways to Prevent Mosquitoes in Your Backyard</Link></li>
             <li><Link href="/blog/hidden-mosquito-breeding-spots-backyard" className="text-brand-700 hover:underline">Hidden Mosquito Breeding Spots in Your GTA Backyard</Link></li>
             <li><Link href="/blog/is-mosquito-spray-safe-kids-pets" className="text-brand-700 hover:underline">Is Mosquito Spray Safe for Kids and Pets?</Link></li>
-            <li><Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">How Much Does Mosquito Control Cost in Ontario? (2026 Guide)</Link></li>
+            <li><Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">How Much Does Mosquito Control Cost in Ontario?</Link></li>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>
           </ul>
         </div>
@@ -450,7 +450,7 @@ export default function OakvilleMosquitoPage() {
       <section className="py-14 px-4 bg-white border-t border-gray-100">
         <div className="max-w-4xl mx-auto">
           <p className="kicker mb-3 text-center">Reviews</p>
-          <h2 className="h2-display text-brand-900 mb-2 text-center">What Oakville Homeowners Say</h2>
+          <h2 className="h2-display text-brand-900 mb-2 text-center">What GTA Homeowners Say</h2>
           <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star reviews</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {TESTIMONIALS.map(({ author, location, text }) => (
@@ -466,7 +466,7 @@ export default function OakvilleMosquitoPage() {
             ))}
           </div>
           <div className="text-center mt-6">
-            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read our reviews on Google &rarr;</a>
+            <a href="https://search.google.com/local/reviews?placeid=ChIJEWpIO48APoQRjK1rDkvG5x0" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read our reviews on Google &rarr;</a>
           </div>
         </div>
       </section>

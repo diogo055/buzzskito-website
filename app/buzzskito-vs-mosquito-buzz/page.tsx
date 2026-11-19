@@ -99,7 +99,7 @@ export default function BuzzSkitoVsMosquitoBuzzPage() {
             <li><strong>Pricing transparency.</strong> $99 single treatment, all packages published. No "schedule a free consultation to find out the price" gatekeeping.</li>
             <li><strong>Direct accountability.</strong> Alex Francisco answers the phone. No "I&rsquo;ll have your franchisee call you back" runarounds.</li>
             <li><strong>No contracts.</strong> Test with one treatment, decide whether to continue.</li>
-            <li><strong>Perfect review record.</strong> 150+ reviews, all five stars, single team — no franchise variance.</li>
+            <li><strong>5.0 on Google.</strong> 150+ five-star reviews across platforms, one team — no franchise variance.</li>
             <li><strong>Bundled tick savings.</strong> $100 off when adding tick to a mosquito plan.</li>
           </ul>
 

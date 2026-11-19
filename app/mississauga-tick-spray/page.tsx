@@ -100,7 +100,7 @@ export default function MississaugaTickPage() {
                   ['Booking lead time', 'Same-week service typical'],
                   ['Contract required', 'No — single treatments and seasonal programs both available'],
                   ['Guarantee', PROMISES.rainBack],
-                  ['Google reviews', '150+ reviews · 5.0 average · 0 negative'],
+                  ['Reviews', '5.0 on Google · 150+ five-star reviews across platforms'],
                   ['Phone', '(289) 216-5030'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
@@ -197,7 +197,7 @@ export default function MississaugaTickPage() {
               </tbody>
             </table>
           </div>
-          <p>Not sure how your street compares? Our <Link href="/blog/tick-hot-spots-mississauga-2026" className="text-brand-700 hover:underline font-semibold">Mississauga tick hot spots 2026 guide</Link> maps the city&rsquo;s highest-exposure pockets in detail.</p>
+          <p>Not sure how your street compares? Our <Link href="/blog/tick-hot-spots-mississauga-2026" className="text-brand-700 hover:underline font-semibold">Mississauga tick hot spots guide</Link> maps the city&rsquo;s highest-exposure pockets in detail.</p>
 
           <h2>Seasonal Tick Program Pricing in Mississauga</h2>
           <p>Beyond single visits (from <strong>$99</strong>), most ravine- and conservation-adjacent Mississauga homes choose a full-season tick program that covers tick season from start to finish:</p>
@@ -335,7 +335,7 @@ export default function MississaugaTickPage() {
       <section className="py-14 px-4 bg-white border-t border-gray-100">
         <div className="max-w-4xl mx-auto">
           <p className="kicker mb-3 text-center">Customer Reviews</p>
-          <h2 className="h2-display text-brand-950 mb-2 text-center">What Mississauga Homeowners Say About Our Tick Control</h2>
+          <h2 className="h2-display text-brand-950 mb-2 text-center">What GTA Homeowners Say About Our Tick Control</h2>
           <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star reviews</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
@@ -356,7 +356,7 @@ export default function MississaugaTickPage() {
             ))}
           </div>
           <div className="text-center mt-6">
-            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read our reviews on Google &rarr;</a>
+            <a href="https://search.google.com/local/reviews?placeid=ChIJEWpIO48APoQRjK1rDkvG5x0" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read our reviews on Google &rarr;</a>
           </div>
         </div>
       </section>

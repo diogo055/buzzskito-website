@@ -13,7 +13,7 @@ export default function GoogleReviews({ light = false }: { light?: boolean }) {
 
   return (
     <a
-      href={BUSINESS.googleReviewUrl}
+      href={BUSINESS.googleReviewsReadUrl}
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Read BuzzSkito's reviews on Google"

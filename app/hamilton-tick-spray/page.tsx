@@ -125,7 +125,7 @@ export default function HamiltonTickSprayPage() {
                   ['Booking lead time', 'Same-week service typical'],
                   ['Contract required', 'No — single treatments and seasonal programs both available'],
                   ['Guarantee', PROMISES.rainBack],
-                  ['Google reviews', '150+ reviews · 5.0 average · 0 negative'],
+                  ['Reviews', '5.0 on Google · 150+ five-star reviews across platforms'],
                   ['Phone', '(289) 216-5030'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
@@ -209,7 +209,7 @@ export default function HamiltonTickSprayPage() {
       <section className="py-14 px-4 bg-white border-t border-gray-100">
         <div className="max-w-4xl mx-auto">
           <p className="kicker mb-3 text-center">Customer Reviews</p>
-          <h2 className="h2-display text-brand-950 mb-2 text-center">What Hamilton Homeowners Say About Our Tick Control</h2>
+          <h2 className="h2-display text-brand-950 mb-2 text-center">What GTA Homeowners Say About Our Tick Control</h2>
           <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star reviews</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[

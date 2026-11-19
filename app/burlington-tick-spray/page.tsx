@@ -99,7 +99,7 @@ export default function BurlingtonTickPage() {
                   ['Booking lead time', 'Same-week service typical'],
                   ['Contract required', 'No — single treatments and seasonal programs both available'],
                   ['Guarantee', 'Rain-back guarantee on every plan'],
-                  ['Google reviews', '150+ reviews · 5.0 average · 0 negative'],
+                  ['Reviews', '5.0 on Google · 150+ five-star reviews across platforms'],
                   ['Phone', '(289) 216-5030'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
@@ -166,7 +166,7 @@ export default function BurlingtonTickPage() {
             <li><strong>Palmer &amp; Brant Hills</strong> — near Spencer Creek valley and wooded ravines</li>
             <li><strong>Any property backing onto greenbelt, trails, or conservation land</strong></li>
           </ul>
-          <p>Aldershot and escarpment-edge Mountainside sit at the very top of that list once you account for the Royal Botanical Gardens and Mt. Nemo corridors. See <Link href="/blog/tick-hot-spots-oakville-burlington-2026" className="text-brand-700 hover:underline">which Burlington and Oakville neighbourhoods rank highest for ticks in 2026</Link>.</p>
+          <p>Aldershot and escarpment-edge Mountainside sit at the very top of that list once you account for the Royal Botanical Gardens and Mt. Nemo corridors. See <Link href="/blog/tick-hot-spots-oakville-burlington-2026" className="text-brand-700 hover:underline">which Burlington and Oakville neighbourhoods rank highest for ticks</Link>.</p>
 
           <h2>Tick Treatment Schedule for Burlington</h2>
           <p>The seasonal program is five treatments, spaced roughly monthly from May through September. Monthly spacing keeps the treated zones renewed, with no long gap between visits.</p>
@@ -254,7 +254,7 @@ export default function BurlingtonTickPage() {
       <section className="py-14 px-4 bg-white border-t border-gray-100">
         <div className="max-w-4xl mx-auto">
           <p className="kicker mb-3 text-center">Customer Reviews</p>
-          <h2 className="h2-display text-brand-950 mb-2 text-center">What Burlington Homeowners Say About Our Tick Control</h2>
+          <h2 className="h2-display text-brand-950 mb-2 text-center">What GTA Homeowners Say About Our Tick Control</h2>
           <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star reviews</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[

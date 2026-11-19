@@ -58,10 +58,10 @@ export default function ReviewQuotes({
               Rated 5.0 on Google.<br className="hidden sm:block" /> Zero negative reviews.
             </p>
             <p className="mt-3 text-sm text-[#8fa0bd] leading-relaxed max-w-sm mx-auto lg:mx-0">
-              Not averaged across a franchise. Not padded with lawn-care jobs. 150+ GTA homeowners, all mosquito &amp; tick work, rated 5.0 on Google.
+              Not averaged across a franchise. Not padded with lawn-care jobs. All mosquito &amp; tick work for GTA homeowners: 5.0 on Google, 150+ five-star reviews across platforms.
             </p>
             <a
-              href={BUSINESS.googleReviewUrl}
+              href={BUSINESS.googleReviewsReadUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="arrow-nudge mt-5 inline-flex items-center gap-2 text-white/80 font-bold hover:text-white text-sm"

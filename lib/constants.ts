@@ -32,6 +32,9 @@ export const BUSINESS = {
     // the business can show: the licence and label-directed application.
     'BuzzSkito provides professional mosquito and tick barrier spray services for residential lawns and properties across Mississauga, Brampton, Oakville, Burlington, Toronto, Vaughan, Richmond Hill, Markham, and the GTA. Applied by an Ontario-licensed pesticide operator (Licence L-240-2436835197) according to product label directions.',
   googleReviewUrl: 'https://g.page/r/CYytaw5LxucdEAE/review',
+  // READ the reviews (Nov 19, 2026). googleReviewUrl above opens Google's write-a-review flow, which sends a
+  // logged-out visitor to a Google sign-in page; every "Read our reviews" link uses this one instead.
+  googleReviewsReadUrl: 'https://search.google.com/local/reviews?placeid=ChIJEWpIO48APoQRjK1rDkvG5x0',
   facebookUrl: 'https://www.facebook.com/458721543988714',
   gaId: 'G-X7RV1EQWD8',
   fbPixelId: '1084801329974159',

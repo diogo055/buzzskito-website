@@ -7,7 +7,7 @@ import CityHero from '@/components/CityHero'
 import TypicalPrices from '@/components/TypicalPrices'
 import CityPriceCard from '@/components/CityPriceCard'
 import QuickAnswer from '@/components/QuickAnswer'
-import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, itemListSchema } from '@/lib/seo'
+import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema } from '@/lib/seo'
 import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
@@ -97,7 +97,6 @@ export default function MississaugaMosquitoControlPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Mosquito Control ${CITY}`, description: `Professional mosquito barrier spray for residential properties in ${CITY}, Ontario.`, slug: SLUG, city: CITY })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Mosquito Control', url: '/mosquito-control' }, { name: `${CITY}`, url: SLUG }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema({ name: 'Mosquito Control Companies Serving Mississauga — 2026', description: 'Mississauga mosquito control companies compared on starting price, Google reviews, contract terms, and city coverage.', slug: SLUG, items: [{ name: 'BuzzSkito' }, { name: 'Mosquito Man' }, { name: 'Mosquito.Buzz' }, { name: 'LawnSavers' }] })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/mississauga-mosquito-control', '2026-07-01')) }} />
 
       {/* Hero */}
@@ -160,7 +159,7 @@ export default function MississaugaMosquitoControlPage() {
                   ['Booking lead time', 'Same-week service typical'],
                   ['Contract required', 'No — single treatments and seasonal programs both available'],
                   ['Guarantee', `${PROMISES.rainBackShort} · ${PROMISES.biteFreeScope}`],
-                  ['Google reviews', '150+ reviews · 5.0 average · 0 negative'],
+                  ['Reviews', '5.0 on Google · 150+ five-star reviews across platforms'],
                   ['Phone', BUSINESS.phone],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
@@ -233,7 +232,7 @@ export default function MississaugaMosquitoControlPage() {
           <p>Clarkson properties near Rattray Marsh face the highest mosquito pressure in the city. The marsh's shallow water, dense cattails, and protected status (it cannot be treated by municipal larvicide programs) make it a reliable annual source of mosquitoes for adjacent streets.</p>
 
           <h2>Mississauga Mosquito Risk by Postal Code Area (FSA)</h2>
-          <p>Mosquito pressure in Mississauga is not uniform — it tracks closely with proximity to the Credit River, Lake Ontario shoreline, Rattray Marsh, and Meadowvale Conservation Area. Here is our 2026 risk classification by Mississauga Forward Sortation Area:</p>
+          <p>Mosquito pressure in Mississauga is not uniform — it tracks closely with proximity to the Credit River, Lake Ontario shoreline, Rattray Marsh, and Meadowvale Conservation Area. Here is our risk classification by Mississauga Forward Sortation Area:</p>
           <div className="not-prose overflow-x-auto my-4">
             <table className="w-full text-sm border-collapse">
               <thead>
@@ -416,7 +415,7 @@ export default function MississaugaMosquitoControlPage() {
               </tbody>
             </table>
           </div>
-          <p>There are no contracts and no cancellation fees. Call <a href={BUSINESS.phoneHref} className="text-brand-700 font-semibold hover:underline">{BUSINESS.phone}</a> or use our <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">contact form</Link> for a free quote specific to your address. See our <Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">2026 mosquito control pricing guide</Link> for a full GTA breakdown.</p>
+          <p>There are no contracts and no cancellation fees. Call <a href={BUSINESS.phoneHref} className="text-brand-700 font-semibold hover:underline">{BUSINESS.phone}</a> or use our <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">contact form</Link> for a free quote specific to your address. See our <Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">mosquito control pricing guide</Link> for a full GTA breakdown.</p>
 
           <h2>Professional Mosquito Control vs. DIY in Mississauga</h2>
           <p>Home improvement stores sell mosquito foggers, citronella torches, and consumer-grade sprays. Here's why they don't work as well as professional barrier spray — and why Mississauga's specific geography matters:</p>
@@ -494,7 +493,7 @@ export default function MississaugaMosquitoControlPage() {
           <p>Yes. Peel Region Public Health monitors mosquito populations and confirms <em>Culex pipiens</em> and <em>Culex restuans</em> — the primary West Nile vectors in Ontario — across Mississauga every season. West Nile risk peaks late July through early September. Most infections are asymptomatic, but neuroinvasive cases are serious. Reducing exposure during dawn and dusk is the most effective personal-level prevention.</p>
 
           <h3>How is BuzzSkito different from other Mississauga mosquito companies?</h3>
-          <p>Three differences: (1) we specialize <em>only</em> in mosquitoes and ticks — not a general pest catalogue; (2) Mississauga-based and owner-operated, not a franchise — Alex answers the phone and trains the technicians; (3) no contracts and no cancellation fees. Our <strong>150+ reviews are all 5 stars</strong> — every customer rated us perfectly. Call (289) 216-5030 for a quote.</p>
+          <p>Three differences: (1) we specialize <em>only</em> in mosquitoes and ticks — not a general pest catalogue; (2) Mississauga-based and owner-operated, not a franchise — Alex answers the phone and trains the technicians; (3) no contracts and no cancellation fees. We hold a <strong>5.0 rating on Google</strong>, with 150+ five-star reviews across platforms. Call (289) 216-5030 for a quote.</p>
 
           <h3>Can BuzzSkito treat my Mississauga backyard before a wedding or party?</h3>
           <p>Yes. Pre-event treatment is a common booking. We recommend the spray <strong>2–4 days before</strong> your event, so it has dried well before guests arrive and there is room to re-book if the forecast turns wet. For backyard weddings, graduations, or large gatherings in Lorne Park, Mineola, or Erin Mills, tell us the event date when you book.</p>
@@ -541,7 +540,7 @@ export default function MississaugaMosquitoControlPage() {
             ))}
           </div>
           <div className="text-center mt-6">
-            <a href="https://g.page/r/CYytaw5LxucdEAE/review" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read our reviews on Google &rarr;</a>
+            <a href="https://search.google.com/local/reviews?placeid=ChIJEWpIO48APoQRjK1rDkvG5x0" target="_blank" rel="noopener noreferrer" className="text-brand-700 font-semibold text-sm hover:underline">Read our reviews on Google &rarr;</a>
           </div>
         </div>
       </section>
